@@ -23,6 +23,7 @@
 
 <nav id="nav-drawer" class="nav-drawer" aria-label="Workspace sections" hidden>
   <ul class="nav-list">
+    <li><button class="nav-link" data-section="resume">Resume</button></li>
     <li><button class="nav-link" data-section="overview">Case Overview</button></li>
     <li><button class="nav-link" data-section="evidence">Evidence Register</button></li>
     <li><button class="nav-link" data-section="chronology">Chronology</button></li>
@@ -37,7 +38,13 @@
 
 <main id="main-content">
 
-  <section id="section-overview" class="workspace-section" data-title="Case Overview">
+  <section id="section-resume" class="workspace-section" data-title="Resume">
+    <h1 class="section-title">Resume</h1>
+    <p class="section-intro">Everything below reflects exactly where this investigation stopped. No reconstruction needed - continue collecting evidence.</p>
+    <div id="resume-content" class="stack"></div>
+  </section>
+
+  <section id="section-overview" class="workspace-section" data-title="Case Overview" hidden>
     <h1 class="section-title">Case Overview</h1>
     <div id="overview-content" class="stack"></div>
   </section>

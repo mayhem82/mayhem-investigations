@@ -186,6 +186,53 @@ body {
   margin-bottom: 0.75rem;
 }
 
+.section-intro {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: -0.5rem 0 1rem 0;
+}
+
+.resume-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.resume-line {
+  font-size: 0.92rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.resume-line:last-of-type {
+  border-bottom: none;
+}
+
+.resume-empty {
+  color: var(--text-muted);
+  font-style: italic;
+  border-bottom: none;
+}
+
+.jump-link {
+  align-self: flex-start;
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  cursor: pointer;
+  margin-top: 0.25rem;
+}
+
+.jump-link:focus-visible {
+  outline: 2px solid var(--focus);
+}
+
 .filter-input {
   width: 100%;
   padding: 0.6rem 0.75rem;

@@ -24,12 +24,21 @@ data/                   Append-only investigation data (source of truth)
   contradictions.json       Contradiction Register (spec section 11)
   open_questions.json       Open Question Register (spec section 12)
   threads.json               Investigation Threads (spec section 13)
+  automation_log.json        Automation Log (spec sections 6-7)
+  search_log.json            Search Log (spec section 27)
+  decisions.json             Decision Register (spec section 29)
+  change_log.json            Change Log (spec section 30)
 docs/
   specs/                 The governing specification (do not edit)
   DATA_MODEL.md          Concrete field schema, enums, and validation rules
+preserved/               Locally preserved copies of source material
 scripts/
   validate.js            Structural validation (spec section 16)
-site/                    Mobile-first Visual Workspace (spec sections 14-15)
+  add-source.js          Add/re-check a source with stable identity (section 21.5)
+  hash-file.js            Compute a document hash for preserved evidence (section 21.6)
+  log-run.js               Append an Automation Log entry (sections 6-7)
+  resume.js                 Print a resumption briefing (section 19)
+site/                    Mobile-first Visual Workspace (spec sections 14-15, 19)
 ```
 
 ## Validating the data
@@ -60,6 +69,25 @@ python -m http.server 8123
 
 then open `http://localhost:8123/site/` in a browser. It is designed
 mobile-first: stacked layouts, no horizontal scrolling, expandable records.
+The workspace opens on a **Resume** view (spec section 19) summarizing the
+latest state of every register, with one-tap links into the full registers.
+
+## Collection tooling
+
+```
+node scripts/add-source.js --authority "..." --title "..." --type "..." --url "..."
+node scripts/hash-file.js preserved/EV-0001-example.pdf
+node scripts/log-run.js --sources SRC-0001 --result "No relevant change detected."
+node scripts/resume.js
+```
+
+`add-source.js` gives sources stable identity: re-running it with a URL
+that's already registered updates that source's check-state fields in
+place rather than creating a duplicate (spec section 21 item 5). Evidence
+items themselves are still added by hand-editing
+`data/evidence_register.json` and re-running `validate.js` - there is no
+autogeneration of evidence, consistent with the Human Authority principle
+(section 4).
 
 ## Current implementation status
 
@@ -71,10 +99,21 @@ adapted to a from-scratch build with nothing to migrate):
   Investigation Thread registers (sections 8-13), seeded with the twelve
   initial threads and otherwise empty pending evidence collection
 - Structural validation rules (section 16)
-- Mobile-first Visual Workspace covering Case Overview, Evidence Register,
-  Chronology, Source Register, Contradiction Register, Open Questions, and
-  Investigation Threads (sections 14-15)
+- Mobile-first Visual Workspace covering Resume, Case Overview, Evidence
+  Register, Chronology, Source Register, Contradiction Register, Open
+  Questions, and Investigation Threads (sections 14-15, 19)
+- Stable source identity (`add-source.js`) and document hashing
+  (`hash-file.js`) (section 21 items 5-6)
+- Automation Log, Search Log, Decision Register, and Change Log
+  (sections 6-7, 27, 29, 30), completing the repository structure listed
+  in section 18
+- Resumption Protocol, both as a CLI briefing (`resume.js`) and as the
+  workspace's default view (section 19)
 
-Not yet implemented: document hashing tooling, automation/search logs,
-decision register, change log, relationship map, and the remaining
-sections of the specification (25-36 outside what's listed above).
+Not yet implemented: a Relationship Map view, and the largely narrative /
+governance sections of the specification (17 security posture, 20 future
+investigations, 28 spec version control, 31 glossary, 33-36 recovery,
+scalability, constraints, and canonical-completeness statements) - these
+describe principles the current structure already satisfies (append-only
+data, validation, no reconstruction-from-memory) rather than additional
+data structures to build.

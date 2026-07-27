@@ -129,6 +129,10 @@ const chronology = readJson('chronology.json') || [];
 const contradictions = readJson('contradictions.json') || [];
 const openQuestions = readJson('open_questions.json') || [];
 const threads = readJson('threads.json') || [];
+const automationLog = readJson('automation_log.json') || [];
+const searchLog = readJson('search_log.json') || [];
+const decisions = readJson('decisions.json') || [];
+const changeLog = readJson('change_log.json') || [];
 
 // ---------------------------------------------------------------------
 // Case Definition (section 24)
@@ -229,6 +233,10 @@ const SOURCE_REQUIRED_FIELDS = [
 ];
 
 checkUnique(sources, 'source_id', 'source_register.json');
+
+const sourceIds = new Set(
+  sources.filter((s) => isNonEmptyString(s.source_id)).map((s) => s.source_id)
+);
 
 for (const s of sources) {
   const label = `source_register.json[${s.source_id || '?'}]`;
@@ -380,6 +388,89 @@ for (const t of threads) {
 }
 
 // ---------------------------------------------------------------------
+// Automation Log (sections 6-7)
+// ---------------------------------------------------------------------
+
+const AUTOMATION_RESULTS = new Set([
+  'No relevant change detected.', 'New evidence added.', 'New source added.',
+]);
+
+const RUN_REQUIRED_FIELDS = ['run_id', 'date', 'sources_checked', 'result', 'evidence_added'];
+
+checkUnique(automationLog, 'run_id', 'automation_log.json');
+
+for (const r of automationLog) {
+  const label = `automation_log.json[${r.run_id || '?'}]`;
+  requireFields(r, RUN_REQUIRED_FIELDS, label);
+  if ('result' in r && !AUTOMATION_RESULTS.has(r.result)) {
+    fail(`${label}: invalid result "${r.result}"`);
+  }
+  checkReferences(r.sources_checked, sourceIds, label, 'sources_checked');
+  checkReferences(r.evidence_added, evidenceIds, label, 'evidence_added');
+}
+
+// ---------------------------------------------------------------------
+// Search Log (section 27)
+// ---------------------------------------------------------------------
+
+const SEARCH_REQUIRED_FIELDS = [
+  'search_id', 'search_terms', 'search_engine', 'date', 'jurisdiction',
+  'results_reviewed', 'results_preserved',
+];
+
+checkUnique(searchLog, 'search_id', 'search_log.json');
+
+for (const s of searchLog) {
+  const label = `search_log.json[${s.search_id || '?'}]`;
+  requireFields(s, SEARCH_REQUIRED_FIELDS, label);
+  if ('results_reviewed' in s && typeof s.results_reviewed !== 'number') {
+    fail(`${label}: results_reviewed must be a number`);
+  }
+  if ('results_preserved' in s && typeof s.results_preserved !== 'number') {
+    fail(`${label}: results_preserved must be a number`);
+  }
+}
+
+// ---------------------------------------------------------------------
+// Decision Register (section 29)
+// ---------------------------------------------------------------------
+
+const DECISION_REQUIRED_FIELDS = [
+  'decision_id', 'date', 'reason', 'supporting_evidence', 'investigator', 'impact',
+];
+
+checkUnique(decisions, 'decision_id', 'decisions.json');
+
+for (const d of decisions) {
+  const label = `decisions.json[${d.decision_id || '?'}]`;
+  requireFields(d, DECISION_REQUIRED_FIELDS, label);
+  if ('supporting_evidence' in d) {
+    checkReferences(d.supporting_evidence, evidenceIds, label, 'supporting_evidence');
+  }
+}
+
+// ---------------------------------------------------------------------
+// Change Log (section 30)
+// ---------------------------------------------------------------------
+
+const CHANGE_REQUIRED_FIELDS = [
+  'change_id', 'date', 'author', 'files_affected', 'reason', 'validation_completed',
+];
+
+checkUnique(changeLog, 'change_id', 'change_log.json');
+
+for (const c of changeLog) {
+  const label = `change_log.json[${c.change_id || '?'}]`;
+  requireFields(c, CHANGE_REQUIRED_FIELDS, label);
+  if ('files_affected' in c && !isArray(c.files_affected)) {
+    fail(`${label}: files_affected must be an array`);
+  }
+  if ('validation_completed' in c && typeof c.validation_completed !== 'boolean') {
+    fail(`${label}: validation_completed must be a boolean`);
+  }
+}
+
+// ---------------------------------------------------------------------
 // Report
 // ---------------------------------------------------------------------
 
@@ -392,6 +483,10 @@ console.log(`Chronology entries: ${chronology.length}`);
 console.log(`Contradictions:     ${contradictions.length}`);
 console.log(`Open questions:     ${openQuestions.length}`);
 console.log(`Threads:            ${threads.length}`);
+console.log(`Automation runs:    ${automationLog.length}`);
+console.log(`Searches logged:    ${searchLog.length}`);
+console.log(`Decisions:          ${decisions.length}`);
+console.log(`Change log entries: ${changeLog.length}`);
 console.log('');
 
 if (warnings.length) {

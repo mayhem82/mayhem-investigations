@@ -1,0 +1,26 @@
+[
+  {
+    "decision_id": "DEC-0001",
+    "date": "2026-07-28",
+    "reason": "Repository built from scratch per MAYHEM-SPEC-DFAPTI-WATER-001-v2.0. Chose a static JSON data store, a dependency-free Node validation script, and a static HTML/CSS/JS workspace rather than a database or application framework, per spec section 32 (implementation independence) and section 4 (append-only, human-authority principles).",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Repository structure fixed as data/ (JSON registers), scripts/ (validation and tooling), site/ (workspace), docs/ (schema and specification). Future work must fit this structure or record a new decision explaining the change."
+  },
+  {
+    "decision_id": "DEC-0002",
+    "date": "2026-07-28",
+    "reason": "Case Definition fields jurisdiction and geographic_scope were set at a general level (\"New South Wales, Australia\" / \"Macleay Valley, NSW\") rather than naming a specific local government authority, because no evidence has yet been collected to confirm which authority currently holds responsibility for the Willawarrin/Bellbrook supply.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Case Definition fields will not be edited directly once evidence narrows this down, since section 24 identifiers are immutable for the life of the investigation. Any specific authority identified by evidence is recorded as a Chronology or Evidence entry instead."
+  },
+  {
+    "decision_id": "DEC-0003",
+    "date": "2026-07-28",
+    "reason": "Git commit identity for this repository was set locally (not globally) to mayhem82 / minkorecovery@gmail.com at the operator's explicit instruction.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Commit authorship in this repository is attributed to mayhem82. No effect on any other repository on this machine."
+  }
+]

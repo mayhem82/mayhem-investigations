@@ -9,6 +9,7 @@
     contradictions: '../data/contradictions.json',
     questions: '../data/open_questions.json',
     threads: '../data/threads.json',
+    automationLog: '../data/automation_log.json',
   };
 
   function el(tag, attrs, children) {
@@ -86,6 +87,96 @@
   // ---------------------------------------------------------------
   // Renderers
   // ---------------------------------------------------------------
+
+  function lastN(arr, n) {
+    return arr.slice(Math.max(0, arr.length - n));
+  }
+
+  function jumpLink(label, sectionName) {
+    var btn = el('button', { class: 'jump-link' }, [label]);
+    btn.addEventListener('click', function () { showSection(sectionName); });
+    return btn;
+  }
+
+  function resumeCard(title, countLabel, items, emptyText, sectionName, jumpLabel) {
+    var body = [];
+    if (items.length) {
+      items.forEach(function (line) { body.push(el('div', { class: 'resume-line' }, [line])); });
+    } else {
+      body.push(el('div', { class: 'resume-line resume-empty' }, [emptyText]));
+    }
+    body.push(jumpLink(jumpLabel, sectionName));
+    return el('div', { class: 'card stack' }, [
+      el('div', { class: 'resume-card-header' }, [
+        el('span', { class: 'record-title' }, [title]),
+        el('span', { class: 'record-sub' }, [countLabel]),
+      ]),
+    ].concat(body));
+  }
+
+  function renderResume(caseDef, evidence, chronology, contradictions, questions, threads, automationLog) {
+    var target = document.getElementById('resume-content');
+    target.innerHTML = '';
+    if (!caseDef) {
+      target.appendChild(emptyState('Case definition could not be loaded.'));
+      return;
+    }
+
+    var header = el('div', { class: 'card stack' }, [
+      kv('Case', el('span', {}, [idTag(caseDef.case_identifier), ' — ', caseDef.case_title])),
+      kv('Status', badge(caseDef.current_status)),
+    ]);
+    target.appendChild(header);
+
+    target.appendChild(resumeCard(
+      'Evidence Register',
+      evidence.length + ' item(s)',
+      lastN(evidence, 5).map(function (e) { return e.evidence_id + ' — ' + e.source_title + ' (' + e.verification_state + ')'; }),
+      'No evidence collected yet.',
+      'evidence', 'Open Evidence Register'
+    ));
+
+    target.appendChild(resumeCard(
+      'Chronology',
+      chronology.length + ' entr' + (chronology.length === 1 ? 'y' : 'ies'),
+      lastN(chronology, 5).map(function (c) { return c.event_date + ' — ' + c.event_description + ' [' + c.status + ']'; }),
+      'Chronology is empty.',
+      'chronology', 'Open Chronology'
+    ));
+
+    var openContradictions = contradictions.filter(function (c) { return c.status === 'Open' || c.status === 'Partially Resolved'; });
+    target.appendChild(resumeCard(
+      'Contradictions',
+      openContradictions.length + ' open/partial of ' + contradictions.length,
+      openContradictions.map(function (c) { return c.contradiction_id + ' — ' + c.description; }),
+      'No open contradictions.',
+      'contradictions', 'Open Contradiction Register'
+    ));
+
+    var unresolvedQuestions = questions.filter(function (q) { return q.status === 'Open'; });
+    target.appendChild(resumeCard(
+      'Open Questions',
+      unresolvedQuestions.length + ' unresolved of ' + questions.length,
+      unresolvedQuestions.map(function (q) { return q.question_id + ' — ' + q.question; }),
+      'No unresolved questions.',
+      'questions', 'Open Question Register'
+    ));
+
+    var activeThreads = threads.filter(function (t) { return t.completion_state !== 'Complete'; });
+    target.appendChild(resumeCard(
+      'Investigation Threads',
+      activeThreads.length + ' active of ' + threads.length,
+      activeThreads.map(function (t) { return t.thread_id + ' ' + t.name + ' — ' + t.status; }),
+      'No active threads.',
+      'threads', 'Open Investigation Threads'
+    ));
+
+    var lastRun = automationLog.length ? automationLog[automationLog.length - 1] : null;
+    target.appendChild(el('div', { class: 'card stack' }, [
+      el('div', { class: 'record-title' }, ['Last Automation Run']),
+      el('div', { class: 'resume-line' }, [lastRun ? (lastRun.run_id + ' (' + lastRun.date + ') — ' + lastRun.result) : 'No automation runs recorded yet.']),
+    ]));
+  }
 
   function renderCase(caseDef) {
     var target = document.getElementById('overview-content');
@@ -312,8 +403,8 @@
     });
 
     var initial = (window.location.hash || '').replace('#', '');
-    var valid = ['overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'threads'];
-    showSection(valid.indexOf(initial) !== -1 ? initial : 'overview');
+    var valid = ['resume', 'overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'threads'];
+    showSection(valid.indexOf(initial) !== -1 ? initial : 'resume');
   }
 
   // ---------------------------------------------------------------
@@ -346,6 +437,7 @@
     fetchJson(DATA_PATHS.contradictions),
     fetchJson(DATA_PATHS.questions),
     fetchJson(DATA_PATHS.threads),
+    fetchJson(DATA_PATHS.automationLog),
   ]).then(function (results) {
     var caseDef = results[0];
     var evidence = results[1];
@@ -354,7 +446,9 @@
     var contradictions = results[4];
     var questions = results[5];
     var threads = results[6];
+    var automationLog = results[7];
 
+    renderResume(caseDef, evidence, chronology, contradictions, questions, threads, automationLog);
     renderCase(caseDef);
     renderEvidence(evidence);
     renderSources(sources);

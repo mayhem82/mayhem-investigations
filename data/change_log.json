@@ -1,0 +1,58 @@
+[
+  {
+    "change_id": "CHG-0001",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/case.json",
+      "data/evidence_register.json",
+      "data/source_register.json",
+      "data/chronology.json",
+      "data/contradictions.json",
+      "data/open_questions.json",
+      "data/threads.json",
+      "docs/DATA_MODEL.md",
+      "package.json",
+      "scripts/validate.js"
+    ],
+    "reason": "Initial case definition, core registers, and structural validation implemented per spec sections 8-13, 16, 24.",
+    "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0002",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "README.md",
+      "site/index.html",
+      "site/style.css",
+      "site/app.js"
+    ],
+    "reason": "Mobile-first Visual Workspace added per spec sections 14-15.",
+    "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0003",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/decisions.json",
+      "data/change_log.json",
+      "scripts/hash-file.js",
+      "scripts/add-source.js",
+      "scripts/log-run.js",
+      "scripts/resume.js",
+      "scripts/validate.js",
+      "preserved/README.md",
+      "docs/DATA_MODEL.md",
+      "site/index.html",
+      "site/app.js",
+      "site/style.css",
+      "README.md"
+    ],
+    "reason": "Implemented stable source identity, document hashing, automation log, search log, decision register, change log, preserved-sources convention, and the resumption protocol per spec section 21 items 5-9 and section 18. Added a Resume view to the workspace implementing section 19.",
+    "validation_completed": true
+  }
+]

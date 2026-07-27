@@ -163,6 +163,86 @@ no collection has occurred yet.
 
 ---
 
+## Preserved Sources (`preserved/`)
+
+Supports spec section 18 ("Preserved Sources") and the `preserved_file_reference`
+field on evidence. Locally preserved copies of source material (PDFs, page
+snapshots, images, etc.) live in `preserved/`, named
+`<evidence_id>-<short-slug>.<ext>` (e.g. `preserved/EV-0001-council-minutes.pdf`).
+Evidence records reference them by relative path
+(`preserved/EV-0001-council-minutes.pdf`). Files placed here are never
+edited or replaced in place — a corrected copy is a new file referenced by
+a new evidence record. See `preserved/README.md`.
+
+---
+
+## Automation Log (`data/automation_log.json`)
+
+Spec sections 6-7. One record per automation execution (a human- or
+script-triggered pass that checks sources and either files new evidence or
+records that nothing changed — see section 7, "No Change Detected"). This
+repository does not (yet) include a live scanning agent; `scripts/log-run.js`
+lets an operator record a run by hand, in the same shape a future automated
+runner would use.
+
+| Field | Type | Notes |
+|---|---|---|
+| `run_id` | string | Format `RUN-0001`, ... Permanent. |
+| `date` | string (ISO date) | |
+| `sources_checked` | array of string | `source_id`s checked during this run. |
+| `result` | enum | `"No relevant change detected."`, `"New evidence added."`, `"New source added."` |
+| `evidence_added` | array of string | `evidence_id`s created by this run, if any. |
+| `notes` | string \| `null` | |
+
+## Search Log (`data/search_log.json`)
+
+Spec section 27. One record per reproducible search performed while
+collecting evidence.
+
+| Field | Type | Notes |
+|---|---|---|
+| `search_id` | string | Format `SRCH-0001`, ... Permanent. |
+| `search_terms` | string | |
+| `search_engine` | string | |
+| `database` | string \| `null` | |
+| `date` | string (ISO date) | |
+| `time` | string \| `null` | |
+| `filters` | string \| `null` | |
+| `jurisdiction` | string | |
+| `results_reviewed` | integer | |
+| `results_preserved` | integer | |
+
+## Decision Register (`data/decisions.json`)
+
+Spec section 29. Operational decisions about how the investigation is run,
+kept separate from evidentiary findings.
+
+| Field | Type | Notes |
+|---|---|---|
+| `decision_id` | string | Format `DEC-0001`, ... Permanent. |
+| `date` | string (ISO date) | |
+| `reason` | string | |
+| `supporting_evidence` | array of string | `evidence_id`s, may be empty for process decisions with no evidentiary basis. |
+| `investigator` | string | |
+| `impact` | string | |
+
+## Change Log (`data/change_log.json`)
+
+Spec section 30. One record per structural repository change (schema
+changes, new tooling, new registers) — not per evidence item, which is
+already self-documenting via the Evidence Register.
+
+| Field | Type | Notes |
+|---|---|---|
+| `change_id` | string | Format `CHG-0001`, ... Permanent. |
+| `date` | string (ISO date) | |
+| `author` | string | |
+| `files_affected` | array of string | Relative paths. |
+| `reason` | string | |
+| `validation_completed` | boolean | Whether `scripts/validate.js` passed before this change was committed. |
+
+---
+
 ## Source Classification (spec section 25)
 
 Used for `evidence.source_type` and `source.type`:
@@ -208,6 +288,33 @@ Enforced by `scripts/validate.js`:
 12. Enum fields (`status`, `classification`, `verification_state`,
     `source_type`/`type`, `preservation_status`, `hash_status`) contain only
     values listed in this document.
+13. `automation_log.json[].sources_checked` and `.evidence_added` reference
+    only existing `source_id`s / `evidence_id`s.
+14. `decisions.json[].supporting_evidence` references only existing
+    `evidence_id`s.
+15. `change_log.json[].validation_completed` is a boolean.
+16. Required fields on Automation Log, Search Log, Decision Register, and
+    Change Log records are present and non-empty (arrays may be empty
+    where the schema above allows it).
 
 Validation never modifies data. It only reports pass/fail per rule per
 record.
+
+## Mutable vs. Append-Only Fields
+
+Almost every field in this repository is append-only in the strict sense:
+once written, never changed. Two registers have a small, explicitly-scoped
+exception to support their stated purpose:
+
+- **Source Register**: `last_checked`, `current_version`,
+  `preservation_status`, and `hash_status` are updated in place each time a
+  source is re-checked (`scripts/add-source.js`), because the Source
+  Register's job (section 9) is to track the current state of a checked
+  location, not to log history of checks. `source_id`, `authority`, `title`,
+  `type`, `url_or_file_location`, and `first_checked` never change once set.
+- Everything else — Evidence, Chronology, Contradictions, Open Questions,
+  Threads, Automation Log, Search Log, Decisions, Change Log — is strictly
+  append-only. Threads' `status`/`completion_state`/`supporting_evidence`
+  are updated as work progresses (per section 13, threads track ongoing
+  state), but this is done by hand with a corresponding Change Log entry,
+  not silently.
