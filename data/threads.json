@@ -1,0 +1,110 @@
+[
+  {
+    "thread_id": "THR-01",
+    "name": "Historical failures",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-02",
+    "name": "Trucked water",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-03",
+    "name": "Iron contamination",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-04",
+    "name": "Manganese contamination",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-05",
+    "name": "River conditions",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-06",
+    "name": "Extraction decisions",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-07",
+    "name": "Funding",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-08",
+    "name": "Treatment plant",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-09",
+    "name": "Construction",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-10",
+    "name": "Commissioning",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-11",
+    "name": "Completion",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-12",
+    "name": "Current operational status",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  }
+]

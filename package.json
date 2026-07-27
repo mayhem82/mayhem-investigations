@@ -1,0 +1,9 @@
+{
+  "name": "mayhem-investigations",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MAYHEM DFAPTI persistent forensic investigation repository - DFAPTI-BB-2026-00001 (Willawarrin / Bellbrook Recurring Drinking Water Failure)",
+  "scripts": {
+    "validate": "node scripts/validate.js"
+  }
+}
