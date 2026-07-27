@@ -1,0 +1,56 @@
+[
+  {
+    "note_id": "NOTE-0001",
+    "timestamp": "2026-07-28T10:40:00",
+    "activity_type": "Note",
+    "text": "Operator asked for a live Investigation Notes view (spec section 14) plus another evidence-collection pass. Starting by following up on the leads recorded in RUN-0001's notes: the three blocked Kempsey Shire Council pages (SRC-0010/0011/0012), the Level 2 water restrictions article, the PFAS article, and the 20 July 2026 Public Forum agenda.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0002",
+    "timestamp": "2026-07-28T10:42:00",
+    "activity_type": "Checking Source",
+    "text": "Trying the Wayback Machine (web.archive.org) as an alternate route around the HTTP 403 block on SRC-0010 (Kempsey Council current-works page for the Willawarrin plant), since direct fetches are blocked regardless of headers used.",
+    "related_thread": "THR-08",
+    "related_source": "SRC-0010",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0003",
+    "timestamp": "2026-07-28T10:47:00",
+    "activity_type": "Blocked",
+    "text": "A Wayback Machine snapshot of SRC-0010 exists (dated 2025-07-08, confirmed via the archive.org availability API), and a HEAD request to it succeeds, but every GET attempt (with and without browser-style headers) returns HTTP 498. Not pursuing further workarounds - repeatedly varying request headers to force through a bot-detection block starts to cross from ordinary access into deliberate evasion, which this investigation should not do even for legitimate public-interest research. Logging this as a continued access gap rather than trying harder to defeat it.",
+    "related_thread": "THR-08",
+    "related_source": "SRC-0010",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0004",
+    "timestamp": "2026-07-28T10:49:00",
+    "activity_type": "Researching",
+    "text": "Moving on to the other two unpursued leads noted in RUN-0001: The Macleay Argus 'Kempsey Shire moves to Level 2 water restrictions' (story 6198046) and Mirage News 'Kempsey Tap Water Passes Safety, Below PFAS Limits'. Checking both for relevance to the River conditions and Iron/Manganese contamination threads.",
+    "related_thread": "THR-05",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0005",
+    "timestamp": "2026-07-28T10:53:00",
+    "activity_type": "Finding",
+    "text": "Both leads paid off. The Level 2 restrictions article is dated 4 June 2019 - five months earlier than the previously-earliest chronology entry (Oct 2019) - and names Willawarrin and Bellbrook among the affected supply schemes, pushing the known drought onset back. The PFAS article (Mirage News, 5 Feb 2025) names Bellbrook specifically as one of eight systems tested and passing PFAS screening - the first Bellbrook-specific evidence found since the 2020 restoration. Preserving both now as EV-0009 and EV-0010.",
+    "related_thread": "THR-14",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0006",
+    "timestamp": "2026-07-28T11:02:00",
+    "activity_type": "Note",
+    "text": "This run's findings are now recorded: EV-0009 and EV-0010 added to the Evidence Register, CHR-0007 added to the Chronology, THR-01/THR-05/THR-14 updated, RUN-0002 logged in the Automation Log, SRCH-0006 logged in the Search Log, and DEC-0006 recorded for the decision to stop at the Wayback Machine block. The 20 July 2026 Public Forum agenda and the three blocked Kempsey Council pages remain open leads for a future run with manual browser access. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  }
+]

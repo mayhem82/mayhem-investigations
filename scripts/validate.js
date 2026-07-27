@@ -133,6 +133,7 @@ const automationLog = readJson('automation_log.json') || [];
 const searchLog = readJson('search_log.json') || [];
 const decisions = readJson('decisions.json') || [];
 const changeLog = readJson('change_log.json') || [];
+const investigationNotes = readJson('investigation_notes.json') || [];
 
 // ---------------------------------------------------------------------
 // Case Definition (section 24)
@@ -471,6 +472,35 @@ for (const c of changeLog) {
 }
 
 // ---------------------------------------------------------------------
+// Investigation Notes (section 14)
+// ---------------------------------------------------------------------
+
+const NOTE_ACTIVITY_TYPES = new Set([
+  'Researching', 'Checking Source', 'Finding', 'Blocked', 'Decision', 'Note',
+]);
+
+const NOTE_REQUIRED_FIELDS = ['note_id', 'timestamp', 'activity_type', 'text'];
+
+checkUnique(investigationNotes, 'note_id', 'investigation_notes.json');
+
+for (const n of investigationNotes) {
+  const label = `investigation_notes.json[${n.note_id || '?'}]`;
+  requireFields(n, NOTE_REQUIRED_FIELDS, label);
+  if ('activity_type' in n && !NOTE_ACTIVITY_TYPES.has(n.activity_type)) {
+    fail(`${label}: invalid activity_type "${n.activity_type}"`);
+  }
+  if (n.related_thread && !threadIds.has(n.related_thread)) {
+    fail(`${label}: related_thread references unknown id "${n.related_thread}"`);
+  }
+  if (n.related_source && !sourceIds.has(n.related_source)) {
+    fail(`${label}: related_source references unknown id "${n.related_source}"`);
+  }
+  if (n.related_evidence && !evidenceIds.has(n.related_evidence)) {
+    fail(`${label}: related_evidence references unknown id "${n.related_evidence}"`);
+  }
+}
+
+// ---------------------------------------------------------------------
 // Report
 // ---------------------------------------------------------------------
 
@@ -487,6 +517,7 @@ console.log(`Automation runs:    ${automationLog.length}`);
 console.log(`Searches logged:    ${searchLog.length}`);
 console.log(`Decisions:          ${decisions.length}`);
 console.log(`Change log entries: ${changeLog.length}`);
+console.log(`Investigation notes: ${investigationNotes.length}`);
 console.log('');
 
 if (warnings.length) {

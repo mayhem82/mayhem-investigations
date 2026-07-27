@@ -32,6 +32,7 @@
     <li><button class="nav-link" data-section="questions">Open Questions</button></li>
     <li><button class="nav-link" data-section="threads">Investigation Threads</button></li>
     <li><button class="nav-link" data-section="relationships">Relationship Map</button></li>
+    <li><button class="nav-link" data-section="notes">Investigation Notes</button></li>
   </ul>
 </nav>
 
@@ -98,6 +99,17 @@
     <input type="search" class="filter-input" data-filter-target="relationships-list" placeholder="Filter relationships..." />
     <div id="relationships-count" class="section-count"></div>
     <div id="relationships-list" class="stack"></div>
+  </section>
+
+  <section id="section-notes" class="workspace-section" data-title="Investigation Notes" hidden>
+    <div class="section-title-row">
+      <h1 class="section-title">Investigation Notes</h1>
+      <span class="live-badge" id="notes-live-badge">● Live</span>
+    </div>
+    <p class="section-intro">Working log of research in progress - what's currently being checked and what's been found, in the order it happened. Most recent first.</p>
+    <input type="search" class="filter-input" data-filter-target="notes-list" placeholder="Filter notes..." />
+    <div id="notes-count" class="section-count"></div>
+    <div id="notes-list" class="stack"></div>
   </section>
 
   <div id="load-error" class="load-error" hidden></div>

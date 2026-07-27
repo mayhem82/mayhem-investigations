@@ -99,5 +99,31 @@
     ],
     "reason": "First real evidence-collection run for DFAPTI-BB-2026-00001 (RUN-0001, per spec section 6's permitted automation sequence), following the operator's instruction to begin substantive investigation. Added 8 evidence items, 13 sources (5 web-search queries, per section 27), 6 chronology entries, and 5 open questions, all grounded in preserved and hashed primary/secondary sources. Updated case.json's current_status and repository_version (now legitimately mutable tracking fields per the updated Mutable vs. Append-Only Fields section in docs/DATA_MODEL.md).",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0006",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "docs/DATA_MODEL.md",
+      "scripts/validate.js",
+      "site/index.html",
+      "site/app.js",
+      "site/style.css",
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/chronology.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/decisions.json",
+      "data/change_log.json",
+      "preserved/EV-0009-macleay-argus-level2-restrictions-2019-06-04.html",
+      "preserved/EV-0010-miragenews-pfas-2025-02-05.html",
+      "README.md"
+    ],
+    "reason": "Added a live Investigation Notes register and workspace view (spec section 14) - an append-only working log written progressively during a collection run, rendered most-recent-first and polled every 15s in the browser so it reflects work in progress rather than only a static end-of-session summary. Used it to log RUN-0002, a follow-up evidence-collection run pursuing RUN-0001's unpursued leads: added EV-0009 (pushes the known drought onset back to June 2019) and EV-0010 (first Bellbrook-specific evidence since 2020, partially informing but not resolving Q-0002). Recorded DEC-0006, a standing rule against working around bot-detection blocks after a Wayback Machine snapshot of a blocked source could not be retrieved.",
+    "validation_completed": true
   }
 ]

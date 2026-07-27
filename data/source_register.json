@@ -137,7 +137,7 @@
     "preservation_status": "Not Preserved",
     "hash_status": "No Hash",
     "associated_thread": "THR-08",
-    "availability_notes": "kempsey.nsw.gov.au (the current, non-archive site) returns HTTP 403 Forbidden to every automated fetch attempted (WebFetch and curl with full browser headers alike), unlike archive.kempsey.nsw.gov.au (SRC-0001). This is likely the most current single record of project status and should be checked manually (in an ordinary browser) in a future collection run - it is currently an access gap, not a confirmed absence of information."
+    "availability_notes": "kempsey.nsw.gov.au (the current, non-archive site) returns HTTP 403 Forbidden to every automated fetch attempted (WebFetch and curl with full browser headers alike), unlike archive.kempsey.nsw.gov.au (SRC-0001). A Wayback Machine snapshot exists (2025-07-08, confirmed via archive.org's availability API and a successful HEAD request), but every GET attempt returned HTTP 498; not pursued further, since repeatedly varying request headers to force through a bot-detection block crosses into deliberate evasion. This is likely the most current single record of project status and should be checked manually (in an ordinary browser) in a future collection run - it is currently an access gap, not a confirmed absence of information."
   },
   {
     "source_id": "SRC-0011",
@@ -180,5 +180,33 @@
     "hash_status": "Hashed",
     "associated_thread": "THR-13",
     "availability_notes": "Independent media corroboration of SRC-0006's official government announcement, including a direct quote from Mayor Kinne Ring."
+  },
+  {
+    "source_id": "SRC-0014",
+    "authority": "The Macleay Argus (Australian Community Media)",
+    "title": "Kempsey Shire moves to Level 2 water restrictions",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.macleayargus.com.au/story/6198046/kempsey-shire-moves-to-level-2-water-restrictions/",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Originally published 4 June 2019; page shows an update timestamp of 24 August 2023",
+    "preservation_status": "Preserved",
+    "hash_status": "Hashed",
+    "associated_thread": "THR-05",
+    "availability_notes": "Names Willawarrin and Bellbrook among the water supply schemes affected. Quotes General Manager Craig Milburn. Earliest evidence found so far of the drought conditions that led to the 2019-2020 trucked-water episode."
+  },
+  {
+    "source_id": "SRC-0015",
+    "authority": "Mirage News (relaying Kempsey Shire Council)",
+    "title": "Kempsey Tap Water Passes Safety, Below PFAS Limits",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.miragenews.com/kempsey-tap-water-passes-safety-below-pfas-1402860/",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Published 5 February 2025",
+    "preservation_status": "Preserved",
+    "hash_status": "Hashed",
+    "associated_thread": "THR-14",
+    "availability_notes": "First Bellbrook-specific evidence located since the 2020 restoration (EV-0002/EV-0003). Relays Council PFAS testing (Oct-Dec 2024) across eight supply systems including Willawarrin and Bellbrook; quotes an unnamed Council director rather than a named official."
   }
 ]

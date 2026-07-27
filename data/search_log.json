@@ -58,5 +58,17 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0006",
+    "search_terms": "url:kempsey.nsw.gov.au/Your-Valley/Ongoing-works-in-the-shire/Major-projects/Current-works/Willawarrin-Water-Treatment-Plant",
+    "search_engine": "archive.org Wayback Machine availability API",
+    "database": "web.archive.org",
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted",
+    "results_reviewed": 1,
+    "results_preserved": 0
   }
 ]

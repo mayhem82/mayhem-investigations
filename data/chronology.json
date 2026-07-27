@@ -46,5 +46,13 @@
     "event_description": "Construction begins (sod-turning) on the new $8 million Willawarrin water treatment plant - a 0.25 ML/day ultrafiltration plant with UV disinfection - with completion expected by early 2026.",
     "status": "Confirmed",
     "supporting_evidence": ["EV-0006", "EV-0007"]
+  },
+  {
+    "chronology_id": "CHR-0007",
+    "event_date": "2019-06-04",
+    "date_is_inference": false,
+    "event_description": "Kempsey Shire Council moves to Level 2 water restrictions amid minimal forecast rainfall and declining Macleay River flow, naming Willawarrin and Bellbrook among the affected supply schemes. This is the earliest evidence found so far of the drought conditions behind the 2019-2020 trucked-water episode (CHR-0001), predating it by about five months.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0009"]
   }
 ]

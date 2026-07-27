@@ -28,6 +28,8 @@ data/                   Append-only investigation data (source of truth)
   search_log.json            Search Log (spec section 27)
   decisions.json             Decision Register (spec section 29)
   change_log.json            Change Log (spec section 30)
+  investigation_notes.json   Investigation Notes (spec section 14) - live
+                             working log of research in progress
 docs/
   specs/                 The governing specification (do not edit)
   DATA_MODEL.md          Concrete field schema, enums, and validation rules
@@ -43,7 +45,8 @@ scripts/
   log-run.js               Append an Automation Log entry (sections 6-7)
   resume.js                 Print a resumption briefing (section 19)
 site/                    Mobile-first Visual Workspace, including the
-                         Relationship Map (spec sections 14-15, 19)
+                         Relationship Map and Investigation Notes
+                         (spec sections 14-15, 19)
 ```
 
 ## Validating the data
@@ -77,6 +80,11 @@ mobile-first: stacked layouts, no horizontal scrolling, expandable records.
 The workspace opens on a **Resume** view (spec section 19) summarizing the
 latest state of every register, with one-tap links into the full registers.
 
+The **Investigation Notes** view polls `data/investigation_notes.json`
+every 15 seconds while open, so if a collection run is appending notes
+live while the page is open in a browser, new notes appear without a
+reload - the closest a static site gets to "live" without a backend.
+
 ## Collection tooling
 
 ```
@@ -101,18 +109,19 @@ This repository implements the full specification:
 - Case Definition (section 24)
 - Evidence, Source, Chronology, Contradiction, Open Question, and
   Investigation Thread registers (sections 8-13). Evidence collection is
-  underway: 8 evidence items across 13 sources, 6 chronology entries, and
-  5 open questions, covering the 2019-2020 drought/trucked-water episode
-  and the 2024-2025 Willawarrin treatment plant funding and construction
-  start. The investigation now runs 15 threads - the original 12 plus
-  3 opened as evidence revealed new leads (a regional funding program,
-  a Bellbrook-specific evidence gap, and a council leadership timeline
+  underway across two runs: 10 evidence items across 15 sources, 7
+  chronology entries (spanning June 2019 to March 2025), and 5 open
+  questions, covering the 2019-2020 drought/trucked-water episode and the
+  2024-2025 Willawarrin treatment plant funding and construction start.
+  The investigation now runs 15 threads - the original 12 plus 3 opened as
+  evidence revealed new leads (a regional funding program, a
+  Bellbrook-specific evidence gap, and a council leadership timeline
   needed for attribution), per the DFAPTI "all paths taken" methodology.
 - Structural validation rules (section 16)
 - Mobile-first Visual Workspace covering Resume, Case Overview, Evidence
   Register, Chronology, Source Register, Contradiction Register, Open
-  Questions, Investigation Threads, and the Relationship Map
-  (sections 14-15, 19)
+  Questions, Investigation Threads, the Relationship Map, and
+  Investigation Notes (sections 14-15, 19)
 - Stable source identity (`add-source.js`) and document hashing
   (`hash-file.js`) (section 21 items 5-6)
 - Automation Log, Search Log, Decision Register, and Change Log

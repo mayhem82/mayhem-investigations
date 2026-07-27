@@ -256,6 +256,29 @@ already self-documenting via the Evidence Register.
 | `reason` | string | |
 | `validation_completed` | boolean | Whether `scripts/validate.js` passed before this change was committed. |
 
+## Investigation Notes (`data/investigation_notes.json`)
+
+Spec section 14 ("Investigation Notes" workspace view). A live, append-only
+working log of the investigation *as it happens* - what is currently being
+researched, which source is being checked, and what was found or ruled
+out - distinct from every other register in that it is not itself
+evidence, a finding, or a decision. It exists so the workspace shows real
+in-progress activity (spec section 15's "the investigation should resume
+comfortably from mobile") rather than only a static end-of-session
+summary. Notes are written progressively during a collection run, in the
+order the work actually happened, and are never edited after the fact -
+a correction is a new, later note.
+
+| Field | Type | Notes |
+|---|---|---|
+| `note_id` | string | Format `NOTE-0001`, ... Permanent. |
+| `timestamp` | string (ISO 8601 date-time) | Finer-grained than the daily `date` fields elsewhere, since several notes are typically written within one day. |
+| `activity_type` | enum | `"Researching"`, `"Checking Source"`, `"Finding"`, `"Blocked"`, `"Decision"`, `"Note"`. |
+| `text` | string | |
+| `related_thread` | string \| `null` | `thread_id`, if this note relates to a specific thread. |
+| `related_source` | string \| `null` | `source_id`, if this note relates to a specific source. |
+| `related_evidence` | string \| `null` | `evidence_id`, if this note relates to a specific evidence item. |
+
 ---
 
 ## Source Classification (spec section 25)
@@ -311,6 +334,9 @@ Enforced by `scripts/validate.js`:
 16. Required fields on Automation Log, Search Log, Decision Register, and
     Change Log records are present and non-empty (arrays may be empty
     where the schema above allows it).
+17. `investigation_notes.json[].activity_type` is one of the enumerated
+    values, and `.related_thread` / `.related_source` / `.related_evidence`
+    reference only existing IDs when present.
 
 Validation never modifies data. It only reports pass/fail per rule per
 record.

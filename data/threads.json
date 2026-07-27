@@ -3,8 +3,8 @@
     "thread_id": "THR-01",
     "name": "Historical failures",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0001", "EV-0002", "EV-0003", "EV-0004"],
-    "outstanding_work": "Establish the full pre-2019 history of water quality issues at Willawarrin/Bellbrook - this register currently only reaches back to the 2019 drought episode. Confirm the exact start date of the 2019/2020 trucked-water period (see CHR-0001).",
+    "supporting_evidence": ["EV-0001", "EV-0002", "EV-0003", "EV-0004", "EV-0009"],
+    "outstanding_work": "Establish the full pre-2019 history of water quality issues at Willawarrin/Bellbrook - this register now reaches back to June 2019 (CHR-0007) but no further. Confirm the exact start date of the 2019/2020 trucked-water period.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -39,8 +39,8 @@
     "thread_id": "THR-05",
     "name": "River conditions",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0001"],
-    "outstanding_work": "Obtain WaterNSW or Council river-flow/dam-level data for the Macleay River and Steuart McIntyre Dam across the 2019-2020 drought and since, to move beyond descriptive reporting.",
+    "supporting_evidence": ["EV-0001", "EV-0009"],
+    "outstanding_work": "Obtain WaterNSW or Council river-flow/dam-level data for the Macleay River and Steuart McIntyre Dam across the 2019-2020 drought and since, to move beyond descriptive reporting. EV-0009 (June 2019) adds that the Sherwood Borefield depends on uncontrolled upper-catchment river flow and that Steuart McIntyre Dam's usability as a supply source was itself in question at that time.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -119,9 +119,9 @@
   {
     "thread_id": "THR-14",
     "name": "Bellbrook-specific infrastructure status",
-    "status": "Not Started",
-    "supporting_evidence": [],
-    "outstanding_work": "New thread opened 2026-07-28 after noticing every piece of post-2020 evidence found so far addresses Willawarrin specifically, with no Bellbrook-specific source located despite Bellbrook being named in this case's title. Locate any post-2020 evidence specific to Bellbrook - council records, funding announcements, or news coverage (see Q-0002).",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0010"],
+    "outstanding_work": "EV-0010 (Feb 2025) confirms Bellbrook is still an actively monitored supply system and passed PFAS testing, but PFAS is a different contaminant to this case's iron/manganese focus and the article says nothing about Bellbrook's treatment infrastructure or whether it has had any dedicated upgrade since 2020. Q-0002 remains open - still need a source addressing Bellbrook's treatment infrastructure specifically.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },

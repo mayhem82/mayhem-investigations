@@ -10,7 +10,10 @@
     questions: '../data/open_questions.json',
     threads: '../data/threads.json',
     automationLog: '../data/automation_log.json',
+    notes: '../data/investigation_notes.json',
   };
+
+  var NOTES_REFRESH_INTERVAL_MS = 15000;
 
   function el(tag, attrs, children) {
     var node = document.createElement(tag);
@@ -362,6 +365,44 @@
     });
   }
 
+  function formatTimestamp(ts) {
+    if (!ts) return '-';
+    var d = new Date(ts);
+    if (isNaN(d.getTime())) return ts;
+    return d.toLocaleString(undefined, {
+      year: 'numeric', month: 'short', day: 'numeric',
+      hour: '2-digit', minute: '2-digit',
+    });
+  }
+
+  function renderNotes(list) {
+    var container = document.getElementById('notes-list');
+    document.getElementById('notes-count').textContent = list.length + ' note(s)';
+    container.innerHTML = '';
+    if (!list.length) {
+      container.appendChild(emptyState('No working notes recorded yet for the current session.'));
+      return;
+    }
+    var sorted = list.slice().sort(function (a, b) {
+      return (b.timestamp || '').localeCompare(a.timestamp || '');
+    });
+    sorted.forEach(function (n) {
+      var card = recordCard(
+        el('span', {}, [badge(n.activity_type)]),
+        null,
+        [
+          el('div', { class: 'notes-timestamp' }, [formatTimestamp(n.timestamp)]),
+          el('div', { class: 'kv-value' }, [n.text || '']),
+          (n.related_thread || n.related_source || n.related_evidence)
+            ? kv('Related', tagList([n.related_thread, n.related_source, n.related_evidence].filter(Boolean)))
+            : null,
+        ].filter(Boolean)
+      );
+      card.open = true;
+      container.appendChild(card);
+    });
+  }
+
   // ---------------------------------------------------------------
   // Relationship Map
   //
@@ -515,7 +556,7 @@
     });
 
     var initial = (window.location.hash || '').replace('#', '');
-    var valid = ['resume', 'overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'threads', 'relationships'];
+    var valid = ['resume', 'overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'threads', 'relationships', 'notes'];
     showSection(valid.indexOf(initial) !== -1 ? initial : 'resume');
   }
 
@@ -539,6 +580,15 @@
       '"python -m http.server", then open /site/ in your browser.';
   }
 
+  function refreshNotes() {
+    fetchJson(DATA_PATHS.notes + '?t=' + Date.now()).then(function (notes) {
+      renderNotes(notes);
+      setFilterable('notes-list', function (node) { return node.textContent; });
+      var badge = document.getElementById('notes-live-badge');
+      if (badge) badge.title = 'Last refreshed ' + new Date().toLocaleTimeString();
+    }).catch(function () { /* keep showing the last successful fetch */ });
+  }
+
   initNav();
 
   Promise.all([
@@ -550,6 +600,7 @@
     fetchJson(DATA_PATHS.questions),
     fetchJson(DATA_PATHS.threads),
     fetchJson(DATA_PATHS.automationLog),
+    fetchJson(DATA_PATHS.notes),
   ]).then(function (results) {
     var caseDef = results[0];
     var evidence = results[1];
@@ -559,6 +610,7 @@
     var questions = results[5];
     var threads = results[6];
     var automationLog = results[7];
+    var notes = results[8];
 
     renderResume(caseDef, evidence, chronology, contradictions, questions, threads, automationLog);
     renderCase(caseDef);
@@ -569,6 +621,7 @@
     renderQuestions(questions);
     renderThreads(threads);
     renderRelationshipMap(evidence, chronology, contradictions, questions, threads);
+    renderNotes(notes);
 
     setFilterable('evidence-list', function (node) { return node.textContent; });
     setFilterable('chronology-list', function (node) { return node.textContent; });
@@ -577,11 +630,17 @@
     setFilterable('questions-list', function (node) { return node.textContent; });
     setFilterable('threads-list', function (node) { return node.textContent; });
     setFilterable('relationships-list', function (node) { return node.textContent; });
+    setFilterable('notes-list', function (node) { return node.textContent; });
 
     document.getElementById('footer-versions').textContent =
       'Repository v' + caseDef.repository_version + ' · ' + caseDef.specification_version;
     document.getElementById('footer-loaded').textContent =
       'Loaded ' + new Date().toLocaleString();
+
+    // Investigation Notes poll for live updates while this static page stays open -
+    // there is no server push, so a plain periodic re-fetch is the honest equivalent
+    // (spec section 32: compliance is about preserving behaviour, not implementation).
+    setInterval(refreshNotes, NOTES_REFRESH_INTERVAL_MS);
   }).catch(function (err) {
     showLoadError(err);
   });

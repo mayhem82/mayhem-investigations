@@ -38,5 +38,13 @@
     "supporting_evidence": ["EV-0002", "EV-0004", "EV-0005", "EV-0006", "EV-0008"],
     "investigator": "mayhem82",
     "impact": "case.json's jurisdiction and geographic_scope fields remain unchanged. current_status was updated from \"Active - Evidence Collection Pending\" to \"Active - Evidence Collection In Progress\" and repository_version bumped to 1.1.0, both treated as legitimately mutable tracking fields per docs/DATA_MODEL.md's 'Mutable vs. Append-Only Fields' section, recorded in CHG-0005."
+  },
+  {
+    "decision_id": "DEC-0006",
+    "date": "2026-07-28",
+    "reason": "While following up on SRC-0010 (a Kempsey Shire Council page blocked with HTTP 403), a Wayback Machine snapshot was found to exist and a HEAD request to it succeeded, but every GET attempt returned HTTP 498. Rather than continuing to vary request headers, user agents, or other techniques to force the content through, the attempt was stopped and logged as a continued access gap.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Establishes a standing operating rule for this investigation: ordinary, honest HTTP requests (a realistic but truthful User-Agent, standard Accept headers) are fair game, but deliberately working harder to defeat a site's bot-detection is not, even in service of legitimate public-interest research. Blocked sources are recorded as access gaps in the Source Register (see SRC-0010/0011/0012) and flagged for manual, ordinary-browser retrieval rather than further automated workarounds."
   }
 ]
