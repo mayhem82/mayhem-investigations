@@ -54,5 +54,22 @@
     ],
     "reason": "Implemented stable source identity, document hashing, automation log, search log, decision register, change log, preserved-sources convention, and the resumption protocol per spec section 21 items 5-9 and section 18. Added a Resume view to the workspace implementing section 19.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0004",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "docs/GLOSSARY.md",
+      "docs/GOVERNANCE.md",
+      "docs/DATA_MODEL.md",
+      "data/decisions.json",
+      "data/change_log.json",
+      "site/index.html",
+      "site/app.js",
+      "README.md"
+    ],
+    "reason": "Documented the remaining narrative/governance sections of the specification (17 security, 20 future investigations, 28 version control, 31 terminology, 33 failure recovery, 34 scalability, 35 architectural constraints, 36 canonical completeness) and added the Relationship Map view to the workspace (section 14), completing the build.",
+    "validation_completed": true
   }
 ]

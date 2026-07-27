@@ -31,6 +31,10 @@ data/                   Append-only investigation data (source of truth)
 docs/
   specs/                 The governing specification (do not edit)
   DATA_MODEL.md          Concrete field schema, enums, and validation rules
+  GLOSSARY.md            Canonical term definitions (spec section 31)
+  GOVERNANCE.md          Security, future investigations, version control,
+                         failure recovery, scalability, constraints, and
+                         canonical completeness (spec sections 17, 20, 28, 33-36)
 preserved/               Locally preserved copies of source material
 scripts/
   validate.js            Structural validation (spec section 16)
@@ -38,7 +42,8 @@ scripts/
   hash-file.js            Compute a document hash for preserved evidence (section 21.6)
   log-run.js               Append an Automation Log entry (sections 6-7)
   resume.js                 Print a resumption briefing (section 19)
-site/                    Mobile-first Visual Workspace (spec sections 14-15, 19)
+site/                    Mobile-first Visual Workspace, including the
+                         Relationship Map (spec sections 14-15, 19)
 ```
 
 ## Validating the data
@@ -91,8 +96,7 @@ autogeneration of evidence, consistent with the Human Authority principle
 
 ## Current implementation status
 
-Implemented so far (per the Implementation Order in spec section 21,
-adapted to a from-scratch build with nothing to migrate):
+This repository implements the full specification:
 
 - Case Definition (section 24)
 - Evidence, Source, Chronology, Contradiction, Open Question, and
@@ -101,7 +105,8 @@ adapted to a from-scratch build with nothing to migrate):
 - Structural validation rules (section 16)
 - Mobile-first Visual Workspace covering Resume, Case Overview, Evidence
   Register, Chronology, Source Register, Contradiction Register, Open
-  Questions, and Investigation Threads (sections 14-15, 19)
+  Questions, Investigation Threads, and the Relationship Map
+  (sections 14-15, 19)
 - Stable source identity (`add-source.js`) and document hashing
   (`hash-file.js`) (section 21 items 5-6)
 - Automation Log, Search Log, Decision Register, and Change Log
@@ -109,11 +114,13 @@ adapted to a from-scratch build with nothing to migrate):
   in section 18
 - Resumption Protocol, both as a CLI briefing (`resume.js`) and as the
   workspace's default view (section 19)
+- Security, future investigations, specification version control,
+  canonical terminology, failure recovery, scalability, architectural
+  constraints, and canonical completeness (sections 17, 20, 28, 31, 33-36)
+  written up in `docs/GOVERNANCE.md` and `docs/GLOSSARY.md`
 
-Not yet implemented: a Relationship Map view, and the largely narrative /
-governance sections of the specification (17 security posture, 20 future
-investigations, 28 spec version control, 31 glossary, 33-36 recovery,
-scalability, constraints, and canonical-completeness statements) - these
-describe principles the current structure already satisfies (append-only
-data, validation, no reconstruction-from-memory) rather than additional
-data structures to build.
+Structural sections (8-16, 18, 24-27, 29-30) are enforced in code by
+`scripts/validate.js` and rendered live in the workspace. Narrative /
+governance sections (17, 20, 28, 31, 33-36) describe operating principles
+this repository's design already satisfies; `docs/GOVERNANCE.md` states
+each requirement alongside the concrete mechanism that enforces it.

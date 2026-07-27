@@ -22,5 +22,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Commit authorship in this repository is attributed to mayhem82. No effect on any other repository on this machine."
+  },
+  {
+    "decision_id": "DEC-0004",
+    "date": "2026-07-28",
+    "reason": "The Relationship Map (spec section 14) was implemented as a view computed at render time from the cross-reference fields already present on Evidence, Chronology, Contradictions, Open Questions, and Threads, rather than as a new stored register (e.g. data/relationships.json).",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "There is exactly one place any given relationship is recorded (on the citing record's own link field), preventing the map from drifting out of sync with the registers it summarizes. Documented in docs/DATA_MODEL.md."
   }
 ]

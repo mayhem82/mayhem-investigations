@@ -363,6 +363,118 @@
   }
 
   // ---------------------------------------------------------------
+  // Relationship Map
+  //
+  // Computed on the fly from the cross-reference fields already present
+  // on Evidence, Chronology, Contradictions, Open Questions, and Threads
+  // (spec section 14 "Relationship Map" / section 31 "Relationship").
+  // There is no separate data/relationships.json - this view is a
+  // derived index, not a new source of truth.
+  // ---------------------------------------------------------------
+
+  function nodeKey(type, id) {
+    return type + ':' + id;
+  }
+
+  function buildRelationshipEdges(evidence, chronology, contradictions, questions, threads) {
+    var edges = [];
+    function addEdge(aType, aId, bType, bId, relation) {
+      if (!aId || !bId) return;
+      edges.push({ a: { type: aType, id: aId }, b: { type: bType, id: bId }, relation: relation });
+    }
+
+    evidence.forEach(function (e) {
+      (e.relationships || []).forEach(function (id) { addEdge('Evidence', e.evidence_id, 'Evidence', id, 'related to'); });
+      (e.chronology_links || []).forEach(function (id) { addEdge('Evidence', e.evidence_id, 'Chronology', id, 'supports'); });
+      (e.contradiction_links || []).forEach(function (id) { addEdge('Evidence', e.evidence_id, 'Contradiction', id, 'involved in'); });
+      (e.open_question_links || []).forEach(function (id) { addEdge('Evidence', e.evidence_id, 'Question', id, 'involved in'); });
+    });
+    chronology.forEach(function (c) {
+      (c.supporting_evidence || []).forEach(function (id) { addEdge('Chronology', c.chronology_id, 'Evidence', id, 'supported by'); });
+    });
+    contradictions.forEach(function (c) {
+      (c.supporting_evidence || []).forEach(function (id) { addEdge('Contradiction', c.contradiction_id, 'Evidence', id, 'supported by'); });
+      (c.opposing_evidence || []).forEach(function (id) { addEdge('Contradiction', c.contradiction_id, 'Evidence', id, 'opposed by'); });
+      (c.resolution_evidence || []).forEach(function (id) { addEdge('Contradiction', c.contradiction_id, 'Evidence', id, 'resolved by'); });
+    });
+    questions.forEach(function (q) {
+      (q.evidence_creating_question || []).forEach(function (id) { addEdge('Question', q.question_id, 'Evidence', id, 'raised by'); });
+      (q.resolution_evidence || []).forEach(function (id) { addEdge('Question', q.question_id, 'Evidence', id, 'resolved by'); });
+    });
+    threads.forEach(function (t) {
+      (t.supporting_evidence || []).forEach(function (id) { addEdge('Thread', t.thread_id, 'Evidence', id, 'supported by'); });
+      (t.dependencies || []).forEach(function (id) { addEdge('Thread', t.thread_id, 'Thread', id, 'depends on'); });
+    });
+
+    return edges;
+  }
+
+  function buildNodeLabels(evidence, chronology, contradictions, questions, threads) {
+    var labels = {};
+    evidence.forEach(function (e) { labels[nodeKey('Evidence', e.evidence_id)] = e.source_title || e.evidence_id; });
+    chronology.forEach(function (c) { labels[nodeKey('Chronology', c.chronology_id)] = c.event_description || c.chronology_id; });
+    contradictions.forEach(function (c) { labels[nodeKey('Contradiction', c.contradiction_id)] = c.description || c.contradiction_id; });
+    questions.forEach(function (q) { labels[nodeKey('Question', q.question_id)] = q.question || q.question_id; });
+    threads.forEach(function (t) { labels[nodeKey('Thread', t.thread_id)] = t.name || t.thread_id; });
+    return labels;
+  }
+
+  function buildAdjacency(edges, labels) {
+    var adjacency = {};
+    var seen = new Set();
+
+    function labelFor(node) {
+      var key = nodeKey(node.type, node.id);
+      return node.id + (labels[key] ? ' — ' + labels[key] : '');
+    }
+
+    function push(ownerNode, otherNode, relation) {
+      var ownerKey = nodeKey(ownerNode.type, ownerNode.id);
+      var dedupeKey = ownerKey + '|' + relation + '|' + nodeKey(otherNode.type, otherNode.id);
+      if (seen.has(dedupeKey)) return;
+      seen.add(dedupeKey);
+      if (!adjacency[ownerKey]) adjacency[ownerKey] = { type: ownerNode.type, id: ownerNode.id, links: [] };
+      adjacency[ownerKey].links.push(relation + ' → ' + otherNode.type + ' ' + labelFor(otherNode));
+    }
+
+    edges.forEach(function (edge) {
+      push(edge.a, edge.b, edge.relation);
+      push(edge.b, edge.a, edge.relation);
+    });
+
+    return adjacency;
+  }
+
+  function renderRelationshipMap(evidence, chronology, contradictions, questions, threads) {
+    var container = document.getElementById('relationships-list');
+    container.innerHTML = '';
+
+    var edges = buildRelationshipEdges(evidence, chronology, contradictions, questions, threads);
+    var labels = buildNodeLabels(evidence, chronology, contradictions, questions, threads);
+    var adjacency = buildAdjacency(edges, labels);
+    var nodeKeys = Object.keys(adjacency).sort();
+
+    document.getElementById('relationships-count').textContent =
+      nodeKeys.length + ' linked record(s), ' + edges.length + ' relationship(s)';
+
+    if (!nodeKeys.length) {
+      container.appendChild(emptyState('No relationships recorded yet. Once evidence is linked to chronology entries, contradictions, open questions, or threads, that network will appear here automatically.'));
+      return;
+    }
+
+    nodeKeys.forEach(function (key) {
+      var node = adjacency[key];
+      var title = node.type + ' ' + node.id + (labels[key] ? ' — ' + labels[key] : '');
+      var card = recordCard(
+        el('span', {}, [title]),
+        node.links.length + ' link(s)',
+        [tagList(node.links)]
+      );
+      container.appendChild(card);
+    });
+  }
+
+  // ---------------------------------------------------------------
   // Navigation
   // ---------------------------------------------------------------
 
@@ -403,7 +515,7 @@
     });
 
     var initial = (window.location.hash || '').replace('#', '');
-    var valid = ['resume', 'overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'threads'];
+    var valid = ['resume', 'overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'threads', 'relationships'];
     showSection(valid.indexOf(initial) !== -1 ? initial : 'resume');
   }
 
@@ -456,6 +568,7 @@
     renderContradictions(contradictions);
     renderQuestions(questions);
     renderThreads(threads);
+    renderRelationshipMap(evidence, chronology, contradictions, questions, threads);
 
     setFilterable('evidence-list', function (node) { return node.textContent; });
     setFilterable('chronology-list', function (node) { return node.textContent; });
@@ -463,6 +576,7 @@
     setFilterable('contradictions-list', function (node) { return node.textContent; });
     setFilterable('questions-list', function (node) { return node.textContent; });
     setFilterable('threads-list', function (node) { return node.textContent; });
+    setFilterable('relationships-list', function (node) { return node.textContent; });
 
     document.getElementById('footer-versions').textContent =
       'Repository v' + caseDef.repository_version + ' · ' + caseDef.specification_version;

@@ -163,6 +163,21 @@ no collection has occurred yet.
 
 ---
 
+## Relationship Map (`site/app.js`, `renderRelationshipMap`)
+
+Spec section 14. There is no `data/relationships.json` — a Relationship
+Map is a derived view, computed at render time from the cross-reference
+fields that already exist on Evidence (`relationships`,
+`chronology_links`, `contradiction_links`, `open_question_links`),
+Chronology (`supporting_evidence`), Contradictions (`supporting_evidence`,
+`opposing_evidence`, `resolution_evidence`), Open Questions
+(`evidence_creating_question`, `resolution_evidence`), and Threads
+(`supporting_evidence`, `dependencies`). Storing it separately would
+create a second copy of the same facts that could drift out of sync with
+the registers that are the actual source of truth.
+
+---
+
 ## Preserved Sources (`preserved/`)
 
 Supports spec section 18 ("Preserved Sources") and the `preserved_file_reference`
