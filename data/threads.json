@@ -2,82 +2,82 @@
   {
     "thread_id": "THR-01",
     "name": "Historical failures",
-    "status": "Not Started",
-    "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0001", "EV-0002", "EV-0003", "EV-0004"],
+    "outstanding_work": "Establish the full pre-2019 history of water quality issues at Willawarrin/Bellbrook - this register currently only reaches back to the 2019 drought episode. Confirm the exact start date of the 2019/2020 trucked-water period (see CHR-0001).",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
   {
     "thread_id": "THR-02",
     "name": "Trucked water",
-    "status": "Not Started",
-    "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0001", "EV-0002", "EV-0003"],
+    "outstanding_work": "Confirm whether Bellbrook actually required trucked water on the timeline EV-0001 anticipated (\"within a week\" of Oct 2019), and the exact total duration in each town.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
   {
     "thread_id": "THR-03",
     "name": "Iron contamination",
-    "status": "Not Started",
-    "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0001", "EV-0002"],
+    "outstanding_work": "Obtain actual water-quality test results (iron concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
   {
     "thread_id": "THR-04",
     "name": "Manganese contamination",
-    "status": "Not Started",
-    "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0001", "EV-0002"],
+    "outstanding_work": "Obtain actual water-quality test results (manganese concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
   {
     "thread_id": "THR-05",
     "name": "River conditions",
-    "status": "Not Started",
-    "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0001"],
+    "outstanding_work": "Obtain WaterNSW or Council river-flow/dam-level data for the Macleay River and Steuart McIntyre Dam across the 2019-2020 drought and since, to move beyond descriptive reporting.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
   {
     "thread_id": "THR-06",
     "name": "Extraction decisions",
-    "status": "Not Started",
-    "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0001", "EV-0005"],
+    "outstanding_work": "Establish the specific extraction-point/bore-vs-river decisions made for Willawarrin (bore-reliant) versus the main Kempsey network (Steuart McIntyre Dam + Sherwood Borefield), and why Willawarrin was not connected to the more secure dam-fed system.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
   {
     "thread_id": "THR-07",
     "name": "Funding",
-    "status": "Not Started",
-    "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0007"],
+    "outstanding_work": "Confirm the reason for the Willawarrin plant's cost increase from approximately $4m (2024) to $8m (2025) - see Q-0003.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
   {
     "thread_id": "THR-08",
     "name": "Treatment plant",
-    "status": "Not Started",
-    "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0007"],
+    "outstanding_work": "Confirm current construction/commissioning status given the passed \"early 2026\" target (see Q-0001). Obtain the blocked Kempsey Council source pages (SRC-0010, SRC-0011, SRC-0012) via manual browser access - they are likely the most current record available.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
   {
     "thread_id": "THR-09",
     "name": "Construction",
-    "status": "Not Started",
-    "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
-    "dependencies": [],
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0006", "EV-0007"],
+    "outstanding_work": "Obtain construction progress updates for the period between the March 2025 sod-turning and the present (28 July 2026).",
+    "dependencies": ["THR-07"],
     "completion_state": "Not Complete"
   },
   {
@@ -85,8 +85,8 @@
     "name": "Commissioning",
     "status": "Not Started",
     "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
-    "dependencies": [],
+    "outstanding_work": "No evidence yet located confirming commissioning of the Willawarrin plant; this is the central open gap from today's collection round (see Q-0001).",
+    "dependencies": ["THR-09"],
     "completion_state": "Not Complete"
   },
   {
@@ -94,8 +94,8 @@
     "name": "Completion",
     "status": "Not Started",
     "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
-    "dependencies": [],
+    "outstanding_work": "Awaiting commissioning confirmation before this thread can meaningfully begin (see THR-10).",
+    "dependencies": ["THR-10"],
     "completion_state": "Not Complete"
   },
   {
@@ -103,7 +103,34 @@
     "name": "Current operational status",
     "status": "Not Started",
     "supporting_evidence": [],
-    "outstanding_work": "Awaiting first evidence collection for this thread.",
+    "outstanding_work": "No evidence yet located about the current (2026) operational status of Willawarrin or Bellbrook's water supply. This is the key gap this investigation should close next (see Q-0001, Q-0002).",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-13",
+    "name": "Regional water security funding program (Steuart McIntyre Dam / Sherwood Borefield)",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0005", "EV-0008"],
+    "outstanding_work": "New thread opened 2026-07-28 after EV-0005 revealed the Willawarrin plant is one component of a larger $52.9m regional package that also funds a new main treatment plant for Kempsey/Frederickton/Smithtown/Gladstone (~18,000 residents). Identify the contractor and construction progress for this larger project, and establish whether it has any direct bearing on Willawarrin/Bellbrook's water security specifically (see Q-0005).",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-14",
+    "name": "Bellbrook-specific infrastructure status",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "New thread opened 2026-07-28 after noticing every piece of post-2020 evidence found so far addresses Willawarrin specifically, with no Bellbrook-specific source located despite Bellbrook being named in this case's title. Locate any post-2020 evidence specific to Bellbrook - council records, funding announcements, or news coverage (see Q-0002).",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-15",
+    "name": "Kempsey Shire Council leadership timeline (evidence-attribution context)",
+    "status": "Not Started",
+    "supporting_evidence": ["EV-0004", "EV-0005"],
+    "outstanding_work": "New thread opened 2026-07-28 after EV-0004 (Aug 2024) and EV-0005 (Mar 2025) named different individuals as Mayor of Kempsey Shire Council. Confirm the date and cause of this change for accurate evidence attribution going forward (see Q-0004) - most plausibly the scheduled September 2024 NSW local government elections, but not yet confirmed by evidence.",
     "dependencies": [],
     "completion_state": "Not Complete"
   }

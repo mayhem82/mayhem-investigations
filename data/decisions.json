@@ -30,5 +30,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "There is exactly one place any given relationship is recorded (on the citing record's own link field), preventing the map from drifting out of sync with the registers it summarizes. Documented in docs/DATA_MODEL.md."
+  },
+  {
+    "decision_id": "DEC-0005",
+    "date": "2026-07-28",
+    "reason": "The first evidence-collection run (RUN-0001) repeatedly and consistently identified Kempsey Shire Council as the responsible local government authority (EV-0002, EV-0004, EV-0005, EV-0006, EV-0008). Per DEC-0002, the immutable Case Definition fields (jurisdiction, geographic_scope) are not edited to add this now-confirmed detail; it is instead carried by source_authority fields across the Evidence and Source Registers and by the Chronology.",
+    "supporting_evidence": ["EV-0002", "EV-0004", "EV-0005", "EV-0006", "EV-0008"],
+    "investigator": "mayhem82",
+    "impact": "case.json's jurisdiction and geographic_scope fields remain unchanged. current_status was updated from \"Active - Evidence Collection Pending\" to \"Active - Evidence Collection In Progress\" and repository_version bumped to 1.1.0, both treated as legitimately mutable tracking fields per docs/DATA_MODEL.md's 'Mutable vs. Append-Only Fields' section, recorded in CHG-0005."
   }
 ]

@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "search_id": "SRCH-0001",
+    "search_terms": "Willawarrin Bellbrook drinking water trucked water 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 4
+  },
+  {
+    "search_id": "SRCH-0002",
+    "search_terms": "Willawarrin water treatment plant construction progress 2026 commissioned",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 4
+  },
+  {
+    "search_id": "SRCH-0003",
+    "search_terms": "\"Willawarrin\" water treatment plant 2026 opened OR commissioned OR delayed",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0004",
+    "search_terms": "Kempsey Shire Council Willawarrin water July 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0005",
+    "search_terms": "Bellbrook NSW water supply 2025 2026 treatment",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  }
+]

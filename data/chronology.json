@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "chronology_id": "CHR-0001",
+    "event_date": "2019-10-28",
+    "date_is_inference": true,
+    "event_description": "By this date, Willawarrin is already receiving trucked water due to iron/manganese levels exceeding drinking water guidelines amid severe drought; Bellbrook is expected to need trucked water within a week. The Macleay River is near standstill and Steuart McIntyre Dam is at approximately 80% and falling. The exact date trucked water first began is not established by evidence yet - only that it predates this article's publication.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0001"]
+  },
+  {
+    "chronology_id": "CHR-0002",
+    "event_date": "2020-06-18",
+    "date_is_inference": false,
+    "event_description": "Willawarrin and Bellbrook are switched back to river water supply, ending several months of trucked-in water, following bore and treatment upgrades by Council's Water and Sewer team.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0002", "EV-0003"]
+  },
+  {
+    "chronology_id": "CHR-0003",
+    "event_date": "1967",
+    "date_is_inference": true,
+    "event_description": "The water treatment infrastructure later replaced by the new 2025 plant is reported as having been built in 1967 (described elsewhere as \"1960s-era\"). The precise year rests on a single media report and has not been independently confirmed against a council asset record.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0004", "EV-0006"]
+  },
+  {
+    "chronology_id": "CHR-0004",
+    "event_date": "2024 (by August)",
+    "date_is_inference": true,
+    "event_description": "LC Water is reported as having been awarded the design-and-construction contract for the new Willawarrin plant, with an original cost projection of approximately $4 million. The exact contract-award date is not stated in the source; only the article's publication date (7 August 2024) is known.",
+    "status": "Pending",
+    "supporting_evidence": ["EV-0004"]
+  },
+  {
+    "chronology_id": "CHR-0005",
+    "event_date": "2025-03-21",
+    "date_is_inference": false,
+    "event_description": "NSW and Australian Governments announce a combined $52.9 million regional water infrastructure package, covering a new main treatment plant for Kempsey/Frederickton/Smithtown/Gladstone (Steuart McIntyre Dam/Sherwood Borefield) and reaffirming the separate $8 million Willawarrin plant commitment.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0005"]
+  },
+  {
+    "chronology_id": "CHR-0006",
+    "event_date": "2025-03-24",
+    "date_is_inference": false,
+    "event_description": "Construction begins (sod-turning) on the new $8 million Willawarrin water treatment plant - a 0.25 ML/day ultrafiltration plant with UV disinfection - with completion expected by early 2026.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0006", "EV-0007"]
+  }
+]

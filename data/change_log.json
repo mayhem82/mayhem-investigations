@@ -71,5 +71,33 @@
     ],
     "reason": "Documented the remaining narrative/governance sections of the specification (17 security, 20 future investigations, 28 version control, 31 terminology, 33 failure recovery, 34 scalability, 35 architectural constraints, 36 canonical completeness) and added the Relationship Map view to the workspace (section 14), completing the build.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0005",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/case.json",
+      "data/evidence_register.json",
+      "data/source_register.json",
+      "data/chronology.json",
+      "data/open_questions.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/decisions.json",
+      "data/change_log.json",
+      "docs/DATA_MODEL.md",
+      "preserved/EV-0001-macleay-argus-drought-2019-10-28.html",
+      "preserved/EV-0002-kempsey-council-media-release-2020-06-22.html",
+      "preserved/EV-0003-macleay-argus-restoration-2020-06-22.html",
+      "preserved/EV-0004-macleay-argus-construction-2024-08-07.html",
+      "preserved/EV-0005-nswwater-529m-package-2025-03-21.html",
+      "preserved/EV-0006-nswwater-sod-turning-2025-03-24.html",
+      "preserved/EV-0007-worldconstructionnetwork-2025-03-24.html",
+      "preserved/EV-0008-macleay-argus-529m-2025-03-21.html"
+    ],
+    "reason": "First real evidence-collection run for DFAPTI-BB-2026-00001 (RUN-0001, per spec section 6's permitted automation sequence), following the operator's instruction to begin substantive investigation. Added 8 evidence items, 13 sources (5 web-search queries, per section 27), 6 chronology entries, and 5 open questions, all grounded in preserved and hashed primary/secondary sources. Updated case.json's current_status and repository_version (now legitimately mutable tracking fields per the updated Mutable vs. Append-Only Fields section in docs/DATA_MODEL.md).",
+    "validation_completed": true
   }
 ]

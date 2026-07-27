@@ -333,3 +333,11 @@ exception to support their stated purpose:
   are updated as work progresses (per section 13, threads track ongoing
   state), but this is done by hand with a corresponding Change Log entry,
   not silently.
+- **Case Definition**: `current_status` and `repository_version` are
+  legitimately mutable tracking fields, not part of the case's fixed
+  identity — despite section 24 listing them alongside the truly immutable
+  identifiers (`case_identifier`, `case_title`, `investigation_type`,
+  `jurisdiction`, `geographic_scope`, `commencement_date`, `investigator`,
+  `specification_version`, none of which ever change). Each change to
+  `current_status` or `repository_version` is a deliberate edit,
+  documented by its own Change Log entry - never a silent update.

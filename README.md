@@ -100,8 +100,14 @@ This repository implements the full specification:
 
 - Case Definition (section 24)
 - Evidence, Source, Chronology, Contradiction, Open Question, and
-  Investigation Thread registers (sections 8-13), seeded with the twelve
-  initial threads and otherwise empty pending evidence collection
+  Investigation Thread registers (sections 8-13). Evidence collection is
+  underway: 8 evidence items across 13 sources, 6 chronology entries, and
+  5 open questions, covering the 2019-2020 drought/trucked-water episode
+  and the 2024-2025 Willawarrin treatment plant funding and construction
+  start. The investigation now runs 15 threads - the original 12 plus
+  3 opened as evidence revealed new leads (a regional funding program,
+  a Bellbrook-specific evidence gap, and a council leadership timeline
+  needed for attribution), per the DFAPTI "all paths taken" methodology.
 - Structural validation rules (section 16)
 - Mobile-first Visual Workspace covering Resume, Case Overview, Evidence
   Register, Chronology, Source Register, Contradiction Register, Open
