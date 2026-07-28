@@ -558,5 +558,20 @@
     ],
     "reason": "RUN-0029, continuing evidence collection. Registered a federal (National Water Grid Authority) project-tracker source confirming the Steuart McIntyre Dam/Sherwood Borefield plant was under construction as of 31 August 2025, promoted to EV-0029 per the RUN-0027 evidence-acceptance policy. Flagged a possible, unconfirmed completion-date discrepancy in the same source for a future run to check. Q-0001 (Willawarrin commissioning) and Q-0005 (contractor) remain open after this run's search angles.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0036",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0030, continuing evidence collection. Tried fresh source-type angles (NSW Parliament Hansard/Q&A, Aboriginal Land Council, local MPs, demographic aggregators) not used in earlier runs. Registered a historical (2013) parliamentary sewerage-funding record and a further, non-independent 2016 Census population corroboration for CTR-0001 (EV-0030). Q-0001/Q-0003/Q-0005 remain open.",
+    "validation_completed": true
   }
 ]

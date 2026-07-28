@@ -386,5 +386,18 @@
       "EV-0029"
     ],
     "notes": "Retried the fetch tool twice (a known-relevant URL plus a neutral control) - still HTTP 403, DEC-0008 unchanged. Tried a federal-government angle (National Water Grid Authority) rather than NSW state/council sources for THR-13/Q-0005, finding a genuinely new fact: the Steuart McIntyre Dam/Sherwood Borefield plant was confirmed \"Under construction\" as of 31 August 2025 by an independent federal tracker, with a previously-unregistered capacity figure. Contractor identity (Q-0005) and Willawarrin-specific commissioning status (Q-0001) both remain unresolved after this run's different search angles (tender/practical-completion/business-paper phrasing) - honestly logged as no further relevant change on those two specific questions."
+  },
+  {
+    "run_id": "RUN-0030",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0056",
+      "SRC-0057"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0030"
+    ],
+    "notes": "Retried the fetch tool once against archive.org's Wayback availability API (a domain family not tried before this session) - still HTTP 403, DEC-0008 unchanged, now confirmed broader than the site-specific HTTP 498 an earlier session recorded for the same approach (DEC-0006). Tried fresh source-type angles this run (NSW Parliament Hansard/Questions-and-Answers, Thunggutti Local Aboriginal Land Council, local state MPs, third-party demographic aggregators). Found a 2013 Legislative Council Q&A mentioning historical \"Willawarrin Sewerage\" funding (SRC-0057, tangential, pre-dates this case's timeline) and a 2016 Census population figure (191) not previously registered, promoted as EV-0030 (further, non-independent corroboration for CTR-0001). No breakthrough on Q-0001 (commissioning), Q-0003 (cost increase), or Q-0005 (contractor) this run."
   }
 ]

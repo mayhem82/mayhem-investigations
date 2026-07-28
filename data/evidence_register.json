@@ -756,5 +756,31 @@
     "open_question_links": [
       "Q-0005"
     ]
+  },
+  {
+    "evidence_id": "EV-0030",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown (reflects 2016 and 2021 ABS Census data)",
+    "source_authority": "Your Investment Property Magazine (ABS Census-derived)",
+    "source_title": "Willawarrin, NSW 2440: Suburb Profile & Property Report",
+    "source_type": "Other Public Record",
+    "source_location": "https://www.yourinvestmentpropertymag.com.au/top-suburbs/nsw/2440-willawarrin",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; fetch not attempted given DEC-0008's general outage confirmed again this run. No file preserved or hashed.",
+    "evidence_description": "A third-party demographic aggregator drawing on ABS Census data gives Willawarrin's population as 191 in 2016 and 183 in 2021 (a 4.2% decline) - the 2016 figure is new to this register; the 2021 figure corroborates EV-0016/SRC-0030.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Strengthens (without formally resolving) CTR-0001: two ABS Census points six years apart (191 in 2016, 183 in 2021) both sit close to EV-0006's \"180\" figure and well below EV-0005's \"130\" figure, consistent with EV-0016's existing assessment that 130 is the more likely error of the two. Not independent of EV-0016 (same underlying ABS series), so treated as corroborating detail rather than a second independent source.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0016"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [
+      "CTR-0001"
+    ],
+    "open_question_links": []
   }
 ]
