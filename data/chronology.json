@@ -54,5 +54,13 @@
     "event_description": "Kempsey Shire Council moves to Level 2 water restrictions amid minimal forecast rainfall and declining Macleay River flow, naming Willawarrin and Bellbrook among the affected supply schemes. This is the earliest evidence found so far of the drought conditions behind the 2019-2020 trucked-water episode (CHR-0001), predating it by about five months.",
     "status": "Confirmed",
     "supporting_evidence": ["EV-0009"]
+  },
+  {
+    "chronology_id": "CHR-0008",
+    "event_date": "2024-10-01",
+    "date_is_inference": false,
+    "event_description": "Kinne Ring declared elected Kempsey Shire Council Mayor after distribution of preferences (53.67% of the vote), succeeding Leo Hauville, who did not recontest the mayoralty, as part of the 4 September 2024 NSW local government elections. Sourced from search-engine summaries only, not a directly fetched primary record (see EV-0011); marked Pending rather than Confirmed until checked against a primary source (SRC-0018).",
+    "status": "Pending",
+    "supporting_evidence": ["EV-0011"]
   }
 ]

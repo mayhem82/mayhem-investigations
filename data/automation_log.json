@@ -3,19 +3,63 @@
     "run_id": "RUN-0001",
     "date": "2026-07-28",
     "sources_checked": [
-      "SRC-0001", "SRC-0002", "SRC-0003", "SRC-0004", "SRC-0005", "SRC-0006",
-      "SRC-0007", "SRC-0008", "SRC-0009", "SRC-0010", "SRC-0011", "SRC-0012", "SRC-0013"
+      "SRC-0001",
+      "SRC-0002",
+      "SRC-0003",
+      "SRC-0004",
+      "SRC-0005",
+      "SRC-0006",
+      "SRC-0007",
+      "SRC-0008",
+      "SRC-0009",
+      "SRC-0010",
+      "SRC-0011",
+      "SRC-0012",
+      "SRC-0013"
     ],
     "result": "New evidence added.",
-    "evidence_added": ["EV-0001", "EV-0002", "EV-0003", "EV-0004", "EV-0005", "EV-0006", "EV-0007", "EV-0008"],
+    "evidence_added": [
+      "EV-0001",
+      "EV-0002",
+      "EV-0003",
+      "EV-0004",
+      "EV-0005",
+      "EV-0006",
+      "EV-0007",
+      "EV-0008"
+    ],
     "notes": "First evidence-collection pass for DFAPTI-BB-2026-00001, covering five searches (SRCH-0001 to SRCH-0005). Established the 2019-2020 drought/trucked-water episode and its resolution, the 2024-2025 Willawarrin treatment plant funding and construction start, and the adjacent $52.9m regional water security package. Three Kempsey Shire Council pages (SRC-0010, SRC-0011, SRC-0012) remain blocked (HTTP 403) to both an automated browser fetch tool and curl with a full browser header set, and are the most likely source of a current 2026 status update - manual browser retrieval is needed to resolve Q-0001. Unpursued leads for a future run: Kempsey Shire Council Public Forum agenda, 20 July 2026 (kempsey.nsw.gov.au, same access block); Macleay Argus 'Kempsey Shire moves to Level 2 water restrictions' (story 6198046, not yet fetched); Mirage News 'Kempsey Tap Water Passes Safety, Below PFAS Limits' (not yet fetched - a different contaminant to this case's iron/manganese focus, relevance not yet assessed)."
   },
   {
     "run_id": "RUN-0002",
     "date": "2026-07-28",
-    "sources_checked": ["SRC-0010", "SRC-0014", "SRC-0015"],
+    "sources_checked": [
+      "SRC-0010",
+      "SRC-0014",
+      "SRC-0015"
+    ],
     "result": "New evidence added.",
-    "evidence_added": ["EV-0009", "EV-0010"],
+    "evidence_added": [
+      "EV-0009",
+      "EV-0010"
+    ],
     "notes": "Follow-up run pursuing RUN-0001's unpursued leads, logged live in data/investigation_notes.json as the work happened (NOTE-0001 to NOTE-0005). Tried the Wayback Machine as an alternate route to SRC-0010 (Kempsey Council current-works page): a snapshot exists and a HEAD request succeeds, but every GET attempt returns HTTP 498 (SRCH-0006); stopped there rather than trying further header/technique variations, since forcing through a bot-detection block is not something this investigation should do regardless of legitimacy of purpose - still an open access gap, not a confirmed absence of information. The Level 2 water restrictions article (EV-0009) pushed the known drought onset back to June 2019. The PFAS article (EV-0010) is the first Bellbrook-specific evidence found since 2020, though it doesn't touch Bellbrook's treatment infrastructure - Q-0002 remains open. The 20 July 2026 Public Forum agenda (kempsey.nsw.gov.au) was not pursued this run - same access block expected; still a lead for a future run with manual browser access."
+  },
+  {
+    "run_id": "RUN-0003",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0010",
+      "SRC-0016",
+      "SRC-0017",
+      "SRC-0018",
+      "SRC-0019",
+      "SRC-0020"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0011"
+    ],
+    "notes": "Follow-up run pursuing RUN-0002's unpursued leads and all five open questions, logged live in investigation_notes.json (NOTE-0007 to NOTE-0013). Discovered WebFetch is broadly blocked this session for nearly all external domains (confirmed via a Wikipedia control fetch), not only kempsey.nsw.gov.au as previously documented (DEC-0007) - all research this run relied on WebSearch result summaries only, with no page directly fetched, preserved, or hashed. Found strong, multiply-corroborated evidence that Kinne Ring was declared Mayor on 1 October 2024 (53.67% after preferences), succeeding Leo Hauville who did not recontest, as part of the 4 September 2024 NSW local government elections (EV-0011, CHR-0008); this substantially addresses Q-0004 but is recorded as Secondary Reference/Requires Verification rather than closing the question, given the unverified sourcing (DEC-0007). A search-engine summary's claim of a distinct 'Bellbrook Water Treatment Plant' project was not accepted as evidence after a second search contradicted it and the source could not be checked directly (DEC-0008) - flagged as an unverified lead only. No new information found on the Willawarrin plant's current commissioning/operational status (Q-0001), the cost-increase rationale (Q-0003), or the Steuart McIntyre Dam contractor (Q-0005) beyond a tender listing (SRC-0020) that doesn't name an awardee. The 20 July 2026 Public Forum page was confirmed to exist (SRC-0019) but remains blocked, same as SRC-0010/0011/0012."
   }
 ]

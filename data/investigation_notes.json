@@ -52,5 +52,68 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0007",
+    "timestamp": "2026-07-28T14:05:00",
+    "activity_type": "Note",
+    "text": "Operator asked to start work in this repository with no further specifics given. Per spec section 19 (Resumption Protocol) and the leads recorded in RUN-0002 (three blocked Kempsey Council pages, the 20 July 2026 Public Forum agenda) plus the five open questions (Q-0001 to Q-0005), starting RUN-0003: a new evidence-collection pass targeting each open question and the unpursued Public Forum lead.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0008",
+    "timestamp": "2026-07-28T14:10:00",
+    "activity_type": "Blocked",
+    "text": "Re-checked the known-blocked Kempsey Shire Council pages (SRC-0010) plus a new Public Forum page: still HTTP 403 to WebFetch. Then ran a control test - fetched en.wikipedia.org/wiki/Kempsey_Shire, a page with no history of blocking automated tools - and it also returned HTTP 403. This indicates WebFetch is broadly non-functional in this session, not narrowly blocked by kempsey.nsw.gov.au's own bot detection as previously documented. Confirmed via the agent-proxy status endpoint that this is not an environment network-policy denial (only archive.org shows as policy-denied) - these are genuine 403 responses from the sites themselves. Recorded as DEC-0007. Continuing with WebSearch-only research this run; no new source content can be directly preserved or hashed today.",
+    "related_thread": "THR-08",
+    "related_source": "SRC-0010",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0009",
+    "timestamp": "2026-07-28T14:15:00",
+    "activity_type": "Researching",
+    "text": "Searching for updates on the five open questions (Q-0001 to Q-0005) and the mayoral leadership thread (THR-15) using WebSearch, since direct fetches are unavailable this session.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0010",
+    "timestamp": "2026-07-28T14:25:00",
+    "activity_type": "Finding",
+    "text": "Two independent search results (Macleay Argus 'Kinne Ring has the numbers to be Kempsey Shire's youngest mayor' and 'Mayor Leo Hauville steps down from Kempsey Shire leadership') consistently report Kinne Ring elected Mayor with 53.67% after preference distribution, declared 1 October 2024, succeeding Hauville who did not recontest - part of the scheduled 4 September 2024 NSW local government elections. This directly addresses Q-0004/THR-15. Registering as EV-0011, sourced to search-engine snippets only since direct fetch of the source articles or the NSW Electoral Commission's results page (also attempted, also blocked) failed - classified Secondary Reference / Requires Verification, and Q-0004 left open rather than closed given the unverified basis.",
+    "related_thread": "THR-15",
+    "related_source": null,
+    "related_evidence": "EV-0011"
+  },
+  {
+    "note_id": "NOTE-0011",
+    "timestamp": "2026-07-28T14:30:00",
+    "activity_type": "Blocked",
+    "text": "A single WebSearch summary claimed a 'Bellbrook Water Treatment Plant' exists as a distinct capital-works project (Mirage News, 'Kempsey Shire Council Adopts Largest Capital Works Budget and Future Growth Plans'), which would be a major, direct answer to Q-0002/THR-14. A follow-up search's own summary explicitly contradicted this, and the source article could not be fetched to check verbatim (403). Given the contradiction between two AI-generated search summaries and no ability to read the primary text, this claim is not being recorded as evidence - recorded as DEC-0008. Flagging for a future run with working fetch access to verify 'Bellbrook Water Treatment Plant' against a primary Kempsey Shire Council source before treating it as fact.",
+    "related_thread": "THR-14",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0012",
+    "timestamp": "2026-07-28T14:35:00",
+    "activity_type": "Blocked",
+    "text": "Checked the cost-increase (Q-0003) and Steuart McIntyre Dam contractor (Q-0005) leads. No source found explaining the specific reason for the Willawarrin plant's $4m to $8m cost increase beyond restating figures already in EV-0004/EV-0006 - no new evidence, Q-0003 remains open. Found a tender listing (australiantenders.com.au) confirming a Design & Construction tender was run for the Steuart McIntyre Dam plant, registered as SRC-0020, but the awarded contractor's name could not be found via search and the listing itself is unfetchable (403) - Q-0005 remains open.",
+    "related_thread": "THR-13",
+    "related_source": "SRC-0020",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0013",
+    "timestamp": "2026-07-28T14:40:00",
+    "activity_type": "Note",
+    "text": "This run's findings are now recorded: EV-0011 added (mayoral transition), CHR-0008 added, THR-15 updated to In Progress, five new sources registered (SRC-0016 to SRC-0020, all pending manual/primary confirmation), RUN-0003 logged in the Automation Log, SRCH-0007 to SRCH-0020 logged in the Search Log, and DEC-0007/DEC-0008 recorded. Central finding this run: WebFetch access is broadly unavailable this session (not just kempsey.nsw.gov.au), limiting this run to secondary, unpreserved evidence only - a meaningfully weaker evidentiary basis than RUN-0001/RUN-0002's hashed primary documents, flagged accordingly on EV-0011. All previously blocked leads (Kempsey Council pages, Public Forum agenda, dam contractor tender) remain open for a future run with working direct-fetch or manual browser access. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

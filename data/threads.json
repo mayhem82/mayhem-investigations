@@ -128,9 +128,9 @@
   {
     "thread_id": "THR-15",
     "name": "Kempsey Shire Council leadership timeline (evidence-attribution context)",
-    "status": "Not Started",
-    "supporting_evidence": ["EV-0004", "EV-0005"],
-    "outstanding_work": "New thread opened 2026-07-28 after EV-0004 (Aug 2024) and EV-0005 (Mar 2025) named different individuals as Mayor of Kempsey Shire Council. Confirm the date and cause of this change for accurate evidence attribution going forward (see Q-0004) - most plausibly the scheduled September 2024 NSW local government elections, but not yet confirmed by evidence.",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0011"],
+    "outstanding_work": "EV-0011 (RUN-0003) names Kinne Ring as elected Mayor on 1 October 2024, succeeding Leo Hauville, tied to the September 2024 NSW local government elections - but this is sourced from search-engine summaries only (WebFetch was broadly blocked this session, see DEC-0007), not a directly fetched primary record. Confirm against SRC-0018 (NSW Electoral Commission results page) or a Council governance record once fetch access allows, then Q-0004 can be closed.",
     "dependencies": [],
     "completion_state": "Not Complete"
   }

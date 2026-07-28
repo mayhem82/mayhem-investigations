@@ -218,5 +218,27 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": ["Q-0002"]
+  },
+  {
+    "evidence_id": "EV-0011",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-28",
+    "source_date": "2024-10-01",
+    "source_authority": "The Macleay Argus (Australian Community Media)",
+    "source_title": "Kinne Ring has the numbers to be Kempsey Shire's youngest mayor",
+    "source_type": "Media Report",
+    "source_location": "https://www.macleayargus.com.au/story/8778110/kinne-ring-has-the-numbers-to-be-kempsey-shires-youngest-mayor/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Two independent Macleay Argus search-engine result summaries consistently report that Kinne Ring was declared elected Kempsey Shire Council Mayor on 1 October 2024, with 53.67% of the vote after distribution of preferences, succeeding Leo Hauville (Mayor since 2021), who did not recontest the mayoralty. This ties directly to the scheduled 4 September 2024 NSW local government elections. Unlike EV-0001 through EV-0010, this evidence was not directly fetched, read in full, preserved, or hashed: WebFetch returned HTTP 403 for every source attempted this run, including a control-test fetch of an unrelated, normally-accessible Wikipedia page, indicating a broad access block for this session (see decisions.json DEC-0007) rather than a source-specific one. The content here is therefore drawn from WebSearch result summaries only, not verbatim primary text.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Establishes the mechanism and date of the Kempsey Shire Council mayoral change between EV-0004 (Aug 2024, Hauville) and EV-0005 (Mar 2025, Ring), directly relevant to Q-0004 and THR-15. Not used to close Q-0004 given its unverified evidentiary basis - flagged for confirmation against a primary source (SRC-0018, NSW Electoral Commission results page) once fetch access allows.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": ["EV-0004", "EV-0005"],
+    "chronology_links": ["CHR-0008"],
+    "contradiction_links": [],
+    "open_question_links": ["Q-0004"]
   }
 ]

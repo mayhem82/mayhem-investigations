@@ -46,5 +46,21 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Establishes a standing operating rule for this investigation: ordinary, honest HTTP requests (a realistic but truthful User-Agent, standard Accept headers) are fair game, but deliberately working harder to defeat a site's bot-detection is not, even in service of legitimate public-interest research. Blocked sources are recorded as access gaps in the Source Register (see SRC-0010/0011/0012) and flagged for manual, ordinary-browser retrieval rather than further automated workarounds."
+  },
+  {
+    "decision_id": "DEC-0007",
+    "date": "2026-07-28",
+    "reason": "During RUN-0003, WebFetch returned HTTP 403 for essentially every external URL attempted, including a control-test fetch of en.wikipedia.org/wiki/Kempsey_Shire (a page with no known history of blocking automated access), while the session's agent-proxy status endpoint showed no policy-level denial for these hosts (only archive.org, which this session's network egress policy denies outright). This indicates a broad-spectrum, site-side block (consistent with anti-AI-scraping measures) distinct from the narrower kempsey.nsw.gov.au-specific bot detection documented in DEC-0006. Per the DEC-0006 standing rule, no attempt was made to vary headers, user agents, or otherwise work around any of these blocks.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "This run's new evidence (EV-0011) could not be fetched, preserved, or hashed, and is recorded with verification_state 'Requires Verification' and classification 'Secondary Reference' rather than the preserved-and-hashed standard of EV-0001 through EV-0010. A future run should re-test direct fetch access before assuming this block is permanent rather than session-specific."
+  },
+  {
+    "decision_id": "DEC-0008",
+    "date": "2026-07-28",
+    "reason": "A WebSearch result summary asserted the existence of a distinct 'Bellbrook Water Treatment Plant' capital-works project, which would materially resolve Q-0002/THR-14. A second, independent search query's own summary explicitly contradicted this ('did not find specific information about a Bellbrook Water Treatment Plant as a distinct capital works project'), and the underlying article could not be fetched to check the primary text (see DEC-0007).",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Per spec section 4's Source Before Analysis principle, this claim was not accepted into the Evidence Register on the basis of an unverifiable, self-contradicting search-engine summary alone. Q-0002 and THR-14 are unchanged this run; the claim is preserved only as a lead in investigation_notes.json (NOTE-0011) for a future run to verify directly against a primary Kempsey Shire Council source."
   }
 ]
