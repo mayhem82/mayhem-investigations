@@ -44,11 +44,60 @@
     return el('span', { class: 'id-tag' }, [value]);
   }
 
+  // ---------------------------------------------------------------
+  // Cross-reference links
+  //
+  // Every register cites related records by ID (relationships,
+  // supporting_evidence, dependencies, etc.). This maps an ID's prefix to
+  // the workspace section that owns records of that type, so any such ID
+  // can be rendered as a real link that jumps to and opens that record,
+  // instead of inert text.
+  // ---------------------------------------------------------------
+
+  var ID_PREFIX_SECTIONS = [
+    ['EV-', 'evidence'],
+    ['CHR-', 'chronology'],
+    ['SRC-', 'sources'],
+    ['CTR-', 'contradictions'],
+    ['THR-', 'threads'],
+    ['NOTE-', 'notes'],
+    ['Q-', 'questions'],
+  ];
+
+  function sectionForId(id) {
+    var found = ID_PREFIX_SECTIONS.filter(function (pair) {
+      return String(id || '').indexOf(pair[0]) === 0;
+    })[0];
+    return found ? found[1] : null;
+  }
+
+  function openRecord(id) {
+    var target = document.getElementById('record-' + id);
+    if (!target) return;
+    target.open = true;
+    target.scrollIntoView({ block: 'start' });
+  }
+
+  function navigateToRecord(id) {
+    var section = sectionForId(id);
+    if (!section) return;
+    showSection(section, id);
+  }
+
+  function linkedTag(id, label) {
+    var text = label || id;
+    var section = sectionForId(id);
+    if (!section) return el('span', { class: 'tag-chip' }, [text]);
+    var btn = el('button', { class: 'tag-chip tag-chip-link', type: 'button' }, [text]);
+    btn.addEventListener('click', function () { navigateToRecord(id); });
+    return btn;
+  }
+
   function tagList(ids) {
     if (!ids || !ids.length) return el('span', { class: 'kv-value' }, ['None']);
     var wrap = el('div', { class: 'tag-list' });
     ids.forEach(function (id) {
-      wrap.appendChild(el('span', { class: 'tag-chip' }, [id]));
+      wrap.appendChild(linkedTag(id));
     });
     return wrap;
   }
@@ -65,13 +114,15 @@
     return el('div', { class: 'empty-state' }, [message]);
   }
 
-  function recordCard(titleNode, subtitle, bodyRows) {
+  function recordCard(recordId, titleNode, subtitle, bodyRows) {
     var summary = el('summary', {}, [
       el('div', { class: 'record-title' }, [titleNode]),
       subtitle ? el('div', { class: 'record-sub' }, [subtitle]) : null,
     ]);
     var body = el('div', { class: 'record-body' }, bodyRows);
-    return el('details', { class: 'record' }, [summary, body]);
+    var attrs = { class: 'record' };
+    if (recordId) attrs.id = 'record-' + recordId;
+    return el('details', attrs, [summary, body]);
   }
 
   function setFilterable(containerId, getSearchText) {
@@ -214,6 +265,7 @@
     }
     list.forEach(function (e) {
       var card = recordCard(
+        e.evidence_id,
         el('span', {}, [idTag(e.evidence_id), ' — ', e.source_title || '']),
         (e.source_authority || '') + (e.source_date ? ' · ' + e.source_date : ''),
         [
@@ -248,6 +300,7 @@
     }
     list.forEach(function (c) {
       var card = recordCard(
+        c.chronology_id,
         el('span', {}, [idTag(c.chronology_id), ' — ', c.event_date || '', c.date_is_inference ? ' (inferred)' : '']),
         c.event_description,
         [
@@ -271,6 +324,7 @@
     }
     list.forEach(function (s) {
       var card = recordCard(
+        s.source_id,
         el('span', {}, [idTag(s.source_id), ' — ', s.title || '']),
         s.authority,
         [
@@ -281,7 +335,7 @@
           kv('Current Version', s.current_version),
           kv('Preservation Status', badge(s.preservation_status)),
           kv('Hash Status', badge(s.hash_status)),
-          kv('Associated Thread', s.associated_thread),
+          kv('Associated Thread', s.associated_thread ? linkedTag(s.associated_thread) : '-'),
           kv('Availability Notes', s.availability_notes),
         ]
       );
@@ -299,6 +353,7 @@
     }
     list.forEach(function (c) {
       var card = recordCard(
+        c.contradiction_id,
         el('span', {}, [idTag(c.contradiction_id), ' — ', c.description || '']),
         null,
         [
@@ -325,6 +380,7 @@
     }
     list.forEach(function (q) {
       var card = recordCard(
+        q.question_id,
         el('span', {}, [idTag(q.question_id), ' — ', q.question || '']),
         null,
         [
@@ -351,6 +407,7 @@
     }
     list.forEach(function (t) {
       var card = recordCard(
+        t.thread_id,
         el('span', {}, [idTag(t.thread_id), ' — ', t.name || '']),
         null,
         [
@@ -388,6 +445,7 @@
     });
     sorted.forEach(function (n) {
       var card = recordCard(
+        n.note_id,
         el('span', {}, [badge(n.activity_type)]),
         null,
         [
@@ -475,7 +533,10 @@
       if (seen.has(dedupeKey)) return;
       seen.add(dedupeKey);
       if (!adjacency[ownerKey]) adjacency[ownerKey] = { type: ownerNode.type, id: ownerNode.id, links: [] };
-      adjacency[ownerKey].links.push(relation + ' → ' + otherNode.type + ' ' + labelFor(otherNode));
+      adjacency[ownerKey].links.push({
+        targetId: otherNode.id,
+        label: relation + ' → ' + otherNode.type + ' ' + labelFor(otherNode),
+      });
     }
 
     edges.forEach(function (edge) {
@@ -506,10 +567,18 @@
     nodeKeys.forEach(function (key) {
       var node = adjacency[key];
       var title = node.type + ' ' + node.id + (labels[key] ? ' — ' + labels[key] : '');
+      var linksWrap = el('div', { class: 'tag-list' });
+      node.links.forEach(function (link) {
+        linksWrap.appendChild(linkedTag(link.targetId, link.label));
+      });
+      // No stable id passed here (relationship-map nodes reuse the same
+      // EV-/CHR-/... ids as their home-section records) - this derived
+      // view is a link *source*, not a navigation target itself.
       var card = recordCard(
+        null,
         el('span', {}, [title]),
         node.links.length + ' link(s)',
-        [tagList(node.links)]
+        [linksWrap]
       );
       container.appendChild(card);
     });
@@ -519,7 +588,16 @@
   // Navigation
   // ---------------------------------------------------------------
 
-  function showSection(name) {
+  var VALID_SECTIONS = ['resume', 'overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'threads', 'relationships', 'notes'];
+
+  // recordId, if given, opens and scrolls to that record's card within the
+  // section (a real deep link, e.g. #evidence/EV-0011). opts.replace uses
+  // history.replaceState instead of pushState - used only when responding
+  // to a URL that's already current (initial load, popstate) so we don't
+  // stack a duplicate history entry; user-initiated clicks always push, so
+  // browser back/forward moves through the pages actually visited.
+  function showSection(name, recordId, opts) {
+    opts = opts || {};
     document.querySelectorAll('.workspace-section').forEach(function (section) {
       section.hidden = section.id !== 'section-' + name;
     });
@@ -527,8 +605,16 @@
       link.classList.toggle('active', link.dataset.section === name);
     });
     closeDrawer();
-    window.scrollTo(0, 0);
-    try { history.replaceState(null, '', '#' + name); } catch (e) { /* ignore */ }
+    var hash = '#' + name + (recordId ? '/' + recordId : '');
+    try {
+      if (opts.replace) history.replaceState(null, '', hash);
+      else history.pushState(null, '', hash);
+    } catch (e) { /* ignore */ }
+    if (recordId) {
+      openRecord(recordId);
+    } else {
+      window.scrollTo(0, 0);
+    }
   }
 
   function openDrawer() {
@@ -543,6 +629,20 @@
     document.getElementById('menu-toggle').setAttribute('aria-expanded', 'false');
   }
 
+  // Parses "#section/RECORD-ID" (the record part is optional) into its
+  // two pieces, falling back to the Resume section for anything unknown.
+  function parseHash() {
+    var raw = (window.location.hash || '').replace('#', '');
+    var parts = raw.split('/');
+    var section = VALID_SECTIONS.indexOf(parts[0]) !== -1 ? parts[0] : 'resume';
+    return { section: section, recordId: parts[1] || null };
+  }
+
+  // Set once at startup from the incoming URL; consumed after the initial
+  // data load finishes rendering, since a record's card doesn't exist in
+  // the DOM (openRecord has nothing to find/scroll to) until then.
+  var pendingRecordId = null;
+
   function initNav() {
     document.getElementById('menu-toggle').addEventListener('click', function () {
       var isOpen = !document.getElementById('nav-drawer').hidden;
@@ -555,9 +655,18 @@
       });
     });
 
-    var initial = (window.location.hash || '').replace('#', '');
-    var valid = ['resume', 'overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'threads', 'relationships', 'notes'];
-    showSection(valid.indexOf(initial) !== -1 ? initial : 'resume');
+    window.addEventListener('popstate', function () {
+      var parsed = parseHash();
+      showSection(parsed.section, parsed.recordId, { replace: true });
+    });
+
+    var initial = parseHash();
+    pendingRecordId = initial.recordId;
+    // recordId is passed here only so the URL hash is set correctly right
+    // away; openRecord silently no-ops since no record cards exist in the
+    // DOM yet (data hasn't loaded). The bootstrap's post-render step below
+    // calls openRecord(pendingRecordId) again once they do.
+    showSection(initial.section, initial.recordId, { replace: true });
   }
 
   // ---------------------------------------------------------------
@@ -636,6 +745,15 @@
       'Repository v' + caseDef.repository_version + ' · ' + caseDef.specification_version;
     document.getElementById('footer-loaded').textContent =
       'Loaded ' + new Date().toLocaleString();
+
+    // Now that every section's record cards exist in the DOM, fulfil a
+    // deep link from the page's initial URL (e.g. #evidence/EV-0011),
+    // which initNav() couldn't do earlier since there was nothing yet to
+    // scroll to or open.
+    if (pendingRecordId) {
+      openRecord(pendingRecordId);
+      pendingRecordId = null;
+    }
 
     // Investigation Notes poll for live updates while this static page stays open -
     // there is no server push, so a plain periodic re-fetch is the honest equivalent

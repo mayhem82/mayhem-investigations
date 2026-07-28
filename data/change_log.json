@@ -145,5 +145,20 @@
     ],
     "reason": "RUN-0003, continuing evidence collection at the operator's request while they separately attempt the four blocked kempsey.nsw.gov.au URLs with their own browser tools. Added EV-0011/EV-0012 (resolving Q-0004, the mayoral transition) and EV-0013 (pushes the Willawarrin plant's documented history back to May 2022). Closed THR-15 and Q-0004; opened Q-0006 for a residual date discrepancy in EV-0011 that could not be independently confirmed either way. Ruled out the WaterNSW 2025 compliance report as inapplicable (logged as a note, not a source, since it was checked and found not to mention this case at all).",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0008",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      ".github/workflows/deploy-pages.yml",
+      "index.html",
+      "README.md",
+      "site/app.js",
+      "site/style.css",
+      "data/change_log.json"
+    ],
+    "reason": "Made the workspace a real, navigable website per the operator's request. (1) Added a GitHub Actions workflow publishing the repository root to GitHub Pages on every push to main, plus a root index.html redirecting to site/, so the workspace is reachable at a live URL instead of requiring a local static server. (2) Every cross-reference ID a register cites (relationships, supporting_evidence, dependencies, etc., previously rendered as inert text chips) is now a real link: clicking it switches to the owning section, opens and scrolls to that specific record, and updates the URL to a shareable #section/RECORD-ID deep link; section and record navigation now use history.pushState on user clicks (previously always replaceState) so browser back/forward works like ordinary page navigation.",
+    "validation_completed": true
   }
 ]

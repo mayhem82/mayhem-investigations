@@ -67,9 +67,14 @@ closed questions must cite resolving evidence). It never modifies data.
 
 ## Viewing the workspace
 
-The workspace fetches the JSON files in `data/` at runtime, so it must be
-served over HTTP (not opened as a `file://` page). From the repository
-root:
+**Live:** every push to `main` deploys the workspace to GitHub Pages
+(`.github/workflows/deploy-pages.yml`) at
+**https://mayhem82.github.io/mayhem-investigations/** - visiting the bare
+URL redirects straight into `site/`.
+
+**Locally:** the workspace fetches the JSON files in `data/` at runtime, so
+it must be served over HTTP (not opened as a `file://` page). From the
+repository root:
 
 ```
 python -m http.server 8123
@@ -79,6 +84,10 @@ then open `http://localhost:8123/site/` in a browser. It is designed
 mobile-first: stacked layouts, no horizontal scrolling, expandable records.
 The workspace opens on a **Resume** view (spec section 19) summarizing the
 latest state of every register, with one-tap links into the full registers.
+Every ID a register cites (`EV-0001`, `CHR-0002`, ...) is a real link that
+jumps to and expands that record, and the URL updates to match
+(`#evidence/EV-0001`) so a specific record can be bookmarked or shared
+directly.
 
 The **Investigation Notes** view polls `data/investigation_notes.json`
 every 15 seconds while open, so if a collection run is appending notes
