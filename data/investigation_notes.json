@@ -178,5 +178,50 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0021",
+    "timestamp": "2026-07-28T17:05:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0006). Re-testing whether last run's fetch-tool outage (DEC-0008) was transient before starting fresh searches on Q-0001, Q-0002, Q-0003, and a new angle: the Thunggutti Aboriginal Community's water-security status, which EV-0010 already names as one of the eight tested supply systems but which has no dedicated thread yet.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0022",
+    "timestamp": "2026-07-28T17:07:00",
+    "activity_type": "Blocked",
+    "text": "Retried fetching the exact SRC-0026 URL from RUN-0005 - still HTTP 403 Forbidden. DEC-0008's constraint still applies this session; not retrying further per that decision. Continuing with search-only research.",
+    "related_thread": null,
+    "related_source": "SRC-0026",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0023",
+    "timestamp": "2026-07-28T17:15:00",
+    "activity_type": "Finding",
+    "text": "Two independent search queries ('Thunggutti Aboriginal Community Bellbrook water supply security drinking water' and a follow-up on the specific program name) both surfaced NSW's 'Aboriginal Communities Water and Sewerage Program' (a $200 million joint NSW Government/NSW Aboriginal Land Council initiative running since December 2008) and both consistently state its Completed Projects listing names Bellbrook as a community that has received drinking-water and sewerage upgrade/repair work. Neither search surfaced a date or scope of work more specific than 'completed'. This is a genuinely new, substantive lead for Q-0002/THR-14 (Bellbrook-specific infrastructure, open since RUN-0001) - a dedicated program distinct from the Willawarrin plant. Could not fetch the program's own completed-projects page to confirm (water.dcceew.nsw.gov.au, same domain family as the already-blocked SRC-0006/SRC-0007). Registering as a new, blocked source (SRC-0027) rather than an Evidence Register entry, consistent with DEC-0008.",
+    "related_thread": "THR-14",
+    "related_source": "SRC-0027",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0024",
+    "timestamp": "2026-07-28T17:20:00",
+    "activity_type": "Note",
+    "text": "Re-checked Q-0001 (commissioning) and Q-0003 (cost increase reason) with fresh phrasing - both returned only already-registered facts ('early 2026' target, the $4m-to-$8m figures with no stated reason). No new sources for either this run.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0025",
+    "timestamp": "2026-07-28T17:23:00",
+    "activity_type": "Note",
+    "text": "RUN-0006 wrapping up: SRC-0027 added, SRCH-0023 through SRCH-0026 logged. No Evidence Register, Chronology, or Open Question status changes - Q-0001, Q-0002, Q-0003, and Q-0005 remain open, but Q-0002/THR-14's outstanding_work now points to a specific, named program (Aboriginal Communities Water and Sewerage Program) as the next thing to confirm, rather than an open-ended gap. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

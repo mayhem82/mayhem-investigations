@@ -86,5 +86,16 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request, targeting Q-0001, Q-0002, Q-0003, and Q-0005 (SRCH-0017 through SRCH-0022). This session's fetch tool returned HTTP 403 on every URL attempted, including a domain and exact URL this repository previously fetched successfully (SRC-0015) and unrelated control URLs (Wikipedia, example.com) - a session-level tooling issue, not a site-specific block, recorded as DEC-0008 so it isn't mistaken for an absence of available sources. As a result no Evidence Register entries were added this run, since none could be preserved/hashed to this repository's existing bar. Registered two new sources for a genuine lead on Q-0005: SRC-0025 (Utility Magazine) and SRC-0026 (Mirage News), both consistently naming 'LC Eire, a partnership between LC Water and Eire Constructions' as the Steuart McIntyre Dam plant's contractor - a strong candidate answer, not yet confirmed against either primary text. Ruled out a one-off '$270 million' program figure and a 'Bellbrook Water Treatment Plant' claim as unreproduced/already-rejected search noise (see NOTE-0019, DEC-0007). Q-0001, Q-0002, Q-0003, and Q-0005 remain open."
+  },
+  {
+    "run_id": "RUN-0006",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0026",
+      "SRC-0027"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request (SRCH-0023 through SRCH-0026). Re-confirmed DEC-0008's fetch-tool outage still applies (retried the exact SRC-0026 URL, still HTTP 403). Found a genuinely new, specific lead for Q-0002/THR-14 (open since RUN-0001): two independent search queries consistently state NSW's 'Aboriginal Communities Water and Sewerage Program' (a $200m joint NSW Government/NSW Aboriginal Land Council initiative since December 2008) lists Bellbrook among its Completed Projects for drinking-water/sewerage upgrade work - registered as SRC-0027, blocked to fetch, not yet an Evidence Register entry. No new information found on Q-0001 or Q-0003 this run. No Evidence Register, Chronology, or Contradiction changes."
   }
 ]

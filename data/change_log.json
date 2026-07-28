@@ -195,5 +195,21 @@
     ],
     "reason": "RUN-0005, continuing evidence collection at the operator's request. This session's fetch tool was found to be broadly non-functional (HTTP 403 on every URL tried, including a previously-successful domain and unrelated control URLs), recorded as DEC-0008 - a session-level constraint, not a site-specific block. Registered SRC-0025/SRC-0026, a strong but unconfirmed lead identifying 'LC Eire' (LC Water + Eire Constructions) as the Steuart McIntyre Dam plant's contractor, updating Q-0005/THR-13 accordingly. No Evidence Register, Chronology, or Contradiction changes - nothing found this run could be preserved/hashed to this repository's existing evidentiary bar.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0011",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/threads.json",
+      "data/open_questions.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0006, continuing evidence collection at the operator's request. Confirmed DEC-0008's fetch-tool outage still applies this session. Registered SRC-0027, a specific new lead for Q-0002/THR-14 (open since RUN-0001): NSW's Aboriginal Communities Water and Sewerage Program reportedly lists Bellbrook among its Completed Projects, per two independent search snippets. No Evidence Register, Chronology, or Contradiction changes - not yet confirmed against a primary source.",
+    "validation_completed": true
   }
 ]

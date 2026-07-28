@@ -362,5 +362,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-13",
     "availability_notes": "miragenews.com returns HTTP 403 Forbidden to this session's fetch tool, including this exact domain's previously-successful SRC-0015/EV-0010 URL (see DEC-0008). Independent search-engine snippet reproduces the same 'LC Eire' contractor claim as SRC-0025 in consistent wording, strengthening but not confirming that lead for Q-0005."
+  },
+  {
+    "source_id": "SRC-0027",
+    "authority": "NSW Government (Water, water.dcceew.nsw.gov.au)",
+    "title": "Aboriginal Communities Water and Sewerage Program - Completed projects",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.water.dcceew.nsw.gov.au/our-work/projects-and-programs/aboriginal-water-programs/aboriginal-communities-water-and-0",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-14",
+    "availability_notes": "water.dcceew.nsw.gov.au returns HTTP 403 Forbidden to this session's fetch tool (same domain family as SRC-0006/SRC-0007; see DEC-0008). Two independent search-engine snippets consistently state this program's Completed Projects listing names Bellbrook as a community that received drinking-water/sewerage upgrade or repair work, under a $200 million joint NSW Government/NSW Aboriginal Land Council initiative running since December 2008. Neither snippet gave a specific date or scope for the Bellbrook work - a strong, specific lead for Q-0002/THR-14, not yet an Evidence Register entry pending primary-source confirmation."
   }
 ]
