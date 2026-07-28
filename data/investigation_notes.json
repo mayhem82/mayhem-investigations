@@ -817,5 +817,14 @@
     "related_thread": "THR-13",
     "related_source": null,
     "related_evidence": "EV-0029"
+  },
+  {
+    "note_id": "NOTE-0092",
+    "timestamp": "2026-07-29T07:40:00",
+    "activity_type": "Note",
+    "text": "RUN-0030: retried the fetch tool once (archive.org's Wayback availability API, a different domain family not tried before) - still HTTP 403, DEC-0008 unchanged; even archive.org is now blocked, versus the HTTP 498 an earlier session recorded for the same general approach (DEC-0006), consistent with DEC-0008 being a broader, session-level constraint rather than anything site-specific. Tried several genuinely new angles this run: NSW Parliament Hansard/Questions-and-Answers (a source type not used before - found a 2013 Legislative Council Q&A mentioning \"Willawarrin Sewerage\" funding, SRC-0057, though it's a decade before this case's core timeline and concerns sewerage rather than water treatment), Thunggutti Local Aboriginal Land Council (no water-specific content found), local state MPs for Oxley/Myall Lakes (no direct connection found beyond a Bellbrook resident's past candidacy), and third-party demographic aggregators for CTR-0001 (found a 2016 Census figure of 191, not previously registered, corroborating but not independent of EV-0016 - EV-0030). No breakthrough on Q-0001/Q-0003/Q-0005 this run.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0030"
   }
 ]

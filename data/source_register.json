@@ -768,5 +768,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-13",
     "availability_notes": "nationalwatergrid.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). A periodic federal project-tracker PDF; per search-engine snippet, lists the Kempsey Water Treatment Plant (Steuart McIntyre Dam/Sherwood Borefield) as \"Under construction\" as of 31 August 2025 - about five months after EV-0006's March 2025 sod-turning. No later edition (e.g. a \"dec-2025\" or \"2026\" version) could be found via search; only \"may-2024\", \"jan-2025\", and \"aug-2025\" editions surfaced."
+  },
+  {
+    "source_id": "SRC-0056",
+    "authority": "Your Investment Property Magazine (ABS Census-derived suburb profile)",
+    "title": "Willawarrin, NSW 2440: Suburb Profile & Property Report",
+    "type": "Other Public Record",
+    "url_or_file_location": "https://www.yourinvestmentpropertymag.com.au/top-suburbs/nsw/2440-willawarrin",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "yourinvestmentpropertymag.com.au fetch not attempted (DEC-0008's general outage makes it very unlikely to succeed, confirmed again this run via a fresh retry on two other URLs). A property-industry suburb profile drawing on ABS Census data (not independent of SRC-0030/EV-0016, since it cites the same underlying ABS series), but adds a specific figure not previously registered: 2016 Census population 191, against 2021's 183 - a 4.2% decline - plus a gender breakdown (55.1% male / 44.9% female) and median age of 50."
+  },
+  {
+    "source_id": "SRC-0057",
+    "authority": "NSW Parliament (Legislative Council)",
+    "title": "Legislative Council Questions and Answers No. 170, 17 October 2013",
+    "type": "Legislation",
+    "url_or_file_location": "https://www.parliament.nsw.gov.au/lc/papers/Documents/2013/17-october-2013-questions-and-answers/QA_170_17_OCTOBER_2013.pdf",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "parliament.nsw.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). A genuinely new primary-source type not yet used in this register: an official NSW Legislative Council Questions and Answers paper, per search-engine snippet including \"Willawarrin Sewerage\" among a list of water/sewerage projects funded in the 2010-11 financial year. No specific dollar figure or project scope could be extracted from the snippet; concerns sewerage rather than the water-treatment/contamination issues this case centres on, and predates the case's core 2019+ timeline by nearly a decade, but is a real, dated, and citable historical infrastructure record worth preserving as background once fetchable."
   }
 ]
