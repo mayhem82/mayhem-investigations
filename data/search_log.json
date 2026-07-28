@@ -526,5 +526,29 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 16,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0045",
+    "search_terms": "\"yoursay.macleay.nsw.gov.au/Willawarrin\" quick poll results survey responses water",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0046",
+    "search_terms": "NSW Health drinking water database Kempsey Willawarrin Bellbrook compliance status monitoring / Kempsey water testing results 2023-2024 Willawarrin Bellbrook 100% compliance pH turbidity fluoride E.coli iron manganese / \"water testing results 2023-2024\" Willawarrin supply table pH turbidity samples compliance percent",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 25,
+    "results_preserved": 0
   }
 ]

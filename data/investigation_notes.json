@@ -403,5 +403,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0046",
+    "timestamp": "2026-07-28T21:05:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0013). Retried the fetch tool once (SRC-0032's URL) - still HTTP 403, DEC-0008 unchanged. Tried the 'Your Say Macleay' Willawarrin quick-poll results sub-page (a specific URL not tried in RUN-0009's check of the parent page) and NSW Health's Drinking Water Database/Data Portal for THR-03/THR-04's stated concentration-data gap.",
+    "related_thread": "THR-03",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0047",
+    "timestamp": "2026-07-28T21:10:00",
+    "activity_type": "Blocked",
+    "text": "The quick-poll page returned no usable detail via search snippet (only generic Willawarrin background copy). The Drinking Water Database angle initially looked promising - one search summary claimed 'both Willawarrin and Bellbrook water supplies showed 100% compliance across major parameters' for 2023-2024 - but two follow-up searches attributed the actual numeric figures (98.3% pH compliance, 176 samples, etc.) specifically to 'Kempsey and Lower Macleay Water Supply' and 'South West Rocks Water Supply', with no Willawarrin-specific table surfacing at all. This is the same unreliable, self-contradicting search-summary pattern DEC-0007 already declined to accept - not registering any of this as evidence or even as a new source, since it isn't clear enough which system the figures actually describe to be worth citing even provisionally.",
+    "related_thread": "THR-03",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0048",
+    "timestamp": "2026-07-28T21:13:00",
+    "activity_type": "Note",
+    "text": "RUN-0013 wrapping up: no new sources, evidence, chronology, or open-question changes. Both angles this run either returned nothing usable or produced an inconsistent search summary not solid enough to register even as a source, consistent with DEC-0007's standard. Logging as 'No relevant change detected.' Q-0001 through Q-0006 and CTR-0001 all remain open. Validating and committing the logs now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

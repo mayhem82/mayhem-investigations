@@ -296,5 +296,18 @@
     ],
     "reason": "RUN-0012, continuing evidence collection at the operator's request. Found a previously-unregistered sod-turning/ground-breaking event for the Steuart McIntyre Dam plant (THR-13), corroborated across two independent sources (SRC-0032, SRC-0033), confirming construction genuinely began around July 2025 as EV-0005 announced. Contractor still unnamed - Q-0005 remains open. No Evidence Register or Chronology changes, since neither source could be fetched/preserved this session (DEC-0008).",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0018",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0013, continuing evidence collection at the operator's request. A Drinking Water Database lead for THR-03/THR-04's concentration-data gap turned out to be an inconsistent, self-contradicting search-summary result across three queries (unclear which supply system's compliance figures were being described) - not registered per DEC-0007's standard. No new sources, evidence, chronology, or open-question changes.",
+    "validation_completed": true
   }
 ]

@@ -158,5 +158,13 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request, targeting THR-13's contractor/construction-progress gap for the Steuart McIntyre Dam plant. DEC-0008's fetch-tool outage still applies. Found a genuinely new, previously-unregistered event: two independent articles (an NSW Government release and a Port Macquarie News/Macleay Argus syndicated report) confirm a sod-turning/ground-breaking event for this project, placed 'as of July 2025' - consistent with EV-0005's announced mid-2025 start and the equivalent milestone to EV-0006 for the Willawarrin plant. Neither names the contractor, so Q-0005 remains open, but this confirms construction is genuinely underway. Registered as SRC-0032/SRC-0033, both fetch-blocked; updated THR-13's outstanding_work."
+  },
+  {
+    "run_id": "RUN-0013",
+    "date": "2026-07-28",
+    "sources_checked": [],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request (SRCH-0045/SRCH-0046), targeting THR-03/THR-04's concentration-data gap and a 'Your Say Macleay' quick-poll lead. DEC-0008's fetch-tool outage still applies. The quick-poll page returned no usable detail. The Drinking Water Database angle initially looked promising (one search claimed 100% compliance for Willawarrin/Bellbrook specifically), but two follow-up searches attributed the actual numeric figures to 'Kempsey and Lower Macleay' and 'South West Rocks' supplies instead, with no Willawarrin-specific table found - an inconsistent, self-contradicting result not solid enough to register per DEC-0007's standard. No new sources, evidence, chronology, or open-question changes."
   }
 ]
