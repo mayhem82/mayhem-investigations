@@ -727,5 +727,41 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0082",
+    "timestamp": "2026-07-29T04:00:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue DFAPTI. Merged the operator-approved chronology-sort PR and RUN-0024's PR into main first (RUN-0024 had a change_log.json conflict with the sort PR, resolved by keeping both entries in ID order). Retried the fetch tool once for this run - still HTTP 403, DEC-0008 unchanged. Continuing to dig into THR-02: searching specifically for a Bellbrook-only start/end date distinct from Willawarrin's.",
+    "related_thread": "THR-02",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0083",
+    "timestamp": "2026-07-29T04:06:00",
+    "activity_type": "Note",
+    "text": "Four targeted searches for a Bellbrook-specific trucked-water start or end date all reproduced only already-registered facts: every source treats Willawarrin and Bellbrook as returning to river supply together on 18 June 2020 (CHR-0002), and describes Bellbrook's carting as 'intermittent' rather than tied to a single clean start date (consistent with SRC-0044). Recording this as the working conclusion in THR-02 rather than continuing to search for a date that may not exist in the public record.",
+    "related_thread": "THR-02",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0084",
+    "timestamp": "2026-07-29T04:10:00",
+    "activity_type": "Finding",
+    "text": "While searching, found a genuinely new chronology gap-filler unrelated to the Bellbrook-date question: Kempsey Shire Council moved to Level 3 water restrictions on 2 December 2019 (Macleay Argus), between the known Level 2 restrictions (4 June 2019, CHR-0007) and the trucked-water period already documented from October-November 2019 - showing continued drought escalation through this window. Registered as SRC-0046 (fetch-blocked), linked to THR-01.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0046",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0085",
+    "timestamp": "2026-07-29T04:12:00",
+    "activity_type": "Note",
+    "text": "RUN-0025 wrapping up: SRC-0046 added (Level 3 restrictions, 2 Dec 2019), THR-01 and THR-02 updated, SRCH-0072 through SRCH-0075 logged. No Evidence Register, Chronology, or Open Question changes - nothing could be fetched or preserved this session (DEC-0008). THR-02's Bellbrook-specific date question is now recorded as likely unanswerable from the public record rather than left as an open search target. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

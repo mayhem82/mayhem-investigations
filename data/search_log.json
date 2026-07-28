@@ -850,5 +850,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0072",
+    "search_terms": "Bellbrook water carting ended \"back on\" river OR bore supply date 2020",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0073",
+    "search_terms": "\"Bellbrook\" water carting began start date November 2019 Kempsey drought",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0074",
+    "search_terms": "\"Kempsey Shire moves to Level 3 water restrictions\" date published",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0075",
+    "search_terms": "\"Kempsey Shire: A year on from water restrictions\" Bellbrook Willawarrin trucked",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
   }
 ]
