@@ -456,13 +456,28 @@
     "validation_completed": true
   },
   {
+    "change_id": "CHG-0029",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0024, continuing evidence collection at the operator's request, focused specifically on THR-02 (trucked water) per their instruction. Found the first source confirming Bellbrook actually received trucked water (SRC-0044, a Dec 2023 Council FAQ giving a specific Willawarrin start date of 2 October 2019 and confirming intermittent Bellbrook/Thunggutti carting) and the first volume/cost figures for the episode (SRC-0045: $161,000 funding, ~10-13 kL/day per village). Both fetch-blocked, registered as sources only, not evidence. THR-02 updated; no other register status changes.",
+    "validation_completed": true
+  },
+  {
     "change_id": "CHG-0030",
     "date": "2026-07-29",
     "author": "mayhem82",
     "files_affected": [
       "app.js"
     ],
-    "reason": "Operator feedback: the Chronology view displayed entries in data-file (insertion) order rather than chronological order. Added chronologySortKey() (extracts the leading YYYY[-MM[-DD]] prefix from the free-text event_date field, per docs/DATA_MODEL.md's 'ISO date, or approximate text' definition) and sorted renderChronology()'s list by it before rendering, so entries with partial/approximate dates (e.g. '1967', '2024 (by August)') still sort correctly alongside full ISO dates. No other views or data files changed. Note: change_id CHG-0029 is reserved by a separate, still-open pull request (RUN-0024) opened before this one; skipping it here avoids a collision once both merge.",
+    "reason": "Operator feedback: the Chronology view displayed entries in data-file (insertion) order rather than chronological order. Added chronologySortKey() (extracts the leading YYYY[-MM[-DD]] prefix from the free-text event_date field, per docs/DATA_MODEL.md's 'ISO date, or approximate text' definition) and sorted renderChronology()'s list by it before rendering, so entries with partial/approximate dates (e.g. '1967', '2024 (by August)') still sort correctly alongside full ISO dates. No other views or data files changed.",
     "validation_completed": true
   }
 ]

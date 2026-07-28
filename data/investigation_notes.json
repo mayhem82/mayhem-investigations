@@ -682,5 +682,50 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0077",
+    "timestamp": "2026-07-29T03:00:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue DFAPTI, concentrating specifically on the trucked-water thread (THR-02). Retried the fetch tool once first - still HTTP 403, DEC-0008 unchanged. THR-02's stated outstanding work: confirm whether Bellbrook actually required trucked water on the timeline EV-0001 anticipated, and the exact total duration in each town.",
+    "related_thread": "THR-02",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0078",
+    "timestamp": "2026-07-29T03:08:00",
+    "activity_type": "Finding",
+    "text": "Found the first source directly confirming Bellbrook actually received trucked water, not just an anticipated need: a December 2023 Kempsey Shire Council FAQ (via Mirage News) recapping the 2019-2020 episode states water was carted to Willawarrin 'since October 2' (2019) and 'intermittently' to Bellbrook and the Thunggutti Aboriginal Community during the bushfire emergency. Registered as SRC-0044.",
+    "related_thread": "THR-02",
+    "related_source": "SRC-0044",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0079",
+    "timestamp": "2026-07-29T03:12:00",
+    "activity_type": "Finding",
+    "text": "Found the first specific volume/cost figures for the trucked-water episode: a Macleay Argus article ('Kempsey to receive $4 million for secure water supply', reporting on a January 2020 announcement) states the government provided an additional $161,000 for water carting to Willawarrin and Bellbrook, with Council delivering approximately 10-13 kilolitres a day to each village. Registered as SRC-0045.",
+    "related_thread": "THR-02",
+    "related_source": "SRC-0045",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0080",
+    "timestamp": "2026-07-29T03:16:00",
+    "activity_type": "Note",
+    "text": "Checked whether water trucking has recurred at Willawarrin/Bellbrook since the June 2020 restoration, given the case's 'recurring' framing - found nothing; every search still returns only the 2019-2020 episode. No relevant change on that specific angle.",
+    "related_thread": "THR-02",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0081",
+    "timestamp": "2026-07-29T03:18:00",
+    "activity_type": "Note",
+    "text": "RUN-0024 wrapping up: SRC-0044 and SRC-0045 added (both bear directly on THR-02, giving a specific Willawarrin start date, confirmation Bellbrook was actually carted water, and volume/cost figures), THR-02 updated, SRCH-0067 through SRCH-0071 logged. Neither promoted to evidence - nothing could be fetched or preserved this session (DEC-0008). Bellbrook's own specific start/end dates and total duration remain open; no Evidence Register, Chronology, or Open Question changes. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

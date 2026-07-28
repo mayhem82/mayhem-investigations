@@ -600,5 +600,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-07",
     "availability_notes": "themidnorthcoaster.com.au fetch not attempted this session (DEC-0008's general outage makes it very unlikely to succeed, based on every domain tried so far). Genuinely new finding for this repository, cross-confirmed across two independent search queries with consistent, specific figures: Kempsey Shire Council recorded an $8.1 million general fund deficit for FY2024-25, nearly double the prior year's approximately $4 million gap. CEO Andrew Meddle is quoted describing the budget as 'not healthy' and warning a 'step change' is needed for financial sustainability. A November 2025 presentation to council by the NSW Audit Office and the council's external auditor (HLB) is the stated source of this information - directly connecting Kempsey Shire Council to NSW Audit Office scrutiny of its finances, relevant to this case's original brief to check whether Kempsey is named in NSW Audit Office reporting on at-risk/loss-making councils (not yet separately confirmed for the specific 'Appendix 2' list in the Local Government 2025 report). Also notes: grant income down (~3% capital, ~18% operating) versus 2024, rates/annual-charges revenue up 6.3%, and approximately $49 million spent on asset renewals plus $19 million on new asset construction during the year."
+  },
+  {
+    "source_id": "SRC-0044",
+    "authority": "Mirage News (relaying Kempsey Shire Council)",
+    "title": "Kempsey Council Answers Your Water Restrictions Queries",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.miragenews.com/kempsey-council-answers-your-water-restrictions-1138844/",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; published 7 December 2023 per search-engine snippet",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-02",
+    "availability_notes": "miragenews.com returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). A December 2023 Council FAQ that, per search-engine snippet, recaps the 2019-2020 episode with a specific detail not previously registered: Council carted water to Willawarrin 'since October 2' (2019, by context) and 'intermittently' to Bellbrook and the Thunggutti Aboriginal Community during the bushfire emergency. This is the first source directly confirming Bellbrook actually received trucked water (not just anticipated, per EV-0001) and gives a specific Willawarrin start date - directly relevant to THR-02's outstanding question. Not promoted to evidence, since nothing could be fetched or preserved this session."
+  },
+  {
+    "source_id": "SRC-0045",
+    "authority": "The Macleay Argus (Australian Community Media)",
+    "title": "Kempsey to receive $4 million for secure water supply",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.macleayargus.com.au/story/6584830/kempsey-to-receive-4-million-for-secure-water-supply/",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; reports on a January 2020 announcement per search-engine snippet",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-02",
+    "availability_notes": "macleayargus.com.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Per search-engine snippet, reports the (NSW or Australian) Government provided an additional $161,000 for water carting to Willawarrin and Bellbrook, with Council delivering approximately 10-13 kilolitres a day to each village due to low Macleay River flows - the first specific volume and cost figures found for the trucked-water episode, relevant to THR-02 and THR-07 (Funding). Not promoted to evidence, since nothing could be fetched or preserved this session."
   }
 ]

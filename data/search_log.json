@@ -790,5 +790,65 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 8,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0067",
+    "search_terms": "Bellbrook NSW trucked water 2019 2020 tanker supply",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0068",
+    "search_terms": "Bellbrook water carting began \"November 2019\" OR \"December 2019\" Kempsey Shire Council",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0069",
+    "search_terms": "Kempsey Shire Council water carting Willawarrin Bellbrook litres per day 2019 2020 cost",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0070",
+    "search_terms": "\"Kempsey Council Answers Your Water Restrictions Queries\" mirage news",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0071",
+    "search_terms": "Willawarrin Bellbrook water carted trucked 2023 2024 2025 restrictions recurring",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
   }
 ]
