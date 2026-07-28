@@ -484,5 +484,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0055",
+    "timestamp": "2026-07-28T22:40:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0016). Retried the fetch tool once (SRC-0036's URL) - still HTTP 403, DEC-0008 unchanged. Searched for the exact date Bellbrook's trucked-water period began (THR-02's stated gap: whether Bellbrook actually needed trucked water on EV-0001's anticipated 'within a week' timeline).",
+    "related_thread": "THR-02",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0056",
+    "timestamp": "2026-07-28T22:44:00",
+    "activity_type": "Finding",
+    "text": "The first search surfaced something more significant than the trucked-water date itself: Bellbrook was evacuated due to the Carrai East Bushfire in November 2019. A follow-up search cross-confirmed and substantially detailed this, with specific, consistent, named facts: the fire accelerated 8 November 2019 amid extreme dry/windy conditions (2019 was Kempsey's driest year on record, per RFS Superintendent Lachlann Ison); Bellbrook Public School (principal Allison Mitchell) became an evacuation centre on 11 November 2019, sheltering approximately 120 people plus pets and livestock, as the fire destroyed homes and properties in the Bellbrook/Willawarrin area. This is very likely the specific bushfire event behind EV-0002/EV-0003's cited cause ('drought, bushfire, and subsequent heavy rainfall'), and fills a real gap between CHR-0007 (June 2019) and CHR-0001 (late October 2019). Registered as SRC-0037 (fetch-blocked, DEC-0008) - not yet promotable to Evidence/Chronology since Chronology entries require a real evidence_id and nothing could be preserved this session.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0037",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0057",
+    "timestamp": "2026-07-28T22:47:00",
+    "activity_type": "Note",
+    "text": "RUN-0016 wrapping up: SRC-0037 added, THR-01 updated with the Carrai East Bushfire finding, SRCH-0051/SRCH-0052 logged. No Evidence Register or Chronology changes this run (the bar for a Chronology entry - a real evidence_id - can't be met while the fetch tool is down), but this is one of the strongest unpromoted leads in the register: a specific, dated, well-corroborated event that would likely become its own Chronology entry the moment a working fetch tool is available. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

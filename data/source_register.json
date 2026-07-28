@@ -502,5 +502,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "library.kempsey.nsw.gov.au (also mirrored at www.kempsey.nsw.gov.au/library/heritage/willawarrin.html) returns HTTP 403 Forbidden to this session's fetch tool (same domain family as SRC-0010 etc.; see DEC-0008). Genuinely new finding for THR-01's pre-2019 history gap, cross-confirmed across two independent search queries with consistent, specific facts, this time from Kempsey Shire Council's own heritage record rather than a general encyclopedia: Willawarrin was part of the Toorooka pastoral lease from 1842; the village grew as a rest/horse-change stop on the road to Kempsey; its first hotel was built in 1893; and it was an important livestock-selling centre between 1949 and 1970. This is general settlement history rather than water-supply-specific history, so it does not bear on Q-0001/Q-0002/Q-0003 directly, but is the earliest documented history found for Willawarrin (predating even EV-0013's 2022 starting point by 180 years) and fills THR-01's stated gap for general background."
+  },
+  {
+    "source_id": "SRC-0037",
+    "authority": "The Macleay Argus (Australian Community Media)",
+    "title": "Carrai East Bushfire: \"The perfect storm\" - one year on",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.macleayargus.com.au/story/6996188/carrai-east-bushfire-the-perfect-storm-one-year-on/",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "macleayargus.com.au returns HTTP 403 Forbidden to this session's fetch tool this session (see DEC-0008), though this repository has preserved other macleayargus.com.au URLs successfully in earlier sessions. Substantial genuinely new finding, cross-confirmed across two independent search queries with specific, consistent, named facts: the Carrai East Bushfire accelerated on 8 November 2019 amid extreme dry/windy conditions (2019 was Kempsey's driest year on record, with fires already burning by August 2019 per RFS Lower North Coast Zone Superintendent Lachlann Ison); on 11 November 2019 Bellbrook Public School (principal Allison Mitchell) became an impromptu evacuation centre, at one point sheltering approximately 120 people plus pets and livestock, as the fire moved through the Bellbrook/Willawarrin area destroying homes and properties. This is a specific, named bushfire event directly relevant to this case's core crisis chronology (EV-0002/EV-0003's cited cause of 'drought, bushfire, and subsequent heavy rainfall'), filling a real gap between CHR-0007 (June 2019 restrictions) and CHR-0001 (an already-in-progress trucked-water situation by late October 2019). Not yet promoted to an Evidence Register/Chronology entry since nothing could be fetched or preserved this session (DEC-0008) and Chronology entries require a real evidence_id in supporting_evidence."
   }
 ]

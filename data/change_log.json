@@ -339,5 +339,20 @@
     ],
     "reason": "RUN-0015, continuing evidence collection at the operator's request. Applied RUN-0014's approach to Willawarrin, finding Kempsey Shire Council's own heritage record (SRC-0036, fetch-blocked): part of the Toorooka pastoral lease from 1842, first hotel 1893, an important livestock-selling centre 1949-1970. General settlement history added to THR-01 as background; the pre-2019 water-quality-specific gap remains open.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0021",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0016, continuing evidence collection at the operator's request. Found a substantial, well-corroborated gap-filler for THR-01: the Carrai East Bushfire (8-11 November 2019, Bellbrook Public School evacuation centre), very likely the specific bushfire event behind EV-0002/EV-0003's cited cause. Registered as SRC-0037 (fetch-blocked, DEC-0008) - the strongest unpromoted lead in the register, pending a working fetch tool to become a real Evidence/Chronology entry.",
+    "validation_completed": true
   }
 ]
