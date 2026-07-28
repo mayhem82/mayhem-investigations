@@ -358,5 +358,29 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 14,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0031",
+    "search_terms": "Willawarrin OR Bellbrook water iron manganese concentration mg/L test result exceedance Macleay River / Willawarrin Bellbrook water quality problems history before 2019 trucked water",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 17,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0032",
+    "search_terms": "\"Save Our Macleay River\" water quality study iron manganese report findings",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
   }
 ]

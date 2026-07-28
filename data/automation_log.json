@@ -107,5 +107,15 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request (SRCH-0027 through SRCH-0030), targeting Q-0001, Q-0002, and Q-0003. Retried SRC-0027's URL - DEC-0008's fetch-tool outage still applies. Every search this run either reproduced already-registered facts (the 'early 2026' completion target, the Autumn 2025 community update, the $4m-to-$8m cost figures with no stated reason, aggregate Safe and Secure Water Program statistics with no Willawarrin-specific status) or reproduced the already-registered SRC-0027 lead with no new date or scope detail. Nothing cleared the bar for a new source, evidence, chronology, or open-question entry this run - logged honestly as no change per spec section 7 rather than padding the register."
+  },
+  {
+    "run_id": "RUN-0008",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0028"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request. DEC-0008's fetch-tool outage still applies (retried once). Instead of only searching for new material, cross-checked the existing Evidence Register against itself and found CTR-0001: EV-0005 and EV-0006, both NSW Government primary sources published three days apart in March 2025, give different Willawarrin population figures (130 vs 180) - the Contradiction Register's first entry. Also searched for THR-03/THR-04's stated gap (specific ADWG iron/manganese concentration figures) and THR-01's stated gap (pre-2019 history) - neither surfaced anything new. A tangential lead (SRC-0028: a Save Our Macleay River/SCU citizen-science study on arsenic/antimony from historic Hillgrove mining tailings) was registered for completeness but deliberately not linked to a case thread, since it concerns a different contaminant from an upstream source and its relevance to Willawarrin/Bellbrook specifically is unconfirmed."
   }
 ]

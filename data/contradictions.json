@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "contradiction_id": "CTR-0001",
+    "description": "Two NSW Government primary sources, published three days apart, give different population figures for Willawarrin: EV-0005 (water.nsw.gov.au, 21 March 2025) states the new plant serves 'the village's 130 residents', while EV-0006 (water.dcceew.nsw.gov.au, 24 March 2025) states 'Willawarrin (population 180)'.",
+    "supporting_evidence": ["EV-0005"],
+    "opposing_evidence": ["EV-0006"],
+    "status": "Open",
+    "material_significance": "Both figures come from official government releases about the same project within the same week, so this is not an obvious media-error case - it may reflect different data sources (e.g. ABS Census vs a service-connections count), different geographic boundaries (the town itself vs a wider locality), or simply an editing inconsistency between two government departments describing the same project. Affects how the plant's population-served figure should be reported and whether either number can be treated as authoritative without qualification.",
+    "required_resolution": "An ABS Census figure for Willawarrin (State Suburb or Urban Centre/Locality boundary) or a Kempsey Shire Council record stating the number of service connections/residents for the Willawarrin supply scheme specifically, ideally with the population definition or boundary stated.",
+    "resolution_evidence": []
+  }
+]

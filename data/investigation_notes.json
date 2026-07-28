@@ -241,5 +241,50 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0028",
+    "timestamp": "2026-07-28T18:30:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0008). Retried the fetch tool once (a Macleay Argus URL) - still HTTP 403, DEC-0008 unchanged. Before running fresh searches, re-read the existing Evidence Register closely for anything already on file that hadn't been cross-checked against itself.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0029",
+    "timestamp": "2026-07-28T18:33:00",
+    "activity_type": "Finding",
+    "text": "Found an internal contradiction that required no new fetch to identify: EV-0005 (water.nsw.gov.au, 21 March 2025) states the Willawarrin plant serves 'the village's 130 residents', while EV-0006 (water.dcceew.nsw.gov.au, 24 March 2025) - three days later, describing the same project - states 'Willawarrin (population 180)'. Both are NSW Government primary sources already Verified and preserved in this register; neither had been checked against the other. Recording as CTR-0001, the Contradiction Register's first entry.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0006"
+  },
+  {
+    "note_id": "NOTE-0030",
+    "timestamp": "2026-07-28T18:40:00",
+    "activity_type": "Researching",
+    "text": "Searched for specific ADWG iron/manganese concentration figures (mg/L) for Willawarrin/Bellbrook (THR-03/THR-04's stated gap) and for any pre-2019 history of water quality problems (THR-01's stated gap). Neither search surfaced numeric concentration data or pre-2019 history beyond what's already registered - both remain genuine, unfilled gaps.",
+    "related_thread": "THR-03",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0031",
+    "timestamp": "2026-07-28T18:45:00",
+    "activity_type": "Finding",
+    "text": "A tangential lead surfaced while searching: a seven-year (2016-2023) Save Our Macleay River / Southern Cross University citizen-science study found arsenic and antimony from historic Hillgrove mining tailings persisting in the Macleay River catchment (Bakers Creek). This concerns a different contaminant (arsenic/antimony, not iron/manganese) from an upstream historic mining source, and it is not yet established whether it bears on Willawarrin or Bellbrook's own supply specifically rather than the broader catchment. Registered as SRC-0028 (fetch-blocked) for completeness, deliberately not linked to any thread or treated as case-relevant evidence without further confirmation - avoiding scope creep into a wider catchment-contamination story this case's own geographic_scope (Willawarrin and Bellbrook specifically) does not cover.",
+    "related_thread": null,
+    "related_source": "SRC-0028",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0032",
+    "timestamp": "2026-07-28T18:48:00",
+    "activity_type": "Note",
+    "text": "RUN-0008 wrapping up: CTR-0001 added (Contradiction Register's first entry), SRC-0028 added, SRCH-0031/SRCH-0032 logged. No Evidence Register or Chronology changes. Q-0001, Q-0002, Q-0003, and Q-0005 remain open; THR-03/THR-04's concentration-data gap and THR-01's pre-2019 history gap remain unfilled. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

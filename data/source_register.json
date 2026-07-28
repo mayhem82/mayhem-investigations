@@ -376,5 +376,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-14",
     "availability_notes": "water.dcceew.nsw.gov.au returns HTTP 403 Forbidden to this session's fetch tool (same domain family as SRC-0006/SRC-0007; see DEC-0008). Two independent search-engine snippets consistently state this program's Completed Projects listing names Bellbrook as a community that received drinking-water/sewerage upgrade or repair work, under a $200 million joint NSW Government/NSW Aboriginal Land Council initiative running since December 2008. Neither snippet gave a specific date or scope for the Bellbrook work - a strong, specific lead for Q-0002/THR-14, not yet an Evidence Register entry pending primary-source confirmation."
+  },
+  {
+    "source_id": "SRC-0028",
+    "authority": "Southern Cross University (relaying Save Our Macleay River citizen science project)",
+    "title": "Citizen science and mining impact on Macleay River",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.scu.edu.au/news/2024/citizen-science-and-mining-impact-on-macleay-river/",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "scu.edu.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Per search-engine snippet: a seven-year (2016-2023) citizen science water-quality study by Save Our Macleay River volunteers and SCU's Professor Scott Johnston found arsenic and antimony from historic mining tailings at Bakers Creek, below Hillgrove, persisting in the Macleay River catchment. Not yet linked to any thread - this concerns arsenic/antimony from an upstream historic mining source, a different contaminant to this case's iron/manganese focus, and it is not yet established whether it bears on Willawarrin or Bellbrook's own water supply specifically rather than the wider catchment. Registered for completeness pending confirmation of relevance; not to be treated as evidence of an effect on this case's two towns without further primary-source confirmation."
   }
 ]
