@@ -46,5 +46,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Establishes a standing operating rule for this investigation: ordinary, honest HTTP requests (a realistic but truthful User-Agent, standard Accept headers) are fair game, but deliberately working harder to defeat a site's bot-detection is not, even in service of legitimate public-interest research. Blocked sources are recorded as access gaps in the Source Register (see SRC-0010/0011/0012) and flagged for manual, ordinary-browser retrieval rather than further automated workarounds."
+  },
+  {
+    "decision_id": "DEC-0007",
+    "date": "2026-07-28",
+    "reason": "A WebSearch result summary asserted the existence of a distinct 'Bellbrook Water Treatment Plant' capital-works project, which would materially resolve Q-0002/THR-14. A second, independent search query's own summary explicitly contradicted this, and the underlying source article could not be fetched to check the primary text (HTTP 403). EV-0013 (RUN-0003), which covers the same $54m water/sewer capital-works program from an actually-fetched and preserved primary source, names new plants at Willawarrin and Crescent Head plus a separate emergency plant at Steuart McIntyre Dam - no Bellbrook-specific plant.",
+    "supporting_evidence": ["EV-0013"],
+    "investigator": "mayhem82",
+    "impact": "Per spec section 4's Source Before Analysis principle, the 'Bellbrook Water Treatment Plant' claim is not accepted into the Evidence Register on the basis of an unverifiable, self-contradicting search-engine summary that a properly-sourced record (EV-0013) does not corroborate. Q-0002 and THR-14 remain open with no evidence of Bellbrook having received a dedicated treatment plant."
   }
 ]

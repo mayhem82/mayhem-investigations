@@ -306,5 +306,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-07",
     "availability_notes": "Same HTTP 403 access gap as SRC-0010/0011/0012. Dated 8 August 2024, one day after EV-0004 (7 Aug 2024) - likely the council's own version of the same announcement and a good candidate to independently confirm or explain the $4m to $8m cost figures (Q-0003). Flagged for manual browser retrieval."
+  },
+  {
+    "source_id": "SRC-0023",
+    "authority": "Kempsey Shire Council",
+    "title": "Public Forum - 20 July 2026",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Public-Forum-20-July-2026",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "Confirmed to exist via search-engine indexing, but same kempsey.nsw.gov.au HTTP 403 access gap as SRC-0010/0011/0012/0021/0022 - agenda items themselves could not be retrieved. Still open for a future run with manual browser access."
+  },
+  {
+    "source_id": "SRC-0024",
+    "authority": "Australian Tenders",
+    "title": "Design and Construction of Steuart McIntyre Dam Water Treatment Plant (tender listing)",
+    "type": "Other Public Record",
+    "url_or_file_location": "https://www.australiantenders.com.au/tenders/536636/design-and-construction-of-steuart-mcintyre-dam-water-treatment-plant",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-13",
+    "availability_notes": "australiantenders.com.au returns HTTP 403 Forbidden to automated fetch. Confirms a Design & Construction tender was run for this plant, but the awarded contractor is not named in any search-engine snippet found - Q-0005 remains open."
   }
 ]

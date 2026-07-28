@@ -106,5 +106,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0013",
+    "timestamp": "2026-07-28T15:10:00",
+    "activity_type": "Note",
+    "text": "Reconciliation: a separate, earlier evidence-collection pass (also self-identified as 'RUN-0003') was carried out in parallel on an unmerged branch, before this repository's actual RUN-0003 (above, CHG-0007) was committed to main. Both independently investigated the same Kempsey mayoral transition for Q-0004. This repository's committed RUN-0003 has the stronger evidentiary basis - EV-0011/EV-0012 are Verified, preserved, and hashed, against a source-search-snippet-only, Requires Verification finding on the other branch - so that branch's mayoral evidence (its own EV-0011, a chronology entry, and a thread update) is being dropped as redundant/superseded rather than merged. This run (RUN-0004) instead carries forward only what that branch found that remains genuinely new: two source registrations (the 20 July 2026 Council Public Forum page, and a tender listing for the Steuart McIntyre Dam plant) and a decision not to accept an unverified 'Bellbrook Water Treatment Plant' claim as evidence (DEC-0007), which this repository's own EV-0013 does not corroborate either.",
+    "related_thread": "THR-15",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0014",
+    "timestamp": "2026-07-28T15:15:00",
+    "activity_type": "Finding",
+    "text": "Registered SRC-0023 (Kempsey Shire Council Public Forum, 20 July 2026 - confirmed to exist via search indexing, but blocked to fetch like SRC-0010/0011/0012/0021/0022) and SRC-0024 (Australian Tenders listing for the Steuart McIntyre Dam Water Treatment Plant Design & Construction tender - confirms a tender process occurred for Q-0005's still-unnamed contractor, but the listing itself is also blocked). Updated THR-08 and THR-13's outstanding_work to reference both. No new evidence items added - neither source added a fact beyond 'this exists and is blocked', which doesn't clear the bar for a register entry on its own.",
+    "related_thread": "THR-13",
+    "related_source": "SRC-0024",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0015",
+    "timestamp": "2026-07-28T15:18:00",
+    "activity_type": "Note",
+    "text": "RUN-0004 recorded: SRC-0023/SRC-0024 added, SRCH-0013 through SRCH-0016 logged (consolidating the other branch's searches for Q-0001/Q-0002/Q-0003/Q-0005/the Public Forum lead - all 'no relevant change' except the two new sources above), DEC-0007 recorded. No evidence, chronology, or open-question changes - Q-0001, Q-0002, Q-0003, and Q-0005 remain open with no new facts found this run beyond the two access-gap sources. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

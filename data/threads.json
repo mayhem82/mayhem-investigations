@@ -67,7 +67,7 @@
     "name": "Treatment plant",
     "status": "In Progress",
     "supporting_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0007", "EV-0013"],
-    "outstanding_work": "Confirm current construction/commissioning status given the passed \"early 2026\" target (see Q-0001). Obtain the blocked Kempsey Council source pages (SRC-0010, SRC-0011, SRC-0012) via manual browser access - they are likely the most current record available. Project history now traces back to May 2022 (EV-0013, CHR-0011).",
+    "outstanding_work": "Confirm current construction/commissioning status given the passed \"early 2026\" target (see Q-0001). Obtain the blocked Kempsey Council source pages (SRC-0010, SRC-0011, SRC-0012, SRC-0021, SRC-0022, SRC-0023) via manual browser access - they are likely the most current record available. Project history now traces back to May 2022 (EV-0013, CHR-0011). SRC-0023 confirms a 20 July 2026 Council Public Forum took place; its agenda is an unpursued lead, same access gap.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -112,7 +112,7 @@
     "name": "Regional water security funding program (Steuart McIntyre Dam / Sherwood Borefield)",
     "status": "In Progress",
     "supporting_evidence": ["EV-0005", "EV-0008", "EV-0013"],
-    "outstanding_work": "New thread opened 2026-07-28 after EV-0005 revealed the Willawarrin plant is one component of a larger $52.9m regional package that also funds a new main treatment plant for Kempsey/Frederickton/Smithtown/Gladstone (~18,000 residents). Identify the contractor and construction progress for this larger project, and establish whether it has any direct bearing on Willawarrin/Bellbrook's water security specifically (see Q-0005). EV-0013 (May 2022) adds that an emergency water treatment plant was separately installed at Steuart McIntyre Dam for the main Kempsey/Lower Macleay supply - establish when and why.",
+    "outstanding_work": "New thread opened 2026-07-28 after EV-0005 revealed the Willawarrin plant is one component of a larger $52.9m regional package that also funds a new main treatment plant for Kempsey/Frederickton/Smithtown/Gladstone (~18,000 residents). Identify the contractor and construction progress for this larger project, and establish whether it has any direct bearing on Willawarrin/Bellbrook's water security specifically (see Q-0005). EV-0013 (May 2022) adds that an emergency water treatment plant was separately installed at Steuart McIntyre Dam for the main Kempsey/Lower Macleay supply - establish when and why. SRC-0024 confirms a Design & Construction tender was run for the Steuart McIntyre Dam plant, but no awarded contractor could be found via search; the listing itself is blocked to automated fetch.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
