@@ -898,5 +898,41 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0076",
+    "search_terms": "Willawarrin Bellbrook drinking water iron manganese mg/L test results Kempsey",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0077",
+    "search_terms": "Kempsey Shire Council annual water quality report 2023 2024 2025 Willawarrin Bellbrook drinking water management system",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0078",
+    "search_terms": "\"kempsey-shire-council-annual-water-qualty-report-2019-2020\" Willawarrin Bellbrook iron manganese exceedance",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
   }
 ]

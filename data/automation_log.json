@@ -290,5 +290,15 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "RUN-0025, continuing evidence collection at the operator's request, digging further into THR-02 (trucked water). Retried the fetch tool - still HTTP 403, DEC-0008 unchanged. Ran four targeted searches for a Bellbrook-specific trucked-water start/end date - found none; every source treats Willawarrin and Bellbrook as returning to river supply together on 18 June 2020, and describes Bellbrook's carting as intermittent rather than tied to a single start date. Recorded this as THR-02's working conclusion rather than continuing to search for a date that may not exist in the public record. While searching, found a genuinely new chronology gap-filler: Kempsey Shire Council moved to Level 3 water restrictions on 2 December 2019, registered as SRC-0046 and linked to THR-01. No evidence, chronology, or open-question changes."
+  },
+  {
+    "run_id": "RUN-0026",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0047"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "RUN-0026, continuing evidence collection at the operator's request. Retried the fetch tool - still HTTP 403, DEC-0008 unchanged. Switched focus to THR-03/THR-04 (iron/manganese contamination), unresolved since RUN-0001. Found a previously unregistered Kempsey Shire Council Drinking Water Management System Annual Report covering July 2019-June 2020, the exact crisis period - a stronger candidate than the already-registered 2020-2021 report (SRC-0042) for actual concentration figures against ADWG limits. No specific figures could be extracted from search-engine snippets; registered as SRC-0047, fetch-blocked. THR-03/THR-04 updated to flag both reports as priority fetch targets. No evidence, chronology, or open-question changes."
   }
 ]

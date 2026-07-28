@@ -22,7 +22,7 @@
     "name": "Iron contamination",
     "status": "In Progress",
     "supporting_evidence": ["EV-0001", "EV-0002"],
-    "outstanding_work": "Obtain actual water-quality test results (iron concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only.",
+    "outstanding_work": "Obtain actual water-quality test results (iron concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only. RUN-0026 found a previously unregistered Council annual water quality report covering the exact July 2019-June 2020 crisis period (SRC-0047, fetch-blocked) - the strongest candidate yet, alongside the already-registered 2020-2021 report (SRC-0042), for actual concentration figures. No specific figures found via search-engine snippets; both documents need to be fetched directly.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -31,7 +31,7 @@
     "name": "Manganese contamination",
     "status": "In Progress",
     "supporting_evidence": ["EV-0001", "EV-0002"],
-    "outstanding_work": "Obtain actual water-quality test results (manganese concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only.",
+    "outstanding_work": "Obtain actual water-quality test results (manganese concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only. RUN-0026 found a previously unregistered Council annual water quality report covering the exact July 2019-June 2020 crisis period (SRC-0047, fetch-blocked) - the strongest candidate yet, alongside the already-registered 2020-2021 report (SRC-0042), for actual concentration figures. No specific figures found via search-engine snippets; both documents need to be fetched directly.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },

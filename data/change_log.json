@@ -494,5 +494,20 @@
     ],
     "reason": "RUN-0025, continuing evidence collection at the operator's request, digging further into THR-02 (trucked water). Four targeted searches for a Bellbrook-specific start/end date found none - recorded as THR-02's working conclusion (Bellbrook's carting was intermittent, ended together with Willawarrin's on 18 June 2020) rather than an open search target. Found and registered SRC-0046, a genuinely new chronology gap-filler (Level 3 water restrictions, 2 December 2019), linked to THR-01.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0032",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0026, continuing evidence collection at the operator's request, switching focus to THR-03/THR-04 (iron/manganese contamination) - unresolved since RUN-0001. Found a previously unregistered Council annual water quality report covering the exact July 2019-June 2020 crisis period (SRC-0047, fetch-blocked), a stronger candidate than the already-registered 2020-2021 report (SRC-0042) for actual concentration figures against ADWG limits. THR-03/THR-04 updated to flag both as priority fetch targets.",
+    "validation_completed": true
   }
 ]

@@ -763,5 +763,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0086",
+    "timestamp": "2026-07-29T04:45:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue DFAPTI. Merged PR #8 (RUN-0025) first. Retried the fetch tool once - still HTTP 403, DEC-0008 unchanged. Switching focus to THR-03/THR-04 (iron/manganese contamination), which have had no progress since RUN-0001: both still need actual water-quality test results against ADWG limits, rather than descriptive media/council reporting only.",
+    "related_thread": "THR-03",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0087",
+    "timestamp": "2026-07-29T04:52:00",
+    "activity_type": "Finding",
+    "text": "Found a previously unregistered Kempsey Shire Council Drinking Water Management System Annual Report covering July 2019-June 2020 - the exact drought/trucked-water crisis period, and a stronger candidate than the already-registered 2020-2021 report (SRC-0042) for THR-03/THR-04's outstanding need. No specific iron/manganese figures could be extracted from search-engine snippets; the PDF itself needs to be fetched directly. Registered as SRC-0047.",
+    "related_thread": "THR-03",
+    "related_source": "SRC-0047",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0088",
+    "timestamp": "2026-07-29T04:55:00",
+    "activity_type": "Note",
+    "text": "RUN-0026 wrapping up: SRC-0047 added, THR-03 and THR-04 updated, SRCH-0076 through SRCH-0078 logged. No Evidence Register, Chronology, or Open Question changes - nothing could be fetched or preserved this session (DEC-0008). Two annual water quality reports (SRC-0042, SRC-0047) are now flagged as priority fetch targets for THR-03/THR-04. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
