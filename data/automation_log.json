@@ -278,5 +278,17 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "RUN-0024, continuing evidence collection at the operator's request, focused specifically on THR-02 (trucked water) per their instruction. Retried the fetch tool - still HTTP 403, DEC-0008 unchanged. Found the first source confirming Bellbrook actually received trucked water, not just an anticipated need (SRC-0044: a Dec 2023 Council FAQ stating carting to Willawarrin 'since October 2' 2019 and 'intermittently' to Bellbrook/Thunggutti during the bushfire emergency), plus the first specific volume/cost figures (SRC-0045: $161,000 government funding, ~10-13 kilolitres/day per village, per a Jan 2020 Macleay Argus article). Neither promoted to evidence since nothing could be fetched or preserved this session. Checked for any recurrence of water trucking since 2020 - found none. THR-02 updated with these findings; Bellbrook's own specific start/end dates and total duration remain the residual open gap."
+  },
+  {
+    "run_id": "RUN-0025",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0044",
+      "SRC-0045",
+      "SRC-0046"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "RUN-0025, continuing evidence collection at the operator's request, digging further into THR-02 (trucked water). Retried the fetch tool - still HTTP 403, DEC-0008 unchanged. Ran four targeted searches for a Bellbrook-specific trucked-water start/end date - found none; every source treats Willawarrin and Bellbrook as returning to river supply together on 18 June 2020, and describes Bellbrook's carting as intermittent rather than tied to a single start date. Recorded this as THR-02's working conclusion rather than continuing to search for a date that may not exist in the public record. While searching, found a genuinely new chronology gap-filler: Kempsey Shire Council moved to Level 3 water restrictions on 2 December 2019, registered as SRC-0046 and linked to THR-01. No evidence, chronology, or open-question changes."
   }
 ]

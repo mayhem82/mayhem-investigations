@@ -479,5 +479,20 @@
     ],
     "reason": "Operator feedback: the Chronology view displayed entries in data-file (insertion) order rather than chronological order. Added chronologySortKey() (extracts the leading YYYY[-MM[-DD]] prefix from the free-text event_date field, per docs/DATA_MODEL.md's 'ISO date, or approximate text' definition) and sorted renderChronology()'s list by it before rendering, so entries with partial/approximate dates (e.g. '1967', '2024 (by August)') still sort correctly alongside full ISO dates. No other views or data files changed.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0031",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0025, continuing evidence collection at the operator's request, digging further into THR-02 (trucked water). Four targeted searches for a Bellbrook-specific start/end date found none - recorded as THR-02's working conclusion (Bellbrook's carting was intermittent, ended together with Willawarrin's on 18 June 2020) rather than an open search target. Found and registered SRC-0046, a genuinely new chronology gap-filler (Level 3 water restrictions, 2 December 2019), linked to THR-01.",
+    "validation_completed": true
   }
 ]

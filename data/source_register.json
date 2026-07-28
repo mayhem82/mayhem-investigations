@@ -628,5 +628,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-02",
     "availability_notes": "macleayargus.com.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Per search-engine snippet, reports the (NSW or Australian) Government provided an additional $161,000 for water carting to Willawarrin and Bellbrook, with Council delivering approximately 10-13 kilolitres a day to each village due to low Macleay River flows - the first specific volume and cost figures found for the trucked-water episode, relevant to THR-02 and THR-07 (Funding). Not promoted to evidence, since nothing could be fetched or preserved this session."
+  },
+  {
+    "source_id": "SRC-0046",
+    "authority": "The Macleay Argus (Australian Community Media)",
+    "title": "Kempsey Shire moves to Level 3 water restrictions",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.macleayargus.com.au/story/6520545/kempsey-shire-moves-to-level-3-water-restrictions/",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; published 2 December 2019 per search-engine snippet",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "macleayargus.com.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). A genuinely new chronology gap-filler: Kempsey Shire Council moved to Level 3 water restrictions (up from Level 2, CHR-0007/EV-0009) on 2 December 2019 - between the known Level 2 restrictions (4 June 2019) and the drought/trucked-water period already documented from October-November 2019. Shows continued escalation of the drought through this period. Not promoted to evidence, since nothing could be fetched or preserved this session."
   }
 ]
