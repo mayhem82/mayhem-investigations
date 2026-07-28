@@ -511,5 +511,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0058",
+    "timestamp": "2026-07-28T23:10:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0017). Retried the fetch tool against abc.net.au (a domain not tried before) - got a different error ('Claude Code is unable to fetch from www.abc.net.au') rather than the usual HTTP 403, but still no content retrieved. Looked for further, independent corroboration of RUN-0016's Carrai East Bushfire finding (SRC-0037) rather than a wholly new angle, since it's the strongest unpromoted lead currently in the register.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0037",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0059",
+    "timestamp": "2026-07-28T23:14:00",
+    "activity_type": "Finding",
+    "text": "Found a third independent source: the NSW Department of Education's own December 2019 article 'In the eye of the firestorm', reproducing SRC-0037's core facts (principal Allison Mitchell, ~120 people plus animals sheltered at Bellbrook Public School on 11 November 2019) with an added, specific detail - the school lost power and phone lines by 11:30pm that night, with the fire visible approaching from behind the building. This is closer in time to the event (Dec 2019) than SRC-0037's one-year retrospective, and comes from a government department rather than media/RFS sources - meaningfully strengthens the finding. Registered as SRC-0038 (fetch-blocked, DEC-0008).",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0038",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0060",
+    "timestamp": "2026-07-28T23:17:00",
+    "activity_type": "Note",
+    "text": "RUN-0017 wrapping up: SRC-0038 added, SRC-0037's availability_notes updated to reference the new corroboration, SRCH-0053/SRCH-0054 logged. No Evidence Register or Chronology changes - the Carrai East Bushfire finding is now backed by three independent sources but still can't be promoted without a working fetch tool. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

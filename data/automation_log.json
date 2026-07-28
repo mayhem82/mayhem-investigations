@@ -197,5 +197,15 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request, targeting THR-02's gap (Bellbrook's exact trucked-water start date). DEC-0008's fetch-tool outage still applies. Found a substantial, well-corroborated event not previously registered: the Carrai East Bushfire accelerated 8 November 2019, forcing an evacuation via Bellbrook Public School on 11 November 2019 (approx. 120 people sheltered, homes destroyed), per two independent searches with specific, named, consistent facts. Very likely the specific bushfire behind EV-0002/EV-0003's cited cause. Registered as SRC-0037 (fetch-blocked) and added to THR-01 as a strong unpromoted lead - a real primary source is needed before this can become an Evidence/Chronology entry."
+  },
+  {
+    "run_id": "RUN-0017",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0038"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request, seeking further corroboration of RUN-0016's Carrai East Bushfire finding rather than a wholly new angle. DEC-0008's fetch-tool outage still applies (tried abc.net.au as a new domain - different error, same non-result). Found a third independent source: the NSW Department of Education's December 2019 article 'In the eye of the firestorm', reproducing SRC-0037's core facts with an added specific detail (school lost power/phones at 11:30pm). Registered as SRC-0038 (fetch-blocked); SRC-0037's notes updated to reference this strengthening corroboration. No Evidence Register or Chronology changes."
   }
 ]
