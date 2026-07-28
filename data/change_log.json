@@ -153,12 +153,14 @@
     "files_affected": [
       ".github/workflows/deploy-pages.yml",
       "index.html",
+      "app.js",
+      "style.css",
       "README.md",
-      "site/app.js",
-      "site/style.css",
+      "docs/DATA_MODEL.md",
+      "docs/GOVERNANCE.md",
       "data/change_log.json"
     ],
-    "reason": "Made the workspace a real, navigable website per the operator's request. (1) Added a GitHub Actions workflow publishing the repository root to GitHub Pages on every push to main, plus a root index.html redirecting to site/, so the workspace is reachable at a live URL instead of requiring a local static server. (2) Every cross-reference ID a register cites (relationships, supporting_evidence, dependencies, etc., previously rendered as inert text chips) is now a real link: clicking it switches to the owning section, opens and scrolls to that specific record, and updates the URL to a shareable #section/RECORD-ID deep link; section and record navigation now use history.pushState on user clicks (previously always replaceState) so browser back/forward works like ordinary page navigation.",
+    "reason": "Made the workspace a real, navigable website per the operator's request. (1) Added a GitHub Actions workflow publishing the repository root to GitHub Pages on every push to main. Moved the workspace (index.html, app.js, style.css) from site/ to the repository root, updating its data/ fetch paths accordingly, so the workspace itself is the site's main page - not something behind a /site/ subpath or a redirect stub - per follow-up operator feedback that the initial redirect-based approach wasn't the intended design. (2) Every cross-reference ID a register cites (relationships, supporting_evidence, dependencies, etc., previously rendered as inert text chips) is now a real link: clicking it switches to the owning section, opens and scrolls to that specific record, and updates the URL to a shareable #section/RECORD-ID deep link; section and record navigation now use history.pushState on user clicks (previously always replaceState) so browser back/forward works like ordinary page navigation.",
     "validation_completed": true
   }
 ]

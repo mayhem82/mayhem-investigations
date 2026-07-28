@@ -163,7 +163,7 @@ no collection has occurred yet.
 
 ---
 
-## Relationship Map (`site/app.js`, `renderRelationshipMap`)
+## Relationship Map (`app.js`, `renderRelationshipMap`)
 
 Spec section 14. There is no `data/relationships.json` — a Relationship
 Map is a derived view, computed at render time from the cross-reference

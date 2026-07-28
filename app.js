@@ -2,15 +2,15 @@
   'use strict';
 
   var DATA_PATHS = {
-    case: '../data/case.json',
-    evidence: '../data/evidence_register.json',
-    sources: '../data/source_register.json',
-    chronology: '../data/chronology.json',
-    contradictions: '../data/contradictions.json',
-    questions: '../data/open_questions.json',
-    threads: '../data/threads.json',
-    automationLog: '../data/automation_log.json',
-    notes: '../data/investigation_notes.json',
+    case: 'data/case.json',
+    evidence: 'data/evidence_register.json',
+    sources: 'data/source_register.json',
+    chronology: 'data/chronology.json',
+    contradictions: 'data/contradictions.json',
+    questions: 'data/open_questions.json',
+    threads: 'data/threads.json',
+    automationLog: 'data/automation_log.json',
+    notes: 'data/investigation_notes.json',
   };
 
   var NOTES_REFRESH_INTERVAL_MS = 15000;
@@ -686,7 +686,7 @@
     box.textContent = 'Could not load investigation data (' + err.message + '). ' +
       'This workspace must be served over HTTP, not opened directly as a file. ' +
       'From the repository root run a static server, e.g. "npx serve ." or ' +
-      '"python -m http.server", then open /site/ in your browser.';
+      '"python -m http.server", then open it in your browser.';
   }
 
   function refreshNotes() {

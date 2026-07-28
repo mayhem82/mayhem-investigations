@@ -27,10 +27,9 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      # Uploads the whole repository root, not just site/ - the workspace
-      # fetches data/*.json with relative paths ("../data/...") from
-      # site/index.html, so data/ must be published alongside site/ at the
-      # same root for those fetches to resolve.
+      # Uploads the whole repository root - the workspace (index.html) lives
+      # at the root and fetches data/*.json with relative paths, so data/
+      # must be published alongside it for those fetches to resolve.
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

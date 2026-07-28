@@ -44,9 +44,11 @@ scripts/
   hash-file.js            Compute a document hash for preserved evidence (section 21.6)
   log-run.js               Append an Automation Log entry (sections 6-7)
   resume.js                 Print a resumption briefing (section 19)
-site/                    Mobile-first Visual Workspace, including the
-                         Relationship Map and Investigation Notes
-                         (spec sections 14-15, 19)
+index.html, app.js,     Mobile-first Visual Workspace, including the
+style.css                Relationship Map and Investigation Notes
+                         (spec sections 14-15, 19) - served from the
+                         repository root so the workspace is the site's
+                         main page, not a subpage
 ```
 
 ## Validating the data
@@ -69,8 +71,8 @@ closed questions must cite resolving evidence). It never modifies data.
 
 **Live:** every push to `main` deploys the workspace to GitHub Pages
 (`.github/workflows/deploy-pages.yml`) at
-**https://mayhem82.github.io/mayhem-investigations/** - visiting the bare
-URL redirects straight into `site/`.
+**https://mayhem82.github.io/mayhem-investigations/** - the workspace itself
+*is* that page, not something you're redirected to.
 
 **Locally:** the workspace fetches the JSON files in `data/` at runtime, so
 it must be served over HTTP (not opened as a `file://` page). From the
@@ -80,7 +82,7 @@ repository root:
 python -m http.server 8123
 ```
 
-then open `http://localhost:8123/site/` in a browser. It is designed
+then open `http://localhost:8123/` in a browser. It is designed
 mobile-first: stacked layouts, no horizontal scrolling, expandable records.
 The workspace opens on a **Resume** view (spec section 19) summarizing the
 latest state of every register, with one-tap links into the full registers.
