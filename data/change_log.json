@@ -309,5 +309,20 @@
     ],
     "reason": "RUN-0013, continuing evidence collection at the operator's request. A Drinking Water Database lead for THR-03/THR-04's concentration-data gap turned out to be an inconsistent, self-contradicting search-summary result across three queries (unclear which supply system's compliance figures were being described) - not registered per DEC-0007's standard. No new sources, evidence, chronology, or open-question changes.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0019",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0014, continuing evidence collection at the operator's request. Filled a real gap - Bellbrook's own general history and population, which this register had none of - via two independent, cross-confirmed search queries (gazetted 1892, National Trust heritage village since 1978, 2021 Census population 339). Registered SRC-0034/SRC-0035 (fetch-blocked) and added as general background to THR-14.",
+    "validation_completed": true
   }
 ]

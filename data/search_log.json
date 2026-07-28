@@ -550,5 +550,29 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 25,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0047",
+    "search_terms": "Trove Willawarrin Bellbrook water supply history newspaper archive",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0048",
+    "search_terms": "\"Bellbrook, New South Wales\" Wikipedia history population water / Bellbrook NSW population 2021 census 339 heritage village National Trust",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 17,
+    "results_preserved": 2
   }
 ]

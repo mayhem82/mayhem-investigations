@@ -430,5 +430,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0049",
+    "timestamp": "2026-07-28T21:40:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0014). Retried the fetch tool once (an ABS Census URL) - still HTTP 403, DEC-0008 unchanged. Tried a genuinely unexplored avenue this run: Bellbrook's own general history and background, rather than more Willawarrin-plant-focused searches, on the reasoning that this register has almost no Bellbrook-specific context at all beyond its water supply status.",
+    "related_thread": "THR-14",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0050",
+    "timestamp": "2026-07-28T21:44:00",
+    "activity_type": "Finding",
+    "text": "Two independent search queries both returned consistent, specific figures for Bellbrook: gazetted in 1892 (named for bellbirds along Nulla Nulla Creek), registered with the National Trust of Australia in 1978 and the Register of the National Estate in 1981 as a heritage timber-industry village, and a 2021 Census population of 339 (up 21% from 273 in 2016) - a different ABS State Suburb code (SAL10270) from Willawarrin's (SAL14312, already SRC-0030). This fills a real gap: no Bellbrook-specific historical or population data existed in this register before. Registered as SRC-0034 (Wikipedia) and SRC-0035 (ABS QuickStats), both fetch-blocked this session (DEC-0008), and added as general background context to THR-14 rather than as evidence of the town's water infrastructure status specifically.",
+    "related_thread": "THR-14",
+    "related_source": "SRC-0034",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0051",
+    "timestamp": "2026-07-28T21:47:00",
+    "activity_type": "Note",
+    "text": "RUN-0014 wrapping up: SRC-0034/SRC-0035 added, THR-14 updated with Bellbrook's general background, SRCH-0047/SRCH-0048 logged. No Evidence Register, Chronology, Open Question, or Contradiction changes. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

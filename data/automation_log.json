@@ -166,5 +166,16 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request (SRCH-0045/SRCH-0046), targeting THR-03/THR-04's concentration-data gap and a 'Your Say Macleay' quick-poll lead. DEC-0008's fetch-tool outage still applies. The quick-poll page returned no usable detail. The Drinking Water Database angle initially looked promising (one search claimed 100% compliance for Willawarrin/Bellbrook specifically), but two follow-up searches attributed the actual numeric figures to 'Kempsey and Lower Macleay' and 'South West Rocks' supplies instead, with no Willawarrin-specific table found - an inconsistent, self-contradicting result not solid enough to register per DEC-0007's standard. No new sources, evidence, chronology, or open-question changes."
+  },
+  {
+    "run_id": "RUN-0014",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0034",
+      "SRC-0035"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request, trying a genuinely unexplored avenue: Bellbrook's own general history and background, since this register had almost no Bellbrook-specific context beyond its water supply status. DEC-0008's fetch-tool outage still applies. Two independent searches consistently confirmed: Bellbrook gazetted 1892, National Trust heritage village since 1978, 2021 Census population 339 (up from 273 in 2016). Registered as SRC-0034 (Wikipedia) and SRC-0035 (ABS QuickStats), both fetch-blocked, and added to THR-14 as general background context rather than direct evidence of water infrastructure status."
   }
 ]

@@ -460,5 +460,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-13",
     "availability_notes": "portnews.com.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Independent media corroboration of SRC-0032's ground-breaking event, syndicated in near-identical form by The Macleay Argus (story 9015528, same title). Search-engine summary places the ground-breaking 'as of July 2025', consistent with EV-0005's announced mid-2025 construction start for this project. No contractor named. Same Australian Community Media network as SRC-0003/SRC-0004."
+  },
+  {
+    "source_id": "SRC-0034",
+    "authority": "Wikipedia",
+    "title": "Bellbrook, New South Wales",
+    "type": "Other Public Record",
+    "url_or_file_location": "https://en.wikipedia.org/wiki/Bellbrook,_New_South_Wales",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-14",
+    "availability_notes": "en.wikipedia.org returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008, which already confirmed this specific domain is blocked this session via an earlier control-URL test). Genuinely new finding, cross-confirmed across two independent search queries with consistent, specific figures: Bellbrook was gazetted in 1892 (named for bellbirds along Nulla Nulla Creek), registered with the National Trust of Australia in 1978 and the Register of the National Estate in 1981 as a heritage timber-industry village, and had a 2021 Census population of 339 (up 21% from 273 in 2016). No Bellbrook-specific historical or population data existed in this register before this run - fills a real gap for THR-14, though not yet promoted to an Evidence Register entry since nothing could be fetched/preserved this session."
+  },
+  {
+    "source_id": "SRC-0035",
+    "authority": "Australian Bureau of Statistics",
+    "title": "2021 Census All Persons QuickStats - Bellbrook (SAL10270)",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10270",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-14",
+    "availability_notes": "abs.gov.au returns HTTP 403 Forbidden to this session's fetch tool (same domain family as SRC-0030; see DEC-0008). Independent corroboration of SRC-0034's Bellbrook population figures (339 in 2021, 273 in 2016) via the ABS's own Census Community Profile/QuickStats pages for the Bellbrook State Suburb (SAL10270) - a distinct ABS code from Willawarrin's (SAL14312, SRC-0030)."
   }
 ]
