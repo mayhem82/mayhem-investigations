@@ -252,5 +252,19 @@
     ],
     "reason": "RUN-0009, continuing evidence collection at the operator's request. Tried three angles new to this investigation (federal MP statements, the Your Say Macleay engagement platform, a direct delay search) - all reproduced only already-registered facts. DEC-0008's fetch-tool outage still applies. Logged as a genuine 'No relevant change detected.' automation run rather than padding the register.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0015",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0010, continuing evidence collection at the operator's request. Retried the fetch tool - still HTTP 403, DEC-0008 unchanged. Registered two strong, specific new leads not found in prior runs: SRC-0029 (NSW Electoral Commission corroboration that Kempsey's 2024 election day was 14 September, bearing on Q-0006's date discrepancy) and SRC-0030 (ABS 2021 Census population figure for Willawarrin, bearing on CTR-0001's population contradiction). Neither was promoted to evidence or used to close its open question/contradiction, since nothing could be fetched or preserved this session.",
+    "validation_completed": true
   }
 ]

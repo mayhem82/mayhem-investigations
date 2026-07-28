@@ -390,5 +390,33 @@
     "hash_status": "No Hash",
     "associated_thread": null,
     "availability_notes": "scu.edu.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Per search-engine snippet: a seven-year (2016-2023) citizen science water-quality study by Save Our Macleay River volunteers and SCU's Professor Scott Johnston found arsenic and antimony from historic mining tailings at Bakers Creek, below Hillgrove, persisting in the Macleay River catchment. Not yet linked to any thread - this concerns arsenic/antimony from an upstream historic mining source, a different contaminant to this case's iron/manganese focus, and it is not yet established whether it bears on Willawarrin or Bellbrook's own water supply specifically rather than the wider catchment. Registered for completeness pending confirmation of relevance; not to be treated as evidence of an effect on this case's two towns without further primary-source confirmation."
+  },
+  {
+    "source_id": "SRC-0029",
+    "authority": "NSW Electoral Commission",
+    "title": "Election day voting: Kempsey, Shellharbour Ward A and Singleton council elections",
+    "type": "Government Record",
+    "url_or_file_location": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/election-day-voting-council-elections",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-15",
+    "availability_notes": "elections.nsw.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Multiple independent search-engine snippets consistently and specifically name Kempsey Shire Council's 2024 election day as Saturday 14 September 2024 - the statewide NSW local government polling date - not the 9 September 2024 date EV-0011 (RUN-0003) attributed to the Kempsey result. This is the strongest lead yet for resolving Q-0006 (most likely explanation: EV-0011's '9' is a simple transcription error for '14'), but is registered here only, not promoted to evidence, since nothing could be fetched or preserved this session (DEC-0008)."
+  },
+  {
+    "source_id": "SRC-0030",
+    "authority": "Australian Bureau of Statistics",
+    "title": "2021 Census All Persons QuickStats - Willawarrin (SAL14312)",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL14312",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "abs.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Search-engine snippet states the 2021 Census recorded Willawarrin's population as 183, close to EV-0006's 180 figure and well above EV-0005's 130 figure - suggesting 130 is the outlier/likely error in CTR-0001, not 180. Registered here only, not promoted to evidence or used to resolve CTR-0001, since nothing could be fetched or preserved this session (DEC-0008); a strong lead for a future run with working fetch access."
   }
 ]

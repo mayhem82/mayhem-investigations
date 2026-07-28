@@ -418,5 +418,77 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 7,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0036",
+    "search_terms": "Hillgrove mining Bakers Creek arsenic antimony Macleay River Willawarrin upstream extraction",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0037",
+    "search_terms": "Willawarrin bore water extraction point location Macleay River Hillgrove distance",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0038",
+    "search_terms": "NSW Electoral Commission Kempsey Shire Council mayoral election 2024 polling day date official",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0039",
+    "search_terms": "\"Kempsey Shire\" election 2024 \"14 September\" OR \"September 14\"",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0040",
+    "search_terms": "Willawarrin NSW ABS Census 2021 population QuickStats",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0041",
+    "search_terms": "Willawarrin population 2021 census state suburb",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
   }
 ]
