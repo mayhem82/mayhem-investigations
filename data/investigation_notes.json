@@ -223,5 +223,23 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0026",
+    "timestamp": "2026-07-28T18:00:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0007). Retried fetching SRC-0027's URL - still HTTP 403 (DEC-0008 unchanged). Searched Q-0001, Q-0002, and Q-0003 with fresh phrasing: a Bellbrook-specific ACWSP completion-date/scope query (third independent search reproducing the same bare fact as NOTE-0023, no new detail), a Willawarrin community-update date search (Spring 2025/Summer 2026 - nothing dated after the already-registered Autumn 2025 update), and two NSW Safe and Secure Water Program project-status searches (aggregate program-wide figures only, no Willawarrin-specific completion status).",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0027",
+    "timestamp": "2026-07-28T18:05:00",
+    "activity_type": "Note",
+    "text": "RUN-0007 wrapping up: no new sources, evidence, chronology, or open-question changes. Everything found this run either reproduced already-registered facts or added no new detail to an already-open lead. Logging as 'No relevant change detected.' per spec section 7, rather than padding the register with restatements. Q-0001, Q-0002, Q-0003, and Q-0005 remain open. Validating and committing the logs now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

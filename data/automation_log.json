@@ -97,5 +97,15 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request (SRCH-0023 through SRCH-0026). Re-confirmed DEC-0008's fetch-tool outage still applies (retried the exact SRC-0026 URL, still HTTP 403). Found a genuinely new, specific lead for Q-0002/THR-14 (open since RUN-0001): two independent search queries consistently state NSW's 'Aboriginal Communities Water and Sewerage Program' (a $200m joint NSW Government/NSW Aboriginal Land Council initiative since December 2008) lists Bellbrook among its Completed Projects for drinking-water/sewerage upgrade work - registered as SRC-0027, blocked to fetch, not yet an Evidence Register entry. No new information found on Q-0001 or Q-0003 this run. No Evidence Register, Chronology, or Contradiction changes."
+  },
+  {
+    "run_id": "RUN-0007",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0027"
+    ],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request (SRCH-0027 through SRCH-0030), targeting Q-0001, Q-0002, and Q-0003. Retried SRC-0027's URL - DEC-0008's fetch-tool outage still applies. Every search this run either reproduced already-registered facts (the 'early 2026' completion target, the Autumn 2025 community update, the $4m-to-$8m cost figures with no stated reason, aggregate Safe and Secure Water Program statistics with no Willawarrin-specific status) or reproduced the already-registered SRC-0027 lead with no new date or scope detail. Nothing cleared the bar for a new source, evidence, chronology, or open-question entry this run - logged honestly as no change per spec section 7 rather than padding the register."
   }
 ]

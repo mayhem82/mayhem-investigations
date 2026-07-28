@@ -310,5 +310,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 20,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0027",
+    "search_terms": "Bellbrook \"Aboriginal Communities Water and Sewerage Program\" completion date scope reservoir treatment",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0028",
+    "search_terms": "\"willawarrin community update\" spring 2025 OR summer 2026 water treatment plant",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0029",
+    "search_terms": "NSW Safe and Secure Water Program recently completed projects list 2026 Willawarrin",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0030",
+    "search_terms": "industry.nsw.gov.au \"approved-projects\" Safe and Secure Water Program Willawarrin status / \"safe-and-secure-water-program/recipients\" Kempsey Willawarrin status complete",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 14,
+    "results_preserved": 0
   }
 ]
