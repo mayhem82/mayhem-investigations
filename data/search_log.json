@@ -658,5 +658,41 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0056",
+    "search_terms": "NSW Bushfire Inquiry 2019-20 \"Carrai East\" fire report",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0057",
+    "search_terms": "\"2019-20 NSW Bushfires Coronial Inquiry\" Carrai East Kempsey Bellbrook",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0058",
+    "search_terms": "Willawarrin evacuation November 2019 Carrai East fire homes lost / \"NSW bushfire Inquiry\" man died fleeing home Willawarrin November 2019 coronial",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 20,
+    "results_preserved": 1
   }
 ]

@@ -215,5 +215,15 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request. DEC-0008's fetch-tool outage still applies. Did an internal cross-reference pass over the existing Evidence Register (the same approach that found CTR-0001) - checked EV-0001's dam-capacity figures against EV-0005's for a possible second contradiction, but judged the discrepancy too soft to register (both figures in EV-0001 are already self-qualified as approximate within a single article). Also searched THR-06's stated gap (why Willawarrin wasn't connected to the Steuart McIntyre Dam network) - the only result conflated the two separate plants again, an unreliable-summary pattern already declined per DEC-0007, so nothing was registered. No new sources, evidence, chronology, or open-question changes."
+  },
+  {
+    "run_id": "RUN-0019",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0039"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request, following up on the Carrai East Bushfire thread. DEC-0008's fetch-tool outage still applies. Found Willawarrin's own evacuation details (Willawarrin Hall as a Disaster Assistance Welfare Point, homes lost, named residents Terry and Jutta Flynn) and a significant, sensitive finding requiring careful handling: an active NSW Coronial Inquiry proceeding concerning the death of Willawarrin resident Barry Parsons during the same fire. Registered as SRC-0039 (fetch-blocked), recorded with explicit, strictly factual language that no fault or responsibility is stated or implied by any person or body, consistent with the investigation's 'no allegation framing' standard. Deliberately held to a higher promotion bar than usual given the sensitivity - primary-source confirmation is required, not search-snippet corroboration alone."
   }
 ]

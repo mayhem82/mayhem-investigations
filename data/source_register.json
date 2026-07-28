@@ -530,5 +530,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "education.nsw.gov.au returns HTTP 403 Forbidden to this session's fetch tool (a .gov.au domain; see DEC-0008). Third independent source (a government department, distinct from the media/RFS sources already cited) corroborating SRC-0037's Carrai East Bushfire/Bellbrook Public School evacuation facts (principal Allison Mitchell, ~120 people plus animals sheltered, 11 November 2019), with an added specific detail: by 11:30pm that night the school was without power or phones, with the fire visible approaching from behind the school. Published December 2019 - closer in time to the event than SRC-0037's one-year-anniversary retrospective. Strengthens but does not itself resolve the promotion-to-evidence bar, since nothing could be fetched or preserved this session (DEC-0008)."
+  },
+  {
+    "source_id": "SRC-0039",
+    "authority": "Port Macquarie News / The Macleay Argus (Australian Community Media)",
+    "title": "NSW bushfire Inquiry told of man who died attempting to flee his home at Willawarrin",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.portnews.com.au/story/7663626/nsw-bushfire-inquiry-told-of-man-who-died-attempting-to-flee-his-home/",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "portnews.com.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Sensitive, significant finding requiring careful, strictly factual handling: reporting on a NSW Coronial Inquiry (into the 2019-20 NSW bushfire season) proceeding concerning the death of Willawarrin resident Barry Parsons during the Carrai East Bushfire. Per two consistent, independently-published articles (Port Macquarie News and The Macleay Argus, both Australian Community Media, so not fully independent outlets but reporting the same inquest proceedings): Mr Parsons was seen around 4pm on 8 November 2019 exiting his vehicle to open a gate providing access to Armidale Road, in the direction of the Willawarrin Hall evacuation point; his burnt-out vehicle was found in the following days; his body was found by a neighbour in burnt bushland approximately 300 metres from the vehicle on 13 November 2019. A formal inquest opened (date given as '17 March', year not stated in the search snippet found). Recorded here as a factual, sourced account of coronial-inquiry reporting only - no finding of fault or responsibility by any person or body is stated or implied, consistent with this investigation's 'no allegation framing' standard. Not promoted to Evidence/Chronology since nothing could be fetched or preserved this session (DEC-0008); given the sensitivity of this material, promotion should specifically await primary-source (coronial findings or a directly preserved news report) confirmation rather than search-snippet corroboration alone."
   }
 ]

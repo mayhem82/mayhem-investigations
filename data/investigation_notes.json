@@ -556,5 +556,32 @@
     "related_thread": "THR-06",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0063",
+    "timestamp": "2026-07-29T00:10:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0019). Retried the fetch tool once (an RFS NSW major-fire-updates page) - still HTTP 403, DEC-0008 unchanged. Continued on the Carrai East Bushfire thread: searched the NSW Bushfire Inquiry and the separate NSW Bushfires Coronial Inquiry for any specific mention of Carrai East, and then searched directly for Willawarrin's own evacuation experience (as distinct from Bellbrook's), since the retrospective article already on file describes the fire moving towards 'the upriver communities of Bellbrook and Willawarrin' - both towns, not just one.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0064",
+    "timestamp": "2026-07-29T00:15:00",
+    "activity_type": "Finding",
+    "text": "The general Bushfire Inquiry and Coronial Inquiry searches found no Carrai East-specific mention. A follow-up search for Willawarrin's own evacuation found: Willawarrin Hall was set up by Kempsey Shire Council and the Office of Emergency Management as a Disaster Assistance Welfare Point once the main threat to the township had passed; the RFS and community saved most properties including the General Store and Willawarrin Hotel, though an unconfirmed number of homes were lost (named residents Terry and Jutta Flynn lost their home on Kyuna Track with less than five minutes' warning). This also surfaced a significant, sensitive finding requiring careful handling: an active NSW Coronial Inquiry proceeding concerning the death of Willawarrin resident Barry Parsons during this same fire, reported consistently across two articles (Port Macquarie News, The Macleay Argus). Recording the bare facts of the coronial-inquiry reporting only, with explicit language that no fault or responsibility is stated or implied by any person or body, consistent with this investigation's standing 'no allegation framing' principle. Registered as SRC-0039 (fetch-blocked, DEC-0008) - given the sensitivity, this should specifically await primary-source confirmation (coronial findings or a directly preserved article) before any promotion to Evidence/Chronology, not search-snippet corroboration alone.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0039",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0065",
+    "timestamp": "2026-07-29T00:18:00",
+    "activity_type": "Note",
+    "text": "RUN-0019 wrapping up: SRC-0039 added, THR-01 updated, SRCH-0056/SRCH-0057/SRCH-0058 logged. No Evidence Register or Chronology changes - this sensitive finding is deliberately held to a higher bar than usual before promotion. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
