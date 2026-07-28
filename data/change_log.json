@@ -454,5 +454,15 @@
     ],
     "reason": "RUN-0023, continuing evidence collection at the operator's request, exploring whether Kempsey Shire Council is named in NSW Audit Office at-risk-council reporting - a genuinely fresh angle for this repository. Found Kempsey Shire Council's FY2024-25 $8.1 million deficit and a November 2025 NSW Audit Office presentation to council. Registered as SRC-0043 (fetch-blocked); added to THR-07. The specific 'Appendix 2' named-list question remains unconfirmed.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0030",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "app.js"
+    ],
+    "reason": "Operator feedback: the Chronology view displayed entries in data-file (insertion) order rather than chronological order. Added chronologySortKey() (extracts the leading YYYY[-MM[-DD]] prefix from the free-text event_date field, per docs/DATA_MODEL.md's 'ISO date, or approximate text' definition) and sorted renderChronology()'s list by it before rendering, so entries with partial/approximate dates (e.g. '1967', '2024 (by August)') still sort correctly alongside full ISO dates. No other views or data files changed. Note: change_id CHG-0029 is reserved by a separate, still-open pull request (RUN-0024) opened before this one; skipping it here avoids a collision once both merge.",
+    "validation_completed": true
   }
 ]

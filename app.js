@@ -290,6 +290,17 @@
     });
   }
 
+  // event_date is a free-text field (DATA_MODEL: "ISO date, or approximate
+  // text") - entries range from full "2019-10-28" to bare years like "1967"
+  // or annotated text like "2024 (by August)". Pull out the leading
+  // YYYY[-MM[-DD]] prefix so entries sort chronologically regardless of how
+  // precisely each date is known; entries with no parseable leading date
+  // sort first (oldest/unknown) rather than being silently dropped.
+  function chronologySortKey(eventDate) {
+    var match = /^\d{4}(-\d{2}(-\d{2})?)?/.exec(String(eventDate || ''));
+    return match ? match[0] : '';
+  }
+
   function renderChronology(list) {
     var container = document.getElementById('chronology-list');
     document.getElementById('chronology-count').textContent = list.length + ' entr' + (list.length === 1 ? 'y' : 'ies');
@@ -298,7 +309,10 @@
       container.appendChild(emptyState('The chronology is empty. No events have been confirmed yet.'));
       return;
     }
-    list.forEach(function (c) {
+    var sorted = list.slice().sort(function (a, b) {
+      return chronologySortKey(a.event_date).localeCompare(chronologySortKey(b.event_date));
+    });
+    sorted.forEach(function (c) {
       var card = recordCard(
         c.chronology_id,
         el('span', {}, [idTag(c.chronology_id), ' — ', c.event_date || '', c.date_is_inference ? ' (inferred)' : '']),
