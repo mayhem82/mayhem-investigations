@@ -376,5 +376,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0043",
+    "timestamp": "2026-07-28T20:35:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0012). No parallel commits since this session's last push. Retried the fetch tool against SRC-0031's URL - still HTTP 403, DEC-0008 unchanged. Searched THR-13's stated gap (the Steuart McIntyre Dam plant's contractor and construction progress) with fresh phrasing focused on the dam's own history and the project's construction status.",
+    "related_thread": "THR-13",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0044",
+    "timestamp": "2026-07-28T20:40:00",
+    "activity_type": "Finding",
+    "text": "Found a genuinely new event not previously registered: two independent articles (an NSW Government release and a Port Macquarie News/Macleay Argus syndicated report) both describe a sod-turning/ground-breaking event for the Steuart McIntyre Dam plant, placed 'as of July 2025' - consistent with EV-0005's announced mid-2025 construction start, and the equivalent milestone to EV-0006 for the Willawarrin plant. Neither names the contractor (Q-0005 remains open), but this confirms construction is genuinely underway rather than only funded/announced. Registered as SRC-0032 (NSW Government, primary) and SRC-0033 (independent media corroboration) - both fetch-blocked this session (DEC-0008) - and updated THR-13's outstanding_work accordingly.",
+    "related_thread": "THR-13",
+    "related_source": "SRC-0032",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0045",
+    "timestamp": "2026-07-28T20:44:00",
+    "activity_type": "Note",
+    "text": "RUN-0012 wrapping up: SRC-0032/SRC-0033 added, THR-13 updated, SRCH-0043/SRCH-0044 logged. No Evidence Register, Chronology, Open Question, or Contradiction status changes - all remain open, though THR-13 now records a confirmed construction-start milestone. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

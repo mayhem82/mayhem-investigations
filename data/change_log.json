@@ -281,5 +281,20 @@
     ],
     "reason": "RUN-0011, continuing evidence collection at the operator's request. Used pure calendar computation (no external fetch required) plus a statutory citation (SRC-0031, fetch-blocked) to build the strongest available non-primary-source case for Q-0006: 9 September 2024 was a Monday, while 14 September 2024 was specifically the second Saturday of that September, matching the Local Government Act's 'second Saturday in September' requirement exactly. Q-0006 strengthened but not closed - still requires a preserved primary citation.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0017",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0012, continuing evidence collection at the operator's request. Found a previously-unregistered sod-turning/ground-breaking event for the Steuart McIntyre Dam plant (THR-13), corroborated across two independent sources (SRC-0032, SRC-0033), confirming construction genuinely began around July 2025 as EV-0005 announced. Contractor still unnamed - Q-0005 remains open. No Evidence Register or Chronology changes, since neither source could be fetched/preserved this session (DEC-0008).",
+    "validation_completed": true
   }
 ]

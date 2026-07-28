@@ -147,5 +147,16 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request, reviewing the parallel RUN-0010 that landed since this session's last push before starting new work. Took a different approach: rather than more search on already-covered ground, computed directly (no external source needed) that 9 September 2024 was a Monday and 14 September 2024 was a Saturday, then found via search that NSW ordinary council elections are legally required to fall on 'the second Saturday in September' - and confirmed by counting Saturdays in September 2024 (7th/14th/21st/28th) that the 14th specifically matches that rule. Registered SRC-0031 (the statute, fetch-blocked) and strengthened Q-0006 with this reasoning. Not closing Q-0006 - a real preserved primary citation is still required and remains blocked (DEC-0008) - but this is the strongest non-primary-source case buildable right now."
+  },
+  {
+    "run_id": "RUN-0012",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0032",
+      "SRC-0033"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request, targeting THR-13's contractor/construction-progress gap for the Steuart McIntyre Dam plant. DEC-0008's fetch-tool outage still applies. Found a genuinely new, previously-unregistered event: two independent articles (an NSW Government release and a Port Macquarie News/Macleay Argus syndicated report) confirm a sod-turning/ground-breaking event for this project, placed 'as of July 2025' - consistent with EV-0005's announced mid-2025 start and the equivalent milestone to EV-0006 for the Willawarrin plant. Neither names the contractor, so Q-0005 remains open, but this confirms construction is genuinely underway. Registered as SRC-0032/SRC-0033, both fetch-blocked; updated THR-13's outstanding_work."
   }
 ]

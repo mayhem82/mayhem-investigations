@@ -502,5 +502,29 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 8,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0043",
+    "search_terms": "Steuart McIntyre Dam Kempsey built 1994 drought history emergency water treatment plant installed date",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0044",
+    "search_terms": "\"Sod turned on major $53m water security project\" Steuart McIntyre Dam contractor / \"Tapping into the future\" \"$53M water project breaks ground\" Kempsey date contractor",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 16,
+    "results_preserved": 0
   }
 ]
