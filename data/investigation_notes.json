@@ -808,5 +808,14 @@
     "related_thread": "THR-12",
     "related_source": null,
     "related_evidence": "EV-0028"
+  },
+  {
+    "note_id": "NOTE-0091",
+    "timestamp": "2026-07-29T07:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0029: retried the fetch tool twice (a known-relevant URL and a neutral control, example.com) - both still HTTP 403, DEC-0008 unchanged. Pivoted to federal (rather than NSW state or council) sources for THR-13, and found the National Water Grid Authority's own project tracker: the Steuart McIntyre Dam/Sherwood Borefield plant was \"Under construction\" as of 31 August 2025 (EV-0029), with a capacity figure (12 ML/day, expandable to 22 ML/day) not previously registered. Checked for a more recent (late 2025 or 2026) edition of the same tracker series and found none - only May 2024, January 2025, and August 2025 editions surface via search. Contractor identity (Q-0005) still not found anywhere. Willawarrin-specific commissioning status (Q-0001) still has no 2026-dated confirmation despite this run's different search angle (tender/practical-completion/business-paper language rather than news-style queries) - consistent with RUN-0028's honest no-relevant-change finding on that specific question.",
+    "related_thread": "THR-13",
+    "related_source": null,
+    "related_evidence": "EV-0029"
   }
 ]
