@@ -583,5 +583,23 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0066",
+    "timestamp": "2026-07-29T00:35:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0020). Retried the fetch tool once (SRC-0039's URL) - still HTTP 403, DEC-0008 unchanged. Tried to strengthen Q-0002's SRC-0027 lead (Bellbrook and the Aboriginal Communities Water and Sewerage Program) with a more targeted search for a specific completed-projects PDF or list.",
+    "related_thread": "THR-14",
+    "related_source": "SRC-0027",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0067",
+    "timestamp": "2026-07-29T00:38:00",
+    "activity_type": "Note",
+    "text": "This is now the third independent search reproducing the same bare claim (Bellbrook received ACWSP upgrade/repair work) with no new date or scope detail beyond what SRC-0027 already records - only a minor, likely-imprecise variance in the program's stated community count (62 vs the earlier-seen 63) not worth flagging. Nothing genuinely new to register this run. Logging as 'No relevant change detected.' No new sources, evidence, chronology, or open-question changes. Validating and committing the logs now.",
+    "related_thread": "THR-14",
+    "related_source": null,
+    "related_evidence": null
   }
 ]

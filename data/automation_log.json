@@ -225,5 +225,15 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request, following up on the Carrai East Bushfire thread. DEC-0008's fetch-tool outage still applies. Found Willawarrin's own evacuation details (Willawarrin Hall as a Disaster Assistance Welfare Point, homes lost, named residents Terry and Jutta Flynn) and a significant, sensitive finding requiring careful handling: an active NSW Coronial Inquiry proceeding concerning the death of Willawarrin resident Barry Parsons during the same fire. Registered as SRC-0039 (fetch-blocked), recorded with explicit, strictly factual language that no fault or responsibility is stated or implied by any person or body, consistent with the investigation's 'no allegation framing' standard. Deliberately held to a higher promotion bar than usual given the sensitivity - primary-source confirmation is required, not search-snippet corroboration alone."
+  },
+  {
+    "run_id": "RUN-0020",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0027"
+    ],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request, trying to strengthen Q-0002's SRC-0027 lead with a more targeted search. DEC-0008's fetch-tool outage still applies. This is now the third independent search reproducing the same bare claim with no new date or scope detail. No new sources, evidence, chronology, or open-question changes."
   }
 ]

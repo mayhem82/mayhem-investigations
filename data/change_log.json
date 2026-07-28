@@ -396,5 +396,18 @@
     ],
     "reason": "RUN-0019, continuing evidence collection at the operator's request on the Carrai East Bushfire thread. Found Willawarrin's own evacuation details and a significant, sensitive finding requiring careful handling: an active NSW Coronial Inquiry concerning the death of Willawarrin resident Barry Parsons during the same fire. Registered as SRC-0039, recorded with strictly factual, non-allegation-framed language and held to a higher-than-usual promotion bar given its sensitivity.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0025",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0020, continuing evidence collection at the operator's request. A third search reproducing Q-0002's already-registered SRC-0027 claim added no new date or scope detail. No new sources, evidence, chronology, or open-question changes.",
+    "validation_completed": true
   }
 ]
