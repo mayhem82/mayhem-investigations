@@ -137,5 +137,15 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "RUN-0010, continuing evidence collection at the operator's request. Retried the fetch tool (miragenews.com and a Wikipedia control URL) - still HTTP 403, DEC-0008 unchanged. Tried three angles new to this investigation: SRC-0028's Hillgrove mining contamination relevance to Willawarrin/Bellbrook specifically (no link found, confirming prior scope caution), a direct NSW Electoral Commission search for Q-0006's disputed election date (found strong corroboration for 14 September 2024, registered as SRC-0029), and an ABS Census search for CTR-0001's disputed population figure (found the 2021 Census figure of 183, close to 180 and registered as SRC-0030). Neither lead was promoted to evidence or used to close its open question/contradiction, since nothing could be fetched or preserved this session - both are strong, specific candidates for a future run with working fetch access."
+  },
+  {
+    "run_id": "RUN-0011",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0031"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request, reviewing the parallel RUN-0010 that landed since this session's last push before starting new work. Took a different approach: rather than more search on already-covered ground, computed directly (no external source needed) that 9 September 2024 was a Monday and 14 September 2024 was a Saturday, then found via search that NSW ordinary council elections are legally required to fall on 'the second Saturday in September' - and confirmed by counting Saturdays in September 2024 (7th/14th/21st/28th) that the 14th specifically matches that rule. Registered SRC-0031 (the statute, fetch-blocked) and strengthened Q-0006 with this reasoning. Not closing Q-0006 - a real preserved primary citation is still required and remains blocked (DEC-0008) - but this is the strongest non-primary-source case buildable right now."
   }
 ]

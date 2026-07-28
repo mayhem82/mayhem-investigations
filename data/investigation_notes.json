@@ -349,5 +349,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0040",
+    "timestamp": "2026-07-28T20:05:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0011). Found on pulling that a parallel run had already landed as RUN-0010 (SRC-0028/0029/0030) since this session last pushed. Reviewed its findings before doing new work, to avoid duplicating the same searches. Taking a different approach this run: rather than more WebSearch on already-well-covered ground, tried a pure computation the fetch outage can't block - checking what day of the week 9 September 2024 and 14 September 2024 actually fell on (Q-0006's disputed election date), since this is a deterministic calendar fact requiring no external source at all.",
+    "related_thread": "THR-15",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0041",
+    "timestamp": "2026-07-28T20:07:00",
+    "activity_type": "Finding",
+    "text": "Computed directly: 9 September 2024 was a Monday; 14 September 2024 was a Saturday. This alone already made EV-0011's '9 September' date implausible (NSW council elections are conventionally held on Saturdays), but a follow-up search found the specific statutory basis: NSW ordinary council elections are legally required to fall on 'the second Saturday in September' (Local Government Act 1993/Local Government (General) Regulation 2021). Checking the calendar: the Saturdays in September 2024 were the 7th, 14th, 21st, and 28th - so 14 September was specifically the second Saturday, matching the statute exactly, while 9 September was neither a Saturday nor a plausible alternative reading. Registered the statute as SRC-0031 (fetch-blocked, see DEC-0008) and strengthened Q-0006 with this reasoning - not closing the question, since a real preserved primary citation is still required and remains blocked, but this is now about as strong a non-primary-source case as this investigation can build.",
+    "related_thread": "THR-15",
+    "related_source": "SRC-0031",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0042",
+    "timestamp": "2026-07-28T20:10:00",
+    "activity_type": "Note",
+    "text": "RUN-0011 wrapping up: SRC-0031 added, Q-0006 strengthened with independently-computed calendar facts plus a statutory citation, SRCH-0042 logged. No Evidence Register, Chronology, or Contradiction changes - Q-0001 through Q-0006 and CTR-0001 all remain formally open pending fetch access, but Q-0006 now has the strongest non-primary-source case this investigation can build without a working fetch tool. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

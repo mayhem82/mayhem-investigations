@@ -418,5 +418,19 @@
     "hash_status": "No Hash",
     "associated_thread": null,
     "availability_notes": "abs.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Search-engine snippet states the 2021 Census recorded Willawarrin's population as 183, close to EV-0006's 180 figure and well above EV-0005's 130 figure - suggesting 130 is the outlier/likely error in CTR-0001, not 180. Registered here only, not promoted to evidence or used to resolve CTR-0001, since nothing could be fetched or preserved this session (DEC-0008); a strong lead for a future run with working fetch access."
+  },
+  {
+    "source_id": "SRC-0031",
+    "authority": "NSW Parliamentary Counsel's Office (legislation.nsw.gov.au)",
+    "title": "Local Government Act 1993 No 30 - ordinary election date provision (s.287, \"second Saturday in September\")",
+    "type": "Legislation",
+    "url_or_file_location": "https://legislation.nsw.gov.au/view/whole/html/inforce/2025-09-05/act-1993-030",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-15",
+    "availability_notes": "legislation.nsw.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Search-engine snippet states NSW ordinary council elections are held on 'the second Saturday in September every four years' per the Local Government Act 1993/Local Government (General) Regulation 2021, and separately confirms the NSW Electoral Commission's next such election is scheduled for Saturday 9 September 2028. This statutory rule, combined with independently computed calendar facts (not search-dependent - see NOTE referencing this source), gives a decisive, non-search basis for resolving Q-0006 once a real primary citation can be preserved: 14 September 2024 was both a Saturday and the second Saturday of that September, while 9 September 2024 was a Monday and not a Saturday at all."
   }
 ]
