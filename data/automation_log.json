@@ -75,5 +75,16 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "RUN-0004: reconciliation follow-up to RUN-0003 (CHG-0007), carrying forward the non-redundant findings from a separate, unmerged RUN-0003 attempt that duplicated this repository's already-committed mayoral-transition evidence (EV-0011/EV-0012) with a weaker, search-snippet-only version - that duplicate evidence was dropped rather than merged (see NOTE-0013, DEC-0007). Registered SRC-0023 (20 July 2026 Council Public Forum page, confirmed to exist but blocked) and SRC-0024 (Steuart McIntyre Dam Design & Construction tender listing, contractor not named). No new evidence, chronology, or open-question changes - Q-0001, Q-0002, Q-0003, and Q-0005 remain open."
+  },
+  {
+    "run_id": "RUN-0005",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0025",
+      "SRC-0026"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request, targeting Q-0001, Q-0002, Q-0003, and Q-0005 (SRCH-0017 through SRCH-0022). This session's fetch tool returned HTTP 403 on every URL attempted, including a domain and exact URL this repository previously fetched successfully (SRC-0015) and unrelated control URLs (Wikipedia, example.com) - a session-level tooling issue, not a site-specific block, recorded as DEC-0008 so it isn't mistaken for an absence of available sources. As a result no Evidence Register entries were added this run, since none could be preserved/hashed to this repository's existing bar. Registered two new sources for a genuine lead on Q-0005: SRC-0025 (Utility Magazine) and SRC-0026 (Mirage News), both consistently naming 'LC Eire, a partnership between LC Water and Eire Constructions' as the Steuart McIntyre Dam plant's contractor - a strong candidate answer, not yet confirmed against either primary text. Ruled out a one-off '$270 million' program figure and a 'Bellbrook Water Treatment Plant' claim as unreproduced/already-rejected search noise (see NOTE-0019, DEC-0007). Q-0001, Q-0002, Q-0003, and Q-0005 remain open."
   }
 ]

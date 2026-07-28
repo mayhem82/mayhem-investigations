@@ -44,8 +44,8 @@
     "question": "What contractor was awarded the main $52.9m Kempsey/Frederickton/Smithtown/Gladstone treatment plant (Steuart McIntyre Dam/Sherwood Borefield), and what is its construction status given the announced mid-2025 start and 18-month program (i.e. an implied completion around late 2026)?",
     "why_exists": "EV-0005 announces funding and a mid-2025-start, 18-month construction timeline for this larger, separate plant, but no contractor or progress information has yet been established by evidence in this register.",
     "evidence_creating_question": ["EV-0005"],
-    "evidence_required_to_resolve": "A tender award notice, construction-start announcement, or progress update for the main plant.",
-    "likely_source": "NSW Government (Water) / WaterNSW; Kempsey Shire Council.",
+    "evidence_required_to_resolve": "A tender award notice, construction-start announcement, or progress update for the main plant. RUN-0005 (2026-07-28) found a candidate answer - 'LC Eire, a partnership between LC Water and Eire Constructions' - repeated consistently across two independent search-engine snippets (SRC-0025, SRC-0026), but this has not been confirmed against either underlying article's primary text (both fetch-blocked this session, see DEC-0008), so it is not yet accepted as resolution evidence.",
+    "likely_source": "NSW Government (Water) / WaterNSW; Kempsey Shire Council; Utility Magazine (SRC-0025) or Mirage News (SRC-0026) once fetchable.",
     "status": "Open",
     "resolution_evidence": []
   },

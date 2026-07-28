@@ -133,5 +133,50 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0016",
+    "timestamp": "2026-07-28T16:05:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue evidence collection (RUN-0005). Targeting the four still-open questions: Q-0001 (commissioning status), Q-0002 (Bellbrook-specific infrastructure), Q-0003 (cost increase reason), Q-0005 (Steuart McIntyre Dam contractor).",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0017",
+    "timestamp": "2026-07-28T16:12:00",
+    "activity_type": "Blocked",
+    "text": "This session's fetch tool returns HTTP 403 Forbidden on every URL attempted, including domains this repository has previously fetched and preserved successfully from other sessions (miragenews.com - the exact SRC-0015/EV-0010 URL), and even on completely unrelated control URLs (en.wikipedia.org, example.com). This is a session-level tooling constraint, not a site-specific bot-detection block like DEC-0006's - recording as DEC-0008 so a future session doesn't mistake this run's lower yield for an absence of available sources. No source can be preserved or hashed by this session as a result; any new lead found via search this run is registered as a Source only, not promoted to an Evidence Register entry, since this repository's own bar (a real preserved/hashed file) can't be met right now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0018",
+    "timestamp": "2026-07-28T16:20:00",
+    "activity_type": "Finding",
+    "text": "Two independent search queries ('Steuart McIntyre Dam water treatment plant contractor awarded construction company' and a follow-up naming-check query) both returned consistent wording identifying the Q-0005 contractor as 'LC Eire, a partnership between LC Water and Eire Constructions', apparently drawn from Utility Magazine's 'Work begins on $52.9M NSW water project' and a Mirage News article on the same $52.9m package. Could not fetch either article directly to confirm the primary text or get a direct quotation (see NOTE-0017). Registering both as new, blocked sources (SRC-0025, SRC-0026) and updating Q-0005/THR-13's outstanding_work to record this as a strong, cross-confirmed-by-search-summary lead that still requires primary-source confirmation before it can become an Evidence Register entry.",
+    "related_thread": "THR-13",
+    "related_source": "SRC-0025",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0019",
+    "timestamp": "2026-07-28T16:26:00",
+    "activity_type": "Note",
+    "text": "Also searched for Q-0003 (cost increase reason) and Q-0002/THR-14 (Bellbrook-specific infrastructure) with fresh phrasing. Nothing new on Q-0003 beyond what SRC-0021/SRC-0022 already flag. One search's own summary asserted a distinct '$270 million' water/sewer program and a named 'Bellbrook Water Treatment Plant' - a second, independent query did not reproduce either figure, and the 'Bellbrook Water Treatment Plant' claim is the same unverified, self-contradicting assertion DEC-0007 already declined to accept. Not re-litigating that decision: still no evidence of a dedicated Bellbrook treatment plant. Also re-checked Q-0001 (commissioning) with date-bounded phrasing ('since April 2026') - no source dated after March 2025 found; the 'early 2026' target remains the most recent status anywhere in reach of this session's tools.",
+    "related_thread": "THR-14",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0020",
+    "timestamp": "2026-07-28T16:30:00",
+    "activity_type": "Note",
+    "text": "RUN-0005 wrapping up: SRC-0025/SRC-0026 added, SRCH-0017 through SRCH-0022 logged, DEC-0008 recorded. No Evidence Register, Chronology, or Open Question changes this run - Q-0001, Q-0002, Q-0003, and Q-0005 remain open. THR-13's outstanding_work updated with the LC Eire lead. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

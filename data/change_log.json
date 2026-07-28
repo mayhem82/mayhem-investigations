@@ -178,5 +178,22 @@
     ],
     "reason": "RUN-0004: reconciles a separate, unmerged evidence-collection branch (also self-identified as 'RUN-0003') that duplicated this repository's already-committed CHG-0007 mayoral-transition evidence with a weaker, search-snippet-only version of the same facts. That duplicate (its own EV-0011, a chronology entry, and a THR-15 update) was dropped as redundant/inferior rather than merged. Carried forward only what remained genuinely new from that branch's session: SRC-0023 (Council Public Forum, 20 July 2026 - confirmed to exist, blocked to fetch) and SRC-0024 (Steuart McIntyre Dam tender listing - confirms a tender ran, contractor still unnamed), plus DEC-0007 declining to accept an unverified 'Bellbrook Water Treatment Plant' claim as evidence. Note: change_id CHG-0008 is reserved by a separate, still-open pull request (workspace navigation/GitHub Pages) opened before this one; skipping it here avoids a collision once both merge.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0010",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/threads.json",
+      "data/open_questions.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/decisions.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0005, continuing evidence collection at the operator's request. This session's fetch tool was found to be broadly non-functional (HTTP 403 on every URL tried, including a previously-successful domain and unrelated control URLs), recorded as DEC-0008 - a session-level constraint, not a site-specific block. Registered SRC-0025/SRC-0026, a strong but unconfirmed lead identifying 'LC Eire' (LC Water + Eire Constructions) as the Steuart McIntyre Dam plant's contractor, updating Q-0005/THR-13 accordingly. No Evidence Register, Chronology, or Contradiction changes - nothing found this run could be preserved/hashed to this repository's existing evidentiary bar.",
+    "validation_completed": true
   }
 ]

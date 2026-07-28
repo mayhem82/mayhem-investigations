@@ -54,5 +54,13 @@
     "supporting_evidence": ["EV-0013"],
     "investigator": "mayhem82",
     "impact": "Per spec section 4's Source Before Analysis principle, the 'Bellbrook Water Treatment Plant' claim is not accepted into the Evidence Register on the basis of an unverifiable, self-contradicting search-engine summary that a properly-sourced record (EV-0013) does not corroborate. Q-0002 and THR-14 remain open with no evidence of Bellbrook having received a dedicated treatment plant."
+  },
+  {
+    "decision_id": "DEC-0008",
+    "date": "2026-07-28",
+    "reason": "During RUN-0005, this session's fetch tool returned HTTP 403 Forbidden on every URL attempted without exception - including miragenews.com at the exact URL this repository preserved successfully as SRC-0015/EV-0010 in an earlier session, and on completely unrelated control URLs (en.wikipedia.org, example.com) that carry no plausible bot-detection interest in this investigation. This is distinct from DEC-0006's site-specific, deliberate-bot-detection scenario: it is a session-level tooling constraint affecting all outbound fetches, not a property of any particular source.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "No source can be preserved or hashed by this session. Leads found via search this run are registered in the Source Register only (preservation_status 'Not Preserved', hash_status 'No Hash') and are not promoted to Evidence Register entries, since this repository's own bar for an evidence item (a real preserved file, ideally hashed) cannot be met right now. A future session with working fetch access should treat SRC-0025/SRC-0026 (and any other 'Not Confirmed - fetch blocked' source added this run) as priority candidates to re-check, rather than assuming they were already tried and failed for a structural reason."
   }
 ]

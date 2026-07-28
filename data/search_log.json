@@ -190,5 +190,77 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0017",
+    "search_terms": "\"Willawarrin\" water treatment plant \"practical completion\" OR \"handover\" OR \"commissioned\" 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0018",
+    "search_terms": "Steuart McIntyre Dam water treatment plant contractor awarded construction company",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0019",
+    "search_terms": "\"LC Eire\" Steuart McIntyre Dam water treatment plant Kempsey",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0020",
+    "search_terms": "Bellbrook Kempsey water reservoir bore treatment infrastructure upgrade",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0021",
+    "search_terms": "Kempsey Shire Council business paper \"detailed design\" Willawarrin water treatment plant cost estimate increase",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0022",
+    "search_terms": "\"Bellbrook\" water treatment OR bore OR reservoir 2024 2025 Kempsey capital works program / \"$270 million\" Kempsey Shire Council water sewer program Bellbrook Willawarrin / Willawarrin water treatment plant news since April 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 26,
+    "results_preserved": 0
   }
 ]
