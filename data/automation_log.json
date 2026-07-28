@@ -125,5 +125,17 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request (SRCH-0033 through SRCH-0035), targeting Q-0001 and Q-0003 via three angles not tried in prior runs: federal Member for Cowper Pat Conaghan's statements, the 'Your Say Macleay' community engagement platform's Willawarrin page, and a direct delay/pushed-back search given how far past the 'early 2026' target the current date now is. DEC-0008's fetch-tool outage still applies (retried once). All three angles reproduced only already-registered facts. No new sources, evidence, chronology, or open-question changes."
+  },
+  {
+    "run_id": "RUN-0010",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0028",
+      "SRC-0029",
+      "SRC-0030"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "RUN-0010, continuing evidence collection at the operator's request. Retried the fetch tool (miragenews.com and a Wikipedia control URL) - still HTTP 403, DEC-0008 unchanged. Tried three angles new to this investigation: SRC-0028's Hillgrove mining contamination relevance to Willawarrin/Bellbrook specifically (no link found, confirming prior scope caution), a direct NSW Electoral Commission search for Q-0006's disputed election date (found strong corroboration for 14 September 2024, registered as SRC-0029), and an ABS Census search for CTR-0001's disputed population figure (found the 2021 Census figure of 183, close to 180 and registered as SRC-0030). Neither lead was promoted to evidence or used to close its open question/contradiction, since nothing could be fetched or preserved this session - both are strong, specific candidates for a future run with working fetch access."
   }
 ]

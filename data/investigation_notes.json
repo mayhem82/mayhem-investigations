@@ -304,5 +304,50 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0035",
+    "timestamp": "2026-07-28T19:25:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0010). Retried the fetch tool against a URL already preserved successfully in an earlier session (EV-0010's miragenews.com URL) plus a control URL (en.wikipedia.org) - both still HTTP 403. DEC-0008's session-level fetch outage remains in effect. Picking three angles not yet tried in RUN-0005 through RUN-0009: (1) whether SRC-0028's Hillgrove mining contamination has any specific link to Willawarrin/Bellbrook's own extraction points rather than the general catchment, (2) a direct NSW Electoral Commission search for Q-0006's disputed election date, (3) an ABS Census search for CTR-0001's disputed population figure.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0036",
+    "timestamp": "2026-07-28T19:30:00",
+    "activity_type": "Note",
+    "text": "SRC-0028 follow-up: found nothing tying Hillgrove/Bakers Creek arsenic-antimony contamination specifically to Willawarrin's own bore/river extraction points - only general catchment-wide references (the dispersion train runs ~50km downstream of Hillgrove, described as reaching the Macleay floodplain generally). Confirms the prior run's caution was correct: this stays unlinked to any thread, avoiding scope creep beyond this case's Willawarrin/Bellbrook focus.",
+    "related_thread": null,
+    "related_source": "SRC-0028",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0037",
+    "timestamp": "2026-07-28T19:35:00",
+    "activity_type": "Finding",
+    "text": "Strong lead for Q-0006: multiple independent search-engine snippets, including one referencing an NSW Electoral Commission media release specifically about Kempsey (alongside Shellharbour Ward A and Singleton), consistently state Kempsey Shire Council's 2024 election day was Saturday 14 September 2024 - not the 9 September 2024 date EV-0011 attributed to the result. Most likely explanation: EV-0011's '9' is a transcription error for '14', matching the statewide polling day. Registered as SRC-0029, but not promoted to evidence or used to close Q-0006, since nothing could be fetched or preserved this session (DEC-0008).",
+    "related_thread": "THR-15",
+    "related_source": "SRC-0029",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0038",
+    "timestamp": "2026-07-28T19:40:00",
+    "activity_type": "Finding",
+    "text": "Strong lead for CTR-0001: the ABS 2021 Census QuickStats for Willawarrin (SAL14312) gives a population of 183, close to EV-0006's 180 figure and well above EV-0005's 130 figure - suggesting 130 is the outlier needing correction, not 180. Registered as SRC-0030, but not used to resolve CTR-0001 (still Open), since nothing could be fetched or preserved this session (DEC-0008).",
+    "related_thread": null,
+    "related_source": "SRC-0030",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0039",
+    "timestamp": "2026-07-28T19:42:00",
+    "activity_type": "Note",
+    "text": "RUN-0010 wrapping up: SRC-0029 and SRC-0030 added (strong, specific leads for Q-0006 and CTR-0001 respectively, both fetch-blocked this session per DEC-0008), SRCH-0036 through SRCH-0041 logged. No Evidence Register, Chronology, or Open Question/Contradiction status changes - Q-0001, Q-0002, Q-0003, Q-0005, Q-0006, and CTR-0001 all remain open, but two of them now have a specific, named primary source a future run with working fetch access should check first. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
