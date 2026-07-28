@@ -382,5 +382,41 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 7,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0033",
+    "search_terms": "Pat Conaghan MP Cowper Willawarrin water treatment plant statement / site:patconaghan.com.au Willawarrin water",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 19,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0034",
+    "search_terms": "\"yoursay.macleay.nsw.gov.au\" Willawarrin water treatment plant survey consultation",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0035",
+    "search_terms": "Willawarrin water treatment plant delay OR delayed OR pushed back 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 0
   }
 ]

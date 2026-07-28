@@ -117,5 +117,13 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request. DEC-0008's fetch-tool outage still applies (retried once). Instead of only searching for new material, cross-checked the existing Evidence Register against itself and found CTR-0001: EV-0005 and EV-0006, both NSW Government primary sources published three days apart in March 2025, give different Willawarrin population figures (130 vs 180) - the Contradiction Register's first entry. Also searched for THR-03/THR-04's stated gap (specific ADWG iron/manganese concentration figures) and THR-01's stated gap (pre-2019 history) - neither surfaced anything new. A tangential lead (SRC-0028: a Save Our Macleay River/SCU citizen-science study on arsenic/antimony from historic Hillgrove mining tailings) was registered for completeness but deliberately not linked to a case thread, since it concerns a different contaminant from an upstream source and its relevance to Willawarrin/Bellbrook specifically is unconfirmed."
+  },
+  {
+    "run_id": "RUN-0009",
+    "date": "2026-07-28",
+    "sources_checked": [],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request (SRCH-0033 through SRCH-0035), targeting Q-0001 and Q-0003 via three angles not tried in prior runs: federal Member for Cowper Pat Conaghan's statements, the 'Your Say Macleay' community engagement platform's Willawarrin page, and a direct delay/pushed-back search given how far past the 'early 2026' target the current date now is. DEC-0008's fetch-tool outage still applies (retried once). All three angles reproduced only already-registered facts. No new sources, evidence, chronology, or open-question changes."
   }
 ]

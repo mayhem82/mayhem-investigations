@@ -286,5 +286,23 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0033",
+    "timestamp": "2026-07-28T19:10:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0009). Retried the fetch tool once - still HTTP 403, DEC-0008 unchanged. Tried three fresh angles not attempted in prior runs: federal Member for Cowper Pat Conaghan's own statements/website (Q-0001/Q-0003), the 'Your Say Macleay' community engagement platform's Willawarrin page (Q-0001), and a direct delay/pushed-back search given how far past the 'early 2026' target the current date (28 July 2026) now is.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0034",
+    "timestamp": "2026-07-28T19:16:00",
+    "activity_type": "Note",
+    "text": "All three angles reproduced only already-registered facts (LC Water as contractor, the March 2025 construction start, 'early 2026' target) or unrelated results. No new sources, evidence, chronology, or open-question changes this run - logging as 'No relevant change detected.' per spec section 7. Q-0001, Q-0002, Q-0003, Q-0005, and Q-0006 remain open. Validating and committing the logs now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

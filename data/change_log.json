@@ -239,5 +239,18 @@
     ],
     "reason": "RUN-0008, continuing evidence collection at the operator's request. Cross-checked the existing Evidence Register against itself (rather than only searching for new material) and found the Contradiction Register's first entry, CTR-0001: two NSW Government primary sources (EV-0005, EV-0006) three days apart give different Willawarrin population figures (130 vs 180). Registered SRC-0028, a tangential arsenic/antimony catchment-contamination lead, deliberately unlinked to any thread pending confirmation of relevance to this case's own geographic scope. No Evidence Register or Chronology changes.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0014",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0009, continuing evidence collection at the operator's request. Tried three angles new to this investigation (federal MP statements, the Your Say Macleay engagement platform, a direct delay search) - all reproduced only already-registered facts. DEC-0008's fetch-tool outage still applies. Logged as a genuine 'No relevant change detected.' automation run rather than padding the register.",
+    "validation_completed": true
   }
 ]
