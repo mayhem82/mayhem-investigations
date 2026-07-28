@@ -162,5 +162,21 @@
     ],
     "reason": "Made the workspace a real, navigable website per the operator's request. (1) Added a GitHub Actions workflow publishing the repository root to GitHub Pages on every push to main. Moved the workspace (index.html, app.js, style.css) from site/ to the repository root, updating its data/ fetch paths accordingly, so the workspace itself is the site's main page - not something behind a /site/ subpath or a redirect stub - per follow-up operator feedback that the initial redirect-based approach wasn't the intended design. (2) Every cross-reference ID a register cites (relationships, supporting_evidence, dependencies, etc., previously rendered as inert text chips) is now a real link: clicking it switches to the owning section, opens and scrolls to that specific record, and updates the URL to a shareable #section/RECORD-ID deep link; section and record navigation now use history.pushState on user clicks (previously always replaceState) so browser back/forward works like ordinary page navigation.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0009",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/decisions.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0004: reconciles a separate, unmerged evidence-collection branch (also self-identified as 'RUN-0003') that duplicated this repository's already-committed CHG-0007 mayoral-transition evidence with a weaker, search-snippet-only version of the same facts. That duplicate (its own EV-0011, a chronology entry, and a THR-15 update) was dropped as redundant/inferior rather than merged. Carried forward only what remained genuinely new from that branch's session: SRC-0023 (Council Public Forum, 20 July 2026 - confirmed to exist, blocked to fetch) and SRC-0024 (Steuart McIntyre Dam tender listing - confirms a tender ran, contractor still unnamed), plus DEC-0007 declining to accept an unverified 'Bellbrook Water Treatment Plant' claim as evidence. Note: change_id CHG-0008 is reserved by a separate, still-open pull request (workspace navigation/GitHub Pages) opened before this one; skipping it here avoids a collision once both merge.",
+    "validation_completed": true
   }
 ]

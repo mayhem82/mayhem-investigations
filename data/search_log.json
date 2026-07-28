@@ -142,5 +142,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0013",
+    "search_terms": "Bellbrook NSW water treatment infrastructure upgrade 2025 2026 / \"Bellbrook Water Treatment Plant\" Kempsey Shire Council capital works",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 18,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0014",
+    "search_terms": "Willawarrin water treatment plant cost increased $4 million $8 million scope",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 6,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0015",
+    "search_terms": "Steuart McIntyre Dam Sherwood Borefield water treatment plant contractor construction start 2025",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0016",
+    "search_terms": "Kempsey Shire Council Public Forum agenda \"20 July 2026\"",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
   }
 ]
