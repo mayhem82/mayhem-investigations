@@ -368,5 +368,18 @@
     ],
     "reason": "RUN-0017, continuing evidence collection at the operator's request. Found a third independent source (NSW Department of Education, SRC-0038, fetch-blocked) corroborating and adding detail to RUN-0016's Carrai East Bushfire finding. No Evidence Register or Chronology changes - still pending a working fetch tool.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0023",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0018, continuing evidence collection at the operator's request. An internal cross-reference pass over the Evidence Register found only a soft, self-qualified figure discrepancy in EV-0001 not worth a Contradiction Register entry. A THR-06 search returned an unreliable, conflated summary, declined per DEC-0007. No new sources, evidence, chronology, or open-question changes.",
+    "validation_completed": true
   }
 ]

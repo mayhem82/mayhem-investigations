@@ -538,5 +538,23 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0061",
+    "timestamp": "2026-07-28T23:40:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0018). Retried the fetch tool once (SRC-0038's URL) - still HTTP 403, DEC-0008 unchanged. Did an internal cross-reference pass over the existing Evidence Register (the approach that found CTR-0001) looking for anything else unexploited: checked EV-0001's '80% and falling, 1,900 ML remaining' dam figures against EV-0005's '2,500 ML capacity' (80% of 2,500 would be 2,000 ML, not 1,900) - judged this too soft to register as a contradiction, since both figures in EV-0001 are already self-qualified as approximate ('approximately 80%') within a single article, unlike CTR-0001's two separately-published, unqualified figures.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0001"
+  },
+  {
+    "note_id": "NOTE-0062",
+    "timestamp": "2026-07-28T23:44:00",
+    "activity_type": "Note",
+    "text": "Also searched THR-06's stated gap (why Willawarrin's bore/river supply was never connected to the more secure Steuart McIntyre Dam/Sherwood Borefield network). The only result confirmed Sherwood Borefield's distance from the dam (2km) but not from Willawarrin, and its own summary conflated the two separate plants again (attributing the Steuart McIntyre Dam project's pipeline/pump work to 'a new $8 million water treatment plant at Willawarrin') - the same unreliable-summary pattern already declined per DEC-0007. Not registering this search's output. No new sources, evidence, chronology, or open-question changes this run - logging as 'No relevant change detected.' Validating and committing the logs now.",
+    "related_thread": "THR-06",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
