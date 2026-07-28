@@ -642,5 +642,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "macleayargus.com.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). A genuinely new chronology gap-filler: Kempsey Shire Council moved to Level 3 water restrictions (up from Level 2, CHR-0007/EV-0009) on 2 December 2019 - between the known Level 2 restrictions (4 June 2019) and the drought/trucked-water period already documented from October-November 2019. Shows continued escalation of the drought through this period. Not promoted to evidence, since nothing could be fetched or preserved this session."
+  },
+  {
+    "source_id": "SRC-0047",
+    "authority": "Kempsey Shire Council",
+    "title": "Drinking Water Management System Annual Report, July 2019 - June 2020",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2019-2020.pdf",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-03",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). A previously unregistered annual report covering the exact drought/trucked-water crisis period (July 2019-June 2020) - the strongest candidate yet for THR-03/THR-04's outstanding need for actual iron/manganese concentration figures against ADWG limits, rather than descriptive media/council reporting only. No specific figures could be extracted from search-engine snippets; the document itself needs to be fetched. Sits alongside the already-registered 2020-2021 report (SRC-0042, per an earlier run) as a priority target for a future session with working fetch access."
   }
 ]
