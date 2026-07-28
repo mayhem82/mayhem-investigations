@@ -54,5 +54,37 @@
     "event_description": "Kempsey Shire Council moves to Level 2 water restrictions amid minimal forecast rainfall and declining Macleay River flow, naming Willawarrin and Bellbrook among the affected supply schemes. This is the earliest evidence found so far of the drought conditions behind the 2019-2020 trucked-water episode (CHR-0001), predating it by about five months.",
     "status": "Confirmed",
     "supporting_evidence": ["EV-0009"]
+  },
+  {
+    "chronology_id": "CHR-0008",
+    "event_date": "2024-09 (exact day disputed - see Q-0006)",
+    "date_is_inference": true,
+    "event_description": "The 2024 NSW Local Government election is held, contesting Kempsey Shire Council's mayoralty and councillor seats. EV-0011 (a Kempsey Shire Council-bylined item) states the results were 'for the September 9, 2024' election, but multiple independent sources place the statewide 2024 NSW Local Government polling day at Saturday 14 September 2024. Which date is correct for Kempsey specifically is not yet resolved (Q-0006).",
+    "status": "Pending",
+    "supporting_evidence": ["EV-0011"]
+  },
+  {
+    "chronology_id": "CHR-0009",
+    "event_date": "2024-09-30",
+    "date_is_inference": false,
+    "event_description": "The NSW Electoral Commission announces the preliminary distribution-of-preferences result for Kempsey Shire Council mayor: Kinne Ring elected with 53.67% after preferences, succeeding outgoing Mayor Leo Hauville.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0012"]
+  },
+  {
+    "chronology_id": "CHR-0010",
+    "event_date": "2024-10-09",
+    "date_is_inference": false,
+    "event_description": "The newly elected Kempsey Shire Council - Mayor Kinne Ring plus five new and three returning councillors - is formally sworn in (Oaths and Affirmations ceremony) at Council Chambers before the General Manager.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0011"]
+  },
+  {
+    "chronology_id": "CHR-0011",
+    "event_date": "2022-05-17",
+    "date_is_inference": false,
+    "event_description": "Kempsey Shire Council announces a $54 million water and sewer capital works program, naming Willawarrin as one of two new water treatment plant locations (with Crescent Head) - the earliest evidence found of the Willawarrin plant project, over two years before it reached tender stage.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0013"]
   }
 ]

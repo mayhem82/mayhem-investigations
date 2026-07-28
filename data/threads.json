@@ -57,8 +57,8 @@
     "thread_id": "THR-07",
     "name": "Funding",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0007"],
-    "outstanding_work": "Confirm the reason for the Willawarrin plant's cost increase from approximately $4m (2024) to $8m (2025) - see Q-0003.",
+    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0007", "EV-0013"],
+    "outstanding_work": "Confirm the reason for the Willawarrin plant's cost increase from approximately $4m (2024) to $8m (2025) - see Q-0003. EV-0013 (May 2022) shows the project existed at least that early with no cost figure attached yet; SRC-0021 (Pump Industry Magazine) and SRC-0022 (Kempsey Council, 8 Aug 2024 - one day after EV-0004) are both blocked and are likely leads once manually retrieved.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -66,8 +66,8 @@
     "thread_id": "THR-08",
     "name": "Treatment plant",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0007"],
-    "outstanding_work": "Confirm current construction/commissioning status given the passed \"early 2026\" target (see Q-0001). Obtain the blocked Kempsey Council source pages (SRC-0010, SRC-0011, SRC-0012) via manual browser access - they are likely the most current record available.",
+    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0007", "EV-0013"],
+    "outstanding_work": "Confirm current construction/commissioning status given the passed \"early 2026\" target (see Q-0001). Obtain the blocked Kempsey Council source pages (SRC-0010, SRC-0011, SRC-0012) via manual browser access - they are likely the most current record available. Project history now traces back to May 2022 (EV-0013, CHR-0011).",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -111,8 +111,8 @@
     "thread_id": "THR-13",
     "name": "Regional water security funding program (Steuart McIntyre Dam / Sherwood Borefield)",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0005", "EV-0008"],
-    "outstanding_work": "New thread opened 2026-07-28 after EV-0005 revealed the Willawarrin plant is one component of a larger $52.9m regional package that also funds a new main treatment plant for Kempsey/Frederickton/Smithtown/Gladstone (~18,000 residents). Identify the contractor and construction progress for this larger project, and establish whether it has any direct bearing on Willawarrin/Bellbrook's water security specifically (see Q-0005).",
+    "supporting_evidence": ["EV-0005", "EV-0008", "EV-0013"],
+    "outstanding_work": "New thread opened 2026-07-28 after EV-0005 revealed the Willawarrin plant is one component of a larger $52.9m regional package that also funds a new main treatment plant for Kempsey/Frederickton/Smithtown/Gladstone (~18,000 residents). Identify the contractor and construction progress for this larger project, and establish whether it has any direct bearing on Willawarrin/Bellbrook's water security specifically (see Q-0005). EV-0013 (May 2022) adds that an emergency water treatment plant was separately installed at Steuart McIntyre Dam for the main Kempsey/Lower Macleay supply - establish when and why.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -128,10 +128,10 @@
   {
     "thread_id": "THR-15",
     "name": "Kempsey Shire Council leadership timeline (evidence-attribution context)",
-    "status": "Not Started",
-    "supporting_evidence": ["EV-0004", "EV-0005"],
-    "outstanding_work": "New thread opened 2026-07-28 after EV-0004 (Aug 2024) and EV-0005 (Mar 2025) named different individuals as Mayor of Kempsey Shire Council. Confirm the date and cause of this change for accurate evidence attribution going forward (see Q-0004) - most plausibly the scheduled September 2024 NSW local government elections, but not yet confirmed by evidence.",
+    "status": "Complete",
+    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0011", "EV-0012"],
+    "outstanding_work": "Q-0004 resolved: Leo Hauville to Kinne Ring is the ordinary 2024 election (53.67% after preferences, preliminary result 30 Sep 2024, sworn in 9 Oct 2024). One loose end remains outside this thread's original purpose - EV-0011's own text gives an internally odd election date (see Q-0006) - but it no longer affects evidence attribution, so this thread is closed.",
     "dependencies": [],
-    "completion_state": "Not Complete"
+    "completion_state": "Complete"
   }
 ]

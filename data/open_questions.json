@@ -36,8 +36,8 @@
     "evidence_creating_question": ["EV-0004", "EV-0005"],
     "evidence_required_to_resolve": "A dated council governance record or NSW Electoral Commission result confirming the mayoral change and its cause.",
     "likely_source": "Kempsey Shire Council governance records; NSW Electoral Commission local government election results.",
-    "status": "Open",
-    "resolution_evidence": []
+    "status": "Closed",
+    "resolution_evidence": ["EV-0011", "EV-0012"]
   },
   {
     "question_id": "Q-0005",
@@ -46,6 +46,16 @@
     "evidence_creating_question": ["EV-0005"],
     "evidence_required_to_resolve": "A tender award notice, construction-start announcement, or progress update for the main plant.",
     "likely_source": "NSW Government (Water) / WaterNSW; Kempsey Shire Council.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0006",
+    "question": "EV-0011 states the 2024 Kempsey Shire Council election results were 'for the September 9, 2024' poll, but multiple independent sources place the 2024 NSW Local Government elections' statewide polling day at Saturday 14 September 2024. Which is correct for Kempsey, and is EV-0011's date a simple error, a reference to a different date, or otherwise explainable?",
+    "why_exists": "EV-0011 (a Kempsey Shire Council-bylined item) contains an internally curious date - 9 September 2024 was a Monday, inconsistent with the Saturday convention for NSW council elections and with general reporting on the 2024 statewide poll date. No independent source specific to Kempsey has yet been checked to confirm which date applies here; elections.nsw.gov.au (SRC-0018) is blocked to automated fetch.",
+    "evidence_creating_question": ["EV-0011"],
+    "evidence_required_to_resolve": "The NSW Electoral Commission's own Kempsey Shire Council election results page or bulletin, confirmed by direct (manual) access.",
+    "likely_source": "elections.nsw.gov.au (SRC-0018) - blocked to automated access, requires manual browser retrieval.",
     "status": "Open",
     "resolution_evidence": []
   }

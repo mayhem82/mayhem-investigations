@@ -125,5 +125,25 @@
     ],
     "reason": "Added a live Investigation Notes register and workspace view (spec section 14) - an append-only working log written progressively during a collection run, rendered most-recent-first and polled every 15s in the browser so it reflects work in progress rather than only a static end-of-session summary. Used it to log RUN-0002, a follow-up evidence-collection run pursuing RUN-0001's unpursued leads: added EV-0009 (pushes the known drought onset back to June 2019) and EV-0010 (first Bellbrook-specific evidence since 2020, partially informing but not resolving Q-0002). Recorded DEC-0006, a standing rule against working around bot-detection blocks after a Wayback Machine snapshot of a blocked source could not be retrieved.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0007",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/chronology.json",
+      "data/open_questions.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "preserved/EV-0011-macleay-argus-swearing-in-2024-10-10.html",
+      "preserved/EV-0012-macleay-argus-election-result-2024-09-30.html",
+      "preserved/EV-0013-miragenews-54m-budget-2022-05-17.html"
+    ],
+    "reason": "RUN-0003, continuing evidence collection at the operator's request while they separately attempt the four blocked kempsey.nsw.gov.au URLs with their own browser tools. Added EV-0011/EV-0012 (resolving Q-0004, the mayoral transition) and EV-0013 (pushes the Willawarrin plant's documented history back to May 2022). Closed THR-15 and Q-0004; opened Q-0006 for a residual date discrepancy in EV-0011 that could not be independently confirmed either way. Ruled out the WaterNSW 2025 compliance report as inapplicable (logged as a note, not a source, since it was checked and found not to mention this case at all).",
+    "validation_completed": true
   }
 ]

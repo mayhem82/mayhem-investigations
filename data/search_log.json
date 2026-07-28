@@ -70,5 +70,77 @@
     "jurisdiction": "Not jurisdiction-restricted",
     "results_reviewed": 1,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0007",
+    "search_terms": "Kempsey Shire Council mayor election September 2024 Kinne Ring",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 3
+  },
+  {
+    "search_id": "SRCH-0008",
+    "search_terms": "NSW local government elections 2024 date \"14 September\"",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0009",
+    "search_terms": "LC Water Willawarrin contract tender award",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0010",
+    "search_terms": "Kempsey Shire Council business paper Willawarrin water treatment plant budget increase",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 3
+  },
+  {
+    "search_id": "SRCH-0011",
+    "search_terms": "WaterNSW compliance report 2025 Kempsey Macleay Willawarrin",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 6,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0012",
+    "search_terms": "Willawarrin water treatment plant complete finished operational",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
   }
 ]

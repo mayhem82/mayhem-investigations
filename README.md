@@ -109,11 +109,12 @@ This repository implements the full specification:
 - Case Definition (section 24)
 - Evidence, Source, Chronology, Contradiction, Open Question, and
   Investigation Thread registers (sections 8-13). Evidence collection is
-  underway across two runs: 10 evidence items across 15 sources, 7
-  chronology entries (spanning June 2019 to March 2025), and 5 open
-  questions, covering the 2019-2020 drought/trucked-water episode and the
-  2024-2025 Willawarrin treatment plant funding and construction start.
-  The investigation now runs 15 threads - the original 12 plus 3 opened as
+  underway across three runs: 13 evidence items across 22 sources, 11
+  chronology entries (spanning May 2022 to March 2025), and 6 open
+  questions (one closed), covering the project's May 2022 origin, the
+  2019-2020 drought/trucked-water episode, the 2024 mayoral transition,
+  and the 2024-2025 Willawarrin treatment plant funding and construction
+  start. The investigation now runs 15 threads - the original 12 plus 3 opened as
   evidence revealed new leads (a regional funding program, a
   Bellbrook-specific evidence gap, and a council leadership timeline
   needed for attribution), per the DFAPTI "all paths taken" methodology.

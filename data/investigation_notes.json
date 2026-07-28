@@ -52,5 +52,59 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0007",
+    "timestamp": "2026-07-28T11:15:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue with RUN-0003 and gave the operator the four blocked kempsey.nsw.gov.au URLs (SRC-0010, SRC-0011, SRC-0012, and the 20 July 2026 Public Forum agenda) to try from their own browser tools. Not re-attempting those myself (see DEC-0006). Starting this run on new angles instead: NSW tender/contract-award records for the LC Water contract (Q-0003/Q-0004), NSW Electoral Commission records for the Kempsey mayoral change (Q-0004), and the WaterNSW 2025 compliance report noticed but not yet fetched in RUN-0001's search results.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0008",
+    "timestamp": "2026-07-28T11:24:00",
+    "activity_type": "Finding",
+    "text": "Found two Macleay Argus articles confirming the Kempsey mayoral transition: Leo Hauville (outgoing) to Kinne Ring (53.67% after preferences, preliminary result 30 Sep 2024, sworn in 9 Oct 2024). This resolves Q-0004. However, the swearing-in article's own text states results were 'for the September 9, 2024 Local Government election' - but 9 September 2024 was a Monday, and multiple independent sources confirm the 2024 NSW Local Government elections were held statewide on Saturday 14 September 2024. Tried to find a citable, fetchable source stating the 14th explicitly to properly evidence both sides of this as a Contradiction Register entry, but elections.nsw.gov.au, campbelltown.nsw.gov.au, and sah.org.au all blocked the request (the last via an Incapsula bot challenge) - not pursuing further per DEC-0006. Recording this as a new open question instead of a contradiction, since I only have one-sided evidence for the discrepancy.",
+    "related_thread": "THR-15",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0009",
+    "timestamp": "2026-07-28T11:32:00",
+    "activity_type": "Note",
+    "text": "Q-0004 closed (EV-0011, EV-0012), THR-15 marked Complete, and Q-0006 opened for the residual date discrepancy. Moving on to Q-0003 (cost increase) and Q-0005 (main plant contractor): checking the WaterNSW 2025 compliance report noticed in RUN-0001's search results, and searching for LC Water / Willawarrin tender or contract-award records.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0010",
+    "timestamp": "2026-07-28T11:39:00",
+    "activity_type": "Finding",
+    "text": "Found an earlier origin point for the Willawarrin plant: a 17 May 2022 Kempsey Shire Council press release (via Mirage News and National Tribune, identical content) announcing a $54 million water and sewer budget that already names Willawarrin as one of two new water treatment plant locations, and mentions a separate 'emergency water treatment plant' installed at Steuart McIntyre Dam for the main Kempsey/Lower Macleay supply. This pushes the documented project history back over two years before the Aug 2024 '$4m, nearing tender' article. A second Pump Industry Magazine article on the tender stage exists but pumpindustry.com.au is blocked (same as SRC-0009) - registering it as a known-but-inaccessible source rather than pursuing it further.",
+    "related_thread": "THR-08",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0011",
+    "timestamp": "2026-07-28T11:45:00",
+    "activity_type": "Checking Source",
+    "text": "Fetched and full-text searched the WaterNSW 2025 compliance report (parliament.nsw.gov.au, 12.5MB PDF) for Willawarrin, Bellbrook, Kempsey, and Macleay - zero mentions of any of them. Ruling this source out: Willawarrin's supply is run directly by Kempsey Shire Council (bores/river), not one of WaterNSW's regulated schemes, so this report isn't relevant to this case. Not registering it as a source, since it was checked and found not to apply - recording the negative result here instead, consistent with the 'No Change Detected' principle.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0012",
+    "timestamp": "2026-07-28T11:50:00",
+    "activity_type": "Note",
+    "text": "Re-checked for any new commissioning-status update on the Willawarrin plant (Q-0001) with fresh search phrasing - nothing beyond what's already registered. Confirms the only remaining path to Q-0001 is the blocked Kempsey Council pages, which the operator is now trying via their own browser tools. Wrapping up RUN-0003: closed Q-0004, opened Q-0006, added EV-0011 through EV-0013, CHR-0008 through CHR-0011, and SRC-0016 through SRC-0022 (three of the new sources are further access gaps, honestly logged rather than forced through). Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
