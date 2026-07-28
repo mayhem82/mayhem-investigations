@@ -586,5 +586,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-14",
     "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Confirmed to exist and to cover all eight Kempsey Shire water supply systems including Willawarrin, Bellbrook, and the Thunggutti Aboriginal Community. A single search's summary asserted that 'no customer enquiries were recorded at Thunggutti' during this reporting period, but a follow-up search did not reproduce this specific detail (only confirming the document's existence and general scope) - per this investigation's standard for single-sourced, unreproduced claims, not asserting the 'no complaints' detail as confirmed. Registered as a known, relevant, but unconfirmed and fetch-blocked source for a future session to check directly."
+  },
+  {
+    "source_id": "SRC-0043",
+    "authority": "The Mid North Coaster",
+    "title": "Kempsey Shire Council admits changes needed after $8.1m budget shortfall",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.themidnorthcoaster.com.au/p/kempsey-shire-council-admits-changes-needed-after-8m-budget-shortfall",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-07",
+    "availability_notes": "themidnorthcoaster.com.au fetch not attempted this session (DEC-0008's general outage makes it very unlikely to succeed, based on every domain tried so far). Genuinely new finding for this repository, cross-confirmed across two independent search queries with consistent, specific figures: Kempsey Shire Council recorded an $8.1 million general fund deficit for FY2024-25, nearly double the prior year's approximately $4 million gap. CEO Andrew Meddle is quoted describing the budget as 'not healthy' and warning a 'step change' is needed for financial sustainability. A November 2025 presentation to council by the NSW Audit Office and the council's external auditor (HLB) is the stated source of this information - directly connecting Kempsey Shire Council to NSW Audit Office scrutiny of its finances, relevant to this case's original brief to check whether Kempsey is named in NSW Audit Office reporting on at-risk/loss-making councils (not yet separately confirmed for the specific 'Appendix 2' list in the Local Government 2025 report). Also notes: grant income down (~3% capital, ~18% operating) versus 2024, rates/annual-charges revenue up 6.3%, and approximately $49 million spent on asset renewals plus $19 million on new asset construction during the year."
   }
 ]

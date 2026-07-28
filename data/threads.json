@@ -58,7 +58,7 @@
     "name": "Funding",
     "status": "In Progress",
     "supporting_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0007", "EV-0013"],
-    "outstanding_work": "Confirm the reason for the Willawarrin plant's cost increase from approximately $4m (2024) to $8m (2025) - see Q-0003. EV-0013 (May 2022) shows the project existed at least that early with no cost figure attached yet; SRC-0021 (Pump Industry Magazine) and SRC-0022 (Kempsey Council, 8 Aug 2024 - one day after EV-0004) are both blocked and are likely leads once manually retrieved.",
+    "outstanding_work": "Confirm the reason for the Willawarrin plant's cost increase from approximately $4m (2024) to $8m (2025) - see Q-0003. EV-0013 (May 2022) shows the project existed at least that early with no cost figure attached yet; SRC-0021 (Pump Industry Magazine) and SRC-0022 (Kempsey Council, 8 Aug 2024 - one day after EV-0004) are both blocked and are likely leads once manually retrieved. RUN-0023 added broader council-financial context (SRC-0043, fetch-blocked): Kempsey Shire Council recorded an $8.1 million general fund deficit for FY2024-25 (nearly double the prior year's ~$4m), following a November 2025 NSW Audit Office/external-auditor presentation to council - directly relevant to the case's original brief on whether Kempsey appears in NSW Audit Office at-risk-council reporting, though the specific 'Appendix 2' named-list question remains unconfirmed.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },

@@ -766,5 +766,29 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 5,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0065",
+    "search_terms": "\"Kempsey Shire Council\" NSW Audit Office \"Local government 2025\" at risk water loss-making named",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0066",
+    "search_terms": "Kempsey Shire Council $8.1 million deficit budget shortfall Andrew Meddle CEO 2025",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 1
   }
 ]

@@ -439,5 +439,20 @@
     ],
     "reason": "RUN-0022, continuing evidence collection at the operator's request on Thunggutti's own water-security status. Registered SRC-0042 (a real, relevant, previously-unregistered council report), while declining to assert a single-sourced, unreproduced claim about it as confirmed. No Evidence Register, Chronology, or Open Question changes.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0028",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0023, continuing evidence collection at the operator's request, exploring whether Kempsey Shire Council is named in NSW Audit Office at-risk-council reporting - a genuinely fresh angle for this repository. Found Kempsey Shire Council's FY2024-25 $8.1 million deficit and a November 2025 NSW Audit Office presentation to council. Registered as SRC-0043 (fetch-blocked); added to THR-07. The specific 'Appendix 2' named-list question remains unconfirmed.",
+    "validation_completed": true
   }
 ]

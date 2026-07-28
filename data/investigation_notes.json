@@ -655,5 +655,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0074",
+    "timestamp": "2026-07-29T02:10:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0023). Retried the fetch tool once (the NSW Audit Office's Local Government 2025 report page) - still HTTP 403, DEC-0008 unchanged. Pursued a genuinely fresh angle for this repository: whether Kempsey Shire Council is specifically named in NSW Audit Office reporting on at-risk/loss-making councils - part of this case's original brief but not yet touched in this repository at all.",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0075",
+    "timestamp": "2026-07-29T02:14:00",
+    "activity_type": "Finding",
+    "text": "Did not confirm whether Kempsey appears in the Local Government 2025 report's specific 'Appendix 2' at-risk list, but found something adjacent and genuinely new: two independent searches consistently confirm Kempsey Shire Council recorded an $8.1 million general fund deficit for FY2024-25 (nearly double the prior year's ~$4 million), with CEO Andrew Meddle describing the budget as 'not healthy' and warning a 'step change' is needed. This followed a November 2025 presentation to council by the NSW Audit Office and external auditor HLB - a direct, dated connection between Kempsey Shire Council and NSW Audit Office scrutiny, relevant to this case's brief even without confirming the specific named-list question. Registered as SRC-0043 (fetch-blocked, DEC-0008) and added to THR-07 as broader council-financial context.",
+    "related_thread": "THR-07",
+    "related_source": "SRC-0043",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0076",
+    "timestamp": "2026-07-29T02:17:00",
+    "activity_type": "Note",
+    "text": "RUN-0023 wrapping up: SRC-0043 added, THR-07 updated, SRCH-0065/SRCH-0066 logged. No Evidence Register, Chronology, or Open Question changes - the specific 'is Kempsey in Appendix 2' question remains unconfirmed, but this is genuinely new context this repository had none of before. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
