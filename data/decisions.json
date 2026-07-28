@@ -35,7 +35,13 @@
     "decision_id": "DEC-0005",
     "date": "2026-07-28",
     "reason": "The first evidence-collection run (RUN-0001) repeatedly and consistently identified Kempsey Shire Council as the responsible local government authority (EV-0002, EV-0004, EV-0005, EV-0006, EV-0008). Per DEC-0002, the immutable Case Definition fields (jurisdiction, geographic_scope) are not edited to add this now-confirmed detail; it is instead carried by source_authority fields across the Evidence and Source Registers and by the Chronology.",
-    "supporting_evidence": ["EV-0002", "EV-0004", "EV-0005", "EV-0006", "EV-0008"],
+    "supporting_evidence": [
+      "EV-0002",
+      "EV-0004",
+      "EV-0005",
+      "EV-0006",
+      "EV-0008"
+    ],
     "investigator": "mayhem82",
     "impact": "case.json's jurisdiction and geographic_scope fields remain unchanged. current_status was updated from \"Active - Evidence Collection Pending\" to \"Active - Evidence Collection In Progress\" and repository_version bumped to 1.1.0, both treated as legitimately mutable tracking fields per docs/DATA_MODEL.md's 'Mutable vs. Append-Only Fields' section, recorded in CHG-0005."
   },
@@ -51,7 +57,9 @@
     "decision_id": "DEC-0007",
     "date": "2026-07-28",
     "reason": "A WebSearch result summary asserted the existence of a distinct 'Bellbrook Water Treatment Plant' capital-works project, which would materially resolve Q-0002/THR-14. A second, independent search query's own summary explicitly contradicted this, and the underlying source article could not be fetched to check the primary text (HTTP 403). EV-0013 (RUN-0003), which covers the same $54m water/sewer capital-works program from an actually-fetched and preserved primary source, names new plants at Willawarrin and Crescent Head plus a separate emergency plant at Steuart McIntyre Dam - no Bellbrook-specific plant.",
-    "supporting_evidence": ["EV-0013"],
+    "supporting_evidence": [
+      "EV-0013"
+    ],
     "investigator": "mayhem82",
     "impact": "Per spec section 4's Source Before Analysis principle, the 'Bellbrook Water Treatment Plant' claim is not accepted into the Evidence Register on the basis of an unverifiable, self-contradicting search-engine summary that a properly-sourced record (EV-0013) does not corroborate. Q-0002 and THR-14 remain open with no evidence of Bellbrook having received a dedicated treatment plant."
   },
@@ -62,5 +70,28 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "No source can be preserved or hashed by this session. Leads found via search this run are registered in the Source Register only (preservation_status 'Not Preserved', hash_status 'No Hash') and are not promoted to Evidence Register entries, since this repository's own bar for an evidence item (a real preserved file, ideally hashed) cannot be met right now. A future session with working fetch access should treat SRC-0025/SRC-0026 (and any other 'Not Confirmed - fetch blocked' source added this run) as priority candidates to re-check, rather than assuming they were already tried and failed for a structural reason."
+  },
+  {
+    "decision_id": "DEC-0009",
+    "date": "2026-07-29",
+    "reason": "The operator (who holds Human Authority over evidence acceptance per spec section 4) directed that all findings go into the Evidence Register as found, rather than being held at Source Register level only pending a direct fetch/preservation - the practice this repository had followed since DEC-0008 (RUN-0005 onward) because this session's fetch tool has returned HTTP 403 on every URL attempted. This run (RUN-0027) reviewed every source registered since RUN-0005 (SRC-0016 through SRC-0047) and promoted the fourteen that carry a genuine, specific, citable fact (as opposed to sources registered only as \"this URL exists but is blocked, no content extracted\") to Evidence Register entries EV-0014 through EV-0027.",
+    "supporting_evidence": [
+      "EV-0014",
+      "EV-0015",
+      "EV-0016",
+      "EV-0017",
+      "EV-0018",
+      "EV-0019",
+      "EV-0020",
+      "EV-0021",
+      "EV-0022",
+      "EV-0023",
+      "EV-0024",
+      "EV-0025",
+      "EV-0026",
+      "EV-0027"
+    ],
+    "investigator": "mayhem82",
+    "impact": "Going forward, a source with a genuine extracted fact is promoted to Evidence at the time it is found, using verification_state \"Requires Verification\" (or \"Unverified\"/\"Disputed\" as appropriate), classification \"Secondary Reference\", and a hash_exception_reason documenting that the finding is search-snippet-sourced pending direct preservation - not held back at Source Register level. This is structurally valid per validation rule 10/11 (only \"Accepted\" evidence requires non-null proof-of-fact). DEC-0008's underlying fetch-tool constraint is unchanged; this decision changes only how this repository responds to it. No question or contradiction is closed/resolved by this run - promoting evidence is distinct from resolving a question, and the existing conservative bar for closing Q-0006/CTR-0001 etc. without a fetched primary source is unchanged."
   }
 ]

@@ -790,5 +790,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0089",
+    "timestamp": "2026-07-29T05:30:00",
+    "activity_type": "Note",
+    "text": "RUN-0027: the operator directed \"all evidence must go into register as found\" - reviewed the Source Register backlog (SRC-0016 to SRC-0047, everything found since RUN-0005's fetch outage began) and promoted 14 sources carrying genuine, specific facts to Evidence Register entries EV-0014 through EV-0027, each at \"Requires Verification\" with a documented hash_exception_reason rather than held back pending future preservation. Recorded as DEC-0009. Seven new Chronology entries added. Deliberately did not close any Open Question or Contradiction on this basis - that remains a higher bar than evidence acceptance, unaffected by this policy change. Threads THR-01, THR-02, THR-07, THR-13, THR-14 updated with the new evidence links.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

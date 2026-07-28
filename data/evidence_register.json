@@ -17,7 +17,9 @@
     "classification": "Complete",
     "verification_state": "Unverified",
     "relationships": [],
-    "chronology_links": ["CHR-0001"],
+    "chronology_links": [
+      "CHR-0001"
+    ],
     "contradiction_links": [],
     "open_question_links": []
   },
@@ -39,9 +41,13 @@
     "classification": "Archived",
     "verification_state": "Verified",
     "relationships": [],
-    "chronology_links": ["CHR-0002"],
+    "chronology_links": [
+      "CHR-0002"
+    ],
     "contradiction_links": [],
-    "open_question_links": ["Q-0002"]
+    "open_question_links": [
+      "Q-0002"
+    ]
   },
   {
     "evidence_id": "EV-0003",
@@ -60,10 +66,16 @@
     "investigation_relevance": "Independent corroboration of the primary council record (EV-0002) that Willawarrin and Bellbrook's trucked-water period ended on 18 June 2020.",
     "classification": "Complete",
     "verification_state": "Verified",
-    "relationships": ["EV-0002"],
-    "chronology_links": ["CHR-0002"],
+    "relationships": [
+      "EV-0002"
+    ],
+    "chronology_links": [
+      "CHR-0002"
+    ],
     "contradiction_links": [],
-    "open_question_links": ["Q-0002"]
+    "open_question_links": [
+      "Q-0002"
+    ]
   },
   {
     "evidence_id": "EV-0004",
@@ -83,9 +95,15 @@
     "classification": "Complete",
     "verification_state": "Requires Verification",
     "relationships": [],
-    "chronology_links": ["CHR-0003", "CHR-0004"],
+    "chronology_links": [
+      "CHR-0003",
+      "CHR-0004"
+    ],
     "contradiction_links": [],
-    "open_question_links": ["Q-0003", "Q-0004"]
+    "open_question_links": [
+      "Q-0003",
+      "Q-0004"
+    ]
   },
   {
     "evidence_id": "EV-0005",
@@ -104,10 +122,18 @@
     "investigation_relevance": "Identifies the Willawarrin plant's funding as one component of a larger $52.9m regional water security program, and reveals a much larger parallel project (Steuart McIntyre Dam/Sherwood Borefield) for the main Kempsey network; also documents Mayor Kinne Ring in office by this date.",
     "classification": "Original Available",
     "verification_state": "Verified",
-    "relationships": ["EV-0006", "EV-0008"],
-    "chronology_links": ["CHR-0005"],
+    "relationships": [
+      "EV-0006",
+      "EV-0008"
+    ],
+    "chronology_links": [
+      "CHR-0005"
+    ],
     "contradiction_links": [],
-    "open_question_links": ["Q-0004", "Q-0005"]
+    "open_question_links": [
+      "Q-0004",
+      "Q-0005"
+    ]
   },
   {
     "evidence_id": "EV-0006",
@@ -126,10 +152,17 @@
     "investigation_relevance": "Primary/official record establishing the construction start date, technical scope, funding split, and expected completion window for the Willawarrin plant - the central document for the Treatment Plant and Construction threads.",
     "classification": "Original Available",
     "verification_state": "Verified",
-    "relationships": ["EV-0005"],
-    "chronology_links": ["CHR-0003", "CHR-0006"],
+    "relationships": [
+      "EV-0005"
+    ],
+    "chronology_links": [
+      "CHR-0003",
+      "CHR-0006"
+    ],
     "contradiction_links": [],
-    "open_question_links": ["Q-0001"]
+    "open_question_links": [
+      "Q-0001"
+    ]
   },
   {
     "evidence_id": "EV-0007",
@@ -148,10 +181,16 @@
     "investigation_relevance": "Independent corroboration of the primary government record (EV-0006) for the Willawarrin plant's construction start and technical scope.",
     "classification": "Complete",
     "verification_state": "Verified",
-    "relationships": ["EV-0006"],
-    "chronology_links": ["CHR-0006"],
+    "relationships": [
+      "EV-0006"
+    ],
+    "chronology_links": [
+      "CHR-0006"
+    ],
     "contradiction_links": [],
-    "open_question_links": ["Q-0001"]
+    "open_question_links": [
+      "Q-0001"
+    ]
   },
   {
     "evidence_id": "EV-0008",
@@ -170,10 +209,16 @@
     "investigation_relevance": "Independent corroboration of the primary government funding announcement (EV-0005); further dates Mayor Kinne Ring's tenure to March 2025, relevant to Q-0004.",
     "classification": "Complete",
     "verification_state": "Verified",
-    "relationships": ["EV-0005"],
-    "chronology_links": ["CHR-0005"],
+    "relationships": [
+      "EV-0005"
+    ],
+    "chronology_links": [
+      "CHR-0005"
+    ],
     "contradiction_links": [],
-    "open_question_links": ["Q-0004"]
+    "open_question_links": [
+      "Q-0004"
+    ]
   },
   {
     "evidence_id": "EV-0009",
@@ -192,8 +237,12 @@
     "investigation_relevance": "Earliest evidence found so far of the drought conditions that led to the 2019-2020 trucked-water episode - five months before EV-0001 (Oct 2019) - and confirms both Willawarrin and Bellbrook were already affected by June 2019.",
     "classification": "Complete",
     "verification_state": "Unverified",
-    "relationships": ["EV-0001"],
-    "chronology_links": ["CHR-0007"],
+    "relationships": [
+      "EV-0001"
+    ],
+    "chronology_links": [
+      "CHR-0007"
+    ],
     "contradiction_links": [],
     "open_question_links": []
   },
@@ -217,7 +266,9 @@
     "relationships": [],
     "chronology_links": [],
     "contradiction_links": [],
-    "open_question_links": ["Q-0002"]
+    "open_question_links": [
+      "Q-0002"
+    ]
   },
   {
     "evidence_id": "EV-0011",
@@ -236,10 +287,16 @@
     "investigation_relevance": "Confirms the date and mechanics of the mayoral transition from Leo Hauville (EV-0004) to Kinne Ring (EV-0005 onward), resolving Q-0004, while itself introducing a minor, unresolved date discrepancy (Q-0006).",
     "classification": "Complete",
     "verification_state": "Verified",
-    "relationships": ["EV-0012"],
-    "chronology_links": ["CHR-0010"],
+    "relationships": [
+      "EV-0012"
+    ],
+    "chronology_links": [
+      "CHR-0010"
+    ],
     "contradiction_links": [],
-    "open_question_links": ["Q-0006"]
+    "open_question_links": [
+      "Q-0006"
+    ]
   },
   {
     "evidence_id": "EV-0012",
@@ -258,10 +315,16 @@
     "investigation_relevance": "Directly and explicitly confirms the Leo Hauville to Kinne Ring mayoral transition named in Q-0004 is the ordinary 2024 election, resolving that question.",
     "classification": "Complete",
     "verification_state": "Verified",
-    "relationships": ["EV-0011"],
-    "chronology_links": ["CHR-0009"],
+    "relationships": [
+      "EV-0011"
+    ],
+    "chronology_links": [
+      "CHR-0009"
+    ],
     "contradiction_links": [],
-    "open_question_links": ["Q-0004"]
+    "open_question_links": [
+      "Q-0004"
+    ]
   },
   {
     "evidence_id": "EV-0013",
@@ -281,8 +344,365 @@
     "classification": "Complete",
     "verification_state": "Verified",
     "relationships": [],
-    "chronology_links": ["CHR-0011"],
+    "chronology_links": [
+      "CHR-0011"
+    ],
     "contradiction_links": [],
-    "open_question_links": ["Q-0003"]
+    "open_question_links": [
+      "Q-0003"
+    ]
+  },
+  {
+    "evidence_id": "EV-0014",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "NSW Electoral Commission",
+    "source_title": "Election day voting: Kempsey, Shellharbour Ward A and Singleton council elections",
+    "source_type": "Government Record",
+    "source_location": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/election-day-voting-council-elections",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (elections.nsw.gov.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Multiple independent search-engine snippets of this NSW Electoral Commission release consistently and specifically name Kempsey Shire Council's 2024 ordinary election day as Saturday 14 September 2024 - the statewide NSW local government polling date - not the \"September 9, 2024\" date EV-0011 (a Kempsey Shire Council-bylined item) attributes to the Kempsey result.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Directly bears on Q-0006 (the EV-0011 date discrepancy): the most likely explanation is that EV-0011's \"9\" is a transcription error for \"14\", though this is not yet confirmed against a primary-sourced, fetched copy of this release.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0015"
+    ],
+    "chronology_links": [
+      "CHR-0008"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0006"
+    ]
+  },
+  {
+    "evidence_id": "EV-0015",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "NSW Parliamentary Counsel's Office (legislation.nsw.gov.au)",
+    "source_title": "Local Government Act 1993 No 30 - ordinary election date provision (s.287, \"second Saturday in September\")",
+    "source_type": "Legislation",
+    "source_location": "https://legislation.nsw.gov.au/view/whole/html/inforce/2025-09-05/act-1993-030",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (legislation.nsw.gov.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Search-engine snippet of this statute states NSW ordinary council elections are held on \"the second Saturday in September every four years\", and separately confirms the NSW Electoral Commission's next such election is scheduled for Saturday 9 September 2028. Combined with calendar facts (14 September 2024 was a Saturday and the second Saturday of that month; 9 September 2024 was a Monday), this gives a statutory, non-search basis consistent with EV-0014's finding.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Independent (legal/statutory rather than journalistic) corroboration of EV-0014's finding for Q-0006, strengthening the case that EV-0011's \"September 9, 2024\" is an error rather than a Kempsey-specific exception to the statewide polling date.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0014"
+    ],
+    "chronology_links": [
+      "CHR-0008"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0006"
+    ]
+  },
+  {
+    "evidence_id": "EV-0016",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2021",
+    "source_authority": "Australian Bureau of Statistics",
+    "source_title": "2021 Census All Persons QuickStats - Willawarrin (SAL14312)",
+    "source_type": "Government Record",
+    "source_location": "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL14312",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (abs.gov.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Search-engine snippet of this ABS Census QuickStats page states the 2021 Census recorded Willawarrin's population as 183 - close to EV-0006's 180 figure (24 March 2025) and well above EV-0005's 130 figure (21 March 2025, three days earlier).",
+    "relevant_quotation": null,
+    "investigation_relevance": "Bears directly on CTR-0001 (the 130 vs 180 population contradiction between EV-0005 and EV-0006): an independent Census figure of 183 suggests 130 is the outlier/likely error, not 180, though this has not yet been confirmed against a primary-sourced, fetched copy of the ABS page.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [
+      "CTR-0001"
+    ],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0017",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2025-07 (day not confirmed)",
+    "source_authority": "NSW Government (Water, water.nsw.gov.au)",
+    "source_title": "Sod turned on major $53m water security project",
+    "source_type": "Government Record",
+    "source_location": "https://www.water.nsw.gov.au/news/sod-turned-major-53m-water-security-project",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (water.nsw.gov.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Official NSW Government release marking the construction start (sod-turning) of the Steuart McIntyre Dam/Sherwood Borefield plant - the larger $52.9m project (EV-0005) distinct from the Willawarrin plant. Independently corroborated by an Australian Community Media report (syndicated in near-identical form by Port Macquarie News and The Macleay Argus) placing the ground-breaking \"as of July 2025\", consistent with EV-0005's announced mid-2025 start. No contractor named in either search-engine snippet found.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Confirms construction of the larger regional plant (THR-13) is genuinely underway, consistent with EV-0005's announced timeline; still does not resolve Q-0005 (contractor identity).",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0005",
+      "EV-0006"
+    ],
+    "chronology_links": [
+      "CHR-0012"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0005"
+    ]
+  },
+  {
+    "evidence_id": "EV-0018",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "Wikipedia, corroborated by Australian Bureau of Statistics",
+    "source_title": "Bellbrook, New South Wales",
+    "source_type": "Other Public Record",
+    "source_location": "https://en.wikipedia.org/wiki/Bellbrook,_New_South_Wales",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (en.wikipedia.org) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Cross-confirmed across two independent search queries with consistent, specific figures: Bellbrook was gazetted in 1892 (named for bellbirds along Nulla Nulla Creek), registered with the National Trust of Australia in 1978 and the Register of the National Estate in 1981 as a heritage timber-industry village, and had a 2021 Census population of 339 (up 21% from 273 in 2016). The population figures are independently corroborated by the ABS's own 2021 Census QuickStats page for the Bellbrook State Suburb (SAL10270).",
+    "relevant_quotation": null,
+    "investigation_relevance": "First general historical/demographic background found for Bellbrook in this register (THR-14); establishes the town's scale for interpreting later infrastructure decisions, though not itself evidence of water-supply status.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0013"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0019",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "Kempsey Shire Council (library/heritage service)",
+    "source_title": "Early history of Willawarrin",
+    "source_type": "Other Public Record",
+    "source_location": "https://library.kempsey.nsw.gov.au/Resources/Kempsey-Shire-heritage/Early-history-of-Willawarrin",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (library.kempsey.nsw.gov.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Cross-confirmed across two independent search queries, from Kempsey Shire Council's own heritage record: Willawarrin was part of the Toorooka pastoral lease from 1842; the village grew as a rest/horse-change stop on the road to Kempsey; its first hotel was built in 1893; and it was an important livestock-selling centre between 1949 and 1970.",
+    "relevant_quotation": null,
+    "investigation_relevance": "General settlement history predating this case's water-supply-specific evidence by well over a century; fills THR-01's background gap without bearing directly on Q-0001/Q-0002/Q-0003.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0020",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2019-11-11",
+    "source_authority": "The Macleay Argus (Australian Community Media), corroborated by NSW Department of Education",
+    "source_title": "Carrai East Bushfire: \"The perfect storm\" - one year on",
+    "source_type": "Media Report",
+    "source_location": "https://www.macleayargus.com.au/story/6996188/carrai-east-bushfire-the-perfect-storm-one-year-on/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (macleayargus.com.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Cross-confirmed across two independent search queries plus a third, independent government source (NSW Department of Education, \"In the eye of the firestorm\", published December 2019): the Carrai East Bushfire accelerated on 8 November 2019 amid extreme dry/windy conditions (2019 was Kempsey's driest year on record); on 11 November 2019 Bellbrook Public School (principal Allison Mitchell) became an impromptu evacuation centre, sheltering approximately 120 people plus pets and livestock, losing power and phones by 11:30pm that night, as the fire moved through the Bellbrook/Willawarrin area destroying homes and properties.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Fills the chronology gap between CHR-0007 (June 2019 restrictions) and CHR-0001 (already-in-progress trucked water by late October 2019); very likely the specific bushfire event behind EV-0002/EV-0003's cited cause of \"drought, bushfire, and subsequent heavy rainfall\".",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0014"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0021",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "Port Macquarie News / The Macleay Argus (Australian Community Media)",
+    "source_title": "NSW bushfire Inquiry told of man who died attempting to flee his home at Willawarrin",
+    "source_type": "Media Report",
+    "source_location": "https://www.portnews.com.au/story/7663626/nsw-bushfire-inquiry-told-of-man-who-died-attempting-to-flee-his-home/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (portnews.com.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Factual, sourced reporting on proceedings of a NSW Coronial Inquiry (into the 2019-20 NSW bushfire season) concerning the death of a Willawarrin resident during the Carrai East Bushfire (EV-0020). Per two consistently-worded, independently-published Australian Community Media articles: the resident was seen around 4pm on 8 November 2019 exiting his vehicle to open a gate providing access to Armidale Road, in the direction of the Willawarrin Hall evacuation point; his vehicle was found burnt-out in the following days; his body was found in nearby bushland on 13 November 2019. Recorded strictly as sourced factual reporting of coronial-inquiry proceedings; no finding of fault or responsibility by any person or body is stated or implied, consistent with this investigation's no-allegation-framing standard.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Documents a fatality connected to the same drought/bushfire crisis period this case examines; recorded factually and without attribution of fault, consistent with the sensitivity of coronial-inquiry subject matter.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0020"
+    ],
+    "chronology_links": [
+      "CHR-0015"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0022",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2009-2010 (sources differ on exact year)",
+    "source_authority": "Kempsey Shire Council, corroborated by The Macleay Argus",
+    "source_title": "Heavy metals in the Upper Macleay River",
+    "source_type": "Council Record",
+    "source_location": "https://www2.kempsey.nsw.gov.au/environment/estuary-management/upper-macleay.html",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (www2.kempsey.nsw.gov.au (subdomain may be retired) / macleayargus.com.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Cross-confirmed across two independent search queries: Bellbrook's raw (ground)water supply was contaminated by heavy metals and arsenic from historic Hillgrove-area mining, and a dedicated water treatment plant with arsenic-removal capacity was constructed at Bellbrook - one search giving 2010 (attributed to this Council source) and another giving 2009 with a stated cost of approximately $700,000 (recording this minor date discrepancy honestly rather than picking one figure). Independent media corroboration (The Macleay Argus, \"River's clean bill of health\") is referenced alongside this Council source for the same figures, though its specific content was not separately confirmed beyond the search-engine summary.",
+    "relevant_quotation": null,
+    "investigation_relevance": "A direct, substantive answer to what Bellbrook's own water infrastructure actually is - distinct from, and predating, the Willawarrin plant this case has focused on - and links the Hillgrove/Bakers Creek arsenic-antimony contamination (SRC-0028) to this case's own towns specifically. Does not resolve Q-0002 as asked (infrastructure status since 2020), since this plant predates the 2019-2020 crisis, but is directly relevant background.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0016"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0023",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown (reports on a November 2025 presentation to council)",
+    "source_authority": "The Mid North Coaster",
+    "source_title": "Kempsey Shire Council admits changes needed after $8.1m budget shortfall",
+    "source_type": "Media Report",
+    "source_location": "https://www.themidnorthcoaster.com.au/p/kempsey-shire-council-admits-changes-needed-after-8m-budget-shortfall",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (themidnorthcoaster.com.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Cross-confirmed across two independent search queries with consistent, specific figures: Kempsey Shire Council recorded an $8.1 million general fund deficit for FY2024-25, nearly double the prior year's approximately $4 million gap. CEO Andrew Meddle is quoted describing the budget as \"not healthy\" and warning a \"step change\" is needed for financial sustainability. A November 2025 presentation to council by the NSW Audit Office and the council's external auditor (HLB) is the stated source. Also notes grant income down (~3% capital, ~18% operating) versus 2024, rates/annual-charges revenue up 6.3%, approximately $49 million spent on asset renewals, and $19 million on new asset construction during the year.",
+    "relevant_quotation": "\"not healthy\"",
+    "investigation_relevance": "Directly connects Kempsey Shire Council to NSW Audit Office scrutiny of its finances (this case's original brief on whether Kempsey appears in NSW Audit Office at-risk-council reporting), though the specific \"Appendix 2\" named-list question remains unconfirmed. Relevant financial context for THR-07 (why plant costs and funding have shifted).",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0024",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2023-12-07",
+    "source_authority": "Mirage News (relaying Kempsey Shire Council)",
+    "source_title": "Kempsey Council Answers Your Water Restrictions Queries",
+    "source_type": "Media Report",
+    "source_location": "https://www.miragenews.com/kempsey-council-answers-your-water-restrictions-1138844/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (miragenews.com) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "A December 2023 Council FAQ that, per search-engine snippet, recaps the 2019-2020 episode with a specific detail not previously in this register: Council carted water to Willawarrin \"since October 2\" (2019, by context) and \"intermittently\" to Bellbrook and the Thunggutti Aboriginal Community during the bushfire emergency.",
+    "relevant_quotation": "\"since October 2\"",
+    "investigation_relevance": "The first source directly confirming Bellbrook actually received trucked water (not just anticipated, per EV-0001) and gives a specific Willawarrin start date (2 October 2019), directly relevant to THR-02's outstanding question about the episode's exact start.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0001"
+    ],
+    "chronology_links": [
+      "CHR-0017"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0025",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2020-01 (reports on a January 2020 announcement)",
+    "source_authority": "The Macleay Argus (Australian Community Media)",
+    "source_title": "Kempsey to receive $4 million for secure water supply",
+    "source_type": "Media Report",
+    "source_location": "https://www.macleayargus.com.au/story/6584830/kempsey-to-receive-4-million-for-secure-water-supply/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (macleayargus.com.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Per search-engine snippet: government funding of $161,000 was provided for water carting to Willawarrin and Bellbrook, with Council delivering approximately 10-13 kilolitres a day to each village due to low Macleay River flows - the first specific volume and cost figures found for the trucked-water episode.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Adds concrete volume ($161,000 cost; 10-13 kL/day per village) to the trucked-water episode already documented in EV-0001/EV-0024, relevant to both THR-02 (Trucked water) and THR-07 (Funding).",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0024"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0026",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2019-12-02",
+    "source_authority": "The Macleay Argus (Australian Community Media)",
+    "source_title": "Kempsey Shire moves to Level 3 water restrictions",
+    "source_type": "Media Report",
+    "source_location": "https://www.macleayargus.com.au/story/6520545/kempsey-shire-moves-to-level-3-water-restrictions/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (macleayargus.com.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Per search-engine snippet: Kempsey Shire Council moved to Level 3 water restrictions (up from Level 2, EV-0009) on 2 December 2019 - between the known Level 2 restrictions (4 June 2019) and the drought/trucked-water period already documented from October-November 2019.",
+    "relevant_quotation": null,
+    "investigation_relevance": "A chronology gap-filler showing continued escalation of the drought through this period, between EV-0009 (Level 2, June 2019) and EV-0001 (trucked water already underway, late October 2019).",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0009"
+    ],
+    "chronology_links": [
+      "CHR-0018"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0027",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "NSW Government (Water, water.dcceew.nsw.gov.au)",
+    "source_title": "Aboriginal Communities Water and Sewerage Program - Completed projects",
+    "source_type": "Government Record",
+    "source_location": "https://www.water.dcceew.nsw.gov.au/our-work/projects-and-programs/aboriginal-water-programs/aboriginal-communities-water-and-0",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch (water.dcceew.nsw.gov.au) returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed. Registered at the operator's explicit direction that findings go into the Evidence Register as found, using a non-\"Accepted\" verification state pending future preservation.",
+    "evidence_description": "Two independent search-engine snippets consistently state this program's Completed Projects listing names Bellbrook as a community that received drinking-water/sewerage upgrade or repair work, under a $200 million joint NSW Government/NSW Aboriginal Land Council initiative running since December 2008. Neither snippet gave a specific date or scope for the Bellbrook work.",
+    "relevant_quotation": null,
+    "investigation_relevance": "A named, specific lead for Q-0002/THR-14 (Bellbrook's own infrastructure) distinct from EV-0022's arsenic-treatment-plant finding - Bellbrook adjoins the Thunggutti Aboriginal Community (Mirriwinni Gardens) this program is designed to serve, though the two leads have not yet been confirmed as describing the same or different works.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
