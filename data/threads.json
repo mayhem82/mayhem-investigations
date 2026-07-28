@@ -3,8 +3,17 @@
     "thread_id": "THR-01",
     "name": "Historical failures",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0001", "EV-0002", "EV-0003", "EV-0004", "EV-0009"],
-    "outstanding_work": "Establish the full pre-2019 history of water quality issues at Willawarrin/Bellbrook - this register now reaches back to June 2019 (CHR-0007) but no further. Confirm the exact start date of the 2019/2020 trucked-water period. RUN-0015 added general (non-water-specific) settlement history from Kempsey Shire Council's own heritage record (SRC-0036, fetch-blocked): Willawarrin was part of the Toorooka pastoral lease from 1842, gained its first hotel in 1893, and was an important livestock-selling centre 1949-1970 - useful background predating this thread's water-specific evidence by well over a century, but still no source found addressing water-quality problems specifically before June 2019. RUN-0016 found a substantial, specifically-dated gap-filler between CHR-0007 (June 2019) and CHR-0001 (late Oct 2019): the Carrai East Bushfire accelerated 8 November 2019 and forced an evacuation via Bellbrook Public School on 11 November 2019 (SRC-0037, fetch-blocked, cross-confirmed across two searches with named officials/individuals). This is very likely the specific bushfire event behind EV-0002/EV-0003's cited 'drought, bushfire, and subsequent heavy rainfall' cause, but a real preserved primary source is needed before it can be promoted to an Evidence Register/Chronology entry. RUN-0019 found that the same fire event is also the subject of an active NSW Coronial Inquiry into a resident's death (SRC-0039, fetch-blocked) - recorded strictly as sourced factual reporting of coronial-inquiry proceedings, with no finding of fault or responsibility by any person or body stated or implied. Willawarrin also had its own evacuation point (Willawarrin Hall, per search-snippet detail not yet independently registered) distinct from Bellbrook's school-based one.",
+    "supporting_evidence": [
+      "EV-0001",
+      "EV-0002",
+      "EV-0003",
+      "EV-0004",
+      "EV-0009",
+      "EV-0019",
+      "EV-0020",
+      "EV-0021"
+    ],
+    "outstanding_work": "Establish the full pre-2019 history of water quality issues at Willawarrin/Bellbrook - this register now reaches back to June 2019 (CHR-0007) but no further. Confirm the exact start date of the 2019/2020 trucked-water period. RUN-0015 added general (non-water-specific) settlement history from Kempsey Shire Council's own heritage record (SRC-0036, fetch-blocked): Willawarrin was part of the Toorooka pastoral lease from 1842, gained its first hotel in 1893, and was an important livestock-selling centre 1949-1970 - useful background predating this thread's water-specific evidence by well over a century, but still no source found addressing water-quality problems specifically before June 2019. RUN-0016 found a substantial, specifically-dated gap-filler between CHR-0007 (June 2019) and CHR-0001 (late Oct 2019): the Carrai East Bushfire accelerated 8 November 2019 and forced an evacuation via Bellbrook Public School on 11 November 2019 (SRC-0037, fetch-blocked, cross-confirmed across two searches with named officials/individuals). This is very likely the specific bushfire event behind EV-0002/EV-0003's cited 'drought, bushfire, and subsequent heavy rainfall' cause, but a real preserved primary source is needed before it can be promoted to an Evidence Register/Chronology entry. RUN-0019 found that the same fire event is also the subject of an active NSW Coronial Inquiry into a resident's death (SRC-0039, fetch-blocked) - recorded strictly as sourced factual reporting of coronial-inquiry proceedings, with no finding of fault or responsibility by any person or body stated or implied. Willawarrin also had its own evacuation point (Willawarrin Hall, per search-snippet detail not yet independently registered) distinct from Bellbrook's school-based one. RUN-0027 (operator directive: \"all evidence must go into register as found\"): promoted SRC-0036, SRC-0037/SRC-0038, and SRC-0039 to EV-0019/EV-0020/EV-0021 respectively, each at verification_state \"Requires Verification\" with a documented hash_exception_reason (search-snippet sourced, DEC-0008 fetch outage), rather than holding them at Source Register level pending future preservation.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -12,8 +21,14 @@
     "thread_id": "THR-02",
     "name": "Trucked water",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0001", "EV-0002", "EV-0003"],
-    "outstanding_work": "RUN-0024 found SRC-0044 (fetch-blocked): Council carted water to Willawarrin 'since October 2' (2019) and 'intermittently' to Bellbrook and the Thunggutti Aboriginal Community during the bushfire emergency - the first source confirming Bellbrook actually received trucked water, not just anticipated need. SRC-0045 (fetch-blocked) adds volume/cost detail: $161,000 government funding, approximately 10-13 kilolitres/day carted to each village. RUN-0025 specifically searched for a separate Bellbrook start/end date and found none - every source treats Willawarrin and Bellbrook as returning to river supply together on 18 June 2020 (CHR-0002), and describes Bellbrook's carting as 'intermittent' rather than continuous from a single date, consistent with SRC-0044. Working conclusion (not yet primary-sourced): Bellbrook's trucked-water period likely did not have a single clean start date the way Willawarrin's did, and ended on the same date as Willawarrin's. Still needs a preserved primary source before this can be promoted to an Evidence Register entry.",
+    "supporting_evidence": [
+      "EV-0001",
+      "EV-0002",
+      "EV-0003",
+      "EV-0024",
+      "EV-0025"
+    ],
+    "outstanding_work": "RUN-0024 found SRC-0044 (fetch-blocked): Council carted water to Willawarrin 'since October 2' (2019) and 'intermittently' to Bellbrook and the Thunggutti Aboriginal Community during the bushfire emergency - the first source confirming Bellbrook actually received trucked water, not just anticipated need. SRC-0045 (fetch-blocked) adds volume/cost detail: $161,000 government funding, approximately 10-13 kilolitres/day carted to each village. RUN-0025 specifically searched for a separate Bellbrook start/end date and found none - every source treats Willawarrin and Bellbrook as returning to river supply together on 18 June 2020 (CHR-0002), and describes Bellbrook's carting as 'intermittent' rather than continuous from a single date, consistent with SRC-0044. Working conclusion (not yet primary-sourced): Bellbrook's trucked-water period likely did not have a single clean start date the way Willawarrin's did, and ended on the same date as Willawarrin's. Still needs a preserved primary source before this can be promoted to an Evidence Register entry. RUN-0027: promoted SRC-0044 and SRC-0045 to EV-0024/EV-0025 (Willawarrin trucked water from 2 October 2019; Bellbrook and Thunggutti received intermittent carting; $161,000 funding; 10-13 kL/day per village), same \"Requires Verification\" / search-snippet-sourced basis as the rest of this run's promotions.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -21,7 +36,10 @@
     "thread_id": "THR-03",
     "name": "Iron contamination",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0001", "EV-0002"],
+    "supporting_evidence": [
+      "EV-0001",
+      "EV-0002"
+    ],
     "outstanding_work": "Obtain actual water-quality test results (iron concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only. RUN-0026 found a previously unregistered Council annual water quality report covering the exact July 2019-June 2020 crisis period (SRC-0047, fetch-blocked) - the strongest candidate yet, alongside the already-registered 2020-2021 report (SRC-0042), for actual concentration figures. No specific figures found via search-engine snippets; both documents need to be fetched directly.",
     "dependencies": [],
     "completion_state": "Not Complete"
@@ -30,7 +48,10 @@
     "thread_id": "THR-04",
     "name": "Manganese contamination",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0001", "EV-0002"],
+    "supporting_evidence": [
+      "EV-0001",
+      "EV-0002"
+    ],
     "outstanding_work": "Obtain actual water-quality test results (manganese concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only. RUN-0026 found a previously unregistered Council annual water quality report covering the exact July 2019-June 2020 crisis period (SRC-0047, fetch-blocked) - the strongest candidate yet, alongside the already-registered 2020-2021 report (SRC-0042), for actual concentration figures. No specific figures found via search-engine snippets; both documents need to be fetched directly.",
     "dependencies": [],
     "completion_state": "Not Complete"
@@ -39,7 +60,10 @@
     "thread_id": "THR-05",
     "name": "River conditions",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0001", "EV-0009"],
+    "supporting_evidence": [
+      "EV-0001",
+      "EV-0009"
+    ],
     "outstanding_work": "Obtain WaterNSW or Council river-flow/dam-level data for the Macleay River and Steuart McIntyre Dam across the 2019-2020 drought and since, to move beyond descriptive reporting. EV-0009 (June 2019) adds that the Sherwood Borefield depends on uncontrolled upper-catchment river flow and that Steuart McIntyre Dam's usability as a supply source was itself in question at that time.",
     "dependencies": [],
     "completion_state": "Not Complete"
@@ -48,7 +72,10 @@
     "thread_id": "THR-06",
     "name": "Extraction decisions",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0001", "EV-0005"],
+    "supporting_evidence": [
+      "EV-0001",
+      "EV-0005"
+    ],
     "outstanding_work": "Establish the specific extraction-point/bore-vs-river decisions made for Willawarrin (bore-reliant) versus the main Kempsey network (Steuart McIntyre Dam + Sherwood Borefield), and why Willawarrin was not connected to the more secure dam-fed system.",
     "dependencies": [],
     "completion_state": "Not Complete"
@@ -57,8 +84,16 @@
     "thread_id": "THR-07",
     "name": "Funding",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0007", "EV-0013"],
-    "outstanding_work": "Confirm the reason for the Willawarrin plant's cost increase from approximately $4m (2024) to $8m (2025) - see Q-0003. EV-0013 (May 2022) shows the project existed at least that early with no cost figure attached yet; SRC-0021 (Pump Industry Magazine) and SRC-0022 (Kempsey Council, 8 Aug 2024 - one day after EV-0004) are both blocked and are likely leads once manually retrieved. RUN-0023 added broader council-financial context (SRC-0043, fetch-blocked): Kempsey Shire Council recorded an $8.1 million general fund deficit for FY2024-25 (nearly double the prior year's ~$4m), following a November 2025 NSW Audit Office/external-auditor presentation to council - directly relevant to the case's original brief on whether Kempsey appears in NSW Audit Office at-risk-council reporting, though the specific 'Appendix 2' named-list question remains unconfirmed.",
+    "supporting_evidence": [
+      "EV-0004",
+      "EV-0005",
+      "EV-0006",
+      "EV-0007",
+      "EV-0013",
+      "EV-0023",
+      "EV-0025"
+    ],
+    "outstanding_work": "Confirm the reason for the Willawarrin plant's cost increase from approximately $4m (2024) to $8m (2025) - see Q-0003. EV-0013 (May 2022) shows the project existed at least that early with no cost figure attached yet; SRC-0021 (Pump Industry Magazine) and SRC-0022 (Kempsey Council, 8 Aug 2024 - one day after EV-0004) are both blocked and are likely leads once manually retrieved. RUN-0023 added broader council-financial context (SRC-0043, fetch-blocked): Kempsey Shire Council recorded an $8.1 million general fund deficit for FY2024-25 (nearly double the prior year's ~$4m), following a November 2025 NSW Audit Office/external-auditor presentation to council - directly relevant to the case's original brief on whether Kempsey appears in NSW Audit Office at-risk-council reporting, though the specific 'Appendix 2' named-list question remains unconfirmed. RUN-0027: promoted SRC-0043 (Kempsey Shire Council's $8.1m FY2024-25 deficit, NSW Audit Office link) and SRC-0045 ($161,000 trucked-water funding) to EV-0023/EV-0025.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -66,7 +101,13 @@
     "thread_id": "THR-08",
     "name": "Treatment plant",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0007", "EV-0013"],
+    "supporting_evidence": [
+      "EV-0004",
+      "EV-0005",
+      "EV-0006",
+      "EV-0007",
+      "EV-0013"
+    ],
     "outstanding_work": "Confirm current construction/commissioning status given the passed \"early 2026\" target (see Q-0001). Obtain the blocked Kempsey Council source pages (SRC-0010, SRC-0011, SRC-0012, SRC-0021, SRC-0022, SRC-0023) via manual browser access - they are likely the most current record available. Project history now traces back to May 2022 (EV-0013, CHR-0011). SRC-0023 confirms a 20 July 2026 Council Public Forum took place; its agenda is an unpursued lead, same access gap.",
     "dependencies": [],
     "completion_state": "Not Complete"
@@ -75,9 +116,14 @@
     "thread_id": "THR-09",
     "name": "Construction",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0006", "EV-0007"],
+    "supporting_evidence": [
+      "EV-0006",
+      "EV-0007"
+    ],
     "outstanding_work": "Obtain construction progress updates for the period between the March 2025 sod-turning and the present (28 July 2026).",
-    "dependencies": ["THR-07"],
+    "dependencies": [
+      "THR-07"
+    ],
     "completion_state": "Not Complete"
   },
   {
@@ -86,7 +132,9 @@
     "status": "Not Started",
     "supporting_evidence": [],
     "outstanding_work": "No evidence yet located confirming commissioning of the Willawarrin plant; this is the central open gap from today's collection round (see Q-0001).",
-    "dependencies": ["THR-09"],
+    "dependencies": [
+      "THR-09"
+    ],
     "completion_state": "Not Complete"
   },
   {
@@ -95,7 +143,9 @@
     "status": "Not Started",
     "supporting_evidence": [],
     "outstanding_work": "Awaiting commissioning confirmation before this thread can meaningfully begin (see THR-10).",
-    "dependencies": ["THR-10"],
+    "dependencies": [
+      "THR-10"
+    ],
     "completion_state": "Not Complete"
   },
   {
@@ -111,8 +161,13 @@
     "thread_id": "THR-13",
     "name": "Regional water security funding program (Steuart McIntyre Dam / Sherwood Borefield)",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0005", "EV-0008", "EV-0013"],
-    "outstanding_work": "New thread opened 2026-07-28 after EV-0005 revealed the Willawarrin plant is one component of a larger $52.9m regional package that also funds a new main treatment plant for Kempsey/Frederickton/Smithtown/Gladstone (~18,000 residents). Identify the contractor and construction progress for this larger project, and establish whether it has any direct bearing on Willawarrin/Bellbrook's water security specifically (see Q-0005). EV-0013 (May 2022) adds that an emergency water treatment plant was separately installed at Steuart McIntyre Dam for the main Kempsey/Lower Macleay supply - establish when and why. SRC-0024 confirms a Design & Construction tender was run for the Steuart McIntyre Dam plant, but no awarded contractor could be found via search; the listing itself is blocked to automated fetch. RUN-0005 found a strong but unconfirmed lead for the contractor: search-engine snippets from two independent queries (SRC-0025, SRC-0026) consistently name 'LC Eire, a partnership between LC Water and Eire Constructions' - not yet promoted to an Evidence Register entry since neither underlying article could be fetched this session (see DEC-0008). RUN-0012 found the construction-start (sod-turning) event itself, not previously registered: SRC-0032 (NSW Government) and SRC-0033 (independent media, corroborated across two Australian Community Media titles) both confirm ground was broken around July 2025, consistent with EV-0005's announced mid-2025 start - but neither names the contractor, so Q-0005 remains open even with this confirmation that construction is genuinely underway.",
+    "supporting_evidence": [
+      "EV-0005",
+      "EV-0008",
+      "EV-0013",
+      "EV-0017"
+    ],
+    "outstanding_work": "New thread opened 2026-07-28 after EV-0005 revealed the Willawarrin plant is one component of a larger $52.9m regional package that also funds a new main treatment plant for Kempsey/Frederickton/Smithtown/Gladstone (~18,000 residents). Identify the contractor and construction progress for this larger project, and establish whether it has any direct bearing on Willawarrin/Bellbrook's water security specifically (see Q-0005). EV-0013 (May 2022) adds that an emergency water treatment plant was separately installed at Steuart McIntyre Dam for the main Kempsey/Lower Macleay supply - establish when and why. SRC-0024 confirms a Design & Construction tender was run for the Steuart McIntyre Dam plant, but no awarded contractor could be found via search; the listing itself is blocked to automated fetch. RUN-0005 found a strong but unconfirmed lead for the contractor: search-engine snippets from two independent queries (SRC-0025, SRC-0026) consistently name 'LC Eire, a partnership between LC Water and Eire Constructions' - not yet promoted to an Evidence Register entry since neither underlying article could be fetched this session (see DEC-0008). RUN-0012 found the construction-start (sod-turning) event itself, not previously registered: SRC-0032 (NSW Government) and SRC-0033 (independent media, corroborated across two Australian Community Media titles) both confirm ground was broken around July 2025, consistent with EV-0005's announced mid-2025 start - but neither names the contractor, so Q-0005 remains open even with this confirmation that construction is genuinely underway. RUN-0027: promoted SRC-0032/SRC-0033 (Steuart McIntyre Dam/Sherwood Borefield sod-turning, ~July 2025, $53m) to EV-0017.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -120,8 +175,13 @@
     "thread_id": "THR-14",
     "name": "Bellbrook-specific infrastructure status",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0010"],
-    "outstanding_work": "EV-0010 (Feb 2025) confirms Bellbrook is still an actively monitored supply system and passed PFAS testing, but PFAS is a different contaminant to this case's iron/manganese focus and the article says nothing about Bellbrook's treatment infrastructure or whether it has had any dedicated upgrade since 2020. RUN-0006 found a specific, named lead: NSW's 'Aboriginal Communities Water and Sewerage Program' Completed Projects listing reportedly names Bellbrook (SRC-0027, blocked to fetch this session) - the next step is confirming this against the program's own page or an independent secondary source once fetchable, since Bellbrook adjoins the Thunggutti Aboriginal Community (Mirriwinni Gardens) this program is designed to serve. RUN-0014 added Bellbrook's general historical/population context (SRC-0034, SRC-0035, both fetch-blocked): gazetted 1892, a National Trust heritage timber-industry village since 1978, 2021 Census population 339 (up from 273 in 2016) - background context for the thread, not itself evidence of the town's water infrastructure status. RUN-0021 found a substantive, direct answer to Q-0002: Bellbrook has its own dedicated arsenic-removal water treatment plant, built around 2009-2010 (sources differ on the exact year) at a cost of approximately $700,000, addressing groundwater arsenic/heavy-metal contamination traced to historic Hillgrove-area mining (SRC-0040, SRC-0041, both fetch-blocked). This is genuinely new, distinct infrastructure from the Willawarrin plant this case has focused on, and directly links the Hillgrove/Bakers Creek arsenic-antimony dispersion (SRC-0028) to this case's own towns. Q-0002 remains formally open pending primary-source confirmation, but is now substantially answered in substance.",
+    "supporting_evidence": [
+      "EV-0010",
+      "EV-0018",
+      "EV-0022",
+      "EV-0027"
+    ],
+    "outstanding_work": "EV-0010 (Feb 2025) confirms Bellbrook is still an actively monitored supply system and passed PFAS testing, but PFAS is a different contaminant to this case's iron/manganese focus and the article says nothing about Bellbrook's treatment infrastructure or whether it has had any dedicated upgrade since 2020. RUN-0006 found a specific, named lead: NSW's 'Aboriginal Communities Water and Sewerage Program' Completed Projects listing reportedly names Bellbrook (SRC-0027, blocked to fetch this session) - the next step is confirming this against the program's own page or an independent secondary source once fetchable, since Bellbrook adjoins the Thunggutti Aboriginal Community (Mirriwinni Gardens) this program is designed to serve. RUN-0014 added Bellbrook's general historical/population context (SRC-0034, SRC-0035, both fetch-blocked): gazetted 1892, a National Trust heritage timber-industry village since 1978, 2021 Census population 339 (up from 273 in 2016) - background context for the thread, not itself evidence of the town's water infrastructure status. RUN-0021 found a substantive, direct answer to Q-0002: Bellbrook has its own dedicated arsenic-removal water treatment plant, built around 2009-2010 (sources differ on the exact year) at a cost of approximately $700,000, addressing groundwater arsenic/heavy-metal contamination traced to historic Hillgrove-area mining (SRC-0040, SRC-0041, both fetch-blocked). This is genuinely new, distinct infrastructure from the Willawarrin plant this case has focused on, and directly links the Hillgrove/Bakers Creek arsenic-antimony dispersion (SRC-0028) to this case's own towns. Q-0002 remains formally open pending primary-source confirmation, but is now substantially answered in substance. RUN-0027: promoted SRC-0034/SRC-0035 (Bellbrook general history/population), SRC-0040/SRC-0041 (Bellbrook arsenic-removal treatment plant, ~2009-2010), and SRC-0027 (ACWSP completed-projects listing naming Bellbrook) to EV-0018/EV-0022/EV-0027 respectively.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -129,7 +189,12 @@
     "thread_id": "THR-15",
     "name": "Kempsey Shire Council leadership timeline (evidence-attribution context)",
     "status": "Complete",
-    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0011", "EV-0012"],
+    "supporting_evidence": [
+      "EV-0004",
+      "EV-0005",
+      "EV-0011",
+      "EV-0012"
+    ],
     "outstanding_work": "Q-0004 resolved: Leo Hauville to Kinne Ring is the ordinary 2024 election (53.67% after preferences, preliminary result 30 Sep 2024, sworn in 9 Oct 2024). One loose end remains outside this thread's original purpose - EV-0011's own text gives an internally odd election date (see Q-0006) - but it no longer affects evidence attribution, so this thread is closed.",
     "dependencies": [],
     "completion_state": "Complete"

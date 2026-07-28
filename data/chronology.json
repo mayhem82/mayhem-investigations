@@ -5,7 +5,9 @@
     "date_is_inference": true,
     "event_description": "By this date, Willawarrin is already receiving trucked water due to iron/manganese levels exceeding drinking water guidelines amid severe drought; Bellbrook is expected to need trucked water within a week. The Macleay River is near standstill and Steuart McIntyre Dam is at approximately 80% and falling. The exact date trucked water first began is not established by evidence yet - only that it predates this article's publication.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0001"]
+    "supporting_evidence": [
+      "EV-0001"
+    ]
   },
   {
     "chronology_id": "CHR-0002",
@@ -13,7 +15,10 @@
     "date_is_inference": false,
     "event_description": "Willawarrin and Bellbrook are switched back to river water supply, ending several months of trucked-in water, following bore and treatment upgrades by Council's Water and Sewer team.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0002", "EV-0003"]
+    "supporting_evidence": [
+      "EV-0002",
+      "EV-0003"
+    ]
   },
   {
     "chronology_id": "CHR-0003",
@@ -21,7 +26,10 @@
     "date_is_inference": true,
     "event_description": "The water treatment infrastructure later replaced by the new 2025 plant is reported as having been built in 1967 (described elsewhere as \"1960s-era\"). The precise year rests on a single media report and has not been independently confirmed against a council asset record.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0004", "EV-0006"]
+    "supporting_evidence": [
+      "EV-0004",
+      "EV-0006"
+    ]
   },
   {
     "chronology_id": "CHR-0004",
@@ -29,7 +37,9 @@
     "date_is_inference": true,
     "event_description": "LC Water is reported as having been awarded the design-and-construction contract for the new Willawarrin plant, with an original cost projection of approximately $4 million. The exact contract-award date is not stated in the source; only the article's publication date (7 August 2024) is known.",
     "status": "Pending",
-    "supporting_evidence": ["EV-0004"]
+    "supporting_evidence": [
+      "EV-0004"
+    ]
   },
   {
     "chronology_id": "CHR-0005",
@@ -37,7 +47,9 @@
     "date_is_inference": false,
     "event_description": "NSW and Australian Governments announce a combined $52.9 million regional water infrastructure package, covering a new main treatment plant for Kempsey/Frederickton/Smithtown/Gladstone (Steuart McIntyre Dam/Sherwood Borefield) and reaffirming the separate $8 million Willawarrin plant commitment.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0005"]
+    "supporting_evidence": [
+      "EV-0005"
+    ]
   },
   {
     "chronology_id": "CHR-0006",
@@ -45,7 +57,10 @@
     "date_is_inference": false,
     "event_description": "Construction begins (sod-turning) on the new $8 million Willawarrin water treatment plant - a 0.25 ML/day ultrafiltration plant with UV disinfection - with completion expected by early 2026.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0006", "EV-0007"]
+    "supporting_evidence": [
+      "EV-0006",
+      "EV-0007"
+    ]
   },
   {
     "chronology_id": "CHR-0007",
@@ -53,7 +68,9 @@
     "date_is_inference": false,
     "event_description": "Kempsey Shire Council moves to Level 2 water restrictions amid minimal forecast rainfall and declining Macleay River flow, naming Willawarrin and Bellbrook among the affected supply schemes. This is the earliest evidence found so far of the drought conditions behind the 2019-2020 trucked-water episode (CHR-0001), predating it by about five months.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0009"]
+    "supporting_evidence": [
+      "EV-0009"
+    ]
   },
   {
     "chronology_id": "CHR-0008",
@@ -61,7 +78,9 @@
     "date_is_inference": true,
     "event_description": "The 2024 NSW Local Government election is held, contesting Kempsey Shire Council's mayoralty and councillor seats. EV-0011 (a Kempsey Shire Council-bylined item) states the results were 'for the September 9, 2024' election, but multiple independent sources place the statewide 2024 NSW Local Government polling day at Saturday 14 September 2024. Which date is correct for Kempsey specifically is not yet resolved (Q-0006).",
     "status": "Pending",
-    "supporting_evidence": ["EV-0011"]
+    "supporting_evidence": [
+      "EV-0011"
+    ]
   },
   {
     "chronology_id": "CHR-0009",
@@ -69,7 +88,9 @@
     "date_is_inference": false,
     "event_description": "The NSW Electoral Commission announces the preliminary distribution-of-preferences result for Kempsey Shire Council mayor: Kinne Ring elected with 53.67% after preferences, succeeding outgoing Mayor Leo Hauville.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0012"]
+    "supporting_evidence": [
+      "EV-0012"
+    ]
   },
   {
     "chronology_id": "CHR-0010",
@@ -77,7 +98,9 @@
     "date_is_inference": false,
     "event_description": "The newly elected Kempsey Shire Council - Mayor Kinne Ring plus five new and three returning councillors - is formally sworn in (Oaths and Affirmations ceremony) at Council Chambers before the General Manager.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0011"]
+    "supporting_evidence": [
+      "EV-0011"
+    ]
   },
   {
     "chronology_id": "CHR-0011",
@@ -85,6 +108,78 @@
     "date_is_inference": false,
     "event_description": "Kempsey Shire Council announces a $54 million water and sewer capital works program, naming Willawarrin as one of two new water treatment plant locations (with Crescent Head) - the earliest evidence found of the Willawarrin plant project, over two years before it reached tender stage.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0013"]
+    "supporting_evidence": [
+      "EV-0013"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0012",
+    "event_date": "2025-07 (exact day not confirmed)",
+    "date_is_inference": true,
+    "event_description": "Construction (sod-turning) begins on the Steuart McIntyre Dam/Sherwood Borefield plant - the larger $52.9m regional project distinct from the Willawarrin plant - consistent with EV-0005's announced mid-2025 start.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0017"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0013",
+    "event_date": "1892",
+    "date_is_inference": false,
+    "event_description": "Bellbrook is gazetted, named for bellbirds along Nulla Nulla Creek.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0018"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0014",
+    "event_date": "2019-11-11",
+    "date_is_inference": false,
+    "event_description": "Amid the Carrai East Bushfire (accelerating from 8 November 2019, during Kempsey's driest year on record), Bellbrook Public School becomes an impromptu evacuation centre, sheltering approximately 120 people plus pets and livestock, as the fire moves through the Bellbrook/Willawarrin area destroying homes and properties.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0020"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0015",
+    "event_date": "2019-11-08",
+    "date_is_inference": false,
+    "event_description": "A Willawarrin resident is seen exiting his vehicle to open a gate providing access to Armidale Road, in the direction of the Willawarrin Hall evacuation point, during the Carrai East Bushfire; his body is found in nearby bushland on 13 November 2019. Recorded factually per coronial-inquiry reporting; no finding of fault or responsibility by any person or body is stated or implied.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0021"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0016",
+    "event_date": "2009-2010 (sources differ on exact year)",
+    "date_is_inference": true,
+    "event_description": "A dedicated arsenic-removal water treatment plant is constructed at Bellbrook (approximate cost $700,000), addressing groundwater arsenic/heavy-metal contamination traced to historic Hillgrove-area mining.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0022"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0017",
+    "event_date": "2019-10-02",
+    "date_is_inference": false,
+    "event_description": "Council begins carting water to Willawarrin, and intermittently to Bellbrook and the Thunggutti Aboriginal Community, during the bushfire/drought emergency.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0024"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0018",
+    "event_date": "2019-12-02",
+    "date_is_inference": false,
+    "event_description": "Kempsey Shire Council moves to Level 3 water restrictions, up from the Level 2 restrictions in place since June 2019 (CHR-0007), showing continued escalation of the drought.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0026"
+    ]
   }
 ]
