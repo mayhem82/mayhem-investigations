@@ -235,5 +235,16 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request, trying to strengthen Q-0002's SRC-0027 lead with a more targeted search. DEC-0008's fetch-tool outage still applies. This is now the third independent search reproducing the same bare claim with no new date or scope detail. No new sources, evidence, chronology, or open-question changes."
+  },
+  {
+    "run_id": "RUN-0021",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0040",
+      "SRC-0041"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request, exploring the Thunggutti Aboriginal Community/Mirriwinni Gardens angle. DEC-0008's fetch-tool outage still applies. Found a substantially valuable, previously-unknown fact: Bellbrook's raw (ground)water supply was contaminated by arsenic/heavy metals from historic Hillgrove-area mining, and a dedicated Bellbrook water treatment plant with arsenic-removal capacity was built around 2009-2010 (~$700,000), per two independent searches. This is a direct, substantive answer to Q-0002 (Bellbrook's own water infrastructure) - genuinely new, distinct infrastructure not previously known to this register. Registered as SRC-0040/SRC-0041 (fetch-blocked); THR-14 and Q-0002 updated substantially."
   }
 ]

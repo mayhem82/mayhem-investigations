@@ -601,5 +601,32 @@
     "related_thread": "THR-14",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0068",
+    "timestamp": "2026-07-29T01:05:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0021). Retried the fetch tool once (an ACWSP completed-projects URL) - still HTTP 403, DEC-0008 unchanged. Searched for the Thunggutti Aboriginal Community / Mirriwinni Gardens specifically, a genuinely underdeveloped angle in this repository beyond EV-0010's PFAS mention.",
+    "related_thread": "THR-14",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0069",
+    "timestamp": "2026-07-29T01:09:00",
+    "activity_type": "Finding",
+    "text": "Found something substantially more valuable than expected: the first search surfaced a specific, dated fact - 'In 2005, the town's raw water supply was contaminated by heavy metals and arsenic from former mines in the Hillgrove area' - referring to Bellbrook. A follow-up search confirmed and extended this: Bellbrook required (and received) a dedicated water treatment plant to filter arsenic resulting from Hillgrove-mine contamination, built around 2009-2010 (sources differ) at a cost of approximately $700,000, targeting arsenic in groundwater specifically (not surface river water). This is a direct, substantive answer to Q-0002 (Bellbrook's own water infrastructure, independent of the Willawarrin plant) - genuinely new, distinct infrastructure not previously known to this register - and it directly links the Hillgrove/Bakers Creek arsenic-antimony contamination (SRC-0028) to this case's own towns, which RUN-0010 had previously found no specific link for (that check was specific to Willawarrin's own extraction points, not Bellbrook, so this is a new discovery rather than a reversal of that earlier finding). Registered as SRC-0040 (Kempsey Shire Council) and SRC-0041 (Macleay Argus corroboration), both fetch-blocked (DEC-0008). Updated THR-14 and Q-0002 substantially - this question is now answered in substance even though formal closure still awaits primary-source confirmation.",
+    "related_thread": "THR-14",
+    "related_source": "SRC-0040",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0070",
+    "timestamp": "2026-07-29T01:13:00",
+    "activity_type": "Note",
+    "text": "RUN-0021 wrapping up: SRC-0040/SRC-0041 added, THR-14 and Q-0002 substantially updated, SRCH-0060/SRCH-0061/SRCH-0062 logged. No formal Evidence Register or Chronology changes (still fetch-blocked), but this is one of the most significant unpromoted findings in the register - it substantively answers a question open since RUN-0001. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
