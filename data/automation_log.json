@@ -373,5 +373,18 @@
       "EV-0028"
     ],
     "notes": "Retried the fetch tool once - still HTTP 403, DEC-0008 unchanged. Searched Q-0001/Q-0003/Q-0005/THR-14 from fresh angles across 20 queries. Caught a false lead (an apparent 2023 Willawarrin/Bellbrook water crisis) and traced it to a stale CMS timestamp confound on already-registered 2019/2020 sources rather than promoting it - per DEC-0007's standing rule against unverifiable search summaries. Found and promoted one genuine new fact (EV-0028: main Kempsey/Lower Macleay network switched from borefield to dam supply, 25 Aug 2023 - not a Willawarrin/Bellbrook event). Registered 5 further sources (2 more Council project PDFs bridging 2023-2024, 2 dated 2023 council items, 1 unconfirmed recurring \"$270m/Bellbrook plant\" claim already covered by DEC-0007). Despite dedicated 2026-focused searching (5 separate query angles), found nothing dated 2026 on Willawarrin's commissioning/operational status (Q-0001) - honestly logged as no relevant change on that specific question, consistent with spec section 7."
+  },
+  {
+    "run_id": "RUN-0029",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0054",
+      "SRC-0055"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0029"
+    ],
+    "notes": "Retried the fetch tool twice (a known-relevant URL plus a neutral control) - still HTTP 403, DEC-0008 unchanged. Tried a federal-government angle (National Water Grid Authority) rather than NSW state/council sources for THR-13/Q-0005, finding a genuinely new fact: the Steuart McIntyre Dam/Sherwood Borefield plant was confirmed \"Under construction\" as of 31 August 2025 by an independent federal tracker, with a previously-unregistered capacity figure. Contractor identity (Q-0005) and Willawarrin-specific commissioning status (Q-0001) both remain unresolved after this run's different search angles (tender/practical-completion/business-paper phrasing) - honestly logged as no further relevant change on those two specific questions."
   }
 ]

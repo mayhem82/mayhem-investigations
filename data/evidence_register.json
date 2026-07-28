@@ -728,5 +728,33 @@
     ],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0029",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2025-08-31",
+    "source_authority": "National Water Grid Authority (Australian Government)",
+    "source_title": "Summary of construction projects, August 2025",
+    "source_type": "Government Record",
+    "source_location": "https://www.nationalwatergrid.gov.au/sites/default/files/documents/summary-construction-projects-aug-2025.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of nationalwatergrid.gov.au returns HTTP 403, a session-level tooling constraint (DEC-0008/DEC-0009), not a site-specific block. No file preserved or hashed.",
+    "evidence_description": "A federal (Australian Government) project-tracker document independently confirms the Steuart McIntyre Dam/Sherwood Borefield plant (THR-13) - funded at $52.905m ($12.5m Australian Government National Water Grid Fund + $13.22m NSW Safe and Secure Water Program + $27.17m Kempsey Shire Council) - was still \"Under construction\" as of 31 August 2025, about five months after the March 2025 sod-turning (EV-0006). Also gives a plant capacity figure not previously registered: 12 ML/day, with allowance for a future expansion to 22 ML/day.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Independent, federal-government corroboration that construction of the larger regional plant is genuinely ongoing partway through 2025 (narrowing the \"in progress\" window for THR-13/THR-09), though it still does not resolve Q-0005 (contractor identity) and is a different project to the Willawarrin plant this case centres on (Q-0001 remains separately unresolved).",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0005",
+      "EV-0006",
+      "EV-0017"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0005"
+    ]
   }
 ]

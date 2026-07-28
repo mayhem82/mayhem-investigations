@@ -740,5 +740,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-14",
     "availability_notes": "This run's WebSearch tool twice produced a synthesized answer asserting a \"$270 million\" Kempsey Shire water/sewer program that names a \"Bellbrook Water Treatment Plant\" as a distinct capital project, but neither instance was traceable to an actual, named result URL - only to the search tool's own generated summary paragraph. This is the same claim DEC-0007 already assessed and declined to accept (a self-contradicting/unverifiable search summary, not corroborated by the properly-sourced EV-0013), now recurring in a new form. Per DEC-0007's standing rule and the Source Before Analysis principle, NOT promoted to evidence and not treated as confirming a Bellbrook-specific treatment plant beyond the arsenic-removal plant already documented (EV-0022). Registered only so a future run does not need to re-investigate this exact recurring dead end from scratch."
+  },
+  {
+    "source_id": "SRC-0054",
+    "authority": "National Water Grid Authority (Australian Government)",
+    "title": "Kempsey water treatment plant (project page)",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.nationalwatergrid.gov.au/projects/kempsey-water-treatment-plant",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-13",
+    "availability_notes": "nationalwatergrid.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). A federal Australian Government project-tracker page (distinct authority from the NSW state sources already registered, e.g. SRC-0006/SRC-0032) for the same Steuart McIntyre Dam/Sherwood Borefield project: gives a 12 ML/day plant capacity with allowance for a future 10 ML/day expansion (22 ML/day total), and per one search summary an \"expected completion date of late 2025\" - which does not obviously reconcile with EV-0005's \"18-month program\" from a mid-2025 start (which would imply completion nearer late 2026). Not registered as a formal contradiction (CTR-) since this is a single AI-search-summary reading of a document that has not itself been fetched and could easily be a summarization error rather than a real discrepancy - flagged here for a future run to check once the document can be fetched directly."
+  },
+  {
+    "source_id": "SRC-0055",
+    "authority": "National Water Grid Authority (Australian Government)",
+    "title": "Summary of construction projects, August 2025",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.nationalwatergrid.gov.au/sites/default/files/documents/summary-construction-projects-aug-2025.pdf",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; dated 31 August 2025 per search-engine snippet",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-13",
+    "availability_notes": "nationalwatergrid.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). A periodic federal project-tracker PDF; per search-engine snippet, lists the Kempsey Water Treatment Plant (Steuart McIntyre Dam/Sherwood Borefield) as \"Under construction\" as of 31 August 2025 - about five months after EV-0006's March 2025 sod-turning. No later edition (e.g. a \"dec-2025\" or \"2026\" version) could be found via search; only \"may-2024\", \"jan-2025\", and \"aug-2025\" editions surfaced."
   }
 ]
