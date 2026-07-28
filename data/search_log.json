@@ -574,5 +574,29 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 17,
     "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0049",
+    "search_terms": "\"Willawarrin, New South Wales\" Wikipedia history population founded / Willawarrin NSW village founded gazetted history 1800s pioneer settlement",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 17,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0050",
+    "search_terms": "\"Early history of Willawarrin\" Toorooka pastoral lease 1842 hotel 1893 livestock",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
   }
 ]

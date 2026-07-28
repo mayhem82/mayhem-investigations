@@ -324,5 +324,20 @@
     ],
     "reason": "RUN-0014, continuing evidence collection at the operator's request. Filled a real gap - Bellbrook's own general history and population, which this register had none of - via two independent, cross-confirmed search queries (gazetted 1892, National Trust heritage village since 1978, 2021 Census population 339). Registered SRC-0034/SRC-0035 (fetch-blocked) and added as general background to THR-14.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0020",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/threads.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0015, continuing evidence collection at the operator's request. Applied RUN-0014's approach to Willawarrin, finding Kempsey Shire Council's own heritage record (SRC-0036, fetch-blocked): part of the Toorooka pastoral lease from 1842, first hotel 1893, an important livestock-selling centre 1949-1970. General settlement history added to THR-01 as background; the pre-2019 water-quality-specific gap remains open.",
+    "validation_completed": true
   }
 ]

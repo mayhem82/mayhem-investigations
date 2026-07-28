@@ -457,5 +457,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0052",
+    "timestamp": "2026-07-28T22:10:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0015). Retried the fetch tool once (a Wikipedia URL) - still HTTP 403, DEC-0008 unchanged. Applied RUN-0014's same approach to the other town: searched for Willawarrin's own general history and background (THR-01's stated gap), rather than more plant-status searches.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0053",
+    "timestamp": "2026-07-28T22:14:00",
+    "activity_type": "Finding",
+    "text": "First search confirmed the already-known 183 population figure (corroborating SRC-0030) plus general tourism context (Slim Dusty Way Scenic Drive) - too thin to register on its own. A follow-up search found something more substantive: Kempsey Shire Council's own heritage library page, 'Early history of Willawarrin', cross-confirmed across two independent queries with consistent facts - part of the Toorooka pastoral lease from 1842, first hotel built 1893, an important livestock-selling centre 1949-1970. This is general settlement history, not water-specific, but is a genuinely new, council-sourced historical record - the earliest documented history found for Willawarrin by over a century. Registered as SRC-0036 (fetch-blocked, DEC-0008) and added to THR-01.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0036",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0054",
+    "timestamp": "2026-07-28T22:17:00",
+    "activity_type": "Note",
+    "text": "RUN-0015 wrapping up: SRC-0036 added, THR-01 updated, SRCH-0049/SRCH-0050 logged. No Evidence Register, Chronology, Open Question, or Contradiction changes - the pre-2019 water-quality-specific gap in THR-01 remains open even though general settlement history is now on file. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

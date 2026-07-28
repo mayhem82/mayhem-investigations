@@ -488,5 +488,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-14",
     "availability_notes": "abs.gov.au returns HTTP 403 Forbidden to this session's fetch tool (same domain family as SRC-0030; see DEC-0008). Independent corroboration of SRC-0034's Bellbrook population figures (339 in 2021, 273 in 2016) via the ABS's own Census Community Profile/QuickStats pages for the Bellbrook State Suburb (SAL10270) - a distinct ABS code from Willawarrin's (SAL14312, SRC-0030)."
+  },
+  {
+    "source_id": "SRC-0036",
+    "authority": "Kempsey Shire Council (library/heritage service)",
+    "title": "Early history of Willawarrin",
+    "type": "Other Public Record",
+    "url_or_file_location": "https://library.kempsey.nsw.gov.au/Resources/Kempsey-Shire-heritage/Early-history-of-Willawarrin",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "library.kempsey.nsw.gov.au (also mirrored at www.kempsey.nsw.gov.au/library/heritage/willawarrin.html) returns HTTP 403 Forbidden to this session's fetch tool (same domain family as SRC-0010 etc.; see DEC-0008). Genuinely new finding for THR-01's pre-2019 history gap, cross-confirmed across two independent search queries with consistent, specific facts, this time from Kempsey Shire Council's own heritage record rather than a general encyclopedia: Willawarrin was part of the Toorooka pastoral lease from 1842; the village grew as a rest/horse-change stop on the road to Kempsey; its first hotel was built in 1893; and it was an important livestock-selling centre between 1949 and 1970. This is general settlement history rather than water-supply-specific history, so it does not bear on Q-0001/Q-0002/Q-0003 directly, but is the earliest documented history found for Willawarrin (predating even EV-0013's 2022 starting point by 180 years) and fills THR-01's stated gap for general background."
   }
 ]

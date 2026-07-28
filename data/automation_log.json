@@ -177,5 +177,15 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request, trying a genuinely unexplored avenue: Bellbrook's own general history and background, since this register had almost no Bellbrook-specific context beyond its water supply status. DEC-0008's fetch-tool outage still applies. Two independent searches consistently confirmed: Bellbrook gazetted 1892, National Trust heritage village since 1978, 2021 Census population 339 (up from 273 in 2016). Registered as SRC-0034 (Wikipedia) and SRC-0035 (ABS QuickStats), both fetch-blocked, and added to THR-14 as general background context rather than direct evidence of water infrastructure status."
+  },
+  {
+    "run_id": "RUN-0015",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0036"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Continued evidence collection at the operator's request, applying RUN-0014's approach to Willawarrin: searched for the town's own general history for THR-01's stated pre-2019 gap. DEC-0008's fetch-tool outage still applies. Found Kempsey Shire Council's own heritage library page, 'Early history of Willawarrin', cross-confirmed across two independent queries: part of the Toorooka pastoral lease from 1842, first hotel 1893, an important livestock-selling centre 1949-1970. General settlement history, not water-specific, but the earliest documented history found for Willawarrin by over a century. Registered as SRC-0036 (fetch-blocked) and added to THR-01."
   }
 ]
