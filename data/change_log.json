@@ -525,5 +525,22 @@
     ],
     "reason": "RUN-0027, at the operator's explicit instruction (\"all evidence must go into register as found\"): promoted 14 previously Source-Register-only findings (SRC-0016 through SRC-0047, everything found since RUN-0005's fetch outage) to Evidence Register entries EV-0014 through EV-0027, each at verification_state \"Requires Verification\" with a documented hash_exception_reason, since only \"Accepted\" evidence requires proof-of-fact (validation rule 10/11). Added 7 supporting Chronology entries. Recorded the policy change itself as DEC-0009. Updated THR-01/02/07/13/14 to reference the new evidence.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0034",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/chronology.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0028, continuing evidence collection. Registered a genuinely new, dated 2023 drought event for the main Kempsey/Lower Macleay network (SRC-0048/SRC-0049, promoted to EV-0028 per the RUN-0027 evidence-acceptance policy), plus 4 further Council-source leads. Identified and rejected a false \"2023 Willawarrin/Bellbrook crisis\" lead, tracing it to a stale timestamp confound on already-registered sources rather than promoting it. Confirmed via 5 separate 2026-focused search angles that no 2026-dated information on Willawarrin's commissioning status (Q-0001) is reachable via search - an honest no-relevant-change outcome on that specific question.",
+    "validation_completed": true
   }
 ]

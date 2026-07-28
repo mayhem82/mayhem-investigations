@@ -356,5 +356,22 @@
       "EV-0027"
     ],
     "notes": "Not a new research pass - per the operator's explicit instruction (\"all evidence must go into register as found\"), reviewed every source registered since RUN-0005 (when this session's fetch tool started returning HTTP 403 on every URL, DEC-0008) and promoted every one carrying a genuine, specific, citable fact to the Evidence Register, rather than continuing to hold them at Source Register level only. Fourteen sources promoted to EV-0014 through EV-0027, each recorded as classification \"Secondary Reference\", verification_state \"Requires Verification\", with a hash_exception_reason documenting the search-snippet/fetch-outage basis. Seven new Chronology entries added (CHR-0012 through CHR-0018) where the promoted evidence supports a specific dated event. No question or contradiction was closed - promotion is distinct from resolution, and this run did not lower the bar for that. This policy change is recorded as DEC-0009. Sources reviewed but not promoted (no extractable, specific fact - e.g. \"this URL exists but is blocked\") remain Source Register entries only: SRC-0018, SRC-0021, SRC-0022, SRC-0023, SRC-0024, SRC-0028, SRC-0042, SRC-0047."
+  },
+  {
+    "run_id": "RUN-0028",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0048",
+      "SRC-0049",
+      "SRC-0050",
+      "SRC-0051",
+      "SRC-0052",
+      "SRC-0053"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0028"
+    ],
+    "notes": "Retried the fetch tool once - still HTTP 403, DEC-0008 unchanged. Searched Q-0001/Q-0003/Q-0005/THR-14 from fresh angles across 20 queries. Caught a false lead (an apparent 2023 Willawarrin/Bellbrook water crisis) and traced it to a stale CMS timestamp confound on already-registered 2019/2020 sources rather than promoting it - per DEC-0007's standing rule against unverifiable search summaries. Found and promoted one genuine new fact (EV-0028: main Kempsey/Lower Macleay network switched from borefield to dam supply, 25 Aug 2023 - not a Willawarrin/Bellbrook event). Registered 5 further sources (2 more Council project PDFs bridging 2023-2024, 2 dated 2023 council items, 1 unconfirmed recurring \"$270m/Bellbrook plant\" claim already covered by DEC-0007). Despite dedicated 2026-focused searching (5 separate query angles), found nothing dated 2026 on Willawarrin's commissioning/operational status (Q-0001) - honestly logged as no relevant change on that specific question, consistent with spec section 7."
   }
 ]

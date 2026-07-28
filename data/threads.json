@@ -62,9 +62,10 @@
     "status": "In Progress",
     "supporting_evidence": [
       "EV-0001",
-      "EV-0009"
+      "EV-0009",
+      "EV-0028"
     ],
-    "outstanding_work": "Obtain WaterNSW or Council river-flow/dam-level data for the Macleay River and Steuart McIntyre Dam across the 2019-2020 drought and since, to move beyond descriptive reporting. EV-0009 (June 2019) adds that the Sherwood Borefield depends on uncontrolled upper-catchment river flow and that Steuart McIntyre Dam's usability as a supply source was itself in question at that time.",
+    "outstanding_work": "Obtain WaterNSW or Council river-flow/dam-level data for the Macleay River and Steuart McIntyre Dam across the 2019-2020 drought and since, to move beyond descriptive reporting. EV-0009 (June 2019) adds that the Sherwood Borefield depends on uncontrolled upper-catchment river flow and that Steuart McIntyre Dam's usability as a supply source was itself in question at that time. RUN-0028 found a genuinely new, dated 2023 drought-response event (SRC-0048/SRC-0049, EV-0028): the main Kempsey/Lower Macleay network switched from the Sherwood Borefield to the Steuart McIntyre Dam around 25 August 2023 due to declining river flow. This is the main-network equivalent of, but distinct from, Willawarrin/Bellbrook's own supply problems - checked and ruled out a second Willawarrin/Bellbrook-specific trucked-water crisis in 2023, which traced back to a stale CMS \"page updated\" timestamp on the 2019/2020 articles (SRC-0002/SRC-0003) rather than a real event.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -108,7 +109,7 @@
       "EV-0007",
       "EV-0013"
     ],
-    "outstanding_work": "Confirm current construction/commissioning status given the passed \"early 2026\" target (see Q-0001). Obtain the blocked Kempsey Council source pages (SRC-0010, SRC-0011, SRC-0012, SRC-0021, SRC-0022, SRC-0023) via manual browser access - they are likely the most current record available. Project history now traces back to May 2022 (EV-0013, CHR-0011). SRC-0023 confirms a 20 July 2026 Council Public Forum took place; its agenda is an unpursued lead, same access gap.",
+    "outstanding_work": "Confirm current construction/commissioning status given the passed \"early 2026\" target (see Q-0001). Obtain the blocked Kempsey Council source pages (SRC-0010, SRC-0011, SRC-0012, SRC-0021, SRC-0022, SRC-0023) via manual browser access - they are likely the most current record available. Project history now traces back to May 2022 (EV-0013, CHR-0011). SRC-0023 confirms a 20 July 2026 Council Public Forum took place; its agenda is an unpursued lead, same access gap. RUN-0028 registered two more not-yet-fetchable Council PDFs bridging the project's history: a Spring 2024 project update (SRC-0050, between EV-0004's Aug 2024 tender-stage article and EV-0006's Mar 2025 sod-turning) and an October 2023 fact sheet (SRC-0051, from the earlier procurement phase). Extensive further searching this run for any 2026-dated commissioning/completion news (see THR-12/Q-0001) found nothing beyond the same March 2025 \"early 2026\" target already on record - this remains a real, unresolved information gap rather than a \"no news is good news\" inference, and most likely requires either working fetch access to the still-blocked kempsey.nsw.gov.au project pages (SRC-0010/0011/0012/0050/0051) or a manual, ordinary-browser check.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -153,7 +154,7 @@
     "name": "Current operational status",
     "status": "Not Started",
     "supporting_evidence": [],
-    "outstanding_work": "No evidence yet located about the current (2026) operational status of Willawarrin or Bellbrook's water supply. This is the key gap this investigation should close next (see Q-0001, Q-0002).",
+    "outstanding_work": "No evidence yet located about the current (2026) operational status of Willawarrin or Bellbrook's water supply. This is the key gap this investigation should close next (see Q-0001, Q-0002). RUN-0028: dedicated searching for any 2026-dated news on Willawarrin's current operational status (multiple query angles: \"commissioned 2026\", \"complete opened\", \"January 2026\", \"July 2026\", \"still trucking water 2026\") found nothing published in 2026 addressing this specifically - every result returned is the same March 2025 sod-turning coverage or older. This is now the single most search-exhausted gap in the whole investigation across several runs; closing it needs either working fetch access or a manual check of the council's own current-works page, not further search-engine queries.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },

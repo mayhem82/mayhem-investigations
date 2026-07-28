@@ -181,5 +181,15 @@
     "supporting_evidence": [
       "EV-0026"
     ]
+  },
+  {
+    "chronology_id": "CHR-0019",
+    "event_date": "2023-08-25",
+    "date_is_inference": true,
+    "event_description": "Water supply for parts of Kempsey and the Lower Macleay switches from the Sherwood Borefield to the Steuart McIntyre Dam, following continued dry weather and declining Macleay River flow - a drought-response event for the main network, distinct from the Willawarrin/Bellbrook-specific episodes.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0028"
+    ]
   }
 ]

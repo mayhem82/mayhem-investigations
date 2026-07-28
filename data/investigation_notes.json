@@ -799,5 +799,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0090",
+    "timestamp": "2026-07-29T06:15:00",
+    "activity_type": "Note",
+    "text": "RUN-0028: retried the fetch tool once (still HTTP 403, DEC-0008 unchanged), then searched Q-0001 (commissioning), Q-0003 (cost increase), Q-0005 (contractor), and THR-14 (Bellbrook infrastructure) from fresh angles. Caught and rejected a false lead: an initial WebSearch summary implied a distinct 2023 Willawarrin/Bellbrook trucked-water crisis, but two independent follow-up queries traced this to a known confound already flagged in this register - SRC-0002/SRC-0003 carry a stale \"page last updated September 2023\" CMS timestamp on their actual 2019/2020 content, and the search tool appears to have read that timestamp as the event date. Per DEC-0007's standing precedent (do not accept unverifiable/self-contradicting search summaries), this was NOT registered as a real 2023 Willawarrin/Bellbrook event. A genuinely real, separately-dated 2023 event WAS found and promoted (EV-0028): the main Kempsey/Lower Macleay network - not Willawarrin/Bellbrook - switched from borefield to dam supply on 25 August 2023 due to declining river flow. The operator specifically asked whether anything from 2026 itself had been found: despite five distinct 2026-focused search angles this run, nothing dated 2026 addressing Willawarrin's current operational/commissioning status turned up - every result is the same March 2025 coverage already on record. This is an honest \"no relevant change\" outcome for Q-0001 specifically (spec section 7), not a gap in this run's effort; THR-12 updated to reflect that further search-engine queries are unlikely to close this without working fetch access or a manual check.",
+    "related_thread": "THR-12",
+    "related_source": null,
+    "related_evidence": "EV-0028"
   }
 ]
