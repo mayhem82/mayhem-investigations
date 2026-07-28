@@ -557,7 +557,7 @@
     "preservation_status": "Not Preserved",
     "hash_status": "No Hash",
     "associated_thread": "THR-14",
-    "availability_notes": "www2.kempsey.nsw.gov.au returns HTTP 403 Forbidden to this session's fetch tool (same domain family as SRC-0010 etc.; see DEC-0008). Substantial genuinely new finding for Q-0002/THR-14 (Bellbrook-specific water infrastructure, open since RUN-0001), cross-confirmed across two independent search queries: Bellbrook's raw (ground)water supply was contaminated by heavy metals and arsenic from historic Hillgrove-area mining, and a dedicated water treatment plant with arsenic-removal capacity was constructed at Bellbrook - one search giving 2010 (attributed to this Council source) and another giving 2009 with a stated cost of approximately $700,000 (honestly recording this minor date discrepancy rather than picking one figure). This is a direct, substantive answer to what Bellbrook's own water infrastructure actually is - distinct from, and predating, the Willawarrin plant this case has focused on - and directly links the Hillgrove/Bakers Creek arsenic-antimony contamination already noted at SRC-0028 to this case's own towns specifically (SRC-0028's dispersion-train description was previously found not clearly linked to either town's own supply - this new finding shows it does affect Bellbrook, though not necessarily via the same exposure pathway RUN-0010 checked for Willawarrin)."
+    "availability_notes": "www2.kempsey.nsw.gov.au returned HTTP 403 Forbidden on first check and 'getaddrinfo ENOTFOUND' (DNS resolution failure, not a block) on a retry in RUN-0022 - possibly a retired/superseded subdomain rather than an active but blocked one; see DEC-0008 for the general session-level outage this is consistent with either way. Substantial genuinely new finding for Q-0002/THR-14 (Bellbrook-specific water infrastructure, open since RUN-0001), cross-confirmed across two independent search queries: Bellbrook's raw (ground)water supply was contaminated by heavy metals and arsenic from historic Hillgrove-area mining, and a dedicated water treatment plant with arsenic-removal capacity was constructed at Bellbrook - one search giving 2010 (attributed to this Council source) and another giving 2009 with a stated cost of approximately $700,000 (honestly recording this minor date discrepancy rather than picking one figure). This is a direct, substantive answer to what Bellbrook's own water infrastructure actually is - distinct from, and predating, the Willawarrin plant this case has focused on - and directly links the Hillgrove/Bakers Creek arsenic-antimony contamination already noted at SRC-0028 to this case's own towns specifically (SRC-0028's dispersion-train description was previously found not clearly linked to either town's own supply - this new finding shows it does affect Bellbrook, though not necessarily via the same exposure pathway RUN-0010 checked for Willawarrin)."
   },
   {
     "source_id": "SRC-0041",
@@ -572,5 +572,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-14",
     "availability_notes": "macleayargus.com.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Independent media corroboration referenced alongside SRC-0040 for the Bellbrook arsenic-treatment-plant finding; specific content not separately confirmed beyond the search-engine summary that attributed the '2009, approximately $700,000' figures to this or a similar article."
+  },
+  {
+    "source_id": "SRC-0042",
+    "authority": "Kempsey Shire Council",
+    "title": "Drinking Water Management System Annual Report, July 2020-June 2021",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-14",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Confirmed to exist and to cover all eight Kempsey Shire water supply systems including Willawarrin, Bellbrook, and the Thunggutti Aboriginal Community. A single search's summary asserted that 'no customer enquiries were recorded at Thunggutti' during this reporting period, but a follow-up search did not reproduce this specific detail (only confirming the document's existence and general scope) - per this investigation's standard for single-sourced, unreproduced claims, not asserting the 'no complaints' detail as confirmed. Registered as a known, relevant, but unconfirmed and fetch-blocked source for a future session to check directly."
   }
 ]

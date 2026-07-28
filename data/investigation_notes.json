@@ -628,5 +628,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0071",
+    "timestamp": "2026-07-29T01:40:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0022). Retried the fetch tool against SRC-0040's URL - this time got a DNS resolution failure ('getaddrinfo ENOTFOUND') rather than the usual HTTP 403, suggesting this particular subdomain may be retired/superseded rather than actively blocked; noted on SRC-0040 for a future session's benefit. Continued on Thunggutti's own current water-security status, the angle RUN-0021 was exploring when it found the Bellbrook arsenic plant.",
+    "related_thread": "THR-14",
+    "related_source": "SRC-0040",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0072",
+    "timestamp": "2026-07-29T01:44:00",
+    "activity_type": "Finding",
+    "text": "One search's summary stated that NSW DPI inspects Aboriginal-community water supplies at least yearly, and that Kempsey Shire Council's Drinking Water Management System Annual Report (July 2020-June 2021) recorded no customer enquiries at Thunggutti during that period. A follow-up search confirmed the report's existence and its coverage of all eight supply systems (including Thunggutti) but did not reproduce the specific 'no customer enquiries' detail. Per this investigation's standard for single-sourced, unreproduced claims, not treating that specific detail as confirmed - but the report itself is a real, relevant, previously-unregistered source. Registered as SRC-0042 (fetch-blocked, DEC-0008) for a future session to check directly, without asserting the unconfirmed claim.",
+    "related_thread": "THR-14",
+    "related_source": "SRC-0042",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0073",
+    "timestamp": "2026-07-29T01:47:00",
+    "activity_type": "Note",
+    "text": "RUN-0022 wrapping up: SRC-0042 added, SRC-0040 annotated with the DNS-failure observation, SRCH-0063/SRCH-0064 logged. No Evidence Register, Chronology, or Open Question status changes - the specific Thunggutti 'no complaints' claim was correctly not promoted since it wasn't independently reproduced. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

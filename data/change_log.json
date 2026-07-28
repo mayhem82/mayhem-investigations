@@ -425,5 +425,19 @@
     ],
     "reason": "RUN-0021, continuing evidence collection at the operator's request. Found a substantial, previously-unknown fact directly answering Q-0002: Bellbrook has its own dedicated arsenic-removal water treatment plant (built ~2009-2010, ~$700,000), addressing groundwater arsenic contamination from historic Hillgrove-area mining. Registered as SRC-0040/SRC-0041 (fetch-blocked, DEC-0008); THR-14 and Q-0002 updated substantially - this question is now answered in substance pending formal primary-source confirmation.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0027",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0022, continuing evidence collection at the operator's request on Thunggutti's own water-security status. Registered SRC-0042 (a real, relevant, previously-unregistered council report), while declining to assert a single-sourced, unreproduced claim about it as confirmed. No Evidence Register, Chronology, or Open Question changes.",
+    "validation_completed": true
   }
 ]
