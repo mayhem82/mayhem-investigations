@@ -429,6 +429,24 @@ details.record[open] > summary::after {
   padding: 0.15rem 0.4rem;
 }
 
+.tag-chip-link {
+  font: inherit;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  border: none;
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.tag-chip-link:hover {
+  filter: brightness(1.15);
+}
+
+.tag-chip-link:focus-visible {
+  outline: 2px solid var(--focus);
+}
+
 /* Footer */
 
 .app-footer {

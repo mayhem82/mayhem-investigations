@@ -31,7 +31,7 @@ repository concretely satisfies it.
   visibility is actually public, and vice versa.
 - `verification_state` is a required field on every evidence item
   (`docs/DATA_MODEL.md`) and is always rendered as a visible badge on every
-  Evidence Register card in the workspace (`site/app.js`,
+  Evidence Register card in the workspace (`app.js`,
   `renderEvidence`) — it is never hidden or summarized away.
 - The workspace only ever renders the literal field values recorded
   (`classification`, `verification_state`, `status`) as badges. It never
@@ -63,7 +63,7 @@ repository concretely satisfies it.
   architecture is intentionally single-case. Should the operator authorize
   a genuinely new investigation, the correct approach is a **new,
   independent repository** built the same way as this one (its own
-  `data/`, `docs/`, `scripts/`, `site/`, its own `case.json` with a new
+  `data/`, `docs/`, `scripts/`, `app.js`/`index.html`/`style.css`, its own `case.json` with a new
   `case_identifier`), not a second case folder inside this repository —
   that is what "cases remain completely isolated" requires, and it avoids
   any risk of the two investigations' evidence, chronology, or automation
@@ -139,7 +139,7 @@ concurrent cases today.
 
 The underlying pattern *is* built to scale, though: each register is
 scoped to a single `case_id` and validated against exactly one
-`case.json`, so the same `data/` + `scripts/` + `site/` layout could be
+`case.json`, so the same `data/` + `scripts/` + workspace layout could be
 instantiated once per investigation. If the operator ever authorizes
 "multiple concurrent investigations" or "multi-jurisdiction repositories,"
 the correct approach is one independent repository per case (see section
