@@ -502,5 +502,65 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 8,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0043",
+    "search_terms": "Willawarrin NSW population profile id.com.au OR community profile Kempsey Shire",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0044",
+    "search_terms": "Willawarrin population 2016 census 2011 census historical trend",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0045",
+    "search_terms": "tenders.nsw.gov.au Steuart McIntyre Dam water treatment plant contractor awarded 2025",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0046",
+    "search_terms": "Kempsey Shire Council Willawarrin water treatment plant August 2026 update",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0047",
+    "search_terms": "Bellbrook NSW water treatment upgrade 2026 Kempsey Shire Council announcement",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-28",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 2
   }
 ]

@@ -432,5 +432,47 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-15",
     "availability_notes": "legislation.nsw.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). Search-engine snippet states NSW ordinary council elections are held on 'the second Saturday in September every four years' per the Local Government Act 1993/Local Government (General) Regulation 2021, and separately confirms the NSW Electoral Commission's next such election is scheduled for Saturday 9 September 2028. This statutory rule, combined with independently computed calendar facts (not search-dependent - see NOTE referencing this source), gives a decisive, non-search basis for resolving Q-0006 once a real primary citation can be preserved: 14 September 2024 was both a Saturday and the second Saturday of that September, while 9 September 2024 was a Monday and not a Saturday at all."
+  },
+  {
+    "source_id": "SRC-0032",
+    "authority": ".id (informed decisions), for Kempsey Shire Council",
+    "title": "Kempsey Shire Community Profile - Willawarrin locality snapshot",
+    "type": "Government Record",
+    "url_or_file_location": "https://profile.id.com.au/kempsey/locality-snapshots",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "profile.id.com.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). A second, independent demographic-data provider (commissioned by Kempsey Shire Council itself, distinct from ABS's own QuickStats page) states Willawarrin's population as 'around 183 residents' - corroborating SRC-0030's ABS 2021 Census figure. A related search also surfaced the ABS historical series for Willawarrin: 304 (2011 Census) -> 191 (2016 Census) -> 183 (2021 Census), a consistent declining trend that further supports 180-190 as the accurate range and 130 (EV-0005) as the likely outlier in CTR-0001. Still not promoted to evidence or used to close CTR-0001, since nothing could be fetched or preserved this session."
+  },
+  {
+    "source_id": "SRC-0033",
+    "authority": "Kempsey Shire Council",
+    "title": "Water update 2024",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Residents/Water-sewerage/Water-supply-quality/Water-update-2024",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "Same kempsey.nsw.gov.au HTTP 403 access gap as SRC-0010/0011/0012/0021/0022/0023. A dated 2024 water-supply-quality update page not previously registered - a plausible candidate for current status on Q-0001/Q-0002, flagged for manual browser retrieval in a future run."
+  },
+  {
+    "source_id": "SRC-0034",
+    "authority": "Kempsey Shire Council",
+    "title": "Kempsey Year in Review 2023-24",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-year-in-review-2023-24.pdf",
+    "first_checked": "2026-07-28",
+    "last_checked": "2026-07-28",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "Same kempsey.nsw.gov.au HTTP 403 access gap as SRC-0010/0011/0012/0021/0022/0023/0033. A Water and Sewer department annual-review PDF not previously registered - could contain a 2023-24 status summary touching Q-0001, Q-0002, or Q-0003; flagged for manual browser retrieval in a future run."
   }
 ]

@@ -281,5 +281,19 @@
     ],
     "reason": "RUN-0011, continuing evidence collection at the operator's request. Used pure calendar computation (no external fetch required) plus a statutory citation (SRC-0031, fetch-blocked) to build the strongest available non-primary-source case for Q-0006: 9 September 2024 was a Monday, while 14 September 2024 was specifically the second Saturday of that September, matching the Local Government Act's 'second Saturday in September' requirement exactly. Q-0006 strengthened but not closed - still requires a preserved primary citation.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0017",
+    "date": "2026-07-28",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/investigation_notes.json",
+      "data/source_register.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0012, continuing evidence collection at the operator's request, following a parallel RUN-0011 that landed on main mid-session. Redirected focus from Q-0006 (already twice attended to) to CTR-0001: found a second independent source (SRC-0032, Kempsey Shire's own commissioned demographic profile) corroborating SRC-0030's ABS population figure, plus the ABS historical census series supporting 180-190 as the accurate range over 130. Registered two new, previously-unseen kempsey.nsw.gov.au candidate pages (SRC-0033, SRC-0034) for Q-0002, both fetch-blocked. No evidence, chronology, or open-question/contradiction status changes.",
+    "validation_completed": true
   }
 ]

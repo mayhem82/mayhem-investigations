@@ -376,5 +376,41 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0043",
+    "timestamp": "2026-07-28T21:00:00",
+    "activity_type": "Note",
+    "text": "Operator asked to continue (RUN-0012). Reviewed the parallel RUN-0011 that landed on main since this session's last push - it built a strong non-primary-source case for Q-0006 but, consistent with DEC-0008, didn't close it. Since Q-0006 has now had two full runs of attention, redirecting this run's focus to CTR-0001 (the population contradiction), which RUN-0010 found ABS backing for but didn't close. Retried the fetch tool once first - still HTTP 403, DEC-0008 unchanged.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0044",
+    "timestamp": "2026-07-28T21:05:00",
+    "activity_type": "Finding",
+    "text": "Found a second, independent source for CTR-0001: Kempsey Shire Council's own commissioned demographic profile (profile.id.com.au, a different provider from ABS's QuickStats) states Willawarrin's population as 'around 183 residents', matching SRC-0030's ABS figure. Also found the ABS historical series: 304 (2011) -> 191 (2016) -> 183 (2021) - a steady decline that further corroborates 180-190 as the accurate range, making EV-0005's 130 figure look like the likely error. Registered as SRC-0032. Still not closing CTR-0001 or adding evidence, since nothing could be fetched or preserved this session (DEC-0008) - but this is now two independent sources agreeing, a stronger basis than RUN-0010 had alone.",
+    "related_thread": null,
+    "related_source": "SRC-0032",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0045",
+    "timestamp": "2026-07-28T21:12:00",
+    "activity_type": "Note",
+    "text": "Re-checked Q-0005 (dam contractor) and Q-0001 (commissioning status) - both reproduced only already-registered facts (LC Eire as contractor per RUN-0005, the 'early 2026' target, March 2025 construction start). Q-0002 (Bellbrook) search surfaced two kempsey.nsw.gov.au pages not previously registered - a 'Water update 2024' page and a 'Kempsey Year in Review 2023-24' PDF - both plausible candidates for current status but, like every kempsey.nsw.gov.au URL this investigation has tried, blocked to this session's fetch tool. Registered as SRC-0033/SRC-0034 for a future run with manual browser access.",
+    "related_thread": null,
+    "related_source": "SRC-0034",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0046",
+    "timestamp": "2026-07-28T21:15:00",
+    "activity_type": "Note",
+    "text": "RUN-0012 wrapping up: SRC-0032 (strengthens CTR-0001's case to two independent sources), SRC-0033, and SRC-0034 added; SRCH-0043 through SRCH-0047 logged. No Evidence Register, Chronology, Open Question, or Contradiction status changes - Q-0001, Q-0002, Q-0003, Q-0005, Q-0006, and CTR-0001 all remain open. Validating and committing now.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

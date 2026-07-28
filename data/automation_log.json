@@ -147,5 +147,18 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "Continued evidence collection at the operator's request, reviewing the parallel RUN-0010 that landed since this session's last push before starting new work. Took a different approach: rather than more search on already-covered ground, computed directly (no external source needed) that 9 September 2024 was a Monday and 14 September 2024 was a Saturday, then found via search that NSW ordinary council elections are legally required to fall on 'the second Saturday in September' - and confirmed by counting Saturdays in September 2024 (7th/14th/21st/28th) that the 14th specifically matches that rule. Registered SRC-0031 (the statute, fetch-blocked) and strengthened Q-0006 with this reasoning. Not closing Q-0006 - a real preserved primary citation is still required and remains blocked (DEC-0008) - but this is the strongest non-primary-source case buildable right now."
+  },
+  {
+    "run_id": "RUN-0012",
+    "date": "2026-07-28",
+    "sources_checked": [
+      "SRC-0030",
+      "SRC-0032",
+      "SRC-0033",
+      "SRC-0034"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "RUN-0012, continuing evidence collection at the operator's request. Reviewed the parallel RUN-0011 that landed on main since this session's last push (a strong non-primary-source case for Q-0006, not closed per DEC-0008). Retried the fetch tool - still HTTP 403. Redirected focus to CTR-0001: found a second independent source (profile.id.com.au, Kempsey Shire's own community-profile provider) corroborating SRC-0030's ABS population figure (183), plus the ABS historical series (304 in 2011, 191 in 2016, 183 in 2021) supporting 180-190 as the accurate range over EV-0005's 130. Registered as SRC-0032. Re-checked Q-0005 and Q-0001 (no new facts); Q-0002 search surfaced two new, unregistered kempsey.nsw.gov.au candidate pages (SRC-0033, SRC-0034), both fetch-blocked. No evidence, chronology, or open-question/contradiction changes."
   }
 ]
