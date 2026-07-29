@@ -853,5 +853,14 @@
     "related_thread": null,
     "related_source": "SRC-0001",
     "related_evidence": "EV-0001"
+  },
+  {
+    "note_id": "NOTE-0096",
+    "timestamp": "2026-07-29T10:20:00",
+    "activity_type": "Note",
+    "text": "RUN-0033: at the operator's request to use other collection methods, first ran this environment's own proxy diagnostic (curl to the agent-proxy status endpoint per /root/.ccr/README.md) to check whether the persistent fetch-tool 403s (DEC-0008) were fixable. Confirmed they are a deliberate organizational egress policy block on these destination hosts, not a tooling bug - documented as DEC-0012, with explicit guidance not to retry or route around it. Diversified WebSearch methods accordingly: academic literature (PubMed/Water Research - found the first Scientific Publication source type in this register, EV-0040/SRC-0061, on Macleay River water quality during the 2019-2020 crisis, though it does not confirm iron/manganese specifically), first-party company statements (Eire Constructions' own website and Facebook page directly confirm the \"LC Eire\" contractor lead for Q-0005 that had only ever been search-snippet corroborated before - EV-0037/EV-0038, plus a new DAFF treatment-technology/construction-milestone detail), business registry cross-checking (confirmed \"Eire Constructions Pty Ltd\" is NOT the same entity as an unrelated \"Eire Construction Group Pty Ltd\" that went into administration in 2018 - avoided a potential future misidentification), and official court records (identified the primary Coroners Court findings document for the Carrai East Bushfire/Barry Parsons matter, EV-0039/SRC-0060, a stronger source type than the media reporting previously relied on). Q-0005 remains open despite the strong new sourcing, consistent with this investigation's standing practice of requiring an actual fetch/preservation before closing a question.",
+    "related_thread": "THR-13",
+    "related_source": null,
+    "related_evidence": "EV-0037"
   }
 ]

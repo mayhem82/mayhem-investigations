@@ -938,5 +938,103 @@
       "CTR-0001"
     ],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0037",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "Eire Constructions Pty Ltd",
+    "source_title": "Water Network (company project page); Facebook announcement",
+    "source_type": "Public Statement",
+    "source_location": "https://eirecon.com.au/water-network/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of eirecon.com.au and facebook.com is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012), not attempted. No file preserved or hashed.",
+    "evidence_description": "A first-party public statement, from one of the two named joint-venture partners itself (Eire Constructions, via its own website and Facebook page - SRC-0058/SRC-0059), confirms: \"the contract for the design and construction has been awarded to LC Eire, a partnership between LC Water and Eire Constructions.\" This corroborates, from the contractor's own mouth rather than third-party media interpretation, the \"LC Eire\" lead first found via two independent search-engine snippets in RUN-0005 (SRC-0025/SRC-0026) but never previously confirmed against a primary source.",
+    "relevant_quotation": "the contract for the design and construction has been awarded to LC Eire, a partnership between LC Water and Eire Constructions",
+    "investigation_relevance": "The strongest evidence yet found for Q-0005's contractor-identity component: a first-party announcement from the contractor itself, not media reporting. Q-0005 is NOT closed on this basis alone, consistent with this investigation's standing practice of requiring an actually fetched/preserved primary source before closing a question (see Q-0006/CTR-0001 precedent) - this remains \"Requires Verification\" pending direct access to eirecon.com.au or facebook.com/eirecon.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0005"
+    ]
+  },
+  {
+    "evidence_id": "EV-0038",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "Eire Constructions Pty Ltd",
+    "source_title": "Water Network (company project page)",
+    "source_type": "Public Statement",
+    "source_location": "https://eirecon.com.au/water-network/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of eirecon.com.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "The contractor's own project page reports \"a significant milestone... with the successful completion of the pour of external Dissolved Air Flotation and Filtration (DAFF) water treatment tank walls\" for the Steuart McIntyre Dam/Sherwood Borefield plant - identifying, for the first time in this register, the specific treatment technology (DAFF) and confirming a concrete physical construction milestone reached.",
+    "relevant_quotation": "the successful completion of the pour of external Dissolved Air Flotation and Filtration (DAFF) water treatment tank walls",
+    "investigation_relevance": "Directly advances THR-09 (Construction) with a specific, dated-in-substance (if not in exact calendar date) physical progress milestone from the contractor itself, corroborating EV-0029's \"Under construction\" status as of August 2025 with concrete detail of what stage construction has reached.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0029"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0039",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2024-03-27",
+    "source_authority": "Coroners Court of New South Wales",
+    "source_title": "2019-20 NSW Bushfires Coronial Inquiry, Volume 1 (Findings and Recommendations)",
+    "source_type": "Court Decision",
+    "source_location": "https://coroners.nsw.gov.au/documents/findings/2024/2019-20-NSW-Bushfires-Coronial-Inquiry-Vol1.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of coroners.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "The official coronial inquiry (a Court Decision, a stronger source type than the media reporting already at SRC-0039/EV-0021) reportedly found the Carrai East Bushfire started around 16 October 2019, likely from a lightning strike, and burnt a total of 238,601 hectares, damaging or destroying at least 90 homes and a further 250 outbuildings. Findings and recommendations for the whole 2019-20 NSW Bushfires Coronial Inquiry (covering multiple fires, not just Carrai East) were delivered 27 March 2024.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Adds an official, authoritative primary-legal-record source for the bushfire behind THR-01's chronology gap (CHR-0014/CHR-0015), with specific new facts (ignition cause and date, total area burnt, structures lost) not previously in this register; recorded factually, consistent with this investigation's no-allegation-framing standard for material connected to a death under coronial investigation.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0020",
+      "EV-0021"
+    ],
+    "chronology_links": [
+      "CHR-0014",
+      "CHR-0015"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0040",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2022",
+    "source_authority": "Southern Cross University (Johnston, S.G. et al.)",
+    "source_title": "Drought, megafires and flood - climate extreme impacts on catchment-scale river water quality on Australia's east coast",
+    "source_type": "Scientific Publication",
+    "source_location": "https://pubmed.ncbi.nlm.nih.gov/35489146/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of pubmed.ncbi.nlm.nih.gov/sciencedirect.com is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "A peer-reviewed academic paper (Water Research journal, 2022), the first Scientific Publication source type in this register, presents flow-stratified water quality data from the Macleay River spanning the same severe drought, extensive fires, and subsequent flooding this case's 2019-2020 episode concerns. Multiple water quality constituents (suspended sediment, phosphate, nitrate, dissolved organic carbon, and several major ions) were found highly elevated - by factors from roughly 1.6x up to over 10,000x - during the initial post-fire period. Iron and manganese concentrations specifically are NOT confirmed by any search-engine snippet found despite repeated attempts, and are not claimed as covered by this source.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Independent, peer-reviewed academic corroboration that the Macleay catchment experienced a genuine, scientifically-documented water-quality crisis during the 2019-2020 drought/fire/flood period (THR-05), from a source type (Scientific Publication) not previously used in this register - though it does not itself confirm the iron/manganese figures this case centres on, so should not be over-claimed as doing so.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]

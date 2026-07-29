@@ -126,5 +126,13 @@
     ],
     "investigator": "mayhem82",
     "impact": "document_hash corrected on all nine affected entries to the actual, independently-verified SHA-256 of their preserved files (the files themselves were not altered - only the hash field, which was simply wrong, was fixed to match reality). classification and verification_state left unchanged since the underlying preserved files appear genuine and unaltered; this was a recording error, not a fabricated or substituted source. Establishes a standing operating rule: any future document_hash entered into this register must be the literal output of a hashing tool (scripts/hash-file.js or equivalent) run against the exact preserved file, never typed or estimated, and this session commits to spot-checking hash integrity periodically going forward given this discovery."
+  },
+  {
+    "decision_id": "DEC-0012",
+    "date": "2026-07-29",
+    "reason": "At the operator's suggestion to \"use other methods\" for evidence collection, this session ran the environment's own proxy diagnostic (curl to the agent-proxy status endpoint, per /root/.ccr/README.md) to check whether the persistent HTTP 403 responses recorded since RUN-0005 (DEC-0008) were a fixable tooling problem. The diagnostic and its documentation confirmed these are 403/407 responses from an organizational egress policy that deliberately does not allow this session to reach the destination hosts (government/council/media domains) - explicitly NOT a certificate, proxy-configuration, or client-bug problem, and the documented guidance is \"do not retry or route around it - report the blocked host.\"",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Confirms DEC-0008 was correctly diagnosed as a session-level constraint, now with a specific known cause (deliberate egress policy, not a bug) rather than an unexplained tooling failure. No further attempts will be made to find workarounds around this specific block (e.g., alternate protocols, retries, header variations) - consistent with both this investigation's own DEC-0006 precedent (no deliberate evasion of access controls) and the proxy's explicit operating instructions. This session instead diversified its WebSearch-based methods this run (academic literature via PubMed, first-party company statements, official court records, business registries) rather than re-attempting fetches."
   }
 ]
