@@ -486,5 +486,18 @@
       "EV-0045"
     ],
     "notes": "Deep-research pass on Q-0002/Bellbrook at the operator's request. Re-checked the ACWSP completed-projects claim (SRC-0027) with a more specific query - did not reproduce the Bellbrook mention, reinforcing existing caution rather than resolving it. Major new find: a historical-summary source reports Bellbrook's water supply was arsenic-contaminated from 2005, requiring water to be trucked into the town in 2008 - a previously unknown, much earlier crisis than the case's well-documented 2019-2020 episode, and a THIRD documented Bellbrook trucked-water episode overall if confirmed. Cross-confirmed across three search queries but all trace to one source; no independent contemporaneous corroboration found despite a dedicated attempt. Recorded at \"Requires Verification\" - flagged as this run's priority open lead for a future session."
+  },
+  {
+    "run_id": "RUN-0038",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0069",
+      "SRC-0070"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0046"
+    ],
+    "notes": "Attempted to independently corroborate RUN-0037's 2008 Bellbrook trucked-water finding (EV-0044). Found a genuine split: the 2005-2007 arsenic-detection portion is now independently corroborated by a Council source (EV-0046), but the more significant 2008 trucked-water claim itself remains single-sourced despite three dedicated search attempts this run. Identified Trove/OldNews.com (Macleay Argus archives back to 1885) as the concrete next step, though general web search cannot query into their individual archived pages - needs a future run with fetch access or a manual researcher."
   }
 ]

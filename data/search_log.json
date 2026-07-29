@@ -1654,5 +1654,41 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 10,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0139",
+    "search_terms": "Trove Bellbrook water arsenic 2008 Kempsey Macleay newspaper archive",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0140",
+    "search_terms": "oldnews.com Macleay Argus 2008 Bellbrook water trucked arsenic",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0141",
+    "search_terms": "Bellbrook NSW 2008 drought water carting emergency supply arsenic unsafe",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
   }
 ]

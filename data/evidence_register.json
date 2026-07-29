@@ -1167,5 +1167,34 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0046",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Heavy metals in the Upper Macleay River",
+    "source_type": "Council Record",
+    "source_location": "https://www2.kempsey.nsw.gov.au/environment/estuary-management/upper-macleay.html",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of www2.kempsey.nsw.gov.au is blocked/unresolvable this session (DEC-0008/DEC-0012, and a DNS resolution failure noted at SRC-0040). No file preserved or hashed.",
+    "evidence_description": "A fresh search of the same Council source already registered as SRC-0040 reproduced, in near-identical wording, EV-0043's claim: \"In 2005 to 2007, intensive metals analysis were undertaken following elevated levels of arsenic found in the drinking water at Bellbrook... the arsenic levels were associated with the groundwater and not the river surface water.\" This is a genuine, independent (government authority, not the historical-summary site EV-0043 was drawn from) corroboration of that specific 2005-2007 detection timeline. The same search gave a third data point for the treatment plant's construction year - \"2010\" - alongside the \"2009\" (EV-0044/historicalencounters.org) and the original \"2009-2010, sources differ\" already recorded at CHR-0016; this minor date uncertainty is recorded honestly rather than resolved. This search did NOT reproduce EV-0044's specific claim that water was trucked into Bellbrook in 2008 - that detail remains corroborated only by the single historicalencounters.org source.",
+    "relevant_quotation": "In 2005 to 2007, intensive metals analysis were undertaken following elevated levels of arsenic found in the drinking water at Bellbrook",
+    "investigation_relevance": "Strengthens EV-0043's 2005-2007 Bellbrook arsenic-detection timeline via independent government-source corroboration, while leaving EV-0044's more significant 2008 trucked-water claim still single-sourced - an important, honest distinction between the two related claims from RUN-0037, not a blanket confirmation of the whole 2005-2008-2009 narrative.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0022",
+      "EV-0043",
+      "EV-0044"
+    ],
+    "chronology_links": [
+      "CHR-0016",
+      "CHR-0027"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]

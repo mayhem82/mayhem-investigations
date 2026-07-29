@@ -889,5 +889,14 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": "EV-0044"
+  },
+  {
+    "note_id": "NOTE-0100",
+    "timestamp": "2026-07-29T12:50:00",
+    "activity_type": "Note",
+    "text": "RUN-0038: tried to independently corroborate RUN-0037's significant but single-sourced 2008 Bellbrook trucked-water finding (EV-0044). Result is a genuine split: the earlier part of the story (2005-2007 arsenic detection) IS now independently corroborated - a Kempsey Shire Council source (SRC-0040) reproduces it in near-identical wording to the historical-summary site, recorded as EV-0046 - but the specific, more significant 2008 trucked-water claim itself was not reproduced by this Council source or by any other search this run. Identified Trove and OldNews.com as the concrete next step (both archive The Macleay Argus back to 1885) but general web search cannot query into individual scanned newspaper pages on those sites - this needs a future run's or a manual researcher's direct site search. Being precise about which specific claim is/isn't corroborated, rather than treating RUN-0037's finding as a single confirmed-or-not block.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": "EV-0046"
   }
 ]
