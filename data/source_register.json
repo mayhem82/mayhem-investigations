@@ -6,12 +6,12 @@
     "type": "Government Record",
     "url_or_file_location": "https://archive.kempsey.nsw.gov.au/media-releases/2020/mr20200622a.html",
     "first_checked": "2026-07-28",
-    "last_checked": "2026-07-28",
+    "last_checked": "2026-07-29",
     "current_version": "Archived council media release, dated 22 June 2020",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
     "associated_thread": "THR-02",
-    "availability_notes": "Hosted on Council's public archive subdomain (archive.kempsey.nsw.gov.au), which is accessible to automated fetches, unlike the current kempsey.nsw.gov.au site (see SRC-0010/0011/0012)."
+    "availability_notes": "Hosted on Council's public archive subdomain (archive.kempsey.nsw.gov.au), which is accessible to automated fetches, unlike the current kempsey.nsw.gov.au site (see SRC-0010/0011/0012). UPDATE (2026-07-29): the operator attempted to load this URL directly and received HTTP 404 - the archive.kempsey.nsw.gov.au subdomain no longer serves this page (link rot / archive reorganisation since this source was first preserved on 2026-07-28), or the specific path has changed. The already-preserved local copy (preserved/EV-0002-kempsey-council-media-release-2020-06-22.html, now correctly hashed per DEC-0011) remains the evidentiary basis for EV-0002/EV-0003, unaffected by the live URL going dark; source_location is left as the original URL for record-keeping (the URL that WAS fetched), but is no longer expected to resolve."
   },
   {
     "source_id": "SRC-0002",

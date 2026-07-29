@@ -416,5 +416,15 @@
       "EV-0036"
     ],
     "notes": "The operator directly supplied the full text of SRC-0042 (previously registered but fetch-blocked, Not Preserved), retrieved by the operator outside this session's blocked fetch tool (DEC-0008). Preserved and hashed the material portions, and promoted six Verified/Complete Evidence entries: actual Willawarrin manganese concentration data (EV-0031, closing THR-03/THR-04's core gap since RUN-0001), an exact date for Bellbrook's plant outage start (EV-0032), two further discrete 2020-21 water-quality incidents and two intermittent carting periods at both towns beyond the main 2019-2020 crisis (EV-0033/EV-0034), a multi-year exceedance-trend comparison showing Willawarrin as Council's only worsening supply system (EV-0035), and a complicating population data point for CTR-0001 (EV-0036). Added 5 new Chronology entries. Updated SRC-0042 to Preserved/Hashed. No question or contradiction closed this run. CORRECTION (same run, before merge): the source text was clarified by the operator to be a ChatGPT text-extraction (to DOCX) of the PDF, not a direct read of the original - ChatGPT's own caveat warns tables/formatting/scanned layouts may not exactly match. All six evidence entries downgraded to classification \"Partial\"/verification_state \"Requires Verification\", SRC-0042 downgraded to \"Partially Preserved\", and this correction recorded as DEC-0010."
+  },
+  {
+    "run_id": "RUN-0032",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0001"
+    ],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Not an evidence-collection run. The operator reported that SRC-0001's live URL (archive.kempsey.nsw.gov.au) now returns HTTP 404; updated the Source Register accordingly. While investigating, audited document_hash integrity across the entire Evidence Register by independently computing SHA-256 over every preserved file and comparing to the recorded hash - found and corrected 9 mismatched hashes from RUN-0001/RUN-0002 (EV-0001, EV-0002, EV-0003, EV-0004, EV-0007, EV-0008, EV-0009, EV-0011, EV-0012), none of which had ever matched their file (confirmed via git history - the files were never modified after their single original commit, so the hash was wrong from the start, not corrupted later). Recorded as DEC-0011. No new evidence collected; no question or contradiction affected."
   }
 ]
