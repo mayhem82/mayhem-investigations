@@ -458,5 +458,19 @@
       "EV-0041"
     ],
     "notes": "At the operator's request to work on investigation threads: pursued THR-06 (Extraction decisions/bore-vs-pipeline rationale) with no relevant change found - remains a genuine gap needing an un-indexed council document. Found a substantial new event for THR-05 (River conditions): a previously unregistered Moderate to Major flood warning around 21-22 May 2025, with Bellbrook's own gauge reaching major flood level, sitting within the Steuart McIntyre Dam plant's construction window. Flagged (not confirmed) as a plausible factor in that project's completion-date discrepancy noted at EV-0029."
+  },
+  {
+    "run_id": "RUN-0036",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0065",
+      "SRC-0066",
+      "SRC-0067"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0042"
+    ],
+    "notes": "Given DEC-0012 confirmed the fetch block is deliberate policy, stopped the routine per-run retry and searched directly with fresh angles for Q-0001 (council business papers, operational/budget plans, a population forecast site referenced in SRC-0042's bibliography). Confirmed a genuine, recent Council meeting on 16 June 2026 exists and the FY2025-26 Operational Plan still lists the Willawarrin plant as active (EV-0042), but could not extract specific 2026 meeting content on plant status. Narrows Q-0001's gap to one identified document rather than a general absence."
   }
 ]

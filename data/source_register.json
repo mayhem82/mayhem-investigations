@@ -894,5 +894,47 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-05",
     "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012 confirmed organizational egress policy block). A genuinely new, previously unregistered event for this case: the Bureau of Meteorology issued a Moderate to Major Flood Warning for the Macleay River (Georges Creek, Bellbrook, Kempsey, Smithtown) around 21-22 May 2025. Council issued at least 24 numbered flood updates across the event. Bellbrook's own river gauge reached 10.55m (11:12am 22 May 2025) against a minor flood level of 6.50m - a major flood by Bellbrook's own classification. Kempsey CBD flooded after the Broughton Street and Eden Street levees overtopped; several Lower Macleay towns (Crescent Head, Hat Head, South West Rocks, Smithtown, Gladstone, Kinchela) were isolated by road closures. A separate, apparently milder Minor-to-Moderate flood warning was also issued in March 2025 (around 21 March, days before the 24 March 2025 Steuart McIntyre Dam sod-turning, EV-0006) - not registered as a distinct evidence item given more limited/less clearly-dated snippet detail, but flagged here for a future run."
+  },
+  {
+    "source_id": "SRC-0065",
+    "authority": "Kempsey Shire Council",
+    "title": "Operational Plan 2025/26",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; covers FY2025-26 per filename/search-engine snippet",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012 confirmed organizational egress policy). Council's own formal FY2025-26 Operational Plan lists \"construction of the new Willawarrin Water Treatment Plant\" as a named key project for that financial year (per search-engine snippet) - consistent with, and an official planning-document-level corroboration of, the project still being active/unfinished through at least mid-2025 (aligning with EV-0029's \"Under construction\" status as of 31 August 2025)."
+  },
+  {
+    "source_id": "SRC-0066",
+    "authority": "Kempsey Shire Council",
+    "title": "Ordinary Council Meeting - 16 June 2026 (agenda/minutes)",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-16-June-2026",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; meeting confirmed to have occurred 9:00am Tuesday 16 June 2026 at Council Chambers, Civic Centre, per search-engine snippet",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012). Confirms Council held an ordinary meeting as recently as 16 June 2026 - well within this investigation's active window - where the 2026-27 budget and rates were adopted, per a companion \"June 2026 Council Meeting Wrap\" page. No specific Willawarrin-plant agenda item content could be extracted from any search-engine snippet despite repeated, differently-worded attempts this run; this remains the single most search-exhausted gap in the whole investigation (Q-0001/THR-12) and needs a direct fetch of this specific business paper, not further search queries."
+  },
+  {
+    "source_id": "SRC-0067",
+    "authority": "Kempsey Shire Council",
+    "title": "Community Meeting - Willawarrin Water Treatment Plant (16 March 2023)",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Valley/Festivals-events/20230316-Willawarrin-Water-Treatment-Plant-Meeting",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; event dated 16 March 2023 per URL slug",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012). A previously unregistered Council community-consultation event specific to the Willawarrin plant, held 16 March 2023 - roughly 17 months before EV-0004's Aug 2024 tender-stage article, so likely an early design/consultation-phase meeting. No content extracted beyond the event's existence and date."
   }
 ]
