@@ -472,5 +472,19 @@
       "EV-0042"
     ],
     "notes": "Given DEC-0012 confirmed the fetch block is deliberate policy, stopped the routine per-run retry and searched directly with fresh angles for Q-0001 (council business papers, operational/budget plans, a population forecast site referenced in SRC-0042's bibliography). Confirmed a genuine, recent Council meeting on 16 June 2026 exists and the FY2025-26 Operational Plan still lists the Willawarrin plant as active (EV-0042), but could not extract specific 2026 meeting content on plant status. Narrows Q-0001's gap to one identified document rather than a general absence."
+  },
+  {
+    "run_id": "RUN-0037",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0068"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0043",
+      "EV-0044",
+      "EV-0045"
+    ],
+    "notes": "Deep-research pass on Q-0002/Bellbrook at the operator's request. Re-checked the ACWSP completed-projects claim (SRC-0027) with a more specific query - did not reproduce the Bellbrook mention, reinforcing existing caution rather than resolving it. Major new find: a historical-summary source reports Bellbrook's water supply was arsenic-contaminated from 2005, requiring water to be trucked into the town in 2008 - a previously unknown, much earlier crisis than the case's well-documented 2019-2020 episode, and a THIRD documented Bellbrook trucked-water episode overall if confirmed. Cross-confirmed across three search queries but all trace to one source; no independent contemporaneous corroboration found despite a dedicated attempt. Recorded at \"Requires Verification\" - flagged as this run's priority open lead for a future session."
   }
 ]

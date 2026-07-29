@@ -1090,5 +1090,82 @@
     "open_question_links": [
       "Q-0001"
     ]
+  },
+  {
+    "evidence_id": "EV-0043",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2005",
+    "source_authority": "Historical Encounters (historicalencounters.org)",
+    "source_title": "Bellbrook",
+    "source_type": "Other Public Record",
+    "source_location": "https://www.historicalencounters.org/he/bellbrook/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session, cross-confirmed across three separate queries but apparently from a single underlying source; direct fetch of historicalencounters.org is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "Bellbrook's raw water supply was contaminated by heavy metals and arsenic from former Hillgrove-area mines beginning in 2005, with elevated arsenic levels detected in the town's drinking water from 2005 to 2007; monitoring linked the contamination to groundwater rather than river surface water.",
+    "relevant_quotation": null,
+    "investigation_relevance": "A previously unregistered, earlier contamination episode for Bellbrook (THR-01/THR-14), directly linking the Hillgrove/Bakers Creek arsenic-antimony dispersion already noted at SRC-0028 to a specific, dated impact on Bellbrook's own drinking water supply nearly a decade before this case's well-documented 2019-2020 crisis.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0022"
+    ],
+    "chronology_links": [
+      "CHR-0027"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0044",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2008",
+    "source_authority": "Historical Encounters (historicalencounters.org)",
+    "source_title": "Bellbrook",
+    "source_type": "Other Public Record",
+    "source_location": "https://www.historicalencounters.org/he/bellbrook/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session, cross-confirmed across three separate queries but apparently from a single underlying source; direct fetch of historicalencounters.org is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "In 2008, water reportedly had to be trucked into Bellbrook because the town's water supply was too contaminated (with the arsenic/heavy metal contamination first detected in 2005, EV-0043) to use. A new, dedicated $700,000 arsenic-removal water treatment plant was installed in 2009 to address the problem (consistent with EV-0022/CHR-0016, though this source gives 2009 without the \"2009-2010\" range uncertainty EV-0022 recorded).",
+    "relevant_quotation": null,
+    "investigation_relevance": "A significant, previously unknown finding directly bearing on this case's \"Recurring Drinking Water Failure\" framing: this would be a THIRD documented Bellbrook trucked-water crisis (after 2008 and 2019-2020, and before the further FY2020-21 intermittent episodes at EV-0034), predating the case's well-known 2019-2020 episode by over a decade and establishing that water-supply contamination crises at Bellbrook are not a recent or one-off phenomenon. No independent, contemporaneous (circa-2008) news source could be found to corroborate this beyond the single historical-summary page it was found on - flagged for a future run to seek a genuinely independent 2008-era source (e.g. an archived Macleay Argus article) before treating this as fully established.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0043",
+      "EV-0022"
+    ],
+    "chronology_links": [
+      "CHR-0028"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0045",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2009",
+    "source_authority": "Historical Encounters (historicalencounters.org)",
+    "source_title": "Bellbrook",
+    "source_type": "Other Public Record",
+    "source_location": "https://www.historicalencounters.org/he/bellbrook/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of historicalencounters.org is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "The Mirriwinni Gardens Aboriginal Academy operated at Bellbrook for more than 30 years, educating over 1,500 children, before closing in 2009 due to financial difficulties.",
+    "relevant_quotation": null,
+    "investigation_relevance": "General historical/community background for Bellbrook (THR-01/THR-14), noted factually; recorded alongside EV-0043/EV-0044's 2009 water-treatment-plant construction only as a same-year coincidence, not a claimed causal connection.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]
