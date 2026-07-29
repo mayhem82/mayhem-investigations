@@ -826,5 +826,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": "EV-0030"
+  },
+  {
+    "note_id": "NOTE-0093",
+    "timestamp": "2026-07-29T08:30:00",
+    "activity_type": "Note",
+    "text": "RUN-0031: the operator directly pasted the full text of SRC-0042 (Kempsey Shire Council's DWMS Annual Report, July 2020-June 2021) into the investigation, having retrieved it themselves outside this session's blocked fetch tool (DEC-0008). This is the highest-quality single source this investigation has obtained since the fetch outage began at RUN-0005: a full primary document, now preserved and hashed (preserved/SRC-0042-kempsey-council-dwms-annual-report-2020-2021.txt), promoted to six Verified/Complete Evidence entries (EV-0031 through EV-0036) rather than the \"Requires Verification\" search-snippet tier used throughout RUN-0027-0030. Key findings: (1) actual manganese concentration data for Willawarrin finally obtained, closing THR-03/THR-04's core gap (EV-0031); (2) an exact date (13 Jan 2020) for when Bellbrook's own plant went offline during the drought (EV-0032); (3) two further discrete incidents plus two intermittent carting periods at both towns during FY2020-21 alone, beyond the main 2019-2020 crisis (EV-0033/EV-0034) - materially strengthening the recurring-failure premise; (4) Willawarrin confirmed as Council's only supply system with worsening water-quality exceedances year-on-year (EV-0035); (5) a complicating (not resolving) data point for CTR-0001 - Council's own internal \"~130\" population figure (EV-0036). SRC-0042's source register entry updated to Preserved/Hashed. No question or contradiction closed - this is a major evidence upgrade, not a resolution of any open item.",
+    "related_thread": "THR-03",
+    "related_source": null,
+    "related_evidence": "EV-0031"
   }
 ]

@@ -191,5 +191,65 @@
     "supporting_evidence": [
       "EV-0028"
     ]
+  },
+  {
+    "chronology_id": "CHR-0020",
+    "event_date": "2020-01-13",
+    "date_is_inference": false,
+    "event_description": "Bellbrook's water treatment plant is taken offline due to persistent high manganese levels in source water, amplified by the drought event; water is carted from the Kempsey-Lower Macleay supply from this date until the plant returns to service on 18 June 2020 (CHR-0002).",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0032"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0021",
+    "event_date": "2020-07-01",
+    "date_is_inference": false,
+    "event_description": "Days after Bellbrook's plant returns to service, a Free Chlorine Critical Limit exceedance (4.1 mg/L against a 4.0 mg/L limit) occurs at the Clear Water Tank outlet, caused by elevated chlorine dosing needed to combat manganese carried over into the tank combined with low tank water levels; corrected within two days.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0032"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0022",
+    "event_date": "2020-10-29",
+    "date_is_inference": false,
+    "event_description": "Willawarrin's raw-water turbidity exceeds its Critical Limit (3.12 NTU against a 2 NTU limit) following upriver rainfall; the plant is shut down and both bores isolated, with water carted from the Kempsey-Lower Macleay supply on 30-31 October and 2 November 2020 until the bores are flushed and the reservoir refilled by 3 November 2020.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0033"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0023",
+    "event_date": "2020-12-22",
+    "date_is_inference": false,
+    "event_description": "Intermittent water carting from the Kempsey-Lower Macleay supply to Willawarrin (23 December 2020 to 11 January 2021) and Bellbrook (22 December 2020 to 7 January 2021), driven by wet-weather turbidity impacting source water.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0034"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0024",
+    "event_date": "2021-03-18",
+    "date_is_inference": false,
+    "event_description": "Further water carting from the Kempsey-Lower Macleay supply: intermittently to Willawarrin (18 March to 13 April 2021) and continuously to Bellbrook from 21 March through to at least 30 June 2021 (the end of the reporting year covered by this source), driven by wet-weather and flood events.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0034"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0025",
+    "event_date": "2020-11-20",
+    "date_is_inference": false,
+    "event_description": "Council's operational monitoring records four Manganese ADWG aesthetic exceedances at the Willawarrin reservoir outlet between this date and 14 December 2020 (0.18, 0.193, 0.2, and 0.159 mg/L, against the 0.1 mg/L aesthetic guideline) - the first actual measured contaminant concentrations obtained by this investigation for Willawarrin (THR-03/THR-04).",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0031"
+    ]
   }
 ]

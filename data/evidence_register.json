@@ -782,5 +782,161 @@
       "CTR-0001"
     ],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0031",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2022-04-26",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report, July 2020-June 2021",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+    "preserved_file_reference": "preserved/SRC-0042-kempsey-council-dwms-annual-report-2020-2021.txt",
+    "document_hash": "sha256:84e09639f08b9fd648003397f29ff851d40d2a85a6eac5cd8c6d93f9fe1c3be3",
+    "hash_exception_reason": null,
+    "evidence_description": "Council's own operational monitoring recorded four Manganese ADWG aesthetic exceedances (limit >0.1 mg/L, aesthetic; >0.3 mg/L, health) at the Willawarrin reservoir outlet: 0.18 mg/L, 0.193 mg/L, 0.2 mg/L, and 0.159 mg/L, all recorded between 20 November and 14 December 2020 (the report's own date range reads \"14/12/2021\", which is very likely a typo for \"14/12/2020\" given the reporting period and the surrounding 2020-dated incidents - flagged here rather than silently corrected). This is out of 15 Manganese tests taken that year at Willawarrin under the operational monitoring program (Table 6.2), a 26.67% exceedance rate - compared to 0 exceedances from 9 Iron tests and 0 exceedances from 13 Manganese tests taken separately under the NSW Health-sponsored program (Appendix C, Table C.6, where Manganese mean was 0.0141 mg/L, max 0.0627 mg/L against the report's stated 0.5 mg/L guideline value for that table). Willawarrin had 43 total ADWG/WQI exceptions in 2020-2021 (up from 14 in 2019-2020), the only Council supply system whose exceptions increased year-on-year; the report attributes this to (1) more days on local source water after carting ended in 2020, and (2) a shift to lower source-water acidity following a December 2020 wet-weather event (average raw water pH 6.96 pre-event vs 6.26 post-event).",
+    "relevant_quotation": "Four (4) Manganese ADWG aesthetic (>0.1 - < 0.5 mg/L) exceptions were recorded from operational monitoring at the Reservoir outlet between 20/11/2020 to 14/12/2021 (0.18mg/L, 0.193 mg/L, 0.2mg/L and 0.159 mg/L respectively).",
+    "investigation_relevance": "Closes THR-03/THR-04's central, long-standing gap (open since RUN-0001): actual measured manganese concentrations against the ADWG limit for Willawarrin, rather than descriptive media/council reporting. Shows a genuine, if modest and aesthetic-only (not health-limit), manganese problem persisted at Willawarrin as late as FY2020-21, a year after the main 2019-2020 trucked-water crisis officially ended (CHR-0002, 18 June 2020) - not yet reflected in EV-0002/EV-0003's \"resolved\" framing of that episode.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0025"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0032",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2022-04-26",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report, July 2020-June 2021",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+    "preserved_file_reference": "preserved/SRC-0042-kempsey-council-dwms-annual-report-2020-2021.txt",
+    "document_hash": "sha256:84e09639f08b9fd648003397f29ff851d40d2a85a6eac5cd8c6d93f9fe1c3be3",
+    "hash_exception_reason": null,
+    "evidence_description": "In documenting a July 2020 Free Chlorine critical-limit incident at Bellbrook, the report's background section states: \"Plant has been offline from 13/01/2020 to 18/06/2020; with water being carted from the KLM supply due to persistent high manganese levels in source water amplified by the drought event.\" This gives, for the first time in this register, an exact, primary-sourced start date (13 January 2020) for when Bellbrook's own treatment plant was taken offline during the drought crisis, and independently confirms the 18 June 2020 return-to-supply date already established by EV-0002/EV-0003/CHR-0002. The subsequent incident itself: after the plant restarted, Free Chlorine at the Clear Water Tank outlet rose to an Alert Level of 3.7 mg/L (30 June 2020) and then a Critical Limit of 4.1 mg/L (1 July 2020), attributed to elevated chlorine dosing needed to combat the high manganese carried over into the tank, compounded by low tank water levels reducing dilution; corrected by 3 July 2020 (2.03 mg/L).",
+    "relevant_quotation": "Plant has been offline from 13/01/2020 to 18/06/2020; with water being carted from the KLM supply due to persistent high manganese levels in source water amplified by the drought event.",
+    "investigation_relevance": "Gives THR-02 a specific, primary-sourced start date for Bellbrook's own plant outage (13 January 2020) - distinct from and later than Willawarrin's (which EV-0024/SRC-0044 places from 2 October 2019) - and explicitly names manganese (not just \"iron and manganese\" generically) as the specific driver of Bellbrook's outage. Also documents a discrete follow-on water-quality incident in the first days after the plant restarted, showing the return to normal supply was not fully smooth.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0002",
+      "EV-0003"
+    ],
+    "chronology_links": [
+      "CHR-0020",
+      "CHR-0021"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0033",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2022-04-26",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report, July 2020-June 2021",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+    "preserved_file_reference": "preserved/SRC-0042-kempsey-council-dwms-annual-report-2020-2021.txt",
+    "document_hash": "sha256:84e09639f08b9fd648003397f29ff851d40d2a85a6eac5cd8c6d93f9fe1c3be3",
+    "hash_exception_reason": null,
+    "evidence_description": "A separate, previously unrecorded incident: on 28-29 October 2020, rainfall in the upriver catchment raised raw-water turbidity at Willawarrin's operational bore from 0.32 NTU to 3.12 NTU, exceeding the 2 NTU Critical Limit (a secondary bore also returned an Alert-Level 1.91 NTU). The plant was shut down and both bores isolated on 29 October 2020, and Council carted water from its Kempsey-Lower Macleay supply (Greenhill Reservoir) to the Willawarrin Reservoir on 30-31 October and 2 November 2020, until the bores were flushed and the reservoir refilled with 0.48 NTU water by 3 November 2020.",
+    "relevant_quotation": "The Willawarrin operational bore 1 had a rise in turbidity from 0.32 NTU 28/10/2020 to 3.12 NTU 29/10/2020. Resulting the CCP1 Critical Limit exceedance (limit of 2 NTU).",
+    "investigation_relevance": "A short, discrete, well-documented recurrence of Willawarrin needing trucked water again in October-November 2020 - about four months after the main 2019-2020 episode officially ended (CHR-0002) - caused by ordinary post-drought rainfall/turbidity rather than the earlier drought conditions. Directly supports this case's \"recurring failure\" framing with a primary-sourced, dated example distinct from the main 2019-2020 crisis.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0022"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0034",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2022-04-26",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report, July 2020-June 2021",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+    "preserved_file_reference": "preserved/SRC-0042-kempsey-council-dwms-annual-report-2020-2021.txt",
+    "document_hash": "sha256:84e09639f08b9fd648003397f29ff851d40d2a85a6eac5cd8c6d93f9fe1c3be3",
+    "hash_exception_reason": null,
+    "evidence_description": "Beyond the two discrete incidents (EV-0032, EV-0033), the report records two further, separate periods of intermittent water carting from the Kempsey-Lower Macleay supply during FY2020-21, driven by wet-weather turbidity/flooding rather than drought: (1) Willawarrin, 23 December 2020 to 11 January 2021, and again 18 March to 13 April 2021; (2) Bellbrook, 22 December 2020 to 7 January 2021, and again continuously from 21 March to 30 June 2021 (the end of the reporting year, so this period's actual end date is not established by this document). Bellbrook's five Free Chlorine disinfection Alert Levels during the year were separately attributed to \"high manganese[]s levels that consumed free chlorine residuals.\"",
+    "relevant_quotation": "Water carting to this supply from KLM occurred intermittently from 23/12/2020 to 11/01/2021 and 18/03/2021 to 13/04/2021 due in wet weather events that impacted source water.",
+    "investigation_relevance": "Establishes that both Willawarrin and Bellbrook needed trucked water on at least four further, separate occasions during FY2020-21 alone (beyond the main 2019-2020 crisis and the two discrete incidents at EV-0032/EV-0033) - a materially more recurring pattern of supply failure than this register had previously documented, and directly on-point for this case's \"Recurring Drinking Water Failure\" framing (THR-02).",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0032",
+      "EV-0033"
+    ],
+    "chronology_links": [
+      "CHR-0023",
+      "CHR-0024"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0035",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2022-04-26",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report, July 2020-June 2021",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+    "preserved_file_reference": "preserved/SRC-0042-kempsey-council-dwms-annual-report-2020-2021.txt",
+    "document_hash": "sha256:84e09639f08b9fd648003397f29ff851d40d2a85a6eac5cd8c6d93f9fe1c3be3",
+    "hash_exception_reason": null,
+    "evidence_description": "The report's own year-on-year comparison (Figure 6, citing its predecessor 2018-2019 and 2019-2020 reports) shows Willawarrin's total ADWG/WQI exceptions were 105 in 2018-2019, 14 in 2019-2020 (while under trucked-water supply for 240 of that year's days per the report's own account), and 43 in 2020-2021 - the only one of Council's eight supply systems whose exceptions increased in 2020-2021 while every other system (including Bellbrook, at zero both years) improved or stayed flat. Bellbrook, by contrast, recorded zero ADWG/WQI exceptions in both 2019-2020 and 2020-2021.",
+    "relevant_quotation": "This increase however remains comparative low to the one-hundred and five (105) exceptions during 2018-2019",
+    "investigation_relevance": "Establishes Willawarrin (not Bellbrook) as Council's chronically worst-performing supply system across at least three consecutive reporting years (2018-19, 2019-20, 2020-21) on its own regulatory metric, independent of and prior to the 2024-2025 plant replacement project - directly relevant to THR-12 (current operational status) and to understanding why Willawarrin, specifically, was prioritised for a new treatment plant ahead of Bellbrook.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0031"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0036",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2022-04-26",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report, July 2020-June 2021",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+    "preserved_file_reference": "preserved/SRC-0042-kempsey-council-dwms-annual-report-2020-2021.txt",
+    "document_hash": "sha256:84e09639f08b9fd648003397f29ff851d40d2a85a6eac5cd8c6d93f9fe1c3be3",
+    "hash_exception_reason": null,
+    "evidence_description": "Table 3.1 (Council's Drinking Water Supply Systems Summary) gives Willawarrin's population serviced as \"~130\" - matching EV-0005's 130 figure (21 March 2025, water.nsw.gov.au) rather than EV-0006's 180 figure (24 March 2025, water.dcceew.nsw.gov.au) or the ABS Census figures already registered (183 in 2021, 191 in 2016; EV-0016/EV-0030). This is Council's own internal technical figure (with a tilde indicating an approximation), from a document finalised April 2022, roughly three years before the two 2025 press releases at the heart of CTR-0001.",
+    "relevant_quotation": "~130",
+    "investigation_relevance": "Complicates rather than resolves CTR-0001: it shows Council itself has used a figure close to 130 (not just the one 21 March 2025 press release), so 130 is not simply a one-off transcription slip in a single document - but it is explicitly an approximation (\"~\"), from an internal operational report rather than a public population claim, and predates both 2025 figures by about three years. Recorded honestly as a complication for a future run to weigh, not as resolving the contradiction either way.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0005",
+      "EV-0006",
+      "EV-0016"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [
+      "CTR-0001"
+    ],
+    "open_question_links": []
   }
 ]

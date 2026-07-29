@@ -1,0 +1,644 @@
+Page 1
+
+
+
+
+
+Drinking Water Management System
+
+Annual Report
+ July 2020-June 2021
+
+
+
+
+
+Page 2
+
+Document control
+
+Document Drinking Water Management System Annual Report
+File No F19/2008
+Date 4th May 2022
+Prepared by Bobbie Brenton, Water Quality Officer Kempsey Shire Council
+On behalf of
+Wes Trotter, Manager Water and Sewer Kempsey Shire Council
+Approved by Robert Fish, Director Operations and Planning Kempsey Shire Council
+
+
+Report Revision History
+Version Date Details Review
+0.1 04/03/2022 First Draft Internal – Kempsey Shire Council
+Wes Trotter – Manager Water and Sewer
+John Nelson – Coordinator Water and Sewer Operations
+Scott Brown – Team Leader Water Treatment
+
+0.2 11/03/2022 Second Draft Internal - Kempsey Shire Council
+Robert Fish - Director Operations and Planning
+0.3 18/03/2022 Final Draft External - North Coast Public Health Unit
+Tennille Lawrence-Haskew – Senior Environmental Health Officer
+David Basso - Environmental Health Officer
+
+0.4 21/03/2022 Final Draft
+review
+North Coast Public Health Unit and Kempsey Shire Council Yearly
+DWMS Review meeting
+
+North Coast Public Health Unit
+David Basso - Environmental Health Officer
+
+Kempsey Shire Council
+Robert Fish - Director Operations and Planning
+Wes Trotter – Manager Water and Sewer
+John Nelson – Coordinator Process Water and Sewer
+Scott Brown – Team Leader Water Treatment
+Bobbie Brenton – Water Quality Officer
+
+1.0 26/04/2022 Final  External - North Coast Public Health Unit
+David Basso - Environmental Health Officer
+
+
+
+
+
+
+Page 3
+  DWMS Annual Report - 2020-2021
+__________________________________________________________________________________
+__________________________________________________________________________________
+Kempsey Shire Council  i
+
+
+
+Executive Summary
+
+Kempsey Shire Council (Council) manages eight (8) water supply systems, providing drinking water to
+Kempsey - Lower Macleay (KLM), Crescent Head, Hat Head, South West Rocks, Stuarts Point,
+Willawarrin, Bellbrook, and the Thunggutti Aboriginal Community.
+Council has developed this report as part of its requirements to perform an annual evaluation and
+review of the performances of its water supply systems. The evaluation and review are based on the
+current regulatory framework, reporting requirements and guidelines of the Australian Drinking
+Water Guidelines (ADWG) (ADWG; 2011); along with reporting requirements of NSW Health that
+includes a yearly document submission to the local Public Health Unit (PHU), NSW Health.
+This report covers the period of 1 of July 2020 to 30 of June 2021 and satisfies the reporting (Element
+10), evaluation (Element 11) and review and continual improvement (Element 12) requirements of
+Councils Drinking Water Management System (DWMS).
+DWMS document review
+Internal workshops during February 2021 were held for the review of the DWMS Overall Manual,
+Sub plans (8 separate supply systems) and the Water Quality Incident Response and Reporting plan.
+Identified updates included adjustments to CCPs and monitoring frequencies, these were finalized
+before 30 June 2021 for commencement at the start of the 2021-2022 reporting period.
+Review and updates to the Risk Register and Implementation Plan (IP) where completed post 2020-
+2021 report period (workshops held in October 2021). Summary is discussed in “Improvement plan
+implementation”.
+Supply summary and system upgrades
+Planning was completed and the Stuarts Point Reservoir refurbishment had commenced in the
+Stuarts Point supply system; pH correction facilities were added to Willawarrin and Thunggutti
+supplies, and membrane cleaning system modifications continue in the South West Rocks supply.
+Performance of critical control points
+Council had fifty-six (56) fewer Critical Control Point (CCP) exceptions reported compared to 2019-
+2020 reporting year. The Kempsey - Lower Macleay and Crescent Head supplies showed the greatest
+improvement from the previous reporting year with only the Willawarrin supply having an increase
+in the number of captured CCP exceptions. No exceptions were recorded in the South West Rocks or
+Stuarts Point supplies. A summary of critical control point exceptions is listed in Table E.1.
+Table E.1 - Critical Control Points Summary
+ 2019 -2020 2020-2021 Difference between
+report years  Supply System Alert Critical Total Alert Critical Total
+Kempsey - Lower Macleay 35 2 37 13 0 13 -24
+Crescent Head  41 0 41 19 0 19 -22
+Hat Head  7 0 7 1 0 1 -6
+South West Rocks  0 0 0 0 0 0 0
+Stuarts Point  0 0 0 0 0 0 0
+Willawarrin 2 1 3 3 1 4 +1
+Bellbrook 7 0 7 6 1 7 0
+Thunggutti 12 3 15 9 0 9 -6
+Total 104 5 109 51 2 53 -56
+
+Page 4
+  DWMS Annual Report - 2020-2021
+__________________________________________________________________________________
+-
+__________________________________________________________________________________
+Kempsey Shire Council  ii
+
+Reservoir inspection programs
+No breaches of integrity were detected during in house monthly CCP reservoir inspections.
+
+Three (3) reservoirs (Clybucca, Willawarrin, and Bellbrook) were cleaned and inspected by external
+contractors during this reporting period.
+Water quality verification
+Seventy-eight (78) ADWG and Water Quality Indicators (WQI) exceptions occurred from the
+combined NSW Health sponsored monitoring program and Council’s in house operational monitoring
+program. This includes four (4) Total Coliform detections and three (3) Nickel detections above the
+ADWG and WQI.
+
+Total ADWG and WQI water quality exceptions by supply system is summarised in Table E.2.
+Table E.2 Total ADWG and WQI water quality exceptions by supply system
+ Kempsey
+Lower
+Macleay
+Crescent
+Head
+Hat
+Head
+South West
+Rocks
+Stuarts
+Point
+Willawarrin Bellbrook Thunggutti Total
+NSW Health
+Program
+
+4
+
+3
+
+1
+
+1
+
+0
+
+6
+
+0
+
+4
+
+19
+Council
+Program
+
+0
+
+
+0
+
+0
+
+0
+
+0
+
+37
+
+0
+
+22
+
+59
+Total  4 3 1 1 0 43 0 26 78
+Consumer enquires
+Thirty-six (36) customer enquiries were recorded across all supplies; a decrease 67.6 % from the one-
+hundred and eleven (111) enquires from 2019-2020. The majority of enquiries were in the Kempsey
+– Lower Macleay supply; no customer enquiries were recorded at either Stuarts Point or Thunggutti.
+Table E.3 provides a summary of costumer enquires.
+Table E.3  Customer Enquires for Councils Water Supply Systems
+Supply System Dirty Air or
+Cloudy
+Taste &
+Odour
+Illness Loss of
+Supply
+Other  Total
+Kempsey – Lower Macleay 7 1 0 0 12 0 20
+Crescent Head 1 0 0 0 0 0 1
+Hat Head 2 0 0 0 0 0 2
+South West Rocks 4 1 3 0 1 0 9
+Stuarts Point 0 0 0 0 0 0 0
+Willawarrin 2 0 0 0 0 0 2
+Bellbrook 2 0 0 0 0 0 2
+Thunggutti 0 0 0 0 0 0 0
+Total 18 2 3 0 13 0 36
+
+Water quality incidents or emergency
+Two (2) Critical Limit exceptions were reported in two (2) separate water quality incidents to the
+local North Coast Public Health Unit (NCPHU) at time of occurrence. Table E.4 provides a summary of
+the water quality incidents.
+
+
+Page 5
+  DWMS Annual Report - 2020-2021
+__________________________________________________________________________________
+-
+__________________________________________________________________________________
+Kempsey Shire Council  iii
+
+Table E.4  Water Quality Incidents
+Supply Date of Event  Location CCP Number  CCP Parameter CCP Critical
+Limit
+CCP Result
+Bellbrook 1/07/2020 Clear Water Tank CCP3 Free Chorine 4.0 mg/L 4.1 mg/L
+Willawarrin 29/10/2020 Raw Water  CCP1 Turbidity 2 NTU 3.12 NTU
+Monitoring programs
+Pesticide monitoring from water supplies servicing discrete Aboriginal communities (5 identified
+within the drinking water supply areas of Council) are funded by the NSW Aboriginal Communities
+Water and Sewer Program (ACWSP) every five (5) years. No pesticide testing was conducted in 2020-
+2021, the next program cycle is due to commence in 2022.
+The NSW Department of Primary Industries (DPI) inspects the water supply at the Aboriginal
+communities at least yearly and checks water quality against ADWG and NSW Health recommended
+indicators for the tested parameters. All supplies at time of inspections met water quality
+specifications except for the Greenhill community, though it has been identified that the testing
+location is not a representative location of water that is supplied to this community.
+Staff training and development
+Training and development programs completed by the Water Process Team during 2020-2021 is
+captured in Table E.5.
+Table E.5 Summary of Completed Training during 2020-2021
+Training Details  Trainees Water Process
+Operators
+Management
+Team
+DWMS Water Quality Incident Response Yearly VOC 4 6 4
+DWMS Documentation and Process updates from DWMS review  4 6 4
+Pollution Incident Response Management Plan (PIRMP) Yearly VOC 4 6 4
+NSW Health Fluoride Plant Operator Certificate   3
+Asbestos Awareness  5 2
+Chemical Awareness 4 6 4
+Apply Fist Aid and Perform CPR  1
+Working at Heights  1
+Governance and Risk Management 101   1
+Continuous improvement - implementation plan (IP)
+Since the establishment of the DWMS in 2014, the IP has been reviewed yearly by the Risk
+Management Team in conjunction with the Risk Register. Table E.6 provides the status of the IP at
+the end of 2020-2021 report year (review undertaken in October 2021).
+Table E.6. Implementation Plan progress status based on risk value
+Residual
+Risk
+Removed Completed Standing
+Items
+In
+progress
+Ongoing
+(Long term actions)
+Not
+Started
+New Tasks
+Remaining
+Very High 2 3 0 4 4 1 0 9
+High 5 3 4 25 8 3 0 40
+Medium 7 8 0 13 9 3 0 25
+Low 3 2 3 11 6 2 0 22
+Total  17 20 9 53 27 9 0 96
+
+3.  Supply Summary and Upgrades
+Kempsey Shire Council manages eight (8) water supply systems. Table 3.1 summary (key rows):
+
+Willawarrin: Source - Surface water from Macleay River (bore on edge of river for gravel bed
+extraction). Treatment - Chlorine (sodium hypochlorite) dosing, soda ash for pH correction (new).
+Treatment Capacity - 200 kL/day. Population serviced - ~130. Towns/Communities - Willawarrin.
+System upgrades 2020/21 - pH correction facilities installed at treated water (disinfection) in June
+2020. Additional notes: Ongoing planning of land acquisition for design and Construction of a new
+WTP.
+
+Bellbrook: Source - Surface water from Macleay River (bore within river for gravel bed extraction).
+Treatment - Multi-media filtration including arsenic removal, soda ash for pH correction and chlorine
+(sodium hypochlorite) dosing. Treatment Capacity - 140 kL/day. Population serviced - ~100.
+Towns/Communities - Bellbrook. Additional notes: Ongoing planning of WTP augmentation.
+
+Thunggutti: Source - Surface water from creek (bore on edge of river for gravel bed extraction).
+Treatment - Chlorine (sodium hypochlorite) dosing, soda ash for pH correction (new). Treatment
+Capacity - 110 kL/day. Population serviced - ~120. Towns/Communities - Thunggutti Aboriginal
+Community. System upgrades 2020/21 - pH correction facilities installed at treated water
+(disinfection) in June 2020.
+
+4.  Critical Control Points
+Table 4.1  Summary of Critical Control Point exceptions 2020-2021 comparison to 2019-2020 (Willawarrin
+and Bellbrook rows):
+
+Willawarrin:
+WW CCP1 Raw Water Abstraction (All Pathogens/Turbidity): 2019-2020 - Alert 2, Critical 0, Total
+samples 56; 2020-2021 - Alert 1, Critical 1, Total samples 195; change Alert -1, Critical +1, Combined 0.
+WW CCP2 Disinfection (Chlorine sensitive pathogens/Free Chlorine): 2019-2020 - Alert 0, Critical 0,
+Total samples 125; 2020-2021 - Alert 2, Critical 0, Total samples 356; change +2, -, +2.
+WW Combined Total: 2019-2020 Alert 2 Critical 0 (total samples 181); 2020-2021 Alert 3 Critical 1
+(total samples 551); change Alert +1, Critical +1, Combined +2.
+WW % to number of Samples: 2019-2020 1.1%/0%/1.1%; 2020-2021 0.5%/0.2%/0.7%
+
+Bellbrook:
+BB CCP1 Raw Water Abstraction (Turbidity): 2019-2020 - Alert 2, Critical 0, Total samples 125;
+2020-2021 - Alert 1, Critical 0, Total samples 136; change -1, -, -1.
+BB CCP2 Filtration (Turbidity): 2019-2020 - Alert 0, Critical 0, Total samples 45; 2020-2021 - Alert 0,
+Critical 0, Total samples 117; change -, -, -.
+BB CCP3 Disinfection (Free Chlorine, pH): 2019-2020 - Alert 4, Critical 0 (Free Chlorine), Alert 1,
+Critical 0 (pH), Total samples 138; 2020-2021 - Alert 5, Critical 0 (Free Chlorine), Alert 0, Critical 1
+(pH), Total samples 216; change -2/+1, +1/-, -1/+1.
+BB Combined Total: 2019-2020 Alert 7 Critical 0 (total samples 446); 2020-2021 Alert 6 Critical 1
+(total samples 685); change Alert -1, Critical +1, Combined 0.
+BB % to number of Samples: 2019-2020 1.6%/0%/1.6%; 2020-2021 0.9%/0.1%/1.0%
+
+Note 1: Multiple exceptions occurring on the same day are recorded as discrete events at each CCP
+point as they occur. Note 2: Once a CCP exceeds the Alert Level value it is recorded at a Critical Limit
+only and is not counted in the Alert Level totals.
+
+4.3.6  Willawarrin Supply System
+Monitoring data for each of the Willawarrin supply systems CCPs is shown in Figures 4.3.6a and
+4.3.6b. Water carting to this supply from KLM occurred intermittently from 23/12/2020 to
+11/01/2021 and 18/03/2021 to 13/04/2021 due in wet weather events that impacted source
+water.
+
+A single CCP1 Abstraction Critical Limit exception occurred in the Willawarrin supply during the
+2020-2021 reporting year (Table 4.1) on 29/10/2020; this is discussed in section 7 Water Quality
+Incident or Emergency.
+
+Three (3) Alert Level CCP exception occurred from five-hundred and fifty (550) samples (Table 4.1
+and Figures 4.3.6a and 4.3.6b) were reported across the following CCP locations:
+• CCP1 – Abstraction: Turbidity >4 NTU, one (1) occurrence
+• CCP3 – Disinfection: Free Chlorine <0.6 mg/L – two (2) occurrences
+
+The three (3) Alert Levels include:
+• One (1) CCP1 Abstraction Alert Level (1.48 mg/L) on 26/02/2021 caused by rainfall in the
+catchment increasing river turbidity. Pre-emptive actions included isolation of the bores and
+initiating water carting to the supply until rain ceased and turbidity levels returned to
+operational targets.
+• Two (2) CCP3 disinfection Alert levels for low Free Chlorine:
+• 4/08/2020 Free Chlorine (0.42 mg/L) due to operator and SCADA alarms errors that
+ceased the production of chlorinated water to the reservoir that was idented on the
+5/08/2020. Corrective actions included, resetting of set points both physically and in
+the telemetry control system and adding calcium chlorine pills to the reservoir to
+increase Free Chlorine residual. Preventative action includes operators to check the
+SCADA system at the end of every shift along with the SCADA alarms limits to be
+fixed with change access restriction applied.
+• 20/2/2021 Free Chlorine (0.51mg/L) due to the chlorine pump not dosing correctly.
+Corrective action includes the changing over to the spare pump and adding ½ a
+Calcium hypochlorite tablet to the reservoir to bring Free Chlorine residuals back to
+within operational target.
+
+4.3.7  Bellbrook Supply System
+Monitoring data for each of the Bellbrook supply system CCPs is shown in Figures 4.6.7a, 4.6.7b,
+4.6.7c and 4.6.7d. Water carting to this supply from KLM occurred intermittently from 22/12/2020
+to 7/01/2021 and from 21/3/2021 to 30/06/2021 due to wet weather and flood events that
+impacted source water quality.
+
+One (1) CCP1 Abstraction Critical Limit exception and an associated Alert Level exception occurred in
+the Bellbrook supply on the 1/07/2020 (Table 4.1 and Figure 4.6.7c); this event is discussed in
+Section 7 Water Quality Incident or Emergency.
+
+A further six (6) Alert level exceptions were reported from six-hundred and eighty-six (686) samples.
+These were reported across the following CCP locations:
+• CCP1 – Abstraction: Turbidity >4 NTU, one (1) occurrence
+• CCP3 – Disinfection: Free Chlorine <1.0  mg/L – five (5) occurrences
+
+The single CCP1 Abstraction Alert Level on the 24/09/2020 (5.33) NTU; Figure 4.6.7a) was the result
+of rainfall in the catchment increasing river turbidity. SOPs were followed to ensure that no
+breakthrough in the filtration system entered the network. This water treatment plant (WTP) has
+automatic interlocks that shut the plant down if Turbidity levels reach the Critical Limit of 20 NTU.
+
+The five (5) CCP3 Disinfection Alert Levels occurred intermittently throughout the year (Figure
+4.6.7c) were caused by high manganese’s levels that consumed free chlorine residuals.  On each
+occasion Water Operators followed CCP SOP that included checking dosing equipment and
+confirming adequate disinfection throughout the network.
+
+6.  Water Quality Verification
+Council tests drinking water for thirty-two (32) health and aesthetic ADWG, and other recommended
+WQI characteristics, from twenty-five (25) sample sites, all post-treatment. Results are recorded in
+the NSW Drinking Water Database and reported against the ADWG and WQI.
+
+Seventy-eight (78) ADWG and WQI exceptions from both reporting platforms were recorded across
+Council's water supply systems (Figure 6). This is a 63.9% decrease from the two-hundred and
+sixteen (216) exceptions recorded in the previous reporting year.
+
+Figure 6 - Total ADWG and WQI exception comparison; 2019-2020 and 2020-2021:
+Kempsey and Lower Macleay: 2019/2020 184, 2020/2021 4
+Crescent Head: 2019/2020 7, 2020/2021 3
+Hat Head: 2019/2020 1, 2020/2021 1
+South West Rocks: 2019/2020 8, 2020/2021 1
+Stuarts Point: 2019/2020 2, 2020/2021 0
+Willawarrin: 2019/2020 14, 2020/2021 43
+Bellbrook: 2019/2020 0, 2020/2021 0
+Thunggutti: 2019/2020 0, 2020/2021 26
+Total: 2019/2020 216, 2020/2021 78
+
+Table 6.1  ADWG and WQI non-compliances - NSW Health sponsored monitoring program
+Parameter columns: Total Coliforms* (No detection, WQI), Free Chlorine** (<0.2 mg/L, WQI), pH
+(<6.5->8.5, Aesthetic), Turbidity (>5 NTU, Health), Fluoride*** (<0.9->1.2 mg/L, WQI), Iron (>0.3 mg/L,
+Aesthetic), Manganese (>0.1 mg/L Aesthetic / >0.3 mg/L Health), Nickel (>0.02 mg/L, Health).
+KS01 - Kempsey & Lower Macleay: Total Coliforms 3, Nickel 1, Total 4
+KS05 - Crescent Head: Free Chlorine 3, Total 3
+KS08 - Hat Head: pH 1, Total 1
+KS07 - South West Rocks: Nickel 1, Total 1
+KS06 - Stuarts Point: Total 0
+KS04 - Willawarrin: pH 5, Nickel 1, Total 6
+KS03 - Bellbrook: Total 0
+KS09 - Thunggutti: Total Coliforms 1, pH 3, Total 4
+Combined Total: Total Coliforms 4, Free Chlorine 3, pH 9, Turbidity 0, Fluoride 0, Iron 0, Manganese 0,
+Nickel 3, Total 19
+*Total Coliform no ADWG set however a positive result is an indicator for further investigation.
+**Free Chorine no minimum ADWG set however minimum level of 0.2 mg/L recommend for
+maintaining disinfection. ***Fluoride levels based on Fluoride code; Health ADWG set at >5 mg/L
+A – Aesthetic ADWG   H - Health ADWG   WQI – No ADWG available, guidelines based on best practice
+
+Table 6.2  ADWG and WQI non-compliances - Operational monitoring program
+Parameter columns: Chlorine (Free)* (<0.2 mg/L, WQI), Chlorine (Total) (>5 mg/L, Health), pH
+(<6.5->8.5, Aesthetic), Turbidity (>5 NTU, Health), Fluoride** (<0.9->1.2 mg/L, WQI), Iron (>0.3 mg/L,
+Aesthetic), Manganese*** (>0.1 mg/L, Aesthetic).
+
+Kempsey and Lower Macleay: 0 exceedances across all parameters; 9424 total tests; 0% rate.
+Crescent Head: 0 exceedances; 3279 total tests; 0% rate.
+Hat Head: 0 exceedances; 1130 total tests; 0% rate.
+South West Rocks: 0 exceedances; 3065 total tests; 0% rate.
+Stuarts Point: 0 exceedances; 2231 total tests; 0% rate.
+
+WILLAWARRIN:
+Number of Exceedances: Free Chlorine 0, Total Chlorine 0, pH 33, Turbidity 0, Fluoride N/A, Iron 0,
+Manganese 4. TOTAL EXCEEDANCES: 37.
+Number of Tests: Free Chlorine 121, Total Chlorine 477, pH 116, Turbidity 442, Fluoride N/A, Iron 9,
+Manganese 15. TOTAL TESTS: 1214.
+Rate of Exceedances: Free Chlorine 0%, Total Chlorine 0%, pH 28.45%, Turbidity 0%, Fluoride N/A,
+Iron 0%, MANGANESE 26.67%, Overall 3.05%.
+
+Bellbrook:
+Number of Exceedances: 0 across all parameters. Number of Tests: Free Chlorine 338, Total Chlorine
+337, pH 338, Turbidity 337. TOTAL TESTS: 1350. Rate of Exceedances: 0% across all parameters.
+
+Thunggutti:
+Number of Exceedances: pH 22. TOTAL EXCEEDANCES: 22. Number of Tests: Free Chlorine 102, Total
+Chlorine 2343, pH 99, Turbidity 342, Iron 4, Manganese 4. TOTAL TESTS: 894. Rate of Exceedances: pH
+22.22%, Overall 2.46%.
+
+Totals (all supply systems): Number of Exceedances: Chlorine (Free) 0, Chlorine (Total) 0, pH 55,
+Turbidity 0, Fluoride 0, Iron 0, Manganese 4, TOTAL 59. Number of Tests: 4499, 6620, 4732, 6515, 77,
+79, 65, TOTAL 22587. Rate of Exceedances: 0%, 0%, 1.16%, 0%, 0%, 0%, 6.15%, Overall 0.26%.
+*Free Chorine no minimum ADWG set however minimum level of 0.2 mg/L recommend for
+maintaining disinfection. **Fluoride levels based on Fluoride code; Health ADWG set at >5 mg/L
+*** Manganese Aesthetic ADWG reported only (No Health ADWG recorded)
+A – Aesthetic ADWG   H - Health ADWG   WQI – Guidelines based on Codes of Practice/NSW Health
+recommendations
+
+6.3.1  Kempsey - Lower Macleay (KLM) Supply System
+The KLM supply had a four (4) ADWG and WQI exceptions; a reduction of one-hundred and eighty
+(180) from the previous reporting year. This significant decline is due from the breaking of the 2019-
+2020 drought where Council changed the source water supply in June 2020 back to the Sherwood
+borefield from the SMD emergency supply.
+
+6.3.6  Willawarrin Supply System
+No bacteriological (Total Coliforms or E. coli) exceptions were reported in the Willawarrin supply
+during 2020-2021 (Table 6.1 and Appendix C: Table C.6).
+
+The Willawarrin supply had forty-three (43) ADWG and WQI exceptions during 2020-2021 an
+increase of twenty-nine (29) from the fourteen (14) exceptions reported in 2019-2020 (Figure 6).
+This increase however remains comparative low to the one-hundred and five (105) exceptions
+during 2018-2019 (Kempsey Shire Council 2018-2019).
+
+The two main contributing factors for the increase include
+1. Increase in the number of days the supply was from its local source water (during 2019-2020
+the supply was under water carting for 240 days).
+2. Shift in source water acidity after a wet weather event December 2020. Average raw water
+six months pre wet weather event was 6.96 pH, average pH six months post wet weather
+event 6.26 pH.
+
+Exceptions during 2020-2021 are reported as (Figure 6, Tables 6.1 and 6.2 and Appendix C; Table
+C.6):
+• Thirty-eight (38) pH ADWG aesthetic <6.5 pH. Five (5) from the NSW Health monitoring
+program (Table 6.1) and thirty-eight (38) from operational monitoring (Table 6.2). With a
+minimum of 6.11 pH and maximum of 6.49 pH spread  across all of the systems reticulation
+monitoring sites
+o KS04-121 Football Grounds
+o Ks04-122 St Thomas Church
+o KS04-123 Willawarrin School
+All exceptions occurred from 22/01/2021 after the catchment had received significant
+rainfall that shifted the source water to a naturally lower acidity; pH correction was added to
+the system in early June 2021. No pH exceptions were reported after 7/06/2021.
+
+• Four (4) Manganese ADWG aesthetic (>0.1 - < 0.5 mg/L) exceptions were recorded from
+operational monitoring at the Reservoir outlet between 20/11/2020 to 14/12/2021
+(0.18mg/L, 0.193 mg/L, 0.2mg/L and 0.159 mg/L respectively). Future WTP upgrades are to
+include filtration options for Manganese and Iron removal.
+
+A single Nickel ADWG health (>0.02 mg/L) (Table 6.1 and Appendix C; Table C.6) occurred on the
+16/03/2021 at KS04-123 Willawarrin School; result of 0.0204 mg/L. Resampling was performed on
+the 30/03/2021 returning a result of 0.0005 mg/L.
+
+6.3.7  Bellbrook Supply System
+No ADWG or WQI exceptions were recorded in the Bellbrook supply for the past two (2) reporting
+years (Figure 6).
+
+7.  Water Quality Incident or Emergency
+Council had two (2) recorded Critical Limits in two (2) separate incidents for this reporting period.
+
+Table 7.1  Water Quality Incidents
+
+July 2020 – Bellbrook Supply
+Details of incident/emergency: Adjustment on chlorine levels (increase) to combat high manganese
+levels combined with low water level in Clear Water Tank / increased concentration of chlorine due
+to lack of dilution potential. CCP SOP were followed and confirmed that no impacts on supply water
+were observed. Two (2) Alert Limits and one (1) Critical Limit for Free Chlorine was recorded during
+this incident at CCP3 Clear Water Tank outlet: 30/06/2020 Alert Level 3.7 mg/L; 1/07/2020 Critical
+Limit 4.1 mg/L; 2/07/2020 CCP3 Alert Level 4.0 mg/L; 3/7/2020 CCP3 Target 2.03 mg/L.
+
+Additional Background information:
+"Plant has been offline from 13/01/2020 to 18/06/2020; with water being carted from the KLM
+supply due to persistent high manganese levels in source water amplified by the drought event."
+Plant had been back in operation for 13 days before Critical Limit event. Fresh batch and stronger
+hypo used (from SMD) delivery on the Monday before the incident. Persistent high Iron and
+Manganese into CWT, impacting analysers causing "trip outs" on low chlorine reads. Main break in
+system increased the call amount of water being drawn in the system. Free Chlorine residuals dilute
+in larger body of the Reservoir before going to the customer.
+
+Actions and Preventive actions undertaken:
+30/6/2020 ~10:38 WQ test result – Free Chorine 3.7 mg/L (Alert Level); ~13:30 Chlorine dosing pumps
+adjusted (turned down from 85% to 80%).
+1/07/2020 ~12:05 WO contacted TL to inform them of likely hood of increased Free Chlorine from the
+CWT and Chlorine dosing pumps adjusted further (from 80% to 65% to reduce Free Chlorine
+residuals); Analyser faults on Free Chlorine issues unable to automictically inhibit plant; ~15:15 WQ
+test result - Free Chlorine 4.1 mg/L (Critical Limit); ~16:00 Critical Incident Report completed; WO
+checked SCADA in the evening.
+02/07/2020 ~07:00 analyser trends checked Free Chlorine remains >4 mg/L; ~07:10 plant inhibited;
+~07:26 Email from WO to Management team; ~8:30 Drain and Clean of Clear Water Tank; Instrument
+tech fix analyser reader; 10:18 Phone notification to NSW Health; 12:57 Follow up email to NSW
+Health.
+03/07/2020 14:20 WQ test result 2.03 mg/L (within operational target).
+
+Automatic interlock shutoff to stop the transfer of water from the Clear Water tank to the Reservoir
+if Free Chlorine reaches the Critical Limit of >4 mg/L.
+
+Lessons Learnt:
+1. What we did well: capturing information for investigation purposes
+2. What we can improve on: complete incident report at time of incident (Alert not completed on
+30/06/2020); knowledge base of CCPs and confirmation of a secondary testing; remove email rules to
+stop alerts from going into inbox; Instrument maintenance schedule/regular checks/calibrations
+
+October 2020 – Willawarrin Supply
+Details of incident/emergency: Upriver catchment area received rainfall in late October that
+increased turbidity in the Macleay River. The Willawarrin operational bore 1 had a rise in turbidity
+from 0.32 NTU 28/10/2020 to 3.12 NTU 29/10/2020. Resulting the CCP1 Critical Limit exceedance
+(limit of 2 NTU). The secondary bore was also tested returning an Alert Level result of 1.91 NTU.
+
+Additional Background information:
+The plant had not run when the river became dirty; No water was transferred from borefield to the
+reservoir. Reservoir WQ results were - 1.24 NTU, 1mg/L Free Chlorine, 1.09mg/L Total Chlorine.
+
+Actions and Preventive actions undertaken:
+29/10/2020 The plant was shut down, and both bores tagged out and inhibited. Water Carting
+arrangement initiated with deliveries to the Willawarrin Reservoir from the KLM supply (Greenhill
+Reservoir) on 30/10/20, 31/10/20 and 2/11/20.
+2/11/2020 Flushing of bores commenced in the afternoon once when river cleared up.
+3/11/2020 reservoir stated to be filled around 3 pm producing good quality water - result of 0.48
+NTU.
+5/11/2020 Email sent to LPHU that included full incident report.
+
+Investigation & recommendations:
+Isolation of bores pre wet weather events. Council is progressing with the Willawarrin plant upgrade
+project that includes filtration. Action 2.85 in the DWMS IP relates to the Upgrade the telemetry and
+SCADA system and online monitoring for all sites to improve operational monitoring capabilities and
+response times. This action is a rolling project with scheduled upgrades for each financial year.
+
+Appendix C  Water Quality Verification Data - selected figures (from NSW Health Database, post-
+treatment sampling)
+
+Table C.6  Willawarrin Supply System Water Quality Data (selected characteristics)
+Iron: Guideline 0.3 mg/L (Aesthetic). Mean 0.015 mg/L, Min 0.005 mg/L, Max 0.05 mg/L, Sample
+Count 13, Exception Count 0, % Meeting Guidelines 100.
+Manganese: Guideline 0.5 mg/L. Mean 0.0141 mg/L, Min 0.0026 mg/L, Max 0.0627 mg/L, Sample
+Count 13, Exception Count 0, % Meeting Guidelines 100.
+Nickel: Guideline 0.02 mg/L. Mean 0.0025 mg/L, Min 0.0002 mg/L, Max 0.0204 mg/L, Sample Count
+13, Exception Count 1, % Meeting Guidelines 92.31.
+pH: Guideline 6.5-8.5. Mean 7.2, Min 6.6, Max 7.8, Sample Count 13, Exception Count 0, % Meeting
+Guidelines 100.
+Turbidity: Guideline 5 NTU. Mean 0.43 NTU, Min 0.05 NTU, Max 1 NTU, Sample Count 13, Exception
+Count 0, % Meeting Guidelines 100.
+Microbiology: E. coli 0 mpn/100mL (26 samples, 0 exceptions); Total Coliforms 0 mpn/100mL (26
+samples, 0 exceptions); pH (microbiology program) Mean 6.92, Min 6.33, Max 7.54, 26 samples, 5
+exceptions, 80.77% meeting guidelines.
+
+Table C.7  Bellbrook Supply System Water Quality Data (selected characteristics)
+Iron: Guideline 0.3 mg/L (Aesthetic). Mean 0.025 mg/L, Min 0.005 mg/L, Max 0.18 mg/L, Sample
+Count 12, Exception Count 0, % Meeting Guidelines 100.
+Manganese: Guideline 0.5 mg/L. Mean 0.0181 mg/L, Min 0.0021 mg/L, Max 0.0611 mg/L, Sample
+Count 12, Exception Count 0, % Meeting Guidelines 100.
+Nickel: Guideline 0.02 mg/L. Mean 0.0042 mg/L, Min 0.0002 mg/L, Max 0.0128 mg/L, Sample Count
+12, Exception Count 0, % Meeting Guidelines 100.
+pH: Guideline 6.5-8.5. Mean 7.7, Min 7.6, Max 7.9, Sample Count 12, Exception Count 0, % Meeting
+Guidelines 100.
+Turbidity: Guideline 5 NTU. Mean 0.63 NTU, Min 0.05 NTU, Max 1.7 NTU, Sample Count 12, Exception
+Count 0, % Meeting Guidelines 100.
+Microbiology: E. coli 0 mpn/100mL (26 samples, 0 exceptions); Total Coliforms 0 mpn/100mL (26
+samples, 0 exceptions); pH (microbiology program) Mean 7.41, Min 6.98, Max 7.85, 26 samples, 0
+exceptions, 100% meeting guidelines.
+
+12. References (selected)
+15. Kempsey Shire Council (2018-2019) DWMS Annual Water Quality Report. Kempsey Shire Council
+16. Kempsey Shire Council (2019-2020) DWMS Annual Water Quality Report. Kempsey Shire Council
+17. Kempsey Shire Council (2020) Kemspey Shire Council Water Restriction Review 2019-2020.
+Kempsey Shire Council
+18. NSW Government (2020) Kempsey LALC Aboriginal Communities Water Supply and Sewerage
+Systems Periodical Inspection, Report and minutes, NSW Government, Department of Industry
+
+---
+Preservation note: this file is a full-text transcription of the "Drinking Water Management System
+Annual Report, July 2020-June 2021" (Kempsey Shire Council; registered as SRC-0042 at
+https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf),
+pasted directly into this investigation by the operator (mayhem82) on 2026-07-29 from their own
+successful retrieval of the original PDF. This session's own fetch tool has returned HTTP 403 on this
+and every other URL attempted since RUN-0005 (DEC-0008) and could not retrieve this document
+independently; this preservation is based entirely on the operator-supplied text, not an independent
+fetch by this session. Reproduced text includes the Executive Summary, Section 3 (Supply Summary),
+Section 4 (Critical Control Points, Willawarrin/Bellbrook detail), Section 6 (Water Quality Verification,
+including Tables 6.1/6.2 and per-supply narrative for KLM/Willawarrin/Bellbrook), Section 7 (Water
+Quality Incidents, full detail for both recorded incidents), selected Appendix C data tables for
+Willawarrin and Bellbrook, and the References list. Extensive appendices (full CCP Standard
+Operating Procedure tables for all 8 supply systems, the complete multi-page Continuous
+Improvement Implementation Plan action-item log, and Appendix C data for the other 6 supply
+systems not directly relevant to this case) were omitted from this preservation file as immaterial to
+the Willawarrin/Bellbrook investigation, consistent with this repository's evidence-description
+practice of quoting and preserving the material portions of long source documents rather than
+requiring byte-for-byte duplication of irrelevant content.
