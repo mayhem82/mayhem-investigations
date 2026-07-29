@@ -11,6 +11,8 @@
     threads: 'data/threads.json',
     automationLog: 'data/automation_log.json',
     notes: 'data/investigation_notes.json',
+    decisions: 'data/decisions.json',
+    searchLog: 'data/search_log.json',
   };
 
   var NOTES_REFRESH_INTERVAL_MS = 15000;
@@ -61,6 +63,8 @@
     ['CTR-', 'contradictions'],
     ['THR-', 'threads'],
     ['NOTE-', 'notes'],
+    ['DEC-', 'decisions'],
+    ['SRCH-', 'searchlog'],
     ['Q-', 'questions'],
   ];
 
@@ -168,7 +172,7 @@
     ].concat(body));
   }
 
-  function renderResume(caseDef, evidence, chronology, contradictions, questions, threads, automationLog) {
+  function renderResume(caseDef, evidence, chronology, contradictions, questions, threads, automationLog, decisions) {
     var target = document.getElementById('resume-content');
     target.innerHTML = '';
     if (!caseDef) {
@@ -223,6 +227,14 @@
       activeThreads.map(function (t) { return t.thread_id + ' ' + t.name + ' — ' + t.status; }),
       'No active threads.',
       'threads', 'Open Investigation Threads'
+    ));
+
+    target.appendChild(resumeCard(
+      'Decision Register',
+      decisions.length + ' decision(s)',
+      lastN(decisions, 3).map(function (d) { return d.decision_id + ' (' + d.date + ') — ' + d.reason; }),
+      'No operating decisions recorded yet.',
+      'decisions', 'Open Decision Register'
     ));
 
     var lastRun = automationLog.length ? automationLog[automationLog.length - 1] : null;
@@ -436,6 +448,73 @@
     });
   }
 
+  // Sorts append-only, never-renumbered ID-prefixed records newest-first
+  // by the numeric part of their ID (e.g. "DEC-0012" -> 12), since several
+  // can share the same day-granularity date field.
+  function byIdDescending(idField) {
+    return function (a, b) {
+      var na = parseInt(String(a[idField] || '').replace(/\D/g, ''), 10) || 0;
+      var nb = parseInt(String(b[idField] || '').replace(/\D/g, ''), 10) || 0;
+      return nb - na;
+    };
+  }
+
+  function renderDecisions(list) {
+    var container = document.getElementById('decisions-list');
+    document.getElementById('decisions-count').textContent = list.length + ' decision(s)';
+    container.innerHTML = '';
+    if (!list.length) {
+      container.appendChild(emptyState('No operating decisions have been recorded yet.'));
+      return;
+    }
+    var sorted = list.slice().sort(byIdDescending('decision_id'));
+    sorted.forEach(function (d) {
+      var card = recordCard(
+        d.decision_id,
+        el('span', {}, [idTag(d.decision_id), ' — ', d.date || '']),
+        null,
+        [
+          kv('Date', d.date),
+          kv('Investigator', d.investigator),
+          kv('Reason', d.reason),
+          kv('Impact', d.impact),
+          kv('Supporting Evidence', tagList(d.supporting_evidence)),
+        ]
+      );
+      container.appendChild(card);
+    });
+  }
+
+  function renderSearchLog(list) {
+    var container = document.getElementById('searchlog-list');
+    document.getElementById('searchlog-count').textContent = list.length + ' search(es)';
+    container.innerHTML = '';
+    if (!list.length) {
+      container.appendChild(emptyState('No searches have been logged yet.'));
+      return;
+    }
+    var sorted = list.slice().sort(byIdDescending('search_id'));
+    sorted.forEach(function (s) {
+      var card = recordCard(
+        s.search_id,
+        el('span', {}, [idTag(s.search_id), ' — ', s.search_terms || '']),
+        null,
+        [
+          kv('Date', s.date),
+          kv('Time', s.time),
+          kv('Search Terms', s.search_terms),
+          kv('Search Engine', s.search_engine),
+          kv('Database', s.database),
+          kv('Filters', s.filters),
+          kv('Jurisdiction', s.jurisdiction),
+          kv('Results Reviewed', s.results_reviewed === null || s.results_reviewed === undefined ? '-' : String(s.results_reviewed)),
+          kv('Results Preserved', s.results_preserved === null || s.results_preserved === undefined ? '-' : String(s.results_preserved)),
+        ]
+      );
+      container.appendChild(card);
+    });
+  }
+
   function formatTimestamp(ts) {
     if (!ts) return '-';
     var d = new Date(ts);
@@ -602,7 +681,7 @@
   // Navigation
   // ---------------------------------------------------------------
 
-  var VALID_SECTIONS = ['resume', 'overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'threads', 'relationships', 'notes'];
+  var VALID_SECTIONS = ['resume', 'overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'threads', 'decisions', 'searchlog', 'relationships', 'notes'];
 
   // recordId, if given, opens and scrolls to that record's card within the
   // section (a real deep link, e.g. #evidence/EV-0011). opts.replace uses
@@ -724,6 +803,8 @@
     fetchJson(DATA_PATHS.threads),
     fetchJson(DATA_PATHS.automationLog),
     fetchJson(DATA_PATHS.notes),
+    fetchJson(DATA_PATHS.decisions),
+    fetchJson(DATA_PATHS.searchLog),
   ]).then(function (results) {
     var caseDef = results[0];
     var evidence = results[1];
@@ -734,8 +815,10 @@
     var threads = results[6];
     var automationLog = results[7];
     var notes = results[8];
+    var decisions = results[9];
+    var searchLog = results[10];
 
-    renderResume(caseDef, evidence, chronology, contradictions, questions, threads, automationLog);
+    renderResume(caseDef, evidence, chronology, contradictions, questions, threads, automationLog, decisions);
     renderCase(caseDef);
     renderEvidence(evidence);
     renderSources(sources);
@@ -743,6 +826,8 @@
     renderContradictions(contradictions);
     renderQuestions(questions);
     renderThreads(threads);
+    renderDecisions(decisions);
+    renderSearchLog(searchLog);
     renderRelationshipMap(evidence, chronology, contradictions, questions, threads);
     renderNotes(notes);
 
@@ -752,6 +837,8 @@
     setFilterable('contradictions-list', function (node) { return node.textContent; });
     setFilterable('questions-list', function (node) { return node.textContent; });
     setFilterable('threads-list', function (node) { return node.textContent; });
+    setFilterable('decisions-list', function (node) { return node.textContent; });
+    setFilterable('searchlog-list', function (node) { return node.textContent; });
     setFilterable('relationships-list', function (node) { return node.textContent; });
     setFilterable('notes-list', function (node) { return node.textContent; });
 

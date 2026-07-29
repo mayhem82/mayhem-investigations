@@ -654,5 +654,16 @@
     ],
     "reason": "RUN-0034, working on investigation threads (THR-05, THR-06) at the operator's request. THR-06's bore-vs-pipeline rationale remains unresolved after dedicated searching. THR-05 gained a substantial new event: a May 2025 major flood at Bellbrook (EV-0041), sitting within the Steuart McIntyre Dam plant's construction window.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0042",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "index.html",
+      "app.js"
+    ],
+    "reason": "Site audit (at the operator's request) found the Decision Register (12 entries) and Search Log (127 entries) were never loaded or rendered anywhere on the workspace site, despite being actively maintained data files - a real navigability gap against this workspace's own \"everything should be a real, clickable page\" design goal. Added Decision Register and Search Log as full sections (nav link, dedicated page, filter, deep-linkable record cards), added DEC-/SRCH- to the cross-reference ID map, added a Decision Register summary card to the Resume page, and fixed a missing favicon causing a harmless 404 on every page load.",
+    "validation_completed": true
   }
 ]
