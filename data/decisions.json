@@ -93,5 +93,20 @@
     ],
     "investigator": "mayhem82",
     "impact": "Going forward, a source with a genuine extracted fact is promoted to Evidence at the time it is found, using verification_state \"Requires Verification\" (or \"Unverified\"/\"Disputed\" as appropriate), classification \"Secondary Reference\", and a hash_exception_reason documenting that the finding is search-snippet-sourced pending direct preservation - not held back at Source Register level. This is structurally valid per validation rule 10/11 (only \"Accepted\" evidence requires non-null proof-of-fact). DEC-0008's underlying fetch-tool constraint is unchanged; this decision changes only how this repository responds to it. No question or contradiction is closed/resolved by this run - promoting evidence is distinct from resolving a question, and the existing conservative bar for closing Q-0006/CTR-0001 etc. without a fetched primary source is unchanged."
+  },
+  {
+    "decision_id": "DEC-0010",
+    "date": "2026-07-29",
+    "reason": "RUN-0031 initially preserved and promoted six Evidence entries (EV-0031-EV-0036) from a text the operator described as pasted \"from their own successful retrieval of the original PDF\" (SRC-0042). The operator then clarified the text was actually produced by ChatGPT's text-extraction of the PDF into a DOCX, with ChatGPT's own appended caveat that \"complex tables, formatting, and scanned page layouts may not exactly match the original PDF.\" This is a materially different, lower-confidence provenance than a direct primary-source read, particularly since the caveat specifically flags tables - exactly where this evidence's key figures come from (manganese concentrations, exceedance counts).",
+    "supporting_evidence": [
+      "EV-0031",
+      "EV-0032",
+      "EV-0033",
+      "EV-0034",
+      "EV-0035",
+      "EV-0036"
+    ],
+    "investigator": "mayhem82",
+    "impact": "EV-0031 through EV-0036 downgraded from classification \"Complete\"/verification_state \"Verified\" to \"Partial\"/\"Requires Verification\". SRC-0042 downgraded from preservation_status \"Preserved\" to \"Partially Preserved\". Establishes a standing rule for this investigation: content obtained via a third-party AI tool's extraction/OCR of a document (as opposed to a direct human read or this session's own fetch of the primary file) is recorded at \"Requires Verification\"/\"Partial\" at best, never \"Verified\"/\"Accepted\", until independently cross-checked against the original document - regardless of how specific or plausible the extracted figures look. Numeric tables are treated as the highest-risk content type for this kind of provenance."
   }
 ]

@@ -590,5 +590,20 @@
     ],
     "reason": "RUN-0031: the operator directly supplied the full text of SRC-0042 (a previously fetch-blocked Council water quality annual report), which this session preserved, hashed, and promoted to six Verified/Complete Evidence entries (EV-0031-EV-0036), closing THR-03/THR-04's long-standing data gap on actual Willawarrin manganese concentrations and substantially expanding THR-02's documented record of recurring trucked-water episodes beyond the main 2019-2020 crisis. SRC-0042 updated to Preserved/Hashed. Added 5 new Chronology entries.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0038",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/evidence_register.json",
+      "data/source_register.json",
+      "data/decisions.json",
+      "data/automation_log.json",
+      "data/investigation_notes.json",
+      "data/change_log.json"
+    ],
+    "reason": "Correction to RUN-0031 (caught before merge): the SRC-0042 text was produced by ChatGPT's extraction of the PDF (to DOCX), not a direct human/session read of the original as first assumed - ChatGPT's own caveat warns tables/layouts may not exactly match the source. Downgraded EV-0031-EV-0036 to classification \"Partial\"/verification_state \"Requires Verification\" and SRC-0042 to \"Partially Preserved\". Recorded a new standing decision (DEC-0010) on how this investigation treats AI-extracted document text going forward.",
+    "validation_completed": true
   }
 ]

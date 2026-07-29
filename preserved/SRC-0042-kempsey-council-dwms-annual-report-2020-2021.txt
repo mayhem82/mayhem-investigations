@@ -624,21 +624,35 @@ Kempsey Shire Council
 Systems Periodical Inspection, Report and minutes, NSW Government, Department of Industry
 
 ---
-Preservation note: this file is a full-text transcription of the "Drinking Water Management System
-Annual Report, July 2020-June 2021" (Kempsey Shire Council; registered as SRC-0042 at
-https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf),
-pasted directly into this investigation by the operator (mayhem82) on 2026-07-29 from their own
-successful retrieval of the original PDF. This session's own fetch tool has returned HTTP 403 on this
-and every other URL attempted since RUN-0005 (DEC-0008) and could not retrieve this document
-independently; this preservation is based entirely on the operator-supplied text, not an independent
-fetch by this session. Reproduced text includes the Executive Summary, Section 3 (Supply Summary),
-Section 4 (Critical Control Points, Willawarrin/Bellbrook detail), Section 6 (Water Quality Verification,
-including Tables 6.1/6.2 and per-supply narrative for KLM/Willawarrin/Bellbrook), Section 7 (Water
-Quality Incidents, full detail for both recorded incidents), selected Appendix C data tables for
-Willawarrin and Bellbrook, and the References list. Extensive appendices (full CCP Standard
-Operating Procedure tables for all 8 supply systems, the complete multi-page Continuous
-Improvement Implementation Plan action-item log, and Appendix C data for the other 6 supply
-systems not directly relevant to this case) were omitted from this preservation file as immaterial to
-the Willawarrin/Bellbrook investigation, consistent with this repository's evidence-description
-practice of quoting and preserving the material portions of long source documents rather than
-requiring byte-for-byte duplication of irrelevant content.
+Preservation note: this file reproduces text pasted into this investigation by the operator
+(mayhem82) on 2026-07-29, purporting to be from the "Drinking Water Management System Annual
+Report, July 2020-June 2021" (Kempsey Shire Council; registered as SRC-0042 at
+https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf).
+
+IMPORTANT PROVENANCE CORRECTION: this text was NOT a direct human read of the original PDF.
+The operator has clarified it was produced by ChatGPT's text-extraction of the PDF, converted to a
+DOCX, with ChatGPT's own appended caveat: "This is a text extraction. Complex tables, formatting,
+and scanned page layouts may not exactly match the original PDF." This is a materially lower-
+confidence provenance than a direct primary-source read or an independent fetch by this
+investigation - it is a third-party AI tool's extraction, unverified against the original by anyone in this
+chain, and the caveat specifically flags tables as an accuracy risk, which is exactly where this
+document's most load-bearing figures sit (Table 6.2 manganese concentrations and exceedance
+rates, Table 4.1/Figure 6 exceedance counts, Appendix C summary statistics). This session's own fetch
+tool has separately returned HTTP 403 on this and every other URL attempted since RUN-0005
+(DEC-0008) and could not retrieve or verify this document independently.
+
+Accordingly, per DEC-0010, all evidence drawn from this file (EV-0031 through EV-0036) is recorded
+at classification "Partial" and verification_state "Requires Verification", not "Complete"/"Verified" as
+originally recorded before this correction. The facts described are plausible and specific enough to be
+worth registering, but should be treated as provisional pending independent verification - ideally a
+direct fetch of the original PDF, or a second, independent extraction/manual read for cross-checking -
+rather than as a confirmed-accurate transcription.
+
+Reproduced text includes the Executive Summary, Section 3 (Supply Summary), Section 4 (Critical
+Control Points, Willawarrin/Bellbrook detail), Section 6 (Water Quality Verification, including Tables
+6.1/6.2 and per-supply narrative for KLM/Willawarrin/Bellbrook), Section 7 (Water Quality Incidents,
+full detail for both recorded incidents), selected Appendix C data tables for Willawarrin and Bellbrook,
+and the References list. Extensive appendices (full CCP Standard Operating Procedure tables for all 8
+supply systems, the complete multi-page Continuous Improvement Implementation Plan action-item
+log, and Appendix C data for the other 6 supply systems not directly relevant to this case) were
+omitted from this preservation file as immaterial to the Willawarrin/Bellbrook investigation.

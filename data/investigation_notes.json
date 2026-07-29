@@ -835,5 +835,14 @@
     "related_thread": "THR-03",
     "related_source": null,
     "related_evidence": "EV-0031"
+  },
+  {
+    "note_id": "NOTE-0094",
+    "timestamp": "2026-07-29T09:05:00",
+    "activity_type": "Note",
+    "text": "Correction to RUN-0031, caught before merge: the operator clarified that the SRC-0042 text was produced by ChatGPT's extraction of the PDF into a DOCX, not their own direct read of the original document as this run's evidence entries had assumed. ChatGPT's own appended disclaimer specifically warns that \"complex tables, formatting, and scanned page layouts may not exactly match the original PDF\" - a real risk for exactly the numeric table data (manganese concentrations, exceedance counts) this run's evidence rests on. Downgraded EV-0031 through EV-0036 to classification \"Partial\" / verification_state \"Requires Verification\", SRC-0042 to \"Partially Preserved\", and recorded a new standing decision (DEC-0010) that AI-extracted document text is never treated as \"Verified\"/\"Accepted\" without independent cross-checking, regardless of how specific the figures look. The underlying facts are still plausible and worth having in the register, but the confidence tier now honestly reflects the actual provenance chain.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0031"
   }
 ]
