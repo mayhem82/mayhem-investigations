@@ -261,5 +261,25 @@
     "supporting_evidence": [
       "EV-0041"
     ]
+  },
+  {
+    "chronology_id": "CHR-0027",
+    "event_date": "2005",
+    "date_is_inference": false,
+    "event_description": "Bellbrook's raw (ground)water supply becomes contaminated by heavy metals and arsenic from former Hillgrove-area mines; elevated arsenic is detected in the town's drinking water through to 2007.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0043"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0028",
+    "event_date": "2008",
+    "date_is_inference": false,
+    "event_description": "Water has to be trucked into Bellbrook because the town's water supply is too contaminated to use - a previously unknown, earlier trucked-water crisis, distinct from and predating the well-documented 2019-2020 episode by over a decade.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0044"
+    ]
   }
 ]

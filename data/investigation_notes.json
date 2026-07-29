@@ -880,5 +880,14 @@
     "related_thread": "THR-12",
     "related_source": null,
     "related_evidence": "EV-0042"
+  },
+  {
+    "note_id": "NOTE-0099",
+    "timestamp": "2026-07-29T12:15:00",
+    "activity_type": "Note",
+    "text": "RUN-0037: deep-research pass on Q-0002/Bellbrook (at the operator's request for deeper research), moving beyond the well-trodden Willawarrin-focused searches of recent runs. Tried NSW ACWSP completed-projects listings again with a more specific query - did NOT reproduce the \"Bellbrook\" mention SRC-0027 found in RUN-0006, reinforcing the caution already recorded there rather than resolving it either way. The significant find this run: a historical-summary source (historicalencounters.org) reports Bellbrook's raw water supply was contaminated by arsenic from Hillgrove-area mining starting in 2005, and that water had to be trucked into the town in 2008 as a result - a previously unknown, much earlier trucked-water crisis than the 2019-2020 episode this case has focused on throughout. Cross-confirmed across three separate search queries with identical figures, but all appear to trace to the same single page rather than genuinely independent sources; a dedicated search for a contemporaneous (2008-era) news article corroborating this found nothing. Recorded as EV-0043/EV-0044/EV-0045 at \"Requires Verification\" pending independent corroboration - if confirmed, this would make 2008 the earliest documented Bellbrook water-supply failure in this register and materially strengthens the case's recurring-failure premise.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": "EV-0044"
   }
 ]

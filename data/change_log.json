@@ -681,5 +681,22 @@
     ],
     "reason": "RUN-0036, continuing evidence collection with fresh angles for Q-0001 (council business papers, operational plans). Confirmed a recent (16 June 2026) Council meeting exists and the FY2025-26 Operational Plan still lists the Willawarrin plant as active (EV-0042). Precisely identified the remaining Q-0001 gap as a single specific business paper rather than a general absence of information.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0044",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/chronology.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0037, deep-research pass on Q-0002/Bellbrook. Found a previously unknown, earlier (2005 contamination, 2008 trucked-water) Bellbrook water crisis - a decade before this case's well-documented 2019-2020 episode - cross-confirmed across three searches but not yet independently corroborated. Added 3 new Evidence entries and 2 Chronology entries. Materially strengthens the case's recurring-failure premise, pending confirmation.",
+    "validation_completed": true
   }
 ]

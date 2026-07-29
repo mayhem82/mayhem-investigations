@@ -936,5 +936,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-08",
     "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012). A previously unregistered Council community-consultation event specific to the Willawarrin plant, held 16 March 2023 - roughly 17 months before EV-0004's Aug 2024 tender-stage article, so likely an early design/consultation-phase meeting. No content extracted beyond the event's existence and date."
+  },
+  {
+    "source_id": "SRC-0068",
+    "authority": "Historical Encounters (historicalencounters.org)",
+    "title": "Bellbrook",
+    "type": "Other Public Record",
+    "url_or_file_location": "https://www.historicalencounters.org/he/bellbrook/",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "historicalencounters.org fetch not attempted (DEC-0008/DEC-0012 confirmed organizational egress policy block). A substantial, previously unregistered general-history page for Bellbrook, reproduced consistently and with identical specific figures across three separate search queries this run: raw water supply contaminated by heavy metals/arsenic from former Hillgrove-area mines from 2005 (elevated arsenic detected 2005-2007, traced to groundwater rather than river surface water); water had to be trucked into the town in 2008 because the supply was so contaminated; a new $700,000 water treatment plant was installed in 2009 to address the issue. Also states the Mirriwinni Gardens Aboriginal Academy operated at Bellbrook for more than 30 years, educating over 1,500 children, before closing in 2009 due to financial difficulties. All three search reproductions appear to derive from this single underlying page rather than genuinely independent sources - no separate, distinct corroborating source (e.g. a contemporaneous 2008 news article) could be found despite a dedicated search attempt."
   }
 ]
