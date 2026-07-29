@@ -426,5 +426,25 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Not an evidence-collection run. The operator reported that SRC-0001's live URL (archive.kempsey.nsw.gov.au) now returns HTTP 404; updated the Source Register accordingly. While investigating, audited document_hash integrity across the entire Evidence Register by independently computing SHA-256 over every preserved file and comparing to the recorded hash - found and corrected 9 mismatched hashes from RUN-0001/RUN-0002 (EV-0001, EV-0002, EV-0003, EV-0004, EV-0007, EV-0008, EV-0009, EV-0011, EV-0012), none of which had ever matched their file (confirmed via git history - the files were never modified after their single original commit, so the hash was wrong from the start, not corrupted later). Recorded as DEC-0011. No new evidence collected; no question or contradiction affected."
+  },
+  {
+    "run_id": "RUN-0033",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0058",
+      "SRC-0059",
+      "SRC-0060",
+      "SRC-0061",
+      "SRC-0062",
+      "SRC-0063"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0037",
+      "EV-0038",
+      "EV-0039",
+      "EV-0040"
+    ],
+    "notes": "At the operator's request to use other collection methods: ran the environment's proxy diagnostic and confirmed the fetch-tool block (DEC-0008) is a deliberate organizational egress policy, not a fixable bug - recorded as DEC-0012, with no further workaround attempts. Diversified WebSearch methods: academic literature (PubMed/Water Research, first Scientific Publication source type used, EV-0040), first-party company statements (Eire Constructions' own site/Facebook confirm the LC Eire contractor lead for Q-0005 with stronger sourcing than before, plus a new DAFF construction-technology/milestone detail, EV-0037/EV-0038), a business-registry cross-check ruling out a same-named but unrelated company, and official court records (NSW Coroners Court findings document identified for the Carrai East Bushfire, EV-0039). Q-0005 remains open - stronger evidence, not a fetched primary source, consistent with this investigation's closure bar."
   }
 ]
