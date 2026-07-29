@@ -950,5 +950,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "historicalencounters.org fetch not attempted (DEC-0008/DEC-0012 confirmed organizational egress policy block). A substantial, previously unregistered general-history page for Bellbrook, reproduced consistently and with identical specific figures across three separate search queries this run: raw water supply contaminated by heavy metals/arsenic from former Hillgrove-area mines from 2005 (elevated arsenic detected 2005-2007, traced to groundwater rather than river surface water); water had to be trucked into the town in 2008 because the supply was so contaminated; a new $700,000 water treatment plant was installed in 2009 to address the issue. Also states the Mirriwinni Gardens Aboriginal Academy operated at Bellbrook for more than 30 years, educating over 1,500 children, before closing in 2009 due to financial difficulties. All three search reproductions appear to derive from this single underlying page rather than genuinely independent sources - no separate, distinct corroborating source (e.g. a contemporaneous 2008 news article) could be found despite a dedicated search attempt."
+  },
+  {
+    "source_id": "SRC-0069",
+    "authority": "PANGAEA (data publisher), Johnston, S.G. et al.",
+    "title": "Seasonal mobility of Arsenic and Antimony in the Macleay River 2016-2019 (dataset)",
+    "type": "Scientific Publication",
+    "url_or_file_location": "https://doi.pangaea.de/10.1594/PANGAEA.920582",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-05",
+    "availability_notes": "doi.pangaea.de fetch not attempted (DEC-0008/DEC-0012). A raw scientific dataset (distinct from the 2022 Water Research paper already registered at SRC-0061, though from the same Johnston et al./SCU citizen-science project) covering 2016-2019 arsenic/antimony mobility in the Macleay River - potentially the underlying data behind SRC-0028's citizen-science findings. No specific figures extracted from search-engine snippets."
+  },
+  {
+    "source_id": "SRC-0070",
+    "authority": "OldNews (oldnews.com) / Trove (National Library of Australia)",
+    "title": "Macleay Argus Historical Archive (1885-present, 47,136+ scans)",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.oldnews.com/en/newspapers/australia/new-south-wales/kempsey/macleay-argus",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; archive itself confirmed to exist and cover 1885-present per search-engine snippet",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "oldnews.com fetch not attempted (DEC-0008/DEC-0012); a full-text newspaper archive search interface cannot be meaningfully queried through this session's general WebSearch tool either (general search engines do not appear to index individual archived-newspaper-page content from this site). Registered as a known, identified resource - alongside Trove (trove.nla.gov.au), which also archives The Macleay Argus - for a future run or manual researcher to search directly for a contemporaneous 2008 article corroborating EV-0044's Bellbrook trucked-water claim, which this run could not find via general web search."
   }
 ]
