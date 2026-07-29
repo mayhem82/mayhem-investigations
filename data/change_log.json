@@ -637,5 +637,22 @@
     ],
     "reason": "RUN-0033, at the operator's request to use other collection methods. Confirmed via this environment's own proxy diagnostic that the persistent fetch-tool block is a deliberate organizational egress policy (DEC-0012), not a fixable bug. Diversified research methods beyond repeated WebSearch phrasing: academic literature, first-party company statements (strengthening the Q-0005 contractor lead and adding a construction-technology detail), a business-registry cross-check, and official court records. Added 4 new Evidence entries and 6 new Source entries.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0041",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/chronology.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0034, working on investigation threads (THR-05, THR-06) at the operator's request. THR-06's bore-vs-pipeline rationale remains unresolved after dedicated searching. THR-05 gained a substantial new event: a May 2025 major flood at Bellbrook (EV-0041), sitting within the Steuart McIntyre Dam plant's construction window.",
+    "validation_completed": true
   }
 ]

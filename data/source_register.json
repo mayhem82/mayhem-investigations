@@ -880,5 +880,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-05",
     "availability_notes": "macleayargus.com.au fetch not attempted (DEC-0008/DEC-0012). A second independent media corroboration (Australian Community Media, distinct outlet from Mirage News/SRC-0062) of the same August 2023 dam-supply switch (SRC-0048/EV-0028)."
+  },
+  {
+    "source_id": "SRC-0064",
+    "authority": "Kempsey Shire Council",
+    "title": "Macleay River Flood Update series, May 2025 (Moderate to Major Flood Warning)",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250523-Macleay-River-Flood-Update",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; flood update series dated 20-25 May 2025 per URL slugs and search-engine snippets",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-05",
+    "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012 confirmed organizational egress policy block). A genuinely new, previously unregistered event for this case: the Bureau of Meteorology issued a Moderate to Major Flood Warning for the Macleay River (Georges Creek, Bellbrook, Kempsey, Smithtown) around 21-22 May 2025. Council issued at least 24 numbered flood updates across the event. Bellbrook's own river gauge reached 10.55m (11:12am 22 May 2025) against a minor flood level of 6.50m - a major flood by Bellbrook's own classification. Kempsey CBD flooded after the Broughton Street and Eden Street levees overtopped; several Lower Macleay towns (Crescent Head, Hat Head, South West Rocks, Smithtown, Gladstone, Kinchela) were isolated by road closures. A separate, apparently milder Minor-to-Moderate flood warning was also issued in March 2025 (around 21 March, days before the 24 March 2025 Steuart McIntyre Dam sod-turning, EV-0006) - not registered as a distinct evidence item given more limited/less clearly-dated snippet detail, but flagged here for a future run."
   }
 ]

@@ -862,5 +862,14 @@
     "related_thread": "THR-13",
     "related_source": null,
     "related_evidence": "EV-0037"
+  },
+  {
+    "note_id": "NOTE-0097",
+    "timestamp": "2026-07-29T11:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0034: at the operator's request to work on investigation threads, focused on THR-06 (Extraction decisions, In Progress but never directly researched) and THR-05 (River conditions). THR-06's specific question (why Willawarrin was never connected to the dam-fed network) remains genuinely unanswered after dedicated searching - likely locked in an un-indexed council engineering/options report. THR-05 got a substantial new find instead: a previously unregistered Moderate to Major flood event around 21-22 May 2025, with Bellbrook's own gauge reaching major flood level. This sits within the Steuart McIntyre Dam plant's construction window (between the 24 March 2025 sod-turning and the 31 August 2025 \"under construction\" status check) and is flagged as a plausible, unconfirmed factor in that project's completion-date discrepancy - not claimed as proven.",
+    "related_thread": "THR-05",
+    "related_source": null,
+    "related_evidence": "EV-0041"
   }
 ]

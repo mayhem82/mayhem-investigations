@@ -1450,5 +1450,77 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 10,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0122",
+    "search_terms": "Willawarrin why not connected Steuart McIntyre Dam pipeline reticulated main network feasibility",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0123",
+    "search_terms": "Kinne Ring mayor column water network Kempsey macleayargus.com.au 8926622",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0124",
+    "search_terms": "Kempsey Shire flood May 2025 Willawarrin Bellbrook water supply impact",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0125",
+    "search_terms": "Bellbrook Willawarrin evacuation May 2025 flood Macleay River major",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0126",
+    "search_terms": "\"Flood-event-March-2025\" Kempsey Macleay Valley flood update details",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0127",
+    "search_terms": "Kempsey Willawarrin options assessment report bore vs pipeline connection Sherwood dam reticulation",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
   }
 ]
