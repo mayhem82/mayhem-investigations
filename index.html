@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>MAYHEM - DFAPTI-BB-2026-00001</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -31,6 +32,8 @@
     <li><button class="nav-link" data-section="contradictions">Contradiction Register</button></li>
     <li><button class="nav-link" data-section="questions">Open Questions</button></li>
     <li><button class="nav-link" data-section="threads">Investigation Threads</button></li>
+    <li><button class="nav-link" data-section="decisions">Decision Register</button></li>
+    <li><button class="nav-link" data-section="searchlog">Search Log</button></li>
     <li><button class="nav-link" data-section="relationships">Relationship Map</button></li>
     <li><button class="nav-link" data-section="notes">Investigation Notes</button></li>
   </ul>
@@ -91,6 +94,22 @@
     <input type="search" class="filter-input" data-filter-target="threads-list" placeholder="Filter threads..." />
     <div id="threads-count" class="section-count"></div>
     <div id="threads-list" class="stack"></div>
+  </section>
+
+  <section id="section-decisions" class="workspace-section" data-title="Decision Register" hidden>
+    <h1 class="section-title">Decision Register</h1>
+    <p class="section-intro">Operating decisions made during this investigation and why - tooling constraints, evidentiary policy, and corrections to earlier work. Distinct from Evidence: this is a record of investigator judgment calls, not facts about the case itself.</p>
+    <input type="search" class="filter-input" data-filter-target="decisions-list" placeholder="Filter decisions..." />
+    <div id="decisions-count" class="section-count"></div>
+    <div id="decisions-list" class="stack"></div>
+  </section>
+
+  <section id="section-searchlog" class="workspace-section" data-title="Search Log" hidden>
+    <h1 class="section-title">Search Log</h1>
+    <p class="section-intro">Every search run during evidence collection, logged regardless of outcome - including searches that found nothing relevant, per this investigation's honesty standard (spec section 7).</p>
+    <input type="search" class="filter-input" data-filter-target="searchlog-list" placeholder="Filter search log..." />
+    <div id="searchlog-count" class="section-count"></div>
+    <div id="searchlog-list" class="stack"></div>
   </section>
 
   <section id="section-relationships" class="workspace-section" data-title="Relationship Map" hidden>
