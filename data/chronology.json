@@ -251,5 +251,15 @@
     "supporting_evidence": [
       "EV-0031"
     ]
+  },
+  {
+    "chronology_id": "CHR-0026",
+    "event_date": "2025-05-22",
+    "date_is_inference": false,
+    "event_description": "A Moderate to Major Flood Warning is issued for the Macleay River; Bellbrook's own river gauge reaches 10.55m, a major flood by its own classification (minor flood level 6.50m). Kempsey CBD floods after levees overtop; several Lower Macleay towns are isolated by road closures.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0041"
+    ]
   }
 ]

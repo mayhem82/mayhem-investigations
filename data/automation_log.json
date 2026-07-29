@@ -446,5 +446,17 @@
       "EV-0040"
     ],
     "notes": "At the operator's request to use other collection methods: ran the environment's proxy diagnostic and confirmed the fetch-tool block (DEC-0008) is a deliberate organizational egress policy, not a fixable bug - recorded as DEC-0012, with no further workaround attempts. Diversified WebSearch methods: academic literature (PubMed/Water Research, first Scientific Publication source type used, EV-0040), first-party company statements (Eire Constructions' own site/Facebook confirm the LC Eire contractor lead for Q-0005 with stronger sourcing than before, plus a new DAFF construction-technology/milestone detail, EV-0037/EV-0038), a business-registry cross-check ruling out a same-named but unrelated company, and official court records (NSW Coroners Court findings document identified for the Carrai East Bushfire, EV-0039). Q-0005 remains open - stronger evidence, not a fetched primary source, consistent with this investigation's closure bar."
+  },
+  {
+    "run_id": "RUN-0034",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0064"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0041"
+    ],
+    "notes": "At the operator's request to work on investigation threads: pursued THR-06 (Extraction decisions/bore-vs-pipeline rationale) with no relevant change found - remains a genuine gap needing an un-indexed council document. Found a substantial new event for THR-05 (River conditions): a previously unregistered Moderate to Major flood warning around 21-22 May 2025, with Bellbrook's own gauge reaching major flood level, sitting within the Steuart McIntyre Dam plant's construction window. Flagged (not confirmed) as a plausible factor in that project's completion-date discrepancy noted at EV-0029."
   }
 ]

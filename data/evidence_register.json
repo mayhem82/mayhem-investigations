@@ -1036,5 +1036,32 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0041",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2025-05-22",
+    "source_authority": "Kempsey Shire Council / Bureau of Meteorology",
+    "source_title": "Macleay River Flood Update series, May 2025 (Moderate to Major Flood Warning)",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250523-Macleay-River-Flood-Update",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "A Moderate to Major Flood Warning was issued for the Macleay River (Georges Creek, Bellbrook, Kempsey, Smithtown) around 21-22 May 2025. Bellbrook's own river gauge reached 10.55m at 11:12am on 22 May 2025 - well above the minor flood level of 6.50m, i.e. a major flood specifically at Bellbrook - before falling to 10.30m by 4:12pm the same day and to 5.94m (below minor flood level) by 24 May. The Macleay River also reached 7.07m at the Kempsey Traffic Bridge, overtopping the Broughton Street and Eden Street levees and flooding the Kempsey CBD; several Lower Macleay towns were isolated by road closures. Council issued at least 24 numbered flood updates across the event.",
+    "relevant_quotation": null,
+    "investigation_relevance": "A significant, previously unregistered flood event directly affecting Bellbrook (major flood level at its own gauge) roughly two months after the Steuart McIntyre Dam plant's construction start (24 March 2025, EV-0006) and about three months before the federal tracker's \"Under construction\" status check (31 August 2025, EV-0029). Directly relevant to THR-05 (River conditions) and plausibly relevant to understanding project timeline pressures, though no source found this run directly connects this flood to construction delays or the completion-date discrepancy already flagged at EV-0029/SRC-0054 - that connection is not claimed, only flagged as a plausible avenue for a future run.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0006",
+      "EV-0029"
+    ],
+    "chronology_links": [
+      "CHR-0026"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]
