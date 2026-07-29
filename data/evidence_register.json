@@ -1063,5 +1063,32 @@
     ],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0042",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2025 (FY2025-26 plan)",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Operational Plan 2025/26",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "Council's own formal Operational Plan for FY2025-26 lists \"construction of the new Willawarrin Water Treatment Plant\" as a named key project for that financial year.",
+    "relevant_quotation": null,
+    "investigation_relevance": "An official council planning-document-level corroboration (distinct source type from press releases and federal trackers already registered) that the Willawarrin plant was still an active, unfinished project as Council planned for FY2025-26 - consistent with EV-0029's federally-confirmed \"Under construction\" status as of 31 August 2025. Does not itself resolve Q-0001 (no 2026-dated completion/commissioning information found).",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0006",
+      "EV-0029"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001"
+    ]
   }
 ]

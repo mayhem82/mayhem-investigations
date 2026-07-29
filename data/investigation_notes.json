@@ -871,5 +871,14 @@
     "related_thread": "THR-05",
     "related_source": null,
     "related_evidence": "EV-0041"
+  },
+  {
+    "note_id": "NOTE-0098",
+    "timestamp": "2026-07-29T11:40:00",
+    "activity_type": "Note",
+    "text": "RUN-0036: given DEC-0012 confirmed the fetch block is a deliberate organizational policy (not a bug), stopped doing a perfunctory fetch retry each run and went straight to search. Pursued Q-0001/THR-12 with fresh, more specific angles (council business papers, budget/operational plans, the population forecast site referenced in SRC-0042's own bibliography). Found that Council held a genuine, recent Ordinary Council Meeting on 16 June 2026 (SRC-0066) and that the FY2025-26 Operational Plan still lists the Willawarrin plant as an active project (SRC-0065/EV-0042) - but no specific content from the June 2026 meeting itself could be extracted despite several differently-worded search attempts. This narrows Q-0001's remaining gap to one precisely identified document (the 16 June 2026 business paper) rather than a general absence of 2026 news.",
+    "related_thread": "THR-12",
+    "related_source": null,
+    "related_evidence": "EV-0042"
   }
 ]
