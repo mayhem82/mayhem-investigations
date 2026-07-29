@@ -26,9 +26,12 @@
       "EV-0002",
       "EV-0003",
       "EV-0024",
-      "EV-0025"
+      "EV-0025",
+      "EV-0032",
+      "EV-0033",
+      "EV-0034"
     ],
-    "outstanding_work": "RUN-0024 found SRC-0044 (fetch-blocked): Council carted water to Willawarrin 'since October 2' (2019) and 'intermittently' to Bellbrook and the Thunggutti Aboriginal Community during the bushfire emergency - the first source confirming Bellbrook actually received trucked water, not just anticipated need. SRC-0045 (fetch-blocked) adds volume/cost detail: $161,000 government funding, approximately 10-13 kilolitres/day carted to each village. RUN-0025 specifically searched for a separate Bellbrook start/end date and found none - every source treats Willawarrin and Bellbrook as returning to river supply together on 18 June 2020 (CHR-0002), and describes Bellbrook's carting as 'intermittent' rather than continuous from a single date, consistent with SRC-0044. Working conclusion (not yet primary-sourced): Bellbrook's trucked-water period likely did not have a single clean start date the way Willawarrin's did, and ended on the same date as Willawarrin's. Still needs a preserved primary source before this can be promoted to an Evidence Register entry. RUN-0027: promoted SRC-0044 and SRC-0045 to EV-0024/EV-0025 (Willawarrin trucked water from 2 October 2019; Bellbrook and Thunggutti received intermittent carting; $161,000 funding; 10-13 kL/day per village), same \"Requires Verification\" / search-snippet-sourced basis as the rest of this run's promotions.",
+    "outstanding_work": "RUN-0024 found SRC-0044 (fetch-blocked): Council carted water to Willawarrin 'since October 2' (2019) and 'intermittently' to Bellbrook and the Thunggutti Aboriginal Community during the bushfire emergency - the first source confirming Bellbrook actually received trucked water, not just anticipated need. SRC-0045 (fetch-blocked) adds volume/cost detail: $161,000 government funding, approximately 10-13 kilolitres/day carted to each village. RUN-0025 specifically searched for a separate Bellbrook start/end date and found none - every source treats Willawarrin and Bellbrook as returning to river supply together on 18 June 2020 (CHR-0002), and describes Bellbrook's carting as 'intermittent' rather than continuous from a single date, consistent with SRC-0044. Working conclusion (not yet primary-sourced): Bellbrook's trucked-water period likely did not have a single clean start date the way Willawarrin's did, and ended on the same date as Willawarrin's. Still needs a preserved primary source before this can be promoted to an Evidence Register entry. RUN-0027: promoted SRC-0044 and SRC-0045 to EV-0024/EV-0025 (Willawarrin trucked water from 2 October 2019; Bellbrook and Thunggutti received intermittent carting; $161,000 funding; 10-13 kL/day per village), same \"Requires Verification\" / search-snippet-sourced basis as the rest of this run's promotions. RUN-0031: the operator-supplied SRC-0042 full text adds substantial new detail. Bellbrook's plant was offline specifically from 13 January 2020 to 18 June 2020 due to persistent high manganese (EV-0032), giving THR-02 its first exact primary-sourced start date for Bellbrook's own outage (distinct from Willawarrin's, dated from 2 October 2019 per EV-0024/SRC-0044). Beyond the main 2019-2020 crisis, both towns needed further, separate trucked-water periods during FY2020-21 alone: Willawarrin on 30 October-2 November 2020 (a turbidity incident, EV-0033) and intermittently 23 Dec 2020-11 Jan 2021 and 18 Mar-13 Apr 2021; Bellbrook intermittently 22 Dec 2020-7 Jan 2021 and continuously 21 Mar-30 Jun 2021 (EV-0034). This substantially strengthens the \"recurring failure\" premise with primary-sourced, dated instances beyond the single well-known 2019-2020 episode.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -38,9 +41,11 @@
     "status": "In Progress",
     "supporting_evidence": [
       "EV-0001",
-      "EV-0002"
+      "EV-0002",
+      "EV-0031",
+      "EV-0035"
     ],
-    "outstanding_work": "Obtain actual water-quality test results (iron concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only. RUN-0026 found a previously unregistered Council annual water quality report covering the exact July 2019-June 2020 crisis period (SRC-0047, fetch-blocked) - the strongest candidate yet, alongside the already-registered 2020-2021 report (SRC-0042), for actual concentration figures. No specific figures found via search-engine snippets; both documents need to be fetched directly.",
+    "outstanding_work": "Obtain actual water-quality test results (iron concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only. RUN-0026 found a previously unregistered Council annual water quality report covering the exact July 2019-June 2020 crisis period (SRC-0047, fetch-blocked) - the strongest candidate yet, alongside the already-registered 2020-2021 report (SRC-0042), for actual concentration figures. No specific figures found via search-engine snippets; both documents need to be fetched directly. RUN-0031: the operator directly supplied the full text of SRC-0042 (the 2020-2021 DWMS Annual Report), which this session's own fetch tool could not retrieve (DEC-0008). This finally closes the thread's central gap with actual measured data: Willawarrin recorded 0 Iron ADWG exceedances that year (9 tests, NSW Health program) but was the only one of Council's 8 supply systems whose total ADWG/WQI exceptions increased year-on-year (14 in 2019-2020 to 43 in 2020-2021, against 105 in 2018-2019) - see EV-0031/EV-0035. The still-unregistered 2019-2020 report (SRC-0047) covering the actual crisis period remains the next priority if it can be obtained the same way.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -50,9 +55,11 @@
     "status": "In Progress",
     "supporting_evidence": [
       "EV-0001",
-      "EV-0002"
+      "EV-0002",
+      "EV-0031",
+      "EV-0035"
     ],
-    "outstanding_work": "Obtain actual water-quality test results (manganese concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only. RUN-0026 found a previously unregistered Council annual water quality report covering the exact July 2019-June 2020 crisis period (SRC-0047, fetch-blocked) - the strongest candidate yet, alongside the already-registered 2020-2021 report (SRC-0042), for actual concentration figures. No specific figures found via search-engine snippets; both documents need to be fetched directly.",
+    "outstanding_work": "Obtain actual water-quality test results (manganese concentrations vs Australian Drinking Water Guidelines) rather than descriptive media/council reporting only. RUN-0026 found a previously unregistered Council annual water quality report covering the exact July 2019-June 2020 crisis period (SRC-0047, fetch-blocked) - the strongest candidate yet, alongside the already-registered 2020-2021 report (SRC-0042), for actual concentration figures. No specific figures found via search-engine snippets; both documents need to be fetched directly. RUN-0031: the operator directly supplied the full text of SRC-0042. Willawarrin recorded 4 Manganese ADWG aesthetic exceedances in 2020-2021 (0.159-0.2 mg/L against the >0.1 mg/L aesthetic guideline, 20 Nov-14 Dec 2020, 26.67% of that year's 15 Manganese tests under the operational monitoring program) - see EV-0031. This is aesthetic-only (no exceedance of the higher 0.3 mg/L health guideline was recorded), and the separate NSW Health-sponsored program's 13 Manganese samples that year averaged much lower (0.0141 mg/L) with zero exceedances - both figures are reported honestly rather than picking the more dramatic one. Bellbrook's five Free Chlorine Alert Levels that year were separately attributed to high manganese consuming chlorine residuals, though no Bellbrook Manganese ADWG exceedance was itself recorded. The still-unregistered 2019-2020 report (SRC-0047) covering the actual crisis period remains the next priority.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
