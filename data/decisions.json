@@ -108,5 +108,23 @@
     ],
     "investigator": "mayhem82",
     "impact": "EV-0031 through EV-0036 downgraded from classification \"Complete\"/verification_state \"Verified\" to \"Partial\"/\"Requires Verification\". SRC-0042 downgraded from preservation_status \"Preserved\" to \"Partially Preserved\". Establishes a standing rule for this investigation: content obtained via a third-party AI tool's extraction/OCR of a document (as opposed to a direct human read or this session's own fetch of the primary file) is recorded at \"Requires Verification\"/\"Partial\" at best, never \"Verified\"/\"Accepted\", until independently cross-checked against the original document - regardless of how specific or plausible the extracted figures look. Numeric tables are treated as the highest-risk content type for this kind of provenance."
+  },
+  {
+    "decision_id": "DEC-0011",
+    "date": "2026-07-29",
+    "reason": "While checking the operator's report that SRC-0001's live URL now returns HTTP 404, this session audited every Evidence Register entry with a preserved_file_reference by independently computing SHA-256 over the actual file on disk and comparing it to the recorded document_hash. Nine entries from RUN-0001/RUN-0002 (EV-0001, EV-0002, EV-0003, EV-0004, EV-0007, EV-0008, EV-0009, EV-0011, EV-0012) had a document_hash that did NOT match their preserved file. Git history shows each affected file has only ever had a single commit (never modified since first added), so this is not file corruption or drift after the fact - the recorded hash was simply never an accurate SHA-256 of the file when it was first written to the register, for reasons this session cannot determine (most plausibly a hash value that was written without actually running a hashing tool against the real file). Ten other entries from the same original batch (EV-0005, EV-0006, EV-0010, EV-0013) and all of this session's own hashed entries (EV-0031-EV-0036) were independently confirmed correct.",
+    "supporting_evidence": [
+      "EV-0001",
+      "EV-0002",
+      "EV-0003",
+      "EV-0004",
+      "EV-0007",
+      "EV-0008",
+      "EV-0009",
+      "EV-0011",
+      "EV-0012"
+    ],
+    "investigator": "mayhem82",
+    "impact": "document_hash corrected on all nine affected entries to the actual, independently-verified SHA-256 of their preserved files (the files themselves were not altered - only the hash field, which was simply wrong, was fixed to match reality). classification and verification_state left unchanged since the underlying preserved files appear genuine and unaltered; this was a recording error, not a fabricated or substituted source. Establishes a standing operating rule: any future document_hash entered into this register must be the literal output of a hashing tool (scripts/hash-file.js or equivalent) run against the exact preserved file, never typed or estimated, and this session commits to spot-checking hash integrity periodically going forward given this discovery."
   }
 ]

@@ -605,5 +605,20 @@
     ],
     "reason": "Correction to RUN-0031 (caught before merge): the SRC-0042 text was produced by ChatGPT's extraction of the PDF (to DOCX), not a direct human/session read of the original as first assumed - ChatGPT's own caveat warns tables/layouts may not exactly match the source. Downgraded EV-0031-EV-0036 to classification \"Partial\"/verification_state \"Requires Verification\" and SRC-0042 to \"Partially Preserved\". Recorded a new standing decision (DEC-0010) on how this investigation treats AI-extracted document text going forward.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0039",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/decisions.json",
+      "data/automation_log.json",
+      "data/investigation_notes.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0032: operator reported SRC-0001's live URL now 404s (updated Source Register). While investigating, audited and corrected document_hash on 9 Evidence Register entries (EV-0001-EV-0004, EV-0007-EV-0009, EV-0011, EV-0012) whose recorded hash never actually matched their preserved file (a RUN-0001/RUN-0002-era recording error, not file corruption or a fabricated source - confirmed via git history that the files were never modified). Recorded as DEC-0011, with a standing rule that future document_hash values must come from an actual hashing tool run against the real file.",
+    "validation_completed": true
   }
 ]

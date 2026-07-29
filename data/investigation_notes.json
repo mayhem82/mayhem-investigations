@@ -844,5 +844,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": "EV-0031"
+  },
+  {
+    "note_id": "NOTE-0095",
+    "timestamp": "2026-07-29T09:45:00",
+    "activity_type": "Note",
+    "text": "Operator reported SRC-0001's live URL now returns HTTP 404. While checking this, ran a full integrity audit of every Evidence Register entry's document_hash against the actual bytes of its preserved file - found 9 of 19 hashed entries (all from RUN-0001/RUN-0002, before this session's own hashing discipline) had a recorded hash that never matched the file. Git history confirms the files themselves were never altered after their first commit, so the hashes were wrong from the moment they were written, not corrupted afterward. Corrected all 9 to their actual, independently-computed SHA-256 values and recorded the finding as DEC-0011. This does not appear to indicate the underlying sources are fake - file content (titles, structure) looks like genuine archived HTML pages - but it is a real process failure in how \"Verified\"/proof-of-fact evidence was recorded early in this investigation, and is being disclosed and fixed transparently rather than quietly patched.",
+    "related_thread": null,
+    "related_source": "SRC-0001",
+    "related_evidence": "EV-0001"
   }
 ]
