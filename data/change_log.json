@@ -714,5 +714,21 @@
     ],
     "reason": "RUN-0038, attempting to corroborate RUN-0037's 2008 Bellbrook finding. The 2005-2007 arsenic-detection claim is now independently corroborated by a Council source (EV-0046); the 2008 trucked-water claim itself remains single-sourced. Identified newspaper archives (Trove/OldNews.com) as the concrete next step for a future run.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0046",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0039, ninth distinct attempt at Q-0003 (cost increase). Registered general shire-wide financial-pressure context (EV-0047) but found no project-specific explanation; question is now genuinely search-exhausted.",
+    "validation_completed": true
   }
 ]

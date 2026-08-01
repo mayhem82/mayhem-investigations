@@ -1196,5 +1196,33 @@
     ],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0047",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2025",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Long Term Financial Plan 2025/35",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/10-2-6-long-term-financial-plan-2025-2035.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "Council's Long Term Financial Plan identifies escalating costs for construction, repairs, and asset replacement (driven by labour, materials, and services costs outpacing revenue growth) as an ongoing shire-wide financial pressure, consistent with the FY2024-25 deficit already documented at EV-0023.",
+    "relevant_quotation": null,
+    "investigation_relevance": "General, shire-wide financial context plausibly relevant to Q-0003 (the Willawarrin plant's cost increase), but NOT a specific, sourced statement that construction-cost inflation is the actual cause of that project's $4m-to-$8m increase - recorded honestly as background context only. Despite this being at least the ninth distinct search angle tried across this investigation for Q-0003 (tender-scope comparison, business-paper searches, council resolutions, financial-plan searches), no document has been found that directly and specifically explains the Willawarrin cost increase; this question remains genuinely search-exhausted pending a fetched primary document (most likely a council business paper item, not indexed by general search engines).",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0004",
+      "EV-0006",
+      "EV-0023"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0003"
+    ]
   }
 ]

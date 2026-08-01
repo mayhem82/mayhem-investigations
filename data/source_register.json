@@ -978,5 +978,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "oldnews.com fetch not attempted (DEC-0008/DEC-0012); a full-text newspaper archive search interface cannot be meaningfully queried through this session's general WebSearch tool either (general search engines do not appear to index individual archived-newspaper-page content from this site). Registered as a known, identified resource - alongside Trove (trove.nla.gov.au), which also archives The Macleay Argus - for a future run or manual researcher to search directly for a contemporaneous 2008 article corroborating EV-0044's Bellbrook trucked-water claim, which this run could not find via general web search."
+  },
+  {
+    "source_id": "SRC-0071",
+    "authority": "Kempsey Shire Council",
+    "title": "Long Term Financial Plan 2025/35",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/10-2-6-long-term-financial-plan-2025-2035.pdf",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-07",
+    "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012). Council's own 10-year financial plan, identifying escalating construction/repair/asset-replacement costs (labour, materials, services outpacing revenue growth) as a shire-wide financial pressure - general context, not a Willawarrin-specific cost-variance explanation. No specific Willawarrin scope-change or cost-driver detail could be extracted despite a dedicated search."
   }
 ]
