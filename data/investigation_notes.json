@@ -898,5 +898,14 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": "EV-0046"
+  },
+  {
+    "note_id": "NOTE-0101",
+    "timestamp": "2026-07-29T13:20:00",
+    "activity_type": "Note",
+    "text": "RUN-0039: made a ninth distinct attempt at Q-0003 (Willawarrin cost increase), this time comparing 2024 tender-stage scope to the 2025 final design for any documented scope change, then checking Council's Long Term Financial Plan for a general cost-escalation explanation. Found only generic shire-wide financial pressure context (EV-0047, labour/materials/services costs outpacing revenue) - plausible background, not a specific sourced explanation for this project's cost increase. Also tried to extract more content from the NSW Coroners Court's 2019-20 Bushfires Inquiry Vol1 PDF (SRC-0060) beyond the cover-page/author detail already registered - found nothing further via search snippets. Q-0003 is now genuinely search-exhausted across nine distinct angles; the answer is very likely in an un-indexed council business-paper budget-variation item, not reachable by further search-engine queries.",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": "EV-0047"
   }
 ]

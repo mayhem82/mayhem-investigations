@@ -499,5 +499,17 @@
       "EV-0046"
     ],
     "notes": "Attempted to independently corroborate RUN-0037's 2008 Bellbrook trucked-water finding (EV-0044). Found a genuine split: the 2005-2007 arsenic-detection portion is now independently corroborated by a Council source (EV-0046), but the more significant 2008 trucked-water claim itself remains single-sourced despite three dedicated search attempts this run. Identified Trove/OldNews.com (Macleay Argus archives back to 1885) as the concrete next step, though general web search cannot query into their individual archived pages - needs a future run with fetch access or a manual researcher."
+  },
+  {
+    "run_id": "RUN-0039",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0071"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0047"
+    ],
+    "notes": "Ninth distinct attempt at Q-0003 (Willawarrin cost increase): compared 2024 tender scope to 2025 final design, then checked Council's Long Term Financial Plan. Found only generic shire-wide cost-escalation context (EV-0047), not a project-specific explanation. Also tried to extract more from the NSW Coroners Court bushfire inquiry document (SRC-0060) - no further content found. Q-0003 is now genuinely search-exhausted; the answer almost certainly requires a fetched council business-paper item."
   }
 ]
