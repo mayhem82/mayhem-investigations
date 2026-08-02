@@ -763,5 +763,21 @@
     ],
     "reason": "RUN-0041: major new finding - a second major bushfire (the Willi Willi Fire, October 2023) struck Willawarrin directly, previously completely unknown to this register (EV-0051-EV-0053, CHR-0029/CHR-0030). Added 3 Evidence entries and 2 Chronology entries. Flagged as the top-priority lead for the next run: whether this fire also triggered a water-supply disruption at Willawarrin.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0049",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0042: chased whether the Oct 2023 Willi Willi Fire triggered a Willawarrin water crisis - no relevant change found, and correctly avoided re-registering already-known 2019-2020 recap content as new 2023 evidence. Registered a genuinely new fact on the fire's direct Willawarrin impact (EV-0054, BlazeAid/Need for Feed relief camp).",
+    "validation_completed": true
   }
 ]

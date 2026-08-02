@@ -543,5 +543,17 @@
       "EV-0053"
     ],
     "notes": "Continued diversifying research methods. Correctly identified and rejected two false leads (a bushfire/water-quality study covering a different NSW region; a SEED dataset explicitly not covering the Macleay catchment). Major finding: a second major bushfire (the Willi Willi Fire, October 2023) struck Willawarrin directly - 46% of Kempsey Shire burned, 340 structures damaged/destroyed, one fatality, disaster declaration, dedicated recovery centre at Willawarrin - completely unknown to this register until now. Flagged as the top-priority next-run lead: whether this fire also triggered a Willawarrin water-supply disruption, following this case's established 2019 causal pattern."
+  },
+  {
+    "run_id": "RUN-0042",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0078"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0054"
+    ],
+    "notes": "Chased RUN-0041's top-priority lead: whether the October 2023 Willi Willi Fire triggered a Willawarrin water-supply disruption. Three search angles found no relevant change on that specific question - one search resurfaced the already-registered December 2023 Council FAQ recapping the 2019-2020 crisis, correctly not re-registered as new evidence (avoiding a repeat of the RUN-0028 stale-content conflation). Registered a genuinely new fact instead: BlazeAid/Need for Feed relief operations at Willawarrin Showground itself following the fire (EV-0054). The water-supply question remains open."
   }
 ]
