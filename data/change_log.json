@@ -779,5 +779,34 @@
     ],
     "reason": "RUN-0042: chased whether the Oct 2023 Willi Willi Fire triggered a Willawarrin water crisis - no relevant change found, and correctly avoided re-registering already-known 2019-2020 recap content as new 2023 evidence. Registered a genuinely new fact on the fire's direct Willawarrin impact (EV-0054, BlazeAid/Need for Feed relief camp).",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0050",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "preserved/SRC-0068-historicalencounters-bellbrook.txt",
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/threads.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0043: the operator provided the full text of SRC-0068, preserved and hashed here, upgrading EV-0043-EV-0045's sourcing (EV-0055) while honestly noting the page's own Wikipedia attribution limits full independent corroboration. Added substantial new Bellbrook pre-1900 history (EV-0056) and the 1885 Aboriginal Protection Board reserve (EV-0057). Flagged an unresolved date discrepancy against EV-0018.",
+    "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0051",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0044: the operator re-retrieved SRC-0001's content and provided it directly; compared against the already-preserved EV-0002/EV-0003 file and confirmed it matches in full, resolving residual doubt from the DEC-0011 hash-computation-error finding. No new evidentiary facts.",
+    "validation_completed": true
   }
 ]

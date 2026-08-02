@@ -555,5 +555,29 @@
       "EV-0054"
     ],
     "notes": "Chased RUN-0041's top-priority lead: whether the October 2023 Willi Willi Fire triggered a Willawarrin water-supply disruption. Three search angles found no relevant change on that specific question - one search resurfaced the already-registered December 2023 Council FAQ recapping the 2019-2020 crisis, correctly not re-registered as new evidence (avoiding a repeat of the RUN-0028 stale-content conflation). Registered a genuinely new fact instead: BlazeAid/Need for Feed relief operations at Willawarrin Showground itself following the fire (EV-0054). The water-supply question remains open."
+  },
+  {
+    "run_id": "RUN-0043",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0068"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0055",
+      "EV-0056",
+      "EV-0057"
+    ],
+    "notes": "The operator retrieved and provided the full text of SRC-0068 directly, which this session's fetch tool could not access (DEC-0008/DEC-0012). Preserved and hashed it. Upgraded EV-0043/EV-0044/EV-0045's sourcing to an actual preserved document (EV-0055), while honestly noting the page is itself Wikipedia-attributed, so it does not provide full independent corroboration - particularly for the 2008 trucked-water claim. Captured substantial new pre-1900 Bellbrook history and the 1885 Aboriginal Protection Board reserve (EV-0056/EV-0057). Flagged a minor, unresolved date discrepancy against EV-0018 rather than resolving it silently."
+  },
+  {
+    "run_id": "RUN-0044",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0001"
+    ],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Not an evidence-collection run. The operator successfully re-retrieved SRC-0001's page content (after an earlier 404 report) and provided it directly. Compared line-by-line against the already-preserved file for EV-0002/EV-0003 - content matches in full, confirming the preserved file was always a genuine, accurate capture despite the unrelated document_hash computation error already fixed at DEC-0011. No new facts; a content-integrity confirmation only."
   }
 ]
