@@ -2350,5 +2350,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0197",
+    "search_terms": "\"Bellbrook Water Treatment Plant\" concept design planning Kempsey Shire Council IWCM",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0198",
+    "search_terms": "Kempsey Shire Council \"Bellbrook\" water treatment future capital works delivery program long term financial plan",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0199",
+    "search_terms": "\"long-term-financial-plan-2025-2035\" Kempsey Bellbrook water treatment plant project",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0200",
+    "search_terms": "Kempsey Shire Council Integrated Water Cycle Management Strategy Bellbrook future water treatment",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
   }
 ]

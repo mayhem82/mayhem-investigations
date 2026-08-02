@@ -1060,5 +1060,14 @@
     "related_thread": "THR-07",
     "related_source": "SRC-0054",
     "related_evidence": "EV-0066"
+  },
+  {
+    "note_id": "NOTE-0119",
+    "timestamp": "2026-08-02T19:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0054: the operator (mayhem82) reported personally having heard of a second, new Bellbrook water treatment plant being in planning stage for years - direct operator communication, not a document, recorded here per this investigation's Human Authority principle rather than silently set aside. This corroborates, rather than refutes, a recurring search-summary claim RUN-0053 had treated as a likely AI-summarization error (no run has yet produced a single quotable primary citation for it despite six total searches across RUN-0053 and RUN-0054). Revised RUN-0053's framing: this is now an open, operator-corroborated lead, not a rejected one. Four further searches this run (project page, capital works, Long Term Financial Plan 2025-2035, IWCM Strategy) found no citable primary confirmation. Next step for a future run: check Council's Section 60 (NSW Health) approval records and forward/not-yet-funded capital works schedules specifically, since a plant still in \"planning stage\" would not appear on Current/Completed Works pages by definition.",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
