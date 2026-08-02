@@ -1738,5 +1738,89 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 10,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0146",
+    "search_terms": "NSW Health drinking water compliance report Willawarrin Kempsey Shire non-compliant supply annual",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0147",
+    "search_terms": "\"Wes Trotter\" Kempsey Shire Council Water Sewer Manager LinkedIn interview water treatment",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0148",
+    "search_terms": "Kempsey Shire Council leak detection $12.5 million funding trenchless-australasia water network",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0149",
+    "search_terms": "Kempsey Shire Council \"Regional Network Leakage Detection Project\" Willawarrin Bellbrook June 2024 phase",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0150",
+    "search_terms": "Kempsey Shire Council EPA pollution incident notification water sewer licence Willawarrin Bellbrook",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0151",
+    "search_terms": "Willawarrin Bellbrook water residents complaints Facebook community group forum discussion",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0152",
+    "search_terms": "Kempsey Shire Council Annual Report 2024-25 Willawarrin water treatment plant highlights achievements",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
   }
 ]

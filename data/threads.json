@@ -89,9 +89,10 @@
     "status": "In Progress",
     "supporting_evidence": [
       "EV-0001",
-      "EV-0005"
+      "EV-0005",
+      "EV-0048"
     ],
-    "outstanding_work": "Establish the specific extraction-point/bore-vs-river decisions made for Willawarrin (bore-reliant) versus the main Kempsey network (Steuart McIntyre Dam + Sherwood Borefield), and why Willawarrin was not connected to the more secure dam-fed system. RUN-0034: searched specifically for why Willawarrin remained on a standalone bore-based system rather than being connected via pipeline to the Steuart McIntyre Dam/Sherwood Borefield network, including for a Council options-assessment or feasibility report (SRC-0042's Implementation Plan mentions an \"options assessment report endorsed by DPE\" for the main KLM plant, a possible model for a similar Willawarrin-specific document, but no such document or its content could be found via search). No relevant change - this remains a genuine, search-exhausted gap requiring a council business paper or engineering report not indexed by search engines.",
+    "outstanding_work": "Establish the specific extraction-point/bore-vs-river decisions made for Willawarrin (bore-reliant) versus the main Kempsey network (Steuart McIntyre Dam + Sherwood Borefield), and why Willawarrin was not connected to the more secure dam-fed system. RUN-0034: searched specifically for why Willawarrin remained on a standalone bore-based system rather than being connected via pipeline to the Steuart McIntyre Dam/Sherwood Borefield network, including for a Council options-assessment or feasibility report (SRC-0042's Implementation Plan mentions an \"options assessment report endorsed by DPE\" for the main KLM plant, a possible model for a similar Willawarrin-specific document, but no such document or its content could be found via search). No relevant change - this remains a genuine, search-exhausted gap requiring a council business paper or engineering report not indexed by search engines. RUN-0040: found a genuinely new, previously unexplored angle - Kempsey Shire Council joined the NSW Government's Regional Network Leakage Detection Project around June 2024 (EV-0048), a shire-wide leak-survey program distinct from the treatment-plant-capacity investment this case has centred on. Not yet confirmed whether it covered Willawarrin/Bellbrook's own reticulation specifically - a candidate angle for a future run investigating network condition/asset age as a contributing factor, alongside the still-unanswered bore-vs-pipeline question.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -121,9 +122,10 @@
       "EV-0005",
       "EV-0006",
       "EV-0007",
-      "EV-0013"
+      "EV-0013",
+      "EV-0049"
     ],
-    "outstanding_work": "Confirm current construction/commissioning status given the passed \"early 2026\" target (see Q-0001). Obtain the blocked Kempsey Council source pages (SRC-0010, SRC-0011, SRC-0012, SRC-0021, SRC-0022, SRC-0023) via manual browser access - they are likely the most current record available. Project history now traces back to May 2022 (EV-0013, CHR-0011). SRC-0023 confirms a 20 July 2026 Council Public Forum took place; its agenda is an unpursued lead, same access gap. RUN-0028 registered two more not-yet-fetchable Council PDFs bridging the project's history: a Spring 2024 project update (SRC-0050, between EV-0004's Aug 2024 tender-stage article and EV-0006's Mar 2025 sod-turning) and an October 2023 fact sheet (SRC-0051, from the earlier procurement phase). Extensive further searching this run for any 2026-dated commissioning/completion news (see THR-12/Q-0001) found nothing beyond the same March 2025 \"early 2026\" target already on record - this remains a real, unresolved information gap rather than a \"no news is good news\" inference, and most likely requires either working fetch access to the still-blocked kempsey.nsw.gov.au project pages (SRC-0010/0011/0012/0050/0051) or a manual, ordinary-browser check.",
+    "outstanding_work": "Confirm current construction/commissioning status given the passed \"early 2026\" target (see Q-0001). Obtain the blocked Kempsey Council source pages (SRC-0010, SRC-0011, SRC-0012, SRC-0021, SRC-0022, SRC-0023) via manual browser access - they are likely the most current record available. Project history now traces back to May 2022 (EV-0013, CHR-0011). SRC-0023 confirms a 20 July 2026 Council Public Forum took place; its agenda is an unpursued lead, same access gap. RUN-0028 registered two more not-yet-fetchable Council PDFs bridging the project's history: a Spring 2024 project update (SRC-0050, between EV-0004's Aug 2024 tender-stage article and EV-0006's Mar 2025 sod-turning) and an October 2023 fact sheet (SRC-0051, from the earlier procurement phase). Extensive further searching this run for any 2026-dated commissioning/completion news (see THR-12/Q-0001) found nothing beyond the same March 2025 \"early 2026\" target already on record - this remains a real, unresolved information gap rather than a \"no news is good news\" inference, and most likely requires either working fetch access to the still-blocked kempsey.nsw.gov.au project pages (SRC-0010/0011/0012/0050/0051) or a manual, ordinary-browser check. RUN-0040: tried a new angle (named Council personnel rather than project-status searches) - found Wes Trotter, this register's most-quoted council source, has progressed from Manager Water and Sewer to Director Utilities since SRC-0042's 2022-dated report (EV-0049), suggesting a broader utilities-function restructure alongside the scale-up in water infrastructure investment.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -133,9 +135,10 @@
     "status": "In Progress",
     "supporting_evidence": [
       "EV-0006",
-      "EV-0007"
+      "EV-0007",
+      "EV-0050"
     ],
-    "outstanding_work": "Obtain construction progress updates for the period between the March 2025 sod-turning and the present (28 July 2026). RUN-0029: no construction-progress update found specifically for the Willawarrin plant (as distinct from the larger Steuart McIntyre Dam project, see THR-13) between the March 2025 sod-turning and today. Every search continues to surface the same March 2025 coverage.",
+    "outstanding_work": "Obtain construction progress updates for the period between the March 2025 sod-turning and the present (28 July 2026). RUN-0029: no construction-progress update found specifically for the Willawarrin plant (as distinct from the larger Steuart McIntyre Dam project, see THR-13) between the March 2025 sod-turning and today. Every search continues to surface the same March 2025 coverage. RUN-0040: finally extracted content from the previously opaque SRC-0050 (Spring 2024 project update) - confirms site preparation (earthworks, foundations, fencing) occurred in Spring 2024, ahead of detailed design finishing early 2025 and construction starting March 2025 (EV-0006). Fills the construction-sequence gap between EV-0004 (tender stage) and EV-0006 (sod-turning).",
     "dependencies": [
       "THR-07"
     ],

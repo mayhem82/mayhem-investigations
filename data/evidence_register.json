@@ -1224,5 +1224,77 @@
     "open_question_links": [
       "Q-0003"
     ]
+  },
+  {
+    "evidence_id": "EV-0048",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2024-06-07",
+    "source_authority": "Kempsey Shire Council / NSW Government (Department of Planning and Environment, Water)",
+    "source_title": "We're checking the water network for leaks again (Regional Network Leakage Detection Project)",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20240607-Regional-Network-Leakage-Detection-Project",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "Kempsey Shire Council joined Phase 3 of the NSW Government's $12.5 million Regional Leakage Reduction Program (the Regional Network Leakage Detection Project) around June 2024. The statewide program had by then surveyed more than 15,450 km of water mains and found over 4,000 leaks; specialist contractors engaged by the NSW Department of Planning and Environment (Water) survey Council's network at no direct cost to Council, though any repairs identified are Council's own cost.",
+    "relevant_quotation": null,
+    "investigation_relevance": "A previously unregistered, shire-wide water-infrastructure program - a genuinely new investigative thread (network leakage/asset condition) distinct from the treatment-plant-capacity focus this case has centred on. Not town-specific: no source found confirms whether Willawarrin or Bellbrook's own reticulation networks were surveyed under this program, so it is registered as general context for THR-06 rather than a direct answer to any open question.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0049",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "Multiple (search-engine synthesis)",
+    "source_title": "Wes Trotter role progression - Kempsey Shire Council",
+    "source_type": "Other Public Record",
+    "source_location": "https://wioa.org.au/wp-content/uploads/2025/01/2022_NSW_Wesley_Trotter_Stephen_Smailes.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session, drawn from multiple search results rather than a single named document; direct fetch of any underlying source is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "Wes Trotter, quoted throughout this register's evidence as \"Manager Water and Sewer\" (per SRC-0042's 2022-dated annual report), has more than 25 years of water/wastewater industry experience, joined Kempsey Shire Council in 2017 as a Process Engineer, and has since progressed through Manager and Group Manager roles to his current title of Director Utilities.",
+    "relevant_quotation": null,
+    "investigation_relevance": "A personnel/organisational-structure update relevant to correctly attributing and dating this register's existing quotes from Wes Trotter (EV-0002, EV-0003, SRC-0042); also indicates Council has restructured its utilities function to a more senior \"Director\" level, plausibly connected to the scale-up in water infrastructure investment this case has documented (from the $4m Willawarrin project in 2022 to the current $52.9m+$8m combined program).",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0002",
+      "EV-0006"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0050",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown (Spring 2024)",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Willawarrin Water Treatment Plant project update, Spring 2024",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/willawarrin-water-treatment-plant-project-update-spring-2024.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "This previously fetch-blocked, content-unknown document (SRC-0050) finally yielded specific content via a fresh search: as of Spring 2024, site preparation - earthworks, foundations, and permanent fencing - was to be completed, with detailed design expected to finish in early 2025, followed by construction of the plant itself.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Fills a specific gap between EV-0004 (Aug 2024, tender-stage) and EV-0006 (March 2025, sod-turning/construction start): confirms site preparation work occurred in the Spring 2024 window, giving THR-09 a clearer construction-sequence timeline (site prep -> detailed design finishing early 2025 -> construction from March 2025) consistent with, and adding detail to, EV-0006's own mention of completed \"early works.\"",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0004",
+      "EV-0006"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]
