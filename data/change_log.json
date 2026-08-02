@@ -981,5 +981,19 @@
     ],
     "reason": "RUN-0055: identified the LWU Regulatory Approvals dataset and Willawarrin's specific Section 60 Notice of Determination (EV-0067, June 2022). No equivalent Bellbrook record found there or in Council's Delivery Program 2022-2026 - two further negative checks on the operator-reported second-Bellbrook-plant lead, which remains open pending a real document fetch.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0063",
+    "date": "2026-08-02",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/decisions.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/search_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0056: recorded DEC-0013 - Internet Archive/Wayback Machine confirmed inaccessible via both WebFetch and WebSearch, for distinct platform-level reasons, closing off this workaround path. One further search on Q-0001 (Willawarrin commissioning status) found no relevant change.",
+    "validation_completed": true
   }
 ]
