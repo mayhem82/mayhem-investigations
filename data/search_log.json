@@ -2110,5 +2110,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0177",
+    "search_terms": "Kempsey Shire Council Drinking Water Management System Annual Report 2019-2020 exceedances iron manganese",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0178",
+    "search_terms": "Kempsey Shire Council Drinking Water Management System annual report 2021-2022 2022-2023 2023-2024",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0179",
+    "search_terms": "\"Is Kempsey Shire's water supply safe to drink\" PFAS Willawarrin Bellbrook February 2025",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0180",
+    "search_terms": "Kempsey Shire Council reservoir cleaning inspection external contractor Willawarrin Bellbrook Clybucca",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
   }
 ]

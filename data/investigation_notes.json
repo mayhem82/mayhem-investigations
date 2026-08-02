@@ -1006,5 +1006,14 @@
     "related_thread": "THR-02",
     "related_source": "SRC-0086",
     "related_evidence": "EV-0061"
+  },
+  {
+    "note_id": "NOTE-0113",
+    "timestamp": "2026-08-02T14:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0049: operator asked to continue on DWMS annual reports. The 2019-2020 report (SRC-0047, the actual crisis year) and any DWMS report for 2021-22 onward remain fetch-blocked/not found - Council appears to have stopped publishing this exact report series after 2020-2021, shifting to informal \"Water update\" pages instead. Re-mined the one DWMS report this investigation does have preserved text for (SRC-0042, 2020-2021) and found two previously-unextracted Executive Summary facts: Willawarrin/Bellbrook/Clybucca reservoirs cleaned and inspected by external contractors with no integrity breaches (EV-0063), and modest but concrete \"dirty/cloudy water\" customer complaint counts (2 each) continuing into the year after the main crisis. Separately found a February 2025 PFAS safety-testing result naming both towns among all eight tested systems, all passing (EV-0064) - the most recent dated confirmation either supply is being actively monitored, though for a different contaminant to this case's core focus.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0042",
+    "related_evidence": "EV-0063"
   }
 ]

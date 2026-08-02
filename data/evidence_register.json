@@ -1607,5 +1607,51 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0063",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "2020-06-30 (report), covering FY2020-21",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report, July 2020-June 2021",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+    "preserved_file_reference": "preserved/SRC-0042-kempsey-council-dwms-annual-report-2020-2021.txt",
+    "document_hash": "sha256:8cff9ee5dcfe22265e494dd76c4e112135492cefef847bb570d4823b5207ef70",
+    "hash_exception_reason": null,
+    "evidence_description": "Two previously unextracted Executive Summary facts from the same preserved report. (1) Asset maintenance: \"Three (3) reservoirs (Clybucca, Willawarrin, and Bellbrook) were cleaned and inspected by external contractors during this reporting period,\" with \"no breaches of integrity\" detected in Council's in-house monthly CCP reservoir inspections - a genuine positive maintenance data point, not previously captured. (2) Customer enquiries (Table E.3): Willawarrin recorded 2 customer enquiries in 2020-2021, both \"Dirty/Cloudy\" water complaints; Bellbrook recorded 2, also both \"Dirty/Cloudy\" - modest but concrete evidence of resident-reported water-quality concerns continuing into the year immediately after the main 2019-2020 crisis, against a shire-wide total of 36 enquiries (down 67.6% from 111 in 2019-2020). Table E.2's exceedance totals (Willawarrin 43, Bellbrook 0) match figures already registered at EV-0031-EV-0036 and are not repeated here as new; it separately shows the Thunggutti Aboriginal Community supply (also carted intermittently alongside Bellbrook per EV-0024/EV-0025) recorded 26 exceedances, the second-highest of any of the Shire's eight systems after Willawarrin.",
+    "relevant_quotation": "Three (3) reservoirs (Clybucca, Willawarrin, and Bellbrook) were cleaned and inspected by external contractors during this reporting period.",
+    "investigation_relevance": "Adds asset-condition and resident-complaint context beyond the water-quality exceedance data already registered - confirms Council was performing physical reservoir maintenance on both towns' infrastructure, and that dirty/cloudy-water complaints continued at a low but non-zero rate in the year after the main crisis. The Thunggutti figure (26 exceedances) is noted for completeness given that community's close carting linkage to Bellbrook, though Thunggutti itself is a separate supply system outside this case's primary Willawarrin/Bellbrook scope. Per DEC-0010, drawn from the same ChatGPT-extracted preservation as EV-0031-EV-0036/EV-0061/EV-0062, same reduced confidence level.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0064",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "2025-02-05",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Kempsey's tap water clears safety tests, well below PFAS limits",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250205-Kempseys-tap-water-clears-safety-tests-well-below-PFAS-limits",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "Council tested tap water from all eight Shire water supply systems - Kempsey/Lower Macleay, Crescent Head, Hat Head, South West Rocks, Stuarts Point, Willawarrin, Bellbrook, and the Thunggutti Aboriginal Community - explicitly naming Willawarrin and Bellbrook among the systems tested. Results (via Sydney Water Laboratory Services, an accredited testing authority) showed PFAS below detectable limits and well within both current and proposed Australian Drinking Water Guidelines, for all systems.",
+    "relevant_quotation": "The results reaffirm our community can continue to drink tap water with confidence, knowing it meets the highest safety standards.",
+    "investigation_relevance": "The most recent (Feb 2025) confirmation found that both Willawarrin and Bellbrook supplies were being actively tested and monitored by Council, and passed for at least this one contaminant class (PFAS). Does not address this case's core iron/manganese/turbidity concerns, nor Q-0001's Willawarrin-plant-commissioning question, but is a genuine, dated data point that both towns' supplies were considered operational and safe as of this date - useful context for THR-12 (current operational status), which otherwise has very little dated evidence.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
