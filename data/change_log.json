@@ -902,5 +902,20 @@
     ],
     "reason": "RUN-0050: identified the DWMS Annual Report series' successor - a renamed \"Drinking Water Quality Result Summary\" (water-testing-results-YYYY-YYYY.pdf), same department, same NSW Health monitoring program. Registered the 2023-2024 edition (SRC-0091, covers the Willi Willi Fire year). No 2021-2022/2022-2023 edition found under this pattern.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0058",
+    "date": "2026-08-02",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0051: searched for \"10 years of editions\" of the drinking water quality report series. Found a third naming convention yielding a 2018-2019 pre-crisis baseline (SRC-0093) and identified the underlying NSW Government Drinking Water Database (SRC-0092) that all Council editions are drawn from. Explicitly excluded an off-topic near-miss (sewage treatment plant EPA lab data).",
+    "validation_completed": true
   }
 ]

@@ -1272,5 +1272,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). FOUND IN RESPONSE TO OPERATOR DIRECTIVE: the \"DWMS Annual Report\" series (SRC-0042/SRC-0047) appears discontinued after 2020-2021 under that name; this is its successor - a leaner \"Drinking Water Quality Result Summary\" format (\"water-testing-results-YYYY-YYYY.pdf\" filename pattern), still produced by the same Water & Sewer department using the same NSW Health-sponsored verification monitoring program. Directly covers the Willi Willi Fire year (Oct 2023, EV-0051) and the following months - potentially the single best remaining lead for THR-01's standing open question of whether that fire caused a Willawarrin water-supply disruption. Confirmed via search snippet: gives per-supply-system compliance tables (pH, Total Hardness, Turbidity, E. coli, sample counts) for Kempsey-Lower Macleay and South West Rocks specifically (both 98.3-100% compliant); no Willawarrin- or Bellbrook-specific figures could be extracted from search snippets despite repeated attempts. A dedicated search for equivalent \"water-testing-results-2021-2022\" or \"water-testing-results-2022-2023\" files found neither - only the 2023-2024 edition of this new naming pattern is indexed, suggesting either a genuine ~2-year public-reporting gap (2021-22, 2022-23) or that earlier editions exist under a still-different, not-yet-found name/URL."
+  },
+  {
+    "source_id": "SRC-0092",
+    "authority": "NSW Ministry of Health",
+    "title": "NSW Drinking Water Database",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.health.nsw.gov.au/environment/water/Pages/drinking-water-database.aspx",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "health.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). MAJOR STRUCTURAL FINDING in response to operator directive to find \"10 years of editions\" of Kempsey's drinking water quality reporting: every Council-published edition of both the old \"DWMS Annual Report\" series (SRC-0042/SRC-0047) and its successor \"Drinking Water Quality Result Summary\" series (SRC-0091) is explicitly described, per search-engine snippet, as data \"derived from Kempsey Shire Council's verification monitoring program sponsored by NSW Health and reproduced from the NSW Government Drinking Water Database.\" This is therefore the actual underlying primary data repository behind every annual report this investigation has been hunting for year-by-year - not a different department, but the statewide database ALL of Council's periodic PDF summaries are extracted from. IMPORTANT CAVEAT: search-engine snippets describe this as an \"operational database\" that lets NSW Health and local water utilities \"enter and upload\" results - it may be an internal/inter-agency tool rather than a public-facing query interface; this session could not determine from search snippets alone whether it offers direct public querying by supply system and date range, or whether Council's periodic PDF exports remain the only public access point. Confirmed NOT the same as data.nsw.gov.au's \"Daily Drinking Water Quality Report\" dataset, which is Sydney Water-specific and does not cover regional LWUs like Kempsey."
+  },
+  {
+    "source_id": "SRC-0093",
+    "authority": "Kempsey Shire Council",
+    "title": "Drinking Water Management System Annual Water Quality Report, 2018-2019",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/water/dwms-annual-wq-report-1819-final.pdf",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A THIRD, older URL/filename pattern for this report series (\"docs/water/dwms-annual-wq-report-XXYY-final.pdf\", distinct from both SRC-0047's and SRC-0042's later \"docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-YYYY-YYYY.pdf.pdf\" pattern and SRC-0091's newest \"water-testing-results-YYYY-YYYY.pdf\" pattern - three distinct naming conventions identified across this report series' history). Covers 1 July 2018 to 30 June 2019, the reporting year immediately BEFORE the crisis onset (CHR-0007, June 2019 restrictions; the Carrai East Bushfire, Nov 2019) - the closest thing to a genuine pre-crisis baseline for Willawarrin/Bellbrook water quality this investigation has found. Prepared by Bobbie Brenton (Water Quality Officer), approved May 2020 per search snippet. Dedicated searches for equivalent 2017-2018, 2016-2017, or 2015-2016 editions under this or any other naming pattern found none - this may be the earliest publicly available edition of this report series."
   }
 ]
