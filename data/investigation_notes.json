@@ -1024,5 +1024,14 @@
     "related_thread": "THR-01",
     "related_source": "SRC-0091",
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0115",
+    "timestamp": "2026-08-02T16:00:00",
+    "activity_type": "Finding",
+    "text": "RUN-0051: operator asked for \"10 years of editions\" of the drinking water quality report series. Found a third, older naming pattern giving a 2018-2019 pre-crisis baseline edition (SRC-0093) - the earliest edition found; no earlier year located under any of the three known naming patterns. The more significant finding: Council's own text states its reported data is \"reproduced from the NSW Government Drinking Water Database\" (SRC-0092, NSW Ministry of Health) - the actual underlying repository behind every yearly PDF this investigation has hunted for individually. Could not confirm from search snippets whether this database is publicly queryable directly (which would let a future run pull Willawarrin/Bellbrook data across all years at once) or is an inter-agency tool only. Also deliberately excluded a superficially similar find: Council's \"water-epa-data\" lab-batch directory, confirmed to be sewage treatment plant effluent monitoring under EPA pollution licences, not drinking water supply data - correctly kept out of this thread's scope.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0092",
+    "related_evidence": null
   }
 ]

@@ -2206,5 +2206,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 7,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0185",
+    "search_terms": "Kempsey Shire Council dwms annual water quality report 2017-2018 2016-2017 2015-2016",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0186",
+    "search_terms": "NSW Health Drinking Water Database public query local water utility Kempsey Willawarrin",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0187",
+    "search_terms": "kempsey.nsw.gov.au \"water-epa-data\" full licence half licence sewage treatment plant",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0188",
+    "search_terms": "Kempsey Shire Council drinking water quality report all editions archive history",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 1
   }
 ]
