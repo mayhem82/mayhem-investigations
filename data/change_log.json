@@ -964,5 +964,22 @@
     ],
     "reason": "RUN-0054: recorded the operator's direct testimony about a second Bellbrook water treatment plant reportedly in planning for years, correcting RUN-0053's premature dismissal of a related search-summary claim. Re-opened as a live lead on Q-0002; still no citable primary source found despite four further searches.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0062",
+    "date": "2026-08-02",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/open_questions.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0055: identified the LWU Regulatory Approvals dataset and Willawarrin's specific Section 60 Notice of Determination (EV-0067, June 2022). No equivalent Bellbrook record found there or in Council's Delivery Program 2022-2026 - two further negative checks on the operator-reported second-Bellbrook-plant lead, which remains open pending a real document fetch.",
+    "validation_completed": true
   }
 ]

@@ -1069,5 +1069,14 @@
     "related_thread": "THR-07",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0120",
+    "timestamp": "2026-08-02T20:00:00",
+    "activity_type": "Finding",
+    "text": "RUN-0055: pursued the operator's directive to check Section 60 approval records for the second-Bellbrook-plant lead. Found the actual mechanism: a statewide \"LWU Regulatory Approvals\" dataset (SRC-0094) holding every formal Notice of Determination by name and WAMS ID - confirmed a Willawarrin record exists (WAMS 14493, June 2022 concept-design endorsement, EV-0067), but a dedicated search for a Bellbrook equivalent found none. Also checked Council's Delivery Program 2022-2026 (SRC-0096), which names only three water infrastructure projects (Steuart McIntyre Dam, Crescent Head, Willawarrin) - no Bellbrook. Two independent negative checks now, on top of RUN-0054's Long Term Financial Plan check - but all three remain search-snippet readings of documents this session cannot fetch directly, not confirmed absences. The operator's lead stays open. The clear next step, if fetch access is ever available, is direct retrieval of the LWU Regulatory Approvals dataset itself, since that is the authoritative record type for this specific question.",
+    "related_thread": "THR-07",
+    "related_source": "SRC-0094",
+    "related_evidence": "EV-0067"
   }
 ]

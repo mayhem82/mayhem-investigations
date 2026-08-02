@@ -1300,5 +1300,47 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A THIRD, older URL/filename pattern for this report series (\"docs/water/dwms-annual-wq-report-XXYY-final.pdf\", distinct from both SRC-0047's and SRC-0042's later \"docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-YYYY-YYYY.pdf.pdf\" pattern and SRC-0091's newest \"water-testing-results-YYYY-YYYY.pdf\" pattern - three distinct naming conventions identified across this report series' history). Covers 1 July 2018 to 30 June 2019, the reporting year immediately BEFORE the crisis onset (CHR-0007, June 2019 restrictions; the Carrai East Bushfire, Nov 2019) - the closest thing to a genuine pre-crisis baseline for Willawarrin/Bellbrook water quality this investigation has found. Prepared by Bobbie Brenton (Water Quality Officer), approved May 2020 per search snippet. Dedicated searches for equivalent 2017-2018, 2016-2017, or 2015-2016 editions under this or any other naming pattern found none - this may be the earliest publicly available edition of this report series."
+  },
+  {
+    "source_id": "SRC-0094",
+    "authority": "NSW Government (Water, Department of Climate Change, Energy, the Environment and Water)",
+    "title": "LWU Regulatory Approvals (dataset)",
+    "type": "Government Record",
+    "url_or_file_location": "https://data.nsw.gov.au/data/dataset/lwu-regulatory-approvals",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-14",
+    "availability_notes": "data.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A structured, statewide government dataset of every Notice of Determination granted under Local Government Act s.60 (or Water Management Act s.292(1)(a)) for construction/extension of water treatment, water reuse, and sewage works - i.e. the authoritative record of which specific plants have received formal regulatory approval, by name and WAMS ID. Confirmed via search to contain a resource for the Willawarrin Water Treatment Plant (WAMS 14493, SRC-0095). A dedicated search this run for an equivalent Bellbrook resource found none - this dataset is also mirrored on the SEED NSW portal (datasets.seed.nsw.gov.au) and data.gov.au. High-priority resource for directly, authoritatively resolving the operator-reported \"second Bellbrook plant\" lead (see Q-0002/NOTE-0119) in a future run with working fetch access, since a formal approval record would exist here if the plant has progressed beyond very early planning."
+  },
+  {
+    "source_id": "SRC-0095",
+    "authority": "NSW Government (Minister for Water, under Local Government Act s.60)",
+    "title": "Notice of Determination - Willawarrin Water Treatment Plant (WAMS 14493)",
+    "type": "Government Record",
+    "url_or_file_location": "https://data.nsw.gov.au/data/dataset/lwu-regulatory-approvals",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-09",
+    "availability_notes": "Part of the LWU Regulatory Approvals dataset (SRC-0094), fetch-blocked (DEC-0008/DEC-0012); exact resource-level URL not resolved by search. The formal Section 60 Notice of Determination for construction of the Willawarrin Water Treatment Plant, WAMS reference 14493 - the specific regulatory record behind the \"Section 60 endorsement... June 2022\" milestone already referenced in this register's threads. Separately confirmed via search: Council received Section 60 endorsement for the Willawarrin plant's concept design from the Department of Planning, Industry and Environment in June 2022 - a specific date not previously registered with a precise source."
+  },
+  {
+    "source_id": "SRC-0096",
+    "authority": "Kempsey Shire Council",
+    "title": "Delivery Program 2022-2026 and Operational Plan 2024-25",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-07",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Council's own four-year Delivery Program and one-year Operational Plan - exactly the document type that would list a \"second Bellbrook plant\" if it were an adopted, budgeted forward project. Per search-engine summary, its named 2022-23 water infrastructure projects are the Steuart McIntyre Dam Emergency Water Treatment Plant, and the Crescent Head and Willawarrin Water Treatment Plants - no Bellbrook project named. This is the SECOND Council planning-document type checked (after the Long Term Financial Plan 2025-2035, RUN-0054) that lists Council's major water projects by name without including a Bellbrook plant, though this remains a search-snippet reading of an unfetched document, not a confirmed absence."
   }
 ]
