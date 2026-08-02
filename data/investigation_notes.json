@@ -1078,5 +1078,14 @@
     "related_thread": "THR-07",
     "related_source": "SRC-0094",
     "related_evidence": "EV-0067"
+  },
+  {
+    "note_id": "NOTE-0121",
+    "timestamp": "2026-08-02T21:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0056: at the operator's suggestion to try internet archives, tested both WebFetch (a direct web.archive.org snapshot URL) and WebSearch (allowed_domains restricted to web.archive.org) - both failed for distinct, documented, non-fixable reasons (recorded as DEC-0013): WebFetch reports it cannot fetch web.archive.org at all (a tool-level restriction), and WebSearch's underlying crawler is explicitly blocked by archive.org's own site-owner controls. This re-confirms and clarifies DEC-0006's original RUN-0002 finding (an unexplained Wayback 498 error) with an actual root cause. No further Wayback Machine attempts will be made.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

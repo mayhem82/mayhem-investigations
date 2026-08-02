@@ -2470,5 +2470,17 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 8,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0207",
+    "search_terms": "Willawarrin water treatment plant commissioned opened operational 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
   }
 ]

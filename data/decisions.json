@@ -134,5 +134,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Confirms DEC-0008 was correctly diagnosed as a session-level constraint, now with a specific known cause (deliberate egress policy, not a bug) rather than an unexplained tooling failure. No further attempts will be made to find workarounds around this specific block (e.g., alternate protocols, retries, header variations) - consistent with both this investigation's own DEC-0006 precedent (no deliberate evasion of access controls) and the proxy's explicit operating instructions. This session instead diversified its WebSearch-based methods this run (academic literature via PubMed, first-party company statements, official court records, business registries) rather than re-attempting fetches."
+  },
+  {
+    "decision_id": "DEC-0013",
+    "date": "2026-08-02",
+    "reason": "At the operator's directive to try the Internet Archive (Wayback Machine), this session tested two distinct paths: (1) WebFetch directly against a web.archive.org snapshot URL for one of this investigation's key still-unfetched documents, which failed with \"Claude Code is unable to fetch from web.archive.org\" - a different failure signature from the DEC-0008/DEC-0012 organizational-egress-policy 403s (which return an actual HTTP status from the proxy), consistent with a tool-level restriction rather than a network/session policy block. (2) WebSearch with allowed_domains restricted to web.archive.org, which returned an explicit API error: \"The following domains are not accessible to our user agent,\" linking to Anthropic's own documentation on how site owners block its crawler - confirming this is a platform-level constraint (archive.org/Wayback Machine blocks Anthropic's crawler/fetcher), not a fixable session configuration issue, and not the same underlying cause as DEC-0008/DEC-0012.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Internet Archive / Wayback Machine is confirmed NOT accessible from this session via either WebFetch or WebSearch, for a documented, distinct, non-fixable reason. This closes off Wayback Machine as a workaround path for any of this investigation's many fetch-blocked primary sources (consistent with DEC-0006's original finding from RUN-0002, now re-confirmed with a clearer technical explanation rather than an unexplained HTTP 498). No further attempts should be made to fetch web.archive.org or search it via allowed_domains in future runs; this session returned to general WebSearch-based methods for the remainder of this run."
   }
 ]
