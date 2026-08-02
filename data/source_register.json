@@ -1118,5 +1118,61 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-08",
     "availability_notes": "Same kempsey.nsw.gov.au HTTP 403 access gap as SRC-0010/0011/0012/0021/0022/0023/0033-area sources. A dated 2024 water-supply-quality update page not previously registered - a plausible candidate for a current status update on Q-0001 (Willawarrin commissioning) or Q-0002 (Bellbrook infrastructure), flagged for manual browser retrieval in a future run."
+  },
+  {
+    "source_id": "SRC-0081",
+    "authority": "NSW Electoral Commission",
+    "title": "Kempsey - Mayoral Election results (past VTR)",
+    "type": "Government Record",
+    "url_or_file_location": "https://pastvtr.elections.nsw.gov.au/LG2401/kempsey/mayoral",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-15",
+    "availability_notes": "pastvtr.elections.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). This is the NSW Electoral Commission's own official past-results portal, specific to the Kempsey Shire Council mayoral election (LG2401) - not a generic statewide statement. Search-engine snippets of this page state the election \"was held on Saturday 14 September 2024\" and Kinne Ring \"was declared elected as Mayor on 01 October 2024\", matching EV-0012's already-registered 30 September/1 October preliminary/declared dates. This is the strongest Kempsey-specific primary source yet found for Q-0006, but remains search-snippet only, not fetched/preserved - not sufficient alone to close Q-0006 under this investigation's established evidentiary bar (Q-0004 was only closed once EV-0011/EV-0012 were actually preserved documents)."
+  },
+  {
+    "source_id": "SRC-0082",
+    "authority": "The Macleay Argus",
+    "title": "Kinne Ring claims victory as the next mayor of Kempsey Shire",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.macleayargus.com.au/story/8778110/kinne-ring-has-the-numbers-to-be-kempsey-shires-youngest-mayor/",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-15",
+    "availability_notes": "macleayargus.com.au fetch not attempted this run (DEC-0008/DEC-0012 - the domain has a consistent history of this block across this investigation). Kempsey-specific media report corroborating SRC-0081: confirms the election \"was held on Saturday 14 September, 2024\" and Kinne Ring's 53.67% result (matching EV-0012), with the preliminary result announced by the NSW Electoral Commission at 9:31am on 30 September, appealable for 24 hours. A second, independent Kempsey-specific source for the 14 September date, alongside SRC-0081 and Mirage News (miragenews.com/preliminary-result-for-election-of-mayor-2024-1326720/, not separately registered here as it appears to republish the same council/NSWEC release)."
+  },
+  {
+    "source_id": "SRC-0083",
+    "authority": "Kempsey Shire Council",
+    "title": "Willawarrin community update, Winter 2024",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/willawarrin-water-treatment-plant/willawarrin-community-update-winter-2024.pdf",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-09",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A dedicated Willawarrin-plant community update PDF, seasonally between EV-0004 (Aug 2024, tender stage) and EV-0006 (Mar 2025, sod-turning). Search-engine snippet states early works (a new pole-mounted transformer, and new pipelines connecting the Macleay River bores, the future plant site, and the town water supply) were complete by winter 2024; the design-and-construction contract had been awarded to \"LC Water\"; and the detailed design phase was expected to complete in early 2025, with construction \"to follow soon after\" - consistent with EV-0006's actual March 2025 construction start. Promoted the contractor detail to evidence as EV-0058."
+  },
+  {
+    "source_id": "SRC-0084",
+    "authority": "Kempsey Shire Council",
+    "title": "Council sets budget, rates and key plans for 2026-27 (June 2026 Council Meeting Wrap)",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/June-2026-Council-Meeting-Wrap",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A companion news article to the 16 June 2026 Ordinary Council Meeting already registered at SRC-0066, covering adoption of the 2026-27 budget, a new Development Control Plan, and rates for the new financial year. Search-engine snippets indicate \"progress on water treatment plants at Willawarrin was included in Council's budget priorities\" but no further specific detail (commissioning status, cost) could be extracted despite repeated attempts. This is the single most recent Council-authored document identified in this entire investigation (June 2026, one month before this session's \"today\"), and remains the clearest still-unfetched lead for Q-0001/Q-0003 - a direct fetch or manual retrieval of this page is a higher-priority next step than further search queries."
   }
 ]

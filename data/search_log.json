@@ -2002,5 +2002,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 8,
     "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0168",
+    "search_terms": "Willawarrin water treatment plant LC Water contractor awarded design construction 2024",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0169",
+    "search_terms": "Kempsey mayoral election 2024 pastvtr.elections.nsw.gov.au LG2401 results",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0170",
+    "search_terms": "Kempsey Shire Council June 2026 Meeting Wrap budget Willawarrin water",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0171",
+    "search_terms": "Willawarrin water treatment plant June 2026 status completion opened",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 2
   }
 ]

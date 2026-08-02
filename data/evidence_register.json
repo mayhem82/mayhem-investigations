@@ -1473,5 +1473,60 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0058",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "2024 (Winter/June-August)",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Willawarrin community update, Winter 2024",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/willawarrin-water-treatment-plant/willawarrin-community-update-winter-2024.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "The design-and-construction contract for the Willawarrin water treatment plant specifically was awarded to \"LC Water\". By Winter 2024, early works were already complete: a new pole-mounted transformer to power the site, and new pipelines connecting the Macleay River bores, the future treatment plant site, and the town water supply. The detailed design phase was expected to complete in early 2025, with construction \"to follow soon after\" - consistent with EV-0006's actual March 2025 sod-turning.",
+    "relevant_quotation": "The contract for the design and construction of the new Willawarrin water treatment plant has been awarded to LC Water.",
+    "investigation_relevance": "First evidence establishing the Willawarrin plant's own contractor specifically (LC Water), distinct from Q-0005's question about the separate, larger Steuart McIntyre Dam/Sherwood Borefield project - though \"LC Water\" is also half of the \"LC Eire\" joint venture already linked to Q-0005 at EV-0037, suggesting the same contractor group won both nearby Kempsey Shire water infrastructure contracts. Also fills a documentation gap between EV-0004 (Aug 2024, tender stage) and EV-0006 (Mar 2025, sod-turning), showing early site works were already complete a full winter before construction formally began.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0004",
+      "EV-0006",
+      "EV-0037"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001"
+    ]
+  },
+  {
+    "evidence_id": "EV-0059",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "2024-09-30",
+    "source_authority": "NSW Electoral Commission; The Macleay Argus",
+    "source_title": "Kempsey - Mayoral Election results (past VTR); Kinne Ring claims victory as the next mayor of Kempsey Shire",
+    "source_type": "Government Record",
+    "source_location": "https://pastvtr.elections.nsw.gov.au/LG2401/kempsey/mayoral",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of pastvtr.elections.nsw.gov.au and macleayargus.com.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "Two Kempsey-specific sources (the NSW Electoral Commission's own past-results portal for the Kempsey Shire Council mayoral election, and a Macleay Argus report on the same result) both state the election \"was held on Saturday 14 September 2024\", with Kinne Ring declared elected with 53.67% (matching EV-0012 exactly) via a preliminary result announced 30 September 2024, declared 1 October 2024.",
+    "relevant_quotation": "The election was conducted by NSW Electoral Commission and held on Saturday 14 September, 2024.",
+    "investigation_relevance": "The strongest evidence yet found for Q-0006: unlike RUN-0011's statutory/calendar reasoning (a generic \"second Saturday in September\" rule) and unlike SRC-0029's earlier general statewide corroboration, both sources here are specific to the Kempsey Shire Council election itself, from the NSW Electoral Commission's own dedicated Kempsey results page, and cross-corroborate EV-0012's already-preserved 53.67%/30 September details exactly. This makes EV-0011's \"September 9, 2024\" very likely a simple date transcription error for \"14\". Not sufficient alone to CLOSE Q-0006, consistent with this investigation's established bar (Q-0004 was only closed once its resolution evidence, EV-0011/EV-0012, was actually preserved as documents, not just search snippets) - both sources here remain fetch-blocked and unpreserved.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0011",
+      "EV-0012"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0006"
+    ]
   }
 ]
