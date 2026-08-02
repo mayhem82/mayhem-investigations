@@ -2050,5 +2050,65 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0172",
+    "search_terms": "Kempsey Shire Council water carting log truck deliveries litres Willawarrin daily",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0173",
+    "search_terms": "Kempsey Shire Council GIPA register contracts 150000 water carting cartage",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0174",
+    "search_terms": "Kempsey Shire Council 2019-2020 annual financial statements water sewer expenditure",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0175",
+    "search_terms": "Macleay Valley Water Cartage Kempsey council contract water delivery Willawarrin Bellbrook",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0176",
+    "search_terms": "\"water carting\" Kempsey Shire Council business papers agenda cost per kilolitre",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
   }
 ]

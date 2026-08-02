@@ -855,5 +855,21 @@
     ],
     "reason": "RUN-0047: the operator provided the full text of LC Water's own website, preserved and hashed here (EV-0060), confirming the real-world identity of EV-0058's named Willawarrin contractor.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0055",
+    "date": "2026-08-02",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0048: operator requested trucking logs. Extracted new granular detail (240-day total duration, timestamped incident log, named source reservoir) from the already-preserved SRC-0042 (EV-0061, EV-0062). Registered 3 new sources for the still-unresolved question of who physically contracted/performed the water carting: Council's GIPA contract register, 2019-2020 financial statements, and a real but unconfirmed local water-cartage business.",
+    "validation_completed": true
   }
 ]

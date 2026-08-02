@@ -1555,5 +1555,57 @@
     "open_question_links": [
       "Q-0001"
     ]
+  },
+  {
+    "evidence_id": "EV-0061",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "2021-04-26",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report, July 2020-June 2021",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+    "preserved_file_reference": "preserved/SRC-0042-kempsey-council-dwms-annual-report-2020-2021.txt",
+    "document_hash": "sha256:8cff9ee5dcfe22265e494dd76c4e112135492cefef847bb570d4823b5207ef70",
+    "hash_exception_reason": null,
+    "evidence_description": "In explaining a 29-exception increase in Willawarrin's water-quality exceedances for 2020-2021, the report states plainly: \"during 2019-2020 the supply was under water carting for 240 days.\" This is the first exact, primary-sourced total-duration figure for how long Willawarrin's water carting operation actually ran during the main 2019-2020 crisis (previously the register only had the start date, 2 October 2019/EV-0024, and the shared end date, 18 June 2020/CHR-0002 - 240 days spans a period consistent with, though not identical in length to, the gap between those two dates, which is closer to 260 days; the difference may reflect intermittent rather than fully continuous carting, or a differently-defined \"under carting\" period).",
+    "relevant_quotation": "during 2019-2020 the supply was under water carting for 240 days",
+    "investigation_relevance": "Gives THR-02 its first genuine quantitative scale figure for the primary crisis (as opposed to just start/end dates), and flags a minor, unresolved arithmetic discrepancy against the previously-established 2 October 2019 to 18 June 2020 date range worth noting rather than silently reconciling. Per DEC-0010, this evidence is drawn from the same ChatGPT-extracted preservation as EV-0031-EV-0036 and is recorded at the same reduced confidence level.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0024",
+      "EV-0025"
+    ],
+    "chronology_links": [
+      "CHR-0002"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0062",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "2020-06-30",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report, July 2020-June 2021",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+    "preserved_file_reference": "preserved/SRC-0042-kempsey-council-dwms-annual-report-2020-2021.txt",
+    "document_hash": "sha256:8cff9ee5dcfe22265e494dd76c4e112135492cefef847bb570d4823b5207ef70",
+    "hash_exception_reason": null,
+    "evidence_description": "The report's Section 7 incident record for the July 2020 Bellbrook Free Chlorine event (already covered at EV-0032) includes a genuine timestamped operational log, closer to what an actual \"trucking/operations log\" looks like than the narrative summary already registered: \"30/6/2020 ~10:38 WQ test result - Free Chlorine 3.7 mg/L (Alert Level); ~13:30 Chlorine dosing pumps adjusted... 1/07/2020 ~12:05 WO contacted TL... ~15:15 WQ test result - Free Chlorine 4.1 mg/L (Critical Limit); ~16:00 Critical Incident Report completed... 02/07/2020 ~07:00 analyser trends checked... ~07:10 plant inhibited... 07:26 Email from WO to Management team; ~8:30 Drain and Clean of Clear Water Tank... 10:18 Phone notification to NSW Health; 12:57 Follow up email to NSW Health. 03/07/2020 14:20 WQ test result 2.03 mg/L (within operational target).\" A separate incident log entry for the October 2020 Willawarrin turbidity event (already fully captured at EV-0033) confirms carting deliveries were made \"from the KLM supply (Greenhill Reservoir)\" specifically - naming the exact source reservoir for the first time.",
+    "relevant_quotation": "1/07/2020 ~12:05 WO contacted TL to inform them of likely hood of increased Free Chlorine from the CWT",
+    "investigation_relevance": "This is a genuine internal operational log (operator initials, timestamps to the minute, specific corrective actions), not a public-facing summary - it demonstrates Council's water operators were actively monitoring and logging every step of these incidents in real time, useful context for assessing the adequacy of Council's emergency response more generally. Also names \"Greenhill Reservoir\" as the specific KLM-network source point water was carted from for the October 2020 Willawarrin incident, a level of detail not previously captured. Per DEC-0010, drawn from the same ChatGPT-extracted preservation as EV-0031-EV-0036, same reduced confidence level.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0032",
+      "EV-0033"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]
