@@ -1258,5 +1258,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-12",
     "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A companion FAQ-style piece to SRC-0089 (15 days later, 20 February 2025), reiterating the same PFAS testing result across all eight supply systems including Willawarrin and Bellbrook. Registered as its own source per this investigation's one-source-per-URL convention; treated as corroborating rather than independent of SRC-0089."
+  },
+  {
+    "source_id": "SRC-0091",
+    "authority": "Kempsey Shire Council (data sponsored by NSW Health)",
+    "title": "Drinking Water Quality Result Summary, 1 July 2023 - 30 June 2024",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/water-testing-results-2023-2024.pdf",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). FOUND IN RESPONSE TO OPERATOR DIRECTIVE: the \"DWMS Annual Report\" series (SRC-0042/SRC-0047) appears discontinued after 2020-2021 under that name; this is its successor - a leaner \"Drinking Water Quality Result Summary\" format (\"water-testing-results-YYYY-YYYY.pdf\" filename pattern), still produced by the same Water & Sewer department using the same NSW Health-sponsored verification monitoring program. Directly covers the Willi Willi Fire year (Oct 2023, EV-0051) and the following months - potentially the single best remaining lead for THR-01's standing open question of whether that fire caused a Willawarrin water-supply disruption. Confirmed via search snippet: gives per-supply-system compliance tables (pH, Total Hardness, Turbidity, E. coli, sample counts) for Kempsey-Lower Macleay and South West Rocks specifically (both 98.3-100% compliant); no Willawarrin- or Bellbrook-specific figures could be extracted from search snippets despite repeated attempts. A dedicated search for equivalent \"water-testing-results-2021-2022\" or \"water-testing-results-2022-2023\" files found neither - only the 2023-2024 edition of this new naming pattern is indexed, suggesting either a genuine ~2-year public-reporting gap (2021-22, 2022-23) or that earlier editions exist under a still-different, not-yet-found name/URL."
   }
 ]

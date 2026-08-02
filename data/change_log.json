@@ -887,5 +887,20 @@
     ],
     "reason": "RUN-0049: continued DWMS annual report research. Registered 2 new sources (Feb 2025 PFAS safety results) and 2 new evidence items - remaining Executive Summary detail from the already-preserved 2020-2021 DWMS report (EV-0063), and the Feb 2025 PFAS testing confirmation (EV-0064). Confirmed no DWMS report exists for 2021-22 onward under the same naming convention; the 2019-2020 crisis-year report (SRC-0047) remains the top unfetched priority.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0057",
+    "date": "2026-08-02",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0050: identified the DWMS Annual Report series' successor - a renamed \"Drinking Water Quality Result Summary\" (water-testing-results-YYYY-YYYY.pdf), same department, same NSW Health monitoring program. Registered the 2023-2024 edition (SRC-0091, covers the Willi Willi Fire year). No 2021-2022/2022-2023 edition found under this pattern.",
+    "validation_completed": true
   }
 ]
