@@ -698,5 +698,13 @@
       "EV-0066"
     ],
     "notes": "Operator directive: pursue paths not yet taken. Tried NSW Parliament Hansard, a boil-water-alert search, and a claimed \"Bellbrook Water Treatment Plant\" capital-works item (the last correctly identified as an AI-search-summary error and not registered) - all three found no relevant change. A fourth angle succeeded: found the first evidence directly addressing Q-0003's cost-increase question - Council increased the Willawarrin plant's funding deed \"to accommodate cost increases from the competitive tender process\" (EV-0066, National Water Grid Authority). Not sufficient to close Q-0003 (search-snippet only), but the strongest lead yet on this question."
+  },
+  {
+    "run_id": "RUN-0054",
+    "date": "2026-08-02",
+    "sources_checked": [],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "The operator reported personally having heard of a second/new Bellbrook water treatment plant in planning \"for years\" - corroborating a search-summary claim RUN-0053 had discounted as likely AI-summarization noise. Revised that framing: this is now a live, operator-corroborated open lead (updated on Q-0002 and THR-07), not a rejected one. Four further searches this run still produced no quotable primary citation for the claim. No new Source or Evidence Register entries this run - honest \"no relevant change\" outcome on the research side, though the operator-testimony correction itself is a substantive, logged change to this investigation's working understanding."
   }
 ]
