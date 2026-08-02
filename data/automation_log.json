@@ -670,5 +670,21 @@
     "result": "New source added.",
     "evidence_added": [],
     "notes": "Operator directive: \"10 years of editions\" of the drinking water quality report series. Found a third naming pattern giving a 2018-2019 pre-crisis baseline edition (SRC-0093, the earliest found - no earlier year located). Identified the structural finding behind all editions: Council data is drawn from the NSW Government Drinking Water Database (SRC-0092, NSW Ministry of Health), though this session could not confirm whether it is publicly queryable directly. Explicitly excluded a superficially similar but off-topic find: Council's EPA-licensed sewage treatment plant effluent lab-result batches, which are wastewater discharge data, not drinking water supply data. No Evidence Register changes this run - both new sources remain fetch-blocked."
+  },
+  {
+    "run_id": "RUN-0052",
+    "date": "2026-08-02",
+    "sources_checked": [
+      "SRC-0042",
+      "SRC-0047",
+      "SRC-0091",
+      "SRC-0092",
+      "SRC-0093"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0065"
+    ],
+    "notes": "Operator directive: treat the drinking-water-report naming-convention changes as evidence. Promoted RUN-0050/RUN-0051's finding (three distinct naming/URL patterns across 2018-2025, plus an apparent 2021-22/2022-23 publication gap) to a first-class Evidence Register entry (EV-0065), recorded factually without asserting cause. Two further dedicated searches for the missing 2021-22/2022-23 editions and for a Council-hosted historical index page found neither; the gap remains unexplained."
   }
 ]

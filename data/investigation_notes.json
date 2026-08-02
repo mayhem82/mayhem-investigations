@@ -1033,5 +1033,14 @@
     "related_thread": "THR-01",
     "related_source": "SRC-0092",
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0116",
+    "timestamp": "2026-08-02T17:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0052: the operator directed that the drinking-water-report naming-convention changes identified across RUN-0050/RUN-0051 be treated as evidence in their own right, not just research-methodology commentary. Registered EV-0065: three distinct URL/naming patterns across 2018-2025, plus an apparent, still-unexplained 2021-22/2022-23 publication gap confirmed via further dedicated search this run. Recorded factually - this is consistent with routine website restructuring, a mundane explanation not ruled out - but it is also a genuine, repeatedly-encountered obstacle to externally auditing this report series, worth its own citable record per this investigation's no-allegation-framing standard.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": "EV-0065"
   }
 ]

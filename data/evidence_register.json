@@ -1653,5 +1653,37 @@
     "open_question_links": [
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0065",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "2019-2025 (pattern observed across this date range)",
+    "source_authority": "Kempsey Shire Council (synthesis across multiple Council publications)",
+    "source_title": "Naming-convention and URL-pattern changes across the drinking water quality report series, with an apparent 2021-22/2022-23 publication gap",
+    "source_type": "Other Public Record",
+    "source_location": "https://www.health.nsw.gov.au/environment/water/Pages/drinking-water-database.aspx",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "This is a documentation-pattern observation synthesised across five already-registered sources (SRC-0042, SRC-0047, SRC-0091, SRC-0092, SRC-0093), each individually fetch-blocked (DEC-0008/DEC-0012); no single file to preserve or hash.",
+    "evidence_description": "Recorded at the operator's explicit direction that this pattern itself constitutes evidence. Kempsey Shire Council's drinking-water quality report for Willawarrin/Bellbrook has appeared under at least THREE distinct file-naming/URL conventions across the period this investigation covers: (1) \"docs/water/dwms-annual-wq-report-1819-final.pdf\" for 2018-2019 (SRC-0093); (2) \"docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-YYYY-YYYY.pdf.pdf\" for 2019-2020 and 2020-2021 (SRC-0047, SRC-0042); and (3) \"docs/departments/water-amp-sewer/water-testing-results-YYYY-YYYY.pdf\" for 2023-2024 (SRC-0091), which also drops the earlier reports' full narrative format for a leaner compliance-table summary. No edition under any of these three patterns, or any other pattern searched for, could be located for the 2021-2022 or 2022-2023 reporting years despite repeated dedicated searches across RUN-0050 and RUN-0051. Each edition individually states its underlying data is \"reproduced from the NSW Government Drinking Water Database\" (SRC-0092), a single constant authority behind all three naming conventions.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Recorded factually and without asserting cause or intent: the pattern is consistent with routine website/CMS restructuring over a 6+ year span (a mundane explanation this investigation has no basis to rule out), but it also has the practical effect of making the full report series significantly harder for an external party (including this investigation) to locate and audit - each new naming convention effectively hides prior editions from search unless their exact historical URL is separately known, and the two-year gap (2021-22, 2022-23) has not been independently explained. Recorded as a discrete, citable finding per the operator's directive, rather than left only as narrative context inside a thread's outstanding_work field. Does not itself resolve Q-0001/Q-0002/Q-0003 or close THR-01's standing bushfire-water-disruption lead, but documents a genuine access/transparency obstacle this investigation has repeatedly encountered.",
+    "classification": "Complete",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0031",
+      "EV-0032",
+      "EV-0033",
+      "EV-0034",
+      "EV-0035",
+      "EV-0036",
+      "EV-0061",
+      "EV-0062",
+      "EV-0063"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]
