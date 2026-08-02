@@ -952,5 +952,23 @@
     "related_thread": null,
     "related_source": "SRC-0001",
     "related_evidence": "EV-0002"
+  },
+  {
+    "note_id": "NOTE-0107",
+    "timestamp": "2026-08-02T10:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0045: this run recovers two still-missing sources from a very old, never-merged branch (RUN-0012, PR #5) that had drifted 30+ runs behind main and was closed rather than force-rebased (every ID it introduced collided with unrelated content added since). Checked its substance against current main first: SRC-0034 from that branch is already registered as SRC-0052; the ABS Census figure it corroborated is already Evidence at EV-0016, with a second corroborating aggregator source at EV-0030, both linked to CTR-0001. The two genuinely still-missing items were SRC-0032 (profile.id.com.au's community profile, another ~183 figure for Willawarrin) and SRC-0033 (an unregistered \"Water update 2024\" Council page) - registered here as SRC-0079 and SRC-0080 respectively with fresh IDs.",
+    "related_thread": "THR-08",
+    "related_source": "SRC-0079",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0108",
+    "timestamp": "2026-08-02T10:05:00",
+    "activity_type": "Note",
+    "text": "Explicitly did NOT use SRC-0079 (profile.id.com.au) to close or resolve CTR-0001. It is a fourth \"180-190 side\" data point, but is downstream of/consistent with the same ABS-derived figures already in the register (EV-0016, EV-0030), not a methodologically independent count - and does not address the genuine complication already recorded at EV-0036, where Kempsey Shire Council's own internal Drinking Water Management System annual report gives Willawarrin's serviced population as \"~130\", matching EV-0005 rather than the ABS side. CTR-0001 remains correctly Open pending either a primary-sourced fetch of one of the already-registered pages, or a source explaining the ~130 vs ~180-190 discrepancy itself (e.g. distinguishing a service-connections count from a resident-population count).",
+    "related_thread": "THR-07",
+    "related_source": "SRC-0079",
+    "related_evidence": null
   }
 ]
