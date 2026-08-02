@@ -579,5 +579,16 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Not an evidence-collection run. The operator successfully re-retrieved SRC-0001's page content (after an earlier 404 report) and provided it directly. Compared line-by-line against the already-preserved file for EV-0002/EV-0003 - content matches in full, confirming the preserved file was always a genuine, accurate capture despite the unrelated document_hash computation error already fixed at DEC-0011. No new facts; a content-integrity confirmation only."
+  },
+  {
+    "run_id": "RUN-0045",
+    "date": "2026-08-02",
+    "sources_checked": [
+      "SRC-0079",
+      "SRC-0080"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Recovered the two genuinely non-duplicate sources from the old, closed PR #5 (RUN-0012, 30+ runs stale, closed rather than force-rebased due to pervasive ID collisions) - SRC-0079 (profile.id.com.au community profile) and SRC-0080 (Kempsey Council \"Water update 2024\" page). Explicitly did not use SRC-0079 to resolve CTR-0001: it is consistent with, not independent of, the ABS-derived figures already in the register (EV-0016/EV-0030), and does not address the complication raised by EV-0036 (Council's own DWMS report giving ~130). CTR-0001 remains correctly Open. No Evidence Register, Chronology, or Open Question changes this run."
   }
 ]

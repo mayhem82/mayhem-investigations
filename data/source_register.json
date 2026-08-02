@@ -1090,5 +1090,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "miragenews.com/kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012). Confirms BlazeAid established a volunteer base camp at Willawarrin Showground following the Willi Willi Fire (EV-0051), clearing 1.8km of damaged fencing and installing 300m of new fencing on fire-affected rural properties; Need for Feed (a Lions Australia charity) delivered emergency fodder to Willawarrin. Specific, dated (~19 October 2023) confirmation of the fire's direct rural-property impact at Willawarrin."
+  },
+  {
+    "source_id": "SRC-0079",
+    "authority": ".id (informed decisions), for Kempsey Shire Council",
+    "title": "Kempsey Shire Community Profile - Willawarrin locality snapshot",
+    "type": "Government Record",
+    "url_or_file_location": "https://profile.id.com.au/kempsey/locality-snapshots",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "profile.id.com.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A demographic-data provider commissioned by Kempsey Shire Council itself (a different provider from the ABS QuickStats page already registered as SRC-0030/EV-0016) states Willawarrin's population as \"around 183 residents\", matching SRC-0030's ABS figure. This is a fourth data point on the \"180-190\" side of CTR-0001 (after EV-0016's ABS 2021 figure, EV-0030's aggregator-reported 2016/2021 ABS figures, and EV-0006's own \"180\"), but is itself downstream of/consistent with the same ABS series rather than a wholly independent methodology, and does not resolve the genuine complication raised by EV-0036 (Kempsey Shire's own Drinking Water Management System annual report, which independently gives Willawarrin's serviced population as \"~130\", matching EV-0005 rather than the ABS-derived figures). Registered here at Source Register level only, not promoted to Evidence, since nothing could be fetched or preserved this session and it would not change CTR-0001's open status."
+  },
+  {
+    "source_id": "SRC-0080",
+    "authority": "Kempsey Shire Council",
+    "title": "Water update 2024",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Residents/Water-sewerage/Water-supply-quality/Water-update-2024",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "Same kempsey.nsw.gov.au HTTP 403 access gap as SRC-0010/0011/0012/0021/0022/0023/0033-area sources. A dated 2024 water-supply-quality update page not previously registered - a plausible candidate for a current status update on Q-0001 (Willawarrin commissioning) or Q-0002 (Bellbrook infrastructure), flagged for manual browser retrieval in a future run."
   }
 ]

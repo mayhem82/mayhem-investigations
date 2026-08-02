@@ -808,5 +808,19 @@
     ],
     "reason": "RUN-0044: the operator re-retrieved SRC-0001's content and provided it directly; compared against the already-preserved EV-0002/EV-0003 file and confirmed it matches in full, resolving residual doubt from the DEC-0011 hash-computation-error finding. No new evidentiary facts.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0052",
+    "date": "2026-08-02",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0045: recovered SRC-0079/SRC-0080, the two non-duplicate sources from the closed, 30+ run stale PR #5 (RUN-0012), registered with fresh IDs against current main. Explicitly did not use them to resolve CTR-0001, which remains open given EV-0036's unresolved complication.",
+    "validation_completed": true
   }
 ]
