@@ -1015,5 +1015,14 @@
     "related_thread": "THR-01",
     "related_source": "SRC-0042",
     "related_evidence": "EV-0063"
+  },
+  {
+    "note_id": "NOTE-0114",
+    "timestamp": "2026-08-02T15:00:00",
+    "activity_type": "Finding",
+    "text": "RUN-0050: operator asked to find the new name/department for the discontinued DWMS Annual Report series. Found it: Council still reports drinking water quality through the same Water & Sewer department and the same NSW Health-sponsored verification monitoring program, just under a renamed, leaner \"Drinking Water Quality Result Summary\" format (\"water-testing-results-YYYY-YYYY.pdf\") rather than the old full narrative \"DWMS Annual Report\". Registered the 2023-2024 edition (SRC-0091), which covers the Willi Willi Fire year directly - the best remaining lead for whether that fire caused a Willawarrin water disruption. Could not locate a 2021-2022 or 2022-2023 edition under this naming pattern despite dedicated searches - either a real reporting gap or an as-yet-undiscovered third naming convention for those specific years.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0091",
+    "related_evidence": null
   }
 ]

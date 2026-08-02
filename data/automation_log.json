@@ -649,5 +649,15 @@
       "EV-0064"
     ],
     "notes": "Operator directive: continue DFAPTI, DWMS annual reports. Confirmed the crisis-year 2019-2020 DWMS report (SRC-0047) and any DWMS report for 2021-22 onward remain unfetched/not found - Council appears to have discontinued this exact report series after 2020-2021. Re-mined the one preserved DWMS report (SRC-0042) for remaining unextracted content: reservoir maintenance (external-contractor cleaning/inspection, no integrity breaches) and customer-enquiry counts for Willawarrin/Bellbrook in 2020-2021 (EV-0063). Registered a February 2025 PFAS safety-testing result explicitly naming both towns among all eight passing supply systems (EV-0064) - the most recent dated confirmation of active monitoring for either supply."
+  },
+  {
+    "run_id": "RUN-0050",
+    "date": "2026-08-02",
+    "sources_checked": [
+      "SRC-0091"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Operator directive: find the DWMS Annual Report series' new name/department, since no report under that title was found after 2020-2021. Found it: Council's Water & Sewer department renamed the report to a \"Drinking Water Quality Result Summary\" (filename pattern \"water-testing-results-YYYY-YYYY.pdf\"), still NSW Health-verification-monitoring-sponsored. Registered the 2023-2024 edition (SRC-0091, covers the Willi Willi Fire year - the top remaining lead for THR-01's standing question). Could not find a 2021-2022 or 2022-2023 edition under this pattern; flagged as either a genuine reporting gap or an undiscovered third naming convention. No Evidence Register changes this run - the document remains fetch-blocked and no Willawarrin/Bellbrook-specific content could be extracted from search snippets."
   }
 ]

@@ -2158,5 +2158,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 7,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0181",
+    "search_terms": "kempsey.nsw.gov.au \"water testing results\" 2023 2024 Willawarrin Bellbrook compliance table",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0182",
+    "search_terms": "Kempsey Shire Council drinking water quality result summary Willawarrin turbidity iron manganese 2023-24",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0183",
+    "search_terms": "Kempsey Shire Council water and sewer department annual report renamed drinking water quality",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0184",
+    "search_terms": "site:kempsey.nsw.gov.au water testing results 2021 2022",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 7,
+    "results_preserved": 1
   }
 ]
