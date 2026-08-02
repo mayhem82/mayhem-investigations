@@ -526,5 +526,22 @@
       "EV-0050"
     ],
     "notes": "At the operator's prompt to find genuinely new investigation pathways rather than repeating recent search angles: explored NSW Health compliance reporting, named Council personnel (Wes Trotter's Director Utilities progression via a new source type, a WIOA conference paper), EPA/pollution-licensing records, community forums, and a completely new shire-wide program not previously touched - the Regional Network Leakage Detection Project Kempsey joined mid-2024 (EV-0048). Also extracted real content for the first time from a previously opaque source, filling a THR-09 construction-sequence gap (EV-0050)."
+  },
+  {
+    "run_id": "RUN-0041",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0074",
+      "SRC-0075",
+      "SRC-0076",
+      "SRC-0077"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0051",
+      "EV-0052",
+      "EV-0053"
+    ],
+    "notes": "Continued diversifying research methods. Correctly identified and rejected two false leads (a bushfire/water-quality study covering a different NSW region; a SEED dataset explicitly not covering the Macleay catchment). Major finding: a second major bushfire (the Willi Willi Fire, October 2023) struck Willawarrin directly - 46% of Kempsey Shire burned, 340 structures damaged/destroyed, one fatality, disaster declaration, dedicated recovery centre at Willawarrin - completely unknown to this register until now. Flagged as the top-priority next-run lead: whether this fire also triggered a Willawarrin water-supply disruption, following this case's established 2019 causal pattern."
   }
 ]

@@ -281,5 +281,25 @@
     "supporting_evidence": [
       "EV-0044"
     ]
+  },
+  {
+    "chronology_id": "CHR-0029",
+    "event_date": "2023-10-16",
+    "date_is_inference": false,
+    "event_description": "The Willi Willi Fire begins, eventually burning through the Kempsey Shire for several weeks - affecting 46% of the entire Shire, damaging or destroying 340 houses, outbuildings and fences, and directly impacting Willawarrin among other named localities. Formal disaster assistance is declared for the Kempsey LGA effective this date.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0051"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0030",
+    "event_date": "2023-10-26",
+    "date_is_inference": false,
+    "event_description": "A dedicated bushfire recovery centre opens at Willawarrin Community Hall, run through 31 October 2023 with multiple state and community agencies present, supporting residents affected by the Willi Willi Fire.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0052"
+    ]
   }
 ]
