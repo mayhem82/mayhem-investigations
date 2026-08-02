@@ -633,5 +633,21 @@
       "EV-0062"
     ],
     "notes": "Operator directive: find trucking logs. Mined the already-preserved SRC-0042 text for genuine operational-log detail beyond its previously-extracted summary dates - found a precise 240-day total water-carting duration for Willawarrin 2019-2020 (EV-0061) and a timestamped internal incident log plus a newly-named source reservoir, \"Greenhill Reservoir\" (EV-0062). Could not find any source naming the actual contractor/company that physically carted water in 2019-2020 or confirming a literal per-delivery trucking log exists publicly; identified Council's GIPA contract register (SRC-0086) and 2019-2020 financial statements (SRC-0087) as the most promising still-unfetched leads, and registered a real local water-cartage business (SRC-0088) explicitly as an unconfirmed candidate, not an identified party."
+  },
+  {
+    "run_id": "RUN-0049",
+    "date": "2026-08-02",
+    "sources_checked": [
+      "SRC-0042",
+      "SRC-0047",
+      "SRC-0089",
+      "SRC-0090"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0063",
+      "EV-0064"
+    ],
+    "notes": "Operator directive: continue DFAPTI, DWMS annual reports. Confirmed the crisis-year 2019-2020 DWMS report (SRC-0047) and any DWMS report for 2021-22 onward remain unfetched/not found - Council appears to have discontinued this exact report series after 2020-2021. Re-mined the one preserved DWMS report (SRC-0042) for remaining unextracted content: reservoir maintenance (external-contractor cleaning/inspection, no integrity breaches) and customer-enquiry counts for Willawarrin/Bellbrook in 2020-2021 (EV-0063). Registered a February 2025 PFAS safety-testing result explicitly naming both towns among all eight passing supply systems (EV-0064) - the most recent dated confirmation of active monitoring for either supply."
   }
 ]

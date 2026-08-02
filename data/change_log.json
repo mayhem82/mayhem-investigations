@@ -871,5 +871,21 @@
     ],
     "reason": "RUN-0048: operator requested trucking logs. Extracted new granular detail (240-day total duration, timestamped incident log, named source reservoir) from the already-preserved SRC-0042 (EV-0061, EV-0062). Registered 3 new sources for the still-unresolved question of who physically contracted/performed the water carting: Council's GIPA contract register, 2019-2020 financial statements, and a real but unconfirmed local water-cartage business.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0056",
+    "date": "2026-08-02",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0049: continued DWMS annual report research. Registered 2 new sources (Feb 2025 PFAS safety results) and 2 new evidence items - remaining Executive Summary detail from the already-preserved 2020-2021 DWMS report (EV-0063), and the Feb 2025 PFAS testing confirmation (EV-0064). Confirmed no DWMS report exists for 2021-22 onward under the same naming convention; the 2019-2020 crisis-year report (SRC-0047) remains the top unfetched priority.",
+    "validation_completed": true
   }
 ]

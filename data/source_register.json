@@ -1230,5 +1230,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-02",
     "availability_notes": "yellowpages.com.au fetch not attempted this run (DEC-0008/DEC-0012 pattern applies shire-wide). A real, established local water-cartage business (59-61 South St, Kempsey), offering 13,500-litre truck loads, servicing \"Kempsey area to Eungai and Telegraph Point\" per its own marketing copy. IMPORTANT CAVEAT: no source found this run - here or elsewhere - names this company (or any specific company) as the actual contractor used for the Willawarrin/Bellbrook 2019-2020 water carting; it is registered only as evidence that local water-cartage capacity of this kind exists in the Kempsey area, not as a confirmed party to this case. Do not treat as the identified contractor without independent confirmation."
+  },
+  {
+    "source_id": "SRC-0089",
+    "authority": "Kempsey Shire Council",
+    "title": "Kempsey's tap water clears safety tests, well below PFAS limits",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250205-Kempseys-tap-water-clears-safety-tests-well-below-PFAS-limits",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-12",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Council announcement (5 February 2025) that tap water from all eight Shire water supply systems - explicitly including Willawarrin and Bellbrook by name - tested below detectable/well within ADWG limits for PFAS, using trained Council staff and Sydney Water Laboratory Services (an accredited testing authority). A comparatively recent (Feb 2025) positive status data point for both towns' supplies, though PFAS is a different contaminant class to this case's core iron/manganese/turbidity concerns and does not itself speak to Q-0001's commissioning question."
+  },
+  {
+    "source_id": "SRC-0090",
+    "authority": "Kempsey Shire Council",
+    "title": "Is Kempsey Shire's water supply safe to drink? (FAQ)",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250220-Is-Kempsey-Shire%E2%80%99s-water-supply-safe-to-drink",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-12",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A companion FAQ-style piece to SRC-0089 (15 days later, 20 February 2025), reiterating the same PFAS testing result across all eight supply systems including Willawarrin and Bellbrook. Registered as its own source per this investigation's one-source-per-URL convention; treated as corroborating rather than independent of SRC-0089."
   }
 ]
