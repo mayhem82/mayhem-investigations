@@ -1020,5 +1020,61 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-08",
     "availability_notes": "wioa.org.au fetch not attempted (DEC-0008/DEC-0012). A genuinely new source type for this register: an industry-association conference paper (rather than council/media/government-press-release material) co-authored by Wes Trotter, discussing Kempsey Shire Council's water industry operator traineeship program and workforce challenges for a small rural council. Confirms Wes Trotter (quoted at EV-0006 as \"Manager Water and Sewer\" per SRC-0042's 2022-dated report) has since been promoted to \"Director Utilities\" per other search results this run - a genuine organisational/personnel progression, not yet independently corroborated by a second source."
+  },
+  {
+    "source_id": "SRC-0074",
+    "authority": "Kempsey Shire Council",
+    "title": "2023 Kempsey bushfires FAQ",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20231022-Bushfire-FAQ",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; dated 22 October 2023 per URL slug",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012). A completely new, previously unregistered bushfire event for this case: the Willi Willi Fire (also referenced as the Willi Willi Road/Moparrabah Fire) started 16 October 2023, ultimately burning through over 10,900 hectares (one source gives a higher 28,000+ ha figure - reported here without resolving the discrepancy), affecting 46% of the entire Kempsey Shire and damaging or destroying 340 houses, outbuildings and fences. Named affected areas include Willi Willi, Warbro Brook, Willawarrin, Mungay Flat, Toorooka and Tamagog/Temagog (spelling varies between sources)."
+  },
+  {
+    "source_id": "SRC-0075",
+    "authority": "Kempsey Shire Council",
+    "title": "Disaster assistance declared for Kempsey",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20231023-Disaster-Declaration",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; dated 23 October 2023 per URL slug",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012). Confirms formal disaster assistance was declared for the Kempsey local government area following the Willi Willi Fire, effective from 16 October 2023 onwards."
+  },
+  {
+    "source_id": "SRC-0076",
+    "authority": "Kempsey Shire Council, corroborated by Mirage News and NBN News",
+    "title": "Bushfire recovery centre open in Willawarrin",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20231026-Bushfire-recovery-centre-open-in-Willawarrin",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; dated 26 October 2023 per URL slug, independently corroborated by Mirage News and NBN News coverage the same week",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012). A bushfire recovery centre opened at Willawarrin Community Hall (24-26 Main Street) from Thursday 26 October 2023, running on a multi-day schedule through 31 October, with representatives from Service NSW, the NSW Reconstruction Authority, DPI/Local Land Services, NSW Health Mental Health services, Rural Financial Counselling Services, Red Cross, Legal Aid, the Insurance Council of Australia, the Salvation Army, and a Disaster Relief Grants Assessor all attending."
+  },
+  {
+    "source_id": "SRC-0077",
+    "authority": "Multiple (The Macleay Argus, Port Macquarie News, Manning River Times - Australian Community Media)",
+    "title": "Man's body found in burnt bushland west of Kempsey; Willi Willi Fire downgraded",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.macleayargus.com.au/story/8388042/mans-body-found-in-burnt-bushland-road-closures-in-place/",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; syndicated in near-identical form across three Australian Community Media mastheads",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "macleayargus.com.au/portnews.com.au/manningrivertimes.com.au fetch not attempted (DEC-0008/DEC-0012). Factual, sourced reporting (three same-network but independently-published mastheads) that a 56-year-old man was found deceased at Stony Creek Lane, Tamagog, after concerns were raised for his welfare when he went missing during the Willi Willi Fire; his bulldozer was found destroyed nearby. Recorded strictly as sourced factual reporting; no finding of fault or responsibility by any person or body is stated or implied, consistent with this investigation's no-allegation-framing standard, and no name is given in any search-engine snippet found for this individual."
   }
 ]

@@ -1296,5 +1296,79 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0051",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2023-10-16",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "2023 Kempsey bushfires FAQ",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20231022-Bushfire-FAQ",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "A major, previously entirely unregistered bushfire - the Willi Willi Fire (also referenced as the Willi Willi Road/Moparrabah Fire) - started 16 October 2023 and burned for several weeks, ultimately affecting 46% of the entire Kempsey Shire and damaging or destroying 340 houses, outbuildings and fences. Named directly affected areas include Willi Willi, Warbro Brook, Willawarrin, Mungay Flat, Toorooka and Tamagog. Area-burnt figures vary between sources found this session (10,900+ hectares per one figure, 28,000+ hectares per another) and are reported here without resolving the discrepancy.",
+    "relevant_quotation": null,
+    "investigation_relevance": "A significant, previously completely unknown crisis event for this case: a second, major bushfire directly impacting Willawarrin, four years after the well-documented Carrai East Bushfire (Nov 2019), consistent with a recurring pattern of bushfire risk to this specific town. Given this case's established causal chain (bushfire -> ash/sediment -> river contamination -> trucked water), this is a strong candidate trigger for a further Willawarrin water-supply disruption in late 2023/early 2024 not yet confirmed or investigated - the clearest and highest-priority new lead from this run.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0029"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0052",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2023-10-23",
+    "source_authority": "Kempsey Shire Council / NSW Government",
+    "source_title": "Disaster assistance declared for Kempsey; Bushfire recovery centre open in Willawarrin",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20231023-Disaster-Declaration",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "Formal disaster assistance was declared for the Kempsey local government area from 16 October 2023. A dedicated bushfire recovery centre subsequently opened at Willawarrin Community Hall from 26 October 2023, with representatives from Service NSW, the NSW Reconstruction Authority, DPI/Local Land Services, NSW Health, Rural Financial Counselling Services, Red Cross, Legal Aid, the Insurance Council of Australia, the Salvation Army, and a Disaster Relief Grants Assessor.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Confirms the Willi Willi Fire (EV-0051) was severe enough to trigger formal disaster declaration and a dedicated multi-agency recovery response specifically located in Willawarrin - corroborating the scale of the event's direct impact on this case's own subject town.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0051"
+    ],
+    "chronology_links": [
+      "CHR-0030"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0053",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown (October 2023)",
+    "source_authority": "The Macleay Argus / Port Macquarie News / Manning River Times (Australian Community Media)",
+    "source_title": "Man's body found in burnt bushland west of Kempsey; Willi Willi Fire downgraded",
+    "source_type": "Media Report",
+    "source_location": "https://www.macleayargus.com.au/story/8388042/mans-body-found-in-burnt-bushland-road-closures-in-place/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of macleayargus.com.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "A 56-year-old man was found deceased at Stony Creek Lane, Tamagog, after concerns were raised for his welfare when he was reported missing during the Willi Willi Fire; his bulldozer was found destroyed nearby. Reported consistently across three independently-published (same-network) mastheads.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Documents a fatality connected to the Willi Willi Fire (EV-0051), recorded strictly as sourced factual reporting - no finding of fault or responsibility by any person or body is stated or implied, consistent with this investigation's no-allegation-framing standard applied identically to the 2019 Carrai East Bushfire fatality (EV-0021).",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0051"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]

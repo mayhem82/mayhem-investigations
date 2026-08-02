@@ -1822,5 +1822,113 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 10,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0153",
+    "search_terms": "abc.net.au Willawarrin Bellbrook water crisis ABC News",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0154",
+    "search_terms": "\"abc.net.au\" Kempsey water Willawarrin drought bushfire manganese iron",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0155",
+    "search_terms": "\"influence of recent bushfires on water quality\" regional NSW water purification systems Scientific Reports Kempsey",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0156",
+    "search_terms": "Reed Jackson Charles Sturt University bushfire water quality study catchments studied list NSW towns",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0157",
+    "search_terms": "SEED NSW \"Bushfire Inquiry project water quality dataset\" Macleay Kempsey catchment",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0158",
+    "search_terms": "\"Bushfire recovery centre\" Willawarrin October 2023 Kempsey Shire Council",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0159",
+    "search_terms": "Kempsey Shire bushfire October 2023 Willawarrin Macleay Valley fire emergency",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0160",
+    "search_terms": "Willi Willi Fire 2023 Willawarrin water supply trucked contamination river turbidity aftermath",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0161",
+    "search_terms": "Willi Willi fire 2023 Kempsey Shire 46 per cent burned 340 houses one death",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-07-29",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
   }
 ]

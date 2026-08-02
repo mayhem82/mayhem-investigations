@@ -916,5 +916,14 @@
     "related_thread": "THR-06",
     "related_source": null,
     "related_evidence": "EV-0048"
+  },
+  {
+    "note_id": "NOTE-0103",
+    "timestamp": "2026-07-29T14:45:00",
+    "activity_type": "Note",
+    "text": "RUN-0041: continuing to diversify methods per the operator's push for more discoveries. Two dead ends correctly identified and NOT registered as evidence: a Charles Sturt University bushfire/water-quality study turned out to cover \"mid-western NSW\" (Bathurst/Mudgee region), not the Macleay/Kempsey north coast catchment - a different region entirely; and a SEED NSW bushfire water-quality dataset explicitly lists seven monitored estuaries, none of which is Macleay/Kempsey. MAJOR FINDING instead: a second major bushfire (the Willi Willi Fire) struck Willawarrin directly in October 2023 - 46% of the entire Kempsey Shire burned, 340 structures damaged/destroyed, one fatality (a 56-year-old man, reported factually per three independent mastheads), formal disaster declaration, and a dedicated recovery centre at Willawarrin itself. This was completely unknown to this register until this run (EV-0051/EV-0052/EV-0053, CHR-0029/CHR-0030). Given this case's established bushfire-to-water-crisis causal pattern from 2019, the clear next step is checking whether this October 2023 fire also triggered a Willawarrin water-supply disruption - not yet investigated this run due to time, flagged as the top-priority lead for the next pass.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": "EV-0051"
   }
 ]
