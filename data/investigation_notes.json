@@ -997,5 +997,14 @@
     "related_thread": "THR-09",
     "related_source": "SRC-0085",
     "related_evidence": "EV-0060"
+  },
+  {
+    "note_id": "NOTE-0112",
+    "timestamp": "2026-08-02T13:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0048: operator asked to find trucking logs. Two angles pursued. First, re-read the already-preserved SRC-0042 text (previously mined for date ranges and daily kL figures only) more closely for genuine log-style detail - found a precise \"240 days\" total water-carting duration for Willawarrin in 2019-2020 (EV-0061, new) and an actual timestamped internal operational log for the July 2020 Bellbrook incident plus a newly-named source reservoir (\"Greenhill Reservoir\") for the October 2020 Willawarrin carting (EV-0062, new). Second, searched for an actual water-carting contract/company-level log: found no source confirming who physically carted the water in 2019-2020, but identified Council's own GIPA contract-disclosure register (SRC-0086) and 2019-2020 financial statements (SRC-0087) as the two most promising unfetched leads, plus a real local water-cartage business (Macleay Valley Water Cartage, SRC-0088) registered explicitly as an unconfirmed candidate only, not as the identified contractor.",
+    "related_thread": "THR-02",
+    "related_source": "SRC-0086",
+    "related_evidence": "EV-0061"
   }
 ]

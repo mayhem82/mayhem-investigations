@@ -618,5 +618,20 @@
       "EV-0060"
     ],
     "notes": "The operator provided the full text of LC Water's own website directly, which this session's fetch tool could not access (DEC-0008/DEC-0012). Preserved and hashed it. Confirms LC Water (EV-0058's named Willawarrin contractor) is a real, established Geelong-based water-treatment engineering specialist founded in 2001 - corroborates the contractor's identity/legitimacy, though the page does not itself mention Willawarrin specifically."
+  },
+  {
+    "run_id": "RUN-0048",
+    "date": "2026-08-02",
+    "sources_checked": [
+      "SRC-0086",
+      "SRC-0087",
+      "SRC-0088"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0061",
+      "EV-0062"
+    ],
+    "notes": "Operator directive: find trucking logs. Mined the already-preserved SRC-0042 text for genuine operational-log detail beyond its previously-extracted summary dates - found a precise 240-day total water-carting duration for Willawarrin 2019-2020 (EV-0061) and a timestamped internal incident log plus a newly-named source reservoir, \"Greenhill Reservoir\" (EV-0062). Could not find any source naming the actual contractor/company that physically carted water in 2019-2020 or confirming a literal per-delivery trucking log exists publicly; identified Council's GIPA contract register (SRC-0086) and 2019-2020 financial statements (SRC-0087) as the most promising still-unfetched leads, and registered a real local water-cartage business (SRC-0088) explicitly as an unconfirmed candidate, not an identified party."
   }
 ]

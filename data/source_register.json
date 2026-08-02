@@ -1188,5 +1188,47 @@
     "hash_status": "Hashed",
     "associated_thread": "THR-09",
     "availability_notes": "The operator retrieved and pasted the full page text directly into this investigation (confirmed URL on request, per this investigation's DEC-0010/DEC-0011 provenance discipline). This session's own fetch tool remains blocked (DEC-0008/DEC-0012) and did not retrieve it. Preserved and hashed at preserved/SRC-0085-lcwater-com-au-about.txt (sha256:ac302f4440049a86620cbdc661d6402739e5ea1f86c8f5d8013cca3175abcb19). First-party confirmation of the identity behind \"LC Water\" (EV-0058's contractor for the Willawarrin plant): the trading name of Laurie Curran Water Pty Ltd, a Geelong/Norlane VIC process engineering firm founded 2001, specialising in DAF/DAFF and membrane filtration for drinking water/wastewater treatment, delivering projects across Australia, Oceania, and Pakistan. Does NOT itself mention Willawarrin or Kempsey - it corroborates the contractor's identity/legitimacy, not the specific engagement."
+  },
+  {
+    "source_id": "SRC-0086",
+    "authority": "Kempsey Shire Council",
+    "title": "GIPA Register of Government Contracts 2023-24 (contracts valued at $150,000 or more)",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/governance/access-information/register-govt-contracts/2023_24-gipa-register-contracts-valued-at-150000-or-more.pdf",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-02",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). This is Council's formal GIPA (Government Information Public Access) statutory contract-disclosure register - the closest thing to an actual \"trucking contract log\" identified in this investigation. Covers FY2023-24, the year of the Willi Willi Fire (Oct 2023, EV-0051), so it could confirm or rule out a water-carting contract tied to that fire's aftermath (THR-01's standing open lead on whether the fire triggered a Willawarrin water-supply disruption). No specific contract line-items could be extracted from search-engine snippets. High-priority unfetched lead - only lists contracts >=$150,000, so would only capture a carting arrangement if it reached that threshold."
+  },
+  {
+    "source_id": "SRC-0087",
+    "authority": "Kempsey Shire Council",
+    "title": "Annual Report 2019-2020, Part C (Annual Financial Statements)",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/2019-2020-annual-report-part-c.pdf",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-02",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Council's own audited financial statements for FY2019-20, the year the main Willawarrin/Bellbrook trucked-water crisis began (Oct 2019). Water-and-sewer fund financial statements of this kind typically itemise \"water carting\" as a discrete operating expense line - if so, this document would give the first genuine dollar-cost figure for the crisis beyond the $161,000 government funding contribution already registered (EV-0025). No specific figures could be extracted from search-engine snippets; a priority unfetched lead alongside SRC-0086."
+  },
+  {
+    "source_id": "SRC-0088",
+    "authority": "Yellow Pages / Macleay Valley Water Cartage",
+    "title": "Macleay Valley Water Cartage (business listing)",
+    "type": "Other Public Record",
+    "url_or_file_location": "https://www.yellowpages.com.au/nsw/kempsey/macleay-valley-water-cartage-14674342-listing.html",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-02",
+    "availability_notes": "yellowpages.com.au fetch not attempted this run (DEC-0008/DEC-0012 pattern applies shire-wide). A real, established local water-cartage business (59-61 South St, Kempsey), offering 13,500-litre truck loads, servicing \"Kempsey area to Eungai and Telegraph Point\" per its own marketing copy. IMPORTANT CAVEAT: no source found this run - here or elsewhere - names this company (or any specific company) as the actual contractor used for the Willawarrin/Bellbrook 2019-2020 water carting; it is registered only as evidence that local water-cartage capacity of this kind exists in the Kempsey area, not as a confirmed party to this case. Do not treat as the identified contractor without independent confirmation."
   }
 ]
