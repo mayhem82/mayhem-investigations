@@ -970,5 +970,23 @@
     "related_thread": "THR-07",
     "related_source": "SRC-0079",
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0109",
+    "timestamp": "2026-08-02T11:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0046: continuing DFAPTI. Started with Q-0001 (has the Willawarrin plant been commissioned, given the \"early 2026\" target has now passed) - five distinct searches found no confirmation either way, but surfaced a genuinely new, dedicated Willawarrin community update (Winter 2024) and identified the plant's own contractor (\"LC Water\") for the first time, plus the single most recent Council document found in this whole investigation (a 16 June 2026 meeting wrap). Q-0001 remains open - the June 2026 meeting wrap is now the clearest unfetched lead.",
+    "related_thread": "THR-09",
+    "related_source": "SRC-0083",
+    "related_evidence": "EV-0058"
+  },
+  {
+    "note_id": "NOTE-0110",
+    "timestamp": "2026-08-02T11:20:00",
+    "activity_type": "Finding",
+    "text": "RUN-0046: found the strongest evidence yet for Q-0006 - the NSW Electoral Commission's own dedicated Kempsey mayoral results page (pastvtr.elections.nsw.gov.au/LG2401/kempsey/mayoral), corroborated by a Kempsey-specific Macleay Argus report, both explicitly stating the election was held Saturday 14 September 2024 and both matching EV-0012's preserved 53.67%/30 September detail exactly. Unlike the prior statutory/calendar reasoning, this is Kempsey-specific rather than generic. Still not closing Q-0006, per this investigation's established practice that closure requires an actual preserved primary document (as Q-0004 required for EV-0011/EV-0012), not search snippets alone - both new sources remain fetch-blocked.",
+    "related_thread": "THR-15",
+    "related_source": "SRC-0081",
+    "related_evidence": "EV-0059"
   }
 ]

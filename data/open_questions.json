@@ -3,7 +3,10 @@
     "question_id": "Q-0001",
     "question": "Has the Willawarrin water treatment plant been commissioned and is it currently operational, given that the announced \"early 2026\" completion target has now passed?",
     "why_exists": "EV-0006 and EV-0007 (both dated March 2025) state an expected completion of early 2026. Today's collection run (28 July 2026) found no evidence dated after March 2025 confirming commissioning, delay, or current operational status.",
-    "evidence_creating_question": ["EV-0006", "EV-0007"],
+    "evidence_creating_question": [
+      "EV-0006",
+      "EV-0007"
+    ],
     "evidence_required_to_resolve": "A council or NSW Government status update, commissioning notice, water-quality test result, or site record dated after March 2025 confirming the plant's current status.",
     "likely_source": "Kempsey Shire Council's current-works page and community update PDFs (SRC-0010, SRC-0011, SRC-0012) - currently blocked to automated access; requires manual browser retrieval.",
     "status": "Open",
@@ -13,7 +16,10 @@
     "question_id": "Q-0002",
     "question": "What is Bellbrook's water supply/treatment status independent of Willawarrin since 2020 - has it received any dedicated infrastructure upgrade, or does it remain on the 2020 interim bore/treatment fix?",
     "why_exists": "Every piece of evidence located since the June 2020 restoration (EV-0002, EV-0003) discusses Willawarrin specifically. No Bellbrook-specific source has been found covering 2021-2026, despite Bellbrook being named in this case's title and scope.",
-    "evidence_creating_question": ["EV-0002", "EV-0003"],
+    "evidence_creating_question": [
+      "EV-0002",
+      "EV-0003"
+    ],
     "evidence_required_to_resolve": "A council record, funding announcement, or media report addressing Bellbrook's water infrastructure specifically, independent of the Willawarrin plant. RUN-0006 (2026-07-28) found a specific candidate: NSW's 'Aboriginal Communities Water and Sewerage Program' Completed Projects listing reportedly names Bellbrook (SRC-0027), consistent across three independent search snippets but not yet confirmed against the primary page (fetch-blocked this session, see DEC-0008) or dated/scoped in any more detail. RUN-0021 found a more substantive, direct answer, distinct from the ACWSP lead: Bellbrook has its own dedicated arsenic-removal water treatment plant, built approximately 2009-2010 for approximately $700,000, addressing groundwater arsenic contamination traced to historic Hillgrove-area mining (SRC-0040, SRC-0041). This directly answers the substance of this question - dedicated infrastructure predating and independent of the Willawarrin plant - though formal closure still awaits a preserved primary source rather than search-engine summaries alone.",
     "likely_source": "Kempsey Shire Council water and sewer program records; council meeting minutes mentioning Bellbrook by name; NSW Water's Aboriginal Communities Water and Sewerage Program page (SRC-0027); Kempsey Shire Council's 'Heavy metals in the Upper Macleay River' page (SRC-0040) - all fetch-blocked, requiring a working fetch tool.",
     "status": "Open",
@@ -23,7 +29,9 @@
     "question_id": "Q-0003",
     "question": "Why did the Willawarrin plant's projected cost rise from approximately $4 million (reported August 2024) to $8 million (reported March 2025), and what scope changes, if any, accompanied the increase?",
     "why_exists": "EV-0004 explicitly states the original 2024 projection was approximately $4 million and notes it was \"since revised\"; no source located explains the reason for the increase.",
-    "evidence_creating_question": ["EV-0004"],
+    "evidence_creating_question": [
+      "EV-0004"
+    ],
     "evidence_required_to_resolve": "A council budget paper, tender documentation, or an officer's report explaining the revised cost estimate.",
     "likely_source": "Kempsey Shire Council business papers or council meeting minutes from late 2024 or early 2025.",
     "status": "Open",
@@ -33,17 +41,25 @@
     "question_id": "Q-0004",
     "question": "Is the change in Kempsey Shire Council Mayor between August 2024 (Leo Hauville, per EV-0004) and March 2025 (Kinne Ring, per EV-0005) attributable to the scheduled September 2024 NSW local government elections, or some other cause?",
     "why_exists": "Two evidence items from different dates name different individuals as Mayor. A routine election is the most plausible explanation but has not been separately confirmed by any evidence in this register.",
-    "evidence_creating_question": ["EV-0004", "EV-0005"],
+    "evidence_creating_question": [
+      "EV-0004",
+      "EV-0005"
+    ],
     "evidence_required_to_resolve": "A dated council governance record or NSW Electoral Commission result confirming the mayoral change and its cause.",
     "likely_source": "Kempsey Shire Council governance records; NSW Electoral Commission local government election results.",
     "status": "Closed",
-    "resolution_evidence": ["EV-0011", "EV-0012"]
+    "resolution_evidence": [
+      "EV-0011",
+      "EV-0012"
+    ]
   },
   {
     "question_id": "Q-0005",
     "question": "What contractor was awarded the main $52.9m Kempsey/Frederickton/Smithtown/Gladstone treatment plant (Steuart McIntyre Dam/Sherwood Borefield), and what is its construction status given the announced mid-2025 start and 18-month program (i.e. an implied completion around late 2026)?",
     "why_exists": "EV-0005 announces funding and a mid-2025-start, 18-month construction timeline for this larger, separate plant, but no contractor or progress information has yet been established by evidence in this register.",
-    "evidence_creating_question": ["EV-0005"],
+    "evidence_creating_question": [
+      "EV-0005"
+    ],
     "evidence_required_to_resolve": "A tender award notice, construction-start announcement, or progress update for the main plant. RUN-0005 (2026-07-28) found a candidate answer - 'LC Eire, a partnership between LC Water and Eire Constructions' - repeated consistently across two independent search-engine snippets (SRC-0025, SRC-0026), but this has not been confirmed against either underlying article's primary text (both fetch-blocked this session, see DEC-0008), so it is not yet accepted as resolution evidence.",
     "likely_source": "NSW Government (Water) / WaterNSW; Kempsey Shire Council; Utility Magazine (SRC-0025) or Mirage News (SRC-0026) once fetchable.",
     "status": "Open",
@@ -53,8 +69,10 @@
     "question_id": "Q-0006",
     "question": "EV-0011 states the 2024 Kempsey Shire Council election results were 'for the September 9, 2024' poll, but multiple independent sources place the 2024 NSW Local Government elections' statewide polling day at Saturday 14 September 2024. Which is correct for Kempsey, and is EV-0011's date a simple error, a reference to a different date, or otherwise explainable?",
     "why_exists": "EV-0011 (a Kempsey Shire Council-bylined item) contains an internally curious date - 9 September 2024 was a Monday, inconsistent with the Saturday convention for NSW council elections and with general reporting on the 2024 statewide poll date. No independent source specific to Kempsey has yet been checked to confirm which date applies here; elections.nsw.gov.au (SRC-0018) is blocked to automated fetch.",
-    "evidence_creating_question": ["EV-0011"],
-    "evidence_required_to_resolve": "The NSW Electoral Commission's own Kempsey Shire Council election results page or bulletin, confirmed by direct (manual) access. RUN-0011 (2026-07-28) adds a decisive, non-search basis pending a preservable primary citation: NSW ordinary council elections are legally required to fall on 'the second Saturday in September' (Local Government Act 1993, per SRC-0031's search-derived summary), and independently computed calendar facts (not search-dependent) confirm 14 September 2024 was both a Saturday and the second Saturday of that month, while 9 September 2024 was a Monday and not a Saturday at all. Combined with SRC-0029's independent search corroboration of 14 September as Kempsey's actual polling day, this makes EV-0011's '9 September 2024' very likely a simple transcription error for '14'. Not yet closing this question, since resolution_evidence requires a real preserved Evidence Register entry (the statute or an NSWEC bulletin), which remains fetch-blocked (DEC-0008).",
+    "evidence_creating_question": [
+      "EV-0011"
+    ],
+    "evidence_required_to_resolve": "The NSW Electoral Commission's own Kempsey Shire Council election results page or bulletin, confirmed by direct (manual) access. RUN-0011 (2026-07-28) adds a decisive, non-search basis pending a preservable primary citation: NSW ordinary council elections are legally required to fall on 'the second Saturday in September' (Local Government Act 1993, per SRC-0031's search-derived summary), and independently computed calendar facts (not search-dependent) confirm 14 September 2024 was both a Saturday and the second Saturday of that month, while 9 September 2024 was a Monday and not a Saturday at all. Combined with SRC-0029's independent search corroboration of 14 September as Kempsey's actual polling day, this makes EV-0011's '9 September 2024' very likely a simple transcription error for '14'. Not yet closing this question, since resolution_evidence requires a real preserved Evidence Register entry (the statute or an NSWEC bulletin), which remains fetch-blocked (DEC-0008). RUN-0046 (2026-08-02): found the NSW Electoral Commission's own dedicated past-results page for the Kempsey Shire Council mayoral election (SRC-0081/EV-0059), corroborated by a Kempsey-specific Macleay Argus report (SRC-0082) - both state the election was held Saturday 14 September 2024, and both cross-corroborate EV-0012's already-preserved 53.67%/30 September detail exactly. This is materially stronger than the prior statutory/calendar reasoning (Kempsey-specific rather than generic statewide), but is still search-snippet-only, not a fetched/preserved primary document, so this question remains formally Open pending an actual preserved copy of SRC-0081 or an equivalent primary record.",
     "likely_source": "elections.nsw.gov.au (SRC-0018, SRC-0029) or legislation.nsw.gov.au (SRC-0031) - both blocked to automated access, requires manual browser retrieval.",
     "status": "Open",
     "resolution_evidence": []
