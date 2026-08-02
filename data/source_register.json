@@ -1076,5 +1076,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "macleayargus.com.au/portnews.com.au/manningrivertimes.com.au fetch not attempted (DEC-0008/DEC-0012). Factual, sourced reporting (three same-network but independently-published mastheads) that a 56-year-old man was found deceased at Stony Creek Lane, Tamagog, after concerns were raised for his welfare when he went missing during the Willi Willi Fire; his bulldozer was found destroyed nearby. Recorded strictly as sourced factual reporting; no finding of fault or responsibility by any person or body is stated or implied, consistent with this investigation's no-allegation-framing standard, and no name is given in any search-engine snippet found for this individual."
+  },
+  {
+    "source_id": "SRC-0078",
+    "authority": "Kempsey Shire Council, corroborated by Mirage News",
+    "title": "BlazeAid, Need for Feed Assist Fire-Hit Kempsey Communities",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.miragenews.com/blazeaid-need-for-feed-assist-fire-hit-kempsey-1129514/",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; corroborated by a Council page dated 19 October 2023 (20231019-Need-for-feed)",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "miragenews.com/kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012). Confirms BlazeAid established a volunteer base camp at Willawarrin Showground following the Willi Willi Fire (EV-0051), clearing 1.8km of damaged fencing and installing 300m of new fencing on fire-affected rural properties; Need for Feed (a Lions Australia charity) delivered emergency fodder to Willawarrin. Specific, dated (~19 October 2023) confirmation of the fire's direct rural-property impact at Willawarrin."
   }
 ]

@@ -925,5 +925,14 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": "EV-0051"
+  },
+  {
+    "note_id": "NOTE-0104",
+    "timestamp": "2026-07-29T15:15:00",
+    "activity_type": "Note",
+    "text": "RUN-0042: chased the top-priority lead from RUN-0041 - whether the October 2023 Willi Willi Fire triggered a Willawarrin water-supply disruption, mirroring the established 2019 causal pattern. Result: no relevant change found despite three distinct search angles. One search resurfaced the December 2023 Council FAQ (SRC-0044/EV-0024) that recaps the 2019-2020 crisis - deliberately did NOT re-register this as new 2023-specific water-crisis evidence, since that would repeat the exact stale-content conflation error already caught and corrected at RUN-0028. Did register a genuinely new, specific fact instead: BlazeAid/Need for Feed relief operations based at Willawarrin Showground itself following the fire (EV-0054), confirming the fire's direct rural impact on the town. The water-supply-disruption question for this specific fire remains genuinely open; SRC-0052 (Kempsey Year in Review 2023-24) is the most promising still-unfetched document covering this exact window.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": "EV-0054"
   }
 ]

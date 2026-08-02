@@ -1370,5 +1370,30 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0054",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "2023-10-19",
+    "source_authority": "Kempsey Shire Council, corroborated by Mirage News",
+    "source_title": "BlazeAid, Need for Feed Assist Fire-Hit Kempsey Communities",
+    "source_type": "Media Report",
+    "source_location": "https://www.miragenews.com/blazeaid-need-for-feed-assist-fire-hit-kempsey-1129514/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of miragenews.com/kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "BlazeAid established a volunteer base camp at Willawarrin Showground following the Willi Willi Fire, clearing 1.8km of damaged fencing and installing 300m of new fencing on fire-affected rural properties; Need for Feed (a Lions Australia national charity) delivered emergency fodder to Willawarrin.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Specific, dated confirmation of the Willi Willi Fire's direct rural-property impact at Willawarrin itself (not just the wider Shire), corroborating EV-0051's scale and directly locating recovery operations at the town this case concerns.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0051",
+      "EV-0052"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]
