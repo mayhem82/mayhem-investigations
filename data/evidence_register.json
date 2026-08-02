@@ -1685,5 +1685,32 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0066",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "Unknown",
+    "source_authority": "National Water Grid Authority (Australian Government)",
+    "source_title": "Kempsey water treatment plant (project page)",
+    "source_type": "Government Record",
+    "source_location": "https://www.nationalwatergrid.gov.au/projects/kempsey-water-treatment-plant",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of nationalwatergrid.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "The first source found this investigation directly addressing Q-0003 (why the Willawarrin plant's projected cost rose from approximately $4 million, reported August 2024/EV-0004, to $8 million, reported March 2025/EV-0006). Per search-engine summary of this federal project-tracker page: Kempsey Shire Council \"worked with the NSW Government's Safe and Secure Water Program to increase the value of the funding deed to accommodate cost increases from the competitive tender process.\" In plain terms: the original $4 million figure was a pre-tender estimate: once the project actually went to competitive tender (as EV-0004 already noted was imminent as of August 2024), the winning bid(s) came in higher than the original estimate, and the funding deed (the formal government-Council funding agreement) was increased to cover the gap rather than the scope being cut back.",
+    "relevant_quotation": "worked with the NSW Government's Safe and Secure Water Program to increase the value of the funding deed to accommodate cost increases from the competitive tender process",
+    "investigation_relevance": "Directly responsive to Q-0003 for the first time in this investigation's history. Does not itself state a scope change occurred (the question's second half) - the language describes a cost increase from tender pricing, not a described scope expansion, suggesting the $4M-to-$8M jump may be pure cost escalation (construction/materials/labour costs exceeding the original estimate) rather than added project scope. Not sufficient alone to CLOSE Q-0003 per this investigation's established evidentiary bar (a preserved primary document, e.g. a Council business paper or the funding deed variation itself, would be needed) - remains search-snippet-only and unfetched.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0004",
+      "EV-0006"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0003"
+    ]
   }
 ]

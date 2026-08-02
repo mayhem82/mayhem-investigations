@@ -2278,5 +2278,77 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 8,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0191",
+    "search_terms": "Willawarrin Bellbrook Kempsey water NSW Parliament Hansard MP mention",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0192",
+    "search_terms": "\"Kempsey Shire Council Adopts Largest Capital Works Budget\" Bellbrook Water Treatment Plant",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0193",
+    "search_terms": "kempsey.nsw.gov.au \"Current works\" OR \"Completed works\" major projects Bellbrook Willawarrin list",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0194",
+    "search_terms": "Willawarrin OR Bellbrook \"boil water\" alert notice NSW Health",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0195",
+    "search_terms": "\"Safe and Secure Water Program\" Willawarrin funding round grant agreement amount NSW",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0196",
+    "search_terms": "\"funding deed\" \"competitive tender\" Willawarrin Kempsey water treatment plant cost increase National Water Grid",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
   }
 ]

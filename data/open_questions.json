@@ -32,7 +32,7 @@
     "evidence_creating_question": [
       "EV-0004"
     ],
-    "evidence_required_to_resolve": "A council budget paper, tender documentation, or an officer's report explaining the revised cost estimate.",
+    "evidence_required_to_resolve": "A council budget paper, tender documentation, or an officer's report explaining the revised cost estimate. RUN-0053 (2026-08-02): found the first source directly addressing this question - a National Water Grid Authority project page (SRC-0054/EV-0066) states Council \"worked with the NSW Government's Safe and Secure Water Program to increase the value of the funding deed to accommodate cost increases from the competitive tender process.\" This points to pure cost escalation from the tender process (not an obviously described scope change) as the likely explanation, but remains search-snippet-only - a preserved primary document (a Council business paper, or the funding deed variation itself) is still needed to close this question with confidence.",
     "likely_source": "Kempsey Shire Council business papers or council meeting minutes from late 2024 or early 2025.",
     "status": "Open",
     "resolution_evidence": []

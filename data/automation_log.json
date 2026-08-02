@@ -686,5 +686,17 @@
       "EV-0065"
     ],
     "notes": "Operator directive: treat the drinking-water-report naming-convention changes as evidence. Promoted RUN-0050/RUN-0051's finding (three distinct naming/URL patterns across 2018-2025, plus an apparent 2021-22/2022-23 publication gap) to a first-class Evidence Register entry (EV-0065), recorded factually without asserting cause. Two further dedicated searches for the missing 2021-22/2022-23 editions and for a Council-hosted historical index page found neither; the gap remains unexplained."
+  },
+  {
+    "run_id": "RUN-0053",
+    "date": "2026-08-02",
+    "sources_checked": [
+      "SRC-0054"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0066"
+    ],
+    "notes": "Operator directive: pursue paths not yet taken. Tried NSW Parliament Hansard, a boil-water-alert search, and a claimed \"Bellbrook Water Treatment Plant\" capital-works item (the last correctly identified as an AI-search-summary error and not registered) - all three found no relevant change. A fourth angle succeeded: found the first evidence directly addressing Q-0003's cost-increase question - Council increased the Willawarrin plant's funding deed \"to accommodate cost increases from the competitive tender process\" (EV-0066, National Water Grid Authority). Not sufficient to close Q-0003 (search-snippet only), but the strongest lead yet on this question."
   }
 ]
