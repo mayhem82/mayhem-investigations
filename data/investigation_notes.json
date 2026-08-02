@@ -907,5 +907,14 @@
     "related_thread": "THR-07",
     "related_source": null,
     "related_evidence": "EV-0047"
+  },
+  {
+    "note_id": "NOTE-0102",
+    "timestamp": "2026-07-29T14:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0040: the operator pointed out recent runs had slowed down, re-treading the same well-worn Willawarrin-plant-status searches. Deliberately opened genuinely new angles instead: NSW Health's statewide compliance reporting (no Willawarrin-specific mention found), named Council personnel (Wes Trotter's progression to Director Utilities, EV-0049, via a WIOA industry-conference paper - a new source type), EPA pollution-incident/licensing records (nothing Willawarrin/Bellbrook-specific found), community-forum/Facebook searches (nothing substantive), and a completely new shire-wide program never before touched in this register - the NSW Government's Regional Network Leakage Detection Project, which Kempsey joined mid-2024 (EV-0048). Also finally extracted real content from a previously opaque source (SRC-0050, Spring 2024 project update) via a fresh search angle, filling a construction-sequence gap for THR-09 (EV-0050). None of these are single, case-closing breakthroughs, but they genuinely diversify the investigation beyond the same three or four exhausted searches.",
+    "related_thread": "THR-06",
+    "related_source": null,
+    "related_evidence": "EV-0048"
   }
 ]

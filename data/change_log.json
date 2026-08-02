@@ -730,5 +730,21 @@
     ],
     "reason": "RUN-0039, ninth distinct attempt at Q-0003 (cost increase). Registered general shire-wide financial-pressure context (EV-0047) but found no project-specific explanation; question is now genuinely search-exhausted.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0047",
+    "date": "2026-07-29",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0040, deliberately diversifying research methods after the operator noted diminishing returns from repeated searches. New: the Regional Network Leakage Detection Project (a shire-wide program not previously in this register, EV-0048), Wes Trotter's personnel progression (EV-0049), and extracted content from a previously opaque source filling a construction-sequence gap (EV-0050).",
+    "validation_completed": true
   }
 ]

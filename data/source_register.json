@@ -992,5 +992,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-07",
     "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012). Council's own 10-year financial plan, identifying escalating construction/repair/asset-replacement costs (labour, materials, services outpacing revenue growth) as a shire-wide financial pressure - general context, not a Willawarrin-specific cost-variance explanation. No specific Willawarrin scope-change or cost-driver detail could be extracted despite a dedicated search."
+  },
+  {
+    "source_id": "SRC-0072",
+    "authority": "Kempsey Shire Council",
+    "title": "We're checking the water network for leaks again (Regional Network Leakage Detection Project)",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20240607-Regional-Network-Leakage-Detection-Project",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; dated 7 June 2024 per URL slug",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-06",
+    "availability_notes": "kempsey.nsw.gov.au fetch not attempted (DEC-0008/DEC-0012). A genuinely new program for this register: Kempsey Shire Council joined Phase 3 of the NSW Government's $12.5 million Regional Leakage Reduction Program (Regional Network Leakage Detection Project) around June 2024. Statewide, the program had by then surveyed more than 15,450 km of water mains and found over 4,000 leaks; NSW Department of Planning and Environment (Water) engages specialist contractors who use high-powered listening devices to pinpoint leaks in pipes, meters and valves at no direct cost to Council (repair costs are Council's own). Not confirmed whether Willawarrin or Bellbrook's own reticulation was specifically surveyed - this is shire-wide network context, not town-specific."
+  },
+  {
+    "source_id": "SRC-0073",
+    "authority": "Water Industry Operators Association of Australasia (WIOA)",
+    "title": "Kempsey Shire Council Water Industry Operations Traineeship Program (conference paper)",
+    "type": "Other Public Record",
+    "url_or_file_location": "https://wioa.org.au/wp-content/uploads/2025/01/2022_NSW_Wesley_Trotter_Stephen_Smailes.pdf",
+    "first_checked": "2026-07-29",
+    "last_checked": "2026-07-29",
+    "current_version": "Not confirmed - fetch blocked; co-authored by Wesley Trotter and Stephen Smailes, filename suggests a 2022 NSW WIOA conference paper",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "wioa.org.au fetch not attempted (DEC-0008/DEC-0012). A genuinely new source type for this register: an industry-association conference paper (rather than council/media/government-press-release material) co-authored by Wes Trotter, discussing Kempsey Shire Council's water industry operator traineeship program and workforce challenges for a small rural council. Confirms Wes Trotter (quoted at EV-0006 as \"Manager Water and Sewer\" per SRC-0042's 2022-dated report) has since been promoted to \"Director Utilities\" per other search results this run - a genuine organisational/personnel progression, not yet independently corroborated by a second source."
   }
 ]

@@ -511,5 +511,20 @@
       "EV-0047"
     ],
     "notes": "Ninth distinct attempt at Q-0003 (Willawarrin cost increase): compared 2024 tender scope to 2025 final design, then checked Council's Long Term Financial Plan. Found only generic shire-wide cost-escalation context (EV-0047), not a project-specific explanation. Also tried to extract more from the NSW Coroners Court bushfire inquiry document (SRC-0060) - no further content found. Q-0003 is now genuinely search-exhausted; the answer almost certainly requires a fetched council business-paper item."
+  },
+  {
+    "run_id": "RUN-0040",
+    "date": "2026-07-29",
+    "sources_checked": [
+      "SRC-0072",
+      "SRC-0073"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0048",
+      "EV-0049",
+      "EV-0050"
+    ],
+    "notes": "At the operator's prompt to find genuinely new investigation pathways rather than repeating recent search angles: explored NSW Health compliance reporting, named Council personnel (Wes Trotter's Director Utilities progression via a new source type, a WIOA conference paper), EPA/pollution-licensing records, community forums, and a completely new shire-wide program not previously touched - the Regional Network Leakage Detection Project Kempsey joined mid-2024 (EV-0048). Also extracted real content for the first time from a previously opaque source, filling a THR-09 construction-sequence gap (EV-0050)."
   }
 ]
