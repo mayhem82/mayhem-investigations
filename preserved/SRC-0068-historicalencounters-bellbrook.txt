@@ -1,0 +1,35 @@
+Skip to content
+Historical Encounters — Keeping History Alive — Historical Encounters
+Home / About / Gallery / Database / Contact
+
+Bellbrook
+
+Location
+Bellbrook is a locality in the Kempsey Shire of New South Wales, Australia. (wikipedia)
+
+History
+Bellbrook is on the traditional lands of the Dunghutti indigenous people. It was first settled by Europeans in the mid-1830s, and there was "very active antagonism" between the Europeans and the Dunghutti, which slowed the development of the village.
+
+The name "Bellbrook" was adopted in 1882 with the opening of the post office. A postal receiving office at Bellbrook opened on 16 January 1882, became a post office on 1 January 1884 and closed on 10 April 1987.
+
+Bellbrook Public School opened as a provisional school in 1883, went half-time with Pee Dee from 1887 to 1890, closed from 1890 to 1910, was half-time with Nulla Nulla from 1910 to 1911, and has been continually open since then. A former boarding school, the Mirriwinni Gardens Aboriginal Academy, also operated at Bellbrook for more than thirty years. It educated more than 1500 children, but was forced to close in 2009 after running into financial difficulties.
+
+A 36.4 hectare Aboriginal reserve was established at Bellbrook in 1885. It was initially an unsupervised reserve, but was later managed by the Aboriginal Protection Board. Residents "came under intense government surveillance" from the APB and had to sign in and out. Many of the residents worked on local pastoral stations, generally poorly paid.
+
+In 2005, the town's raw water supply was contaminated by heavy metals and arsenic from former mines in the Hillgrove area. In 2008, water was reportedly having to be trucked into the town because the supply was so contaminated. A new $700,000 water treatment plant was installed in 2009 to address the issue. (wikipedia)
+
+Places of Interest
+No Data Uploaded
+
+---
+Preservation note: this file is the full text of https://www.historicalencounters.org/he/bellbrook/, pasted
+directly into this investigation by the operator (mayhem82) on 2026-07-29, from their own successful
+retrieval of the page. This session's own fetch tool has returned HTTP 403 on this and every other URL
+attempted since RUN-0005 (DEC-0008), confirmed as a deliberate organizational egress policy at DEC-0012,
+and could not retrieve this page independently. The page itself carries "(wikipedia)" attribution at the
+end of its Location and History sections, indicating its content is drawn from (or closely mirrors)
+Wikipedia's "Bellbrook, New South Wales" article - already separately registered in this investigation as
+SRC-0034. This is therefore not a fully independent corroboration of SRC-0034's content, but it is now a
+directly preserved, hashable, full-text record of the specific page this investigation cited at SRC-0068,
+EV-0043, EV-0044, and EV-0045 - upgrading those from search-snippet-only sourcing to an actual preserved
+document.

@@ -934,5 +934,14 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": "EV-0054"
+  },
+  {
+    "note_id": "NOTE-0105",
+    "timestamp": "2026-07-29T15:45:00",
+    "activity_type": "Note",
+    "text": "RUN-0043: the operator retrieved and pasted the full text of SRC-0068 (historicalencounters.org's Bellbrook page), which this session's fetch tool could not access. Preserved and hashed the page (preserved/SRC-0068-historicalencounters-bellbrook.txt). Important honesty note: the page itself is attributed to Wikipedia at the end of its relevant sections, so while this upgrades EV-0043/EV-0044/EV-0045 from search-snippet to preserved-document sourcing (EV-0055), it is not the fully independent second source those entries still need, particularly for the more significant 2008 trucked-water claim. Also captured genuinely new material: Bellbrook's European settlement in the mid-1830s amid \"very active antagonism\" with the Dunghutti people, detailed postal and school history (EV-0056), and the 1885 Aboriginal Protection Board reserve with its surveillance regime (EV-0057) - recorded factually and neutrally. Flagged a minor, unresolved date discrepancy (1882 naming vs EV-0018's 1892 gazettal) rather than silently picking one.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": "EV-0055"
   }
 ]

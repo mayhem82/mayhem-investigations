@@ -1395,5 +1395,83 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0055",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "Historical Encounters (historicalencounters.org), attributed to Wikipedia",
+    "source_title": "Bellbrook",
+    "source_type": "Other Public Record",
+    "source_location": "https://www.historicalencounters.org/he/bellbrook/",
+    "preserved_file_reference": "preserved/SRC-0068-historicalencounters-bellbrook.txt",
+    "document_hash": "sha256:76f1a92d7fa67cc440eb00285bdf98f100e6b20095db14a313347593ba9841c1",
+    "hash_exception_reason": null,
+    "evidence_description": "The operator retrieved and provided the full text of this page, now preserved and hashed. It confirms, in full and preserved form, the 2005 arsenic/heavy-metal contamination (from former Hillgrove-area mines), the 2008 trucked-water crisis, and the 2009 ($700,000) water treatment plant construction already registered at EV-0043/EV-0044/EV-0045 from search-snippet sourcing alone. The page attributes this content to Wikipedia, so it is not a fully independent second source for these facts (Wikipedia's own \"Bellbrook, New South Wales\" article is separately registered at SRC-0034) - but the full text is now directly preserved rather than known only through AI-search-summary reproduction, and the specific figures ($700,000; years 2005, 2008, 2009) match exactly across both the earlier search reproductions and this now-preserved text, with no discrepancy introduced.",
+    "relevant_quotation": "In 2005, the town's raw water supply was contaminated by heavy metals and arsenic from former mines in the Hillgrove area. In 2008, water was reportedly having to be trucked into the town because the supply was so contaminated. A new $700,000 water treatment plant was installed in 2009 to address the issue.",
+    "investigation_relevance": "Upgrades EV-0043/EV-0044/EV-0045's sourcing from search-snippet-only to an actual preserved document, though the underlying facts still ultimately trace to Wikipedia rather than a primary contemporaneous record (e.g. a 2008 news article or council report) - the 2008 trucked-water claim specifically still lacks a source independent of Wikipedia/this mirror, consistent with RUN-0038's finding that only the 2005-2007 detection portion (not the 2008 carting claim) has independent (Council-source) corroboration.",
+    "classification": "Complete",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0043",
+      "EV-0044",
+      "EV-0045",
+      "EV-0046"
+    ],
+    "chronology_links": [
+      "CHR-0027",
+      "CHR-0028"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0056",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "Historical Encounters (historicalencounters.org), attributed to Wikipedia",
+    "source_title": "Bellbrook",
+    "source_type": "Other Public Record",
+    "source_location": "https://www.historicalencounters.org/he/bellbrook/",
+    "preserved_file_reference": "preserved/SRC-0068-historicalencounters-bellbrook.txt",
+    "document_hash": "sha256:76f1a92d7fa67cc440eb00285bdf98f100e6b20095db14a313347593ba9841c1",
+    "hash_exception_reason": null,
+    "evidence_description": "Genuinely new historical detail for this register, from the now-preserved page: Bellbrook sits on the traditional lands of the Dunghutti people (a spelling variant of \"Thunggutti\", the spelling used throughout this register's Council-sourced material - not treated as a different group). It was first settled by Europeans in the mid-1830s, with \"very active antagonism\" between the Europeans and the Dunghutti slowing the village's development. The name \"Bellbrook\" was adopted in 1882 with the opening of a postal receiving office (16 January 1882; became a full post office 1 January 1884; closed 10 April 1987). Bellbrook Public School opened as a provisional school in 1883, went half-time with Pee Dee 1887-1890, closed entirely 1890-1910, was half-time with Nulla Nulla 1910-1911, and has operated continuously since 1911.",
+    "relevant_quotation": "there was \"very active antagonism\" between the Europeans and the Dunghutti, which slowed the development of the village",
+    "investigation_relevance": "Substantially deepens THR-01's pre-1900 background for Bellbrook, comparable to SRC-0036's Willawarrin settlement history. Also surfaces an unresolved, minor discrepancy worth flagging: this source dates the name \"Bellbrook\" to 1882 (post office naming), while EV-0018 (RUN-0033, also ultimately Wikipedia-derived) stated Bellbrook \"was gazetted in 1892\" - these could both be true (informal naming 1882, formal gazettal 1892) or reflect a citation drift somewhere between sources; not resolved here.",
+    "classification": "Complete",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0018"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0057",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-07-29",
+    "source_date": "Unknown",
+    "source_authority": "Historical Encounters (historicalencounters.org), attributed to Wikipedia",
+    "source_title": "Bellbrook",
+    "source_type": "Other Public Record",
+    "source_location": "https://www.historicalencounters.org/he/bellbrook/",
+    "preserved_file_reference": "preserved/SRC-0068-historicalencounters-bellbrook.txt",
+    "document_hash": "sha256:76f1a92d7fa67cc440eb00285bdf98f100e6b20095db14a313347593ba9841c1",
+    "hash_exception_reason": null,
+    "evidence_description": "A 36.4-hectare Aboriginal reserve was established at Bellbrook in 1885. It was initially unsupervised, but was later managed by the Aboriginal Protection Board (APB); residents \"came under intense government surveillance\" from the APB and were required to sign in and out. Many residents worked on local pastoral stations, generally for poor pay.",
+    "relevant_quotation": "Residents \"came under intense government surveillance\" from the APB and had to sign in and out.",
+    "investigation_relevance": "Significant historical context for Bellbrook's Aboriginal community (THR-01/THR-14), recorded factually and without editorial characterisation beyond the source's own quoted language, consistent with this investigation's standard of presenting historical record neutrally. Provides background for understanding the present-day Thunggutti Aboriginal Community and Local Aboriginal Land Council's relationship to Bellbrook, already referenced elsewhere in this register (SRC-0027, SRC-0058-area entries).",
+    "classification": "Complete",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]
