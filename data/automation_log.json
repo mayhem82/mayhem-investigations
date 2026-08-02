@@ -706,5 +706,19 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "The operator reported personally having heard of a second/new Bellbrook water treatment plant in planning \"for years\" - corroborating a search-summary claim RUN-0053 had discounted as likely AI-summarization noise. Revised that framing: this is now a live, operator-corroborated open lead (updated on Q-0002 and THR-07), not a rejected one. Four further searches this run still produced no quotable primary citation for the claim. No new Source or Evidence Register entries this run - honest \"no relevant change\" outcome on the research side, though the operator-testimony correction itself is a substantive, logged change to this investigation's working understanding."
+  },
+  {
+    "run_id": "RUN-0055",
+    "date": "2026-08-02",
+    "sources_checked": [
+      "SRC-0094",
+      "SRC-0095",
+      "SRC-0096"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0067"
+    ],
+    "notes": "Operator directive: continue DFAPTI, Section 60 approval records. Identified the statewide LWU Regulatory Approvals dataset and Willawarrin's specific Notice of Determination (WAMS 14493, June 2022 concept-design endorsement - EV-0067). A dedicated search for an equivalent Bellbrook record found none, and Council's own Delivery Program 2022-2026 also names only three water projects (no Bellbrook) - two further independent negative checks on the operator-reported second-Bellbrook-plant lead, though both remain unconfirmed absences pending a real document fetch. Lead stays open per RUN-0054."
   }
 ]

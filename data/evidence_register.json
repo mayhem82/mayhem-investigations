@@ -1712,5 +1712,32 @@
     "open_question_links": [
       "Q-0003"
     ]
+  },
+  {
+    "evidence_id": "EV-0067",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "2022-06",
+    "source_authority": "Department of Planning, Industry and Environment (NSW)",
+    "source_title": "Notice of Determination - Willawarrin Water Treatment Plant (WAMS 14493)",
+    "source_type": "Government Record",
+    "source_location": "https://data.nsw.gov.au/data/dataset/lwu-regulatory-approvals",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of data.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "Kempsey Shire Council received formal Section 60 (Local Government Act) endorsement for the Willawarrin Water Treatment Plant's concept design from the Department of Planning, Industry and Environment in June 2022. The specific regulatory record is a Notice of Determination bearing WAMS (Water Agencies Management System) reference 14493, part of the statewide LWU Regulatory Approvals dataset.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Gives THR-08/THR-09 a precise, named regulatory milestone (June 2022 concept-design endorsement) that predates and helps explain the sequence already known from EV-0004 (Aug 2024, tender stage) through EV-0006 (Mar 2025, sod-turning) - a roughly 3-year span from initial regulatory approval to construction start, useful context for assessing whether the project's pace was reasonable. Also identifies the specific dataset (SRC-0094) and record type that would authoritatively confirm or rule out the operator-reported \"second Bellbrook plant\" lead (Q-0002) if fetchable.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0004",
+      "EV-0006"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001"
+    ]
   }
 ]

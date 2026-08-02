@@ -2398,5 +2398,77 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0201",
+    "search_terms": "Kempsey Shire Council \"Section 60\" approval Bellbrook water treatment plant NSW Health concept design",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0202",
+    "search_terms": "\"LWU Regulatory Approvals\" data.nsw.gov.au Kempsey Bellbrook Willawarrin dataset",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0203",
+    "search_terms": "\"Notice of Determination\" \"Willawarrin Water Treatment Plant\" WAMS section 60 data.nsw.gov.au",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0204",
+    "search_terms": "\"Bellbrook Water Treatment Plant\" WAMS \"Notice of Determination\" seed.nsw.gov.au",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0205",
+    "search_terms": "\"delivery-program-22-26-and-operational-plan-24-25\" Kempsey Bellbrook water treatment",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0206",
+    "search_terms": "Kempsey Shire Council Delivery Program 2022-2026 Bellbrook water treatment plant future project design",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 1
   }
 ]
