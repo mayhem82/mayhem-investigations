@@ -1528,5 +1528,32 @@
     "open_question_links": [
       "Q-0006"
     ]
+  },
+  {
+    "evidence_id": "EV-0060",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "Unknown",
+    "source_authority": "Laurie Curran Water Pty Ltd (trading as LC Water)",
+    "source_title": "LC Water - home/about page",
+    "source_type": "Public Statement",
+    "source_location": "https://www.lcwater.com.au/",
+    "preserved_file_reference": "preserved/SRC-0085-lcwater-com-au-about.txt",
+    "document_hash": "sha256:ac302f4440049a86620cbdc661d6402739e5ea1f86c8f5d8013cca3175abcb19",
+    "hash_exception_reason": null,
+    "evidence_description": "The operator retrieved and provided the full text of LC Water's own website, now preserved and hashed. It confirms \"LC Water\" (the contractor named in EV-0058 for the Willawarrin water treatment plant) is the trading name of Laurie Curran Water Pty Ltd, a process engineering firm founded in 2001 by Laurie Curran (co-director Jarrod Fraim), headquartered at 17 The Boulevard, Norlane, Victoria, specialising in Dissolved Air Flotation/Filtration (DAF/DAFF), membrane filtration, water stability treatment, chemical dosing, reverse osmosis, and activated sludge systems for drinking water, industrial, irrigation, and environmental-discharge applications, delivering projects across Australia, Oceania, and Pakistan.",
+    "relevant_quotation": "LC Water is a process engineering house specialising in the bespoke design and construction of water and wastewater treatment plants.",
+    "investigation_relevance": "A genuine, preserved, first-party source establishing exactly who \"LC Water\" is - a real, established (since 2001) specialist water-treatment engineering firm, not a shell or unverifiable name - lending credibility to EV-0058's contractor claim. Does not itself confirm the Willawarrin engagement (the page text provided does not mention Willawarrin, Kempsey, or NSW specifically), so it corroborates the contractor's identity and legitimacy rather than independently confirming the specific contract; EV-0058 (the Council's own community update) remains the sole source naming LC Water for Willawarrin specifically.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0058",
+      "EV-0037"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001"
+    ]
   }
 ]

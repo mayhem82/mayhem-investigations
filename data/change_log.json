@@ -839,5 +839,21 @@
     ],
     "reason": "RUN-0046: registered 4 new sources and 2 new evidence items. Identified the Willawarrin plant's own contractor (LC Water, EV-0058) and materially strengthened Q-0006 with Kempsey-specific NSW Electoral Commission and media sources confirming 14 September 2024 (EV-0059), while keeping the question formally Open pending a preserved primary document. Flagged a 16 June 2026 Council meeting wrap as the highest-priority unfetched lead for Q-0001/Q-0003.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0054",
+    "date": "2026-08-02",
+    "author": "mayhem82",
+    "files_affected": [
+      "preserved/SRC-0085-lcwater-com-au-about.txt",
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/threads.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0047: the operator provided the full text of LC Water's own website, preserved and hashed here (EV-0060), confirming the real-world identity of EV-0058's named Willawarrin contractor.",
+    "validation_completed": true
   }
 ]

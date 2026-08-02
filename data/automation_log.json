@@ -606,5 +606,17 @@
       "EV-0059"
     ],
     "notes": "Pursued Q-0001 (Willawarrin commissioning status) and Q-0006 (election date discrepancy). Q-0001: no direct commissioning confirmation found, but discovered a Winter 2024 community update (contractor \"LC Water\" identified for the first time, early works complete) and the single most recent Council document in the whole investigation (16 June 2026 meeting wrap) - flagged as the clearest unfetched lead. Q-0006: found the NSW Electoral Commission's own Kempsey-specific mayoral results page plus a corroborating Macleay Argus report, both explicitly confirming 14 September 2024 and matching EV-0012 exactly - the strongest case yet, but still search-snippet only, so the question remains formally Open per this investigation's established closure bar (preserved primary document required)."
+  },
+  {
+    "run_id": "RUN-0047",
+    "date": "2026-08-02",
+    "sources_checked": [
+      "SRC-0085"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0060"
+    ],
+    "notes": "The operator provided the full text of LC Water's own website directly, which this session's fetch tool could not access (DEC-0008/DEC-0012). Preserved and hashed it. Confirms LC Water (EV-0058's named Willawarrin contractor) is a real, established Geelong-based water-treatment engineering specialist founded in 2001 - corroborates the contractor's identity/legitimacy, though the page does not itself mention Willawarrin specifically."
   }
 ]
