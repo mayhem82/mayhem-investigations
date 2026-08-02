@@ -943,5 +943,14 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": "EV-0055"
+  },
+  {
+    "note_id": "NOTE-0105",
+    "timestamp": "2026-07-29T16:10:00",
+    "activity_type": "Note",
+    "text": "The operator pasted the full page content of SRC-0001 (the archived Kempsey Shire Council media release behind EV-0002/EV-0003), which had returned HTTP 404 to the operator on an earlier attempt (recorded on SRC-0001 previously). Compared it line-by-line against the file already preserved in this repository (preserved/EV-0002-kempsey-council-media-release-2020-06-22.html) - it matches in full. This directly confirms that the preserved file's content is a genuine, accurate capture of the real page, and was not fabricated - resolving any residual doubt left by DEC-0011's finding that the recorded document_hash (as opposed to the file content itself) had never been correctly computed. No new evidentiary facts result from this; it is a content-integrity confirmation for already-registered evidence (EV-0002/EV-0003).",
+    "related_thread": null,
+    "related_source": "SRC-0001",
+    "related_evidence": "EV-0002"
   }
 ]
