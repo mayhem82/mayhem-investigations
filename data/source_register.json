@@ -1174,5 +1174,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-08",
     "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A companion news article to the 16 June 2026 Ordinary Council Meeting already registered at SRC-0066, covering adoption of the 2026-27 budget, a new Development Control Plan, and rates for the new financial year. Search-engine snippets indicate \"progress on water treatment plants at Willawarrin was included in Council's budget priorities\" but no further specific detail (commissioning status, cost) could be extracted despite repeated attempts. This is the single most recent Council-authored document identified in this entire investigation (June 2026, one month before this session's \"today\"), and remains the clearest still-unfetched lead for Q-0001/Q-0003 - a direct fetch or manual retrieval of this page is a higher-priority next step than further search queries."
+  },
+  {
+    "source_id": "SRC-0085",
+    "authority": "Laurie Curran Water Pty Ltd (trading as LC Water)",
+    "title": "LC Water - home/about page",
+    "type": "Public Statement",
+    "url_or_file_location": "https://www.lcwater.com.au/",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Full text obtained (operator-supplied, pasted directly from the live page)",
+    "preservation_status": "Preserved",
+    "hash_status": "Hashed",
+    "associated_thread": "THR-09",
+    "availability_notes": "The operator retrieved and pasted the full page text directly into this investigation (confirmed URL on request, per this investigation's DEC-0010/DEC-0011 provenance discipline). This session's own fetch tool remains blocked (DEC-0008/DEC-0012) and did not retrieve it. Preserved and hashed at preserved/SRC-0085-lcwater-com-au-about.txt (sha256:ac302f4440049a86620cbdc661d6402739e5ea1f86c8f5d8013cca3175abcb19). First-party confirmation of the identity behind \"LC Water\" (EV-0058's contractor for the Willawarrin plant): the trading name of Laurie Curran Water Pty Ltd, a Geelong/Norlane VIC process engineering firm founded 2001, specialising in DAF/DAFF and membrane filtration for drinking water/wastewater treatment, delivering projects across Australia, Oceania, and Pakistan. Does NOT itself mention Willawarrin or Kempsey - it corroborates the contractor's identity/legitimacy, not the specific engagement."
   }
 ]

@@ -988,5 +988,14 @@
     "related_thread": "THR-15",
     "related_source": "SRC-0081",
     "related_evidence": "EV-0059"
+  },
+  {
+    "note_id": "NOTE-0111",
+    "timestamp": "2026-08-02T12:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0047: the operator retrieved and pasted the full text of LC Water's own website (lcwater.com.au), confirming the URL when asked per this investigation's standing provenance discipline (DEC-0010/DEC-0011) rather than letting it be guessed. Preserved and hashed the page (EV-0060). It establishes LC Water (EV-0058's named contractor for the Willawarrin plant) as a real, established Geelong/Victoria water-treatment engineering firm founded in 2001 - genuine corroboration of the contractor's identity and legitimacy, though the page itself does not mention Willawarrin or Kempsey, so it does not independently confirm the specific engagement beyond EV-0058's existing Council-sourced claim.",
+    "related_thread": "THR-09",
+    "related_source": "SRC-0085",
+    "related_evidence": "EV-0060"
   }
 ]
