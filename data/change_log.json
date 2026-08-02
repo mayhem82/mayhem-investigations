@@ -932,5 +932,22 @@
     ],
     "reason": "RUN-0052: promoted the drinking-water-report naming-convention-change/publication-gap finding to a first-class Evidence Register entry (EV-0065), per operator directive that this pattern is itself evidence. Confirmed the 2021-22/2022-23 gap via further search; remains unexplained.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0060",
+    "date": "2026-08-02",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/open_questions.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0053: pursued paths not yet taken (Hansard, boil water alerts, a false \"Bellbrook Water Treatment Plant\" lead correctly rejected). Found the first evidence directly addressing Q-0003's cost-increase question (EV-0066): the Willawarrin funding deed was increased to cover competitive-tender cost escalation.",
+    "validation_completed": true
   }
 ]

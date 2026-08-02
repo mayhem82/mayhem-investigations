@@ -1042,5 +1042,23 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": "EV-0065"
+  },
+  {
+    "note_id": "NOTE-0117",
+    "timestamp": "2026-08-02T18:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0053: operator asked to pursue paths not yet taken. Tried three genuinely new angles: (1) NSW Parliament Hansard mentions of Willawarrin/Bellbrook/Kempsey water - no relevant results found. (2) A boil-water-alert search for Willawarrin/Bellbrook specifically - none found (other NSW towns' unrelated boil water alerts, e.g. Boorowa, Jindabyne, correctly not conflated). (3) A search summary initially claimed a distinct \"Bellbrook Water Treatment Plant\" existed in Council's capital works budget - a second, independent search found no such project on Council's own Current/Completed Works pages, only Willawarrin and Crescent Head named; treated as an AI-search-summary error and correctly NOT registered as evidence, consistent with this investigation's prior stale-content-trap catches (RUN-0028, RUN-0042).",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0118",
+    "timestamp": "2026-08-02T18:15:00",
+    "activity_type": "Finding",
+    "text": "RUN-0053: a fourth new angle - searching specifically for Safe and Secure Water Program funding-deed detail on the Willawarrin project - found the first source in this whole investigation directly addressing Q-0003 (the $4M-to-$8M cost increase). A National Water Grid Authority project page states Council \"worked with the NSW Government's Safe and Secure Water Program to increase the value of the funding deed to accommodate cost increases from the competitive tender process\" (EV-0066). This points to pure tender-price escalation as the likely explanation - not an obviously described scope change - though it remains search-snippet-only and is not sufficient to close the question under this investigation's established evidentiary bar.",
+    "related_thread": "THR-07",
+    "related_source": "SRC-0054",
+    "related_evidence": "EV-0066"
   }
 ]

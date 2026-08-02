@@ -748,12 +748,12 @@
     "type": "Government Record",
     "url_or_file_location": "https://www.nationalwatergrid.gov.au/projects/kempsey-water-treatment-plant",
     "first_checked": "2026-07-29",
-    "last_checked": "2026-07-29",
+    "last_checked": "2026-08-02",
     "current_version": "Not confirmed - fetch blocked",
     "preservation_status": "Not Preserved",
     "hash_status": "No Hash",
     "associated_thread": "THR-13",
-    "availability_notes": "nationalwatergrid.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). A federal Australian Government project-tracker page (distinct authority from the NSW state sources already registered, e.g. SRC-0006/SRC-0032) for the same Steuart McIntyre Dam/Sherwood Borefield project: gives a 12 ML/day plant capacity with allowance for a future 10 ML/day expansion (22 ML/day total), and per one search summary an \"expected completion date of late 2025\" - which does not obviously reconcile with EV-0005's \"18-month program\" from a mid-2025 start (which would imply completion nearer late 2026). Not registered as a formal contradiction (CTR-) since this is a single AI-search-summary reading of a document that has not itself been fetched and could easily be a summarization error rather than a real discrepancy - flagged here for a future run to check once the document can be fetched directly."
+    "availability_notes": "nationalwatergrid.gov.au returns HTTP 403 Forbidden to this session's fetch tool (see DEC-0008). A federal Australian Government project-tracker page (distinct authority from the NSW state sources already registered, e.g. SRC-0006/SRC-0032) for the same Steuart McIntyre Dam/Sherwood Borefield project: gives a 12 ML/day plant capacity with allowance for a future 10 ML/day expansion (22 ML/day total), and per one search summary an \"expected completion date of late 2025\" - which does not obviously reconcile with EV-0005's \"18-month program\" from a mid-2025 start (which would imply completion nearer late 2026). Not registered as a formal contradiction (CTR-) since this is a single AI-search-summary reading of a document that has not itself been fetched and could easily be a summarization error rather than a real discrepancy - flagged here for a future run to check once the document can be fetched directly. UPDATE (RUN-0053): a search-engine summary of this same page states that Kempsey Shire Council \"worked with the NSW Government's Safe and Secure Water Program to increase the value of the funding deed to accommodate cost increases from the competitive tender process\" for the Willawarrin plant - the first source found directly addressing Q-0003 (why the projected cost rose from ~$4M to ~$8M). Promoted to EV-0066."
   },
   {
     "source_id": "SRC-0055",
