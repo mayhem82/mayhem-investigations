@@ -1087,5 +1087,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0122",
+    "timestamp": "2026-08-02T22:00:00",
+    "activity_type": "Finding",
+    "text": "RUN-0057: continuing DFAPTI on Q-0001/Q-0005. Found a new Council Autumn 2025 update (SRC-0097/EV-0068) that, for the first time, distinguishes construction completion from testing/commissioning as separate, sequential milestones - \"construction... until early next year, with testing and commissioning to follow.\" This usefully reframes Q-0001: the oft-cited \"early 2026\" date likely refers to construction completion, not commissioning, which may come later and remains unconfirmed. Also found the current FY2026-27 Operational Plan (SRC-0098) - the freshest Council document in this whole investigation - whose summarised major-projects list (Steuart McIntyre Dam, Crescent Head, several sewer projects) does not mention Willawarrin, unlike every prior year's equivalent document. Deliberately not over-read this: it could mean the plant graduated to \"completed\" status, or simply reflect an incomplete search-engine summary. Recorded as a genuinely ambiguous, promising-but-unconfirmed lead rather than treated as evidence of commissioning.",
+    "related_thread": "THR-10",
+    "related_source": "SRC-0097",
+    "related_evidence": "EV-0068"
   }
 ]
