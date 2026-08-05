@@ -1795,5 +1795,32 @@
     ],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0070",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-03",
+    "source_date": "2023-08-25",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Kempsey switches to dam water as river levels decline",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20230825_Water_supply_change",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "On 25 August 2023, Council switched the Kempsey-Lower Macleay network's primary source from the Sherwood Borefield to the Steuart McIntyre Dam, as Macleay River flow levels dropped close to the trigger point for Level 1 water restrictions. Council continued pumping up to 8.5 megalitres/day from Sherwood Borefield to supplement dam supply. Residents were warned of a possible taste change and transient dirty-water effects from the changeover.",
+    "relevant_quotation": "River flow levels in the Macleay River had dropped significantly in recent weeks and were close to the trigger point for Level 1 water restrictions.",
+    "investigation_relevance": "Establishes a clean, dated seven-week progression of the same 2023 drought that led to the already-registered 16 October 2023 shire-wide Level 1 restrictions (EV-0069) - useful chronological scaffolding for THR-01's standing question about this drought/fire period's consequences for Willawarrin/Bellbrook specifically, though this source itself concerns only the main Kempsey-Lower Macleay network, not the upriver villages.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0069"
+    ],
+    "chronology_links": [
+      "CHR-0031",
+      "CHR-0032"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]

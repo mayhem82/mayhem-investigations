@@ -311,5 +311,15 @@
     "supporting_evidence": [
       "EV-0069"
     ]
+  },
+  {
+    "chronology_id": "CHR-0032",
+    "event_date": "2023-08-25",
+    "date_is_inference": false,
+    "event_description": "Kempsey Shire Council switches the Kempsey-Lower Macleay network's primary source from the Sherwood Borefield to the Steuart McIntyre Dam as Macleay River flows drop close to the Level 1 water-restriction trigger point, continuing to pump up to 8.5 ML/day from Sherwood Borefield to supplement the dam. Precedes the shire-wide Level 1 restrictions of 16 October 2023 (CHR-0031) by about seven weeks, tracing the same drought's progression.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0070"
+    ]
   }
 ]

@@ -1123,5 +1123,14 @@
     "related_thread": "THR-06",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0126",
+    "timestamp": "2026-08-03T01:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0061: operator feedback that DFAPTI passes should try all relevant paths per run, not a narrow handful of searches. This run swept 20 distinct search angles across every open question and active thread in one pass: Q-0001 (commissioning), Q-0002 (second Bellbrook plant), Q-0003 (cost-increase business paper), Q-0005 (SMD contractor/completion), Q-0006 (election gazette), CTR-0001 (population), THR-01 (Willi Willi Fire/2023 drought), THR-02 (carting contract), THR-06 (bore-vs-pipeline), THR-12/THR-14 (current operational status of both towns). Most reconfirmed already-registered facts (genuinely search-exhausted after many prior runs); one new dated chronology item was found (EV-0070/CHR-0032, 25 Aug 2023 source switch). One promising-looking lead (a possible third, previously-unknown 2023 pre-fire carting episode) was investigated rigorously and correctly rejected as likely AI-summary conflation with the known 2019-2020 crisis narrative, rather than registered on a single unverifiable search summary.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0103",
+    "related_evidence": "EV-0070"
   }
 ]
