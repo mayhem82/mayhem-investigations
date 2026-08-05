@@ -142,5 +142,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Internet Archive / Wayback Machine is confirmed NOT accessible from this session via either WebFetch or WebSearch, for a documented, distinct, non-fixable reason. This closes off Wayback Machine as a workaround path for any of this investigation's many fetch-blocked primary sources (consistent with DEC-0006's original finding from RUN-0002, now re-confirmed with a clearer technical explanation rather than an unexplained HTTP 498). No further attempts should be made to fetch web.archive.org or search it via allowed_domains in future runs; this session returned to general WebSearch-based methods for the remainder of this run."
+  },
+  {
+    "decision_id": "DEC-0014",
+    "date": "2026-08-03",
+    "reason": "The operator corrected this session's recent run cadence: several prior runs (e.g. RUN-0058, RUN-0060) tried only 3-4 searches on a single narrow sub-topic before concluding \"No relevant change detected\" and closing the run. The operator noted this is inconsistent with the investigation's own name and methodology - Deep Forensic All Paths Taken Investigation - which calls for each pass to work through the full set of currently open questions and active threads, not sample one angle and stop.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Standing rule going forward: each DFAPTI run should sweep every open question (Q-, CTR-) and every active (non-Not-Started, non-Closed) thread for at least one genuinely fresh search angle before the run is considered complete, rather than exhausting a single sub-topic and stopping there. A run may still legitimately end with mostly \"no relevant change\" outcomes - that is honest and expected once a question is search-exhausted - but the breadth of what was tried should span the case's full open surface each time, not one thread in isolation. RUN-0061 was the first run under this corrected practice, sweeping 20 search angles across 5 open questions and 5 threads in a single pass."
   }
 ]
