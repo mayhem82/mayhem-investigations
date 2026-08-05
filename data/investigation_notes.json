@@ -1114,5 +1114,14 @@
     "related_thread": "THR-01",
     "related_source": "SRC-0100",
     "related_evidence": "EV-0069"
+  },
+  {
+    "note_id": "NOTE-0125",
+    "timestamp": "2026-08-03T00:30:00",
+    "activity_type": "Note",
+    "text": "RUN-0060: continuing DFAPTI. Four searches this run - whether Willawarrin's bore supply was specifically exempt from the Oct 2023 Level 1 restrictions, whether the Regional Network Leakage Detection Project (EV-0048) specifically surveyed Willawarrin/Bellbrook's own reticulation, a repeat of that question from a different angle, and a broad recency scan for any Willawarrin news not yet captured - all found no relevant change on the core water-supply questions. The broad scan surfaced only non-water community items (a general store break-in, a fatal traffic crash), correctly not registered as this case is scoped to the drinking-water failure specifically, not general Willawarrin community news. Noted a minor, unconfirmed \"Phase 2\" vs \"Phase 3\" discrepancy in how different search results describe the leakage-detection program's phase numbering relative to EV-0048 - not promoted to a formal contradiction, since it rests entirely on unfetched documents read only through search-engine summaries and may simply reflect different articles describing different points in the same rolling program.",
+    "related_thread": "THR-06",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
