@@ -1105,5 +1105,14 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0124",
+    "timestamp": "2026-08-03T00:00:00",
+    "activity_type": "Finding",
+    "text": "RUN-0059: continuing DFAPTI, pursued the Bureau of Meteorology's independent water-restrictions tracker as a genuinely new source type for this investigation. Found real, dated content: shire-wide Level 1 water restrictions began 16 October 2023 - the exact date the Willi Willi Fire started - and ran to 9 February 2024, including a documented filling-station access episode in between (EV-0069/CHR-0031). This is the first concrete evidence of ANY water-supply-management response during the fire's aftermath window, after many prior runs found nothing. Still does not confirm a Willawarrin-specific trucked-water episode, which remains THR-01's core open question - but it closes the gap between \"the fire happened\" and \"nothing at all is known about water-supply consequences.\"",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0100",
+    "related_evidence": "EV-0069"
   }
 ]

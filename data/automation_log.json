@@ -750,5 +750,19 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Continued DFAPTI with three fresh-angle searches: the operator-reported second Bellbrook plant, Willawarrin-specific figures within SRC-0091 (2023-2024 water testing results), and the standing Willi Willi Fire water-disruption question. All three found no relevant change - one search resurfaced already-known 2019-2020 crisis content with an AI date-confusion artifact, correctly not re-registered. Honest \"No relevant change detected.\" outcome per spec section 7."
+  },
+  {
+    "run_id": "RUN-0059",
+    "date": "2026-08-02",
+    "sources_checked": [
+      "SRC-0100",
+      "SRC-0101",
+      "SRC-0102"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0069"
+    ],
+    "notes": "Continued DFAPTI. Tried the Bureau of Meteorology's water-restrictions tracker as a new source type, which surfaced Council's own dated restriction announcements: shire-wide Level 1 restrictions, 16 October 2023 (the Willi Willi Fire's start date) to 9 February 2024, including a filling-station access episode (EV-0069, CHR-0031 added). First concrete evidence of any water-supply-management response during the fire's aftermath window. Does not confirm a Willawarrin-specific trucked-water episode, which remains THR-01's open core question."
   }
 ]

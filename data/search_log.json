@@ -2566,5 +2566,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0215",
+    "search_terms": "Kempsey Shire Council news July 2026 water Willawarrin",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 3
+  },
+  {
+    "search_id": "SRCH-0216",
+    "search_terms": "kempsey.nsw.gov.au \"Water-supply-quality/Water-update\" current status Willawarrin Bellbrook 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 3
+  },
+  {
+    "search_id": "SRCH-0217",
+    "search_terms": "Bureau of Meteorology water restrictions Kempsey Shire Council current level 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 3
+  },
+  {
+    "search_id": "SRCH-0218",
+    "search_terms": "\"Community to regain access to Kempsey's water filling stations\" National Tribune",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 3
   }
 ]

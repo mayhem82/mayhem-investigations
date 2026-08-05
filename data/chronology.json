@@ -301,5 +301,15 @@
     "supporting_evidence": [
       "EV-0052"
     ]
+  },
+  {
+    "chronology_id": "CHR-0031",
+    "event_date": "2023-10-16",
+    "date_is_inference": false,
+    "event_description": "Shire-wide Level 1 water restrictions come into force across Kempsey Shire, attributed to continued dry weather - the same date the Willi Willi Fire begins (CHR-0029). Council later relaxes filling-station access rules (16 November 2023) in response to community concern. Restrictions remain in force for approximately 4 months, lifted 9 February 2024 following renewed rainfall.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0069"
+    ]
   }
 ]

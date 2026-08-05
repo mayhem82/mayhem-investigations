@@ -1767,5 +1767,33 @@
     "open_question_links": [
       "Q-0001"
     ]
+  },
+  {
+    "evidence_id": "EV-0069",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "2023-10-12",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Level 1 water restrictions across Kempsey Shire from Monday; Kempsey lifts water restrictions across shire; Community to regain access to Kempsey's water filling stations",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20231012-Level-1-water-restrictions-across-Kempsey-Shire-from-Monday",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "Shire-wide Level 1 water restrictions took effect Monday 16 October 2023 (the same date as the Willi Willi Fire's start, CHR-0029/EV-0051), attributed to continued dry weather. Council briefly required filling-station users to be authorised water carters under NSW Health potable-water rules, then relaxed this on 16 November 2023 after community concern, allowing an exemption-permit/access-card system for non-approved containers. Restrictions were lifted shire-wide on 9 February 2024 following renewed rainfall, giving the period a span of approximately 4 months.",
+    "relevant_quotation": "Level 1 Water Restrictions... came into force across the Kempsey Shire as of Monday 16 October 2023 due to the impact of continued dry weather.",
+    "investigation_relevance": "A genuinely new, dated data point for THR-01's standing question about the Willi Willi Fire's water-supply consequences: confirms a real, shire-wide, dated (16 Oct 2023 - 9 Feb 2024) water-stress management response coincided exactly with the fire period, including public filling-station access measures - though this is drought-attributed and shire-wide rather than a confirmed Willawarrin-specific trucked-water disruption, and does not by itself resolve the still-open question of whether Willawarrin specifically needed carting during this window.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0051",
+      "EV-0054"
+    ],
+    "chronology_links": [
+      "CHR-0029",
+      "CHR-0031"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]
