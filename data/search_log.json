@@ -2482,5 +2482,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0208",
+    "search_terms": "Steuart McIntyre Dam water treatment plant construction progress 2026 update Kempsey",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0209",
+    "search_terms": "\"2026-27-operational-plan\" Kempsey Willawarrin water treatment plant status",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0210",
+    "search_terms": "Kempsey Shire Council 2026-27 operational plan water sewer major projects Willawarrin Steuart McIntyre",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0211",
+    "search_terms": "kempsey.nsw.gov.au \"Completed works\" Willawarrin Water Treatment Plant 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-02",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 2
   }
 ]

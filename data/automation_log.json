@@ -728,5 +728,19 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Operator directive: try internet archives. Tested both WebFetch and WebSearch against web.archive.org - both confirmed blocked for distinct, platform-level reasons (recorded as DEC-0013), not fixable via this session's proxy configuration. This closes off the Wayback Machine as a workaround for this investigation's many fetch-blocked primary sources. No Source/Evidence Register changes this run."
+  },
+  {
+    "run_id": "RUN-0057",
+    "date": "2026-08-02",
+    "sources_checked": [
+      "SRC-0097",
+      "SRC-0098",
+      "SRC-0099"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0068"
+    ],
+    "notes": "Continued DFAPTI. Found a Council Autumn 2025 update distinguishing construction completion from testing/commissioning as separate milestones (EV-0068), usefully reframing Q-0001. Found the current FY2026-27 Operational Plan (the freshest Council document in this investigation) whose major-projects summary omits Willawarrin, unlike prior years' equivalents - flagged as a genuinely ambiguous, promising lead, not confirmed evidence of commissioning. Reconfirmed the LC Eire contractor finding for Q-0005 via an independent restatement; no new figures."
   }
 ]

@@ -995,5 +995,22 @@
     ],
     "reason": "RUN-0056: recorded DEC-0013 - Internet Archive/Wayback Machine confirmed inaccessible via both WebFetch and WebSearch, for distinct platform-level reasons, closing off this workaround path. One further search on Q-0001 (Willawarrin commissioning status) found no relevant change.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0064",
+    "date": "2026-08-02",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/open_questions.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0057: registered 3 new sources and 1 new evidence item on Q-0001/Q-0005/THR-13. Found that construction completion and commissioning are distinct, sequential milestones per a Council Autumn 2025 update (EV-0068), and flagged the current FY2026-27 Operational Plan's omission of Willawarrin from its major-projects list as a genuinely ambiguous, unconfirmed lead.",
+    "validation_completed": true
   }
 ]

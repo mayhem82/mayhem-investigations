@@ -1342,5 +1342,47 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-07",
     "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Council's own four-year Delivery Program and one-year Operational Plan - exactly the document type that would list a \"second Bellbrook plant\" if it were an adopted, budgeted forward project. Per search-engine summary, its named 2022-23 water infrastructure projects are the Steuart McIntyre Dam Emergency Water Treatment Plant, and the Crescent Head and Willawarrin Water Treatment Plants - no Bellbrook project named. This is the SECOND Council planning-document type checked (after the Long Term Financial Plan 2025-2035, RUN-0054) that lists Council's major water projects by name without including a Bellbrook plant, though this remains a search-snippet reading of an unfetched document, not a confirmed absence."
+  },
+  {
+    "source_id": "SRC-0097",
+    "authority": "Kempsey Shire Council",
+    "title": "Willawarrin community update, Autumn 2025",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/willawarrin-water-treatment-plant/willawarrin-community-update-autumn-2025.pdf",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-10",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A more recent (Autumn 2025, i.e. roughly March-May 2025) Willawarrin community update than SRC-0083 (Winter 2024). Per search-engine snippet, states construction \"will be happening on site until early next year [early 2026], with testing and commissioning to follow\" - the first source found giving an explicit expected sequence (construction -> testing -> commissioning) rather than just a single target completion date. Promoted to EV-0068."
+  },
+  {
+    "source_id": "SRC-0098",
+    "authority": "Kempsey Shire Council",
+    "title": "2026-27 Operational Plan",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2026-27/11-2-1-2026-27-operational-plan.pdf",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-10",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). The single most recent Council operational planning document found in this investigation to date (covers the current FY2026-27, the fiscal year this session is running in). Per search-engine snippet, its listed major water/sewer projects for this year are \"the Steuart McIntyre Dam and Crescent Head upgrades, advancing sewer system improvements at Stuarts Point and Central Kempsey, and commencing work on the Sherwood Environmental Sewer upgrade\" - notably NOT including a Willawarrin line item, unlike every operational/delivery plan this investigation has found for prior years. This is genuinely ambiguous, not treated as confirming commissioning: it could mean the plant graduated off the \"current major project\" list because it is now complete/operational (a positive reading, consistent with SRC-0097's \"early 2026\" testing-and-commissioning timeline), or it could simply reflect an incomplete search-engine summary of a much longer document rather than an exhaustive list. Flagged as the most suggestive (not conclusive) lead yet found for Q-0001."
+  },
+  {
+    "source_id": "SRC-0099",
+    "authority": "Kempsey Shire Council",
+    "title": "Steuart McIntyre Dam community flyer, Autumn 2025",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-smd-flyer-community-autumn-2025-web.pdf",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-13",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A dedicated community-update flyer for the Steuart McIntyre Dam/Sherwood Borefield plant (Autumn 2025), separate from the general press releases already registered (SRC-0006 etc.). No specific new figures could be extracted from search-engine snippets beyond already-registered detail (contractor \"LC Eire, a partnership between LC Water and Eire Constructions\"; 18-month program from mid-2025)."
   }
 ]

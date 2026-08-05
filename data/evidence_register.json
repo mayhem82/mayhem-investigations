@@ -1739,5 +1739,33 @@
     "open_question_links": [
       "Q-0001"
     ]
+  },
+  {
+    "evidence_id": "EV-0068",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-02",
+    "source_date": "2025 (Autumn)",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Willawarrin community update, Autumn 2025",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/willawarrin-water-treatment-plant/willawarrin-community-update-autumn-2025.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au is blocked by this session's confirmed organizational egress policy (DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "As of Autumn 2025, Council stated construction \"will be happening on site until early next year [early 2026], with testing and commissioning to follow.\" This is the first source in this register to give an explicit expected sequence - construction, then testing, then commissioning - rather than a single undifferentiated completion date.",
+    "relevant_quotation": "construction will be happening on site until early next year, with testing and commissioning to follow",
+    "investigation_relevance": "Directly bears on Q-0001. If taken at face value and the Autumn 2025 timeline held, commissioning would plausibly fall somewhere in mid-to-late 2026 (construction finishing \"early next year\" [early 2026], THEN a testing phase, THEN commissioning) - which would mean the plant may not yet be fully commissioned even now (this session's \"today,\" 2 August 2026), despite construction itself likely being complete. This reframes Q-0001 usefully: the original \"early 2026 completion\" framing may have referred to construction completion specifically, with commissioning as a distinct, later milestone not yet confirmed either way.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0006",
+      "EV-0042",
+      "EV-0058"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001"
+    ]
   }
 ]

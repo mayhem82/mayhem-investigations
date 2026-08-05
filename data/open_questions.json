@@ -7,7 +7,7 @@
       "EV-0006",
       "EV-0007"
     ],
-    "evidence_required_to_resolve": "A council or NSW Government status update, commissioning notice, water-quality test result, or site record dated after March 2025 confirming the plant's current status.",
+    "evidence_required_to_resolve": "A council or NSW Government status update, commissioning notice, water-quality test result, or site record dated after March 2025 confirming the plant's current status. RUN-0057: found the first source distinguishing construction completion from commissioning as separate milestones - a Council Autumn 2025 update states construction would run \"until early next year, with testing and commissioning to follow\" (EV-0068). This suggests the widely-cited \"early 2026\" date may refer to construction completion only, with commissioning as a later, still-unconfirmed step. Separately and more speculatively: the current FY2026-27 Operational Plan's listed major water projects (Steuart McIntyre Dam, Crescent Head, several sewer projects) do not mention Willawarrin by name in the search-snippet summary available this session (SRC-0098) - possibly because the plant has graduated off the \"current major project\" list as complete, but this is not confirmed and could equally be an incomplete summary of a longer document. Still no direct statement found that the plant is commissioned/operational.",
     "likely_source": "Kempsey Shire Council's current-works page and community update PDFs (SRC-0010, SRC-0011, SRC-0012) - currently blocked to automated access; requires manual browser retrieval.",
     "status": "Open",
     "resolution_evidence": []
