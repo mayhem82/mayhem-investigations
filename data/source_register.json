@@ -1426,5 +1426,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Dated 16 November 2023, within the SRC-0100/SRC-0101 restriction period. Reports Council initially required filling-station users to be authorised water carters (per NSW Health potable-water rules) once Level 1 restrictions began, then relaxed this after community concern - residents could apply for an exemption permit and access card to use non-approved containers at the Shire's water fill stations. Confirms filling stations (not just carting to individual villages) were part of the Shire's water-stress response during this period."
+  },
+  {
+    "source_id": "SRC-0103",
+    "authority": "Kempsey Shire Council",
+    "title": "Kempsey switches to dam water as river levels decline",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20230825_Water_supply_change",
+    "first_checked": "2026-08-03",
+    "last_checked": "2026-08-03",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Dated 25 August 2023 per the URL. Reports Council switched the Kempsey-Lower Macleay network's primary source from the Sherwood Borefield to the Steuart McIntyre Dam as Macleay River flows dropped close to the Level 1 water-restriction trigger point, while continuing to pump up to 8.5 ML/day from Sherwood Borefield to supplement the dam. Bridges the chronology gap between normal conditions and the already-registered 16 October 2023 Level 1 restrictions (EV-0069/CHR-0031), showing the drought's progression over roughly seven weeks. Does not mention Willawarrin, Bellbrook, or village water carting."
   }
 ]

@@ -1055,5 +1055,33 @@
     ],
     "reason": "RUN-0060: four searches on THR-06 (leakage detection town-level coverage, restriction exemptions) and a broad Willawarrin news scan found no relevant change. Honest negative-finding run per spec section 7.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0068",
+    "date": "2026-08-03",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/chronology.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0061: exhaustive multi-path pass across every open question and active thread in one run, per operator correction on methodology. Registered 1 new source, 1 new evidence item, and 1 new chronology entry (25 Aug 2023 source switch). Rigorously investigated and rejected a promising but unverifiable \"third 2023 carting episode\" lead as likely stale-content conflation.",
+    "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0069",
+    "date": "2026-08-03",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/decisions.json",
+      "data/change_log.json"
+    ],
+    "reason": "Recorded DEC-0014: operator correction that DFAPTI runs must sweep all open questions/threads per pass, not a narrow single-topic sample, consistent with the investigation's own \"All Paths Taken\" methodology.",
+    "validation_completed": true
   }
 ]
