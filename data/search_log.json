@@ -2902,5 +2902,29 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0243",
+    "search_terms": "Willawarrin Bellbrook water carting 2011 2012 2013 2014 2015 2016 2017 2018 routine ongoing",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-03",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0244",
+    "search_terms": "Willawarrin Bellbrook water carting 2022 2021 supplementary intermittent Kempsey Council",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-03",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
   }
 ]
