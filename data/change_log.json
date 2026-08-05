@@ -1099,5 +1099,21 @@
     ],
     "reason": "RUN-0062: investigated whether cartage was constant between documented events (no confirming evidence found either way) and, while re-mining SRC-0042, found a direct primary-source corroboration of the operator's second-Bellbrook-plant lead - \"Ongoing planning of WTP augmentation\" as of FY2020-21 (EV-0071).",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0071",
+    "date": "2026-08-06",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/source_register.json",
+      "data/open_questions.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0063: registered 2 new sources - a Kempsey-specific ballot-draw article further corroborating Q-0006's 14 September 2024 date, and Council's general plant/truck-hire panel tender relevant to THR-02's carting-contractor question. Checked and rejected an unattributable \"$17.23 million\" SMD funding figure.",
+    "validation_completed": true
   }
 ]
