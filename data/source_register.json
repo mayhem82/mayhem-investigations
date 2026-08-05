@@ -1384,5 +1384,47 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-13",
     "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). A dedicated community-update flyer for the Steuart McIntyre Dam/Sherwood Borefield plant (Autumn 2025), separate from the general press releases already registered (SRC-0006 etc.). No specific new figures could be extracted from search-engine snippets beyond already-registered detail (contractor \"LC Eire, a partnership between LC Water and Eire Constructions\"; 18-month program from mid-2025)."
+  },
+  {
+    "source_id": "SRC-0100",
+    "authority": "Kempsey Shire Council",
+    "title": "Level 1 water restrictions across Kempsey Shire from Monday",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20231012-Level-1-water-restrictions-across-Kempsey-Shire-from-Monday",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Announces shire-wide Level 1 water restrictions taking effect Monday 16 October 2023 - the same date as the Willi Willi Fire's start (CHR-0029) - attributed to continued dry weather. Genuinely new, dated chronology material for THR-01's standing question about the fire's water-supply impact, though this is a shire-wide drought-driven restriction rather than a confirmed Willawarrin-specific trucked-water disruption."
+  },
+  {
+    "source_id": "SRC-0101",
+    "authority": "Kempsey Shire Council",
+    "title": "Kempsey lifts water restrictions across shire",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20240208-Water-Restrictions-End",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Announces the end of the Level 1 water restrictions (SRC-0100) effective Friday 9 February 2024, following continued rainfall across the Macleay catchment - giving this restriction period a full, dated span of 16 October 2023 to 9 February 2024 (approximately 4 months)."
+  },
+  {
+    "source_id": "SRC-0102",
+    "authority": "Kempsey Shire Council",
+    "title": "Community to regain access to Kempsey's water filling stations",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20231116-Community-to-regain-access-to-Kempsey%E2%80%99s-water-filling-stations",
+    "first_checked": "2026-08-02",
+    "last_checked": "2026-08-02",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Dated 16 November 2023, within the SRC-0100/SRC-0101 restriction period. Reports Council initially required filling-station users to be authorised water carters (per NSW Health potable-water rules) once Level 1 restrictions began, then relaxed this after community concern - residents could apply for an exemption permit and access card to use non-approved containers at the Shire's water fill stations. Confirms filling stations (not just carting to individual villages) were part of the Shire's water-stress response during this period."
   }
 ]
