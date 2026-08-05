@@ -764,5 +764,13 @@
       "EV-0069"
     ],
     "notes": "Continued DFAPTI. Tried the Bureau of Meteorology's water-restrictions tracker as a new source type, which surfaced Council's own dated restriction announcements: shire-wide Level 1 restrictions, 16 October 2023 (the Willi Willi Fire's start date) to 9 February 2024, including a filling-station access episode (EV-0069, CHR-0031 added). First concrete evidence of any water-supply-management response during the fire's aftermath window. Does not confirm a Willawarrin-specific trucked-water episode, which remains THR-01's open core question."
+  },
+  {
+    "run_id": "RUN-0060",
+    "date": "2026-08-03",
+    "sources_checked": [],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Continued DFAPTI. Four searches (Willawarrin bore-supply restriction exemption, Regional Network Leakage Detection Project town-level coverage x2, broad Willawarrin news scan) found no relevant change. The broad scan surfaced only non-water community items, correctly excluded as out of this case's water-failure scope. Noted a minor, unconfirmed program-phase-numbering discrepancy, not promoted to a formal contradiction given it rests only on unfetched search summaries."
   }
 ]

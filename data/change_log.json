@@ -1042,5 +1042,18 @@
     ],
     "reason": "RUN-0059: registered 3 new sources, 1 new evidence item, and 1 new chronology entry - a shire-wide Level 1 water restriction period (16 Oct 2023-9 Feb 2024) coinciding exactly with the Willi Willi Fire, including a filling-station access episode. First concrete evidence of any water-supply-management response during the fire's aftermath window, though not yet a confirmed Willawarrin-specific trucked-water episode.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0067",
+    "date": "2026-08-03",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0060: four searches on THR-06 (leakage detection town-level coverage, restriction exemptions) and a broad Willawarrin news scan found no relevant change. Honest negative-finding run per spec section 7.",
+    "validation_completed": true
   }
 ]

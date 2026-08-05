@@ -2614,5 +2614,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 3
+  },
+  {
+    "search_id": "SRCH-0219",
+    "search_terms": "\"Level 1 water restrictions\" Kempsey Shire October 2023 Willawarrin bore supply exempt",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-03",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0220",
+    "search_terms": "Kempsey Shire Council Regional Network Leakage Detection Project Willawarrin Bellbrook reticulation pipes",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-03",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0221",
+    "search_terms": "\"Kempsey leak detection gets $12.5\" Willawarrin Bellbrook network survey coverage",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-03",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0222",
+    "search_terms": "Willawarrin news",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-03",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
   }
 ]
