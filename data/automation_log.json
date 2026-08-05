@@ -784,5 +784,17 @@
       "EV-0070"
     ],
     "notes": "Exhaustive multi-path pass (operator correction: try all relevant paths per run, not a narrow handful). Swept 20 search angles across every open question (Q-0001, Q-0002, Q-0003, Q-0005, Q-0006), CTR-0001, and five active threads (THR-01, THR-02, THR-06, THR-12, THR-14). Most reconfirmed already-registered facts. Found one new dated chronology item (EV-0070/CHR-0032, 25 August 2023 Kempsey-Lower Macleay source switch, bridging to the already-registered 16 October 2023 restrictions). Rigorously investigated and correctly rejected a promising-looking but unverifiable lead (a possible third 2023 pre-fire Willawarrin/Bellbrook/Thunggutti carting episode, \"78,000 litres/day\"), identifying strong signs of AI-summary conflation with the known 2019-2020 narrative rather than registering it as new evidence on a single unreproducible search snippet."
+  },
+  {
+    "run_id": "RUN-0062",
+    "date": "2026-08-03",
+    "sources_checked": [
+      "SRC-0042"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0071"
+    ],
+    "notes": "Operator asked whether cartage was constant/continuous between documented crisis episodes. Searched the 2011-2018 and 2021-2022 gap years specifically - found nothing confirming or ruling out cartage in those windows (honest absence of evidence, not proof of absence). While investigating, re-mined SRC-0042's Supply Summary table and found a genuinely new, directly preserved corroboration of the operator's second-Bellbrook-plant lead: \"Ongoing planning of WTP augmentation\" for Bellbrook as of FY2020-21 (EV-0071) - substantially stronger sourcing than anything found via search in RUN-0054/RUN-0055."
   }
 ]

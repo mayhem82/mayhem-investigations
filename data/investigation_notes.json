@@ -1132,5 +1132,14 @@
     "related_thread": "THR-01",
     "related_source": "SRC-0103",
     "related_evidence": "EV-0070"
+  },
+  {
+    "note_id": "NOTE-0127",
+    "timestamp": "2026-08-03T02:00:00",
+    "activity_type": "Finding",
+    "text": "RUN-0062: operator asked whether there is evidence of constant/continuous cartage happening between the documented crisis-episode dates, rather than discrete events. Searched specifically for 2011-2018 and 2021-2022 \"gap year\" cartage - found nothing either way (an honest absence of evidence, not confirmed absence of cartage, since the relevant-year DWMS reports remain unfetched). While checking, re-read SRC-0042's Supply Summary table in full for the first time and found a genuinely important, directly preserved corroboration for the operator's separate \"second Bellbrook plant\" lead: Bellbrook's entry states \"Ongoing planning of WTP augmentation\" as of FY2020-21 (EV-0071) - much stronger sourcing than the unfetched search summaries RUN-0054/RUN-0055 relied on. Also captured exact normal-mode treatment capacities and populations for all three upriver systems (Willawarrin 200kL/day/~130, Bellbrook 140kL/day/~100, Thunggutti 110kL/day/~120).",
+    "related_thread": "THR-14",
+    "related_source": null,
+    "related_evidence": "EV-0071"
   }
 ]

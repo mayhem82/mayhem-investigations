@@ -1083,5 +1083,21 @@
     ],
     "reason": "Recorded DEC-0014: operator correction that DFAPTI runs must sweep all open questions/threads per pass, not a narrow single-topic sample, consistent with the investigation's own \"All Paths Taken\" methodology.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0070",
+    "date": "2026-08-03",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/evidence_register.json",
+      "data/open_questions.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0062: investigated whether cartage was constant between documented events (no confirming evidence found either way) and, while re-mining SRC-0042, found a direct primary-source corroboration of the operator's second-Bellbrook-plant lead - \"Ongoing planning of WTP augmentation\" as of FY2020-21 (EV-0071).",
+    "validation_completed": true
   }
 ]

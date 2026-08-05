@@ -1822,5 +1822,34 @@
     ],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0071",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-03",
+    "source_date": "2020-06-30",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report, July 2020-June 2021",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+    "preserved_file_reference": "preserved/SRC-0042-kempsey-council-dwms-annual-report-2020-2021.txt",
+    "document_hash": "sha256:8cff9ee5dcfe22265e494dd76c4e112135492cefef847bb570d4823b5207ef70",
+    "hash_exception_reason": null,
+    "evidence_description": "Re-mining the already-preserved SRC-0042 text (Section 3, \"Supply Summary and Upgrades,\" Table 3.1) surfaced a system-by-system technical summary not previously extracted. For Willawarrin: source is surface water from the Macleay River via a bore on the riverbank for gravel-bed extraction; treatment is chlorine dosing plus (new) soda ash pH correction; capacity 200 kL/day; population served ~130; note \"Ongoing planning of land acquisition for design and Construction of a new WTP\" (matches the already-known new plant). For Bellbrook: same river/bore extraction method; treatment is multi-media filtration including arsenic removal, soda ash pH correction, and chlorine dosing; capacity 140 kL/day; population served ~100; note \"Ongoing planning of WTP augmentation\" - a distinct, dated (as of the 2020-2021 report year) primary-source confirmation that a Bellbrook plant upgrade/augmentation was already in planning at that time. For Thunggutti: capacity 110 kL/day, population served ~120.",
+    "relevant_quotation": "Bellbrook: ... Additional notes: Ongoing planning of WTP augmentation.",
+    "investigation_relevance": "Directly corroborates the operator-reported \"second Bellbrook plant in planning for years\" lead (RUN-0054/RUN-0055) from a source already preserved and hashed in this investigation, previously unmined for this specific detail - \"ongoing planning of WTP augmentation\" as of FY2020-21 is fully consistent with a multi-year planning process that could still be unresolved by 2026. This is stronger sourcing than anything found in RUN-0054/RUN-0055's searches (which never got past unfetched, unquotable search summaries) since it is a directly preserved primary document. Also gives, for the first time, Bellbrook's own exact treatment capacity (140 kL/day) and populate-served figure (~100) alongside Willawarrin's (200 kL/day, ~130) and Thunggutti's (110 kL/day, ~120) - useful context for CTR-0001 (Council's own ~130 figure for Willawarrin matches EV-0005's figure exactly, not EV-0006's 180).",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0058",
+      "EV-0060"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [
+      "CTR-0001"
+    ],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
