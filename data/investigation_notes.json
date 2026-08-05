@@ -1096,5 +1096,14 @@
     "related_thread": "THR-10",
     "related_source": "SRC-0097",
     "related_evidence": "EV-0068"
+  },
+  {
+    "note_id": "NOTE-0123",
+    "timestamp": "2026-08-02T23:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0058: continuing DFAPTI. Three targeted searches this run - a fresh angle on the operator-reported second Bellbrook plant (Macleay Argus funding announcements 2025-2026), another attempt to extract Willawarrin-specific compliance figures from SRC-0091 (the 2023-2024 water testing results), and another attempt to find any 2023 Willi Willi Fire-triggered Willawarrin water disruption - all three found no relevant change. One search resurfaced the same 2019-2020 crisis content with an AI-generated date confusion (misdating the June 2020 return-to-river-supply as \"June 2024\") - correctly recognized as the same stale-content pattern caught at RUN-0028/RUN-0042 and not re-registered. No new sources, evidence, or thread updates this run.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
   }
 ]

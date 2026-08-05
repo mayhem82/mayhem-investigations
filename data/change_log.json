@@ -1012,5 +1012,18 @@
     ],
     "reason": "RUN-0057: registered 3 new sources and 1 new evidence item on Q-0001/Q-0005/THR-13. Found that construction completion and commissioning are distinct, sequential milestones per a Council Autumn 2025 update (EV-0068), and flagged the current FY2026-27 Operational Plan's omission of Willawarrin from its major-projects list as a genuinely ambiguous, unconfirmed lead.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0065",
+    "date": "2026-08-02",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json",
+      "data/change_log.json"
+    ],
+    "reason": "RUN-0058: three fresh-angle searches (second Bellbrook plant, SRC-0091 Willawarrin figures, Willi Willi Fire water disruption) found no relevant change. Honest negative-finding run, logged per spec section 7 rather than padding the register.",
+    "validation_completed": true
   }
 ]

@@ -742,5 +742,13 @@
       "EV-0068"
     ],
     "notes": "Continued DFAPTI. Found a Council Autumn 2025 update distinguishing construction completion from testing/commissioning as separate milestones (EV-0068), usefully reframing Q-0001. Found the current FY2026-27 Operational Plan (the freshest Council document in this investigation) whose major-projects summary omits Willawarrin, unlike prior years' equivalents - flagged as a genuinely ambiguous, promising lead, not confirmed evidence of commissioning. Reconfirmed the LC Eire contractor finding for Q-0005 via an independent restatement; no new figures."
+  },
+  {
+    "run_id": "RUN-0058",
+    "date": "2026-08-02",
+    "sources_checked": [],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Continued DFAPTI with three fresh-angle searches: the operator-reported second Bellbrook plant, Willawarrin-specific figures within SRC-0091 (2023-2024 water testing results), and the standing Willi Willi Fire water-disruption question. All three found no relevant change - one search resurfaced already-known 2019-2020 crisis content with an AI date-confusion artifact, correctly not re-registered. Honest \"No relevant change detected.\" outcome per spec section 7."
   }
 ]
