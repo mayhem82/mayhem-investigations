@@ -30,6 +30,7 @@
     <li><button class="nav-link" data-section="logging">Logging Responses</button></li>
     <li><button class="nav-link" data-section="verify">Five-Step Verification</button></li>
     <li><button class="nav-link" data-section="missing">If a Document Is Missing</button></li>
+    <li><button class="nav-link" data-section="escalate">If There's No Response</button></li>
   </ul>
   <ul class="nav-list">
     <li><a class="nav-link" href="../index.html">&larr; DFAPTI-BB-2026-00001 (case)</a></li>
@@ -74,6 +75,10 @@
       <div class="record-body">Steuart McIntyre Dam construction status and funding confirmation. DCCEEW co-funds both projects through the Safe and Secure Water Program.</div></div>
       <div class="card"><div class="record-title">NSW Health — Water Unit</div>
       <div class="record-body">Locating the missing 2019-2020 crisis-year Drinking Water Management System report, and current iron/manganese monitoring results.</div></div>
+      <div class="card"><div class="record-title">National Water Grid Authority (Commonwealth)</div>
+      <div class="record-body">The Commonwealth's $12.5 million National Water Grid Fund contribution to the Steuart McIntyre Dam project specifically — a separate funding relationship from the NSW state contribution DCCEEW Water Division holds.</div></div>
+      <div class="card"><div class="record-title">Office of Local Government NSW</div>
+      <div class="record-body">Not asked to act in the first instance — copied for the record. Has real standing to investigate council governance and service-delivery failures if Council's response to this complaint is inadequate or absent. See "If There's No Response" below.</div></div>
     </div>
   </section>
 
@@ -86,6 +91,10 @@
       <div class="record-body">Verify the current program-enquiry contact at water.dcceew.nsw.gov.au before sending — the general postal address in the Enforcement Notice is confirmed, but a specific enquiries email for the Safe and Secure Water Program was not independently confirmed while building this page. Reference both project names and request a written response within 28 days.</div></div>
       <div class="card"><div class="record-title">To NSW Health (Water Unit)</div>
       <div class="record-body">Email <strong>hssg-waterqual@health.nsw.gov.au</strong>. Ask specifically about locating the 2019-2020 Drinking Water Management System annual report and current Willawarrin/Bellbrook monitoring results. Request a written response within 28 days.</div></div>
+      <div class="card"><div class="record-title">To National Water Grid Authority</div>
+      <div class="record-body">A general public-enquiries contact was not independently confirmed — check nationalwatergrid.gov.au/about/contact for the current address before sending. Reference the Steuart McIntyre Dam project and the National Water Grid Fund specifically.</div></div>
+      <div class="card"><div class="record-title">To Office of Local Government NSW</div>
+      <div class="record-body">Email <strong>olg@olg.nsw.gov.au</strong> or phone (02) 4428 4100. For the initial submission, send as a copy/FYI rather than a formal complaint — OLG expects Council to be given the chance to respond first. If Council doesn't respond within 28 days, or responds inadequately, that's when to submit a formal complaint to OLG (their Council Complaint Form) referencing this history.</div></div>
     </div>
   </section>
 
@@ -140,6 +149,35 @@
     </ul>
   </section>
 
+  <section id="section-escalate" class="workspace-section" data-title="If There's No Response" hidden>
+    <h1 class="section-title">If There's No Response, or an Inadequate One</h1>
+    <p class="section-intro">None of this is regulatory enforcement — it's real, legitimate pressure that has moved
+    things before. Use it in order; skipping straight to the top doesn't usually work better.</p>
+    <div class="stack">
+      <div class="card">
+        <div class="record-title">1. Office of Local Government NSW — formal complaint</div>
+        <div class="record-body">If Council hasn't responded within 28 days, or the response doesn't actually answer the questions, submit a formal complaint via OLG's Council Complaint Form (olg.nsw.gov.au/public/complaints-about-councils), referencing this Enforcement Notice and the non-response. OLG has real statutory investigation powers over council governance and service delivery.</div>
+      </div>
+      <div class="card">
+        <div class="record-title">2. Your state MP — Michael Kemp, Member for Oxley</div>
+        <div class="record-body">Suite 1, 72 Elbow Street, West Kempsey NSW 2440 · oxley@parliament.nsw.gov.au · (02) 6562 6190. Not a regulator, but a constituent-service channel that can raise the matter directly with the Minister for Water or Minister for Local Government, or ask a question in Parliament. Send the Enforcement Notice and a short note that this is a constituency matter for Willawarrin and Bellbrook residents.</div>
+      </div>
+      <div class="card">
+        <div class="record-title">3. Your federal MP — Pat Conaghan, Member for Cowper</div>
+        <div class="record-body">Port Macquarie office: JBC Building, Suite 1, Level 4, 41-47 Horton Street, Port Macquarie NSW 2444 (PO Box 345, Port Macquarie NSW 2444) · pat.conaghan.mp@aph.gov.au · (02) 6583 8387. Relevant specifically to the National Water Grid Authority request, since that's a Commonwealth body.</div>
+      </div>
+      <div class="card">
+        <div class="record-title">4. NSW Ombudsman — last resort for the council complaint</div>
+        <div class="record-body">The Ombudsman expects other avenues (Council, then OLG) to be exhausted first. If OLG's response is itself inadequate, the Ombudsman can investigate and report publicly or to Parliament. Not a first-round recipient — see ombo.nsw.gov.au/complaints.</div>
+      </div>
+    </div>
+    <div class="empty-state">
+      Log every one of these the same way as the original recipients (see Logging Responses). A constituency
+      letter that produces a ministerial enquiry, or an OLG complaint that produces a compliance direction, is a
+      real outcome — worth recording as carefully as a direct reply would be.
+    </div>
+  </section>
+
   <div id="load-error" class="load-error" hidden></div>
 
 </main>
@@ -153,7 +191,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("footer-loaded").textContent = "Loaded " + new Date().toLocaleString();
     MayhemShell.init({
-      sections: ["reading", "standing", "submit", "logging", "verify", "missing"],
+      sections: ["reading", "standing", "submit", "logging", "verify", "missing", "escalate"],
       defaultSection: "reading",
     });
   });
