@@ -2,14 +2,20 @@
 
 Forensic public interest investigation workspace.
 
-This repository is a persistent DFAPTI investigation engine, built to the
-case-specific specification in
-[`docs/specs/MAYHEM-SPEC-DFAPTI-WATER-001-v2.0.md`](docs/specs/MAYHEM-SPEC-DFAPTI-WATER-001-v2.0.md),
-which is itself an instance of the general, reusable **[MAYHEM
-specification](SPEC.md)** - the case-agnostic rules any MAYHEM-compliant
-investigation repository follows, independent of subject matter or
-implementation technology. Read [`SPEC.md`](SPEC.md) first if you're
-starting a new investigation rather than continuing this one.
+This repository is the canonical home of **MAYHEM** (Modular Audit and
+Yield for Humans Enforcement Mechanism) - not a demo copy or one instance
+among many. The general, case-agnostic rules are in
+**[`SPEC.md`](SPEC.md)**; this repository's active case implements them
+per [`docs/specs/MAYHEM-SPEC-DFAPTI-WATER-001-v2.0.md`](docs/specs/MAYHEM-SPEC-DFAPTI-WATER-001-v2.0.md).
+Read `SPEC.md` first if you're starting a new investigation rather than
+continuing this one.
+
+The output that matters is `cases/<CASE-ID>/enforcement-notice/` - a real,
+submission-ready complaint to bodies with actual jurisdiction, built on
+the evidence register beneath it. Nothing about the document compels a
+response by itself; what it's built on is what gives it whatever weight
+it carries when someone actually sends it - see that page's own
+Recipients section for what's real and what's a placeholder.
 
 Its current active case:
 
