@@ -1137,5 +1137,22 @@
     ],
     "reason": "Recorded DEC-0015: declined three externally-suggested GitHub Actions workflows that assumed a repository structure this investigation does not use, in favour of a real CI validation workflow (.github/workflows/validate.yml) matching this repo's actual structure.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0074",
+    "date": "2026-08-06",
+    "author": "mayhem82",
+    "files_affected": [
+      "SPEC.md",
+      "README.md",
+      "docs/specs/MAYHEM-SPEC-DFAPTI-WATER-001-v2.0.md",
+      "scripts/generate-relationship-map.js",
+      "docs/RELATIONSHIP_MAP.md",
+      ".github/workflows/relationship-map.yml",
+      "data/decisions.json",
+      "data/change_log.json"
+    ],
+    "reason": "Recorded DEC-0016 and implemented two of the operator's three requested infrastructure enhancements: a general, case-agnostic MAYHEM specification (SPEC.md) derived from the case-specific spec, and Relationship Map automation (scripts/generate-relationship-map.js generating docs/RELATIONSHIP_MAP.md, kept current by .github/workflows/relationship-map.yml). The third request (GitHub Template Repository) is deliberately not actioned pending operator confirmation, per DEC-0016.",
+    "validation_completed": true
   }
 ]

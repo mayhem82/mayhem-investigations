@@ -8,6 +8,11 @@ date: "2026-07-25"
 author: "mayhem82"
 ---
 
+> This is the case-specific operational specification for
+> `DFAPTI-BB-2026-00001`. For the general, case-agnostic MAYHEM
+> specification that anyone can reuse to start a new investigation, see
+> [`/SPEC.md`](../../SPEC.md) at the repository root.
+
 MAYHEM
 
 Modular Audit and Yield for Humans Enforcement Mechanism

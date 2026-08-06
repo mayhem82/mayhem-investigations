@@ -3,7 +3,14 @@
 Forensic public interest investigation workspace.
 
 This repository is a persistent DFAPTI investigation engine, built to the
-specification in [`docs/specs/MAYHEM-SPEC-DFAPTI-WATER-001-v2.0.md`](docs/specs/MAYHEM-SPEC-DFAPTI-WATER-001-v2.0.md).
+case-specific specification in
+[`docs/specs/MAYHEM-SPEC-DFAPTI-WATER-001-v2.0.md`](docs/specs/MAYHEM-SPEC-DFAPTI-WATER-001-v2.0.md),
+which is itself an instance of the general, reusable **[MAYHEM
+specification](SPEC.md)** - the case-agnostic rules any MAYHEM-compliant
+investigation repository follows, independent of subject matter or
+implementation technology. Read [`SPEC.md`](SPEC.md) first if you're
+starting a new investigation rather than continuing this one.
+
 Its sole operational purpose is the active case:
 
 **DFAPTI-BB-2026-00001** — Willawarrin / Bellbrook Recurring Drinking Water Failure
@@ -37,6 +44,9 @@ docs/
   GOVERNANCE.md          Security, future investigations, version control,
                          failure recovery, scalability, constraints, and
                          canonical completeness (spec sections 17, 20, 28, 33-36)
+  RELATIONSHIP_MAP.md    Generated Mermaid diagrams of the cross-reference
+                         graph (spec section 14/31) - do not hand-edit;
+                         regenerate with scripts/generate-relationship-map.js
 preserved/               Locally preserved copies of source material
 scripts/
   validate.js            Structural validation (spec section 16)
@@ -44,6 +54,9 @@ scripts/
   hash-file.js            Compute a document hash for preserved evidence (section 21.6)
   log-run.js               Append an Automation Log entry (sections 6-7)
   resume.js                 Print a resumption briefing (section 19)
+  generate-relationship-map.js  Regenerate docs/RELATIONSHIP_MAP.md from the
+                         same cross-reference logic app.js uses live
+                         (section 14/31)
 index.html, app.js,     Mobile-first Visual Workspace, including the
 style.css                Relationship Map and Investigation Notes
                          (spec sections 14-15, 19) - served from the

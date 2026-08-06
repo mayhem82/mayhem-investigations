@@ -1,0 +1,38 @@
+name: Regenerate relationship map
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'scripts/generate-relationship-map.js'
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate docs/RELATIONSHIP_MAP.md
+        run: node scripts/generate-relationship-map.js
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- docs/RELATIONSHIP_MAP.md; then
+            echo "No change to docs/RELATIONSHIP_MAP.md"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/RELATIONSHIP_MAP.md
+          git commit -m "Regenerate relationship map [skip ci]"
+          git push
