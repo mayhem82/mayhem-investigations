@@ -88,7 +88,7 @@ cases/
                          Stage 4: forward assessment, framed as reasoned
                          judgement with its evidentiary basis stated, not
                          as a certainty score
-    actions-to-take/     Stage 5: the submission-ready formal complaint
+    enforcement-notice/  Stage 5: the submission-ready formal complaint
     advocacy-package/    Stage 6: recipients, how to submit, how to log
                          responses, and how to verify any finding yourself
 ```
