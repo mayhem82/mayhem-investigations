@@ -1,0 +1,49 @@
+{
+  "lattice_id": "LATTICE-BB-2026-00001",
+  "dfapti_case_id": "DFAPTI-BB-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-06",
+  "basis_note": "Each pattern below requires combining two or more investigation threads or DFAPTA paths to see - none of them is visible from any single thread in data/threads.json read alone. This is a reading of what's already in the evidence register and DFAPTA Cycle 1, not new evidence.",
+  "patterns": [
+    {
+      "id": "LP-001",
+      "title": "Five threads, one plant, no closed outcome",
+      "threads_involved": ["THR-07", "THR-08", "THR-09", "THR-10", "THR-11", "THR-12"],
+      "description": "Funding (THR-07), the plant itself (THR-08), Construction (THR-09), Commissioning (THR-10), Completion (THR-11, Not Started), and Current operational status (THR-12) are tracked as six separate threads. Individually, each shows reasonable progress for its stage. Read together, they show the same underlying fact restated six times: as of this cycle, no thread has reached a confirmed operational outcome for the Willawarrin plant, years after the earliest funding announcement (EV-0004, August 2024) and past the plant's own announced 'early 2026' target (EV-0006/EV-0068).",
+      "basis": "This is a restatement of DFAPTA AR-013/AR-028, made visible only by reading the six threads side by side rather than one at a time."
+    },
+    {
+      "id": "LP-002",
+      "title": "Two villages, one root architecture choice, uneven investment",
+      "threads_involved": ["THR-06", "THR-08", "THR-13", "THR-14"],
+      "description": "Willawarrin and Bellbrook both draw water from standalone riverbank bores rather than being connected to, or given redundancy through, the main Kempsey-Lower Macleay network (THR-06). The main network is receiving a $52.905m plant with documented source-switching flexibility (THR-13). Willawarrin has an $8m dedicated plant under construction (THR-08). Bellbrook's own upgrade remains at the planning-confirmed-but-undelivered stage (THR-14). The three infrastructure threads only make sense together: the extraction-decision thread (THR-06) is the common root of why two small communities carry disproportionate exposure to source-water variability compared to the main network.",
+      "basis": "Combines DFAPTA AR-016 and AR-018; matches the register's own CTR/Q structure (Q-0002 open, Q-0005 partially open) without adding anything beyond it."
+    },
+    {
+      "id": "LP-003",
+      "title": "Governance transition doesn't explain the delay",
+      "threads_involved": ["THR-15", "THR-07", "THR-08", "THR-09"],
+      "description": "The Kempsey Shire mayoralty changed from Leo Hauville to Kinne Ring across the ordinary September 2024 election (THR-15, Complete). The same contractor (LC Water, EV-0058) and the same project continued across that transition without a documented pause, scope change, or restart. Read against the funding/construction threads, this rules out one plausible explanation for the project's multi-year timeline - it is not evidence of a political interruption.",
+      "basis": "Matches DFAPTA AR-023; stated here because it only becomes a useful negative finding when set against the construction timeline threads directly."
+    },
+    {
+      "id": "LP-004",
+      "title": "Open questions cluster at 'was it fixed', not 'did it happen'",
+      "threads_involved": ["THR-01", "THR-02", "THR-03", "THR-04", "THR-05", "THR-10", "THR-11", "THR-12"],
+      "description": "The historical-incident threads (THR-01 through THR-05: historical failures, trucked water, iron, manganese, river conditions) are comparatively well-evidenced and mostly not the subject of an open question. The open questions that remain (Q-0001, Q-0002, Q-0003, Q-0005) instead cluster entirely around outcome verification: is the plant commissioned, is Bellbrook's system upgraded, why did cost rise, what is the Steuart McIntyre Dam's delivery status. The investigation's remaining uncertainty is concentrated at the 'was it resolved' layer, not the 'did this happen' layer.",
+      "basis": "Direct read of data/open_questions.json against data/threads.json; also stated in DFAPTA AR-029."
+    },
+    {
+      "id": "LP-005",
+      "title": "Evidence density favours confirmed-good news over confirmed-bad news",
+      "threads_involved": ["THR-03", "THR-04", "THR-12"],
+      "description": "A single, well-corroborated 2024 PFAS clearance across all eight regional supply systems (EV-0010, EV-0064) is easy to state plainly. The 2019-2020 crisis-year water-quality report - the one document that would let iron/manganese concentrations be compared against the plant's later performance - has not been located (see DFAPTA AR-005). This is not a claim that anyone is hiding the crisis-year report; it is an observation that the register's evidentiary strength is uneven in a specific, checkable direction, worth naming so a future collection pass targets it directly rather than re-running broad searches.",
+      "basis": "Combines DFAPTA AR-005, AR-006 and AR-009."
+    }
+  ],
+  "not_claimed": [
+    "No claim is made about why the plant has not yet reached a confirmed operational outcome - only that it hasn't.",
+    "No claim is made that the standalone extraction architecture (LP-002) was a mistaken decision, only that it is the shared root of both villages' exposure.",
+    "No forward projection is made here - see temporal-projection-integrity-engine/ for what the current trajectory suggests, stated as judgement with its own explicit limits."
+  ]
+}

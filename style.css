@@ -490,3 +490,175 @@ details.record[open] > summary::after {
   padding: 1rem;
   margin-top: 1rem;
 }
+
+/* Cross-module top navigation, shared by index.html and every module page */
+.module-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  font-size: 0.82rem;
+}
+
+.module-nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 0.3rem 0.55rem;
+  border-radius: 0.3rem;
+  white-space: nowrap;
+}
+
+.module-nav a:hover {
+  background: var(--badge-bg);
+  color: var(--text);
+}
+
+.module-nav a[aria-current="page"] {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  font-weight: 600;
+}
+
+/* Simple content pages (landing, DFAPTA, Lattice Atlas, TPIE, Enforcement
+   Notice, Advocacy Package) that aren't the full DFAPTI data workspace */
+.doc-page {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 4rem;
+}
+
+.doc-page h1 {
+  font-size: 1.5rem;
+  margin: 0 0 0.25rem;
+}
+
+.doc-page .doc-subtitle {
+  color: var(--text-muted);
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+}
+
+.doc-page h2 {
+  font-size: 1.15rem;
+  margin: 2rem 0 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.doc-page h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 1rem;
+}
+
+.doc-page p, .doc-page li {
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+
+.doc-page .card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  padding: 1rem 1.1rem;
+  margin: 0.75rem 0;
+}
+
+.doc-page .card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.doc-page .status-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.4rem 0 0.75rem;
+}
+
+.doc-page .status-line .badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: var(--badge-bg);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.doc-page .badge.open, .doc-page .badge.unresolved { color: var(--open); }
+.doc-page .badge.resolved, .doc-page .badge.confirmed { color: var(--resolved); }
+.doc-page .badge.pending, .doc-page .badge.partial { color: var(--pending); }
+
+.doc-page .caveat {
+  border-left: 3px solid var(--pending);
+  padding: 0.6rem 0.85rem;
+  background: var(--badge-bg);
+  border-radius: 0 0.4rem 0.4rem 0;
+  font-size: 0.88rem;
+  margin: 0.75rem 0;
+}
+
+.doc-page .landing-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .doc-page .landing-grid { grid-template-columns: 1fr 1fr; }
+}
+
+.doc-page .landing-card {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  padding: 1rem 1.1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.doc-page .landing-card:hover {
+  border-color: var(--accent);
+}
+
+.doc-page .landing-card .step {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.doc-page .landing-card h3 {
+  margin: 0.15rem 0 0.35rem;
+  font-size: 1.05rem;
+}
+
+.doc-page .landing-card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+.doc-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+  font-size: 0.88rem;
+}
+
+.doc-page th, .doc-page td {
+  text-align: left;
+  padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.doc-page th {
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}

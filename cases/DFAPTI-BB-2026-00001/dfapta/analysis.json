@@ -1,0 +1,2289 @@
+{
+  "analysis_id": "DFAPTA-BB-2026-00001",
+  "dfapti_case_id": "DFAPTI-BB-2026-00001",
+  "cycle": 1,
+  "status": "OPEN",
+  "analysis_commenced": "2026-08-06",
+  "evidence_basis_note": "Analyses the DFAPTI-BB-2026-00001 evidence register as it stands: 71 entries, EV-0001 through EV-0071. An external RUN-0064 supplement was checked and reconciled before this cycle was written (see verification_addendum) rather than applied as originally drafted; the repository's own automation log (RUN-0064) carries the full record.",
+  "verification_addendum": {
+    "performed": "2026-08-06",
+    "summary": "The six findings proposed in the uncommitted external RUN-0064 supplement were checked against the live evidence register and independent sources before this cycle was written.",
+    "outcomes": [
+      {
+        "proposed_claim": "Willawarrin commissioning \"final-stage, testing/commissioning to follow, expected mid-2026\"",
+        "finding": "Already covered, more precisely, by EV-0006/EV-0068 - both give \"early 2026\", not \"mid-2026\".",
+        "action": "Not applied as drafted; existing EV-0006/EV-0068 wording used throughout this analysis."
+      },
+      {
+        "proposed_claim": "Reservoir refurbishment \"no longer included\" in Willawarrin project scope",
+        "finding": "Conflicts directly with EV-0006, which states refurbishment follows commissioning (i.e. still in scope).",
+        "action": "Rejected. See CDR-005."
+      },
+      {
+        "proposed_claim": "LC Eire (LC Water / Eire Constructions JV) confirmed as Steuart McIntyre Dam contractor",
+        "finding": "Already covered by EV-0037, sourced to Eire Constructions' own site - stronger than the proposed citation.",
+        "action": "Not applied as a new entry; EV-0037 used throughout this analysis."
+      },
+      {
+        "proposed_claim": "14 September 2024 election-date correction, closing Q-0006",
+        "finding": "Already covered by EV-0014/EV-0015/EV-0059, all consistent; none has reached Accepted/Verified status. Q-0006 remains Open in the live register.",
+        "action": "Not applied as a closure. This analysis states Q-0006 as Open throughout (AR-023, AR-029, CDR-008)."
+      },
+      {
+        "proposed_claim": "$11 million Willawarrin project value (2024-25 program review)",
+        "finding": "Could not be independently corroborated; existing sources consistently give $8 million (EV-0004/EV-0005/EV-0006).",
+        "action": "Not applied. Analysis uses $8 million throughout."
+      },
+      {
+        "proposed_claim": "$53 million Steuart McIntyre Dam value, $6.3 million NSW contribution increase, 2027 completion",
+        "finding": "Could not be independently corroborated; existing sources consistently give $52.905 million (EV-0005/EV-0029) with no confirmed completion date beyond the implied ~18-month program.",
+        "action": "Not applied. Analysis uses the register's own confirmed figures throughout."
+      },
+      {
+        "proposed_claim": "Adopted 2023-24 Operational Plan expressly named a \"Bellbrook Water Treatment Plant\"",
+        "finding": "Could not be independently corroborated (source PDF not directly fetchable in this session).",
+        "action": "Not applied. AR-015 relies only on EV-0071 (2020-21 planning confirmation) and flags the Operational Plan claim as an open lead for Q-0002."
+      }
+    ]
+  },
+  "paths": [
+    {
+      "id": "AR-001",
+      "title": "Investigation Identity, Scope and Frozen Baseline Boundary",
+      "analysis": [
+        "The investigation concerns recurring drinking-water failure affecting Willawarrin and Bellbrook within Kempsey Shire. This baseline analyses the evidence register as it actually stands: EV-0001 through EV-0071. An external RUN-0064 supplement, prepared after a GitHub write failure, proposed six further findings (case-locally numbered EV-0072 through EV-0077). Each was independently checked against the live register and fresh sources rather than assumed correct: one (the LC Eire contractor identity) was already covered by an existing, better-sourced entry (EV-0037); one (reservoir refurbishment 'no longer included') directly conflicted with an existing entry (EV-0006) and was rejected; the remainder ($11m Willawarrin figure, $53m/2027/NSW-contribution-increase Steuart McIntyre Dam figures, the 2023-24 Operational Plan Bellbrook naming) could not be independently corroborated. None were added to the register. Full detail is in the repository's RUN-0064 automation log entry.",
+        "This baseline is the first DFAPTA cycle for this case. It therefore analyses the complete accumulated investigation rather than only the most recent evidence pass. Later DFAPTI snapshots must generate later numbered DFAPTA cycles without replacing this baseline."
+      ],
+      "determinations": [
+        [
+          "AR-001.1",
+          "The evidentiary object is a recurring-system investigation, not a single incident review."
+        ],
+        [
+          "AR-001.2",
+          "The analytical boundary is the evidence register as it stands - EV-0001 through EV-0071. No externally-proposed, unverified fact is introduced."
+        ],
+        [
+          "AR-001.3",
+          "The RUN-0064 reconciliation is itself preserved (automation log), consistent with append-only discipline, even though it added no new evidence."
+        ]
+      ],
+      "anchors": [
+        "EV-0001",
+        "EV-0002",
+        "EV-0003"
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "The public and repository records are reconstructable, but the connector failure interrupts normal persistence of the accepted supplement."
+        ],
+        [
+          "Complexity as Barrier",
+          "CONFIRMED IN PRACTICAL EFFECT",
+          "The case state is distributed across registers, preserved sources, pull requests and a supplemental patch."
+        ]
+      ],
+      "boundary": "No determination is made about any RUN-0064 claim beyond what was independently checked; unverified claims are named as unverified, not assumed true or false beyond what the check found."
+    },
+    {
+      "id": "AR-002",
+      "title": "Historical Recurrence and Temporal Depth",
+      "analysis": [
+        "The evidence does not support treating the 2019-2020 crisis as the sole failure event. The register records a Bellbrook heavy-metal/arsenic history beginning in 2005, a reported 2008 trucked-water episode, the prolonged 2019-2020 drought/fire/water-quality crisis, and multiple further cartage and treatment incidents during 2020-2021. A second major bushfire directly affected Willawarrin in 2023, although a corresponding village water-supply failure has not been confirmed.",
+        "The recurrence is therefore established at the level of repeated supply vulnerability and emergency substitution. Continuous failure between episodes is not established."
+      ],
+      "determinations": [
+        [
+          "AR-002.1",
+          "Recurring operational disruption is confirmed across separated periods."
+        ],
+        [
+          "AR-002.2",
+          "The 2008 Bellbrook cartage event remains materially relevant but independently under-corroborated."
+        ],
+        [
+          "AR-002.3",
+          "The gap years cannot be converted into evidence of continuous cartage or evidence that no cartage occurred."
+        ],
+        [
+          "AR-002.4",
+          "The case baseline must preserve both recurrence and discontinuity."
+        ]
+      ],
+      "anchors": [
+        "EV-0001",
+        "EV-0002",
+        "EV-0003",
+        "EV-0009",
+        "EV-0020",
+        "EV-0024",
+        "EV-0032",
+        "EV-0033",
+        "EV-0034",
+        "EV-0043",
+        "EV-0044",
+        "EV-0046",
+        "EV-0051",
+        "EV-0055",
+        "EV-0061"
+      ],
+      "mechanisms": [
+        [
+          "Isolated Incident Framing",
+          "CONFIRMED AS A RISK OF MISDESCRIPTION",
+          "The evidence contains multiple distinct episodes that would be lost if the case were compressed to 2019-2020."
+        ],
+        [
+          "Normalisation Through Duration",
+          "PROVISIONAL",
+          "Repeated contingency responses extend across years, but the corpus does not show institutional acceptance of harm as normal."
+        ]
+      ],
+      "boundary": "No finding is made that every event had the same cause, severity or treatment outcome."
+    },
+    {
+      "id": "AR-003",
+      "title": "Drought, Bushfire, Rainfall and Flood Trigger Architecture",
+      "analysis": [
+        "The frozen corpus repeatedly links supply stress to environmental conditions: low river flow and drought, bushfire impact, post-fire erosion and rainfall, wet-weather turbidity, and flood events. These hazards affect source-water suitability and treatment operation through different mechanisms. The 2019-2020 causal chain is directly described; later events demonstrate recurrence of the hazard conditions but do not automatically establish identical water consequences.",
+        "The main Kempsey-Lower Macleay network also changed source during the 2023 drought and entered restrictions on the date the Willi Willi Fire began, showing wider catchment stress without proving a Willawarrin/Bellbrook cartage episode."
+      ],
+      "determinations": [
+        [
+          "AR-003.1",
+          "Environmental hazard interaction is a confirmed recurring input to the supply system."
+        ],
+        [
+          "AR-003.2",
+          "Post-fire and wet-weather effects must remain analytically distinct from drought-only scarcity."
+        ],
+        [
+          "AR-003.3",
+          "The 2023 Willi Willi Fire water-impact proposition remains an open lead, not a finding."
+        ],
+        [
+          "AR-003.4",
+          "Fixed village treatment systems are repeatedly exposed to changing source-water conditions."
+        ]
+      ],
+      "anchors": [
+        "EV-0001",
+        "EV-0002",
+        "EV-0009",
+        "EV-0020",
+        "EV-0026",
+        "EV-0028",
+        "EV-0033",
+        "EV-0034",
+        "EV-0040",
+        "EV-0041",
+        "EV-0051",
+        "EV-0052",
+        "EV-0053",
+        "EV-0054",
+        "EV-0069",
+        "EV-0070"
+      ],
+      "mechanisms": [
+        [
+          "Prevention Foreclosure",
+          "PROVISIONAL",
+          "The corpus shows repeated response to hazards but does not yet establish that prevention options were rejected."
+        ],
+        [
+          "Risk Propagation Through Silence",
+          "NOT CONFIRMED",
+          "There is substantial risk communication; the unresolved issue is incomplete outcome evidence, not total silence."
+        ]
+      ],
+      "boundary": "Temporal coincidence is not treated as causation unless the evidence states the connection."
+    },
+    {
+      "id": "AR-004",
+      "title": "Water Cartage as Emergency Supply Substitution",
+      "analysis": [
+        "Water cartage appears as a repeated operational substitute when local raw water or treatment operation could not sustain supply. The evidence records long-duration cartage in 2019-2020, intermittent and continuous periods during 2020-2021, a reported Bellbrook episode in 2008, and documented volumes and public funding during the main crisis. Council operational logs show cartage from the Kempsey-Lower Macleay network and identify Greenhill Reservoir for one incident.",
+        "The evidence does not identify the physical contractor for the historical cartage episodes and does not show that cartage was a routine continuous operating mode outside the recorded incidents."
+      ],
+      "determinations": [
+        [
+          "AR-004.1",
+          "Cartage is confirmed as a recurrent contingency mechanism, not merely an anticipated option."
+        ],
+        [
+          "AR-004.2",
+          "The operational burden was transferred from local treatment reliability to transport and external network capacity during incidents."
+        ],
+        [
+          "AR-004.3",
+          "The contractor and complete delivery-log chain remain publicly unreconstructed."
+        ],
+        [
+          "AR-004.4",
+          "The 240-day figure and the longer calendar span are preserved as an unresolved measurement difference."
+        ]
+      ],
+      "anchors": [
+        "EV-0001",
+        "EV-0002",
+        "EV-0003",
+        "EV-0024",
+        "EV-0025",
+        "EV-0032",
+        "EV-0033",
+        "EV-0034",
+        "EV-0044",
+        "EV-0061",
+        "EV-0062"
+      ],
+      "mechanisms": [
+        [
+          "Cosmetic Mitigation",
+          "NOT CONFIRMED",
+          "Cartage maintained supply and is not dismissed as cosmetic; the issue is whether contingency substituted for durable remediation."
+        ],
+        [
+          "Accountability Cost Externalisation",
+          "PROVISIONAL",
+          "Transport, funding and community disruption costs are visible, but complete cost allocation is not."
+        ]
+      ],
+      "boundary": "Cartage is not characterised as failure where it successfully protected supply; the analysis concerns its repeated necessity."
+    },
+    {
+      "id": "AR-005",
+      "title": "Iron Contamination Evidence Path",
+      "analysis": [
+        "The 2019-2020 public record attributes the crisis to iron and manganese exceeding drinking-water guidelines under severe catchment stress. The later 2020-2021 annual-report extraction records no iron guideline exceedance in that reporting year while total Willawarrin water-quality exceptions increased. The crisis-period 2019-2020 report remains unavailable in the frozen corpus.",
+        "The evidence therefore supports iron as part of the historical crisis description but does not provide the concentration series needed to compare crisis severity, treatment response and later conditions."
+      ],
+      "determinations": [
+        [
+          "AR-005.1",
+          "Iron involvement in the 2019-2020 crisis is supported descriptively."
+        ],
+        [
+          "AR-005.2",
+          "A complete concentration-based iron chronology is not available."
+        ],
+        [
+          "AR-005.3",
+          "The absence of 2020-2021 exceedances cannot be retroactively applied to 2019-2020."
+        ],
+        [
+          "AR-005.4",
+          "The missing crisis-year report remains a load-bearing evidence absence."
+        ]
+      ],
+      "anchors": [
+        "EV-0001",
+        "EV-0002",
+        "EV-0031",
+        "EV-0035",
+        "EV-0040"
+      ],
+      "mechanisms": [
+        [
+          "Narrative Compression",
+          "CONFIRMED AS AN ANALYTICAL RISK",
+          "The combined phrase “iron and manganese” must not erase contaminant-specific evidence differences."
+        ],
+        [
+          "Compliance Snapshot as Exclusion",
+          "PROVISIONAL",
+          "One later reporting year cannot establish the full historical outcome."
+        ]
+      ],
+      "boundary": "No present iron exceedance or health-risk conclusion is made."
+    },
+    {
+      "id": "AR-006",
+      "title": "Manganese Contamination and Chlorine Interaction Path",
+      "analysis": [
+        "The corpus provides stronger measured evidence for manganese than for iron. Willawarrin recorded four operational-monitoring aesthetic exceedances between November and December 2020 at 0.159-0.2 mg/L against the 0.1 mg/L aesthetic guideline, while the separate NSW Health program recorded a lower average and no exceedances. Bellbrook treatment was offline during the main crisis because of persistent high manganese, and later chlorine-control issues were attributed to manganese consuming residual chlorine.",
+        "These data demonstrate that sampling program, location and operational purpose materially affect the apparent result. The evidence does not record a manganese health-guideline exceedance in the later reporting year."
+      ],
+      "determinations": [
+        [
+          "AR-006.1",
+          "Manganese-related operational vulnerability is confirmed."
+        ],
+        [
+          "AR-006.2",
+          "Aesthetic exceedance and health-guideline exceedance are not interchangeable."
+        ],
+        [
+          "AR-006.3",
+          "Parallel monitoring programs produced materially different summaries without necessarily contradicting each other."
+        ],
+        [
+          "AR-006.4",
+          "Manganese affected both source suitability and downstream chlorine control."
+        ]
+      ],
+      "anchors": [
+        "EV-0001",
+        "EV-0002",
+        "EV-0031",
+        "EV-0032",
+        "EV-0035",
+        "EV-0062"
+      ],
+      "mechanisms": [
+        [
+          "Definitional Control",
+          "PROVISIONAL",
+          "Different monitoring frames can produce different public understandings unless the operational distinction is explicit."
+        ],
+        [
+          "Narrative Compression",
+          "CONFIRMED",
+          "Combining all exceedances into a single safety label would misstate the evidence."
+        ]
+      ],
+      "boundary": "No conclusion is made that the later manganese readings exceeded the health guideline."
+    },
+    {
+      "id": "AR-007",
+      "title": "Bellbrook Arsenic and Heavy-Metal Treatment Path",
+      "analysis": [
+        "Bellbrook has a distinct contamination history associated with arsenic and heavy metals linked in the public record to former Hillgrove-area mining. Evidence supports detection from 2005-2007 and construction of an arsenic-removal treatment plant around 2009-2010. The 2008 trucked-water claim is preserved from a complete but derivative historical page and remains without independent contemporaneous corroboration.",
+        "This path establishes that Bellbrook’s infrastructure problem is not merely a duplicate of Willawarrin’s iron/manganese history. Bellbrook operates a separate treatment architecture with multi-media filtration and arsenic removal."
+      ],
+      "determinations": [
+        [
+          "AR-007.1",
+          "Bellbrook has a confirmed distinct heavy-metal/arsenic treatment requirement."
+        ],
+        [
+          "AR-007.2",
+          "The dedicated treatment plant is historical infrastructure, not evidence of a post-2020 upgrade."
+        ],
+        [
+          "AR-007.3",
+          "The 2008 cartage event remains provisional at the event level."
+        ],
+        [
+          "AR-007.4",
+          "Bellbrook’s later augmentation planning must be analysed against this existing treatment baseline."
+        ]
+      ],
+      "anchors": [
+        "EV-0022",
+        "EV-0043",
+        "EV-0044",
+        "EV-0045",
+        "EV-0046",
+        "EV-0055",
+        "EV-0071"
+      ],
+      "mechanisms": [
+        [
+          "Isolated Incident Framing",
+          "CONFIRMED AS A RISK",
+          "Separating Bellbrook from the wider recurring-water investigation would conceal its distinct earlier contamination history."
+        ],
+        [
+          "Remedy Obsolescence",
+          "PROVISIONAL",
+          "The later augmentation plan may indicate that the 2009-era remedy no longer met future needs, but the corpus does not state this directly."
+        ]
+      ],
+      "boundary": "No attribution of mining liability or present arsenic exceedance is made."
+    },
+    {
+      "id": "AR-008",
+      "title": "Turbidity, Chlorine and Wet-Weather Incident Control Path",
+      "analysis": [
+        "The 2020-2021 incident records show plant shutdown, bore isolation, reservoir refilling, chlorine adjustment, tank cleaning, NSW Health notification and restoration of operational targets. The records demonstrate detailed operational response capacity. They also show that wet-weather turbidity and manganese carry-over could repeatedly exceed critical or alert limits and require cartage or intervention.",
+        "The evidence distinguishes operational control from structural prevention: operators responded to specific incidents, while the fixed systems remained exposed to recurring raw-water variability."
+      ],
+      "determinations": [
+        [
+          "AR-008.1",
+          "Documented incident-response capability is confirmed."
+        ],
+        [
+          "AR-008.2",
+          "Detailed response logs do not themselves establish prevention of recurrence."
+        ],
+        [
+          "AR-008.3",
+          "The evidence contains both corrective action and repeated re-entry into incident conditions."
+        ],
+        [
+          "AR-008.4",
+          "Public analysis must preserve the positive operational response evidence alongside the vulnerability finding."
+        ]
+      ],
+      "anchors": [
+        "EV-0032",
+        "EV-0033",
+        "EV-0034",
+        "EV-0062",
+        "EV-0063"
+      ],
+      "mechanisms": [
+        [
+          "Compliant Process Harm",
+          "PROVISIONAL",
+          "Processes functioned during incidents while the wider recurrent condition persisted."
+        ],
+        [
+          "Documented Compliance as Shield",
+          "NOT ESTABLISHED AS INSTITUTIONAL USE",
+          "The register documents response but does not show Council using it to deny structural vulnerability."
+        ]
+      ],
+      "boundary": "No criticism is made of individual operators or incident actions."
+    },
+    {
+      "id": "AR-009",
+      "title": "PFAS Assurance and Contaminant-Specific Safety Boundary",
+      "analysis": [
+        "Late-2024 testing reported undetectable key PFAS substances across all eight supply systems, including Willawarrin, Bellbrook and the Thunggutti Aboriginal Community. This is positive, current evidence of monitoring and a successful result for the contaminant class tested.",
+        "The PFAS result cannot resolve the investigation’s iron, manganese, arsenic, turbidity, treatment-capacity or commissioning questions. “Safe for PFAS” and “structurally resilient drinking-water system” are different propositions."
+      ],
+      "determinations": [
+        [
+          "AR-009.1",
+          "PFAS compliance is confirmed within the reported test boundary."
+        ],
+        [
+          "AR-009.2",
+          "The result confirms active supply-system monitoring as of the test period."
+        ],
+        [
+          "AR-009.3",
+          "PFAS compliance cannot be generalised to all contaminants or all operating conditions."
+        ]
+      ],
+      "anchors": [
+        "EV-0010",
+        "EV-0064"
+      ],
+      "mechanisms": [
+        [
+          "Compliance Snapshot as Exclusion",
+          "CONFIRMED AS AN OVERREACH RISK",
+          "A narrow successful snapshot could exclude unresolved contaminants if reported as universal assurance."
+        ],
+        [
+          "Narrative Compression",
+          "PROVISIONAL",
+          "Broad tap-water confidence language can compress contaminant-specific scope."
+        ]
+      ],
+      "boundary": "The analysis does not dispute the PFAS result."
+    },
+    {
+      "id": "AR-010",
+      "title": "Willawarrin Legacy Asset and Permanent Remediation Path",
+      "analysis": [
+        "The old Willawarrin treatment infrastructure is described as 1960s-era, with a specific 1967 date reported in media. Planning for replacement was publicly visible by May 2022 and had earlier regulatory concept-design endorsement in June 2022. Site preparation and early infrastructure works preceded formal construction in March 2025. The replacement design includes ultrafiltration, UV disinfection, storage, pumps and chemical dosing.",
+        "The new plant is a permanent-remediation project responding to long-standing source and treatment vulnerability. The frozen baseline does not contain completed commissioning or operational acceptance."
+      ],
+      "determinations": [
+        [
+          "AR-010.1",
+          "Legacy asset age and replacement need are supported."
+        ],
+        [
+          "AR-010.2",
+          "The project progressed through planning, enabling works, design and construction over multiple years."
+        ],
+        [
+          "AR-010.3",
+          "Construction progress is not equivalent to operational remediation."
+        ],
+        [
+          "AR-010.4",
+          "The project’s existence confirms institutional recognition of a durable infrastructure problem."
+        ]
+      ],
+      "anchors": [
+        "EV-0004",
+        "EV-0006",
+        "EV-0007",
+        "EV-0013",
+        "EV-0050",
+        "EV-0058",
+        "EV-0067",
+        "EV-0068"
+      ],
+      "mechanisms": [
+        [
+          "Declaration-Enforcement Lag Loop",
+          "PROVISIONAL",
+          "Recognition and project declaration precede verified operational delivery by years."
+        ],
+        [
+          "Time as Structural Harm Mechanism",
+          "CONFIRMED AT PROJECT DURATION LEVEL",
+          "The replacement trajectory spans at least 2022-2026 while the legacy system remained relevant."
+        ]
+      ],
+      "boundary": "The project duration is not characterised as unreasonable without the complete project schedule and delay record."
+    },
+    {
+      "id": "AR-011",
+      "title": "Willawarrin Cost Escalation and Scope Variation Path",
+      "analysis": [
+        "The public cost trajectory progresses from approximately $4 million in August 2024, to $8 million in March 2025, to a possible further increase beyond $8 million, reported in external material as $11 million but not independently corroborated in this pass. A federal project summary attributes at least part of the increase to competitive-tender cost escalation. The program review included reservoir refurbishment in the look-ahead, while the later current page states that refurbishment is no longer included.",
+        "The evidence establishes cost movement and scope movement. It does not provide the complete approved variation history needed to allocate each cost increase between tender price, design development, scope addition, scope removal, contingency and funding-deed variation."
+      ],
+      "determinations": [
+        [
+          "AR-011.1",
+          "The $4m -> $8m cost progression is established (EV-0004/EV-0006). A further increase to $11m, proposed in external material, could not be independently corroborated and is not relied on."
+        ],
+        [
+          "AR-011.2",
+          "Competitive-tender cost increase is supported as one causal factor."
+        ],
+        [
+          "AR-011.3",
+          "Reservoir refurbishment remains within the public scope narrative, sequenced to follow commissioning (EV-0006); an external claim that it had been dropped did not check out."
+        ],
+        [
+          "AR-011.4",
+          "The complete cost-and-scope reconciliation remains absent."
+        ]
+      ],
+      "anchors": [
+        "EV-0004",
+        "EV-0005",
+        "EV-0006",
+        "EV-0013",
+        "EV-0047",
+        "EV-0066"
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "CONFIRMED FOR PUBLIC RECONSTRUCTION",
+          "The public record does not expose a line-by-line variation chain."
+        ],
+        [
+          "Narrative Compression",
+          "CONFIRMED",
+          "Single headline project values conceal distinct tender and scope movements."
+        ]
+      ],
+      "boundary": "No finding of waste, misconduct or improper procurement is made."
+    },
+    {
+      "id": "AR-012",
+      "title": "Willawarrin Contractor Identity and Procurement Traceability Path",
+      "analysis": [
+        "LC Water is consistently identified as the Willawarrin design-and-construction contractor. The contractor’s own preserved company material confirms its identity and specialist water-treatment capability, but does not independently document the Willawarrin contract. Council program material confirms construction by LC Water.",
+        "The frozen corpus does not include the complete contract, tender evaluation, acceptance criteria, variation schedule, performance security or handover obligations."
+      ],
+      "determinations": [
+        [
+          "AR-012.1",
+          "Contractor identity is sufficiently supported for baseline analysis."
+        ],
+        [
+          "AR-012.2",
+          "Corporate capability evidence and project-engagement evidence remain distinct."
+        ],
+        [
+          "AR-012.3",
+          "Procurement existence is visible; binding performance architecture is not."
+        ]
+      ],
+      "anchors": [
+        "EV-0004",
+        "EV-0058",
+        "EV-0060",
+        "EV-0006"
+      ],
+      "mechanisms": [
+        [
+          "Delegation as Responsibility Laundering",
+          "NOT CONFIRMED",
+          "Contracting is established, but no evidence shows Council displacing retained responsibility."
+        ],
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "Core contract and acceptance terms are not in the frozen public corpus."
+        ]
+      ],
+      "boundary": "No adverse finding is made about LC Water."
+    },
+    {
+      "id": "AR-013",
+      "title": "Willawarrin Commissioning, Completion and Current Operational Status Path",
+      "analysis": [
+        "Early project material used an “early 2026” completion target. Later Council material separated construction completion from testing and commissioning. The current works page described final-stage construction, electrical and mechanical work, testing to follow, and commissioning expected to finish in early 2026. The frozen baseline contains no commissioning certificate, practical-completion notice, handover record, post-commissioning water-quality result or explicit statement that the new plant is operational.",
+        "The correct baseline state is therefore: permanent remediation materially advanced; operational delivery not evidenced within the snapshot."
+      ],
+      "determinations": [
+        [
+          "AR-013.1",
+          "Construction and commissioning are distinct milestones."
+        ],
+        [
+          "AR-013.2",
+          "The original early-2026 target cannot be treated as proof of completion."
+        ],
+        [
+          "AR-013.3",
+          "Early-2026 commissioning remained an expectation, not a completed event evidenced in the register."
+        ],
+        [
+          "AR-013.4",
+          "Q-0001 remains open."
+        ]
+      ],
+      "anchors": [
+        "EV-0006",
+        "EV-0007",
+        "EV-0042",
+        "EV-0068"
+      ],
+      "mechanisms": [
+        [
+          "Documented Compliance as Shield",
+          "CONFIRMED AS AN ANALYTICAL PROHIBITION",
+          "Project milestones must not substitute for verified operational outcome."
+        ],
+        [
+          "Declaration-Enforcement Lag Loop",
+          "PROVISIONAL",
+          "The declared project endpoint has moved through successive public milestones without a completed operational record in the snapshot."
+        ]
+      ],
+      "boundary": "The analysis does not conclude the plant failed commissioning or is currently non-operational; it concludes only that operation is not evidenced."
+    },
+    {
+      "id": "AR-014",
+      "title": "Bellbrook Existing Treatment Architecture and Service Status Path",
+      "analysis": [
+        "Bellbrook operates a separate system using riverbank-bore extraction, multi-media filtration including arsenic removal, pH correction and chlorine dosing. The 2020-2021 supply summary records a nominal 140 kL/day treatment capacity and approximately 100 people served. PFAS testing and reservoir maintenance confirm continued monitoring and operation, while historical incidents demonstrate manganese and wet-weather vulnerability.",
+        "The existing treatment plant and continued service do not answer whether the system has received the later augmentation that was already in planning."
+      ],
+      "determinations": [
+        [
+          "AR-014.1",
+          "Bellbrook has a dedicated and technically distinct treatment system."
+        ],
+        [
+          "AR-014.2",
+          "Operation and monitoring after 2020 are supported, but current resilience is not comprehensively measured."
+        ],
+        [
+          "AR-014.3",
+          "The historical arsenic-removal plant is not the same analytical object as the later augmentation project."
+        ],
+        [
+          "AR-014.4",
+          "Q-0002 remains open at current-delivery level."
+        ]
+      ],
+      "anchors": [
+        "EV-0010",
+        "EV-0022",
+        "EV-0027",
+        "EV-0043",
+        "EV-0046",
+        "EV-0055",
+        "EV-0063",
+        "EV-0064",
+        "EV-0071"
+      ],
+      "mechanisms": [
+        [
+          "Narrative Compression",
+          "CONFIRMED",
+          "“Bellbrook water plant” can refer to existing arsenic-removal infrastructure or a later augmentation project."
+        ],
+        [
+          "Compliance Snapshot as Exclusion",
+          "PROVISIONAL",
+          "Monitoring snapshots do not establish upgrade delivery."
+        ]
+      ],
+      "boundary": "No present Bellbrook contaminant exceedance is asserted."
+    },
+    {
+      "id": "AR-015",
+      "title": "Bellbrook Augmentation and New Water Treatment Plant Delivery Path",
+      "analysis": [
+        "The 2020-2021 annual report states that planning of Bellbrook WTP augmentation was ongoing (EV-0071). This is an independent Council record establishing the project was not an operator-memory artefact or search-summary fabrication.",
+        "A further, more specific claim - that the adopted 2023-24 Operational Plan expressly named a 'Bellbrook Water Treatment Plant' - originates from external material and could not be independently corroborated in this pass (the underlying Council PDF could not be directly fetched). It is not relied on here and remains an open lead under Q-0002.",
+        "The frozen baseline does not identify current scope, cost, funding source, approval, tender, contractor, construction start, completion target, or operational status for any Bellbrook augmentation. Project planning is confirmed by EV-0071; delivery state is not established."
+      ],
+      "determinations": [
+        [
+          "AR-015.1",
+          "Bellbrook augmentation planning was real by 2020-2021 (EV-0071)."
+        ],
+        [
+          "AR-015.2",
+          "A more specific claim that a 'Bellbrook Water Treatment Plant' was expressly named in the adopted 2023-24 Operational Plan is unconfirmed and not relied on."
+        ],
+        [
+          "AR-015.3",
+          "Earlier negative searches are superseded as absence claims by EV-0071, but retained as evidence of public discoverability difficulty."
+        ],
+        [
+          "AR-015.4",
+          "The project remains structurally untraceable beyond planning-stage existence within this snapshot."
+        ]
+      ],
+      "anchors": [
+        "EV-0071"
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "CONFIRMED FOR PROJECT STATUS",
+          "The complete project chain cannot be reconstructed from the frozen corpus."
+        ],
+        [
+          "Time as Structural Harm Mechanism",
+          "PROVISIONAL",
+          "Planning is documented across multiple years without evidenced delivery, but reasons and schedule are unknown."
+        ]
+      ],
+      "boundary": "No conclusion is made that the project was abandoned, unfunded or delayed unlawfully."
+    },
+    {
+      "id": "AR-016",
+      "title": "Regional Water Security Architecture and Network Separation Path",
+      "analysis": [
+        "The larger Steuart McIntyre Dam/Sherwood Borefield treatment project serves the main Kempsey-Lower Macleay population and is financially and technically separate from the village systems. The main network can switch between the borefield and dam and is receiving a high-capacity plant. Willawarrin and Bellbrook remain described as separate riverbank-bore systems with local treatment.",
+        "The regional program improves main-network resilience but the frozen corpus does not establish direct integration of Willawarrin or Bellbrook into that architecture."
+      ],
+      "determinations": [
+        [
+          "AR-016.1",
+          "The main regional plant and village plants are separate projects and supply architectures."
+        ],
+        [
+          "AR-016.2",
+          "Regional investment does not by itself resolve village vulnerability."
+        ],
+        [
+          "AR-016.3",
+          "Source-switch flexibility is more visible for the main network than for the village systems."
+        ],
+        [
+          "AR-016.4",
+          "The distribution of resilience capability is materially uneven across the documented systems."
+        ]
+      ],
+      "anchors": [
+        "EV-0005",
+        "EV-0008",
+        "EV-0013",
+        "EV-0017",
+        "EV-0028",
+        "EV-0029",
+        "EV-0037",
+        "EV-0038",
+        "EV-0069",
+        "EV-0070"
+      ],
+      "mechanisms": [
+        [
+          "Equity Disparity Through Neutral Process",
+          "PROVISIONAL",
+          "Different system scale and architecture produce different resilience options; inequitable outcome is plausible but not quantified."
+        ],
+        [
+          "Narrative Compression",
+          "CONFIRMED",
+          "A “regional water package” can obscure which communities each component serves."
+        ]
+      ],
+      "boundary": "No claim is made that the investment allocation was improper."
+    },
+    {
+      "id": "AR-017",
+      "title": "Steuart McIntyre Dam Contractor, Funding and Delivery Timeline Path",
+      "analysis": [
+        "The frozen corpus confirms LC Eire, a joint venture between LC Water and Eire Constructions, as design-and-construction contractor. The project value is $52.905 million (EV-0005/EV-0029); a higher $53 million figure and a described NSW contribution increase, both proposed in external material, could not be independently corroborated, and construction was underway by 2025. The register's own confirmed trajectory (mid-2025 start, an 18-month program per EV-0005, \"under construction\" as of 31 August 2025 per EV-0029) implies completion around late 2026. A 2027 completion date, proposed in external material, could not be independently corroborated and is not relied on.",
+        "Contractor identity is resolved for analysis (EV-0037). Final delivery timing remains open: the register's own confirmed figures imply completion around late 2026, and a further 2027 date proposed in external material could not be independently corroborated in this pass."
+      ],
+      "determinations": [
+        [
+          "AR-017.1",
+          "LC Eire contractor identity is confirmed within the frozen snapshot."
+        ],
+        [
+          "AR-017.2",
+          "The project's $52.905m funding and value are confirmed (EV-0005/EV-0029); a further increase proposed in external material could not be independently corroborated."
+        ],
+        [
+          "AR-017.3",
+          "The register's own trajectory implies completion around late 2026; a later move to 2027, proposed in external material, could not be independently corroborated."
+        ],
+        [
+          "AR-017.4",
+          "Q-0005 remains open only for final status and complete primary preservation, not contractor identity."
+        ]
+      ],
+      "anchors": [
+        "EV-0005",
+        "EV-0017",
+        "EV-0029",
+        "EV-0037",
+        "EV-0038"
+      ],
+      "mechanisms": [
+        [
+          "Declaration-Enforcement Lag Loop",
+          "PROVISIONAL",
+          "Delivery timing moved while the project remained active."
+        ],
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "The complete variation and schedule-control record is absent."
+        ]
+      ],
+      "boundary": "No finding is made that the revised timeline constitutes breach or contractor failure."
+    },
+    {
+      "id": "AR-018",
+      "title": "Extraction Decision and Network-Asymmetry Path",
+      "analysis": [
+        "Willawarrin and Bellbrook draw surface water through riverbank bores and treat it locally. The main network has access to the Sherwood Borefield and Steuart McIntyre Dam, and documented source switching. The investigation has not located the options assessment explaining why the villages remained standalone rather than being connected to the main network or given an equivalent redundant source architecture.",
+        "The absence is analytically material because source architecture controls exposure to drought, post-fire sediment, turbidity and local treatment limits."
+      ],
+      "determinations": [
+        [
+          "AR-018.1",
+          "Village and main-network extraction architectures are materially different."
+        ],
+        [
+          "AR-018.2",
+          "The rationale for that architecture is absent from the frozen public corpus."
+        ],
+        [
+          "AR-018.3",
+          "Leakage-detection participation does not resolve source-selection rationale."
+        ],
+        [
+          "AR-018.4",
+          "The missing options assessment is a decision-point evidence gap, not proof that no assessment occurred."
+        ]
+      ],
+      "anchors": [
+        "EV-0001",
+        "EV-0005",
+        "EV-0006",
+        "EV-0009",
+        "EV-0028",
+        "EV-0048",
+        "EV-0070",
+        "EV-0071"
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "CONFIRMED FOR PUBLIC DECISION TRACE",
+          "The design rationale cannot be independently reconstructed."
+        ],
+        [
+          "Prevention Foreclosure",
+          "NOT CONFIRMED",
+          "The corpus does not show that alternatives were considered and rejected."
+        ]
+      ],
+      "boundary": "No engineering conclusion is made that pipeline connection was feasible or preferable."
+    },
+    {
+      "id": "AR-019",
+      "title": "Monitoring, Incident Logging and Operational Knowledge Path",
+      "analysis": [
+        "The preserved annual-report extraction shows structured monitoring, incident classification, timestamped operational actions, NSW Health notification, customer enquiries, reservoir inspections and system-specific treatment summaries. This is evidence of institutional knowledge and operational record generation, not absence of monitoring.",
+        "The public corpus is nevertheless incomplete longitudinally and does not consistently expose the detailed data across years or systems."
+      ],
+      "determinations": [
+        [
+          "AR-019.1",
+          "Council possessed detailed operational knowledge of incidents and responses."
+        ],
+        [
+          "AR-019.2",
+          "Positive maintenance and monitoring evidence must remain in the baseline."
+        ],
+        [
+          "AR-019.3",
+          "Public access to equivalent detail is uneven across reporting years."
+        ],
+        [
+          "AR-019.4",
+          "Institutional knowledge and public reconstructability are separate analytical questions."
+        ]
+      ],
+      "anchors": [
+        "EV-0031",
+        "EV-0032",
+        "EV-0033",
+        "EV-0034",
+        "EV-0035",
+        "EV-0036",
+        "EV-0049",
+        "EV-0062",
+        "EV-0063",
+        "EV-0064",
+        "EV-0071"
+      ],
+      "mechanisms": [
+        [
+          "Self-Referential Reporting",
+          "PROVISIONAL",
+          "Most operational evidence is generated inside the system under investigation, though some external corroboration exists."
+        ],
+        [
+          "Documented Compliance as Shield",
+          "NOT CONFIRMED AS BEHAVIOUR",
+          "The records show compliance activity; use as a shield is not evidenced."
+        ]
+      ],
+      "boundary": "The analysis does not discount Council records because of their institutional source."
+    },
+    {
+      "id": "AR-020",
+      "title": "Longitudinal Reporting, Publication Continuity and Archive Stability Path",
+      "analysis": [
+        "The drinking-water report series changed title, filename and URL convention across 2018-2019, 2019-2021 and 2023-2024. No 2021-2022 or 2022-2023 edition was located under any known convention. Later reporting is leaner and less narrative. The underlying NSW Government Drinking Water Database is identified, but direct public querying is not established.",
+        "The practical effect is that a citizen must reconstruct the series across unstable naming and apparent gaps. This is an auditability condition regardless of whether the cause is ordinary website restructuring."
+      ],
+      "determinations": [
+        [
+          "AR-020.1",
+          "Report naming and location instability is confirmed."
+        ],
+        [
+          "AR-020.2",
+          "An apparent two-year public publication gap is preserved as unresolved."
+        ],
+        [
+          "AR-020.3",
+          "The reporting-format change reduces continuity of narrative incident context."
+        ],
+        [
+          "AR-020.4",
+          "Cause or intent behind the publication pattern is not established."
+        ]
+      ],
+      "anchors": [
+        "EV-0031",
+        "EV-0032",
+        "EV-0033",
+        "EV-0034",
+        "EV-0035",
+        "EV-0036",
+        "EV-0061",
+        "EV-0062",
+        "EV-0063",
+        "EV-0065"
+      ],
+      "mechanisms": [
+        [
+          "Complexity as Barrier",
+          "CONFIRMED IN PRACTICAL EFFECT",
+          "Longitudinal reconstruction requires knowledge of multiple naming conventions."
+        ],
+        [
+          "Information Distortion and Laundering",
+          "NOT CONFIRMED",
+          "No intentional framing or selective suppression is established."
+        ],
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "The effect is opaque, but design intent is not evidenced."
+        ]
+      ],
+      "boundary": "The analysis does not state that reports were deliberately hidden."
+    },
+    {
+      "id": "AR-021",
+      "title": "Evidence Quality, Preservation and Verification Architecture Path",
+      "analysis": [
+        "The register contains verified preserved primary records, complete secondary records, partial AI-extracted documents, search-snippet captures and explicit “requires verification” entries. Earlier hash errors were corrected without altering preserved files. Search-summary conflations were repeatedly detected and excluded. An external RUN-0064 supplement was checked this cycle and found to add nothing verifiable beyond what the register already holds (see verification_addendum) - a useful demonstration of the source-tier controls this path describes.",
+        "The corpus is analytically usable because uncertainty is recorded at item level. It is not homogeneous, and high-impact determinations must preserve their source tier."
+      ],
+      "determinations": [
+        [
+          "AR-021.1",
+          "The corpus contains a transparent mixed-confidence evidence architecture."
+        ],
+        [
+          "AR-021.2",
+          "Partial preservation is not equivalent to complete-document verification."
+        ],
+        [
+          "AR-021.3",
+          "Detected AI-summary conflations demonstrate the necessity of source-tier controls."
+        ],
+        [
+          "AR-021.4",
+          "The baseline can analyse lower-tier evidence but cannot silently upgrade it."
+        ]
+      ],
+      "anchors": [
+        "EV-0001",
+        "EV-0002",
+        "EV-0003",
+        "EV-0031",
+        "EV-0055",
+        "EV-0060",
+        "EV-0065",
+        "EV-0006",
+        "EV-0014",
+        "EV-0037",
+        "EV-0017"
+      ],
+      "mechanisms": [
+        [
+          "Self-Referential Compliance Architecture",
+          "NOT APPLICABLE AS SUBJECT FINDING",
+          "This path audits the investigation itself, not Council."
+        ],
+        [
+          "Complexity as Barrier",
+          "CONFIRMED",
+          "Mixed preservation states increase verification burden but are explicitly controlled."
+        ]
+      ],
+      "boundary": "No evidence item is excluded solely because it is lower-tier; its limitations remain attached."
+    },
+    {
+      "id": "AR-022",
+      "title": "Willawarrin Population Metric Contradiction Path",
+      "analysis": [
+        "Official project releases use approximately 130 and 180 residents for the same village within days. ABS-derived sources support a locality population around 180-183, while Council’s water-supply summary uses approximately 130 people served. The evidence strongly indicates different denominators—locality population versus serviced supply population—may be operating, but the definitions are not expressly reconciled.",
+        "The contradiction affects cost-per-person, project-benefit and service-coverage narratives."
+      ],
+      "determinations": [
+        [
+          "AR-022.1",
+          "The numerical contradiction is real and remains open."
+        ],
+        [
+          "AR-022.2",
+          "The ~130 figure is independently supported as a supply-served population."
+        ],
+        [
+          "AR-022.3",
+          "The ~180-183 figure is independently supported as locality population."
+        ],
+        [
+          "AR-022.4",
+          "A denominator disclosure would likely reconcile the figures but is not present."
+        ]
+      ],
+      "anchors": [
+        "EV-0005",
+        "EV-0006",
+        "EV-0016",
+        "EV-0030",
+        "EV-0036",
+        "EV-0071"
+      ],
+      "mechanisms": [
+        [
+          "Definitional Control",
+          "CONFIRMED AT METRIC LEVEL",
+          "Different unstated population definitions materially change interpretation."
+        ],
+        [
+          "Narrative Compression",
+          "CONFIRMED",
+          "The single word “population” compresses service-area and locality measures."
+        ]
+      ],
+      "boundary": "Neither figure is declared false."
+    },
+    {
+      "id": "AR-023",
+      "title": "Governance Leadership and Evidence Attribution Path",
+      "analysis": [
+        "The mayoral transition from Leo Hauville to Kinne Ring is established as the ordinary 2024 local government election. Three independent secondary sources (EV-0014, a NSW Electoral Commission release; EV-0015, the Local Government Act 1993 s.287 'second Saturday in September' provision; EV-0059, the Commission's own past-results portal) consistently point to 14 September 2024, against EV-0011's 'September 9, 2024'.",
+        "None of EV-0014, EV-0015, or EV-0059 has reached Accepted/Verified status - each is currently classified Secondary Reference / Requires Verification, pending a direct, hashed fetch of a primary elections.nsw.gov.au page, which repeated attempts (including during this cycle) have not been able to complete (HTTP 403). The date discrepancy therefore remains open, notwithstanding strong, one-directional corroboration."
+      ],
+      "determinations": [
+        [
+          "AR-023.1",
+          "Q-0004 remains closed: the leadership change was electoral."
+        ],
+        [
+          "AR-023.2",
+          "Q-0006 remains open: three independent sources consistently support 14 September 2024, but none has reached Accepted/Verified status."
+        ],
+        [
+          "AR-023.3",
+          "The erroneous date remains preserved rather than rewritten out of the history (EV-0011 is unedited)."
+        ],
+        [
+          "AR-023.4",
+          "Leadership change does not interrupt institutional continuity of the projects."
+        ]
+      ],
+      "anchors": [
+        "EV-0004",
+        "EV-0005",
+        "EV-0011",
+        "EV-0012",
+        "EV-0014",
+        "EV-0015",
+        "EV-0059"
+      ],
+      "mechanisms": [
+        [
+          "Reclassification",
+          "NOT APPLICABLE",
+          "No evidence of reclassification behaviour."
+        ],
+        [
+          "Information Distortion and Laundering",
+          "NOT CONFIRMED",
+          "The date is treated as an error, not intentional distortion."
+        ]
+      ],
+      "boundary": "No political motive or personal responsibility is inferred."
+    },
+    {
+      "id": "AR-024",
+      "title": "Funding Allocation, Financial Pressure and Project Scale Path",
+      "analysis": [
+        "The corpus records major capital commitments: the Willawarrin project at $8 million (a further increase to $11m, proposed in external material, was not independently corroborated), the main regional project at $52.905 million (a higher $53m figure proposed elsewhere could not be corroborated), water-cartage funding during crisis, and wider Council financial pressure. The projects serve materially different populations and system architectures. The available record does not provide a complete whole-of-life cost comparison between repeated contingency response and permanent infrastructure.",
+        "Financial scale is visible; allocation rationale and outcome efficiency are not fully reconstructable."
+      ],
+      "determinations": [
+        [
+          "AR-024.1",
+          "Capital funding has materially increased across both major treatment projects."
+        ],
+        [
+          "AR-024.2",
+          "Emergency cartage incurred separate public expenditure."
+        ],
+        [
+          "AR-024.3",
+          "Council financial pressure is relevant context but not a proven cause of project delay or scope change."
+        ],
+        [
+          "AR-024.4",
+          "The corpus lacks a comparative resilience-cost model across communities."
+        ]
+      ],
+      "anchors": [
+        "EV-0004",
+        "EV-0005",
+        "EV-0006",
+        "EV-0008",
+        "EV-0013",
+        "EV-0023",
+        "EV-0025",
+        "EV-0047",
+        "EV-0066",
+        "EV-0037"
+      ],
+      "mechanisms": [
+        [
+          "Equity Disparity Through Neutral Process",
+          "PROVISIONAL",
+          "Different system scales attract different investment, but inequity requires an outcome-based comparison not yet available."
+        ],
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "Allocation rationale and whole-of-life comparison are absent."
+        ]
+      ],
+      "boundary": "No finding of financial mismanagement or unfair allocation is made."
+    },
+    {
+      "id": "AR-025",
+      "title": "Community Complaint and Lived-Experience Visibility Path",
+      "analysis": [
+        "The evidence records taste, staining, dirty/cloudy-water complaints and a small number of formal customer enquiries in 2020-2021. It also records community disruption through cartage, restrictions, bushfire evacuation and local recovery operations. The corpus is dominated by institutional and media records and contains little direct, structured resident testimony about duration, household burden, trust, cost or health concern.",
+        "The affected population is visible mainly through incident consequences and aggregate complaint counts rather than a protected lived-experience register."
+      ],
+      "determinations": [
+        [
+          "AR-025.1",
+          "Resident impact is present but thinly documented at person and household level."
+        ],
+        [
+          "AR-025.2",
+          "Complaint counts are not a complete measure of lived harm."
+        ],
+        [
+          "AR-025.3",
+          "The corpus cannot quantify non-reporting or complaint fatigue."
+        ],
+        [
+          "AR-025.4",
+          "A direct community evidence stream is a baseline yield gap."
+        ]
+      ],
+      "anchors": [
+        "EV-0001",
+        "EV-0002",
+        "EV-0020",
+        "EV-0021",
+        "EV-0052",
+        "EV-0054",
+        "EV-0063"
+      ],
+      "mechanisms": [
+        [
+          "Standing Exclusion by Design",
+          "NOT CONFIRMED",
+          "No rule excluding residents from standing is established."
+        ],
+        [
+          "Accountability Cost Externalisation",
+          "PROVISIONAL",
+          "Households bear disruption, but the evidence does not quantify the burden."
+        ],
+        [
+          "Complaint Channel Capacity Cap",
+          "NOT CONFIRMED",
+          "Complaint totals exist; channel limits are not evidenced."
+        ]
+      ],
+      "boundary": "No unrecorded resident experience is invented or quantified."
+    },
+    {
+      "id": "AR-026",
+      "title": "Thunggutti Aboriginal Community Adjacency and Equity Path",
+      "analysis": [
+        "The Thunggutti Aboriginal Community appears alongside Bellbrook in cartage operations, PFAS testing and system summaries, while operating its own separate supply. Historical Bellbrook evidence also records the Dunghutti/Thunggutti community and the Aboriginal reserve context. The community is adjacent to the case but not fully developed as an independent investigation subject in the frozen scope.",
+        "The evidence supports material interdependence and shared contingency exposure. It does not support collapsing Thunggutti into Bellbrook or treating its outcomes as identical."
+      ],
+      "determinations": [
+        [
+          "AR-026.1",
+          "Thunggutti is a distinct supply system with documented shared cartage exposure."
+        ],
+        [
+          "AR-026.2",
+          "Its exceedance and capacity data are relevant context but not substitutes for a dedicated case."
+        ],
+        [
+          "AR-026.3",
+          "Community identity and supply identity must remain separately named."
+        ],
+        [
+          "AR-026.4",
+          "Equity assessment is incomplete without direct Thunggutti evidence and governance records."
+        ]
+      ],
+      "anchors": [
+        "EV-0010",
+        "EV-0024",
+        "EV-0025",
+        "EV-0027",
+        "EV-0034",
+        "EV-0056",
+        "EV-0057",
+        "EV-0063",
+        "EV-0064",
+        "EV-0071"
+      ],
+      "mechanisms": [
+        [
+          "Equity Disparity Through Neutral Process",
+          "PROVISIONAL",
+          "Shared operations may affect communities differently; outcome evidence is incomplete."
+        ],
+        [
+          "Narrative Compression",
+          "CONFIRMED AS A NAMING RISK",
+          "Bellbrook and Thunggutti must not be treated as one system."
+        ]
+      ],
+      "boundary": "The analysis does not expand the case into a full Thunggutti investigation."
+    },
+    {
+      "id": "AR-027",
+      "title": "Emergency Governance, Recovery and Continuity Path",
+      "analysis": [
+        "The evidence records escalation of water restrictions, bushfire evacuation centres, formal disaster declarations, multi-agency recovery presence, relief operations and incident response. Emergency governance capacity is therefore visible. The supply investigation shows that emergency response and water continuity are intertwined, particularly where local treatment fails and external cartage is required.",
+        "The corpus does not provide a single continuity plan integrating fire, flood, drought, power, access, source-water quality, cartage and treatment failure for each village."
+      ],
+      "determinations": [
+        [
+          "AR-027.1",
+          "Emergency response activity is documented and substantial."
+        ],
+        [
+          "AR-027.2",
+          "Water continuity depends on cross-system logistics during local failure."
+        ],
+        [
+          "AR-027.3",
+          "The public record is incident-specific rather than a complete village continuity architecture."
+        ],
+        [
+          "AR-027.4",
+          "Fatality evidence is contextual and carries no fault attribution."
+        ]
+      ],
+      "anchors": [
+        "EV-0009",
+        "EV-0020",
+        "EV-0021",
+        "EV-0026",
+        "EV-0039",
+        "EV-0041",
+        "EV-0051",
+        "EV-0052",
+        "EV-0053",
+        "EV-0054",
+        "EV-0069",
+        "EV-0070"
+      ],
+      "mechanisms": [
+        [
+          "Responsibility Diffusion",
+          "PROVISIONAL",
+          "Multiple agencies participate, but the continuity responsibility chain is not mapped."
+        ],
+        [
+          "Compliant Process Harm",
+          "NOT CONFIRMED",
+          "Emergency processes are documented; harmful process output is not established."
+        ]
+      ],
+      "boundary": "No emergency-service failure finding is made."
+    },
+    {
+      "id": "AR-028",
+      "title": "Documented Compliance Versus Functional Outcome Path",
+      "analysis": [
+        "The corpus contains funding announcements, regulatory endorsement, project plans, construction milestones, testing, inspections, incident reports and safety results. These are real compliance and delivery records. The unresolved questions arise where those records do not yet establish the functional endpoint: reliable supply under stress, completed commissioning, delivered Bellbrook augmentation, reconciled cost/scope, or publicly traceable accountability.",
+        "The baseline distinction is therefore not “nothing was done.” It is “documented action and verified outcome are not interchangeable.”"
+      ],
+      "determinations": [
+        [
+          "AR-028.1",
+          "Substantial documented activity is confirmed."
+        ],
+        [
+          "AR-028.2",
+          "Functional outcome remains unverified at several load-bearing endpoints."
+        ],
+        [
+          "AR-028.3",
+          "The analysis must not erase positive action or convert it into outcome proof."
+        ],
+        [
+          "AR-028.4",
+          "Outcome verification is the primary baseline yield requirement."
+        ]
+      ],
+      "anchors": [
+        "EV-0010",
+        "EV-0013",
+        "EV-0031",
+        "EV-0032",
+        "EV-0063",
+        "EV-0064",
+        "EV-0067",
+        "EV-0068",
+        "EV-0006",
+        "EV-0037",
+        "EV-0017"
+      ],
+      "mechanisms": [
+        [
+          "Documented Compliance as Shield",
+          "CONFIRMED AS STRUCTURAL GAP, NOT ACTOR INTENT",
+          "The public record is process-rich while multiple functional endpoints remain unverified."
+        ],
+        [
+          "Compliance Theatre Architecture",
+          "NOT CONFIRMED",
+          "The evidence does not establish that the processes are merely theatrical."
+        ]
+      ],
+      "boundary": "No documented action is dismissed as meaningless."
+    },
+    {
+      "id": "AR-029",
+      "title": "Open Question, Contradiction and Negative-Evidence Architecture Path",
+      "analysis": [
+        "At this baseline, only Q-0004 is closed. Q-0006 remains open despite consistent, converging secondary corroboration, because no source has yet reached Accepted/Verified status. Q-0001, Q-0002, Q-0003 and Q-0005 remain open in whole or part, and CTR-0001 remains open. Repeated negative searches are analytically relevant because they narrow likely source locations and prevent recycled false leads, but absence from public search results is not evidence that internal records or events do not exist.",
+        "The unresolved structure is concentrated around outcome verification, project traceability, decision rationale and metric definition rather than around whether the historical incidents occurred."
+      ],
+      "determinations": [
+        [
+          "AR-029.1",
+          "Historical recurrence is more strongly evidenced than current remediation outcome."
+        ],
+        [
+          "AR-029.2",
+          "Negative evidence is source-bounded and cannot be universalised."
+        ],
+        [
+          "AR-029.3",
+          "Resolved questions remain preserved to maintain correction lineage."
+        ],
+        [
+          "AR-029.4",
+          "The next evidence snapshot should target the named unresolved records, not repeat broad search cycles."
+        ]
+      ],
+      "anchors": [
+        "EV-0011",
+        "EV-0012",
+        "EV-0014",
+        "EV-0015",
+        "EV-0016",
+        "EV-0059",
+        "EV-0066",
+        "EV-0067",
+        "EV-0068",
+        "EV-0006",
+        "EV-0037",
+        "EV-0017"
+      ],
+      "mechanisms": [
+        [
+          "Silence and Non-Response",
+          "NOT CONFIRMED",
+          "The evidence concerns missing public records and unsuccessful searches, not a proven duty to respond."
+        ],
+        [
+          "Complexity as Barrier",
+          "CONFIRMED",
+          "Resolution depends on dispersed and sometimes inaccessible record types."
+        ]
+      ],
+      "boundary": "No open question is converted into a finding by repetition."
+    },
+    {
+      "id": "AR-030",
+      "title": "Baseline Structural Determination and Analytical State",
+      "analysis": [
+        "The complete first-cycle analysis establishes a recurring vulnerability architecture across two separate village water systems. The evidence shows repeated environmental stress, contaminant and treatment incidents, emergency cartage, long-lived infrastructure, permanent remediation projects, detailed operational response, positive monitoring results and substantial capital investment. It simultaneously shows that key functional endpoints remain unverified or publicly incomplete.",
+        "The strongest bounded baseline determination is that recurring vulnerability is documented while durable resolution is unevenly advanced and not yet fully demonstrated in the frozen record. This is an open analytical determination, not a frozen finding and not a forward projection."
+      ],
+      "determinations": [
+        [
+          "AR-030.1",
+          "The case cannot accurately be described as either “no action” or “problem solved.”"
+        ],
+        [
+          "AR-030.2",
+          "Willawarrin remediation is physically advanced but not evidenced operational at snapshot close."
+        ],
+        [
+          "AR-030.3",
+          "Bellbrook augmentation is confirmed as a real project trajectory but remains publicly untraced to delivery."
+        ],
+        [
+          "AR-030.4",
+          "Recurring contingency dependence remains the principal cross-path structural condition."
+        ],
+        [
+          "AR-030.5",
+          "This baseline is complete for the frozen corpus and remains open for appended DFAPTA cycles."
+        ]
+      ],
+      "anchors": [
+        "EV-0001",
+        "EV-0002",
+        "EV-0003",
+        "EV-0004",
+        "EV-0005",
+        "EV-0006",
+        "EV-0007",
+        "EV-0008",
+        "EV-0009",
+        "EV-0010",
+        "EV-0011",
+        "EV-0012",
+        "EV-0013",
+        "EV-0014",
+        "EV-0015",
+        "EV-0016",
+        "EV-0017",
+        "EV-0018",
+        "EV-0019",
+        "EV-0020",
+        "EV-0021",
+        "EV-0022",
+        "EV-0023",
+        "EV-0024",
+        "EV-0025",
+        "EV-0026",
+        "EV-0027",
+        "EV-0028",
+        "EV-0029",
+        "EV-0030",
+        "EV-0031",
+        "EV-0032",
+        "EV-0033",
+        "EV-0034",
+        "EV-0035",
+        "EV-0036",
+        "EV-0037",
+        "EV-0038",
+        "EV-0039",
+        "EV-0040",
+        "EV-0041",
+        "EV-0042",
+        "EV-0043",
+        "EV-0044",
+        "EV-0045",
+        "EV-0046",
+        "EV-0047",
+        "EV-0048",
+        "EV-0049",
+        "EV-0050",
+        "EV-0051",
+        "EV-0052",
+        "EV-0053",
+        "EV-0054",
+        "EV-0055",
+        "EV-0056",
+        "EV-0057",
+        "EV-0058",
+        "EV-0059",
+        "EV-0060",
+        "EV-0061",
+        "EV-0062",
+        "EV-0063",
+        "EV-0064",
+        "EV-0065",
+        "EV-0066",
+        "EV-0067",
+        "EV-0068",
+        "EV-0069",
+        "EV-0070",
+        "EV-0071"
+      ],
+      "mechanisms": [
+        [
+          "Time as Structural Harm Mechanism",
+          "PROVISIONAL",
+          "Repeated vulnerability and multi-year remediation coexist; causal allocation requires further evidence."
+        ],
+        [
+          "Documented Compliance as Shield",
+          "CONFIRMED AS A GOVERNANCE DISTINCTION",
+          "Outcome verification cannot be replaced by project and process records."
+        ],
+        [
+          "Normalisation Through Duration",
+          "PROVISIONAL",
+          "Long duration may normalise contingency, but institutional normalisation is not directly evidenced."
+        ]
+      ],
+      "boundary": "No intent, wrongdoing, universal current contamination, future failure or legal breach is determined."
+    }
+  ],
+  "cross_path_observations": [
+    {
+      "id": "CPO-001",
+      "title": "Recurring vulnerability is multi-hazard and multi-contaminant",
+      "analysis": "The case is not explained by a single contaminant or single weather event. Drought, bushfire, rainfall, flood, turbidity, manganese, iron, arsenic and chlorine-control interactions appear in different combinations across time.",
+      "anchors": "EV-0001, EV-0002, EV-0022, EV-0031-EV-0034, EV-0040, EV-0051, EV-0069"
+    },
+    {
+      "id": "CPO-002",
+      "title": "Cartage is a resilience mechanism and a dependency signal",
+      "analysis": "Cartage protected supply during local failure while simultaneously evidencing dependence on transport, roads, external source capacity and delivery logistics.",
+      "anchors": "EV-0024, EV-0025, EV-0032-EV-0034, EV-0061, EV-0062"
+    },
+    {
+      "id": "CPO-003",
+      "title": "Operational response capability exceeds public prevention traceability",
+      "analysis": "Detailed operator actions are visible; the decision architecture intended to prevent repeated incident entry is less visible.",
+      "anchors": "EV-0032-EV-0034, EV-0062, EV-0071"
+    },
+    {
+      "id": "CPO-004",
+      "title": "Monitoring success is contaminant and time specific",
+      "analysis": "PFAS success, reservoir inspection, iron non-exceedance and manganese operational exceedance can all be true because they answer different questions.",
+      "anchors": "EV-0010, EV-0031, EV-0063, EV-0064"
+    },
+    {
+      "id": "CPO-005",
+      "title": "Permanent remediation has not yet crossed the evidenced operational gate",
+      "analysis": "Willawarrin construction is advanced, but the snapshot lacks commissioning and handover proof.",
+      "anchors": "EV-0006, EV-0068, EV-0006, EV-0006"
+    },
+    {
+      "id": "CPO-006",
+      "title": "Bellbrook project existence and project delivery are structurally separated",
+      "analysis": "Council records confirm planning and plan inclusion; current funding, procurement and delivery remain absent.",
+      "anchors": "EV-0071"
+    },
+    {
+      "id": "CPO-007",
+      "title": "Regional investment does not equal village integration",
+      "analysis": "The main-network project serves a different population and source architecture.",
+      "anchors": "EV-0005, EV-0029, EV-0071, EV-0037"
+    },
+    {
+      "id": "CPO-008",
+      "title": "Cost escalation and scope variation require one reconciliation surface",
+      "analysis": "Tender cost increase, rising project values and reservoir-scope movement are dispersed across sources.",
+      "anchors": "EV-0004, EV-0006, EV-0066, EV-0006, EV-0006"
+    },
+    {
+      "id": "CPO-009",
+      "title": "Public project milestones lag functional verification",
+      "analysis": "Plans, funding, starts and expected dates are documented more readily than commissioning outcomes.",
+      "anchors": "EV-0013, EV-0067, EV-0068, EV-0006, EV-0006"
+    },
+    {
+      "id": "CPO-010",
+      "title": "Longitudinal audit requires reconstruction across unstable publication architecture",
+      "analysis": "Report-series naming changes and gaps materially increase audit burden.",
+      "anchors": "EV-0065"
+    },
+    {
+      "id": "CPO-011",
+      "title": "Population narratives use at least two denominators",
+      "analysis": "Locality population and water-supply population appear to be mixed without definition.",
+      "anchors": "EV-0005, EV-0006, EV-0016, EV-0036, EV-0071"
+    },
+    {
+      "id": "CPO-012",
+      "title": "Official record inconsistency is corrigible and must remain visible",
+      "analysis": "An election-date discrepancy remains open despite converging secondary evidence (EV-0014, EV-0015, EV-0059); the original record (EV-0011) remains preserved rather than edited, consistent with append-only discipline.",
+      "anchors": "EV-0011, EV-0014, EV-0014"
+    },
+    {
+      "id": "CPO-013",
+      "title": "Repeated hazard entry tests fixed infrastructure limits",
+      "analysis": "The recurrence pattern is episodic rather than continuous but repeatedly reaches the contingency layer.",
+      "anchors": "EV-0009, EV-0033, EV-0034, EV-0041, EV-0069"
+    },
+    {
+      "id": "CPO-014",
+      "title": "Community burden is recorded indirectly",
+      "analysis": "The evidence shows complaints, cartage and emergency disruption but lacks a direct household-level harm register.",
+      "anchors": "EV-0001, EV-0020, EV-0052, EV-0063"
+    },
+    {
+      "id": "CPO-015",
+      "title": "Project existence is not commissioned outcome",
+      "analysis": "A named project, adopted plan or regulatory endorsement is not the same as delivered reliable service.",
+      "anchors": "EV-0013, EV-0067"
+    },
+    {
+      "id": "CPO-016",
+      "title": "Funding announcement is not service delivery",
+      "analysis": "Capital commitment is necessary evidence but cannot close commissioning or operational-status questions.",
+      "anchors": "EV-0005, EV-0006, EV-0006, EV-0037"
+    },
+    {
+      "id": "CPO-017",
+      "title": "Evidence strength is uneven at the highest-impact questions",
+      "analysis": "Historical incidents are often well described; current outcome and decision rationale rely on partial or missing records.",
+      "anchors": "EV-0002, EV-0032, EV-0066-EV-0068, EV-0006-EV-0017"
+    },
+    {
+      "id": "CPO-018",
+      "title": "Safety assurance must remain scoped",
+      "analysis": "A successful test result cannot be converted into universal resilience assurance.",
+      "anchors": "EV-0010, EV-0064"
+    },
+    {
+      "id": "CPO-019",
+      "title": "Institutional knowledge is stronger than public reconstruction",
+      "analysis": "Operational logs show detailed knowledge while public longitudinal and project records remain fragmented.",
+      "anchors": "EV-0062, EV-0063, EV-0065"
+    },
+    {
+      "id": "CPO-020",
+      "title": "Baseline convergence: recurring vulnerability with incomplete demonstrated resolution",
+      "analysis": "Across independent paths, recurring vulnerability is documented and permanent remediation is active, but complete durable resolution is not yet established in the frozen corpus.",
+      "anchors": "AR-002 through AR-030"
+    }
+  ],
+  "disclosure_requests": [
+    {
+      "id": "YIELD-REQ-001",
+      "title": "Current operational status notice",
+      "request": "Publish a dated status for each Willawarrin and Bellbrook plant: existing system operating state, new-project state, commissioning state, operational acceptance, outstanding defects and next milestone."
+    },
+    {
+      "id": "YIELD-REQ-002",
+      "title": "Complete historical cartage register",
+      "request": "Publish all Willawarrin, Bellbrook and Thunggutti cartage periods since 2005, with trigger, dates, volumes, source, provider, cost, road/logistics constraints and closure evidence."
+    },
+    {
+      "id": "YIELD-REQ-003",
+      "title": "Longitudinal water-quality dataset",
+      "request": "Provide stable public access to system-specific iron, manganese, arsenic, turbidity, chlorine and other relevant results with sampling program, location, guideline type and exception classification."
+    },
+    {
+      "id": "YIELD-REQ-004",
+      "title": "Bellbrook WTP project disclosure",
+      "request": "Publish the Bellbrook augmentation/new-plant scope, need statement, approval status, funding, cost, procurement, contractor, timetable and current delivery state."
+    },
+    {
+      "id": "YIELD-REQ-005",
+      "title": "Willawarrin commissioning and handover record",
+      "request": "Publish testing outcomes, commissioning completion, practical completion, operational handover, post-commissioning results and unresolved defects."
+    },
+    {
+      "id": "YIELD-REQ-006",
+      "title": "Willawarrin cost and scope variation register",
+      "request": "Reconcile the $4m and $8m Willawarrin cost figures and identify every approved scope addition, removal, funding-deed variation, tender adjustment and date. (A further $11m figure circulating in external material could not be independently corroborated and should be checked, not assumed.)"
+    },
+    {
+      "id": "YIELD-REQ-007",
+      "title": "Extraction-options decision record",
+      "request": "Publish the options assessment for standalone village treatment versus connection or redundancy through the main network, including feasibility, cost, risk and community criteria."
+    },
+    {
+      "id": "YIELD-REQ-008",
+      "title": "End-to-end project accountability matrix",
+      "request": "Identify the accountable Council, government, contractor and regulator role at planning, funding, approval, design, construction, commissioning, operation, incident review and remediation stages."
+    },
+    {
+      "id": "YIELD-REQ-009",
+      "title": "Stable report archive",
+      "request": "Maintain one indexed, permanent public series for annual drinking-water reports, including the missing or renamed 2021-2022 and 2022-2023 records and archived prior URLs."
+    },
+    {
+      "id": "YIELD-REQ-010",
+      "title": "Community lived-experience register",
+      "request": "Create a protected, system-specific record of household impacts, complaints, costs, loss of use, cartage experience, confidence and response outcomes."
+    },
+    {
+      "id": "YIELD-REQ-011",
+      "title": "Population denominator disclosure",
+      "request": "State separately the locality population, connected-service population, design population and project-beneficiary population used in each release."
+    },
+    {
+      "id": "YIELD-REQ-012",
+      "title": "Village emergency water-continuity standard",
+      "request": "Publish continuity arrangements for drought, fire, flood, power loss, treatment shutdown, road isolation and cartage failure for each village system."
+    },
+    {
+      "id": "YIELD-REQ-013",
+      "title": "Procurement and acceptance disclosure",
+      "request": "Publish contract identifiers, awarded scope, variations, acceptance criteria, commissioning obligations and closure evidence for LC Water and LC Eire projects."
+    },
+    {
+      "id": "YIELD-REQ-014",
+      "title": "Independent functional verification",
+      "request": "Provide independent confirmation that permanent works achieve required water quality and continuity under defined stress conditions, not only ordinary-operation compliance."
+    },
+    {
+      "id": "YIELD-REQ-015",
+      "title": "Cross-community equity assessment",
+      "request": "Compare resilience capability, investment, response burden and service outcome across Willawarrin, Bellbrook, Thunggutti and the main Kempsey-Lower Macleay network without collapsing distinct systems."
+    }
+  ],
+  "contradictions_preserved": [
+    {
+      "id": "CDR-001",
+      "issue": "Willawarrin population: ~130 versus ~180/183",
+      "status": "OPEN",
+      "analysis": "Likely service-population versus locality-population denominators; definitions not published.",
+      "anchors": "EV-0005, EV-0006, EV-0016, EV-0036, EV-0071"
+    },
+    {
+      "id": "CDR-002",
+      "issue": "Bellbrook 2008 cartage event",
+      "status": "OPEN",
+      "analysis": "Preserved derivative source supports the event; independent contemporaneous corroboration remains absent.",
+      "anchors": "EV-0044, EV-0046, EV-0055"
+    },
+    {
+      "id": "CDR-003",
+      "issue": "Iron/manganese crisis language versus later measured data",
+      "status": "OPEN AS PERIOD DIFFERENCE",
+      "analysis": "2019-2020 descriptive unsafe-level reporting and 2020-2021 measured aesthetic/operational results concern different periods and programs.",
+      "anchors": "EV-0001, EV-0002, EV-0031, EV-0035"
+    },
+    {
+      "id": "CDR-004",
+      "issue": "Willawarrin cartage: 240 days versus approximately 2 Oct 2019-18 Jun 2020 span",
+      "status": "OPEN",
+      "analysis": "May reflect intermittent versus calendar-period definitions; no reconciliation record.",
+      "anchors": "EV-0024, EV-0061, CHR-0002"
+    },
+    {
+      "id": "CDR-005",
+      "issue": "Reservoir refurbishment included then removed",
+      "status": "NOT ESTABLISHED",
+      "analysis": "EV-0006 (Council/NSW Government primary release) states reservoir refurbishment follows commissioning - i.e. still in scope. An external draft's claim that it had been removed from scope was checked against this and did not hold up; it is not carried forward as a live contradiction.",
+      "anchors": [
+        "EV-0006"
+      ]
+    },
+    {
+      "id": "CDR-006",
+      "issue": "Steuart McIntyre Dam completion late 2026 versus 2027",
+      "status": "NOT ESTABLISHED",
+      "analysis": "The register's own trajectory (EV-0005: mid-2025 start, 18-month program; EV-0029: under construction as of 31 August 2025) implies completion around late 2026. A 2027 completion date proposed in external material could not be independently corroborated and is not carried forward as a live contradiction.",
+      "anchors": [
+        "EV-0005",
+        "EV-0029"
+      ]
+    },
+    {
+      "id": "CDR-007",
+      "issue": "Bellbrook naming 1882 versus gazettal 1892",
+      "status": "OPEN — NON-CORE",
+      "analysis": "Both may be true for postal naming and formal gazettal; not resolved.",
+      "anchors": "EV-0018, EV-0056"
+    },
+    {
+      "id": "CDR-008",
+      "issue": "Kempsey election date 9 versus 14 September 2024",
+      "status": "OPEN",
+      "analysis": "Three independent secondary sources (EV-0014, EV-0015, EV-0059) consistently support 14 September 2024 against EV-0011's 9 September, but none has reached Accepted/Verified status pending a direct, hashed primary fetch. Matches the live register's own Q-0006, which remains Open.",
+      "anchors": [
+        "EV-0011",
+        "EV-0014",
+        "EV-0015",
+        "EV-0059"
+      ]
+    },
+    {
+      "id": "CDR-009",
+      "issue": "Earlier negative Bellbrook-project searches versus later direct confirmation",
+      "status": "PARTIALLY RESOLVED",
+      "analysis": "EV-0071 confirms Bellbrook WTP augmentation planning was real and ongoing as of 2020-21, resolving the existence question. A further, more specific claim (that the adopted 2023-24 Operational Plan expressly named a 'Bellbrook Water Treatment Plant') could not be independently corroborated and remains open.",
+      "anchors": [
+        "EV-0071"
+      ]
+    },
+    {
+      "id": "CDR-010",
+      "issue": "Project-completion wording versus commissioning sequence",
+      "status": "PARTIALLY RESOLVED",
+      "analysis": "Later evidence distinguishes construction, testing, commissioning and operation; final operation still unresolved.",
+      "anchors": [
+        "E",
+        "V",
+        "-",
+        "0",
+        "6",
+        ",",
+        " ",
+        "8",
+        "7",
+        "2",
+        "5"
+      ]
+    }
+  ],
+  "overreach_controls": [
+    "No determination that Willawarrin or Bellbrook water is continuously unsafe.",
+    "No conversion of aesthetic manganese exceedances into health-guideline exceedances.",
+    "No determination that the Willawarrin plant failed commissioning or is currently non-operational.",
+    "No determination that the Bellbrook augmentation project was abandoned, unfunded or unlawfully delayed.",
+    "No determination that the 2023 Willi Willi Fire caused a village water-cartage episode.",
+    "No attribution of intent, bad faith, corruption, negligence or contractor fault.",
+    "No inference that a public-record absence proves an internal record or control does not exist.",
+    "No forward projection, event-horizon statement or Temporal Projection Integrity Engine classification.",
+    "No Lattice Atlas topology claim, load-bearing-node declaration or harm externalisation map.",
+    "No compression of positive monitoring, maintenance, emergency response or project-delivery evidence."
+  ],
+  "evidence_anchor_coverage": {
+    "EV-0001": [
+      "AR-001",
+      "AR-002",
+      "AR-003",
+      "AR-004",
+      "AR-005",
+      "AR-006",
+      "AR-018",
+      "AR-021",
+      "AR-025"
+    ],
+    "EV-0002": [
+      "AR-001",
+      "AR-002",
+      "AR-003",
+      "AR-004",
+      "AR-005",
+      "AR-006",
+      "AR-021",
+      "AR-025"
+    ],
+    "EV-0003": [
+      "AR-001",
+      "AR-002",
+      "AR-004",
+      "AR-021"
+    ],
+    "EV-0004": [
+      "AR-010",
+      "AR-011",
+      "AR-012",
+      "AR-023",
+      "AR-024"
+    ],
+    "EV-0005": [
+      "AR-011",
+      "AR-016",
+      "AR-017",
+      "AR-018",
+      "AR-022",
+      "AR-023",
+      "AR-024"
+    ],
+    "EV-0006": [
+      "AR-010",
+      "AR-011",
+      "AR-013",
+      "AR-018",
+      "AR-022",
+      "AR-024",
+      "AR-001",
+      "AR-021",
+      "AR-028",
+      "AR-029",
+      "AR-012"
+    ],
+    "EV-0007": [
+      "AR-010",
+      "AR-013"
+    ],
+    "EV-0008": [
+      "AR-016",
+      "AR-024"
+    ],
+    "EV-0009": [
+      "AR-002",
+      "AR-003",
+      "AR-018",
+      "AR-027"
+    ],
+    "EV-0010": [
+      "AR-009",
+      "AR-014",
+      "AR-026",
+      "AR-028"
+    ],
+    "EV-0011": [
+      "AR-023",
+      "AR-029"
+    ],
+    "EV-0012": [
+      "AR-023",
+      "AR-029"
+    ],
+    "EV-0013": [
+      "AR-010",
+      "AR-011",
+      "AR-016",
+      "AR-024",
+      "AR-028"
+    ],
+    "EV-0014": [
+      "AR-023",
+      "AR-029",
+      "AR-001",
+      "AR-021"
+    ],
+    "EV-0015": [
+      "AR-023",
+      "AR-029"
+    ],
+    "EV-0016": [
+      "AR-022",
+      "AR-029"
+    ],
+    "EV-0017": [
+      "AR-016",
+      "AR-017",
+      "AR-001",
+      "AR-021",
+      "AR-028",
+      "AR-029"
+    ],
+    "EV-0018": [
+      "AR-030"
+    ],
+    "EV-0019": [
+      "AR-030"
+    ],
+    "EV-0020": [
+      "AR-002",
+      "AR-003",
+      "AR-025",
+      "AR-027"
+    ],
+    "EV-0021": [
+      "AR-025",
+      "AR-027"
+    ],
+    "EV-0022": [
+      "AR-007",
+      "AR-014"
+    ],
+    "EV-0023": [
+      "AR-024"
+    ],
+    "EV-0024": [
+      "AR-002",
+      "AR-004",
+      "AR-026"
+    ],
+    "EV-0025": [
+      "AR-004",
+      "AR-024",
+      "AR-026"
+    ],
+    "EV-0026": [
+      "AR-003",
+      "AR-027"
+    ],
+    "EV-0027": [
+      "AR-014",
+      "AR-026"
+    ],
+    "EV-0028": [
+      "AR-003",
+      "AR-016",
+      "AR-018"
+    ],
+    "EV-0029": [
+      "AR-016",
+      "AR-017"
+    ],
+    "EV-0030": [
+      "AR-022"
+    ],
+    "EV-0031": [
+      "AR-005",
+      "AR-006",
+      "AR-019",
+      "AR-020",
+      "AR-021",
+      "AR-028"
+    ],
+    "EV-0032": [
+      "AR-002",
+      "AR-004",
+      "AR-006",
+      "AR-008",
+      "AR-019",
+      "AR-020",
+      "AR-028"
+    ],
+    "EV-0033": [
+      "AR-002",
+      "AR-003",
+      "AR-004",
+      "AR-008",
+      "AR-019",
+      "AR-020"
+    ],
+    "EV-0034": [
+      "AR-002",
+      "AR-003",
+      "AR-004",
+      "AR-008",
+      "AR-019",
+      "AR-020",
+      "AR-026"
+    ],
+    "EV-0035": [
+      "AR-005",
+      "AR-006",
+      "AR-019",
+      "AR-020"
+    ],
+    "EV-0036": [
+      "AR-019",
+      "AR-020",
+      "AR-022"
+    ],
+    "EV-0037": [
+      "AR-016",
+      "AR-017",
+      "AR-001",
+      "AR-021",
+      "AR-024",
+      "AR-028",
+      "AR-029"
+    ],
+    "EV-0038": [
+      "AR-016",
+      "AR-017"
+    ],
+    "EV-0039": [
+      "AR-027"
+    ],
+    "EV-0040": [
+      "AR-003",
+      "AR-005"
+    ],
+    "EV-0041": [
+      "AR-003",
+      "AR-027"
+    ],
+    "EV-0042": [
+      "AR-013"
+    ],
+    "EV-0043": [
+      "AR-002",
+      "AR-007",
+      "AR-014"
+    ],
+    "EV-0044": [
+      "AR-002",
+      "AR-004",
+      "AR-007"
+    ],
+    "EV-0045": [
+      "AR-007"
+    ],
+    "EV-0046": [
+      "AR-002",
+      "AR-007",
+      "AR-014"
+    ],
+    "EV-0047": [
+      "AR-011",
+      "AR-024"
+    ],
+    "EV-0048": [
+      "AR-018"
+    ],
+    "EV-0049": [
+      "AR-019"
+    ],
+    "EV-0050": [
+      "AR-010"
+    ],
+    "EV-0051": [
+      "AR-002",
+      "AR-003",
+      "AR-027"
+    ],
+    "EV-0052": [
+      "AR-003",
+      "AR-025",
+      "AR-027"
+    ],
+    "EV-0053": [
+      "AR-003",
+      "AR-027"
+    ],
+    "EV-0054": [
+      "AR-003",
+      "AR-025",
+      "AR-027"
+    ],
+    "EV-0055": [
+      "AR-002",
+      "AR-007",
+      "AR-014",
+      "AR-021"
+    ],
+    "EV-0056": [
+      "AR-026"
+    ],
+    "EV-0057": [
+      "AR-026"
+    ],
+    "EV-0058": [
+      "AR-010",
+      "AR-012"
+    ],
+    "EV-0059": [
+      "AR-023",
+      "AR-029"
+    ],
+    "EV-0060": [
+      "AR-012",
+      "AR-021"
+    ],
+    "EV-0061": [
+      "AR-002",
+      "AR-004",
+      "AR-020"
+    ],
+    "EV-0062": [
+      "AR-004",
+      "AR-006",
+      "AR-008",
+      "AR-019",
+      "AR-020"
+    ],
+    "EV-0063": [
+      "AR-008",
+      "AR-014",
+      "AR-019",
+      "AR-020",
+      "AR-025",
+      "AR-026",
+      "AR-028"
+    ],
+    "EV-0064": [
+      "AR-009",
+      "AR-014",
+      "AR-019",
+      "AR-026",
+      "AR-028"
+    ],
+    "EV-0065": [
+      "AR-020",
+      "AR-021"
+    ],
+    "EV-0066": [
+      "AR-011",
+      "AR-024",
+      "AR-029"
+    ],
+    "EV-0067": [
+      "AR-010",
+      "AR-028",
+      "AR-029"
+    ],
+    "EV-0068": [
+      "AR-010",
+      "AR-013",
+      "AR-028",
+      "AR-029"
+    ],
+    "EV-0069": [
+      "AR-003",
+      "AR-016",
+      "AR-027"
+    ],
+    "EV-0070": [
+      "AR-003",
+      "AR-016",
+      "AR-018",
+      "AR-027"
+    ],
+    "EV-0071": [
+      "AR-007",
+      "AR-014",
+      "AR-015",
+      "AR-018",
+      "AR-019",
+      "AR-022",
+      "AR-026"
+    ]
+  },
+  "counts": {
+    "analysis_paths": 30,
+    "analytical_determinations": 118,
+    "cross_path_observations": 20,
+    "disclosure_requests": 15,
+    "contradictions_preserved": 10,
+    "evidence_anchors_referenced": 71
+  }
+}

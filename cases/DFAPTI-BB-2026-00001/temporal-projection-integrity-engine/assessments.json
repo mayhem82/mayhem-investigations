@@ -1,0 +1,46 @@
+{
+  "tpie_id": "TPIE-BB-2026-00001",
+  "dfapti_case_id": "DFAPTI-BB-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-06",
+  "purpose_note": "This page states what the current evidence suggests will keep happening if nothing changes. Every entry is a reasoned judgement, not a proven fact and not a measured probability. Confidence is described in plain terms and every entry states what specific new evidence would revise it. Nothing here is a prediction with a due date, and nothing here should be read as more certain than a person reading the underlying evidence themselves would conclude.",
+  "assessments": [
+    {
+      "id": "TPA-001",
+      "statement": "Absent an external prompt (a direct question to Council, a GIPA request, or similar), Willawarrin's plant is likely to reach a confirmed commissioning date later than the 'early 2026' target already stated in the register (EV-0006/EV-0068) - which has now passed without a commissioning record appearing.",
+      "basis": "Lattice Atlas LP-001: funding, construction, and commissioning have each been logged as later-than-previously-expected relative to the prior stage's own stated target, across three successive project milestones.",
+      "confidence": "Reasonably supported",
+      "confidence_note": "Based on a repeated pattern across multiple stages of the same project, not a single data point. Still a judgement about institutional behaviour, not a measured probability.",
+      "would_revise_this": "A commissioning certificate, practical-completion notice, or explicit operational statement appearing in the evidence register at any point would resolve Q-0001 directly and make this assessment moot."
+    },
+    {
+      "id": "TPA-002",
+      "statement": "Absent a specific, targeted request, Bellbrook's water treatment plant augmentation is likely to remain at the 'planning confirmed, delivery unconfirmed' stage it has held since 2020-21 (EV-0071).",
+      "basis": "No evidence of tender, funding line, contractor, or construction start has been located for this specific project across the roughly five years since EV-0071, despite multiple search passes.",
+      "confidence": "Weakly supported",
+      "confidence_note": "This is a single project observed over one gap period, not a repeated pattern - avoid over-generalising from one data point. It is closer to 'nothing found yet' than 'confirmed non-movement'.",
+      "would_revise_this": "Any new register entry showing tender activity, a funding allocation, a contractor award, or construction commencement for a Bellbrook-specific plant."
+    },
+    {
+      "id": "TPA-003",
+      "statement": "The missing 2019-2020 crisis-year water-quality report is unlikely to be located through further general web search.",
+      "basis": "Multiple independent DFAPTI search passes have not located it, and the report series is independently documented as having unstable naming/URL conventions and at least one apparent publication gap (AR-005, AR-020).",
+      "confidence": "Reasonably supported for the specific method (web search); no basis for confidence about other methods",
+      "confidence_note": "Repeated negative search results narrow where the document probably isn't findable by search, but do not establish it doesn't exist - see the register's own Absence Capture discipline. A different method (a direct GIPA request to Council) has not been tried and isn't covered by this assessment.",
+      "would_revise_this": "The document surfacing via any method, or Council confirming in writing that no such report was produced or retained."
+    },
+    {
+      "id": "TPA-004",
+      "statement": "Without a manually-performed direct fetch (not an automated one), the 14 September 2024 election-date discrepancy (Q-0006) is unlikely to reach Accepted/Verified status through further automated collection passes alone.",
+      "basis": "Three independent attempts to directly fetch a primary elections.nsw.gov.au page - across at least two separate collection passes plus this cycle's reconciliation - have all returned HTTP 403, an environment-level barrier rather than a missing document.",
+      "confidence": "Well-supported",
+      "confidence_note": "The barrier has been consistent and specific (same error, same domain, multiple independent attempts) rather than intermittent, which is why this is stated with higher confidence than TPA-001 through TPA-003.",
+      "would_revise_this": "A human manually visiting and saving the NSW Electoral Commission page (or an archived copy, e.g. via the Wayback Machine) so it can be hashed and registered as Accepted."
+    }
+  ],
+  "not_claimed": [
+    "No entry above is a prediction of what will happen by a specific date.",
+    "No entry above is a measured probability - the confidence labels are qualitative judgements about how well-supported the pattern is, not statistics.",
+    "None of these assessments authorise or compel any action by any institution. They describe what this investigation expects to keep finding if nothing changes, nothing more."
+  ]
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>MAYHEM - DFAPTI-BB-2026-00001</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+
+<nav class="module-nav" aria-label="Case navigation">
+  <a href="../../index.html">All Cases</a>
+  <a href="../index.html">DFAPTI-BB-2026-00001</a>
+  <a href="../dfapti/index.html" aria-current="page">DFAPTI</a>
+  <a href="../dfapta/index.html">DFAPTA</a>
+  <a href="../lattice-atlas/index.html">Lattice Atlas</a>
+  <a href="../temporal-projection-integrity-engine/index.html">Temporal Projection Integrity Engine</a>
+  <a href="../enforcement-notice/index.html">Enforcement Notice</a>
+  <a href="../advocacy-package/index.html">Advocacy Package</a>
+</nav>
+
+<header class="app-header">
+  <div class="app-header-row">
+    <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="nav-drawer">
+      <span class="menu-icon" aria-hidden="true">&#9776;</span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <div class="app-header-title">
+      <div class="app-name">MAYHEM</div>
+      <div class="case-id" id="header-case-id">DFAPTI-BB-2026-00001</div>
+    </div>
+  </div>
+</header>
+
+<nav id="nav-drawer" class="nav-drawer" aria-label="Workspace sections" hidden>
+  <ul class="nav-list">
+    <li><button class="nav-link" data-section="resume">Resume</button></li>
+    <li><button class="nav-link" data-section="overview">Case Overview</button></li>
+    <li><button class="nav-link" data-section="evidence">Evidence Register</button></li>
+    <li><button class="nav-link" data-section="chronology">Chronology</button></li>
+    <li><button class="nav-link" data-section="sources">Source Register</button></li>
+    <li><button class="nav-link" data-section="contradictions">Contradiction Register</button></li>
+    <li><button class="nav-link" data-section="questions">Open Questions</button></li>
+    <li><button class="nav-link" data-section="threads">Investigation Threads</button></li>
+    <li><button class="nav-link" data-section="decisions">Decision Register</button></li>
+    <li><button class="nav-link" data-section="searchlog">Search Log</button></li>
+    <li><button class="nav-link" data-section="relationships">Relationship Map</button></li>
+    <li><button class="nav-link" data-section="notes">Investigation Notes</button></li>
+  </ul>
+</nav>
+
+<div id="nav-scrim" class="nav-scrim" hidden></div>
+
+<main id="main-content">
+
+  <section id="section-resume" class="workspace-section" data-title="Resume">
+    <h1 class="section-title">Resume</h1>
+    <p class="section-intro">Everything below reflects exactly where this investigation stopped. No reconstruction needed - continue collecting evidence.</p>
+    <div id="resume-content" class="stack"></div>
+  </section>
+
+  <section id="section-overview" class="workspace-section" data-title="Case Overview" hidden>
+    <h1 class="section-title">Case Overview</h1>
+    <div id="overview-content" class="stack"></div>
+  </section>
+
+  <section id="section-evidence" class="workspace-section" data-title="Evidence Register" hidden>
+    <h1 class="section-title">Evidence Register</h1>
+    <input type="search" class="filter-input" data-filter-target="evidence-list" placeholder="Filter evidence..." />
+    <div id="evidence-count" class="section-count"></div>
+    <div id="evidence-list" class="stack"></div>
+  </section>
+
+  <section id="section-chronology" class="workspace-section" data-title="Chronology" hidden>
+    <h1 class="section-title">Chronology</h1>
+    <input type="search" class="filter-input" data-filter-target="chronology-list" placeholder="Filter chronology..." />
+    <div id="chronology-count" class="section-count"></div>
+    <div id="chronology-list" class="stack"></div>
+  </section>
+
+  <section id="section-sources" class="workspace-section" data-title="Source Register" hidden>
+    <h1 class="section-title">Source Register</h1>
+    <input type="search" class="filter-input" data-filter-target="sources-list" placeholder="Filter sources..." />
+    <div id="sources-count" class="section-count"></div>
+    <div id="sources-list" class="stack"></div>
+  </section>
+
+  <section id="section-contradictions" class="workspace-section" data-title="Contradiction Register" hidden>
+    <h1 class="section-title">Contradiction Register</h1>
+    <input type="search" class="filter-input" data-filter-target="contradictions-list" placeholder="Filter contradictions..." />
+    <div id="contradictions-count" class="section-count"></div>
+    <div id="contradictions-list" class="stack"></div>
+  </section>
+
+  <section id="section-questions" class="workspace-section" data-title="Open Questions" hidden>
+    <h1 class="section-title">Open Questions</h1>
+    <input type="search" class="filter-input" data-filter-target="questions-list" placeholder="Filter questions..." />
+    <div id="questions-count" class="section-count"></div>
+    <div id="questions-list" class="stack"></div>
+  </section>
+
+  <section id="section-threads" class="workspace-section" data-title="Investigation Threads" hidden>
+    <h1 class="section-title">Investigation Threads</h1>
+    <input type="search" class="filter-input" data-filter-target="threads-list" placeholder="Filter threads..." />
+    <div id="threads-count" class="section-count"></div>
+    <div id="threads-list" class="stack"></div>
+  </section>
+
+  <section id="section-decisions" class="workspace-section" data-title="Decision Register" hidden>
+    <h1 class="section-title">Decision Register</h1>
+    <p class="section-intro">Operating decisions made during this investigation and why - tooling constraints, evidentiary policy, and corrections to earlier work. Distinct from Evidence: this is a record of investigator judgment calls, not facts about the case itself.</p>
+    <input type="search" class="filter-input" data-filter-target="decisions-list" placeholder="Filter decisions..." />
+    <div id="decisions-count" class="section-count"></div>
+    <div id="decisions-list" class="stack"></div>
+  </section>
+
+  <section id="section-searchlog" class="workspace-section" data-title="Search Log" hidden>
+    <h1 class="section-title">Search Log</h1>
+    <p class="section-intro">Every search run during evidence collection, logged regardless of outcome - including searches that found nothing relevant, per this investigation's honesty standard (spec section 7).</p>
+    <input type="search" class="filter-input" data-filter-target="searchlog-list" placeholder="Filter search log..." />
+    <div id="searchlog-count" class="section-count"></div>
+    <div id="searchlog-list" class="stack"></div>
+  </section>
+
+  <section id="section-relationships" class="workspace-section" data-title="Relationship Map" hidden>
+    <h1 class="section-title">Relationship Map</h1>
+    <p class="section-intro">Computed from the cross-reference fields already recorded on each register - not a separate stored register.</p>
+    <input type="search" class="filter-input" data-filter-target="relationships-list" placeholder="Filter relationships..." />
+    <div id="relationships-count" class="section-count"></div>
+    <div id="relationships-list" class="stack"></div>
+
+    <h2 class="section-subtitle">Diagrams</h2>
+    <p class="section-intro">One flowchart per Investigation Thread - the thread, its supporting evidence, and that evidence's own links onward - plus thread dependencies. Drawn live from the data above, so it's always current.</p>
+    <div id="relationship-diagrams" class="stack"></div>
+  </section>
+
+  <section id="section-notes" class="workspace-section" data-title="Investigation Notes" hidden>
+    <div class="section-title-row">
+      <h1 class="section-title">Investigation Notes</h1>
+      <span class="live-badge" id="notes-live-badge">● Live</span>
+    </div>
+    <p class="section-intro">Working log of research in progress - what's currently being checked and what's been found, in the order it happened. Most recent first.</p>
+    <input type="search" class="filter-input" data-filter-target="notes-list" placeholder="Filter notes..." />
+    <div id="notes-count" class="section-count"></div>
+    <div id="notes-list" class="stack"></div>
+  </section>
+
+  <div id="load-error" class="load-error" hidden></div>
+
+</main>
+
+<footer class="app-footer">
+  <div id="footer-versions"></div>
+  <div id="footer-loaded"></div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

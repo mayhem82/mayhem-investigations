@@ -2,17 +2,17 @@
   'use strict';
 
   var DATA_PATHS = {
-    case: 'data/case.json',
-    evidence: 'data/evidence_register.json',
-    sources: 'data/source_register.json',
-    chronology: 'data/chronology.json',
-    contradictions: 'data/contradictions.json',
-    questions: 'data/open_questions.json',
-    threads: 'data/threads.json',
-    automationLog: 'data/automation_log.json',
-    notes: 'data/investigation_notes.json',
-    decisions: 'data/decisions.json',
-    searchLog: 'data/search_log.json',
+    case: '../../../data/case.json',
+    evidence: '../../../data/evidence_register.json',
+    sources: '../../../data/source_register.json',
+    chronology: '../../../data/chronology.json',
+    contradictions: '../../../data/contradictions.json',
+    questions: '../../../data/open_questions.json',
+    threads: '../../../data/threads.json',
+    automationLog: '../../../data/automation_log.json',
+    notes: '../../../data/investigation_notes.json',
+    decisions: '../../../data/decisions.json',
+    searchLog: '../../../data/search_log.json',
   };
 
   var NOTES_REFRESH_INTERVAL_MS = 15000;

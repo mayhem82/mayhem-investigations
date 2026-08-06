@@ -11,7 +11,7 @@ investigation repository follows, independent of subject matter or
 implementation technology. Read [`SPEC.md`](SPEC.md) first if you're
 starting a new investigation rather than continuing this one.
 
-Its sole operational purpose is the active case:
+Its current active case:
 
 **DFAPTI-BB-2026-00001** — Willawarrin / Bellbrook Recurring Drinking Water Failure
 
@@ -19,6 +19,17 @@ The repository *is* the investigation: evidence, chronology, contradictions,
 open questions, and thread status are stored as append-only data files
 directly in this repo, not in separate documents. See
 [`docs/DATA_MODEL.md`](docs/DATA_MODEL.md) for the field-level schema.
+
+Every case runs the same six-stage site structure - evidence, analysis,
+cross-pattern view, forward assessment, formal complaint, how to use it -
+under `cases/<CASE-ID>/`, so the structure doesn't need re-deriving each
+time a case is added. **The evidence data layer (`data/`) is currently
+single-case** - it holds DFAPTI-BB-2026-00001's registers at the repository
+root, per the spec this repo implements. Adding a second case means
+deciding then whether `data/` moves under `cases/<CASE-ID>/data/` (and
+updating `scripts/validate.js`'s `DATA_DIR` and every fetch path
+accordingly) or whether the second case gets its own repository instead -
+not assumed here.
 
 ## Repository layout
 
@@ -57,12 +68,41 @@ scripts/
   generate-relationship-map.js  Regenerate docs/RELATIONSHIP_MAP.md from the
                          same cross-reference logic app.js uses live
                          (section 14/31)
-index.html, app.js,     Mobile-first Visual Workspace, including the
-style.css                Relationship Map and Investigation Notes
-                         (spec sections 14-15, 19) - served from the
-                         repository root so the workspace is the site's
-                         main page, not a subpage
+style.css                Shared stylesheet for every page below
+index.html               Case list - the site root, links into each case
+cases/
+  DFAPTI-BB-2026-00001/  One case, six stages, plus its own gate page
+    index.html           Case gate page - links to the six stages below
+    dfapti/              Stage 1 (evidence): app.js + index.html, the
+                         Mobile-first Visual Workspace - Resume, Case
+                         Overview, Evidence Register, Chronology, Source
+                         Register, Contradiction Register, Open Questions,
+                         Investigation Threads, Relationship Map, and
+                         Investigation Notes (spec sections 14-15, 19).
+                         Fetches data/ three levels up (repository root).
+    dfapta/              Stage 2 (analysis): patterns read across the
+                         evidence register, not new evidence
+    lattice-atlas/       Stage 3: cross-thread pattern view over this
+                         case's own evidence
+    temporal-projection-integrity-engine/
+                         Stage 4: forward assessment, framed as reasoned
+                         judgement with its evidentiary basis stated, not
+                         as a certainty score
+    enforcement-notice/  Stage 5: the submission-ready formal complaint
+    advocacy-package/    Stage 6: recipients, how to submit, how to log
+                         responses, and how to verify any finding yourself
 ```
+
+Adding a case: create `cases/<CASE-ID>/` with the same six stage
+directories and a case-level `index.html` (copy an existing case's and
+adjust), then add a card for it to the root `index.html`. See the note
+above about `data/` before assuming the new case's evidence lives at the
+repository root the same way.
+
+Each stage is a self-contained page under `cases/<CASE-ID>/`, sharing the
+root `style.css` and linked from a consistent top nav bar (All Cases → this
+case → the six stages). `index.html` at the repository root is the case
+list, not any one case's workspace.
 
 ## Validating the data
 
@@ -82,10 +122,11 @@ closed questions must cite resolving evidence). It never modifies data.
 
 ## Viewing the workspace
 
-**Live:** every push to `main` deploys the workspace to GitHub Pages
+**Live:** every push to `main` deploys the whole site to GitHub Pages
 (`.github/workflows/deploy-pages.yml`) at
-**https://mayhem82.github.io/mayhem-investigations/** - the workspace itself
-*is* that page, not something you're redirected to.
+**https://mayhem82.github.io/mayhem-investigations/** - the case list.
+DFAPTI-BB-2026-00001's evidence workspace itself is at
+**https://mayhem82.github.io/mayhem-investigations/cases/DFAPTI-BB-2026-00001/dfapti/**.
 
 **Locally:** the workspace fetches the JSON files in `data/` at runtime, so
 it must be served over HTTP (not opened as a `file://` page). From the
@@ -95,7 +136,9 @@ repository root:
 python -m http.server 8123
 ```
 
-then open `http://localhost:8123/` in a browser. It is designed
+then open `http://localhost:8123/` for the case list, or
+`http://localhost:8123/cases/DFAPTI-BB-2026-00001/dfapti/` directly for the
+workspace. It is designed
 mobile-first: stacked layouts, no horizontal scrolling, expandable records.
 The workspace opens on a **Resume** view (spec section 19) summarizing the
 latest state of every register, with one-tap links into the full registers.
