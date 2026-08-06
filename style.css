@@ -491,36 +491,6 @@ details.record[open] > summary::after {
   margin-top: 1rem;
 }
 
-/* Cross-module top navigation, shared by index.html and every module page */
-.module-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem;
-  padding: 0.5rem 0.75rem;
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
-  font-size: 0.82rem;
-}
-
-.module-nav a {
-  color: var(--text-muted);
-  text-decoration: none;
-  padding: 0.3rem 0.55rem;
-  border-radius: 0.3rem;
-  white-space: nowrap;
-}
-
-.module-nav a:hover {
-  background: var(--badge-bg);
-  color: var(--text);
-}
-
-.module-nav a[aria-current="page"] {
-  background: var(--accent);
-  color: var(--accent-contrast);
-  font-weight: 600;
-}
-
 /* Simple content pages (landing, DFAPTA, Lattice Atlas, TPIE, Enforcement
    Notice, Advocacy Package) that aren't the full DFAPTI data workspace */
 .doc-page {

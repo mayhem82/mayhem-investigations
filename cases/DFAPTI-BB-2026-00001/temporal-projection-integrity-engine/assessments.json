@@ -25,8 +25,8 @@
       "id": "TPA-003",
       "statement": "The missing 2019-2020 crisis-year water-quality report is unlikely to be located through further general web search.",
       "basis": "Multiple independent DFAPTI search passes have not located it, and the report series is independently documented as having unstable naming/URL conventions and at least one apparent publication gap (AR-005, AR-020).",
-      "confidence": "Reasonably supported for the specific method (web search); no basis for confidence about other methods",
-      "confidence_note": "Repeated negative search results narrow where the document probably isn't findable by search, but do not establish it doesn't exist - see the register's own Absence Capture discipline. A different method (a direct GIPA request to Council) has not been tried and isn't covered by this assessment.",
+      "confidence": "Reasonably supported (method-specific)",
+      "confidence_note": "Repeated negative search results narrow where the document probably isn't findable by search, but do not establish it doesn't exist. This label applies only to the \"further web search\" method - a different method (a direct GIPA request) has not been tried and this assessment says nothing about it.",
       "would_revise_this": "The document surfacing via any method, or Council confirming in writing that no such report was produced or retained."
     },
     {

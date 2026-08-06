@@ -1,40 +1,52 @@
 (function () {
   "use strict";
 
-  function esc(s) {
-    return String(s).replace(/[&<>]/g, function (c) {
-      return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c];
+  var el = MayhemDOM.el, kv = MayhemDOM.kv, recordCard = MayhemDOM.recordCard,
+      idTag = MayhemDOM.idTag, fetchJSON = MayhemDOM.fetchJSON;
+
+  function renderOverview(d) {
+    var target = document.getElementById("overview-content");
+    target.innerHTML = "";
+    target.appendChild(el("div", { class: "card stack" }, [
+      kv("Cycle", d.cycle),
+      kv("Generated", d.generated),
+      kv("Basis", d.basis_note),
+      kv("Analysing", el("a", { href: "../dfapti/index.html" }, [d.dfapti_case_id])),
+    ]));
+  }
+
+  function renderPatterns(list) {
+    var container = document.getElementById("patterns-list");
+    document.getElementById("patterns-count").textContent = list.length + " pattern(s)";
+    container.innerHTML = "";
+    list.forEach(function (p) {
+      container.appendChild(recordCard(
+        p.id,
+        el("span", {}, [idTag(p.id), " — " + p.title]),
+        "Threads: " + (p.threads_involved || []).join(", "),
+        [kv("Description", p.description), kv("Basis", p.basis)]
+      ));
     });
   }
 
-  function fetchJSON(path) {
-    return fetch(path, { cache: "no-store" }).then(function (res) {
-      if (!res.ok) throw new Error("Failed to load " + path + ": " + res.status);
-      return res.json();
-    });
-  }
-
-  function renderPattern(p) {
-    var threads = (p.threads_involved || []).join(", ");
-    return (
-      '<div class="card">' +
-      "<h3>" + esc(p.id) + " — " + esc(p.title) + "</h3>" +
-      '<p class="doc-subtitle">Threads: ' + esc(threads) + "</p>" +
-      "<p>" + esc(p.description) + "</p>" +
-      '<p class="doc-subtitle"><strong>Basis:</strong> ' + esc(p.basis) + "</p>" +
-      "</div>"
-    );
+  function renderNotClaimed(list) {
+    var target = document.getElementById("not-claimed-list");
+    target.innerHTML = "";
+    target.appendChild(el("div", { class: "card" }, [el("ul", {}, list.map(function (t) { return el("li", {}, [t]); }))]));
   }
 
   function main() {
     fetchJSON("patterns.json").then(function (d) {
-      document.getElementById("basis-note").textContent = d.basis_note;
-      document.getElementById("patterns").innerHTML = d.patterns.map(renderPattern).join("\n");
-      document.getElementById("not-claimed").innerHTML = d.not_claimed.map(function (t) {
-        return "<li>" + esc(t) + "</li>";
-      }).join("\n");
+      document.title = "MAYHEM - Lattice Atlas - " + d.dfapti_case_id;
+      renderOverview(d);
+      renderPatterns(d.patterns);
+      renderNotClaimed(d.not_claimed);
+      document.getElementById("footer-loaded").textContent = "Loaded " + new Date().toLocaleString();
+      MayhemShell.init({ sections: ["overview", "patterns", "not-claimed"], defaultSection: "overview" });
     }).catch(function (err) {
-      document.getElementById("basis-note").textContent = "Failed to load: " + err.message;
+      var box = document.getElementById("load-error");
+      box.hidden = false;
+      box.textContent = "Failed to load patterns.json: " + err.message;
     });
   }
 

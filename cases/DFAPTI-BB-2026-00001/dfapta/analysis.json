@@ -1794,28 +1794,47 @@
       "issue": "Willawarrin population: ~130 versus ~180/183",
       "status": "OPEN",
       "analysis": "Likely service-population versus locality-population denominators; definitions not published.",
-      "anchors": "EV-0005, EV-0006, EV-0016, EV-0036, EV-0071"
+      "anchors": [
+        "EV-0005",
+        "EV-0006",
+        "EV-0016",
+        "EV-0036",
+        "EV-0071"
+      ]
     },
     {
       "id": "CDR-002",
       "issue": "Bellbrook 2008 cartage event",
       "status": "OPEN",
       "analysis": "Preserved derivative source supports the event; independent contemporaneous corroboration remains absent.",
-      "anchors": "EV-0044, EV-0046, EV-0055"
+      "anchors": [
+        "EV-0044",
+        "EV-0046",
+        "EV-0055"
+      ]
     },
     {
       "id": "CDR-003",
       "issue": "Iron/manganese crisis language versus later measured data",
       "status": "OPEN AS PERIOD DIFFERENCE",
       "analysis": "2019-2020 descriptive unsafe-level reporting and 2020-2021 measured aesthetic/operational results concern different periods and programs.",
-      "anchors": "EV-0001, EV-0002, EV-0031, EV-0035"
+      "anchors": [
+        "EV-0001",
+        "EV-0002",
+        "EV-0031",
+        "EV-0035"
+      ]
     },
     {
       "id": "CDR-004",
       "issue": "Willawarrin cartage: 240 days versus approximately 2 Oct 2019-18 Jun 2020 span",
       "status": "OPEN",
       "analysis": "May reflect intermittent versus calendar-period definitions; no reconciliation record.",
-      "anchors": "EV-0024, EV-0061, CHR-0002"
+      "anchors": [
+        "EV-0024",
+        "EV-0061",
+        "CHR-0002"
+      ]
     },
     {
       "id": "CDR-005",
@@ -1841,7 +1860,10 @@
       "issue": "Bellbrook naming 1882 versus gazettal 1892",
       "status": "OPEN — NON-CORE",
       "analysis": "Both may be true for postal naming and formal gazettal; not resolved.",
-      "anchors": "EV-0018, EV-0056"
+      "anchors": [
+        "EV-0018",
+        "EV-0056"
+      ]
     },
     {
       "id": "CDR-008",
@@ -1870,17 +1892,8 @@
       "status": "PARTIALLY RESOLVED",
       "analysis": "Later evidence distinguishes construction, testing, commissioning and operation; final operation still unresolved.",
       "anchors": [
-        "E",
-        "V",
-        "-",
-        "0",
-        "6",
-        ",",
-        " ",
-        "8",
-        "7",
-        "2",
-        "5"
+        "EV-0006",
+        "EV-0068"
       ]
     }
   ],

@@ -3,51 +3,105 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>DFAPTA — DFAPTI-BB-2026-00001</title>
+<title>MAYHEM - DFAPTA - DFAPTI-BB-2026-00001</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
-<link rel="stylesheet" href="../../style.css" />
+<link rel="stylesheet" href="../../../style.css" />
 </head>
 <body>
 
-<nav class="module-nav" aria-label="Case navigation">
-  <a href="../../index.html">All Cases</a>
-  <a href="../index.html">DFAPTI-BB-2026-00001</a>
-  <a href="../dfapti/index.html">DFAPTI</a>
-  <a href="../dfapta/index.html" aria-current="page">DFAPTA</a>
-  <a href="../lattice-atlas/index.html">Lattice Atlas</a>
-  <a href="../temporal-projection-integrity-engine/index.html">Temporal Projection Integrity Engine</a>
-  <a href="../enforcement-notice/index.html">Enforcement Notice</a>
-  <a href="../advocacy-package/index.html">Advocacy Package</a>
+<header class="app-header">
+  <div class="app-header-row">
+    <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="nav-drawer">
+      <span class="menu-icon" aria-hidden="true">&#9776;</span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <div class="app-header-title">
+      <div class="app-name">MAYHEM &middot; DFAPTA</div>
+      <div class="case-id" id="header-case-id">DFAPTI-BB-2026-00001</div>
+    </div>
+  </div>
+</header>
+
+<nav id="nav-drawer" class="nav-drawer" aria-label="DFAPTA sections" hidden>
+  <ul class="nav-list">
+    <li><button class="nav-link" data-section="overview">Overview</button></li>
+    <li><button class="nav-link" data-section="verification">RUN-0064 Reconciliation</button></li>
+    <li><button class="nav-link" data-section="paths">Analysis Paths</button></li>
+    <li><button class="nav-link" data-section="cpo">Cross-Path Observations</button></li>
+    <li><button class="nav-link" data-section="contradictions">Contradictions</button></li>
+    <li><button class="nav-link" data-section="disclosure">Disclosure Requests</button></li>
+    <li><button class="nav-link" data-section="overreach">Overreach Controls</button></li>
+  </ul>
+  <ul class="nav-list">
+    <li><a class="nav-link" href="../index.html">&larr; DFAPTI-BB-2026-00001 (case)</a></li>
+    <li><a class="nav-link" href="../dfapti/index.html">DFAPTI</a></li>
+    <li><a class="nav-link" href="../lattice-atlas/index.html">Lattice Atlas</a></li>
+    <li><a class="nav-link" href="../temporal-projection-integrity-engine/index.html">Temporal Projection Integrity Engine</a></li>
+    <li><a class="nav-link" href="../enforcement-notice/index.html">Enforcement Notice</a></li>
+    <li><a class="nav-link" href="../advocacy-package/index.html">Advocacy Package</a></li>
+  </ul>
 </nav>
 
-<main class="doc-page">
-  <h1>DFAPTA — Analysis</h1>
-  <p class="doc-subtitle">Stage 2 of 6. Reads across the DFAPTI evidence register for patterns, contradictions, and
-  open questions. Adds no new evidence — every path states what it does and does not conclude.</p>
+<div id="nav-scrim" class="nav-scrim" hidden></div>
 
-  <div id="meta"></div>
+<main id="main-content">
 
-  <h2>Reconciliation of the RUN-0064 supplement</h2>
-  <div id="verification"></div>
+  <section id="section-overview" class="workspace-section" data-title="Overview">
+    <h1 class="section-title">DFAPTA — Overview</h1>
+    <p class="section-intro">Stage 2 of 6. Reads across the DFAPTI evidence register for patterns, contradictions,
+    and open questions. Adds no new evidence — every path states what it does and does not conclude.</p>
+    <div id="overview-content" class="stack"></div>
+  </section>
 
-  <h2>Analysis paths</h2>
-  <div id="paths"></div>
+  <section id="section-verification" class="workspace-section" data-title="RUN-0064 Reconciliation" hidden>
+    <h1 class="section-title">Reconciliation of the RUN-0064 Supplement</h1>
+    <p class="section-intro">An external supplement proposed six findings after a GitHub write failure. Each was
+    checked against the live register before this cycle was written.</p>
+    <div id="verification-content" class="stack"></div>
+  </section>
 
-  <h2>Cross-path observations</h2>
-  <ul id="cpo"></ul>
+  <section id="section-paths" class="workspace-section" data-title="Analysis Paths" hidden>
+    <h1 class="section-title">Analysis Paths</h1>
+    <input type="search" class="filter-input" data-filter-target="paths-list" placeholder="Filter paths..." />
+    <div id="paths-count" class="section-count"></div>
+    <div id="paths-list" class="stack"></div>
+  </section>
 
-  <h2>Contradictions preserved</h2>
-  <div id="contradictions"></div>
+  <section id="section-cpo" class="workspace-section" data-title="Cross-Path Observations" hidden>
+    <h1 class="section-title">Cross-Path Observations</h1>
+    <div id="cpo-count" class="section-count"></div>
+    <div id="cpo-list" class="stack"></div>
+  </section>
 
-  <h2>Disclosure requests</h2>
-  <p>Specific information this analysis identifies as missing from the public record — a request, not a demand.</p>
-  <ul id="disclosure"></ul>
+  <section id="section-contradictions" class="workspace-section" data-title="Contradictions" hidden>
+    <h1 class="section-title">Contradictions Preserved</h1>
+    <div id="contradictions-count" class="section-count"></div>
+    <div id="contradictions-list" class="stack"></div>
+  </section>
 
-  <h2>Overreach controls</h2>
-  <p>Conclusions this analysis explicitly does not draw.</p>
-  <ul id="overreach"></ul>
+  <section id="section-disclosure" class="workspace-section" data-title="Disclosure Requests" hidden>
+    <h1 class="section-title">Disclosure Requests</h1>
+    <p class="section-intro">Specific information this analysis identifies as missing from the public record — a
+    request, not a demand.</p>
+    <div id="disclosure-list" class="stack"></div>
+  </section>
+
+  <section id="section-overreach" class="workspace-section" data-title="Overreach Controls" hidden>
+    <h1 class="section-title">Overreach Controls</h1>
+    <p class="section-intro">Conclusions this analysis explicitly does not draw.</p>
+    <div id="overreach-list" class="stack"></div>
+  </section>
+
+  <div id="load-error" class="load-error" hidden></div>
+
 </main>
 
+<footer class="app-footer">
+  <div id="footer-loaded"></div>
+</footer>
+
+<script src="../../../shared-dom.js"></script>
+<script src="../../../shared-shell.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

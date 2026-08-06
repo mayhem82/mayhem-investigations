@@ -1,49 +1,56 @@
 (function () {
   "use strict";
 
-  function esc(s) {
-    return String(s).replace(/[&<>]/g, function (c) {
-      return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c];
+  var el = MayhemDOM.el, badge = MayhemDOM.badge, kv = MayhemDOM.kv,
+      recordCard = MayhemDOM.recordCard, idTag = MayhemDOM.idTag, fetchJSON = MayhemDOM.fetchJSON;
+
+  function renderOverview(d) {
+    var target = document.getElementById("overview-content");
+    target.innerHTML = "";
+    target.appendChild(el("div", { class: "card stack" }, [
+      kv("Cycle", d.cycle),
+      kv("Generated", d.generated),
+      kv("Purpose", d.purpose_note),
+      kv("Analysing", el("a", { href: "../dfapti/index.html" }, [d.dfapti_case_id])),
+    ]));
+  }
+
+  function renderAssessments(list) {
+    var container = document.getElementById("assessments-list");
+    document.getElementById("assessments-count").textContent = list.length + " assessment(s)";
+    container.innerHTML = "";
+    list.forEach(function (a) {
+      container.appendChild(recordCard(
+        a.id,
+        el("span", {}, [idTag(a.id), " — ", badge(a.confidence)]),
+        a.statement,
+        [
+          kv("Basis", a.basis),
+          kv("On This Confidence Label", a.confidence_note),
+          kv("Would Revise This", a.would_revise_this),
+        ]
+      ));
     });
   }
 
-  function fetchJSON(path) {
-    return fetch(path, { cache: "no-store" }).then(function (res) {
-      if (!res.ok) throw new Error("Failed to load " + path + ": " + res.status);
-      return res.json();
-    });
-  }
-
-  var CONF_CLASS = {
-    "Well-supported": "resolved",
-    "Reasonably supported": "partial",
-    "Reasonably supported for the specific method (web search); no basis for confidence about other methods": "partial",
-    "Weakly supported": "open"
-  };
-
-  function renderAssessment(a) {
-    var cls = CONF_CLASS[a.confidence] || "partial";
-    return (
-      '<div class="card">' +
-      "<h3>" + esc(a.id) + "</h3>" +
-      '<div class="status-line"><span class="badge ' + cls + '">' + esc(a.confidence) + "</span></div>" +
-      "<p>" + esc(a.statement) + "</p>" +
-      "<p><strong>Basis:</strong> " + esc(a.basis) + "</p>" +
-      "<p><strong>On this confidence label:</strong> " + esc(a.confidence_note) + "</p>" +
-      '<div class="caveat"><strong>Would revise this:</strong> ' + esc(a.would_revise_this) + "</div>" +
-      "</div>"
-    );
+  function renderNotClaimed(list) {
+    var target = document.getElementById("not-claimed-list");
+    target.innerHTML = "";
+    target.appendChild(el("div", { class: "card" }, [el("ul", {}, list.map(function (t) { return el("li", {}, [t]); }))]));
   }
 
   function main() {
     fetchJSON("assessments.json").then(function (d) {
-      document.getElementById("purpose-note").textContent = d.purpose_note;
-      document.getElementById("assessments").innerHTML = d.assessments.map(renderAssessment).join("\n");
-      document.getElementById("not-claimed").innerHTML = d.not_claimed.map(function (t) {
-        return "<li>" + esc(t) + "</li>";
-      }).join("\n");
+      document.title = "MAYHEM - Temporal Projection Integrity Engine - " + d.dfapti_case_id;
+      renderOverview(d);
+      renderAssessments(d.assessments);
+      renderNotClaimed(d.not_claimed);
+      document.getElementById("footer-loaded").textContent = "Loaded " + new Date().toLocaleString();
+      MayhemShell.init({ sections: ["overview", "assessments", "not-claimed"], defaultSection: "overview" });
     }).catch(function (err) {
-      document.getElementById("purpose-note").textContent = "Failed to load: " + err.message;
+      var box = document.getElementById("load-error");
+      box.hidden = false;
+      box.textContent = "Failed to load assessments.json: " + err.message;
     });
   }
 

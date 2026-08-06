@@ -1,99 +1,145 @@
 (function () {
   "use strict";
 
-  function esc(s) {
-    return String(s).replace(/[&<>]/g, function (c) {
-      return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c];
-    });
+  var el = MayhemDOM.el, badge = MayhemDOM.badge, idTag = MayhemDOM.idTag, kv = MayhemDOM.kv,
+      emptyState = MayhemDOM.emptyState, recordCard = MayhemDOM.recordCard, tagList = MayhemDOM.tagList,
+      setFilterable = MayhemDOM.setFilterable, fetchJSON = MayhemDOM.fetchJSON;
+
+  function evidenceLink(id) {
+    var a = el("a", { class: "tag-chip-link tag-chip", href: "../dfapti/index.html#evidence/" + id }, [id]);
+    return a;
   }
 
-  function fetchJSON(path) {
-    return fetch(path, { cache: "no-store" }).then(function (res) {
-      if (!res.ok) throw new Error("Failed to load " + path + ": " + res.status);
-      return res.json();
-    });
-  }
-
-  function renderMeta(d) {
-    document.getElementById("meta").innerHTML =
-      '<div class="status-line">' +
-      '<span class="badge ' + d.status.toLowerCase() + '">' + esc(d.status) + "</span>" +
-      '<span class="badge">Cycle ' + esc(d.cycle) + "</span>" +
-      '<span class="badge">' + esc(d.counts.analysis_paths) + " paths</span>" +
-      '<span class="badge">' + esc(d.counts.analytical_determinations) + " determinations</span>" +
-      "</div>" +
-      "<p>" + esc(d.evidence_basis_note) + "</p>" +
-      '<p>Commenced ' + esc(d.analysis_commenced) + " · analysing <a href=\"../dfapti/index.html\">" + esc(d.dfapti_case_id) + "</a></p>";
+  function renderOverview(d) {
+    var target = document.getElementById("overview-content");
+    target.innerHTML = "";
+    var card = el("div", { class: "card stack" }, [
+      kv("Status", badge(d.status)),
+      kv("Cycle", d.cycle),
+      kv("Analysis Commenced", d.analysis_commenced),
+      kv("Analysing", el("a", { href: "../dfapti/index.html" }, [d.dfapti_case_id])),
+      kv("Evidence Basis", d.evidence_basis_note),
+      kv("Paths", d.counts.analysis_paths),
+      kv("Determinations", d.counts.analytical_determinations),
+      kv("Evidence Anchors Referenced", d.counts.evidence_anchors_referenced),
+    ]);
+    target.appendChild(card);
   }
 
   function renderVerification(va) {
+    var target = document.getElementById("verification-content");
+    target.innerHTML = "";
     if (!va) {
-      document.getElementById("verification").innerHTML = "<p>No external material reconciled this cycle.</p>";
+      target.appendChild(emptyState("No external material reconciled this cycle."));
       return;
     }
-    var rows = (va.outcomes || []).map(function (o) {
-      return "<tr><td>" + esc(o.proposed_claim) + "</td><td>" + esc(o.finding) + "</td><td>" + esc(o.action) + "</td></tr>";
-    }).join("");
-    document.getElementById("verification").innerHTML =
-      "<p>" + esc(va.summary) + "</p>" +
-      "<table><thead><tr><th>Proposed claim</th><th>What was found</th><th>Action taken</th></tr></thead><tbody>" +
-      rows + "</tbody></table>";
+    target.appendChild(el("p", {}, [va.summary]));
+    (va.outcomes || []).forEach(function (o, i) {
+      target.appendChild(recordCard(
+        "RUN0064-" + i,
+        o.proposed_claim,
+        null,
+        [
+          kv("Finding", o.finding),
+          kv("Action Taken", o.action),
+        ]
+      ));
+    });
   }
 
-  function renderPath(p) {
-    var det = (p.determinations || []).map(function (d) {
-      return "<li><strong>" + esc(d[0]) + "</strong> — " + esc(d[1]) + "</li>";
-    }).join("");
-    var mech = (p.mechanisms || []).map(function (m) {
-      return "<li><strong>" + esc(m[0]) + "</strong> — <span class=\"badge\">" + esc(m[1]) + "</span><br>" + esc(m[2]) + "</li>";
-    }).join("");
-    var analysis = (p.analysis || []).map(function (t) { return "<p>" + esc(t) + "</p>"; }).join("");
-    var anchors = (p.anchors || []).map(function (a) {
-      return '<a href="../dfapti/index.html#evidence/' + esc(a) + '">' + esc(a) + "</a>";
-    }).join(", ");
-    return (
-      '<div class="card">' +
-      "<h3>" + esc(p.id) + " — " + esc(p.title) + "</h3>" +
-      analysis +
-      (det ? "<p><strong>Determinations</strong></p><ul>" + det + "</ul>" : "") +
-      (mech ? "<p><strong>Named patterns considered</strong></p><ul>" + mech + "</ul>" : "") +
-      (anchors ? '<p class="doc-subtitle">Evidence anchors: ' + anchors + "</p>" : "") +
-      '<div class="caveat"><strong>Boundary:</strong> ' + esc(p.boundary) + "</div>" +
-      "</div>"
-    );
+  function renderPaths(paths) {
+    var container = document.getElementById("paths-list");
+    document.getElementById("paths-count").textContent = paths.length + " path(s)";
+    container.innerHTML = "";
+    paths.forEach(function (p) {
+      var body = [];
+      p.analysis.forEach(function (t) { body.push(el("p", {}, [t])); });
+      if (p.determinations && p.determinations.length) {
+        body.push(kv("Determinations", el("ul", {}, p.determinations.map(function (d) {
+          return el("li", {}, [el("strong", {}, [d[0]]), " — " + d[1]]);
+        }))));
+      }
+      if (p.mechanisms && p.mechanisms.length) {
+        body.push(kv("Named Patterns Considered", el("ul", {}, p.mechanisms.map(function (m) {
+          return el("li", {}, [el("strong", {}, [m[0]]), " — ", badge(m[1]), el("div", {}, [m[2]])]);
+        }))));
+      }
+      body.push(kv("Evidence Anchors", tagList(p.anchors, evidenceLink)));
+      body.push(kv("Boundary", p.boundary));
+      container.appendChild(recordCard(p.id, el("span", {}, [idTag(p.id), " — " + p.title]), null, body));
+    });
   }
 
-  function renderContradiction(c) {
-    var resolved = /^(RESOLVED|NOT ESTABLISHED|PARTIALLY RESOLVED)/.test(c.status);
-    var cls = c.status === "OPEN" ? "open" : resolved ? "resolved" : "partial";
-    return (
-      '<div class="card">' +
-      "<h3>" + esc(c.id) + " — " + esc(c.issue) + "</h3>" +
-      '<div class="status-line"><span class="badge ' + cls + '">' + esc(c.status) + "</span></div>" +
-      "<p>" + esc(c.analysis) + "</p>" +
-      '<p class="doc-subtitle">Anchors: ' + esc(Array.isArray(c.anchors) ? c.anchors.join(", ") : c.anchors) + "</p>" +
-      "</div>"
-    );
+  function renderCPO(list) {
+    var container = document.getElementById("cpo-list");
+    document.getElementById("cpo-count").textContent = list.length + " observation(s)";
+    container.innerHTML = "";
+    list.forEach(function (c) {
+      container.appendChild(recordCard(
+        c.id,
+        el("span", {}, [idTag(c.id), " — " + c.title]),
+        null,
+        [kv("Analysis", c.analysis), kv("Anchors", typeof c.anchors === "string" ? c.anchors : c.anchors.join(", "))]
+      ));
+    });
+  }
+
+  function renderContradictions(list) {
+    var container = document.getElementById("contradictions-list");
+    document.getElementById("contradictions-count").textContent = list.length + " item(s)";
+    container.innerHTML = "";
+    list.forEach(function (c) {
+      container.appendChild(recordCard(
+        c.id,
+        el("span", {}, [idTag(c.id), " — " + c.issue]),
+        null,
+        [
+          kv("Status", badge(c.status)),
+          kv("Analysis", c.analysis),
+          kv("Anchors", tagList(c.anchors, evidenceLink)),
+        ]
+      ));
+    });
+  }
+
+  function renderDisclosure(list) {
+    var target = document.getElementById("disclosure-list");
+    target.innerHTML = "";
+    list.forEach(function (r) {
+      target.appendChild(recordCard(r.id, el("span", {}, [idTag(r.id), " — " + r.title]), null, [kv("Request", r.request)]));
+    });
+  }
+
+  function renderOverreach(list) {
+    var target = document.getElementById("overreach-list");
+    target.innerHTML = "";
+    var card = el("div", { class: "card" }, [el("ul", {}, list.map(function (o) { return el("li", {}, [o]); }))]);
+    target.appendChild(card);
   }
 
   function main() {
     fetchJSON("analysis.json").then(function (d) {
-      document.title = d.analysis_id + " — DFAPTA";
-      renderMeta(d);
+      document.title = "MAYHEM - DFAPTA - " + d.dfapti_case_id;
+      renderOverview(d);
       renderVerification(d.verification_addendum);
-      document.getElementById("paths").innerHTML = d.paths.map(renderPath).join("\n");
-      document.getElementById("cpo").innerHTML = d.cross_path_observations.map(function (c) {
-        return "<li><strong>" + esc(c.title) + "</strong> — " + esc(c.analysis) + "</li>";
-      }).join("\n");
-      document.getElementById("contradictions").innerHTML = d.contradictions_preserved.map(renderContradiction).join("\n");
-      document.getElementById("disclosure").innerHTML = d.disclosure_requests.map(function (r) {
-        return "<li><strong>" + esc(r.title) + "</strong> — " + esc(r.request) + "</li>";
-      }).join("\n");
-      document.getElementById("overreach").innerHTML = d.overreach_controls.map(function (o) {
-        return "<li>" + esc(o) + "</li>";
-      }).join("\n");
+      renderPaths(d.paths);
+      renderCPO(d.cross_path_observations);
+      renderContradictions(d.contradictions_preserved);
+      renderDisclosure(d.disclosure_requests);
+      renderOverreach(d.overreach_controls);
+
+      setFilterable("paths-list", function (node) { return node.textContent; });
+
+      document.getElementById("footer-loaded").textContent = "Loaded " + new Date().toLocaleString();
+
+      MayhemShell.init({
+        sections: ["overview", "verification", "paths", "cpo", "contradictions", "disclosure", "overreach"],
+        defaultSection: "overview",
+      });
     }).catch(function (err) {
-      document.getElementById("meta").innerHTML = '<p class="caveat">Failed to load analysis: ' + esc(err.message) + "</p>";
+      var box = document.getElementById("load-error");
+      box.hidden = false;
+      box.textContent = "Failed to load analysis.json: " + err.message;
     });
   }
 
