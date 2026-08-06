@@ -1440,5 +1440,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Dated 25 August 2023 per the URL. Reports Council switched the Kempsey-Lower Macleay network's primary source from the Sherwood Borefield to the Steuart McIntyre Dam as Macleay River flows dropped close to the Level 1 water-restriction trigger point, while continuing to pump up to 8.5 ML/day from Sherwood Borefield to supplement the dam. Bridges the chronology gap between normal conditions and the already-registered 16 October 2023 Level 1 restrictions (EV-0069/CHR-0031), showing the drought's progression over roughly seven weeks. Does not mention Willawarrin, Bellbrook, or village water carting."
+  },
+  {
+    "source_id": "SRC-0104",
+    "authority": "Kempsey Shire Council",
+    "title": "The order of Kempsey candidates on the voting ballot decided",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20240815-Local-Government-ballot-draw-2024",
+    "first_checked": "2026-08-06",
+    "last_checked": "2026-08-06",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-15",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Dated 15 August 2024. A Kempsey-specific Council article covering the ballot draw for the 2024 local government election - 6 mayoral candidates (Arthur Bain, Charanjit Singh Bedi, Dean Saul, Troy Irwin, Simon Ferguson, Kinne Ring) and 5 councillor groups. Per search-engine summary, explicitly identifies the polling day as 14 September 2024. A further Kempsey-specific corroboration for Q-0006, alongside SRC-0081/SRC-0082, though still search-snippet-only and not sufficient alone to close the question under this investigation's established evidentiary bar."
+  },
+  {
+    "source_id": "SRC-0105",
+    "authority": "Kempsey Shire Council",
+    "title": "Calling all Tenderers for Wet & Dry Plant & Truck Hire (TQE23/61)",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20231130-Calling-all-Tenderers-for-Wet-Dry-Plant-Truck-Hire",
+    "first_checked": "2026-08-06",
+    "last_checked": "2026-08-06",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-02",
+    "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Dated 30 November 2023 (tender TQE23/61, closed 19 December 2023, released via eProcure). Council sought a panel of local plant/truck-hire contractors (preferably within the LGA or 100km of it) to supplement Council's own equipment for \"construction and maintenance of roads, footpaths, water, sewer assets\" - i.e. a general operational-works panel, not a dedicated water-carting contract. Registered as the closest primary mechanism found to date for how Council might source truck capacity for village water carting, though it does not name any Willawarrin/Bellbrook-specific carting work and should not be read as confirming which company actually performed any past carting episode. Consistent with, and does not resolve, THR-02's standing gap on who physically contracted/performed water carting historically."
   }
 ]

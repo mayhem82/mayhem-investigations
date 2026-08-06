@@ -2926,5 +2926,101 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 9,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0245",
+    "search_terms": "Bellbrook water treatment plant augmentation tender design 2023 2024 2025 Kempsey Shire Council",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-06",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0246",
+    "search_terms": "\"Calling all Tenderers for Wet\" \"Dry Plant\" \"Truck Hire\" Kempsey Shire Council November 2023 water",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-06",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0247",
+    "search_terms": "\"Your water questions answered\" Kempsey Shire Council Willawarrin Bellbrook FAQ",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-06",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0248",
+    "search_terms": "NSW Government Gazette 2024 Kempsey Shire Council mayor election Kinne Ring declared result",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-06",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0249",
+    "search_terms": "\"Order of candidates for 2024 Kempsey Shire election decided\" ballot draw September 14",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-06",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0250",
+    "search_terms": "Steuart McIntyre Dam plant progress update October November December 2025 January 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-06",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0251",
+    "search_terms": "\"20250519-Steuart-McIntyre-Dam-release\" OR \"$17.23 million\" Kempsey Steuart McIntyre Dam NSW Government funding",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-06",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0252",
+    "search_terms": "Willawarrin bore water treatment plant why not connected Kempsey Lower Macleay pipeline distance cost",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-06",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 1
   }
 ]

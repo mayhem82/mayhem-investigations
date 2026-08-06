@@ -1141,5 +1141,14 @@
     "related_thread": "THR-14",
     "related_source": null,
     "related_evidence": "EV-0071"
+  },
+  {
+    "note_id": "NOTE-0128",
+    "timestamp": "2026-08-06T00:00:00",
+    "activity_type": "Note",
+    "text": "RUN-0063: continued the \"all paths taken\" sweep (per DEC-0014) across Q-0002, Q-0005, Q-0006, THR-02, THR-06. Found two genuinely new sources: a Kempsey-specific ballot-draw article confirming 14 September 2024 as polling day (SRC-0104, strengthens but does not close Q-0006), and Council's general plant/truck-hire panel tender (SRC-0105, the closest primary mechanism yet found for sourcing carting capacity, though not carting-specific). Checked and set aside an inconsistent \"$17.23 million\" NSW Government funding figure for the Steuart McIntyre Dam project - could not attribute it to a specific document and it conflicts with the well-corroborated $13.2 million figure, so not registered, but flagged in THR-05 so it isn't re-investigated from scratch later. No new confirmation found for a Bellbrook WTP augmentation tender, recent Steuart McIntyre Dam construction progress (Oct 2025-Jan 2026), or the bore-vs-pipeline rationale (THR-06) - all remain genuinely search-exhausted.",
+    "related_thread": "THR-02",
+    "related_source": "SRC-0105",
+    "related_evidence": null
   }
 ]

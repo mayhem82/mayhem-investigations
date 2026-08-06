@@ -796,5 +796,16 @@
       "EV-0071"
     ],
     "notes": "Operator asked whether cartage was constant/continuous between documented crisis episodes. Searched the 2011-2018 and 2021-2022 gap years specifically - found nothing confirming or ruling out cartage in those windows (honest absence of evidence, not proof of absence). While investigating, re-mined SRC-0042's Supply Summary table and found a genuinely new, directly preserved corroboration of the operator's second-Bellbrook-plant lead: \"Ongoing planning of WTP augmentation\" for Bellbrook as of FY2020-21 (EV-0071) - substantially stronger sourcing than anything found via search in RUN-0054/RUN-0055."
+  },
+  {
+    "run_id": "RUN-0063",
+    "date": "2026-08-06",
+    "sources_checked": [
+      "SRC-0104",
+      "SRC-0105"
+    ],
+    "result": "New source added.",
+    "evidence_added": [],
+    "notes": "Continued the all-paths sweep across Q-0002, Q-0005, Q-0006, THR-02, THR-06. Found a Kempsey-specific ballot-draw article further corroborating 14 September 2024 (SRC-0104) and Council's general plant/truck-hire panel tender (SRC-0105), the closest primary mechanism yet found for water-carting capacity though not carting-specific. Checked and rejected an inconsistent, unattributable \"$17.23 million\" SMD funding figure. No confirmation found for a Bellbrook WTP augmentation tender, recent SMD construction progress, or the bore-vs-pipeline rationale."
   }
 ]
