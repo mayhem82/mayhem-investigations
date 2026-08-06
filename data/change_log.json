@@ -1115,5 +1115,27 @@
     ],
     "reason": "RUN-0063: registered 2 new sources - a Kempsey-specific ballot-draw article further corroborating Q-0006's 14 September 2024 date, and Council's general plant/truck-hire panel tender relevant to THR-02's carting-contractor question. Checked and rejected an unattributable \"$17.23 million\" SMD funding figure.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0072",
+    "date": "2026-08-06",
+    "author": "mayhem82",
+    "files_affected": [
+      ".github/workflows/validate.yml",
+      "data/change_log.json"
+    ],
+    "reason": "Added a CI workflow running node scripts/validate.js on every push/PR to main, so structural errors (bad IDs, broken cross-references, missing hashes) are caught automatically rather than relying solely on the pre-merge manual run. Declined a set of externally-suggested workflows (scheduled scraping, case_files/*.md frontmatter linting, a static SUMMARY.md generator) that assumed a repository structure this investigation does not use and would have either failed outright or run as a no-op against nonexistent paths.",
+    "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0073",
+    "date": "2026-08-06",
+    "author": "mayhem82",
+    "files_affected": [
+      "data/decisions.json",
+      "data/change_log.json"
+    ],
+    "reason": "Recorded DEC-0015: declined three externally-suggested GitHub Actions workflows that assumed a repository structure this investigation does not use, in favour of a real CI validation workflow (.github/workflows/validate.yml) matching this repo's actual structure.",
+    "validation_completed": true
   }
 ]

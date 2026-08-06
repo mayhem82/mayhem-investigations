@@ -150,5 +150,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Standing rule going forward: each DFAPTI run should sweep every open question (Q-, CTR-) and every active (non-Not-Started, non-Closed) thread for at least one genuinely fresh search angle before the run is considered complete, rather than exhausting a single sub-topic and stopping there. A run may still legitimately end with mostly \"no relevant change\" outcomes - that is honest and expected once a question is search-exhausted - but the breadth of what was tried should span the case's full open surface each time, not one thread in isolation. RUN-0061 was the first run under this corrected practice, sweeping 20 search angles across 5 open questions and 5 threads in a single pass."
+  },
+  {
+    "decision_id": "DEC-0015",
+    "date": "2026-08-06",
+    "reason": "The operator shared a set of repository-improvement suggestions attributed to another AI system (Gemini), including three complete GitHub Actions workflow files: a scheduled scraper/ingestion job, a \"case_files/*.md\" YAML-frontmatter/hash linter, and a static SUMMARY.md dashboard generator. On inspection, all three assumed a repository structure this investigation does not have (a case_files/ directory of Markdown files with YAML frontmatter, a src/ingest_records.py scraper) rather than this repo's actual structure (flat JSON registers in data/, validated by scripts/validate.js, browsable via the deployed GitHub Pages workspace). The frontmatter/audit workflow and the dashboard workflow would have silently no-op'd (globbing zero files) rather than actually checking or summarizing anything; the ingestion workflow additionally referenced a nonexistent GitHub Action (actions/python-versions@v5) and called a script that does not exist in this repository.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Declined implementing the three suggested workflows as given. Implemented one real equivalent instead: .github/workflows/validate.yml, which runs the existing node scripts/validate.js (this repo's actual 17-rule structural validator) on every push/PR to main. Standing guidance: externally-suggested tooling/workflow changes should be checked against this repository's actual file structure and existing scripts before adoption, not implemented on the assumption that generic \"evidence repository\" best-practice templates apply directly - a workflow that silently no-ops or fails outright is worse than no workflow, since it looks like coverage without providing any."
   }
 ]
