@@ -678,6 +678,156 @@
   }
 
   // ---------------------------------------------------------------
+  // Relationship Map - Mermaid diagrams
+  //
+  // Same edges/labels as renderRelationshipMap above, rendered as one
+  // Mermaid flowchart per Investigation Thread instead of a link list.
+  // Mirrors scripts/generate-relationship-map.js's diagram logic exactly
+  // (that script mirrors this file, not the other way around - this is
+  // the live, always-current version; the generated Markdown file is a
+  // static snapshot for readers browsing the repository on GitHub).
+  // ---------------------------------------------------------------
+
+  var MERMAID_TYPE_PREFIX = { Evidence: 'EVID', Chronology: 'CHRO', Contradiction: 'CTRD', Question: 'QUES', Thread: 'THRD' };
+
+  function mermaidId(type, id) {
+    return MERMAID_TYPE_PREFIX[type] + '_' + String(id).replace(/[^A-Za-z0-9]/g, '_');
+  }
+
+  function escapeMermaidLabel(text) {
+    return String(text).replace(/"/g, "'").replace(/\n/g, ' ').slice(0, 90);
+  }
+
+  function mermaidNodeLine(type, id, labels) {
+    var key = nodeKey(type, id);
+    var label = labels[key] ? id + ': ' + escapeMermaidLabel(labels[key]) : id;
+    var shape = type === 'Thread' ? ['((', '))'] : type === 'Question' ? ['{{', '}}'] : type === 'Contradiction' ? ['[/', '/]'] : ['[', ']'];
+    return '  ' + mermaidId(type, id) + shape[0] + '"' + label + '"' + shape[1];
+  }
+
+  function mermaidEdgeLine(edge) {
+    return '  ' + mermaidId(edge.a.type, edge.a.id) + ' -- "' + edge.relation + '" --> ' + mermaidId(edge.b.type, edge.b.id);
+  }
+
+  function buildThreadDiagram(thread, edges, labels) {
+    var nodeSet = new Map();
+    var edgeLines = [];
+    var edgeSeen = new Set();
+
+    function addNode(type, id) {
+      var key = nodeKey(type, id);
+      if (!nodeSet.has(key)) nodeSet.set(key, { type: type, id: id });
+    }
+    function addEdgeLine(edge) {
+      var dedupe = nodeKey(edge.a.type, edge.a.id) + '|' + edge.relation + '|' + nodeKey(edge.b.type, edge.b.id);
+      if (edgeSeen.has(dedupe)) return;
+      edgeSeen.add(dedupe);
+      edgeLines.push(mermaidEdgeLine(edge));
+    }
+
+    addNode('Thread', thread.thread_id);
+    var evidenceIds = new Set(thread.supporting_evidence || []);
+    evidenceIds.forEach(function (id) { addNode('Evidence', id); });
+
+    edges.forEach(function (edge) {
+      if (edge.a.type === 'Thread' && edge.a.id === thread.thread_id && edge.b.type === 'Evidence' && evidenceIds.has(edge.b.id)) {
+        addEdgeLine(edge);
+      }
+    });
+
+    edges.forEach(function (edge) {
+      if (edge.a.type === 'Evidence' && evidenceIds.has(edge.a.id) && ['Chronology', 'Contradiction', 'Question'].indexOf(edge.b.type) !== -1) {
+        addNode(edge.b.type, edge.b.id);
+        addEdgeLine(edge);
+      }
+    });
+
+    if (nodeSet.size <= 1) return null;
+
+    var lines = ['flowchart LR'];
+    nodeSet.forEach(function (node) { lines.push(mermaidNodeLine(node.type, node.id, labels)); });
+    lines = lines.concat(edgeLines);
+    return lines.join('\n');
+  }
+
+  function buildThreadDependencyDiagram(threads, edges, labels) {
+    var depEdges = edges.filter(function (e) { return e.a.type === 'Thread' && e.b.type === 'Thread'; });
+    if (!depEdges.length) return null;
+    var nodeSet = new Map();
+    depEdges.forEach(function (e) {
+      nodeSet.set(nodeKey(e.a.type, e.a.id), e.a);
+      nodeSet.set(nodeKey(e.b.type, e.b.id), e.b);
+    });
+    var lines = ['flowchart LR'];
+    nodeSet.forEach(function (node) { lines.push(mermaidNodeLine(node.type, node.id, labels)); });
+    depEdges.forEach(function (e) { lines.push(mermaidEdgeLine(e)); });
+    return lines.join('\n');
+  }
+
+  function diagramCard(titleNode, subtitleNode, definition, emptyMessage) {
+    var body = definition
+      ? [el('div', { class: 'diagram-plate' }, [el('pre', { class: 'mermaid' }, [definition])])]
+      : [emptyState(emptyMessage)];
+    return recordCard(null, titleNode, subtitleNode, body);
+  }
+
+  var mermaidReady = null;
+  function loadMermaid() {
+    if (!mermaidReady) {
+      mermaidReady = import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs').then(function (mod) {
+        var mermaid = mod.default;
+        mermaid.initialize({
+          startOnLoad: false,
+          securityLevel: 'loose',
+          theme: window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default',
+        });
+        return mermaid;
+      });
+    }
+    return mermaidReady;
+  }
+
+  function renderRelationshipDiagrams(evidence, chronology, contradictions, questions, threads) {
+    var container = document.getElementById('relationship-diagrams');
+    if (!container) return;
+    container.innerHTML = '';
+
+    var edges = buildRelationshipEdges(evidence, chronology, contradictions, questions, threads);
+    var labels = buildNodeLabels(evidence, chronology, contradictions, questions, threads);
+
+    if (!threads.length) {
+      container.appendChild(emptyState('No investigation threads defined yet.'));
+      return;
+    }
+
+    var depDiagram = buildThreadDependencyDiagram(threads, edges, labels);
+    if (depDiagram) {
+      container.appendChild(diagramCard(
+        el('span', {}, ['Thread dependencies']),
+        null,
+        depDiagram,
+        null
+      ));
+    }
+
+    threads.forEach(function (t) {
+      var diagram = buildThreadDiagram(t, edges, labels);
+      container.appendChild(diagramCard(
+        el('span', {}, [idTag(t.thread_id), ' — ', t.name || '']),
+        el('span', {}, [badge(t.status)]),
+        diagram,
+        'No linked evidence recorded yet for this thread.'
+      ));
+    });
+
+    loadMermaid().then(function (mermaid) {
+      return mermaid.run({ querySelector: '#relationship-diagrams pre.mermaid' });
+    }).catch(function (err) {
+      container.insertBefore(emptyState('Diagrams could not be rendered (' + err.message + ').'), container.firstChild);
+    });
+  }
+
+  // ---------------------------------------------------------------
   // Navigation
   // ---------------------------------------------------------------
 
@@ -829,6 +979,7 @@
     renderDecisions(decisions);
     renderSearchLog(searchLog);
     renderRelationshipMap(evidence, chronology, contradictions, questions, threads);
+    renderRelationshipDiagrams(evidence, chronology, contradictions, questions, threads);
     renderNotes(notes);
 
     setFilterable('evidence-list', function (node) { return node.textContent; });
