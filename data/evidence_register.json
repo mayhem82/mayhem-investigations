@@ -1851,5 +1851,36 @@
     "open_question_links": [
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0072",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-06",
+    "source_date": "2019-06-30",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report, July 2019-June 2020",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2019-2020.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only confirmed via search-engine snippet this session; direct fetch of kempsey.nsw.gov.au returns HTTP 403, the same session-level tooling constraint recorded at EV-0014/DEC-0008/DEC-0009/DEC-0012. No file preserved or hashed.",
+    "evidence_description": "A direct URL for Kempsey Shire Council's Drinking Water Management System Annual Report covering July 2019-June 2020 - the crisis year this case concerns - was located via search, following the identical file-naming and URL-path convention as the already-registered 2020-2021 report (EV-0031/EV-0062, at the sibling path .../kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf). Search-engine summarisation of the document's content confirms it addresses elevated iron and manganese levels in the Willawarrin area during this period, attributed to drought and bushfire followed by heavy rain - consistent with the crisis narrative already established at EV-0001/EV-0002. Specific concentration figures were not returned in the search snippet and require a direct fetch to extract.",
+    "relevant_quotation": null,
+    "investigation_relevance": "This is the crisis-year report DFAPTA AR-005 identified as a load-bearing evidence absence - the missing link needed to directly compare 2019-2020 iron/manganese concentrations against the 2020-2021 data already in the register (EV-0031/EV-0062/EV-0071), rather than relying on the narrative description alone (EV-0001/EV-0002).",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0001",
+      "EV-0002",
+      "EV-0031",
+      "EV-0062",
+      "EV-0071"
+    ],
+    "chronology_links": [
+      "CHR-0001",
+      "CHR-0002"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]

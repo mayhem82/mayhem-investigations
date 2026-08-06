@@ -1468,5 +1468,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-02",
     "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Dated 30 November 2023 (tender TQE23/61, closed 19 December 2023, released via eProcure). Council sought a panel of local plant/truck-hire contractors (preferably within the LGA or 100km of it) to supplement Council's own equipment for \"construction and maintenance of roads, footpaths, water, sewer assets\" - i.e. a general operational-works panel, not a dedicated water-carting contract. Registered as the closest primary mechanism found to date for how Council might source truck capacity for village water carting, though it does not name any Willawarrin/Bellbrook-specific carting work and should not be read as confirming which company actually performed any past carting episode. Consistent with, and does not resolve, THR-02's standing gap on who physically contracted/performed water carting historically."
+  },
+  {
+    "source_id": "SRC-0106",
+    "authority": "Kempsey Shire Council",
+    "title": "Drinking Water Management System Annual Report, July 2019-June 2020",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2019-2020.pdf",
+    "first_checked": "2026-08-06",
+    "last_checked": "2026-08-06",
+    "current_version": "Existence and general scope confirmed via search-engine snippet; not yet directly fetched in this session (kempsey.nsw.gov.au returns HTTP 403 to automated fetch, per DEC-0008/DEC-0009/DEC-0012).",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-03",
+    "availability_notes": "This is the crisis-year report DFAPTA AR-005 identified as a load-bearing evidence absence. URL follows the identical naming/path convention as the already-registered 2020-2021 report (EV-0031/EV-0062). Requires a direct, manual fetch to extract concentration figures and hash the document."
   }
 ]
