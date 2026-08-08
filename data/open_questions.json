@@ -76,5 +76,46 @@
     "likely_source": "elections.nsw.gov.au (SRC-0018, SRC-0029) or legislation.nsw.gov.au (SRC-0031) - both blocked to automated access, requires manual browser retrieval.",
     "status": "Open",
     "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0007",
+    "question": "Why do Willawarrin and Bellbrook remain on standalone riverbank-bore extraction and local treatment, rather than being connected to (or given source redundancy through) the main Kempsey-Lower Macleay network that the Steuart McIntyre Dam / Sherwood Borefield plant serves?",
+    "why_exists": "DFAPTA Cycle 1 (AR-018) noted that the main network can switch between the Sherwood Borefield and Steuart McIntyre Dam (EV-0005, EV-0028), while Willawarrin and Bellbrook remain single-source riverbank-bore systems with no documented redundancy. No options assessment, engineering feasibility study, or business case explaining this architecture choice has been located. The absence is analytically material because source architecture controls each village's exposure to drought, post-fire sediment, and turbidity.",
+    "evidence_creating_question": [
+      "EV-0001",
+      "EV-0005",
+      "EV-0006",
+      "EV-0028"
+    ],
+    "evidence_required_to_resolve": "A council engineering report, business case, or options assessment explicitly considering (and explaining the rejection or deferral of) pipeline connection or redundant source supply for Willawarrin and/or Bellbrook.",
+    "likely_source": "Kempsey Shire Council water infrastructure strategy or asset management plan; council business papers from the SMD project's planning phase; NSW DCCEEW regional water strategy documents.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0008",
+    "question": "Where are the 2021-2022 and 2022-2023 Drinking Water Management System Annual Reports for Kempsey Shire Council, and why has the report series changed filename/URL convention three times (2018-2019, 2019-2021, 2023-2024 per EV-0065)?",
+    "why_exists": "EV-0065 documents naming-convention and URL-pattern instability across the report series and an apparent two-year publication gap. This case's own evidentiary strength depends on being able to reconstruct the series continuously; an unresolved naming/access gap is itself an auditability problem regardless of whether the underlying cause is routine website restructuring.",
+    "evidence_creating_question": [
+      "EV-0031",
+      "EV-0065"
+    ],
+    "evidence_required_to_resolve": "Direct location of the 2021-2022 and 2022-2023 reports (or Council confirmation that no report was produced for those years and why), and a stable, current index page for the full report series.",
+    "likely_source": "Kempsey Shire Council's water and sewer publications page; NSW Health's Drinking Water Database (referenced but not directly queried in this case); a GIPA request if not publicly located.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0009",
+    "question": "What are LC Water's contractual acceptance criteria, commissioning obligations, and performance security terms for the Willawarrin plant, and does the contract specify a date by which commissioning must be complete?",
+    "why_exists": "DFAPTA Cycle 1 (AR-012) found contractor identity well-supported (EV-0058, EV-0060) but noted the complete contract, tender evaluation, acceptance criteria, variation schedule, and handover obligations are not in the public corpus. This bears directly on Q-0001 (commissioning status): without the contract's own commissioning deadline, there is no independent benchmark against which the passed 'early 2026' target can be assessed as on-time, delayed, or within an agreed tolerance.",
+    "evidence_creating_question": [
+      "EV-0058",
+      "EV-0060"
+    ],
+    "evidence_required_to_resolve": "The executed contract or a Council summary of its key terms (commissioning date, acceptance criteria, liquidated damages or performance security provisions), likely only obtainable via a GIPA request given procurement contracts are not routinely published in full.",
+    "likely_source": "Kempsey Shire Council contracts register (if published); a GIPA request to Council; Council business papers from the tender-award period (mid-2024).",
+    "status": "Open",
+    "resolution_evidence": []
   }
 ]
