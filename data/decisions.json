@@ -174,5 +174,15 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "open_questions.json grows from 6 to 9 entries. No evidence added by this decision itself. Establishes a repeatable pattern: each future DFAPTA cycle should be checked for genuinely new, evidence-answerable questions before being considered complete, not just read passively."
+  },
+  {
+    "decision_id": "DEC-0018",
+    "date": "2026-08-06",
+    "reason": "While building a new Actions to Take view (a derived checklist inside DFAPTI, distinct from Enforcement Notice), testing surfaced a mistake in RUN-0065: SRC-0106 was created for the 2019-2020 Drinking Water Management System Annual Report URL, but that exact URL was already registered as SRC-0047 since 2026-07-29 - RUN-0065 didn't check the existing source register before adding it, producing a duplicate. Corrected: removed SRC-0106, merged its update into SRC-0047 (last_checked and a note recording that EV-0072 is now its first evidence entry), and softened EV-0072's description, which had overstated the URL as newly 'located via search' rather than accurately describing it as an already-registered source that had no evidence entry yet. RUN-0065's own automation_log entry is left as originally written, per this repository's append-only discipline - it still references SRC-0106 by name, which is now a correction trail rather than a live source.",
+    "supporting_evidence": [
+      "EV-0072"
+    ],
+    "investigator": "mayhem82",
+    "impact": "source_register.json returns to 106 entries (SRC-0106 removed). No evidence was removed - EV-0072 and CHR-0033 from RUN-0065 remain valid and unaffected. Establishes a concrete lesson for future runs: check source_register.json for an existing URL before registering a new source_id for it."
   }
 ]

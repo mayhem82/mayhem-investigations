@@ -31,6 +31,7 @@
     <li><button class="nav-link" data-section="sources">Source Register</button></li>
     <li><button class="nav-link" data-section="contradictions">Contradiction Register</button></li>
     <li><button class="nav-link" data-section="questions">Open Questions</button></li>
+    <li><button class="nav-link" data-section="actions">Actions to Take</button></li>
     <li><button class="nav-link" data-section="threads">Investigation Threads</button></li>
     <li><button class="nav-link" data-section="decisions">Decision Register</button></li>
     <li><button class="nav-link" data-section="searchlog">Search Log</button></li>
@@ -95,6 +96,23 @@
     <input type="search" class="filter-input" data-filter-target="questions-list" placeholder="Filter questions..." />
     <div id="questions-count" class="section-count"></div>
     <div id="questions-list" class="stack"></div>
+  </section>
+
+  <section id="section-actions" class="workspace-section" data-title="Actions to Take" hidden>
+    <h1 class="section-title">Actions to Take</h1>
+    <p class="section-intro">Concrete next steps for evidence gathering, derived live from the registers below -
+    not remedy demands (that's Enforcement Notice, a separate stage) and not a stored register of its own.</p>
+
+    <h2 class="section-subtitle">Open questions needing evidence</h2>
+    <div id="actions-questions-count" class="section-count"></div>
+    <div id="actions-questions-list" class="stack"></div>
+
+    <h2 class="section-subtitle">Sources needing manual retrieval</h2>
+    <p class="section-intro">Automated fetch failed for these (HTTP 403 or a session-level tooling block) -
+    each needs a human to open the URL directly, or a GIPA/FOI request where noted.</p>
+    <input type="search" class="filter-input" data-filter-target="actions-blocked-list" placeholder="Filter blocked sources..." />
+    <div id="actions-blocked-count" class="section-count"></div>
+    <div id="actions-blocked-list" class="stack"></div>
   </section>
 
   <section id="section-threads" class="workspace-section" data-title="Investigation Threads" hidden>

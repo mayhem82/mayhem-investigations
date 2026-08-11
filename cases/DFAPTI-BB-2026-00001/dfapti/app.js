@@ -423,6 +423,60 @@
     });
   }
 
+  // Actions to Take: a derived checklist, not a stored register (same
+  // principle as the Relationship Map - computed from data that already
+  // exists elsewhere rather than duplicated). Two parts: open questions
+  // restated as "what to go find," and sources where automated fetch
+  // failed and a human needs to retrieve the document directly.
+  function isBlockedSource(s) {
+    var text = ((s.current_version || '') + ' ' + (s.availability_notes || '')).toLowerCase();
+    return s.preservation_status === 'Not Preserved' &&
+      (text.indexOf('403') !== -1 || text.indexOf('blocked') !== -1 || text.indexOf('egress') !== -1);
+  }
+
+  function renderActions(questions, sources) {
+    var openQuestions = questions.filter(function (q) { return q.status === 'Open'; });
+    var qContainer = document.getElementById('actions-questions-list');
+    document.getElementById('actions-questions-count').textContent = openQuestions.length + ' open question(s)';
+    qContainer.innerHTML = '';
+    if (!openQuestions.length) {
+      qContainer.appendChild(emptyState('No open questions currently need evidence.'));
+    } else {
+      openQuestions.forEach(function (q) {
+        qContainer.appendChild(recordCard(
+          'action-' + q.question_id,
+          el('span', {}, [idTag(q.question_id), ' — ', q.question || '']),
+          null,
+          [
+            kv('What Would Resolve This', q.evidence_required_to_resolve),
+            kv('Where to Look', q.likely_source),
+          ]
+        ));
+      });
+    }
+
+    var blocked = sources.filter(isBlockedSource);
+    var bContainer = document.getElementById('actions-blocked-list');
+    document.getElementById('actions-blocked-count').textContent = blocked.length + ' source(s)';
+    bContainer.innerHTML = '';
+    if (!blocked.length) {
+      bContainer.appendChild(emptyState('No sources are currently flagged as blocked to automated fetch.'));
+    } else {
+      blocked.forEach(function (s) {
+        bContainer.appendChild(recordCard(
+          'action-' + s.source_id,
+          el('span', {}, [idTag(s.source_id), ' — ', s.title || '']),
+          s.authority,
+          [
+            kv('URL', el('a', { href: s.url_or_file_location, target: '_blank', rel: 'noopener noreferrer' }, [s.url_or_file_location])),
+            kv('Why It\'s Blocked', s.current_version),
+            kv('What Retrieving It Would Confirm', s.availability_notes),
+          ]
+        ));
+      });
+    }
+  }
+
   function renderThreads(list) {
     var container = document.getElementById('threads-list');
     document.getElementById('threads-count').textContent = list.length + ' thread(s)';
@@ -831,7 +885,7 @@
   // Navigation
   // ---------------------------------------------------------------
 
-  var VALID_SECTIONS = ['resume', 'overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'threads', 'decisions', 'searchlog', 'relationships', 'notes'];
+  var VALID_SECTIONS = ['resume', 'overview', 'evidence', 'chronology', 'sources', 'contradictions', 'questions', 'actions', 'threads', 'decisions', 'searchlog', 'relationships', 'notes'];
 
   // recordId, if given, opens and scrolls to that record's card within the
   // section (a real deep link, e.g. #evidence/EV-0011). opts.replace uses
@@ -975,6 +1029,7 @@
     renderChronology(chronology);
     renderContradictions(contradictions);
     renderQuestions(questions);
+    renderActions(questions, sources);
     renderThreads(threads);
     renderDecisions(decisions);
     renderSearchLog(searchLog);
@@ -987,6 +1042,8 @@
     setFilterable('sources-list', function (node) { return node.textContent; });
     setFilterable('contradictions-list', function (node) { return node.textContent; });
     setFilterable('questions-list', function (node) { return node.textContent; });
+    setFilterable('actions-questions-list', function (node) { return node.textContent; });
+    setFilterable('actions-blocked-list', function (node) { return node.textContent; });
     setFilterable('threads-list', function (node) { return node.textContent; });
     setFilterable('decisions-list', function (node) { return node.textContent; });
     setFilterable('searchlog-list', function (node) { return node.textContent; });
