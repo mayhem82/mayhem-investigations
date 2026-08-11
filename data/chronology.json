@@ -321,5 +321,15 @@
     "supporting_evidence": [
       "EV-0070"
     ]
+  },
+  {
+    "chronology_id": "CHR-0033",
+    "event_date": "2023-11-06",
+    "date_is_inference": false,
+    "event_description": "Kempsey Shire Council's design-and-construction tender for the Steuart McIntyre Dam Water Treatment Plant (TQE23_59, closed 6 October 2023) is awarded, to LC Eire (LC Water / Eire Constructions joint venture) per the same source.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0073"
+    ]
   }
 ]

@@ -328,12 +328,12 @@
     "type": "Other Public Record",
     "url_or_file_location": "https://www.australiantenders.com.au/tenders/536636/design-and-construction-of-steuart-mcintyre-dam-water-treatment-plant",
     "first_checked": "2026-07-28",
-    "last_checked": "2026-07-28",
-    "current_version": "Not confirmed - fetch blocked",
+    "last_checked": "2026-08-06",
+    "current_version": "Tender reference and award date now confirmed via search (TQE23_59, awarded 6 November 2023, closed 6 October 2023); page itself still not directly fetched (HTTP 403 to automated fetch).",
     "preservation_status": "Not Preserved",
     "hash_status": "No Hash",
     "associated_thread": "THR-13",
-    "availability_notes": "australiantenders.com.au returns HTTP 403 Forbidden to automated fetch. Confirms a Design & Construction tender was run for this plant, but the awarded contractor is not named in any search-engine snippet found - Q-0005 remains open."
+    "availability_notes": "australiantenders.com.au returns HTTP 403 Forbidden to automated fetch. Confirms a Design & Construction tender was run for this plant, but the awarded contractor is not named in any search-engine snippet found - Q-0005 remains open. Update: a fresh search this session surfaced the specific tender reference (TQE23_59) and award date (6 November 2023, closing 6 October 2023) - see EV-0073. The same search result also reconfirmed LC Eire as the awarded contractor, consistent with EV-0037, independent of eirecon.com.au."
   },
   {
     "source_id": "SRC-0025",
@@ -804,12 +804,12 @@
     "type": "Public Statement",
     "url_or_file_location": "https://eirecon.com.au/water-network/",
     "first_checked": "2026-07-29",
-    "last_checked": "2026-07-29",
+    "last_checked": "2026-08-06",
     "current_version": "Not confirmed - fetch blocked",
     "preservation_status": "Not Preserved",
     "hash_status": "No Hash",
     "associated_thread": "THR-13",
-    "availability_notes": "eirecon.com.au fetch not attempted (DEC-0008's confirmed organizational egress policy block makes it certain to fail, per the proxy status/README diagnostic this run - see DEC-0012). This session found this via WebSearch: Eire Constructions' own project page, a first-party statement from one of the two joint-venture partners themselves, confirms \"the contract for the design and construction has been awarded to LC Eire, a partnership between LC Water and Eire Constructions\" for the Steuart McIntyre Dam/Sherwood Borefield plant, and reports \"a significant milestone... with the successful completion of the pour of external Dissolved Air Flotation and Filtration (DAFF) water treatment tank walls\" - a specific, previously unknown treatment technology and construction-progress detail."
+    "availability_notes": "eirecon.com.au fetch not attempted (DEC-0008's confirmed organizational egress policy block makes it certain to fail, per the proxy status/README diagnostic this run - see DEC-0012). This session found this via WebSearch: Eire Constructions' own project page, a first-party statement from one of the two joint-venture partners themselves, confirms \"the contract for the design and construction has been awarded to LC Eire, a partnership between LC Water and Eire Constructions\" for the Steuart McIntyre Dam/Sherwood Borefield plant, and reports \"a significant milestone... with the successful completion of the pour of external Dissolved Air Flotation and Filtration (DAFF) water treatment tank walls\" - a specific, previously unknown treatment technology and construction-progress detail. Update: a fresh search this session (prompted by an external, unverified claim relayed to this repository that the live page no longer shows this content) found this page's currently-indexed top projects have rotated to different, more recent work (Black Hill Trunk Main Duplication, Louth Park, Salt Ash Water Reticulation) - consistent with normal 'latest projects' page turnover, not with the original finding being wrong. The underlying LC Eire fact remains independently corroborated (RUN-0005's SRC-0025/SRC-0026, and again in this session's own TQE23_59 search - see EV-0073). EV-0037 itself is unchanged: it was already 'Requires Verification', never 'Accepted', specifically because it was never directly fetched."
   },
   {
     "source_id": "SRC-0059",

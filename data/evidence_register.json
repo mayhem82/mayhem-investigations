@@ -1882,5 +1882,36 @@
     ],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0073",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-06",
+    "source_date": "2023-11-06",
+    "source_authority": "Australian Tenders (tender listing aggregator, reproducing Kempsey Shire Council's own tender record)",
+    "source_title": "Design and Construction of Steuart McIntyre Dam Water Treatment Plant (tender listing)",
+    "source_type": "Other Public Record",
+    "source_location": "https://www.australiantenders.com.au/tenders/536636/design-and-construction-of-steuart-mcintyre-dam-water-treatment-plant",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only confirmed via search-engine snippet this session; direct fetch of australiantenders.com.au returns HTTP 403 to automated fetch (consistent with SRC-0024's prior finding). No file preserved or hashed.",
+    "evidence_description": "A search-engine snippet of the same tender listing already logged at SRC-0024 now surfaces the specific tender reference, TQE23_59, for Kempsey Shire Council's Design and Construction of Steuart McIntyre Dam Water Treatment Plant, with a closing date of 6 October 2023 and an award date of 6 November 2023. The same search result independently reconfirms LC Eire (LC Water / Eire Constructions joint venture) as the awarded contractor, consistent with EV-0037 but sourced independently of eirecon.com.au.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Fills a chronology gap: this is the earliest known dated milestone in the Steuart McIntyre Dam contractor-award process, predating the previously-earliest-known 'detailed design expected late 2025' estimate by nearly two years. Also strengthens Q-0005's contractor-identity finding with a second, independent corroboration of LC Eire beyond EV-0037.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0037",
+      "EV-0005",
+      "EV-0017",
+      "EV-0029"
+    ],
+    "chronology_links": [
+      "CHR-0033"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0005"
+    ]
   }
 ]
