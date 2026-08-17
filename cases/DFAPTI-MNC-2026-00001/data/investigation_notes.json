@@ -97,5 +97,41 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": "EV-0039"
+  },
+  {
+    "note_id": "NOTE-0012",
+    "timestamp": "2026-08-17T04:10:00Z",
+    "activity_type": "Decision",
+    "text": "Operator feedback: 'Evidence Register is almost empty compared with all the evidence given.' Correct - RUN-0001/DEC-0002's curation call under-delivered. Starting a full-corpus expansion pass rather than defending the original compact register.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0013",
+    "timestamp": "2026-08-17T04:20:00Z",
+    "activity_type": "Researching",
+    "text": "Built a parser to extract every numbered finding (F-001-F-230) from the preserved snapshot text, handling three distinct formats used across the twelve snapshots: compact one-line 'F-XXX - CLASSIFICATION: statement' (Snapshot 3's cumulative F-001-F-043 register), 'F-XXX - title / body paragraph' with no per-item citation (Snapshots 4, 5, 7-12), and 'FINDING NN - title / Classification: / body / Source: <url>' with real per-finding URLs (Snapshot 6 only).",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0014",
+    "timestamp": "2026-08-17T04:55:00Z",
+    "activity_type": "Finding",
+    "text": "Snapshot 6 (F-091-F-130, economic/incapacitation/deterrence/political-feedback branch) was completely unmined in RUN-0001 and turned out to have the corpus's best evidentiary quality - every finding cites real, checkable NSW Audit Office, BOCSAR, Buy NSW and NSW Parliament URLs. Produced 29 new Source Register entries (SRC-0044-SRC-0072).",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0015",
+    "timestamp": "2026-08-17T05:15:00Z",
+    "activity_type": "Note",
+    "text": "Ingested all 230 findings (EV-0043-EV-0262). Playwright-tested the live workspace at this scale: loads in ~2s, all 262 cards render, filtering works correctly. The 519-item Answer Register (RESOLVED/PARTIAL/OPEN across all 763 Question Bank items) remains the next under-mined layer if further depth is wanted - see DEC-0006.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

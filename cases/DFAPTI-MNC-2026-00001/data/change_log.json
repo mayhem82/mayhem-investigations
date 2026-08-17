@@ -44,5 +44,22 @@
     ],
     "reason": "RUN-0002 (DEC-0005): ingested Snapshot 7, closing the corpus gap noted at NOTE-0008. Six new evidence items, one new chronology entry, two new open questions, two new sources, and thread updates to THR-01 and THR-07.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0003",
+    "date": "2026-08-17",
+    "author": "mayhem82",
+    "files_affected": [
+      "cases/DFAPTI-MNC-2026-00001/data/evidence_register.json",
+      "cases/DFAPTI-MNC-2026-00001/data/source_register.json",
+      "cases/DFAPTI-MNC-2026-00001/data/automation_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/decisions.json",
+      "cases/DFAPTI-MNC-2026-00001/data/change_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/investigation_notes.json",
+      "cases/DFAPTI-MNC-2026-00001/index.html",
+      "index.html"
+    ],
+    "reason": "RUN-0003 (DEC-0006): full-corpus expansion in response to direct operator feedback that the Evidence Register was too thin. Ingested all 230 numbered findings across every preserved snapshot (EV-0043 through EV-0262), adding 29 new sources with real per-finding citations from Snapshot 6.",
+    "validation_completed": true
   }
 ]

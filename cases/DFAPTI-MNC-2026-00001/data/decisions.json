@@ -11,7 +11,10 @@
     "decision_id": "DEC-0002",
     "date": "2026-08-17",
     "reason": "The external research corpus this case was ingested from contains approximately 230 numbered findings (F-001 to F-230, with a known gap where Snapshot 7 was never supplied) and a 763-question Continuing Investigation Question Bank, of which the corpus's own Answer Registers classify 519 as RESOLVED (15), PARTIAL (70), OPEN - PRIMARY RECORD (373), or OPEN - ANALYTICAL (61). Mechanically transcribing every one of these as an individual MAYHEM register entry in a single ingestion pass was judged not worth the transcription-error risk it would carry, and not necessary to make the case usable: this case's Evidence Register, Chronology, Contradiction Register and Open Question Register instead promote a curated set of the highest-value confirmed facts, negative-search findings, RESOLVED answer-register items, and messaging contradictions (36 evidence items, 19 chronology entries, 2 contradictions, 16 open questions). The complete corpus is preserved in full at cases/DFAPTI-MNC-2026-00001/preserved/ (EV-0034, EV-0035) specifically so later runs can promote further items from it without re-acquiring the source material.",
-    "supporting_evidence": ["EV-0034", "EV-0035"],
+    "supporting_evidence": [
+      "EV-0034",
+      "EV-0035"
+    ],
     "investigator": "mayhem82",
     "impact": "This case's registers are a first pass, not a complete atomisation of the source corpus. A future run continuing this case should treat the preserved corpus, not just the current register, as the full evidence base to draw further items from - most of the question bank's ~700 remaining items and most of the 230 findings have not yet been individually registered."
   },
@@ -35,8 +38,23 @@
     "decision_id": "DEC-0005",
     "date": "2026-08-17",
     "reason": "The case operator located and supplied Snapshot 7, filling the gap recorded at NOTE-0008. Verified by hash that it was not already present among the preserved files before processing it (avoiding the SRC-0106-style duplicate mistake this repository has previously made in DFAPTI-BB-2026-00001, see that case's DEC-0018). Applied the same curation discipline as RUN-0001 (DEC-0002): promoted the highest-value findings rather than transcribing all ten (F-131-F-140), and declined to register a contradiction for the 'assess first' vs 'prepare to scale' sequence because Snapshot 7 itself explicitly states these are not contradictory - manufacturing a contradiction the source document itself disclaims would be a worse error than under-registering one.",
-    "supporting_evidence": ["EV-0037", "EV-0038", "EV-0039", "EV-0040", "EV-0041", "EV-0042"],
+    "supporting_evidence": [
+      "EV-0037",
+      "EV-0038",
+      "EV-0039",
+      "EV-0040",
+      "EV-0041",
+      "EV-0042"
+    ],
     "investigator": "mayhem82",
     "impact": "The corpus gap noted in preserved/README.md and NOTE-0008 is closed. The case's Evidence Register grows from 36 to 42 items, Open Question Register from 16 to 18, Chronology from 19 to 20 entries."
+  },
+  {
+    "decision_id": "DEC-0006",
+    "date": "2026-08-17",
+    "reason": "The case operator directly flagged that the Evidence Register (42 items) was too thin relative to the size of the source corpus (230 findings, 519 classified answer-register items). Re-examined DEC-0002's original curation call in light of that feedback and concluded it had erred too far toward compactness: a MAYHEM evidence register's job is to be the durable, browsable record of what the investigation has found, and leaving ~190 already-researched findings sitting only in unstructured preserved text files defeated that purpose even though the underlying research had already been done. Reversed course: parsed and ingested every numbered finding across all twelve snapshots (RUN-0003) rather than a curated subset. Where a finding's own snapshot supplied a specific external URL (only Snapshot 6 did this consistently, at the individual-finding level), that URL is cited directly and a new Source Register entry created if not already present. Where a snapshot only supplied an end-of-document source list not cleanly mappable to individual findings (every other snapshot), the evidence item cites its exact preserved file and finding number instead of inventing a specific external citation the source material didn't actually provide at that granularity - preserving honesty about precision over the appearance of completeness.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Evidence Register grows from 42 to 262 items; Source Register from 43 to 72. The remaining under-mined layer is the two Answer Registers (519 RESOLVED/PARTIAL/OPEN-classified items across all 763 Question Bank entries) - not ingested in this run, and a candidate for a further expansion pass if the operator wants that depth too."
   }
 ]
