@@ -945,5 +945,13 @@
       "EV-0827"
     ],
     "notes": "Operator directive: 'atomize' - break the AE Primary Record Acquisition Register and GIPA Primary Record Acquisition Pack (previously represented only as single summary items, EV-0034 and part of EV-0035) into individual evidence entries. Parsed the AE Register's 40 per-question acquisition-status entries (Q694-Q733, each with its STATUS, description and NEXT ROUTE) into 40 evidence items (EV-0782-EV-0821), and the GIPA pack's 6 segmented applications into 6 evidence items (EV-0822-EV-0827), each capturing its question-bank linkage, date range, full requested-information list, scope exclusions and clarification verbatim. EV-0034 (the pack-level summary) and EV-0035 (the whole-corpus summary) are left standing, not superseded, per this repository's append-only discipline - the new atomized entries are additional detail, not a replacement. Evidence Register grows from 781 to 827 items."
+  },
+  {
+    "run_id": "RUN-0006",
+    "date": "2026-08-17",
+    "sources_checked": [],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Operator command: \"freeze evidence register and proceed with gates\". This is the explicit freeze command required by the live/frozen-snapshot gating model (DEC-0004) before any of Stages 2-6 may be built for this case. Evidence Register frozen at EV-0001 through EV-0827 (827 items), Source Register at SRC-0001 through SRC-0072 (72 sources), Chronology at CHR-0001 through CHR-0020 (20 entries), Contradiction Register at CTR-0001/CTR-0002, Open Question Register at Q-0001 through Q-0018 (18 questions), Investigation Threads at THR-01 through THR-12. This is Cycle 1 of DFAPTA/Lattice Atlas/Temporal Projection Integrity Engine for this case. DFAPTI itself remains live and continues to accept new evidence after this point; a later freeze command would open Cycle 2, analysing whatever the register has grown to by then, without altering this cycle's own frozen boundary."
   }
 ]

@@ -178,5 +178,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0021",
+    "timestamp": "2026-08-17T07:10:00Z",
+    "activity_type": "Decision",
+    "text": "Operator: 'freeze evidence register and proceed with gates'. Freezing at EV-0001-EV-0827 as Cycle 1's boundary (DEC-0009) and beginning Stages 2-6: DFAPTA, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package - cloning each stage's exact mechanism from DFAPTI-BB-2026-00001 rather than inventing new page styles, per this repository's established rule.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

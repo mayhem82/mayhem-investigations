@@ -1,0 +1,1390 @@
+{
+  "analysis_id": "DFAPTA-MNC-2026-00001",
+  "dfapti_case_id": "DFAPTI-MNC-2026-00001",
+  "cycle": 1,
+  "status": "OPEN",
+  "analysis_commenced": "2026-08-17",
+  "evidence_basis_note": "Analyses the DFAPTI-MNC-2026-00001 evidence register as frozen by the operator's explicit \"freeze evidence register\" command (DEC-0009): 827 entries, EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs. Every anchor cited below carries the register's own \"Unverified\" verification_state; this analysis introduces no new evidence and does not upgrade that status.",
+  "paths": [
+    {
+      "id": "AR-001",
+      "title": "Investigation Identity, Scope and Frozen Baseline Boundary",
+      "analysis": [
+        "The investigation concerns whether the public evidentiary case for expanding NSW Police's PolAir-Remote drone program from Moree to the Mid North Coast (the subject of Michael Kemp MP's August 2026 petition) is supported. This baseline analyses the evidence register as it stands at the operator's explicit freeze command: EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs (RUN-0001 through RUN-0005) and one operator-supplied late file (Snapshot 7, RUN-0002).",
+        "Every item in the frozen register carries verification_state \"Unverified\" (DEC-0001): nothing here has been independently re-fetched or re-confirmed by this repository's own process. This is a structural boundary on the whole analysis, not a limitation of any single path - every determination below inherits it."
+      ],
+      "determinations": [
+        [
+          "AR-001.1",
+          "The evidentiary object is a public-accountability audit of a specific expansion proposal, not a general assessment of drone policing."
+        ],
+        [
+          "AR-001.2",
+          "The analytical boundary is the frozen register - EV-0001 through EV-0827. No externally-proposed fact outside that register is introduced."
+        ],
+        [
+          "AR-001.3",
+          "Every anchor cited below carries the register's own \"Requires Verification\"/\"Unverified\" status; this analysis does not silently upgrade that status."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "Public procurement and policy records are reconstructable in outline but the controlling operational documents are not publicly exposed."
+        ],
+        [
+          "Complexity as Barrier",
+          "CONFIRMED IN PRACTICAL EFFECT",
+          "The evidentiary picture is distributed across 12 snapshots, a 763-question bank, two answer registers, a GIPA pack and an AE register."
+        ]
+      ],
+      "anchors": [
+        "EV-0001",
+        "EV-0002",
+        "EV-0034",
+        "EV-0035"
+      ],
+      "boundary": "No determination is made about any claim beyond what the frozen register supports; unverified claims are named as unverified, not assumed true or false beyond that."
+    },
+    {
+      "id": "AR-002",
+      "title": "Petition Provenance and Political Representation",
+      "analysis": [
+        "The petition is confirmed as an official Michael Kemp MP electorate-office campaign, promoted via a top-level \"Drone Petition\" link on his official website and hosted externally on Mailchimp. It carries no formal NSW Parliament petition status - targeted searches of the tabled-petitions register did not locate a matching record.",
+        "Kemp has consistently advocated stronger regional policing and crime responses, including a substantially broader bail regime than the one that became law, and has previously demanded KPI/public-reporting transparency from the Police Minister on Kempsey youth-crime funding (nine months before this petition). NSW Police leadership contemplated statewide scaling of PolAir-Remote from the trial's first day, and the Police Minister publicly named Kempsey as a possible expansion site five months before the petition. The petition therefore sits inside a pre-existing political and institutional trajectory rather than originating it."
+      ],
+      "determinations": [
+        [
+          "AR-002.1",
+          "Petition provenance (official electorate campaign, no formal parliamentary status) is established."
+        ],
+        [
+          "AR-002.2",
+          "Kempsey expansion was publicly contemplated by government before the petition; the petition amplifies rather than originates the proposal."
+        ],
+        [
+          "AR-002.3",
+          "Kemp's own prior transparency-scrutiny practice (his Q&A 6484 KPI request) is a legitimate benchmark this investigation applies back to the petition's own lack of sourcing."
+        ],
+        [
+          "AR-002.4",
+          "No inference of impropriety is drawn from a representative using a petition to demonstrate constituency demand for a policy already under consideration."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Mandate Manufacturing via Petition",
+          "PROVISIONAL",
+          "A petition can function to generate visible public support for an expansion already being contemplated within government, without that being evidence of impropriety."
+        ],
+        [
+          "Narrative Compression",
+          "CONFIRMED",
+          "The petition presents six numeric claims as settled fact without disclosing that the underlying trial evaluation, cost model or deployment architecture do not yet exist in public form."
+        ]
+      ],
+      "anchors": [
+        "EV-0002",
+        "EV-0008",
+        "EV-0015",
+        "EV-0016",
+        "EV-0017",
+        "EV-0028",
+        "EV-0040"
+      ],
+      "boundary": "No determination is made that the petition is illegitimate as political advocacy; the analysis concerns only whether its factual claims are independently supported."
+    },
+    {
+      "id": "AR-003",
+      "title": "The \"50% Crime Drop\" Claim: Baseline Versus Attribution",
+      "analysis": [
+        "The closest reproduced figure to the petition's \"50% drop in crime\" is a Moree youth police-legal-action decline of roughly 53% measured from a 2022 baseline - years before the January 2026 PolAir-Remote trial began. Most of the measurement window therefore predates the technology entirely, and the decline was already underway before the trial commenced.",
+        "No NSW Police source and no BOCSAR source located in this investigation makes the causal claim that PolAir-Remote caused this decline. Several distinct mechanisms - incapacitation, deterrence, desistance/diversion-program effect, displacement, and measurement/detection-rate change - can each independently produce the same headline fall, and the public record does not disentangle them."
+      ],
+      "determinations": [
+        [
+          "AR-003.1",
+          "A substantial pre-existing Moree youth-offending decline is established, independent of PolAir-Remote."
+        ],
+        [
+          "AR-003.2",
+          "No NSW Police or BOCSAR source makes the petition's implied causal attribution."
+        ],
+        [
+          "AR-003.3",
+          "The petition's \"50%\" figure has no disclosed offence definition, geography, age group, or baseline/comparison dates of its own - the closest verified figure uses different, narrower parameters (youth legal actions, not total crime)."
+        ],
+        [
+          "AR-003.4",
+          "Chronological incapacity: a measurement window beginning in 2022 cannot be primarily explained by an intervention beginning in January 2026."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Definitional Control",
+          "CONFIRMED",
+          "The petition's undefined \"50% drop in crime\" and the closest verified statistic (a 53% youth-legal-action decline since 2022) are not the same measurement, but are presented as if interchangeable."
+        ],
+        [
+          "Narrative Compression",
+          "CONFIRMED",
+          "A multi-year regional trend and a six-month technology trial are compressed into a single causal headline."
+        ]
+      ],
+      "anchors": [
+        "EV-0002",
+        "EV-0018",
+        "EV-0019",
+        "EV-0020",
+        "EV-0055",
+        "EV-0061"
+      ],
+      "boundary": "No determination is made that PolAir-Remote had no effect on Moree crime - only that the petition's specific causal claim is not established by anything located in this register."
+    },
+    {
+      "id": "AR-004",
+      "title": "The Aggregate Operational Claims (100+ Arrests, 70+ Vehicles, Six Missing People): Methodology Gap",
+      "analysis": [
+        "NSW Police operational releases document individual incidents in which PolAir-Remote assisted an arrest, a stolen-vehicle recovery, or a missing-person search. None of the three petition aggregates - more than 100 arrests, more than 70 stolen vehicles, six missing people - has been reproduced from a primary published dataset, and \"assisted\" is not operationally defined anywhere in the public record checked: it could mean direct drone detection, drone tracking after another detection source, or mere presence during a multi-unit operation.",
+        "This is a methodology gap, not a fabrication finding - the underlying tactical successes are independently documented; only the aggregation and attribution methodology behind the specific totals is unverified."
+      ],
+      "determinations": [
+        [
+          "AR-004.1",
+          "Individual tactical successes involving PolAir-Remote are independently documented and not disputed."
+        ],
+        [
+          "AR-004.2",
+          "None of the three specific aggregate totals in the petition has been reproduced from a primary published dataset."
+        ],
+        [
+          "AR-004.3",
+          "\"Assisted\" is undefined; the aggregate cannot be tested without incident-level data and a stated drone-contribution rule."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "The gap between real individual successes and unverifiable aggregate totals is consistent with ordinary reporting practice, not necessarily deliberate obscuring."
+        ]
+      ],
+      "anchors": [
+        "EV-0002",
+        "EV-0012"
+      ],
+      "boundary": "No determination is made that the aggregate figures are false; only that they cannot currently be independently reproduced or tested."
+    },
+    {
+      "id": "AR-005",
+      "title": "The Cost Claim: \"A Fraction of the Cost of a Police Helicopter\"",
+      "analysis": [
+        "A NSW Parliament answer dated 30 July 2026 - twelve days before the petition's public push - states the total Moree trial cost had not yet been finalised. Neither a complete drone-system cost numerator nor a defined helicopter cost comparator is publicly available. A commercial hardware benchmark (a DJI Dock 3 + Matrice 4TD package at approximately $31,308) is not the total system cost and is, on its own, economically small next to other public expenditure this investigation has compared it against (e.g. roughly 12.2 detention-days-equivalent at NSW's own published youth-detention unit cost).",
+        "The correct economic unit for evaluating a policing technology of this kind is net cost per prevented harm - system cost offset by displaced conventional aviation hours, officer search time saved, and downstream justice-system costs an increase in detections and arrests can itself generate. No public Moree evaluation integrates these."
+      ],
+      "determinations": [
+        [
+          "AR-005.1",
+          "The government's own 30 July 2026 answer establishes that total system cost was not finalised at the time the petition was being promoted as fact."
+        ],
+        [
+          "AR-005.2",
+          "No defined helicopter cost comparator or complete drone-system cost numerator is publicly available."
+        ],
+        [
+          "AR-005.3",
+          "Lower marginal operating cost than a helicopter is plausible in principle but is not independently auditable from disclosed figures."
+        ],
+        [
+          "AR-005.4",
+          "The correct cost unit - net cost per prevented harm, including downstream justice-system costs - has not been publicly constructed for this program."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "CONFIRMED FOR PUBLIC RECONSTRUCTION",
+          "The complete cost model is not publicly disclosed."
+        ]
+      ],
+      "anchors": [
+        "EV-0002",
+        "EV-0012",
+        "EV-0048",
+        "EV-0052"
+      ],
+      "boundary": "No determination is made about whether PolAir-Remote is or is not cost-effective; only that the specific comparative claim in the petition cannot currently be independently tested."
+    },
+    {
+      "id": "AR-006",
+      "title": "Causal Attribution and Counterfactual Design Gap",
+      "analysis": [
+        "Testing whether any post-January-2026 change in Moree crime is attributable to PolAir-Remote, rather than to concurrent interventions (Operation Soteria, bail law changes under s 22C, youth diversion and place-based programs, or ordinary policing changes), requires offence-level monthly data and a credible comparison design - a matched comparison location, an interrupted-time-series model, or an equivalent. None of this exists in the public record checked.",
+        "Several of these confounding interventions substantially overlap in mechanism with PolAir-Remote itself: s 22C bail changes and Operation Soteria both operate, in part, through increased detection and remand of the same offender cohort PolAir-Remote is also tasked against, meaning their effects are not merely concurrent but potentially entangled at the individual-offender level."
+      ],
+      "determinations": [
+        [
+          "AR-006.1",
+          "A credible counterfactual design (matched comparator or interrupted time series) does not exist in the public record for Moree."
+        ],
+        [
+          "AR-006.2",
+          "Operation Soteria and s 22C bail reform are not merely concurrent with PolAir-Remote but may be mechanistically entangled with it through shared offender cohorts."
+        ],
+        [
+          "AR-006.3",
+          "Falsifiable tests exist in principle (a post-deployment trend break surviving comparator controls; dose-response by drone exposure) but have not been applied publicly."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Complexity as Barrier",
+          "CONFIRMED",
+          "Disentangling PolAir-Remote's specific contribution from several overlapping, mechanistically-related interventions requires analytical resources beyond what a public petition or press release can supply."
+        ]
+      ],
+      "anchors": [
+        "EV-0018",
+        "EV-0055",
+        "EV-0061",
+        "EV-0100",
+        "EV-0111",
+        "EV-0114"
+      ],
+      "boundary": "No determination is made that PolAir-Remote's effect is zero or non-zero; only that the public record does not currently support isolating it from concurrent interventions."
+    },
+    {
+      "id": "AR-007",
+      "title": "Response Capability Versus Observation Capability",
+      "analysis": [
+        "The petition's \"30 to 60 second deployment\" claim concerns aircraft launch/availability from the dock, not the total time for a ground officer to physically arrive and intervene. Published examples still require ground officers for search, arrest, transport, evidence-gathering, charging and victim protection. The exact measurement points (call received, tasking, launch command, airborne, arrival over incident) are not publicly defined, and neither the percentage of deployments actually meeting the 30-60 second figure, nor the median or 90th-percentile deployment time, has been disclosed.",
+        "This distinction matters for a Mid North Coast rollout specifically: a docked aerial asset can extend situational awareness faster than it can extend an officer's physical presence, meaning the marginal benefit of expansion depends on the specific incident types where aerial observation - rather than faster physical response - is the actual capability gap."
+      ],
+      "determinations": [
+        [
+          "AR-007.1",
+          "\"30-60 second deployment\" is a launch/availability metric, not a police response-time metric, and the petition does not disclose this distinction."
+        ],
+        [
+          "AR-007.2",
+          "The exact clock definition and its distributional statistics (median, 90th percentile, proportion meeting the claim) are undisclosed."
+        ],
+        [
+          "AR-007.3",
+          "A genuine Kempsey/Mid North Coast capability-gap analysis requires identifying which incident types benefit from faster aerial observation specifically, not faster response overall."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Narrative Compression",
+          "CONFIRMED",
+          "\"Deployed within 30 to 60 seconds\" reads to a signatory as a response-time claim; it is not."
+        ]
+      ],
+      "anchors": [
+        "EV-0090",
+        "EV-0236",
+        "EV-0338",
+        "EV-0342",
+        "EV-0343"
+      ],
+      "boundary": "No determination is made that the deployment-speed claim is false; only that it measures something narrower than the petition's framing suggests."
+    },
+    {
+      "id": "AR-008",
+      "title": "Bail Law Politics (s 22C) as a Confounding and Political-Attribution Risk",
+      "analysis": [
+        "Kemp was a prominent advocate for tougher bail laws but the statutory provision now in force, s 22C, was enacted by the Minns Government; the broader Coalition bail proposal Kemp backed (with electronic monitoring, curfews and stronger revocation consequences) did not become law. Describing current bail law as \"Kemp's bail laws\" would misattribute it. The political campaign for broader restrictions accelerated before a mature statutory effectiveness review of s 22C was completed.",
+        "s 22C demonstrably increases remand for the affected cohort, and Aboriginal-remand impact is an explicit, unresolved variable in that effect. Because s 22C and Operation Soteria structurally overlap with PolAir-Remote's own detection function, bail-law politics is not a separate topic from the drone-expansion question - it is a live confound in any causal claim about Moree's crime trend."
+      ],
+      "determinations": [
+        [
+          "AR-008.1",
+          "Current s 22C bail law is not accurately described as \"Kemp's bail laws\" - it was enacted by a different government from a different, narrower proposal."
+        ],
+        [
+          "AR-008.2",
+          "s 22C's remand-increasing effect is established; its distinct contribution to any Moree crime-trend change is not isolated from PolAir-Remote's."
+        ],
+        [
+          "AR-008.3",
+          "Aboriginal-remand impact under s 22C is flagged as unresolved and material to any complete evaluation, including of PolAir-Remote's downstream effects."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Definitional Control",
+          "CONFIRMED",
+          "\"Kemp's bail laws\" is a politically convenient but factually imprecise label that this analysis does not adopt."
+        ]
+      ],
+      "anchors": [
+        "EV-0100",
+        "EV-0101",
+        "EV-0102",
+        "EV-0103",
+        "EV-0108",
+        "EV-0111",
+        "EV-0114"
+      ],
+      "boundary": "No determination is made about the merits of s 22C as policy; only that its effects are entangled with, not separate from, the causal question this case investigates."
+    },
+    {
+      "id": "AR-009",
+      "title": "Kempsey Community-Safety Baseline and Headline-Quote Provenance",
+      "analysis": [
+        "Kempsey's underlying community-safety concerns are real and independently documented: a 29 October 2024 parliamentary inquiry heard direct victim testimony, and Council formally escalated antisocial-behaviour concerns in February 2026. The identical \"I don't sleep at night\" phrasing used in the 2026 Macleay Argus headline is independently documented in Gail Cheers' 2024 evidence, whose own recorded policy emphasis was early intervention and community services, not drone technology.",
+        "Until the complete 11 August 2026 Macleay Argus article is obtained, it remains unsafe to infer that the 2026 headline quote - whoever it belongs to - represents specific endorsement of drone surveillance rather than a general expression of fear of crime, which is a separate proposition."
+      ],
+      "determinations": [
+        [
+          "AR-009.1",
+          "Kempsey's community-safety harms are real and independently documented, not a manufactured premise."
+        ],
+        [
+          "AR-009.2",
+          "The 2026 headline phrase has a documented 2024 precedent attached to a person whose recorded advocacy was early intervention, not drones."
+        ],
+        [
+          "AR-009.3",
+          "Fear of crime and endorsement of a specific surveillance technology are analytically distinct propositions that the available material does not yet let this investigation separate for the 2026 quote specifically."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Narrative Compression",
+          "CONFIRMED AS A RISK",
+          "A victim's expression of fear can be read, without the full article, as implicit endorsement of whatever solution is politically adjacent to the story."
+        ]
+      ],
+      "anchors": [
+        "EV-0003",
+        "EV-0004",
+        "EV-0005",
+        "EV-0008",
+        "EV-0029"
+      ],
+      "boundary": "No determination is made about what the complete 2026 article actually says or who its quote belongs to; this path only establishes the provenance risk and the evidence needed to resolve it."
+    },
+    {
+      "id": "AR-010",
+      "title": "Reactive-Versus-Proactive Messaging Contradiction (CTR-0001)",
+      "analysis": [
+        "NSW Police's formal launch messaging (19 February 2026) describes PolAir-Remote as reactive, incident-response capability and explicitly \"not surveillance\". Contemporaneous January 2026 trial-commencement reporting describes the same program flying proactively and conducting both covert and overt aerial exercises as part of its planned operating model. These are not reconcilable as stated; they describe materially different operating modes with different privacy and consultation implications for a Mid North Coast rollout.",
+        "The petition itself does not specify which model - narrow incident-response, or proactive regional patrol - a Mid North Coast expansion would use, meaning signatories are being asked to endorse an unspecified operating mode."
+      ],
+      "determinations": [
+        [
+          "AR-010.1",
+          "The contradiction between \"not surveillance\"/reactive framing and documented proactive/covert flying is real and unresolved in the public record."
+        ],
+        [
+          "AR-010.2",
+          "The petition does not disambiguate which operating mode a Mid North Coast rollout would use."
+        ],
+        [
+          "AR-010.3",
+          "Resolution requires the controlling operational policy (sought via GIPA Application 2), not further public statements."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Documented Compliance as Shield",
+          "PROVISIONAL",
+          "A reassuring public label (\"not surveillance\") functioning alongside an undisclosed broader operating mode is a governance risk pattern, though intent is not established."
+        ]
+      ],
+      "anchors": [
+        "EV-0006",
+        "EV-0007"
+      ],
+      "boundary": "No determination is made about which description is more accurate operationally; both are treated as live, unreconciled public statements from the same institution."
+    },
+    {
+      "id": "AR-011",
+      "title": "\"Solely Used for Crime\" Versus Multi-Purpose Messaging Contradiction (CTR-0002)",
+      "analysis": [
+        "A June 2026 quote from Brendan Moylan describes the Moree drones as \"solely used for crime\". This is in tension with the January 2026 trial-commencement reporting and other contemporaneous coverage describing intended and actual use for search and rescue, motor-vehicle collisions, fires, and other emergencies. Neither statement is shown to be false; the pattern shows that public descriptions of the program's operational scope are not consistently framed even within NSW Police's own messaging.",
+        "This matters for the petition specifically because it asks to expand \"the program\" without defining its scope - if the real program is multi-purpose emergency-response infrastructure, the petition's crime-focused framing understates what is actually being requested."
+      ],
+      "determinations": [
+        [
+          "AR-011.1",
+          "The \"solely used for crime\" statement is in unresolved tension with documented multi-purpose use."
+        ],
+        [
+          "AR-011.2",
+          "Neither statement is established as false; the finding is about framing inconsistency, not misrepresentation."
+        ],
+        [
+          "AR-011.3",
+          "A Mid North Coast rollout's actual scope (crime-only versus general emergency-response infrastructure) is not settled by the petition's own wording."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Narrative Compression",
+          "CONFIRMED",
+          "\"Solely used for crime\" compresses a program whose own commencement briefing described broader emergency functions."
+        ]
+      ],
+      "anchors": [
+        "EV-0006",
+        "EV-0011"
+      ],
+      "boundary": "No determination is made about which framing NSW Police intends as authoritative; both remain live public statements."
+    },
+    {
+      "id": "AR-012",
+      "title": "Privacy, AI and Biometric Governance Gap",
+      "analysis": [
+        "No evidence located establishes that Moree PolAir-Remote currently performs onboard or live facial-recognition identification, and no evidence establishes that its imagery has been submitted for biometric matching. NSW does have statutory facial-biometric matching infrastructure available to authorised agencies (Road Transport Act 2013 s 271A), so the correct control question is system linkage - collection, retention, face extraction, external matching - not merely whether recognition hardware is embedded in the aircraft. No public NSW AI Assessment Framework determination for PolAir-Remote has been located, and mandatory AI-assurance governance pathways exist in principle but their application to this specific system is unconfirmed.",
+        "This is a function-creep control gap: the petition asks for program expansion without specifying any limit on future facial recognition, biometric matching, automated person identification, or retrospective analytics applied to stored imagery."
+      ],
+      "determinations": [
+        [
+          "AR-012.1",
+          "No current facial-recognition or biometric-matching use is established for PolAir-Remote, but system-linkage capability to do so exists at the state level."
+        ],
+        [
+          "AR-012.2",
+          "No public AI Assessment Framework determination for PolAir-Remote has been located despite a mandatory governance pathway existing in principle."
+        ],
+        [
+          "AR-012.3",
+          "The petition contains no functional limit on future AI/biometric capability being added to the expanded program."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "The absence of a public AI Assessment Framework determination could reflect non-applicability or non-disclosure; the register cannot distinguish these."
+        ]
+      ],
+      "anchors": [
+        "EV-0021",
+        "EV-0022",
+        "EV-0023",
+        "EV-0193",
+        "EV-0250",
+        "EV-0498",
+        "EV-0505",
+        "EV-0608"
+      ],
+      "boundary": "No determination is made that facial recognition or biometric matching is occurring; only that the public record cannot rule it in or out, and that no forward limit is specified."
+    },
+    {
+      "id": "AR-013",
+      "title": "Procurement and Statewide RPAS Architecture",
+      "analysis": [
+        "Statewide RPAS expansion planning (EOI YR-2026-0058, published 2 June 2026) predates the Kemp petition by more than two months and anticipates capability and platform evolution beyond the exact Moree hardware, including autonomous/drone-in-a-box systems and specialist payloads. A second, separate procurement instrument, EOI YR-2026-0012 (Aviation Command Operating Model Review), was published five weeks earlier still, meaning RPAS expansion sits inside a broader command-wide operating-model review, not a standalone RPAS decision. Neither EOI's outcome has been publicly disclosed as at the most recent check, though an undisclosed award is not itself evidence that no supplier was selected.",
+        "No NSW-Police-specific DJI/vendor cyber-security or data-sovereignty risk assessment has been located, despite the June 2026 EOI explicitly including supply-chain considerations and despite Commonwealth bodies having previously restricted DJI fleets in some security contexts (with no equivalent NSW Police restriction established)."
+      ],
+      "determinations": [
+        [
+          "AR-013.1",
+          "The petition did not originate statewide RPAS expansion planning; that planning predates it."
+        ],
+        [
+          "AR-013.2",
+          "PolAir-Remote/RPAS decisions sit inside a broader Aviation Command operating-model review, not a standalone procurement."
+        ],
+        [
+          "AR-013.3",
+          "Neither EOI's outcome (supplier, contract value, scope) is currently publicly disclosed."
+        ],
+        [
+          "AR-013.4",
+          "No NSW-Police-specific DJI supply-chain risk assessment has been located."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "CONFIRMED FOR PUBLIC RECONSTRUCTION",
+          "Two overlapping procurement instruments and their relationship to each other are not publicly documented in one place."
+        ]
+      ],
+      "anchors": [
+        "EV-0013",
+        "EV-0014",
+        "EV-0030",
+        "EV-0031",
+        "EV-0032",
+        "EV-0038",
+        "EV-0825"
+      ],
+      "boundary": "No determination is made about a specific supplier, contract value, or improper procurement; only that the outcome and architecture are not currently publicly disclosed."
+    },
+    {
+      "id": "AR-014",
+      "title": "Continuation Beyond the Six-Month Window and Absent Exit Criteria",
+      "analysis": [
+        "The Moree trial was publicly described as running six months from its 8 January 2026 commencement, yet PolAir-Remote assisted an arrest arising from a 2 August 2026 incident - nearly seven months later - with no located public notice of an extension or revised end date. No public material specifies a threshold at which the program would be judged unsuccessful and stopped, nor criteria for removing docks, ceasing Remote Operations Centre tasking, or ending operational use.",
+        "Combined with statewide scaling being contemplated from the trial's first day (AR-002) and enterprise procurement running in parallel with the trial's own evaluation (AR-013), this creates a coherent risk pattern: continuation and expansion may become progressively easier over time while no public exit path exists. This is a described risk pattern, not a finding that irreversible expansion has occurred or is intended."
+      ],
+      "determinations": [
+        [
+          "AR-014.1",
+          "Operational continuation past the stated six-month window is established, with no located public explanation."
+        ],
+        [
+          "AR-014.2",
+          "No public stop, failure, or decommissioning criteria have been located for this program."
+        ],
+        [
+          "AR-014.3",
+          "The combination of continuation, absent exit criteria, and parallel expansion planning constitutes a coherent institutional pattern worth naming, not proof of a predetermined outcome."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Technology Ratchet",
+          "PROVISIONAL",
+          "Trial capability installed -> operational successes publicised -> community/political demand emerges elsewhere -> enterprise capability scanned -> broader operating-model reviewed -> infrastructure remains operational beyond its own stated window. No single step proves irreversibility; together they describe a continuation-and-expansion risk with no visible exit gate."
+        ]
+      ],
+      "anchors": [
+        "EV-0037",
+        "EV-0041",
+        "EV-0042"
+      ],
+      "boundary": "No determination is made that NSW Police predetermined the trial outcome, unlawfully extended it, or committed to any specific rollout; the finding is limited to continuation-past-window and the absence of public exit criteria."
+    },
+    {
+      "id": "AR-015",
+      "title": "Consultation Sequencing and Shared Governance",
+      "analysis": [
+        "The Moree \"Have Your Say\" public consultation on the RPAS system closed in June 2026, five months after the system was already operational since January 2026 - and the enterprise RPAS Panel EOI was itself published before that consultation had even closed. Material technical configuration was therefore fixed well before public input was sought, not the reverse. No public record establishes formal consultation with, approval by, or co-design input from the Moree Youth Crime Governance Group or Aboriginal community-controlled organisations before deployment.",
+        "For any Mid North Coast rollout, this sequencing pattern is directly material: whether local communities - including Aboriginal community-controlled organisations - would have a genuine ability to shape or refuse deployment, rather than being consulted after configuration is already locked in, is untested by the Moree precedent."
+      ],
+      "determinations": [
+        [
+          "AR-015.1",
+          "Public consultation followed, rather than preceded, operational deployment and further enterprise procurement planning."
+        ],
+        [
+          "AR-015.2",
+          "No public record establishes Aboriginal community-controlled organisation consultation, approval, or co-design before Moree deployment."
+        ],
+        [
+          "AR-015.3",
+          "The genuine ability of a Mid North Coast community to shape or refuse a rollout before configuration lock-in is untested by the available precedent."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Consultation Theatre Risk",
+          "PROVISIONAL",
+          "Consultation occurring after material decisions are made can still be genuine input into future iterations; the register does not establish which is the case here."
+        ]
+      ],
+      "anchors": [
+        "EV-0009",
+        "EV-0039",
+        "EV-0198",
+        "EV-0256"
+      ],
+      "boundary": "No determination is made that consultation was conducted in bad faith; only that its sequencing relative to deployment is established and material to assessing a future rollout."
+    },
+    {
+      "id": "AR-016",
+      "title": "Oversight and Complaint Architecture",
+      "analysis": [
+        "The Law Enforcement Conduct Commission has clear statutory jurisdiction under s 35 of the LECC Act 2016 to receive a complaint about NSW Police Force conduct that is or could be agency maladministration, and its objects expressly include examining systemic practice, not only individual officer misconduct - meaning a PolAir-Remote governance concern is not conceptually confined to a named-operator allegation. Despite this, no PolAir-Remote-specific published finding has been located from LECC, the NSW Information and Privacy Commission, the NSW Ombudsman, or the NSW Audit Office.",
+        "The practical accountability gap is not the absence of a complaint mechanism - it is that a resident who suspects a drone observed their property has no obvious way to discover whether a specific flight occurred, and therefore no practical trigger to invoke the complaint mechanisms that do exist."
+      ],
+      "determinations": [
+        [
+          "AR-016.1",
+          "LECC has clear, systemic (not merely individual-conduct) jurisdiction over PolAir-Remote governance concerns."
+        ],
+        [
+          "AR-016.2",
+          "No independent oversight body has published a PolAir-Remote-specific finding, which does not establish that no internal review has occurred."
+        ],
+        [
+          "AR-016.3",
+          "The practical barrier to accountability is discoverability - a resident's ability to learn a specific flight occurred - not the absence of a complaint mechanism."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Standing Without Discoverability",
+          "CONFIRMED AS A STRUCTURAL GAP",
+          "A real complaint route that a resident has no practical way to trigger functions, in effect, similarly to having no route at all for that resident's specific situation."
+        ]
+      ],
+      "anchors": [
+        "EV-0026",
+        "EV-0027",
+        "EV-0089",
+        "EV-0215",
+        "EV-0216",
+        "EV-0217",
+        "EV-0218"
+      ],
+      "boundary": "No determination is made that any specific complaint has been filed, upheld, or dismissed; the finding concerns the structural discoverability gap, not any individual case."
+    },
+    {
+      "id": "AR-017",
+      "title": "Mid North Coast Rollout Design and Geographic Scale",
+      "analysis": [
+        "The Mid North Coast Police District spans multiple widely-separated communities (West Kempsey, Bellbrook, Gladstone, South West Rocks, Macksville, Nambucca Heads, Port Macquarie, Wauchope, Laurieton, Bowraville, Comboyne and others), and Kemp's own Oxley electorate covers 9,325.32 square kilometres. A docked-drone installation has a finite operational radius; siting is an operational-engineering decision, not a simple rooftop-mounting exercise. The petition's \"Mid North Coast\" wording does not distinguish a single Kempsey-focused installation from a distributed multi-dock regional network - two propositions of very different infrastructure, cost, and governance scale.",
+        "No public feasibility, coverage, or engineering study defining dock/aircraft counts, locations, or response-time targets for a Mid North Coast rollout has been located."
+      ],
+      "determinations": [
+        [
+          "AR-017.1",
+          "The Mid North Coast's genuine geographic dispersion is established and material to what \"expansion\" would actually require."
+        ],
+        [
+          "AR-017.2",
+          "The petition does not specify whether it requests a single Kempsey installation or a distributed regional network."
+        ],
+        [
+          "AR-017.3",
+          "No public coverage/feasibility study for a Mid North Coast deployment has been located."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Undefined Scope Ratification",
+          "PROVISIONAL",
+          "Signing a petition for an undefined geographic scope risks ratifying whichever scale NSW Police later chooses to build, without the signatory having endorsed that specific scale."
+        ]
+      ],
+      "anchors": [
+        "EV-0036",
+        "EV-0170",
+        "EV-0187"
+      ],
+      "boundary": "No determination is made about what scale of rollout is appropriate; only that the petition itself does not specify one and no public design study exists."
+    },
+    {
+      "id": "AR-018",
+      "title": "Economic System Effect: Detention Cost Comparators",
+      "analysis": [
+        "NSW's own published unit costs put youth detention at approximately seven times the daily cost of community supervision ($2,573.26 versus $367.68 per person per day, 2024-25), meaning an illustrative 11-day detention episode costs roughly $28,306 against approximately $4,044 for equivalent community supervision. Kempsey's current $3.8 million targeted youth-crime investment is numerically equivalent to only about four detention-place-years - a relevant scale comparator, not a claim that community investment and detention are interchangeable.",
+        "An enforcement technology that increases detections, arrests and remand can therefore create a downstream-cost multiplier: expenditure saved in search or aviation can be transferred into courts, legal aid and youth justice, unless offset by prevented harm. Conversely, faster detection may prevent burglary, vehicle theft, violence, or prolonged searches. The correct economic unit - net cost per prevented harm - has not been publicly constructed for PolAir-Remote, and no public evaluation combines system cost with downstream justice-system cost and prevented-harm benefit in one model."
+      ],
+      "determinations": [
+        [
+          "AR-018.1",
+          "NSW's own published detention/supervision unit-cost ratio (~7:1) is established and provides a real scale comparator for policing-technology cost claims."
+        ],
+        [
+          "AR-018.2",
+          "An enforcement technology that increases detections can create downstream justice-system costs that are not counted in a simple hardware-cost comparison."
+        ],
+        [
+          "AR-018.3",
+          "No public evaluation integrates PolAir-Remote's system cost with downstream justice costs and prevented-harm benefit in a single net-cost model."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Narrative Compression",
+          "CONFIRMED",
+          "A hardware price benchmark (~$31,308) presented alongside a helicopter-cost comparison omits the downstream justice-system cost chain a drone-driven arrest can trigger."
+        ]
+      ],
+      "anchors": [
+        "EV-0043",
+        "EV-0044",
+        "EV-0045",
+        "EV-0046",
+        "EV-0047",
+        "EV-0048",
+        "EV-0049",
+        "EV-0050",
+        "EV-0051",
+        "EV-0052"
+      ],
+      "boundary": "No determination is made about whether PolAir-Remote's net economic effect is positive or negative; only that the public record does not currently support calculating it either way."
+    },
+    {
+      "id": "AR-019",
+      "title": "Evidence Integrity, Chain of Custody and Courtroom Use",
+      "analysis": [
+        "The DJI Dock 3/Matrice platform is technically capable of producing an auditable flight record - manual and remote-controlled missions can be fully logged and exported - so a claim that dock-based operations are inherently incapable of producing auditable records would be technically incorrect. CASA separately requires a seven-year aviation record (operational releases, logs, remote-pilot records) to be kept regardless of whether video is ordinarily recorded, meaning \"no recorded video\" does not mean \"no government record of the flight.\"",
+        "No public PolAir-Remote-specific evidence-handling or chain-of-custody protocol has been located defining when imagery must be recorded, export/integrity format, or continuity certification for criminal proceedings, despite drone-derived material plausibly falling within NSW's existing criminal-disclosure duties (Criminal Procedure Act 1986 s 36B). Software/firmware version should be treated as a forensic artifact where system behaviour becomes disputed, since DJI continues to issue updates that can affect reproducibility."
+      ],
+      "determinations": [
+        [
+          "AR-019.1",
+          "The platform's technical capability to produce an auditable flight record is established, independent of whether NSW Police currently uses that capability."
+        ],
+        [
+          "AR-019.2",
+          "CASA's seven-year aviation-record requirement means \"not recorded\" does not equal \"no government record exists\"."
+        ],
+        [
+          "AR-019.3",
+          "No public PolAir-Remote-specific chain-of-custody or evidence-handling protocol has been located."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "Technical auditability capability existing does not establish it is enabled, preserved, or disclosed in practice."
+        ]
+      ],
+      "anchors": [
+        "EV-0130",
+        "EV-0134",
+        "EV-0140",
+        "EV-0141",
+        "EV-0142",
+        "EV-0148"
+      ],
+      "boundary": "No determination is made about whether PolAir-Remote evidence has been mishandled in any actual case; the finding concerns the absence of a public governing protocol."
+    },
+    {
+      "id": "AR-020",
+      "title": "Records Retention, Secondary Use, Child and Indigenous Data Governance",
+      "analysis": [
+        "NSW privacy law contains specific law-enforcement secondary-use and disclosure exemptions (PPIP Act s 23) that substantially weaken any assumption that information collected for one incident can never be used for a related law-enforcement purpose - the exact limits depend on circumstances not disclosed here. No evidence establishes routine sharing of Moree PolAir imagery with other agencies, but legal pathways for such sharing exist in principle. NSW child-justice law (Children (Criminal Proceedings) Act 1987 s 6) expressly requires child-specific principles in the exercise of any relevant function, and at least one other NSW justice agency already has a child-specific surveillance policy - a governance precedent PolAir-Remote's own public documentation does not appear to reference.",
+        "Indigenous data sovereignty is named here as a governance principle this investigation applies proactively, not as proof of any legal obligation breach - given Aboriginal overrepresentation in the youth-justice system generally (AR-018) and the shared cartage/service context connecting Bellbrook and the Thunggutti community documented in this repository's other case. The 2026 NSW Police disclosure log contains no PolAir/RPAS item, reinforcing that formal GIPA access is the only currently visible route to the underlying records."
+      ],
+      "determinations": [
+        [
+          "AR-020.1",
+          "Existing NSW law provides real, if circumstance-dependent, secondary-use pathways for PolAir-derived information - the absence of evidence of misuse is not the same as an absence of legal capacity for misuse."
+        ],
+        [
+          "AR-020.2",
+          "Child-specific governance principles apply to any PolAir-Remote function affecting children, and at least one comparable NSW justice agency already has a dedicated policy PolAir-Remote's own materials do not reference."
+        ],
+        [
+          "AR-020.3",
+          "The 2026 NSW Police disclosure log's silence on PolAir/RPAS confirms GIPA as the operative access route, not a negative finding about the program's existence."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "CONFIRMED FOR PUBLIC POLICY VISIBILITY",
+          "Secondary-use, retention and child/Indigenous-specific governance documents for PolAir-Remote specifically are not publicly located, though general legal frameworks exist."
+        ]
+      ],
+      "anchors": [
+        "EV-0152",
+        "EV-0153",
+        "EV-0157",
+        "EV-0158",
+        "EV-0159",
+        "EV-0161",
+        "EV-0169",
+        "EV-0199"
+      ],
+      "boundary": "No determination is made that any child's or Aboriginal person's data has been mishandled; the finding concerns the absence of a public PolAir-specific governance document, against a backdrop of real legal capacity for secondary use."
+    },
+    {
+      "id": "AR-021",
+      "title": "Primary Record Acquisition Plan (GIPA and AE Register)",
+      "analysis": [
+        "This case's own AE Primary Record Acquisition Register systematically classified 40 highest-value primary records as NOT PUBLICLY LOCATED or PARTIAL, each assigned a specific GIPA route. The GIPA Primary Record Acquisition Pack translates that register into six segmented, ready-to-lodge applications to NSW Police InfoLink, deliberately narrowed by record class and date range to avoid an unreasonable-and-substantial-diversion-of-resources refusal. GIPA can target the audit trail even where imagery itself does not exist, since CASA-mandated operational records (purpose, timestamps, coordinates, crew, flight segments) exist independent of video retention.",
+        "None of the six applications had been lodged as at the evidence freeze. This is this case's single highest-leverage next action: almost every open question in this register (Q-0001 through Q-0018) traces back to one or more of these six applications."
+      ],
+      "determinations": [
+        [
+          "AR-021.1",
+          "A complete, specific, ready-to-lodge acquisition plan exists for this case's highest-value evidence gaps."
+        ],
+        [
+          "AR-021.2",
+          "GIPA can reach the operational audit trail independent of whether video imagery exists or was retained."
+        ],
+        [
+          "AR-021.3",
+          "No application had been lodged as at the evidence freeze - the plan is prepared but not yet executed."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "ACTIONABLE",
+          "Unlike many opacity findings in this analysis, this one has a concrete, already-drafted remedy available - formal information access requests, not further public search."
+        ]
+      ],
+      "anchors": [
+        "EV-0034",
+        "EV-0151",
+        "EV-0199",
+        "EV-0782",
+        "EV-0783",
+        "EV-0784",
+        "EV-0785",
+        "EV-0786",
+        "EV-0822",
+        "EV-0823",
+        "EV-0824",
+        "EV-0825",
+        "EV-0826",
+        "EV-0827"
+      ],
+      "boundary": "No determination is made about what these applications will reveal; the finding is limited to the plan's existence, specificity, and current unexecuted status."
+    },
+    {
+      "id": "AR-022",
+      "title": "Baseline Structural Determination and Analytical State",
+      "analysis": [
+        "The complete first-cycle analysis establishes that the public evidentiary case for Mid North Coast PolAir-Remote expansion rests on a real underlying capability (individually documented tactical successes) and a real underlying community-safety concern (independently documented Kempsey victimisation), but that every specific quantitative and causal claim in the petition itself - the 50% crime figure, the arrest/recovery/missing-person aggregates, the deployment-speed metric, and the helicopter-cost comparison - is either unreproduced from a primary dataset or measures something narrower than its public framing suggests.",
+        "Simultaneously, statewide procurement, a second command-wide operating-model review, and continuation past the trial's own stated window were all already in motion before the petition, and no public exit criteria have been located for any of it. The strongest bounded baseline determination is that this is a real capability with a real underlying problem, wrapped in an evidentiary case that does not yet support its own specific claims, sitting inside an institutional expansion trajectory that predates the petition and currently lacks any visible exit gate."
+      ],
+      "determinations": [
+        [
+          "AR-022.1",
+          "The case cannot accurately be described as either \"the petition is baseless\" or \"the petition's claims are proven\"."
+        ],
+        [
+          "AR-022.2",
+          "PolAir-Remote's tactical utility and Kempsey's community-safety concern are both real and independently documented."
+        ],
+        [
+          "AR-022.3",
+          "Every specific quantitative claim in the petition is unreproduced, undefined, or measures something narrower than its framing suggests."
+        ],
+        [
+          "AR-022.4",
+          "Statewide expansion planning and continuation past the trial's stated window both predate or run parallel to the petition, with no visible public exit criteria."
+        ],
+        [
+          "AR-022.5",
+          "This baseline is complete for the frozen corpus (EV-0001-EV-0827) and remains open for a later, separately-numbered DFAPTA cycle once a further freeze command is issued."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Documented Compliance as Shield",
+          "PROVISIONAL",
+          "Genuine tactical-success documentation coexists with unverified aggregate and causal claims; the former does not validate the latter."
+        ],
+        [
+          "Technology Ratchet",
+          "PROVISIONAL",
+          "Restated at baseline level: institutional momentum toward expansion is visible; irreversibility is not established."
+        ]
+      ],
+      "anchors": [
+        "EV-0002",
+        "EV-0006",
+        "EV-0007",
+        "EV-0012",
+        "EV-0013",
+        "EV-0018",
+        "EV-0037",
+        "EV-0042",
+        "EV-0052"
+      ],
+      "boundary": "No determination is made of intent, wrongdoing, the truth or falsity of the petition's underlying policy case, or any forward projection - see Temporal Projection Integrity Engine for forward judgement stated separately."
+    }
+  ],
+  "cross_path_observations": [
+    {
+      "id": "CPO-001",
+      "title": "Real capability, real problem, unverified specific claims",
+      "analysis": "PolAir-Remote's tactical utility and Kempsey's community-safety concern are both independently documented (AR-004, AR-009); every specific quantitative claim built on top of them in the petition is separately unverified (AR-003, AR-004, AR-005, AR-007). These are not the same finding and must not be conflated.",
+      "anchors": "EV-0002, EV-0003, EV-0004, EV-0012, EV-0018"
+    },
+    {
+      "id": "CPO-002",
+      "title": "Expansion planning predates the petition on every axis checked",
+      "analysis": "Statewide RPAS procurement (AR-013), a second Aviation Command operating-model review (AR-013), and public contemplation of Kempsey as an expansion site (AR-002) all predate the August 2026 petition. The petition amplifies an institutional trajectory rather than originating it.",
+      "anchors": "EV-0008, EV-0013, EV-0014, EV-0030"
+    },
+    {
+      "id": "CPO-003",
+      "title": "Two contradictions share one root cause: undisclosed operational policy",
+      "analysis": "Both the reactive/proactive messaging contradiction (AR-010) and the crime-only/multi-purpose contradiction (AR-011) would be resolved by the same missing document: the controlling RPAS operational policy sought in GIPA Application 2.",
+      "anchors": "EV-0006, EV-0007, EV-0011"
+    },
+    {
+      "id": "CPO-004",
+      "title": "Continuation, procurement, and absent exit criteria form one pattern, not three",
+      "analysis": "Operating past the stated six-month window (AR-014), parallel enterprise procurement (AR-013), and the absence of any public stop/decommissioning criteria (AR-014, AR-016) read separately as three minor gaps; read together they describe a single institutional trajectory with no visible off-ramp.",
+      "anchors": "EV-0013, EV-0037, EV-0038, EV-0042"
+    },
+    {
+      "id": "CPO-005",
+      "title": "Governance documentation gaps recur across every domain examined",
+      "analysis": "No controlling operational policy (AR-010), no AI Assessment Framework determination (AR-012), no chain-of-custody protocol (AR-019), no child/Indigenous-specific data governance document (AR-020), and no stop/decommissioning criteria (AR-014) are five separate instances of the same structural pattern: operational capability that has outpaced its own public governance documentation.",
+      "anchors": "EV-0021, EV-0130, EV-0152, EV-0157"
+    },
+    {
+      "id": "CPO-006",
+      "title": "GIPA is the common resolution path for almost every open question",
+      "analysis": "Of the 18 open questions in this case's register, all but two (Q-0008, the Macleay Argus article; Q-0009, formal parliamentary petition status) resolve through one of the six already-drafted GIPA applications (AR-021). This case's evidentiary gaps are unusually concentrated on a single, already-identified acquisition mechanism.",
+      "anchors": "EV-0034, EV-0822, EV-0823, EV-0824, EV-0825, EV-0826, EV-0827"
+    },
+    {
+      "id": "CPO-007",
+      "title": "Accountability exists in principle but requires the resident to already know a flight occurred",
+      "analysis": "LECC has real, systemic complaint jurisdiction (AR-016) and NSW law provides real GIPA access (AR-021), but neither can be triggered by a resident who has no way to learn a specific drone flight occurred over their property - the practical accountability gap is discoverability, not the absence of a formal route.",
+      "anchors": "EV-0026, EV-0027, EV-0217"
+    },
+    {
+      "id": "CPO-008",
+      "title": "Economic claims omit the same downstream chain in two different domains",
+      "analysis": "The petition's cost claim omits downstream justice-system costs that a drone-driven arrest can trigger (AR-005, AR-018) in the same way its crime-reduction claim omits the confounding effect of bail-law and diversion programs on the same offender cohort (AR-006, AR-008) - both are instances of a single-input claim ignoring a documented downstream system.",
+      "anchors": "EV-0043, EV-0052, EV-0100, EV-0111"
+    },
+    {
+      "id": "CPO-009",
+      "title": "Consultation and community-governance sequencing repeats the Moree pattern risk",
+      "analysis": "Public consultation followed deployment at Moree (AR-015) in the same way public claims preceded verification throughout this case (AR-003 through AR-005) - a recurring pattern of public-facing process occurring after, rather than before, the substantive decision or claim it is nominally testing.",
+      "anchors": "EV-0009, EV-0039, EV-0198"
+    },
+    {
+      "id": "CPO-010",
+      "title": "Baseline convergence: a real capability seeking expansion faster than its own evidentiary and governance base can support it",
+      "analysis": "Across independent paths, PolAir-Remote is a real, tactically useful capability inside an active statewide expansion trajectory whose specific public justifications (crime statistics, cost, deployment speed) and governance documentation (operational policy, AI assessment, exit criteria, chain of custody) have not caught up with the pace of that trajectory.",
+      "anchors": "AR-002 through AR-022"
+    }
+  ],
+  "disclosure_requests": [
+    {
+      "id": "YIELD-REQ-001",
+      "title": "Complete Moree trial evaluation",
+      "request": "Publish the complete evaluation of the six-month Moree trial, whether draft, interim or final, including methodology, baseline, comparator design and success/failure/continuation/termination criteria."
+    },
+    {
+      "id": "YIELD-REQ-002",
+      "title": "Primary sourcing for all six headline petition statistics",
+      "request": "Publish the primary dataset or briefing behind the 50% crime-drop figure, 100+ arrests, 70+ stolen vehicles, six missing people, 30-60 second deployment metric, and helicopter-cost comparison, each with its exact definition, denominator, and measurement period."
+    },
+    {
+      "id": "YIELD-REQ-003",
+      "title": "Controlling RPAS/PolAir-Remote operational policy",
+      "request": "Publish the operational policy and releasable Standard Operating Procedures governing launch authority, proactive-patrol rules, mission classification, recording, and retention."
+    },
+    {
+      "id": "YIELD-REQ-004",
+      "title": "Complete itemised trial cost and cost-effectiveness model",
+      "request": "Publish the finalised Moree trial expenditure (capital, staffing, ROC, communications, maintenance, data infrastructure) and any net-cost-per-prevented-harm model integrating downstream justice-system costs."
+    },
+    {
+      "id": "YIELD-REQ-005",
+      "title": "AI Assessment Framework and biometric-linkage determination",
+      "request": "Publish any AI Assessment Framework assessment, risk rating, or documented non-applicability decision for PolAir-Remote, and the system/data-flow architecture showing whether imagery is ever submitted to facial-biometric matching."
+    },
+    {
+      "id": "YIELD-REQ-006",
+      "title": "Mid North Coast coverage and feasibility design",
+      "request": "Publish any regional needs, coverage, or engineering assessment defining dock/aircraft numbers, locations, and response-time targets for a Mid North Coast rollout."
+    },
+    {
+      "id": "YIELD-REQ-007",
+      "title": "EOI YR-2026-0058 and YR-2026-0012 outcomes",
+      "request": "Publish the outcome, evaluation report, and any resulting contract or panel-establishment decision for both the statewide RPAS Panel EOI and the Aviation Command Operating Model Review EOI."
+    },
+    {
+      "id": "YIELD-REQ-008",
+      "title": "Formal stop, failure and decommissioning criteria",
+      "request": "Publish any written stop/go, continuation, expansion, or termination decision instrument for PolAir-Remote, and any decommissioning or asset-reassignment plan."
+    },
+    {
+      "id": "YIELD-REQ-009",
+      "title": "Chain-of-custody and evidence-handling protocol",
+      "request": "Publish the PolAir-Remote-specific evidence-handling protocol: recording thresholds, evidentiary export format, integrity controls, and continuity certification for criminal proceedings."
+    },
+    {
+      "id": "YIELD-REQ-010",
+      "title": "Child-specific and Indigenous data governance documentation",
+      "request": "Publish any child-specific operational safeguards and any Aboriginal-impact or Closing the Gap assessment prepared for PolAir-Remote or its proposed expansion."
+    },
+    {
+      "id": "YIELD-REQ-011",
+      "title": "Consultation analysis and shared-governance record",
+      "request": "Publish the Moree consultation's analysis/response report and any record of formal engagement with the Moree Youth Crime Governance Group or Aboriginal community-controlled organisations before deployment."
+    },
+    {
+      "id": "YIELD-REQ-012",
+      "title": "Complete 11 August 2026 Macleay Argus article",
+      "request": "Not a NSW Police record - to be acquired from the publisher, an archive, or a library subscription route, to resolve the headline quote's attribution and framing."
+    }
+  ],
+  "contradictions_preserved": [
+    {
+      "id": "CDR-001",
+      "issue": "Reactive/\"not surveillance\" framing versus proactive and covert flying at trial commencement",
+      "status": "OPEN",
+      "analysis": "NSW Police's 19 February 2026 formal-launch messaging and the 8 January 2026 trial-commencement briefing describe materially different operating modes for the same program; resolution requires the controlling operational policy.",
+      "anchors": [
+        "EV-0006",
+        "EV-0007"
+      ]
+    },
+    {
+      "id": "CDR-002",
+      "issue": "\"Solely used for crime\" versus documented multi-purpose emergency use",
+      "status": "OPEN",
+      "analysis": "A June 2026 quote describing crime-only use is in tension with January 2026 and other reporting describing search-and-rescue, motor-vehicle-collision and fire response uses; neither statement is shown false, but public framing is inconsistent.",
+      "anchors": [
+        "EV-0006",
+        "EV-0011"
+      ]
+    }
+  ],
+  "overreach_controls": [
+    "No determination that any specific numeric claim in the petition (50%, 100+, 70+, six, 30-60 seconds, helicopter-cost-fraction) is false - only that none is currently independently reproducible from a primary published dataset.",
+    "No determination that PolAir-Remote has had no effect, or a positive effect, on Moree crime - the causal question remains genuinely open on the public record.",
+    "No determination that facial recognition or biometric matching is currently occurring - the public record cannot establish this either way.",
+    "No determination that NSW Police predetermined the Moree trial outcome, unlawfully extended it, or committed to any specific Mid North Coast rollout.",
+    "No determination that consultation with Moree or any community was conducted in bad faith.",
+    "No determination that PolAir-Remote evidence has been mishandled in any actual criminal proceeding.",
+    "No determination that any child's or Aboriginal person's data has been mishandled by this program specifically.",
+    "No attribution of intent, bad faith, corruption or negligence to any named individual or institution.",
+    "No inference that a public-record absence proves an internal record, policy or control does not exist.",
+    "No forward projection, event-horizon statement, or Temporal Projection Integrity Engine classification - see that stage separately.",
+    "No Lattice Atlas topology claim or cross-thread structural declaration - see that stage separately.",
+    "No compression of PolAir-Remote's genuine, independently-documented tactical successes into an overall negative assessment of the technology."
+  ],
+  "evidence_anchor_coverage": {
+    "EV-0001": [
+      "AR-001"
+    ],
+    "EV-0002": [
+      "AR-001",
+      "AR-002",
+      "AR-003",
+      "AR-004",
+      "AR-005",
+      "AR-022"
+    ],
+    "EV-0003": [
+      "AR-009"
+    ],
+    "EV-0004": [
+      "AR-009"
+    ],
+    "EV-0005": [
+      "AR-009"
+    ],
+    "EV-0006": [
+      "AR-010",
+      "AR-011",
+      "AR-022"
+    ],
+    "EV-0007": [
+      "AR-010",
+      "AR-022"
+    ],
+    "EV-0008": [
+      "AR-002",
+      "AR-009"
+    ],
+    "EV-0009": [
+      "AR-015"
+    ],
+    "EV-0011": [
+      "AR-011"
+    ],
+    "EV-0012": [
+      "AR-004",
+      "AR-005",
+      "AR-022"
+    ],
+    "EV-0013": [
+      "AR-013",
+      "AR-022"
+    ],
+    "EV-0014": [
+      "AR-013"
+    ],
+    "EV-0015": [
+      "AR-002"
+    ],
+    "EV-0016": [
+      "AR-002"
+    ],
+    "EV-0017": [
+      "AR-002"
+    ],
+    "EV-0018": [
+      "AR-003",
+      "AR-006",
+      "AR-022"
+    ],
+    "EV-0019": [
+      "AR-003"
+    ],
+    "EV-0020": [
+      "AR-003"
+    ],
+    "EV-0021": [
+      "AR-012"
+    ],
+    "EV-0022": [
+      "AR-012"
+    ],
+    "EV-0023": [
+      "AR-012"
+    ],
+    "EV-0026": [
+      "AR-016"
+    ],
+    "EV-0027": [
+      "AR-016"
+    ],
+    "EV-0028": [
+      "AR-002"
+    ],
+    "EV-0029": [
+      "AR-009"
+    ],
+    "EV-0030": [
+      "AR-013"
+    ],
+    "EV-0031": [
+      "AR-013"
+    ],
+    "EV-0032": [
+      "AR-013"
+    ],
+    "EV-0034": [
+      "AR-001",
+      "AR-021"
+    ],
+    "EV-0035": [
+      "AR-001"
+    ],
+    "EV-0036": [
+      "AR-017"
+    ],
+    "EV-0037": [
+      "AR-014",
+      "AR-022"
+    ],
+    "EV-0038": [
+      "AR-013"
+    ],
+    "EV-0039": [
+      "AR-015"
+    ],
+    "EV-0040": [
+      "AR-002"
+    ],
+    "EV-0041": [
+      "AR-014"
+    ],
+    "EV-0042": [
+      "AR-014",
+      "AR-022"
+    ],
+    "EV-0043": [
+      "AR-018"
+    ],
+    "EV-0044": [
+      "AR-018"
+    ],
+    "EV-0045": [
+      "AR-018"
+    ],
+    "EV-0046": [
+      "AR-018"
+    ],
+    "EV-0047": [
+      "AR-018"
+    ],
+    "EV-0048": [
+      "AR-005",
+      "AR-018"
+    ],
+    "EV-0049": [
+      "AR-018"
+    ],
+    "EV-0050": [
+      "AR-018"
+    ],
+    "EV-0051": [
+      "AR-018"
+    ],
+    "EV-0052": [
+      "AR-005",
+      "AR-018",
+      "AR-022"
+    ],
+    "EV-0055": [
+      "AR-003",
+      "AR-006"
+    ],
+    "EV-0061": [
+      "AR-003",
+      "AR-006"
+    ],
+    "EV-0089": [
+      "AR-016"
+    ],
+    "EV-0090": [
+      "AR-007"
+    ],
+    "EV-0100": [
+      "AR-006",
+      "AR-008"
+    ],
+    "EV-0101": [
+      "AR-008"
+    ],
+    "EV-0102": [
+      "AR-008"
+    ],
+    "EV-0103": [
+      "AR-008"
+    ],
+    "EV-0108": [
+      "AR-008"
+    ],
+    "EV-0111": [
+      "AR-006",
+      "AR-008"
+    ],
+    "EV-0114": [
+      "AR-006",
+      "AR-008"
+    ],
+    "EV-0130": [
+      "AR-019"
+    ],
+    "EV-0134": [
+      "AR-019"
+    ],
+    "EV-0140": [
+      "AR-019"
+    ],
+    "EV-0141": [
+      "AR-019"
+    ],
+    "EV-0142": [
+      "AR-019"
+    ],
+    "EV-0148": [
+      "AR-019"
+    ],
+    "EV-0151": [
+      "AR-021"
+    ],
+    "EV-0152": [
+      "AR-020"
+    ],
+    "EV-0153": [
+      "AR-020"
+    ],
+    "EV-0157": [
+      "AR-020"
+    ],
+    "EV-0158": [
+      "AR-020"
+    ],
+    "EV-0159": [
+      "AR-020"
+    ],
+    "EV-0161": [
+      "AR-020"
+    ],
+    "EV-0169": [
+      "AR-020"
+    ],
+    "EV-0170": [
+      "AR-017"
+    ],
+    "EV-0187": [
+      "AR-017"
+    ],
+    "EV-0193": [
+      "AR-012"
+    ],
+    "EV-0198": [
+      "AR-015"
+    ],
+    "EV-0199": [
+      "AR-020",
+      "AR-021"
+    ],
+    "EV-0215": [
+      "AR-016"
+    ],
+    "EV-0216": [
+      "AR-016"
+    ],
+    "EV-0217": [
+      "AR-016"
+    ],
+    "EV-0218": [
+      "AR-016"
+    ],
+    "EV-0236": [
+      "AR-007"
+    ],
+    "EV-0250": [
+      "AR-012"
+    ],
+    "EV-0256": [
+      "AR-015"
+    ],
+    "EV-0338": [
+      "AR-007"
+    ],
+    "EV-0342": [
+      "AR-007"
+    ],
+    "EV-0343": [
+      "AR-007"
+    ],
+    "EV-0498": [
+      "AR-012"
+    ],
+    "EV-0505": [
+      "AR-012"
+    ],
+    "EV-0608": [
+      "AR-012"
+    ],
+    "EV-0782": [
+      "AR-021"
+    ],
+    "EV-0783": [
+      "AR-021"
+    ],
+    "EV-0784": [
+      "AR-021"
+    ],
+    "EV-0785": [
+      "AR-021"
+    ],
+    "EV-0786": [
+      "AR-021"
+    ],
+    "EV-0822": [
+      "AR-021"
+    ],
+    "EV-0823": [
+      "AR-021"
+    ],
+    "EV-0824": [
+      "AR-021"
+    ],
+    "EV-0825": [
+      "AR-013",
+      "AR-021"
+    ],
+    "EV-0826": [
+      "AR-021"
+    ],
+    "EV-0827": [
+      "AR-021"
+    ]
+  },
+  "counts": {
+    "analysis_paths": 22,
+    "analytical_determinations": 72,
+    "cross_path_observations": 10,
+    "disclosure_requests": 12,
+    "contradictions_preserved": 2,
+    "evidence_anchors_referenced": 102
+  }
+}
