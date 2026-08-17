@@ -88,5 +88,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "cases/DFAPTI-MNC-2026-00001/enforcement-notice/index.html and cases/DFAPTI-MNC-2026-00001/advocacy-package/index.html rewritten to demand remedies rather than request information or confirmation. This correction applies to this case only; whether DFAPTI-BB-2026-00001's own Enforcement Notice has the same framing issue was raised as an open question for the operator, not assumed or acted on."
+  },
+  {
+    "decision_id": "DEC-0011",
+    "date": "2026-08-17",
+    "reason": "Operator uploaded 6 new docx files, 4 of which shared an identical filename ('MAYHEM MNC POLAIR REMOTE ANSWER REGISTER L to T RUN001 2026-08-17') despite being 4 distinct documents. All 4 were independently found to cover the identical Q313-Q519 question range already ingested and frozen (DEC-0009), each with different prose wording but no new citations, sources, or facts beyond what the frozen register already holds. Operator confirmed this was caused by the external ChatGPT Deep Research session losing continuity with its own prior state ('chatgpt broke continuity'), regenerating the same segment four times instead of producing the actual next segment (Answer Register U-to-AF, Q520-Q763) referenced by the separately-supplied Pre-Rollout Decision Architecture document as an existing but unsupplied file. Consistent with this investigation's standing discipline against merging externally-sourced material on trust, and against inflating the evidence register with reworded duplicates: none of the 4 variants was converted into evidence register entries. All 4 are preserved in full, with this reasoning stated at the top of the file, for audit-trail completeness.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "cases/DFAPTI-MNC-2026-00001/preserved/answer-register-l-to-t-continuity-break-variants-2026-08-17.txt holds all 4 variants; no evidence_register.json entries trace to them. The actual U-to-AF register (Q520-Q763) remains unsupplied and is still the highest-value open acquisition gap in the underlying question bank."
   }
 ]

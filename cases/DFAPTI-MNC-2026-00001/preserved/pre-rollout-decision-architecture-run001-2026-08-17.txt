@@ -1,0 +1,133 @@
+
+MAYHEM — POLAIR-REMOTE
+PRE-ROLLOUT DECISION ARCHITECTURE
+RUN 001 • Moree → Kempsey → Mid North Coast • 17 August 2026
+Status: OPEN DECISION GATE. This is not a final approval, rejection or enforcement instrument. It converts the completed Q1–Q763 Answer Register into explicit evidence gates for any proposed Kempsey or Mid North Coast expansion.
+Control basis: MAYHEM-MNC-POLAIR-REMOTE-ANSWER-REGISTER-A-to-K-RUN-001-2026-08-16.docx; MAYHEM-MNC-POLAIR-REMOTE-ANSWER-REGISTER-L-to-T-RUN-001-2026-08-16.docx; MAYHEM-MNC-POLAIR-REMOTE-ANSWER-REGISTER-U-to-AF-RUN-001-2026-08-16.docx.
+1. CUMULATIVE CONTROL STATE
+The complete Question Bank is classified through Q763. RUN 001 records 38 RESOLVED questions, 125 PARTIAL questions, 469 OPEN - PRIMARY RECORD questions and 131 OPEN - ANALYTICAL questions.
+The dominant constraint is not absence of investigation questions. It is absence of the PolAir-specific primary control records and linked mission/person/outcome/cost data needed to convert operational success stories into a defensible expansion decision.
+Current high-value unresolved controls include the formal Moree evaluation and KPI framework, complete trial cost, controlling RPAS policy/SOPs, mission and outcome datasets, privacy/AI/cyber/vendor assessments, procurement outcome, formal stop/go instrument, and termination/decommissioning architecture.
+2. DECISION RULE
+No evidentiary transition may be compressed. The decision chain must be proved in order:
+Moree tactical utility → Moree population-level effectiveness.
+Moree effectiveness → Kempsey necessity and transferability.
+Kempsey suitability → Mid North Coast network suitability.
+Technical capability → lawful, auditable and proportionate operating architecture.
+Lower aircraft cost → positive net system yield after ground-response, justice-system, privacy, safety and distributional effects.
+A failure to prove a later transition does not erase an earlier verified benefit. Conversely, proof of tactical utility does not supply the missing causal, economic, governance or transferability evidence.
+3. GATE STATES
+PASS — Evidence is sufficient for the defined gate at the present investigation state.
+PASS WITH CONDITIONS — Evidence supports proceeding only under explicit safeguards, monitoring and re-evaluation conditions.
+HOLD — A material but remediable evidence, governance or analytical dependency remains unresolved.
+NO-GO FOR APPROVAL NOW — The proposal is too undefined or too evidentially incomplete to approve at this stage. This is not a permanent rejection.
+TERMINATE — Reserved for a later evidence state showing persistent negative/insufficient net yield, unmitigable safety/governance failure or unacceptable rights/distributional effects.
+4. GATE 1 — MOREE EVALUATION INTEGRITY
+CURRENT STATE: HOLD
+Required before Moree results can justify expansion: the complete evaluation; original trial objectives; pre-deployment KPIs; success, failure, continuation, expansion and termination criteria; evaluator identity/independence; baseline and comparison design; included/excluded offence definitions; separate treatment of reactive and proactive operations; and explicit modelling of Soteria, bail changes, surge policing, Youth Action Meetings, diversion and place-based interventions.
+Current evidence verifies that an evaluation was contemplated and that possible scaling was to be informed by the trial, but the complete evaluation and formal decision instrument remain unacquired.
+5. GATE 2 — CLAIM REPRODUCIBILITY
+CURRENT STATE: HOLD
+The public expansion case must reproduce from primary records the meaning and source of the petition claims: approximately 50% crime reduction, 100+ arrests, 70+ stolen vehicles, six missing people, 30–60 second deployment and the 'fraction of helicopter cost' comparison.
+Pass requires definitions, denominators and attributable contribution rules. 'Assisted', 'crime reduction', 'deployment time' and 'cost' cannot remain elastic promotional terms.
+6. GATE 3 — TACTICAL UTILITY VERSUS POPULATION EFFECT
+CURRENT STATE: PASS FOR TACTICAL UTILITY / HOLD FOR POPULATION EFFECT
+Tactical utility is established through individual operations involving suspect location, vehicle interception, missing-person/search functions and victim-protection uses. Population-level crime reduction attributable to PolAir-Remote is not established.
+Pass for population effect requires mission-level exposure linked to offence-level trends, matched comparison locations or another credible counterfactual, pre-existing trend controls, offence-category interaction tests, and explicit separation from other simultaneous interventions.
+7. GATE 4 — KEMPSEY NECESSITY
+CURRENT STATE: HOLD
+Before a Kempsey deployment can be justified, NSW Police should define the exact capability deficit to be solved: incident types, annual frequency, location/time distribution, current ground response, current suspect-location delay, existing CCTV/MANPR/conventional PolAir contribution, and the proportion of incidents that a docked aircraft could materially improve.
+A general statement that Kempsey experiences crime is insufficient. The test is marginal capability gain over existing policing and technology.
+8. GATE 5 — MID NORTH COAST TRANSFERABILITY AND ENGINEERING
+CURRENT STATE: NO-GO FOR NETWORK APPROVAL NOW
+The phrase 'Mid North Coast' does not yet define an implementable system. Pass requires an engineering model specifying proposed geographic scope, dock count and sites, aircraft count, coverage radius, terrain/vegetation/coastal-weather effects, telecommunications and redundancy, BVLOS/airspace permissions, concurrent incident handling, recharge/maintenance/spares, fallback arrangements, operating hours and full capital/recurrent cost.
+Moree metrics cannot be transferred unchanged to a materially different coastal, forested, mountainous and dispersed environment without local validation.
+9. GATE 6 — OPERATIONAL AUTHORITY, PRIVACY AND PURPOSE CONTROL
+CURRENT STATE: HOLD
+Pass requires publication or independent verification of the controlling RPAS policy and the parts of SOPs necessary for meaningful audit: launch/tasking authority; reactive/proactive classification; covert-use rules; secondary detection and purpose-change controls; private-yard/window/thermal/zoom boundaries; tracking duration; mission termination authority; complaint handling; and breach logging.
+CASA aviation compliance is necessary but does not answer why a person/place may be observed, what may be recorded, or how police purpose changes are authorised.
+10. GATE 7 — RECORDING, EVIDENCE, RETENTION AND DISCLOSURE
+CURRENT STATE: HOLD
+The platform and aviation framework can generate detailed audit records. Pass requires a PolAir-specific evidence architecture defining video-recording triggers, source-file integrity, metadata, flight logs, operator identity, sensor state, software/firmware configuration, evidence export, chain of custody, defence disclosure, retention, deletion verification, litigation preservation and access logging.
+A public statement that video is not ordinarily recorded cannot be treated as absence of an auditable flight record.
+11. GATE 8 — AI, BIOMETRICS, DATA FLOW AND CYBERSECURITY
+CURRENT STATE: HOLD
+Pass requires an enabled/disabled capability register; identification of any onboard or central object/person detection and tracking; confirmation of whether custom/third-party analytics are present; a separate rule for biometric/facial matching; applicable NSW AI assurance; PIA; data-flow diagram; hosting location; manufacturer/vendor connectivity; encryption/authentication/MFA/privileged access; penetration/cyber assessment; supply-chain assessment; update approval and reassessment controls.
+No evidence presently establishes active facial recognition in the Moree workflow. That negative finding must not be converted into a permanent technical prohibition unless the policy says so.
+12. GATE 9 — SAFETY, RESILIENCE AND PHYSICAL RESPONSE
+CURRENT STATE: HOLD
+Pass requires reliability denominators: total missions, successful tasking, aborted/no-outcome missions, weather cancellations, network/control-link interruptions, return-to-home events, positioning anomalies, dock/aircraft unserviceability, emergency-airspace deconfliction, maintenance downtime and recovery time.
+The operating model must also specify fallback to ground units, conventional PolAir or other assets when the remote aircraft is unavailable. Remote observation cannot substitute for physical intervention capacity.
+13. GATE 10 — ABORIGINAL, CHILD AND DISTRIBUTIONAL IMPACT
+CURRENT STATE: HOLD
+Pass requires de-identified measurement of who is exposed to flights, tracking, stops, arrest, bail refusal, remand, detention and repeated drone-associated contact by geography, age and Aboriginality; comparison with local population and offending patterns; separate analysis of proactive versus reactive operations; and a documented response threshold for disproportionate effects.
+The governance process should also identify the role of Moree and Kempsey Aboriginal community-controlled organisations, local governance/reference groups, Closing the Gap data-sharing expectations, and child-specific surveillance safeguards.
+14. GATE 11 — ECONOMIC NET YIELD AND ALTERNATIVES
+CURRENT STATE: HOLD
+Pass requires full capital and recurrent cost, including aircraft/docks, ROC, operators, maintenance, communications, software/data, compliance, storage, training and ground response; plus downstream custody, court, Legal Aid, bail, supervision and detention effects where attributable.
+Benefits must include displaced conventional PolAir/search time, officer-hours saved, dangerous pursuits avoided, property recovery, victim harm avoided, missing-person/search-and-rescue benefit and subsequent offences prevented.
+The decision metric is net cost per prevented harm and marginal yield of the next dollar versus realistic alternatives: frontline staffing, prevention/diversion, bail support, community supervision, fixed/mobile CCTV, MANPR and conventional aviation.
+15. GATE 12 — PROCUREMENT, RATCHET AND EXIT CONTROL
+CURRENT STATE: HOLD
+Pass requires the RPAS procurement outcome, contract values/durations, exit rights, data return/deletion clauses, capability-addition rules, supply-chain/cyber requirements, and the Aviation Command Operating Model Review findings.
+It must also identify the person/body with authority to continue, expand, modify or terminate the program; whether evaluation is a mandatory precondition to expansion; and a real decommissioning path for docks, aircraft, software permissions, data and ROC capability.
+The central control question remains whether the formal architecture retains a genuine ability to say no after infrastructure, training, workflows and political expectations have accumulated.
+16. GATE 13 — CONSULTATION, OVERSIGHT AND PUBLIC AUDITABILITY
+CURRENT STATE: HOLD
+For a new Kempsey/Mid North Coast deployment, consultation should occur before material site/configuration choices are irreversible and should identify what the community can actually influence, including whether deployment occurs, proactive use, retention and analytics.
+Pass also requires continuous de-identified reporting and an oversight path able to review systemic practice, not merely individual misconduct.
+17. MINIMUM CONTINUOUS PUBLIC REPORTING
+Mission totals and purpose: reactive, proactive, training/testing and other defined categories.
+Launch time, arrival time and time to useful intelligence; ground-police arrival and intervention where measurable.
+No-outcome, aborted, unavailable, failure and safety/reliability rates.
+Direct tactical outcomes with explicit attribution definitions.
+Crime/victim outcomes, displacement/diffusion and deterrence/desistance measures where analytically valid.
+Geographic and demographic exposure, including Aboriginal and child justice-system effects.
+Privacy complaints, substantiated incidents, secondary-purpose changes and access/audit events in de-identified form.
+Complete capital/recurrent cost, conventional-PolAir displacement and net system-yield measures.
+Major procurement, software, sensor, AI/analytics or operating-policy changes.
+18. PROPOSED MAYHEM LIMITED-PILOT SAFEGUARD ARCHITECTURE
+This section is a MAYHEM proposal, not a statement of current NSW Police policy. If decision-makers wish to test Kempsey before the above expansion evidence is complete, the least contaminating design would be a tightly bounded local pilot rather than a district-wide rollout.
+Pre-specify the exact policing deficit and target incident classes before launch.
+Fix the pilot duration and sunset date before deployment.
+Publish the evaluation framework, baseline, comparison design and GO/HOLD/NO-GO thresholds before launch.
+Use reactive incident-response as the default; any proactive patrol must have a separately published justification, authority and audit category.
+No facial recognition or new biometric linkage unless separately approved, assessed and consulted on.
+Publish recording, retention, private-property, secondary-use and purpose-change rules before launch.
+Create a unique mission ID and preserve the aviation/tasking audit trail for every flight.
+Publish monthly de-identified mission, outcome, failure, complaint, demographic and cost metrics.
+Provide an independent evaluation route and local Aboriginal/shared-governance review.
+Prevent automatic continuation: the pilot expires unless an identified decision-maker signs a recorded post-evaluation continuation decision.
+19. MODIFICATION AND TERMINATION TRIGGERS
+MAYHEM modification triggers should include:
+Material KPI miss or absence of measurable marginal operational benefit.
+Repeated reliability/safety failures or unacceptable fallback gaps.
+Privacy, purpose-expansion or access-control failure.
+Disproportionate geographic/demographic exposure not explained by operational need or not effectively mitigated.
+Complaint patterns showing systemic policy or supervision failure.
+Cost growth or net-yield deterioration relative to alternatives.
+Material software, sensor, AI or data-flow change without reassessment.
+MAYHEM termination should remain available where:
+Net benefit is persistently negative or materially insufficient after full system costs and harms are counted.
+A safety, legality, privacy, cyber or distributional failure cannot be adequately mitigated.
+The capability does not solve a defined local problem better than realistic alternatives.
+The formal decision architecture can no longer demonstrate a genuine, usable stop/exit mechanism.
+20. CURRENT PROVISIONAL DISPOSITION
+MOREE TACTICAL CAPABILITY: PASS as an established individual-incident capability. This does not resolve population-level effectiveness, full net yield or governance sufficiency.
+MOREE AS EVIDENCE FOR KEMPSEY EXPANSION: HOLD. Current public Moree evidence is insufficient on its own to justify Kempsey deployment.
+KEMPSEY LOCAL DEPLOYMENT: HOLD pending a local necessity/engineering assessment, full Moree evaluation, governance controls, cost/alternatives analysis and pre-specified decision thresholds.
+MID NORTH COAST NETWORK APPROVAL: NO-GO FOR APPROVAL NOW. The network proposition is operationally undefined and lacks site, coverage, cost, transferability and governance architecture. This is not a permanent rejection.
+STATEWIDE EXPANSION CLAIM: HOLD pending the formal Moree evaluation, procurement outcome and a demonstrably genuine stop/go architecture.
+21. REQUIRED RECORDS THAT CAN CHANGE THE GATE
+Complete Moree evaluation, business case, evaluation framework and original KPI/success/failure/expansion criteria.
+Trial risk register; PIA; AI assessment or documented non-applicability decision; cyber and DJI/vendor risk assessments; data-flow and retention records.
+Controlling RPAS policy, releasable SOPs, launch authority, proactive-patrol and mission-classification rules.
+De-identified mission-level flight, outcome, failure, complaint/privacy and demographic data.
+YR-2026-0058 assessment outcome, panel/contract records and Aviation Command Operating Model Review findings.
+Complete trial expenditure, recurrent-cost projection and conventional-PolAir comparison methodology.
+Consultation submissions, analysis, response record and Moree/Kempsey Aboriginal/shared-governance records.
+Kempsey capability-needs and site/coverage engineering assessment; any Mid North Coast feasibility study.
+Formal expansion criteria, stop/go decision instrument and termination/decommissioning plan.
+22. CONTROL NOTE
+This architecture does not silently reclassify any Q1–Q763 Answer Register item. Any future change to a gate must be tied to newly acquired evidence and recorded as an append-only reclassification of the affected question(s). The purpose is to preserve a real ability to distinguish operational usefulness from sufficient evidence for expansion.
+

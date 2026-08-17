@@ -108,5 +108,23 @@
     ],
     "reason": "DEC-0010: reframed Enforcement Notice and Advocacy Package from information-request/complaint-lodging language to genuine remedy demands, per operator correction \"nothing about MAYHEM is a complaint machine\". No evidence, analysis, pattern, or forward-assessment content changed.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0007",
+    "date": "2026-08-17",
+    "author": "mayhem82",
+    "files_affected": [
+      "cases/DFAPTI-MNC-2026-00001/data/evidence_register.json",
+      "cases/DFAPTI-MNC-2026-00001/data/source_register.json",
+      "cases/DFAPTI-MNC-2026-00001/data/automation_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/decisions.json",
+      "cases/DFAPTI-MNC-2026-00001/data/change_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/investigation_notes.json",
+      "cases/DFAPTI-MNC-2026-00001/preserved/dfapti-snapshot-001-2026-08-17.txt",
+      "cases/DFAPTI-MNC-2026-00001/preserved/pre-rollout-decision-architecture-run001-2026-08-17.txt",
+      "cases/DFAPTI-MNC-2026-00001/preserved/answer-register-l-to-t-continuity-break-variants-2026-08-17.txt"
+    ],
+    "reason": "RUN-0008 (DEC-0011): ingested DFAPTI Snapshot 001 (7 new evidence items, 8 existing items upgraded with pinpoint URLs, 13 new sources), preserved the Pre-Rollout Decision Architecture as a reference document, and preserved 4 duplicate-range 'continuity break' Answer Register drafts without converting them to evidence. Evidence register grows from 827 to 834 items; DFAPTA/Lattice Atlas/Temporal Projection Integrity Engine/Enforcement Notice/Advocacy Package remain at Cycle 1's frozen boundary (EV-0001-EV-0827) until a new freeze command opens Cycle 2.",
+    "validation_completed": true
   }
 ]

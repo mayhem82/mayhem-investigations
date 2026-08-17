@@ -196,5 +196,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0023",
+    "timestamp": "2026-08-17T09:20:00Z",
+    "activity_type": "Finding",
+    "text": "Operator uploaded 6 new docx files. Identified 2 as genuinely new (DFAPTI Snapshot 001: 18 pinpoint-sourced evidence entries; Pre-Rollout Decision Architecture: a 13-gate external decision-sufficiency framework) and 4 as duplicate-content files sharing one filename, all covering the already-frozen Q313-Q519 range with no new citations - caused by the external ChatGPT session losing continuity rather than producing the actual missing Answer Register U-to-AF (Q520-Q763). Cross-checked all 18 Snapshot 001 items against the existing register before acting: 8 upgraded existing entries with pinpoint URLs, 7 added as new evidence (EV-0828-EV-0834), 3 needed no action (already captured with matching citations). See DEC-0011, RUN-0008, CHG-0007.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

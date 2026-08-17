@@ -1,0 +1,181 @@
+
+MAYHEM - POLAIR-REMOTE
+DFAPTI SNAPSHOT 001
+Moree -> Kempsey -> Mid North Coast | 17 August 2026
+Investigation ID: MAYHEM-MNC-POLAIR-REMOTE-001
+Active stage: DFAPTI - Deep Forensic All Paths Taken Investigation
+Register status: OPEN - evidence gathering continues
+Snapshot status: SNAPSHOT 001 - first canonical DFAPTI snapshot for this case
+Architect trigger: Proceed DFAPTI
+Evidence freeze: NOT ACTIVATED
+Source discipline: Primary/authoritative sources preferred; absence records remain UNVERIFIED until structurally resolved.
+CHAIN NOTE. Prior deep-research snapshots and Answer Registers are preserved outside this canonical DFAPTI snapshot chain. They are not silently converted into evidence entries. Their underlying sources must be ingested entry-by-entry before they become DFAPTI evidence.
+Register history entry
+ER-METHODOLOGY-001
+Date Logged: 17 August 2026
+Type: METHODOLOGY
+Nature: Architect instructed: Proceed DFAPTI.
+Reason: Reassert the evidence-gathering stage boundary under MAYHEM Canonical Specification v3.0.
+Resolution: This session produces only an append-only DFAPTI evidence snapshot. Prior analytical artifacts remain preserved and separate.
+Classification: METHODOLOGY
+PF(H,E): N/A
+FS: N/A
+Evidence entries appended in Snapshot 001
+EVID-001 - NSW Police Aviation Command maintains the NSW Police RPA fleet
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: NSW Police Force - Aviation Command
+Source URL: https://www.police.nsw.gov.au/about_us/organisational_structure/units/aviation_command
+Verbatim Extract: “The command also maintain the fleet of NSW Police Force's Remotely Piloted Aircraft (RPA).”
+Date Accessed: 17 August 2026
+EVID-002 - NSW Police RPAS are centrally managed and subject to policy/procedure compliance
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: NSW Parliament - Q&A 7295, answered 24 March 2022
+Source URL: https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=90612
+Verbatim Extract: “Typically, RPAS are centrally held and managed by the NSW Police Force Aviation Command.”
+Date Accessed: 17 August 2026
+EVID-003 - Moree consultation was stated to inform future training, policy and capability development
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: NSW Government Have Your Say - RPAS in Moree
+Source URL: https://www.haveyoursay.nsw.gov.au/remotely-piloted-aircraft-systems-moree
+Verbatim Extract: “seeking feedback from the community to inform future training, policy and capability development”
+Date Accessed: 17 August 2026
+EVID-004 - NSW Police RPAS EOI expressly contemplated future expansion/evolution
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: Buy NSW - YR-2026-0058 Remotely Piloted Aircraft Systems Panel
+Source URL: https://buy.nsw.gov.au/prcOpportunity/F11839F9-8438-406E-9A39DD82C5E7D322
+Verbatim Extract: “capacity to support future expansion and evolution of platforms and capability”
+Date Accessed: 17 August 2026
+EVID-005 - No award/notice is displayed on the RPAS EOI page at access time
+Classification: UNVERIFIED
+PF(H,E): 0
+FS Assessment: MEDIUM
+Source: Buy NSW - YR-2026-0058 Remotely Piloted Aircraft Systems Panel
+Source URL: https://buy.nsw.gov.au/prcOpportunity/F11839F9-8438-406E-9A39DD82C5E7D322
+Verbatim Extract: “No notices have been posted for this opportunity.”
+Date Accessed: 17 August 2026
+Notes: Absence record only. This does not establish that no internal decision or contract exists.
+EVID-006 - Moree trial total cost had not been finalised as at 30 July 2026
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: NSW Parliament - Q&A 108763, answered 30 July 2026
+Source URL: https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=108763
+Verbatim Extract: “The total cost of the trial has not yet been finalised.”
+Date Accessed: 17 August 2026
+EVID-007 - ReOC operational release and log records are retained for seven years
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: Civil Aviation Safety Authority - Record keeping
+Source URL: https://www.casa.gov.au/drones/remotely-piloted-aircraft-operators-certificate/record-keeping
+Verbatim Extract: “Operational release (MOS 10.04) Keep for 7 years.”
+Date Accessed: 17 August 2026
+EVID-008 - NSW Police stated future Moree surge operations would again use PolAir-Remote
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: NSW Police Force - Seven arrested, 10 charges laid during surge operation in Moree, 24 February 2026
+Source URL: https://www.police.nsw.gov.au/news/news?sq_content_src=%2BdXJsPWh0dHBzJTNBJTJGJTJGZWJpenByZC5wb2xpY2UubnN3Lmdvdi5hdSUyRm1lZGlhJTJGMTIzNjg4Lmh0bWwmYWxsPTE%3D
+Verbatim Extract: “Future surge operations in Moree will again utilise PolAir-Remote to target and reduce crime in the area.”
+Date Accessed: 17 August 2026
+EVID-009 - PolAir-Remote was used to locate three boys during an Operation Soteria investigation
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: NSW Police Force - Teenage boy charged over alleged possession of knife and axe - Moree, 9 June 2026
+Source URL: https://www.police.nsw.gov.au/news/news_article?sq_content_src=%2BdXJsPWh0dHBzJTNBJTJGJTJGZWJpenByZC5wb2xpY2UubnN3Lmdvdi5hdSUyRm1lZGlhJTJGMTI1Njk0Lmh0bWwmYWxsPTE%3D
+Verbatim Extract: “with the assistance of a PolAir remotely piloted drone - police located three boys walking nearby.”
+Date Accessed: 17 August 2026
+EVID-010 - PolAir-Remote assisted a Moree arrest in a domestic-violence investigation
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: NSW Police Force - Man charged over alleged domestic violence assault - Moree, 19 July 2026
+Source URL: https://www.police.nsw.gov.au/news/news_article?sq_content_src=%2BdXJsPWh0dHBzJTNBJTJGJTJGZWJpenByZC5wb2xpY2UubnN3Lmdvdi5hdSUyRm1lZGlhJTJGMTI2NDcyLmh0bWwmYWxsPTE%3D
+Verbatim Extract: “with the assistance of a PolAir Remote drone - stopped the Nissan”
+Date Accessed: 17 August 2026
+EVID-011 - FlightHub 2 is technically capable of detailed logging and export of Dock/remote missions
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: DJI Enterprise - FlightHub 2
+Source URL: https://enterprise.dji.com/flighthub-2?from=solutions&site=enterprise
+Verbatim Extract: “Supports one-click export of flight summary reports and detailed logs”
+Date Accessed: 17 August 2026
+EVID-012 - Dock 3 backup battery does not charge the aircraft
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: DJI Enterprise - DJI Dock 3 FAQ
+Source URL: https://enterprise.dji.com/dock-3/faq
+Verbatim Extract: “Does the built-in backup battery of DJI Dock 3 support charging the aircraft? No.”
+Date Accessed: 17 August 2026
+EVID-013 - Formal NSW Police GIPA applications have a statutory 20-working-day response period
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: NSW Police Force - Information Access Application (GIPA Act)
+Source URL: https://www.police.nsw.gov.au/online_services/requesting_information/gipaa
+Verbatim Extract: “The GIPA Act provides 20 working days to respond to a formal access application.”
+Date Accessed: 17 August 2026
+EVID-014 - NSW criminal procedure imposes disclosure and retention duties on investigating officers
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: NSW Criminal Procedure Act 1986 - section 36B
+Source URL: https://legislation.nsw.gov.au/view/whole/html/inforce/2024-01-29/act-1986-209
+Verbatim Extract: “have a duty to disclose to prosecutors ... all relevant information, documents or other things obtained during the investigation”
+Date Accessed: 17 August 2026
+EVID-015 - No RPAS/PolAir-labelled controlling policy is exposed in the current public NSW Police policy index
+Classification: UNVERIFIED
+PF(H,E): 0
+FS Assessment: MEDIUM
+Source: NSW Police Force - Policies, Procedures and Legislation
+Source URL: https://www.police.nsw.gov.au/about_us/policies_procedures_and_legislation
+Verbatim Extract: “Policies, Procedures and Legislation”
+Date Accessed: 17 August 2026
+Notes: Search checks on the current index returned no match for RPAS, PolAir or Remotely. Absence remains UNVERIFIED until internal/publication status is established.
+EVID-016 - NSW Police states some documents are available only through formal GIPA access
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: NSW Police Force - Information of Interest to the Community
+Source URL: https://www.police.nsw.gov.au/about_us/information_of_interest_to_the_community
+Verbatim Extract: “Some documents held by NSW Police Force are made available only through lodging a formal GIPA access application.”
+Date Accessed: 17 August 2026
+EVID-017 - State Records Act restricts unauthorised disposal or alteration of State records
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: NSW State Records Act 1998 - section 21
+Source URL: https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1998-017
+Verbatim Extract: “A person must not - abandon or dispose of a State record”
+Date Accessed: 17 August 2026
+EVID-018 - LECC complaints can concern NSW Police Force agency maladministration
+Classification: VERIFIED
+PF(H,E): 1
+FS Assessment: HIGH
+Source: Law Enforcement Conduct Commission Act 2016 - section 35
+Source URL: https://legislation.nsw.gov.au/view/whole/html/inforce/2023-10-17/act-2016-061
+Verbatim Extract: “Any person ... may complain ... about conduct of ... the NSW Police Force that is (or could be) agency maladministration.”
+Date Accessed: 17 August 2026
+Snapshot control
+Evidence entries in this snapshot: 18
+VERIFIED: 16
+PARTIAL: 0
+UNVERIFIED: 2
+CONTRADICTED: 0
+Register state: OPEN
+Evidence freeze: NOT ACTIVATED
+Next instruction required to continue: Proceed
+Only instruction that may activate Evidence Freeze: freeze evidence register
+APPEND-ONLY NOTICE. Snapshot 001 is the first canonical DFAPTI snapshot for this case. Any subsequent DFAPTI snapshot must reproduce this register history and these evidence entries verbatim before appending new entries.
+
