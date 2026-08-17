@@ -77,5 +77,21 @@
     ],
     "reason": "RUN-0004 (DEC-0007): ingested both Answer Register documents in full (519 items, EV-0263-EV-0781), completing the full-corpus mining programme started at RUN-0003.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0005",
+    "date": "2026-08-17",
+    "author": "mayhem82",
+    "files_affected": [
+      "cases/DFAPTI-MNC-2026-00001/data/evidence_register.json",
+      "cases/DFAPTI-MNC-2026-00001/data/automation_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/decisions.json",
+      "cases/DFAPTI-MNC-2026-00001/data/change_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/investigation_notes.json",
+      "cases/DFAPTI-MNC-2026-00001/index.html",
+      "index.html"
+    ],
+    "reason": "RUN-0005 (DEC-0008): atomized the AE Primary Record Acquisition Register (40 items) and GIPA Primary Record Acquisition Pack (6 applications) into individual evidence entries (EV-0782-EV-0827), completing full-corpus ingestion.",
+    "validation_completed": true
   }
 ]

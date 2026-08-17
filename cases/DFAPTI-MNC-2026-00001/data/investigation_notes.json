@@ -160,5 +160,23 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0019",
+    "timestamp": "2026-08-17T06:40:00Z",
+    "activity_type": "Decision",
+    "text": "Operator: 'atomize'. Breaking the AE Register (40 per-question acquisition-status entries) and GIPA Pack (6 applications) out of their current single-summary evidence items (EV-0034/EV-0035) into individually addressable entries, completing full-corpus ingestion.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0020",
+    "timestamp": "2026-08-17T06:55:00Z",
+    "activity_type": "Finding",
+    "text": "Every document in the originally supplied corpus is now atomized into the live Evidence Register: 230 snapshot findings, 519 answer-register items, 40 AE register entries, and 6 GIPA applications - 827 evidence items total, all still verification_state \"Unverified\" pending independent confirmation (DEC-0001).",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

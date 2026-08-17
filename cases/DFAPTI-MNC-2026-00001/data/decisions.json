@@ -64,5 +64,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Evidence Register grows from 262 to 781 items - effectively the complete external research corpus (all findings and all classified question-bank answers) is now individually represented in the live, browsable register, not just described in preserved source files. This case's Evidence Register is now the largest in the repository, well exceeding DFAPTI-BB-2026-00001's 73 items - appropriate given the scale of the source material actually supplied, not a data-quality problem."
+  },
+  {
+    "decision_id": "DEC-0008",
+    "date": "2026-08-17",
+    "reason": "Operator directive: 'atomize' the two remaining un-atomized source documents (AE Primary Record Acquisition Register, GIPA Primary Record Acquisition Pack), completing the full-corpus mining programme (DEC-0006, DEC-0007). Chose one evidence item per AE Register question (40 items, matching the granularity the source document itself uses) and one evidence item per GIPA Application (6 items, matching that document's own six-part structure) rather than further subdividing each application's individual requested-information bullet points - the Application is the natural addressable unit a GIPA officer or reader would reference, not each bullet within it.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Evidence Register grows from 781 to 827 items. The entire external research corpus supplied for this case - all 12 snapshots, both answer registers, the AE register, and the GIPA pack - is now fully atomized into the live, browsable, individually-citable register. Nothing from the supplied corpus remains only as unstructured preserved text."
   }
 ]
