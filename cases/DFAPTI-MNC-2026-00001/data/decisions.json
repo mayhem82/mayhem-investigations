@@ -56,5 +56,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Evidence Register grows from 42 to 262 items; Source Register from 43 to 72. The remaining under-mined layer is the two Answer Registers (519 RESOLVED/PARTIAL/OPEN-classified items across all 763 Question Bank entries) - not ingested in this run, and a candidate for a further expansion pass if the operator wants that depth too."
+  },
+  {
+    "decision_id": "DEC-0007",
+    "date": "2026-08-17",
+    "reason": "Operator confirmed DEC-0006's flagged next step: ingest the two Answer Registers (519 classified Question Bank items) in addition to the 230 Deep Research Snapshot findings. Extended the same full-coverage, no-selective-curation approach used in RUN-0003 rather than treating RESOLVED/PARTIAL and OPEN items differently - an OPEN - PRIMARY RECORD answer ('no evaluation has been publicly located') is itself a recorded negative-search result with the same evidentiary status as this case's other negative findings (e.g. EV-0021, EV-0027, EV-0042), not a lesser category needing a different register.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Evidence Register grows from 262 to 781 items - effectively the complete external research corpus (all findings and all classified question-bank answers) is now individually represented in the live, browsable register, not just described in preserved source files. This case's Evidence Register is now the largest in the repository, well exceeding DFAPTI-BB-2026-00001's 73 items - appropriate given the scale of the source material actually supplied, not a data-quality problem."
   }
 ]

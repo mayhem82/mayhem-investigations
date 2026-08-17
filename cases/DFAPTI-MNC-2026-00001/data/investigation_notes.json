@@ -133,5 +133,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0016",
+    "timestamp": "2026-08-17T05:40:00Z",
+    "activity_type": "Decision",
+    "text": "Operator: 'yes, ingest the answer registers too'. Extending RUN-0003's full-coverage approach to the two Answer Register documents (519 classified Question Bank items) rather than selectively promoting only RESOLVED/PARTIAL items.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0017",
+    "timestamp": "2026-08-17T06:05:00Z",
+    "activity_type": "Finding",
+    "text": "Parsed both Answer Register files (A-K: Q1-Q312, L-T: Q313-Q519). Status counts matched the corpus's own reported RUN 001 totals exactly: 15 RESOLVED, 70 PARTIAL, 373 OPEN - PRIMARY RECORD, 61 OPEN - ANALYTICAL. Confirms the parser captured all 519 items correctly with no loss or duplication.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0018",
+    "timestamp": "2026-08-17T06:20:00Z",
+    "activity_type": "Note",
+    "text": "Evidence Register now 781 items (EV-0001-EV-0781). Playwright-tested: loads in ~2.9s, all cards render, filtering ~400ms - still fully usable at this scale. The external research corpus supplied for this case is now essentially completely represented in the live register.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

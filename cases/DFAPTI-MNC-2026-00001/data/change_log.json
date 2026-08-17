@@ -61,5 +61,21 @@
     ],
     "reason": "RUN-0003 (DEC-0006): full-corpus expansion in response to direct operator feedback that the Evidence Register was too thin. Ingested all 230 numbered findings across every preserved snapshot (EV-0043 through EV-0262), adding 29 new sources with real per-finding citations from Snapshot 6.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0004",
+    "date": "2026-08-17",
+    "author": "mayhem82",
+    "files_affected": [
+      "cases/DFAPTI-MNC-2026-00001/data/evidence_register.json",
+      "cases/DFAPTI-MNC-2026-00001/data/automation_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/decisions.json",
+      "cases/DFAPTI-MNC-2026-00001/data/change_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/investigation_notes.json",
+      "cases/DFAPTI-MNC-2026-00001/index.html",
+      "index.html"
+    ],
+    "reason": "RUN-0004 (DEC-0007): ingested both Answer Register documents in full (519 items, EV-0263-EV-0781), completing the full-corpus mining programme started at RUN-0003.",
+    "validation_completed": true
   }
 ]
