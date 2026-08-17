@@ -158,5 +158,25 @@
     "likely_source": "GIPA Application 3 (de-identified mission, outcome, reliability and complaints data)",
     "status": "Open",
     "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0017",
+    "question": "Does Moree PolAir-Remote have any publicly auditable stop, failure, or decommissioning criteria - and if the trial has already run past its stated six-month window with no announced extension, what governs its continuation?",
+    "why_exists": "The program has continued operating well past its own publicly stated six-month window (EV-0037) with no located extension notice, and no public material specifies a threshold for judging the program unsuccessful or public criteria for removing docks, ceasing Remote Operations Centre tasking, or ending operational use (EV-0042). This is not evidence such criteria don't exist internally - only that they aren't publicly auditable.",
+    "evidence_creating_question": ["EV-0037", "EV-0042"],
+    "evidence_required_to_resolve": "Any written stop/go, continuation, transition-to-business-as-usual, expansion or termination decision record; any decommissioning, exit, or asset-reassignment plan; and whatever internal instrument (if any) extended or reframed the original six-month window.",
+    "likely_source": "GIPA Application 1 (trial evaluation, business case and decision gates)",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0018",
+    "question": "How does EOI YR-2026-0012 (the Aviation Command Operating Model Review) relate to PolAir-Remote governance and any Mid North Coast rollout decision - is RPAS expansion being decided inside a broader command-wide restructure, or separately from it?",
+    "why_exists": "EOI YR-2026-0012, published 7 April 2026, five weeks before the RPAS-specific EOI YR-2026-0058, seeks specialist aviation providers to inform a possible whole-of-Aviation-Command operating model review covering governance, workforce, fleet, and operational efficiency (EV-0038). Whether PolAir-Remote/RPAS decisions are being made inside this broader review or independently of it is not established.",
+    "evidence_creating_question": ["EV-0038"],
+    "evidence_required_to_resolve": "Any engagement, contract, or interim/completed review report arising from EOI YR-2026-0012, and any document showing whether RPAS/PolAir-Remote expansion decisions are linked to or contingent on its outcome.",
+    "likely_source": "GIPA Application 4 (procurement, Aviation Command review, feasibility and cost)",
+    "status": "Open",
+    "resolution_evidence": []
   }
 ]

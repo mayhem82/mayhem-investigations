@@ -70,5 +70,32 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0009",
+    "timestamp": "2026-08-17T03:10:00Z",
+    "activity_type": "Checking Source",
+    "text": "Case operator supplied MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-7-2026-08-16.docx, closing the NOTE-0008 gap. Hash-checked against every already-preserved file first - confirmed genuinely new, not a re-upload of something already ingested.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0010",
+    "timestamp": "2026-08-17T03:25:00Z",
+    "activity_type": "Finding",
+    "text": "Snapshot 7 (findings F-131-F-140) is the policy-feedback/technology-ratchet branch: PolAir-Remote continued operating well past its own stated six-month window (a 2 August 2026 incident, reported 5 August); a second procurement instrument (EOI YR-2026-0012, Aviation Command Operating Model Review) predates the RPAS Panel EOI by five weeks; the RPAS Panel EOI itself was published before the Moree consultation had closed; NSW Police leadership contemplated statewide scaling from the trial's first day; and no public stop/failure/decommissioning criteria were found anywhere in the material checked.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": "EV-0042"
+  },
+  {
+    "note_id": "NOTE-0011",
+    "timestamp": "2026-08-17T03:35:00Z",
+    "activity_type": "Decision",
+    "text": "Snapshot 7 itself explicitly states the 'assess first' (Police Minister, early June) and 'prepare to scale' (EOI published 2 June) sequence is not contradictory, since the EOI is market research rather than a purchase decision - declined to register it as a Contradiction Register entry despite the surface tension, per the source's own explicit qualification. Recorded as interpretive context on EV-0039 instead. See DEC-0005.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0039"
   }
 ]

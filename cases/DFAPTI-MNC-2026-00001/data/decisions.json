@@ -30,5 +30,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "cases/DFAPTI-MNC-2026-00001/ currently contains only a dfapti/ workspace. No dfapta/, lattice-atlas/, temporal-projection-integrity-engine/, enforcement-notice/, or advocacy-package/ directory exists for this case yet."
+  },
+  {
+    "decision_id": "DEC-0005",
+    "date": "2026-08-17",
+    "reason": "The case operator located and supplied Snapshot 7, filling the gap recorded at NOTE-0008. Verified by hash that it was not already present among the preserved files before processing it (avoiding the SRC-0106-style duplicate mistake this repository has previously made in DFAPTI-BB-2026-00001, see that case's DEC-0018). Applied the same curation discipline as RUN-0001 (DEC-0002): promoted the highest-value findings rather than transcribing all ten (F-131-F-140), and declined to register a contradiction for the 'assess first' vs 'prepare to scale' sequence because Snapshot 7 itself explicitly states these are not contradictory - manufacturing a contradiction the source document itself disclaims would be a worse error than under-registering one.",
+    "supporting_evidence": ["EV-0037", "EV-0038", "EV-0039", "EV-0040", "EV-0041", "EV-0042"],
+    "investigator": "mayhem82",
+    "impact": "The corpus gap noted in preserved/README.md and NOTE-0008 is closed. The case's Evidence Register grows from 36 to 42 items, Open Question Register from 16 to 18, Chronology from 19 to 20 entries."
   }
 ]

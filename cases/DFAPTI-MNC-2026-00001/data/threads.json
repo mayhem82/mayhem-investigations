@@ -3,8 +3,8 @@
     "thread_id": "THR-01",
     "name": "Trial evaluation and evidence base",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0010", "EV-0012"],
-    "outstanding_work": "No complete NSW Police evaluation of the six-month Moree trial has been located (Q-0001). GIPA Application 1 seeks the evaluation, business case, KPI/success-criteria document, risk register, and any stop/go decision record. Highest-priority unresolved thread - almost every downstream claim in this case depends on this document existing and being disclosed.",
+    "supporting_evidence": ["EV-0010", "EV-0012", "EV-0037", "EV-0042"],
+    "outstanding_work": "No complete NSW Police evaluation of the six-month Moree trial has been located (Q-0001). GIPA Application 1 seeks the evaluation, business case, KPI/success-criteria document, risk register, and any stop/go decision record. Highest-priority unresolved thread - almost every downstream claim in this case depends on this document existing and being disclosed. RUN-0002 (Snapshot 7) found the trial has continued operating well past its own stated six-month window with no located extension notice, and that no public stop/failure/decommissioning criteria exist anywhere in the material checked (EV-0037, EV-0042, Q-0017) - the evaluation gap is now compounded by an apparent absence of any working exit path.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -57,8 +57,8 @@
     "thread_id": "THR-07",
     "name": "Procurement and statewide RPAS architecture",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0013", "EV-0014", "EV-0030", "EV-0031", "EV-0032"],
-    "outstanding_work": "EOI YR-2026-0058 (statewide RPAS Panel) predates the Kemp petition and anticipates capability/platform evolution beyond the exact Moree hardware, but its outcome remains undisclosed as at the last check (Q-0013), and no NSW-Police-specific DJI/vendor risk assessment has been located (Q-0011). GIPA Application 4 targets both gaps.",
+    "supporting_evidence": ["EV-0013", "EV-0014", "EV-0030", "EV-0031", "EV-0032", "EV-0038", "EV-0039", "EV-0041"],
+    "outstanding_work": "EOI YR-2026-0058 (statewide RPAS Panel) predates the Kemp petition and anticipates capability/platform evolution beyond the exact Moree hardware, but its outcome remains undisclosed as at the last check (Q-0013), and no NSW-Police-specific DJI/vendor risk assessment has been located (Q-0011). GIPA Application 4 targets both gaps. RUN-0002 (Snapshot 7) found a second, separate procurement instrument - EOI YR-2026-0012, an Aviation Command Operating Model Review published five weeks before the RPAS Panel EOI (EV-0038, Q-0018) - and precisely dated that the RPAS Panel EOI was published before the Moree consultation itself had closed (EV-0039).",
     "dependencies": [],
     "completion_state": "Not Complete"
   },

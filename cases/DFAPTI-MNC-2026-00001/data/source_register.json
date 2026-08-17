@@ -572,5 +572,33 @@
     "hash_status": "No Hash",
     "associated_thread": null,
     "availability_notes": "In tension with SRC-0019's January 2026 briefing describing proactive flying and covert/overt exercises - see CTR-0001."
+  },
+  {
+    "source_id": "SRC-0042",
+    "authority": "Moree Online News / NSW Police Force",
+    "title": "PolAir-Remote assistance in a 2 August 2026 domestic violence/bail matter",
+    "type": "Media Report",
+    "url_or_file_location": "Moree Online News / NSW Police media release, 5 August 2026 (exact URL not captured)",
+    "first_checked": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "current_version": "5 August 2026 report of a 2 August 2026 incident",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "Establishes PolAir-Remote was still operationally active nearly seven months after its 8 January 2026 commencement, beyond the publicly stated six-month trial window - see F-131/EV-0037."
+  },
+  {
+    "source_id": "SRC-0043",
+    "authority": "NSW Government (Buy NSW / eTendering)",
+    "title": "YR-2026-0012 - Aviation Command Operating Model Review (EOI)",
+    "type": "Government Record",
+    "url_or_file_location": "Buy NSW procurement opportunity YR-2026-0012 (exact URL not captured)",
+    "first_checked": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "current_version": "Published 7 April 2026, seeking specialist aviation providers to inform a possible Aviation Command Operating Model Review (governance, regulatory compliance, workforce, training, fleet, engineering, operational efficiency and capacity). Expressly market research, not itself a service procurement.",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "A second, separate procurement instrument from EOI YR-2026-0058 (SRC-0032) - a command-wide operating-model review that PolAir-Remote/RPAS expansion sits inside, not just the RPAS-specific panel."
   }
 ]

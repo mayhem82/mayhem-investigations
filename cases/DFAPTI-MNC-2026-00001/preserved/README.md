@@ -22,10 +22,12 @@ from.
 ## Files
 
 - `snapshot-01-2026-08-14.txt` through `snapshot-12-2026-08-16.txt` -
-  eleven of the twelve numbered Deep Research Snapshots (an unnumbered
-  first snapshot plus Snapshots 2-6, 8-12). **Snapshot 7 was never
-  supplied to this repository and is a known gap** - see
-  `data/investigation_notes.json` NOTE-0008.
+  all twelve numbered Deep Research Snapshots (an unnumbered first
+  snapshot plus Snapshots 2-12). Snapshot 7 (findings F-131-F-140, the
+  policy-feedback/technology-ratchet branch) was supplied later than the
+  rest, on 2026-08-17, closing the gap noted at
+  `data/investigation_notes.json` NOTE-0008 - see NOTE-0009 onward and
+  RUN-0002.
 - `continuing-investigation-question-bank-v1_0.txt` - the 763-question
   bank (sections A-AC) this case's Open Question Register was curated
   from.

@@ -150,5 +150,13 @@
     "event_description": "This external research corpus is ingested into the MAYHEM DFAPTI-MNC-2026-00001 case register as a new, separately data-scoped case within mayhem-investigations, per the architecture decision recorded at DEC-0001. Only the highest-value facts and gaps are promoted into the live register in this first pass; the full corpus is preserved for future runs.",
     "status": "Confirmed",
     "supporting_evidence": ["EV-0035"]
+  },
+  {
+    "chronology_id": "CHR-0020",
+    "event_date": "2026-08-02",
+    "date_is_inference": false,
+    "event_description": "PolAir-Remote assists NSW Police with an arrest arising from a domestic violence/bail incident, reported 5 August 2026 - nearly seven months after the trial's stated 8 January 2026 commencement and its publicly announced six-month window, with no located public notice of an extension or revised end date.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0037"]
   }
 ]
