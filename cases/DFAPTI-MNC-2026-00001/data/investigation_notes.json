@@ -1,0 +1,74 @@
+[
+  {
+    "note_id": "NOTE-0001",
+    "timestamp": "2026-08-17T00:20:00Z",
+    "activity_type": "Researching",
+    "text": "Case operator supplied 19 docx files across three upload batches: 12 numbered/unnumbered Deep Research Snapshots (several exact duplicates), a Continuing Investigation Question Bank v1.0, a GIPA Primary Record Acquisition Pack v1.0, an AE Primary Record Acquisition Register RUN001, and two Answer Registers (A-K and L-T, RUN001, several duplicate uploads of A-K). Deduplicated by md5sum before reading anything - found 16 unique files behind the 24 uploaded copies.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0002",
+    "timestamp": "2026-08-17T00:35:00Z",
+    "activity_type": "Checking Source",
+    "text": "Initial docx-to-text extraction via unzip + XML tag stripping lost every citation URL (the source registers only showed the literal word \"Source\" where a hyperlink had been). Re-extracted with a hyperlink-aware script that reads word/_rels/document.xml.rels and inlines each hyperlink's actual target URL - recovered real, checkable URLs for the numbered source lists in Snapshot 1 and Snapshot 2.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0003",
+    "timestamp": "2026-08-17T00:50:00Z",
+    "activity_type": "Finding",
+    "text": "Read the full corpus. This is a mature, already-analysed investigation into whether Michael Kemp MP's \"Bring Police Drones to the Mid North Coast\" petition is evidentially supported: it audits the Moree PolAir-Remote trial's claimed 50% crime drop, 100+ arrests, 70+ stolen vehicles, six missing people, 30-60 second deployment, and helicopter-cost-fraction claims against the public record, and separately investigates privacy/AI/biometric governance, statewide procurement (EOI YR-2026-0058), political provenance, and oversight architecture. The corpus already ran its own DFAPTI-style evidence pass (F-001 to F-230 findings) and a DFAPTA-style analysis pass (referenced as \"AR-063\" in the Question Bank), then produced a 763-question bank and two Answer Registers resolving 519 of those questions.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0004",
+    "timestamp": "2026-08-17T01:05:00Z",
+    "activity_type": "Decision",
+    "text": "Decided not to mechanically transcribe all 230 findings and 763 questions into individual register entries in this first pass - see DEC-0002. Instead promoted the 15 RESOLVED answer-register items, the strongest VERIFIED/FACT findings, and the two clearest messaging contradictions into a curated Evidence Register, Chronology, Contradiction Register and Open Question Register. The full corpus is preserved in full so later runs can promote more.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0005",
+    "timestamp": "2026-08-17T01:20:00Z",
+    "activity_type": "Decision",
+    "text": "Resolved this repository's standing open architecture question (README.md, since the repository's earliest structure): a second case gets its own cases/<CASE-ID>/data/ directory rather than sharing the repository-root data/ or living in a separate repository. Added scripts/case-registry.js and reworked scripts/validate.js and scripts/generate-relationship-map.js to run per-case. See DEC-0019 in DFAPTI-BB-2026-00001's own decision register and DEC-0003 here.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0006",
+    "timestamp": "2026-08-17T01:35:00Z",
+    "activity_type": "Decision",
+    "text": "Per the live/frozen-snapshot gating model, only the DFAPTI (evidence) workspace is built for this case now. DFAPTA, Lattice Atlas, the Temporal Projection Integrity Engine, Enforcement Notice, and Advocacy Package are not built until the operator issues an explicit freeze command for this case. See DEC-0004.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0007",
+    "timestamp": "2026-08-17T01:50:00Z",
+    "activity_type": "Note",
+    "text": "Every evidence item added in this run carries verification_state \"Unverified\" - see DEC-0001. Nothing here has been independently re-fetched or re-searched by this investigation; it is recorded as a faithful, honestly-labelled ingestion of a separate AI system's research, not as this investigation's own confirmed findings. GIPA Application 1-6 (EV-0034) is this case's concrete plan for converting the highest-value unresolved items into primary records.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0034"
+  },
+  {
+    "note_id": "NOTE-0008",
+    "timestamp": "2026-08-17T02:05:00Z",
+    "activity_type": "Blocked",
+    "text": "Snapshot 7 (MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-7-2026-08-16.docx, covering findings F-091 through F-140) was referenced by Snapshot 8 as its exact predecessor but was never supplied to this repository. This is a known gap in the preserved corpus - if the operator has that file, supplying it would let a future run fill in the missing findings range.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  }
+]

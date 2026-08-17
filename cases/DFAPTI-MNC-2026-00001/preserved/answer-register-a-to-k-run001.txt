@@ -1,0 +1,366 @@
+
+MAYHEM — POLAIR-REMOTE
+ANSWER REGISTER A–K
+RUN 001 • Moree → Kempsey → Mid North Coast • 16 August 2026
+Control artifact: MAYHEM-MNC-POLAIR-REMOTE-CONTINUING-INVESTIGATION-QUESTION-BANK-v1_0.docx
+Coverage: Q1–Q312 only (Sections A–K). Original question numbers and wording preserved. This is an answer-status register, not a closed investigation report.
+Evidence rule: an unanswered public-source search is not converted into “does not exist”. Missing internal records remain OPEN - PRIMARY RECORD. Analytical questions remain OPEN - ANALYTICAL until the required datasets/design are available.
+RUN 001 STATUS
+312 questions classified: 11 RESOLVED; 43 PARTIAL; 19 OPEN - ANALYTICAL; 239 OPEN - PRIMARY RECORD.
+Current verification at the run date: Buy NSW opportunity YR-2026-0058 is closed and still displays “No notices have been posted”; the NSW Parliament answer of 30 July 2026 states that the Moree trial total cost had not yet been finalised; NSW Police Aviation Command publicly confirms it maintains the NSWPF RPA fleet.
+STATUS DEFINITIONS
+RESOLVED — current evidence answers the question sufficiently for the present investigation state.
+PARTIAL — evidence answers part of the question, but a material definition, denominator, record or implementation fact remains missing.
+OPEN - PRIMARY RECORD — resolution depends on a record not publicly located or not yet acquired.
+OPEN - ANALYTICAL — the necessary data/design exists conceptually, but the causal/spatial/economic analysis cannot be completed from current public summaries.
+EVIDENCE ANCHORS
+Cumulative Snapshots 2–6: MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-CUMULATIVE-SNAPSHOTS-2-to-6-2026-08-16.pdf
+Snapshot 7: MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-7-2026-08-16.docx
+Snapshot 8: MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-8-2026-08-16.docx
+Snapshot 9: MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-9-2026-08-16.docx
+Snapshot 10: MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-10-2026-08-16.docx
+Snapshot 11: MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-11-2026-08-16.docx
+Snapshot 12: MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-12-2026-08-16.docx
+Question Bank: MAYHEM-MNC-POLAIR-REMOTE-CONTINUING-INVESTIGATION-QUESTION-BANK-v1_0.docx
+Buy NSW — YR-2026-0058 Remotely Piloted Aircraft Systems (RPAS) Panel, checked 16 August 2026.
+NSW Parliament — Q&A 108763, answered 30 July 2026: trial total cost not yet finalised.
+NSW Police — Aviation Command public page: Aviation Command maintains NSW Police Force remotely piloted aircraft.
+CASA — ReOC record-keeping requirements; NSW Criminal Procedure Act 1986 s 36B; NSW Surveillance Devices Act 2007; State Records Act 1998; PPIP Act 1998; applicable NSW AI/cyber governance noted in snapshots.
+A. MOREE TRIAL EVALUATION
+Section status: 0 resolved; 3 partial; 0 analytical; 44 primary-record dependent.
+Q1  [OPEN - PRIMARY RECORD]  Does a formal NSW Police evaluation of the six-month Moree PolAir-Remote trial exist? — A formal evaluation was publicly contemplated, but no complete NSW Police six-month evaluation has been publicly located. Existence as an internal completed report remains unverified.
+Q2  [OPEN - PRIMARY RECORD]  Has it been completed? — Completion is not publicly established. Public operation continued into August, but that does not prove the evaluation was or was not complete.
+Q3  [OPEN - PRIMARY RECORD]  What date was it completed? — No completion date has been publicly located.
+Q4  [OPEN - PRIMARY RECORD]  Who commissioned it? — No commissioning instrument has been publicly located.
+Q5  [OPEN - PRIMARY RECORD]  Who conducted it? — No evaluator or evaluation team has been publicly identified.
+Q6  [OPEN - PRIMARY RECORD]  Was the evaluator operationally independent of the PolAir-Remote program? — Evaluator independence cannot be tested until the evaluator and governance arrangement are disclosed.
+Q7  [OPEN - PRIMARY RECORD]  What evaluation methodology was used? — No formal methodology has been publicly located.
+Q8  [PARTIAL]  What were the original trial objectives? — Public material frames the trial around rapid aerial support, public safety and testing whether the capability should scale. The complete pre-deployment objective set is not public.
+Q9  [PARTIAL]  Were those objectives documented before deployment? — The trial was publicly described before/at commencement, but no pre-deployment objectives document has been located.
+Q10  [OPEN - PRIMARY RECORD]  What were the original success criteria? — No pre-deployment criteria/change-control record has been publicly located. The original KPI/evaluation framework is required.
+Q11  [OPEN - PRIMARY RECORD]  Were failure criteria defined before deployment? — No pre-deployment criteria/change-control record has been publicly located. The original KPI/evaluation framework is required.
+Q12  [OPEN - PRIMARY RECORD]  Were continuation criteria defined before deployment? — No pre-deployment criteria/change-control record has been publicly located. The original KPI/evaluation framework is required.
+Q13  [OPEN - PRIMARY RECORD]  Were expansion criteria defined before deployment? — No pre-deployment criteria/change-control record has been publicly located. The original KPI/evaluation framework is required.
+Q14  [OPEN - PRIMARY RECORD]  Were termination criteria defined before deployment? — No pre-deployment criteria/change-control record has been publicly located. The original KPI/evaluation framework is required.
+Q15  [OPEN - PRIMARY RECORD]  Were any evaluation criteria changed during the trial? — No pre-deployment criteria/change-control record has been publicly located. The original KPI/evaluation framework is required.
+Q16  [OPEN - PRIMARY RECORD]  If changed, who authorised the changes and why? — No pre-deployment criteria/change-control record has been publicly located. The original KPI/evaluation framework is required.
+Q17  [OPEN - PRIMARY RECORD]  What baseline period was used? — No formal evaluation baseline period is public.
+Q18  [OPEN - PRIMARY RECORD]  What comparison period was used? — No formal comparison period is public.
+Q19  [OPEN - PRIMARY RECORD]  Was a comparison location or control group used? — No control/comparison-location design has been publicly located.
+Q20  [OPEN - PRIMARY RECORD]  What offences were included in the evaluation? — The public record does not disclose the evaluation's analytic stratification or treatment of confounders; the evaluation framework/data dictionary is required.
+Q21  [OPEN - PRIMARY RECORD]  What offences were excluded? — The public record does not disclose the evaluation's analytic stratification or treatment of confounders; the evaluation framework/data dictionary is required.
+Q22  [OPEN - PRIMARY RECORD]  Were youth and adult offending evaluated separately? — The public record does not disclose the evaluation's analytic stratification or treatment of confounders; the evaluation framework/data dictionary is required.
+Q23  [OPEN - PRIMARY RECORD]  Were reactive and proactive drone operations evaluated separately? — The public record does not disclose the evaluation's analytic stratification or treatment of confounders; the evaluation framework/data dictionary is required.
+Q24  [OPEN - PRIMARY RECORD]  Were individual tactical outcomes separated from population-level outcomes? — The public record does not disclose the evaluation's analytic stratification or treatment of confounders; the evaluation framework/data dictionary is required.
+Q25  [OPEN - PRIMARY RECORD]  Were confounding interventions explicitly modelled? — The public record does not disclose the evaluation's analytic stratification or treatment of confounders; the evaluation framework/data dictionary is required.
+Q26  [OPEN - PRIMARY RECORD]  How were Operation Soteria, bail reforms, surge policing, Youth Action Meetings, diversion and place-based interventions treated analytically? — The public record does not disclose the evaluation's analytic stratification or treatment of confounders; the evaluation framework/data dictionary is required.
+Q27  [OPEN - PRIMARY RECORD]  Did the evaluation measure officer safety? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q28  [OPEN - PRIMARY RECORD]  Did it measure response time? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q29  [OPEN - PRIMARY RECORD]  Did it measure search time? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q30  [OPEN - PRIMARY RECORD]  Did it measure ground-police workload? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q31  [OPEN - PRIMARY RECORD]  Did it measure helicopter hours displaced? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q32  [OPEN - PRIMARY RECORD]  Did it measure arrests attributable specifically to PolAir-Remote? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q33  [OPEN - PRIMARY RECORD]  Did it measure property recovered specifically because of PolAir-Remote? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q34  [OPEN - PRIMARY RECORD]  Did it measure missing-person outcomes? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q35  [OPEN - PRIMARY RECORD]  Did it measure public confidence? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q36  [OPEN - PRIMARY RECORD]  Did it measure perceived safety? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q37  [OPEN - PRIMARY RECORD]  Did it measure privacy impacts? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q38  [OPEN - PRIMARY RECORD]  Did it measure complaints? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q39  [OPEN - PRIMARY RECORD]  Did it measure demographic impacts? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q40  [OPEN - PRIMARY RECORD]  Did it measure Aboriginal justice-system contact? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q41  [OPEN - PRIMARY RECORD]  Did it measure youth remand or detention effects? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q42  [OPEN - PRIMARY RECORD]  Did it measure false detections or unsuccessful deployments? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q43  [OPEN - PRIMARY RECORD]  Did it measure deployments producing no operational outcome? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q44  [OPEN - PRIMARY RECORD]  Did it quantify net cost-effectiveness? — No public evaluation results table establishes whether this measure was included or how it was defined.
+Q45  [OPEN - PRIMARY RECORD]  Will the complete evaluation be published? — No complete evaluation has been published or publication commitment located.
+Q46  [OPEN - PRIMARY RECORD]  If not, what parts will be withheld and under what authority? — Withholding scope and authority cannot be known until an access/publication decision exists; GIPA exemptions would be record-specific.
+Q47  [PARTIAL]  What decision is the evaluation formally intended to control? — Public statements said the trial would be assessed before determining next steps/possible scaling. The formal decision instrument controlled by the evaluation is not public.
+B. PETITION CLAIM VERIFICATION
+Section status: 3 resolved; 8 partial; 0 analytical; 34 primary-record dependent.
+Q48  [PARTIAL]  What is the primary source for the claim that crime dropped by 50%? — The closest reproduced figure is a Moree youth police-legal-action decline of about 53% since 2022. No primary source has been located showing 'crime dropped 50%' because of PolAir-Remote.
+Q49  [PARTIAL]  What exact crime measure does “50%” refer to? — The closest verified metric is youth police legal actions, not total crime. The petition's exact '50%' measure is undefined.
+Q50  [PARTIAL]  What geographic area does it cover? — The closest reproduced statistic is Moree-local; the petition itself does not define the statistical geography.
+Q51  [OPEN - PRIMARY RECORD]  What offences are included? — The offence set behind the petition's 50% figure is not disclosed.
+Q52  [PARTIAL]  What age group is included? — The closest matching published statistic concerns young people; the petition wording says 'crime' without an age qualifier.
+Q53  [PARTIAL]  What dates form the baseline? — The closest matching decline uses a 2022 baseline, years before the January 2026 drone trial.
+Q54  [PARTIAL]  What dates form the comparison? — The closest matching public comparison extends into 2026, but the petition does not state a precise end date.
+Q55  [PARTIAL]  Does the 50% figure refer to recorded offences, offenders, police legal actions, arrests, charges or another measure? — The closest matching metric is police legal actions against young people, not arrests or total recorded offences.
+Q56  [RESOLVED]  Was the decline already underway before January 2026? — Yes. The documented Moree youth-offending/legal-action decline was underway before PolAir-Remote commenced in January 2026.
+Q57  [OPEN - PRIMARY RECORD]  Who first attributed the decline to PolAir-Remote? — The first person or document to causally attribute the broader decline to PolAir-Remote has not been identified.
+Q58  [RESOLVED]  Has NSW Police itself made that causal claim? — No NSW Police primary source located in this investigation makes the causal claim that PolAir-Remote caused a 50% fall in Moree crime.
+Q59  [RESOLVED]  Has BOCSAR made that causal claim? — No BOCSAR source located attributes the pre-existing Moree decline causally to PolAir-Remote.
+Q60  [OPEN - PRIMARY RECORD]  What is the primary source for “more than 100 arrests”? — No primary published dataset/briefing supporting the 100+ aggregate has been located.
+Q61  [OPEN - PRIMARY RECORD]  What definition of “assisted” is being used? — 'Assisted' has not been operationally defined in a published trial dataset.
+Q62  [OPEN - PRIMARY RECORD]  Are these 100+ unique people? — Cannot be resolved without incident-level arrest data and the definition of drone contribution/assistance.
+Q63  [OPEN - PRIMARY RECORD]  Are repeat arrests counted separately? — Cannot be resolved without incident-level arrest data and the definition of drone contribution/assistance.
+Q64  [OPEN - PRIMARY RECORD]  Were all arrests directly dependent on drone involvement? — Cannot be resolved without incident-level arrest data and the definition of drone contribution/assistance.
+Q65  [OPEN - PRIMARY RECORD]  Were some arrests made during operations in which a drone was merely present? — Cannot be resolved without incident-level arrest data and the definition of drone contribution/assistance.
+Q66  [OPEN - PRIMARY RECORD]  How many arrests resulted from direct drone detection? — Cannot be resolved without incident-level arrest data and the definition of drone contribution/assistance.
+Q67  [OPEN - PRIMARY RECORD]  How many resulted from drone tracking after another detection source? — Cannot be resolved without incident-level arrest data and the definition of drone contribution/assistance.
+Q68  [OPEN - PRIMARY RECORD]  How many resulted from information already available to ground officers? — Cannot be resolved without incident-level arrest data and the definition of drone contribution/assistance.
+Q69  [OPEN - PRIMARY RECORD]  What is the primary source for “over 70 stolen vehicles”? — No primary published dataset/briefing supporting the 70+ stolen-vehicle aggregate has been located.
+Q70  [OPEN - PRIMARY RECORD]  Were these 70+ separate vehicles? — Cannot be resolved without vehicle-level recovery data and a defined drone-contribution rule.
+Q71  [OPEN - PRIMARY RECORD]  Were all recovered because of drone involvement? — Cannot be resolved without vehicle-level recovery data and a defined drone-contribution rule.
+Q72  [OPEN - PRIMARY RECORD]  What constitutes drone contribution to a recovery? — Cannot be resolved without vehicle-level recovery data and a defined drone-contribution rule.
+Q73  [OPEN - PRIMARY RECORD]  What is the primary source for the six missing persons figure? — No primary published source supporting the six-person aggregate has been located.
+Q74  [OPEN - PRIMARY RECORD]  Were all six located directly by PolAir-Remote? — Cannot be resolved without incident-level missing-person outcome data showing each resource's contribution.
+Q75  [OPEN - PRIMARY RECORD]  Were any located using other police or emergency resources after initial drone assistance? — Cannot be resolved without incident-level missing-person outcome data showing each resource's contribution.
+Q76  [PARTIAL]  What exactly does “30 to 60 seconds” measure? — Public material supports rapid dock deployment. The 30–60 second claim appears to concern aircraft deployment/launch, not total police response time, but its exact clock definition is unpublished.
+Q77  [OPEN - PRIMARY RECORD]  Does the clock begin at emergency call receipt, tasking, operator command or dock activation? — The deployment-time denominator, start/stop points and distribution statistics have not been publicly disclosed.
+Q78  [OPEN - PRIMARY RECORD]  Does it end at launch, airborne status or arrival over the incident? — The deployment-time denominator, start/stop points and distribution statistics have not been publicly disclosed.
+Q79  [OPEN - PRIMARY RECORD]  What percentage of deployments actually meet the 30–60 second measure? — The deployment-time denominator, start/stop points and distribution statistics have not been publicly disclosed.
+Q80  [OPEN - PRIMARY RECORD]  What is the median deployment time? — The deployment-time denominator, start/stop points and distribution statistics have not been publicly disclosed.
+Q81  [OPEN - PRIMARY RECORD]  What is the 90th percentile deployment time? — The deployment-time denominator, start/stop points and distribution statistics have not been publicly disclosed.
+Q82  [OPEN - PRIMARY RECORD]  What is the primary source for “a fraction of the cost of a police helicopter”? — No complete primary cost-comparison methodology has been located.
+Q83  [OPEN - PRIMARY RECORD]  What drone-system cost is being used as the numerator? — The petition does not disclose the full drone-system numerator; Moree trial total cost was still not finalised on 30 July 2026.
+Q84  [OPEN - PRIMARY RECORD]  What helicopter cost is being used as the comparator? — The helicopter comparator and whether it is hourly marginal cost, full operating cost or another denominator are not disclosed.
+Q85  [OPEN - PRIMARY RECORD]  Does the comparison include personnel? — The public cost claim does not disclose whether this component is included. A full cost model is required.
+Q86  [OPEN - PRIMARY RECORD]  Does it include communications? — The public cost claim does not disclose whether this component is included. A full cost model is required.
+Q87  [OPEN - PRIMARY RECORD]  Does it include the Remote Operations Centre? — The public cost claim does not disclose whether this component is included. A full cost model is required.
+Q88  [OPEN - PRIMARY RECORD]  Does it include maintenance? — The public cost claim does not disclose whether this component is included. A full cost model is required.
+Q89  [OPEN - PRIMARY RECORD]  Does it include data infrastructure? — The public cost claim does not disclose whether this component is included. A full cost model is required.
+Q90  [OPEN - PRIMARY RECORD]  Does it include regulatory compliance? — The public cost claim does not disclose whether this component is included. A full cost model is required.
+Q91  [OPEN - PRIMARY RECORD]  Does it include ground response? — The public cost claim does not disclose whether this component is included. A full cost model is required.
+Q92  [OPEN - PRIMARY RECORD]  Does it include downstream justice-system costs? — The public cost claim does not disclose whether this component is included. A full cost model is required.
+C. CAUSAL ATTRIBUTION AND COUNTERFACTUAL
+Section status: 3 resolved; 2 partial; 12 analytical; 0 primary-record dependent.
+Q93  [OPEN - ANALYTICAL]  What would Moree’s crime trajectory likely have been without PolAir-Remote? — Not identifiable from simple before/after data. A counterfactual needs matched comparison locations or a credible interrupted-time-series/synthetic-control design.
+Q94  [RESOLVED]  What pre-existing trend existed before January 2026? — A substantial Moree youth-offending/legal-action decline pre-dated January 2026; this is a required baseline fact.
+Q95  [OPEN - ANALYTICAL]  Which offence categories changed after deployment? — Requires offence-level monthly data and a defined pre/post evaluation model; current public summaries are insufficient.
+Q96  [OPEN - ANALYTICAL]  Which did not? — Requires offence-level monthly data and a defined pre/post evaluation model; current public summaries are insufficient.
+Q97  [OPEN - ANALYTICAL]  Did the rate of decline change after January 2026? — Requires offence-level monthly data and a defined pre/post evaluation model; current public summaries are insufficient.
+Q98  [OPEN - ANALYTICAL]  Is any change statistically distinguishable from the pre-existing trend? — Requires offence-level monthly data and a defined pre/post evaluation model; current public summaries are insufficient.
+Q99  [OPEN - ANALYTICAL]  How does Moree compare with similar regional locations without PolAir-Remote? — Requires offence-level monthly data and a defined pre/post evaluation model; current public summaries are insufficient.
+Q100  [PARTIAL]  How does Moree compare with the broader New England/North West trend? — Broader New England/North West youth indicators also declined, so Moree was not moving against a flat regional background. Exact matched comparison remains outstanding.
+Q101  [PARTIAL]  How does Moree compare with Regional NSW? — Regional NSW youth proceedings also declined; Moree's larger fall must be separated from that wider trend.
+Q102  [OPEN - ANALYTICAL]  Are changes concentrated in offences most susceptible to aerial detection? — Requires offence-category interaction testing against crimes for which aerial detection plausibly changes detection/apprehension.
+Q103  [OPEN - ANALYTICAL]  Did offences unaffected by drone capability move similarly? — Requires a negative-control offence set not materially affected by drone capability.
+Q104  [OPEN - ANALYTICAL]  What part of the observed change can plausibly be attributed to Soteria? — Multiple interventions overlapped; no public linked evaluation apportions effect among PolAir-Remote, Soteria, bail, diversion/place-based work and ordinary policing.
+Q105  [OPEN - ANALYTICAL]  What part can plausibly be attributed to bail changes? — Multiple interventions overlapped; no public linked evaluation apportions effect among PolAir-Remote, Soteria, bail, diversion/place-based work and ordinary policing.
+Q106  [OPEN - ANALYTICAL]  What part can plausibly be attributed to diversion or place-based programs? — Multiple interventions overlapped; no public linked evaluation apportions effect among PolAir-Remote, Soteria, bail, diversion/place-based work and ordinary policing.
+Q107  [OPEN - ANALYTICAL]  What part can plausibly be attributed to ordinary policing changes? — Multiple interventions overlapped; no public linked evaluation apportions effect among PolAir-Remote, Soteria, bail, diversion/place-based work and ordinary policing.
+Q108  [RESOLVED]  What evidence would falsify the proposition that PolAir-Remote materially reduced crime? — Falsifiers include no post-deployment break in trend after controlling for comparison areas/confounders, no stronger effect in drone-susceptible offences, or equivalent changes in untreated comparators.
+Q109  [RESOLVED]  What evidence would falsify the proposition that PolAir-Remote had no population-level effect? — Falsifiers include a credible controlled discontinuity after deployment, dose-response by drone exposure, or linked incident/cohort evidence showing materially better outcomes attributable to drone tasking.
+D. RESPONSE CAPABILITY VERSUS OBSERVATION CAPABILITY
+Section status: 0 resolved; 1 partial; 2 analytical; 15 primary-record dependent.
+Q110  [PARTIAL]  What is average aircraft launch time? — Rapid launch is supported, but average launch time has not been published.
+Q111  [OPEN - PRIMARY RECORD]  What is average arrival time over the incident? — Average arrival-over-incident time is not public.
+Q112  [OPEN - PRIMARY RECORD]  What is average time until useful intelligence is relayed to ground police? — Average time to actionable intelligence is not public.
+Q113  [OPEN - PRIMARY RECORD]  What is average ground-police arrival time? — Average ground-police arrival time for PolAir taskings is not public.
+Q114  [OPEN - PRIMARY RECORD]  What is average time from drone detection to physical intervention? — Requires linked mission/event timestamps and ground-unit records; not publicly available.
+Q115  [OPEN - PRIMARY RECORD]  What is average time from drone detection to arrest? — Requires linked mission/event timestamps and ground-unit records; not publicly available.
+Q116  [OPEN - PRIMARY RECORD]  How often does the drone arrive before ground police? — Requires linked mission/event timestamps and ground-unit records; not publicly available.
+Q117  [OPEN - PRIMARY RECORD]  How often does it locate a suspect before ground police arrive? — Requires linked mission/event timestamps and ground-unit records; not publicly available.
+Q118  [OPEN - PRIMARY RECORD]  How often are ground officers unavailable to act immediately on drone intelligence? — Requires linked mission/event timestamps and ground-unit records; not publicly available.
+Q119  [OPEN - PRIMARY RECORD]  How many deployments produce useful intelligence but no immediate intervention? — Requires linked mission/event timestamps and ground-unit records; not publicly available.
+Q120  [OPEN - PRIMARY RECORD]  Has PolAir-Remote reduced dangerous vehicle pursuits? — The capability could plausibly affect this outcome, but no aggregate Moree trial result has been published.
+Q121  [OPEN - PRIMARY RECORD]  Has it reduced foot-search time? — The capability could plausibly affect this outcome, but no aggregate Moree trial result has been published.
+Q122  [OPEN - PRIMARY RECORD]  Has it reduced the number of officers required for searches? — The capability could plausibly affect this outcome, but no aggregate Moree trial result has been published.
+Q123  [OPEN - PRIMARY RECORD]  Has it reduced conventional PolAir tasking? — The capability could plausibly affect this outcome, but no aggregate Moree trial result has been published.
+Q124  [OPEN - PRIMARY RECORD]  Has it reduced officer exposure to dangerous searches? — The capability could plausibly affect this outcome, but no aggregate Moree trial result has been published.
+Q125  [OPEN - ANALYTICAL]  Has it increased the number of incidents police detect without increasing physical-response capacity? — Possible in principle: remote observation can scale faster than physical response. Whether this occurred in Moree needs linked tasking and staffing data.
+Q126  [OPEN - PRIMARY RECORD]  Is local frontline staffing being increased alongside remote aerial observation capability? — No public evidence located shows a PolAir-specific increase in local frontline staffing alongside the remote capability.
+Q127  [OPEN - ANALYTICAL]  If not, what prevents a growing observation/intervention imbalance? — The imbalance is prevented only if staffing/fallback/dispatch capacity is matched to observation load; no public PolAir-specific control or threshold has been located.
+E. FLIGHT-GEOGRAPHY DATA
+Section status: 0 resolved; 8 partial; 5 analytical; 18 primary-record dependent.
+Q128  [PARTIAL]  Is a mission-level flight log maintained for every PolAir-Remote deployment? — CASA requires operational/pilot records for ReOC operations, and the platform can generate detailed flight logs. Whether NSW Police maintains one mission record for every PolAir-Remote deployment in a specific schema is not public.
+Q129  [PARTIAL]  What fields are recorded? — CASA-required records include purpose/nature, date/time, operating locations, aircraft, pilot/crew, VLOS/BVLOS status, approvals, launch/landing coordinates and relevant flight segments. Police-specific fields remain unknown.
+Q130  [OPEN - PRIMARY RECORD]  Does each flight have a unique mission identifier? — No public mission schema establishes this identifier/link/classification field.
+Q131  [OPEN - PRIMARY RECORD]  Is each flight linked to an incident or event number? — No public mission schema establishes this identifier/link/classification field.
+Q132  [OPEN - PRIMARY RECORD]  Is each flight classified as reactive, proactive, training, testing or another category? — No public mission schema establishes this identifier/link/classification field.
+Q133  [OPEN - PRIMARY RECORD]  What proportion of flights are reactive? — No public Moree flight dataset provides this proportion or geographic exposure measure.
+Q134  [OPEN - PRIMARY RECORD]  What proportion are proactive? — No public Moree flight dataset provides this proportion or geographic exposure measure.
+Q135  [OPEN - PRIMARY RECORD]  What proportion are scheduled patrols? — No public Moree flight dataset provides this proportion or geographic exposure measure.
+Q136  [OPEN - PRIMARY RECORD]  What proportion occur during high-visibility operations? — No public Moree flight dataset provides this proportion or geographic exposure measure.
+Q137  [OPEN - PRIMARY RECORD]  What proportion are covert? — No public Moree flight dataset provides this proportion or geographic exposure measure.
+Q138  [OPEN - PRIMARY RECORD]  What geographic areas receive the highest flight frequency? — No public Moree flight dataset provides this proportion or geographic exposure measure.
+Q139  [OPEN - PRIMARY RECORD]  Which streets or neighbourhoods receive repeated observation? — No public Moree flight dataset provides this proportion or geographic exposure measure.
+Q140  [OPEN - PRIMARY RECORD]  What areas receive the longest cumulative loiter time? — No public Moree flight dataset provides this proportion or geographic exposure measure.
+Q141  [PARTIAL]  Are flight paths retained? — Operational flight records and platform logs can preserve location/flight information; exact NSW Police retention of full path geometry is not publicly established.
+Q142  [PARTIAL]  Are altitude records retained? — CASA operational records include relevant heights/segments; exact full-resolution altitude retention by NSW Police is unknown.
+Q143  [OPEN - PRIMARY RECORD]  Are sensor-mode records retained? — No public NSW Police mission/log schema confirms that this field is recorded and retained.
+Q144  [OPEN - PRIMARY RECORD]  Is zoom use recorded? — No public NSW Police mission/log schema confirms that this field is recorded and retained.
+Q145  [OPEN - PRIMARY RECORD]  Is thermal use recorded? — No public NSW Police mission/log schema confirms that this field is recorded and retained.
+Q146  [OPEN - PRIMARY RECORD]  Is recording status recorded? — No public NSW Police mission/log schema confirms that this field is recorded and retained.
+Q147  [OPEN - PRIMARY RECORD]  Is operator identity recorded? — No public NSW Police mission/log schema confirms that this field is recorded and retained.
+Q148  [OPEN - PRIMARY RECORD]  Is purpose change during a flight recorded? — No public NSW Police mission/log schema confirms that this field is recorded and retained.
+Q149  [OPEN - PRIMARY RECORD]  Are people or vehicles tracked across multiple locations? — No public NSW Police mission/log schema confirms that this field is recorded and retained.
+Q150  [PARTIAL]  Can flight geography be mapped against Aboriginal population distribution? — Technically feasible if de-identified flight geography is released and joined to public demographic/offence/spatial datasets. NSW Police has not published the required flight dataset.
+Q151  [PARTIAL]  Can it be mapped against offence location? — Technically feasible if de-identified flight geography is released and joined to public demographic/offence/spatial datasets. NSW Police has not published the required flight dataset.
+Q152  [PARTIAL]  Can it be mapped against socioeconomic disadvantage? — Technically feasible if de-identified flight geography is released and joined to public demographic/offence/spatial datasets. NSW Police has not published the required flight dataset.
+Q153  [PARTIAL]  Can it be mapped against proactive-policing operations? — Technically feasible if de-identified flight geography is released and joined to public demographic/offence/spatial datasets. NSW Police has not published the required flight dataset.
+Q154  [OPEN - ANALYTICAL]  Are some communities exposed to substantially more aerial observation than their offence incidence would predict? — Requires mission-level spatial/temporal data and appropriate comparison denominators; no public analysis resolves it.
+Q155  [OPEN - ANALYTICAL]  Are private residential areas disproportionately represented in flight paths? — Requires mission-level spatial/temporal data and appropriate comparison denominators; no public analysis resolves it.
+Q156  [OPEN - ANALYTICAL]  Are repeated patrol routes used? — Requires mission-level spatial/temporal data and appropriate comparison denominators; no public analysis resolves it.
+Q157  [OPEN - ANALYTICAL]  Are patrol times predictable? — Requires mission-level spatial/temporal data and appropriate comparison denominators; no public analysis resolves it.
+Q158  [OPEN - ANALYTICAL]  Has geographic or temporal displacement been assessed? — Requires mission-level spatial/temporal data and appropriate comparison denominators; no public analysis resolves it.
+F. SECONDARY DETECTION AND PURPOSE EXPANSION
+Section status: 0 resolved; 3 partial; 0 analytical; 18 primary-record dependent.
+Q159  [OPEN - PRIMARY RECORD]  What happens when a drone launched for one incident observes an unrelated possible offence? — Public policy does not specify the decision process when an unrelated suspected offence is observed during another mission.
+Q160  [PARTIAL]  Can that observation generate a new police event? — Police can create a new event from lawfully obtained information in ordinary policing, but the PolAir-specific event-generation rule and audit trail are not public.
+Q161  [OPEN - PRIMARY RECORD]  Who authorises the change in purpose? — The authorising role for a PolAir purpose change is not public.
+Q162  [OPEN - PRIMARY RECORD]  Must the operator document the secondary purpose? — No public rule confirms mandatory documentation of purpose change.
+Q163  [OPEN - PRIMARY RECORD]  Is separate tasking required? — No public rule states whether separate tasking is mandatory.
+Q164  [PARTIAL]  Is separate legal authority required? — Legal authority is fact-dependent; no general rule has been located that every secondary observation requires a new warrant, but some activities may require separate authority.
+Q165  [PARTIAL]  Does the answer differ between live observation and recorded footage? — Live observation and retained footage engage different evidentiary/records/privacy questions, but the PolAir-specific rule is not public.
+Q166  [OPEN - PRIMARY RECORD]  Can incidental observations justify a search? — Possible consequences depend on lawfulness, evidentiary sufficiency and police powers; the PolAir-specific threshold/process is not public.
+Q167  [OPEN - PRIMARY RECORD]  Can they justify pursuit or tracking? — Possible consequences depend on lawfulness, evidentiary sufficiency and police powers; the PolAir-specific threshold/process is not public.
+Q168  [OPEN - PRIMARY RECORD]  Can they justify an arrest? — Possible consequences depend on lawfulness, evidentiary sufficiency and police powers; the PolAir-specific threshold/process is not public.
+Q169  [OPEN - PRIMARY RECORD]  Can they create an intelligence record? — Possible consequences depend on lawfulness, evidentiary sufficiency and police powers; the PolAir-specific threshold/process is not public.
+Q170  [OPEN - PRIMARY RECORD]  Can incidental imagery be retained after the original mission ends? — No public PolAir policy or aggregate data resolves this secondary-use/secondary-detection question.
+Q171  [OPEN - PRIMARY RECORD]  Can it be searched retrospectively for unrelated investigations? — No public PolAir policy or aggregate data resolves this secondary-use/secondary-detection question.
+Q172  [OPEN - PRIMARY RECORD]  Can footage collected for one purpose be used for another without new approval? — No public PolAir policy or aggregate data resolves this secondary-use/secondary-detection question.
+Q173  [OPEN - PRIMARY RECORD]  Can unrelated vehicles be tracked? — No public PolAir policy or aggregate data resolves this secondary-use/secondary-detection question.
+Q174  [OPEN - PRIMARY RECORD]  Can unrelated people be tracked? — No public PolAir policy or aggregate data resolves this secondary-use/secondary-detection question.
+Q175  [OPEN - PRIMARY RECORD]  Can thermal imaging be used once the purpose changes? — No public PolAir policy or aggregate data resolves this secondary-use/secondary-detection question.
+Q176  [OPEN - PRIMARY RECORD]  Can AI-assisted tracking be activated for the secondary matter? — No public PolAir policy or aggregate data resolves this secondary-use/secondary-detection question.
+Q177  [OPEN - PRIMARY RECORD]  Is there a mandatory audit trail for every purpose change? — No public PolAir policy or aggregate data resolves this secondary-use/secondary-detection question.
+Q178  [OPEN - PRIMARY RECORD]  Are secondary detections reported as a separate operational category? — No public PolAir policy or aggregate data resolves this secondary-use/secondary-detection question.
+Q179  [OPEN - PRIMARY RECORD]  How frequently has secondary detection generated further police action? — No public PolAir policy or aggregate data resolves this secondary-use/secondary-detection question.
+G. PRIVATE PROPERTY AND SURVEILLANCE BOUNDARIES
+Section status: 0 resolved; 2 partial; 0 analytical; 17 primary-record dependent.
+Q180  [OPEN - PRIMARY RECORD]  What NSW Police policy governs aerial observation of private yards? — The relevant PolAir operational rule is not public. General law does not substitute for the missing police-specific launch/observation limits.
+Q181  [OPEN - PRIMARY RECORD]  What policy governs observation of home exteriors? — The relevant PolAir operational rule is not public. General law does not substitute for the missing police-specific launch/observation limits.
+Q182  [OPEN - PRIMARY RECORD]  What policy governs observation through windows? — The relevant PolAir operational rule is not public. General law does not substitute for the missing police-specific launch/observation limits.
+Q183  [OPEN - PRIMARY RECORD]  Is deliberate viewing through windows prohibited? — The relevant PolAir operational rule is not public. General law does not substitute for the missing police-specific launch/observation limits.
+Q184  [OPEN - PRIMARY RECORD]  Are there restrictions on zooming into residential property? — The relevant PolAir operational rule is not public. General law does not substitute for the missing police-specific launch/observation limits.
+Q185  [OPEN - PRIMARY RECORD]  Are there restrictions on thermal observation of homes? — The relevant PolAir operational rule is not public. General law does not substitute for the missing police-specific launch/observation limits.
+Q186  [OPEN - PRIMARY RECORD]  Are there restrictions on prolonged loitering over residences? — The relevant PolAir operational rule is not public. General law does not substitute for the missing police-specific launch/observation limits.
+Q187  [OPEN - PRIMARY RECORD]  Are there altitude or angle restrictions intended to protect privacy? — The relevant PolAir operational rule is not public. General law does not substitute for the missing police-specific launch/observation limits.
+Q188  [OPEN - PRIMARY RECORD]  Does the operational rule differ between emergency response and proactive patrol? — The relevant PolAir operational rule is not public. General law does not substitute for the missing police-specific launch/observation limits.
+Q189  [OPEN - PRIMARY RECORD]  Does the rule differ when a person is suspected of an offence? — The relevant PolAir operational rule is not public. General law does not substitute for the missing police-specific launch/observation limits.
+Q190  [PARTIAL]  What legal authority is relied upon when the drone observes private activity from public airspace? — External aerial observation may rely on ordinary police powers and lawful observation from airspace; legality is fact-specific. No single public rule gives blanket authority for all private activity.
+Q191  [PARTIAL]  When is a surveillance-device warrant required? — The Surveillance Devices Act does not establish a simple rule that every drone view of private property needs a surveillance-device warrant. Whether a warrant is required depends on the method, intrusion and facts.
+Q192  [OPEN - PRIMARY RECORD]  When is another warrant or authority required? — Other warrant/authority requirements are fact-specific and cannot be resolved without the operation type and applicable police power.
+Q193  [OPEN - PRIMARY RECORD]  Who advises operators on the boundary? — No public PolAir SOP identifies the operational/legal adviser or escalation route.
+Q194  [OPEN - PRIMARY RECORD]  What happens when the boundary is breached accidentally? — No public PolAir privacy-incident/complaint process or aggregate outcome data resolves this question.
+Q195  [OPEN - PRIMARY RECORD]  What happens when it is breached deliberately? — No public PolAir privacy-incident/complaint process or aggregate outcome data resolves this question.
+Q196  [OPEN - PRIMARY RECORD]  Are privacy incidents separately logged? — No public PolAir privacy-incident/complaint process or aggregate outcome data resolves this question.
+Q197  [OPEN - PRIMARY RECORD]  How many privacy complaints have been made? — No public PolAir privacy-incident/complaint process or aggregate outcome data resolves this question.
+Q198  [OPEN - PRIMARY RECORD]  How many complaints have been substantiated? — No public PolAir privacy-incident/complaint process or aggregate outcome data resolves this question.
+H. RECORDING, RETENTION AND SECONDARY USE
+Section status: 2 resolved; 2 partial; 0 analytical; 21 primary-record dependent.
+Q199  [RESOLVED]  Are PolAir-Remote flights recorded by default? — No. Public NSW Police launch messaging said flights are not ordinarily recorded unless responding to a crime/operational need; recording is therefore not presented as universal default.
+Q200  [RESOLVED]  Is video streamed without recording in some missions? — Yes. The public model contemplates live operational viewing without universal recording.
+Q201  [OPEN - PRIMARY RECORD]  Who decides whether recording occurs? — The decision authority/trigger for recording is not public.
+Q202  [OPEN - PRIMARY RECORD]  Is audio collected? — No public source located establishes whether Moree PolAir-Remote collects audio.
+Q203  [OPEN - PRIMARY RECORD]  Are still images automatically generated? — No public source establishes automatic still-image generation as an operational NSW Police setting.
+Q204  [PARTIAL]  What metadata are attached to imagery? — Drone/video systems can attach timestamps, location and other metadata; the exact evidentiary metadata preserved by NSW Police is not public.
+Q205  [OPEN - PRIMARY RECORD]  What is the retention period for evidentiary footage? — No PolAir-specific retention period for this data class has been publicly located.
+Q206  [OPEN - PRIMARY RECORD]  What is the retention period for non-evidentiary footage? — No PolAir-specific retention period for this data class has been publicly located.
+Q207  [OPEN - PRIMARY RECORD]  What is the retention period for incidental imagery? — No PolAir-specific retention period for this data class has been publicly located.
+Q208  [OPEN - PRIMARY RECORD]  What is the retention period for telemetry? — No PolAir-specific retention period for this data class has been publicly located.
+Q209  [PARTIAL]  What is the retention period for flight logs? — CASA requires specified ReOC operational and remote-pilot records to be retained for seven years. Whether NSW Police retains additional flight telemetry/logs longer or differently is not public.
+Q210  [OPEN - PRIMARY RECORD]  Are retention periods automatic or discretionary? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q211  [OPEN - PRIMARY RECORD]  Who can extend retention? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q212  [OPEN - PRIMARY RECORD]  What reason must be recorded? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q213  [OPEN - PRIMARY RECORD]  Who can access footage? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q214  [OPEN - PRIMARY RECORD]  Are access events logged? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q215  [OPEN - PRIMARY RECORD]  Are unauthorised access attempts logged? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q216  [OPEN - PRIMARY RECORD]  Can imagery be copied to another NSW Police system? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q217  [OPEN - PRIMARY RECORD]  Can it be provided to another agency? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q218  [OPEN - PRIMARY RECORD]  Can it be used for intelligence analysis? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q219  [OPEN - PRIMARY RECORD]  Can it be used for training? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q220  [OPEN - PRIMARY RECORD]  Can it be used to develop AI models? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q221  [OPEN - PRIMARY RECORD]  Can retained footage later be analysed for a purpose not contemplated when it was collected? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q222  [OPEN - PRIMARY RECORD]  What deletion verification exists? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+Q223  [OPEN - PRIMARY RECORD]  What happens to retained data if the program is terminated? — The controlling NSW Police data-handling/access/secondary-use/deletion rule is not public. General records/disclosure law may constrain disposal once material is a State/evidentiary record.
+I. AI, AUTOMATED DETECTION AND BIOMETRICS
+Section status: 2 resolved; 9 partial; 0 analytical; 17 primary-record dependent.
+Q224  [PARTIAL]  Which onboard AI functions are enabled on Moree aircraft? — The Matrice 4-series platform supports AI-assisted person/object detection/tracking functions, but which functions are enabled in Moree is not public.
+Q225  [PARTIAL]  Is human-subject detection enabled? — The Matrice 4-series platform supports AI-assisted person/object detection/tracking functions, but which functions are enabled in Moree is not public.
+Q226  [PARTIAL]  Is vehicle detection enabled? — The Matrice 4-series platform supports AI-assisted person/object detection/tracking functions, but which functions are enabled in Moree is not public.
+Q227  [PARTIAL]  Is automatic subject tracking enabled? — The Matrice 4-series platform supports AI-assisted person/object detection/tracking functions, but which functions are enabled in Moree is not public.
+Q228  [PARTIAL]  Is automatic reacquisition enabled? — The Matrice 4-series platform supports AI-assisted person/object detection/tracking functions, but which functions are enabled in Moree is not public.
+Q229  [OPEN - PRIMARY RECORD]  Are custom AI models installed? — No evidence located of custom AI models installed in the Moree system.
+Q230  [OPEN - PRIMARY RECORD]  Are any third-party analytics connected? — No evidence located of third-party analytics connected to the Moree workflow.
+Q231  [OPEN - PRIMARY RECORD]  Are alarm-triggered automated launches enabled? — The platform can support automation, but no evidence located that alarm-triggered launches are enabled operationally in Moree.
+Q232  [PARTIAL]  Are scheduled autonomous patrols enabled? — Scheduled/on-demand automated patrol capability exists in the vendor ecosystem; whether NSW Police enables scheduled autonomous patrols is not public.
+Q233  [OPEN - PRIMARY RECORD]  Does the Remote Operations Centre perform automated video analysis? — No public evidence identifies automated central video analysis in the Moree ROC workflow.
+Q234  [OPEN - PRIMARY RECORD]  Is object detection performed centrally? — No public evidence identifies automated central video analysis in the Moree ROC workflow.
+Q235  [OPEN - PRIMARY RECORD]  Is person detection performed centrally? — No public evidence identifies automated central video analysis in the Moree ROC workflow.
+Q236  [RESOLVED]  Is facial recognition used anywhere in the workflow? — No evidence located establishes facial recognition is used anywhere in the Moree PolAir-Remote workflow.
+Q237  [OPEN - PRIMARY RECORD]  Can individual frames be manually submitted for facial matching? — Technical/manual frame export is possible in principle, but no public NSW Police rule or use record establishes manual face-matching submission.
+Q238  [PARTIAL]  Can recorded imagery be submitted to the National Facial Biometric Matching Capability? — NSW has authorised facial-biometric matching infrastructure, so an external matching pathway exists in the jurisdiction. A PolAir-to-biometric submission pathway is not established.
+Q239  [RESOLVED]  Has any PolAir-Remote imagery actually been submitted? — No evidence located establishes that any Moree PolAir imagery has actually been submitted for facial-biometric matching.
+Q240  [OPEN - PRIMARY RECORD]  What authority would permit that use? — Any use would require a lawful policing/information-sharing basis and applicable biometric governance; the PolAir-specific authority has not been identified.
+Q241  [OPEN - PRIMARY RECORD]  Is biometric use prohibited unless separately approved? — No public PolAir policy was located expressly prohibiting biometric use unless separately approved.
+Q242  [OPEN - PRIMARY RECORD]  Has a Privacy Impact Assessment considered biometric linkage? — No PolAir-specific Privacy Impact Assessment has been publicly located.
+Q243  [OPEN - PRIMARY RECORD]  Has an NSW AI Assessment Framework assessment been conducted? — No PolAir-specific NSW AI Assessment Framework assessment has been publicly located.
+Q244  [OPEN - PRIMARY RECORD]  What risk level was assigned? — No PolAir AI risk rating is public.
+Q245  [OPEN - PRIMARY RECORD]  Who approved the AI use? — No PolAir AI approval record is public.
+Q246  [OPEN - PRIMARY RECORD]  Are AI false positives measured? — No public Moree AI performance/verification rule or false-positive dataset resolves this question.
+Q247  [OPEN - PRIMARY RECORD]  Are AI detections required to be verified by a human? — No public Moree AI performance/verification rule or false-positive dataset resolves this question.
+Q248  [OPEN - PRIMARY RECORD]  Can an automated detection itself generate police action? — No public Moree AI performance/verification rule or false-positive dataset resolves this question.
+Q249  [PARTIAL]  What reassessment occurs when software features change? — NSW AI governance requires reassessment where material system changes alter risk; the PolAir-specific update/reassessment process has not been disclosed.
+Q250  [PARTIAL]  What reassessment occurs when a new AI model is added? — Adding a new AI model would be a material capability change requiring governance/risk reassessment under applicable NSW AI controls; the PolAir-specific process is not public.
+Q251  [OPEN - PRIMARY RECORD]  Is there a capability register showing enabled and disabled functions? — No public capability register lists enabled/disabled PolAir AI functions.
+J. DATA FLOW, CLOUD AND CYBERSECURITY
+Section status: 1 resolved; 4 partial; 0 analytical; 27 primary-record dependent.
+Q252  [OPEN - PRIMARY RECORD]  Where is live video processed? — The operational storage/processing location for this data class is not public.
+Q253  [OPEN - PRIMARY RECORD]  Where is recorded video stored? — The operational storage/processing location for this data class is not public.
+Q254  [OPEN - PRIMARY RECORD]  Where are flight logs stored? — The operational storage/processing location for this data class is not public.
+Q255  [OPEN - PRIMARY RECORD]  Where is telemetry stored? — The operational storage/processing location for this data class is not public.
+Q256  [OPEN - PRIMARY RECORD]  Is DJI cloud infrastructure used? — DJI cloud services are available in the ecosystem; whether NSW Police uses them in Moree is not established.
+Q257  [OPEN - PRIMARY RECORD]  Is FlightHub 2 used? — FlightHub 2 is a technically compatible vendor platform, but its use by NSW Police Moree has not been established.
+Q258  [OPEN - PRIMARY RECORD]  Is FlightHub 2 hosted or on-premises? — Because FlightHub use itself is unverified, hosted versus on-premises deployment is also unknown.
+Q259  [OPEN - PRIMARY RECORD]  Is Local Data Mode enabled? — No public record confirms Local Data Mode is enabled.
+Q260  [OPEN - PRIMARY RECORD]  Are manufacturer cloud connections disabled? — No public record confirms manufacturer-cloud connections are disabled.
+Q261  [OPEN - PRIMARY RECORD]  Does any operational data leave Australia? — No public Moree data-flow/support record resolves foreign transfer or vendor/support access.
+Q262  [OPEN - PRIMARY RECORD]  Does any telemetry leave Australia? — No public Moree data-flow/support record resolves foreign transfer or vendor/support access.
+Q263  [OPEN - PRIMARY RECORD]  Can DJI personnel access any data? — No public Moree data-flow/support record resolves foreign transfer or vendor/support access.
+Q264  [OPEN - PRIMARY RECORD]  Can another vendor access any data? — No public Moree data-flow/support record resolves foreign transfer or vendor/support access.
+Q265  [OPEN - PRIMARY RECORD]  Where are support personnel located? — No public Moree data-flow/support record resolves foreign transfer or vendor/support access.
+Q266  [PARTIAL]  What encryption protects live transmission? — DJI enterprise products support encrypted communications/security controls, but the exact NSW Police live-transmission configuration is not public.
+Q267  [PARTIAL]  What encryption protects stored data? — Vendor platforms support encryption at rest/in transit, but the NSW Police storage implementation and keys are not public.
+Q268  [OPEN - PRIMARY RECORD]  What authentication protects operator access? — No public PolAir authentication/privileged-access/log-monitoring configuration has been located.
+Q269  [OPEN - PRIMARY RECORD]  Is multi-factor authentication mandatory? — No public PolAir authentication/privileged-access/log-monitoring configuration has been located.
+Q270  [OPEN - PRIMARY RECORD]  What privileged-access controls exist? — No public PolAir authentication/privileged-access/log-monitoring configuration has been located.
+Q271  [OPEN - PRIMARY RECORD]  Are system logs centrally monitored? — No public PolAir authentication/privileged-access/log-monitoring configuration has been located.
+Q272  [OPEN - PRIMARY RECORD]  Has penetration testing been conducted? — No PolAir-specific penetration test, cyber assessment or DJI/supply-chain risk assessment has been publicly located.
+Q273  [OPEN - PRIMARY RECORD]  Has a cyber-security risk assessment been conducted? — No PolAir-specific penetration test, cyber assessment or DJI/supply-chain risk assessment has been publicly located.
+Q274  [OPEN - PRIMARY RECORD]  Has a supply-chain risk assessment been conducted? — No PolAir-specific penetration test, cyber assessment or DJI/supply-chain risk assessment has been publicly located.
+Q275  [OPEN - PRIMARY RECORD]  Has foreign ownership/control/influence risk been assessed? — No PolAir-specific penetration test, cyber assessment or DJI/supply-chain risk assessment has been publicly located.
+Q276  [OPEN - PRIMARY RECORD]  What risk was identified for DJI? — No PolAir-specific penetration test, cyber assessment or DJI/supply-chain risk assessment has been publicly located.
+Q277  [OPEN - PRIMARY RECORD]  What mitigations were required? — No PolAir-specific penetration test, cyber assessment or DJI/supply-chain risk assessment has been publicly located.
+Q278  [PARTIAL]  Were Commonwealth DJI restrictions considered? — Commonwealth restrictions/concerns about DJI in some agencies are documented and are a relevant risk input. Whether and how NSW Police considered them is not public.
+Q279  [OPEN - PRIMARY RECORD]  Why was the Moree configuration considered acceptable for NSW Police use? — The acceptance decision/risk rationale for the Moree configuration has not been published.
+Q280  [PARTIAL]  Is vendor remote support technically possible? — Vendor remote support is technically possible in enterprise systems; whether it is enabled/contracted for NSW Police is unknown.
+Q281  [RESOLVED]  Can vendor software updates change operational capability? — Yes. Firmware/software updates can change features, security posture and operational capability.
+Q282  [OPEN - PRIMARY RECORD]  Who approves firmware and software updates? — The NSW Police authority that approves PolAir firmware/software updates is not public.
+Q283  [OPEN - PRIMARY RECORD]  Is each update security-assessed before deployment? — No public PolAir rule establishes the security-assessment gate applied to each update.
+K. PROCUREMENT AND SUPPLIER ARCHITECTURE
+Section status: 0 resolved; 1 partial; 0 analytical; 28 primary-record dependent.
+Q284  [PARTIAL]  What was the outcome of EOI YR-2026-0058? — YR-2026-0058 closed 30 June 2026; Buy NSW still shows no posted notices. The actual assessment outcome is not public.
+Q285  [OPEN - PRIMARY RECORD]  Was a panel established? — No public notice establishes that an RPAS panel has been formally established.
+Q286  [OPEN - PRIMARY RECORD]  Which suppliers were selected? — No public award/contract record presently resolves this supplier/contract term.
+Q287  [OPEN - PRIMARY RECORD]  Were any suppliers shortlisted? — No public award/contract record presently resolves this supplier/contract term.
+Q288  [OPEN - PRIMARY RECORD]  Have any contracts been executed? — No public award/contract record presently resolves this supplier/contract term.
+Q289  [OPEN - PRIMARY RECORD]  What are their values? — No public award/contract record presently resolves this supplier/contract term.
+Q290  [OPEN - PRIMARY RECORD]  What are their durations? — No public award/contract record presently resolves this supplier/contract term.
+Q291  [OPEN - PRIMARY RECORD]  What goods and services do they cover? — No public award/contract record presently resolves this supplier/contract term.
+Q292  [OPEN - PRIMARY RECORD]  What geographic scope do they cover? — No public award/contract record presently resolves this supplier/contract term.
+Q293  [OPEN - PRIMARY RECORD]  Do they include Remote Operations Centre services? — No public award/contract record presently resolves this supplier/contract term.
+Q294  [OPEN - PRIMARY RECORD]  Do they include autonomous dock systems? — No public award/contract record presently resolves this supplier/contract term.
+Q295  [OPEN - PRIMARY RECORD]  Do they include specialist payloads? — No public award/contract record presently resolves this supplier/contract term.
+Q296  [OPEN - PRIMARY RECORD]  Do they include AI functionality? — No public award/contract record presently resolves this supplier/contract term.
+Q297  [OPEN - PRIMARY RECORD]  Do they include software subscriptions? — No public award/contract record presently resolves this supplier/contract term.
+Q298  [OPEN - PRIMARY RECORD]  Do they include data hosting? — No public award/contract record presently resolves this supplier/contract term.
+Q299  [OPEN - PRIMARY RECORD]  Do they include support from overseas personnel? — No public award/contract record presently resolves this supplier/contract term.
+Q300  [OPEN - PRIMARY RECORD]  Do contracts allow future capability additions without a new procurement? — No public award/contract record presently resolves this supplier/contract term.
+Q301  [OPEN - PRIMARY RECORD]  Do contracts include exit rights? — No public award/contract record presently resolves this supplier/contract term.
+Q302  [OPEN - PRIMARY RECORD]  Do contracts include data-return and deletion obligations? — No public award/contract record presently resolves this supplier/contract term.
+Q303  [OPEN - PRIMARY RECORD]  Do contracts include cyber-security requirements? — No public award/contract record presently resolves this supplier/contract term.
+Q304  [OPEN - PRIMARY RECORD]  Do they impose Australian data-location requirements? — No public award/contract record presently resolves this supplier/contract term.
+Q305  [OPEN - PRIMARY RECORD]  Do they restrict foreign cloud services? — No public award/contract record presently resolves this supplier/contract term.
+Q306  [OPEN - PRIMARY RECORD]  Do they require notification of ownership/control changes? — No public award/contract record presently resolves this supplier/contract term.
+Q307  [OPEN - PRIMARY RECORD]  What did the Aviation Command Operating Model Review recommend? — The April 2026 Aviation Command Operating Model Review EOI scope is public, but no completed review findings/recommendations have been located.
+Q308  [OPEN - PRIMARY RECORD]  Has any recommendation been adopted? — Without published findings, adoption of recommendations cannot be established.
+Q309  [OPEN - PRIMARY RECORD]  Has any subsequent procurement flowed from that review? — No subsequent procurement has been publicly linked as flowing from completed review recommendations.
+Q310  [OPEN - PRIMARY RECORD]  Did the review assume expansion of remotely operated aircraft? — The EOI considered command capacity/governance/fleet/workforce broadly; no completed review is public showing whether RPAS expansion was assumed.
+Q311  [OPEN - PRIMARY RECORD]  Did it evaluate an option not to expand RPAS? — No completed review is public showing whether a no-expansion RPAS option was evaluated.
+Q312  [OPEN - PRIMARY RECORD]  Did it evaluate alternative investments in frontline staffing? — No completed review is public showing whether frontline staffing investment was evaluated as an alternative.
+RUN 001 CONTROL FINDING
+A–K is now classified without silently upgrading unknowns. The dominant constraint is not absence of research questions; it is absence of the primary operational/evaluation records needed to answer them. The highest-yield acquisitions remain the Moree evaluation/KPI framework, PolAir-specific policy/SOPs, mission-level de-identified flight/outcome data, PIA/AI/cyber/vendor assessments, and the YR-2026-0058 / Aviation Command review outcome records.
+Next Answer Register block: L–T, unless a newly acquired primary record requires correction of an A–K classification. Corrections must be append-only and identify the affected Q-number.
+

@@ -1,0 +1,108 @@
+
+MAYHEM — POLAIR-REMOTE DEEP RESEARCH
+SNAPSHOT 5 — DELTA RECORD
+Mid North Coast / Kempsey / Moree | 16 August 2026
+Document type
+Open research snapshot — delta only
+Exact predecessor
+MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-4-2026-08-14.docx
+Coverage
+Findings F-051 through F-090 only; all earlier findings remain in predecessor chain
+CONTINUITY RULE. This document does not restate or supersede prior snapshots. It must be read as an append-only delta to the exact predecessor named above. No earlier finding is silently modified by this snapshot.
+Delta Findings F-051 to F-090
+F-051 — “30–60 second deployment” is not police response time
+The public deployment-time claim concerns aircraft launch/availability, not the time required for ground officers to physically intervene. Published Moree examples still require ground officers for search, arrest, transport, evidence, charging and victim protection.
+F-052 — NSW Police already has a documented frontline-capacity problem
+NSW Audit Office material identifies significant workforce shortages, uneven staffing pressure and commands where police could not attend some calls within one hour. Faster aerial intelligence does not remove the requirement for available ground units.
+F-053 — Surge-policing outcomes cannot be attributed to the drone alone
+Moree surge operations combined PolAir-Remote with general duties, specialist police, Youth Command, traffic/highway patrol, conventional PolAir and Dog Unit resources. The drone contribution is real but not separately quantified.
+F-054 — Bellbrook demonstrates the physical-distance constraint
+Parliamentary material records concern about Bellbrook losing its stationed officer and the approximately 40-minute drive to the nearest police station. A remotely launched aircraft could improve early situational awareness while leaving the physical intervention delay intact.
+F-055 — Kempsey-specific marginal benefit must be measured
+Some Kempsey incidents have already produced relatively rapid ground-police interception without PolAir-Remote. The appropriate test is incremental improvement by incident type, not whether an additional aerial asset could ever be useful.
+F-056 — Domestic-violence response exposes the substitution problem
+Historical Mid North Coast specialist staffing figures show thin dedicated DV capacity across a large district. A drone can help locate an alleged offender but cannot replace victim liaison, risk assessment, AVO management, evidence preparation or follow-up.
+F-057 — Workforce allocation itself has been criticised
+The Audit Office found NSW Police lacked a comprehensive workload-based allocation model and noted that political commitments can influence staffing placement without analysis of actual workload. Drone allocation should therefore be justified by measurable capability deficits, not political demand alone.
+F-058 — Remote observation can scale faster than physical intervention
+PolAir-Remote can centralise specialist aviation capability and extend regional aerial coverage. The resulting asymmetry is that NSW Police may be able to see or track more incidents without proportionately increasing local capacity to physically intervene.
+F-059 — “100+ arrests” does not itself prove efficiency
+Each additional arrest can generate downstream work: interception, search, transport, custody, charging, court preparation, bail administration and compliance. More arrests may represent legitimate policing yield while simultaneously increasing workload.
+F-060 — The strongest KPI may be search and response productivity, not aggregate crime
+Direct measures such as time to locate a person or vehicle, officer-hours saved, search area covered, helicopter hours displaced and reduction in officer exposure provide a cleaner causal test of PolAir-Remote than broad before/after crime rates.
+F-061 — They were not literally “Kemp’s bail laws”
+Michael Kemp was a prominent political advocate for tougher bail, but the relevant statutory and private-member legislative vehicles came from different actors. Current s 22C was enacted by the Minns Government; Coalition bills were introduced or carried by other MPs.
+F-062 — Kemp supported a substantially broader bail regime than current s 22C
+The Coalition proposal Kemp backed would have broadened repeat-offender restrictions, required electronic monitoring and curfews, and strengthened revocation consequences. That bill did not become law.
+F-063 — Political demand for tougher bail preceded mature evaluation of existing reforms
+The campaign for broader restrictions accelerated before the statutory effectiveness review of s 22C had been completed.
+F-064 — s 22C demonstrably increases remand for the affected cohort
+BOCSAR/parliamentary material shows significant numbers of first court appearances under s 22C resulting in bail refusal and remand. The unresolved question is the amount of crime reduction causally attributable to that additional custody.
+F-065 — Serious edge cases exist
+Published Children’s Court/Supreme Court material shows s 22C can materially affect remand even where the charge landscape later changes. This does not invalidate the provision but demonstrates the importance of case-level effects.
+F-066 — Automatic revocation proposals blur serious offending and technical breach
+Kemp-backed proposals would have strengthened revocation for breach conditions. Bail breaches can include technical non-compliance as well as new offending, so mandatory consequence architecture requires separate evaluation of breach types.
+F-067 — Bail policy and PolAir-Remote can amplify one another
+Greater detection and location capacity combined with stricter bail conditions can increase the probability that non-compliance or new offending produces enforcement and custody. No evidence establishes routine PolAir bail-condition surveillance, but the systems are structurally compatible.
+F-068 — Electronic monitoring shows a broader supervision architecture
+Kemp’s earlier support for electronic monitoring indicates a policy direction toward technologically enhanced supervision combined with stronger enforcement consequences. The rejected bill means this full architecture is not current law.
+F-069 — Aboriginal-remand impact is an explicit unresolved variable
+Government responses have acknowledged the need to examine s 22C by Aboriginality and geography. This directly intersects with Moree/Kempsey because of high Aboriginal population share and existing overrepresentation in youth detention.
+F-070 — Crime reduction and increased custody can coexist without proving causation
+Regional youth offending indicators fell while youth custody increased. The contribution of bail changes relative to policing, diversion and place-based programs remains unresolved.
+F-071 — Operation Soteria was explicitly designed around a small identified repeat-offender cohort
+Public descriptions referred to approximately 80–100 youth “ringleaders” across regional hotspots, principally associated with serious property offending.
+F-072 — s 22C and Soteria structurally overlap
+The strongest overlap is among 14–16-year-old repeat offenders involved in serious break-and-enter or vehicle offending while already on bail. They are not independent policy populations.
+F-073 — Early Soteria charge volumes suggest concentration but do not prove person-level outcomes
+Kemp cited 92 people, including 65 juveniles, charged with 348 offences early in Soteria. Those activity totals do not reveal how many were original nominated cohort members or how many subsequently ceased offending.
+F-074 — Soteria includes diversion as well as enforcement
+NSW Police describes Soteria as combining overt operational response with early identification and diversion. Its success therefore cannot properly be measured only through arrests and charges.
+F-075 — PolAir-Remote can operate as a detection layer within Soteria
+Moree evidence shows PolAir-Remote locating a young person during an Operation Soteria investigation, followed by ground search, charge and bail processing. This proves operational integration, though not s 22C application in that specific case.
+F-076 — PolAir and bail-compliance activity coexist operationally
+Moree Soteria surge operations have included PolAir-Remote while police conducted bail/ADVO compliance checks. This does not prove the drone itself was used for compliance monitoring, but the functions already operate in the same enforcement environment.
+F-077 — The three levers occupy consecutive enforcement stages
+Soteria targets and disrupts; PolAir improves detection/location; bail law determines release, conditions and remand. Their combined effects must therefore be evaluated as an integrated enforcement chain where applied to the same people.
+F-078 — Repeat processing through the justice system is directly observable
+Soteria releases repeatedly document existing bail, further alleged offending, arrest, bail-breach charges and possible refusal of bail. The frequency with which the same small cohort cycles through these stages remains unknown.
+F-079 — Aggregate “arrests” can conceal repeated contact with the same people
+One individual can generate multiple arrests, charges, bail breaches and operation-success counts. Aggregate activity metrics do not reveal the number of unique people affected.
+F-080 — Cohort attrition is the core missing KPI
+If Soteria began with an identified high-risk cohort, the strongest longitudinal measure is how many members cease offending, remain active, enter custody, complete diversion, or are replaced by new entrants.
+F-081 — No public longitudinal accounting of the original Soteria cohort was located
+Public reporting through August 2026 remains dominated by operations, legal actions, charges, bail checks and surge outputs rather than person-level longitudinal cohort outcomes.
+F-082 — NSW Police has stated that “arrests” are not a recorded measure in its systems
+In parliamentary material NSW Police substituted unique legal actions for requested arrest counts and cautioned that legal actions can link to multiple incidents and offence categories. Kemp’s “100+ arrests” drone claim therefore requires an explicit source and definition.
+F-083 — The same counting problem affects Soteria’s charge/offence totals
+Charges or offences in operational reporting do not map one-to-one onto separate criminal episodes or unique offenders. Activity counts cannot substitute for cohort outcomes.
+F-084 — Soteria’s stated two-pillar design requires prevention metrics
+Because Soteria includes both overt enforcement and early diversion, legitimate KPIs include successful diversion, reduced repeat offending and prevention of entry into the high-risk cohort.
+F-085 — Government objectives emphasise breaking reoffending cycles
+The NSW regional youth-crime response explicitly aims to break reoffending cycles among young people on bail and prevent at-risk youth entering the justice system. Arrest volume is therefore not the natural primary outcome measure.
+F-086 — Increased detection can increase recorded system activity without increased underlying harm
+BOCSAR evaluation work in youth programs demonstrates that increased service or police contact can raise recorded events through better detection. The same ascertainment problem applies to drone-assisted enforcement.
+F-087 — PolAir-Remote creates an ascertainment-bias problem
+Because the technology changes the probability of detecting people and conduct, before/after arrest comparisons conflate underlying offending, detection probability and legal-action probability.
+F-088 — PolAir and Soteria cannot be causally separated in Moree using simple before/after data
+Moree simultaneously has Soteria targeting, bail enforcement, diversion, Youth Action Meetings, community programs, place-based investment and PolAir-Remote. Aggregate crime trends therefore cannot be attributed to the drone alone.
+F-089 — A credible evaluation requires linked cohort, offending, detection and disposition datasets
+The necessary design tracks nominated high-risk individuals, offending incidents, detection method and downstream justice disposition longitudinally.
+F-090 — The strongest system KPI is replacement-adjusted cohort attrition
+Success requires not only original high-risk offenders exiting the cohort but also fewer new entrants replacing them. Otherwise the system can intensify processing without materially shrinking the underlying offending network.
+Current Cross-Branch Synthesis
+The investigation now distinguishes technology performance from system performance. PolAir-Remote may improve detection and search efficiency while ground-police capacity, bail rules, diversion pathways and youth-justice capacity determine what happens next.
+Kemp’s preferred enforcement architecture is increasingly identifiable as layered rather than separate: targeted policing (Soteria), enhanced detection/location (PolAir-Remote), and stronger release/compliance consequences (bail reform).
+The major unresolved evaluation failure is repeated reliance on activity metrics — arrests, charges, checks and recoveries — without longitudinal evidence showing whether the high-risk offending cohort is actually shrinking.
+Next Open Gate — Economic System Effect
+Research objective: Compare the total system costs and yield of repeated arrest → court → remand/detention → re-arrest cycles against successful diversion/prevention, and test whether the petition’s “fraction of helicopter cost” argument remains meaningful once downstream justice-system costs are included.
+Youth detention daily and annual cost per detainee in NSW.
+Police arrest/custody/court processing costs where public data exist.
+Children’s Court / Legal Aid / Youth Justice system costs where attributable.
+Cost and measured outcomes of diversion, Youth Action Meetings and place-based youth programs.
+Incremental cost of PolAir-Remote versus conventional PolAir, including infrastructure and remote operations.
+Whether better detection increases downstream justice costs even while reducing search/aviation costs.
+A system-yield model separating avoided victim harm, enforcement cost, detention cost, diversion cost and long-run reoffending.
+Provenance and Status
+This snapshot is an append-only research delta derived from the investigation immediately following Snapshot 4. It preserves the classification boundary between verified facts, inference, and unresolved evidence gaps. It is not a closed or final report.
+

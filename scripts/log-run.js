@@ -16,8 +16,11 @@
 
 const fs = require('fs');
 const path = require('path');
+const { findCase, DEFAULT_CASE_ID } = require('./case-registry');
 
-const DATA_FILE = path.join(__dirname, '..', 'data', 'automation_log.json');
+const caseArgIndex = process.argv.indexOf('--case');
+const caseId = caseArgIndex !== -1 ? process.argv[caseArgIndex + 1] : DEFAULT_CASE_ID;
+const DATA_FILE = path.join(findCase(caseId).dataDir, 'automation_log.json');
 
 function parseArgs(argv) {
   const args = {};

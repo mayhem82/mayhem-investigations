@@ -1,0 +1,179 @@
+
+MAYHEM - POLAIR-REMOTE
+AE PRIMARY RECORD ACQUISITION REGISTER - RUN 001
+Moree -> Kempsey -> Mid North Coast | 16 August 2026
+Control basis: MAYHEM-MNC-POLAIR-REMOTE-CONTINUING-INVESTIGATION-QUESTION-BANK-v1_0.docx, Section AE, Q694-Q733.
+Snapshot anchor: MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-11-2026-08-16.docx.
+Purpose: record the current acquisition status of every Section AE primary record after targeted public-source searching, and assign a precise next acquisition route. 'Not publicly located' does not mean the record does not exist.
+Status vocabulary
+PUBLICLY VERIFIED - the requested record or a directly responsive public record has been located.
+PARTIAL - related public evidence exists but does not satisfy the requested record.
+NOT PUBLICLY LOCATED - targeted public searching did not locate the requested record.
+ROUTE: GIPA - formal NSW Police information-access request is the next proportionate acquisition step.
+ROUTE: PUBLISHER / ARCHIVE - the requested item is not a NSW Police record and should be acquired separately.
+Q694 - Complete Moree six-month evaluation
+STATUS: NOT PUBLICLY LOCATED
+Public sources verify that a six-month trial/evaluation was contemplated and that results would inform next steps, but no complete evaluation report has been located.
+NEXT ROUTE: GIPA Application 1
+Q695 - Original trial business case
+STATUS: NOT PUBLICLY LOCATED
+No public business case or project-initiation paper located.
+NEXT ROUTE: GIPA Application 1
+Q696 - Trial evaluation framework
+STATUS: NOT PUBLICLY LOCATED
+No public methodology/framework defining baseline, comparator, attribution or evaluation design located.
+NEXT ROUTE: GIPA Application 1
+Q697 - Original KPI document
+STATUS: NOT PUBLICLY LOCATED
+No pre-deployment KPI/success-criteria document located.
+NEXT ROUTE: GIPA Application 1
+Q698 - Trial risk register
+STATUS: NOT PUBLICLY LOCATED
+No PolAir-Remote trial risk register located.
+NEXT ROUTE: GIPA Application 1
+Q699 - Trial Privacy Impact Assessment
+STATUS: NOT PUBLICLY LOCATED
+General NSW Police privacy material exists, but no Moree/PolAir-specific PIA has been located.
+NEXT ROUTE: GIPA Application 2
+Q700 - Any AI Assessment Framework assessment
+STATUS: PARTIAL
+NSW AI Assessment Framework governance is mandatory where applicable; a NSW Police AI and Biometrics Ethics Board is publicly identifiable. No PolAir-specific assessment, risk rating, approval or documented non-applicability decision has been located.
+NEXT ROUTE: GIPA Application 2
+Q701 - Cyber-security assessment
+STATUS: NOT PUBLICLY LOCATED
+General NSW cyber-security requirements exist; no Moree configuration assessment located.
+NEXT ROUTE: GIPA Application 2
+Q702 - DJI/vendor risk assessment
+STATUS: NOT PUBLICLY LOCATED
+The RPAS EOI expressly includes supply-chain considerations, but no Moree DJI/vendor risk assessment has been located.
+NEXT ROUTE: GIPA Application 2
+Q703 - Data-flow diagrams
+STATUS: NOT PUBLICLY LOCATED
+Manufacturer architecture describes possible configurations, not the NSW Police Moree implementation.
+NEXT ROUTE: GIPA Application 2
+Q704 - Data-retention schedules
+STATUS: PARTIAL
+General State Records, criminal-disclosure and aviation record-keeping duties exist. No PolAir-specific imagery/telemetry/mission retention schedule has been located.
+NEXT ROUTE: GIPA Application 2
+Q705 - Controlling RPAS operational policy
+STATUS: PARTIAL
+NSW Police told Parliament that RPAS operations must comply with relevant NSWPF policies/procedures. The current public policy index does not expose a controlling RPAS/PolAir-Remote policy.
+NEXT ROUTE: GIPA Application 2
+Q706 - Operator SOPs where releasable
+STATUS: NOT PUBLICLY LOCATED
+No PolAir-Remote operator SOP has been located publicly.
+NEXT ROUTE: GIPA Application 2
+Q707 - Launch-authority rules
+STATUS: NOT PUBLICLY LOCATED
+Central management by Aviation Command is verified; exact tasking/launch authority is not public.
+NEXT ROUTE: GIPA Application 2
+Q708 - Proactive-patrol rules
+STATUS: NOT PUBLICLY LOCATED
+Public reporting verifies proactive use was contemplated, but no binding proactive-patrol policy/threshold has been located.
+NEXT ROUTE: GIPA Application 2
+Q709 - Mission-classification definitions
+STATUS: NOT PUBLICLY LOCATED
+No public definitions for reactive/proactive/training/testing/covert categories located.
+NEXT ROUTE: GIPA Application 2
+Q710 - De-identified mission-level flight data
+STATUS: PARTIAL
+CASA requires substantial operational and pilot records to be retained; no Moree mission-level dataset/export has been published.
+NEXT ROUTE: GIPA Application 3
+Q711 - De-identified outcome data
+STATUS: PARTIAL
+Individual police media releases establish tactical outcomes, but no complete aggregate mission-to-outcome dataset has been located.
+NEXT ROUTE: GIPA Application 3
+Q712 - Complaints and privacy-incident data
+STATUS: NOT PUBLICLY LOCATED
+No Moree PolAir complaint/privacy-incident aggregate has been located.
+NEXT ROUTE: GIPA Application 3
+Q713 - EOI YR-2026-0058 outcome records
+STATUS: PARTIAL
+Buy NSW shows the EOI closed 30 June 2026 and lists an estimated decision date of 20 July. The opportunity page currently states that no notices have been posted.
+NEXT ROUTE: GIPA Application 4
+Q714 - Any RPAS panel award
+STATUS: NOT PUBLICLY LOCATED
+No panel award notice or contract has been located. The estimated decision date is not evidence of award.
+NEXT ROUTE: GIPA Application 4
+Q715 - Subsequent RPAS contracts
+STATUS: NOT PUBLICLY LOCATED
+Current NSW Police Buy NSW contract searching did not identify a subsequent PolAir/RPAS expansion contract.
+NEXT ROUTE: GIPA Application 4
+Q716 - Aviation Command Operating Model Review findings
+STATUS: PARTIAL
+The April 2026 EOI and its scope are public; no completed review report/recommendations have been located.
+NEXT ROUTE: GIPA Application 4
+Q717 - Any Mid North Coast feasibility study
+STATUS: NOT PUBLICLY LOCATED
+No engineering/network/coverage feasibility document located.
+NEXT ROUTE: GIPA Application 4
+Q718 - Any Kempsey site or coverage assessment
+STATUS: NOT PUBLICLY LOCATED
+No Kempsey-specific dock/site/radius/communications assessment located.
+NEXT ROUTE: GIPA Application 4
+Q719 - Complete Moree trial expenditure
+STATUS: PARTIAL
+Police Minister answered 30 July 2026 that the total cost of the trial had not yet been finalised; no complete itemised expenditure has been located.
+NEXT ROUTE: GIPA Application 4
+Q720 - Projected recurrent expenditure
+STATUS: NOT PUBLICLY LOCATED
+No full recurrent-cost projection located.
+NEXT ROUTE: GIPA Application 4
+Q721 - Conventional PolAir comparison methodology
+STATUS: NOT PUBLICLY LOCATED
+Public claims say drones cost less than conventional aviation, but no complete comparator methodology/denominator has been located.
+NEXT ROUTE: GIPA Application 4
+Q722 - Consultation submissions
+STATUS: PARTIAL
+The Justice and Equity Centre has publicly released its own submission. The complete NSW Police consultation submission set/export has not been located.
+NEXT ROUTE: GIPA Application 5
+Q723 - Consultation analysis
+STATUS: NOT PUBLICLY LOCATED
+Have Your Say page confirms consultation closed 12 June 2026; no consolidated analysis/results report located.
+NEXT ROUTE: GIPA Application 5
+Q724 - NSW Police responses to consultation issues
+STATUS: NOT PUBLICLY LOCATED
+No issue-response matrix or public response document located.
+NEXT ROUTE: GIPA Application 5
+Q725 - Records of consultation with Moree Youth Crime Governance Group
+STATUS: NOT PUBLICLY LOCATED
+The group exists and has a shared-governance role in youth-crime work, but no formal PolAir consultation record has been located.
+NEXT ROUTE: GIPA Application 5
+Q726 - Records of Aboriginal community-controlled organisation involvement
+STATUS: PARTIAL
+Aboriginal Legal Service regional manager attendance at the 8 January briefing is publicly reported. This does not establish formal co-design, approval, safeguards or continuing governance.
+NEXT ROUTE: GIPA Application 5
+Q727 - Closing the Gap impact analysis
+STATUS: NOT PUBLICLY LOCATED
+Closing the Gap implications are material, but no PolAir-specific impact analysis has been located.
+NEXT ROUTE: GIPA Application 5
+Q728 - Full 11 August Macleay Argus article
+STATUS: NOT PUBLICLY LOCATED
+Search results have not exposed the complete article text. This is a media/publisher record rather than a NSW Police record.
+NEXT ROUTE: PUBLISHER / ACM / library/archive route
+Q729 - Primary briefing supporting Kemp petition statistics
+STATUS: NOT PUBLICLY LOCATED
+Michael Kemp's official website currently carries a top-level 'Drone Petition' link to the externally hosted petition, confirming campaign provenance. No briefing or primary source validating the petition's numerical claims has been located.
+NEXT ROUTE: GIPA Application 6; also electorate-office provenance inquiry
+Q730 - Ministerial/departmental briefing concerning expansion to Kempsey
+STATUS: NOT PUBLICLY LOCATED
+No Kempsey/Mid North Coast expansion briefing located in public repositories.
+NEXT ROUTE: GIPA Application 6
+Q731 - Decision record setting expansion criteria
+STATUS: NOT PUBLICLY LOCATED
+No published threshold/criteria document located.
+NEXT ROUTE: GIPA Application 1 and 6
+Q732 - Stop/go decision instrument
+STATUS: NOT PUBLICLY LOCATED
+No formal stop/go instrument or decision minute located.
+NEXT ROUTE: GIPA Application 1 and 6
+Q733 - Termination/decommissioning plan
+STATUS: NOT PUBLICLY LOCATED
+No trial-specific termination/decommissioning plan located.
+NEXT ROUTE: GIPA Application 1
+Acquisition decision
+The current public-source search has reached diminishing returns for the highest-value AE records. The appropriate next step is segmented formal GIPA acquisition, not repeated generic web searching. Six narrow applications have been prepared in MAYHEM-MNC-POLAIR-REMOTE-GIPA-PRIMARY-RECORD-ACQUISITION-PACK-v1_0.docx.
+Q728 is intentionally excluded from the NSW Police GIPA pack because the requested full Macleay Argus article is a publisher/media record. Q729 is included only insofar as NSW Police holds a briefing or source record supporting the campaign statistics.
+New provenance finding from RUN 001
+Michael Kemp's official electorate website presently includes a top-level 'Drone Petition' link. This independently verifies that the externally hosted petition is being promoted as an official electorate-office campaign artifact. It does not validate the underlying 50% / 100+ / 70+ / six-person / 30-60-second / helicopter-cost claims. The primary evidentiary source for those numbers remains unresolved.
+

@@ -1,0 +1,34 @@
+[
+  {
+    "decision_id": "DEC-0001",
+    "date": "2026-08-17",
+    "reason": "This entire case's initial evidence base originates from an external ChatGPT Deep Research investigation (2026-08-14 to 2026-08-16), not from this repository's own live collection process. Consistent with this investigation's established discipline for externally-sourced material (see DFAPTI-BB-2026-00001's RUN-0064 and RUN-0066), nothing in that corpus is treated as independently confirmed merely because a separate AI system located it. Every evidence item ingested from it is recorded at classification \"Requires Verification\" (or \"Secondary Reference\" for the corpus documents themselves) and verification_state \"Unverified\", regardless of how the source corpus itself labelled the underlying claim (e.g. its own \"VERIFIED\"/\"FACT\" markings). Upgrading any item to \"Verified\"/\"Accepted\" requires this investigation to independently fetch or otherwise confirm the underlying primary source itself.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Every EV-0001 through EV-0036 item in this case's register carries verification_state \"Unverified\" as at case creation, regardless of source content. Future runs that independently confirm a specific item should add a new evidence entry (or update via the append-only correction pattern) rather than silently upgrading the existing record's verification_state."
+  },
+  {
+    "decision_id": "DEC-0002",
+    "date": "2026-08-17",
+    "reason": "The external research corpus this case was ingested from contains approximately 230 numbered findings (F-001 to F-230, with a known gap where Snapshot 7 was never supplied) and a 763-question Continuing Investigation Question Bank, of which the corpus's own Answer Registers classify 519 as RESOLVED (15), PARTIAL (70), OPEN - PRIMARY RECORD (373), or OPEN - ANALYTICAL (61). Mechanically transcribing every one of these as an individual MAYHEM register entry in a single ingestion pass was judged not worth the transcription-error risk it would carry, and not necessary to make the case usable: this case's Evidence Register, Chronology, Contradiction Register and Open Question Register instead promote a curated set of the highest-value confirmed facts, negative-search findings, RESOLVED answer-register items, and messaging contradictions (36 evidence items, 19 chronology entries, 2 contradictions, 16 open questions). The complete corpus is preserved in full at cases/DFAPTI-MNC-2026-00001/preserved/ (EV-0034, EV-0035) specifically so later runs can promote further items from it without re-acquiring the source material.",
+    "supporting_evidence": ["EV-0034", "EV-0035"],
+    "investigator": "mayhem82",
+    "impact": "This case's registers are a first pass, not a complete atomisation of the source corpus. A future run continuing this case should treat the preserved corpus, not just the current register, as the full evidence base to draw further items from - most of the question bank's ~700 remaining items and most of the 230 findings have not yet been individually registered."
+  },
+  {
+    "decision_id": "DEC-0003",
+    "date": "2026-08-17",
+    "reason": "This case is the first new case added to mayhem-investigations since DFAPTI-BB-2026-00001, and required resolving the open data-layer architecture question this repository's own README had deliberately left unanswered. Per DEC-0019 (in DFAPTI-BB-2026-00001's own decision register) and scripts/case-registry.js, this case's evidence data lives at cases/DFAPTI-MNC-2026-00001/data/ - a dedicated per-case directory - rather than at the repository root (which remains DFAPTI-BB-2026-00001's, grandfathered for backward compatibility) or in a separate repository (ruled out by the standing \"mayhem investigations only\" operating constraint).",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Establishes the pattern every future case will follow: cases/<CASE-ID>/data/, registered in scripts/case-registry.js, validated independently by scripts/validate.js."
+  },
+  {
+    "decision_id": "DEC-0004",
+    "date": "2026-08-17",
+    "reason": "Per this investigation's live/frozen-snapshot gating model (established for DFAPTI-BB-2026-00001), only the DFAPTI (evidence) stage is built for this case at creation. DFAPTA, Lattice Atlas, the Temporal Projection Integrity Engine, the Enforcement Notice, and the Advocacy Package are not built and must not be built until the case operator issues an explicit \"freeze evidence register\" command for this case specifically - a freeze command for DFAPTI-BB-2026-00001 does not apply here, and vice versa. The case gate page presents the five downstream stages as locked/pending rather than omitting them, so the six-stage structure stays visible and consistent across cases.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "cases/DFAPTI-MNC-2026-00001/ currently contains only a dfapti/ workspace. No dfapta/, lattice-atlas/, temporal-projection-integrity-engine/, enforcement-notice/, or advocacy-package/ directory exists for this case yet."
+  }
+]

@@ -1154,5 +1154,25 @@
     ],
     "reason": "Recorded DEC-0016 and implemented two of the operator's three requested infrastructure enhancements: a general, case-agnostic MAYHEM specification (SPEC.md) derived from the case-specific spec, and Relationship Map automation (scripts/generate-relationship-map.js generating docs/RELATIONSHIP_MAP.md, kept current by .github/workflows/relationship-map.yml). The third request (GitHub Template Repository) is deliberately not actioned pending operator confirmation, per DEC-0016.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0075",
+    "date": "2026-08-17",
+    "author": "mayhem82",
+    "files_affected": [
+      "scripts/case-registry.js",
+      "scripts/validate.js",
+      "scripts/generate-relationship-map.js",
+      "scripts/resume.js",
+      "scripts/add-source.js",
+      "scripts/log-run.js",
+      "README.md",
+      "index.html",
+      "data/decisions.json",
+      "data/change_log.json",
+      "cases/DFAPTI-MNC-2026-00001/"
+    ],
+    "reason": "Implemented DEC-0019: added the second case, DFAPTI-MNC-2026-00001, with its own cases/DFAPTI-MNC-2026-00001/data/ directory per the resolved per-case data-layer architecture. Added scripts/case-registry.js as the single source of truth for every case's data directory; reworked scripts/validate.js and scripts/generate-relationship-map.js to run independently per registered case; added an optional --case flag to scripts/resume.js, add-source.js, and log-run.js, defaulting to DFAPTI-BB-2026-00001 for backward compatibility.",
+    "validation_completed": true
   }
 ]

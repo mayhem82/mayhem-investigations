@@ -1,0 +1,162 @@
+[
+  {
+    "question_id": "Q-0001",
+    "question": "Does a complete, formal NSW Police evaluation of the six-month Moree PolAir-Remote trial exist, and if so, what does it show?",
+    "why_exists": "The trial was publicly described as six months, with results to be assessed before next steps; the Kemp petition asserts the trial \"has demonstrated\" success, but no complete evaluation report has been publicly located across the external research pass's three research days.",
+    "evidence_creating_question": ["EV-0010", "EV-0012"],
+    "evidence_required_to_resolve": "The complete evaluation report, whether draft, interim or final, including methodology, baseline, comparator, and success/failure/continuation/termination criteria.",
+    "likely_source": "GIPA Application 1 (trial evaluation, business case and decision gates) to NSW Police InfoLink",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0002",
+    "question": "What is the primary source and exact methodology behind the petition's claim of a 50% drop in crime, and does it match a documented pre-existing trend rather than a drone-attributable effect?",
+    "why_exists": "The closest reproduced figure (a ~53% Moree youth police-legal-action decline since 2022) predates the January 2026 drone trial by years and reflects a wider regional trend, not a Moree-specific drone effect; no NSW Police or BOCSAR source located makes the causal attribution the petition implies.",
+    "evidence_creating_question": ["EV-0002", "EV-0018", "EV-0019", "EV-0020"],
+    "evidence_required_to_resolve": "A primary dataset or briefing defining the offence set, geography, age group, baseline and comparison dates behind the petition's 50% figure, and any document causally attributing it to PolAir-Remote.",
+    "likely_source": "GIPA Application 6 (expansion briefing provenance) or a still-unlocated NSW Police/BOCSAR primary dataset",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0003",
+    "question": "What is the primary source for the petition's claims of 100+ arrests, 70+ stolen vehicles recovered, and six missing people located, and what definition of drone \"assistance\" underlies each aggregate?",
+    "why_exists": "NSW Police operational releases document individual incidents in which PolAir-Remote assisted, but no primary published dataset reproduces any of the three aggregate figures, and \"assisted\" is undefined (direct detection vs. tracking vs. mere presence during a multi-unit operation).",
+    "evidence_creating_question": ["EV-0002"],
+    "evidence_required_to_resolve": "Incident-level datasets or a briefing defining drone contribution for each aggregate claim.",
+    "likely_source": "GIPA Application 6, or GIPA Application 3 (de-identified mission-level data)",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0004",
+    "question": "What is the complete, itemised cost of the Moree trial, and what cost model underlies the petition's claim that PolAir-Remote costs \"a fraction of the cost of a police helicopter\"?",
+    "why_exists": "A NSW Parliament answer of 30 July 2026 states the total Moree trial cost had not yet been finalised, twelve days before the petition's public push; no drone-system numerator or defined helicopter comparator is publicly available.",
+    "evidence_creating_question": ["EV-0002", "EV-0012"],
+    "evidence_required_to_resolve": "The finalised trial expenditure record (capital, staffing, ROC, communications, maintenance, data infrastructure) and a defined helicopter cost comparator.",
+    "likely_source": "GIPA Application 4 (procurement, Aviation Command review, feasibility and cost)",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0005",
+    "question": "What is the current, controlling NSW Police operational policy governing PolAir-Remote/RPAS use - launch authority, proactive-patrol rules, recording, retention, and mission classification?",
+    "why_exists": "NSW Police has told Parliament that RPAS use must comply with its Operator Certificate and relevant internal policies, but the current public policy index does not expose any policy named for RPAS, PolAir-Remote or facial recognition.",
+    "evidence_creating_question": ["EV-0021", "EV-0024"],
+    "evidence_required_to_resolve": "The controlling RPAS/PolAir-Remote operational policy document and releasable Standard Operating Procedures.",
+    "likely_source": "GIPA Application 2 (operational governance, privacy, AI, cyber and data architecture)",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0006",
+    "question": "Can PolAir-Remote imagery be, or has it ever been, submitted to facial-recognition or biometric-matching systems, live or retrospectively?",
+    "why_exists": "No evidence establishes onboard/live facial recognition in the Moree workflow, but NSW does have statutory facial-biometric matching infrastructure available to authorised agencies (Road Transport Act 2013 s 271A) and the correct control question is system linkage (collection -> retention -> face extraction -> external matching), not just onboard capability.",
+    "evidence_creating_question": ["EV-0022", "EV-0023"],
+    "evidence_required_to_resolve": "The system/data-flow architecture and any AI Assessment Framework determination for PolAir-Remote, including whether imagery is ever submitted to biometric matching.",
+    "likely_source": "GIPA Application 2",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0007",
+    "question": "What deployment architecture (number and location of docks/aircraft) would a genuine \"Mid North Coast\" rollout actually require, and does the petition distinguish a Kempsey-only installation from a distributed regional network?",
+    "why_exists": "The Mid North Coast Police District spans multiple widely-separated communities and Kemp's own Oxley electorate covers 9,325.32 square kilometres; a single docked-drone installation has finite operational radius and is not equivalent to coverage of \"the Mid North Coast\" as the petition's wording requests, but the petition itself does not state the scale it is asking for.",
+    "evidence_creating_question": ["EV-0036"],
+    "evidence_required_to_resolve": "A regional needs, coverage and engineering assessment defining dock/aircraft numbers, locations, and response-time targets.",
+    "likely_source": "GIPA Application 4",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0008",
+    "question": "What does the complete 11 August 2026 Macleay Argus article say, and does its \"I don't sleep at night\" headline quote represent support for drone deployment specifically, or a different person/context than the 2024 Gail Cheers evidence?",
+    "why_exists": "Only the headline, byline and update date were available to the research this case was ingested from; the article is paywalled. The identical phrase is independently documented in 2024 evidence from a person whose recorded policy emphasis was early intervention, not drones - attributing 2026 drone support to the same quote without the full article risks misreading a victim's fear of crime as endorsement of a specific technology.",
+    "evidence_creating_question": ["EV-0001", "EV-0003", "EV-0029"],
+    "evidence_required_to_resolve": "The full article text, obtained from the publisher, an archive, or a library subscription route (not a NSW Police record).",
+    "likely_source": "Publisher/archive route - explicitly excluded from the GIPA pack because it is a media record, not a NSW Police record",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0009",
+    "question": "Does the Kemp petition have, or is it intended to acquire, any formal NSW Parliament petition status, or does it remain solely an electorate-office Mailchimp campaign?",
+    "why_exists": "Targeted searches of NSW Parliament's tabled-petitions register did not locate a matching record; the identified route is the externally-hosted Mailchimp petition linked from Kemp's own electorate website.",
+    "evidence_creating_question": ["EV-0017", "EV-0028"],
+    "evidence_required_to_resolve": "Confirmation of whether/when the signature count is converted into a formally tabled NSW Parliament petition.",
+    "likely_source": "NSW Parliament Legislative Assembly petitions register (ongoing monitoring, not a single acquisition)",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0010",
+    "question": "How should the reactive/incident-response framing (\"not surveillance\") be reconciled with the proactive and covert flying described at trial commencement?",
+    "why_exists": "This is CTR-0001: two NSW Police public statements describe materially different operating modes for the same program, with different governance implications for a Mid North Coast rollout.",
+    "evidence_creating_question": ["EV-0006", "EV-0007"],
+    "evidence_required_to_resolve": "The controlling operational policy's mission classification definitions.",
+    "likely_source": "GIPA Application 2",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0011",
+    "question": "Has NSW Police completed a DJI-specific cyber-security, data-sovereignty or foreign-control risk assessment for the Moree PolAir-Remote configuration?",
+    "why_exists": "The Moree trial uses DJI Matrice 4TD-class equipment; Commonwealth bodies have previously restricted DJI fleets in some security/law-enforcement contexts, and the June 2026 statewide RPAS EOI explicitly includes supply-chain considerations - but no NSW Police-specific DJI risk assessment has been located.",
+    "evidence_creating_question": ["EV-0032"],
+    "evidence_required_to_resolve": "The cyber-security risk assessment/accreditation and supply-chain/vendor-risk assessment specific to the Moree configuration.",
+    "likely_source": "GIPA Application 2",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0012",
+    "question": "Does a Privacy Impact Assessment exist for Moree PolAir-Remote, and if so, what did it recommend?",
+    "why_exists": "General NSW Police privacy material (the Privacy Management Plan) exists, but no Moree/PolAir-specific Privacy Impact Assessment has been located, which is the same public-auditability gap pattern as the missing controlling operational policy.",
+    "evidence_creating_question": ["EV-0021"],
+    "evidence_required_to_resolve": "The Privacy Impact Assessment or privacy risk assessment for Moree PolAir-Remote, including recommendations and management response.",
+    "likely_source": "GIPA Application 2",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0013",
+    "question": "What was the outcome of EOI YR-2026-0058 - was a supplier selected, and on what terms?",
+    "why_exists": "The EOI closed 30 June 2026 with an estimated decision date of 20 July 2026, but as at the most recent check (16 August 2026) the listing still showed no posted notices. Absence of disclosure is not itself evidence no supplier was selected.",
+    "evidence_creating_question": ["EV-0013", "EV-0014"],
+    "evidence_required_to_resolve": "The EOI outcome/decision record, any resulting contract, and (for qualifying contract values) the statutory procurement disclosure record once one is published.",
+    "likely_source": "GIPA Application 4, and ongoing monitoring of NSW procurement contract disclosure",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0014",
+    "question": "Has any independent oversight body (LECC, NSW IPC, NSW Ombudsman, NSW Audit Office) examined PolAir-Remote, and how would a resident who suspects they were observed actually discover and complain about a specific flight?",
+    "why_exists": "LECC has clear statutory jurisdiction to receive a systemic NSW Police complaint (LECC Act 2016 s 35), but no PolAir-Remote-specific published oversight finding has been located from any of the four bodies, and the practical accountability problem is that a resident may not know a drone observed their property at all.",
+    "evidence_creating_question": ["EV-0026", "EV-0027"],
+    "evidence_required_to_resolve": "Any published oversight finding, plus a documented practical route for a resident to discover whether a specific flight occurred over their property (flight logs, notification, or public flight-area disclosure).",
+    "likely_source": "LECC complaint/information-report process; NSW Police InfoLink under GIPA",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0015",
+    "question": "Does consultation genuinely precede and shape deployment decisions, or does it occur only after material technical configuration is already fixed?",
+    "why_exists": "The Moree Have Your Say consultation closed in June 2026, five months after the system was already operational since January 2026 - the public consultation this case located occurred after operations had commenced, which is a material sequencing concern for any Mid North Coast rollout.",
+    "evidence_creating_question": ["EV-0009"],
+    "evidence_required_to_resolve": "Documentation of whether/how a Mid North Coast rollout's operating rules, privacy safeguards and success criteria would be set before deployment, and whether local communities (including Aboriginal community-controlled organisations) have a genuine ability to say no.",
+    "likely_source": "GIPA Application 5 (consultation, shared governance and Closing the Gap) and GIPA Application 6",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0016",
+    "question": "Is a de-identified, mission-level dataset available showing flight-by-flight outcomes (arrests, vehicle recoveries, missing-person finds, false/aborted deployments), so that the petition's aggregate claims can be independently reconstructed rather than taken on trust?",
+    "why_exists": "Every one of the petition's numeric claims (Q-0002, Q-0003, Q-0004) ultimately depends on incident-level data that has not been publicly disclosed in any form located by this case.",
+    "evidence_creating_question": ["EV-0002", "EV-0012"],
+    "evidence_required_to_resolve": "A de-identified mission-level export with mission classification, outcome category, and drone-contribution field, or the underlying reports/exports NSW Police itself uses to measure PolAir-Remote outcomes.",
+    "likely_source": "GIPA Application 3 (de-identified mission, outcome, reliability and complaints data)",
+    "status": "Open",
+    "resolution_evidence": []
+  }
+]

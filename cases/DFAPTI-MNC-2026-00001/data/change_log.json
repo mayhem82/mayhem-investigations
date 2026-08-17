@@ -1,0 +1,28 @@
+[
+  {
+    "change_id": "CHG-0001",
+    "date": "2026-08-17",
+    "author": "mayhem82",
+    "files_affected": [
+      "cases/DFAPTI-MNC-2026-00001/data/case.json",
+      "cases/DFAPTI-MNC-2026-00001/data/evidence_register.json",
+      "cases/DFAPTI-MNC-2026-00001/data/source_register.json",
+      "cases/DFAPTI-MNC-2026-00001/data/chronology.json",
+      "cases/DFAPTI-MNC-2026-00001/data/contradictions.json",
+      "cases/DFAPTI-MNC-2026-00001/data/open_questions.json",
+      "cases/DFAPTI-MNC-2026-00001/data/threads.json",
+      "cases/DFAPTI-MNC-2026-00001/data/automation_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/search_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/decisions.json",
+      "cases/DFAPTI-MNC-2026-00001/data/change_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/investigation_notes.json",
+      "cases/DFAPTI-MNC-2026-00001/preserved/",
+      "cases/DFAPTI-MNC-2026-00001/dfapti/index.html",
+      "cases/DFAPTI-MNC-2026-00001/dfapti/app.js",
+      "cases/DFAPTI-MNC-2026-00001/index.html",
+      "index.html"
+    ],
+    "reason": "Case creation. Scaffolded the full DFAPTI-MNC-2026-00001 data layer and DFAPTI workspace, ingesting RUN-0001's curated selection from the external ChatGPT deep-research corpus per DEC-0001 through DEC-0004. Cloned DFAPTI-BB-2026-00001's dashboard shell mechanism exactly (header, drawer, workspace sections, app.js render logic) rather than building a new page style, consistent with this repository's established rule that every DFAPTI workspace shares one real mechanism.",
+    "validation_completed": true
+  }
+]

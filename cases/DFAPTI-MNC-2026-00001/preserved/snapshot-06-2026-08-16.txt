@@ -1,0 +1,290 @@
+
+MAYHEM — MNC POLAIR-REMOTE
+DEEP RESEARCH SNAPSHOT 6
+Economic system effect • incapacitation/displacement • deterrence signalling • political feedback and crime perception
+Snapshot date
+16 August 2026
+Status
+FROZEN DELTA SNAPSHOT — investigation remains open
+Exact predecessor
+MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-5-2026-08-16.docx
+Finding range
+F-091 through F-130
+Next open gate
+Policy-feedback / technology-ratchet and evidentiary gating
+Chain rule. This document is a delta snapshot. It does not restate F-001–F-090. It depends on the exact predecessor named above, which in turn preserves the earlier snapshot chain. Corrections remain corrections; later findings do not silently overwrite earlier evidentiary states.
+Evidence rule. FACT means directly supported by the identified source. INFERENCE means a reasoned conclusion from established facts. UNKNOWN means the evidence required to determine the proposition has not been located. No causal attribution is treated as established merely because two events occur in sequence.
+
+A. ECONOMIC SYSTEM EFFECT — F-091 TO F-100
+FINDING 91 — Youth detention is approximately seven times the daily cost of community supervision
+Classification: FACT
+The NSW Audit Office reports 2024–25 costs of $2,573.26 per young person per day in detention and $367.68 per day for community-based supervision. The ratio is approximately 7:1. Annualised, the published unit costs are about $939,883 for a detention-place year and $134,295 for a year of community supervision.
+This does not establish that community supervision is suitable for every young person. It establishes the scale of the economic consequence when bail/remand decisions move a person from community supervision into detention.
+Source: NSW Audit Office — Support for First Nations peoples in custody and post-release to reduce reoffending <https://www.audit.nsw.gov.au/our-work/reports/support-for-first-nations-peoples-in-custody-and-post-release-to-reduce-reoffending> 
+
+FINDING 92 — Short remand episodes are economically large
+Classification: FACT + CALCULATION
+The Audit Office found that First Nations young people remanded and later discharged for specified non-sentenced outcomes spent an average 11 days and a median one day on remand. It reported 10,928 of 11,739 First Nations youth remand entries between January 2019 and December 2025 were later discharged for one of the listed outcomes.
+At the published detention unit cost, an illustrative 11-day detention episode is about $28,306. Eleven days of community supervision is about $4,044, a difference of about $24,261 if community supervision were legally and practically available as the alternative. The comparison is illustrative, not a finding that individual remand decisions were unjustified.
+Source: NSW Audit Office — Support for First Nations peoples in custody and post-release to reduce reoffending <https://www.audit.nsw.gov.au/our-work/reports/support-for-first-nations-peoples-in-custody-and-post-release-to-reduce-reoffending> 
+
+FINDING 93 — The Kempsey community-program numbers are small relative to detention expenditure
+Classification: FACT + CALCULATION
+DCJ disclosed a $934,725 five-year Kempsey Casework Support Program contract with Strong Spirit Services, including practical support for young people at risk of criminal-justice involvement and increased Aboriginal community-controlled delivery.
+At the published detention unit cost, that entire five-year contract is numerically equivalent to approximately 363 detention days—almost one detention-place year. This is a scale comparison, not a claim that the services are interchangeable.
+Source: Buy NSW — Kempsey Casework Support Program contract <https://buy.nsw.gov.au/notices/09C77B2A-D713-A3F7-40286B5820430435> 
+Source: NSW Audit Office — youth detention unit cost <https://www.audit.nsw.gov.au/our-work/reports/support-for-first-nations-peoples-in-custody-and-post-release-to-reduce-reoffending> 
+
+FINDING 94 — Kempsey’s current targeted investment equals only about four detention-place years
+Classification: FACT + CALCULATION
+The NSW Government allocated $3.8 million from the current regional youth-crime package to Kempsey for bail support, prevention, intervention and locally designed responses.
+At $2,573.26 per detention day, $3.8 million is equivalent to about 1,477 detention days, just over four detention-place years. The comparison demonstrates the scale of detention expenditure; it does not treat community investment and detention as substitute products.
+Source: NSW Government — Kempsey place based response <https://www.nsw.gov.au/departments-and-agencies/premiers-department/community-engagement/nswgovernment-place-based-responses/kempsey-place-based-response> 
+Source: NSW Audit Office — youth detention unit cost <https://www.audit.nsw.gov.au/our-work/reports/support-for-first-nations-peoples-in-custody-and-post-release-to-reduce-reoffending> 
+
+FINDING 95 — NSW has already spent heavily trying to prevent remand caused by unsuitable environments
+Classification: FACT + INFERENCE
+The Moree response included an $8.75 million bail accommodation and support service for young people, alongside legal/court and after-hours supports. This recognises a third pathway between unsupported release and detention: supervised accommodation plus structured support.
+At the published detention unit cost, $8.75 million is numerically equivalent to approximately 3,400 detention days, or 9.3 detention-place years. The policy question is therefore not simply “detain or release,” but which intervention produces the greatest verified safety yield for a particular cohort.
+Source: NSW Parliament — Moree youth crime package / bail accommodation <https://www.parliament.nsw.gov.au/lc/papers/Pages/qanda-tracking-details.aspx?pk=99060> 
+Source: NSW Audit Office — youth detention unit cost <https://www.audit.nsw.gov.au/our-work/reports/support-for-first-nations-peoples-in-custody-and-post-release-to-reduce-reoffending> 
+
+FINDING 96 — The drone hardware benchmark is economically small compared with youth detention
+Classification: FACT + CALCULATION
+The NSW DPIRD AgTech catalogue lists a DJI Dock 3 with Matrice 4TD package at $31,308. That is a commercial hardware benchmark only; it is not the total NSW Police cost for Moree.
+At the NSW youth-detention unit cost, $31,308 is equivalent to roughly 12.2 detention days. The Police Minister stated on 30 July 2026 that the total cost of the Moree trial had not yet been finalised, confirming that hardware cost cannot be treated as total system cost.
+Source: NSW DPIRD AgTech catalogue — DJI Dock 3 / Matrice 4TD <https://www.agtech.dpi.nsw.gov.au/products/dji-dock-3-inc-drone-thermal-camera-rgb-camera> 
+Source: NSW Parliament — Moree drone trial cost answer, 30 July 2026 <https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=108763> 
+
+FINDING 97 — A drone-assisted arrest begins a downstream expenditure chain
+Classification: FACT + INFERENCE
+An arrest can trigger police processing, Children’s Court activity, legal representation, bail determination, supervision or detention, and later case work. Productivity Commission court data and Legal Aid service volumes establish that these downstream systems carry material public cost.
+Accordingly, an aggregate “100+ arrests” figure cannot serve as an efficiency metric unless the downstream justice-system consequences are included or explicitly excluded from the claimed efficiency measure.
+Source: Productivity Commission — Report on Government Services, Courts <https://www.pc.gov.au/ongoing/report-on-government-services/justice/courts/> 
+Source: Legal Aid NSW — Annual Report 2024–25 <https://www.legalaid.nsw.gov.au/about-us/annual-reports/annual-report-2024-25> 
+
+FINDING 98 — Diversion can be cheaper in some contexts, but “diversion always works” is not supported
+Classification: FACT
+A BOCSAR cost-effectiveness study found Youth Justice Conferencing about 18% less costly overall than comparable Children’s Court processing, after accounting for police, Legal Aid, court and order-administration costs. The associated reoffending analysis did not find a statistically significant reoffending advantage for conferencing.
+More recent BOCSAR evaluations of Youth Action Meetings and Youth on Track likewise do not support a blanket proposition that diversion invariably reduces proven offending. The correct economic question is comparative yield for the specific target population, not ideology by intervention type.
+Source: BOCSAR — Youth Justice Conferencing versus Children’s Court: cost effectiveness <https://dcj.nsw.gov.au/content/dcj/bocsar/bocsar-home/research-evaluations/2012/cjb164-youth-justice-conferencing-versus-the-childrens-court-a-comparison-of-cost-effectiveness.html> 
+Source: BOCSAR — Youth Justice Conferencing versus Children’s Court: reoffending <https://dcj.nsw.gov.au/content/dcj/bocsar/bocsar-home/research-evaluations/2012/cjb160-youth-justice-conferences-versus-childrens-court-a-comparison-of-re-offending.html> 
+Source: BOCSAR — Youth Action Meetings evaluation <https://bocsar.nsw.gov.au/research-evaluations/2026/CJB273-Report-NSW-youth-action-meetings-pilot-program.html> 
+Source: BOCSAR — Youth on Track evaluation <https://bocsar.nsw.gov.au/research-evaluations/2022/cjb249-summary-youth-on-track.html> 
+
+FINDING 99 — Enforcement technology can create a downstream-cost multiplier
+Classification: INFERENCE FROM ESTABLISHED SYSTEM COSTS
+PolAir-Remote can increase detection speed and reliability. If that produces more identifications, arrests, bail proceedings and remand, some expenditure saved in search or aviation can be transferred downstream into courts and youth justice.
+The reverse is also possible: faster detection may prevent subsequent burglary, vehicle theft, violence, dangerous pursuits or prolonged searches. Any serious cost-benefit analysis must count both the downstream enforcement cost and the victim/community harm avoided.
+Source: NSW Government — Victims Support Scheme, economic loss <https://www.nsw.gov.au/legal-and-justice/information-for-victims-of-crime/victims-support-scheme/financial-assistance-for-economic-loss> 
+
+FINDING 100 — The correct economic unit is net cost per prevented harm
+Classification: UNKNOWN — NET COST-EFFECTIVENESS
+A defensible economic evaluation should combine PolAir system cost, ground-police response, court/legal expenditure, bail/remand/detention and supervision, then offset conventional aviation displaced, officer search hours saved, property recovery, victim harm avoided, subsequent offences prevented and missing-person/search-and-rescue benefit.
+No public Moree end-of-trial cost-benefit evaluation has been located, and the trial’s total expenditure was still not finalised in the Minister’s 30 July 2026 parliamentary answer. “A fraction of helicopter cost” may describe one input comparison while remaining silent about net system cost.
+Source: NSW Parliament — Moree drone trial cost answer, 30 July 2026 <https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=108763> 
+
+B. INCAPACITATION, DISPLACEMENT AND REPLACEMENT — F-101 TO F-110
+FINDING 101 — Moree’s youth decline cannot be explained simply as “more offenders locked up”
+Classification: FACT + INFERENCE
+BOCSAR data presented in Moree showed police legal actions against youths down 53% since 2022. Over the same recent period, the number of young people taken into custody in Moree fell from 20 in 2024 to 13 in 2025.
+This does not rule out an incapacitation effect from detaining a small number of highly active offenders. It does mean pure incapacitation is not a sufficient explanation for the observed decline.
+Source: ABC — Youth crime falling in Moree as community calls for family-based solutions <https://www.abc.net.au/news/2026-05-03/moree-crime-meetings-reveal-latest-crime-snapshot/106629260> 
+
+FINDING 102 — Moree sits inside a broader regional youth-crime decline
+Classification: FACT + INFERENCE
+BOCSAR reported regional youth court proceedings falling over the two years to March 2026, including a 12.5% fall across Regional NSW. Earlier New England/North West figures also showed substantial decline.
+Moree’s improvement is larger than the broader trend, but the background trend is not flat. Any Moree-specific causal estimate must therefore separate local treatment effects from the regional movement.
+Source: BOCSAR — Young offender trends in NSW, March 2026 <https://bocsar.nsw.gov.au/topic-areas/young-people.html> 
+Source: BOCSAR — NSW Recorded Crime Statistics, December 2025 <https://bocsar.nsw.gov.au/research-evaluations/2026/nsw-recorded-crime-statistics-quarterly-update-dec-2025.html> 
+
+FINDING 103 — PolAir-Remote is chronologically incapable of explaining most of the 53% decline
+Classification: FACT
+The 53% Moree statistic measures change from 2022. PolAir-Remote commenced operating in Moree in January 2026. Most of the measurement window therefore predates the technology.
+The statistic cannot validly function as a six-month drone-treatment effect. A drone-specific evaluation must estimate change after the trial begins against the pre-existing trajectory.
+Source: ABC — Moree crime snapshot, May 2026 <https://www.abc.net.au/news/2026-05-03/moree-crime-meetings-reveal-latest-crime-snapshot/106629260> 
+
+FINDING 104 — Geographic displacement is plausible but not established in Moree
+Classification: UNKNOWN — DISPLACEMENT
+A concentrated policing intervention could theoretically push offending to nearby towns or routes. No NSW Police or BOCSAR analysis located in this investigation demonstrates that Moree’s youth-crime reduction was displaced geographically.
+Police did report Soteria surge activity in Moree and surrounding towns, which shows the enforcement footprint was not confined to one municipal boundary. It does not establish why activity occurred in surrounding towns.
+Source: NSW Parliament — Operation Soteria activity in New England Police District <https://www.parliament.nsw.gov.au/la/papers/Pages/qanda-tracking-details.aspx?pk=106569> 
+
+FINDING 105 — Criminological evidence warns against assuming displacement
+Classification: FACT
+BOCSAR-hosted and international systematic-review evidence on geographically focused policing finds displacement is not inevitable and that diffusion of benefits to nearby locations can occur.
+Those studies do not establish the Moree outcome. They establish the evidentiary rule: local displacement must be measured rather than presumed.
+Source: BOCSAR — Spatial displacement and diffusion of benefits among geographically focused policing initiatives <https://dcj.nsw.gov.au/content/dcj/bocsar/bocsar-home/research-evaluations/2011/ap26-spatial-displacement-and-diffusion-of-benefits-among-geographically-focused-policing-initiatives.html> 
+Source: US OJP — Hot Spots Policing and Crime Reduction systematic review update <https://www.ojp.gov/library/publications/hot-spots-policing-and-crime-reduction-update-ongoing-systematic-review-and> 
+
+FINDING 106 — The Moree evaluation needs a geographic counterfactual
+Classification: ANALYTICAL REQUIREMENT
+A credible evaluation should compare targeted offence trends in Moree with adjacent and catchment communities and distinguish whether offences fall, rise or remain unchanged outside the treatment area.
+Without that structure, a fall inside Moree cannot distinguish genuine suppression or diffusion from geographic displacement.
+
+FINDING 107 — Temporal displacement is equally important and currently unmeasured
+Classification: UNKNOWN — TEMPORAL DISPLACEMENT
+Offending can move in time rather than place. Predictable high-visibility operations, patrol windows or known deployment patterns can alter when offending occurs.
+No evidence has been located establishing temporal adaptation by Moree offenders. The evaluation nevertheless needs before/during/after deployment windows rather than crime counts limited to active operational periods.
+Source: BOCSAR — Spatial displacement and diffusion review <https://dcj.nsw.gov.au/content/dcj/bocsar/bocsar-home/research-evaluations/2011/ap26-spatial-displacement-and-diffusion-of-benefits-among-geographically-focused-policing-initiatives.html> 
+
+FINDING 108 — Offence substitution is another unresolved mechanism
+Classification: FACT + UNKNOWN
+A cohort targeted for break-and-enter and vehicle theft could theoretically shift toward other offence types or conduct less visible to aerial policing. No evidence has been located that this occurred in Moree.
+Moree’s 2025 profile also demonstrates that youth-property-crime improvement does not mean all community harm moved in the same direction: adult violent offending, including domestic-violence-related assault, remained high.
+Source: ABC — Moree crime snapshot, May 2026 <https://www.abc.net.au/news/2026-05-03/moree-crime-meetings-reveal-latest-crime-snapshot/106629260> 
+
+FINDING 109 — Several mechanisms can produce the same headline decline
+Classification: ANALYTICAL SYNTHESIS
+Incapacitation, deterrence, desistance/intervention, displacement/substitution and measurement/detection change can all produce a fall in a headline youth-crime indicator. The public Moree data do not yet separate these mechanisms.
+Because their policy implications differ radically, mechanism identification is required before attributing the decline to tougher bail, Soteria, social intervention or PolAir-Remote.
+
+FINDING 110 — The available evidence gives reason to investigate genuine desistance
+Classification: INFERENCE — ATTRIBUTION UNKNOWN
+Moree’s youth legal actions and local youth custody both fell. At the same time, Moree was subject to Soteria enforcement, Youth Action Meetings, community programs, bail accommodation, place-based intervention and Youth Command prevention deployments.
+The pattern is consistent with—but does not prove—some genuine reduction in active offending or entry into offending. Attribution among the overlapping interventions remains unknown.
+Source: ABC — Moree crime snapshot, May 2026 <https://www.abc.net.au/news/2026-05-03/moree-crime-meetings-reveal-latest-crime-snapshot/106629260> 
+Source: NSW Parliament — Moree / Soteria prevention deployments <https://www.parliament.nsw.gov.au/la/papers/Pages/qanda-tracking-details.aspx?pk=106569> 
+
+C. DETERRENCE SIGNALLING — F-111 TO F-120
+FINDING 111 — NSW evidence supports deterrence without increased arrests
+Classification: FACT + TRANSFER INFERENCE
+A BOCSAR study exploiting an increase in police numbers found a 1% increase in police associated with a 0.8% reduction in theft and a 1.1% reduction in motor-vehicle theft, with no significant increase in arrest rates. BOCSAR interpreted the property-crime reduction as more consistent with deterrence than incapacitation.
+Applied cautiously to PolAir-Remote, this means a successful detection environment could produce fewer offences and fewer arrests. Arrest volume is therefore not a direct measure of deterrence.
+Source: BOCSAR — The effect of police on crime and arrests <https://bocsar.nsw.gov.au/research-evaluations/2019/cjb223-the-effect-of-police-on-crime-and-arrests.html> 
+
+FINDING 112 — Certainty of apprehension generally has stronger deterrence support than severity of punishment
+Classification: FACT + INFERENCE
+BOCSAR and broader deterrence literature place greater weight on the perceived probability of apprehension and conviction than on increasing punishment severity.
+Within Kemp’s three-lever architecture, tougher bail primarily changes post-apprehension consequences, while Soteria and PolAir-Remote more directly alter actual or perceived detection probability. This suggests a stronger theoretical deterrence basis for the detection/presence levers than for sanction severity alone, without establishing Moree-specific causation.
+Source: BOCSAR — Crime deterrence and punishment revisited <https://bocsar.nsw.gov.au/research-evaluations/2019/ap66-crime-deterrence-and-punishment-revisited.html> 
+Source: US NIJ — Five Things About Deterrence <https://nij.ojp.gov/topics/articles/five-things-about-deterrence> 
+
+FINDING 113 — Operation Soteria is explicitly designed as a visible deterrence mechanism
+Classification: FACT
+Soteria uses targeted patrols, high-visibility operations, surge deployments and prevention activity. In Moree, PolAir-Remote has been incorporated into high-visibility surge operations described by NSW Police as focused on preventing and disrupting crime.
+Visibility is therefore part of the operational environment rather than an accidental by-product.
+Source: NSW Parliament — Operation Soteria activity in New England Police District <https://www.parliament.nsw.gov.au/la/papers/Pages/qanda-tracking-details.aspx?pk=106569> 
+Source: NSW Police — Moree high-visibility surge operation using PolAir-Remote <https://www.police.nsw.gov.au/news/news?sq_content_src=%2BdXJsPWh0dHBzJTNBJTJGJTJGZWJpenByZC5wb2xpY2UubnN3Lmdvdi5hdSUyRm1lZGlhJTJGMTIzNjg4Lmh0bWwmYWxsPTE%3D> 
+
+FINDING 114 — A locally known drone capability can deter even when no aircraft is overhead
+Classification: INFERENCE
+Once a repeat-offending cohort knows a drone can launch rapidly, maintain aerial observation and has previously assisted police in locating suspects, perceived escape probability may fall even when the aircraft is docked.
+This is a deterrence hypothesis consistent with established theory. It is not a demonstrated Moree causal effect.
+Source: US NIJ — Five Things About Deterrence <https://nij.ojp.gov/topics/articles/five-things-about-deterrence> 
+
+FINDING 115 — Publicity may form part of the intervention
+Classification: INFERENCE
+PolAir-Remote has been publicly launched, repeatedly reported, incorporated into announced high-visibility operations and linked in police communications to successful suspect location and arrest activity.
+A plausible signalling loop is: technology announced → successful interceptions publicised → perceived detection capability rises → some offending is deterred. If true, publicity is part of the treatment rather than merely external media coverage. Moree-specific causal evidence has not yet been located.
+Source: NSW Police — Moree high-visibility surge operation using PolAir-Remote <https://www.police.nsw.gov.au/news/news?sq_content_src=%2BdXJsPWh0dHBzJTNBJTJGJTJGZWJpenByZC5wb2xpY2UubnN3Lmdvdi5hdSUyRm1lZGlhJTJGMTIzNjg4Lmh0bWwmYWxsPTE%3D> 
+
+FINDING 116 — Targeted offender policing in NSW has previously shown a deterrence-consistent pattern
+Classification: FACT WITH METHODOLOGICAL LIMITATION
+BOCSAR’s evaluation of the Suspect Target Management Plan reported substantial property-offending reductions associated with STMP-II and interpreted the pattern as more likely deterrence than incapacitation, with larger associated reductions among juveniles than adults.
+BOCSAR later stressed methodological limitations and said the estimates should not be interpreted causally. The result therefore supports plausibility of the mechanism, not causal transfer to Soteria or PolAir-Remote.
+Source: BOCSAR — Evaluation of the Suspect Target Management Plan <https://bocsar.nsw.gov.au/content/dcj/bocsar/bocsar-home/research-evaluations/2021/cjb233-an-evaluation-of-the-suspect-target-management-plan.html> 
+Source: BOCSAR — Review of the evaluation of the Suspect Target Management Plan <https://bocsar.nsw.gov.au/research-evaluations/2021/review-of-the-evaluation-of-the-suspect-target-management-plan.html> 
+
+FINDING 117 — Deterrence benefit and unequal justice-system effects can coexist
+Classification: FACT + GOVERNANCE INFERENCE
+The STMP evaluation reported smaller associated offending reductions for Aboriginal people than non-Aboriginal people while the associated increase in imprisonment risk was larger for Aboriginal people. BOCSAR’s subsequent caution against causal interpretation remains controlling.
+The result is therefore a governance warning rather than evidence about PolAir: an intervention can appear crime-reducing overall while different groups experience different justice-system consequences.
+Source: BOCSAR — Evaluation of the Suspect Target Management Plan <https://bocsar.nsw.gov.au/content/dcj/bocsar/bocsar-home/research-evaluations/2021/cjb233-an-evaluation-of-the-suspect-target-management-plan.html> 
+Source: BOCSAR — Review of STMP evaluation <https://bocsar.nsw.gov.au/research-evaluations/2021/review-of-the-evaluation-of-the-suspect-target-management-plan.html> 
+
+FINDING 118 — Successful deterrence can reduce the arrest count
+Classification: INFERENCE GROUNDED IN NSW EVIDENCE
+If PolAir initially raises detection, arrests may rise. If that increased certainty later deters offending, arrests may fall because fewer offences occur. Treating arrest volume as the KPI would therefore risk making successful deterrence appear as declining operational performance.
+BOCSAR’s police-numbers study demonstrates the empirical possibility of property crime falling without arrest rates increasing.
+Source: BOCSAR — The effect of police on crime and arrests <https://bocsar.nsw.gov.au/research-evaluations/2019/cjb223-the-effect-of-police-on-crime-and-arrests.html> 
+
+FINDING 119 — Moree has no published perceived-certainty measure
+Classification: UNKNOWN — DETERRENCE MECHANISM
+No public Moree evaluation located in this investigation measures whether the relevant offending population became more aware of PolAir-Remote or believed its presence increased the probability of apprehension.
+A deterrence evaluation would need anonymous measures of awareness, perceived escape probability, knowledge of night/thermal capability, perceived Soteria detection risk and perceived consequences of reoffending while on bail.
+Source: NSW Have Your Say — Remotely Piloted Aircraft Systems, Moree <https://www.haveyoursay.nsw.gov.au/remotely-piloted-aircraft-systems-moree> 
+
+FINDING 120 — PolAir may have greatest deterrence yield when nobody needs to be arrested
+Classification: ANALYTICAL SYNTHESIS
+A program that materially reduces offending by increasing perceived detection certainty may produce fewer arrests than a program that repeatedly detects the same level of offending.
+Accordingly, “100+ arrests” is an operational-output measure. It cannot by itself identify whether deterrence, detection, incapacitation or repeated system contact is driving the result.
+Source: BOCSAR — The effect of police on crime and arrests <https://bocsar.nsw.gov.au/research-evaluations/2019/cjb223-the-effect-of-police-on-crime-and-arrests.html> 
+
+D. POLITICAL FEEDBACK AND CRIME PERCEPTION — F-121 TO F-130
+FINDING 121 — NSW has a documented perception–trend gap
+Classification: FACT
+BOCSAR’s 2025 public-confidence survey found that half of respondents believed property crime had increased over the previous five years even though recorded property crime had significantly declined. BOCSAR described this perception–reality gap as a recurring finding.
+This establishes that public beliefs about crime can diverge materially from recorded trends. It does not establish that any specific Kempsey resident’s fear is mistaken or that local victimisation is low.
+Source: BOCSAR — Public confidence in the NSW criminal justice system: 2025 update <https://bocsar.nsw.gov.au/research-evaluations/2026/CJB276-Report-Public-confidence-NSWCJS-2025-update.html> 
+Source: BOCSAR media release — public confidence declines, May 2026 <https://bocsar.nsw.gov.au/media/2026/mr-public-confidence-NSWCJS-2025-update-CJB276.html> 
+
+FINDING 122 — The Kempsey fear narrative is grounded in genuine severe victim experiences
+Classification: FACT
+The February 2025 Kempsey community meeting drew nearly 700 residents. Public testimony included repeated home invasions, stolen vehicles, assaults and concern for staff and household safety. Those experiences are direct evidence of serious harm to identified residents.
+Accordingly, a perception–trend gap cannot be used to dismiss the community response as irrational. Individual victim harm and population-level trend direction are different evidentiary layers.
+Source: ABC — Nearly 700 Kempsey residents rally against youth crime <https://www.abc.net.au/news/2025-02-23/kempsey-youth-crime-rally-calls-for-tougher-bail-sentencing-laws/104971194> 
+
+FINDING 123 — Falling crime and persistent insecurity can coexist locally
+Classification: FACT
+In November 2025 ABC reported youth crime rates falling in Moree while community tensions remained high after serious violent incidents. By May 2026 BOCSAR data presented locally showed youth police legal actions down 53% since 2022, while adult violent offending remained stubbornly high.
+This is direct evidence that improvement in one crime component does not necessarily produce a corresponding improvement in lived safety or community tension.
+Source: ABC — Crime rates are down in Moree, but tensions remain high <https://www.abc.net.au/news/2025-11-11/moree-youth-crime-overview-nsw-police-operation/105986420> 
+Source: ABC — Moree crime snapshot, May 2026 <https://www.abc.net.au/news/2026-05-03/moree-crime-meetings-reveal-latest-crime-snapshot/106629260> 
+
+FINDING 124 — Kempsey’s enforcement demand is occurring during a strong Mid North Coast youth decline, but from a still-elevated regional context
+Classification: FACT
+BOCSAR’s March 2026 youth-trends release reports youth court proceedings on the Mid North Coast down 28.2% over the previous two years. The NSW Government nevertheless continues to identify Kempsey as a community with higher-than-average youth-crime rates and has targeted it for place-based funding.
+Therefore “crime is falling” and “Kempsey still has a serious youth-crime problem” can both be true. Trend direction and absolute level must be reported together.
+Source: BOCSAR — Young offender trends in NSW, March 2026 <https://bocsar.nsw.gov.au/topic-areas/young-people.html> 
+Source: NSW Government — $23 million regional youth crime package <https://www.nsw.gov.au/ministerial-releases/nsw-government-invests-23-million-to-tackle-youth-crime-and-build-safer-regional-communities> 
+
+FINDING 125 — High-salience incidents and trend statistics answer different questions
+Classification: FACT + ANALYTICAL RULE
+The Kempsey rally was organised around concrete accounts of serious victimisation and recent high-harm incidents. Such incidents legitimately influence community risk perception and political urgency.
+But an incident example cannot establish the direction of the overall trend. Conversely, an improving trend cannot negate the severity of an individual assault, home invasion or repeated victimisation. Policy communication becomes misleading when either layer is substituted for the other.
+Source: ABC — Kempsey community crime meeting, February 2025 <https://www.abc.net.au/news/2025-02-23/kempsey-youth-crime-rally-calls-for-tougher-bail-sentencing-laws/104971194> 
+
+FINDING 126 — Media and information channels are associated with confidence differences, but causation is not established
+Classification: FACT — ASSOCIATION ONLY
+BOCSAR’s 2025 survey found that obtaining criminal-justice information from government publications, educational sources or newspapers was associated with higher confidence, while talkback radio, social media and word-of-mouth were associated with lower confidence.
+This is an association, not proof that particular media caused lower confidence. It nevertheless establishes that information environment is a relevant variable when analysing political feedback around crime.
+Source: BOCSAR — Public confidence in the NSW criminal justice system: 2025 update <https://bocsar.nsw.gov.au/research-evaluations/2026/CJB276-Report-Public-confidence-NSWCJS-2025-update.html> 
+
+FINDING 127 — NSW public confidence is falling even while some crime indicators improve
+Classification: FACT + INFERENCE
+BOCSAR reported 2025 confidence in the NSW criminal justice system at the lowest levels observed since its survey began, with pronounced declines in confidence in police since 2019. At the same time, BOCSAR’s crime data show substantial long-term property-crime decline and recent regional youth declines.
+The coexistence of falling confidence and improving selected crime indicators demonstrates that institutional confidence is not a simple function of the recorded crime rate.
+Source: BOCSAR — Public confidence in the NSW criminal justice system: 2025 update <https://bocsar.nsw.gov.au/research-evaluations/2026/CJB276-Report-Public-confidence-NSWCJS-2025-update.html> 
+Source: BOCSAR — NSW crime and policing trends <https://bocsar.nsw.gov.au/statistics-dashboards/crime-and-policing.html> 
+Source: BOCSAR — Young offender trends in NSW <https://bocsar.nsw.gov.au/topic-areas/young-people.html> 
+
+FINDING 128 — Kemp has already demanded performance metrics for youth-crime spending
+Classification: FACT + GOVERNANCE INFERENCE
+In November 2025 Michael Kemp asked the Police Minister what performance indicators would be used to measure Kempsey’s share of the $23 million youth-crime package and whether progress reports would be made public. The December answer referred him to the government media release rather than supplying the requested local metrics.
+This establishes that Kemp has himself placed public performance measurement on the political agenda. It does not establish hypocrisy or bad faith. It does create a consistent evidentiary standard that can also be applied to his later drone campaign.
+Source: NSW Parliament — Michael Kemp question on $23 million youth crime prevention package <https://www.parliament.nsw.gov.au/la/papers/pages/qanda-tracking-details.aspx?pk=106168> 
+
+FINDING 129 — The political feedback loop can reward activity metrics even when outcome metrics improve
+Classification: INFERENCE
+A plausible feedback architecture is: severe incident → intense community attention → rally/petition → visible enforcement → publicised arrest or recovery → reinforcement of both the crime-threat narrative and the enforcement-success narrative. Prevention, desistance and offences that never occur are far less visible.
+This mechanism is an inference, not a finding that Kemp, NSW Police or media intentionally manufacture fear. The evidentiary concern is that highly visible activity metrics can dominate public interpretation even when the outcome of interest is fewer offences and fewer repeat offenders.
+Source: ABC — Kempsey rally and victim accounts <https://www.abc.net.au/news/2025-02-23/kempsey-youth-crime-rally-calls-for-tougher-bail-sentencing-laws/104971194> 
+Source: BOCSAR — Public confidence 2025 update <https://bocsar.nsw.gov.au/research-evaluations/2026/CJB276-Report-Public-confidence-NSWCJS-2025-update.html> 
+
+FINDING 130 — Objective harm and perceived safety must be separate evaluation endpoints
+Classification: ANALYTICAL REQUIREMENT / CURRENT GAP
+A credible Kempsey/Moree evaluation should measure recorded offending and victimisation separately from fear of crime, perceived safety, confidence in police, confidence in courts, willingness to report, and community trust. Improvements in one domain cannot be assumed to produce improvements in the other.
+The current public drone case relies heavily on operational outputs and a broad “crime down” claim. No public evaluation located in this investigation integrates objective crime trends with local perceived-safety and confidence measures.
+Source: BOCSAR — Public confidence in the NSW criminal justice system: 2025 update <https://bocsar.nsw.gov.au/research-evaluations/2026/CJB276-Report-Public-confidence-NSWCJS-2025-update.html> 
+Source: BOCSAR — Young offender trends in NSW, March 2026 <https://bocsar.nsw.gov.au/topic-areas/young-people.html> 
+
+E. FROZEN GATE — CURRENT POSITION
+The evidence now rejects a simple equation between perceived insecurity and recorded youth-crime trend. Severe victim harm can remain real and politically salient while selected youth-crime indicators fall sharply.
+Moree demonstrates the problem directly: youth legal actions fell substantially, but adult violence and community tension remained serious. Kempsey sits inside a Mid North Coast youth-proceedings decline while remaining a higher-than-average youth-crime location targeted for intervention.
+BOCSAR’s statewide confidence research establishes a recurring perception–trend gap and shows information channels are associated with different confidence levels. This does not establish local media causation, but it makes crime perception a necessary evaluation variable rather than background noise.
+The operational success narrative around PolAir-Remote remains dominated by visible outputs—arrests, recoveries, launch speed and cost claims—while the strongest outcome variables remain unresolved: net harm prevented, cohort attrition, desistance, displacement, deterrence and public confidence.
+NEXT OPEN GATE
+Policy-feedback / technology-ratchet branch. Test whether procurement, remote-operations infrastructure, sunk costs, vendor ecosystems, operator training and political commitments create pressure to expand PolAir-Remote before a transparent Moree evaluation is published; identify formal decision gates, exit criteria, decommissioning criteria and whether consultation occurs before or after capability lock-in.
+Snapshot scope note. This snapshot freezes F-091–F-130 only. Earlier findings remain controlled by the predecessor chain. It does not mark the investigation complete.
+

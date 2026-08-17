@@ -1,0 +1,910 @@
+[
+  {
+    "evidence_id": "EV-0001",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-11",
+    "source_authority": "The Macleay Argus (Australian Community Media) / Lowen Taylor",
+    "source_title": "‘I don't sleep at night’: community calls for drone surveillance in Kempsey",
+    "source_type": "Media Report",
+    "source_location": "Macleay Argus, updated 11 August 2026 (exact URL not captured by the external research pass; article is paywalled)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "The trigger article for this case: a Macleay Argus report, updated 11 August 2026, headlined with a resident's fear-of-crime quote and reporting community calls for drone surveillance in Kempsey. Only the headline, byline and update date were available to the external research pass this case was ingested from; the full paywalled body has not been obtained by anyone working this case.",
+    "relevant_quotation": "‘I don't sleep at night’: community calls for drone surveillance in Kempsey",
+    "investigation_relevance": "Directly triggered Michael Kemp MP's drone-expansion petition and this whole investigation. Whether the headline quote itself represents support for drone deployment cannot be established until the full article is obtained (Q-0008).",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0017"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0002",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "Unknown",
+    "source_authority": "Michael Kemp MP electorate campaign",
+    "source_title": "\"Bring Police Drones to the Mid North Coast\" petition text",
+    "source_type": "Public Statement",
+    "source_location": "Externally hosted Mailchimp petition, linked from a top-level \"Drone Petition\" item on Michael Kemp MP's official electorate website (exact Mailchimp URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Full petition wording, as supplied verbatim by the case operator to the external research pass: the petition asserts the Moree trial \"has demonstrated\" improved safety with a 50% crime drop, cites 100+ arrests, 70+ stolen vehicles recovered and six missing people located, claims 30-60 second deployment and \"a fraction of the cost of a police helicopter\", and calls on the NSW Government and Police Minister to expand the remote-drone program to the Mid North Coast and prioritise regional communities. It supplies no source citations, baseline dates, metric definitions, methodology, cost calculation or rollout design of its own.",
+    "relevant_quotation": "The six-month trial in Moree has demonstrated how drone technology can support frontline police and improve community safety, with initial reports showing a 50% drop in crime.",
+    "investigation_relevance": "The central public representation this whole case audits. Every numeric claim in it is separately tested in Q-0002 through Q-0004.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0017"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002",
+      "Q-0003",
+      "Q-0004",
+      "Q-0016"
+    ]
+  },
+  {
+    "evidence_id": "EV-0003",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2024-10-29",
+    "source_authority": "ABC News",
+    "source_title": "Regional crime inquiry at Kempsey hears from victims",
+    "source_type": "Media Report",
+    "source_location": "https://www.abc.net.au/news/2024-10-29/regional-crime-inquiry-at-kempsey-hears-from-victims/104528766",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Contemporaneous report of a 29 October 2024 NSW parliamentary regional community-safety inquiry hearing in Kempsey. Records Gail Cheers giving evidence that she and her husband do not sleep at night because of repeated victimisation fears, and recorded emphasis on early intervention, safe accommodation, education, and coordinated work with young people and families - not drone technology.",
+    "relevant_quotation": "she and her husband do not sleep at night",
+    "investigation_relevance": "Establishes that the \"I don't sleep at night\" phrasing used in the 2026 Macleay Argus headline existed in the Kempsey crime record almost two years before the drone petition, attached to a person whose recorded policy emphasis was early intervention rather than surveillance technology.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0001"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0004",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-03-19",
+    "source_authority": "NSW Parliament",
+    "source_title": "Regional and rural community safety inquiry - final report",
+    "source_type": "Government Record",
+    "source_location": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3042",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "The NSW parliamentary inquiry that took evidence in Kempsey on 29 October 2024 tabled its final report on 19 March 2026, roughly a month after PolAir-Remote's formal Moree launch and five months before the Kemp petition.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Establishes the formal parliamentary process running in parallel with, and predating, both the Moree trial and the Kemp petition - relevant political/policy context for the petition's provenance.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0001",
+      "CHR-0010"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0005",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-02-14",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Council urges urgent action amid escalating antisocial behaviour",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Council-urges-urgent-action-amid-escalating-antisocial-behaviour",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Kempsey Shire Council publicly escalates concerns about antisocial behaviour affecting public places, businesses, amenities, services and staff safety, five days before PolAir-Remote's formal Moree launch.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Documents a genuine, independently-sourced local community-safety concern in Kempsey that exists regardless of the drone-expansion question - the underlying problem is real even though the drone-specific evidentiary case for it remains incomplete.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0007"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0006",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-01-08",
+    "source_authority": "Moree Online News",
+    "source_title": "Moree police to trial drones in an Australian-first exercise",
+    "source_type": "Media Report",
+    "source_location": "https://moreeonlinenews.com.au/2026/01/08/moree-police-to-trial-drones-in-an-australian-first-exercise/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Contemporaneous local report of the Moree PolAir-Remote trial's commencement. Describes police flying proactively as well as responding to incidents, substantial planned aerial coverage, and both overt and covert aerial exercises - not only incident-triggered deployment. Also describes intended multi-purpose use beyond crime (search and rescue, motor-vehicle collisions, fires and other emergencies).",
+    "relevant_quotation": null,
+    "investigation_relevance": "Establishes the program's proactive/covert operating mode and multi-purpose scope at commencement, which is in tension with later messaging - see CTR-0001 and CTR-0002.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0005"
+    ],
+    "contradiction_links": [
+      "CTR-0001",
+      "CTR-0002"
+    ],
+    "open_question_links": [
+      "Q-0010"
+    ]
+  },
+  {
+    "evidence_id": "EV-0007",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-02-19",
+    "source_authority": "ABC News",
+    "source_title": "PolAir-Remote formal Moree launch coverage",
+    "source_type": "Media Report",
+    "source_location": "ABC News, 19 February 2026 (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "At PolAir-Remote's formal Moree launch, NSW Police Commissioner Mal Lanyon publicly framed the capability as reactive and explicitly \"not surveillance\".",
+    "relevant_quotation": "not surveillance",
+    "investigation_relevance": "In direct tension with the January 2026 trial-commencement reporting (EV-0006) describing proactive flying and covert exercises as part of the same program - see CTR-0001. Should be tested against the controlling operational policy (Q-0005) rather than resolved rhetorically.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0008"
+    ],
+    "contradiction_links": [
+      "CTR-0001"
+    ],
+    "open_question_links": [
+      "Q-0010"
+    ]
+  },
+  {
+    "evidence_id": "EV-0008",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-03-12",
+    "source_authority": "Guardian Australia",
+    "source_title": "Sydney police drones chase suspects: Moree, New South Wales",
+    "source_type": "Media Report",
+    "source_location": "https://www.theguardian.com/australia-news/2026/mar/12/sydney-police-drones-chase-suspects-moree-new-south-wales-ntwnfb",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Reports NSW Police Minister Yasmin Catley publicly identifying Kempsey as a possible future PolAir-Remote expansion location, and senior police framing the capability as operational response rather than general surveillance.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Establishes that Kempsey expansion was publicly contemplated by government five months before the August 2026 Kemp petition - the petition did not originate the idea, though it may function to generate visible public support for an expansion already under consideration (an inference, not evidence of impropriety).",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0009"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0009",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-06",
+    "source_authority": "NSW Government (Have Your Say)",
+    "source_title": "Remotely Piloted Aircraft Systems - Moree (public consultation)",
+    "source_type": "Government Record",
+    "source_location": "https://www.haveyoursay.nsw.gov.au/remotely-piloted-aircraft-systems-moree",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "The public Have Your Say consultation on Moree's remotely piloted aircraft system closed in June 2026 - five months after the system had already been operational. NSW Police said feedback would inform training, policy and future capability development.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Establishes that material technical configuration was already fixed before the public consultation occurred, not the reverse - relevant to whether a genuine Mid North Coast rollout would involve consultation before deployment.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0012"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0015"
+    ]
+  },
+  {
+    "evidence_id": "EV-0010",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-06-03",
+    "source_authority": "Moree Online News",
+    "source_title": "June 2026 consultation / trial-progress coverage",
+    "source_type": "Media Report",
+    "source_location": "https://moreeonlinenews.com.au/2026/06/05/police-drones-in-moree-residents-invited-to-have-their-say/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Public reporting attributes to the Police Minister a statement that the six-month Moree trial should run its course, with police to assess results before determining next steps. This case has not yet located the exact primary statement/transcript behind this reported line.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Establishes the government's own stated decision sequence (results assessed before next steps) against which the August 2026 petition's \"has demonstrated\" framing can be tested - the petition asserts success ahead of the government's own stated assessment point.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0013"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001"
+    ]
+  },
+  {
+    "evidence_id": "EV-0011",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-06-12",
+    "source_authority": "Moree Online News",
+    "source_title": "Consultation / program-purpose coverage quoting Brendan Moylan",
+    "source_type": "Media Report",
+    "source_location": "https://moreeonlinenews.com.au/2026/06/05/police-drones-in-moree-residents-invited-to-have-their-say/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Brendan Moylan is quoted describing the Moree drones as \"solely used for crime\".",
+    "relevant_quotation": "solely used for crime",
+    "investigation_relevance": "In tension with the January 2026 trial-commencement reporting and other public reporting describing intended and actual multi-purpose use (search and rescue, motor-vehicle collisions, fires) - see CTR-0002. Does not itself establish misuse; shows public descriptions of program scope are not consistently framed.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0014"
+    ],
+    "contradiction_links": [
+      "CTR-0002"
+    ],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0012",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-07-30",
+    "source_authority": "NSW Parliament",
+    "source_title": "Question and answer 108763 - Moree drone trial expenditure",
+    "source_type": "Government Record",
+    "source_location": "https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=108763",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "A formal NSW Parliament answer, dated 30 July 2026, states that the total cost of the Moree PolAir-Remote trial had not yet been finalised - twelve days before the Kemp petition's public push.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Directly undermines the auditability of the petition's \"a fraction of the cost of a police helicopter\" claim, since neither a drone-system numerator nor a defined helicopter comparator was publicly available at the time the petition was being promoted.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0016"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0003",
+      "Q-0004"
+    ]
+  },
+  {
+    "evidence_id": "EV-0013",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-06-02",
+    "source_authority": "NSW Government (Buy NSW / eTendering)",
+    "source_title": "YR-2026-0058 - Remotely Piloted Aircraft Systems Panel (EOI)",
+    "source_type": "Government Record",
+    "source_location": "Buy NSW procurement opportunity YR-2026-0058 (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "NSW Police published a statewide procurement expression of interest for an enterprise-grade Remotely Piloted Aircraft Systems Panel on 2 June 2026, seeking capability across all regions including day/night VLOS and BVLOS operations, EO/IR and specialist payloads, autonomous/drone-in-a-box systems, and future platform/capability evolution.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Establishes that statewide NSW Police RPAS expansion planning was already underway more than two months before the Kemp petition - the petition did not initiate this planning and the future technical configuration under procurement is broader than the exact Moree hardware.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0011"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0013"
+    ]
+  },
+  {
+    "evidence_id": "EV-0014",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-06-30",
+    "source_authority": "NSW Government (Buy NSW / eTendering)",
+    "source_title": "YR-2026-0058 - closure and outstanding award status",
+    "source_type": "Government Record",
+    "source_location": "Buy NSW procurement opportunity YR-2026-0058 (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "EOI YR-2026-0058 closed 30 June 2026 with an estimated decision date of 20 July 2026. As at 16 August 2026 (the date this corpus's most recent check was run) the listing still displayed \"No notices have been posted\" - no award, panel-establishment decision or contract disclosure had appeared.",
+    "relevant_quotation": "No notices have been posted",
+    "investigation_relevance": "The absence of a disclosed award is not itself evidence that no supplier was selected, but it means supplier identity, contract value and scope remain currently unverifiable from the public record - see Q-0013.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0015"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0013"
+    ]
+  },
+  {
+    "evidence_id": "EV-0015",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2025-11-13",
+    "source_authority": "NSW Parliament",
+    "source_title": "Question and answer 6484 - Kempsey youth-crime KPIs and public reporting",
+    "source_type": "Government Record",
+    "source_location": "NSW Parliament Q&A tracking id 6484 (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "On 13 November 2025 Michael Kemp formally asked the Police Minister what metrics or performance indicators would measure Kempsey youth-crime funding, and whether progress reports would be made publicly available.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Establishes Kemp's own parliamentary scrutiny practice on transparency and KPI reporting, predating the drone petition by nine months - used in this case as the accountability benchmark applied back to the petition's own lack of sourcing (F-217 in the external research corpus).",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0004"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0016",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-01-28",
+    "source_authority": "NSW Parliament",
+    "source_title": "Mr Michael Peter Kemp MP - member profile",
+    "source_type": "Government Record",
+    "source_location": "NSW Parliament member profile for Michael Peter Kemp MP (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Since 28 January 2026 Michael Kemp has held the role of Shadow Parliamentary Secretary for the Prevention of Regional Crime.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Relevant political context for the petition's provenance, not evidence of influence over NSW Police procurement or trial evaluation.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0006"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0017",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "Michael Kemp MP (official electorate office)",
+    "source_title": "Electorate website - top-level \"Drone Petition\" link",
+    "source_type": "Public Statement",
+    "source_location": "Michael Kemp MP official electorate website (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Michael Kemp's official electorate website carries a top-level \"Drone Petition\" link to the externally hosted Mailchimp campaign, confirming the petition is promoted as an official electorate-office campaign artifact rather than an independent or informal effort.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Establishes the petition's official provenance, distinct from its formal parliamentary status - see Q-0009.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0017"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0009"
+    ]
+  },
+  {
+    "evidence_id": "EV-0018",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-03",
+    "source_authority": "NSW Bureau of Crime Statistics and Research (BOCSAR)",
+    "source_title": "Young people (topic area) and NSW recorded crime statistics quarterly update, March 2026",
+    "source_type": "Government Record",
+    "source_location": "https://bocsar.nsw.gov.au/topic-areas/young-people.html | https://bocsar.nsw.gov.au/research-evaluations/2026/nsw-recorded-crime-statistics-quarterly-update-mar-2026.html",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "BOCSAR material shows a substantial Moree youth-offending / police-legal-action decline (reported at roughly 53% since 2022) that was already underway well before the January 2026 PolAir-Remote trial commenced, and that a similar decline was occurring across the broader New England/North West region and Regional NSW generally.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The closest verified figure to the petition's \"50% drop in crime\" claim - but it measures youth police legal actions specifically (not total recorded crime), uses a 2022 baseline years before the drone trial, and reflects a regional trend rather than a Moree-specific, drone-attributable effect.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0019",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "NSW Police Force",
+    "source_title": "Negative-search finding: no NSW Police source locating a causal 50%-reduction claim",
+    "source_type": "Government Record",
+    "source_location": "https://www.police.nsw.gov.au/news",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Targeted searching of NSW Police's own public material (news releases, program pages) did not locate any NSW Police statement causally attributing a 50% Moree crime reduction to PolAir-Remote. This is a negative-search finding, not proof that no such statement exists anywhere in NSW Police's non-public holdings.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The causal claim in the petition appears to originate from the petition/campaign itself, not from NSW Police's own public messaging.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0020",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "NSW Bureau of Crime Statistics and Research (BOCSAR)",
+    "source_title": "Negative-search finding: no BOCSAR source attributing the decline to PolAir-Remote",
+    "source_type": "Government Record",
+    "source_location": "https://bocsar.nsw.gov.au/topic-areas/young-people.html",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Targeted searching of BOCSAR's public material did not locate any BOCSAR analysis causally attributing the Moree youth-offending decline to PolAir-Remote specifically.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Reinforces that the 50% causal claim is not corroborated by the state's own crime-statistics research body.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0021",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "NSW Police Force",
+    "source_title": "Negative-search finding: no controlling RPAS/PolAir-Remote policy in the public policy index",
+    "source_type": "Government Record",
+    "source_location": "NSW Police public policy index (exact URL not captured; browsable index at police.nsw.gov.au)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "NSW Police previously told Parliament that RPAS use must comply with its CASA Operator Certificate and relevant NSW Police policies and procedures, but the current public policy/procedure index does not expose a policy named for RPAS, PolAir-Remote or facial recognition. This does not establish that no internal policy exists, only that it is not publicly inspectable through the index checked.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The operational controls for launch authority, proactive patrol, recording, retention, secondary use, analytics and biometric linkage are not publicly traceable - the central reason GIPA Application 2 exists.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0005"
+    ]
+  },
+  {
+    "evidence_id": "EV-0022",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "NSW Police Force / NSW legislation",
+    "source_title": "Negative-search finding: no current facial-recognition use established in the PolAir-Remote workflow",
+    "source_type": "Government Record",
+    "source_location": "https://legislation.nsw.gov.au/ (Road Transport Act 2013, s 271A; exact deep-link not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "No evidence located establishes that Moree PolAir-Remote currently performs onboard or live facial-recognition identification. NSW does have statutory facial-biometric matching infrastructure available to authorised participating agencies under the National Facial Biometric Matching Capability framework (Road Transport Act 2013 s 271A), but whether PolAir-Remote imagery can be, or has been, submitted to it is unresolved.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The correct control question is system linkage (collection -> retention -> face extraction -> external biometric matching), not merely whether facial recognition is embedded in the aircraft itself - see Q-0006.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0006"
+    ]
+  },
+  {
+    "evidence_id": "EV-0023",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "NSW Police Force",
+    "source_title": "Negative-search finding: no evidence PolAir imagery has been submitted for biometric matching",
+    "source_type": "Government Record",
+    "source_location": "https://legislation.nsw.gov.au/ (Road Transport Act 2013, s 271A; exact deep-link not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "No evidence located establishes that any Moree PolAir-Remote imagery has actually been submitted for facial-biometric matching, live or retrospectively.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Function-creep control is absent from the petition's public case: it does not specify limits on facial recognition, biometric matching, automated person identification or retrospective analytics applied to stored imagery.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0006"
+    ]
+  },
+  {
+    "evidence_id": "EV-0024",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-02-19",
+    "source_authority": "NSW Police Force / Moree Online News",
+    "source_title": "Recording and live-streaming model as publicly described",
+    "source_type": "Media Report",
+    "source_location": "https://moreeonlinenews.com.au/2026/01/08/moree-police-to-trial-drones-in-an-australian-first-exercise/ | ABC News, 19 February 2026 (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Public NSW Police launch messaging described flights as not ordinarily recorded unless responding to a crime/operational need, with the public model contemplating live operational viewing without universal recording.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Bears on the retention/secondary-use governance questions in Q-0005 and Q-0006 - recording is not presented as universal default, but the exact rule set is not publicly documented.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0005"
+    ]
+  },
+  {
+    "evidence_id": "EV-0025",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-14",
+    "source_authority": "DJI Enterprise",
+    "source_title": "Dock 3 / Matrice 4-series firmware and capability model",
+    "source_type": "Other Public Record",
+    "source_location": "https://enterprise.dji.com/dock-3",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Manufacturer specifications confirm that firmware/software updates to docked RPAS systems of this class can change features, security posture and operational capability after initial deployment.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Supports the finding that the future technical/capability scope of any Mid North Coast deployment is not fixed at the point of approval - relevant to assessing what is actually being approved if expansion proceeds.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0026",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "NSW Parliamentary Counsel's Office",
+    "source_title": "Law Enforcement Conduct Commission Act 2016 (NSW) - complaint jurisdiction",
+    "source_type": "Legislation",
+    "source_location": "NSW legislation - Law Enforcement Conduct Commission Act 2016 (exact deep-link not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Section 35 of the Law Enforcement Conduct Commission Act 2016 allows any person to complain about NSW Police Force conduct that is or could be agency maladministration. The Act's objects expressly include identifying systemic issues and assessing the effectiveness and appropriateness of police procedures concerning legality and propriety - LECC can examine systemic practice, not only individual officer misconduct.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Establishes a real, currently-available complaint and systemic-review route for PolAir-Remote governance concerns (tasking, discriminatory effect, privacy boundaries, inadequate governance), independent of any individual-officer allegation.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0014"
+    ]
+  },
+  {
+    "evidence_id": "EV-0027",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "LECC / NSW Information and Privacy Commission / NSW Ombudsman / NSW Audit Office",
+    "source_title": "Negative-search finding: no published PolAir-Remote oversight finding located",
+    "source_type": "Government Record",
+    "source_location": "NSW legislation - Law Enforcement Conduct Commission Act 2016 (exact deep-link not captured) | NSW Police InfoLink / GIPA request guidance page (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Targeted searches did not locate any PolAir-Remote-specific published investigation, audit or determination from LECC, the NSW Information and Privacy Commission, NSW Ombudsman, or NSW Audit Office. This does not establish that no complaints, internal inquiries or unpublished oversight activity exist.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The complaint/access routes exist in principle (EV-0026) but no independent oversight body has yet published anything specific to PolAir-Remote - the practical accountability gap is that a resident who does not know a drone observed their property has no obvious way to discover it and lodge a complaint.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0014"
+    ]
+  },
+  {
+    "evidence_id": "EV-0028",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "NSW Parliament",
+    "source_title": "Negative-search finding: no formal NSW Parliament petition record located",
+    "source_type": "Government Record",
+    "source_location": "Externally hosted Mailchimp petition, linked from a top-level \"Drone Petition\" item on Michael Kemp MP's official electorate website (exact Mailchimp URL not captured) | Michael Kemp MP official electorate website (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "Targeted searches of NSW Parliament's petition records did not locate a matching PolAir-Remote / Mid North Coast drone petition. The identified campaign route is the externally-hosted Mailchimp petition linked from Kemp's electorate site. This does not prevent the signatures later being converted into a formal tabled petition.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The petition currently carries no formal parliamentary status of its own - it is an electorate-office campaign artifact, not (yet) a tabled parliamentary petition.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0009"
+    ]
+  },
+  {
+    "evidence_id": "EV-0029",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2024-10-29",
+    "source_authority": "ABC News",
+    "source_title": "Headline-phrase provenance finding",
+    "source_type": "Media Report",
+    "source_location": "https://www.abc.net.au/news/2024-10-29/regional-crime-inquiry-at-kempsey-hears-from-victims/104528766",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "The 2026 Macleay Argus headline phrase (\"I don't sleep at night\") is attributable, in its earlier documented use, to Gail Cheers' 2024 evidence at the Kempsey parliamentary inquiry - not to any newly-identified 2026 drone-specific source. Whether the 2026 article is quoting Cheers again, a new interview, or another person using similar words remains unresolved pending the full article (Q-0008).",
+    "relevant_quotation": null,
+    "investigation_relevance": "A victim's fear of crime and endorsement of a particular surveillance technology are separate propositions; until the full 2026 article is obtained, it is unsafe to infer that the headline quotation represents support for the drone proposal.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0001",
+      "CHR-0017"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0030",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-06-02",
+    "source_authority": "NSW Government (Buy NSW / eTendering)",
+    "source_title": "Statewide expansion planning predates the petition",
+    "source_type": "Government Record",
+    "source_location": "Buy NSW procurement opportunity YR-2026-0058 (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "EOI YR-2026-0058's 2 June 2026 publication date, more than two months before the 11 August 2026 Kemp petition report, establishes that statewide NSW Police RPAS expansion planning predates the petition.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The petition can at most influence priority, location, pace or political support for a rollout NSW Police was already planning - it did not initiate that planning.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [
+      "EV-0013"
+    ],
+    "chronology_links": [
+      "CHR-0011"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0031",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-06-02",
+    "source_authority": "NSW Government (Buy NSW / eTendering)",
+    "source_title": "Future capability scope not frozen",
+    "source_type": "Government Record",
+    "source_location": "Buy NSW procurement opportunity YR-2026-0058 (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "EOI YR-2026-0058 expressly contemplates future expansion and evolution of platforms and capability, including specialist payloads and autonomous/drone-in-a-box systems, beyond the exact Moree hardware.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The program a Mid North Coast expansion would actually connect to is broader and less technically fixed than the petition's wording indicates to signatories.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [
+      "EV-0013"
+    ],
+    "chronology_links": [
+      "CHR-0011"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0032",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-06-02",
+    "source_authority": "NSW Government / Commonwealth of Australia",
+    "source_title": "Supply-chain / DJI vendor-risk consideration",
+    "source_type": "Government Record",
+    "source_location": "Buy NSW procurement opportunity YR-2026-0058 (exact URL not captured) | Commonwealth parliamentary material referencing DJI restrictions in Australian Border Force and Defence contexts (exact citation not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "The Moree trial uses DJI Matrice 4TD-class equipment. Commonwealth parliamentary material records earlier restriction/grounding of DJI fleets by some Commonwealth security/law-enforcement bodies (Australian Border Force and Defence contexts). No evidence located establishes DJI is prohibited for NSW Police, but the June 2026 RPAS EOI explicitly includes supply-chain considerations. Whether NSW Police has completed a DJI-specific cyber, data-sovereignty or foreign-control risk assessment is unknown.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The future statewide architecture cannot be audited from aircraft specifications or public-relations material alone - see Q-0011.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [
+      "EV-0013"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0011"
+    ]
+  },
+  {
+    "evidence_id": "EV-0033",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-14",
+    "source_authority": "Justice and Equity Centre",
+    "source_title": "Submission to NSW Police about the police drone pilot in Moree",
+    "source_type": "Community Submission",
+    "source_location": "https://jec.org.au/publication/submission-to-nsw-police-about-the-police-drone-pilot-in-moree/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "A civil-liberties advocacy submission to NSW Police raising privacy, policy, consultation and safeguards questions about the Moree PolAir-Remote pilot.",
+    "relevant_quotation": null,
+    "investigation_relevance": "An independent civil-society source raising governance concerns that substantially overlap with this case's own open questions - recorded here as an advocacy position, not as proof of misuse.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0034",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "mayhem82 (case operator, external ChatGPT deep-research session)",
+    "source_title": "Primary Record Acquisition Pack - six segmented GIPA-ready applications",
+    "source_type": "Other Public Record",
+    "source_location": "cases/DFAPTI-MNC-2026-00001/preserved/gipa-primary-record-acquisition-pack-v1_0.txt",
+    "preserved_file_reference": "cases/DFAPTI-MNC-2026-00001/preserved/gipa-primary-record-acquisition-pack-v1_0.txt",
+    "document_hash": null,
+    "hash_exception_reason": "Preserved as a plain-text extraction from the operator-supplied .docx; a document hash of the original .docx was not computed during ingestion.",
+    "evidence_description": "Six GIPA-ready applications drafted against NSW Police InfoLink, segmented by record class to avoid an unreasonable-and-substantial-diversion-of-resources refusal: (1) trial evaluation/business case/decision gates, (2) operational governance/privacy/AI/cyber/data architecture, (3) de-identified mission/outcome/reliability/complaints data, (4) procurement/Aviation Command review/feasibility/cost, (5) consultation/shared governance/Closing the Gap, (6) expansion briefing provenance and genuine ability to say no.",
+    "relevant_quotation": null,
+    "investigation_relevance": "This case's own concrete acquisition plan for closing its highest-value evidence gaps - functionally this case's DFAPTI \"Actions to Take\" content once formally wired into the workspace view.",
+    "classification": "Complete",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0018"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0035",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "mayhem82 (case operator, external ChatGPT deep-research session)",
+    "source_title": "External deep-research corpus: 12 snapshots, question bank, and A-T answer registers",
+    "source_type": "Other Public Record",
+    "source_location": "cases/DFAPTI-MNC-2026-00001/preserved/",
+    "preserved_file_reference": "cases/DFAPTI-MNC-2026-00001/preserved/",
+    "document_hash": null,
+    "hash_exception_reason": "A directory of multiple preserved plain-text extractions from operator-supplied .docx files; individual per-file hashes were not computed during this ingestion pass.",
+    "evidence_description": "The full external research corpus this case was ingested from: 11 numbered Deep Research Snapshots (an unnumbered first snapshot plus Snapshots 2 through 12, cumulative through Snapshot 6 and delta-only from Snapshot 8 onward; Snapshot 7 was never supplied to this repository and is a known gap), a 763-question Continuing Investigation Question Bank (sections A-AC), two Answer Registers (A-K and L-T, RUN 001) classifying 519 of those questions as RESOLVED / PARTIAL / OPEN-PRIMARY-RECORD / OPEN-ANALYTICAL, a GIPA Primary Record Acquisition Pack (EV-0034), and an AE Primary Record Acquisition Register cross-referencing each Section AE question to a public-record acquisition status and route.",
+    "relevant_quotation": null,
+    "investigation_relevance": "This is the entire evidentiary and analytical basis this case was built from. It was produced by a separate AI system (ChatGPT, Deep Research mode) directed by the case operator, not by this repository's own live collection process, and none of it has yet been independently re-verified by this investigation - see DEC-0001. Only the highest-value facts, findings and gaps from this corpus have so far been promoted into this register (EV-0001 through EV-0033, CTR-0001, CTR-0002, and the Open Question Register); the great majority of the corpus's 763 questions and 230 findings remain in this preserved source material, not yet atomised into individual register entries.",
+    "classification": "Secondary Reference",
+    "verification_state": "Unverified",
+    "relationships": [
+      "EV-0034"
+    ],
+    "chronology_links": [
+      "CHR-0018",
+      "CHR-0019"
+    ],
+    "contradiction_links": [],
+    "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0036",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-17",
+    "source_date": "2026-08-16",
+    "source_authority": "NSW Police Force / NSW Parliament",
+    "source_title": "Mid North Coast Police District and Oxley electorate geographic scope",
+    "source_type": "Government Record",
+    "source_location": "https://www.police.nsw.gov.au/about_us/regions_commands_districts/northern_region/mid_north_coast | NSW Parliament member profile for Michael Peter Kemp MP (exact URL not captured)",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "The Mid North Coast Police District includes multiple widely-separated stations and communities (West Kempsey, Bellbrook, Gladstone, South West Rocks, Macksville, Nambucca Heads, Port Macquarie, Wauchope, Laurieton, Bowraville, Comboyne and others); Kemp's own Oxley electorate covers 9,325.32 square kilometres. Kempsey Shire itself is geographically dispersed, with existing council CCTV spread across several distinct localities rather than one compact zone.",
+    "relevant_quotation": null,
+    "investigation_relevance": "A single Moree-style docked-drone installation has finite operational radius, endurance and communications range - it is not equivalent to coverage of \"the Mid North Coast\" as the petition's wording requests. The petition does not state the number of docks, aircraft, base locations or response-time standard it is actually asking for.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0007"
+    ]
+  }
+]

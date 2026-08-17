@@ -1,0 +1,316 @@
+
+Kempsey / Mid North Coast
+Police Drone Expansion
+Deep Research Evidence Snapshot
+Trigger: Macleay Argus report dated 11 August 2026 and Michael Kemp MP campaign titled “Bring Police Drones to the Mid North Coast”.
+Research date: 14 August 2026.
+Status: OPEN. This document freezes the work completed before the next investigation gate. It does not mark the matter final.
+Method: Evidence-led reconstruction separating FACT, EVIDENCE, INFERENCE, UNKNOWN and unresolved verification targets. Promotional or political claims are not treated as established merely because they are published.
+SNAPSHOT CONTROL: No further analysis has been added beyond the state reached in the conversation before this DOCX was requested.
+EXECUTIVE SNAPSHOT
+Current position. PolAir-Remote has demonstrated real tactical policing utility in Moree, including rapid aerial situational awareness and documented assistance in locating suspects. The public case for expanding the program to the Mid North Coast is nevertheless evidentially incomplete. The petition combines tactical successes, aggregate crime claims, cost claims and a regional rollout request without publishing the underlying trial evaluation, methodology, regional deployment architecture or full cost model.
+VERIFIED: Michael Kemp MP is promoting a “Drone Petition” through his electorate website. The petition calls for expansion of the NSW Police remote-drone program to the Mid North Coast and prioritisation of regional communities experiencing ongoing crime challenges.
+VERIFIED: The Moree PolAir-Remote program is a genuine NSW Police capability. It began in January 2026 and was formally launched in February 2026.
+VERIFIED: NSW Police operational releases show drones can materially assist individual investigations and arrests.
+NOT ESTABLISHED: That PolAir-Remote caused a 50% reduction in Moree crime.
+NOT YET REPRODUCED: The petition's aggregate claims of more than 100 arrests, more than 70 stolen vehicles recovered and six missing people located.
+UNKNOWN: The publicly auditable total cost of the Moree trial and the complete cost of a Mid North Coast rollout.
+UNKNOWN: The number and location of drone docks required to provide the regional capability the petition seeks.
+MISSING PRIMARY RECORD: The promised end-of-trial evaluation or results report that would separate pre-existing crime trends and other interventions from any effect attributable to PolAir-Remote.
+1. PRIMARY PETITION TEXT
+Source supplied directly by the user. The wording below is preserved because it is the central public representation being audited.
+Bring Police Drones to the Mid North Coast
+
+The six-month trial in Moree has demonstrated how drone technology can support frontline police and improve community safety, with initial reports showing a 50% drop in crime. During the trial, the drones have assisted police with more than 100 arrests, the recovery of over 70 stolen vehicles and the location of six missing people.
+
+The drones can be deployed within 30 to 60 seconds of an incident, provide real-time aerial intelligence to officers on the ground and operate at a fraction of the cost of a police helicopter.
+
+By signing, you are calling on the NSW Government and the Minister for Police and Counter-terrorism to:
+
+Expand the NSW Police remote drone program to the Mid North Coast.
+Prioritise regional communities experiencing ongoing crime challenges when rolling out future drone capability.
+Petition classification
+FACT: The petition advocates rollout. It does not merely request that government investigate the technology.
+FACT: The immediate requested geographic scope is the “Mid North Coast”, not only Kempsey township.
+FACT: The petition presents numerical claims as evidence that the Moree trial has demonstrated success.
+EVIDENCE GAP: The petition itself supplies no source citations, baseline dates, metric definitions, methodology, cost calculation or rollout design.
+2. RECONSTRUCTED CHRONOLOGY
+29 October 2024 — NSW parliamentary regional community-safety inquiry holds a public hearing in Kempsey. Local witnesses describe repeated victimisation and severe fear. Gail Cheers is reported saying she and her husband do not sleep at night. Evidence at the hearing also points toward early intervention, safe accommodation, education and coordinated work with young people and families.
+February 2025 — Large Kempsey community mobilisation around crime. Michael Kemp and Nationals colleagues push tougher bail/sentencing and expanded police responses.
+2025 — NSW Government expands place-based and youth-crime responses in regional communities including Kempsey and Moree. These interventions run alongside policing measures and become important confounders for later causal claims.
+8 January 2026 — Moree PolAir-Remote trial commences. Local police briefing describes rapid response and also proactive flying/patrol, not only incident-triggered deployment.
+14 February 2026 — Kempsey Shire Council publicly escalates concerns about antisocial behaviour affecting public places, businesses, amenities, services and staff safety.
+19 February 2026 — NSW Police formally launches PolAir-Remote in Moree.
+27 February–12 March 2026 — Senior NSW Government/Police messaging describes the capability as operational response rather than general surveillance. Police Minister Yasmin Catley publicly identifies Kempsey as a possible future expansion location.
+19 March 2026 — NSW parliamentary inquiry into regional and rural community safety tables its final report.
+May–June 2026 — Moree public consultation occurs after PolAir-Remote is already operational. Police say feedback will inform training, policy and future capability.
+3 June 2026 — Police Minister says the six-month trial should run its course and police will assess results before determining next steps.
+30 July 2026 — Parliamentary answer states the total Moree trial cost has not yet been finalised.
+11 August 2026 — Macleay Argus reports Michael Kemp calling for community support for police drone expansion. His campaign petition states that the Moree trial has demonstrated success and cites the 50%, 100+, 70+ and six-person figures.
+14 August 2026 — No publicly traceable end-of-trial evaluation was located in the research completed before this snapshot.
+3. MACLEAY ARGUS TRIGGER AND HEADLINE FRAMING
+FACT: The supplied Macleay Argus article is titled “‘I don't sleep at night’: community calls for drone surveillance in Kempsey”, by Lowen Taylor, updated 11 August 2026.
+FACT: The body supplied in the conversation is paywalled and therefore does not establish all attribution and context behind the headline quote.
+EVIDENCE: The same distinctive “I don't sleep at night” wording was documented in ABC reporting of Gail Cheers' evidence to the 29 October 2024 Kempsey parliamentary hearing.
+UNKNOWN: Whether the 2026 Macleay Argus headline is quoting Gail Cheers again, a new interview, or another person using similar words.
+FRAMING RISK: A victim's fear of crime and endorsement of a particular surveillance technology are separate propositions. The full article is required before attributing support for the drone proposal to the person behind the headline quotation.
+4. KEMPSEY CRIME AND COMMUNITY-SAFETY EVIDENCE
+FACT: Kempsey has documented repeated victimisation, community fear and concentrated antisocial behaviour. This is not an invented problem.
+FACT: NSW Government has identified Kempsey among regional communities requiring targeted youth-crime/place-based intervention.
+FACT: Kempsey Shire Council has formally escalated local antisocial behaviour concerns and has met NSW Police and Michael Kemp about community safety.
+FACT: Kempsey already has multiple interventions: fixed CCTV, ordinary policing, specialist/surge policing, targeted youth programs, bail support and place-based intervention.
+FACT: BOCSAR material located during the investigation showed youth proceedings across the Mid North Coast falling materially over the two years to March 2026, while regional youth offending rates remained higher than Greater Sydney.
+ANALYSIS: Serious local victimisation and a declining aggregate regional trend can coexist. Neither “crime is out of control” nor “crime is falling” is an adequate complete description without offence-specific and locality-specific evidence.
+5. WHAT POLAIR-REMOTE IS
+FACT: Moree PolAir-Remote is a remotely deployable NSW Police aerial capability, not a hobby-drone operation. The Moree model uses remotely operated aircraft and docking infrastructure integrated with police operations.
+FACT: The public hardware descriptions identify DJI Matrice 4D-series / 4TD-type capability with visual cameras, thermal imaging and related sensors. Such systems can provide day/night observation, search support and real-time situational awareness.
+FACT: CASA aviation rules and exemptions govern complex and beyond-visual-line-of-sight operations. Aviation authorisation is distinct from the separate question of surveillance, information handling and police operational policy.
+ANALYSIS: The correct capability description is closer to a remotely deployable multi-sensor aerial observation platform than a generic flying camera.
+Reactive versus proactive use
+EVIDENCE: The January 2026 Moree police briefing was reported as saying police would fly proactively and would not only respond to incidents. The same reporting described substantial planned aerial coverage and both overt and covert exercises.
+EVIDENCE: Later senior NSW Police/Government statements emphasised that the program was not about general surveillance and framed it as operational response capability.
+UNRESOLVED: Those descriptions require reconciliation. The program appears capable of both incident-response and proactive aerial patrol. The governance consequences differ materially between the two modes.
+PETITION GAP: The petition asks for expansion of the NSW Police remote-drone program as a whole but does not specify or limit the requested Mid North Coast model to reactive incident response.
+6. CLAIM-BY-CLAIM AUDIT OF THE PETITION
+6.1 “50% drop in crime”
+STATUS: NOT ESTABLISHED AS STATED.
+EVIDENCE: A figure close to 50% exists in reporting of longer-term Moree youth offending/legal-action trends. The decline extends back years before the January 2026 drone trial.
+CAUSAL PROBLEM: A pre-existing multi-year decline cannot be attributed retrospectively to a six-month intervention that began in 2026.
+CONFOUNDERS: Moree simultaneously received Operation Soteria, bail changes, increased policing, youth programs, case management and place-based interventions. Even a large 2026 crime reduction would not by itself establish that drones caused it.
+MISSING: Offence definition, metric type, baseline dates, geographic boundary, source dataset and attribution method.
+6.2 “more than 100 arrests”
+STATUS: TACTICAL UTILITY SUPPORTED; AGGREGATE NUMBER NOT YET REPRODUCED FROM A PRIMARY PUBLISHED DATASET.
+EVIDENCE: NSW Police operational releases document individual incidents and operations in which PolAir-Remote assisted police in locating or arresting suspects.
+METHODOLOGY GAP: “Assisted” is undefined. It could mean the drone directly detected/tracked a person, provided situational intelligence, or was one element of a multi-unit operation in which arrests occurred.
+6.3 “over 70 stolen vehicles”
+STATUS: VEHICLE-RECOVERY CAPABILITY SUPPORTED; AGGREGATE NUMBER NOT YET REPRODUCED FROM A PRIMARY PUBLISHED DATASET.
+EVIDENCE: Police and contemporaneous reporting document stolen-vehicle related deployments and recoveries.
+MISSING: Definition of drone involvement and complete incident-level/source dataset supporting 70+.
+6.4 “six missing people”
+STATUS: CAPABILITY PLAUSIBLE AND WITHIN POLAIR FUNCTIONS; SIX-PERSON TRIAL TOTAL NOT YET REPRODUCED FROM A PRIMARY PUBLISHED DATASET.
+MISSING: Source and incident count establishing that six missing persons were actually located by the Moree system during the trial.
+6.5 “30 to 60 seconds”
+STATUS: RAPID DEPLOYMENT SUPPORTED; EXACT PERFORMANCE METRIC NOT YET DEFINED.
+EVIDENCE: The architecture is designed for rapid remote launch from a dock and has been publicly described as joining response within seconds.
+MISSING: What the clock measures: call received to launch command, launch command to airborne, call to airborne, or call to arrival over the incident.
+6.6 “a fraction of the cost of a police helicopter”
+STATUS: LOWER MARGINAL OPERATING COST IS HIGHLY PLAUSIBLE; CLAIM NOT FULLY AUDITABLE FROM DISCLOSED TRIAL COSTS.
+EVIDENCE: The system avoids positioning a conventional crewed aircraft and aviation crew in each regional community and is intended to deliver far more local aerial availability.
+CRITICAL GAP: On 30 July 2026 the Government said the total cost of the Moree trial had not yet been finalised. Without the drone-system numerator and a defined helicopter comparator, “a fraction” cannot be independently reproduced.
+7. THE MISSING MOREE TRIAL EVALUATION
+EVIDENCE: The Moree trial was publicly described as a six-month trial that would be evaluated. On 3 June 2026 the Police Minister said the trial should run its course and police would assess results before determining next steps.
+OBSERVATION: The petition now says the six-month trial “has demonstrated” improved safety and presents several headline metrics as trial success evidence.
+SEARCH RESULT TO SNAPSHOT DATE: No publicly traceable formal end-of-trial evaluation or results report was located before this snapshot was created.
+STRUCTURAL ISSUE: Operational media releases establish examples of tactical utility. They are not a substitute for an evaluation designed to measure population-level effect, cost, false positives, deployment rates, response-time outcomes, officer safety, community effects and privacy impacts.
+HIGH-VALUE TARGET: The formal NSW Police evaluation/results report, if and when published, is the primary document needed to test the petition's empirical case.
+8. LEGAL, PRIVACY AND GOVERNANCE ARCHITECTURE
+FACT: CASA regulates aviation safety and the conditions for complex remotely piloted operations. CASA compliance does not itself answer what police may observe, record, retain, analyse or share.
+FACT: The NSW Surveillance Devices Act provides a statutory surveillance-device framework, including warrant regimes and privacy considerations in relevant contexts. It should not be simplified into a claim that every police drone flight requires a warrant.
+FACT: NSW Police has broad exemptions from the ordinary information-protection principles in the Privacy and Personal Information Protection Act for non-administrative operational functions.
+ANALYSIS: Because ordinary privacy principles are not the complete operational control, drone-specific policy, launch criteria, retention rules, audit logs, data-access controls and mission limitations become especially important.
+Unresolved governance questions
+What event or threshold authorises launch?
+What distinguishes proactive patrol from incident response?
+Can aircraft inspect private yards or follow people not suspected of an offence?
+Are flights recorded by default, conditionally, or only when evidentiary criteria arise?
+What happens to incidental imagery?
+How long is non-evidentiary imagery retained?
+Who can access imagery and flight logs?
+Can footage be searched retrospectively for unrelated incidents?
+Can imagery be linked to facial recognition or other automated analytics?
+What audit and complaint mechanisms apply?
+What information about proactive/covert operations is disclosed to communities before rollout?
+9. CONSULTATION SEQUENCE
+FACT: The Moree PolAir-Remote system was operational before the publicly visible NSW Police Have Your Say consultation closed in June 2026.
+FACT: Police said that consultation would inform future training, policy and capability development.
+LIMIT: This does not prove there was no consultation before deployment; it establishes that the public consultation located during research occurred after operations had commenced.
+GOVERNANCE IMPLICATION: A Mid North Coast rollout can be tested against whether operational rules, privacy safeguards, community consultation and success criteria are set before deployment rather than retrospectively.
+10. MID NORTH COAST ROLLOUT ARCHITECTURE
+PETITION REQUEST: “Expand the NSW Police remote drone program to the Mid North Coast.”
+FACT: The Mid North Coast Police District includes multiple widely separated stations and communities, including West Kempsey, Bellbrook, Gladstone, South West Rocks, Macksville, Nambucca Heads, Port Macquarie, Wauchope, Laurieton, Bowraville, Comboyne and others.
+FACT: Kempsey Shire itself is geographically dispersed. Existing council CCTV is spread across several distinct localities rather than forming one compact surveillance zone.
+ENGINEERING FACT: The Moree-style docked-drone model has finite operational radius, endurance, communications and aviation constraints. A single West Kempsey installation is not equivalent to immediate Mid North Coast coverage.
+UNDEFINED: The petition does not state the number of docks, aircraft, base locations, coverage areas, communications infrastructure, flight authorisations, maintenance model or regional response standard being requested.
+Two materially different rollout propositions
+MODEL A — Kempsey-focused: One or a small number of installations addressing concentrated urban/community-safety incidents around Kempsey.
+MODEL B — Distributed regional network: Multiple docked aircraft distributed across the Mid North Coast Police District to provide rapid aerial response over a much larger territory.
+ANALYSIS: Model B is a substantially larger infrastructure, aviation, data-governance and cost proposition. The petition does not distinguish the two.
+11. MOREE-TO-MID-NORTH-COAST TRANSFERABILITY
+OBSERVATION: Moree and the Mid North Coast are not operationally equivalent environments.
+MOREE: Relatively open inland geography and a concentrated trial environment.
+MID NORTH COAST: Urban, coastal, valley, forested and mountainous terrain, dispersed communities and potentially more complex communications/aviation conditions.
+INFERENCE: Response times, reliable communications, coverage radius and installation density proven in Moree cannot simply be assumed to transfer unchanged to Kempsey hinterland or the broader Mid North Coast.
+REQUIRED EVIDENCE: A regional needs, coverage and engineering assessment defining where PolAir-Remote adds measurable yield and where conventional policing, fixed CCTV, existing PolAir or other interventions are more appropriate.
+12. POLITICAL AND POLICY ARCHITECTURE
+FACT: Michael Kemp has consistently advocated stronger regional policing and crime responses; the drone petition is not an isolated political intervention.
+FACT: The NSW Police Minister publicly identified Kempsey as a possible PolAir-Remote expansion community months before the August petition.
+INFERENCE: The petition may therefore function partly as a mandate-generating mechanism: quantify visible regional support for an expansion already being contemplated within government.
+LIMIT: That inference is not evidence of impropriety. Political representatives routinely use petitions to demonstrate constituency demand.
+ACCOUNTABILITY TEST: The same questions applied to other public interventions should be applied here: how much, delivered by whom, against what KPI, measured how, and reported publicly how often?
+13. STRUCTURAL EVIDENCE CHAIN
+1. Documented local victimisation and fear
+2. Council and parliamentary escalation
+3. Existing policing, CCTV and social/intervention programs
+4. Moree PolAir-Remote trial
+5. Documented tactical successes
+6. Aggregate crime claims and promotional metrics
+7. Government signals Kempsey as possible expansion site
+8. Michael Kemp regional petition
+9. Request to expand capability to the Mid North Coast
+10. Missing formal evaluation / missing regional design / missing complete cost model
+Core analytical issue: The public case currently compresses three evidentiary transitions: Moree tactical success → Moree population-level effectiveness; Moree effectiveness → Kempsey suitability; Kempsey suitability → Mid North Coast regional rollout. Each transition requires separate evidence.
+14. CURRENT FINDINGS REGISTER
+F-001 — VERIFIED: The Moree PolAir-Remote capability exists and has been operationally deployed by NSW Police.
+F-002 — VERIFIED: The capability has demonstrated tactical utility in individual police operations.
+F-003 — VERIFIED: Kempsey has documented community-safety harms and repeated victimisation.
+F-004 — VERIFIED: Kempsey already has policing, CCTV and place-based/youth interventions; drones would be an additional layer, not the first intervention.
+F-005 — VERIFIED: The Police Minister publicly identified Kempsey as a possible future PolAir-Remote expansion location before the August petition.
+F-006 — VERIFIED: Michael Kemp is promoting a petition calling for Mid North Coast expansion.
+F-007 — NOT ESTABLISHED: The Moree drone trial caused a 50% reduction in crime.
+F-008 — NOT YET REPRODUCED: The petition aggregate of 100+ arrests from a primary published dataset with a defined “assisted” methodology.
+F-009 — NOT YET REPRODUCED: The petition aggregate of 70+ stolen vehicles from a primary published dataset with a defined drone-contribution methodology.
+F-010 — NOT YET REPRODUCED: The six missing persons figure from a primary published dataset.
+F-011 — PARTLY SUPPORTED: Very rapid deployment is inherent to the docked architecture, but the exact 30–60 second metric has not been tied to a defined measurement interval.
+F-012 — PLAUSIBLE / NOT AUDITABLE: The drone system should be cheaper per local deployment than crewed helicopter support, but the Moree total trial cost had not been finalised as at 30 July 2026.
+F-013 — NOT LOCATED: The promised formal end-of-trial evaluation/results report.
+F-014 — UNRESOLVED: Reconciliation between proactive/covert patrol descriptions and later statements that the system is not general surveillance.
+F-015 — UNDEFINED: The regional deployment architecture implied by “Mid North Coast”.
+F-016 — UNKNOWN: The complete capital and recurrent cost of a Mid North Coast rollout.
+F-017 — UNKNOWN: The number/location of docks required for specified response times and geographic coverage.
+F-018 — UNRESOLVED: The complete operational privacy/data-retention policy for PolAir-Remote.
+F-019 — TRANSFER NOT ESTABLISHED: Moree performance and coverage characteristics cannot automatically be applied to Mid North Coast terrain and geography.
+F-020 — OPEN: The correct Kempsey-specific capability gap and measurable marginal yield from PolAir-Remote remain to be demonstrated.
+15. OPEN EVIDENCE GAPS / NEXT TARGETS
+Formal NSW Police Moree PolAir-Remote six-month evaluation or results report.
+Primary source for the petition's “50% drop in crime” claim, including baseline and offence definition.
+Primary dataset or briefing supporting 100+ drone-assisted arrests and definition of “assisted”.
+Primary dataset or briefing supporting recovery of 70+ stolen vehicles and definition of drone contribution.
+Primary source supporting location of six missing people.
+Operational performance definition behind 30–60 second deployment.
+Final Moree trial expenditure and projected ongoing operating cost.
+Cost comparator supporting “fraction of the cost of a police helicopter”.
+PolAir-Remote operational policy covering proactive flights, recording, retention, access, audit and secondary use.
+Kempsey-specific offence/location/time-of-day analysis identifying where aerial response would add measurable capability beyond existing policing/CCTV.
+Mid North Coast coverage design: docks, aircraft, locations, response-time targets and aviation/communications constraints.
+Full Macleay Argus article body to resolve quote attribution, framing and the evidentiary basis presented to readers.
+16. DECISION STANDARD FOR FURTHER ANALYSIS
+The investigation should not reduce to “drones good” or “drones bad”. The correct decision question is whether a defined policing capability deficit exists, whether PolAir-Remote remedies that deficit better than alternatives, under what operational restrictions, at what cost, and against what measurable outcome.
+What specific Kempsey/Mid North Coast incident types require aerial response?
+What is the existing response gap?
+What proportion of relevant incidents occur within feasible drone coverage?
+What measurable outcome would constitute success?
+How will the drone effect be separated from other simultaneous interventions?
+What privacy/mission limits apply?
+What is the full system cost?
+What evidence would trigger continuation, modification or termination of the capability?
+17. CURRENT CONCLUSION — OPEN
+PolAir-Remote operational utility: VERIFIED.
+Moree aggregate crime reduction as a broader trend: SUPPORTED, but not attributable to the drone trial from the evidence located.
+50% reduction caused by PolAir-Remote: NOT ESTABLISHED.
+Moree final trial evaluation: NOT LOCATED TO SNAPSHOT DATE.
+Kempsey capability gap addressed by drones: PLAUSIBLE, NOT FORMALLY DEMONSTRATED.
+Mid North Coast deployment architecture: UNDEFINED.
+Regional cost and value for money: UNKNOWN.
+Operational privacy architecture: INCOMPLETELY VISIBLE PUBLICLY.
+Snapshot conclusion: The petition has a rational operational premise because the technology demonstrably assists frontline police. The public evidentiary case for regional expansion is nevertheless incomplete because the trial evaluation, causal methodology, full cost base, Mid North Coast coverage design and operational-governance details have not yet been produced in the evidence assembled here.
+18. SOURCE REGISTER USED IN THIS SNAPSHOT
+Note: This register records the sources used in the research completed before this snapshot. Where a source was media reporting rather than a primary record, that distinction is preserved in the analysis above.
+[1] User-supplied Macleay Argus extract. Lowen Taylor, “‘I don't sleep at night’: community calls for drone surveillance in Kempsey”, 11 August 2026. Paywalled body not supplied.
+[2] User-supplied petition text. Michael Kemp campaign: “Bring Police Drones to the Mid North Coast”. Exact wording supplied directly in conversation.
+[3] ABC News — Kempsey regional crime inquiry hearing. Contemporaneous report of 29 October 2024 Kempsey hearing, including local victim testimony and discussion of early intervention. Source <https://www.abc.net.au/news/2024-10-29/regional-crime-inquiry-at-kempsey-hears-from-victims/104528766> 
+[4] NSW Parliament — regional and rural community safety inquiry. Inquiry record, hearings and final report chronology. Source <https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3042> 
+[5] Kempsey Shire Council — escalating antisocial behaviour. Council statement documenting local community-safety concerns in February 2026. Source <https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Council-urges-urgent-action-amid-escalating-antisocial-behaviour> 
+[6] Kempsey Shire Council — community safety / CCTV. Existing CCTV coverage and community-safety information. Source <https://www.kempsey.nsw.gov.au/Your-Valley/Your-community/Community-support-services/Community-safety> 
+[7] NSW Government — Kempsey place-based response. Targeted intervention and governance architecture for Kempsey. Source <https://www.nsw.gov.au/departments-and-agencies/premiers-department/community-engagement/nswgovernment-place-based-responses/kempsey-place-based-response> 
+[8] NSW Government — Moree place-based response. Moree intervention context and pre-existing crime-trend material. Source <https://www.nsw.gov.au/departments-and-agencies/premiers-department/community-engagement/nswgovernment-place-based-responses/moree-placed-based-response> 
+[9] NSW DCJ — regional youth-crime investment. November 2025 regional youth-crime package and intervention context. Source <https://dcj.nsw.gov.au/news-and-media/media-releases/2025/nsw-government-invests--23-million-to-tackle-youth-crime-and-bui.html> 
+[10] NSW BOCSAR — young people. Regional youth offending/proceedings context used to avoid simplistic trend claims. Source <https://bocsar.nsw.gov.au/topic-areas/young-people.html> 
+[11] NSW BOCSAR — recorded crime update March 2026. Regional recorded-crime statistical context. Source <https://bocsar.nsw.gov.au/research-evaluations/2026/nsw-recorded-crime-statistics-quarterly-update-mar-2026.html> 
+[12] NSW Police — Moree PolAir-Remote. Formal NSW Police program/operational material and subsequent media releases documenting individual deployments. Source <https://www.police.nsw.gov.au/news> 
+[13] NSW Police — Aviation Command. PolAir functions including search/rescue and operational aviation roles. Source <https://www.police.nsw.gov.au/about_us/organisational_structure/units/aviation_command> 
+[14] NSW Police — Mid North Coast Police District. Police district stations and geographic scope. Source <https://www.police.nsw.gov.au/about_us/regions_commands_districts/northern_region/mid_north_coast> 
+[15] NSW Police Have Your Say — Moree RPAS. Public consultation on remotely piloted aircraft systems in Moree; consultation followed operational commencement. Source <https://www.haveyoursay.nsw.gov.au/remotely-piloted-aircraft-systems-moree> 
+[16] NSW Parliament — Moree drone trial expenditure question. 30 July 2026 answer stating total trial cost had not yet been finalised. Source <https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=108763> 
+[17] NSW Parliament — earlier Moree drone trial question. Parliamentary scrutiny of the Moree trial and cost/evaluation issues. Source <https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=108055> 
+[18] Guardian Australia — possible expansion to Kempsey. 12 March 2026 reporting of Police Minister discussion of extending the Moree model to places including Kempsey; also reports senior police framing of operational response versus surveillance. Source <https://www.theguardian.com/australia-news/2026/mar/12/sydney-police-drones-chase-suspects-moree-new-south-wales-ntwnfb> 
+[19] Moree Online News — 8 January 2026 trial briefing. Contemporaneous local report of trial commencement, proactive flying, anticipated coverage and operational model. Source <https://moreeonlinenews.com.au/2026/01/08/moree-police-to-trial-drones-in-an-australian-first-exercise/> 
+[20] Moree Online News — February 2026 PolAir-Remote coverage. Contemporaneous reporting of the Moree system and intended evaluation. Source <https://moreeonlinenews.com.au/2026/02/23/police-drones-in-moree-an-asset-to-local-law-enforcement/> 
+[21] Moree Online News — June 2026 consultation. Local reporting of consultation and claimed operational successes. Source <https://moreeonlinenews.com.au/2026/06/05/police-drones-in-moree-residents-invited-to-have-their-say/> 
+[22] CASA — beyond visual line of sight operations. Current aviation-regulatory architecture for complex BVLOS drone operations. Source <https://www.casa.gov.au/drones/flight-authorisations/beyond-visual-line-sight-operations> 
+[23] DJI Enterprise — Dock / Matrice system specifications. Technical specifications relevant to endurance, docked deployment, sensors and operational radius. Source <https://enterprise.dji.com/dock-3> 
+[24] NSW legislation — Surveillance Devices Act 2007. Statutory framework relevant to surveillance devices and privacy considerations. Source <https://legislation.nsw.gov.au/view/whole/whole/html/inforce/current/act-2007-064> 
+[25] NSW legislation — Privacy and Personal Information Protection Act 1998. Privacy framework including NSW Police operational exemptions. Source <https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1998-133> 
+[26] Justice and Equity Centre — Moree police drone submission. Civil-liberties submission raising privacy, policy, consultation and safeguards questions; advocacy source, not proof of misuse. Source <https://jec.org.au/publication/submission-to-nsw-police-about-the-police-drone-pilot-in-moree/> 
+19. SNAPSHOT INTEGRITY NOTE
+This document is a preservation point. It freezes the evidence state reached in the conversation before the next research gate. Unknowns have been left unknown; unverified numerical claims have not been silently upgraded to fact; and the absence of a located public evaluation has not been converted into a claim that no evaluation exists.
+END OF OPEN SNAPSHOT — FURTHER INVESTIGATION NOT YET APPLIED
+
+20. SNAPSHOT 2 — BIOMETRIC, POLICY AND PROCUREMENT BRANCH
+Snapshot time: 14 August 2026, approximately 14:18 AEST. Status: OPEN. This supplement freezes findings reached after Snapshot 1 and before the next procurement/technical-integration gate.
+20.1 Facial-recognition / biometric linkage
+FACT: No evidence located establishes that Moree PolAir-Remote currently performs onboard or live facial-recognition identification.
+FACT: The Moree aircraft are high-resolution multi-sensor image-collection platforms. NSW also has statutory facial-biometric matching infrastructure available to authorised participating agencies under the National Facial Biometric Matching Capability framework.
+UNKNOWN: Whether PolAir-Remote live or recorded imagery can be submitted, automatically or manually, to any facial-recognition or face-matching system.
+UNKNOWN: Whether any Moree PolAir-Remote imagery has actually been subjected to biometric matching.
+GOVERNANCE ISSUE: The correct control question is system linkage, not merely whether facial recognition is embedded in the aircraft: collection -> retention -> face extraction -> external biometric matching.
+FINDING F-021: FUNCTION-CREEP CONTROL ABSENT FROM PUBLIC CASE: the petition asks for expansion of the remote-drone program without specifying limits on facial recognition, biometric matching, automated person identification, retrospective AI analysis or future analytics applied to stored imagery.
+20.2 Public-policy visibility
+FACT: NSW Police previously told Parliament that RPAS use must comply with its Operator Certificate and relevant NSW Police policies and procedures.
+OBSERVATION: The current NSW Police public policy index did not expose a policy named for RPAS, PolAir-Remote or facial recognition during the research completed for this snapshot.
+LIMIT: This does not establish that internal policies do not exist. It establishes that the controlling operational rules could not be inspected through the public policy register.
+FINDING F-022: PUBLIC AUDITABILITY GAP: operational controls for launch authority, proactive patrol, recording, retention, secondary use, analytics, biometric linkage and capability upgrades are not publicly traceable from the policy register located.
+20.3 NSW Police statewide RPAS procurement
+FACT: On 2 June 2026 NSW Police published procurement EOI YR-2026-0058, Remotely Piloted Aircraft Systems Panel.
+FACT: The EOI sought enterprise-grade law-enforcement/public-safety RPAS capability across all regions, including Remote Operations Centre operations, day/night VLOS and BVLOS, EO/IR and specialist payloads, autonomous/drone-in-a-box systems, maintenance, regulatory compliance and supply-chain considerations.
+FACT: The EOI expressly contemplated future expansion and evolution of platforms and capability.
+FACT: The EOI closed 30 June 2026 and listed an estimated decision date of 20 July 2026, before the 11 August 2026 Kemp petition report.
+FINDING F-023: STATEWIDE EXPANSION PLANNING PREDATES PETITION: the petition did not initiate NSW Police planning for wider remote-drone capability. It can at most influence priority, location, pace or political support for rollout.
+FINDING F-024: CAPABILITY SCOPE NOT FROZEN: the procurement is broader than merely duplicating the exact Moree hardware and expressly anticipates new platforms, specialist payloads and capability evolution.
+20.4 Supply-chain and vendor-security branch
+FACT: The Moree trial uses DJI Matrice 4TD-class equipment.
+FACT: Commonwealth parliamentary material records earlier restriction/grounding of DJI fleets by some Commonwealth security/law-enforcement bodies, including Australian Border Force and Defence contexts.
+LIMIT: No evidence located establishes that DJI is prohibited for NSW Police.
+FACT: The June 2026 NSW Police RPAS EOI explicitly included supply-chain considerations.
+UNKNOWN: Whether NSW Police completed a DJI-specific cyber, data-sovereignty or foreign-control risk assessment; whether cloud services are disabled; where telemetry/video are processed and stored; and whether future procurement is intended to diversify away from DJI.
+FINDING F-025: SUPPLY-CHAIN SECURITY REQUIRES DIRECT EVIDENCE: the future statewide architecture cannot be audited solely from aircraft specifications or public-relations material.
+20.5 Cost and procurement disclosure
+EVIDENCE: A NSW Government AgTech catalogue lists a DJI Dock 3 plus Matrice 4TD package at about A$31,308. This is only a hardware benchmark and is not the cost of a police PolAir-Remote site.
+FACT: Police deployment cost would additionally include secure connectivity, ROC integration, operators, aviation approvals, installation, maintenance, data systems and other infrastructure.
+FACT: As at 30 July 2026 the NSW Government said the total Moree trial cost had not yet been finalised.
+FACT: NSW procurement rules generally require public disclosure of qualifying contracts over A$150,000 including GST within the applicable disclosure period.
+UNKNOWN: No award notice for EOI YR-2026-0058 had been located by this snapshot. Given the estimated 20 July decision date, absence of a disclosed contract is not yet evidence that no supplier was selected.
+FINDING F-026: PROCUREMENT DISCLOSURE IS A FUTURE VERIFICATION PATH: supplier identity, contract value, scope and duration may become independently traceable if qualifying contracts are executed.
+20.6 Revised system-level question
+ANALYSIS: The investigation is no longer confined to whether Kempsey should receive the Moree drones. The evidence now describes a broader architecture: Moree experimental deployment -> statewide enterprise procurement -> Remote Operations Centre integration -> multiple platform/payload options -> future capability evolution -> regional campaigns for deployment.
+CONTROL QUESTION: What statewide aerial observation/intelligence architecture is NSW Police building, what current and future analytical capabilities can connect to it, who supplies the technology, and what enforceable controls prevent a limited operational-response system from becoming persistent biometric or algorithmic surveillance?
+LIMIT: Nothing found establishes that a persistent biometric surveillance network currently exists. The procurement architecture makes that a legitimate forward governance question, not an established fact.
+21. UPDATED FINDINGS REGISTER — ADDITIONS TO SNAPSHOT 1
+F-021 — No current PolAir-Remote facial-recognition use established; live or retrospective biometric linkage remains unknown.
+F-022 — Publicly inspectable RPAS/PolAir-Remote operational policy not located despite prior NSW Police statements that relevant policies/procedures govern RPAS use.
+F-023 — Statewide NSW Police RPAS expansion planning was underway by 2 June 2026, before the August Mid North Coast petition.
+F-024 — Future capability scope is not frozen; EOI YR-2026-0058 anticipates capability/platform evolution and specialist payloads.
+F-025 — Supply-chain security is an explicit procurement consideration; DJI-specific NSW Police security/data-sovereignty controls remain unknown.
+F-026 — Future procurement disclosure may expose supplier, value, duration and scope if qualifying contracts are executed.
+F-027 — The petition seeks expansion of a program whose future technical configuration is broader and less fixed than the wording presented to signatories indicates.
+22. NEXT EVIDENCE GATE
+Obtain or reconstruct the full EOI YR-2026-0058 procurement package and schedules.
+Identify any supplier-selection, panel-establishment or contract disclosure arising from the EOI.
+Trace requirements for cybersecurity, data sovereignty, cloud connectivity, telemetry, video storage and remote operations.
+Trace requirements or exclusions for AI analytics, object/person recognition, automated tracking and biometric integration.
+Identify whether the future panel permits or restricts foreign-hosted services and manufacturer cloud connections.
+Identify any Privacy Impact Assessment, security risk assessment or system accreditation for Moree PolAir-Remote or the statewide RPAS program.
+Continue the separate Kempsey-specific necessity analysis after the procurement architecture is sufficiently defined.
+23. SOURCE REGISTER — SNAPSHOT 2 ADDITIONS
+[27] NSW Police public policy index — used to test public visibility of RPAS/PolAir-Remote/facial-recognition operational policy.
+[28] NSW Police Privacy Management Plan (January 2025) — law-enforcement privacy exemptions, information holdings and general access/security controls.
+[29] NSW Parliament Q&A (2022) — NSW Police statement that RPAS use must comply with its Operator Certificate and relevant policies/procedures.
+[30] NSW legislation, Road Transport Act 2013 s 271A — statutory National Facial Biometric Matching Capability framework for authorised participating agencies.
+[31] NSW Parliament Q&A (2024) — protest-monitoring question including facial-recognition technology; answer did not provide a central statistical count.
+[32] NSW Buy / Procurement opportunity YR-2026-0058 — Remotely Piloted Aircraft Systems Panel, published 2 June 2026.
+[33] NSW Government procurement disclosure guidance — contract disclosure thresholds and timing.
+[34] Australian Parliament / Commonwealth material on prior DJI restrictions or grounding in Commonwealth agency contexts.
+[35] NSW Government AgTech catalogue — DJI Dock 3 + Matrice 4TD package hardware price benchmark.
+24. SNAPSHOT 2 INTEGRITY NOTE
+This document preserves the evidence state immediately before the next procurement/technical-integration research gate. Unknowns remain unknown. No facial-recognition use, biometric linkage, supplier award, statewide surveillance network or DJI prohibition has been inferred where direct evidence has not been located.
+END OF OPEN SNAPSHOT 2 — FURTHER INVESTIGATION NOT YET APPLIED
+

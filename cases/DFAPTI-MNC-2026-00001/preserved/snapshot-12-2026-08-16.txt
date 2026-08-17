@@ -1,0 +1,65 @@
+
+MAYHEM – MNC POLAIR-REMOTE DEEP RESEARCH
+SNAPSHOT 12
+Delta snapshot • 16 August 2026 • Findings F-211–F-230
+Exact predecessor: MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-11-2026-08-16.docx
+Scope: Question Bank sections Z, AA, AB and AC — political provenance and representation, media/public-claim architecture, oversight/complaint architecture, and public auditability. Earlier findings are incorporated only by predecessor reference.
+Classification rule
+FACT/EVIDENCE = directly supported by located material. INFERENCE = analytical consequence from established facts. UNKNOWN / NOT LOCATED = the current public record does not resolve the point; this is not proof the record or event does not exist.
+F-211 — KEMP CAMPAIGN PROVENANCE IS VERIFIED
+FACT/EVIDENCE. Michael Kemp's official electorate website contains a top-level 'Drone Petition' link to the externally hosted Mailchimp campaign. The petition is therefore verifiably promoted as an official electorate-office campaign artifact.
+F-212 — FORMAL NSW PARLIAMENT PETITION STATUS IS NOT ESTABLISHED
+FACT/EVIDENCE / NEGATIVE SEARCH. Targeted searches of NSW Parliament petition records did not locate a matching PolAir-Remote / Mid North Coast drone petition. The identified campaign route is the external Mailchimp petition linked from Kemp's electorate site. This does not prevent the signatures later being converted into a formal petition, but no such parliamentary record is presently established.
+F-213 — KEMP'S FIRST POLAIR BRIEFING REMAINS UNKNOWN
+UNKNOWN. No public record located establishes when Michael Kemp was first briefed on PolAir-Remote, who briefed him, what material was supplied, or whether the formal Moree evaluation was provided.
+F-214 — PETITION-STATISTIC PROVENANCE REMAINS UNRESOLVED
+UNKNOWN. No underlying briefing, evaluation extract, police statistical table or BOCSAR analysis has been located that reproduces the petition's aggregate claims of a 50% crime reduction, 100+ arrests, 70+ stolen vehicles, six missing people, or the exact 30–60 second deployment metric.
+F-215 — 'MID NORTH COAST' REMAINS OPERATIONALLY UNDEFINED IN THE CAMPAIGN
+FACT/EVIDENCE + UNKNOWN. Kemp's Oxley electorate covers 9,325.32 square kilometres and includes Kempsey, Bellingen, Nambucca Heads, Wauchope and many inland/coastal communities. The petition wording calls for expansion to the 'Mid North Coast' but does not define whether that means a Kempsey node, Oxley electorate coverage, Mid North Coast Police District coverage, or a distributed regional network.
+F-216 — THE PETITION DOES NOT EXPRESSLY CONDITION ROLLOUT ON SAFEGUARD GATES
+FACT/EVIDENCE FROM USER-SUPPLIED PETITION TEXT. The petition asks for expansion and prioritisation of regional communities but does not state conditions concerning proactive patrol, recording/retention, AI/biometrics, Aboriginal-impact reporting, flight transparency, independent evaluation, or stop/go thresholds.
+F-217 — KEMP HAS PREVIOUSLY DEMANDED KPI AND PUBLIC-REPORTING TRANSPARENCY
+FACT/EVIDENCE. On 13 November 2025 Kemp formally asked the Police Minister what metrics/performance indicators would measure Kempsey youth-crime funding and whether progress reports would be made publicly available. Applying that same transparency test to PolAir-Remote is therefore grounded in his own parliamentary scrutiny practice.
+F-218 — KEMPSEY EXPANSION WAS PUBLICLY CONTEMPLATED BEFORE THE AUGUST PETITION
+FACT/EVIDENCE. March 2026 reporting already identified Kempsey among regional locations discussed as possible future PolAir-Remote expansion targets. The August campaign therefore did not originate the concept of Kempsey expansion.
+F-219 — KEMP HOLDS AN EXPLICIT REGIONAL-CRIME SHADOW ROLE
+FACT/EVIDENCE. Since 28 January 2026 Kemp has been Shadow Parliamentary Secretary for the Prevention of Regional Crime. This is relevant political context, not evidence of influence over NSW Police procurement or trial evaluation.
+F-220 — NO KEMP POLAIR-SPECIFIC QUESTION ON NOTICE WAS LOCATED IN THE TARGETED PASS
+NEGATIVE SEARCH. Kemp's parliamentary activity includes extensive policing and regional-crime questions, but the targeted search did not locate a written question demanding the Moree evaluation, trial costs, petition-statistic sources, safeguards or stop/go criteria. This is not proof none exists.
+F-221 — THE COMPLETE 11 AUGUST MACLEAY ARGUS ARTICLE REMAINS UNACQUIRED
+UNKNOWN / ACQUISITION GAP. Exact-title, author, date and keyword searches did not expose the complete article text. Accordingly, Question Bank Q622–Q634 cannot be fully resolved from the publisher record yet.
+F-222 — THE HEADLINE PHRASE PREDATES THE DRONE CAMPAIGN AND IS ATTRIBUTABLE TO GAIL CHEERS IN 2024
+FACT/EVIDENCE. ABC's 29 October 2024 report of the Kempsey regional-crime inquiry records Gail Cheers saying that she and her husband did not sleep at night because of repeated victimisation fears. This proves the phrase existed in the Kempsey crime record well before PolAir-Remote or Kemp's August 2026 petition.
+F-223 — THE 2024 QUOTE-HOLDER'S RECORDED POLICY EMPHASIS WAS EARLY INTERVENTION, NOT DRONES
+FACT/EVIDENCE. In the same ABC report, Gail Cheers emphasised support for young people from early school years and a whole-community/services response involving children and parents. No drone advocacy appears in that recorded 2024 evidence. Until the 2026 Argus article is obtained, it is unsafe to infer that the headline quotation itself represents support for drone deployment.
+F-224 — PUBLIC POLAIR MESSAGING CONTAINS A PURPOSE-SCOPE INCONSISTENCY
+FACT/EVIDENCE. In June 2026 Brendan Moylan was quoted saying the Moree drones were 'solely used for crime', while the same public reporting described intended or actual uses including search and rescue, motor-vehicle collisions, fires and other emergencies. The inconsistency does not establish misuse; it shows that public descriptions of program scope are not consistently framed.
+F-225 — THE 'NOT SURVEILLANCE' MESSAGE REMAINS IN TENSION WITH PUBLICLY DESCRIBED PROACTIVE USE
+FACT/EVIDENCE. NSW Police Commissioner Mal Lanyon publicly framed PolAir-Remote as reactive and 'not surveillance' at the February launch. Earlier January briefing material described proactive flying and covert/overt aerial exercises. This is a documented communications inconsistency and should be tested against the controlling operational policy rather than resolved rhetorically.
+F-226 — LECC HAS JURISDICTION TO RECEIVE A SYSTEMIC NSW POLICE AGENCY COMPLAINT
+FACT/EVIDENCE. Section 35 of the Law Enforcement Conduct Commission Act 2016 allows any person to complain about conduct of the NSW Police Force that is or could be agency maladministration. The Act's objects expressly include identifying systemic issues and assessing the effectiveness and appropriateness of police procedures concerning legality and propriety.
+F-227 — LECC CAN EXAMINE SYSTEMIC PRACTICE, NOT ONLY INDIVIDUAL OFFICER MISCONDUCT
+FACT/EVIDENCE. LECC publicly states that it conducts systemic research into police practices/processes, policy clarity/lawfulness, compliance, training and supervision. Therefore a PolAir-Remote concern about systemic tasking, discriminatory effect, privacy boundaries or inadequate governance is not conceptually confined to an allegation against a named operator.
+F-228 — A RESIDENT HAS IDENTIFIABLE COMPLAINT AND INFORMATION-ACCESS ROUTES, BUT MAY FIRST NEED TO DISCOVER THAT A FLIGHT OCCURRED
+FACT/EVIDENCE + INFERENCE. LECC accepts complaints and information reports about NSW Police; NSW Police InfoLink is the formal access route for police records under GIPA. The practical accountability problem remains that a resident who does not know a drone observed their property may not know to request the corresponding flight record or make a complaint.
+F-229 — NO PUBLIC POLAIR-REMOTE OVERSIGHT FINDING WAS LOCATED FROM LECC, IPC, OMBUDSMAN OR AUDIT OFFICE
+NEGATIVE SEARCH. Targeted searches did not locate a PolAir-Remote-specific published investigation, audit or determination from LECC, the NSW Information and Privacy Commission, NSW Ombudsman or NSW Audit Office. This does not establish that no complaints, internal inquiries or unpublished oversight activity exist.
+F-230 — PUBLIC AUDITABILITY CURRENTLY DEPENDS ON GIPA BECAUSE THE CONTROLLING RPAS POLICY IS NOT IN THE PUBLIC POLICY INDEX
+FACT/EVIDENCE. NSW Police's current public policy/procedure index exposes many operational policies and the 2025 Privacy Management Plan, but no controlling RPAS/PolAir-Remote operational policy was located. NSW Police itself states that some documents are available only through formal GIPA access. The investigation's segmented GIPA acquisition pack is therefore the correct next mechanism for the unresolved control layer.
+Question Bank effect
+This pass materially advances Z (Q603–Q621), AA (Q622–Q635), AB (Q636–Q656) and AC (Q657–Q675), but does not close them. The highest-value unresolved records remain: the complete Macleay Argus article; Kemp briefing/source records for petition statistics; the controlling RPAS policy; Moree evaluation; complaints/privacy-incident aggregate; and any independent oversight examination.
+Primary / authoritative source record
+Michael Kemp MP official electorate website — top-level 'Drone Petition' link.
+NSW Parliament — Mr Michael Peter Kemp MP member profile and Oxley electorate details.
+NSW Parliament — Q&A 6484, asked 13 November 2025: Kemp's request for Kempsey youth-crime KPIs and public progress reporting.
+NSW Parliament — Legislative Assembly petitions register / tabled petitions searches.
+ABC News, 29 October 2024 — Kempsey regional-crime inquiry report containing Gail Cheers' 'I don't sleep at night' evidence and early-intervention comments.
+ABC News, 19 February 2026 — PolAir-Remote launch and 'not surveillance' statements.
+Moree Online News, 5 and 12 June 2026 — Moylan/consultation messaging on program purpose and future development.
+Law Enforcement Conduct Commission Act 2016 — objects and complaint jurisdiction.
+LECC — complaint, information-report and systemic-research guidance.
+NSW Police — Policies, Procedures and Legislation index; Requesting Information / InfoLink / GIPA guidance.
+NSW Police — Aviation Command page confirming Aviation Command maintains NSWPF remotely piloted aircraft.
+Next investigation gate
+Move from provenance/auditability to Answer Register resolution: systematically classify Question Bank items already answerable from the cumulative evidence as RESOLVED / PARTIAL / OPEN-PRIMARY-RECORD / OPEN-ANALYTICAL, beginning with A–K. Do not re-research settled findings unless a new primary record changes them.
+

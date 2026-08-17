@@ -612,6 +612,16 @@ details.record[open] > summary::after {
   font-size: 0.88rem;
 }
 
+.doc-page .landing-card.locked {
+  border-style: dashed;
+  opacity: 0.6;
+  cursor: default;
+}
+
+.doc-page .landing-card.locked:hover {
+  border-color: var(--border);
+}
+
 .doc-page table {
   width: 100%;
   border-collapse: collapse;

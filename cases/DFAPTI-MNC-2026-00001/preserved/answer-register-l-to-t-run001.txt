@@ -1,0 +1,246 @@
+
+MAYHEM - POLAIR-REMOTE
+ANSWER REGISTER L-T
+RUN 001 - Moree -> Kempsey -> Mid North Coast - 16 August 2026
+Control artifact: MAYHEM-MNC-POLAIR-REMOTE-CONTINUING-INVESTIGATION-QUESTION-BANK-v1_0.docx
+Coverage: Q313-Q519 only (Sections L-T). Original question numbers and wording preserved. This is an answer-status register, not a closed investigation report.
+Evidence rule: absence from public sources is not converted into non-existence. Missing internal records remain OPEN - PRIMARY RECORD. Questions requiring linked causal, demographic or economic calculation remain OPEN - ANALYTICAL.
+RUN 001 STATUS
+207 questions classified: 4 RESOLVED; 27 PARTIAL; 134 OPEN - PRIMARY RECORD; 42 OPEN - ANALYTICAL.
+Current verification at run date: Buy NSW YR-2026-0058 remains closed with no posted notices; NSW Parliament Q&A 108763 still states the Moree trial total cost had not yet been finalised. The formal Moree evaluation and stop/go instrument remain publicly unlocated.
+STATUS DEFINITIONS
+RESOLVED - current evidence answers the question sufficiently for the present investigation state.
+PARTIAL - evidence answers part of the question, but a material definition, denominator, record or implementation fact remains missing.
+OPEN - PRIMARY RECORD - resolution depends on a record not publicly located or not yet acquired.
+OPEN - ANALYTICAL - the required test is identifiable, but linked mission/person/outcome/cost data are insufficient to calculate or attribute the result.
+EVIDENCE ANCHORS
+MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-7-2026-08-16.docx through SNAPSHOT-12-2026-08-16.docx.
+MAYHEM-MNC-POLAIR-REMOTE-AE-PRIMARY-RECORD-ACQUISITION-REGISTER-RUN-001-2026-08-16.docx and GIPA Primary Record Acquisition Pack v1.0.
+Buy NSW - YR-2026-0058 RPAS Panel: published 2 June 2026; closed 30 June; estimated decision 20 July; no notices posted at 16 August.
+NSW Parliament Q&A 108763, answered 30 July 2026: Moree drone-trial total cost not yet finalised.
+NSW Government Have Your Say - Moree RPAS consultation closed 12 June 2026; stated purpose was to inform future training, policy and capability development.
+Moree LGA Youth Crime Governance Group - co-chaired by Moree LALC and Premier's Department; shared decision-making, Aboriginal organisations, NSW Police, ALS, Aboriginal Affairs and Youth Justice.
+Closing the Gap Targets 10 and 11 - adult incarceration reduction and Aboriginal youth detention reduction targets.
+NSW Police / parliamentary Operation Soteria material - targeted serious repeat regional youth offending; roughly 80-100 ringleaders publicly described at launch; repeated bail/AVO compliance surges.
+Audit Office of NSW (2026) - youth detention $2,573.26/person/day; youth community supervision $367.68/person/day in 2024-25.
+NSW Government - $3.8m current Kempsey place-based investment; Buy NSW Kempsey Casework Support Program contract $934,725 (2025-2030).
+L. TECHNOLOGY RATCHET AND SUNK-COST EFFECT
+Q313  [PARTIAL]  What money had been committed to PolAir-Remote before the Moree trial evaluation was completed? - Material commitment plainly preceded completion/publication of any formal evaluation: docked aircraft were operational, a Bankstown remote-operations capability was in use, staff were trained, and two June 2026 capability-planning EOIs were already underway. The total committed amount is not public.
+Q314  [PARTIAL]  What infrastructure had been installed? - Public material establishes fixed dock/aircraft infrastructure in Moree and a remote operating capability linked to Bankstown. A complete asset inventory, site works schedule, communications stack and ownership record are not public.
+Q315  [PARTIAL]  What Remote Operations Centre infrastructure had been built or modified? - A Bankstown Remote Operations Centre was operational for Moree remote pilots. The investigation has not located a project record showing what was newly built, modified or reused for the trial.
+Q316  [OPEN - PRIMARY RECORD]  How many staff had been trained? - No public count of PolAir-Remote-trained pilots, tactical flight officers, maintainers, supervisors or local users has been located.
+Q317  [OPEN - PRIMARY RECORD]  How much training expenditure had occurred? - No itemised training expenditure has been located.
+Q318  [PARTIAL]  What CASA approvals had been obtained? - The operation necessarily sits within NSW Police Aviation Command's CASA operator framework and BVLOS/remote operating approvals. The exact Moree-specific CASA instruments, conditions and exemptions have not been acquired.
+Q319  [PARTIAL]  What operating procedures had been developed? - NSW Police told Parliament that RPAS use must comply with relevant NSWPF policies/procedures and its operator certificate. The actual Moree operating procedures/SOPs remain non-public.
+Q320  [PARTIAL]  What data integration work had been completed? - Live remote flight, video relay and operational tasking were functioning, so material systems integration had occurred. The data-flow/integration design, interfaces and implementation cost are not public.
+Q321  [PARTIAL]  What procurement work had been completed? - Before the evaluation was public, NSW Police had issued the April Aviation Command Operating Model Review EOI and the 2 June enterprise RPAS Panel EOI. Trial-specific purchasing and integration procurement remain unresolved.
+Q322  [PARTIAL]  What supplier relationships had been established? - Use of DJI aircraft/docks and operational support necessarily entails supplier/integrator relationships, but the identities, contracts, support arrangements and commercial terms for Moree have not been publicly established.
+Q323  [RESOLVED]  What future rollout planning had been undertaken? - Future rollout planning is verified. The RPAS Panel EOI expressly sought capability for future expansion/evolution across all regions, while senior police publicly said Moree would determine whether the model should scale.
+Q324  [OPEN - PRIMARY RECORD]  Had possible regional dock locations already been identified? - No public document has been located identifying a pre-existing list of future dock sites.
+Q325  [PARTIAL]  Had Kempsey-specific planning started? - Kempsey was publicly named as a possible future hotspot before the August petition, so conceptual planning existed. No Kempsey engineering, site, coverage or implementation plan has been located.
+Q326  [OPEN - PRIMARY RECORD]  Had Mid North Coast planning started? - No NSW Police Mid North Coast network feasibility or rollout plan has been located. Political advocacy for the region is not evidence of completed police planning.
+Q327  [OPEN - PRIMARY RECORD]  Which commitments could be cancelled at negligible cost? - Cannot be determined without the business case, asset ownership, contract termination terms and sunk-cost schedule.
+Q328  [OPEN - PRIMARY RECORD]  Which commitments create significant termination cost? - Cannot be determined without contract, asset, staffing and systems-integration cost records.
+Q329  [OPEN - ANALYTICAL]  Which infrastructure could be repurposed if the trial failed? - Central ROC capability, trained personnel and general RPAS governance could plausibly be reused for other police RPAS operations; the actual repurposable value cannot be quantified from current records.
+Q330  [OPEN - PRIMARY RECORD]  Which contracts would continue regardless of trial outcome? - No trial/supplier contract set has been acquired, so continuing obligations after a failed trial are unknown.
+Q331  [OPEN - PRIMARY RECORD]  Does NSW Police have an explicit sunk-cost safeguard in its decision process? - No explicit PolAir-Remote sunk-cost safeguard or decision rule has been publicly located.
+Q332  [OPEN - PRIMARY RECORD]  Is the trial evaluation required before any expansion contract can be executed? - No rule has been located requiring completion of the Moree evaluation before an expansion contract can be executed. The June EOI shows market preparation could occur before evaluation completion, but it was not itself an award.
+Q333  [OPEN - PRIMARY RECORD]  Is it required before new docks can be installed? - No public rule located makes the Moree evaluation a mandatory precondition to installing another dock.
+Q334  [OPEN - PRIMARY RECORD]  Is it required before operator recruitment or training expands? - No public rule located makes the Moree evaluation a mandatory precondition to expanding recruitment/training.
+Q335  [OPEN - PRIMARY RECORD]  Is it required before ROC capacity expands? - No public rule located makes the evaluation a mandatory precondition to increasing ROC capacity.
+Q336  [PARTIAL]  What decision remains genuinely open after the existing commitments? - Public statements said post-trial assessment would inform next steps, so continuation/expansion was represented as open. At the same time, scalable capability planning and operational continuation created path dependence. The exact decision still genuinely open is not documented.
+Q337  [OPEN - ANALYTICAL]  At what point would withdrawal become operationally or politically difficult? - This is a threshold analysis, not a currently measurable fact. Withdrawal becomes harder as fixed infrastructure, trained personnel, contracts, workflows, political commitments and dependent operations accumulate; the precise NSW Police threshold requires cost/contract data.
+M. FORMAL DECISION GATING
+Q338  [OPEN - PRIMARY RECORD]  Who has legal authority to decide whether PolAir-Remote continues? - No PolAir-Remote decision instrument has been located identifying the legal officer/body with final continuation authority.
+Q339  [OPEN - PRIMARY RECORD]  Who decides whether it expands? - No public instrument identifies the final expansion decision-maker.
+Q340  [OPEN - PRIMARY RECORD]  Who decides where it expands? - No public instrument identifies who has final authority over regional site selection.
+Q341  [OPEN - PRIMARY RECORD]  Is the Police Commissioner the decision authority? - The Commissioner has overall command/management responsibilities for NSW Police, but no PolAir-Remote instrument has been located proving that the Commissioner alone is the specific stop/go authority.
+Q342  [OPEN - PRIMARY RECORD]  Is ministerial approval required? - Ministerial involvement is public and political, but no record has been located showing whether formal ministerial approval is legally or administratively required for continuation/expansion.
+Q343  [OPEN - PRIMARY RECORD]  Is Treasury approval required? - No evidence located establishes a Treasury approval gate for this specific program; applicability will depend on expenditure, business-case and procurement arrangements.
+Q344  [OPEN - PRIMARY RECORD]  Is Cabinet approval required? - No evidence located establishes a Cabinet approval requirement for this specific expansion.
+Q345  [OPEN - PRIMARY RECORD]  Is procurement approval required? - Procurement controls plainly apply to acquisitions, but no PolAir-specific approval pathway/threshold has been acquired and expansion might occur through existing or future arrangements.
+Q346  [PARTIAL]  Is an AI assurance approval required? - NSW agencies are subject to the NSW AI Assessment Framework where AI use is within scope, with stronger governance for higher-risk uses. Whether PolAir-Remote currently contains an assessed AI use, and what approval applies, is unverified.
+Q347  [PARTIAL]  Is a Privacy Impact Assessment required? - Privacy-impact assessment is an established NSW governance tool, but no PolAir-specific PIA or instrument proving its mandatory status for this deployment has been acquired.
+Q348  [OPEN - PRIMARY RECORD]  Is a cyber-security accreditation required? - No PolAir-specific cyber accreditation/authority-to-operate record has been located.
+Q349  [PARTIAL]  Is CASA approval required for each regional operating model? - CASA authority depends on the operating model: ReOC conditions, BVLOS approvals and other aviation permissions may need to cover changed locations/operations. A blanket rule that every new region needs a wholly new approval is not established.
+Q350  [OPEN - PRIMARY RECORD]  What documentary evidence must exist before expansion? - No complete pre-expansion documentary checklist has been publicly located.
+Q351  [OPEN - PRIMARY RECORD]  What minimum performance threshold must be met? - No minimum performance threshold has been publicly located.
+Q352  [OPEN - PRIMARY RECORD]  What cost-effectiveness threshold must be met? - No cost-effectiveness threshold has been publicly located.
+Q353  [OPEN - PRIMARY RECORD]  What privacy threshold must be met? - No privacy threshold has been publicly located.
+Q354  [OPEN - PRIMARY RECORD]  What complaint threshold must be met? - No complaint threshold has been publicly located.
+Q355  [OPEN - PRIMARY RECORD]  What demographic-impact threshold must be met? - No demographic-impact threshold has been publicly located.
+Q356  [OPEN - PRIMARY RECORD]  What evidence would cause expansion to be refused? - No published refusal criterion has been located.
+Q357  [OPEN - PRIMARY RECORD]  What evidence would cause the existing system to be modified? - No published modification trigger has been located.
+Q358  [OPEN - PRIMARY RECORD]  What evidence would cause the program to be terminated? - No published termination trigger has been located.
+Q359  [OPEN - PRIMARY RECORD]  Is there a formal stop/go decision date? - No formal public stop/go decision date has been located. The January briefing described a six-month trial, while operational use continued after six months from 8 January.
+Q360  [OPEN - PRIMARY RECORD]  Has that decision already occurred? - No public stop/go instrument has been located. Continued August operations show continuation in practice, but do not prove a formal permanent-expansion decision occurred.
+Q361  [OPEN - PRIMARY RECORD]  Is there a written decision record? - No written stop/go decision record has been publicly located.
+Q362  [OPEN - PRIMARY RECORD]  Will it be publicly released? - No publication commitment for such a decision record has been located.
+Q363  [OPEN - PRIMARY RECORD]  If there is no predefined threshold, on what basis will decision-makers determine whether the trial “worked”? - The decision basis is currently opaque because predefined public thresholds have not been located. The formal evaluation framework/business case is the primary record needed to answer this.
+N. DECOMMISSIONING AND EXIT ARCHITECTURE
+Q364  [OPEN - PRIMARY RECORD]  Was decommissioning planned before the trial commenced? - No pre-deployment decommissioning plan has been publicly located.
+Q365  [OPEN - PRIMARY RECORD]  What happens if the trial fails? - No public failure-response plan specifies what must happen if the trial is judged unsuccessful.
+Q366  [OPEN - PRIMARY RECORD]  Are docks removed? - No public rule establishes whether Moree docks must be removed after failure/termination.
+Q367  [OPEN - PRIMARY RECORD]  Are aircraft reassigned? - No public rule establishes whether aircraft would be reassigned, stored, disposed of or retained.
+Q368  [OPEN - PRIMARY RECORD]  Is software access terminated? - No public rule establishes how software/cloud/ROC access is terminated.
+Q369  [OPEN - PRIMARY RECORD]  Are operator permissions revoked? - No public rule establishes revocation of operator permissions after termination.
+Q370  [OPEN - PRIMARY RECORD]  Are stored images deleted? - No PolAir-specific deletion rule for stored imagery has been located; general records/disclosure obligations may require preservation in some cases.
+Q371  [OPEN - PRIMARY RECORD]  Are telemetry records retained? - CASA aviation records have substantial retention obligations, but the specific treatment of PolAir telemetry after program termination is not public.
+Q372  [OPEN - PRIMARY RECORD]  Are operational procedures withdrawn? - No withdrawal process for operating procedures has been located.
+Q373  [OPEN - PRIMARY RECORD]  Does the ROC retain the ability to reactivate the capability? - The ROC would technically remain capable of RPAS operations if its systems/permissions were retained, but whether Moree capability could be reactivated after termination is a governance/contract question not publicly resolved.
+Q374  [PARTIAL]  Can trial infrastructure be converted into ordinary permanent police capability without another approval? - Operational continuation beyond the nominal January six-month window shows that trial infrastructure can remain in use. Whether conversion to ordinary permanent capability requires a distinct approval has not been established.
+Q375  [OPEN - PRIMARY RECORD]  Who authorises that transition? - No public transition-authority instrument has been located.
+Q376  [OPEN - PRIMARY RECORD]  Are contracts terminable without penalty? - Contract termination rights/penalties are unknown because the relevant contracts have not been acquired.
+Q377  [OPEN - PRIMARY RECORD]  What disposal rules apply to hardware? - General NSW Government asset-disposal rules exist, but the applicable ownership/disposal path for Moree hardware cannot be determined without the asset and contract records.
+Q378  [OPEN - PRIMARY RECORD]  What public notice would accompany termination? - No public-notice requirement specific to PolAir termination has been located.
+Q379  [OPEN - PRIMARY RECORD]  Is there any requirement to publish why the capability was terminated? - No requirement has been located compelling NSW Police to publish reasons for terminating this capability.
+O. CONSULTATION EFFECTIVENESS
+Q380  [PARTIAL]  What consultation occurred before Moree deployment? - Before/at commencement, a public briefing was held in Moree on 8 January 2026, the day the trial was reported to commence. A separate formal Have Your Say consultation occurred later and closed 12 June 2026. No evidence has been located of a prior community process with decision power before deployment.
+Q381  [PARTIAL]  Who participated? - The 8 January briefing publicly included police, the mayor, Brendan Moylan, Aboriginal Legal Service regional manager Chris Duncan and invited community representatives. A complete attendee list is not public.
+Q382  [PARTIAL]  What information were participants given? - Public reporting says participants were told about a six-month trial, remote operation, proactive and covert/overt aerial exercises and possible scaling. The complete briefing pack has not been acquired.
+Q383  [OPEN - PRIMARY RECORD]  Were operational limits disclosed? - The complete set of operational limits disclosed to participants is unknown because the briefing/consultation materials have not been acquired.
+Q384  [RESOLVED]  Was proactive patrol disclosed? - Yes. January reporting explicitly described proactive flying as part of the planned trial.
+Q385  [RESOLVED]  Was covert use disclosed? - Yes. January reporting explicitly described covert and overt aerial exercises.
+Q386  [PARTIAL]  Was recording disclosed? - Later launch messaging stated flights were not ordinarily recorded unless responding to crime. It is not established what recording information was disclosed at the January briefing or in the later survey.
+Q387  [OPEN - PRIMARY RECORD]  Was AI capability disclosed? - No record has been located showing that onboard/object-detection or other AI capability was disclosed to participants.
+Q388  [OPEN - PRIMARY RECORD]  Were retention arrangements disclosed? - No consultation material setting out retention arrangements has been located.
+Q389  [OPEN - PRIMARY RECORD]  Were data-hosting arrangements disclosed? - No consultation material setting out the actual NSW Police data-hosting architecture has been located.
+Q390  [PARTIAL]  What options were participants actually allowed to influence? - The official survey was framed as informing future training, policy and capability development. The full questionnaire has not been retrieved, so the exact menu of influence is unknown.
+Q391  [PARTIAL]  Could consultation have stopped deployment? - The formal Have Your Say process occurred after deployment, so it could not have prevented the initial January deployment. No evidence establishes that earlier briefing participants had veto power or that later respondents could require termination.
+Q392  [OPEN - PRIMARY RECORD]  Could it have limited proactive patrol? - No evidence establishes whether consultation could bind NSW Police to limit proactive patrol.
+Q393  [OPEN - PRIMARY RECORD]  Could it have altered retention? - No evidence establishes whether consultation could bind retention settings.
+Q394  [OPEN - PRIMARY RECORD]  Could it have prohibited particular analytics? - No evidence establishes whether consultation could prohibit particular analytics.
+Q395  [PARTIAL]  What concerns were raised? - Publicly documented concerns include privacy, mistrust and safeguards raised by the Aboriginal Legal Service and human-rights/privacy advocates; the full consultation issue set is not public.
+Q396  [OPEN - PRIMARY RECORD]  What changes were made because of those concerns? - No consultation response matrix has been located showing changes made because of feedback.
+Q397  [OPEN - PRIMARY RECORD]  Where is the consultation-response document? - No consolidated consultation-response/results document has been publicly located.
+Q398  [OPEN - PRIMARY RECORD]  Which proposed changes were rejected? - No record of rejected proposals has been located.
+Q399  [OPEN - PRIMARY RECORD]  Why were they rejected? - No reasons-for-rejection record has been located.
+Q400  [OPEN - PRIMARY RECORD]  Was feedback supplied to participants? - The consultation page confirms the survey process, but no public results/feedback-back report has been located.
+Q401  [RESOLVED]  Did consultation occur before or after material technical configuration was fixed? - The formal May/June Have Your Say consultation occurred after the system had been operational since January, so material technical configuration was already fixed before that consultation.
+Q402  [OPEN - PRIMARY RECORD]  Will Kempsey consultation occur before deployment? - No commitment has been located requiring Kempsey consultation before deployment.
+Q403  [OPEN - PRIMARY RECORD]  Will it occur before procurement or site selection? - No commitment has been located requiring Kempsey consultation before procurement or site selection.
+Q404  [OPEN - PRIMARY RECORD]  Will residents be able to influence whether deployment occurs at all? - No record currently establishes that Kempsey residents would have a binding choice on whether deployment occurs at all.
+Q405  [OPEN - PRIMARY RECORD]  Will consultation be repeated if the technical capability materially changes? - No public rule has been located requiring consultation to be repeated after material technical capability changes.
+P. SHARED GOVERNANCE AND LOCAL DECISION-MAKING
+Q406  [OPEN - PRIMARY RECORD]  Was the Moree Youth Crime Governance Group formally consulted before deployment? - No record has been located showing the Moree Youth Crime Governance Group was formally consulted before PolAir-Remote deployment.
+Q407  [OPEN - PRIMARY RECORD]  Did it approve the trial? - No record has been located showing the Governance Group approved or vetoed the drone trial.
+Q408  [OPEN - PRIMARY RECORD]  Did it co-design operating rules? - No record has been located showing it co-designed PolAir operating rules.
+Q409  [OPEN - PRIMARY RECORD]  Did it set success criteria? - No record has been located showing it set PolAir success criteria.
+Q410  [OPEN - PRIMARY RECORD]  Did it set surveillance boundaries? - No record has been located showing it set surveillance boundaries.
+Q411  [OPEN - PRIMARY RECORD]  Did it review privacy safeguards? - No record has been located showing it reviewed the PolAir privacy safeguards/PIA.
+Q412  [OPEN - PRIMARY RECORD]  Did it receive trial performance data? - No record has been located showing it received the formal trial performance dataset/evaluation.
+Q413  [OPEN - PRIMARY RECORD]  Does it currently receive flight-level or outcome reporting? - No record has been located showing continuing flight-level or outcome reporting to the Group.
+Q414  [OPEN - PRIMARY RECORD]  Does the Moree Local Aboriginal Land Council have a formal governance role in the program? - Moree LALC co-chairs the Youth Crime Governance Group and therefore has a formal role in broader place-based youth-crime governance. No formal role specifically governing PolAir-Remote has been located.
+Q415  [OPEN - PRIMARY RECORD]  Does the Aboriginal Legal Service have a formal oversight role? - The Aboriginal Legal Service is a member of the broader Governance Group and its regional manager attended the January drone briefing. No formal PolAir oversight authority for ALS has been located.
+Q416  [OPEN - PRIMARY RECORD]  Are Aboriginal community-controlled organisations represented in operational review? - ACCOs are strongly represented in Moree's broader youth-crime governance, but no PolAir-specific operational-review membership record has been located.
+Q417  [OPEN - PRIMARY RECORD]  Will Kempsey’s existing local Reference Group review the drone proposal before deployment? - Kempsey has an existing Reference Group that includes NSW Police and ACCOs and is co-developing the youth-crime Action Plan. No record commits the Group to review PolAir before deployment.
+Q418  [OPEN - PRIMARY RECORD]  Will local Aboriginal Community Controlled Organisations participate? - ACCO participation is built into the Kempsey Reference Group, but future participation in a drone decision is not yet established.
+Q419  [OPEN - PRIMARY RECORD]  Can the Reference Group recommend against deployment? - No document establishes that the Kempsey Reference Group can veto or formally recommend against PolAir deployment.
+Q420  [OPEN - PRIMARY RECORD]  Can it impose conditions? - No document establishes that the Reference Group can impose binding operational conditions on NSW Police.
+Q421  [OPEN - PRIMARY RECORD]  Will it receive continuing outcome data? - No commitment has been located to provide PolAir flight/outcome data to the Kempsey Reference Group.
+Q422  [OPEN - PRIMARY RECORD]  Will NSW Police be required to respond publicly to its recommendations? - No requirement has been located compelling NSW Police to respond publicly to any future Reference Group recommendation on PolAir.
+Q. ABORIGINAL EXPOSURE AND CLOSING THE GAP
+Q423  [OPEN - PRIMARY RECORD]  What proportion of PolAir-Remote flights occur over areas with high Aboriginal population share? - No de-identified Moree mission/person-level demographic dataset has been published or acquired, so the requested proportion cannot presently be calculated.
+Q424  [OPEN - PRIMARY RECORD]  What proportion of persons tracked are Aboriginal? - No de-identified Moree mission/person-level demographic dataset has been published or acquired, so the requested proportion cannot presently be calculated.
+Q425  [OPEN - PRIMARY RECORD]  What proportion of people stopped following drone detection are Aboriginal? - No de-identified Moree mission/person-level demographic dataset has been published or acquired, so the requested proportion cannot presently be calculated.
+Q426  [OPEN - PRIMARY RECORD]  What proportion arrested are Aboriginal? - No de-identified Moree mission/person-level demographic dataset has been published or acquired, so the requested proportion cannot presently be calculated.
+Q427  [OPEN - PRIMARY RECORD]  What proportion charged are Aboriginal? - No de-identified Moree mission/person-level demographic dataset has been published or acquired, so the requested proportion cannot presently be calculated.
+Q428  [OPEN - PRIMARY RECORD]  What proportion are children? - No de-identified Moree mission/person-level demographic dataset has been published or acquired, so the requested proportion cannot presently be calculated.
+Q429  [OPEN - PRIMARY RECORD]  What proportion are placed on bail? - No de-identified Moree mission/person-level demographic dataset has been published or acquired, so the requested proportion cannot presently be calculated.
+Q430  [OPEN - PRIMARY RECORD]  What proportion are refused bail? - No de-identified Moree mission/person-level demographic dataset has been published or acquired, so the requested proportion cannot presently be calculated.
+Q431  [OPEN - PRIMARY RECORD]  What proportion enter remand? - No de-identified Moree mission/person-level demographic dataset has been published or acquired, so the requested proportion cannot presently be calculated.
+Q432  [OPEN - PRIMARY RECORD]  What proportion receive diversion? - No de-identified Moree mission/person-level demographic dataset has been published or acquired, so the requested proportion cannot presently be calculated.
+Q433  [OPEN - PRIMARY RECORD]  What proportion experience repeat drone-associated police contact? - No de-identified Moree mission/person-level demographic dataset has been published or acquired, so the requested proportion cannot presently be calculated.
+Q434  [OPEN - ANALYTICAL]  How do these rates compare with local population composition? - Cannot be calculated until Q423-Q433 denominators are acquired. Local Aboriginal population share is available, but exposure/contact rates are not.
+Q435  [OPEN - ANALYTICAL]  How do they compare with offence involvement? - Cannot be tested without person-level or suitably de-identified offence/contact data linking drone encounters to underlying offending indicators.
+Q436  [OPEN - ANALYTICAL]  Are disparities explained by underlying offending patterns? - Causal explanation of any disparity requires adjustment for offence involvement, location, tasking mode, time, repeat contact and policing strategy; those linked data are not available.
+Q437  [OPEN - ANALYTICAL]  Are disparities greater for proactive than reactive flights? - Cannot be tested without mission classification plus demographic exposure/contact data for proactive versus reactive flights.
+Q438  [OPEN - PRIMARY RECORD]  Has a Closing the Gap impact assessment been conducted? - No PolAir-specific Closing the Gap impact assessment has been publicly located.
+Q439  [OPEN - PRIMARY RECORD]  Does the evaluation test Target 10 implications? - No formal evaluation has been acquired showing whether Target 10 adult-incarceration implications are tested.
+Q440  [OPEN - PRIMARY RECORD]  Does it test youth-detention implications? - No formal evaluation has been acquired showing whether Target 11/youth-detention implications are tested.
+Q441  [OPEN - PRIMARY RECORD]  Does it assess community trust? - The formal evaluation/community survey results have not been published, so whether community trust is measured is unknown.
+Q442  [OPEN - PRIMARY RECORD]  Does it assess willingness to report crime? - No evidence has been located showing willingness-to-report is an evaluation KPI.
+Q443  [OPEN - PRIMARY RECORD]  Does it assess perceptions of over-surveillance? - No evidence has been located showing perceptions of over-surveillance are an evaluation KPI.
+Q444  [OPEN - PRIMARY RECORD]  Are Aboriginal organisations able to inspect de-identified outcome data? - Closing the Gap supports shared access to locally relevant data, but no record establishes that Aboriginal organisations receive de-identified PolAir outcome data.
+Q445  [OPEN - PRIMARY RECORD]  What threshold would trigger modification if disproportionate effects were identified? - No disproportionate-impact trigger or modification threshold has been publicly located.
+R. OPERATION SOTERIA COHORT ACCOUNTING
+Q446  [PARTIAL]  Who comprised the original approximately 80–100 high-risk cohort? - Public launch reporting identified roughly 80–100 'ringleaders' aged about 11–16 across nine northern/western regional hotspots. Individual identities are appropriately non-public and the original cohort register has not been acquired.
+Q447  [OPEN - PRIMARY RECORD]  How many were in Moree? - No original-cohort count for Moree has been published/acquired.
+Q448  [OPEN - PRIMARY RECORD]  How many were in Kempsey? - No original-cohort count for Kempsey has been published/acquired.
+Q449  [OPEN - PRIMARY RECORD]  How many were aged 14–16? - The targeted age band was publicly described as 11–16, but the number of original cohort members aged 14–16 is not public.
+Q450  [OPEN - PRIMARY RECORD]  How many were Aboriginal? - No original-cohort Aboriginality count has been published/acquired.
+Q451  [OPEN - PRIMARY RECORD]  How many were already on bail? - No baseline count of original cohort members already on bail has been acquired. Later Soteria reporting shows a substantial share of people charged were already on bail, but that is not the original cohort denominator.
+Q452  [PARTIAL]  What offences placed them in the cohort? - Operation Soteria publicly focused on serious repeat regional youth offending, particularly aggravated break-enter-steal, motor-vehicle theft and post-and-boast/performance offending. The exact person-level inclusion rule for the original cohort is not public.
+Q453  [OPEN - PRIMARY RECORD]  How many original members have ceased offending? - No longitudinal original-cohort exit/desistance count has been acquired.
+Q454  [OPEN - PRIMARY RECORD]  How many remain active? - No longitudinal original-cohort active count has been acquired.
+Q455  [OPEN - PRIMARY RECORD]  How many entered custody? - No original-cohort custody-transition dataset has been acquired.
+Q456  [OPEN - PRIMARY RECORD]  How many completed diversion? - No original-cohort diversion-completion dataset has been acquired.
+Q457  [OPEN - PRIMARY RECORD]  How many left the cohort for other reasons? - No original-cohort exit-reason dataset has been acquired.
+Q458  [OPEN - PRIMARY RECORD]  How many new individuals entered the cohort? - No linked dataset counts new entrants into the targeted cohort.
+Q459  [PARTIAL]  What is the current cohort size? - Later reporting has described a changing number of regional 'ringleaders', but the definitions and geography do not cleanly match the original 80–100 cohort. A current like-for-like cohort size remains unresolved.
+Q460  [OPEN - ANALYTICAL]  What is the replacement rate? - Replacement rate requires a longitudinal person-level cohort: original exits versus new high-risk entrants over time. Public operation totals cannot calculate it.
+Q461  [OPEN - ANALYTICAL]  What is the reoffending rate? - No cohort-specific reoffending rate can be calculated from published arrest/charge aggregates.
+Q462  [OPEN - ANALYTICAL]  What is the average number of legal actions per cohort member? - No cohort-linked legal-action dataset is available to compute the mean/median legal actions per original member.
+Q463  [OPEN - ANALYTICAL]  What proportion of published operational activity involves repeat processing of the same people? - Published operation totals clearly permit repeat processing, but the proportion attributable to repeated contacts with the same individuals cannot be calculated without unique-person identifiers.
+Q464  [OPEN - PRIMARY RECORD]  How many PolAir-assisted arrests involved original Soteria cohort members? - No data link PolAir-assisted arrests to membership of the original Soteria cohort.
+Q465  [OPEN - PRIMARY RECORD]  How many involved people outside the cohort? - No data quantify PolAir-assisted arrests outside that cohort.
+Q466  [OPEN - ANALYTICAL]  Does PolAir reduce offending among cohort members or merely increase detection? - Current evidence cannot distinguish reduced underlying offending from increased detection among cohort members without longitudinal offending/exposure data.
+Q467  [OPEN - ANALYTICAL]  Does it alter time between offences? - No data establish whether PolAir changes inter-offence time for cohort members.
+Q468  [OPEN - ANALYTICAL]  Does it improve successful diversion? - No data establish whether PolAir exposure improves diversion completion or success.
+Q469  [OPEN - ANALYTICAL]  Does it reduce replacement by new entrants? - No data establish whether PolAir reduces entry of replacement offenders; the required metric is replacement-adjusted cohort attrition.
+S. BAIL INTERACTION
+Q470  [OPEN - PRIMARY RECORD]  How many PolAir-associated arrests involved a person already on bail? - Individual cases establish that some PolAir-associated arrests involved people on bail or alleged bail breaches, but no aggregate denominator/count is published.
+Q471  [OPEN - PRIMARY RECORD]  How many produced bail-breach allegations? - Individual examples include breach-of-bail allegations, but the total number of PolAir-associated bail-breach allegations is unknown.
+Q472  [OPEN - PRIMARY RECORD]  How many resulted in bail refusal? - Multiple PolAir-assisted cases resulted in bail refusal, but no complete aggregate has been published.
+Q473  [OPEN - PRIMARY RECORD]  How many resulted in remand? - Bail refusal/remand outcomes are visible in individual media releases, but aggregate remand attributable to PolAir-associated arrests cannot be calculated.
+Q474  [OPEN - PRIMARY RECORD]  How many involved technical breach rather than new offending? - The published PolAir cases generally involve substantive alleged offending plus bail/AVO matters; no dataset isolates technical-only bail breaches.
+Q475  [OPEN - PRIMARY RECORD]  Has PolAir-Remote ever been tasked specifically to monitor bail compliance? - No evidence has been located that a PolAir-Remote mission was specifically tasked for routine bail-compliance monitoring as its primary purpose.
+Q476  [PARTIAL]  Has it been used during bail-compliance operations? - PolAir-Remote has been deployed during Operation Soteria surge activity in which officers conducted bail-compliance checks. Public material does not show that the drone itself performed those checks.
+Q477  [PARTIAL]  Has it been used during ADVO-compliance operations? - Likewise, PolAir-Remote has been present during surge operations containing ADVO-compliance checks, but no evidence establishes aerial ADVO monitoring as the task.
+Q478  [OPEN - PRIMARY RECORD]  Can police use it to monitor curfew compliance? - The controlling RPAS/bail-monitoring policy is not public, so permissibility and conditions for aerial curfew monitoring are unresolved.
+Q479  [OPEN - PRIMARY RECORD]  Can it be used to locate electronically monitored persons? - No policy or operational example has been located showing PolAir-Remote used to locate electronically monitored persons.
+Q480  [OPEN - PRIMARY RECORD]  Is such use permitted by current policy? - Current policy is not public, so this cannot be answered.
+Q481  [OPEN - PRIMARY RECORD]  What separate authorisation would be required? - Any separate authorisation would depend on the legal basis, tasking purpose, surveillance method and relevant internal policy; the specific rule is not public.
+Q482  [OPEN - ANALYTICAL]  What demographic impacts would expanded technological bail monitoring create? - This requires modelling who would be monitored, baseline bail/justice contact, false/secondary detections and resulting custody effects. Given existing Aboriginal youth overrepresentation, demographic effects could be material but are not quantifiable from current data.
+Q483  [OPEN - ANALYTICAL]  How would such use interact with Closing the Gap targets? - Expanded technological bail monitoring could affect Closing the Gap Target 11 through changes in police proceedings, bail breach detection and unsentenced detention. Direction/magnitude cannot be determined without linked demographic outcome data.
+T. ECONOMIC SYSTEM EFFECT
+Q484  [PARTIAL]  What is the complete capital cost of the Moree trial? - The complete capital cost is not public. On 30 July 2026 the Police Minister advised Parliament that the total trial cost had not yet been finalised; a hardware retail benchmark is not a substitute for the police system's capital cost.
+Q485  [OPEN - PRIMARY RECORD]  What is the complete recurrent cost? - No complete recurrent-cost figure has been published.
+Q486  [OPEN - PRIMARY RECORD]  What is the annual operator cost? - No annual operator-cost figure has been published.
+Q487  [OPEN - PRIMARY RECORD]  What is the annual ROC cost? - No annual Remote Operations Centre cost attributable to Moree has been published.
+Q488  [OPEN - PRIMARY RECORD]  What is the maintenance cost? - No Moree maintenance-cost figure has been published.
+Q489  [OPEN - PRIMARY RECORD]  What is the communications cost? - No Moree communications/network cost has been published.
+Q490  [OPEN - PRIMARY RECORD]  What is the software/licensing cost? - No software/licensing cost attributable to the Moree configuration has been published.
+Q491  [OPEN - PRIMARY RECORD]  What is the regulatory-compliance cost? - No trial-specific regulatory/compliance cost has been published.
+Q492  [OPEN - PRIMARY RECORD]  What is the data-storage cost? - No Moree data-storage cost has been published.
+Q493  [OPEN - PRIMARY RECORD]  What is the training cost? - No trial-specific training-cost figure has been published.
+Q494  [OPEN - ANALYTICAL]  What is the cost per flight? - Cannot be calculated until total relevant cost and complete flight count are disclosed.
+Q495  [OPEN - ANALYTICAL]  What is the cost per operational deployment? - Cannot be calculated until cost and mission-classified deployment counts are disclosed.
+Q496  [OPEN - ANALYTICAL]  What is the cost per successful location? - Cannot be calculated until cost and independently defined successful-location outcomes are linked at mission level.
+Q497  [OPEN - ANALYTICAL]  What is the cost per vehicle recovery attributable to the system? - Cannot be calculated until vehicle recoveries directly attributable to the system and full cost are verified.
+Q498  [OPEN - ANALYTICAL]  What is the cost per missing-person outcome? - Cannot be calculated until the missing-person aggregate and attributable mission/cost records are verified.
+Q499  [OPEN - ANALYTICAL]  What is the cost per officer-hour saved? - No officer-hour saving denominator has been published; this requires time-and-motion or tasking data.
+Q500  [OPEN - ANALYTICAL]  How many conventional PolAir hours were displaced? - No public dataset quantifies conventional PolAir hours actually displaced by Moree PolAir-Remote.
+Q501  [OPEN - ANALYTICAL]  What monetary saving resulted? - No monetary saving can be calculated without verified displaced aviation/ground hours and full system cost.
+Q502  [OPEN - ANALYTICAL]  What ground-police workload was added? - No mission-level study quantifies additional ground dispatch, arrest, reporting, transport or follow-up workload generated by drone detections.
+Q503  [OPEN - ANALYTICAL]  What custody workload was added? - No linked PolAir-to-custody workload dataset has been published.
+Q504  [OPEN - ANALYTICAL]  What court workload was added? - No linked PolAir-to-court finalisation workload dataset has been published.
+Q505  [OPEN - ANALYTICAL]  What Legal Aid workload was added? - No linked PolAir-to-Legal Aid workload dataset has been published.
+Q506  [OPEN - ANALYTICAL]  What bail-supervision workload was added? - No linked PolAir-to-bail-supervision workload dataset has been published.
+Q507  [OPEN - ANALYTICAL]  What detention expenditure followed drone-associated arrests? - No linked dataset totals detention days/cost following PolAir-associated arrests. As an economic benchmark, NSW youth detention cost $2,573.26 per young person per day in 2024–25, versus $367.68 for community supervision; that benchmark is not attributable expenditure from PolAir.
+Q508  [OPEN - ANALYTICAL]  How much victim harm was plausibly avoided? - No formal Moree evaluation quantifies victim harm avoided. Tactical apprehensions/property recovery/search outcomes establish plausible benefit, not monetised avoided harm.
+Q509  [OPEN - ANALYTICAL]  What property value was recovered? - No verified aggregate value of property recovered because of PolAir-Remote has been published.
+Q510  [OPEN - ANALYTICAL]  What dangerous pursuits were avoided? - No complete count or valuation of dangerous pursuits avoided because of PolAir-Remote has been published.
+Q511  [OPEN - ANALYTICAL]  What search-and-rescue costs were avoided? - No complete search-and-rescue cost avoidance has been published.
+Q512  [OPEN - ANALYTICAL]  What is the net cost per prevented harm? - Cannot be calculated from current data. Required model: full PolAir cost plus added ground/justice costs minus displaced aviation/search effort, property recovery, victim harm avoided and subsequent offending prevented.
+Q513  [OPEN - ANALYTICAL]  How does this compare with alternative investment in frontline police? - No like-for-like marginal comparison with additional frontline staffing has been published; staffing is a physical-intervention capability, so response outcomes must be compared rather than equipment price alone.
+Q514  [OPEN - ANALYTICAL]  How does it compare with youth intervention? - No like-for-like comparison has been published. Current context includes $3.8m place-based investment in Kempsey and a $934,725 five-year Kempsey Casework Support Program contract; these are scale comparators, not proof of superior outcomes.
+Q515  [OPEN - ANALYTICAL]  How does it compare with fixed CCTV? - Kempsey already has substantial fixed CCTV, but no local incremental-cost/effectiveness comparison between more CCTV and remote drones has been published.
+Q516  [OPEN - ANALYTICAL]  How does it compare with conventional PolAir? - The public claim that drones operate at a fraction of helicopter cost has not been supported by a complete methodology including personnel, ROC, communications, maintenance and ground response; no net comparison has been published.
+Q517  [OPEN - ANALYTICAL]  How does it compare with improved bail support? - Moree's broader package includes an $8.75m bail accommodation/support program and later intensive bail support. No marginal outcome/cost comparison against PolAir has been published.
+Q518  [OPEN - ANALYTICAL]  How does it compare with community supervision? - NSW Audit Office reports 2024–25 youth community supervision at $367.68 per person/day versus $2,573.26 detention. This demonstrates a large justice-cost differential but does not by itself establish whether supervision is a substitute for a policing technology or whether it prevents the same harms.
+Q519  [OPEN - ANALYTICAL]  What is the marginal yield of the next dollar spent on PolAir-Remote versus those alternatives? - Not calculable yet. The correct marginal-yield test must compare the next dollar of PolAir against frontline response, prevention/diversion, bail support, community supervision, CCTV/MANPR and conventional aviation using common prevented-harm and system-cost outcomes.
+RUN 001 CONTROL NOTE
+The dominant unresolved dependency in L-T is not lack of a question set; it is lack of the PolAir-specific primary control records and linked mission/person/outcome data. The current evidence is sufficient to verify scalable capability planning, post-deployment consultation timing, proactive/covert use disclosure, Moree shared-governance architecture outside the drone program, Soteria/bail operational overlap, and substantial justice-system cost differentials. It is not sufficient to establish stop/go thresholds, decommissioning rules, PolAir demographic exposure, cohort attrition, complete bail outcomes, or net economic yield.
+Next register block: U-AF, Q520-Q763. Continue using the same four-state classification without reopening settled evidence unless a new primary record changes it.
+

@@ -1,0 +1,802 @@
+
+MAYHEM — POLAIR-REMOTE CONTINUING INVESTIGATION QUESTION BANK
+Scope: Moree → Kempsey → Mid North Coast PolAir-Remote investigation
+Evidence base: Cumulative Snapshots 1–6 and DFAPTA analysis through AR-063
+Status: OPEN INVESTIGATION
+Purpose: Exhaustive question set for continuing evidence acquisition, causal analysis, governance testing and later enforcement architecture.
+A. MOREE TRIAL EVALUATION
+1. Does a formal NSW Police evaluation of the six-month Moree PolAir-Remote trial exist?
+2. Has it been completed?
+3. What date was it completed?
+4. Who commissioned it?
+5. Who conducted it?
+6. Was the evaluator operationally independent of the PolAir-Remote program?
+7. What evaluation methodology was used?
+8. What were the original trial objectives?
+9. Were those objectives documented before deployment?
+10. What were the original success criteria?
+11. Were failure criteria defined before deployment?
+12. Were continuation criteria defined before deployment?
+13. Were expansion criteria defined before deployment?
+14. Were termination criteria defined before deployment?
+15. Were any evaluation criteria changed during the trial?
+16. If changed, who authorised the changes and why?
+17. What baseline period was used?
+18. What comparison period was used?
+19. Was a comparison location or control group used?
+20. What offences were included in the evaluation?
+21. What offences were excluded?
+22. Were youth and adult offending evaluated separately?
+23. Were reactive and proactive drone operations evaluated separately?
+24. Were individual tactical outcomes separated from population-level outcomes?
+25. Were confounding interventions explicitly modelled?
+26. How were Operation Soteria, bail reforms, surge policing, Youth Action Meetings, diversion and place-based interventions treated analytically?
+27. Did the evaluation measure officer safety?
+28. Did it measure response time?
+29. Did it measure search time?
+30. Did it measure ground-police workload?
+31. Did it measure helicopter hours displaced?
+32. Did it measure arrests attributable specifically to PolAir-Remote?
+33. Did it measure property recovered specifically because of PolAir-Remote?
+34. Did it measure missing-person outcomes?
+35. Did it measure public confidence?
+36. Did it measure perceived safety?
+37. Did it measure privacy impacts?
+38. Did it measure complaints?
+39. Did it measure demographic impacts?
+40. Did it measure Aboriginal justice-system contact?
+41. Did it measure youth remand or detention effects?
+42. Did it measure false detections or unsuccessful deployments?
+43. Did it measure deployments producing no operational outcome?
+44. Did it quantify net cost-effectiveness?
+45. Will the complete evaluation be published?
+46. If not, what parts will be withheld and under what authority?
+47. What decision is the evaluation formally intended to control?
+B. PETITION CLAIM VERIFICATION
+48. What is the primary source for the claim that crime dropped by 50%?
+49. What exact crime measure does “50%” refer to?
+50. What geographic area does it cover?
+51. What offences are included?
+52. What age group is included?
+53. What dates form the baseline?
+54. What dates form the comparison?
+55. Does the 50% figure refer to recorded offences, offenders, police legal actions, arrests, charges or another measure?
+56. Was the decline already underway before January 2026?
+57. Who first attributed the decline to PolAir-Remote?
+58. Has NSW Police itself made that causal claim?
+59. Has BOCSAR made that causal claim?
+60. What is the primary source for “more than 100 arrests”?
+61. What definition of “assisted” is being used?
+62. Are these 100+ unique people?
+63. Are repeat arrests counted separately?
+64. Were all arrests directly dependent on drone involvement?
+65. Were some arrests made during operations in which a drone was merely present?
+66. How many arrests resulted from direct drone detection?
+67. How many resulted from drone tracking after another detection source?
+68. How many resulted from information already available to ground officers?
+69. What is the primary source for “over 70 stolen vehicles”?
+70. Were these 70+ separate vehicles?
+71. Were all recovered because of drone involvement?
+72. What constitutes drone contribution to a recovery?
+73. What is the primary source for the six missing persons figure?
+74. Were all six located directly by PolAir-Remote?
+75. Were any located using other police or emergency resources after initial drone assistance?
+76. What exactly does “30 to 60 seconds” measure?
+77. Does the clock begin at emergency call receipt, tasking, operator command or dock activation?
+78. Does it end at launch, airborne status or arrival over the incident?
+79. What percentage of deployments actually meet the 30–60 second measure?
+80. What is the median deployment time?
+81. What is the 90th percentile deployment time?
+82. What is the primary source for “a fraction of the cost of a police helicopter”?
+83. What drone-system cost is being used as the numerator?
+84. What helicopter cost is being used as the comparator?
+85. Does the comparison include personnel?
+86. Does it include communications?
+87. Does it include the Remote Operations Centre?
+88. Does it include maintenance?
+89. Does it include data infrastructure?
+90. Does it include regulatory compliance?
+91. Does it include ground response?
+92. Does it include downstream justice-system costs?
+C. CAUSAL ATTRIBUTION AND COUNTERFACTUAL
+93. What would Moree’s crime trajectory likely have been without PolAir-Remote?
+94. What pre-existing trend existed before January 2026?
+95. Which offence categories changed after deployment?
+96. Which did not?
+97. Did the rate of decline change after January 2026?
+98. Is any change statistically distinguishable from the pre-existing trend?
+99. How does Moree compare with similar regional locations without PolAir-Remote?
+100. How does Moree compare with the broader New England/North West trend?
+101. How does Moree compare with Regional NSW?
+102. Are changes concentrated in offences most susceptible to aerial detection?
+103. Did offences unaffected by drone capability move similarly?
+104. What part of the observed change can plausibly be attributed to Soteria?
+105. What part can plausibly be attributed to bail changes?
+106. What part can plausibly be attributed to diversion or place-based programs?
+107. What part can plausibly be attributed to ordinary policing changes?
+108. What evidence would falsify the proposition that PolAir-Remote materially reduced crime?
+109. What evidence would falsify the proposition that PolAir-Remote had no population-level effect?
+D. RESPONSE CAPABILITY VERSUS OBSERVATION CAPABILITY
+110. What is average aircraft launch time?
+111. What is average arrival time over the incident?
+112. What is average time until useful intelligence is relayed to ground police?
+113. What is average ground-police arrival time?
+114. What is average time from drone detection to physical intervention?
+115. What is average time from drone detection to arrest?
+116. How often does the drone arrive before ground police?
+117. How often does it locate a suspect before ground police arrive?
+118. How often are ground officers unavailable to act immediately on drone intelligence?
+119. How many deployments produce useful intelligence but no immediate intervention?
+120. Has PolAir-Remote reduced dangerous vehicle pursuits?
+121. Has it reduced foot-search time?
+122. Has it reduced the number of officers required for searches?
+123. Has it reduced conventional PolAir tasking?
+124. Has it reduced officer exposure to dangerous searches?
+125. Has it increased the number of incidents police detect without increasing physical-response capacity?
+126. Is local frontline staffing being increased alongside remote aerial observation capability?
+127. If not, what prevents a growing observation/intervention imbalance?
+E. FLIGHT-GEOGRAPHY DATA
+128. Is a mission-level flight log maintained for every PolAir-Remote deployment?
+129. What fields are recorded?
+130. Does each flight have a unique mission identifier?
+131. Is each flight linked to an incident or event number?
+132. Is each flight classified as reactive, proactive, training, testing or another category?
+133. What proportion of flights are reactive?
+134. What proportion are proactive?
+135. What proportion are scheduled patrols?
+136. What proportion occur during high-visibility operations?
+137. What proportion are covert?
+138. What geographic areas receive the highest flight frequency?
+139. Which streets or neighbourhoods receive repeated observation?
+140. What areas receive the longest cumulative loiter time?
+141. Are flight paths retained?
+142. Are altitude records retained?
+143. Are sensor-mode records retained?
+144. Is zoom use recorded?
+145. Is thermal use recorded?
+146. Is recording status recorded?
+147. Is operator identity recorded?
+148. Is purpose change during a flight recorded?
+149. Are people or vehicles tracked across multiple locations?
+150. Can flight geography be mapped against Aboriginal population distribution?
+151. Can it be mapped against offence location?
+152. Can it be mapped against socioeconomic disadvantage?
+153. Can it be mapped against proactive-policing operations?
+154. Are some communities exposed to substantially more aerial observation than their offence incidence would predict?
+155. Are private residential areas disproportionately represented in flight paths?
+156. Are repeated patrol routes used?
+157. Are patrol times predictable?
+158. Has geographic or temporal displacement been assessed?
+F. SECONDARY DETECTION AND PURPOSE EXPANSION
+159. What happens when a drone launched for one incident observes an unrelated possible offence?
+160. Can that observation generate a new police event?
+161. Who authorises the change in purpose?
+162. Must the operator document the secondary purpose?
+163. Is separate tasking required?
+164. Is separate legal authority required?
+165. Does the answer differ between live observation and recorded footage?
+166. Can incidental observations justify a search?
+167. Can they justify pursuit or tracking?
+168. Can they justify an arrest?
+169. Can they create an intelligence record?
+170. Can incidental imagery be retained after the original mission ends?
+171. Can it be searched retrospectively for unrelated investigations?
+172. Can footage collected for one purpose be used for another without new approval?
+173. Can unrelated vehicles be tracked?
+174. Can unrelated people be tracked?
+175. Can thermal imaging be used once the purpose changes?
+176. Can AI-assisted tracking be activated for the secondary matter?
+177. Is there a mandatory audit trail for every purpose change?
+178. Are secondary detections reported as a separate operational category?
+179. How frequently has secondary detection generated further police action?
+G. PRIVATE PROPERTY AND SURVEILLANCE BOUNDARIES
+180. What NSW Police policy governs aerial observation of private yards?
+181. What policy governs observation of home exteriors?
+182. What policy governs observation through windows?
+183. Is deliberate viewing through windows prohibited?
+184. Are there restrictions on zooming into residential property?
+185. Are there restrictions on thermal observation of homes?
+186. Are there restrictions on prolonged loitering over residences?
+187. Are there altitude or angle restrictions intended to protect privacy?
+188. Does the operational rule differ between emergency response and proactive patrol?
+189. Does the rule differ when a person is suspected of an offence?
+190. What legal authority is relied upon when the drone observes private activity from public airspace?
+191. When is a surveillance-device warrant required?
+192. When is another warrant or authority required?
+193. Who advises operators on the boundary?
+194. What happens when the boundary is breached accidentally?
+195. What happens when it is breached deliberately?
+196. Are privacy incidents separately logged?
+197. How many privacy complaints have been made?
+198. How many complaints have been substantiated?
+H. RECORDING, RETENTION AND SECONDARY USE
+199. Are PolAir-Remote flights recorded by default?
+200. Is video streamed without recording in some missions?
+201. Who decides whether recording occurs?
+202. Is audio collected?
+203. Are still images automatically generated?
+204. What metadata are attached to imagery?
+205. What is the retention period for evidentiary footage?
+206. What is the retention period for non-evidentiary footage?
+207. What is the retention period for incidental imagery?
+208. What is the retention period for telemetry?
+209. What is the retention period for flight logs?
+210. Are retention periods automatic or discretionary?
+211. Who can extend retention?
+212. What reason must be recorded?
+213. Who can access footage?
+214. Are access events logged?
+215. Are unauthorised access attempts logged?
+216. Can imagery be copied to another NSW Police system?
+217. Can it be provided to another agency?
+218. Can it be used for intelligence analysis?
+219. Can it be used for training?
+220. Can it be used to develop AI models?
+221. Can retained footage later be analysed for a purpose not contemplated when it was collected?
+222. What deletion verification exists?
+223. What happens to retained data if the program is terminated?
+I. AI, AUTOMATED DETECTION AND BIOMETRICS
+224. Which onboard AI functions are enabled on Moree aircraft?
+225. Is human-subject detection enabled?
+226. Is vehicle detection enabled?
+227. Is automatic subject tracking enabled?
+228. Is automatic reacquisition enabled?
+229. Are custom AI models installed?
+230. Are any third-party analytics connected?
+231. Are alarm-triggered automated launches enabled?
+232. Are scheduled autonomous patrols enabled?
+233. Does the Remote Operations Centre perform automated video analysis?
+234. Is object detection performed centrally?
+235. Is person detection performed centrally?
+236. Is facial recognition used anywhere in the workflow?
+237. Can individual frames be manually submitted for facial matching?
+238. Can recorded imagery be submitted to the National Facial Biometric Matching Capability?
+239. Has any PolAir-Remote imagery actually been submitted?
+240. What authority would permit that use?
+241. Is biometric use prohibited unless separately approved?
+242. Has a Privacy Impact Assessment considered biometric linkage?
+243. Has an NSW AI Assessment Framework assessment been conducted?
+244. What risk level was assigned?
+245. Who approved the AI use?
+246. Are AI false positives measured?
+247. Are AI detections required to be verified by a human?
+248. Can an automated detection itself generate police action?
+249. What reassessment occurs when software features change?
+250. What reassessment occurs when a new AI model is added?
+251. Is there a capability register showing enabled and disabled functions?
+J. DATA FLOW, CLOUD AND CYBERSECURITY
+252. Where is live video processed?
+253. Where is recorded video stored?
+254. Where are flight logs stored?
+255. Where is telemetry stored?
+256. Is DJI cloud infrastructure used?
+257. Is FlightHub 2 used?
+258. Is FlightHub 2 hosted or on-premises?
+259. Is Local Data Mode enabled?
+260. Are manufacturer cloud connections disabled?
+261. Does any operational data leave Australia?
+262. Does any telemetry leave Australia?
+263. Can DJI personnel access any data?
+264. Can another vendor access any data?
+265. Where are support personnel located?
+266. What encryption protects live transmission?
+267. What encryption protects stored data?
+268. What authentication protects operator access?
+269. Is multi-factor authentication mandatory?
+270. What privileged-access controls exist?
+271. Are system logs centrally monitored?
+272. Has penetration testing been conducted?
+273. Has a cyber-security risk assessment been conducted?
+274. Has a supply-chain risk assessment been conducted?
+275. Has foreign ownership/control/influence risk been assessed?
+276. What risk was identified for DJI?
+277. What mitigations were required?
+278. Were Commonwealth DJI restrictions considered?
+279. Why was the Moree configuration considered acceptable for NSW Police use?
+280. Is vendor remote support technically possible?
+281. Can vendor software updates change operational capability?
+282. Who approves firmware and software updates?
+283. Is each update security-assessed before deployment?
+K. PROCUREMENT AND SUPPLIER ARCHITECTURE
+284. What was the outcome of EOI YR-2026-0058?
+285. Was a panel established?
+286. Which suppliers were selected?
+287. Were any suppliers shortlisted?
+288. Have any contracts been executed?
+289. What are their values?
+290. What are their durations?
+291. What goods and services do they cover?
+292. What geographic scope do they cover?
+293. Do they include Remote Operations Centre services?
+294. Do they include autonomous dock systems?
+295. Do they include specialist payloads?
+296. Do they include AI functionality?
+297. Do they include software subscriptions?
+298. Do they include data hosting?
+299. Do they include support from overseas personnel?
+300. Do contracts allow future capability additions without a new procurement?
+301. Do contracts include exit rights?
+302. Do contracts include data-return and deletion obligations?
+303. Do contracts include cyber-security requirements?
+304. Do they impose Australian data-location requirements?
+305. Do they restrict foreign cloud services?
+306. Do they require notification of ownership/control changes?
+307. What did the Aviation Command Operating Model Review recommend?
+308. Has any recommendation been adopted?
+309. Has any subsequent procurement flowed from that review?
+310. Did the review assume expansion of remotely operated aircraft?
+311. Did it evaluate an option not to expand RPAS?
+312. Did it evaluate alternative investments in frontline staffing?
+L. TECHNOLOGY RATCHET AND SUNK-COST EFFECT
+313. What money had been committed to PolAir-Remote before the Moree trial evaluation was completed?
+314. What infrastructure had been installed?
+315. What Remote Operations Centre infrastructure had been built or modified?
+316. How many staff had been trained?
+317. How much training expenditure had occurred?
+318. What CASA approvals had been obtained?
+319. What operating procedures had been developed?
+320. What data integration work had been completed?
+321. What procurement work had been completed?
+322. What supplier relationships had been established?
+323. What future rollout planning had been undertaken?
+324. Had possible regional dock locations already been identified?
+325. Had Kempsey-specific planning started?
+326. Had Mid North Coast planning started?
+327. Which commitments could be cancelled at negligible cost?
+328. Which commitments create significant termination cost?
+329. Which infrastructure could be repurposed if the trial failed?
+330. Which contracts would continue regardless of trial outcome?
+331. Does NSW Police have an explicit sunk-cost safeguard in its decision process?
+332. Is the trial evaluation required before any expansion contract can be executed?
+333. Is it required before new docks can be installed?
+334. Is it required before operator recruitment or training expands?
+335. Is it required before ROC capacity expands?
+336. What decision remains genuinely open after the existing commitments?
+337. At what point would withdrawal become operationally or politically difficult?
+M. FORMAL DECISION GATING
+338. Who has legal authority to decide whether PolAir-Remote continues?
+339. Who decides whether it expands?
+340. Who decides where it expands?
+341. Is the Police Commissioner the decision authority?
+342. Is ministerial approval required?
+343. Is Treasury approval required?
+344. Is Cabinet approval required?
+345. Is procurement approval required?
+346. Is an AI assurance approval required?
+347. Is a Privacy Impact Assessment required?
+348. Is a cyber-security accreditation required?
+349. Is CASA approval required for each regional operating model?
+350. What documentary evidence must exist before expansion?
+351. What minimum performance threshold must be met?
+352. What cost-effectiveness threshold must be met?
+353. What privacy threshold must be met?
+354. What complaint threshold must be met?
+355. What demographic-impact threshold must be met?
+356. What evidence would cause expansion to be refused?
+357. What evidence would cause the existing system to be modified?
+358. What evidence would cause the program to be terminated?
+359. Is there a formal stop/go decision date?
+360. Has that decision already occurred?
+361. Is there a written decision record?
+362. Will it be publicly released?
+363. If there is no predefined threshold, on what basis will decision-makers determine whether the trial “worked”?
+N. DECOMMISSIONING AND EXIT ARCHITECTURE
+364. Was decommissioning planned before the trial commenced?
+365. What happens if the trial fails?
+366. Are docks removed?
+367. Are aircraft reassigned?
+368. Is software access terminated?
+369. Are operator permissions revoked?
+370. Are stored images deleted?
+371. Are telemetry records retained?
+372. Are operational procedures withdrawn?
+373. Does the ROC retain the ability to reactivate the capability?
+374. Can trial infrastructure be converted into ordinary permanent police capability without another approval?
+375. Who authorises that transition?
+376. Are contracts terminable without penalty?
+377. What disposal rules apply to hardware?
+378. What public notice would accompany termination?
+379. Is there any requirement to publish why the capability was terminated?
+O. CONSULTATION EFFECTIVENESS
+380. What consultation occurred before Moree deployment?
+381. Who participated?
+382. What information were participants given?
+383. Were operational limits disclosed?
+384. Was proactive patrol disclosed?
+385. Was covert use disclosed?
+386. Was recording disclosed?
+387. Was AI capability disclosed?
+388. Were retention arrangements disclosed?
+389. Were data-hosting arrangements disclosed?
+390. What options were participants actually allowed to influence?
+391. Could consultation have stopped deployment?
+392. Could it have limited proactive patrol?
+393. Could it have altered retention?
+394. Could it have prohibited particular analytics?
+395. What concerns were raised?
+396. What changes were made because of those concerns?
+397. Where is the consultation-response document?
+398. Which proposed changes were rejected?
+399. Why were they rejected?
+400. Was feedback supplied to participants?
+401. Did consultation occur before or after material technical configuration was fixed?
+402. Will Kempsey consultation occur before deployment?
+403. Will it occur before procurement or site selection?
+404. Will residents be able to influence whether deployment occurs at all?
+405. Will consultation be repeated if the technical capability materially changes?
+P. SHARED GOVERNANCE AND LOCAL DECISION-MAKING
+406. Was the Moree Youth Crime Governance Group formally consulted before deployment?
+407. Did it approve the trial?
+408. Did it co-design operating rules?
+409. Did it set success criteria?
+410. Did it set surveillance boundaries?
+411. Did it review privacy safeguards?
+412. Did it receive trial performance data?
+413. Does it currently receive flight-level or outcome reporting?
+414. Does the Moree Local Aboriginal Land Council have a formal governance role in the program?
+415. Does the Aboriginal Legal Service have a formal oversight role?
+416. Are Aboriginal community-controlled organisations represented in operational review?
+417. Will Kempsey’s existing local Reference Group review the drone proposal before deployment?
+418. Will local Aboriginal Community Controlled Organisations participate?
+419. Can the Reference Group recommend against deployment?
+420. Can it impose conditions?
+421. Will it receive continuing outcome data?
+422. Will NSW Police be required to respond publicly to its recommendations?
+Q. ABORIGINAL EXPOSURE AND CLOSING THE GAP
+423. What proportion of PolAir-Remote flights occur over areas with high Aboriginal population share?
+424. What proportion of persons tracked are Aboriginal?
+425. What proportion of people stopped following drone detection are Aboriginal?
+426. What proportion arrested are Aboriginal?
+427. What proportion charged are Aboriginal?
+428. What proportion are children?
+429. What proportion are placed on bail?
+430. What proportion are refused bail?
+431. What proportion enter remand?
+432. What proportion receive diversion?
+433. What proportion experience repeat drone-associated police contact?
+434. How do these rates compare with local population composition?
+435. How do they compare with offence involvement?
+436. Are disparities explained by underlying offending patterns?
+437. Are disparities greater for proactive than reactive flights?
+438. Has a Closing the Gap impact assessment been conducted?
+439. Does the evaluation test Target 10 implications?
+440. Does it test youth-detention implications?
+441. Does it assess community trust?
+442. Does it assess willingness to report crime?
+443. Does it assess perceptions of over-surveillance?
+444. Are Aboriginal organisations able to inspect de-identified outcome data?
+445. What threshold would trigger modification if disproportionate effects were identified?
+R. OPERATION SOTERIA COHORT ACCOUNTING
+446. Who comprised the original approximately 80–100 high-risk cohort?
+447. How many were in Moree?
+448. How many were in Kempsey?
+449. How many were aged 14–16?
+450. How many were Aboriginal?
+451. How many were already on bail?
+452. What offences placed them in the cohort?
+453. How many original members have ceased offending?
+454. How many remain active?
+455. How many entered custody?
+456. How many completed diversion?
+457. How many left the cohort for other reasons?
+458. How many new individuals entered the cohort?
+459. What is the current cohort size?
+460. What is the replacement rate?
+461. What is the reoffending rate?
+462. What is the average number of legal actions per cohort member?
+463. What proportion of published operational activity involves repeat processing of the same people?
+464. How many PolAir-assisted arrests involved original Soteria cohort members?
+465. How many involved people outside the cohort?
+466. Does PolAir reduce offending among cohort members or merely increase detection?
+467. Does it alter time between offences?
+468. Does it improve successful diversion?
+469. Does it reduce replacement by new entrants?
+S. BAIL INTERACTION
+470. How many PolAir-associated arrests involved a person already on bail?
+471. How many produced bail-breach allegations?
+472. How many resulted in bail refusal?
+473. How many resulted in remand?
+474. How many involved technical breach rather than new offending?
+475. Has PolAir-Remote ever been tasked specifically to monitor bail compliance?
+476. Has it been used during bail-compliance operations?
+477. Has it been used during ADVO-compliance operations?
+478. Can police use it to monitor curfew compliance?
+479. Can it be used to locate electronically monitored persons?
+480. Is such use permitted by current policy?
+481. What separate authorisation would be required?
+482. What demographic impacts would expanded technological bail monitoring create?
+483. How would such use interact with Closing the Gap targets?
+T. ECONOMIC SYSTEM EFFECT
+484. What is the complete capital cost of the Moree trial?
+485. What is the complete recurrent cost?
+486. What is the annual operator cost?
+487. What is the annual ROC cost?
+488. What is the maintenance cost?
+489. What is the communications cost?
+490. What is the software/licensing cost?
+491. What is the regulatory-compliance cost?
+492. What is the data-storage cost?
+493. What is the training cost?
+494. What is the cost per flight?
+495. What is the cost per operational deployment?
+496. What is the cost per successful location?
+497. What is the cost per vehicle recovery attributable to the system?
+498. What is the cost per missing-person outcome?
+499. What is the cost per officer-hour saved?
+500. How many conventional PolAir hours were displaced?
+501. What monetary saving resulted?
+502. What ground-police workload was added?
+503. What custody workload was added?
+504. What court workload was added?
+505. What Legal Aid workload was added?
+506. What bail-supervision workload was added?
+507. What detention expenditure followed drone-associated arrests?
+508. How much victim harm was plausibly avoided?
+509. What property value was recovered?
+510. What dangerous pursuits were avoided?
+511. What search-and-rescue costs were avoided?
+512. What is the net cost per prevented harm?
+513. How does this compare with alternative investment in frontline police?
+514. How does it compare with youth intervention?
+515. How does it compare with fixed CCTV?
+516. How does it compare with conventional PolAir?
+517. How does it compare with improved bail support?
+518. How does it compare with community supervision?
+519. What is the marginal yield of the next dollar spent on PolAir-Remote versus those alternatives?
+U. DETERRENCE
+520. Do likely offenders know PolAir-Remote exists?
+521. Do they understand its thermal capability?
+522. Do they understand its tracking capability?
+523. Do they perceive it as increasing their probability of apprehension?
+524. Has perceived escape probability changed?
+525. Have offence attempts declined without corresponding arrest increases?
+526. Did vehicle theft decline after high-profile drone interceptions?
+527. Did break-and-enter decline?
+528. Are changes greater during periods when the technology received extensive publicity?
+529. Does deterrence persist when the drone is not airborne?
+530. Does publicity itself form part of the intervention?
+531. What anonymous offender or youth survey could test perceived detection certainty?
+532. Can deterrence be separated from incapacitation and desistance?
+V. DISPLACEMENT AND SUBSTITUTION
+533. Did targeted offences increase in communities surrounding Moree?
+534. Did they increase along major transport routes?
+535. Did offending move outside likely drone coverage?
+536. Did offending shift to different times of day?
+537. Did offending shift to weather conditions less suitable for drone operations?
+538. Did offending move indoors?
+539. Did targeted property offending decline while other offences increased?
+540. Did offenders adopt techniques designed to defeat aerial observation?
+541. Did surrounding communities experience diffusion of benefits instead?
+542. What geographic comparison area should be used?
+543. What temporal windows should be compared?
+544. Is displacement temporary or persistent?
+545. Is any displacement attributable specifically to PolAir rather than Soteria or other policing?
+W. PUBLIC CONFIDENCE AND PERCEIVED SAFETY
+546. Has Moree residents’ perceived safety improved since PolAir-Remote deployment?
+547. Has confidence in police improved?
+548. Has confidence in courts improved?
+549. Has willingness to report crime changed?
+550. Have privacy concerns increased?
+551. Do residents distinguish youth property crime from adult violence?
+552. Do victims report improved security?
+553. Do young people report increased surveillance pressure?
+554. Do Aboriginal residents report different effects from other residents?
+555. Are people more comfortable using public space?
+556. Has fear of crime changed independently of recorded crime?
+557. What information sources shape local perceptions?
+558. Does publicity about arrests increase confidence?
+559. Does repeated publicity about crime increase fear simultaneously?
+560. Can objective harm and perceived safety move in opposite directions?
+X. KEMPSEY NECESSITY TEST
+561. What specific policing capability deficit exists in Kempsey?
+562. Which incident types would benefit from aerial response?
+563. How many such incidents occur each year?
+564. Where do they occur?
+565. At what times?
+566. What is current police response time?
+567. What is current suspect-location time?
+568. What proportion are already resolved rapidly without aerial assistance?
+569. What proportion occur within practical drone range?
+570. What proportion occur in terrain suitable for reliable operation?
+571. What measurable problem cannot currently be solved efficiently by ground police?
+572. Could additional frontline staffing address that problem?
+573. Could fixed CCTV address it?
+574. Could mobile CCTV address it?
+575. Could conventional PolAir address it?
+576. Could other technology address it more cheaply?
+577. What incremental benefit would PolAir-Remote provide?
+578. What measurable outcome would justify the investment?
+579. What outcome would demonstrate no meaningful marginal benefit?
+Y. MID NORTH COAST TRANSFERABILITY
+580. What geographic area is meant by “Mid North Coast” in the petition?
+581. Is the proposed coverage Kempsey-centred or district-wide?
+582. How many docks would be required?
+583. Where would they be located?
+584. How many aircraft would be required?
+585. What response radius would each dock provide?
+586. What terrain limits apply?
+587. What vegetation limits apply?
+588. What coastal-weather limits apply?
+589. What mountain/valley communications limits apply?
+590. What BVLOS permissions would be required?
+591. What telecommunications infrastructure is needed?
+592. What redundancy is required?
+593. What happens during network outages?
+594. What happens during severe weather?
+595. What happens when multiple incidents occur simultaneously?
+596. What maintenance coverage is required?
+597. What spare-aircraft capacity is required?
+598. What operating hours would apply?
+599. What is the capital cost of a regional network?
+600. What is the recurrent cost?
+601. Can a Moree performance metric legitimately be transferred to this environment?
+602. What local trial or engineering assessment is required before rollout?
+Z. POLITICAL FEEDBACK AND REPRESENTATION
+603. When was Michael Kemp first briefed on PolAir-Remote?
+604. What information was provided?
+605. Was he given the formal trial evaluation?
+606. If not, what evidence underlies the petition's numerical claims?
+607. Who supplied those figures?
+608. Were caveats supplied with them?
+609. Why does the petition describe the trial as having “demonstrated” success before a public evaluation was located?
+610. What geographic rollout does Kemp intend when he says “Mid North Coast”?
+611. Does he support a Kempsey pilot or a distributed regional network?
+612. What cost does he expect?
+613. What safeguards does he support?
+614. Does he support proactive patrol?
+615. Does he support recording limits?
+616. Does he support restrictions on AI or biometric use?
+617. Does he support publication of flight and outcome statistics?
+618. Does he support Aboriginal-impact reporting?
+619. Does he support a formal stop/go threshold?
+620. Would he support termination if the Moree evaluation shows poor net yield?
+621. Does he support applying the same KPI transparency to the drone proposal that he previously requested for youth-crime spending?
+AA. MEDIA AND PUBLIC CLAIM ARCHITECTURE
+622. What did the complete 11 August Macleay Argus article actually say?
+623. Who supplied the headline quotation?
+624. Was that person explicitly advocating drone deployment?
+625. Were the petition's numerical claims independently checked?
+626. Were the Moree pre-existing crime trends explained?
+627. Were competing interventions explained?
+628. Was the missing formal evaluation disclosed?
+629. Was proactive drone use disclosed?
+630. Were privacy questions discussed?
+631. Was the difference between Kempsey deployment and Mid North Coast network deployment explained?
+632. Was aircraft launch time represented as police response time?
+633. Was hardware cost represented as total program cost?
+634. Did subsequent reporting repeat the numerical claims without primary sourcing?
+635. How does public framing affect political demand?
+AB. OVERSIGHT AND COMPLAINT ARCHITECTURE
+636. What NSW Police unit audits PolAir-Remote operations?
+637. How often are audits conducted?
+638. What does the audit inspect?
+639. Are flight logs sampled?
+640. Are proactive missions separately audited?
+641. Are privacy intrusions audited?
+642. Are secondary-purpose changes audited?
+643. Are AI detections audited?
+644. Are access logs audited?
+645. Can LECC obtain complete flight-level data?
+646. Can LECC review systemic RPAS policy?
+647. Has LECC received any complaints relating to PolAir-Remote?
+648. Has the NSW Ombudsman examined the program?
+649. Has the Privacy Commissioner examined it?
+650. Has the Auditor-General examined it?
+651. What complaint route is available to a resident who believes a drone improperly observed their property?
+652. How would that person know a flight occurred?
+653. Can they obtain relevant flight data?
+654. Can they obtain footage?
+655. Are complaints independently reviewed?
+656. Are systemic findings published?
+AC. PUBLIC AUDITABILITY
+657. Where is the controlling NSW Police RPAS policy?
+658. Is it public?
+659. If not, why not?
+660. Which sections could safely be published?
+661. Where are launch criteria published?
+662. Where are proactive-patrol rules published?
+663. Where are recording rules published?
+664. Where are retention rules published?
+665. Where are AI-use rules published?
+666. Where are biometric-use rules published?
+667. Where are privacy safeguards published?
+668. Where are complaints statistics published?
+669. Where are mission totals published?
+670. Where are outcome metrics published?
+671. Where are demographic effects published?
+672. Where are trial costs published?
+673. Where are supplier contracts published?
+674. Where is the evaluation published?
+675. If these records exist internally but are not public, what minimum disclosure is necessary for meaningful external scrutiny?
+AD. STRUCTURAL HARM MECHANISM TESTS
+676. Does the public narrative compress tactical success into population-level effectiveness?
+677. Does it compress Moree suitability into Kempsey suitability?
+678. Does it compress Kempsey suitability into Mid North Coast suitability?
+679. Does it compress launch time into response time?
+680. Does it compress hardware/aviation cost into net system cost?
+681. Are police-generated success reports being treated as independent evaluation evidence?
+682. Are critical terms defined by the institution whose program is being evaluated?
+683. Is “assisted” operationally defined?
+684. Is “crime reduction” operationally defined?
+685. Is “deployment time” operationally defined?
+686. Is “success” operationally defined?
+687. Does consultation possess real decision power or primarily retrospective legitimating value?
+688. Are neutral deployment criteria producing disproportionate exposure?
+689. Are incentives tied to visible enforcement outputs rather than prevention or desistance?
+690. Are key operational rules opaque because disclosure is genuinely security-sensitive or because auditability has not been designed into the system?
+691. Does expansion occur faster than independent verification?
+692. Are downstream harms externalised away from decision-makers controlling the capability?
+693. Are available self-correction mechanisms practically usable?
+AE. REQUIRED PRIMARY RECORDS
+694. Obtain the complete Moree six-month evaluation.
+695. Obtain the original trial business case.
+696. Obtain the trial evaluation framework.
+697. Obtain the original KPI document.
+698. Obtain the trial risk register.
+699. Obtain the trial Privacy Impact Assessment.
+700. Obtain any AI Assessment Framework assessment.
+701. Obtain the cyber-security assessment.
+702. Obtain the DJI/vendor risk assessment.
+703. Obtain data-flow diagrams.
+704. Obtain data-retention schedules.
+705. Obtain the controlling RPAS operational policy.
+706. Obtain operator SOPs where releasable.
+707. Obtain launch-authority rules.
+708. Obtain proactive-patrol rules.
+709. Obtain mission-classification definitions.
+710. Obtain de-identified mission-level flight data.
+711. Obtain de-identified outcome data.
+712. Obtain complaints and privacy-incident data.
+713. Obtain EOI YR-2026-0058 outcome records.
+714. Obtain any RPAS panel award.
+715. Obtain subsequent contracts.
+716. Obtain Aviation Command Operating Model Review findings.
+717. Obtain any Mid North Coast feasibility study.
+718. Obtain any Kempsey site or coverage assessment.
+719. Obtain complete Moree trial expenditure.
+720. Obtain projected recurrent expenditure.
+721. Obtain conventional PolAir comparison methodology.
+722. Obtain consultation submissions.
+723. Obtain consultation analysis.
+724. Obtain NSW Police responses to consultation issues.
+725. Obtain records of consultation with Moree Youth Crime Governance Group.
+726. Obtain records of Aboriginal community-controlled organisation involvement.
+727. Obtain any Closing the Gap impact analysis.
+728. Obtain the full Macleay Argus article.
+729. Obtain the primary briefing supporting Kemp's petition statistics.
+730. Obtain any ministerial or departmental briefing concerning expansion to Kempsey.
+731. Obtain any decision record setting expansion criteria.
+732. Obtain any stop/go decision instrument.
+733. Obtain any termination or decommissioning plan.
+AF. ULTIMATE DECISION QUESTIONS
+734. What precise policing problem is PolAir-Remote intended to solve?
+735. How large is that problem?
+736. How much of it can the technology actually reach?
+737. How much improvement is directly attributable to PolAir-Remote?
+738. What other interventions contributed?
+739. What harms were prevented?
+740. What new system contacts were generated?
+741. What downstream costs were generated?
+742. What downstream costs were avoided?
+743. Who benefits?
+744. Who bears surveillance exposure?
+745. Who bears criminal-justice consequences?
+746. Are those effects distributed equitably?
+747. What is the net yield for humans?
+748. Is the yield greater than realistic alternatives?
+749. What operational restrictions are necessary to preserve that yield?
+750. What data should be publicly reported continuously?
+751. What independent oversight is required?
+752. What would constitute program failure?
+753. What would require modification?
+754. What would justify expansion?
+755. What would require termination?
+756. Have those rules been fixed before expansion decisions are made?
+757. Is Moree evidence sufficient to support Kempsey deployment?
+758. Is Kempsey evidence sufficient to support a Mid North Coast network?
+759. Is the public being asked to support a defined capability or an expandable technical architecture whose future functions remain materially open?
+760. Is institutional capability development advancing faster than the evidence required to justify its expansion?
+761. Does the formal decision architecture retain a genuine ability to say no?
+762. If the answer is yes, where is that control evidenced?
+763. If the answer is unknown, what primary record will resolve it?
+

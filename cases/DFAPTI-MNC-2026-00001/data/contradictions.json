@@ -1,0 +1,22 @@
+[
+  {
+    "contradiction_id": "CTR-0001",
+    "description": "NSW Police public launch messaging describes PolAir-Remote as reactive, incident-response capability and explicitly \"not surveillance\" (Commissioner Mal Lanyon, 19 February 2026 formal launch), while contemporaneous January 2026 trial-commencement reporting describes the same program flying proactively and conducting both covert and overt aerial exercises as part of its planned operating model.",
+    "supporting_evidence": ["EV-0006"],
+    "opposing_evidence": ["EV-0007"],
+    "status": "Open",
+    "material_significance": "Determines whether governance analysis should treat PolAir-Remote as narrow incident-response tooling or as a proactive aerial-patrol capability. The privacy, consultation and oversight requirements differ materially between the two modes, and the petition does not specify which model a Mid North Coast rollout would use - it asks to expand \"the program\" without qualification.",
+    "required_resolution": "The controlling NSW Police RPAS/PolAir-Remote operational policy defining launch authority, proactive-patrol rules and mission classification, sought in GIPA Application 2 (Q-0005).",
+    "resolution_evidence": []
+  },
+  {
+    "contradiction_id": "CTR-0002",
+    "description": "Brendan Moylan is quoted in June 2026 describing the Moree drones as \"solely used for crime\", while the January 2026 trial-commencement briefing and other contemporaneous public reporting describe intended and actual use for search and rescue, motor-vehicle collisions, fires, and other emergencies.",
+    "supporting_evidence": ["EV-0011"],
+    "opposing_evidence": ["EV-0006"],
+    "status": "Open",
+    "material_significance": "Public descriptions of the program's operational scope are not consistently framed across NSW Police's own messaging, which matters for assessing exactly what capability the petition is actually asking to expand to the Mid North Coast.",
+    "required_resolution": "The mission classification definitions and controlling operational policy sought in GIPA Application 2 (Q-0005).",
+    "resolution_evidence": []
+  }
+]

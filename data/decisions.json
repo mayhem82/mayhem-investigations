@@ -184,5 +184,13 @@
     ],
     "investigator": "mayhem82",
     "impact": "source_register.json returns to 106 entries (SRC-0106 removed). No evidence was removed - EV-0072 and CHR-0033 from RUN-0065 remain valid and unaffected. Establishes a concrete lesson for future runs: check source_register.json for an existing URL before registering a new source_id for it."
+  },
+  {
+    "decision_id": "DEC-0019",
+    "date": "2026-08-17",
+    "reason": "A second case (DFAPTI-MNC-2026-00001, Mid North Coast PolAir-Remote drone expansion) was added to this repository, resolving the open question this README had deliberately left unanswered since the repository's earliest structure: whether a second case's evidence data lives under cases/<CASE-ID>/data/ or gets its own repository. Chose the former - a per-case data/ directory - to keep the \"mayhem investigations only, no other repo\" operating constraint intact and to keep the cases/<CASE-ID>/ site-structure pattern already built for the six-stage workspace consistent for every future case. This case (DFAPTI-BB-2026-00001) deliberately keeps its existing data/ location at the repository root rather than being moved into cases/DFAPTI-BB-2026-00001/data/, to avoid rewriting the several hundred already-committed cross-references, preserved/ filenames, and the live GitHub Pages deployment's existing fetch paths for no functional benefit - it becomes the one grandfathered exception, not the new pattern. scripts/case-registry.js now lists every case's data directory explicitly; scripts/validate.js and scripts/generate-relationship-map.js run independently per case; scripts/resume.js, add-source.js, and log-run.js take an optional --case flag (defaulting to this case, to keep every existing operator habit and doc example working unchanged).",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "No files in this case's own data/, preserved/, or workspace pages changed location or content. scripts/validate.js and scripts/generate-relationship-map.js now iterate every registered case; docs/RELATIONSHIP_MAP.md gained a per-case section structure. README.md's repository-layout section and its 'Adding a case' note were rewritten to state the resolved architecture instead of posing it as an open question."
   }
 ]

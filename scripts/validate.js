@@ -7,37 +7,16 @@
  *
  * Read-only: this script never modifies data. It exits 0 with a summary
  * when every rule passes, or exits 1 and prints every failing rule when
- * any record fails validation.
+ * any record fails validation. Runs the same rule set independently over
+ * every case registered in scripts/case-registry.js - each case's IDs
+ * and cross-references are validated within that case only.
  *
  * Usage: node scripts/validate.js
  */
 
 const fs = require('fs');
 const path = require('path');
-
-const DATA_DIR = path.join(__dirname, '..', 'data');
-
-const errors = [];
-const warnings = [];
-
-function fail(message) {
-  errors.push(message);
-}
-
-function readJson(filename) {
-  const filePath = path.join(DATA_DIR, filename);
-  if (!fs.existsSync(filePath)) {
-    fail(`Missing required data file: data/${filename}`);
-    return null;
-  }
-  const raw = fs.readFileSync(filePath, 'utf8');
-  try {
-    return JSON.parse(raw);
-  } catch (e) {
-    fail(`data/${filename} is not valid JSON: ${e.message}`);
-    return null;
-  }
-}
+const { CASES } = require('./case-registry');
 
 function isNonEmptyString(v) {
   return typeof v === 'string' && v.trim().length > 0;
@@ -45,35 +24,6 @@ function isNonEmptyString(v) {
 
 function isArray(v) {
   return Array.isArray(v);
-}
-
-function requireFields(record, fields, recordLabel) {
-  for (const field of fields) {
-    if (!(field in record)) {
-      fail(`${recordLabel}: missing required field "${field}"`);
-    }
-  }
-}
-
-function checkUnique(records, idField, registerLabel) {
-  const seen = new Map();
-  for (const r of records) {
-    const id = r[idField];
-    if (!isNonEmptyString(id)) continue;
-    if (seen.has(id)) {
-      fail(`${registerLabel}: duplicate ${idField} "${id}"`);
-    }
-    seen.set(id, true);
-  }
-}
-
-function checkReferences(ids, validIdSet, recordLabel, fieldLabel) {
-  if (!isArray(ids)) return;
-  for (const id of ids) {
-    if (!validIdSet.has(id)) {
-      fail(`${recordLabel}: ${fieldLabel} references unknown id "${id}"`);
-    }
-  }
 }
 
 // ---------------------------------------------------------------------
@@ -118,386 +68,464 @@ const PRESERVATION_STATUSES = new Set([
 
 const HASH_STATUSES = new Set(['No Hash', 'Hash Pending', 'Hashed']);
 
-// ---------------------------------------------------------------------
-// Load data
-// ---------------------------------------------------------------------
+function validateCase(caseInfo) {
+  const errors = [];
+  const warnings = [];
+  const DATA_DIR = caseInfo.dataDir;
+  const relDataDir = path.relative(path.join(__dirname, '..'), DATA_DIR);
 
-const caseDef = readJson('case.json');
-const evidence = readJson('evidence_register.json') || [];
-const sources = readJson('source_register.json') || [];
-const chronology = readJson('chronology.json') || [];
-const contradictions = readJson('contradictions.json') || [];
-const openQuestions = readJson('open_questions.json') || [];
-const threads = readJson('threads.json') || [];
-const automationLog = readJson('automation_log.json') || [];
-const searchLog = readJson('search_log.json') || [];
-const decisions = readJson('decisions.json') || [];
-const changeLog = readJson('change_log.json') || [];
-const investigationNotes = readJson('investigation_notes.json') || [];
+  function fail(message) {
+    errors.push(message);
+  }
 
-// ---------------------------------------------------------------------
-// Case Definition (section 24)
-// ---------------------------------------------------------------------
-
-const CASE_REQUIRED_FIELDS = [
-  'case_identifier', 'case_title', 'investigation_type', 'jurisdiction',
-  'geographic_scope', 'commencement_date', 'current_status', 'investigator',
-  'repository_version', 'specification_version',
-];
-
-let validCaseId = null;
-
-if (caseDef) {
-  requireFields(caseDef, CASE_REQUIRED_FIELDS, 'case.json');
-  for (const field of CASE_REQUIRED_FIELDS) {
-    if (field in caseDef && !isNonEmptyString(caseDef[field])) {
-      fail(`case.json: field "${field}" must be a non-empty string`);
+  function readJson(filename) {
+    const filePath = path.join(DATA_DIR, filename);
+    if (!fs.existsSync(filePath)) {
+      fail(`Missing required data file: ${relDataDir}/${filename}`);
+      return null;
     }
-  }
-  if (isNonEmptyString(caseDef.case_identifier)) {
-    validCaseId = caseDef.case_identifier;
-  }
-}
-
-function checkCaseId(record, recordLabel) {
-  if (!isNonEmptyString(record.case_id)) {
-    fail(`${recordLabel}: missing or empty "case_id"`);
-  } else if (validCaseId && record.case_id !== validCaseId) {
-    fail(`${recordLabel}: case_id "${record.case_id}" does not match the active case "${validCaseId}"`);
-  }
-}
-
-// ---------------------------------------------------------------------
-// Evidence Register (section 8)
-// ---------------------------------------------------------------------
-
-const EVIDENCE_REQUIRED_FIELDS = [
-  'evidence_id', 'case_id', 'recording_date', 'source_date',
-  'source_authority', 'source_title', 'source_type', 'source_location',
-  'evidence_description', 'investigation_relevance', 'classification',
-  'verification_state', 'relationships', 'chronology_links',
-  'contradiction_links', 'open_question_links',
-];
-
-checkUnique(evidence, 'evidence_id', 'evidence_register.json');
-
-const evidenceIds = new Set(
-  evidence.filter((e) => isNonEmptyString(e.evidence_id)).map((e) => e.evidence_id)
-);
-
-for (const e of evidence) {
-  const label = `evidence_register.json[${e.evidence_id || '?'}]`;
-  requireFields(e, EVIDENCE_REQUIRED_FIELDS, label);
-  checkCaseId(e, label);
-
-  if ('source_type' in e && !SOURCE_TYPES.has(e.source_type)) {
-    fail(`${label}: invalid source_type "${e.source_type}"`);
-  }
-  if ('classification' in e && !EVIDENCE_CLASSIFICATIONS.has(e.classification)) {
-    fail(`${label}: invalid classification "${e.classification}"`);
-  }
-  if ('verification_state' in e && !VERIFICATION_STATES.has(e.verification_state)) {
-    fail(`${label}: invalid verification_state "${e.verification_state}"`);
-  }
-
-  for (const arrField of ['relationships', 'chronology_links', 'contradiction_links', 'open_question_links']) {
-    if (arrField in e && !isArray(e[arrField])) {
-      fail(`${label}: field "${arrField}" must be an array`);
+    const raw = fs.readFileSync(filePath, 'utf8');
+    try {
+      return JSON.parse(raw);
+    } catch (e) {
+      fail(`${relDataDir}/${filename} is not valid JSON: ${e.message}`);
+      return null;
     }
   }
 
-  // Rule: accepted evidence cannot possess zero proof-of-fact.
-  if (e.verification_state === 'Accepted') {
-    const hasProof = isNonEmptyString(e.preserved_file_reference)
-      || isNonEmptyString(e.document_hash)
-      || isNonEmptyString(e.source_location);
-    if (!hasProof) {
-      fail(`${label}: verification_state is "Accepted" but has no preserved_file_reference, document_hash, or source_location (zero proof-of-fact)`);
-    }
-    // Rule: accepted preserved documents possess document hashes unless an approved exception exists.
-    if (isNonEmptyString(e.preserved_file_reference) && !isNonEmptyString(e.document_hash) && !isNonEmptyString(e.hash_exception_reason)) {
-      fail(`${label}: has a preserved_file_reference but no document_hash and no hash_exception_reason`);
+  function requireFields(record, fields, recordLabel) {
+    for (const field of fields) {
+      if (!(field in record)) {
+        fail(`${recordLabel}: missing required field "${field}"`);
+      }
     }
   }
 
-  checkReferences(e.relationships, evidenceIds, label, 'relationships');
-}
-
-// ---------------------------------------------------------------------
-// Source Register (section 9)
-// ---------------------------------------------------------------------
-
-const SOURCE_REQUIRED_FIELDS = [
-  'source_id', 'authority', 'title', 'type', 'url_or_file_location',
-  'first_checked', 'last_checked', 'current_version', 'preservation_status',
-  'hash_status',
-];
-
-checkUnique(sources, 'source_id', 'source_register.json');
-
-const sourceIds = new Set(
-  sources.filter((s) => isNonEmptyString(s.source_id)).map((s) => s.source_id)
-);
-
-for (const s of sources) {
-  const label = `source_register.json[${s.source_id || '?'}]`;
-  requireFields(s, SOURCE_REQUIRED_FIELDS, label);
-  if ('type' in s && !SOURCE_TYPES.has(s.type)) {
-    fail(`${label}: invalid type "${s.type}"`);
-  }
-  if ('preservation_status' in s && !PRESERVATION_STATUSES.has(s.preservation_status)) {
-    fail(`${label}: invalid preservation_status "${s.preservation_status}"`);
-  }
-  if ('hash_status' in s && !HASH_STATUSES.has(s.hash_status)) {
-    fail(`${label}: invalid hash_status "${s.hash_status}"`);
-  }
-  if (s.associated_thread && !isNonEmptyString(s.associated_thread)) {
-    fail(`${label}: associated_thread must be a non-empty string if present`);
-  }
-}
-
-// ---------------------------------------------------------------------
-// Chronology (section 10)
-// ---------------------------------------------------------------------
-
-const CHRONOLOGY_REQUIRED_FIELDS = [
-  'chronology_id', 'event_date', 'date_is_inference', 'event_description',
-  'status', 'supporting_evidence',
-];
-
-checkUnique(chronology, 'chronology_id', 'chronology.json');
-
-for (const c of chronology) {
-  const label = `chronology.json[${c.chronology_id || '?'}]`;
-  requireFields(c, CHRONOLOGY_REQUIRED_FIELDS, label);
-  if ('status' in c && !CHRONOLOGY_STATUSES.has(c.status)) {
-    fail(`${label}: invalid status "${c.status}"`);
-  }
-  if ('date_is_inference' in c && typeof c.date_is_inference !== 'boolean') {
-    fail(`${label}: date_is_inference must be a boolean`);
-  }
-  if ('supporting_evidence' in c) {
-    if (!isArray(c.supporting_evidence) || c.supporting_evidence.length === 0) {
-      fail(`${label}: supporting_evidence must be a non-empty array`);
-    } else {
-      checkReferences(c.supporting_evidence, evidenceIds, label, 'supporting_evidence');
+  function checkUnique(records, idField, registerLabel) {
+    const seen = new Map();
+    for (const r of records) {
+      const id = r[idField];
+      if (!isNonEmptyString(id)) continue;
+      if (seen.has(id)) {
+        fail(`${registerLabel}: duplicate ${idField} "${id}"`);
+      }
+      seen.set(id, true);
     }
   }
-}
 
-// ---------------------------------------------------------------------
-// Contradiction Register (section 11)
-// ---------------------------------------------------------------------
-
-const CONTRADICTION_REQUIRED_FIELDS = [
-  'contradiction_id', 'description', 'supporting_evidence',
-  'opposing_evidence', 'status', 'material_significance',
-  'required_resolution', 'resolution_evidence',
-];
-
-checkUnique(contradictions, 'contradiction_id', 'contradictions.json');
-
-for (const c of contradictions) {
-  const label = `contradictions.json[${c.contradiction_id || '?'}]`;
-  requireFields(c, CONTRADICTION_REQUIRED_FIELDS, label);
-  if ('status' in c && !CONTRADICTION_STATUSES.has(c.status)) {
-    fail(`${label}: invalid status "${c.status}"`);
-  }
-  if ('supporting_evidence' in c) {
-    if (!isArray(c.supporting_evidence) || c.supporting_evidence.length === 0) {
-      fail(`${label}: supporting_evidence must be a non-empty array`);
-    } else {
-      checkReferences(c.supporting_evidence, evidenceIds, label, 'supporting_evidence');
+  function checkReferences(ids, validIdSet, recordLabel, fieldLabel) {
+    if (!isArray(ids)) return;
+    for (const id of ids) {
+      if (!validIdSet.has(id)) {
+        fail(`${recordLabel}: ${fieldLabel} references unknown id "${id}"`);
+      }
     }
   }
-  if ('opposing_evidence' in c) {
-    if (!isArray(c.opposing_evidence) || c.opposing_evidence.length === 0) {
-      fail(`${label}: opposing_evidence must be a non-empty array`);
-    } else {
-      checkReferences(c.opposing_evidence, evidenceIds, label, 'opposing_evidence');
+
+  // ---------------------------------------------------------------------
+  // Load data
+  // ---------------------------------------------------------------------
+
+  const caseDef = readJson('case.json');
+  const evidence = readJson('evidence_register.json') || [];
+  const sources = readJson('source_register.json') || [];
+  const chronology = readJson('chronology.json') || [];
+  const contradictions = readJson('contradictions.json') || [];
+  const openQuestions = readJson('open_questions.json') || [];
+  const threads = readJson('threads.json') || [];
+  const automationLog = readJson('automation_log.json') || [];
+  const searchLog = readJson('search_log.json') || [];
+  const decisions = readJson('decisions.json') || [];
+  const changeLog = readJson('change_log.json') || [];
+  const investigationNotes = readJson('investigation_notes.json') || [];
+
+  // ---------------------------------------------------------------------
+  // Case Definition (section 24)
+  // ---------------------------------------------------------------------
+
+  const CASE_REQUIRED_FIELDS = [
+    'case_identifier', 'case_title', 'investigation_type', 'jurisdiction',
+    'geographic_scope', 'commencement_date', 'current_status', 'investigator',
+    'repository_version', 'specification_version',
+  ];
+
+  let validCaseId = null;
+
+  if (caseDef) {
+    requireFields(caseDef, CASE_REQUIRED_FIELDS, 'case.json');
+    for (const field of CASE_REQUIRED_FIELDS) {
+      if (field in caseDef && !isNonEmptyString(caseDef[field])) {
+        fail(`case.json: field "${field}" must be a non-empty string`);
+      }
+    }
+    if (isNonEmptyString(caseDef.case_identifier)) {
+      validCaseId = caseDef.case_identifier;
+      if (validCaseId !== caseInfo.id) {
+        fail(`case.json: case_identifier "${validCaseId}" does not match registered case id "${caseInfo.id}" in scripts/case-registry.js`);
+      }
     }
   }
-  if (c.status === 'Resolved') {
-    if (!isArray(c.resolution_evidence) || c.resolution_evidence.length === 0) {
-      fail(`${label}: status is "Resolved" but resolution_evidence is empty`);
-    } else {
-      checkReferences(c.resolution_evidence, evidenceIds, label, 'resolution_evidence');
+
+  function checkCaseId(record, recordLabel) {
+    if (!isNonEmptyString(record.case_id)) {
+      fail(`${recordLabel}: missing or empty "case_id"`);
+    } else if (validCaseId && record.case_id !== validCaseId) {
+      fail(`${recordLabel}: case_id "${record.case_id}" does not match the active case "${validCaseId}"`);
     }
   }
-}
 
-// ---------------------------------------------------------------------
-// Open Question Register (section 12)
-// ---------------------------------------------------------------------
+  // ---------------------------------------------------------------------
+  // Evidence Register (section 8)
+  // ---------------------------------------------------------------------
 
-const QUESTION_REQUIRED_FIELDS = [
-  'question_id', 'question', 'why_exists', 'evidence_creating_question',
-  'evidence_required_to_resolve', 'likely_source', 'status',
-  'resolution_evidence',
-];
+  const EVIDENCE_REQUIRED_FIELDS = [
+    'evidence_id', 'case_id', 'recording_date', 'source_date',
+    'source_authority', 'source_title', 'source_type', 'source_location',
+    'evidence_description', 'investigation_relevance', 'classification',
+    'verification_state', 'relationships', 'chronology_links',
+    'contradiction_links', 'open_question_links',
+  ];
 
-checkUnique(openQuestions, 'question_id', 'open_questions.json');
+  checkUnique(evidence, 'evidence_id', 'evidence_register.json');
 
-for (const q of openQuestions) {
-  const label = `open_questions.json[${q.question_id || '?'}]`;
-  requireFields(q, QUESTION_REQUIRED_FIELDS, label);
-  if ('status' in q && !QUESTION_STATUSES.has(q.status)) {
-    fail(`${label}: invalid status "${q.status}"`);
+  const evidenceIds = new Set(
+    evidence.filter((e) => isNonEmptyString(e.evidence_id)).map((e) => e.evidence_id)
+  );
+
+  for (const e of evidence) {
+    const label = `evidence_register.json[${e.evidence_id || '?'}]`;
+    requireFields(e, EVIDENCE_REQUIRED_FIELDS, label);
+    checkCaseId(e, label);
+
+    if ('source_type' in e && !SOURCE_TYPES.has(e.source_type)) {
+      fail(`${label}: invalid source_type "${e.source_type}"`);
+    }
+    if ('classification' in e && !EVIDENCE_CLASSIFICATIONS.has(e.classification)) {
+      fail(`${label}: invalid classification "${e.classification}"`);
+    }
+    if ('verification_state' in e && !VERIFICATION_STATES.has(e.verification_state)) {
+      fail(`${label}: invalid verification_state "${e.verification_state}"`);
+    }
+
+    for (const arrField of ['relationships', 'chronology_links', 'contradiction_links', 'open_question_links']) {
+      if (arrField in e && !isArray(e[arrField])) {
+        fail(`${label}: field "${arrField}" must be an array`);
+      }
+    }
+
+    // Rule: accepted evidence cannot possess zero proof-of-fact.
+    if (e.verification_state === 'Accepted') {
+      const hasProof = isNonEmptyString(e.preserved_file_reference)
+        || isNonEmptyString(e.document_hash)
+        || isNonEmptyString(e.source_location);
+      if (!hasProof) {
+        fail(`${label}: verification_state is "Accepted" but has no preserved_file_reference, document_hash, or source_location (zero proof-of-fact)`);
+      }
+      // Rule: accepted preserved documents possess document hashes unless an approved exception exists.
+      if (isNonEmptyString(e.preserved_file_reference) && !isNonEmptyString(e.document_hash) && !isNonEmptyString(e.hash_exception_reason)) {
+        fail(`${label}: has a preserved_file_reference but no document_hash and no hash_exception_reason`);
+      }
+    }
+
+    checkReferences(e.relationships, evidenceIds, label, 'relationships');
   }
-  if ('evidence_creating_question' in q) {
-    checkReferences(q.evidence_creating_question, evidenceIds, label, 'evidence_creating_question');
-  }
-  if (q.status === 'Closed') {
-    if (!isArray(q.resolution_evidence) || q.resolution_evidence.length === 0) {
-      fail(`${label}: status is "Closed" but resolution_evidence is empty`);
-    } else {
-      checkReferences(q.resolution_evidence, evidenceIds, label, 'resolution_evidence');
+
+  // ---------------------------------------------------------------------
+  // Source Register (section 9)
+  // ---------------------------------------------------------------------
+
+  const SOURCE_REQUIRED_FIELDS = [
+    'source_id', 'authority', 'title', 'type', 'url_or_file_location',
+    'first_checked', 'last_checked', 'current_version', 'preservation_status',
+    'hash_status',
+  ];
+
+  checkUnique(sources, 'source_id', 'source_register.json');
+
+  const sourceIds = new Set(
+    sources.filter((s) => isNonEmptyString(s.source_id)).map((s) => s.source_id)
+  );
+
+  for (const s of sources) {
+    const label = `source_register.json[${s.source_id || '?'}]`;
+    requireFields(s, SOURCE_REQUIRED_FIELDS, label);
+    if ('type' in s && !SOURCE_TYPES.has(s.type)) {
+      fail(`${label}: invalid type "${s.type}"`);
+    }
+    if ('preservation_status' in s && !PRESERVATION_STATUSES.has(s.preservation_status)) {
+      fail(`${label}: invalid preservation_status "${s.preservation_status}"`);
+    }
+    if ('hash_status' in s && !HASH_STATUSES.has(s.hash_status)) {
+      fail(`${label}: invalid hash_status "${s.hash_status}"`);
+    }
+    if (s.associated_thread && !isNonEmptyString(s.associated_thread)) {
+      fail(`${label}: associated_thread must be a non-empty string if present`);
     }
   }
-}
 
-// ---------------------------------------------------------------------
-// Investigation Threads (section 13)
-// ---------------------------------------------------------------------
+  // ---------------------------------------------------------------------
+  // Chronology (section 10)
+  // ---------------------------------------------------------------------
 
-const THREAD_REQUIRED_FIELDS = [
-  'thread_id', 'name', 'status', 'supporting_evidence', 'outstanding_work',
-  'dependencies', 'completion_state',
-];
+  const CHRONOLOGY_REQUIRED_FIELDS = [
+    'chronology_id', 'event_date', 'date_is_inference', 'event_description',
+    'status', 'supporting_evidence',
+  ];
 
-checkUnique(threads, 'thread_id', 'threads.json');
+  checkUnique(chronology, 'chronology_id', 'chronology.json');
 
-const threadIds = new Set(
-  threads.filter((t) => isNonEmptyString(t.thread_id)).map((t) => t.thread_id)
-);
-
-for (const t of threads) {
-  const label = `threads.json[${t.thread_id || '?'}]`;
-  requireFields(t, THREAD_REQUIRED_FIELDS, label);
-  if ('status' in t && !THREAD_STATUSES.has(t.status)) {
-    fail(`${label}: invalid status "${t.status}"`);
+  for (const c of chronology) {
+    const label = `chronology.json[${c.chronology_id || '?'}]`;
+    requireFields(c, CHRONOLOGY_REQUIRED_FIELDS, label);
+    if ('status' in c && !CHRONOLOGY_STATUSES.has(c.status)) {
+      fail(`${label}: invalid status "${c.status}"`);
+    }
+    if ('date_is_inference' in c && typeof c.date_is_inference !== 'boolean') {
+      fail(`${label}: date_is_inference must be a boolean`);
+    }
+    if ('supporting_evidence' in c) {
+      if (!isArray(c.supporting_evidence) || c.supporting_evidence.length === 0) {
+        fail(`${label}: supporting_evidence must be a non-empty array`);
+      } else {
+        checkReferences(c.supporting_evidence, evidenceIds, label, 'supporting_evidence');
+      }
+    }
   }
-  if ('completion_state' in t && !THREAD_COMPLETION_STATES.has(t.completion_state)) {
-    fail(`${label}: invalid completion_state "${t.completion_state}"`);
+
+  // ---------------------------------------------------------------------
+  // Contradiction Register (section 11)
+  // ---------------------------------------------------------------------
+
+  const CONTRADICTION_REQUIRED_FIELDS = [
+    'contradiction_id', 'description', 'supporting_evidence',
+    'opposing_evidence', 'status', 'material_significance',
+    'required_resolution', 'resolution_evidence',
+  ];
+
+  checkUnique(contradictions, 'contradiction_id', 'contradictions.json');
+
+  for (const c of contradictions) {
+    const label = `contradictions.json[${c.contradiction_id || '?'}]`;
+    requireFields(c, CONTRADICTION_REQUIRED_FIELDS, label);
+    if ('status' in c && !CONTRADICTION_STATUSES.has(c.status)) {
+      fail(`${label}: invalid status "${c.status}"`);
+    }
+    if ('supporting_evidence' in c) {
+      if (!isArray(c.supporting_evidence) || c.supporting_evidence.length === 0) {
+        fail(`${label}: supporting_evidence must be a non-empty array`);
+      } else {
+        checkReferences(c.supporting_evidence, evidenceIds, label, 'supporting_evidence');
+      }
+    }
+    if ('opposing_evidence' in c) {
+      if (!isArray(c.opposing_evidence) || c.opposing_evidence.length === 0) {
+        fail(`${label}: opposing_evidence must be a non-empty array`);
+      } else {
+        checkReferences(c.opposing_evidence, evidenceIds, label, 'opposing_evidence');
+      }
+    }
+    if (c.status === 'Resolved') {
+      if (!isArray(c.resolution_evidence) || c.resolution_evidence.length === 0) {
+        fail(`${label}: status is "Resolved" but resolution_evidence is empty`);
+      } else {
+        checkReferences(c.resolution_evidence, evidenceIds, label, 'resolution_evidence');
+      }
+    }
   }
-  if ('supporting_evidence' in t) {
-    checkReferences(t.supporting_evidence, evidenceIds, label, 'supporting_evidence');
+
+  // ---------------------------------------------------------------------
+  // Open Question Register (section 12)
+  // ---------------------------------------------------------------------
+
+  const QUESTION_REQUIRED_FIELDS = [
+    'question_id', 'question', 'why_exists', 'evidence_creating_question',
+    'evidence_required_to_resolve', 'likely_source', 'status',
+    'resolution_evidence',
+  ];
+
+  checkUnique(openQuestions, 'question_id', 'open_questions.json');
+
+  for (const q of openQuestions) {
+    const label = `open_questions.json[${q.question_id || '?'}]`;
+    requireFields(q, QUESTION_REQUIRED_FIELDS, label);
+    if ('status' in q && !QUESTION_STATUSES.has(q.status)) {
+      fail(`${label}: invalid status "${q.status}"`);
+    }
+    if ('evidence_creating_question' in q) {
+      checkReferences(q.evidence_creating_question, evidenceIds, label, 'evidence_creating_question');
+    }
+    if (q.status === 'Closed') {
+      if (!isArray(q.resolution_evidence) || q.resolution_evidence.length === 0) {
+        fail(`${label}: status is "Closed" but resolution_evidence is empty`);
+      } else {
+        checkReferences(q.resolution_evidence, evidenceIds, label, 'resolution_evidence');
+      }
+    }
   }
-  if ('dependencies' in t) {
-    checkReferences(t.dependencies, threadIds, label, 'dependencies');
+
+  // ---------------------------------------------------------------------
+  // Investigation Threads (section 13)
+  // ---------------------------------------------------------------------
+
+  const THREAD_REQUIRED_FIELDS = [
+    'thread_id', 'name', 'status', 'supporting_evidence', 'outstanding_work',
+    'dependencies', 'completion_state',
+  ];
+
+  checkUnique(threads, 'thread_id', 'threads.json');
+
+  const threadIds = new Set(
+    threads.filter((t) => isNonEmptyString(t.thread_id)).map((t) => t.thread_id)
+  );
+
+  for (const t of threads) {
+    const label = `threads.json[${t.thread_id || '?'}]`;
+    requireFields(t, THREAD_REQUIRED_FIELDS, label);
+    if ('status' in t && !THREAD_STATUSES.has(t.status)) {
+      fail(`${label}: invalid status "${t.status}"`);
+    }
+    if ('completion_state' in t && !THREAD_COMPLETION_STATES.has(t.completion_state)) {
+      fail(`${label}: invalid completion_state "${t.completion_state}"`);
+    }
+    if ('supporting_evidence' in t) {
+      checkReferences(t.supporting_evidence, evidenceIds, label, 'supporting_evidence');
+    }
+    if ('dependencies' in t) {
+      checkReferences(t.dependencies, threadIds, label, 'dependencies');
+    }
   }
-}
 
-// ---------------------------------------------------------------------
-// Automation Log (sections 6-7)
-// ---------------------------------------------------------------------
+  // ---------------------------------------------------------------------
+  // Automation Log (sections 6-7)
+  // ---------------------------------------------------------------------
 
-const AUTOMATION_RESULTS = new Set([
-  'No relevant change detected.', 'New evidence added.', 'New source added.',
-]);
+  const AUTOMATION_RESULTS = new Set([
+    'No relevant change detected.', 'New evidence added.', 'New source added.',
+  ]);
 
-const RUN_REQUIRED_FIELDS = ['run_id', 'date', 'sources_checked', 'result', 'evidence_added'];
+  const RUN_REQUIRED_FIELDS = ['run_id', 'date', 'sources_checked', 'result', 'evidence_added'];
 
-checkUnique(automationLog, 'run_id', 'automation_log.json');
+  checkUnique(automationLog, 'run_id', 'automation_log.json');
 
-for (const r of automationLog) {
-  const label = `automation_log.json[${r.run_id || '?'}]`;
-  requireFields(r, RUN_REQUIRED_FIELDS, label);
-  if ('result' in r && !AUTOMATION_RESULTS.has(r.result)) {
-    fail(`${label}: invalid result "${r.result}"`);
+  for (const r of automationLog) {
+    const label = `automation_log.json[${r.run_id || '?'}]`;
+    requireFields(r, RUN_REQUIRED_FIELDS, label);
+    if ('result' in r && !AUTOMATION_RESULTS.has(r.result)) {
+      fail(`${label}: invalid result "${r.result}"`);
+    }
+    checkReferences(r.sources_checked, sourceIds, label, 'sources_checked');
+    checkReferences(r.evidence_added, evidenceIds, label, 'evidence_added');
   }
-  checkReferences(r.sources_checked, sourceIds, label, 'sources_checked');
-  checkReferences(r.evidence_added, evidenceIds, label, 'evidence_added');
-}
 
-// ---------------------------------------------------------------------
-// Search Log (section 27)
-// ---------------------------------------------------------------------
+  // ---------------------------------------------------------------------
+  // Search Log (section 27)
+  // ---------------------------------------------------------------------
 
-const SEARCH_REQUIRED_FIELDS = [
-  'search_id', 'search_terms', 'search_engine', 'date', 'jurisdiction',
-  'results_reviewed', 'results_preserved',
-];
+  const SEARCH_REQUIRED_FIELDS = [
+    'search_id', 'search_terms', 'search_engine', 'date', 'jurisdiction',
+    'results_reviewed', 'results_preserved',
+  ];
 
-checkUnique(searchLog, 'search_id', 'search_log.json');
+  checkUnique(searchLog, 'search_id', 'search_log.json');
 
-for (const s of searchLog) {
-  const label = `search_log.json[${s.search_id || '?'}]`;
-  requireFields(s, SEARCH_REQUIRED_FIELDS, label);
-  if ('results_reviewed' in s && typeof s.results_reviewed !== 'number') {
-    fail(`${label}: results_reviewed must be a number`);
+  for (const s of searchLog) {
+    const label = `search_log.json[${s.search_id || '?'}]`;
+    requireFields(s, SEARCH_REQUIRED_FIELDS, label);
+    if ('results_reviewed' in s && typeof s.results_reviewed !== 'number') {
+      fail(`${label}: results_reviewed must be a number`);
+    }
+    if ('results_preserved' in s && typeof s.results_preserved !== 'number') {
+      fail(`${label}: results_preserved must be a number`);
+    }
   }
-  if ('results_preserved' in s && typeof s.results_preserved !== 'number') {
-    fail(`${label}: results_preserved must be a number`);
+
+  // ---------------------------------------------------------------------
+  // Decision Register (section 29)
+  // ---------------------------------------------------------------------
+
+  const DECISION_REQUIRED_FIELDS = [
+    'decision_id', 'date', 'reason', 'supporting_evidence', 'investigator', 'impact',
+  ];
+
+  checkUnique(decisions, 'decision_id', 'decisions.json');
+
+  for (const d of decisions) {
+    const label = `decisions.json[${d.decision_id || '?'}]`;
+    requireFields(d, DECISION_REQUIRED_FIELDS, label);
+    if ('supporting_evidence' in d) {
+      checkReferences(d.supporting_evidence, evidenceIds, label, 'supporting_evidence');
+    }
   }
-}
 
-// ---------------------------------------------------------------------
-// Decision Register (section 29)
-// ---------------------------------------------------------------------
+  // ---------------------------------------------------------------------
+  // Change Log (section 30)
+  // ---------------------------------------------------------------------
 
-const DECISION_REQUIRED_FIELDS = [
-  'decision_id', 'date', 'reason', 'supporting_evidence', 'investigator', 'impact',
-];
+  const CHANGE_REQUIRED_FIELDS = [
+    'change_id', 'date', 'author', 'files_affected', 'reason', 'validation_completed',
+  ];
 
-checkUnique(decisions, 'decision_id', 'decisions.json');
+  checkUnique(changeLog, 'change_id', 'change_log.json');
 
-for (const d of decisions) {
-  const label = `decisions.json[${d.decision_id || '?'}]`;
-  requireFields(d, DECISION_REQUIRED_FIELDS, label);
-  if ('supporting_evidence' in d) {
-    checkReferences(d.supporting_evidence, evidenceIds, label, 'supporting_evidence');
+  for (const c of changeLog) {
+    const label = `change_log.json[${c.change_id || '?'}]`;
+    requireFields(c, CHANGE_REQUIRED_FIELDS, label);
+    if ('files_affected' in c && !isArray(c.files_affected)) {
+      fail(`${label}: files_affected must be an array`);
+    }
+    if ('validation_completed' in c && typeof c.validation_completed !== 'boolean') {
+      fail(`${label}: validation_completed must be a boolean`);
+    }
   }
-}
 
-// ---------------------------------------------------------------------
-// Change Log (section 30)
-// ---------------------------------------------------------------------
+  // ---------------------------------------------------------------------
+  // Investigation Notes (section 14)
+  // ---------------------------------------------------------------------
 
-const CHANGE_REQUIRED_FIELDS = [
-  'change_id', 'date', 'author', 'files_affected', 'reason', 'validation_completed',
-];
+  const NOTE_ACTIVITY_TYPES = new Set([
+    'Researching', 'Checking Source', 'Finding', 'Blocked', 'Decision', 'Note',
+  ]);
 
-checkUnique(changeLog, 'change_id', 'change_log.json');
+  const NOTE_REQUIRED_FIELDS = ['note_id', 'timestamp', 'activity_type', 'text'];
 
-for (const c of changeLog) {
-  const label = `change_log.json[${c.change_id || '?'}]`;
-  requireFields(c, CHANGE_REQUIRED_FIELDS, label);
-  if ('files_affected' in c && !isArray(c.files_affected)) {
-    fail(`${label}: files_affected must be an array`);
+  checkUnique(investigationNotes, 'note_id', 'investigation_notes.json');
+
+  for (const n of investigationNotes) {
+    const label = `investigation_notes.json[${n.note_id || '?'}]`;
+    requireFields(n, NOTE_REQUIRED_FIELDS, label);
+    if ('activity_type' in n && !NOTE_ACTIVITY_TYPES.has(n.activity_type)) {
+      fail(`${label}: invalid activity_type "${n.activity_type}"`);
+    }
+    if (n.related_thread && !threadIds.has(n.related_thread)) {
+      fail(`${label}: related_thread references unknown id "${n.related_thread}"`);
+    }
+    if (n.related_source && !sourceIds.has(n.related_source)) {
+      fail(`${label}: related_source references unknown id "${n.related_source}"`);
+    }
+    if (n.related_evidence && !evidenceIds.has(n.related_evidence)) {
+      fail(`${label}: related_evidence references unknown id "${n.related_evidence}"`);
+    }
   }
-  if ('validation_completed' in c && typeof c.validation_completed !== 'boolean') {
-    fail(`${label}: validation_completed must be a boolean`);
-  }
-}
 
-// ---------------------------------------------------------------------
-// Investigation Notes (section 14)
-// ---------------------------------------------------------------------
-
-const NOTE_ACTIVITY_TYPES = new Set([
-  'Researching', 'Checking Source', 'Finding', 'Blocked', 'Decision', 'Note',
-]);
-
-const NOTE_REQUIRED_FIELDS = ['note_id', 'timestamp', 'activity_type', 'text'];
-
-checkUnique(investigationNotes, 'note_id', 'investigation_notes.json');
-
-for (const n of investigationNotes) {
-  const label = `investigation_notes.json[${n.note_id || '?'}]`;
-  requireFields(n, NOTE_REQUIRED_FIELDS, label);
-  if ('activity_type' in n && !NOTE_ACTIVITY_TYPES.has(n.activity_type)) {
-    fail(`${label}: invalid activity_type "${n.activity_type}"`);
-  }
-  if (n.related_thread && !threadIds.has(n.related_thread)) {
-    fail(`${label}: related_thread references unknown id "${n.related_thread}"`);
-  }
-  if (n.related_source && !sourceIds.has(n.related_source)) {
-    fail(`${label}: related_source references unknown id "${n.related_source}"`);
-  }
-  if (n.related_evidence && !evidenceIds.has(n.related_evidence)) {
-    fail(`${label}: related_evidence references unknown id "${n.related_evidence}"`);
-  }
+  return {
+    caseId: caseInfo.id,
+    dataDir: relDataDir,
+    errors,
+    warnings,
+    counts: {
+      evidence: evidence.length,
+      sources: sources.length,
+      chronology: chronology.length,
+      contradictions: contradictions.length,
+      openQuestions: openQuestions.length,
+      threads: threads.length,
+      automationLog: automationLog.length,
+      searchLog: searchLog.length,
+      decisions: decisions.length,
+      changeLog: changeLog.length,
+      investigationNotes: investigationNotes.length,
+    },
+  };
 }
 
 // ---------------------------------------------------------------------
@@ -506,31 +534,45 @@ for (const n of investigationNotes) {
 
 console.log('MAYHEM DFAPTI repository validation');
 console.log('====================================');
-console.log(`Case:               ${validCaseId || '(invalid)'}`);
-console.log(`Evidence items:     ${evidence.length}`);
-console.log(`Sources:            ${sources.length}`);
-console.log(`Chronology entries: ${chronology.length}`);
-console.log(`Contradictions:     ${contradictions.length}`);
-console.log(`Open questions:     ${openQuestions.length}`);
-console.log(`Threads:            ${threads.length}`);
-console.log(`Automation runs:    ${automationLog.length}`);
-console.log(`Searches logged:    ${searchLog.length}`);
-console.log(`Decisions:          ${decisions.length}`);
-console.log(`Change log entries: ${changeLog.length}`);
-console.log(`Investigation notes: ${investigationNotes.length}`);
 console.log('');
 
-if (warnings.length) {
-  console.log(`Warnings (${warnings.length}):`);
-  for (const w of warnings) console.log(`  - ${w}`);
+let totalErrors = 0;
+
+for (const caseInfo of CASES) {
+  const result = validateCase(caseInfo);
+  totalErrors += result.errors.length;
+
+  console.log(`Case:               ${result.caseId} (${result.dataDir})`);
+  console.log(`Evidence items:     ${result.counts.evidence}`);
+  console.log(`Sources:            ${result.counts.sources}`);
+  console.log(`Chronology entries: ${result.counts.chronology}`);
+  console.log(`Contradictions:     ${result.counts.contradictions}`);
+  console.log(`Open questions:     ${result.counts.openQuestions}`);
+  console.log(`Threads:            ${result.counts.threads}`);
+  console.log(`Automation runs:    ${result.counts.automationLog}`);
+  console.log(`Searches logged:    ${result.counts.searchLog}`);
+  console.log(`Decisions:          ${result.counts.decisions}`);
+  console.log(`Change log entries: ${result.counts.changeLog}`);
+  console.log(`Investigation notes: ${result.counts.investigationNotes}`);
+
+  if (result.warnings.length) {
+    console.log(`Warnings (${result.warnings.length}):`);
+    for (const w of result.warnings) console.log(`  - ${w}`);
+  }
+
+  if (result.errors.length) {
+    console.log(`FAILED - ${result.errors.length} validation error(s):`);
+    for (const e of result.errors) console.log(`  - ${e}`);
+  } else {
+    console.log('PASSED - all validation rules satisfied for this case.');
+  }
   console.log('');
 }
 
-if (errors.length) {
-  console.log(`FAILED - ${errors.length} validation error(s):`);
-  for (const e of errors) console.log(`  - ${e}`);
+if (totalErrors) {
+  console.log(`OVERALL: FAILED - ${totalErrors} validation error(s) across ${CASES.length} case(s).`);
   process.exit(1);
 } else {
-  console.log('PASSED - all validation rules satisfied.');
+  console.log(`OVERALL: PASSED - all validation rules satisfied across ${CASES.length} case(s).`);
   process.exit(0);
 }

@@ -1,0 +1,79 @@
+
+OPEN RESEARCH SNAPSHOT • CONTINUATION ONLY
+MAYHEM — Mid North Coast PolAir-Remote Deep Research
+Snapshot 4 — Flight Geography, Persistent Observation and Oversight Architecture
+Snapshot date: 14 August 2026
+Status: Open evidence snapshot; not a closed report.
+Exact predecessor: MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-3-2026-08-14.docx
+Continuity rule: This document does not reproduce or supersede Snapshot 3. Findings F-001 through F-043, their evidence, qualifications and unresolved gaps remain governed by the exact predecessor named above. This snapshot records only the subsequent research branch and must be read as an append-only continuation.
+1. Research Direction Opened After Snapshot 3
+Branch: Flight geography and operational discrimination — proactive patrol patterns, repeated observation of particular neighbourhoods, homes and backyards, public-space monitoring, the legal boundary around persistent aerial observation, and the oversight architecture capable of testing discriminatory effect.
+2. Core Legal and Governance Observations
+The Surveillance Devices Act 2007 (NSW) does not create an obvious general rule that police require a surveillance warrant whenever an external aerial camera can see private property. Section 8 is structured around use involving entry onto or into premises, or interference with a vehicle or object, subject to statutory exceptions.
+That statutory wording does not establish that all drone observation of a backyard or home exterior is lawful; other law, warrants, operational policy, aviation constraints and the particular facts may still matter.
+The Commonwealth statutory tort for serious invasions of privacy expressly excludes invasions by law-enforcement bodies, meaning that remedy is not a general external control on NSW Police operational drone use.
+NSW Police also has substantial law-enforcement exemptions under the Privacy and Personal Information Protection Act 1998 (NSW).
+CASA regulates aviation safety and authority to conduct RPAS operations; it does not decide which neighbourhoods NSW Police should observe or for how long.
+The combined effect places substantial practical rights-protection weight on NSW Police internal RPAS policy, operator decisions, audit records and external police oversight.
+3. New Findings Register — F-044 to F-050
+F-044 — Backyard observation is not clearly governed by a simple warrant rule
+On the statutory text reviewed, the proposition “police need a surveillance warrant before a drone can look into a backyard” is not established. Section 8 of the Surveillance Devices Act does not operate as a general prohibition on every form of external optical observation of private property. This is a legal interpretation of the statutory structure, not a court ruling on PolAir-Remote.
+F-045 — Australia’s statutory privacy tort does not supply a general remedy against NSW Police
+The federal statutory tort recognises intrusion upon seclusion, including watching or recording private activities, but contains a law-enforcement exemption. The ordinary remedy is therefore unavailable against NSW Police in its law-enforcement capacity.
+F-046 — Internal RPAS policy is carrying substantive rights-protection weight
+Because the external statutory framework does not itself disclose all operational limits, the missing NSW Police RPAS policy may contain the practical boundaries that matter most: launch authority, proactive patrols, private-yard observation, window observation, loiter duration, zoom and thermal use, recording, secondary detection, tracking and data retention.
+F-047 — Reactive and area-based PolAir-Remote deployment both exist
+Public NSW Police material establishes reactive deployments tied to specific wanted persons or incidents and also the use of PolAir-Remote within broader high-visibility crime-suppression operations. Those modes should be measured and evaluated separately.
+F-048 — The required accountability unit is the individual flight
+Meaningful evaluation requires mission-level data rather than only total flight hours. Relevant fields include date/time, duration, reactive/proactive classification, trigger, route, altitude, loiter duration, sensors used, recording status, incident number, persons or vehicles tracked, outcome, and any unrelated activity that generated further police action.
+F-049 — Discriminatory effect does not necessarily require proof of discriminatory intent
+The Law Enforcement Conduct Commission Act 2016 (NSW) defines agency maladministration to include conduct that is unreasonable, unjust, oppressive or improperly discriminatory in its effect. A flight-geography audit could therefore test disproportionate outcomes without first proving a discriminatory motive.
+F-050 — Systemic drone policy can itself be an oversight subject
+The LECC framework is not confined to one operator’s misuse. It can address systemic issues and established police practices where their effect may be unreasonable, unjust, oppressive or improperly discriminatory. This creates a potential oversight route for the program architecture itself.
+4. Current Evidence Status
+Drone cameras are technically capable of observing private property: VERIFIED at platform-capability level.
+NSW Police deliberately observing residents through home windows: NO EVIDENCE LOCATED.
+Explicit public NSW Police prohibition on observing through windows or into private yards: NOT LOCATED.
+General statutory privacy-tort remedy against operational NSW Police drone use: EXCLUDED by law-enforcement exemption.
+General PPIP protection governing all operational drone information handling: SUBSTANTIALLY LIMITED by law-enforcement exemptions.
+General Surveillance Devices Act prohibition on all external aerial observation of private activity: NOT ESTABLISHED.
+LECC maladministration oversight, including improperly discriminatory effect: VERIFIED.
+Actual discriminatory PolAir-Remote flight distribution in Moree: UNKNOWN; no flight-geography dataset located.
+5. Flight-Geography Evidence Requirement
+The Moree trial cannot be properly evaluated using only arrests, vehicles recovered, missing persons located, total flight hours or aggregate crime rates. A geographic distribution of actual flights is required to distinguish reactive incident response from broader area-based surveillance or crime-suppression patrols.
+Minimum auditable mission fields:
+date and local time
+flight duration
+reactive or proactive classification
+originating trigger or incident type
+flight path / geographic footprint
+altitude and loiter duration by location
+sensor mode, zoom and thermal use
+recording status and retention classification
+incident/event number
+persons and vehicles tracked
+arrest/search/intervention/rescue outcome
+whether unrelated activity observed during the flight generated additional police action
+Analytical test: If NSW Police maintains that PolAir-Remote is principally an incident-response capability rather than a general surveillance system, the flight data should allow that proposition to be tested empirically. Reactive missions should correspond to identifiable incidents; persistent or recurring patrol routes would demonstrate a materially different operational use.
+6. Next Open Gate
+Secondary detection / purpose expansion. The next branch is to determine what happens when a drone launched for one lawful purpose detects an unrelated person, offence, property, vehicle or activity. The investigation will test whether that incidental observation may lawfully and procedurally bootstrap a new police intervention, search, investigation, intelligence record or later analytic process.
+Questions carried forward:
+Can incidental visual observations generate a new police event without separate authorisation?
+Does the answer differ between live viewing and recorded footage?
+Can thermal, zoom or AI-assisted tracking be used for the unrelated matter?
+What audit trail records the change of purpose?
+Can unrelated footage be retained when the original mission does not justify retention?
+Can incidental imagery later be searched, matched or analysed for a different investigation?
+What legal or internal-policy limits apply to purpose expansion?
+7. Source Anchors for This Delta Snapshot
+Surveillance Devices Act 2007 (NSW): https://legislation.nsw.gov.au/view/whole/html/inforce/2024-06-20/act-2007-064
+Privacy Act 1988 (Cth), statutory tort provisions and law-enforcement exemption: https://www.legislation.gov.au/C2004A03712/2025-06-10/2025-06-10/text/original/epub/OEBPS/document_1/document_1.html
+Privacy and Personal Information Protection Act 1998 (NSW): https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1998-133
+Law Enforcement Conduct Commission Act 2016 (NSW): https://legislation.nsw.gov.au/view/whole/html/inforce/2023-10-01/act-2016-061
+NSW Police Moree high-visibility operation using PolAir-Remote: https://www.police.nsw.gov.au/news/news?sq_content_src=%2BdXJsPWh0dHBzJTNBJTJGJTJGZWJpenByZC5wb2xpY2UubnN3Lmdvdi5hdSUyRm1lZGlhJTJGMTIzNjg4Lmh0bWwmYWxsPTE%3D
+NSW Police July drone-assisted domestic-violence arrest: https://www.police.nsw.gov.au/news/news_article?sq_content_src=%2BdXJsPWh0dHBzJTNBJTJGJTJGZWJpenByZC5wb2xpY2UubnN3Lmdvdi5hdSUyRm1lZGlhJTJGMTI2NDcyLmh0bWwmYWxsPTE%3D
+Moree PolAir-Remote public consultation: https://www.haveyoursay.nsw.gov.au/remotely-piloted-aircraft-systems-moree
+Justice and Equity Centre submission on Moree police drone pilot: https://jec.org.au/publication/submission-to-nsw-police-about-the-police-drone-pilot-in-moree/
+8. Continuity Statement
+This Snapshot 4 is append-only. It references and depends on the exact predecessor document named on page 1. It does not restate Findings F-001 through F-043 and does not replace their evidence status. The next research turn should begin from the Secondary Detection / Purpose Expansion gate above.
+

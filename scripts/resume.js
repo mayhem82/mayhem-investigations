@@ -6,13 +6,18 @@
  * where it left off, with no reconstruction and no searching for previous
  * work. Read-only.
  *
- * Usage: node scripts/resume.js
+ * Usage: node scripts/resume.js [--case CASE-ID]
+ * Defaults to DFAPTI-BB-2026-00001 if --case is omitted. See
+ * scripts/case-registry.js for the full list of registered cases.
  */
 
 const fs = require('fs');
 const path = require('path');
+const { findCase, DEFAULT_CASE_ID } = require('./case-registry');
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const caseArgIndex = process.argv.indexOf('--case');
+const caseId = caseArgIndex !== -1 ? process.argv[caseArgIndex + 1] : DEFAULT_CASE_ID;
+const DATA_DIR = findCase(caseId).dataDir;
 
 function readJson(filename, fallback) {
   const filePath = path.join(DATA_DIR, filename);

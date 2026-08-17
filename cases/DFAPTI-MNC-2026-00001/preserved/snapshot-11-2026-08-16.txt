@@ -1,0 +1,51 @@
+
+MAYHEM - MNC POLAIR-REMOTE DEEP RESEARCH
+SNAPSHOT 11
+Primary-record acquisition gate - 16 August 2026 - Findings F-201-F-210
+Exact predecessor: MAYHEM-MNC-POLAIR-REMOTE-DEEP-RESEARCH-SNAPSHOT-10-2026-08-16.docx
+Control question bank: MAYHEM-MNC-POLAIR-REMOTE-CONTINUING-INVESTIGATION-QUESTION-BANK-v1_0.docx (Q1-Q763).
+Scope: first acquisition pass against AE - Required Primary Records (Q694-Q733). This snapshot records what is publicly located, what is only inferentially indicated to exist, and what now requires formal information access. It does not convert absence from the public web into proof that a record does not exist.
+Classification rule
+PUBLICLY LOCATED = the record or an authoritative statement about it is publicly accessible. EXISTENCE INDICATED = authoritative material implies the record or governance artefact should or does exist, but the PolAir-specific record is not public. NOT LOCATED = targeted public searching did not locate the requested PolAir-specific record. UNKNOWN = existence/completion/content cannot presently be established.
+F-201 - THE SIX-MONTH EVALUATION REMAINS A PRIMARY UNRESOLVED RECORD
+Q694-Q697. Public sources repeatedly state that the Moree trial would be evaluated and that NSW Police would assess results before determining next steps. As at 16 August 2026, no complete formal evaluation, evaluation framework, original KPI document or public evaluation methodology has been located. Operational PolAir-Remote use continued into August. Classification: evaluation promised/expected - VERIFIED; completed evaluation - UNKNOWN; publicly released evaluation - NOT LOCATED.
+F-202 - THE TRIAL BUSINESS CASE, RISK REGISTER AND ORIGINAL SUCCESS/FAILURE GATES ARE NOT PUBLICLY LOCATED
+Q695, Q698, Q731-Q733. Targeted searches of NSW Police publications, policy listings, parliamentary material and procurement portals did not locate the original PolAir-Remote business case, trial risk register, stop/go instrument, expansion-threshold document or termination/decommissioning plan. Their absence from public repositories is not proof that they do not exist internally.
+F-203 - INTERNAL RPAS POLICIES/PROCEDURES ARE AUTHORITATIVELY INDICATED, BUT THE CONTROLLING POLAIR-REMOTE RULESET IS NOT PUBLIC
+Q705-Q709. NSW Police told Parliament in 2022 that commands requesting RPAS assistance must ensure planned use complies with law, the agency Operator's Certificate, and relevant NSW Police Force policies and procedures. The current public NSW Police policy index contains no document titled RPAS, remotely piloted aircraft, drone or Aviation Command operational policy. Classification: relevant internal policy/procedure layer - EXISTENCE INDICATED; controlling PolAir-Remote policy/SOP/launch/proactive-patrol rules - NOT LOCATED PUBLICLY.
+F-204 - AI ASSURANCE HAS A MANDATORY NSW GOVERNANCE PATH IF POLAIR USES AI COMPONENTS
+Q700 and Q243-Q251. NSW Government requires agencies using AI to apply the AI Assessment Framework across the lifecycle, record sign-off, re-run assessment when features/datasets/purposes/decision contexts change, and refer high/critical use cases to the AI Review Committee. NSW Police also has an AI and Biometrics Ethics Board, chaired by an Assistant Commissioner. No PolAir-Remote AIAF assessment, risk rating, AI register entry or board decision has been located. Whether the Moree operational configuration uses an AI component that triggers these requirements remains a factual question requiring the configuration/capability record.
+F-205 - PRIVACY, CYBER, VENDOR-RISK AND DATA-FLOW RECORDS ARE NOW FORMAL ACQUISITION TARGETS
+Q699-Q704. No PolAir-Remote Privacy Impact Assessment, cyber-security assessment, DJI/vendor risk assessment, data-flow diagram or PolAir-specific retention schedule has been located publicly. General NSW Police privacy, information-security, data-breach, records and governance policies are public, but they do not answer the Moree configuration questions.
+F-206 - THE RPAS PANEL EOI HAS NO PUBLICLY POSTED OUTCOME
+Q713-Q715 and Q284-Q306. Buy NSW confirms YR-2026-0058 was published 2 June 2026, closed 30 June and listed an estimated decision date of 20 July. Its page currently states that no notices have been posted. No panel award or subsequent RPAS contract has been located in the current NSW Police contract search. Classification: EOI and scope - VERIFIED; panel establishment/suppliers/contract award - UNKNOWN / NOT LOCATED.
+F-207 - THE AVIATION COMMAND OPERATING MODEL REVIEW HAS NOT YET PRODUCED A PUBLICLY LOCATED RESULT
+Q716 and Q307-Q312. Buy NSW confirms YR-2026-0012 was an exploratory EOI to identify aviation specialists for a possible future review and expressly did not procure the review at that stage. No public review report, recommendation set, adoption decision or subsequent review procurement has been located.
+F-208 - COMPLETE MOREE TRIAL COST REMAINS UNDISCLOSED
+Q719-Q721 and Q484-Q519. On 30 July 2026, in response to Brendan Moylan's request for expenditure incurred and projected full-trial cost, the Police Minister advised that the total cost had not yet been finalised and referred generally to NSW Police annual-report technology/assets budget information. Therefore the complete trial expenditure, recurrent projection and conventional-PolAir comparison methodology remain unresolved primary records.
+F-209 - CONSULTATION EXISTS; THE CONSOLIDATED RESPONSE/ANALYSIS DOES NOT APPEAR PUBLIC
+Q722-Q727. The official Have Your Say consultation confirms feedback was collected until 12 June 2026 to inform future training, policy and capability development. A Justice and Equity Centre submission is publicly available independently. No NSW Police publication has been located containing all submissions, a consultation analysis, a response-to-issues document, records of formal Moree Youth Crime Governance Group consultation, Aboriginal community-controlled organisation decision involvement, or a Closing the Gap impact analysis.
+F-210 - THE 2026 NSW POLICE DISCLOSURE LOG CONTAINS NO POLAIR/RPAS RELEASE; FORMAL GIPA IS NOW THE CORRECT NEXT GATE
+Q694-Q733. The NSW Police 2026 disclosure log currently lists four unrelated releases and no PolAir-Remote/RPAS/Moree-drone item. NSW Police states that records not otherwise available may be sought by formal GIPA application, with a standard $30 application fee and a 20-working-day statutory decision period subject to permitted extensions. IPC guidance warns that overly broad requests may be refused as an unreasonable and substantial diversion of resources and recommends narrow date ranges, known file references, exclusion of duplicates and third-party personal information. The acquisition plan should therefore use multiple tightly scoped applications rather than one 40-record request.
+AE acquisition status - immediate priorities
+Priority 1: Q694-Q698 and Q731-Q733 - evaluation, business case, KPI/evaluation framework, risk register, decision/exit instruments.
+Priority 2: Q699-Q709 - PIA, AI assessment/non-application decision, cyber/vendor risk, data flow, retention, controlling RPAS policy/SOPs and launch/proactive rules.
+Priority 3: Q710-Q712 - de-identified mission-level flight data, de-identified outcome data, complaints/privacy incidents.
+Priority 4: Q713-Q721 - RPAS EOI outcome, contracts, Aviation Command review, Kempsey/MNC feasibility/site records, trial expenditure and comparison methodology.
+Priority 5: Q722-Q727 - consultation submissions/analysis/responses and shared-governance/Closing-the-Gap records.
+Priority 6: Q729-Q733 - petition briefing provenance, Kempsey expansion briefing, decision thresholds and stop/go/decommissioning records.
+Public-source basis for this gate
+NSW Police 2026 Disclosure Log - current entries unrelated to PolAir/RPAS.
+NSW Police Information Access Application page - formal GIPA route, $30 fee, 20-working-day decision period.
+Information and Privacy Commission NSW - framing guidance and unreasonable/substantial diversion guidance.
+NSW Police Policies, Procedures and Legislation index - no RPAS/drone/Aviation operational policy title located.
+NSW Parliament QON 7295 (answered 24 March 2022) - RPAS centrally managed by Aviation Command; commands may request assistance; use must comply with law, Operator's Certificate and relevant NSWPF policies/procedures.
+Digital NSW AI Assessment Framework and DCS-2024-04 - mandatory AI assurance where AI is used; reassessment on material change; high/critical review path.
+Digital NSW AI Review Committee membership - Assistant Commissioner Rod Smith identified as chair of NSW Police AI and Biometrics Ethics Board.
+Buy NSW YR-2026-0058 - RPAS Panel EOI; no posted notices.
+Buy NSW YR-2026-0012 - Aviation Command Operating Model Review EOI; exploratory, no service procurement at EOI stage.
+NSW Parliament QON answered 30 July 2026 - Moree trial total cost not yet finalised.
+NSW Government Have Your Say - Moree RPAS consultation closed 12 June 2026; feedback intended to inform future training, policy and capability development.
+Next gate
+Issue a segmented GIPA acquisition pack that preserves AE question references and narrows each application by record class, date range and exclusions. Continue public monitoring for any evaluation, procurement notice or decision record published while the GIPA pathway is pending.
+

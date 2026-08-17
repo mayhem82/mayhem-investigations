@@ -1,0 +1,110 @@
+[
+  {
+    "thread_id": "THR-01",
+    "name": "Trial evaluation and evidence base",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0010", "EV-0012"],
+    "outstanding_work": "No complete NSW Police evaluation of the six-month Moree trial has been located (Q-0001). GIPA Application 1 seeks the evaluation, business case, KPI/success-criteria document, risk register, and any stop/go decision record. Highest-priority unresolved thread - almost every downstream claim in this case depends on this document existing and being disclosed.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-02",
+    "name": "Petition claim verification",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0002", "EV-0018", "EV-0019", "EV-0020"],
+    "outstanding_work": "The petition's 50% crime-drop, 100+ arrests, 70+ stolen vehicles, six missing people, 30-60 second deployment, and helicopter-cost-fraction claims are each unresolved against a primary published dataset (Q-0002, Q-0003, Q-0004). Only the youth-offending decline baseline (EV-0018) is currently reproduced, and it predates the trial and reflects a wider regional trend, not a drone-specific effect.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-03",
+    "name": "Causal attribution and counterfactual",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0018"],
+    "outstanding_work": "Testing whether any post-January-2026 change in Moree crime is statistically distinguishable from the pre-existing decline, and separating PolAir-Remote's contribution from concurrent interventions (Operation Soteria, bail reform, youth diversion, place-based programs), requires offence-level monthly data and a defined comparison design that is not currently public.",
+    "dependencies": ["THR-02"],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-04",
+    "name": "Kempsey community-safety baseline",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0003", "EV-0004", "EV-0005", "EV-0029"],
+    "outstanding_work": "The underlying Kempsey victimisation and antisocial-behaviour concerns are real and independently documented (Q-0008 aside). The full 11 August 2026 Macleay Argus article is still needed to confirm whether its headline quote is attributable to the same 2024 witness or a different, newly drone-supportive source.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-05",
+    "name": "PolAir-Remote technical and operational architecture",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0006", "EV-0007", "EV-0024", "EV-0025"],
+    "outstanding_work": "Reconciling the proactive/covert flying described at trial commencement with later \"not surveillance\"/reactive-only messaging (CTR-0001) and the \"solely used for crime\" vs. multi-purpose messaging (CTR-0002) requires the controlling operational policy and mission classification definitions (Q-0005, Q-0010), sought in GIPA Application 2.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-06",
+    "name": "Privacy, AI and biometric governance",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0021", "EV-0022", "EV-0023"],
+    "outstanding_work": "No facial-recognition or biometric-matching linkage has been established for the current workflow, and no Privacy Impact Assessment or AI Assessment Framework determination has been publicly located (Q-0006, Q-0012). The correct control question is system linkage (collection -> retention -> external matching), which cannot be tested without the architecture documents sought in GIPA Application 2.",
+    "dependencies": ["THR-05"],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-07",
+    "name": "Procurement and statewide RPAS architecture",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0013", "EV-0014", "EV-0030", "EV-0031", "EV-0032"],
+    "outstanding_work": "EOI YR-2026-0058 (statewide RPAS Panel) predates the Kemp petition and anticipates capability/platform evolution beyond the exact Moree hardware, but its outcome remains undisclosed as at the last check (Q-0013), and no NSW-Police-specific DJI/vendor risk assessment has been located (Q-0011). GIPA Application 4 targets both gaps.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-08",
+    "name": "Consultation and shared governance",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0009", "EV-0011"],
+    "outstanding_work": "The public consultation this case located occurred after PolAir-Remote was already operational (Q-0015), raising a sequencing concern for any Mid North Coast rollout. No record of Aboriginal community-controlled organisation consultation or shared-governance/Closing the Gap impact assessment has yet been located; GIPA Application 5 targets this.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-09",
+    "name": "Political provenance and representation",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0008", "EV-0015", "EV-0016", "EV-0017", "EV-0028"],
+    "outstanding_work": "Kemp's petition provenance is confirmed as an official electorate-office campaign (EV-0017), consistent with his own prior parliamentary transparency scrutiny (EV-0015), but the petition currently has no formal NSW Parliament petition status (Q-0009), and the government publicly contemplated Kempsey expansion five months before the petition (EV-0008) - so the petition amplifies rather than originates the expansion proposal.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-10",
+    "name": "Oversight and complaint architecture",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0026", "EV-0027"],
+    "outstanding_work": "LECC has clear statutory jurisdiction for a systemic complaint (EV-0026), but no independent oversight body has published any PolAir-Remote-specific finding (EV-0027), and the practical problem of a resident discovering that a specific flight occurred over their property remains unresolved (Q-0014).",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-11",
+    "name": "Mid North Coast rollout design",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0036"],
+    "outstanding_work": "The petition's \"Mid North Coast\" wording does not distinguish a single Kempsey-focused installation from a distributed regional network across the district's genuinely dispersed geography (Q-0007). No dock/aircraft count, location, or response-time design has been located; GIPA Application 4 targets any existing feasibility/coverage study.",
+    "dependencies": ["THR-07"],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-12",
+    "name": "Primary record acquisition (GIPA)",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0034", "EV-0035"],
+    "outstanding_work": "Six segmented GIPA applications are drafted and ready to lodge with NSW Police InfoLink (EV-0034), each linked to the specific open questions above. None have yet actually been lodged by the case operator as at ingestion into this register - lodging them is this case's single highest-leverage next action.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  }
+]

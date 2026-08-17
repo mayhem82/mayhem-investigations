@@ -1,0 +1,116 @@
+
+MAYHEM - POLAIR-REMOTE
+PRIMARY RECORD ACQUISITION PACK
+GIPA-ready segmented requests - v1.0 - 16 August 2026
+Investigation: Moree -> Kempsey -> Mid North Coast PolAir-Remote
+Question-bank basis: AE Q694-Q733, with linked questions throughout Q1-Q763.
+Purpose: obtain the minimum primary records required to test evaluation validity, operational governance, privacy/AI/cyber controls, mission outcomes, procurement, shared governance and expansion decision architecture.
+Filing strategy
+These requests are intentionally separated by record class. IPC NSW guidance warns that an agency may refuse to deal with an application if it would cause an unreasonable and substantial diversion of resources. Narrow date ranges, known procurement IDs, exclusion of duplicates and exclusion/redaction of third-party personal information are used to reduce search and consultation burden.
+Each request seeks electronic copies. Where a document contains exempt or operationally sensitive material, the request asks for partial access/redaction rather than whole-document refusal. Personal information of operational subjects, victims, witnesses and individual community submitters is expressly excluded unless already public.
+APPLICATION 1 - Trial evaluation, business case and decision gates
+Question-bank linkage: Q694-Q698, Q731-Q733; supports Q1-Q47, Q338-Q379 and Q734-Q763.
+Proposed date range: 1 September 2025 to 16 August 2026
+Requested information:
+The complete Moree PolAir-Remote trial evaluation, whether draft, interim, completed or approved, including appendices and data dictionaries.
+The original approved business case, project initiation document, trial proposal or equivalent document authorising the Moree PolAir-Remote trial.
+The trial evaluation framework, monitoring and evaluation plan, original KPI/success-criteria document, baseline/comparator plan and any document defining failure, continuation, expansion, modification or termination criteria.
+The trial/project risk register and any formal risk-treatment plan current at commencement and any materially revised version.
+Any written stop/go, continuation, transition-to-business-as-usual, expansion or termination decision record concerning the Moree trial.
+Any decommissioning, exit, asset-reassignment or trial-closure plan prepared for the Moree capability.
+Scope exclusions / narrowing:
+Exclude routine operational incident reports and individual case files.
+Exclude duplicate copies and purely administrative email chains that add no substantive content.
+Exclude third-party personal information; redact names/contact details where necessary.
+Clarification: If no completed evaluation exists, provide the latest evaluation work product and the document identifying the responsible evaluator, current status and planned decision date.
+Access form requested: electronic copies in native format where reasonably practicable; otherwise searchable PDF. If full access is refused, provide access to non-exempt portions with redactions and identify the statutory basis for each refusal/redaction category.
+APPLICATION 2 - Operational governance, privacy, AI, cyber and data architecture
+Question-bank linkage: Q699-Q709; supports Q159-Q283, Q636-Q675 and Q749-Q756.
+Proposed date range: 1 September 2025 to 16 August 2026
+Requested information:
+The Privacy Impact Assessment or privacy risk assessment for Moree PolAir-Remote, including recommendations and management response.
+The NSW AI Assessment Framework assessment for the PolAir-Remote system or any component used in Moree; alternatively, any documented decision that the AIAF was not applicable and the reasons for that determination.
+Any referral, submission, advice or decision concerning PolAir-Remote from the NSW AI Review Committee or NSW Police AI and Biometrics Ethics Board.
+The cyber-security risk assessment/accreditation and supply-chain or vendor-risk assessment for the Moree PolAir-Remote configuration, including any assessment specific to DJI.
+The high-level system/data-flow architecture showing where live video, recorded imagery, telemetry, flight logs and user/audit logs are processed and stored, including cloud/on-premises boundaries and external/vendor connections.
+The PolAir/RPAS-specific retention and disposal schedule or rule applying to video, still imagery, telemetry, flight logs, mission/tasking records and audit logs.
+The current controlling NSW Police RPAS/PolAir operational policy and releasable Standard Operating Procedures, including launch/tasking authority, reactive/proactive use, purpose-change, recording, private-property observation, sensor/thermal/zoom use, AI-assisted functions, access control and mission termination rules.
+The mission classification definitions used for reactive, proactive, training/testing, high-visibility, covert or other RPAS mission categories.
+Scope exclusions / narrowing:
+Operational tactics, security credentials, encryption keys, network addresses and vulnerabilities may be redacted.
+No request is made for source code, passwords, credentials or information whose release would create an operational security risk.
+If complete SOPs cannot be released, provide the table of contents, policy titles/version dates and all non-operationally-sensitive sections.
+Clarification: The request is directed at governance controls and architecture, not tactical methods for evading police detection.
+Access form requested: electronic copies in native format where reasonably practicable; otherwise searchable PDF. If full access is refused, provide access to non-exempt portions with redactions and identify the statutory basis for each refusal/redaction category.
+APPLICATION 3 - De-identified mission, outcome, reliability and complaints data
+Question-bank linkage: Q710-Q712; supports Q23-Q44, Q110-Q179, Q423-Q545 and Q657-Q672.
+Proposed date range: 8 January 2026 to 16 August 2026
+Requested information:
+A de-identified mission-level dataset for all Moree PolAir-Remote flights, with one row per mission/flight where practicable, including mission identifier, date/time, duration, mission classification, reactive/proactive status, originating incident/event category, general operating area or suitably de-identified geography, flight duration, result/outcome category and whether video was recorded.
+Where already held in the ordinary course, fields showing launch/tasking time, time to airborne, time to incident area, time to useful intelligence, ground-police arrival/intervention time, person/vehicle location, arrest, property recovery, missing-person outcome, search-time reduction, pursuit avoidance and conventional PolAir displacement.
+Aggregated counts of unsuccessful/aborted/no-outcome deployments, weather cancellations, aircraft/dock unserviceability, network/control-link interruptions, return-to-home events, navigation anomalies, emergency deconfliction events, incidents/near misses and maintenance downtime.
+Aggregated complaints, privacy incidents and substantiated findings relating specifically to PolAir-Remote/RPAS operations in Moree.
+Where lawfully held and capable of release in de-identified aggregate form, demographic outcome counts sufficient to assess age and Aboriginal status of persons stopped, arrested, charged, diverted, refused bail or remanded following PolAir-assisted contact.
+Scope exclusions / narrowing:
+Exclude names, addresses, dates of birth, COPS event narratives, exact private-residence coordinates, victim/witness information and any field that would identify an individual.
+Accept broader geographic aggregation if street-level data would create privacy or operational risk.
+No request is made for live tactical frequencies, current patrol schedules or security-sensitive deployment methods.
+Clarification: If a single mission-level dataset is not held, provide the existing reports/exports from which NSW Police measures PolAir-Remote mission totals and claimed outcomes, together with field definitions.
+Access form requested: electronic copies in native format where reasonably practicable; otherwise searchable PDF. If full access is refused, provide access to non-exempt portions with redactions and identify the statutory basis for each refusal/redaction category.
+APPLICATION 4 - Procurement, Aviation Command review, feasibility and cost
+Question-bank linkage: Q713-Q721; supports Q284-Q337, Q484-Q519 and Q561-Q602.
+Proposed date range: 1 March 2026 to 16 August 2026
+Requested information:
+For EOI YR-2026-0058, the EOI outcome/decision record, evaluation report or recommendation, list of respondents/shortlisted suppliers where releasable, any decision to establish or not establish an RPAS panel, and any resulting contract/standing offer/panel instrument.
+Any executed NSW Police contract since 1 March 2026 specifically for RPAS/PolAir-Remote aircraft, docks, Remote Operations Centre services, software, licensing, data hosting, support, maintenance, specialist payloads or related integration arising from or associated with YR-2026-0058.
+For EOI YR-2026-0012, any subsequent procurement decision, engagement/contract for an Aviation Command Operating Model Review, and any completed/interim review report or recommendations.
+Any feasibility, engineering, site-selection, coverage or network-planning study for PolAir-Remote expansion to Kempsey or the Mid North Coast.
+Any document estimating the number/location of docks or aircraft required for Kempsey/Mid North Coast coverage.
+The complete expenditure-to-date record and projected recurrent/full-trial cost for Moree PolAir-Remote, including capital, staffing/operator, ROC, communications, software/licensing, maintenance, training, data/hosting and regulatory-compliance components where separately recorded.
+Any methodology or analysis used to compare PolAir-Remote cost with conventional PolAir/helicopter operations or alternative policing investments.
+Scope exclusions / narrowing:
+Commercial-in-confidence pricing components may be redacted where legally justified, but request release of contract value, duration, scope, supplier name and non-exempt terms.
+Exclude unrelated Aviation Command procurements and routine aircraft maintenance not connected to RPAS/PolAir-Remote.
+Use the known identifiers YR-2026-0058 and YR-2026-0012 to constrain search.
+Access form requested: electronic copies in native format where reasonably practicable; otherwise searchable PDF. If full access is refused, provide access to non-exempt portions with redactions and identify the statutory basis for each refusal/redaction category.
+APPLICATION 5 - Consultation, shared governance and Closing the Gap
+Question-bank linkage: Q722-Q727; supports Q380-Q445 and Q546-Q560.
+Proposed date range: 1 December 2025 to 16 August 2026
+Requested information:
+The de-identified submissions or survey response export from the Moree RPAS Have Your Say consultation, excluding respondent names/contact details.
+The consultation analysis, summary report, themes/issues register and any NSW Police response-to-issues or management response arising from the consultation.
+Any document recording changes to PolAir-Remote policy, training, configuration, operating rules or capability made or proposed as a result of consultation feedback.
+Records of formal consultation, briefing, endorsement, objection or recommendations concerning PolAir-Remote involving the Moree Youth Crime Governance Group, Moree Local Aboriginal Land Council, Aboriginal Legal Service or Aboriginal community-controlled organisations.
+Any Closing the Gap impact assessment, Aboriginal-impact assessment, demographic-impact analysis or shared-data-governance plan prepared for the Moree PolAir-Remote trial or proposed expansion.
+Scope exclusions / narrowing:
+Exclude respondent names, email addresses, phone numbers and other identifying information.
+Where individual submissions cannot be released, provide the de-identified dataset, coded themes and numerical response summaries.
+Exclude records unrelated to PolAir-Remote even if they concern the broader Moree place-based response.
+Access form requested: electronic copies in native format where reasonably practicable; otherwise searchable PDF. If full access is refused, provide access to non-exempt portions with redactions and identify the statutory basis for each refusal/redaction category.
+APPLICATION 6 - Expansion briefing provenance and genuine ability to say no
+Question-bank linkage: Q729-Q733; supports Q603-Q621 and Q734-Q763.
+Proposed date range: 1 January 2026 to 16 August 2026
+Requested information:
+Any NSW Police briefing, submission, minute, decision note or ministerial briefing that provides or validates the numerical Moree PolAir-Remote claims: approximately 50% crime reduction, more than 100 arrests, more than 70 stolen vehicles, six missing persons, 30-60 second deployment and cost relative to a helicopter.
+Any NSW Police briefing or submission concerning possible expansion of PolAir-Remote to Kempsey or the Mid North Coast.
+Any document setting the criteria, threshold, evidence or approval required before a new regional PolAir-Remote site may be approved.
+Any stop/go decision instrument, decision minute or governance paper identifying what evidence would cause expansion to be refused, modified or delayed.
+Any document specifying who holds decision authority for continuation, expansion, site selection or conversion of the Moree trial into ordinary ongoing capability.
+Scope exclusions / narrowing:
+Exclude correspondence that merely forwards publicly available media articles without substantive analysis.
+Exclude constituent personal information and third-party personal details.
+If a briefing exists in both NSW Police and Ministerial Office holdings, request the NSW Police-held version and attachments.
+Clarification: Q728 (the complete Macleay Argus article) is not included because it is a media record rather than a NSW Police government record; it should be acquired separately from the publisher/library/archive route.
+Access form requested: electronic copies in native format where reasonably practicable; otherwise searchable PDF. If full access is refused, provide access to non-exempt portions with redactions and identify the statutory basis for each refusal/redaction category.
+Suggested public-interest statement for each application
+The requested information concerns evaluation and governance of an Australian-first police surveillance/aviation capability trialled in a regional community and publicly discussed as a model for expansion to other NSW communities. Release of non-exempt evaluation, governance, cost, consultation and de-identified outcome information would assist public understanding of whether government decision-making is evidence-based, whether claimed benefits are reproducible, and whether privacy, security, demographic and expenditure risks have been assessed. I do not seek personal information of victims, witnesses, operational subjects or individual community respondents, and I expressly accept redaction of genuinely security-sensitive operational material.
+If NSW Police says the scope is too broad
+Ask InfoLink to identify which record class or date range creates the resource burden before narrowing.
+Preserve the evaluation/KPI/decision records first; they have the highest question-collapse value.
+Reduce mission data to a machine-readable export of fields already used internally for reporting rather than requiring creation of new analysis.
+Accept de-identified aggregation by week/month and broad area where individual privacy is a concern.
+Exclude duplicates, attachments already captured elsewhere, and routine administrative scheduling emails.
+If a document contains exempt portions, request partial release rather than withdrawing the entire record.
+Lodgement facts
+NSW Police states that formal GIPA applications can be lodged online through the NSW Police Community Portal or by post/hand to InfoLink. The standard application fee is $30. The statutory decision period is ordinarily 20 working days, subject to lawful extensions. IPC NSW notes that processing may be charged at $30 per hour, with reductions/waivers available in specified circumstances and agency discretion.
+
