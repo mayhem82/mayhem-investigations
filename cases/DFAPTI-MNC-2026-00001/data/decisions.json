@@ -80,5 +80,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Authorises building cases/DFAPTI-MNC-2026-00001/dfapta/, lattice-atlas/, temporal-projection-integrity-engine/, enforcement-notice/, and advocacy-package/. Supersedes DEC-0004's 'not yet built' state for this case."
+  },
+  {
+    "decision_id": "DEC-0010",
+    "date": "2026-08-17",
+    "reason": "Operator feedback: \"the advocacy package has complaints instead of remedies and the others are empty\", followed by an explicit correction: \"nothing about MAYHEM is a complaint machine\". Enforcement Notice and Advocacy Package as first built (DEC-0009) framed the recipient asks as information requests and complaint-lodging mechanics (\"written confirmation of...\", \"submitting a formal complaint and information request\", IPC \"not asked to act in the first instance\") rather than remedy demands - specific corrective actions and binding preconditions required of each recipient before the program proceeds further. Both documents were rewritten: Enforcement Notice's Recipients section, Part Three, and Part Four now state binding commitments and preconditions (e.g. no expansion authorisation until the trial evaluation is published; no new-site deployment until the operational policy is published; a public ruling from the IPC, not a copy for information); Advocacy Package's Who Has Standing and How to Submit sections were brought into line with the same framing. No evidence, analysis, pattern, or forward-assessment content changed - this was a corrective rewrite of Stage 5 and Stage 6 presentation only.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "cases/DFAPTI-MNC-2026-00001/enforcement-notice/index.html and cases/DFAPTI-MNC-2026-00001/advocacy-package/index.html rewritten to demand remedies rather than request information or confirmation. This correction applies to this case only; whether DFAPTI-BB-2026-00001's own Enforcement Notice has the same framing issue was raised as an open question for the operator, not assumed or acted on."
   }
 ]

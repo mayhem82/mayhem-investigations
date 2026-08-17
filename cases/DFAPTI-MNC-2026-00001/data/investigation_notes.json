@@ -187,5 +187,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0022",
+    "timestamp": "2026-08-17T08:05:00Z",
+    "activity_type": "Decision",
+    "text": "Operator: \"the advocacy package has complaints instead of remedies and the others are empty\", then \"nothing about MAYHEM is a complaint machine\". Rewrote Enforcement Notice (Recipients, Part Three, Part Four, nav label) and Advocacy Package (Who Has Standing, How to Submit) to state binding remedy demands and preconditions per recipient instead of information/confirmation requests. See DEC-0010.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

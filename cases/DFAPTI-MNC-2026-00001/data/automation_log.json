@@ -953,5 +953,13 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Operator command: \"freeze evidence register and proceed with gates\". This is the explicit freeze command required by the live/frozen-snapshot gating model (DEC-0004) before any of Stages 2-6 may be built for this case. Evidence Register frozen at EV-0001 through EV-0827 (827 items), Source Register at SRC-0001 through SRC-0072 (72 sources), Chronology at CHR-0001 through CHR-0020 (20 entries), Contradiction Register at CTR-0001/CTR-0002, Open Question Register at Q-0001 through Q-0018 (18 questions), Investigation Threads at THR-01 through THR-12. This is Cycle 1 of DFAPTA/Lattice Atlas/Temporal Projection Integrity Engine for this case. DFAPTI itself remains live and continues to accept new evidence after this point; a later freeze command would open Cycle 2, analysing whatever the register has grown to by then, without altering this cycle's own frozen boundary."
+  },
+  {
+    "run_id": "RUN-0007",
+    "date": "2026-08-17",
+    "sources_checked": [],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Corrective pass on Stage 5 (Enforcement Notice) and Stage 6 (Advocacy Package) presentation only, per operator feedback and DEC-0010. Not a search or evidence-collection run - no evidence, source, chronology, contradiction, question, or thread register changed."
   }
 ]

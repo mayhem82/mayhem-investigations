@@ -93,5 +93,20 @@
     ],
     "reason": "RUN-0005 (DEC-0008): atomized the AE Primary Record Acquisition Register (40 items) and GIPA Primary Record Acquisition Pack (6 applications) into individual evidence entries (EV-0782-EV-0827), completing full-corpus ingestion.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0006",
+    "date": "2026-08-17",
+    "author": "mayhem82",
+    "files_affected": [
+      "cases/DFAPTI-MNC-2026-00001/enforcement-notice/index.html",
+      "cases/DFAPTI-MNC-2026-00001/advocacy-package/index.html",
+      "cases/DFAPTI-MNC-2026-00001/data/decisions.json",
+      "cases/DFAPTI-MNC-2026-00001/data/change_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/investigation_notes.json",
+      "cases/DFAPTI-MNC-2026-00001/data/automation_log.json"
+    ],
+    "reason": "DEC-0010: reframed Enforcement Notice and Advocacy Package from information-request/complaint-lodging language to genuine remedy demands, per operator correction \"nothing about MAYHEM is a complaint machine\". No evidence, analysis, pattern, or forward-assessment content changed.",
+    "validation_completed": true
   }
 ]
