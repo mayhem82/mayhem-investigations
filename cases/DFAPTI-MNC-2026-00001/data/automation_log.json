@@ -977,5 +977,19 @@
       "EV-0834"
     ],
     "notes": "Operator supplied 6 new docx files. Two were genuinely new: 'DFAPTI Snapshot 001' (18 pinpoint-sourced EVID items, a materially better-disciplined format than prior bulk ingestion) and 'Pre-Rollout Decision Architecture RUN 001' (a 13-gate external evidentiary-sufficiency framework, preserved as reference only - not merged into DFAPTA/TPIE, since those must trace to this case's own frozen evidence, not import another process's conclusions). Cross-checked all 18 Snapshot 001 items against the existing 827-item register before acting: 8 duplicated an existing fact but supplied a real pinpoint URL where the existing entry only had 'exact URL not captured' - those 8 were upgraded in place (EV-0013, EV-0014, EV-0021, EV-0026, EV-0130, EV-0135, EV-0167, EV-0168), not duplicated. 7 items were genuinely new and added as EV-0828-EV-0834 (EVID-003, 006, 008 needed no action - already captured with matching URLs). The remaining 4 uploaded files all shared one filename ('Answer Register L-T RUN001') but were 4 distinct documents, each independently covering the identical Q313-Q519 range already frozen in the register, with no new citations - preserved in full for audit-trail completeness (answer-register-l-to-t-continuity-break-variants-2026-08-17.txt) but not ingested as evidence. See DEC-0011."
+  },
+  {
+    "run_id": "RUN-0009",
+    "date": "2026-08-17",
+    "sources_checked": [
+      "SRC-0086",
+      "SRC-0087"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0835",
+      "EV-0836"
+    ],
+    "notes": "First live evidence-gathering run of this case done directly by this session, rather than ingested from the external ChatGPT corpus, per operator instruction to 'continue DFAPTI' after the ChatGPT session's continuity broke (see DEC-0011). Ran 11 WebSearch queries (SRCH-0001-SRCH-0011) targeting the case's highest-value open questions: Moree trial evaluation (Q-0001, negative - none found), primary source for petition claims (Q-0002/Q-0003, found - see EV-0835), controlling operational policy (Q-0005, negative), PIA/facial-recognition (Q-0006/Q-0012, negative), EOI YR-2026-0058 award status (Q-0013, negative, unchanged from EV-0014), independent oversight examination (Q-0014, negative for a formal body, but found independent think-tank commentary - EV-0836), NSW e-petition tabling status (Q-0009, inconclusive), Aviation Command Operating Model Review findings (Q-0018, negative, unchanged from EV-0038/EV-0196). Attempted WebFetch on 5 of the most promising URLs to get verbatim text; all 5 returned EGRESS_BLOCKED, including a control fetch of example.com, confirming WebFetch is broadly blocked for external domains in this sandbox, not just the specific sites. EV-0835 and EV-0836 are therefore recorded from WebSearch's own summarised/paraphrased results, not a direct fetch - flagged explicitly in each entry's relevant_quotation and hash_exception_reason. See DEC-0012 for the methodology note this establishes for future runs."
   }
 ]

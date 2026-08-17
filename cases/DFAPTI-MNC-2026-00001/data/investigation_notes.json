@@ -205,5 +205,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0024",
+    "timestamp": "2026-08-17T10:15:00Z",
+    "activity_type": "Finding",
+    "text": "Operator: 'then instead continue DFAPTI' (declining to chase the missing Answer Register U-to-AF from the continuity-broken ChatGPT session). Ran this case's first live, this-session WebSearch pass across the highest-value open questions. Two genuine finds: the petition's headline statistics (50%/100+ arrests/70+ vehicles/six missing) trace to Kemp's own party's press release, not any NSW Police publication (EV-0835); and independent ASPI commentary raises DJI vendor/data-sovereignty governance questions about the trial (EV-0836). Everything else searched (formal evaluation, operational policy, PIA/facial recognition, EOI YR-2026-0058 award, LECC/Ombudsman/Audit Office examination, Aviation Command Operating Model Review findings, e-petition tabling status) came back negative or inconclusive, reinforcing rather than closing the case's existing open questions. WebFetch is confirmed broadly blocked in this sandbox (tested against 5 target URLs plus a control fetch of example.com), so these findings are WebSearch-summarised paraphrase, not verbatim primary-source quotation - recorded honestly as such (DEC-0012).",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0835"
   }
 ]

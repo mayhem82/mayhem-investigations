@@ -96,5 +96,16 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "cases/DFAPTI-MNC-2026-00001/preserved/answer-register-l-to-t-continuity-break-variants-2026-08-17.txt holds all 4 variants; no evidence_register.json entries trace to them. The actual U-to-AF register (Q520-Q763) remains unsupplied and is still the highest-value open acquisition gap in the underlying question bank."
+  },
+  {
+    "decision_id": "DEC-0012",
+    "date": "2026-08-17",
+    "reason": "Operator instructed 'then instead continue DFAPTI', in place of returning to the (continuity-broken) external ChatGPT session for the missing Answer Register U-to-AF. This is the case's first live evidence-gathering run performed directly by this session (RUN-0009), rather than ingestion of externally-supplied research. During that run, WebFetch failed with EGRESS_BLOCKED on every external domain attempted, including a control fetch of example.com - confirming this sandbox cannot independently fetch and quote primary sources verbatim, only run WebSearch queries that return AI-summarised snippets. This is a third, distinct evidentiary provenance tier, alongside (1) the external ChatGPT corpus (DEC-0001) and (2) a genuine independently-fetched-and-quoted primary source (which this case does not yet have any of). New items sourced this way are recorded at classification 'Requires Verification' / verification_state 'Unverified', same as tier 1, with relevant_quotation explicitly marked '[paraphrase, not verbatim - WebFetch blocked]' and hash_exception_reason stating no local copy exists, so this distinction is never silently lost.",
+    "supporting_evidence": [
+      "EV-0835",
+      "EV-0836"
+    ],
+    "investigator": "mayhem82",
+    "impact": "Establishes the citation-honesty pattern for any future live WebSearch-only evidence added to this case while this sandbox's WebFetch remains blocked. A future run with working WebFetch access (or a human with a browser) should prioritise re-fetching EV-0835 and EV-0836's source pages verbatim and upgrading them accordingly."
   }
 ]

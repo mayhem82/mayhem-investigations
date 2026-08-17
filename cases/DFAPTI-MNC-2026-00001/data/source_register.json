@@ -1188,5 +1188,33 @@
     "hash_status": "No Hash",
     "associated_thread": null,
     "availability_notes": "Deep link supersedes EV-0021's prior 'exact URL not captured' citation."
+  },
+  {
+    "source_id": "SRC-0086",
+    "authority": "NSW Nationals (Michael Kemp MP, Member for Oxley)",
+    "title": "Petition launched to bring police drones to Mid North Coast",
+    "type": "Public Statement",
+    "url_or_file_location": "https://www.nswnationals.org.au/petition-launched-to-bring-police-drones-to-mid-north-coast/",
+    "first_checked": "2026-08-17",
+    "last_checked": "2026-08-17",
+    "current_version": "Live page as at 17 August 2026; content accessed via live web search (direct WebFetch blocked by this sandbox's network egress policy for this domain)",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "This is the petition's own launch press release, published by Kemp's own party - not an NSW Police document. It is the earliest located public statement of the 50%/100+ arrests/70+ vehicles/six missing people claims, and cites 2025 BOCSAR crime statistics for Kempsey Shire's ranking directly. Could not be independently fetched/quoted verbatim; WebFetch to this domain returned EGRESS_BLOCKED in this session's sandbox. Findings recorded here rely on WebSearch's summarised extract only - flagged Unverified until someone with unblocked access can confirm the verbatim text."
+  },
+  {
+    "source_id": "SRC-0087",
+    "authority": "Australian Strategic Policy Institute (ASPI), The Strategist",
+    "title": "NSW Police's drone trial: questions of risk, governance and resilience",
+    "type": "Academic Literature",
+    "url_or_file_location": "https://www.aspistrategist.org.au/nsw-polices-drone-trial-questions-of-risk-governance-and-resilience/",
+    "first_checked": "2026-08-17",
+    "last_checked": "2026-08-17",
+    "current_version": "Live page as at 17 August 2026; content accessed via live web search (direct WebFetch blocked by this sandbox's network egress policy for this domain)",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "Independent think-tank commentary (not a government oversight body) raising foreign-ownership/data-sovereignty/vendor-risk governance questions about the DJI-manufactured PolAir-Remote trial. Also republished by Policing Insight (policinginsight.com). Could not be independently fetched/quoted verbatim; WebFetch to this domain returned EGRESS_BLOCKED in this session's sandbox."
   }
 ]

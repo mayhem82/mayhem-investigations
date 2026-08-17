@@ -126,5 +126,21 @@
     ],
     "reason": "RUN-0008 (DEC-0011): ingested DFAPTI Snapshot 001 (7 new evidence items, 8 existing items upgraded with pinpoint URLs, 13 new sources), preserved the Pre-Rollout Decision Architecture as a reference document, and preserved 4 duplicate-range 'continuity break' Answer Register drafts without converting them to evidence. Evidence register grows from 827 to 834 items; DFAPTA/Lattice Atlas/Temporal Projection Integrity Engine/Enforcement Notice/Advocacy Package remain at Cycle 1's frozen boundary (EV-0001-EV-0827) until a new freeze command opens Cycle 2.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0008",
+    "date": "2026-08-17",
+    "author": "mayhem82",
+    "files_affected": [
+      "cases/DFAPTI-MNC-2026-00001/data/evidence_register.json",
+      "cases/DFAPTI-MNC-2026-00001/data/source_register.json",
+      "cases/DFAPTI-MNC-2026-00001/data/search_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/automation_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/decisions.json",
+      "cases/DFAPTI-MNC-2026-00001/data/change_log.json",
+      "cases/DFAPTI-MNC-2026-00001/data/investigation_notes.json"
+    ],
+    "reason": "RUN-0009 (DEC-0012): first live, this-session evidence-gathering pass. 11 WebSearch queries logged (SRCH-0001-SRCH-0011, several confirming existing negative findings rather than adding new material). 2 new evidence items added (EV-0835: petition claims trace to Kemp's own party press release, not an NSW Police source; EV-0836: independent ASPI Strategist commentary on DJI vendor/data-sovereignty risk). 2 new sources (SRC-0086, SRC-0087). Evidence register grows from 834 to 836 items. Downstream stages remain at Cycle 1's frozen boundary.",
+    "validation_completed": true
   }
 ]

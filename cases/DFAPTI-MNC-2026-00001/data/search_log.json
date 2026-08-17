@@ -1,1 +1,134 @@
-[]
+[
+  {
+    "search_id": "SRCH-0001",
+    "search_terms": "Buy NSW YR-2026-0058 Remotely Piloted Aircraft Systems Panel notice awarded",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-17",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0002",
+    "search_terms": "Michael Kemp MP drone petition Kempsey Mid North Coast PolAir Remote NSW Parliament",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-17",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0003",
+    "search_terms": "NSW Police PolAir-Remote Moree trial evaluation report 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-17",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0004",
+    "search_terms": "\"PolAir-Remote\" Moree operational policy launch authority proactive patrol",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-17",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0005",
+    "search_terms": "Law Enforcement Conduct Commission OR NSW Ombudsman OR NSW Audit Office PolAir-Remote drone Moree",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-17",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0006",
+    "search_terms": "\"nswnationals.org.au\" Kemp petition drones \"50%\" OR \"100 arrests\" OR \"70 stolen vehicles\" OR \"six missing\"",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-17",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0007",
+    "search_terms": "NSW Parliament e-petitions Kemp PolAir drone Mid North Coast Kempsey tabled",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-17",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0008",
+    "search_terms": "PolAir-Remote Moree privacy impact assessment facial recognition biometric NSW Police",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-17",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0009",
+    "search_terms": "Aviation Command Operating Model Review NSW Police YR-2026-0012 findings published",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-17",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0010",
+    "search_terms": "\"NSW police's drone trial\" ASPI Strategist risk governance resilience Moree",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-17",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 6,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0011",
+    "search_terms": "Michael Kemp Oxley petition PolAir drone Mid North Coast \"e-petition\" signatures parliament.nsw.gov.au",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-17",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  }
+]
