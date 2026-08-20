@@ -1913,5 +1913,32 @@
     "open_question_links": [
       "Q-0005"
     ]
+  },
+  {
+    "evidence_id": "EV-0074",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-20",
+    "source_date": "2021-08-10",
+    "source_authority": "Australian Bureau of Statistics",
+    "source_title": "2021 Census All persons QuickStats - Willawarrin (State Suburb, SAL14312)",
+    "source_type": "Government Record",
+    "source_location": "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL14312",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Only available via search-engine snippet this session; direct fetch of abs.gov.au is blocked by this session's confirmed organizational egress policy (EGRESS_BLOCKED, same constraint as DEC-0008/DEC-0012). No file preserved or hashed.",
+    "evidence_description": "ABS 2021 Census QuickStats records the Willawarrin State Suburb (SAL14312) population as 183 persons (median age 50; 85 private dwellings; 2.4 persons per household). The same ABS QuickStats series records earlier counts of 191 (2016, SSC14295) and 335 (2006, SSC19409), and Willawarrin's 2021 count of 183 falls below the >=200-person threshold required for Urban Centre/Locality (UCL) classification, so no separate ABS UCL population exists for the town. This is the independent, authoritative statistical-boundary population figure that CTR-0001 called for.",
+    "relevant_quotation": "People 183",
+    "investigation_relevance": "Directly bears on CTR-0001: two NSW Government releases three days apart gave Willawarrin's population as 130 (EV-0005, water.nsw.gov.au) versus 180 (EV-0006, water.dcceew.nsw.gov.au). The ABS State Suburb count (183, and 191 at the prior 2016 Census) corroborates the ~180 figure as the defensible whole-of-locality population, and indicates the 130 figure is not any ABS boundary count - most consistent with a narrower measure (e.g. residents actually connected to/served by the Willawarrin supply scheme, or the immediate village core) rather than the census locality. Moves CTR-0001 from an unexplained two-source discrepancy toward a boundary/definition explanation, though it remains search-snippet-only and unpreserved, so the contradiction is marked Partially Resolved rather than Resolved.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0005",
+      "EV-0006"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [
+      "CTR-0001"
+    ],
+    "open_question_links": []
   }
 ]

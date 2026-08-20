@@ -1468,5 +1468,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-02",
     "availability_notes": "kempsey.nsw.gov.au returns HTTP 403 to this session's fetch tool (DEC-0008/DEC-0012). Dated 30 November 2023 (tender TQE23/61, closed 19 December 2023, released via eProcure). Council sought a panel of local plant/truck-hire contractors (preferably within the LGA or 100km of it) to supplement Council's own equipment for \"construction and maintenance of roads, footpaths, water, sewer assets\" - i.e. a general operational-works panel, not a dedicated water-carting contract. Registered as the closest primary mechanism found to date for how Council might source truck capacity for village water carting, though it does not name any Willawarrin/Bellbrook-specific carting work and should not be read as confirming which company actually performed any past carting episode. Consistent with, and does not resolve, THR-02's standing gap on who physically contracted/performed water carting historically."
+  },
+  {
+    "source_id": "SRC-0106",
+    "authority": "Australian Bureau of Statistics",
+    "title": "2021 Census All persons QuickStats - Willawarrin (State Suburb, SAL14312)",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL14312",
+    "first_checked": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "current_version": "Not confirmed - fetch blocked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": null,
+    "availability_notes": "abs.gov.au returns EGRESS_BLOCKED to this session's fetch tool (same organizational egress policy as DEC-0008/DEC-0012). Confirmed via search-engine snippet only. ABS 2021 Census QuickStats for the Willawarrin State Suburb (SAL14312): total population 183. Also captured from the same source series: Willawarrin 2016 Census (SSC14295) = 191, 2006 (SSC19409) = 335, and that Willawarrin does not meet the >=200-person threshold to be classified as an Urban Centre/Locality (UCL) in 2021, so no separate UCL count exists for it. Directly relevant to CTR-0001 (the 130 vs 180 Willawarrin population discrepancy between two March 2025 NSW Government releases)."
   }
 ]

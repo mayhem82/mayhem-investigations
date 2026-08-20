@@ -1150,5 +1150,14 @@
     "related_thread": "THR-02",
     "related_source": "SRC-0105",
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0129",
+    "timestamp": "2026-08-20T00:00:00",
+    "activity_type": "Finding",
+    "text": "RUN-0067 (automated pass, BB case chosen - it has 8 open questions and 13 active threads vs the MNC case's frozen Stages 2-6). Swept CTR-0001, Q-0001, Q-0005 and THR-10/THR-13 for fresh angles per DEC-0014. Genuinely new finding: located the ABS 2021 Census population for the Willawarrin State Suburb (SAL14312) = 183, plus 2016 = 191 and 2006 = 335 (EV-0074/SRC-0106) - the independent statistical-boundary figure CTR-0001's required_resolution explicitly asked for. It corroborates EV-0006's ~180 figure and indicates EV-0005's 130 is not an ABS boundary count (Willawarrin is below the 200-person UCL threshold, so has no separate UCL figure), most likely a narrower service/village-core measure. CTR-0001 moved Open -> Partially Resolved on that basis (kept short of Resolved because the ABS page is fetch-blocked and unpreserved this session). Q-0001/THR-10 (commissioning): confirmed definitively that the recurring 'Northern Sentinel - water treatment plant commissioning planned for mid-August' search hit is Kitimat, British Columbia, Canada (Kitimat River, adsorption clarifier, sodium hypochlorite; District Project Manager Kevin Carlson), NOT Willawarrin - closing out the distractor RUN-0065 had already flagged. Still no 2026-dated source confirming the Willawarrin plant's commissioning/operational status; the kempsey.nsw.gov.au current-works page remains the target and remains fetch-blocked. Q-0005/THR-13 (Steuart McIntyre Dam): reconfirmed LC Eire contractor, ~late-2026 completion, 12 ML/day; no new dated construction milestone beyond the register's existing figures.",
+    "related_thread": null,
+    "related_source": "SRC-0106",
+    "related_evidence": "EV-0074"
   }
 ]

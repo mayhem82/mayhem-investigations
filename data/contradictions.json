@@ -2,10 +2,15 @@
   {
     "contradiction_id": "CTR-0001",
     "description": "Two NSW Government primary sources, published three days apart, give different population figures for Willawarrin: EV-0005 (water.nsw.gov.au, 21 March 2025) states the new plant serves 'the village's 130 residents', while EV-0006 (water.dcceew.nsw.gov.au, 24 March 2025) states 'Willawarrin (population 180)'.",
-    "supporting_evidence": ["EV-0005"],
-    "opposing_evidence": ["EV-0006"],
-    "status": "Open",
-    "material_significance": "Both figures come from official government releases about the same project within the same week, so this is not an obvious media-error case - it may reflect different data sources (e.g. ABS Census vs a service-connections count), different geographic boundaries (the town itself vs a wider locality), or simply an editing inconsistency between two government departments describing the same project. Affects how the plant's population-served figure should be reported and whether either number can be treated as authoritative without qualification.",
+    "supporting_evidence": [
+      "EV-0005"
+    ],
+    "opposing_evidence": [
+      "EV-0006",
+      "EV-0074"
+    ],
+    "status": "Partially Resolved",
+    "material_significance": "Both figures come from official government releases about the same project within the same week, so this is not an obvious media-error case - it may reflect different data sources (e.g. ABS Census vs a service-connections count), different geographic boundaries (the town itself vs a wider locality), or simply an editing inconsistency between two government departments describing the same project. Affects how the plant's population-served figure should be reported and whether either number can be treated as authoritative without qualification. RUN-0067 (2026-08-20): the ABS 2021 Census State Suburb count for Willawarrin (SAL14312) is 183 persons, with 191 at the 2016 Census (EV-0074) - independently corroborating the ~180 figure (EV-0006) as the defensible whole-of-locality population. The 130 figure (EV-0005) matches no ABS boundary and is most consistent with a narrower service-connections or village-core count. This is now treated as a boundary/definition difference rather than a straight error, so the contradiction is Partially Resolved: the census-locality population is reliably ~180, while the exact basis of the 130 figure remains unconfirmed. Formal resolution still awaits either a preserved ABS record (fetch-blocked this session) or a Council statement of the Willawarrin scheme's service-connection/resident count with its boundary defined.",
     "required_resolution": "An ABS Census figure for Willawarrin (State Suburb or Urban Centre/Locality boundary) or a Kempsey Shire Council record stating the number of service connections/residents for the Willawarrin supply scheme specifically, ideally with the population definition or boundary stated.",
     "resolution_evidence": []
   }
