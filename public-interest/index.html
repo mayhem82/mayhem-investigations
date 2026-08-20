@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Public Interest Investigations</title>
+<meta name="description" content="The Ordinary Public Translation Layer: complex public records explained in clear, ordinary language.">
+<meta property="og:title" content="Public Interest Investigations">
+<meta property="og:description" content="Complex public records explained in clear, ordinary language.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Public Interest Investigations">
+<meta name="twitter:description" content="Complex public records explained in clear, ordinary language.">
+<style>
+:root { --ink: #17201c; --paper: #f2f0e9; --cream: #e8e4da; --acid: #d8ff3e; --red: #ef6045; --muted: #68716c; --line: #c8cbc3; }
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body { background: var(--paper); color: var(--ink); margin: 0px; font-family: Arial, Helvetica, sans-serif; }
+
+a { color: inherit; text-decoration: none; }
+
+.nav { border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); z-index: 10; background: rgba(242, 240, 233, 0.94); justify-content: space-between; align-items: center; height: 78px; padding: 0px 5vw; display: flex; position: sticky; top: 0px; }
+
+.wordmark { letter-spacing: 0.12em; align-items: center; gap: 10px; font-size: 14px; font-weight: 900; display: flex; }
+
+.wordmark span { background: var(--ink); color: var(--acid); width: auto; min-width: 31px; padding: 0px 5px; font-family: Arial, sans-serif; font-size: 11px; font-style: normal; display: grid; place-items: center; height: 31px; }
+
+.navlinks { align-items: center; gap: 28px; font-size: 13px; font-weight: 700; display: flex; }
+
+.repo-link { border: 1px solid var(--ink); padding: 11px 15px; }
+
+.hero { background: radial-gradient(circle at 82% 42%,#d8ff3e61 0 11%,transparent 32%),linear-gradient(115deg,var(--paper) 55%,#e4e2d9); min-height: 720px; padding: 120px 7vw 60px; position: relative; overflow: hidden; }
+
+.hero::after { content: ""; z-index: 0; border: 1px solid rgb(171, 177, 159); border-radius: 50%; width: 43vw; height: 43vw; position: absolute; top: 110px; right: -8vw; box-shadow: rgba(255, 255, 255, 0.12) 0px 0px 0px 80px, rgba(255, 255, 255, 0.08) 0px 0px 0px 160px; }
+
+.hero > * { z-index: 1; position: relative; }
+
+.eyebrow, .kicker { text-transform: uppercase; letter-spacing: 0.18em; font-size: 12px; font-weight: 800; }
+
+.pulse { background: var(--red); border-radius: 50%; width: 8px; height: 8px; margin-right: 8px; display: inline-block; }
+
+.hero h1 { letter-spacing: -0.07em; max-width: 1100px; margin: 36px 0px; font-size: clamp(62px, 8vw, 126px); font-weight: 900; line-height: 0.83; }
+
+.hero h1 em { color: var(--red); font-family: Georgia, serif; font-weight: 400; font-size: 0.88em; }
+
+.lead { color: rgb(56, 67, 62); max-width: 730px; font-family: Georgia, serif; font-size: clamp(20px, 2vw, 29px); line-height: 1.45; }
+
+.hero-actions { gap: 12px; margin: 38px 0px 82px; display: flex; }
+
+.button { border: 1px solid var(--ink); padding: 16px 21px; font-size: 14px; font-weight: 800; }
+
+.primary { background: var(--ink); color: rgb(255, 255, 255); }
+
+.principles { text-transform: uppercase; letter-spacing: 0.13em; gap: 34px; font-size: 10px; font-weight: 800; display: flex; }
+
+.principles span::before { content: "✓"; color: var(--red); margin-right: 7px; }
+
+.section { padding: 100px 7vw; }
+
+.cases-section { background: var(--ink); color: rgb(255, 255, 255); }
+
+.section-head { justify-content: space-between; align-items: end; gap: 50px; margin-bottom: 46px; display: flex; }
+
+.section-head h2, .method h2, .read-record h2 { letter-spacing: -0.045em; margin: 14px 0px; font-size: clamp(38px, 5vw, 70px); line-height: 0.96; }
+
+.section-head > p { color: rgb(187, 194, 190); max-width: 430px; line-height: 1.7; }
+
+.kicker { color: var(--red); margin: 0px; }
+
+.status-note { color: rgb(189, 196, 192); margin: 28px 0px 0px; font-size: 13px; }
+
+.method { background: var(--cream); grid-template-columns: 0.8fr 1.2fr; gap: 8vw; display: grid; }
+
+.method-intro > p:last-child { color: rgb(89, 99, 94); max-width: 460px; line-height: 1.7; }
+
+.stage-list { margin: 0px; padding: 0px; list-style: none; }
+
+.stage-list li { border-top: 1px solid rgb(185, 189, 180); grid-template-columns: 58px 1fr; gap: 20px; padding: 22px 0px; display: grid; }
+
+.stage-list li > span { color: var(--red); font-family: monospace; font-weight: 900; }
+
+.stage-list h3 { margin: 0px 0px 8px; font-size: 22px; }
+
+.stage-list p { color: rgb(92, 101, 95); margin: 0px; line-height: 1.55; }
+
+.read-record { background: rgb(248, 246, 240); }
+
+.label-grid { grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 42px; display: grid; }
+
+.label-grid > div { border: 1px solid var(--line); min-height: 180px; padding: 24px; }
+
+.label { padding: 6px 8px; font-family: monospace; font-size: 11px; }
+
+.fact { background: rgb(203, 233, 211); }
+
+.inference { background: rgb(255, 228, 157); }
+
+.unknown { background: rgb(217, 220, 224); }
+
+.contested { background: rgb(255, 193, 180); }
+
+.label-grid p { color: rgb(85, 96, 90); margin-top: 26px; line-height: 1.55; }
+
+footer { color: rgb(255, 255, 255); background: rgb(16, 23, 19); justify-content: space-between; gap: 40px; padding: 60px 7vw; display: flex; }
+
+footer p { color: rgb(170, 180, 175); font-size: 13px; }
+
+footer > div:last-child { text-align: right; }
+
+footer > div:last-child a { font-size: 13px; font-weight: 800; }
+
+.public-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 18px; display: grid; }
+
+.public-card { color: var(--ink); border-top: 7px solid var(--acid); background: rgb(245, 243, 236); padding: 34px; }
+
+.public-card:nth-child(2n) { border-color: rgb(143, 200, 255); }
+
+.public-card h3 { letter-spacing: -0.04em; margin: 42px 0px 18px; font-size: 38px; line-height: 1.03; }
+
+.overview { color: rgb(69, 80, 74); font-family: Georgia, serif; font-size: 20px; line-height: 1.55; }
+
+.plain-section { border-top: 1px solid var(--line); padding: 22px 0px 10px; }
+
+.plain-section h4, .why h4 { text-transform: uppercase; letter-spacing: 0.13em; margin: 0px 0px 14px; font-size: 11px; }
+
+.plain-section ul { margin: 0px; padding-left: 19px; }
+
+.plain-section li { color: rgb(78, 89, 83); padding: 0px 0px 11px 4px; line-height: 1.5; }
+
+.known h4 { color: rgb(57, 113, 75); }
+
+.unclear h4 { color: rgb(155, 91, 32); }
+
+.why { background: rgb(228, 231, 217); margin-top: 12px; padding: 20px; }
+
+.why p { margin: 0px; line-height: 1.55; }
+
+.next-case { color: rgb(187, 194, 190); border: 1px dashed rgb(103, 112, 107); align-items: center; gap: 18px; margin-top: 18px; padding: 22px; display: flex; }
+
+.next-case > span { color: var(--acid); font-size: 32px; }
+
+.next-case p { margin: 5px 0px 0px; font-size: 13px; }
+
+@media (width <= 760px) {
+  .nav { height: 68px; }
+  .navlinks > a:not(.repo-link) { display: none; }
+  .repo-link { font-size: 0px; }
+  .repo-link::after { content: "Source ↗"; font-size: 12px; }
+  .hero { min-height: 680px; padding: 86px 6vw 42px; }
+  .hero::after { width: 90vw; height: 90vw; top: 200px; right: -42vw; }
+  .hero h1 { margin: 30px 0px; font-size: 58px; }
+  .lead { font-size: 20px; }
+  .hero-actions { text-align: center; flex-direction: column; margin-bottom: 58px; }
+  .principles { flex-direction: column; gap: 12px; }
+  .section { padding: 76px 6vw; }
+  .section-head, .method, footer { display: block; }
+  .section-head > p { margin-top: 25px; }
+  .method-intro { margin-bottom: 50px; }
+  .label-grid { grid-template-columns: 1fr 1fr; }
+  .label-grid > div { min-height: 160px; padding: 18px; }
+  footer > div:last-child { text-align: left; margin-top: 40px; }
+  .wordmark { letter-spacing: 0.08em; font-size: 10px; }
+  .public-card { padding: 24px; }
+  .public-card h3 { font-size: 32px; }
+  .overview { font-size: 18px; }
+}
+
+@media (width <= 420px) {
+  .label-grid { grid-template-columns: 1fr; }
+  .label-grid > div { min-height: auto; }
+  .hero h1 { font-size: 50px; }
+}
+</style>
+</head>
+<body>
+<main>
+<nav class="nav" aria-label="Primary navigation">
+<a class="wordmark" href="#top"><span>PI</span> PUBLIC INTEREST INVESTIGATIONS</a>
+<div class="navlinks">
+<a href="#investigations">Current investigations</a>
+<a href="#how">How to read this site</a>
+</div>
+</nav>
+<header class="hero" id="top">
+<div class="eyebrow"><span class="pulse"></span> Ordinary Public Translation Layer</div>
+<h1>Public facts should be<br><em>understandable.</em></h1>
+<p class="lead">This site turns complex public records into clear explanations of what happened, what is known, what remains unclear and why it matters.</p>
+<div class="hero-actions">
+<a class="button primary" href="#investigations">Read current investigations</a>
+<a class="button ghost" href="#how">How this site works</a>
+</div>
+<div class="principles">
+<span>Plain language</span>
+<span>Uncertainty stated</span>
+<span>Public impact first</span>
+</div>
+</header>
+<section class="section cases-section" id="investigations">
+<div class="section-head">
+<div>
+<p class="kicker">Current investigations</p>
+<h2>The public picture</h2>
+</div>
+<p>Each summary is updated as information is checked. It does not ask readers to interpret technical records or internal investigation material.</p>
+</div>
+<div class="public-grid">
+<article class="public-card">
+<div class="case-top"><span>Willawarrin and Bellbrook</span><strong>Investigation active</strong></div>
+<h3>Recurring drinking-water failures</h3>
+<p class="overview">Residents have repeatedly faced unreliable or unsafe drinking-water conditions. The investigation is examining what public bodies knew, what they did, and why the problem continued.</p>
+<div class="plain-section known">
+<h4>What we know</h4>
+<ul>
+<li>Water failures have affected both communities more than once.</li>
+<li>Government and council records show years of projects, funding decisions and public responses.</li>
+<li>A new treatment plant and related works have been announced and commenced.</li>
+</ul>
+</div>
+<div class="plain-section unclear">
+<h4>What remains unclear</h4>
+<ul>
+<li>Whether all past risks and failures were properly recorded and communicated.</li>
+<li>Whether earlier action could reasonably have prevented later harm.</li>
+<li>Whether the current works will resolve the full problem for both communities.</li>
+</ul>
+</div>
+<div class="why">
+<h4>Why this matters</h4>
+<p>Safe drinking water is essential. When service failures repeat, the public needs a clear account of the cause, the response and who remains responsible.</p>
+</div>
+</article>
+<article class="public-card">
+<div class="case-top"><span>Kempsey and the Mid North Coast</span><strong>Evidence being checked</strong></div>
+<h3>Proposed police-drone expansion</h3>
+<p class="overview">A proposal seeks to extend a police-drone model used at Moree into Kempsey and the wider Mid North Coast. The investigation is checking whether the public claims supporting that expansion are actually supported by reliable evidence.</p>
+<div class="plain-section known">
+<h4>What we know</h4>
+<ul>
+<li>A police-drone trial has operated in Moree.</li>
+<li>A petition has called for the model to be extended to Kempsey and the Mid North Coast.</li>
+<li>The material collected so far includes claims that still require independent confirmation.</li>
+</ul>
+</div>
+<div class="plain-section unclear">
+<h4>What remains unclear</h4>
+<ul>
+<li>What measurable results the Moree trial has produced.</li>
+<li>Whether those results can fairly be applied to Kempsey and surrounding communities.</li>
+<li>What safeguards, oversight and public reporting would accompany an expansion.</li>
+</ul>
+</div>
+<div class="why">
+<h4>Why this matters</h4>
+<p>New police technology can affect safety, privacy, spending and public trust. Expansion should be based on demonstrated need and verified results, not repetition alone.</p>
+</div>
+</article>
+</div>
+<div class="next-case">
+<span>+</span>
+<div><b>More investigations will be added</b>
+<p>New public-interest matters will appear here as the work expands.</p>
+</div>
+</div>
+<p class="status-note"><b>Important:</b> An issue being investigated is not automatically proven. Where the available information cannot support a conclusion, this site will say so.</p>
+</section>
+<section class="method section" id="how">
+<div class="method-intro">
+<p class="kicker">How to read this site</p>
+<h2>No specialist knowledge required.</h2>
+<p>The underlying investigation may be detailed. The public explanation should not be. Every summary answers the same ordinary questions.</p>
+</div>
+<ol class="stage-list">
+<li><span>01</span><div><h3>What happened?</h3><p>A direct description of the public issue, without institutional language.</p></div></li>
+<li><span>02</span><div><h3>What do we actually know?</h3><p>Information supported by records that have been checked.</p></div></li>
+<li><span>03</span><div><h3>What remains unclear?</h3><p>Missing evidence, conflicting accounts and questions that cannot yet be answered.</p></div></li>
+<li><span>04</span><div><h3>Why does it matter?</h3><p>The practical effect on people, services, rights, safety, public money or trust.</p></div></li>
+<li><span>05</span><div><h3>What happens next?</h3><p>The next public decision, unresolved responsibility or action needed for a proper answer.</p></div></li>
+</ol>
+</section>
+<section class="read-record section">
+<p class="kicker">Our public standard</p>
+<h2>Clear does not mean simplified beyond truth.</h2>
+<div class="label-grid">
+<div><b class="label fact">KNOWN</b><p>Supported by information that has been checked.</p></div>
+<div><b class="label inference">LIKELY</b><p>A reasonable reading, clearly separated from established information.</p></div>
+<div><b class="label unknown">UNCLEAR</b><p>The available information does not give a reliable answer.</p></div>
+<div><b class="label contested">DISPUTED</b><p>Reliable accounts or records do not agree.</p></div>
+</div>
+</section>
+<footer>
+<div>
+<a class="wordmark" href="#top"><span>PI</span> PUBLIC INTEREST INVESTIGATIONS</a>
+<p>Ordinary Public Translation Layer</p>
+</div>
+<div><p>Complex records translated for ordinary public use.</p></div>
+</footer>
+</main>
+</body>
+</html>
