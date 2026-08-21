@@ -60,7 +60,7 @@
       "name": "Definitional Control",
       "definition": "The institution defines the terms under which its own performance is assessed. Key terms are undefined in any publicly available document. The institution sets the standard, measures against the standard, and reports compliance with the standard.",
       "status": "APPLIED",
-      "match_note": "The petition's undefined '50% drop in crime' and the closest verified statistic (a 53% youth-legal-action decline since 2022, using narrower parameters) are presented as if interchangeable, with no disclosed offence definition, geography, age group or baseline (AR-003). Separately, 'Kemp's bail laws' is a politically convenient but factually imprecise label for a statute (s 22C) enacted by a different government from a different, narrower proposal - a label this investigation does not adopt (AR-008).",
+      "match_note": "The petition's undefined '50% drop in crime' and the closest verified statistic (a 53% youth-legal-action decline since 2022, using narrower parameters) are presented as if interchangeable, with no disclosed offence definition, geography, age group or baseline (AR-003). Separately, 'Kemp's bail laws' is a widely used but factually imprecise label for a statute (s 22C) enacted by a different government from a different, narrower proposal - a label this investigation does not adopt (AR-008).",
       "paths": ["AR-003", "AR-008"],
       "anchors": ["EV-0018", "EV-0019", "EV-0100", "EV-0101"]
     },

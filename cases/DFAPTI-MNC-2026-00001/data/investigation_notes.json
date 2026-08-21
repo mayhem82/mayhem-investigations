@@ -223,5 +223,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0026",
+    "timestamp": "2026-08-22T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Operator raised a fix-not-fight framing concern about naming Michael Kemp MP on the public structural-patterns page: describing the \"Kemp's bail laws\" label as \"politically convenient\" ascribes strategic motive, which risks personal backlash and is inconsistent with this case's own no-intent-claimed standard. Reworded to \"widely used\" in both AR-008 (analysis.json) and the SHM Gate Definitional Control match_note - the finding that the label misdescribes the actual statute (s 22C) is unchanged, only the motive-implying adjective was removed. Also added Michael Kemp MP's name to the public structural-patterns page's Definitional Control card, in his public/official capacity as the petition's own campaign author, per the same neutral standard. See DEC-0014.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

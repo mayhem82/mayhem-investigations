@@ -115,5 +115,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Enforcement Notice now discloses its evidence's unverified, externally-sourced provenance immediately after the opening summary rather than only at the end. No claims, remedies, or recipients were changed - this was a placement/prominence fix, not a substantive correction, because the review found no claim exceeding what the evidence register supports."
+  },
+  {
+    "decision_id": "DEC-0014",
+    "date": "2026-08-22",
+    "reason": "Operator raised a strategic/tone concern, distinct from the earlier legal-exposure review (DEC-0013): describing the public label \"Kemp's bail laws\" as \"politically convenient\" (AR-008, and repeated in the SHM Gate match_note for Definitional Control) ascribes strategic motive to Michael Kemp MP's use of the phrase. That is inconsistent with this case's own standing rule that findings describe institutional/structural patterns, not individual intent (restated explicitly in the SHM Gate not_claimed list and the Temporal Projection Integrity Engine's bad-faith disclaimer for Kemp by name). The underlying finding is unchanged and still holds: the phrase does not accurately describe the statute now in force (s 22C), which was enacted by a different government from a different, narrower proposal than the one Kemp advocated for. Only the motive-implying adjective is removed.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "AR-008 (dfapta/analysis.json) and the SHM Gate Definitional Control match_note (shm-gate/data.json) now describe \"Kemp's bail laws\" as a \"widely used\" rather than \"politically convenient\" label. No factual claim, citation, or conclusion changed - wording only, to keep the finding aimed at the definitional gap rather than at Kemp's motives."
   }
 ]
