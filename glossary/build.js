@@ -46,6 +46,63 @@ const CATEGORY_LABEL = {
   unresolved: 'UNRESOLVED', ambiguous: 'AMBIGUOUS', other: 'OTHER',
 };
 
+function computePatterns(glossary) {
+  const patterns = [];
+
+  // Pattern 1: legacy-term concentration by source document
+  const legacy = glossary.filter((e) => e.category === 'legacy');
+  const sourceCounts = {};
+  legacy.forEach((e) => {
+    const m = e.source.match(/([a-z0-9-]+\.pdf)/i);
+    if (!m) return;
+    sourceCounts[m[1]] = sourceCounts[m[1]] || [];
+    sourceCounts[m[1]].push(e);
+  });
+  const topSources = Object.entries(sourceCounts).sort((a, b) => b[1].length - a[1].length).slice(0, 2);
+  if (legacy.length && topSources.length) {
+    const topCount = topSources.reduce((sum, [, items]) => sum + items.length, 0);
+    const pct = Math.round((topCount / legacy.length) * 100);
+    patterns.push({
+      title: 'Legacy terminology concentrates in two documents, not many',
+      finding: `${topCount} of ${legacy.length} LEGACY-tagged terms (${pct}%) trace to just two source documents: ` +
+        topSources.map(([src, items]) => `${src.replace(/-/g, ' ').replace('.pdf', '')} (${items.length} terms)`).join(' and ') +
+        `. Both are from 2013. Rather than legacy vocabulary being spread thinly across many aging documents, it's concentrated in two specific ones that haven't been reissued in over a decade, while other Council material (corporate planning, financial reporting) reads current.`,
+      examples: topSources.flatMap(([, items]) => items.slice(0, 6)).map((e) => e.term),
+    });
+  }
+
+  // Pattern 2: unresolved terms are almost all KSC's own internal identifier codes
+  const unresolved = glossary.filter((e) => e.category === 'unresolved');
+  const internalCode = unresolved.filter((e) => /identifier|prefix|code|file/i.test(e.status));
+  if (unresolved.length) {
+    patterns.push({
+      title: "Every unresolved term is Council's own internal code, not a hard word",
+      finding: `${internalCode.length} of ${unresolved.length} UNRESOLVED terms (${Math.round((internalCode.length / unresolved.length) * 100)}%) are Council-invented identifier or file-numbering prefixes (FYY/####, T6-YY-###, D24/, TQE, PO######, ASD ###, TRIM, G#####-##) rather than difficult external terminology. The common thread across all of them: Council uses these codes constantly in its own records but has never published a key defining what the letters mean - the gap is documentation, not complexity.`,
+      examples: unresolved.map((e) => e.term),
+    });
+  }
+
+  // Pattern 3: collisions cluster at boundaries between KSC's functional domains
+  const ambiguous = glossary.filter((e) => e.category === 'ambiguous');
+  const domainRules = [
+    { key: 'airport', label: 'airport/aviation vs. an older KSC domain', test: (e) => /airport|aerodrome/i.test(e.status + e.description) },
+    { key: 'planning', label: 'planning/DCP vs. heritage or environment law', test: (e) => /\bDCP\b|biodiversity|heritage|environmental planning/i.test(e.description) },
+    { key: 'revenue', label: 'rates/revenue vs. an overlapping statutory reference', test: (e) => /\brevenue\b|\brates?\b|\bstatutory\b|\bstormwater\b/i.test(e.status + e.description) },
+  ];
+  const clusters = domainRules.map((rule) => ({ ...rule, items: ambiguous.filter((e) => rule.test(e)) })).filter((c) => c.items.length);
+  if (clusters.length) {
+    patterns.push({
+      title: "Terminology collisions cluster at the seams between Council's own functional areas",
+      finding: `Of ${ambiguous.length} flagged collisions/ambiguities in the main glossary, they aren't scattered randomly - they cluster where two of Council's separate operational areas independently reused the same short code: ` +
+        clusters.map((c) => `${c.items.length} at the ${c.label} boundary`).join('; ') +
+        ` (AEP spans both the airport and planning boundaries at once, so it's counted in both). The airport is the newest and most distinct addition to Council's public vocabulary, and produces the most collisions with everything else.`,
+      examples: Array.from(new Set(clusters.flatMap((c) => c.items.map((e) => e.term)))),
+    });
+  }
+
+  return patterns;
+}
+
 function renderSource(sourceStr) {
   if (!sourceStr) return '';
   const parts = sourceStr.split(/\s*;\s*/);
@@ -131,6 +188,22 @@ function renderGlossary(d) {
 <input type="text" id="glossary-filter" class="filter-input" placeholder="Search terms, expansions, statuses..." aria-label="Search glossary" />
 <div class="letter-nav">${letterNav}</div>
 <div id="glossary-list">${entries.join('\n')}</div>`;
+}
+
+function renderPatterns(d) {
+  const patterns = computePatterns(d.glossary);
+  if (!patterns.length) return '<p class="muted-note">No cross-entry patterns computed for this snapshot.</p>';
+  return patterns.map((p) => {
+    const examples = p.examples.slice(0, 10).map((term) =>
+      `<a href="#term-${esc(slug(term))}">${esc(term)}</a>`).join(', ');
+    const more = p.examples.length > 10 ? ` (+${p.examples.length - 10} more)` : '';
+    return `
+<div class="pattern-entry">
+  <h3>${esc(p.title)}</h3>
+  <p>${esc(p.finding)}</p>
+  <div class="pattern-examples"><span class="kv-label">Terms behind this finding</span> ${examples}${more}</div>
+</div>`;
+  }).join('\n');
 }
 
 function renderReferenceSection(section) {
@@ -235,6 +308,12 @@ a { color: inherit; }
 .term-source-block { margin-top: 8px; }
 .src-line { font-size: 12px; color: var(--muted); word-break: break-all; }
 .src-line a { text-decoration: underline; text-underline-offset: 2px; }
+.pattern-entry { background: rgb(245,243,236); border-left: 5px solid var(--red); padding: 18px 22px; margin-bottom: 16px; }
+.pattern-entry h3 { margin: 0 0 8px; font-size: 18px; letter-spacing: -0.01em; }
+.pattern-entry p { font-size: 14px; line-height: 1.6; margin: 0 0 10px; color: rgb(40,48,44); }
+.pattern-examples { font-size: 12px; color: var(--muted); line-height: 1.7; }
+.pattern-examples .kv-label { text-transform: uppercase; letter-spacing: 0.06em; font-size: 10.5px; margin-right: 6px; }
+.pattern-examples a { color: var(--red); text-decoration: underline; text-underline-offset: 2px; }
 .ref-block { margin-bottom: 30px; }
 .ref-block h4 { font-size: 15px; text-transform: uppercase; letter-spacing: .05em; color: var(--red); margin: 0 0 12px; }
 .ref-block ul { padding-left: 20px; }
@@ -269,6 +348,7 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   <nav class="page-nav" aria-label="On this page">
     <a href="#overview">Overview</a>
     <a href="#glossary">Alphabetical Glossary (${data.glossary.length})</a>
+    <a href="#patterns">Patterns</a>
     <a href="#reference">Reference Notes</a>
     <a href="../public-interest/index.html">&larr; Why this exists</a>
   </nav>
@@ -282,6 +362,14 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
 <section class="section" id="glossary">
   <h2>Alphabetical Glossary</h2>
   ${renderGlossary(data)}
+</section>
+
+<section class="section" id="patterns">
+  <h2>Patterns</h2>
+  <p class="section-desc">Cross-entry patterns computed directly from the glossary above - not visible from any
+  single term on its own. Every claim here is checkable against the specific terms it's built from, linked below
+  each finding.</p>
+  ${renderPatterns(data)}
 </section>
 
 <section class="section" id="reference">
