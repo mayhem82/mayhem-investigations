@@ -2,12 +2,12 @@
   "title": "Kempsey Shire Council Master Glossary",
   "subtitle": "Terms, Acronyms, Codes and Identifiers",
   "snapshot": {
-    "id": "KSC-GLOSSARY-SNAP-004",
-    "label": "Snapshot 004",
+    "id": "KSC-GLOSSARY-SNAP-005",
+    "label": "Snapshot 005",
     "dateFrozen": "21 August 2026",
-    "scope": "Kempsey Shire Council terminology encountered in Council webpages, planning material, policies, meeting records, contribution registers, procurement material and related NSW statutory terminology.",
+    "scope": "Kempsey Shire Council terminology encountered in Council webpages, planning material, policies, meeting records, contribution registers, procurement material, corporate plans, annual/statutory reporting, financial statements, capital-project appendices and related NSW statutory terminology.",
     "method": "Terms are preserved as encountered. Expansions are recorded only where supported. Unresolved codes remain unresolved rather than being guessed.",
-    "status": "Cumulative through Sweep 004. Snapshots 001, 002 and 003 remain frozen and are not overwritten. Further research passes will continue as separately numbered DOCX snapshots."
+    "status": "Cumulative through Sweep 005. Snapshots 001, 002, 003 and 004 remain frozen and are not overwritten. Further research passes will continue as separately numbered DOCX snapshots."
   },
   "classificationRules": [
     {
@@ -68,6 +68,20 @@
         "TQE, T6, LD and the leading F in F-year file numbers remain unresolved; no unsupported expansions were introduced.",
         "KSC PDF screenshots were attempted for key water-management documents during source verification but the web cache could not return the raster pages. Extracted indexed text and current KSC webpages were retained as the evidentiary basis, and the access limitation is recorded rather than concealed."
       ]
+    },
+    {
+      "snapshot": "Snapshot 005",
+      "date": "21 August 2026",
+      "items": [
+        "Harvested KSC’s formal “Key Abbreviations” table from the Delivery Program and Operational Plan 2022-2026, adding previously missing Council-defined terms including AFZ, E&ESD, JO, MIDWASTE, MNC, NAIDOC, NCA, PID, PAMP, RFS, TfNSW and WAP.",
+        "Harvested the capital-project abbreviation table embedded in the 2024-25 Delivery Program / Operational Plan, adding project, fund, holiday-park, road-class and infrastructure codes including ASM, CHHP, CLIRP, HBHP, HHHP, LRCIP, LRCIRC, MH, PLC, RAP, RTAF, SDC, SF, SPHP, SRR, SRRL, SWR, UR, URL, URR, WF and WTS.",
+        "Recorded an internal KSC source collision: the 2024-25 capital-project appendix assigns URR both \"Unsealed Rural Roads\" and \"Urban Roads Regional\". The glossary preserves both and marks URR AMBIGUOUS rather than silently correcting the source.",
+        "Expanded current financial and statutory-reporting terminology from the 2024-25 Annual Report and audited financial statements, including AASB, CAPEX, CALD, EEO, FDR, FTE, GPFS, IPPE, KMP, NCP, SPFS and UCV.",
+        "Added financial-sustainability and funding shorthand used in KSC’s Long-Term Financial Plan: FSP, FAG and R2R.",
+        "Resolved AGRN as Australian Government Reference Number using KSC project coding together with the NSW Government disaster-declaration framework.",
+        "Resolved LTREWS as Long-term Renewable Energy and Water Strategy by cross-reading KSC’s Environmental Levy project label with the strategy title in Council’s Community Strategic Plan.",
+        "Added current work-order architecture: W#### is explicitly labelled by KSC as a Work order number. Embedded DM##### and G#####-## subcodes are preserved as observed but remain UNRESOLVED pending authoritative KSC document-control definitions."
+      ]
     }
   ],
   "glossary": [
@@ -78,6 +92,14 @@
       "status": "LEGACY KSC ASSET-MANAGEMENT TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
       "category": "legacy"
+    },
+    {
+      "letter": "A",
+      "term": "AASB",
+      "description": "Australian Accounting Standards Board. KSC’s 2024-25 audited financial statements identify the AASB as the body issuing the Australian Accounting Standards applied in preparing Council’s financial statements.",
+      "status": "CURRENT / EXTERNAL FINANCIAL-REPORTING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-c_audited-financial-statements.pdf",
+      "category": "current"
     },
     {
       "letter": "A",
@@ -117,6 +139,22 @@
       "description": "Australian Eastern Standard Time. KSC uses AEST in current tender notices and closing-time records.",
       "status": "CURRENT / EXTERNAL TIME ABBREVIATION",
       "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AFZ",
+      "description": "Alcohol Free Zone. Exact expansion in KSC’s formal Key Abbreviations table.",
+      "status": "KSC-DEFINED / RECENT CORPORATE-PLAN TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "A",
+      "term": "AGRN",
+      "description": "Australian Government Reference Number. KSC embeds AGRN identifiers in current disaster-recovery work-order descriptions; NSW Government confirms that disaster declarations incorporate an AGRN.",
+      "status": "CURRENT / EXTERNAL DISASTER-IDENTIFIER TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf ; https://www.nsw.gov.au/departments-and-agencies/nsw-reconstruction-authority/about-us/recovery/natural-disaster-declarations/fy-2025-26",
       "category": "current"
     },
     {
@@ -217,6 +255,14 @@
     },
     {
       "letter": "A",
+      "term": "ASM",
+      "description": "Abnormal Situation Management. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT INFRASTRUCTURE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "A",
       "term": "AUS-SPEC",
       "description": "Civil engineering specification system referenced by KSC for development and infrastructure works. The literal name is not expanded in the KSC material reviewed for this baseline.",
       "status": "EXTERNAL",
@@ -246,6 +292,14 @@
       "status": "CURRENT KSC DCP / EXTERNAL NSW PLANNING TERM",
       "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
       "category": "current"
+    },
+    {
+      "letter": "B",
+      "term": "BBQ",
+      "description": "Barbeque. Exact expansion in KSC’s formal Key Abbreviations table.",
+      "status": "KSC-DEFINED / RECENT CORPORATE-PLAN TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
+      "category": "other"
     },
     {
       "letter": "B",
@@ -293,6 +347,22 @@
       "description": "Biodiversity Values. Listed in the KSC 2026 DCP abbreviation/acronym table.",
       "status": "CURRENT KSC DCP / EXTERNAL BIODIVERSITY TERM",
       "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CALD",
+      "description": "Culturally and Linguistically Diverse. KSC’s 2024-25 statutory annual report uses CALD in workforce/EEO reporting.",
+      "status": "CURRENT KSC WORKFORCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-b_statutory-requirements.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CAPEX / capex / Capex",
+      "description": "Capital expenditure. KSC’s Long-Term Financial Plan expressly defines capex as capital expenditure; KSC annual reporting and work-order lists also use CAPEX/Capex for capital works and project expenditure.",
+      "status": "CURRENT KSC FINANCIAL / PROJECT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/10-2-6-long-term-financial-plan-2025-2035.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-b_statutory-requirements.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
       "category": "current"
     },
     {
@@ -345,6 +415,14 @@
     },
     {
       "letter": "C",
+      "term": "CHHP",
+      "description": "Crescent Head Holiday Park. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT CAPITAL-PROJECT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "C",
       "term": "CIV",
       "description": "Capital Investment Value. Listed in the KSC 2026 DCP abbreviation/acronym table.",
       "status": "CURRENT KSC DCP / NSW DEVELOPMENT TERM",
@@ -358,6 +436,14 @@
       "status": "CURRENT KSC PLANNING TERM",
       "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-in-South-West-Rocks",
       "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CLIRP",
+      "description": "Community Local Infrastructure Recovery Package. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT GRANT/RECOVERY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
     },
     {
       "letter": "C",
@@ -601,6 +687,14 @@
     },
     {
       "letter": "D",
+      "term": "DM#####",
+      "description": "Observed subcode embedded in KSC natural-disaster work-order descriptions, e.g. DM01487, DM01488 and DM01526. The literal expansion of DM has not been established from an authoritative KSC source.",
+      "status": "CURRENT OBSERVED KSC PROJECT SUBCODE / UNRESOLVED",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "unresolved"
+    },
+    {
+      "letter": "D",
       "term": "DO1 / DO2 / DO3 ...",
       "description": "Desired Outcome 1, Desired Outcome 2, etc. Numbering used extensively in the former KSC DCP structure.",
       "status": "LEGACY DCP IDENTIFIER unless found in equivalent current provision",
@@ -673,6 +767,14 @@
     },
     {
       "letter": "E",
+      "term": "E&ESD",
+      "description": "Ecological and Economic Sustainable Development. This exact wording and abbreviation appear in KSC’s formal Key Abbreviations table and are preserved verbatim.",
+      "status": "KSC-DEFINED / RECENT CORPORATE-PLAN TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "E",
       "term": "EC.DP#",
       "description": "Economy Delivery Program action-code family. The current 2025-2029 Delivery Program uses EC.DP identifiers for Economy actions.",
       "status": "CURRENT KSC CORPORATE-PERFORMANCE CODE",
@@ -693,6 +795,14 @@
       "description": "Endangered Ecological Community. Listed in the KSC 2026 DCP abbreviation/acronym table.",
       "status": "CURRENT KSC DCP / BIODIVERSITY TERM",
       "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EEO",
+      "description": "Equal Employment Opportunities. KSC’s 2024-25 statutory annual report uses EEO for its Equal Employment Opportunities Management Plan and related workforce reporting.",
+      "status": "CURRENT KSC WORKFORCE/GOVERNANCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-b_statutory-requirements.pdf",
       "category": "current"
     },
     {
@@ -833,6 +943,22 @@
     },
     {
       "letter": "F",
+      "term": "FAG",
+      "description": "Financial Assistance Grant. KSC’s Long-Term Financial Plan expressly uses FAG for the Financial Assistance Grant.",
+      "status": "CURRENT KSC FINANCIAL / GRANT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/10-2-6-long-term-financial-plan-2025-2035.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "F",
+      "term": "FDR",
+      "description": "Financial Data Return. KSC’s 2024-25 audited financial statements use FDR in the context of the OLG process for permissible general-rate income.",
+      "status": "CURRENT KSC / EXTERNAL FINANCIAL-REPORTING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-c_audited-financial-statements.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "F",
       "term": "FNA",
       "description": "Fly Neighbourly Advice. KSC’s May 2025 Council minutes expressly use the acronym FNA for the Kempsey Airport Fly Neighbourly Advice.",
       "status": "CURRENT KSC AIRPORT TERM",
@@ -865,10 +991,26 @@
     },
     {
       "letter": "F",
+      "term": "FRMP",
+      "description": "Flood Risk Management Plan. KSC’s 2024-25 Annual Report uses “CBD FRMP implementation” and, in the same Environmental Levy project list, spells out a Lower Macleay Flood Risk Management Plan.",
+      "status": "CURRENT KSC FLOOD-MANAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-b_statutory-requirements.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "F",
       "term": "FSDP",
       "description": "Fire Safety Delivery Program. Appears in KSC procurement material relating to fire compliance and testing.",
       "status": "CURRENT PROCUREMENT TERM",
       "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "F",
+      "term": "FSP",
+      "description": "Financial Sustainability Program. KSC’s Long-Term Financial Plan expressly uses FSP for this program.",
+      "status": "CURRENT KSC CORPORATE / FINANCIAL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/10-2-6-long-term-financial-plan-2025-2035.pdf",
       "category": "current"
     },
     {
@@ -881,10 +1023,26 @@
     },
     {
       "letter": "F",
+      "term": "FTE",
+      "description": "Full-time equivalent. KSC’s 2024-25 statutory annual report uses FTE in workforce reporting.",
+      "status": "CURRENT KSC WORKFORCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-b_statutory-requirements.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "F",
       "term": "FYY/####[/##]",
       "description": "Observed KSC File Number syntax family. Examples include F12/1474, F22/1895, F22/3106, F23/2510, F23/3456, F24/3407, F25/3802 and F23/3642/05. The two digits after F align with a year-like pattern, but the literal meaning of the leading F is not expanded in the source and is therefore not asserted.",
       "status": "CURRENT KSC FILE IDENTIFIER FAMILY / LEADING F UNRESOLVED",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf",
+      "category": "unresolved"
+    },
+    {
+      "letter": "G",
+      "term": "G#####-##",
+      "description": "Observed bracketed subcode embedded in current KSC work-order descriptions, e.g. G00283-10, G00348-001 and G00367-01. Its literal KSC expansion has not been established.",
+      "status": "CURRENT OBSERVED KSC PROJECT SUBCODE / UNRESOLVED",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
       "category": "unresolved"
     },
     {
@@ -913,11 +1071,35 @@
     },
     {
       "letter": "G",
+      "term": "GPFS",
+      "description": "General Purpose Financial Statements. KSC uses this title for its principal audited financial statements; meeting attachments also use the GPFS shorthand.",
+      "status": "CURRENT KSC FINANCIAL-REPORTING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-c_audited-financial-statements.pdf ; https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-16-September-2025",
+      "category": "current"
+    },
+    {
+      "letter": "G",
       "term": "GST",
       "description": "Goods and Services Tax. KSC procurement material uses GST when defining procurement values and thresholds.",
       "status": "CURRENT / EXTERNAL TAX ABBREVIATION",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/policies-procedures/policy-5-09-v5-sustainable-procurement-and-contracts-policy.pdf",
       "category": "current"
+    },
+    {
+      "letter": "H",
+      "term": "HBHP",
+      "description": "Horseshoe Bay Holiday Park. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT CAPITAL-PROJECT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "H",
+      "term": "HHHP",
+      "description": "Hat Head Holiday Park. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT CAPITAL-PROJECT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
     },
     {
       "letter": "H",
@@ -953,6 +1135,14 @@
     },
     {
       "letter": "I",
+      "term": "IPPE",
+      "description": "Infrastructure, property, plant and equipment. KSC’s 2024-25 audited financial statements use IPPE in the Statement of Financial Position and revaluation reserve reporting.",
+      "status": "CURRENT KSC FINANCIAL-REPORTING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-c_audited-financial-statements.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "I",
       "term": "IRMP",
       "description": "Infrastructure risk management plan. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
       "status": "LEGACY KSC ASSET-RISK TERM",
@@ -974,6 +1164,14 @@
       "status": "LEGACY KSC WATER-PLANNING TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
       "category": "legacy"
+    },
+    {
+      "letter": "J",
+      "term": "JO",
+      "description": "Joint Organisation. Exact expansion in KSC’s formal Key Abbreviations table.",
+      "status": "KSC-DEFINED / RECENT LOCAL-GOVERNMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
+      "category": "other"
     },
     {
       "letter": "K",
@@ -1005,6 +1203,14 @@
       "description": "Kempsey Local Environmental Plan. Usually refers to Kempsey Local Environmental Plan 2013. KSC also uses KLEP2013.",
       "status": "CURRENT PLANNING INSTRUMENT",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "K",
+      "term": "KMP",
+      "description": "Key management personnel. KSC’s 2024-25 audited financial statements define KMP as persons with authority and responsibility for planning, directing and controlling Council activities, directly or indirectly.",
+      "status": "CURRENT KSC FINANCIAL / GOVERNANCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-c_audited-financial-statements.pdf",
       "category": "current"
     },
     {
@@ -1113,6 +1319,22 @@
     },
     {
       "letter": "L",
+      "term": "LRCIP",
+      "description": "Local Roads and Community Infrastructure Program. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT GRANT-PROGRAM TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "L",
+      "term": "LRCIRC",
+      "description": "Local Roads and Community Infrastructure Roads Component. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT GRANT-PROGRAM TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "L",
       "term": "LSPS",
       "description": "Local Strategic Planning Statement. NSW strategic land-use planning instrument.",
       "status": "CURRENT / EXTERNAL",
@@ -1126,6 +1348,46 @@
       "status": "CURRENT",
       "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Corporate-management/Integrated-Planning-and-Reporting",
       "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LTIFR",
+      "description": "Lost Time Injury Frequency Rate. KSC business papers use LTIFR as a corporate Key Performance Indicator.",
+      "status": "CURRENT/RECENT KSC WORK-HEALTH-AND-SAFETY KPI",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2024/business-papers/ordinary_council_meeting_-_20__x5avi_0l4k-so8i8e2xumg.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LTREWS",
+      "description": "Long-term Renewable Energy and Water Strategy. KSC’s Annual Report uses the project label “Implementation of LTREWS”; Council’s Community Strategic Plan spells out the strategy title.",
+      "status": "CURRENT/RECENT KSC STRATEGY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-b_statutory-requirements.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/community-strategic-plan-2022-your-future-2042.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "M",
+      "term": "MH",
+      "description": "Manhole. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT WATER/SEWER INFRASTRUCTURE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "M",
+      "term": "MIDROC",
+      "description": "Mid North Coast Regional Organisation of Councils. KSC’s 2014-15 Annual Report expands MIDROC and describes it as the regional organisation then representing Mid North Coast councils.",
+      "status": "LEGACY KSC REGIONAL-ORGANISATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-2015.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "M",
+      "term": "MIDWASTE",
+      "description": "MidWaste Regional Waste Forum. KSC’s formal Key Abbreviations table further describes MidWaste as a regional forum comprising six Mid North Coast councils.",
+      "status": "KSC-DEFINED / RECENT REGIONAL WASTE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
+      "category": "other"
     },
     {
       "letter": "M",
@@ -1142,6 +1404,14 @@
       "status": "LEGACY KSC ASSET-MANAGEMENT TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
       "category": "legacy"
+    },
+    {
+      "letter": "M",
+      "term": "MNC",
+      "description": "Mid North Coast. Exact expansion in KSC’s formal Key Abbreviations table.",
+      "status": "KSC-DEFINED / RECENT REGIONAL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
+      "category": "other"
     },
     {
       "letter": "M",
@@ -1217,6 +1487,30 @@
     },
     {
       "letter": "N",
+      "term": "NAIDOC",
+      "description": "National Aboriginal Islander Day Observance Committee. This is the exact expansion printed in KSC’s formal Key Abbreviations table and is preserved as Council source terminology.",
+      "status": "KSC-DEFINED / RECENT CORPORATE-PLAN TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "N",
+      "term": "NCA",
+      "description": "Non-Current Assets. Exact expansion in KSC’s formal Key Abbreviations table.",
+      "status": "KSC-DEFINED / FINANCIAL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "N",
+      "term": "NCP",
+      "description": "National Competition Policy. KSC’s audited financial statements use NCP in the Special Purpose Financial Statements for its declared business activities.",
+      "status": "CURRENT KSC / EXTERNAL FINANCIAL-POLICY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-c_audited-financial-statements.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "N",
       "term": "NHMRC",
       "description": "National Health and Medical Research Council. KSC water-service material uses NHMRC standards/guidelines as a drinking-water quality reference.",
       "status": "CURRENT / EXTERNAL HEALTH-STANDARD BODY",
@@ -1281,6 +1575,14 @@
     },
     {
       "letter": "P",
+      "term": "PAMP",
+      "description": "Pedestrian Access and Mobility Plan. Exact expansion in KSC’s formal Key Abbreviations table and current Operational Plan project descriptions.",
+      "status": "CURRENT KSC TRANSPORT/ACCESSIBILITY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
       "term": "PCI",
       "description": "Pavement condition index. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
       "status": "LEGACY KSC ASSET-CONDITION TERM",
@@ -1294,6 +1596,22 @@
       "status": "CURRENT ENVIRONMENTAL TERM",
       "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/EPA-Council-PFAS-testing-in-localwaterways",
       "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "PID",
+      "description": "Public Interest Disclosure. Exact expansion in KSC’s formal Key Abbreviations table.",
+      "status": "KSC-DEFINED / GOVERNANCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "P",
+      "term": "PLC",
+      "description": "Programmable Logic Controller. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT INFRASTRUCTURE-CONTROL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
     },
     {
       "letter": "P",
@@ -1625,6 +1943,22 @@
     },
     {
       "letter": "R",
+      "term": "R2R",
+      "description": "Roads to Recovery. KSC’s Long-Term Financial Plan expressly uses R2R for Roads to Recovery grant income; Operational Plan project descriptions also use R2R.",
+      "status": "CURRENT KSC / COMMONWEALTH GRANT-PROGRAM TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/10-2-6-long-term-financial-plan-2025-2035.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "R",
+      "term": "RAP",
+      "description": "Regional Airport Program. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT GRANT/PROJECT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "R",
       "term": "REFDA######",
       "description": "Pre-acceptance/reference development-application identifier. KSC states that a newly submitted application is initially identified by a REFDA number, for example REFDA210001, before later processing.",
       "status": "CURRENT / RECENT KSC DEVELOPMENT IDENTIFIER FAMILY",
@@ -1657,11 +1991,27 @@
     },
     {
       "letter": "R",
+      "term": "RFS",
+      "description": "Rural Fire Service. Exact expansion in KSC’s formal Key Abbreviations table; current Operational Plan material also uses RFS for Rural Fire Service facilities.",
+      "status": "CURRENT KSC / EXTERNAL EMERGENCY-SERVICE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "R",
       "term": "RFT",
       "description": "Request for Tender. KSC procurement method.",
       "status": "CURRENT",
       "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
       "category": "current"
+    },
+    {
+      "letter": "R",
+      "term": "RTAF",
+      "description": "Regional Tourism Activation Fund. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT GRANT-PROGRAM TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
     },
     {
       "letter": "R",
@@ -1745,6 +2095,14 @@
     },
     {
       "letter": "S",
+      "term": "SDC",
+      "description": "Slim Dusty Centre. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT FACILITY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "S",
       "term": "Section 138",
       "description": "Approval under the Roads Act 1993 for applicable works within a Council road reserve.",
       "status": "CURRENT STATUTORY REFERENCE",
@@ -1793,6 +2151,14 @@
     },
     {
       "letter": "S",
+      "term": "SF",
+      "description": "Sewer Fund. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT FUND CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "S",
       "term": "SME / SMEs",
       "description": "Small and medium enterprise(s). KSC procurement guidance uses SMEs when discussing local and minority-owned businesses; the KSC webpage uses the acronym without expanding it.",
       "status": "CURRENT / EXTERNAL BUSINESS ABBREVIATION",
@@ -1806,6 +2172,38 @@
       "status": "CURRENT / RECENT KSC WATER-QUALITY PROCEDURE TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf",
       "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "SPFS",
+      "description": "Special Purpose Financial Statements. KSC’s audited financial statements use SPFS for the special-purpose statements prepared for National Competition Policy reporting.",
+      "status": "CURRENT KSC FINANCIAL-REPORTING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-c_audited-financial-statements.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "SPHP",
+      "description": "Stuart's Point Holiday Park. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT CAPITAL-PROJECT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "S",
+      "term": "SRR",
+      "description": "Sealed Rural Roads. Exact expansion in KSC’s 2024-25 capital-project abbreviation table; KSC work-order descriptions continue to use SRR.",
+      "status": "CURRENT/RECENT KSC ROAD-CLASS CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "SRRL",
+      "description": "Sealed Rural Roads Local. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT ROAD-CLASS CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
     },
     {
       "letter": "S",
@@ -1840,12 +2238,28 @@
       "category": "current"
     },
     {
+      "letter": "S",
+      "term": "SWR",
+      "description": "South West Rocks. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / PLACE ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
       "letter": "T",
       "term": "T6-YY-###",
       "description": "Legacy KSC development/application identifier family. Examples include T6-14-333, T6-17-446, T6-20-211, T6-20-507 and T6-21-182. Literal meaning of T6 remains unverified.",
       "status": "LEGACY / UNRESOLVED CODE FAMILY",
       "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-in-South-West-Rocks",
       "category": "unresolved"
+    },
+    {
+      "letter": "T",
+      "term": "TfNSW",
+      "description": "Transport for NSW. Exact expansion in KSC’s formal Key Abbreviations table and current road-safety material.",
+      "status": "CURRENT KSC / EXTERNAL AGENCY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2024/business-papers/202403/10.07.1-roads-safety-strategy-v-final.pdf",
+      "category": "current"
     },
     {
       "letter": "T",
@@ -1870,6 +2284,38 @@
       "status": "UNRESOLVED KSC RECORDS IDENTIFIER FAMILY",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf",
       "category": "unresolved"
+    },
+    {
+      "letter": "U",
+      "term": "UCV",
+      "description": "Unimproved Capital Value. KSC’s 2024-25 audited financial statements use UCV in fair-value measurement of community land.",
+      "status": "CURRENT KSC / EXTERNAL VALUATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-c_audited-financial-statements.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "U",
+      "term": "UR",
+      "description": "Urban Roads Local. Exact expansion in KSC’s 2024-25 capital-project abbreviation table. Older financial schedules also use UR for urban roads.",
+      "status": "KSC-DEFINED / ROAD-CLASS CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "U",
+      "term": "URL",
+      "description": "Urban Roads Local. Exact expansion in KSC’s 2024-25 capital-project abbreviation table; current Operational Plan work orders use URL in road-rehabilitation descriptions.",
+      "status": "CURRENT/RECENT KSC ROAD-CLASS CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "U",
+      "term": "URR",
+      "description": "AMBIGUOUS WITHIN KSC SOURCE. The 2024-25 capital-project abbreviation table assigns URR two different expansions: “Unsealed Rural Roads” and “Urban Roads Regional”. KSC work-order descriptions also use URR. The source does not provide a discriminator, so the correct expansion must be established from project context.",
+      "status": "AMBIGUOUS / INTERNAL KSC SOURCE COLLISION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "ambiguous"
     },
     {
       "letter": "V",
@@ -1905,11 +2351,35 @@
     },
     {
       "letter": "W",
+      "term": "W####",
+      "description": "KSC work-order number family. Current and historical Delivery/Operational Plans contain a column explicitly labelled “Work order no. and Description” with identifiers such as W6003, W6576, W6687 and W7004. The W prefix itself is not separately expanded, but the identifier family is authoritatively tied to work orders by the column label.",
+      "status": "CURRENT KSC WORK-ORDER IDENTIFIER FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "W",
       "term": "WAE",
       "description": "Work-as-Executed. KSC historical engineering DCP material uses WAE for plans submitted after completion of development construction works.",
       "status": "LEGACY KSC ENGINEERING ABBREVIATION",
       "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
       "category": "legacy"
+    },
+    {
+      "letter": "W",
+      "term": "WAP",
+      "description": "Weed Action Program. Exact expansion in KSC’s formal Key Abbreviations table.",
+      "status": "KSC-DEFINED / RECENT BIOSECURITY/WEEDS TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "W",
+      "term": "WF",
+      "description": "Water Fund. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT FUND CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
     },
     {
       "letter": "W",
@@ -1950,6 +2420,14 @@
       "status": "CURRENT / RECENT",
       "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI/Archived-Tenders",
       "category": "current"
+    },
+    {
+      "letter": "W",
+      "term": "WTS",
+      "description": "Waste Transfer Station. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
+      "status": "KSC-DEFINED / RECENT WASTE-INFRASTRUCTURE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
+      "category": "other"
     },
     {
       "letter": "W",
@@ -2051,6 +2529,16 @@
         "DA######## is the later development-application identifier family already recorded in this glossary.",
         "RFI is a process status/document shorthand, not an application-number family.",
         "s4.55(2) identifies a statutory modification pathway and can appear beside an existing DA number and revision suffix."
+      ]
+    },
+    {
+      "title": "Work-order and embedded project-code architecture — Sweep 005",
+      "type": "prose",
+      "items": [
+        "W#### = KSC work-order number family, explicitly evidenced by the \"Work order no. and Description\" column in Operational Plans.",
+        "DM##### = embedded current disaster/project subcode observed inside KSC work-order descriptions. Literal expansion unresolved.",
+        "G#####-## = embedded current project/grant-style subcode observed inside KSC work-order descriptions. Literal expansion unresolved.",
+        "AGRN#### = Australian Government Reference Number identifying a declared natural-disaster event; unlike DM and G subcodes, AGRN has been independently resolved from the NSW disaster-declaration framework."
       ]
     },
     {
@@ -2166,6 +2654,18 @@
           "description": "KSC material contains both IWCM (Integrated Water Cycle Management) and the older IWCMS (Integrated Water Cycle Management Strategy). Preserve the form actually used by the source and date it.",
           "status": "TEMPORAL / TERMINOLOGY DISTINCTION",
           "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/str-amp-asset-planning/planning/lgms/local-growth-management-strategy-2023.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf"
+        },
+        {
+          "term": "URR",
+          "description": "KSC’s 2024-25 capital-project abbreviation table itself gives URR two meanings: Unsealed Rural Roads and Urban Roads Regional. Resolve from the specific project/road context; do not expand URR mechanically.",
+          "status": "",
+          "source": ""
+        },
+        {
+          "term": "UR / URL / URR",
+          "description": "KSC road-class shorthand is internally dense: UR and URL are both shown as Urban Roads Local, while URR is source-ambiguous. Preserve the exact code found in the source and its date/project context.",
+          "status": "",
+          "source": ""
         }
       ]
     },
@@ -2195,11 +2695,9 @@
       "title": "Next research sweep (planned)",
       "type": "prose",
       "items": [
-        "Mine the adopted 2026-27 Operational Plan directly for the Year 2 OP-code set and any code-family changes from 2025-26.",
-        "Mine current and archived water/sewer plans for further KSC scheme codes, plant abbreviations, telemetry/operations shorthand and asset-class identifiers.",
-        "Continue unresolved-code investigation for TQE, T6, LD, KLALC and the F-prefix in Council file numbers using archived records and document-control material.",
-        "Mine the current policy register and 2026 Council business papers for additional document numbers, committee shorthand, project codes and statutory-section notation.",
-        "Mine KSC financial statements and annual reports for accounting ratios, fund abbreviations, grant-program codes and audit terminology not yet captured."
+        "Mine the 2025-26 and 2026-27 Operational Plan capital appendices line-by-line for remaining work-order prefixes, fund codes, grant acronyms, plant/facility abbreviations and disaster-recovery subcodes.",
+        "Investigate DM##### and G#####-## through KSC disaster-recovery business papers, funding deeds and project-control material to determine whether their literal meanings can be authoritatively resolved.",
+        "Mine all current KSC policy pages and procedure PDFs to build a complete policy-number and procedure-number concordance rather than isolated examples."
       ]
     }
   ]

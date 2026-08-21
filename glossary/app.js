@@ -60,7 +60,8 @@
     target.appendChild(el("div", { class: "card stack" }, [
       el("div", {}, [el("a", { href: "preserved/KSC-Master-Glossary-Snapshot-002-2026-08-20.docx" }, ["Snapshot 002 (.docx, 20 Aug 2026)"])]),
       el("div", {}, [el("a", { href: "preserved/KSC-Master-Glossary-Snapshot-003-2026-08-21.docx" }, ["Snapshot 003 (.docx, 21 Aug 2026)"])]),
-      el("div", {}, [el("a", { href: "preserved/KSC-Master-Glossary-Snapshot-004-2026-08-21.docx" }, ["Snapshot 004 (.docx, 21 Aug 2026) — current"])]),
+      el("div", {}, [el("a", { href: "preserved/KSC-Master-Glossary-Snapshot-004-2026-08-21.docx" }, ["Snapshot 004 (.docx, 21 Aug 2026)"])]),
+      el("div", {}, [el("a", { href: "preserved/KSC-Master-Glossary-Snapshot-005-2026-08-21.docx" }, ["Snapshot 005 (.docx, 21 Aug 2026) — current"])]),
       el("div", { class: "record-sub" }, ["More snapshots will be added as further research sweeps arrive; each is kept alongside the ones before it rather than overwritten."]),
     ]));
   }
