@@ -232,5 +232,68 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0027",
+    "timestamp": "2026-08-21T15:00:00Z",
+    "activity_type": "Researching",
+    "text": "Starting scheduled automated pass. Ran resume.js for both registered cases; chose DFAPTI-MNC-2026-00001 (18/18 open questions still Open, last live run RUN-0009 on 2026-08-17) over DFAPTI-BB-2026-00001 (worked yesterday, RUN-0067). Plan: sweep WebSearch across the case's highest-value still-open questions and threads per DEC-0014, attempt WebFetch on any promising URL to check whether this session's egress block (DEC-0008/DEC-0012) still holds.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0028",
+    "timestamp": "2026-08-21T15:10:00Z",
+    "activity_type": "Blocked",
+    "text": "WebFetch returned EGRESS_BLOCKED on parliament.nsw.gov.au, haveyoursay.nsw.gov.au, moreeonlinenews.com.au, and a control fetch of example.com - confirming the block is a blanket session-level constraint, not site-specific bot detection, consistent with DEC-0008/DEC-0012/RUN-0009. No further fetch attempts made against these domains this run; continuing with WebSearch-derived findings only, flagged as such on every new evidence item, per DEC-0006's rule against working around access blocks.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0029",
+    "timestamp": "2026-08-21T15:25:00Z",
+    "activity_type": "Finding",
+    "text": "Located a 16 July 2026 sponsored-content article by Brendan Moylan MP (Member for Northern Tablelands, NSW Nationals shadow minister for agriculture and prevention of regional crime), syndicated across the Australian Community Media regional network. This is the same 'Brendan Moylan' already quoted at EV-0011/CTR-0002 - his political role and the paid-placement nature of that source were not previously identified in the register. The article's fuller quote names SAR and MVA response alongside crime-fighting, and separately credits the trial with a ~19-20% two-year crime-reduction figure distinct from the already-registered 50% (petition) and 53%-since-2022 (EV-0053) figures. Registered as EV-0837/EV-0838/CHR-0021.",
+    "related_thread": "THR-09",
+    "related_source": "SRC-0088",
+    "related_evidence": "EV-0837"
+  },
+  {
+    "note_id": "NOTE-0030",
+    "timestamp": "2026-08-21T15:35:00Z",
+    "activity_type": "Finding",
+    "text": "Located the exact YR-2026-0012 procurement URL plus two dates not previously registered (close 4 May 2026; estimated decision 1 July 2026, now over seven weeks past with no located public output). Registered as EV-0839, supplementing EV-0038/EV-0196.",
+    "related_thread": "THR-07",
+    "related_source": "SRC-0089",
+    "related_evidence": "EV-0839"
+  },
+  {
+    "note_id": "NOTE-0031",
+    "timestamp": "2026-08-21T15:45:00Z",
+    "activity_type": "Decision",
+    "text": "A first WebSearch summary attributed a '$100,000' Moree trial total-cost figure to the Moylan article; a second, independent WebSearch query on the same article returned no mention of any dollar figure. Since the two summaries disagree and neither can be checked against verbatim text (WebFetch blocked), the figure was not registered - consistent with DFAPTI-BB-2026-00001's DEC-0007 standing rule against merging an unconfirmed or self-contradicting search-summary claim. Q-0004 remains Open, unchanged from EV-0231 (official cost not finalised as at 30 July 2026 per NSW Parliament).",
+    "related_thread": null,
+    "related_source": "SRC-0088",
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0032",
+    "timestamp": "2026-08-21T15:55:00Z",
+    "activity_type": "Finding",
+    "text": "A biometrics trade publication (Biometric Update) raises general drone/facial-recognition integration risk without alleging actual PolAir-Remote integration. A separate NSW development (national driver-licence face-matching network expansion, NDLFRS) surfaced in the same search sweep; checked and confirmed it is a distinct system from PolAir-Remote drone imagery with no located connection between the two, and excluded from being merged into the same evidence item to avoid an AI-summary conflation error. Registered as EV-0840, Q-0006 remains Open.",
+    "related_thread": "THR-06",
+    "related_source": "SRC-0090",
+    "related_evidence": "EV-0840"
+  },
+  {
+    "note_id": "NOTE-0033",
+    "timestamp": "2026-08-21T16:00:00Z",
+    "activity_type": "Note",
+    "text": "Q-0001 (Moree trial evaluation), Q-0013 (EOI YR-2026-0058 outcome) and Q-0009 (NSW Parliament e-petition tabling status) were each re-searched this run with fresh query wording and returned no new result beyond what RUN-0009 already established - search-exhausted for this pass, not re-logged as separate evidence. Run complete; proceeding to validate.js and commit.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

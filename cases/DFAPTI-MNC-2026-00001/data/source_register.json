@@ -1216,5 +1216,47 @@
     "hash_status": "No Hash",
     "associated_thread": null,
     "availability_notes": "Independent think-tank commentary (not a government oversight body) raising foreign-ownership/data-sovereignty/vendor-risk governance questions about the DJI-manufactured PolAir-Remote trial. Also republished by Policing Insight (policinginsight.com). Could not be independently fetched/quoted verbatim; WebFetch to this domain returned EGRESS_BLOCKED in this session's sandbox."
+  },
+  {
+    "source_id": "SRC-0088",
+    "authority": "Brendan Moylan MP (Member for Northern Tablelands) / Australian Community Media",
+    "title": "Brendan Moylan: Moree drone trial cuts crime for regional police",
+    "type": "Public Statement",
+    "url_or_file_location": "https://www.theland.com.au/story/9312025/brendan-moylan-moree-drone-trial-cuts-crime-for-regional-police/",
+    "first_checked": "2026-08-21",
+    "last_checked": "2026-08-21",
+    "current_version": "As returned by WebSearch result summaries (multiple independent queries); WebFetch to this domain returned EGRESS_BLOCKED, so no verbatim page text was obtained - see hash_exception_reason on EV-0837/EV-0838.",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-09",
+    "availability_notes": "Same story (ID 9312025) syndicated across the Australian Community Media regional network: theland.com.au, northerndailyleader.com.au, armidaleexpress.com.au, inverelltimes.com.au, gleninnesexaminer.com.au. Search summaries independently and consistently describe it as 'sponsored content for Brendan Moylan MP', not staff journalism."
+  },
+  {
+    "source_id": "SRC-0089",
+    "authority": "NSW Government (Buy NSW / eTendering)",
+    "title": "YR-2026-0012 - Aviation Command Operating Model Review (EOI)",
+    "type": "Government Record",
+    "url_or_file_location": "https://buy.nsw.gov.au/prcOpportunity/4ADC5324-B5EE-4F73-87115391BBE16F27",
+    "first_checked": "2026-08-21",
+    "last_checked": "2026-08-21",
+    "current_version": "Exact pinpoint URL and close/decision dates located this run, supplementing EV-0038 which recorded 'exact URL not captured'.",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-07",
+    "availability_notes": null
+  },
+  {
+    "source_id": "SRC-0090",
+    "authority": "Biometric Update",
+    "title": "Police drone programs raise questions about use of AI, facial recognition",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.biometricupdate.com/202605/police-drone-programs-raise-questions-about-use-of-ai-facial-recognition",
+    "first_checked": "2026-08-21",
+    "last_checked": "2026-08-21",
+    "current_version": "As returned by WebSearch result summary; WebFetch to this domain not attempted (pattern of EGRESS_BLOCKED on every domain tried this session made a further attempt not worth logging separately).",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-06",
+    "availability_notes": "Specialist biometrics trade publication, not a government or NSW Police source; treated as commentary, not primary confirmation."
   }
 ]

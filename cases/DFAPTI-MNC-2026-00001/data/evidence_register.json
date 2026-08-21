@@ -18553,5 +18553,117 @@
     "relevant_quotation": "[paraphrase, not verbatim - WebFetch blocked] The planned six-month trial of drones made by Chinese company DJI highlights broader considerations about management of risks associated with technologies that are owned, controlled or influenced by foreign entities... ASPI's work on technology risk has argued for vendor-agnostic assessments grounded in corporate governance, jurisdictional exposure, legal-compulsion risk and data lifecycle control. Risk is contextual, system-dependent and cumulative.",
     "evidence_description": "An independent think-tank (not a government oversight body, and not NSW Police) publicly raised foreign-ownership, jurisdictional-exposure and data-lifecycle governance questions about the DJI-manufactured PolAir-Remote trial - the first non-government, non-NSW-Police commentary of this kind located in this investigation. Also republished by Policing Insight (policinginsight.com), a specialist policing-sector publication, indicating some sector-level attention beyond ASPI itself. Independently located via this session's own live web search; could not be fetched and quoted verbatim (WebFetch to aspistrategist.org.au returned EGRESS_BLOCKED in this sandbox).",
     "investigation_relevance": "Relevant to Q-0011 (DJI-specific cyber-security/data-sovereignty risk assessment) and to Gate 8 of the externally-supplied Pre-Rollout Decision Architecture (AI, biometrics, data flow and cybersecurity): shows the vendor-risk concern this case has been probing is not solely this investigation's own inference but has independent, credentialed commentary raising the same gap. Does not itself confirm whether NSW Police has or has not completed such an assessment - that remains unresolved (see EV-0011/EV-0829 and related open questions)."
+  },
+  {
+    "evidence_id": "EV-0837",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-21",
+    "source_date": "2026-07-16",
+    "source_authority": "Brendan Moylan MP (Member for Northern Tablelands, NSW Nationals shadow minister for agriculture and prevention of regional crime)",
+    "source_title": "Brendan Moylan: Moree drone trial cuts crime for regional police",
+    "source_type": "Public Statement",
+    "source_location": "https://www.theland.com.au/story/9312025/brendan-moylan-moree-drone-trial-cuts-crime-for-regional-police/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Live web-search finding; WebFetch to theland.com.au was not attempted directly but every domain attempted this session (parliament.nsw.gov.au, haveyoursay.nsw.gov.au, moreeonlinenews.com.au, example.com) returned EGRESS_BLOCKED, so no verbatim page text or local copy could be obtained.",
+    "evidence_description": "This run independently located, via WebSearch, the full identity of the 'Brendan Moylan' quoted at EV-0011/CTR-0002: he is not an NSW Police spokesperson but the state Member for Northern Tablelands and NSW Nationals shadow minister for agriculture and prevention of regional crime, and the article itself is described consistently across independent search summaries as 'sponsored content for Brendan Moylan MP' - i.e. paid political placement, not independent journalism or an NSW Police statement. A fuller quote attributed to Moylan in this same piece describes the drone technology as being for tackling crime by 'speeding up response times in emergency situations..., assisting search and rescue operations and motor vehicle collisions, and reducing risks to police' - explicitly naming SAR and motor-vehicle-collision response in the same breath as the 'solely' framing, which sits in tension with EV-0011's shorter 'solely used for crime' extract read on its own.",
+    "relevant_quotation": "[paraphrase, not verbatim - WebFetch blocked] drone technology is solely to tackle crime by helping manage it, speeding up response times in emergency situations by getting police eyes on situations in a matter of minutes, assisting search and rescue operations and motor vehicle collisions, and reducing risks to police",
+    "investigation_relevance": "Materially reframes CTR-0002 and Q-0009's political-provenance angle: the 'solely used for crime' framing at EV-0011 traces to a state opposition MP's own paid political content, not an NSW Police operational statement, and that MP's fuller quoted language is not actually narrower than the multi-purpose official messaging it was registered as contradicting - it names the same SAR/MVA uses. Recorded as new evidence rather than used to change CTR-0002's status, since the exact wording of both EV-0011 and this quote rest on unverified search-engine paraphrase, not a fetched primary text - a status change would need the verbatim article. Also directly relevant to THR-09 (political provenance): a second NSW state politician (after Kemp) is shown running paid regional-media content crediting/promoting the drone program.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [
+      "EV-0011"
+    ],
+    "chronology_links": [
+      "CHR-0021"
+    ],
+    "contradiction_links": [
+      "CTR-0002"
+    ],
+    "open_question_links": [
+      "Q-0009"
+    ]
+  },
+  {
+    "evidence_id": "EV-0838",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-21",
+    "source_date": "2026-07-16",
+    "source_authority": "Brendan Moylan MP / Australian Community Media",
+    "source_title": "Brendan Moylan: Moree drone trial cuts crime for regional police",
+    "source_type": "Public Statement",
+    "source_location": "https://www.theland.com.au/story/9312025/brendan-moylan-moree-drone-trial-cuts-crime-for-regional-police/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Live web-search finding; WebFetch to this domain returned EGRESS_BLOCKED (see SRC-0088), so no verbatim page text or local copy could be obtained - recorded from WebSearch's own summarised results only.",
+    "evidence_description": "The same article credits the drone trial with a two-year BOCSAR figure distinct from the one already registered: youth crime-related violent and property crime down approximately 20%, and break-and-enter/vehicle theft down approximately 19%, 'across Moree over the past two years'. This is a different statistic from the 53%-since-2022 youth legal-actions figure already in the register (EV-0053), which this case's own analysis (EV-0055) has already shown is chronologically incapable of being explained by PolAir-Remote (operational only since January 2026). A 'past two years' framing would run from mid-2024, so most of this window also predates the drone trial's January 2026 start - the same chronological problem applies here on its face, though the exact base period was not stated precisely enough in the search summary to confirm this beyond reasonable inference.",
+    "relevant_quotation": "[paraphrase, not verbatim - WebFetch blocked] NSW Police recorded incidents of youth crime-related violent and property crime are down 20 per cent, and break and enter and vehicle thefts are down 19 per cent across Moree over the past two years",
+    "investigation_relevance": "Directly relevant to Q-0002/Q-0003 (primary source and methodology behind the petition's causal crime-reduction claims) and THR-03 (causal attribution): shows a state MP's own sponsored content crediting the drone trial with yet a third distinct statistic (19-20% over 'the past two years') alongside the petition's 50% figure (EV-0835) and the already-analysed 53%-since-2022 figure (EV-0053), none of which cite an underlying methodology or dataset, and at least two of which (53% and this one) appear to substantially predate the trial's actual operating window on their face.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [
+      "EV-0053",
+      "EV-0055",
+      "EV-0835"
+    ],
+    "chronology_links": [
+      "CHR-0021"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002",
+      "Q-0003"
+    ]
+  },
+  {
+    "evidence_id": "EV-0839",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-21",
+    "source_date": "2026-04-07",
+    "source_authority": "NSW Government (Buy NSW / eTendering)",
+    "source_title": "YR-2026-0012 - Aviation Command Operating Model Review (EOI)",
+    "source_type": "Government Record",
+    "source_location": "https://buy.nsw.gov.au/prcOpportunity/4ADC5324-B5EE-4F73-87115391BBE16F27",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Live web-search finding; WebFetch to buy.nsw.gov.au was not separately reattempted this run given the consistent EGRESS_BLOCKED pattern on every domain tried (see SRC-0088/SRC-0089); recorded from WebSearch's own summarised results only.",
+    "evidence_description": "Supplements EV-0038 (which recorded 'exact URL not captured') with the exact procurement-portal URL and two additional dated details not previously registered: the EOI closed 4 May 2026 at 3:00pm, and carried an estimated decision date of 1 July 2026. The listed contact is Galit Kitchingman (procurement@police.nsw.gov.au). No public review report, recommendation, or adoption decision dated after 1 July 2026 has been located in this or any prior run (see EV-0196), so the estimated decision date has evidently passed without a located public output.",
+    "relevant_quotation": "[paraphrase, not verbatim - WebFetch blocked] The EOI was published on 07-Apr-2026 with a close date of 04-May-2026 at 3:00 PM, with an estimated decision date of 01-Jul-2026",
+    "investigation_relevance": "Sharpens Q-0018: the Aviation Command Operating Model Review's own stated decision date (1 July 2026) is now over seven weeks past as of this run (21 August 2026) with still no located public report or outcome (EV-0196 unchanged), which is itself new information - not just an absence, but a specific missed self-stated deadline.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [
+      "EV-0038",
+      "EV-0196"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0018"
+    ]
+  },
+  {
+    "evidence_id": "EV-0840",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-21",
+    "source_date": "2026-08",
+    "source_authority": "Biometric Update",
+    "source_title": "Police drone programs raise questions about use of AI, facial recognition",
+    "source_type": "Media Report",
+    "source_location": "https://www.biometricupdate.com/202605/police-drone-programs-raise-questions-about-use-of-ai-facial-recognition",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Live web-search finding; WebFetch not attempted directly given the consistent EGRESS_BLOCKED pattern on every domain tried this session (see SRC-0088/SRC-0089/SRC-0090); recorded from WebSearch's own summarised results only.",
+    "evidence_description": "A specialist biometrics trade publication raises the general governance concern that if drone video feeds were integrated into statewide intelligence systems and enriched with licence-plate or facial-recognition data, the equipment would become part of a larger security architecture - but the search summary located no claim that PolAir-Remote specifically has been so integrated. A separate, unrelated NSW development was also found this run: NSW joining the national driver-licence face-matching network (NDLFRS), which is a distinct system (driver-licence/photo-card image sharing for identity-fraud purposes) with no located connection to PolAir-Remote drone imagery.",
+    "relevant_quotation": "[paraphrase, not verbatim - WebFetch blocked] If drone feeds are integrated into statewide intelligence systems, enriched with licence plate or facial recognition data or shared across intergovernmental taskforces, the equipment becomes part of a larger security architecture",
+    "investigation_relevance": "Q-0006 (can PolAir-Remote imagery be or has it been submitted to facial-recognition/biometric systems) remains Open with no evidence located either way of an actual integration; this adds a named, dated commentary source raising the question in general terms, and separately and explicitly rules out conflating it with the distinct NDLFRS driver-licence face-matching expansion also found this run - a conflation risk flagged and avoided rather than merged in, per this investigation's established discipline against AI-summary conflation (see DFAPTI-BB-2026-00001 RUN-0065).",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0006"
+    ]
   }
 ]

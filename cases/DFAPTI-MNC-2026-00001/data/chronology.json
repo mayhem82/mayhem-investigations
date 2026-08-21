@@ -5,7 +5,11 @@
     "date_is_inference": false,
     "event_description": "NSW parliamentary regional community-safety inquiry holds a public hearing in Kempsey. Gail Cheers gives evidence that she and her husband do not sleep at night because of repeated victimisation fears; evidence also points toward early intervention, safe accommodation, education and coordinated work with young people and families.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0003", "EV-0004", "EV-0029"]
+    "supporting_evidence": [
+      "EV-0003",
+      "EV-0004",
+      "EV-0029"
+    ]
   },
   {
     "chronology_id": "CHR-0002",
@@ -13,7 +17,9 @@
     "date_is_inference": false,
     "event_description": "Large Kempsey community mobilisation around crime. Michael Kemp and Nationals colleagues push tougher bail/sentencing and expanded police responses.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0005"]
+    "supporting_evidence": [
+      "EV-0005"
+    ]
   },
   {
     "chronology_id": "CHR-0003",
@@ -21,7 +27,9 @@
     "date_is_inference": true,
     "event_description": "NSW Government expands place-based and youth-crime responses in regional communities including Kempsey and Moree. These interventions run alongside policing measures and become important confounders for later causal claims about PolAir-Remote.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0018"]
+    "supporting_evidence": [
+      "EV-0018"
+    ]
   },
   {
     "chronology_id": "CHR-0004",
@@ -29,7 +37,9 @@
     "date_is_inference": false,
     "event_description": "Michael Kemp formally asks the Police Minister (NSW Parliament Q&A 6484) what metrics would measure Kempsey youth-crime funding and whether progress reports would be made publicly available.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0015"]
+    "supporting_evidence": [
+      "EV-0015"
+    ]
   },
   {
     "chronology_id": "CHR-0005",
@@ -37,7 +47,9 @@
     "date_is_inference": false,
     "event_description": "Moree PolAir-Remote trial commences. Local police briefing describes rapid response and also proactive flying/patrol including covert and overt exercises, not only incident-triggered deployment.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0006"]
+    "supporting_evidence": [
+      "EV-0006"
+    ]
   },
   {
     "chronology_id": "CHR-0006",
@@ -45,7 +57,9 @@
     "date_is_inference": false,
     "event_description": "Michael Kemp becomes Shadow Parliamentary Secretary for the Prevention of Regional Crime.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0016"]
+    "supporting_evidence": [
+      "EV-0016"
+    ]
   },
   {
     "chronology_id": "CHR-0007",
@@ -53,7 +67,9 @@
     "date_is_inference": false,
     "event_description": "Kempsey Shire Council publicly escalates concerns about antisocial behaviour affecting public places, businesses, amenities, services and staff safety.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0005"]
+    "supporting_evidence": [
+      "EV-0005"
+    ]
   },
   {
     "chronology_id": "CHR-0008",
@@ -61,7 +77,9 @@
     "date_is_inference": false,
     "event_description": "NSW Police formally launches PolAir-Remote in Moree. Commissioner Mal Lanyon publicly frames the capability as reactive and \"not surveillance\".",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0007"]
+    "supporting_evidence": [
+      "EV-0007"
+    ]
   },
   {
     "chronology_id": "CHR-0009",
@@ -69,7 +87,9 @@
     "date_is_inference": false,
     "event_description": "Guardian Australia reports NSW Police Minister Yasmin Catley publicly identifying Kempsey as a possible future PolAir-Remote expansion location, and senior police framing the capability as operational response rather than general surveillance.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0008"]
+    "supporting_evidence": [
+      "EV-0008"
+    ]
   },
   {
     "chronology_id": "CHR-0010",
@@ -77,7 +97,9 @@
     "date_is_inference": false,
     "event_description": "NSW parliamentary inquiry into regional and rural community safety tables its final report.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0004"]
+    "supporting_evidence": [
+      "EV-0004"
+    ]
   },
   {
     "chronology_id": "CHR-0011",
@@ -85,7 +107,11 @@
     "date_is_inference": false,
     "event_description": "NSW Police publishes procurement EOI YR-2026-0058, a statewide Remotely Piloted Aircraft Systems Panel seeking enterprise-grade law-enforcement RPAS capability across all regions, including future platform/capability evolution.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0013", "EV-0030", "EV-0031"]
+    "supporting_evidence": [
+      "EV-0013",
+      "EV-0030",
+      "EV-0031"
+    ]
   },
   {
     "chronology_id": "CHR-0012",
@@ -93,7 +119,9 @@
     "date_is_inference": false,
     "event_description": "Moree public \"Have Your Say\" consultation on the remotely piloted aircraft system runs and closes in June 2026 - five months after the system was already operational.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0009"]
+    "supporting_evidence": [
+      "EV-0009"
+    ]
   },
   {
     "chronology_id": "CHR-0013",
@@ -101,7 +129,9 @@
     "date_is_inference": false,
     "event_description": "Police Minister says the six-month Moree trial should run its course and police will assess results before determining next steps.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0010"]
+    "supporting_evidence": [
+      "EV-0010"
+    ]
   },
   {
     "chronology_id": "CHR-0014",
@@ -109,7 +139,9 @@
     "date_is_inference": false,
     "event_description": "Moree Online News reports further consultation/program-purpose messaging, including Brendan Moylan describing the drones as \"solely used for crime\" - in tension with earlier and later reporting of multi-purpose use.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0011"]
+    "supporting_evidence": [
+      "EV-0011"
+    ]
   },
   {
     "chronology_id": "CHR-0015",
@@ -117,7 +149,9 @@
     "date_is_inference": false,
     "event_description": "EOI YR-2026-0058 closes, with an estimated decision date of 20 July 2026. As at the most recent check (16 August 2026) no award or panel-establishment notice had been posted.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0014"]
+    "supporting_evidence": [
+      "EV-0014"
+    ]
   },
   {
     "chronology_id": "CHR-0016",
@@ -125,7 +159,9 @@
     "date_is_inference": false,
     "event_description": "NSW Parliament answer (Q&A 108763) states the total Moree PolAir-Remote trial cost had not yet been finalised.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0012"]
+    "supporting_evidence": [
+      "EV-0012"
+    ]
   },
   {
     "chronology_id": "CHR-0017",
@@ -133,7 +169,12 @@
     "date_is_inference": false,
     "event_description": "Macleay Argus publishes \"'I don't sleep at night': community calls for drone surveillance in Kempsey\", reporting Michael Kemp's call for community support for police-drone expansion; his campaign petition cites the 50%, 100+, 70+ and six-person figures.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0001", "EV-0002", "EV-0017", "EV-0029"]
+    "supporting_evidence": [
+      "EV-0001",
+      "EV-0002",
+      "EV-0017",
+      "EV-0029"
+    ]
   },
   {
     "chronology_id": "CHR-0018",
@@ -141,7 +182,10 @@
     "date_is_inference": false,
     "event_description": "An external ChatGPT Deep Research investigation is conducted at the case operator's direction: 12 snapshots, a 763-question Continuing Investigation Question Bank, two Answer Registers (RUN 001), a GIPA Primary Record Acquisition Pack, and an AE Primary Record Acquisition Register. No publicly traceable Moree end-of-trial evaluation is located at any point in this window.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0034", "EV-0035"]
+    "supporting_evidence": [
+      "EV-0034",
+      "EV-0035"
+    ]
   },
   {
     "chronology_id": "CHR-0019",
@@ -149,7 +193,9 @@
     "date_is_inference": false,
     "event_description": "This external research corpus is ingested into the MAYHEM DFAPTI-MNC-2026-00001 case register as a new, separately data-scoped case within mayhem-investigations, per the architecture decision recorded at DEC-0001. Only the highest-value facts and gaps are promoted into the live register in this first pass; the full corpus is preserved for future runs.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0035"]
+    "supporting_evidence": [
+      "EV-0035"
+    ]
   },
   {
     "chronology_id": "CHR-0020",
@@ -157,6 +203,19 @@
     "date_is_inference": false,
     "event_description": "PolAir-Remote assists NSW Police with an arrest arising from a domestic violence/bail incident, reported 5 August 2026 - nearly seven months after the trial's stated 8 January 2026 commencement and its publicly announced six-month window, with no located public notice of an extension or revised end date.",
     "status": "Confirmed",
-    "supporting_evidence": ["EV-0037"]
+    "supporting_evidence": [
+      "EV-0037"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0021",
+    "event_date": "2026-07-16",
+    "date_is_inference": false,
+    "event_description": "Brendan Moylan MP (Member for Northern Tablelands, NSW Nationals shadow minister for agriculture and prevention of regional crime) publishes sponsored content across the Australian Community Media regional network crediting the Moree PolAir-Remote trial with cutting crime, including a two-year BOCSAR figure (~19-20%) distinct from the already-registered 53%-since-2022 youth legal-actions figure (EV-0053) and the petition's later 50% figure (EV-0835/CHR-0017).",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0837",
+      "EV-0838"
+    ]
   }
 ]
