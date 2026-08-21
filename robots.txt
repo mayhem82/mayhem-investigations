@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mayhem82.github.io/mayhem-investigations/sitemap.xml
