@@ -1,0 +1,122 @@
+{
+  "gate_id": "SHM-GATE-DFAPTI-BB-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-BB-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-22",
+  "basis_note": "Applies the operator's Structural Harm Mechanism (SHM) Catalogue - a set of named institutional-dysfunction patterns built by the operator from pattern detection across past cases - against this case's own frozen-baseline DFAPTA cross-pattern analysis (30 paths, EV-0001-EV-0071). The catalogue is applied only to evidence already gathered; it played no role in what evidence was collected. A mechanism is listed as Applied only where this case's own DFAPTA paths (produced before the catalogue was cross-referenced against them) already carry an explicit CONFIRMED-status tag with real EV- citations - PROVISIONAL and NOT CONFIRMED tags in the source paths are excluded from Applied and, where a clean pattern exists, carried into Risk / Provisional instead. Nothing here goes beyond what those paths already established.",
+  "catalogue_reference": "Structural Harm Mechanism Catalogue v2.0 (operator-authored, 68 named mechanisms; this gate cites 9)",
+  "position_in_chain": "Applied after DFAPTA (Stage 2), before Lattice Atlas (Stage 3) - a known-patterns check against frozen evidence, distinct from Lattice Atlas's search for new, not-yet-named emergent patterns.",
+  "root_finding": {
+    "title": "Documented Compliance vs. Functional Compliance",
+    "statement": "This case's own DFAPTA baseline named this distinction directly and gave it a dedicated path (AR-028, 'Documented Compliance Versus Functional Outcome Path') before this catalogue was ever cross-referenced against it: 'documented action and verified outcome are not interchangeable.' Six of the mechanisms below are that one distinction wearing different faces. Documented Compliance as Shield is the named instance. Opacity by Design, Complexity as Barrier, and Definitional Control are three separate reasons the gap between what's documented and what's functionally true stays hard to check. Narrative Compression is how the documented side gets simplified before it reaches the public. Time as Structural Harm Mechanism is the same gap running on a construction timeline instead of a single claim.",
+    "roles": [
+      { "mechanism_no": 9, "role": "core_instance", "role_label": "The named instance", "role_note": "This case's own DFAPTA baseline dedicates an entire path to this exact distinction (AR-028) and restates it at the whole-case level in its baseline synthesis (AR-030): substantial documented activity is confirmed; functional outcome at several load-bearing endpoints - Willawarrin commissioning, Bellbrook augmentation delivery, cost/scope reconciliation - remains unverified." },
+      { "mechanism_no": 19, "role": "enables_gap", "role_label": "Why the gap stays uncheckable (1 of 3)", "role_note": "The project's variation chain, procurement terms, and Bellbrook augmentation's full delivery record cannot be reconstructed from the public corpus." },
+      { "mechanism_no": 48, "role": "enables_gap", "role_label": "Why the gap stays uncheckable (2 of 3)", "role_note": "The case's own evidentiary picture - report-series renaming across three conventions, a mixed-confidence evidence architecture, dispersed and sometimes inaccessible record types - is itself an instance of the density it investigates." },
+      { "mechanism_no": 42, "role": "enables_gap", "role_label": "Why the gap stays uncheckable (3 of 3)", "role_note": "Two official releases give Willawarrin's population as ~130 and ~180 within days of each other, with the underlying definitions (service-area population vs. locality population) never disclosed - this is the case's own formally frozen contradiction, CTR-0001." },
+      { "mechanism_no": 26, "role": "builds_documented_side", "role_label": "How the documented side gets built", "role_note": "The single most repeated confirmed match in this case - seven separate paths, independent of each other, found the same compression: 'iron and manganese' as one phrase erasing contaminant-specific evidence; a single population figure compressing service-area and locality measures; 'Bellbrook water plant' referring ambiguously to either the historic arsenic-removal plant or the later augmentation project; a 'regional water package' obscuring which village actually benefits." },
+      { "mechanism_no": 10, "role": "temporal_instance", "role_label": "The same gap, running on a clock", "role_note": "The Willawarrin replacement plant's own trajectory spans at least 2022 through 2026 - concept-design endorsement, site works, formal construction start, a moving early-2026 completion target - while the legacy 1960s-era system it replaces remained the one actually in service." }
+    ]
+  },
+  "applied": [
+    {
+      "mechanism_no": 9,
+      "name": "Documented Compliance as Shield",
+      "definition": "The institution points to the process it completed as evidence that the obligation was met. The process was completed. The outcome the process was supposed to produce was not achieved. Documented compliance substituted for functional compliance.",
+      "status": "APPLIED - this case's own dedicated analytical path",
+      "match_note": "Project milestones (concept-design endorsement, construction start, an 'early 2026' completion target) must not substitute for a verified operational outcome (AR-013). At the whole-case level, the baseline explicitly states this is the load-bearing distinction of the entire investigation, not an isolated observation (AR-028, AR-030).",
+      "paths": ["AR-013", "AR-028", "AR-030"],
+      "anchors": ["EV-0006", "EV-0007", "EV-0042", "EV-0068", "EV-0010", "EV-0013", "EV-0031"]
+    },
+    {
+      "mechanism_no": 26,
+      "name": "Narrative Compression",
+      "definition": "Complex structural conditions are reduced to simplified framings that omit the elements that would trigger accountability. The mechanism is the selection of language that is technically accurate at the compressed level while functionally concealing what is occurring at the structural level.",
+      "status": "APPLIED - repeated match, strongest in this case",
+      "match_note": "Confirmed across seven independent paths: combining iron and manganese into one phrase erases contaminant-specific evidence differences (AR-005); a single word ('population') compresses service-area and locality measures with materially different values (AR-022, tied to CTR-0001); 'Bellbrook water plant' can mean either the existing arsenic-removal infrastructure or the later, undelivered augmentation project (AR-014); a 'regional water package' obscures which specific communities each funded component actually serves (AR-016); Bellbrook and the adjacent Thunggutti community risk being compressed into one system despite materially different outcomes (AR-026); combining all manganese readings into a single safety label would misstate aesthetic-versus-health-guideline exceedances (AR-006); headline project cost figures conceal distinct tender-price and scope movements (AR-011).",
+      "paths": ["AR-005", "AR-006", "AR-011", "AR-014", "AR-016", "AR-022", "AR-026"],
+      "anchors": ["EV-0031", "EV-0035", "EV-0005", "EV-0006", "EV-0016", "EV-0022"]
+    },
+    {
+      "mechanism_no": 19,
+      "name": "Opacity by Design",
+      "definition": "The system cannot be independently examined - not because records are hidden, but because the system was designed without the structural features that would make independent examination possible. The mechanism is not concealment - it is the absence of auditability as a design feature.",
+      "status": "APPLIED - repeated match",
+      "match_note": "The complete cost-and-scope variation chain for the Willawarrin project is not exposed as a public line-by-line record (AR-011). The complete Bellbrook augmentation project chain - scope, cost, funding source, approval, tender, contractor, timeline - cannot be reconstructed beyond confirmed planning-stage existence (AR-015). The design rationale for why the villages remained on standalone extraction rather than being connected to, or given redundancy through, the main network cannot be independently reconstructed (AR-018).",
+      "paths": ["AR-011", "AR-015", "AR-018"],
+      "anchors": ["EV-0004", "EV-0006", "EV-0071", "EV-0001", "EV-0005", "EV-0009"]
+    },
+    {
+      "mechanism_no": 48,
+      "name": "Complexity as Barrier",
+      "definition": "The governance instrument is not hidden. It is published, available, technically accessible. But its language, structure, and cross-referencing make it functionally illegible to the population it governs. The barrier is not secrecy - it is density.",
+      "status": "APPLIED - repeated match",
+      "match_note": "This case's own evidence state is distributed across registers, preserved sources, pull requests and a supplemental patch (AR-001). The drinking-water report series itself changed title, filename and URL convention three times across 2018-2019, 2019-2021 and 2023-2024, meaning reconstructing the series requires knowing multiple naming conventions (AR-020). The register's mixed-confidence evidence architecture - verified primaries, partial extractions, search-snippet captures, explicit requires-verification entries - increases the burden of using it correctly even though the burden is explicitly controlled (AR-021). Resolution of the case's own remaining open questions depends on dispersed and sometimes inaccessible record types (AR-029).",
+      "paths": ["AR-001", "AR-020", "AR-021", "AR-029"],
+      "anchors": ["EV-0001", "EV-0031", "EV-0032", "EV-0033"]
+    },
+    {
+      "mechanism_no": 42,
+      "name": "Definitional Control",
+      "definition": "The institution defines the terms under which its own performance is assessed. Key terms are undefined in any publicly available document. The institution sets the standard, measures against the standard, and reports compliance with the standard.",
+      "status": "APPLIED - tied to a formal contradiction",
+      "match_note": "Official project releases give Willawarrin's population as approximately 130 in one release and approximately 180 in another, three days apart. The evidence supports both as independently real - a service-area figure and a locality figure - but the two definitions are never disclosed as distinct anywhere in the public record. This is not a loose observation; it is the case's own formally frozen contradiction, CTR-0001.",
+      "paths": ["AR-022"],
+      "anchors": ["EV-0005", "EV-0006", "EV-0016", "EV-0030", "EV-0036", "EV-0071"]
+    },
+    {
+      "mechanism_no": 10,
+      "name": "Time as Structural Harm Mechanism",
+      "definition": "Delay, silence, deferral, queueing, response latency. The institution does not refuse. It waits. The citizen's capacity to sustain the complaint erodes. The evidence ages. The political window closes. The harm compounds while the process continues.",
+      "status": "APPLIED - confirmed at project-duration level",
+      "match_note": "The Willawarrin replacement trajectory spans at least 2022 through 2026 - regulatory concept-design endorsement in mid-2022, public planning visibility by May 2022, site works, formal construction start in March 2025, a moving 'early 2026' completion target - while the 1960s-era legacy system it replaces remained the one actually serving the village throughout. This is this case's own explicitly confirmed application of the mechanism, not an interpretive bridge.",
+      "paths": ["AR-010"],
+      "anchors": ["EV-0004", "EV-0006", "EV-0007", "EV-0013", "EV-0050", "EV-0058"]
+    },
+    {
+      "mechanism_no": 25,
+      "name": "Isolated Incident Framing",
+      "definition": "Each instance of harm is treated as individual and unconnected. The pattern across instances is not examined because no mechanism exists to aggregate them. The citizen experiences a systemic condition. The institution processes a series of unrelated events. The mechanism is the structural prevention of pattern visibility.",
+      "status": "APPLIED - confirmed as a risk this case guards against in its own methodology",
+      "match_note": "The evidence spans a Bellbrook heavy-metal/arsenic history from 2005, a reported 2008 trucked-water episode, the prolonged 2019-2020 crisis, and further cartage incidents in 2020-2021 - a case that would lose its own recurring-vulnerability finding if compressed to the single best-known 2019-2020 episode (AR-002). Separately, Bellbrook's distinct arsenic/heavy-metal treatment history predates and is materially different from Willawarrin's iron/manganese history; treating the investigation as one undifferentiated water problem would conceal that distinction (AR-007).",
+      "paths": ["AR-002", "AR-007"],
+      "anchors": ["EV-0001", "EV-0009", "EV-0020", "EV-0022", "EV-0043"]
+    },
+    {
+      "mechanism_no": 67,
+      "name": "Compliance Snapshot as Exclusion",
+      "definition": "A point-in-time compliance snapshot is taken and the system operates as compliant on the basis of the snapshot until the next snapshot is scheduled. Between snapshots, the system drifts, and the drift is invisible because compliance status is indexed to the snapshot, not to the continuous condition.",
+      "status": "APPLIED - confirmed as an overreach risk",
+      "match_note": "Late-2024 PFAS testing found undetectable levels of key substances across all eight supply systems, including Willawarrin and Bellbrook - a real, positive, current result for the contaminant class tested. The case's own analysis explicitly names the overreach risk: 'safe for PFAS' and 'structurally resilient drinking-water system' are different propositions, and a narrow successful snapshot could be reported as universal assurance if the contaminant-specific scope isn't preserved.",
+      "paths": ["AR-009"],
+      "anchors": ["EV-0010", "EV-0064"]
+    }
+  ],
+  "risk_provisional": [
+    {
+      "mechanism_no": 23,
+      "name": "Equity Disparity Through Neutral Process",
+      "definition": "The process treats everyone identically. The population it governs is not identical. Identical treatment of unequal populations produces unequal outcomes. The mechanism is the appearance of fairness producing structural bias - not through discrimination but through the refusal to account for the conditions under which the process operates.",
+      "status": "RISK - plausible across three paths, not yet quantified in this case's own standard",
+      "match_note": "The much larger, better-resourced main Kempsey-Lower Macleay network has documented source-switching flexibility between the Sherwood Borefield and Steuart McIntyre Dam; the villages remain single-source, standalone systems (AR-016). Different system scales attract materially different capital investment (AR-024). Bellbrook and the adjacent Thunggutti community share cartage exposure without necessarily sharing outcomes (AR-026). Each path stops short of confirming the disparity - the case's own standard requires an outcome-based comparison across communities that does not yet exist in the frozen record.",
+      "paths": ["AR-016", "AR-024", "AR-026"],
+      "anchors": ["EV-0005", "EV-0008", "EV-0013", "EV-0028"]
+    }
+  ],
+  "candidate_new_mechanisms": [
+    {
+      "working_name": "Institutional-Source Evidentiary Skew",
+      "definition_from_case": "The evidentiary record available to check an institution's own claims is generated almost entirely by that institution and the media reporting on it - incident logs, council releases, monitoring reports. Direct, structured testimony from the affected residents themselves - about duration, household burden, trust, cost, or health concern - is thin to nonexistent in the same record, not because it doesn't exist, but because no mechanism exists to capture or preserve it alongside the institutional account.",
+      "note": "Checked against all 68 named mechanisms in Catalogue v2.0; no clean match found. The nearest neighbours - Self-Referential Reporting (#27, an institution measuring its own performance) and Accountability Cost Externalisation (#46, the cost of complaining falling on the citizen) - both describe something an institution does. This case's finding (AR-025) is different in kind: it's a structural gap in what evidence exists at all, on either side, independent of any single institutional action. A citizen's taste complaint or trucked-water disruption is real lived experience; the public record captures it only as an aggregate count, not as a preserved account. Surfaced here as a genuine candidate for the operator's own further catalogue development.",
+      "paths": ["AR-025"],
+      "anchors": ["EV-0001", "EV-0002", "EV-0020", "EV-0021", "EV-0052", "EV-0054"]
+    }
+  ],
+  "not_claimed": [
+    "This gate does not claim the Structural Harm Mechanism Catalogue's other 59 mechanisms are absent from Council's water governance - only that this case's own frozen DFAPTA analysis did not surface CONFIRMED-status matching findings for them.",
+    "This gate does not claim intent by any named individual or agency. Every mechanism above is a structural/behavioural description, consistent with this case's own non-allegatory standard, and several source paths (AR-008, AR-019) explicitly declined to confirm Documented Compliance as Shield as institutional behaviour where the evidence didn't support it - that boundary is preserved, not smoothed over.",
+    "The candidate new mechanism (Institutional-Source Evidentiary Skew) is not yet part of the operator's catalogue. It is offered as a discovery finding, not asserted as canon.",
+    "This gate does not re-open or re-verify the underlying EV- items. This case's evidence carries a mix of verification states (Verified, Requires Verification, Unverified) at item level, preserved as-is - this gate does not upgrade any item's status.",
+    "This case's DFAPTA baseline tagged several additional mechanisms at PROVISIONAL or NOT CONFIRMED status that are not carried into this gate at all (e.g. Cosmetic Mitigation, Delegation as Responsibility Laundering, Compliant Process Harm, Responsibility Diffusion, Self-Referential Reporting) because no path reached a CONFIRMED tag for them - excluded for the same reason applied mechanisms were included, not because they were considered and rejected."
+  ]
+}

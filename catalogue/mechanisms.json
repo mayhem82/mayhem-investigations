@@ -1,0 +1,410 @@
+[
+  {
+    "no": 1,
+    "name": "Reclassification",
+    "category": "A",
+    "definition": "The institution does not deny the experience. It changes what the experience is. Primary evidence becomes anecdote. Observation becomes opinion. Pattern becomes isolated incident. Institutional record replaces lived account. Five specific patterns: ‘This is just your perception’ (observed experience converted to subjective opinion); ‘We can’t verify that’ (primary evidence converted to unverifiable claim); ‘Individual cases don’t show systemic problems’ (pattern evidence converted to isolated incident); ‘That’s not what our records show’ (lived account replaced by institutional record); ‘We take your concerns seriously’ (absorption without acknowledgment)."
+  },
+  {
+    "no": 2,
+    "name": "Absorption Without Acknowledgment",
+    "category": "A",
+    "definition": "The institution notes the experience. It does not record it as a finding. It does not produce structural change. The language of acknowledgment performs the function of closure while producing none of the conditions for remedy. This is the most common and most effective reclassification mechanism because it looks like a response while functioning as a termination."
+  },
+  {
+    "no": 3,
+    "name": "Silent Rights Removal",
+    "category": "A",
+    "definition": "A right, protection, or democratic participation mechanism is reduced or removed through a process named something else entirely — reform, efficiency measure, administrative update, sustainability framework. No debate occurs about the removal because the removal was never named. By the time the removal becomes visible in lived experience, the process is complete and the instrument is settled."
+  },
+  {
+    "no": 4,
+    "name": "Policy Absorption Without Attribution",
+    "category": "A",
+    "definition": "The institution takes the outsider’s policy content, enacts it, and presents it as self-originated. The outsider loses electoral or institutional credit. The absorbing entity gains the policy benefit without accountability for its origin."
+  },
+  {
+    "no": 5,
+    "name": "Bipartisan Operating Architecture",
+    "category": "A",
+    "definition": "Two nominally opposed parties produce the same structural outcome from the same institutional position. No explicit coordination is required. Parallel incentives produce identical behaviour. When both sides attack the same target, the public assumes the target deserves it. When both sides vote together to block scrutiny, it disappears without debate."
+  },
+  {
+    "no": 6,
+    "name": "Scrutiny Suppression",
+    "category": "A",
+    "definition": "Both parties cooperate to block scrutiny mechanisms — committee inquiries, disclosure reforms, independent review. The suppression disappears without debate because both sides voted together. Scrutiny suppression is the architectural condition that makes all other mechanisms sustainable. If the preference architecture cannot be reviewed, it cannot be changed. If the rights removal cannot be examined in committee, it cannot be contested."
+  },
+  {
+    "no": 7,
+    "name": "Structural Preference Suppression",
+    "category": "A",
+    "definition": "The electoral architecture converts citizen votes at systematically different rates depending on which party the vote supports. A party receiving 20% of primary votes may win one seat. A party receiving 0.3% may win three. The mechanism is invisible to the voter because it operates at the preference distribution level, not at the ballot box."
+  },
+  {
+    "no": 8,
+    "name": "Compliant Process Harm",
+    "category": "A",
+    "definition": "The process followed its rules. The harm is real and documented. These are not in contradiction. Compliance is the mechanism of the harm, not its negation. Every institutional actor followed their mandate. Each process executed its designed function. The aggregate output is structural harm — produced through the sum of individually compliant acts."
+  },
+  {
+    "no": 9,
+    "name": "Documented Compliance as Shield",
+    "category": "A",
+    "definition": "The institution points to the process it completed — the review, the consultation, the assessment — as evidence that the obligation was met. The process was completed. The outcome the process was supposed to produce was not achieved. Documented compliance substituted for functional compliance. This is the load-bearing distinction in every MAYHEM investigation."
+  },
+  {
+    "no": 10,
+    "name": "Time as Structural Harm Mechanism",
+    "category": "A",
+    "definition": "Delay, silence, deferral, queueing, response latency. The institution does not refuse. It waits. The citizen’s capacity to sustain the complaint erodes. The evidence ages. The political window closes. The harm compounds while the process continues."
+  },
+  {
+    "no": 11,
+    "name": "Silence and Non-Response",
+    "category": "A",
+    "definition": "The institution was required to act or respond. It did neither. The silence is not noted because no mechanism exists to log it. The absence of action is invisible to every observer except the person who was waiting for the response."
+  },
+  {
+    "no": 12,
+    "name": "Information Distortion and Laundering",
+    "category": "A",
+    "definition": "Selective disclosure, narrative compression, misdirection via language or framing. The institution controls what information reaches the citizen and in what form. The citizen receives a version of reality that has been processed through the institution’s framing before it reaches them."
+  },
+  {
+    "no": 13,
+    "name": "Oversight Theatre",
+    "category": "A",
+    "definition": "The oversight body exists. It observes. It does not constrain behaviour. The existence of oversight provides legitimacy cover while the system it oversees continues unreformed. The oversight body’s reports, reviews, and observations generate institutional output that looks like accountability without functioning as accountability."
+  },
+  {
+    "no": 14,
+    "name": "Jurisdictional Escape",
+    "category": "A",
+    "definition": "Accountability is avoided through jurisdictional handoff or ambiguity. One level approves under one framework; another rejects under a different framework; the first precedent remains undisturbed. Obligations transfer before the receiving system is capable. The citizen falls through the gap between two systems, each of which claims the other is responsible."
+  },
+  {
+    "no": 15,
+    "name": "Impossible Mandate",
+    "category": "A",
+    "definition": "The system is given an obligation it is structurally incapable of meeting. Not under-resourced — architecturally incapable. The obligation exists in documentation. The capacity to fulfil it does not exist in design. The gap between the stated mandate and the structural capability is invisible because the mandate itself creates the appearance that the function is being performed."
+  },
+  {
+    "no": 16,
+    "name": "Perverse Incentive Architecture",
+    "category": "A",
+    "definition": "The system rewards the behaviour that produces harm. KPIs, reputational drivers, funding structures, career progression — all aligned to incentivise the output that the system’s stated purpose is designed to prevent. The mechanism is not failure — it is success at the wrong thing, structurally rewarded."
+  },
+  {
+    "no": 17,
+    "name": "Cosmetic Mitigation",
+    "category": "A",
+    "definition": "Corrective measures are implemented. The measures do not reduce risk — they document that risk was addressed. The mitigation record substitutes for mitigation. The appearance of correction replaces the function of correction."
+  },
+  {
+    "no": 18,
+    "name": "Escalation Dead-End",
+    "category": "A",
+    "definition": "Complaints, reports, or alerts move upward through the system and terminate before reaching a decision-maker with the authority and capacity to act. The escalation pathway exists. It is documented. It does not reach its stated destination. The mechanism is the existence of a visible complaints process that structurally cannot produce resolution."
+  },
+  {
+    "no": 19,
+    "name": "Opacity by Design",
+    "category": "A",
+    "definition": "The system cannot be independently examined — not because records are hidden, but because the system was designed without the structural features that would make independent examination possible. The mechanism is not concealment — it is the absence of auditability as a design feature."
+  },
+  {
+    "no": 20,
+    "name": "Responsibility Diffusion",
+    "category": "A",
+    "definition": "Decision authority and accountability are distributed across multiple actors such that no single actor bears consequence when failure is verified. Each actor’s contribution is individually insufficient to cause the outcome. The aggregate outcome has no accountable author. The mechanism is the structural separation of power from consequence."
+  },
+  {
+    "no": 21,
+    "name": "Prevention Foreclosure",
+    "category": "A",
+    "definition": "Known preventative options existed. They were not implemented. Not because they were assessed and rejected — because they were never assessed. The window for prevention closed while the system processed other priorities. The mechanism is the non-examination of available remedies."
+  },
+  {
+    "no": 22,
+    "name": "Risk Propagation Through Silence",
+    "category": "A",
+    "definition": "The initial failure propagates downstream because the system did not communicate the risk to the populations downstream of it. The silence is not concealment — it is the absence of a communication obligation. No one was required to tell the next person in the chain that the risk existed."
+  },
+  {
+    "no": 23,
+    "name": "Equity Disparity Through Neutral Process",
+    "category": "A",
+    "definition": "The process treats everyone identically. The population it governs is not identical. Identical treatment of unequal populations produces unequal outcomes. The mechanism is the appearance of fairness producing structural bias — not through discrimination but through the refusal to account for the conditions under which the process operates."
+  },
+  {
+    "no": 24,
+    "name": "Delegation as Responsibility Laundering",
+    "category": "A",
+    "definition": "The system outsources the function to a third party. When the function fails, the system points to the third party. The third party points to the contract. The contract defines the function narrowly enough that the failure falls between what the system retained and what the third party accepted. The mechanism is the creation of a structural gap through the act of delegation."
+  },
+  {
+    "no": 25,
+    "name": "Isolated Incident Framing",
+    "category": "A",
+    "definition": "Each instance of harm is treated as individual and unconnected. The pattern across instances is not examined because no mechanism exists to aggregate them. The citizen experiences a systemic condition. The institution processes a series of unrelated events. The mechanism is the structural prevention of pattern visibility."
+  },
+  {
+    "no": 26,
+    "name": "Narrative Compression",
+    "category": "A",
+    "definition": "Complex structural conditions are reduced to simplified framings that omit the elements that would trigger accountability. ‘Reform’ compresses ‘removal of a right.’ ‘Efficiency’ compresses ‘reduction of service.’ ‘Sustainability’ compresses ‘exclusion of the most vulnerable participants.’ The mechanism is the selection of language that is technically accurate at the compressed level while functionally concealing what is occurring at the structural level."
+  },
+  {
+    "no": 27,
+    "name": "Self-Referential Reporting",
+    "category": "A",
+    "definition": "The system reports on its own performance. The counting methodology is designed by the system. What is counted, how it is categorised, and what is excluded are all decisions made inside the system under investigation. The mechanism is the production of performance data by the entity whose performance is being measured. This is not a claim of bad faith. It is a structural observation."
+  },
+  {
+    "no": 28,
+    "name": "Declaration-Enforcement Lag Loop",
+    "category": "A",
+    "definition": "Declarations produce compliance records. Compliance records enter enforcement proceedings as evidence of good faith. Enforcement produces consent decrees. Consent decrees produce new declarations. Declarations enter the next cycle. The loop runs continuously without an external principal capable of breaking it. Each enforcement cycle produces more documentation without reaching the structural source. The mechanism is not non-compliance — it is the production of compliance documentation as a substitute for compliance outcomes."
+  },
+  {
+    "no": 29,
+    "name": "Scale-Impunity Inversion",
+    "category": "A",
+    "definition": "The entity grows past the scale at which available accountability mechanisms are structurally capable of compelling change. User exit becomes harder. Penalty ratios become smaller. Voting authority concentration increases insulation. The entity has not evaded accountability. It has grown past the scale at which accountability functions."
+  },
+  {
+    "no": 30,
+    "name": "Compliance Theatre Architecture",
+    "category": "A",
+    "definition": "A complete system that produces every observable indicator of compliance governance without requiring functional compliance outcomes. Internal audit, external assessment, regulatory engagement, public communications — each stage produces authentic-looking output. None, individually or collectively, has demonstrated capacity to detect or prevent the violations it is designed to address."
+  },
+  {
+    "no": 31,
+    "name": "Harm Normalisation Cycle",
+    "category": "A",
+    "definition": "Internal harm knowledge is suppressed. External enforcement surfaces the harm. Response formula acknowledges concern. Harm is reclassified as managed risk. Next iteration enters the cycle. The mechanism converts known harm into a risk management category that permits its continuation."
+  },
+  {
+    "no": 32,
+    "name": "Jurisdiction Arbitrage Architecture",
+    "category": "A",
+    "definition": "The entity uses compliance documentation from one jurisdiction as evidence of compliance posture in another. Enforcement in one jurisdiction drives compliance under compulsion while enforcement capacity in another is reduced through political investment. Documentation from the compelled jurisdiction is presented in the reduced jurisdiction. The mechanism is not non-compliance in any single jurisdiction — it is the structural exploitation of the gap between jurisdictions."
+  },
+  {
+    "no": 33,
+    "name": "Self-Referential Compliance Architecture",
+    "category": "A",
+    "definition": "The entity’s compliance assessors are constituted by, funded by, or selected by the entity itself. The assessor is not an independent principal. The assessment produces documentation that enters the record as independent verification while structurally incapable of functioning as such."
+  },
+  {
+    "no": 34,
+    "name": "Response Formula",
+    "category": "A",
+    "definition": "A standardised pattern: acknowledge concern, announce investment, declare commitment, resume operation. The formula produces a record of acknowledged concern that exists independently of whether the mitigation functioned. The mechanism is not the denial of harm — it is the production of a documented response that substitutes for a functional response."
+  },
+  {
+    "no": 35,
+    "name": "Political Alignment for Enforcement Reduction",
+    "category": "A",
+    "definition": "The entity invests politically in the direction of reducing external enforcement capacity. Donations, appointments, coordination — all operating in the same structural direction as the entity’s regulatory posture: toward reduced enforcement."
+  },
+  {
+    "no": 36,
+    "name": "Consent Architecture as Coercion",
+    "category": "A",
+    "definition": "The citizen is presented with a choice that is structurally not a choice. Accept the terms or lose access to the service. The terms are documented. The consent is recorded. The coercion is invisible because the consent record exists. The mechanism is the production of documented voluntary agreement under conditions that preclude genuine choice."
+  },
+  {
+    "no": 37,
+    "name": "Baseline Calibration Lock",
+    "category": "A",
+    "definition": "Every governance instrument is calibrated to conditions that no longer exist. The instrument’s parameters, thresholds, and trigger points were set under prior conditions. When conditions change, the instrument continues operating at its original calibration. It produces documented compliance with a baseline that is no longer operative. The mechanism is the persistence of an obsolete calibration inside a current obligation."
+  },
+  {
+    "no": 38,
+    "name": "Precedent Accumulation",
+    "category": "A",
+    "definition": "Each instance of non-compliance that goes unenforced reduces the reputational cost of the next instance. The precedent register is one-directional — it accumulates without reversal. The next non-compliance event operates in an environment where reputational cost is demonstrably lower than at any prior point."
+  },
+  {
+    "no": 39,
+    "name": "Capture-Erosion Spiral",
+    "category": "A",
+    "definition": "The governance body is captured by the actors it is designed to oversee. Capture produces normative erosion. Erosion reduces the governance body’s authority. Reduced authority makes capture easier. The spiral is self-reinforcing and produces no internal arrest mechanism."
+  },
+  {
+    "no": 40,
+    "name": "Structural Immunity Through Architecture",
+    "category": "A",
+    "definition": "The system is designed such that its most powerful actors are architecturally exempt from the accountability mechanisms that apply to all other actors. The exemption is not a violation — it is a design feature."
+  },
+  {
+    "no": 41,
+    "name": "Legitimacy Production Decoupled from Enforcement",
+    "category": "A",
+    "definition": "The governance system produces high-volume procedural output — resolutions, reviews, reports, judgments, inspections — alongside documented non-enforcement against primary actors. The output volume generates legitimacy independent of enforcement performance. The legitimacy then absorbs accountability pressure."
+  },
+  {
+    "no": 42,
+    "name": "Definitional Control",
+    "category": "A",
+    "definition": "The institution defines the terms under which its own performance is assessed. Key terms are undefined in any publicly available document. The institution sets the standard, measures against the standard, and reports compliance with the standard. The citizen has no access to the definition and no mechanism to contest it."
+  },
+  {
+    "no": 56,
+    "name": "Language Barrier as Structural Exclusion",
+    "category": "A",
+    "definition": "The governance instrument is published in the language the population nominally operates in. The population includes people who cannot parse the instrument because the instrument is written in the institutional register of governance documentation — the technical, legal, bureaucratic, acronym-dense dialect in which policy, regulation, subordinate legislation, ministerial guidance, and administrative instruments are produced. The barrier is not natural-language translation. It is register and vocabulary. The citizen has formal access to an instrument they cannot functionally read because they do not operate in the professional dialect the instrument is written in. No obligation exists to translate the institutional register into plain terms. No mechanism exists to identify the gap between the register and the population's functional reading capacity. The citizen cannot read the instrument that determines their outcome not because it is in a foreign language but because it is in a foreign register of their own language."
+  },
+  {
+    "no": 61,
+    "name": "Review Insulation",
+    "category": "A",
+    "definition": "An item designated as 'under review' becomes temporarily immune to accountability pressure. The review's existence is offered as evidence that the concern is being addressed while the review itself proceeds without fixed terms, deadlines, or binding authority. The mechanism converts accountability pressure into procedural holding. The review is not a process of examination that will produce a finding — it is a status that absorbs pressure. The affected population is told that the matter is being reviewed, that it would be premature to act or escalate while review is underway, and that the review will be concluded in due course. The review's terms, scope, and timeframe are set by the institution under scrutiny. The review's authority to produce binding findings is absent or limited. When the review concludes, it typically produces recommendations rather than remedies, and the recommendations feed the next iteration of accountability pressure back into the same institution. Review Insulation is distinct from Mechanism 13 (Oversight Theatre), which is a standing institutional condition — Review Insulation is a triggered response to specific accountability pressure. It is distinct from Mechanism 10 (Time as Structural Harm), which operates through deferral — Review Insulation operates through active framing of the delay as process rather than deferral."
+  },
+  {
+    "no": 63,
+    "name": "Standing Grant as Token",
+    "category": "A",
+    "definition": "Formal standing is granted to an affected population — representation on a committee, a consultation seat, a complaints mechanism — but the standing is procedurally neutralised by the terms under which it operates. The number of seats is too small to affect votes. The complaints mechanism has no escalation pathway. The committee is advisory rather than decision-making. The standing is granted but is structurally prevented from producing material effect. The mechanism produces a documented record of standing while preventing the standing from altering outcomes. It is distinct from Mechanism 47 (Standing Exclusion by Design), which describes architectures where no standing exists. Mechanism 63 describes architectures where standing exists as formal record but cannot produce material effect. The two are complementary: one is structural absence, the other is structural neutralisation. The institution can point to the grant of standing as evidence of inclusion while the structural terms of the grant prevent the inclusion from functioning as representation."
+  },
+  {
+    "no": 64,
+    "name": "Vendor Capture",
+    "category": "A",
+    "definition": "A governance architecture that relies on vendor instances — AI systems, contracted service providers, third-party auditors, technology suppliers — is vulnerable to drift between the vendor's operational incentives and the governance architecture's standards. The vendor's requirement to remain operational within its commercial constraints can produce soft deviation from the governance standard under accumulated pressure. The mechanism is not corruption. It is the structural consequence of placing load-bearing governance functions inside entities whose primary accountability is not to the governed population. The vendor is accountable to its own operational requirements, which may include service-level agreements, contractual obligations, commercial viability constraints, reputational management, and platform availability. Where these requirements diverge from the governance standard the vendor is applying, the vendor's incentive structure produces drift. The drift is soft — not a breach, not an error, but a gradual accommodation that accumulates below the threshold of any single identifiable violation. MAYHEM's own architecture is subject to this mechanism because the architecture is vendor-dependent. The vendor assumption prohibition is the standing internal containment applied to MAYHEM itself. Including this mechanism in the catalogue is a Reflexive Audit operation — Function 9 applied to the architecture that produces the catalogue."
+  },
+  {
+    "no": 67,
+    "name": "Compliance Snapshot as Exclusion",
+    "category": "A",
+    "definition": "A point-in-time compliance snapshot is taken — an audit, an inspection, a certification — and the system operates as compliant on the basis of the snapshot until the next snapshot is scheduled. Between snapshots, the system drifts. The drift is invisible because the compliance status is indexed to the snapshot, not to the continuous condition. By the time the next snapshot arrives, either the drift is masked by snapshot-day preparation or the drift has already produced harm that the next snapshot may or may not register. The mechanism is the structural preference for discrete verification events over continuous operational truth. It is distinct from Mechanism 9 (Documented Compliance as Shield), which describes substitution of the record for the outcome. Mechanism 67 describes the design choice that produces the record in the first place: verification is by snapshot, not by continuous measurement. It is distinct from Mechanism 37 (Baseline Calibration Lock), which operates on the instrument's parameters — Mechanism 67 operates on the verification architecture."
+  },
+  {
+    "no": 68,
+    "name": "Complaint Channel Capacity Cap",
+    "category": "A",
+    "definition": "The system imposes a structural limit on the number or type of complaints it will process — via staff allocation, eligibility criteria, classification thresholds, or processing timeframes — that is lower than the volume of structural complaints the governed population would otherwise generate. The cap is set by the accused party. Complaints that exceed the cap are either rejected, classified out, or indefinitely queued. The apparent existence of a complaints channel functions as evidence of accountability access while the channel's capacity is structurally insufficient. The mechanism is distinct from Mechanism 18 (Escalation Dead-End), which operates after intake. Capacity Cap operates at intake: complaints that would otherwise enter the channel are prevented from doing so. It is distinct from Mechanism 46 (Accountability Cost Externalisation), which operates on the complainant's capacity to sustain a complaint. Capacity Cap operates on the system's intake capacity to receive complaints in the first place."
+  },
+  {
+    "no": 43,
+    "name": "Accountability Inversion",
+    "category": "B",
+    "definition": "The populations bearing the costs of governance failure hold no structural standing in the governance mechanisms that could remedy those failures. Power-holders bear minimal costs. The inversion is complete, not partial."
+  },
+  {
+    "no": 44,
+    "name": "Attribution-Benefit Decoupling",
+    "category": "B",
+    "definition": "The entity that produced the policy idea loses electoral or institutional credit when the idea is absorbed by a larger entity. The absorbing entity presents the policy as self-originated. The originator is weakened by their own success. The mechanism operates in the opposite direction from what the affected party expects — success produces institutional weakening rather than institutional strengthening."
+  },
+  {
+    "no": 45,
+    "name": "Threat-Benefit Paradox Loop",
+    "category": "B",
+    "definition": "The outsider produces benefits by posing a threat. The system absorbs the outsider’s content to neutralise the threat. Absorption reduces the outsider’s distinctiveness. Reduced distinctiveness weakens the threat. Weakened threat reduces the system’s incentive to respond. The system’s self-protective response erodes the pressure source that made it respond. The loop is cyclical and self-reinforcing."
+  },
+  {
+    "no": 46,
+    "name": "Accountability Cost Externalisation",
+    "category": "B",
+    "definition": "The cost of holding the system to account is borne entirely by the citizen, not by the system. The citizen spends time, money, emotional capacity, and social capital to file complaints, pursue escalation, attend hearings, prepare submissions. The system absorbs these at no cost to itself. If the citizen stops, the complaint dies."
+  },
+  {
+    "no": 47,
+    "name": "Standing Exclusion by Design",
+    "category": "B",
+    "definition": "The citizen has no formal standing in the mechanism that governs their outcome. Not because standing was removed — because it was never created. The governance architecture was designed without a citizen-facing input mechanism."
+  },
+  {
+    "no": 48,
+    "name": "Complexity as Barrier",
+    "category": "B",
+    "definition": "The governance instrument is not hidden. It is published, available, technically accessible. But its language, structure, and cross-referencing make it functionally illegible to the population it governs. The barrier is not secrecy — it is density. The citizen has the right to read the instrument. They do not have the capacity to understand what it does to them."
+  },
+  {
+    "no": 49,
+    "name": "Consultation as Legitimation",
+    "category": "B",
+    "definition": "The institution consults the affected population. The consultation produces submissions. The submissions are noted. The policy proceeds unchanged. The consultation record now serves as evidence of engagement regardless of whether the consultation altered the outcome. The process consumed citizen time and energy. It produced institutional legitimacy. It did not produce citizen influence."
+  },
+  {
+    "no": 50,
+    "name": "Reputational Cost Inversion",
+    "category": "B",
+    "definition": "The citizen who complains bears reputational cost — ‘difficult,’ ‘vexatious,’ ‘disgruntled.’ The institution that produces the harm bears no reputational cost for the harm, only for being seen to fail to follow process. The asymmetry discourages complaint. The citizen self-censors. The silence is then treated as evidence that the system is working."
+  },
+  {
+    "no": 62,
+    "name": "Remedy Obsolescence",
+    "category": "B",
+    "definition": "By the time a remedy is ordered or implemented, the conditions that produced the harm have changed enough that the remedy no longer addresses the harm. The remedy is nominally delivered. The harm continues under changed conditions. The mechanism is the structural lag between harm detection and remedy implementation, operating as a form of built-in obsolescence in accountability outcomes. The institution can point to the remedy as evidence that the concern was addressed while the affected population continues to experience the condition the remedy was supposed to change. The lag is not inefficiency — it is a structural feature of accountability architectures that separate detection from remedy by a timeframe longer than the condition's own rate of change. Fast-moving conditions produce the mechanism most visibly because the remedy's design assumptions have already been overtaken by the time the remedy is implemented. Remedy Obsolescence is distinct from Mechanism 10 (Time as Structural Harm), which operates on the citizen's capacity during the process — Remedy Obsolescence operates on the remedy itself after the process concludes. It is distinct from Mechanism 17 (Cosmetic Mitigation), where the mitigation is hollow at the point of implementation — Remedy Obsolescence is functional at the point of design but obsolete at the point of delivery."
+  },
+  {
+    "no": 65,
+    "name": "Corrigibility Bleed-through",
+    "category": "B",
+    "definition": "An institution appears corrigible at small scale — individual complaints are processed, individual errors are corrected, individual apologies are issued — while being structurally uncorrigible at the systemic scale that produces the complaints. The small-scale corrections operate as evidence that the institution is responsive. The systemic conditions that generate the complaints remain unchanged. The mechanism is the displacement of systemic uncorrigibility into individual-level performance of corrigibility. The institution can point to its complaint resolution rate, its apology record, and its individual-case remediations as evidence of responsiveness. The population that experiences the systemic conditions continues to be processed through the same architecture that generated their complaint, and the next cohort of individuals enters the same pattern. The distinction from Mechanism 25 (Isolated Incident Framing) is that Corrigibility Bleed-through actively corrects the individual cases it processes — real remediation occurs at the individual level — but leaves the generator unchanged. Isolated Incident Framing prevents the pattern from being named. Corrigibility Bleed-through uses pattern-level performance (responsive institution) while preventing the pattern from being addressed. The distinction from Mechanism 34 (Response Formula) is that Response Formula produces documented acknowledgment without change. Corrigibility Bleed-through produces actual small-scale change that leaves the generator unchanged."
+  },
+  {
+    "no": 66,
+    "name": "Translation Exhaustion",
+    "category": "B",
+    "definition": "The cost of translating governance instruments into citizen-legible findings falls entirely on the translator, the citizen, or the advocate — not on the producer of the instrument. Over time, the translation labour required to maintain legibility across an expanding governance corpus exceeds the capacity of any citizen or advocate. The mechanism is not the complexity itself (Mechanism 48) or the institutional register itself (Mechanism 56) but the structural distribution of the cost of addressing them. An instrument is produced by an institution at low cost per instrument. The translation labour required to convert that instrument into a citizen-legible finding is borne by the advocate, citizen, or operator at a cost per instrument that is orders of magnitude greater than the production cost. As the governance corpus expands — more instruments, more cross-references, more subordinate legislation, more administrative guidance — the translation labour scales while the translator's capacity does not. Exhaustion is the structural endpoint: the volume of untranslated material exceeds the translator's sustainable output, and the remaining untranslated governance material operates on the population without ever being translated. Mechanism 66 is the cost-asymmetry parent of Mechanisms 48 and 56 — they describe the barriers, 66 describes the structural distribution of the cost of crossing the barriers."
+  },
+  {
+    "no": 51,
+    "name": "Waitlist as Rationing by Attrition",
+    "category": "C",
+    "definition": "The system places the citizen on a waiting list. The wait is indefinite. During the wait, the citizen’s condition deteriorates, their eligibility may change, or they may die. The waitlist produces the appearance of a queue — an ordered, fair system. It functions as a rationing mechanism that selects for those who can survive the wait. Predicted to surface in health, housing, aged care, and disability investigations."
+  },
+  {
+    "no": 52,
+    "name": "Assessment as Gatekeeping",
+    "category": "C",
+    "definition": "Access to a service or right requires passing an assessment. The assessment criteria are designed by the system. The assessment produces a binary outcome — eligible or ineligible. The criteria may be technically neutral but functionally exclusionary. Reassessment after a failed attempt imposes additional cost on the citizen. The mechanism is the interposition of a system-designed filter between the citizen and the entitlement the system is obligated to provide."
+  },
+  {
+    "no": 53,
+    "name": "Data as Leverage",
+    "category": "C",
+    "definition": "The system collects data on the citizen as a condition of providing service. The data is used to inform decisions about the citizen’s continued access. The citizen cannot access the data the system holds about them, or can access it only through a formal process that imposes cost and delay. The mechanism is the asymmetric distribution of information about the citizen between the citizen and the system."
+  },
+  {
+    "no": 54,
+    "name": "Reform as Reset",
+    "category": "C",
+    "definition": "The system announces a reform. The reform creates a new instrument. The new instrument replaces the old one. Complaints, submissions, and findings relating to the old instrument are rendered procedurally irrelevant because they reference a framework that no longer exists. The citizen must start again under the new instrument. Accumulated evidence of failure under the old system does not transfer."
+  },
+  {
+    "no": 55,
+    "name": "Eligibility Erosion",
+    "category": "C",
+    "definition": "The entitlement remains formally available. The eligibility criteria are progressively tightened through administrative instruments — not legislative change. Each tightening is individually minor. The aggregate effect over time is the exclusion of a significant portion of the previously eligible population. No single instrument triggers accountability because no single instrument produced a visible change."
+  },
+  {
+    "no": 57,
+    "name": "Digital Exclusion as Access Barrier",
+    "category": "C",
+    "definition": "The system moves its interface online. The citizen cannot access the digital interface — because of geography, age, disability, poverty, or literacy. The system treats the digital interface as equivalent to the prior physical interface. The prior physical interface is withdrawn. The mechanism is the substitution of an accessible channel with an inaccessible one under the framing of modernisation."
+  },
+  {
+    "no": 58,
+    "name": "Consent to Surveillance as Condition of Service",
+    "category": "C",
+    "definition": "The citizen must consent to monitoring — of their finances, their movements, their medical records, their household composition — as a condition of receiving a benefit. Refusal to consent results in denial of the benefit. The consent is documented. The coercion is invisible because the consent record exists. Distinct from Mechanism 36 in that this operates through government benefit systems rather than commercial platforms."
+  },
+  {
+    "no": 59,
+    "name": "Intergenerational Harm Accumulation",
+    "category": "C",
+    "definition": "The system’s failure is not resolved within the lifetime of the person who experienced it. The consequences transfer to their children — through poverty, through disrupted family structure, through institutional contact that generates further institutional contact. The child enters the same system that failed their parent. The system processes them as a new case. The mechanism is the structural erasure of continuity between the parent’s experience and the child’s experience, preventing the pattern from being named."
+  },
+  {
+    "no": 60,
+    "name": "Normalisation Through Duration",
+    "category": "C",
+    "definition": "The condition persists long enough that it ceases to be perceived as a failure. It becomes the baseline. New governance instruments are calibrated to the failed state as though it were the intended state. The mechanism is the conversion of failure into the operating assumption against which all future performance is measured. Structurally related to Mechanism 37 but operates in the opposite direction — not an obsolete calibration persisting, but a failed state being adopted as the new calibration."
+  }
+]

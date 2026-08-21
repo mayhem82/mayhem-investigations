@@ -1,0 +1,24 @@
+[
+  {
+    "working_name": "Standing Without Discoverability",
+    "definition_from_case": "A real complaint mechanism exists, with clear statutory jurisdiction covering systemic (not only individual-conduct) concerns. The practical accountability gap is not the absence of a complaint mechanism - it is that a resident who suspects a drone observed their property has no obvious way to discover whether a specific flight occurred, and therefore no practical trigger to invoke the complaint mechanisms that do exist.",
+    "boundary_note": "The nearest neighbours - Standing Exclusion by Design (#47, describes absence of standing) and Standing Grant as Token (#63, describes standing neutralised by procedural terms) - both describe standing that exists but cannot produce effect. This mechanism is different in kind: standing and jurisdiction are both real and adequate; what fails is the citizen's ability to discover the triggering fact needed to invoke them.",
+    "first_surfaced": {
+      "case_id": "DFAPTI-MNC-2026-00001",
+      "path_id": "AR-016",
+      "date": "2026-08-22"
+    },
+    "status": "candidate"
+  },
+  {
+    "working_name": "Institutional-Source Evidentiary Skew",
+    "definition_from_case": "The evidentiary record available to check an institution's own claims is generated almost entirely by that institution and the media reporting on it - incident logs, council releases, monitoring reports. Direct, structured testimony from the affected residents themselves - about duration, household burden, trust, cost, or health concern - is thin to nonexistent in the same record, not because it doesn't exist, but because no mechanism exists to capture or preserve it alongside the institutional account.",
+    "boundary_note": "The nearest neighbours - Self-Referential Reporting (#27, an institution measuring its own performance) and Accountability Cost Externalisation (#46, the cost of complaining falling on the citizen) - both describe something an institution does. This mechanism is different in kind: it's a structural gap in what evidence exists at all, on either side, independent of any single institutional action.",
+    "first_surfaced": {
+      "case_id": "DFAPTI-BB-2026-00001",
+      "path_id": "AR-025",
+      "date": "2026-08-22"
+    },
+    "status": "candidate"
+  }
+]
