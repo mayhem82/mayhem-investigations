@@ -177,6 +177,14 @@ Each case's evidence workspace is at
 e.g. `.../cases/DFAPTI-BB-2026-00001/dfapti/` or
 `.../cases/DFAPTI-MNC-2026-00001/dfapti/`.
 
+Two more pages sit alongside the cases, not tied to either one:
+**https://mayhem82.github.io/mayhem-investigations/public-interest/** - the
+Ordinary Public Translation Layer, plain-language summaries of both cases for
+readers who don't want the underlying registers - and
+**https://mayhem82.github.io/mayhem-investigations/glossary/** - the Kempsey
+Shire Council Master Glossary, terms/acronyms/codes/identifiers checked
+against primary sources, with known terminology collisions flagged.
+
 **Locally:** each case's workspace fetches its own case's JSON files at
 runtime (`data/` at the repository root for DFAPTI-BB-2026-00001,
 `cases/<CASE-ID>/data/` for every case after it), so it must be served
