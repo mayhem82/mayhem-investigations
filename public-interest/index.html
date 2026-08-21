@@ -139,6 +139,26 @@ footer > div:last-child a { font-size: 13px; font-weight: 800; }
 
 .card-link { display: inline-block; margin-top: 14px; font-weight: 800; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
 
+.integrity-section { background: rgb(248, 246, 240); }
+
+.audit-log { display: flex; flex-direction: column; gap: 14px; margin-top: 30px; }
+
+.audit-entry { background: rgb(245, 243, 236); border-left: 6px solid var(--acid); padding: 24px 28px; }
+
+.audit-meta { text-transform: uppercase; letter-spacing: 0.1em; font-size: 11px; font-weight: 800; color: var(--muted); justify-content: space-between; gap: 12px; display: flex; flex-wrap: wrap; margin-bottom: 10px; }
+
+.audit-meta .audit-case { color: var(--red); }
+
+.audit-entry h3 { margin: 0 0 10px; font-size: 21px; letter-spacing: -0.02em; }
+
+.audit-summary { color: rgb(69, 80, 74); line-height: 1.55; margin: 0 0 12px; }
+
+.audit-result { background: rgb(228, 231, 217); padding: 14px 16px; font-size: 14px; line-height: 1.55; margin: 0 0 12px; }
+
+.audit-link { font-size: 12px; font-weight: 800; text-decoration: underline; text-underline-offset: 2px; color: var(--red); }
+
+.integrity-intro { color: rgb(89, 99, 94); max-width: 620px; line-height: 1.7; margin: 14px 0 0; }
+
 .next-case { color: rgb(187, 194, 190); border: 1px dashed rgb(103, 112, 107); align-items: center; gap: 18px; margin-top: 18px; padding: 22px; display: flex; }
 
 .next-case > span { color: var(--acid); font-size: 32px; }
@@ -182,6 +202,7 @@ footer > div:last-child a { font-size: 13px; font-weight: 800; }
 <a class="wordmark" href="#top"><span>PI</span> PUBLIC INTEREST INVESTIGATIONS</a>
 <div class="navlinks">
 <a href="#investigations">Current investigations</a>
+<a href="#integrity">Integrity audits</a>
 <a href="#how">How to read this site</a>
 </div>
 </nav>
@@ -243,7 +264,6 @@ footer > div:last-child a { font-size: 13px; font-weight: 800; }
 <li>A police-drone trial has operated in Moree.</li>
 <li>A petition has called for the model to be extended to Kempsey and the Mid North Coast.</li>
 <li>The material collected so far includes claims that still require independent confirmation.</li>
-<li>A quality-control review of this case's formal Enforcement Notice (21 August 2026) checked its claims against what the evidence register actually supports and found it held up, with one gap fixed: the notice's own unverified-evidence disclosure now appears at the start of the document, not only at the end.</li>
 </ul>
 </div>
 <div class="plain-section unclear">
@@ -295,6 +315,28 @@ footer > div:last-child a { font-size: 13px; font-weight: 800; }
 </div>
 <p class="status-note"><b>Important:</b> An issue being investigated is not automatically proven. Where the available information cannot support a conclusion, this site will say so.</p>
 </section>
+<section class="section integrity-section" id="integrity">
+<p class="kicker">Integrity audits</p>
+<h2>Checking our own work</h2>
+<p class="integrity-intro">This site holds itself to the same standard it applies to Council and NSW Police: claims
+traced to evidence, distinguished from judgement, with gaps disclosed rather than concealed. This is the running
+log of self-checks against that standard - the first of more as this work continues.</p>
+<div class="audit-log">
+<div class="audit-entry">
+<div class="audit-meta"><span>21 August 2026</span><span class="audit-case">DFAPTI-MNC-2026-00001</span></div>
+<h3>Enforcement Notice: does it stay within what the evidence supports?</h3>
+<p class="audit-summary">Reviewed the Mid North Coast drone-expansion Enforcement Notice against three tests:
+claims stay within what the evidence register actually supports; documented fact is distinguished from judgement;
+findings are framed as systemic gaps, not allegations against individuals.</p>
+<div class="audit-result"><b>Result:</b> held up on all three tests. One gap found and fixed: the notice's
+disclosure that every underlying source carries an "Unverified" status existed only in its closing section, where
+a reader of the substantive claims and demands - including the notice's actual recipients - could miss it. Moved
+to the opening of the document, before any claim or demand appears.</div>
+<a class="audit-link" href="https://github.com/mayhem82/mayhem-investigations/blob/main/cases/DFAPTI-MNC-2026-00001/data/decisions.json">Full record: DEC-0013, DFAPTI-MNC-2026-00001 Decision Register &rarr;</a>
+</div>
+</div>
+</section>
+
 <section class="method section" id="how">
 <div class="method-intro">
 <p class="kicker">How to read this site</p>
