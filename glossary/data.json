@@ -2,12 +2,12 @@
   "title": "Kempsey Shire Council Master Glossary",
   "subtitle": "Terms, Acronyms, Codes and Identifiers",
   "snapshot": {
-    "id": "KSC-GLOSSARY-SNAP-005",
-    "label": "Snapshot 005",
+    "id": "KSC-GLOSSARY-SNAP-006",
+    "label": "Snapshot 006",
     "dateFrozen": "21 August 2026",
-    "scope": "Kempsey Shire Council terminology encountered in Council webpages, planning material, policies, meeting records, contribution registers, procurement material, corporate plans, annual/statutory reporting, financial statements, capital-project appendices and related NSW statutory terminology.",
+    "scope": "Kempsey Shire Council terminology encountered in Council webpages, planning material, policies, meeting records, contribution registers, procurement material, corporate plans, annual/statutory reporting, financial statements, capital works, disaster-recovery records, emergency-management material, development-assessment workflow guidance, water/sewer project material and supporting NSW local-government sources used only where necessary to resolve KSC-used codes.",
     "method": "Terms are preserved as encountered. Expansions are recorded only where supported. Unresolved codes remain unresolved rather than being guessed.",
-    "status": "Cumulative through Sweep 005. Snapshots 001, 002, 003 and 004 remain frozen and are not overwritten. Further research passes will continue as separately numbered DOCX snapshots."
+    "status": "Cumulative through Sweep 006. Snapshots 001, 002, 003, 004 and 005 remain frozen and are not overwritten. Further research passes will continue as separately numbered DOCX snapshots."
   },
   "classificationRules": [
     {
@@ -82,6 +82,20 @@
         "Resolved LTREWS as Long-term Renewable Energy and Water Strategy by cross-reading KSC’s Environmental Levy project label with the strategy title in Council’s Community Strategic Plan.",
         "Added current work-order architecture: W#### is explicitly labelled by KSC as a Work order number. Embedded DM##### and G#####-## subcodes are preserved as observed but remain UNRESOLVED pending authoritative KSC document-control definitions."
       ]
+    },
+    {
+      "snapshot": "Snapshot 006",
+      "date": "21 August 2026",
+      "items": [
+        "Harvested KSC’s Development Application Status Guide and recorded the exact public workflow vocabulary used from REFDA submission through assessment, peer review, Council determination and final completion states. The glossary now distinguishes a rejected intake application from a refused assessed application and records Public Exhibition as a status that can overlap another displayed status.",
+        "Resolved DM##### beyond its previous UNRESOLVED state. KSC embeds DM numbers in current disaster-recovery work orders; NSW local-government disaster-recovery material independently defines DM-prefixed identifiers as Damage Numbers tied to specific project locations. The resolution is recorded as cross-council corroboration rather than attributed to an express KSC expansion.",
+        "Expanded emergency-management terminology with LEMO, LEOCON and EOC from KSC material, plus historical DISPLAN and EASP terminology used in KSC coastal emergency-planning material. Period-specific status is retained so legacy emergency terminology is not silently treated as current.",
+        "Upgraded procurement architecture using KSC’s current Government Contracts register. The register explicitly labels its field \"Tender Number (TQE)\", confirming TQE as a tender-number family while still not revealing the literal words represented by the letters. PO###### is also recorded as a current observed procurement/contract identifier family with its prefix expansion left unresolved.",
+        "Added GIPAA as a KSC-used shorthand variant for the Government Information (Public Access) Act 2009 alongside the already-recorded \"GIPA Act\" form. Source-form preservation is required because KSC uses both.",
+        "Expanded current water, sewer and infrastructure shorthand with SMD WTP, NWG, D&C and K&G, then harvested KSC Standard Drawing ASD 203 for the formal street-name abbreviation layer: ST, ESP, RD, CR, CL, TCE, PL, CT, DR, GR, AV, LA, PDE and BVD. The CR/Cr collision is explicitly flagged.",
+        "Added current and historical emergency/public-agency shorthand including NSW SES, ADF and BoM where directly evidenced in KSC material, while retaining the period and functional context of each source.",
+        "Preserved G#####-## as UNRESOLVED. Repeated KSC use confirms it is an embedded project/grant-style code family, but this sweep did not locate authoritative material defining the literal G prefix or number-allocation scheme."
+      ]
     }
   ],
   "glossary": [
@@ -107,6 +121,14 @@
       "description": "Agriculture and Animal Services Functional Area. Used by Council in disaster/flood recovery information concerning livestock assistance.",
       "status": "EXTERNAL",
       "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250528-Question-of-the-week",
+      "category": "external"
+    },
+    {
+      "letter": "A",
+      "term": "ADF",
+      "description": "Australian Defence Force. KSC used the acronym ADF in its flood-response acknowledgement describing agencies involved in the March 2021 emergency response.",
+      "status": "HISTORICAL/RECENT KSC-USED / EXTERNAL EMERGENCY AGENCY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Thank-you-flood-response-agencies",
       "category": "external"
     },
     {
@@ -255,11 +277,27 @@
     },
     {
       "letter": "A",
+      "term": "ASD ###",
+      "description": "KSC standard-drawing identifier family observed in current AUS-SPEC 2025 material, including ASD 200, ASD 201, ASD 203 and other numbered drawings. The reviewed drawing set labels each sheet “KSC STANDARD DRAWING”; the literal expansion of the letters ASD is not stated and is therefore not inferred.",
+      "status": "CURRENT KSC ENGINEERING DRAWING IDENTIFIER / UNRESOLVED PREFIX EXPANSION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "unresolved"
+    },
+    {
+      "letter": "A",
       "term": "ASM",
       "description": "Abnormal Situation Management. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
       "status": "KSC-DEFINED / RECENT INFRASTRUCTURE TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
       "category": "other"
+    },
+    {
+      "letter": "A",
+      "term": "AV",
+      "description": "Avenue. KSC Standard Drawing ASD 203 lists AV as the standard street-name abbreviation for Avenue.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "current"
     },
     {
       "letter": "A",
@@ -343,10 +381,26 @@
     },
     {
       "letter": "B",
+      "term": "BoM",
+      "description": "Bureau of Meteorology. Historical KSC coastal emergency-planning material uses BoM as the abbreviation for the national meteorological agency.",
+      "status": "LEGACY KSC EMERGENCY-PLANNING USAGE / EXTERNAL AGENCY",
+      "source": "https://beta.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/development-compliance/coastal-management/kemspey-coastal-zone-management-plan-2016.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "B",
       "term": "BV",
       "description": "Biodiversity Values. Listed in the KSC 2026 DCP abbreviation/acronym table.",
       "status": "CURRENT KSC DCP / EXTERNAL BIODIVERSITY TERM",
       "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "B",
+      "term": "BVD",
+      "description": "Boulevard. KSC Standard Drawing ASD 203 lists BVD as the standard street-name abbreviation for Boulevard.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
       "category": "current"
     },
     {
@@ -435,6 +489,22 @@
       "description": "Comprehensive Koala Plan of Management. KSC planning/management instrument applying to koala management in the eastern portion of the shire.",
       "status": "CURRENT KSC PLANNING TERM",
       "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-in-South-West-Rocks",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "Class 3 contract",
+      "description": "KSC’s Government Contracts register identifies Class 3 contracts as contracts with an estimated value of $5 million or more that also meet the applicable disclosure conditions under the Government Information (Public Access) framework.",
+      "status": "CURRENT KSC GOVERNMENT-CONTRACT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/access-information/register-govt-contracts/2025-26-register-of-government-contracts.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CL",
+      "description": "Close. KSC Standard Drawing ASD 203 lists CL as the standard street-name abbreviation for Close.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
       "category": "current"
     },
     {
@@ -583,6 +653,14 @@
     },
     {
       "letter": "C",
+      "term": "CR",
+      "description": "Crescent. KSC Standard Drawing ASD 203 lists CR as the standard street-name abbreviation for Crescent. This is case-sensitive in context because KSC also uses “Cr” as shorthand for Councillor.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION / CONTEXT-SENSITIVE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
       "term": "Cr",
       "description": "Councillor. Standard councillor title abbreviation used throughout current KSC meeting resolutions and attendance records.",
       "status": "CURRENT KSC MEETING SHORTHAND",
@@ -607,6 +685,14 @@
     },
     {
       "letter": "C",
+      "term": "CT",
+      "description": "Court. KSC Standard Drawing ASD 203 lists CT as the standard street-name abbreviation for Court.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
       "term": "CWMS",
       "description": "Community wastewater management systems. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
       "status": "LEGACY KSC WASTEWATER TERM",
@@ -620,6 +706,14 @@
       "status": "LEGACY / TRANSITIONAL",
       "source": "https://www.kempsey.nsw.gov.au/Your-Valley/Your-environment/Waterways/Coast-estuaries-wetlands",
       "category": "legacy"
+    },
+    {
+      "letter": "D",
+      "term": "D&C",
+      "description": "Design and Construct / Design and Construction. KSC uses D&C in water and sewer project and contract naming, including Willawarrin WTP D&C.",
+      "status": "CURRENT KSC PROJECT/PROCUREMENT SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-year-in-review-2023-24.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/access-information/register-govt-contracts/2025-26-register-of-government-contracts.pdf",
+      "category": "current"
     },
     {
       "letter": "D",
@@ -687,11 +781,19 @@
     },
     {
       "letter": "D",
+      "term": "DISPLAN",
+      "description": "Local Disaster Plan. Historical KSC coastal emergency-planning material uses DISPLAN for the local disaster plan. It is retained as period-specific legacy terminology and must not automatically be substituted for current emergency-management plan terminology.",
+      "status": "LEGACY KSC EMERGENCY-PLANNING TERM",
+      "source": "https://beta.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/development-compliance/coastal-management/kemspey-coastal-zone-management-plan-2016.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "D",
       "term": "DM#####",
-      "description": "Observed subcode embedded in KSC natural-disaster work-order descriptions, e.g. DM01487, DM01488 and DM01526. The literal expansion of DM has not been established from an authoritative KSC source.",
-      "status": "CURRENT OBSERVED KSC PROJECT SUBCODE / UNRESOLVED",
-      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
-      "category": "unresolved"
+      "description": "Damage Number. KSC embeds DM-prefixed numbers in current natural-disaster road work-order descriptions. KSC material reviewed does not itself spell out DM; however, current NSW local-government disaster-recovery material explicitly states that damage numbers starting with DM are reference codes for projects at specific locations. The expansion is therefore resolved by cross-council NSW disaster-recovery corroboration, not by inference.",
+      "status": "CURRENT KSC-USED / NSW DISASTER-RECOVERY IDENTIFIER / CROSS-COUNCIL RESOLUTION",
+      "source": "KSC Operational Plan 2025-26: https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf ; corroboration: https://www.lismore.nsw.gov.au/Building-and-planning/Flood-Restoration-Portfolio/FR-Landslip-Restoration-Package",
+      "category": "current"
     },
     {
       "letter": "D",
@@ -735,6 +837,14 @@
     },
     {
       "letter": "D",
+      "term": "DR",
+      "description": "Drive. KSC Standard Drawing ASD 203 lists DR as the standard street-name abbreviation for Drive.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "D",
       "term": "DRFA",
       "description": "Disaster Recovery Funding Arrangements. KSC uses DRFA in current procurement material for a multi-project capital works program.",
       "status": "CURRENT / EXTERNAL FUNDING ABBREVIATION",
@@ -764,6 +874,14 @@
       "status": "CURRENT / RECENT KSC WATER-QUALITY SYSTEM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
       "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EASP",
+      "description": "Emergency Action Subplan. Historical KSC coastal-management material uses EASP in the specific context of the Coastal Erosion Emergency Action Subplan.",
+      "status": "LEGACY KSC COASTAL EMERGENCY-PLANNING TERM",
+      "source": "https://beta.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/development-compliance/coastal-management/kemspey-coastal-zone-management-plan-2016.pdf",
+      "category": "legacy"
     },
     {
       "letter": "E",
@@ -847,6 +965,14 @@
     },
     {
       "letter": "E",
+      "term": "EOC",
+      "description": "Emergency Operations Centre. KSC expressly used EOC for the Emergency Operations Centre coordinating agencies during the March 2021 flood response.",
+      "status": "KSC-USED EMERGENCY-MANAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Thank-you-flood-response-agencies",
+      "category": "other"
+    },
+    {
+      "letter": "E",
       "term": "EOI",
       "description": "Expression of Interest. Formal procurement process used by KSC.",
       "status": "CURRENT",
@@ -923,6 +1049,14 @@
       "description": "Ecologically Sustainable Development. Listed in the KSC 2026 DCP abbreviation/acronym table.",
       "status": "CURRENT KSC DCP / PLANNING-SUSTAINABILITY TERM",
       "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "ESP",
+      "description": "Esplanade. KSC Standard Drawing ASD 203 lists ESP as the standard street-name abbreviation for Esplanade.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
       "category": "current"
     },
     {
@@ -1063,6 +1197,14 @@
     },
     {
       "letter": "G",
+      "term": "GIPAA",
+      "description": "Government Information (Public Access) Act 2009. KSC’s current Government Contracts register uses GIPAA as an acronym for the Act, while other KSC material uses “GIPA Act”. Preserve the form used by the source.",
+      "status": "CURRENT KSC GOVERNANCE/ACCESS-TO-INFORMATION SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/access-information/register-govt-contracts/2025-26-register-of-government-contracts.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "G",
       "term": "GM",
       "description": "General Manager. KSC procurement policy uses the abbreviation GM when identifying delegated emergency-procurement authority.",
       "status": "CURRENT KSC ORGANISATIONAL ABBREVIATION",
@@ -1075,6 +1217,14 @@
       "description": "General Purpose Financial Statements. KSC uses this title for its principal audited financial statements; meeting attachments also use the GPFS shorthand.",
       "status": "CURRENT KSC FINANCIAL-REPORTING TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-c_audited-financial-statements.pdf ; https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-16-September-2025",
+      "category": "current"
+    },
+    {
+      "letter": "G",
+      "term": "GR",
+      "description": "Grove. KSC Standard Drawing ASD 203 lists GR as the standard street-name abbreviation for Grove.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
       "category": "current"
     },
     {
@@ -1175,6 +1325,14 @@
     },
     {
       "letter": "K",
+      "term": "K&G",
+      "description": "Kerb and Gutter. KSC AUS-SPEC standard-drawing material uses K&G as engineering shorthand, including “TYPE SA K&G” and drawings for SA kerb and gutter.",
+      "status": "CURRENT KSC ENGINEERING SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "K",
       "term": "KDCP",
       "description": "Kempsey Development Control Plan. KSC’s December 2025 Council minutes use the shorthand “KDCP 2026” in the resolution approving the revised draft plan for public exhibition.",
       "status": "CURRENT/RECENT KSC MEETING SHORTHAND",
@@ -1247,6 +1405,14 @@
     },
     {
       "letter": "L",
+      "term": "LA",
+      "description": "Lane. KSC Standard Drawing ASD 203 lists LA as the standard street-name abbreviation for Lane.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "L",
       "term": "LCC",
       "description": "Life Cycle cost. Exact capitalization/wording in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
       "status": "LEGACY KSC ASSET-MANAGEMENT TERM",
@@ -1283,6 +1449,22 @@
       "description": "Local Emergency Management Committee. KSC states that Council is an integral part of the LEMC, which coordinates local emergency-management communication and planning.",
       "status": "CURRENT KSC EMERGENCY-MANAGEMENT TERM",
       "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250305-Helping-the-Macleay-Valley-to-stay-afloat-in-flood-times",
+      "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LEMO",
+      "description": "Local Emergency Management Officer. KSC uses this title for the officer providing executive support to the Local Emergency Management Committee and emergency-management arrangements.",
+      "status": "CURRENT KSC EMERGENCY-MANAGEMENT TERM",
+      "source": "https://careers.kempsey.nsw.gov.au/job-details/query/flood-andamp-drainage-engineer/in/australia/8335297",
+      "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LEOCON",
+      "description": "Local Emergency Operations Controller. KSC Council material uses LEOCON for the controller role within local emergency-management arrangements.",
+      "status": "CURRENT/RECENT KSC EMERGENCY-MANAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Thank-you-flood-response-agencies",
       "category": "current"
     },
     {
@@ -1534,6 +1716,22 @@
       "category": "current"
     },
     {
+      "letter": "N",
+      "term": "NSW SES",
+      "description": "NSW State Emergency Service. KSC identifies NSW SES as the lead agency for flood response and uses the acronym in local emergency-management material.",
+      "status": "CURRENT KSC-USED / EXTERNAL EMERGENCY AGENCY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250305-Helping-the-Macleay-Valley-to-stay-afloat-in-flood-times",
+      "category": "current"
+    },
+    {
+      "letter": "N",
+      "term": "NWG",
+      "description": "National Water Grid. KSC water-project reporting uses NWG in the context of National Water Grid funding/program delivery.",
+      "status": "CURRENT KSC WATER-INFRASTRUCTURE / EXTERNAL PROGRAM SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-year-in-review-2023-24.pdf",
+      "category": "current"
+    },
+    {
       "letter": "O",
       "term": "OEH",
       "description": "Office of Environment and Heritage. Former NSW agency terminology appearing in historical KSC heritage/planning material.",
@@ -1591,6 +1789,14 @@
     },
     {
       "letter": "P",
+      "term": "PDE",
+      "description": "Parade. KSC Standard Drawing ASD 203 lists PDE as the standard street-name abbreviation for Parade.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
       "term": "PFAS",
       "description": "Per- and poly-fluoroalkyl substances. Used in KSC environmental reporting relating to South West Rocks groundwater and waterways.",
       "status": "CURRENT ENVIRONMENTAL TERM",
@@ -1607,11 +1813,27 @@
     },
     {
       "letter": "P",
+      "term": "PL",
+      "description": "Place. KSC Standard Drawing ASD 203 lists PL as the standard street-name abbreviation for Place.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
       "term": "PLC",
       "description": "Programmable Logic Controller. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
       "status": "KSC-DEFINED / RECENT INFRASTRUCTURE-CONTROL TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
       "category": "other"
+    },
+    {
+      "letter": "P",
+      "term": "PO######",
+      "description": "Procurement/contract identifier family observed in KSC’s current Government Contracts register, including PO266457, PO266516 and PO266072 in the Tender Number field. The literal expansion of PO is not established by the reviewed KSC register and is therefore not inferred.",
+      "status": "CURRENT OBSERVED KSC PROCUREMENT IDENTIFIER / UNRESOLVED EXPANSION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/access-information/register-govt-contracts/2025-26-register-of-government-contracts.pdf",
+      "category": "unresolved"
     },
     {
       "letter": "P",
@@ -1959,6 +2181,14 @@
     },
     {
       "letter": "R",
+      "term": "RD",
+      "description": "Road. KSC Standard Drawing ASD 203 lists RD as the standard street-name abbreviation for Road.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "R",
       "term": "REFDA######",
       "description": "Pre-acceptance/reference development-application identifier. KSC states that a newly submitted application is initially identified by a REFDA number, for example REFDA210001, before later processing.",
       "status": "CURRENT / RECENT KSC DEVELOPMENT IDENTIFIER FAMILY",
@@ -2159,6 +2389,14 @@
     },
     {
       "letter": "S",
+      "term": "SMD WTP",
+      "description": "Steuart McIntyre Dam Water Treatment Plant. KSC uses SMD WTP as the shorthand project/facility name for the Steuart McIntyre Dam Water Treatment Plant project.",
+      "status": "CURRENT KSC WATER-INFRASTRUCTURE PROJECT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Valley/Ongoing-works-in-the-shire/Major-projects/Current-works/Steuart-McIntyre-Dam-Water-Treatment-Plant",
+      "category": "current"
+    },
+    {
+      "letter": "S",
       "term": "SME / SMEs",
       "description": "Small and medium enterprise(s). KSC procurement guidance uses SMEs when discussing local and minority-owned businesses; the KSC webpage uses the acronym without expanding it.",
       "status": "CURRENT / EXTERNAL BUSINESS ABBREVIATION",
@@ -2223,6 +2461,14 @@
     },
     {
       "letter": "S",
+      "term": "ST",
+      "description": "Street. KSC Standard Drawing ASD 203 lists ST as the standard street-name abbreviation for Street.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
       "term": "STP",
       "description": "Sewage Treatment Plant. Explicitly used in KSC Council material, including STP Buffer Zone Policy material.",
       "status": "CURRENT",
@@ -2255,6 +2501,14 @@
     },
     {
       "letter": "T",
+      "term": "TCE",
+      "description": "Terrace. KSC Standard Drawing ASD 203 lists TCE as the standard street-name abbreviation for Terrace.",
+      "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/infrastructure/aus-spec-2025/asd200-all-series.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "T",
       "term": "TfNSW",
       "description": "Transport for NSW. Exact expansion in KSC’s formal Key Abbreviations table and current road-safety material.",
       "status": "CURRENT KSC / EXTERNAL AGENCY TERM",
@@ -2272,9 +2526,9 @@
     {
       "letter": "T",
       "term": "TQE",
-      "description": "KSC procurement identifier prefix. Current 2026 examples include TQE 26-16, TQE 26-15, TQE 26-20 and TQE 26-19; recent closed examples include TQE 26-01 and TQE 26-06. The literal words represented by TQE remain unresolved and are not inferred.",
+      "description": "KSC procurement identifier prefix. Current 2026 examples include TQE 26-16, TQE 26-15, TQE 26-20 and TQE 26-19. KSC’s current Government Contracts register explicitly labels its relevant field “Tender Number (TQE)”, confirming TQE as a tender-number family. The literal words represented by TQE remain unresolved and are not inferred.",
       "status": "CURRENT / UNRESOLVED EXPANSION",
-      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/access-information/register-govt-contracts/2025-26-register-of-government-contracts.pdf",
       "category": "unresolved"
     },
     {
@@ -2532,13 +2786,40 @@
       ]
     },
     {
-      "title": "Work-order and embedded project-code architecture — Sweep 005",
+      "title": "Development application status vocabulary — Sweep 006",
+      "type": "prose",
+      "items": [
+        "KSC’s Development Application Status Guide uses the following exact public workflow labels. These are process-state terms, not interchangeable outcome labels:",
+        "Submitted — application received through the NSW Planning Portal and carrying a REFDA reference.",
+        "Under Intake Review — initial completeness/intake checking.",
+        "Processing Payment — fees are being prepared/processed.",
+        "Awaiting Payment — payment is required before progression.",
+        "Payment Received — payment has been received.",
+        "Queued for Assessment — application is waiting to be assigned/assessed.",
+        "External Referral — application is with an external referral body or authority.",
+        "Ready for Assessment — intake/referral prerequisites have progressed to assessment readiness.",
+        "RFI Requested — Request for Information issued; further information is required.",
+        "Assigned — application has been allocated to an assessing officer.",
+        "Under Assessment — substantive assessment is occurring.",
+        "Peer Review — assessment is undergoing internal peer review.",
+        "Council Meeting for Determination — matter is proceeding to a Council meeting for determination.",
+        "Ready for Issue — determination/documentation is prepared for issue.",
+        "Complete – Approved — completed with approval.",
+        "Complete – Refused — completed following substantive refusal.",
+        "Complete – Rejected — rejected at the intake/acceptance stage; this is not the same as refusal and a new DA is required.",
+        "Complete – Withdrawn — completed because the application was withdrawn.",
+        "Public Exhibition — application is on exhibition; KSC notes this status may occur while another status is also relevant."
+      ],
+      "note": "Source: KSC Development Application Status Guide (kempsey.nsw.gov.au, /Plan-Build/Development-applications/Lodge-your-DA/Development-Application-Status-Guide)."
+    },
+    {
+      "title": "Work-order and embedded project-code architecture — cumulative through Sweep 006",
       "type": "prose",
       "items": [
         "W#### = KSC work-order number family, explicitly evidenced by the \"Work order no. and Description\" column in Operational Plans.",
-        "DM##### = embedded current disaster/project subcode observed inside KSC work-order descriptions. Literal expansion unresolved.",
-        "G#####-## = embedded current project/grant-style subcode observed inside KSC work-order descriptions. Literal expansion unresolved.",
-        "AGRN#### = Australian Government Reference Number identifying a declared natural-disaster event; unlike DM and G subcodes, AGRN has been independently resolved from the NSW disaster-declaration framework."
+        "DM##### = Damage Number family used in KSC disaster-recovery work orders. The literal expansion is resolved through current NSW local-government disaster-recovery corroboration; KSC use is direct, while the spelled-out meaning comes from the corroborating NSW council source.",
+        "G#####-## = embedded current project/grant-style subcode observed inside KSC work-order descriptions. Literal expansion and allocation scheme remain unresolved.",
+        "AGRN#### = Australian Government Reference Number identifying a declared natural-disaster event; this identifier has been independently resolved from the NSW disaster-declaration framework."
       ]
     },
     {
@@ -2550,7 +2831,8 @@
         "DA######## — Newer development-application identifier architecture used by Council.",
         "PP-YYYY-#### — Planning Proposal identifier architecture.",
         "MP##_#### — NSW Major Project identifier architecture rather than an ordinary KSC DA identifier.",
-        "TQE##/## or TQE##-## — Tender/procurement reference architecture. Literal expansion of TQE remains unresolved.",
+        "TQE##/## or TQE##-## — Tender-number reference architecture. KSC’s current Government Contracts register labels the field \"Tender Number (TQE)\", confirming the function of the identifier. Literal expansion of the letters TQE remains unresolved.",
+        "PO###### — Current procurement/contract identifier family observed in the same KSC Government Contracts register field as TQE numbers. Prefix expansion remains unresolved.",
         "REV / REV01 / REV02 ... — Revision suffix architecture.",
         "Meeting item 11.4 / 11.4.1 etc. — Hierarchical agenda and attachment numbering used in Council meeting packages."
       ]
@@ -2666,6 +2948,18 @@
           "description": "KSC road-class shorthand is internally dense: UR and URL are both shown as Urban Roads Local, while URR is source-ambiguous. Preserve the exact code found in the source and its date/project context.",
           "status": "",
           "source": ""
+        },
+        {
+          "term": "CR / Cr",
+          "description": "KSC engineering drawings use CR for Crescent, while Council governance/meeting records use Cr for Councillor. Capitalisation and document context are therefore material to interpretation.",
+          "status": "",
+          "source": ""
+        },
+        {
+          "term": "GIPA Act / GIPAA",
+          "description": "KSC uses both forms for the Government Information (Public Access) Act 2009. They are aliases, not different statutes. Preserve the exact form used by the source when quoting or indexing records.",
+          "status": "",
+          "source": ""
         }
       ]
     },
@@ -2695,9 +2989,10 @@
       "title": "Next research sweep (planned)",
       "type": "prose",
       "items": [
-        "Mine the 2025-26 and 2026-27 Operational Plan capital appendices line-by-line for remaining work-order prefixes, fund codes, grant acronyms, plant/facility abbreviations and disaster-recovery subcodes.",
-        "Investigate DM##### and G#####-## through KSC disaster-recovery business papers, funding deeds and project-control material to determine whether their literal meanings can be authoritatively resolved.",
-        "Mine all current KSC policy pages and procedure PDFs to build a complete policy-number and procedure-number concordance rather than isolated examples."
+        "Investigate G#####-## through KSC funding deeds, grant registers, project-control material and disaster-recovery business papers. Do not assign \"grant\" or any other literal expansion until directly evidenced.",
+        "Mine the 2026-27 Operational Plan and capital appendices for new work-order, facility, fund and grant codes introduced after the 2025-26 plan.",
+        "Build a complete current KSC policy/procedure concordance from the Policy Register and all linked procedure PDFs, including document numbers, version fields, approval bodies and supersession chains.",
+        "Continue mining KSC AUS-SPEC 2025 drawings and engineering specifications systematically beyond the ASD 200-series street/kerb layer, including drainage, pavement, water, sewer, traffic-control and survey notation."
       ]
     }
   ]
