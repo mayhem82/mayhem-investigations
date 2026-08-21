@@ -839,6 +839,29 @@
     return lines.join('\n');
   }
 
+  // One diagram with every node and every edge in the case - the whole
+  // web at once, not scoped to a single thread. Deliberately not
+  // simplified or pruned: the point is to show the actual scale and
+  // density of the cross-reference network as it really is.
+  function buildFullGraphDiagram(edges, labels) {
+    if (!edges.length) return null;
+    var nodeSet = new Map();
+    var edgeLines = [];
+    var edgeSeen = new Set();
+    edges.forEach(function (edge) {
+      nodeSet.set(nodeKey(edge.a.type, edge.a.id), edge.a);
+      nodeSet.set(nodeKey(edge.b.type, edge.b.id), edge.b);
+      var dedupe = nodeKey(edge.a.type, edge.a.id) + '|' + edge.relation + '|' + nodeKey(edge.b.type, edge.b.id);
+      if (edgeSeen.has(dedupe)) return;
+      edgeSeen.add(dedupe);
+      edgeLines.push(mermaidEdgeLine(edge));
+    });
+    var lines = ['flowchart LR'];
+    nodeSet.forEach(function (node) { lines.push(mermaidNodeLine(node.type, node.id, labels)); });
+    lines = lines.concat(edgeLines);
+    return { definition: lines.join('\n'), nodeCount: nodeSet.size };
+  }
+
   function diagramCard(titleNode, subtitleNode, definition, emptyMessage) {
     var body = definition
       ? [el('div', { class: 'diagram-plate' }, [el('pre', { class: 'mermaid' }, [definition])])]
@@ -873,6 +896,18 @@
     if (!threads.length) {
       container.appendChild(emptyState('No investigation threads defined yet.'));
       return;
+    }
+
+    var fullGraph = buildFullGraphDiagram(edges, labels);
+    if (fullGraph) {
+      var fullCard = diagramCard(
+        el('span', {}, ['Everything']),
+        el('span', { class: 'rel-exhibit-meta' }, [fullGraph.nodeCount + ' records, ' + edges.length + ' relationships, one diagram']),
+        fullGraph.definition,
+        null
+      );
+      fullCard.setAttribute('open', '');
+      container.appendChild(fullCard);
     }
 
     var depDiagram = buildThreadDependencyDiagram(threads, edges, labels);
