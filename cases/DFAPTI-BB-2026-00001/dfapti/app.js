@@ -877,18 +877,20 @@
 
     var depDiagram = buildThreadDependencyDiagram(threads, edges, labels);
     if (depDiagram) {
-      container.appendChild(diagramCard(
+      var depCard = diagramCard(
         el('span', {}, ['Thread dependencies']),
         null,
         depDiagram,
         null
-      ));
+      );
+      depCard.setAttribute('open', '');
+      container.appendChild(depCard);
     }
 
-    threads.forEach(function (t) {
+    threads.forEach(function (t, idx) {
       var diagram = buildThreadDiagram(t, edges, labels);
       var linkedCount = (t.supporting_evidence || []).length;
-      container.appendChild(diagramCard(
+      var card = diagramCard(
         el('span', {}, [idTag(t.thread_id), ' — ', t.name || '']),
         el('span', { class: 'rel-exhibit-meta' }, [
           badge(t.status),
@@ -896,7 +898,12 @@
         ]),
         diagram,
         'No linked evidence recorded yet for this thread.'
-      ));
+      );
+      // Open the first couple by default so the diagrams are visible on
+      // arrival, not hidden behind a "Show more" click nobody expects to
+      // find a chart under - matches how the shared artifact presented them.
+      if (idx < 2) card.setAttribute('open', '');
+      container.appendChild(card);
     });
 
     container.appendChild(el('div', { class: 'rel-legend' }, [
