@@ -108,6 +108,11 @@ const html = `<!DOCTYPE html>
   wrongdoing by any institution or individual. The evidence each match cites carries its own independent
   verification status at the case level; the mechanism label is the analytical lens applied on top of it.</p>
 
+  <p class="doc-subtitle"><strong>Scoped to each case's evidence freeze date:</strong> matches against
+  DFAPTI-MNC-2026-00001 reflect its register as frozen 17 August 2026; matches against DFAPTI-BB-2026-00001 reflect
+  its register as frozen 6 August 2026. Relevant developments may have occurred since either date that have not
+  been checked against these matches and are not reflected in them.</p>
+
   <input type="text" id="mech-filter" class="filter-input" placeholder="Search mechanisms..." aria-label="Search catalogue" />
 
   <h2>Category A &mdash; ${CAT_LABEL.A} (${byCat.A.length})</h2>
