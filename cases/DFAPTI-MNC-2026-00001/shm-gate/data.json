@@ -6,6 +6,18 @@
   "basis_note": "Applies the operator's Structural Harm Mechanism (SHM) Catalogue - a set of named institutional-dysfunction patterns built by the operator from pattern detection across past cases - against this case's own frozen DFAPTA cross-pattern analysis (EV-0001-EV-0827, frozen per DEC-0009). The catalogue is applied only to evidence already gathered; it played no role in what evidence was collected. A mechanism is listed as Applied only where this case's own DFAPTA paths (produced before the catalogue was cross-referenced against them) already contain a matching finding with real EV- citations. Nothing here goes beyond what those paths already established.",
   "catalogue_reference": "Structural Harm Mechanism Catalogue v2.0 (operator-authored, 68 named mechanisms; this gate cites 7)",
   "position_in_chain": "Applied after DFAPTA (Stage 2), before Lattice Atlas (Stage 3) - a known-patterns check against frozen evidence, distinct from Lattice Atlas's search for new, not-yet-named emergent patterns.",
+  "root_finding": {
+    "title": "Documented Compliance vs. Functional Compliance",
+    "statement": "The six applied mechanisms below are not six independent findings. Looked at together, all six are the same root distinction wearing different faces: what the record documents does not match what is functionally true, and no single rule was broken producing that gap. Mechanism 9 is the named instance of the distinction itself. Three of the remaining five explain why the gap stays uncheckable; one explains how the documented side gets built for public consumption; one shows the same gap running on a clock instead of a claim. Presented separately below for citation precision, but the root finding is one thing, not six.",
+    "roles": [
+      { "mechanism_no": 9, "role": "core_instance", "role_label": "The named instance", "role_note": "The exact contradiction, formally frozen as CTR-0001: documented as reactive and \"not surveillance\"; functionally proactive, covert flying was part of the plan." },
+      { "mechanism_no": 19, "role": "enables_gap", "role_label": "Why the gap stays uncheckable (1 of 3)", "role_note": "No single source exists to compare the documented claim against the functional reality - the record needed to check it was never designed to be assembled in one place." },
+      { "mechanism_no": 48, "role": "enables_gap", "role_label": "Why the gap stays uncheckable (2 of 3)", "role_note": "The material to check the gap exists and is technically public, but verifying it costs more analytical effort than almost anyone checking a petition or a press release can spend." },
+      { "mechanism_no": 42, "role": "enables_gap", "role_label": "Why the gap stays uncheckable (3 of 3)", "role_note": "The institution controls the terms its own documented compliance is measured against, so it can keep the documented side looking settled without the functional side ever being independently defined." },
+      { "mechanism_no": 26, "role": "builds_documented_side", "role_label": "How the documented side gets built", "role_note": "The public-facing claim is compressed past the point of being checkable before it ever reaches a signatory or a reader - the compression is what makes the documented side look clean." },
+      { "mechanism_no": 10, "role": "temporal_instance", "role_label": "The same gap, running on a clock", "role_note": "Documented: a six-month trial. Functional: still running past seven months, no stated end condition. No rule was broken, because no rule existed to break." }
+    ]
+  },
   "applied": [
     {
       "mechanism_no": 19,

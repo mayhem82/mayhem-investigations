@@ -15,6 +15,23 @@
       kv("Position in chain", d.position_in_chain),
       kv("Analysing", el("a", { href: "../dfapti/index.html" }, [d.dfapti_case_id])),
     ]));
+    if (d.root_finding) renderRootFinding(d.root_finding);
+  }
+
+  function renderRootFinding(rf) {
+    var target = document.getElementById("overview-content");
+    var roleRows = (rf.roles || []).map(function (r) {
+      return el("div", { class: "kv-row" }, [
+        el("div", { class: "kv-label" }, [r.role_label]),
+        el("div", { class: "kv-value" }, [
+          idTag("SHM-" + r.mechanism_no), " — " + r.role_note,
+        ]),
+      ]);
+    });
+    target.appendChild(el("div", { class: "section-subtitle" }, [rf.title]));
+    target.appendChild(el("div", { class: "card stack" }, [
+      el("p", {}, [rf.statement]),
+    ].concat(roleRows)));
   }
 
   function mechanismCard(idPrefix, m) {
