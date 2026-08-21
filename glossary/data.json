@@ -1,0 +1,2206 @@
+{
+  "title": "Kempsey Shire Council Master Glossary",
+  "subtitle": "Terms, Acronyms, Codes and Identifiers",
+  "snapshot": {
+    "id": "KSC-GLOSSARY-SNAP-004",
+    "label": "Snapshot 004",
+    "dateFrozen": "21 August 2026",
+    "scope": "Kempsey Shire Council terminology encountered in Council webpages, planning material, policies, meeting records, contribution registers, procurement material and related NSW statutory terminology.",
+    "method": "Terms are preserved as encountered. Expansions are recorded only where supported. Unresolved codes remain unresolved rather than being guessed.",
+    "status": "Cumulative through Sweep 004. Snapshots 001, 002 and 003 remain frozen and are not overwritten. Further research passes will continue as separately numbered DOCX snapshots."
+  },
+  "classificationRules": [
+    {
+      "tag": "CURRENT",
+      "meaning": "Evidenced in current KSC material."
+    },
+    {
+      "tag": "LEGACY",
+      "meaning": "Appears in historical KSC material but has been superseded, renamed or replaced."
+    },
+    {
+      "tag": "EXTERNAL",
+      "meaning": "NSW Government, Commonwealth or industry terminology used by KSC."
+    },
+    {
+      "tag": "UNRESOLVED",
+      "meaning": "Code or abbreviation is demonstrably used, but its literal expansion has not yet been established from an authoritative source."
+    },
+    {
+      "tag": "AMBIGUOUS",
+      "meaning": "Meaning depends on context and requires disambiguation."
+    }
+  ],
+  "researchDeltas": [
+    {
+      "snapshot": "Snapshot 002",
+      "date": "20 August 2026",
+      "items": [
+        "Expanded current KSC policy-control architecture using the Policy Framework Policy and current procedure documents.",
+        "Added current procurement shorthand and platform terminology from KSC tender/procurement material.",
+        "Added corporate and financial terminology evidenced in KSC planning and Long-Term Financial Plan material.",
+        "Added engineering and standards shorthand encountered in KSC planning and procurement sources.",
+        "Confirmed TQE remains a current KSC procurement identifier family; its literal expansion remains unresolved.",
+        "Recorded KSC policy Document Number examples without inferring the meaning of their prefixes."
+      ]
+    },
+    {
+      "snapshot": "Snapshot 003",
+      "date": "21 August 2026",
+      "items": [
+        "Incorporated the A-to-G block of the official Kempsey Development Control Plan 2026 Appendix 1, Table E.1 abbreviation/acronym glossary.",
+        "Flagged two material KSC terminology collisions: CMP = Coastal Management Program or Conservation Management Plan depending on context; BCA and BCA 2016 refer to different instruments.",
+        "Added meeting-record shorthand and identifier syntax including Cr, Clr, KDCP, FNA, ERSA, Council File Number family FYY/####[/##], and resolution identifiers YYYY.NN(N).",
+        "Added further legacy CPOL and procedure identifiers cited in the 2013 DCP, without treating historical references as proof of current policy status.",
+        "Reclassified F22/1933 as part of an evidenced KSC F-year File/Document Number family while leaving the literal meaning of the leading F unresolved.",
+        "DCP Appendix 1 terminology was checked against KSC’s current DCP page and an indexed HTML rendering of Part E. The KSC Part E PDF endpoint could not be fetched by the research environment, so that access limitation is recorded rather than concealed."
+      ]
+    },
+    {
+      "snapshot": "Snapshot 004",
+      "date": "21 August 2026",
+      "items": [
+        "Added KSC water and sewer management terminology from the Water Supply Asset Management Plan, Drinking Water Management System material, current water-service pages and the Water and Sewer Equivalent Tenement Determination Procedure.",
+        "Added current development-processing shorthand and identifiers including REFDA, RFI and s4.55(2) modification notation.",
+        "Added current corporate action-code families from the Delivery Program 2025-2029 and Operational Plan architecture: EN.DP#, EC.DP#, CO.DP#, LE.DP# and the corresponding OP-code families.",
+        "Added governance and emergency-management shorthand including ELT, LEMC and HM CRG, where KSC sources support the expansion.",
+        "Expanded the register with legacy asset-management abbreviations that remain useful when reading older KSC infrastructure records, while marking them LEGACY rather than silently treating them as current.",
+        "TQE, T6, LD and the leading F in F-year file numbers remain unresolved; no unsupported expansions were introduced.",
+        "KSC PDF screenshots were attempted for key water-management documents during source verification but the web cache could not return the raster pages. Extracted indexed text and current KSC webpages were retained as the evidentiary basis, and the access limitation is recorded rather than concealed."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "letter": "A",
+      "term": "AAAC",
+      "description": "Average annual asset consumption. KSC’s Water Supply Asset Management Plan uses this abbreviation in its formal abbreviations and glossary section.",
+      "status": "LEGACY KSC ASSET-MANAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "A",
+      "term": "AASFA",
+      "description": "Agriculture and Animal Services Functional Area. Used by Council in disaster/flood recovery information concerning livestock assistance.",
+      "status": "EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250528-Question-of-the-week",
+      "category": "external"
+    },
+    {
+      "letter": "A",
+      "term": "ADWG",
+      "description": "Australian Drinking Water Guidelines. KSC’s Drinking Water Management System is structured against the ADWG framework, and current Council water-quality reporting continues to refer to the ADWG.",
+      "status": "CURRENT / EXTERNAL WATER-QUALITY STANDARD",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf ; https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250205-Kempseys-tap-water-clears-safety-tests-well-below-PFAS-limits",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AEDT",
+      "description": "Australian Eastern Daylight Time. KSC uses AEDT in current tender closing-time records.",
+      "status": "CURRENT / EXTERNAL TIME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AEP",
+      "description": "Annual Exceedance Probability. KSC’s 2026 DCP lists AEP in its formal abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL TECHNICAL TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AEST",
+      "description": "Australian Eastern Standard Time. KSC uses AEST in current tender notices and closing-time records.",
+      "status": "CURRENT / EXTERNAL TIME ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AHD",
+      "description": "Australian Height Datum. KSC’s 2026 DCP lists AHD in its formal abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL TECHNICAL TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AHIMS",
+      "description": "Aboriginal Heritage Information Management System. NSW database containing Aboriginal cultural heritage site and assessment information. KSC planning records contain AHIMS searches as attachments to planning proposals.",
+      "status": "EXTERNAL / ACTIVE",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-February-2026",
+      "category": "external"
+    },
+    {
+      "letter": "A",
+      "term": "AHIP",
+      "description": "Aboriginal Heritage Impact Permit. KSC Aboriginal heritage planning material identifies an AHIP as the permit required where proposed activity will harm Aboriginal objects or places in circumstances requiring one.",
+      "status": "EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b12-aboriginal-heritage",
+      "category": "external"
+    },
+    {
+      "letter": "A",
+      "term": "AMCORD",
+      "description": "Australian Model Code for Residential Development. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL PLANNING REFERENCE",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AMP",
+      "description": "Asset Management Plan. Used as a formal abbreviation in KSC’s Water Supply Asset Management Plan. Current Council-wide strategic asset planning is separately identified as SAMP.",
+      "status": "LEGACY / GENERIC KSC ASSET-MANAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "A",
+      "term": "ANEF",
+      "description": "Australian Noise Exposure Forecast. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL TECHNICAL TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "APZ",
+      "description": "Asset Protection Zone. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL BUSHFIRE/PLANNING TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "ARI",
+      "description": "Annual Recurrence Interval. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL TECHNICAL TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "ARIC",
+      "description": "Audit, Risk and Improvement Committee. KSC governance committee.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Committees",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AS",
+      "description": "Australian Standards. Exact abbreviation used in the KSC 2026 DCP glossary. Distinct from the more specific AS/NZS form recorded elsewhere in this register.",
+      "status": "CURRENT KSC DCP / EXTERNAL STANDARDS TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AS 1851",
+      "description": "Australian Standard identifier cited by KSC for maintenance of fire safety systems across Council assets. The KSC tender page does not expand the formal title of the standard.",
+      "status": "CURRENT / EXTERNAL STANDARD",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AS/NZS",
+      "description": "Australian/New Zealand Standard prefix. KSC planning material cites standards in the AS/NZS family, including parking standards.",
+      "status": "EXTERNAL STANDARD PREFIX",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "external"
+    },
+    {
+      "letter": "A",
+      "term": "AUS-SPEC",
+      "description": "Civil engineering specification system referenced by KSC for development and infrastructure works. The literal name is not expanded in the KSC material reviewed for this baseline.",
+      "status": "EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "A",
+      "term": "AUS-SPECs",
+      "description": "Australian Specifications. Exact pluralised form used in the KSC 2026 DCP Appendix 1 glossary; related to the AUS-SPEC reference already recorded.",
+      "status": "CURRENT KSC DCP / EXTERNAL ENGINEERING TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "B",
+      "term": "BAM",
+      "description": "Biodiversity Assessment Method. NSW methodology used for biodiversity impact assessment.",
+      "status": "EXTERNAL",
+      "source": "https://www.environment.nsw.gov.au/publications/biodiversity-assessment-method",
+      "category": "external"
+    },
+    {
+      "letter": "B",
+      "term": "BASIX",
+      "description": "Building Sustainability Index. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL NSW PLANNING TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "B",
+      "term": "BCA",
+      "description": "Building Code of Australia. This exact meaning is assigned to BCA in the KSC 2026 DCP glossary. Do not confuse it with the separate KSC entry “BCA 2016”.",
+      "status": "CURRENT KSC DCP / AMBIGUITY RISK",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "ambiguous"
+    },
+    {
+      "letter": "B",
+      "term": "BCA 2016",
+      "description": "Biodiversity Conservation Act 2016. This exact expression is separately listed by KSC in the 2026 DCP glossary. It is not the same as BCA = Building Code of Australia.",
+      "status": "CURRENT KSC DCP / HIGH-RISK COLLISION",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "ambiguous"
+    },
+    {
+      "letter": "B",
+      "term": "BDAR",
+      "description": "Biodiversity Development Assessment Report. Assessment prepared under the NSW biodiversity framework. KSC describes use of BDARs in development assessment.",
+      "status": "EXTERNAL / KSC DEVELOPMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-in-South-West-Rocks",
+      "category": "external"
+    },
+    {
+      "letter": "B",
+      "term": "BFMC",
+      "description": "Bush Fire Management Committee. Appears in KSC Council-meeting attachments as BFMC Report.",
+      "status": "CURRENT / RECENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-18-March-2025",
+      "category": "current"
+    },
+    {
+      "letter": "B",
+      "term": "BOD",
+      "description": "Biochemical (biological) oxygen demand. Listed in KSC’s Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC TECHNICAL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "B",
+      "term": "BV",
+      "description": "Biodiversity Values. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL BIODIVERSITY TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CBD",
+      "description": "Central Business District. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CC",
+      "description": "Construction Certificate. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / NSW DEVELOPMENT TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CCP",
+      "description": "Critical Control Point. KSC’s Drinking Water Management System establishes CCPs for each drinking-water supply scheme.",
+      "status": "CURRENT KSC WATER-QUALITY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf ; https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Crescent-Head-Boil-Water-Advice-follow-up",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CCTV",
+      "description": "Closed-circuit television. KSC uses CCTV in a current procurement title for a Water & Sewer CCTV camera vehicle fit-out.",
+      "status": "CURRENT / EXTERNAL TECHNICAL ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CDC",
+      "description": "Complying Development Certificate. Fast-track development approval where applicable statutory standards are satisfied.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-applications/Do-I-need-consent-from-Council",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CEO",
+      "description": "Chief Executive Officer. Current KSC executive-title terminology.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/June-2026-Council-Meeting-Wrap",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CIV",
+      "description": "Capital Investment Value. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / NSW DEVELOPMENT TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CKPoM",
+      "description": "Comprehensive Koala Plan of Management. KSC planning/management instrument applying to koala management in the eastern portion of the shire.",
+      "status": "CURRENT KSC PLANNING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-in-South-West-Rocks",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "Clr",
+      "description": "Councillor. KSC meeting records use “Clr” as a councillor title abbreviation in narrative meeting text, while the same records also use “Cr”.",
+      "status": "CURRENT KSC MEETING SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-16-december-2025-minutes.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CMP",
+      "description": "AMBIGUOUS KSC ACRONYM. Meaning 1: Coastal Management Program, used by KSC for its coordinated coastal and estuary management program. Meaning 2: Conservation Management Plan, the meaning assigned to CMP in the Kempsey Development Control Plan 2026 Appendix 1 glossary. Context must be established before interpreting CMP.",
+      "status": "CURRENT / HIGH-RISK AMBIGUITY",
+      "source": "Coastal meaning: https://www.kempsey.nsw.gov.au/Your-Valley/Your-environment/Waterways/Coastal-Management-Program ; Conservation meaning: KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "ambiguous"
+    },
+    {
+      "letter": "C",
+      "term": "CO.DP#",
+      "description": "Community Delivery Program action-code family. The current 2025-2029 Delivery Program uses CO.DP identifiers for Community actions.",
+      "status": "CURRENT KSC CORPORATE-PERFORMANCE CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/dp-2025-29-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CO.OP#",
+      "description": "Community Operational Plan action-code family. KSC Operational Plan architecture uses CO.OP identifiers underneath Community Delivery Program actions.",
+      "status": "CURRENT / RECENT KSC CORPORATE-PERFORMANCE CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CO2",
+      "description": "Carbon dioxide. KSC procurement guidance uses CO2 in describing environmental evaluation criteria for supplier emissions.",
+      "status": "CURRENT / EXTERNAL TECHNICAL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "Council Policy",
+      "description": "Formal KSC policy category for policies with an external focus affecting interaction with residents, ratepayers, suppliers and other agencies. Council Policies must be adopted or revised by resolution of the governing body.",
+      "status": "CURRENT / FORMALLY DEFINED KSC TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/governance/policies-procedures/5.11-v4-policy-framework-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CPOL-##",
+      "description": "Historical Council Policy identifier family. Examples encountered: CPOL-02, CPOL-28, CPOL-43, CPOL-46, CPOL-47, CPOL-57 and CPOL-60. Individual current status requires verification.",
+      "status": "LEGACY CODE FAMILY unless individually verified current",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CPOL-02",
+      "description": "Accounts: Plant Hire and Private Works.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CPOL-28",
+      "description": "Contribution to Works for Kerbing and Guttering.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CPOL-29",
+      "description": "Provision of Access Roads to Rural Residential Areas - Zone 1(c) in KLEP1987. Cited by the former KSC DCP as Council Policy No. CPOL-29.",
+      "status": "LEGACY POLICY IDENTIFIER / CURRENT STATUS NOT ASSUMED",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CPOL-33",
+      "description": "Initial Sealing of Roads. Cited by the former KSC DCP as Council Policy No. CPOL-33.",
+      "status": "LEGACY POLICY IDENTIFIER / CURRENT STATUS NOT ASSUMED",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CPOL-43",
+      "description": "Flood Risk Management Policy.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CPOL-46",
+      "description": "Leasing of Public Areas for Restaurants and Cafes.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CPOL-47",
+      "description": "Parking Code.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CPOL-57",
+      "description": "Public Notification Policy.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CPOL-60",
+      "description": "Guide for Certification of Civil Engineering Design Work.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CPTED",
+      "description": "Crime Prevention through Environmental Design. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL DESIGN TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "Cr",
+      "description": "Councillor. Standard councillor title abbreviation used throughout current KSC meeting resolutions and attendance records.",
+      "status": "CURRENT KSC MEETING SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CRC",
+      "description": "Current replacement cost. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC ASSET-VALUATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CSP",
+      "description": "Community Strategic Plan. KSC historical IP&R material explicitly uses CSP/CSPs for Community Strategic Plan(s); the Community Strategic Plan remains a current core IP&R document.",
+      "status": "CURRENT TERM / ACRONYM EVIDENCED IN KSC MATERIAL",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Corporate-management/Integrated-Planning-and-Reporting",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CWMS",
+      "description": "Community wastewater management systems. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC WASTEWATER TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "C",
+      "term": "CZMP",
+      "description": "Coastal Zone Management Plan. Older coastal-management framework being replaced/upgraded through the CMP system.",
+      "status": "LEGACY / TRANSITIONAL",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Valley/Your-environment/Waterways/Coast-estuaries-wetlands",
+      "category": "legacy"
+    },
+    {
+      "letter": "D",
+      "term": "D24/73553",
+      "description": "Document Number recorded in the current KSC Policy Framework Policy. The meaning of the D24 prefix has not been established and is not inferred.",
+      "status": "CURRENT KSC DOCUMENT IDENTIFIER / PREFIX UNRESOLVED",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/governance/policies-procedures/5.11-v4-policy-framework-policy.pdf",
+      "category": "unresolved"
+    },
+    {
+      "letter": "D",
+      "term": "DA",
+      "description": "Development Application. Primary application for development requiring consent.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DA########",
+      "description": "Current-style KSC development-application identifier family. Examples observed include DA2100167, DA2200278, DA2501404, DA2601496 and DA2601505. Internal digit-allocation rules have not been formally established in this baseline.",
+      "status": "CURRENT IDENTIFIER FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Developer-Contributions/Developer-contribution-plans-and-registers/Section-64-plans",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DBH",
+      "description": "Diameter at breast height. Listed in the KSC 2026 DCP abbreviation/acronym table, principally relevant to tree/vegetation measurement.",
+      "status": "CURRENT KSC DCP / TECHNICAL TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DCP",
+      "description": "Development Control Plan. Detailed local planning and design controls supporting the LEP.",
+      "status": "CURRENT GENERIC TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DCP 2013",
+      "description": "Kempsey Development Control Plan 2013. Former DCP retained for historical/transitional interpretation.",
+      "status": "LEGACY / TRANSITIONAL",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Kempsey-Development-Control-Plan-Review",
+      "category": "legacy"
+    },
+    {
+      "letter": "D",
+      "term": "DDA",
+      "description": "Disability Discrimination Act 1992. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL LEGISLATIVE TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DECCW 2010",
+      "description": "Due Diligence Code of Practice for the Protection of Aboriginal Objects in New South Wales. This is the exact expansion assigned in the KSC 2026 DCP glossary.",
+      "status": "CURRENT KSC DCP / EXTERNAL HERITAGE REFERENCE",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DO1 / DO2 / DO3 ...",
+      "description": "Desired Outcome 1, Desired Outcome 2, etc. Numbering used extensively in the former KSC DCP structure.",
+      "status": "LEGACY DCP IDENTIFIER unless found in equivalent current provision",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b10-tree-preservation-and-vegetation-management",
+      "category": "legacy"
+    },
+    {
+      "letter": "D",
+      "term": "DoH",
+      "description": "Department of Health. Exact historical abbreviation used in KSC’s 2013 Water Supply Asset Management Plan. Agency naming must be read in the period-specific context of the source document.",
+      "status": "LEGACY / EXTERNAL AGENCY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "D",
+      "term": "DP Action Code",
+      "description": "Delivery Program Action Code. KSC’s current Delivery Program 2025-2029 assigns coded actions under Environment, Economy, Community and Leadership using the EN.DP#, EC.DP#, CO.DP# and LE.DP# families.",
+      "status": "CURRENT KSC CORPORATE-PERFORMANCE CODE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/dp-2025-29-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DPHI",
+      "description": "NSW Department of Planning, Housing and Infrastructure. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL NSW AGENCY",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DPIRD",
+      "description": "Department of Primary Industries and Regional Development. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / EXTERNAL NSW AGENCY",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DRFA",
+      "description": "Disaster Recovery Funding Arrangements. KSC uses DRFA in current procurement material for a multi-project capital works program.",
+      "status": "CURRENT / EXTERNAL FUNDING ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DSP",
+      "description": "Development Servicing Plan. KSC’s water/sewer contribution material uses DSP for servicing plans and DSP Contribution for developer-charge obligations.",
+      "status": "CURRENT / RECENT KSC WATER-SEWER CONTRIBUTIONS TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/governance/policies-procedures/20250117-procedure-3-13-1-v1-water-and-sewer-equivalent-tenement-determination-procedure.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/3/docs/departments/governance/access-information/voluntary-planning-agreements/kempsey-shire-council-voluntary-planning-agreements-register.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DSZ",
+      "description": "Deep Soil Zone. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / PLANNING-DESIGN TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "D",
+      "term": "DWMS",
+      "description": "Drinking Water Management System. KSC’s formal risk-based system for managing drinking-water quality across Council supply schemes.",
+      "status": "CURRENT / RECENT KSC WATER-QUALITY SYSTEM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EC.DP#",
+      "description": "Economy Delivery Program action-code family. The current 2025-2029 Delivery Program uses EC.DP identifiers for Economy actions.",
+      "status": "CURRENT KSC CORPORATE-PERFORMANCE CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/dp-2025-29-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EC.OP#",
+      "description": "Economy Operational Plan action-code family. KSC Operational Plan material pairs EC.OP identifiers with Delivery Program Economy actions.",
+      "status": "CURRENT / RECENT KSC CORPORATE-PERFORMANCE CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EEC",
+      "description": "Endangered Ecological Community. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / BIODIVERSITY TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EF",
+      "description": "Earthworks/formation. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC ASSET-MANAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "E",
+      "term": "EIS",
+      "description": "Environmental Impact Statement. Appears in KSC procurement records, including Stuarts Point Sewerage Scheme material.",
+      "status": "CURRENT / RECENT",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI/Archived-Tenders",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "ELT",
+      "description": "Executive Leadership Team. KSC’s current Revenue and Review Taskforce is described as advising Council and the ELT.",
+      "status": "CURRENT KSC GOVERNANCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Committees",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EN.DP#",
+      "description": "Environment Delivery Program action-code family. The current 2025-2029 Delivery Program uses EN.DP identifiers for Environment actions.",
+      "status": "CURRENT KSC CORPORATE-PERFORMANCE CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/dp-2025-29-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EN.OP#",
+      "description": "Environment Operational Plan action-code family. KSC Operational Plan material uses EN.OP identifiers underneath EN.DP actions.",
+      "status": "CURRENT / RECENT KSC CORPORATE-PERFORMANCE CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EOI",
+      "description": "Expression of Interest. Formal procurement process used by KSC.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EP&A",
+      "description": "Environmental Planning and Assessment Act 1979. Exact abbreviated form used in the KSC 2026 DCP glossary; related to the “EP&A Act” entry already recorded.",
+      "status": "CURRENT KSC DCP / EXTERNAL LEGISLATIVE TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EP&A Act",
+      "description": "Environmental Planning and Assessment Act 1979. Clear contemporary NSW planning abbreviation.",
+      "status": "CURRENT / EXTERNAL",
+      "source": "https://www.planning.nsw.gov.au/the-planning-system/environmental-planning-and-assessment-act-1979/strategic-planning",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EP&A Regulation",
+      "description": "Environmental Planning and Assessment Regulation 2021. Exact abbreviated form used in the KSC 2026 DCP glossary.",
+      "status": "CURRENT KSC DCP / EXTERNAL LEGISLATIVE TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EPA",
+      "description": "Usually NSW Environment Protection Authority when used in KSC environmental, pollution, waste and PFAS material.",
+      "status": "CURRENT / EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250121-Kempsey-Waste-Management-Centre",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "EPA Act",
+      "description": "Historical KSC planning shorthand used for the Environmental Planning and Assessment Act 1979. This is a collision risk with EPA meaning Environment Protection Authority.",
+      "status": "LEGACY KSC PLANNING SHORTHAND / AMBIGUOUS",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-in-South-West-Rocks",
+      "category": "ambiguous"
+    },
+    {
+      "letter": "E",
+      "term": "EPI",
+      "description": "Environmental Planning Instrument. KSC 2026 DCP identifies the LEP as an EPI.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "eProcure",
+      "description": "Online procurement/tendering platform label used by KSC business guidance. KSC current tender pages also describe the portal as hosted by VendorPanel; the two labels are preserved separately rather than assumed to be identical.",
+      "status": "CURRENT KSC PROCUREMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "ERSA",
+      "description": "En Route Supplement Australia. KSC’s May 2025 meeting minutes use ERSA when resolving to submit revised airport noise-abatement procedures for replication in that publication.",
+      "status": "CURRENT KSC MEETING / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "ESD",
+      "description": "Ecologically Sustainable Development. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / PLANNING-SUSTAINABILITY TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "E",
+      "term": "ET",
+      "description": "Equivalent Tenement. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / WATER-SEWER INFRASTRUCTURE TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "F",
+      "term": "F22/1933",
+      "description": "Document Number recorded for the KSC Sustainable Procurement and Contracts Policy. Sweep 003 establishes that KSC uses a broader FYY/#### File Number family in Council records, including multiple F22/#### values. This supports classification of F22/1933 within the same observable F-year identifier architecture, but the literal meaning of the leading F remains unverified and is not expanded.",
+      "status": "KSC FILE/DOCUMENT IDENTIFIER FAMILY / LEADING F UNRESOLVED",
+      "source": "Policy source: https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/policies-procedures/policy-5-09-v5-sustainable-procurement-and-contracts-policy.pdf ; comparison source: https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf",
+      "category": "unresolved"
+    },
+    {
+      "letter": "F",
+      "term": "FNA",
+      "description": "Fly Neighbourly Advice. KSC’s May 2025 Council minutes expressly use the acronym FNA for the Kempsey Airport Fly Neighbourly Advice.",
+      "status": "CURRENT KSC AIRPORT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "F",
+      "term": "FNAG",
+      "description": "First Nations Advisory Group. Appears in KSC Council-meeting attachment naming.",
+      "status": "CURRENT / RECENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-18-March-2025",
+      "category": "current"
+    },
+    {
+      "letter": "F",
+      "term": "FOGO",
+      "description": "Food Organics and Garden Organics. KSC green-bin waste stream.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Whats-a-no-go-in-the-FOGO-your-green-bin",
+      "category": "current"
+    },
+    {
+      "letter": "F",
+      "term": "FPL",
+      "description": "Flood Planning Level. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / FLOOD-PLANNING TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "F",
+      "term": "FSDP",
+      "description": "Fire Safety Delivery Program. Appears in KSC procurement material relating to fire compliance and testing.",
+      "status": "CURRENT PROCUREMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "F",
+      "term": "FSR",
+      "description": "Floor Space Ratio. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / PLANNING TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "F",
+      "term": "FYY/####[/##]",
+      "description": "Observed KSC File Number syntax family. Examples include F12/1474, F22/1895, F22/3106, F23/2510, F23/3456, F24/3407, F25/3802 and F23/3642/05. The two digits after F align with a year-like pattern, but the literal meaning of the leading F is not expanded in the source and is therefore not asserted.",
+      "status": "CURRENT KSC FILE IDENTIFIER FAMILY / LEADING F UNRESOLVED",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf",
+      "category": "unresolved"
+    },
+    {
+      "letter": "G",
+      "term": "GFA",
+      "description": "Gross Floor Area. Listed in the KSC 2026 DCP abbreviation/acronym table.",
+      "status": "CURRENT KSC DCP / PLANNING TERM",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "G",
+      "term": "GIPA Act",
+      "description": "Government Information (Public Access) Act 2009. Principal NSW legislation governing public access to Council information.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Access-to-information",
+      "category": "current"
+    },
+    {
+      "letter": "G",
+      "term": "GM",
+      "description": "General Manager. KSC procurement policy uses the abbreviation GM when identifying delegated emergency-procurement authority.",
+      "status": "CURRENT KSC ORGANISATIONAL ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/policies-procedures/policy-5-09-v5-sustainable-procurement-and-contracts-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "G",
+      "term": "GST",
+      "description": "Goods and Services Tax. KSC procurement material uses GST when defining procurement values and thresholds.",
+      "status": "CURRENT / EXTERNAL TAX ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/policies-procedures/policy-5-09-v5-sustainable-procurement-and-contracts-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "H",
+      "term": "HM CRG",
+      "description": "Hillgrove Mines Community Reference Group. KSC meeting records use the shortened attachment label “HM CRG” and elsewhere spell out the Hillgrove Mines Community Reference Group.",
+      "status": "CURRENT / RECENT KSC MEETING-SHORTHAND TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-16-December-2025 ; https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-March-2026",
+      "category": "current"
+    },
+    {
+      "letter": "I",
+      "term": "IP&R",
+      "description": "Integrated Planning and Reporting. NSW local-government planning and reporting framework used by KSC.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Corporate-management/Integrated-Planning-and-Reporting",
+      "category": "current"
+    },
+    {
+      "letter": "I",
+      "term": "IPART",
+      "description": "Independent Pricing and Regulatory Tribunal. NSW regulator involved in KSC Special Rate Variation and annual rate setting.",
+      "status": "CURRENT / EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20240226-SRV-IPART-publication",
+      "category": "current"
+    },
+    {
+      "letter": "I",
+      "term": "IPC",
+      "description": "Information and Privacy Commission. NSW body referenced by KSC in relation to GIPA access rights.",
+      "status": "EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Access-to-information",
+      "category": "external"
+    },
+    {
+      "letter": "I",
+      "term": "IRMP",
+      "description": "Infrastructure risk management plan. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC ASSET-RISK TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "I",
+      "term": "IWCM",
+      "description": "Integrated Water Cycle Management. KSC’s Local Growth Management Strategy refers to an IWCM project and strategy for long-term water-services planning.",
+      "status": "CURRENT / RECENT KSC WATER-PLANNING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/str-amp-asset-planning/planning/lgms/local-growth-management-strategy-2023.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "I",
+      "term": "IWCMS",
+      "description": "Integrated Water Cycle Management Strategy. KSC’s 2013 Water Supply Asset Management Plan records the Macleay Water IWCMS adopted in 2005/06. Distinguish this historical abbreviation from the later IWCM usage.",
+      "status": "LEGACY KSC WATER-PLANNING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "K",
+      "term": "KDCP",
+      "description": "Kempsey Development Control Plan. KSC’s December 2025 Council minutes use the shorthand “KDCP 2026” in the resolution approving the revised draft plan for public exhibition.",
+      "status": "CURRENT/RECENT KSC MEETING SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-16-december-2025-minutes.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "K",
+      "term": "Kempsey DCP 2026",
+      "description": "Kempsey Development Control Plan 2026. Current DCP stated by Council as commencing 1 July 2026.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan",
+      "category": "current"
+    },
+    {
+      "letter": "K",
+      "term": "KLALC",
+      "description": "Observed in KSC planning-attachment naming as KLALC inspection. Likely a Local Aboriginal Land Council reference, but the literal expansion used by KSC remains unverified in this baseline.",
+      "status": "UNRESOLVED",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-February-2026",
+      "category": "unresolved"
+    },
+    {
+      "letter": "K",
+      "term": "KLEP",
+      "description": "Kempsey Local Environmental Plan. Usually refers to Kempsey Local Environmental Plan 2013. KSC also uses KLEP2013.",
+      "status": "CURRENT PLANNING INSTRUMENT",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "K",
+      "term": "KPI",
+      "description": "Key Performance Indicator. KSC explicitly uses KPI/KPIs for corporate performance measures and quarterly performance reporting.",
+      "status": "CURRENT / RECENT KSC CORPORATE-PERFORMANCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/August-2022-Council-meeting-agenda ; https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-15-August-2023",
+      "category": "current"
+    },
+    {
+      "letter": "K",
+      "term": "KSC",
+      "description": "Kempsey Shire Council. Council itself uses KSC in current material.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "K",
+      "term": "KSC Development Specifications",
+      "description": "Kempsey Shire Council development specifications referenced by the current DCP as a source of development requirements and technical standards.",
+      "status": "CURRENT KSC PLANNING / ENGINEERING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "K",
+      "term": "KSC Infrastructure Delivery Guide",
+      "description": "Kempsey Shire Council Infrastructure Delivery Guide referenced by the current DCP alongside KSC Development Specifications and external standards.",
+      "status": "CURRENT KSC PLANNING / ENGINEERING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LCC",
+      "description": "Life Cycle cost. Exact capitalization/wording in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC ASSET-MANAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "L",
+      "term": "LCE",
+      "description": "Life cycle expenditure. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC ASSET-MANAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "L",
+      "term": "LE.DP#",
+      "description": "Leadership Delivery Program action-code family. The current 2025-2029 Delivery Program uses LE.DP identifiers for Leadership actions.",
+      "status": "CURRENT KSC CORPORATE-PERFORMANCE CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/dp-2025-29-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LE.OP#",
+      "description": "Leadership Operational Plan action-code family. KSC Operational Plan material uses LE.OP identifiers underneath LE.DP actions.",
+      "status": "CURRENT / RECENT KSC CORPORATE-PERFORMANCE CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LEMC",
+      "description": "Local Emergency Management Committee. KSC states that Council is an integral part of the LEMC, which coordinates local emergency-management communication and planning.",
+      "status": "CURRENT KSC EMERGENCY-MANAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250305-Helping-the-Macleay-Valley-to-stay-afloat-in-flood-times",
+      "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LEP",
+      "description": "Local Environmental Plan. Statutory local land-use planning instrument.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LGA",
+      "description": "Local Government Area. Geographic jurisdiction of the Council.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LGNSW",
+      "description": "Local Government NSW. Appears in KSC Council material concerning local-government advocacy and annual conference matters.",
+      "status": "CURRENT / EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Grants-projects-and-planning-discussed-at-May-meeting",
+      "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LLS",
+      "description": "Local Land Services. NSW agency referenced by KSC in flood and livestock recovery information.",
+      "status": "EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250528-Question-of-the-week",
+      "category": "external"
+    },
+    {
+      "letter": "L",
+      "term": "LSPS",
+      "description": "Local Strategic Planning Statement. NSW strategic land-use planning instrument.",
+      "status": "CURRENT / EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-in-South-West-Rocks",
+      "category": "current"
+    },
+    {
+      "letter": "L",
+      "term": "LTFP",
+      "description": "Long-Term Financial Plan. Part of KSC Resourcing Strategy under IP&R.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Corporate-management/Integrated-Planning-and-Reporting",
+      "category": "current"
+    },
+    {
+      "letter": "M",
+      "term": "ML",
+      "description": "Megalitre. KSC uses ML for water-storage capacity, including Steuart McIntyre Dam.",
+      "status": "CURRENT KSC WATER-MEASUREMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250715-Steuart-McIntyre-Dam-sod-turning",
+      "category": "current"
+    },
+    {
+      "letter": "M",
+      "term": "MMS",
+      "description": "Maintenance management system. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC ASSET-MANAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "M",
+      "term": "MP##_####",
+      "description": "NSW Major Project identifier family. Examples encountered include MP05_0058, MP07_0129, MP08_0167 and MP10_0103.",
+      "status": "EXTERNAL / HISTORICAL PROJECT IDENTIFIER",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-in-South-West-Rocks",
+      "category": "external"
+    },
+    {
+      "letter": "M",
+      "term": "MPOL-##",
+      "description": "Management Policy identifier family used in historical KSC material.",
+      "status": "LEGACY unless individually verified current",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "legacy"
+    },
+    {
+      "letter": "M",
+      "term": "MPOL-29",
+      "description": "Public Gates and Public Grids.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "legacy"
+    },
+    {
+      "letter": "M",
+      "term": "MPOL-34",
+      "description": "Signs as Remote Supervision.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "legacy"
+    },
+    {
+      "letter": "M",
+      "term": "MPOL-53",
+      "description": "Access to Rural Subdivisions.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "legacy"
+    },
+    {
+      "letter": "M",
+      "term": "MPOL-54",
+      "description": "Maintenance of Subdivisions, Security Deposits, Bonds and Bank Guarantees.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "legacy"
+    },
+    {
+      "letter": "M",
+      "term": "MPOL-7",
+      "description": "Footpath/Cycleway Risk Management.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "legacy"
+    },
+    {
+      "letter": "M",
+      "term": "MPOL-9",
+      "description": "Receipts, issue of.",
+      "status": "LEGACY / REQUIRES CURRENT VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "legacy"
+    },
+    {
+      "letter": "M",
+      "term": "MVCHP",
+      "description": "Macleay Valley Coast Holiday Parks. KSC Long-Term Financial Plan material uses MVCHP/MVCHPs in commercial and financial management initiatives.",
+      "status": "CURRENT KSC CORPORATE / COMMERCIAL ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/10-2-6-long-term-financial-plan-2025-2035.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "N",
+      "term": "NHMRC",
+      "description": "National Health and Medical Research Council. KSC water-service material uses NHMRC standards/guidelines as a drinking-water quality reference.",
+      "status": "CURRENT / EXTERNAL HEALTH-STANDARD BODY",
+      "source": "https://www.kempsey.nsw.gov.au/Residents/Water-sewerage ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "N",
+      "term": "NPV",
+      "description": "Net present value. KSC’s Water Supply Asset Management Plan describes the NPV approach used in developer-charge calculations.",
+      "status": "LEGACY KSC WATER-FINANCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "N",
+      "term": "NSW Planning Portal",
+      "description": "NSW Government planning platform identified by the current KSC DCP for planning maps and development application submission.",
+      "status": "CURRENT / EXTERNAL PLATFORM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "O",
+      "term": "OEH",
+      "description": "Office of Environment and Heritage. Former NSW agency terminology appearing in historical KSC heritage/planning material.",
+      "status": "LEGACY / EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b12-aboriginal-heritage",
+      "category": "legacy"
+    },
+    {
+      "letter": "O",
+      "term": "OLG",
+      "description": "Office of Local Government. Appears in KSC meeting attachments, circulars and governance material.",
+      "status": "CURRENT / EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-14-February-2023",
+      "category": "current"
+    },
+    {
+      "letter": "O",
+      "term": "OP",
+      "description": "Operational Plan. KSC corporate-planning material explicitly uses “Operational Plan (OP)” and OP action codes. Do not confuse this with the descriptive category “Operational Policy” recorded elsewhere in this glossary.",
+      "status": "CURRENT KSC CORPORATE-PLANNING ABBREVIATION / CONTEXT-SENSITIVE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "O",
+      "term": "OP Code",
+      "description": "Operational Plan Code. KSC Operational Plans use coded annual actions linked to Delivery Program actions; current/recent families include EN.OP#, EC.OP#, CO.OP# and LE.OP#.",
+      "status": "CURRENT / RECENT KSC CORPORATE-PERFORMANCE CODE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "O",
+      "term": "Operational Policy",
+      "description": "Formal KSC policy category for internally focused policies governing day-to-day Council operations. Operational Policies are adopted or revised by the General Manager or delegate.",
+      "status": "CURRENT / FORMALLY DEFINED KSC TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/governance/policies-procedures/5.11-v4-policy-framework-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "PCI",
+      "description": "Pavement condition index. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC ASSET-CONDITION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "P",
+      "term": "PFAS",
+      "description": "Per- and poly-fluoroalkyl substances. Used in KSC environmental reporting relating to South West Rocks groundwater and waterways.",
+      "status": "CURRENT ENVIRONMENTAL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/EPA-Council-PFAS-testing-in-localwaterways",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy",
+      "description": "KSC formally defines a Policy as a statement of principles, position, rules or guidelines that must be followed, defining what Council does and why.",
+      "status": "CURRENT / FORMALLY DEFINED KSC TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/governance/policies-procedures/5.11-v4-policy-framework-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.11",
+      "description": "Conflicts of Interest - Dealing with Council-Related Development throughout the Development Process Policy.",
+      "status": "CURRENT WEBSITE POLICY REFERENCE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/policies-procedures/policy-1-11-v1-conflict-of-interest-dealing-with-council-related-development.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2",
+      "description": "Lands Under Council Jurisdiction Policy. Current KSC website places a procedure family beneath this policy.",
+      "status": "CURRENT WEBSITE POLICY FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.1",
+      "description": "Markets, Street Stalls and Buskers.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.10",
+      "description": "Cemeteries.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.11",
+      "description": "Transmission of Radio Signals.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.12",
+      "description": "Saleyards Live-weight Selling and General Operations.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.13",
+      "description": "Outdoor Smoke Free.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.14",
+      "description": "Memorials.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.15",
+      "description": "Surf School Licensing.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.16",
+      "description": "Commercial Fitness Groups and Personal Trainers.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.17",
+      "description": "Commercial Use of Footpaths.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.18",
+      "description": "Commercial Use of Footpaths - Kempsey CBD.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.19",
+      "description": "Video Surveillance on Public and Other Lands.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.2",
+      "description": "Events Management.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.20",
+      "description": "Use of Banner Poles.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.3",
+      "description": "Consumption of Alcohol on Public Reserves.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.4",
+      "description": "Chemical Sensitivity.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.5",
+      "description": "Landing of Helicopters.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.6",
+      "description": "Management of Leases and Licenses.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.7",
+      "description": "Rental Assessment and Rebate.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.8",
+      "description": "Noxious Weed Control.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 1.2.9",
+      "description": "Sponsorship Signs on Sporting Grounds.",
+      "status": "CURRENT WEBSITE PROCEDURE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Publications/Kempsey-Shire-Council-policies-procedures/Lands-Under-Council-Jurisdiction-Policy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 2.1",
+      "description": "Customer Experience Policy. KSC Procedure 2.1.4 identifies this as its parent policy.",
+      "status": "CURRENT / ACTIVE POLICY FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/3/docs/departments/governance/policies-procedures/202450828-2.1.4-v3-complaints-management.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 3.1",
+      "description": "Roads Policy. Historical DCP references subordinate procedures including Road Naming and Street Lighting.",
+      "status": "REQUIRES CURRENT-POLICY VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 3.3",
+      "description": "Water Supply Policy. Referenced by historical KSC engineering material.",
+      "status": "REQUIRES CURRENT-POLICY VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 3.6",
+      "description": "Private Works Policy. Appears in historical KSC planning material with subordinate procedures.",
+      "status": "REQUIRES CURRENT-POLICY VERIFICATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 5.1",
+      "description": "Behaviour of Councillors and Staff Policy. KSC Procedure 5.1.3 identifies this as its parent policy.",
+      "status": "ACTIVE WEBSITE POLICY FAMILY / CURRENT STATUS TO CONTINUE VERIFYING",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/policies-procedures/procedure-5-01-03-delegation-of-authority.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 5.11",
+      "description": "Policy Framework Policy. Establishes KSC requirements for developing, approving, implementing, reviewing and controlling Council policies.",
+      "status": "CURRENT KSC COUNCIL POLICY",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/governance/policies-procedures/5.11-v4-policy-framework-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy 5.9",
+      "description": "Sustainable Procurement and Contracts Policy. Current KSC procurement framework policy; current published document reviewed in this sweep is Version 5.",
+      "status": "CURRENT KSC COUNCIL POLICY",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/policies-procedures/policy-5-09-v5-sustainable-procurement-and-contracts-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Policy Register",
+      "description": "KSC Policy Framework requires a central register of policies, procedures and supporting documents, including the actual documents, to be established and maintained.",
+      "status": "CURRENT KSC GOVERNANCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/governance/policies-procedures/5.11-v4-policy-framework-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "PP-YYYY-####",
+      "description": "Planning Proposal identifier family. Examples encountered: PP-2022-4108, PP-2024-2316 and PP-2025-2003.",
+      "status": "CURRENT / RECENT IDENTIFIER FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-14-February-2023",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Procedure",
+      "description": "KSC formally defines a Procedure as an operational instruction setting out the process used to operationalise a Policy - how Council undertakes an activity.",
+      "status": "CURRENT / FORMALLY DEFINED KSC TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/governance/policies-procedures/5.11-v4-policy-framework-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Procedure 2.1.4",
+      "description": "Complaints Management. Parent policy: 2.1 Customer Experience Policy. Published procedure reviewed in this sweep is Version 3, adopted 16 October 2023.",
+      "status": "CURRENT / ACTIVE WEBSITE PROCEDURE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/3/docs/departments/governance/policies-procedures/202450828-2.1.4-v3-complaints-management.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Procedure 5.1.3",
+      "description": "Delegation of Authority. Parent policy: 5.1 Behaviour of Councillors and Staff Policy. Published procedure reviewed in this sweep is Version 6, adopted 8 December 2020.",
+      "status": "ACTIVE WEBSITE PROCEDURE / CURRENT STATUS TO CONTINUE VERIFYING",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/policies-procedures/procedure-5-01-03-delegation-of-authority.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "PSS",
+      "description": "Pressure sewer system. KSC expands PSS in current procurement material for the Stuarts Point Sewerage Scheme.",
+      "status": "CURRENT KSC WATER / SEWER ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "PV",
+      "description": "Present value. Used in KSC’s 2013 Water Supply Asset Management Plan explanation of developer-charge calculations.",
+      "status": "LEGACY KSC WATER-FINANCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "Q",
+      "term": "Q1 / Q2 / Q3 / Q4",
+      "description": "Quarter 1 / Quarter 2 / Quarter 3 / Quarter 4. Used throughout KSC financial, performance, grants and monitoring records.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-February-2026",
+      "category": "current"
+    },
+    {
+      "letter": "Q",
+      "term": "QA",
+      "description": "Quality Assurance. KSC historical engineering DCP material uses Quality Assurance in relation to contracts, Quality Plans and construction testing.",
+      "status": "LEGACY KSC ENGINEERING TERM / EXTERNAL QUALITY ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "legacy"
+    },
+    {
+      "letter": "Q",
+      "term": "QBL",
+      "description": "Quadruple Bottom Line. KSC Sustainable Procurement and Contracts Policy defines QBL as Economic, Environmental, Social and Governance impacts considered across procurement lifecycle.",
+      "status": "CURRENT KSC PROCUREMENT ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/policies-procedures/policy-5-09-v5-sustainable-procurement-and-contracts-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "Q",
+      "term": "QBRS",
+      "description": "Quarterly Budget Review Statements. Expressly used in KSC Council-meeting records.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-February-2026",
+      "category": "current"
+    },
+    {
+      "letter": "R",
+      "term": "REFDA######",
+      "description": "Pre-acceptance/reference development-application identifier. KSC states that a newly submitted application is initially identified by a REFDA number, for example REFDA210001, before later processing.",
+      "status": "CURRENT / RECENT KSC DEVELOPMENT IDENTIFIER FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-applications/Lodge-your-DA",
+      "category": "current"
+    },
+    {
+      "letter": "R",
+      "term": "REV / REV01 / REV02 / REV03",
+      "description": "Revision suffix attached to KSC plans, DAs and other documents. Examples include 2018/LD-00152 REV01, 2010/LD-00379 REV02 and T6-19-33 REV02.",
+      "status": "IDENTIFIER CONVENTION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Developer-Contributions/Developer-contribution-plans-and-registers/Section-7.11-plans-and-registers",
+      "category": "other"
+    },
+    {
+      "letter": "R",
+      "term": "RFI",
+      "description": "Request for Information. KSC uses RFI as a development-assessment status and document shorthand when additional information is required from an applicant.",
+      "status": "CURRENT KSC DEVELOPMENT-ASSESSMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-applications/Lodge-your-DA ; https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-March-2026",
+      "category": "current"
+    },
+    {
+      "letter": "R",
+      "term": "RFQ",
+      "description": "Request for Quotation. KSC procurement method.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "R",
+      "term": "RFT",
+      "description": "Request for Tender. KSC procurement method.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "R",
+      "term": "RV",
+      "description": "Residual value. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC ASSET-VALUATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "S",
+      "term": "s356 / Section 356",
+      "description": "Section 356 of the Local Government Act 1993. KSC meeting records use “s356” when Council grants financial assistance.",
+      "status": "CURRENT KSC STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2024/meeting-minutes/ordinary-council-meeting-26-november-2024-confirmed-minutes-signed.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "s377 / Section 377",
+      "description": "Section 377 of the Local Government Act 1993. KSC’s Delegation of Authority procedure uses section 377 as the statutory basis for Council delegations.",
+      "status": "CURRENT KSC STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/policies-procedures/procedure-5-01-03-delegation-of-authority.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "s4.55(2) / Section 4.55(2)",
+      "description": "Statutory modification notation under the Environmental Planning and Assessment Act 1979. KSC meeting attachments use the compact form “S4.55(2) Modification Report” for modification applications.",
+      "status": "CURRENT KSC / EXTERNAL STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-June-2025",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "S64 / Section 64",
+      "description": "Section 64 developer contributions. KSC uses section 64 of the Local Government Act 1993 framework for water and sewer infrastructure contributions associated with development.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Developer-Contributions/Developer-contribution-plans-and-registers/Section-64-plans",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "s7.4 / Section 7.4 (formerly 93F)",
+      "description": "Voluntary planning agreement provision of the Environmental Planning and Assessment Act 1979. KSC’s VPA register expressly labels section 7.4 as previously section 93F.",
+      "status": "CURRENT STATUTORY REFERENCE WITH LEGACY NUMBER",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/3/docs/departments/governance/access-information/voluntary-planning-agreements/kempsey-shire-council-voluntary-planning-agreements-register.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "S",
+      "term": "S94 / Section 94",
+      "description": "Former numbering for what is now section 7.11 developer contributions under the Environmental Planning and Assessment Act. Historical KSC plans/registers retain S94 references.",
+      "status": "LEGACY",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Developer-Contributions/Developer-contribution-plans-and-registers",
+      "category": "legacy"
+    },
+    {
+      "letter": "S",
+      "term": "S94A / Section 94A",
+      "description": "Former numbering for what is now section 7.12 contributions.",
+      "status": "LEGACY",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Developer-Contributions/Developer-contribution-plans-and-registers",
+      "category": "legacy"
+    },
+    {
+      "letter": "S",
+      "term": "SAMP",
+      "description": "Strategic Asset Management Plan. Part of KSC Resourcing Strategy under IP&R.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Corporate-management/Integrated-Planning-and-Reporting",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "SCADA",
+      "description": "Supervisory control and data acquisition. KSC water-asset material refers to SCADA electrical control equipment. The expansion is standard industry terminology; KSC source demonstrates use of the acronym.",
+      "status": "LEGACY / TECHNICAL KSC WATER-SYSTEM TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "S",
+      "term": "Section 138",
+      "description": "Approval under the Roads Act 1993 for applicable works within a Council road reserve.",
+      "status": "CURRENT STATUTORY REFERENCE",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "Section 355 Committee",
+      "description": "Council committee established/operating within the section 355 Local Government Act framework.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Committees",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "Section 68",
+      "description": "Approval mechanism under the Local Government Act 1993 encountered in KSC engineering/development material.",
+      "status": "CURRENT STATUTORY REFERENCE; application-specific relevance must be checked",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "Section 7.11",
+      "description": "Current EP&A Act contribution mechanism generally involving a demonstrated connection between development and infrastructure demand.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Developer-Contributions/Developer-contribution-plans-and-registers/Section-7.11-plans-and-registers",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "Section 7.12",
+      "description": "Current EP&A Act levy mechanism used as an alternative to section 7.11 in applicable developments.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Developer-Contributions/Developer-contribution-plans-and-registers/Section-7.12-plans-and-registers",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "SEPP",
+      "description": "State Environmental Planning Policy. State-level statutory planning instrument repeatedly referenced by KSC.",
+      "status": "CURRENT / EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "SME / SMEs",
+      "description": "Small and medium enterprise(s). KSC procurement guidance uses SMEs when discussing local and minority-owned businesses; the KSC webpage uses the acronym without expanding it.",
+      "status": "CURRENT / EXTERNAL BUSINESS ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "SOP",
+      "description": "Standard Operating Procedure. KSC’s Drinking Water Management System explicitly refers to “standard operating procedures (SOPs)” as controlled supporting documents.",
+      "status": "CURRENT / RECENT KSC WATER-QUALITY PROCEDURE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "SRV",
+      "description": "Special Rate Variation. KSC rate variation process approved through IPART.",
+      "status": "CURRENT / RECENT FINANCIAL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/June-2026-Council-Meeting-Wrap",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "SS",
+      "description": "Suspended solids. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC WATER-QUALITY / TECHNICAL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "S",
+      "term": "STP",
+      "description": "Sewage Treatment Plant. Explicitly used in KSC Council material, including STP Buffer Zone Policy material.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-19-May-2026",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "Supporting Documents",
+      "description": "KSC formally defines Supporting Documents as documents supporting implementation of a policy or procedure, including handbooks, guidelines, forms and checklists.",
+      "status": "CURRENT / FORMALLY DEFINED KSC TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/governance/policies-procedures/5.11-v4-policy-framework-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "T",
+      "term": "T6-YY-###",
+      "description": "Legacy KSC development/application identifier family. Examples include T6-14-333, T6-17-446, T6-20-211, T6-20-507 and T6-21-182. Literal meaning of T6 remains unverified.",
+      "status": "LEGACY / UNRESOLVED CODE FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-in-South-West-Rocks",
+      "category": "unresolved"
+    },
+    {
+      "letter": "T",
+      "term": "TPO",
+      "description": "Tree Preservation Order. Former KSC DCP records Tree Preservation Order 2002 as superseded by later planning controls.",
+      "status": "LEGACY",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b10-tree-preservation-and-vegetation-management",
+      "category": "legacy"
+    },
+    {
+      "letter": "T",
+      "term": "TQE",
+      "description": "KSC procurement identifier prefix. Current 2026 examples include TQE 26-16, TQE 26-15, TQE 26-20 and TQE 26-19; recent closed examples include TQE 26-01 and TQE 26-06. The literal words represented by TQE remain unresolved and are not inferred.",
+      "status": "CURRENT / UNRESOLVED EXPANSION",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "unresolved"
+    },
+    {
+      "letter": "T",
+      "term": "TRIM: ##/####",
+      "description": "Observed KSC records-reference syntax. The 2019 Drinking Water Management System manual carries “TRIM: 19/2008”. The literal expansion of TRIM is not stated in the reviewed KSC source and remains unresolved.",
+      "status": "UNRESOLVED KSC RECORDS IDENTIFIER FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf",
+      "category": "unresolved"
+    },
+    {
+      "letter": "V",
+      "term": "V4 / V6 / V7 / V8 / V9 etc.",
+      "description": "Observed adjacent to KSC policy/document names and strongly indicative of document version numbering. Formal document-control specification remains to be retrieved.",
+      "status": "OBSERVED / INFERENCE",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-16-September-2025",
+      "category": "other"
+    },
+    {
+      "letter": "V",
+      "term": "VendorPanel",
+      "description": "Online tender portal identified by KSC current tender material as the host for Council RFQs, RFTs and EOIs.",
+      "status": "CURRENT KSC PROCUREMENT PLATFORM",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
+      "category": "current"
+    },
+    {
+      "letter": "V",
+      "term": "VPA",
+      "description": "Voluntary Planning Agreement. Agreement between Council and a developer associated with a Planning Proposal or Development Application.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Developer-Contributions/Developer-contribution-plans-and-registers",
+      "category": "current"
+    },
+    {
+      "letter": "V",
+      "term": "vph",
+      "description": "Vehicles per hour. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
+      "status": "LEGACY KSC TRAFFIC / TECHNICAL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "category": "legacy"
+    },
+    {
+      "letter": "W",
+      "term": "WAE",
+      "description": "Work-as-Executed. KSC historical engineering DCP material uses WAE for plans submitted after completion of development construction works.",
+      "status": "LEGACY KSC ENGINEERING ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "legacy"
+    },
+    {
+      "letter": "W",
+      "term": "WFMP",
+      "description": "Workforce Management Plan. Part of KSC Resourcing Strategy under IP&R.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Corporate-management/Integrated-Planning-and-Reporting",
+      "category": "current"
+    },
+    {
+      "letter": "W",
+      "term": "WHS",
+      "description": "Work Health and Safety. KSC material refers to the Work Health and Safety Act and WHS Act.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b03-engineering-requirements-for-subdivision-and-development",
+      "category": "current"
+    },
+    {
+      "letter": "W",
+      "term": "WMC",
+      "description": "Waste Management Centre. KSC uses WMC for the Kempsey Waste Management Centre in pollution-monitoring material.",
+      "status": "CURRENT",
+      "source": "https://www.kempsey.nsw.gov.au/Residents/Waste-recycling/Kempsey-Waste-Management-Centre-Pollution-monitoring-data",
+      "category": "current"
+    },
+    {
+      "letter": "W",
+      "term": "WSAA",
+      "description": "Water Services Association of Australia. Referenced in KSC DCP material for water-service specifications and standard drawings.",
+      "status": "EXTERNAL",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "W",
+      "term": "WTP",
+      "description": "Water Treatment Plant. Used in KSC procurement/project identifiers, including Crescent Head WTP.",
+      "status": "CURRENT / RECENT",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI/Archived-Tenders",
+      "category": "current"
+    },
+    {
+      "letter": "W",
+      "term": "WWTP",
+      "description": "Wastewater Treatment Plant. Used in KSC procurement records for the Stuarts Point Sewerage Scheme.",
+      "status": "CURRENT / RECENT",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI/Archived-Tenders",
+      "category": "current"
+    }
+  ],
+  "referenceSections": [
+    {
+      "title": "Zoning and land-use codes",
+      "type": "terms",
+      "items": [
+        {
+          "term": "C1 / C2 / C3 / C4",
+          "description": "Current Conservation-zone family replacing former Environment Protection zone references E1-E4 from 1 December 2021.",
+          "status": "CURRENT",
+          "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-applications/Planning-guidelines-and-tools"
+        },
+        {
+          "term": "E1 / E2 / E3 / E4",
+          "description": "Older KSC Environment Protection/environmental-zone codes. Relevant older references must be read against the current C1-C4 regime and the applicable date.",
+          "status": "LEGACY IN THAT CONTEXT",
+          "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-applications/Planning-guidelines-and-tools"
+        },
+        {
+          "term": "B1 / B2 / B3 / B6",
+          "description": "Older Business-zone codes appearing in KSC DCP 2013. Historical references require conversion against post-2023 employment-zone changes.",
+          "status": "LEGACY",
+          "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b10-tree-preservation-and-vegetation-management"
+        },
+        {
+          "term": "IN1 / IN2",
+          "description": "Older Industrial-zone codes appearing in historical KSC material and affected by employment-zone reforms.",
+          "status": "LEGACY / CONVERSION REQUIRED",
+          "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b10-tree-preservation-and-vegetation-management"
+        },
+        {
+          "term": "R1",
+          "description": "General Residential.",
+          "status": "CURRENT / VERIFY AGAINST APPLICABLE LEP MAP",
+          "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b10-tree-preservation-and-vegetation-management"
+        },
+        {
+          "term": "R3",
+          "description": "Medium Density Residential.",
+          "status": "CURRENT / VERIFY AGAINST APPLICABLE LEP MAP",
+          "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b10-tree-preservation-and-vegetation-management"
+        },
+        {
+          "term": "R5",
+          "description": "Large Lot Residential.",
+          "status": "CURRENT / VERIFY AGAINST APPLICABLE LEP MAP",
+          "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b10-tree-preservation-and-vegetation-management"
+        },
+        {
+          "term": "RU5",
+          "description": "Rural Village.",
+          "status": "CURRENT / VERIFY AGAINST APPLICABLE LEP MAP",
+          "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b10-tree-preservation-and-vegetation-management"
+        },
+        {
+          "term": "RE1",
+          "description": "Public Recreation.",
+          "status": "CURRENT / VERIFY AGAINST APPLICABLE LEP MAP",
+          "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b10-tree-preservation-and-vegetation-management"
+        },
+        {
+          "term": "RE2",
+          "description": "Private Recreation.",
+          "status": "CURRENT / VERIFY AGAINST APPLICABLE LEP MAP",
+          "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b10-tree-preservation-and-vegetation-management"
+        },
+        {
+          "term": "SP2",
+          "description": "Infrastructure.",
+          "status": "CURRENT / VERIFY AGAINST APPLICABLE LEP MAP",
+          "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b10-tree-preservation-and-vegetation-management"
+        }
+      ]
+    },
+    {
+      "title": "Corporate performance action-code architecture — Sweep 004",
+      "type": "prose",
+      "items": [
+        "Current Delivery Program 2025-2029 families: EN.DP# = Environment; EC.DP# = Economy; CO.DP# = Community; LE.DP# = Leadership.",
+        "Operational Plan actions use corresponding OP families: EN.OP#, EC.OP#, CO.OP# and LE.OP#.",
+        "The number identifies the individual action within the thematic family. These codes are evidence-traceable identifiers and should be preserved verbatim in extracts and investigation registers.",
+        "Operational-plan code sets are annual implementation codes beneath the four-year Delivery Program; an OP code therefore must be read with the applicable financial-year Operational Plan."
+      ]
+    },
+    {
+      "title": "Development processing identifiers — Sweep 004",
+      "type": "prose",
+      "items": [
+        "REFDA###### is the initial reference identifier used by KSC after submission through the NSW Planning Portal, before the application completes intake processing.",
+        "DA######## is the later development-application identifier family already recorded in this glossary.",
+        "RFI is a process status/document shorthand, not an application-number family.",
+        "s4.55(2) identifies a statutory modification pathway and can appear beside an existing DA number and revision suffix."
+      ]
+    },
+    {
+      "title": "Identifier architecture observed",
+      "type": "prose",
+      "items": [
+        "YYYY/LD-##### — Former development-record identifier family. Literal internal meaning of LD remains unresolved.",
+        "T6-YY-### — Separate legacy KSC development/application identifier family. Literal meaning of T6 remains unresolved.",
+        "DA######## — Newer development-application identifier architecture used by Council.",
+        "PP-YYYY-#### — Planning Proposal identifier architecture.",
+        "MP##_#### — NSW Major Project identifier architecture rather than an ordinary KSC DA identifier.",
+        "TQE##/## or TQE##-## — Tender/procurement reference architecture. Literal expansion of TQE remains unresolved.",
+        "REV / REV01 / REV02 ... — Revision suffix architecture.",
+        "Meeting item 11.4 / 11.4.1 etc. — Hierarchical agenda and attachment numbering used in Council meeting packages."
+      ]
+    },
+    {
+      "title": "Current policy document-control architecture — cumulative through Sweep 003",
+      "type": "prose",
+      "items": [
+        "Current KSC policies use structured Document Control fields including Title, Policy Number, Version, Document Number, Audience, Policy Type, Category, Subcategory, approval/effective/review dates, Responsible Officer, Approval Body, consultation requirements and Version Control.",
+        "Observed current policy identifiers include Policy 5.11 / Version 4 / Document Number D24/73553 and Policy 5.9 / Version 5 / Document Number F22/1933.",
+        "KSC formally distinguishes Council Policies from Operational Policies. Council Policies have an external focus and are adopted or revised by the governing body; Operational Policies have an internal focus and are adopted or revised by the General Manager or delegate.",
+        "Procedures use hierarchical identifiers under a parent policy, evidenced by Procedure 2.1.4 under Policy 2.1 and Procedure 5.1.3 under Policy 5.1.",
+        "The literal meanings of the D24 and F22 Document Number prefixes have not been established. No prefix expansion is inferred."
+      ]
+    },
+    {
+      "title": "Current DCP part identifiers — Sweep 002",
+      "type": "prose",
+      "items": [
+        "Part A - Explanation.",
+        "Part B - Shire-Wide Requirements.",
+        "Part C - Place-Based Requirements.",
+        "Part D - Development Requirements.",
+        "Part E - Appendices.",
+        "The Kempsey DCP 2026 commenced on 1 July 2026; these part labels are current DCP navigation identifiers."
+      ]
+    },
+    {
+      "title": "Council resolution identifier",
+      "type": "terms",
+      "items": [
+        {
+          "term": "YYYY.NN(N)",
+          "description": "Observed KSC resolution syntax combining calendar year and sequential resolution number, e.g. 2025.55, 2025.66, 2025.240 and 2026.10.",
+          "status": "CURRENT KSC MEETING IDENTIFIER FAMILY",
+          "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-16-december-2025-minutes.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Legacy policy/procedure codes harvested — Sweep 003",
+      "type": "prose",
+      "items": [
+        "Procedure 3.1.1 - Road Naming.",
+        "Procedure 3.1.2 - Street Lighting.",
+        "Procedure 3.1.5 - Road Naming Application.",
+        "Procedure 3.1.6 - Public Gates and Grids (the former engineering chapter separately cites \"3.1.6 Water Restrictions\", creating a historical numbering inconsistency that requires source-specific checking).",
+        "Procedure 3.1.7 - Pedestrian Access and Mobility Plan.",
+        "Procedure 3.4.1 - Asset Damage Restoration Charge.",
+        "Procedure 3.6.1 - Sundry Debtor Pricing for External Works.",
+        "Procedure 3.6.2 - Contributions towards Works for Footpaths and Kerbing and Guttering."
+      ],
+      "note": "Source status: these identifiers are harvested from the former DCP 2013 and are recorded as historical references. They are not treated as current unless separately verified. Sources: kdcp-b02-parking-access-and-traffic-management ; kdcp-b03-engineering-requirements-for-subdivision-and-development (kempsey.nsw.gov.au)"
+    },
+    {
+      "title": "Collision recap (terms already detailed above, flagged again for visibility)",
+      "type": "prose",
+      "items": [
+        "CMP — KSC uses CMP for both Coastal Management Program and Conservation Management Plan. Never expand CMP without identifying the source context.",
+        "BCA / BCA 2016 — In the KSC DCP glossary, BCA means Building Code of Australia, while \"BCA 2016\" means Biodiversity Conservation Act 2016. The year qualifier is therefore material, not cosmetic.",
+        "Cr / Clr — Current KSC meeting material uses both Cr and Clr as councillor-title abbreviations. Treat them as observed title variants, not different roles.",
+        "FYY/#### — KSC File Numbers use F-prefixed year-like syntax, but the leading F has not been authoritatively expanded. Do not silently rewrite F as \"File\" even though the value sits in a field labelled File Number."
+      ]
+    },
+    {
+      "title": "High-risk terminology collisions",
+      "type": "terms",
+      "items": [
+        {
+          "term": "EPA vs EPA Act",
+          "description": "EPA may mean NSW Environment Protection Authority, while historical KSC planning material can use EPA Act for the Environmental Planning and Assessment Act 1979. Never conflate the two.",
+          "status": "",
+          "source": ""
+        },
+        {
+          "term": "E1-E4",
+          "description": "Historical environmental-zone references can be obsolete under the later C1-C4 conservation-zone nomenclature. Date-control is required.",
+          "status": "",
+          "source": ""
+        },
+        {
+          "term": "Section 94 / 94A",
+          "description": "Historical contribution terminology corresponds to current sections 7.11 / 7.12 respectively.",
+          "status": "",
+          "source": ""
+        },
+        {
+          "term": "DCP",
+          "description": "The date matters. Kempsey DCP 2013 and Kempsey DCP 2026 must not be treated as interchangeable.",
+          "status": "",
+          "source": ""
+        },
+        {
+          "term": "OP",
+          "description": "In corporate planning, OP means Operational Plan. Elsewhere KSC uses the phrase Operational Policy as a policy classification. Do not assume the two are interchangeable.",
+          "status": "AMBIGUOUS / CONTEXT REQUIRED",
+          "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf"
+        },
+        {
+          "term": "IWCM / IWCMS",
+          "description": "KSC material contains both IWCM (Integrated Water Cycle Management) and the older IWCMS (Integrated Water Cycle Management Strategy). Preserve the form actually used by the source and date it.",
+          "status": "TEMPORAL / TERMINOLOGY DISTINCTION",
+          "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/str-amp-asset-planning/planning/lgms/local-growth-management-strategy-2023.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Required fields for future glossary entries (methodology)",
+      "type": "prose",
+      "items": [
+        "Exact term/code and capitalisation",
+        "Verified full expansion",
+        "Plain-English meaning",
+        "KSC functional area",
+        "Current/legacy/external/unresolved/ambiguous status",
+        "First observed date",
+        "Most recent observed date",
+        "Source document/webpage",
+        "Council meeting and item number where applicable",
+        "Statutory source where applicable",
+        "Superseded-by term",
+        "Known aliases",
+        "Ambiguity warning",
+        "Identifier syntax notes",
+        "Verification status"
+      ],
+      "note": "Control rule: Unknown expansions remain UNKNOWN or UNRESOLVED. They are not reverse-engineered merely because an expansion appears plausible."
+    },
+    {
+      "title": "Next research sweep (planned)",
+      "type": "prose",
+      "items": [
+        "Mine the adopted 2026-27 Operational Plan directly for the Year 2 OP-code set and any code-family changes from 2025-26.",
+        "Mine current and archived water/sewer plans for further KSC scheme codes, plant abbreviations, telemetry/operations shorthand and asset-class identifiers.",
+        "Continue unresolved-code investigation for TQE, T6, LD, KLALC and the F-prefix in Council file numbers using archived records and document-control material.",
+        "Mine the current policy register and 2026 Council business papers for additional document numbers, committee shorthand, project codes and statutory-section notation.",
+        "Mine KSC financial statements and annual reports for accounting ratios, fund abbreviations, grant-program codes and audit terminology not yet captured."
+      ]
+    }
+  ]
+}

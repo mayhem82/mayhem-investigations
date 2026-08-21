@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>MAYHEM - KSC Master Glossary</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="../style.css" />
+<style>
+  .glossary-letter-nav { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.75rem 0 1rem; }
+  .glossary-letter-nav a {
+    display: inline-block; min-width: 1.6rem; text-align: center; padding: 0.25rem 0.4rem;
+    border: 1px solid var(--border); border-radius: 0.35rem; font-size: 0.82rem; font-weight: 700;
+    color: var(--text); text-decoration: none; background: var(--surface);
+  }
+  .glossary-letter-nav a:hover { border-color: var(--accent); color: var(--accent); }
+  .cat-badge { display: inline-block; font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.04em; padding: 0.15rem 0.5rem; border-radius: 999px; background: var(--badge-bg); }
+  .cat-current { color: var(--confirmed); }
+  .cat-legacy { color: var(--pending); }
+  .cat-external { color: var(--focus); }
+  .cat-unresolved { color: var(--unresolved); }
+  .cat-ambiguous { color: var(--open); }
+  .cat-other { color: var(--text-muted); }
+  .letter-heading { font-size: 1.1rem; font-weight: 800; margin: 1.5rem 0 0.5rem; color: var(--accent); }
+  .letter-heading:first-child { margin-top: 0.5rem; }
+  .glossary-source a { word-break: break-all; }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="app-header-row">
+    <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="nav-drawer">
+      <span class="menu-icon" aria-hidden="true">&#9776;</span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <div class="app-header-title">
+      <div class="app-name">MAYHEM &middot; Reference</div>
+      <div class="case-id" id="header-case-id">KSC Master Glossary</div>
+    </div>
+  </div>
+</header>
+
+<nav id="nav-drawer" class="nav-drawer" aria-label="Glossary sections" hidden>
+  <ul class="nav-list">
+    <li><button class="nav-link" data-section="overview">Overview</button></li>
+    <li><button class="nav-link" data-section="glossary">Alphabetical Glossary</button></li>
+    <li><button class="nav-link" data-section="reference">Reference Notes</button></li>
+  </ul>
+  <ul class="nav-list">
+    <li><a class="nav-link" href="../index.html">&larr; MAYHEM Investigations</a></li>
+  </ul>
+</nav>
+
+<div id="nav-scrim" class="nav-scrim" hidden></div>
+
+<main id="main-content">
+
+  <section id="section-overview" class="workspace-section" data-title="Overview">
+    <h1 class="section-title">Kempsey Shire Council Master Glossary</h1>
+    <p class="section-intro">Terms, Acronyms, Codes and Identifiers. Not tied to a single case &mdash; a shared
+    reference for reading any Kempsey Shire Council material across this site. Built from operator-supplied
+    research snapshots and updated as new snapshots arrive.</p>
+    <div id="overview-content" class="stack"></div>
+  </section>
+
+  <section id="section-glossary" class="workspace-section" data-title="Alphabetical Glossary" hidden>
+    <div class="section-title-row">
+      <h1 class="section-title">Alphabetical Glossary</h1>
+    </div>
+    <div id="glossary-count" class="section-count"></div>
+    <input type="text" class="filter-input" data-filter-target="glossary-list"
+      placeholder="Search terms, expansions, statuses..." aria-label="Search glossary" />
+    <div id="glossary-letter-nav" class="glossary-letter-nav"></div>
+    <div id="glossary-list" class="stack"></div>
+  </section>
+
+  <section id="section-reference" class="workspace-section" data-title="Reference Notes" hidden>
+    <h1 class="section-title">Reference Notes</h1>
+    <p class="section-intro">Identifier families, code architectures and known term collisions that don't fit
+    a single alphabetical entry &mdash; zoning/land-use codes, corporate action-code families, development
+    identifiers, and this glossary's own methodology and open research leads.</p>
+    <div id="reference-content" class="stack"></div>
+  </section>
+
+  <div id="load-error" class="load-error" hidden></div>
+
+</main>
+
+<footer class="app-footer">
+  <div id="footer-loaded"></div>
+</footer>
+
+<script src="../shared-dom.js"></script>
+<script src="../shared-shell.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
