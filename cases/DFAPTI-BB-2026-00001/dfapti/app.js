@@ -694,6 +694,25 @@
     return adjacency;
   }
 
+  function renderRelationshipStats(evidence, chronology, contradictions, questions, threads, edgeCount) {
+    var container = document.getElementById('relationship-stats');
+    if (!container) return;
+    container.innerHTML = '';
+    [
+      ['Threads', threads.length],
+      ['Evidence', evidence.length],
+      ['Chronology', chronology.length],
+      ['Open questions', questions.length],
+      ['Contradictions', contradictions.length],
+      ['Edges traced', edgeCount],
+    ].forEach(function (pair) {
+      container.appendChild(el('div', { class: 'rel-stat' }, [
+        el('span', { class: 'rel-stat-value' }, [String(pair[1])]),
+        el('span', { class: 'rel-stat-label' }, [pair[0]]),
+      ]));
+    });
+  }
+
   function renderRelationshipMap(evidence, chronology, contradictions, questions, threads) {
     var container = document.getElementById('relationships-list');
     container.innerHTML = '';
@@ -702,6 +721,8 @@
     var labels = buildNodeLabels(evidence, chronology, contradictions, questions, threads);
     var adjacency = buildAdjacency(edges, labels);
     var nodeKeys = Object.keys(adjacency).sort();
+
+    renderRelationshipStats(evidence, chronology, contradictions, questions, threads, edges.length);
 
     document.getElementById('relationships-count').textContent =
       nodeKeys.length + ' linked record(s), ' + edges.length + ' relationship(s)';
@@ -866,13 +887,24 @@
 
     threads.forEach(function (t) {
       var diagram = buildThreadDiagram(t, edges, labels);
+      var linkedCount = (t.supporting_evidence || []).length;
       container.appendChild(diagramCard(
         el('span', {}, [idTag(t.thread_id), ' — ', t.name || '']),
-        el('span', {}, [badge(t.status)]),
+        el('span', { class: 'rel-exhibit-meta' }, [
+          badge(t.status),
+          linkedCount + ' exhibit' + (linkedCount === 1 ? '' : 's') + ' linked',
+        ]),
         diagram,
         'No linked evidence recorded yet for this thread.'
       ));
     });
+
+    container.appendChild(el('div', { class: 'rel-legend' }, [
+      el('span', { class: 'rel-legend-item' }, [el('span', { class: 'rel-legend-shape circle' }, []), 'Thread']),
+      el('span', { class: 'rel-legend-item' }, [el('span', { class: 'rel-legend-shape' }, []), 'Evidence / Chronology']),
+      el('span', { class: 'rel-legend-item' }, [el('span', { class: 'rel-legend-shape diamond' }, []), 'Open question']),
+      el('span', { class: 'rel-legend-item' }, [el('span', { class: 'rel-legend-shape slant' }, []), 'Contradiction']),
+    ]));
 
     loadMermaid().then(function (mermaid) {
       return mermaid.run({ querySelector: '#relationship-diagrams pre.mermaid' });

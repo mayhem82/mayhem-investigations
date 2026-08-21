@@ -238,6 +238,75 @@ body {
   overflow-x: auto;
 }
 
+/* Relationship Map - stat strip and node-shape legend */
+
+.rel-stat-strip {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  background: var(--surface);
+  margin-bottom: 1rem;
+}
+
+.rel-stat {
+  flex: 1 1 110px;
+  padding: 0.7rem 0.9rem;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.rel-stat:last-child { border-right: none; }
+
+.rel-stat-value {
+  display: block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.rel-stat-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.rel-exhibit-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rel-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin: 0.5rem 0 0;
+  padding: 0.9rem 1rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.rel-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.rel-legend-shape {
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 1.5px solid var(--text-muted);
+  flex: 0 0 auto;
+}
+
+.rel-legend-shape.circle { border-radius: 50%; }
+.rel-legend-shape.diamond { transform: rotate(45deg); width: 0.6rem; height: 0.6rem; }
+.rel-legend-shape.slant { transform: skewX(-12deg); }
+
 .diagram-plate .mermaid {
   width: max-content;
   min-width: 100%;
