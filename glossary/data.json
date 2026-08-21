@@ -2,12 +2,12 @@
   "title": "Kempsey Shire Council Master Glossary",
   "subtitle": "Terms, Acronyms, Codes and Identifiers",
   "snapshot": {
-    "id": "KSC-GLOSSARY-SNAP-006",
-    "label": "Snapshot 006",
+    "id": "KSC-GLOSSARY-SNAP-008",
+    "label": "Snapshot 008",
     "dateFrozen": "21 August 2026",
-    "scope": "Kempsey Shire Council terminology encountered in Council webpages, planning material, policies, meeting records, contribution registers, procurement material, corporate plans, annual/statutory reporting, financial statements, capital works, disaster-recovery records, emergency-management material, development-assessment workflow guidance, water/sewer project material and supporting NSW local-government sources used only where necessary to resolve KSC-used codes.",
+    "scope": "Kempsey Shire Council terminology encountered in Council webpages, planning material, policies, meeting records, contribution registers, procurement material, corporate plans, annual/statutory reporting, financial statements, rates and revenue material, GIPA/privacy records, cemetery administration, environmental health, water and sewer systems, engineering standards, emergency management and Council-controlled airport material.",
     "method": "Terms are preserved as encountered. Expansions are recorded only where supported. Unresolved codes remain unresolved rather than being guessed.",
-    "status": "Cumulative through Sweep 006. Snapshots 001, 002, 003, 004 and 005 remain frozen and are not overwritten. Further research passes will continue as separately numbered DOCX snapshots."
+    "status": "Cumulative through Sweep 008. Snapshots 001-007 remain frozen and are not overwritten. Further research passes will continue as separately numbered DOCX snapshots. Snapshot 008 itself states 488 cumulative formal Term entries after this sweep; this page's alphabetical-glossary count (below) reflects only entries parsed into the main A-Z list and may undercount relative to that internal source figure, since some status/source-bearing entries live in the Reference Notes appendix instead."
   },
   "classificationRules": [
     {
@@ -96,6 +96,34 @@
         "Added current and historical emergency/public-agency shorthand including NSW SES, ADF and BoM where directly evidenced in KSC material, while retaining the period and functional context of each source.",
         "Preserved G#####-## as UNRESOLVED. Repeated KSC use confirms it is an embedded project/grant-style code family, but this sweep did not locate authoritative material defining the literal G prefix or number-allocation scheme."
       ]
+    },
+    {
+      "snapshot": "Snapshot 007",
+      "date": "21 August 2026",
+      "items": [
+        "Deep-harvested the current Kempsey Aerodrome Manual (approved 7 March 2024), which contains a formal \"Abbreviations and Acronyms\" table. This adds a large aviation-specific terminology layer used by a Council-controlled operational facility.",
+        "Added airport operational, safety, runway, lighting, navigation and aeronautical-information abbreviations including ACN, ADP, ARFFS, AGL, AIP, AIS, ALARP, AMSL, ARO, ARP, ASDA, ATC, AT-VASIS, AVDGS, CASA, FOD, H24, IFR, ILS, IWDI, LDA, LVP, MAG, MOS, MOWP, NAIPS, NOF, NOTAM, OFZ, OLS, OMGWS, PANS-OPS, PAPI, PCN, RESA, RTIL, RVR, RWY and SMS.",
+        "Harvested the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice abbreviation table for additional airport/community-interface terms including AIAC, ANE, AsA, AWIS, DAP, dB(A), EPNL dB, FY, GA, IMC, KARG, KIAS, KPS, L/V, MTOW, NASF, Nm, NMP, OAR, PSA, QNH, TAG and VMC.",
+        "Harvested the Kempsey Airport rehabilitation Method of Working Plan for project-specific airport codes including YKMP, MOS139, NDD, SYM, TWY and WSO.",
+        "Added current Drinking Water Management System glossary terms C.t., FASS, OCP, PHU, QAP and WQI, and strengthened existing ADWG, CCP, DWMS and SOP entries with the June 2024 KSC DWMS manual as a current source.",
+        "Added current Community Engagement & Participation terminology from the 2025-2028 strategy, including CE&P, IAP2 and SIS.",
+        "Added ARFR (Asset Renewal Funding Ratio) from KSC’s current 2025-2035 Strategic Asset Management Plan glossary.",
+        "Identified two additional high-risk collisions: AEP means Annual Exceedance Probability in the 2026 DCP but Aerodrome Emergency Plan in the current Aerodrome Manual; RV means Residual Value in legacy asset-management material but Runway Visibility in the current Aerodrome Manual. Both now require context-sensitive interpretation."
+      ]
+    },
+    {
+      "snapshot": "Snapshot 008",
+      "date": "21 August 2026",
+      "items": [
+        "Harvested KSC's current 2026-27 Schedule of Fees & Charges for rate, environmental-health, cemetery, certificate, GIPA and fee-classification terminology.",
+        "Added the Fees & Charges pricing-code family A-G, retaining KSC's own distinction between regulated-charge and market-force pricing methodologies, and recorded the associated GST Y/N field as a document coding convention.",
+        "Expanded rates/revenue terminology with ad valorem amount, base amount, Environment Levy, Domestic Waste Management Charge, Commercial Waste Service, rate peg and the rate-making statutory references s494, s496, s496A, s500 and s501.",
+        "Expanded access-to-information and privacy terminology with Agency Information Guide, Mandatory Release, Authorised Proactive Release, Informal Application Request for Information, Formal GIPA Application, Disclosure Log, HPPs, HRIP Act, PPIP Act and MNDB.",
+        "Added the KSC GIPA internal-reference family GIPAYY/NN from Council disclosure logs, including verified examples GIPA22/18, GIPA23/24 and GIPA24/25.",
+        "Expanded cemetery terminology with CCNSW, CCNSW Levy, Interment Right and Perpetual Interment Right, using current KSC cemetery material.",
+        "Expanded environmental-health/wastewater terminology with AWTS, OSMS, AS/NZS 1547:2012 and AS 4674:2004, plus current statutory/certificate shorthand s10.7(2), s10.7(5), s603, s735A, s121Z and s319/POEO Act.",
+        "Added two source-control warnings: KSC documents show s496A versus s501 drift for stormwater charging, and the current 2026-27 Fees & Charges still carries the legacy s121Z / \"EPA Act 1979\" certificate reference. Neither has been silently reconciled."
+      ]
     }
   ],
   "glossary": [
@@ -125,6 +153,22 @@
     },
     {
       "letter": "A",
+      "term": "ACN",
+      "description": "Aircraft classification number. Defined in the current Kempsey Aerodrome Manual abbreviation table.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "Ad valorem amount",
+      "description": "Rating component calculated by applying an amount in the dollar to land value. KSC's Revenue Policy uses a base amount plus ad valorem structure for ordinary rates.",
+      "status": "CURRENT KSC RATING TERM / EXTERNAL STATUTORY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/revenue-policy-2025-26.pdf ; https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1993-030",
+      "category": "current"
+    },
+    {
+      "letter": "A",
       "term": "ADF",
       "description": "Australian Defence Force. KSC used the acronym ADF in its flood-response acknowledgement describing agencies involved in the March 2021 emergency response.",
       "status": "HISTORICAL/RECENT KSC-USED / EXTERNAL EMERGENCY AGENCY",
@@ -133,10 +177,18 @@
     },
     {
       "letter": "A",
+      "term": "ADP",
+      "description": "Aeronautical data package. Defined in the current Kempsey Aerodrome Manual abbreviation table.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
       "term": "ADWG",
       "description": "Australian Drinking Water Guidelines. KSC’s Drinking Water Management System is structured against the ADWG framework, and current Council water-quality reporting continues to refer to the ADWG.",
       "status": "CURRENT / EXTERNAL WATER-QUALITY STANDARD",
-      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf ; https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250205-Kempseys-tap-water-clears-safety-tests-well-below-PFAS-limits",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf ; https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250205-Kempseys-tap-water-clears-safety-tests-well-below-PFAS-limits ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-dwms-manual-2024_v4.7.pdf",
       "category": "current"
     },
     {
@@ -150,10 +202,10 @@
     {
       "letter": "A",
       "term": "AEP",
-      "description": "Annual Exceedance Probability. KSC’s 2026 DCP lists AEP in its formal abbreviation/acronym table.",
-      "status": "CURRENT KSC DCP / EXTERNAL TECHNICAL TERM",
-      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
-      "category": "current"
+      "description": "Two distinct KSC meanings are evidenced. In the 2026 DCP, AEP means Annual Exceedance Probability. In the current Kempsey Aerodrome Manual, AEP means Aerodrome Emergency Plan. The correct meaning must be resolved from document and operational context.",
+      "status": "CURRENT KSC / HIGH-RISK COLLISION / CONTEXT REQUIRED",
+      "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "ambiguous"
     },
     {
       "letter": "A",
@@ -170,6 +222,22 @@
       "status": "KSC-DEFINED / RECENT CORPORATE-PLAN TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
       "category": "other"
+    },
+    {
+      "letter": "A",
+      "term": "Agency Information Guide",
+      "description": "GIPA open-access document describing Council structure, functions, public participation arrangements, information held and information made publicly available.",
+      "status": "CURRENT KSC GIPA / GOVERNANCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Corporate-management/Agency-Information-Guide",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AGL",
+      "description": "Aeronautical ground lighting. Defined in the current Kempsey Aerodrome Manual. The airport noise plan separately uses AGL for Above Ground Level, so source context remains important.",
+      "status": "CURRENT KSC AIRPORT / AMBIGUITY RISK",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "ambiguous"
     },
     {
       "letter": "A",
@@ -205,6 +273,38 @@
     },
     {
       "letter": "A",
+      "term": "AIAC",
+      "description": "Australian International Aviation College. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT PLAN / EXTERNAL ORGANISATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "A",
+      "term": "AIP",
+      "description": "Aeronautical Information Publication. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AIS",
+      "description": "Aeronautical Information Service. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "ALARP",
+      "description": "As low as reasonably practicable. Defined in the current Kempsey Aerodrome Manual as a safety/risk principle.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL SAFETY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
       "term": "AMCORD",
       "description": "Australian Model Code for Residential Development. Listed in the KSC 2026 DCP abbreviation/acronym table.",
       "status": "CURRENT KSC DCP / EXTERNAL PLANNING REFERENCE",
@@ -221,6 +321,22 @@
     },
     {
       "letter": "A",
+      "term": "AMSL",
+      "description": "Above mean sea level. Defined in the current Kempsey Aerodrome Manual and the Kempsey Airport Noise Management Plan.",
+      "status": "CURRENT/RECENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "ANE",
+      "description": "Air Noise Environment. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT NOISE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "A",
       "term": "ANEF",
       "description": "Australian Noise Exposure Forecast. Listed in the KSC 2026 DCP abbreviation/acronym table.",
       "status": "CURRENT KSC DCP / EXTERNAL TECHNICAL TERM",
@@ -233,6 +349,30 @@
       "description": "Asset Protection Zone. Listed in the KSC 2026 DCP abbreviation/acronym table.",
       "status": "CURRENT KSC DCP / EXTERNAL BUSHFIRE/PLANNING TERM",
       "source": "KSC Development Control Plan 2026, Appendix 1 Table E.1; https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan ; indexed Part E text: https://app.propcode.com.au/library/document/nsw/kempsey-dcp-2026/file/4/html",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "ARC",
+      "description": "Aircraft reference code. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "ARFFS",
+      "description": "Aviation rescue and firefighting services. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION SAFETY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "ARFR",
+      "description": "Asset Renewal Funding Ratio. KSC’s 2025-2035 Strategic Asset Management Plan defines ARFR as the proportion of funding allocated for asset renewal compared with total renewal requirements.",
+      "status": "CURRENT KSC ASSET-MANAGEMENT / FINANCIAL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/strategic-asset-management-plan-2025-2035.pdf",
       "category": "current"
     },
     {
@@ -253,6 +393,22 @@
     },
     {
       "letter": "A",
+      "term": "ARO",
+      "description": "Aerodrome reporting officer. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT ROLE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "ARP",
+      "description": "Aerodrome reference point. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
       "term": "AS",
       "description": "Australian Standards. Exact abbreviation used in the KSC 2026 DCP glossary. Distinct from the more specific AS/NZS form recorded elsewhere in this register.",
       "status": "CURRENT KSC DCP / EXTERNAL STANDARDS TERM",
@@ -269,10 +425,34 @@
     },
     {
       "letter": "A",
+      "term": "AS 4674:2004",
+      "description": "Australian Standard for the design, construction and fit-out of food premises. KSC's current food-safety guidance directs food businesses to this standard.",
+      "status": "CURRENT KSC-USED / EXTERNAL FOOD-PREMISES STANDARD",
+      "source": "https://www.kempsey.nsw.gov.au/Business/Business-support-resources/Food-safety-information",
+      "category": "current"
+    },
+    {
+      "letter": "A",
       "term": "AS/NZS",
       "description": "Australian/New Zealand Standard prefix. KSC planning material cites standards in the AS/NZS family, including parking standards.",
       "status": "EXTERNAL STANDARD PREFIX",
       "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan-2013/kdcp-b02-parking-access-and-traffic-management",
+      "category": "external"
+    },
+    {
+      "letter": "A",
+      "term": "AS/NZS 1547:2012",
+      "description": "Australian/New Zealand Standard for on-site domestic wastewater management. It is used in technical material lodged within KSC's planning system.",
+      "status": "KSC-HOSTED PLANNING / EXTERNAL WASTEWATER STANDARD",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/str-amp-asset-planning/planning/planning-proposals/2024/20240517/pp-2023-2403_app-f-on-site-sewage-addendum.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "A",
+      "term": "AsA",
+      "description": "Airservices Australia. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT PLAN / EXTERNAL AGENCY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
       "category": "external"
     },
     {
@@ -285,11 +465,43 @@
     },
     {
       "letter": "A",
+      "term": "ASDA",
+      "description": "Accelerate-stop distance available. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
       "term": "ASM",
       "description": "Abnormal Situation Management. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
       "status": "KSC-DEFINED / RECENT INFRASTRUCTURE TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/corporate-performance/planning-amp-reporting/2024/delivery-program-22-26-and-operational-plan-24-25.pdf",
       "category": "other"
+    },
+    {
+      "letter": "A",
+      "term": "AT-VASIS",
+      "description": "An abbreviated T pattern visual approach slope indicator system. Exact expansion in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "ATC",
+      "description": "Air traffic control. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "Authorised proactive release",
+      "description": "One of the GIPA access pathways described by KSC: Council may proactively release additional information where release is in the public interest.",
+      "status": "CURRENT KSC GIPA ACCESS PATHWAY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Access-to-information",
+      "category": "current"
     },
     {
       "letter": "A",
@@ -316,12 +528,44 @@
       "category": "current"
     },
     {
+      "letter": "A",
+      "term": "AVDGS",
+      "description": "Advanced visual docking guidance system. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "A",
+      "term": "AWIS",
+      "description": "Automated Weather Information System. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT PLAN / EXTERNAL AVIATION-WEATHER TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "A",
+      "term": "AWTS",
+      "description": "Aerated Wastewater Treatment System. KSC's sewage-management application form expressly identifies AWTS as a sewage-management-system type.",
+      "status": "CURRENT KSC ENVIRONMENTAL-HEALTH / WASTEWATER TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/forms/forms-2020/application-install-or-modify-sewage-mgt-system-s68-fl-ce.pdf",
+      "category": "current"
+    },
+    {
       "letter": "B",
       "term": "BAM",
       "description": "Biodiversity Assessment Method. NSW methodology used for biodiversity impact assessment.",
       "status": "EXTERNAL",
       "source": "https://www.environment.nsw.gov.au/publications/biodiversity-assessment-method",
       "category": "external"
+    },
+    {
+      "letter": "B",
+      "term": "Base amount",
+      "description": "Fixed component that KSC adds to an ad valorem amount in its ordinary-rate structure. The Local Government Act separately regulates how much rate revenue may be raised from a base amount.",
+      "status": "CURRENT KSC RATING TERM / EXTERNAL STATUTORY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/revenue-policy-2025-26.pdf ; https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1993-030",
+      "category": "current"
     },
     {
       "letter": "B",
@@ -405,6 +649,14 @@
     },
     {
       "letter": "C",
+      "term": "C.t.",
+      "description": "Used by KSC’s Drinking Water Management System to indicate disinfection efficiency: concentration multiplied by time.",
+      "status": "CURRENT KSC DRINKING-WATER TECHNICAL NOTATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-dwms-manual-2024_v4.7.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
       "term": "CALD",
       "description": "Culturally and Linguistically Diverse. KSC’s 2024-25 statutory annual report uses CALD in workforce/EEO reporting.",
       "status": "CURRENT KSC WORKFORCE TERM",
@@ -417,6 +669,14 @@
       "description": "Capital expenditure. KSC’s Long-Term Financial Plan expressly defines capex as capital expenditure; KSC annual reporting and work-order lists also use CAPEX/Capex for capital works and project expenditure.",
       "status": "CURRENT KSC FINANCIAL / PROJECT TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/10-2-6-long-term-financial-plan-2025-2035.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-b_statutory-requirements.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CASA",
+      "description": "Civil Aviation Safety Authority. Defined in KSC airport operational documents.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL COMMONWEALTH AGENCY",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
       "category": "current"
     },
     {
@@ -437,10 +697,26 @@
     },
     {
       "letter": "C",
+      "term": "CCNSW",
+      "description": "Cemeteries & Crematoria NSW. KSC cemetery application material uses CCNSW when referring to the regulator/code-of-practice framework.",
+      "status": "CURRENT KSC CEMETERY / EXTERNAL AGENCY TERM",
+      "source": "https://beta.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/commercial-business/cemeteries/template-application-for-a-perpetual-interment-right_with-fees-first-application-to-be-completed-updatd-july-2025.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CCNSW Levy",
+      "description": "Cemetery/interment levy identified as a separate component in KSC's cemetery payment schedule. Preserve the levy label as used in the applicable KSC form and fee year.",
+      "status": "CURRENT KSC CEMETERY FEE TERM",
+      "source": "https://beta.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/commercial-business/cemeteries/template-application-for-a-perpetual-interment-right_with-fees-first-application-to-be-completed-updatd-july-2025.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "C",
       "term": "CCP",
       "description": "Critical Control Point. KSC’s Drinking Water Management System establishes CCPs for each drinking-water supply scheme.",
       "status": "CURRENT KSC WATER-QUALITY TERM",
-      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf ; https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Crescent-Head-Boil-Water-Advice-follow-up",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf ; https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Crescent-Head-Boil-Water-Advice-follow-up ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-dwms-manual-2024_v4.7.pdf",
       "category": "current"
     },
     {
@@ -457,6 +733,14 @@
       "description": "Complying Development Certificate. Fast-track development approval where applicable statutory standards are satisfied.",
       "status": "CURRENT",
       "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-applications/Do-I-need-consent-from-Council",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "CE&P",
+      "description": "Community Engagement & Participation. KSC’s 2025-2028 Community Engagement & Participation Strategy uses “CE&P Strategy” as its document shorthand.",
+      "status": "CURRENT KSC CORPORATE / ENGAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/ceps-2025-28-vfinal.pdf",
       "category": "current"
     },
     {
@@ -553,6 +837,14 @@
       "description": "Carbon dioxide. KSC procurement guidance uses CO2 in describing environmental evaluation criteria for supplier emissions.",
       "status": "CURRENT / EXTERNAL TECHNICAL TERM",
       "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council",
+      "category": "current"
+    },
+    {
+      "letter": "C",
+      "term": "Commercial Waste Service",
+      "description": "KSC annual-charge category for non-domestic/commercial waste services. Council rate-making resolutions distinguish this from the Domestic Waste Management Service.",
+      "status": "CURRENT KSC REVENUE / WASTE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-17-june-2025-draft-minutes.pdf",
       "category": "current"
     },
     {
@@ -741,6 +1033,22 @@
     },
     {
       "letter": "D",
+      "term": "DAP",
+      "description": "Departure and Approach Procedures. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT NOISE/OPERATIONS TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "D",
+      "term": "dB(A)",
+      "description": "A-weighted decibel. KSC’s airport noise plan defines dB(A) as an A weighted decibel.",
+      "status": "KSC AIRPORT NOISE MEASUREMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "D",
       "term": "DBH",
       "description": "Diameter at breast height. Listed in the KSC 2026 DCP abbreviation/acronym table, principally relevant to tree/vegetation measurement.",
       "status": "CURRENT KSC DCP / TECHNICAL TERM",
@@ -781,6 +1089,14 @@
     },
     {
       "letter": "D",
+      "term": "Disclosure Log",
+      "description": "GIPA register in which KSC records access applications where released information may be of interest to members of the public.",
+      "status": "CURRENT KSC GIPA / RECORDS TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Access-to-information ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/access-information/disclosure-interests/registers/gipa-disclosure-log-december-2024.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "D",
       "term": "DISPLAN",
       "description": "Local Disaster Plan. Historical KSC coastal emergency-planning material uses DISPLAN for the local disaster plan. It is retained as period-specific legacy terminology and must not automatically be substituted for current emergency-management plan terminology.",
       "status": "LEGACY KSC EMERGENCY-PLANNING TERM",
@@ -810,6 +1126,14 @@
       "status": "LEGACY / EXTERNAL AGENCY TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
       "category": "legacy"
+    },
+    {
+      "letter": "D",
+      "term": "Domestic Waste Management Charge",
+      "description": "Annual charge for the Domestic Waste Management Service. KSC's Revenue Policy states that this charge is made under section 496 of the Local Government Act 1993.",
+      "status": "CURRENT KSC REVENUE / WASTE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/revenue-policy-2025-26.pdf",
+      "category": "current"
     },
     {
       "letter": "D",
@@ -872,7 +1196,7 @@
       "term": "DWMS",
       "description": "Drinking Water Management System. KSC’s formal risk-based system for managing drinking-water quality across Council supply schemes.",
       "status": "CURRENT / RECENT KSC WATER-QUALITY SYSTEM",
-      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-dwms-manual-2024_v4.7.pdf",
       "category": "current"
     },
     {
@@ -965,6 +1289,14 @@
     },
     {
       "letter": "E",
+      "term": "Environment Levy / Environmental Levy",
+      "description": "KSC ordinary-rate/levy terminology used to fund environmental restoration and management. The 2025-26 Revenue Policy uses “Environment Levy”; other KSC planning material may use “Environmental Levy”. Preserve the exact source wording.",
+      "status": "CURRENT KSC RATING TERM / WORDING VARIANT",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/revenue-policy-2025-26.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "E",
       "term": "EOC",
       "description": "Emergency Operations Centre. KSC expressly used EOC for the Emergency Operations Centre coordinating agencies during the March 2021 flood response.",
       "status": "KSC-USED EMERGENCY-MANAGEMENT TERM",
@@ -1029,6 +1361,14 @@
     },
     {
       "letter": "E",
+      "term": "EPNL dB",
+      "description": "Effective Perceived Noise Levels, expressed in decibels. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT NOISE MEASUREMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "E",
       "term": "eProcure",
       "description": "Online procurement/tendering platform label used by KSC business guidance. KSC current tender pages also describe the portal as hosted by VendorPanel; the two labels are preserved separately rather than assumed to be identical.",
       "status": "CURRENT KSC PROCUREMENT TERM",
@@ -1085,6 +1425,14 @@
     },
     {
       "letter": "F",
+      "term": "FASS",
+      "description": "Forensic and Analytical Science Service. Defined in KSC’s June 2024 Drinking Water Management System glossary.",
+      "status": "CURRENT KSC DRINKING-WATER / EXTERNAL LABORATORY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-dwms-manual-2024_v4.7.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "F",
       "term": "FDR",
       "description": "Financial Data Return. KSC’s 2024-25 audited financial statements use FDR in the context of the OLG process for permissible general-rate income.",
       "status": "CURRENT KSC / EXTERNAL FINANCIAL-REPORTING TERM",
@@ -1109,10 +1457,26 @@
     },
     {
       "letter": "F",
+      "term": "FOD",
+      "description": "Foreign object debris. Defined in the current Kempsey Aerodrome Manual and airport project documents.",
+      "status": "CURRENT KSC AIRPORT SAFETY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-airport-upgrade/kempsey-airport-method-of-working-plan.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "F",
       "term": "FOGO",
       "description": "Food Organics and Garden Organics. KSC green-bin waste stream.",
       "status": "CURRENT",
       "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Whats-a-no-go-in-the-FOGO-your-green-bin",
+      "category": "current"
+    },
+    {
+      "letter": "F",
+      "term": "Formal GIPA Application",
+      "description": "Formal access pathway used where information may involve third parties, confidential or commercial material, legal action, or substantial Council resources. KSC's 2026-27 Fees & Charges also separately prices formal GIPA processing.",
+      "status": "CURRENT KSC GIPA ACCESS PATHWAY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Access-to-information ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
       "category": "current"
     },
     {
@@ -1165,6 +1529,14 @@
     },
     {
       "letter": "F",
+      "term": "FY",
+      "description": "Financial Year. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT PLAN / GENERIC FINANCIAL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "F",
       "term": "FYY/####[/##]",
       "description": "Observed KSC File Number syntax family. Examples include F12/1474, F22/1895, F22/3106, F23/2510, F23/3456, F24/3407, F25/3802 and F23/3642/05. The two digits after F align with a year-like pattern, but the literal meaning of the leading F is not expanded in the source and is therefore not asserted.",
       "status": "CURRENT KSC FILE IDENTIFIER FAMILY / LEADING F UNRESOLVED",
@@ -1178,6 +1550,14 @@
       "status": "CURRENT OBSERVED KSC PROJECT SUBCODE / UNRESOLVED",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
       "category": "unresolved"
+    },
+    {
+      "letter": "G",
+      "term": "GA",
+      "description": "General Aviation, with the KSC airport noise plan giving light aircraft as an example.",
+      "status": "KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-airport-upgrade/kempsey-airport-method-of-working-plan.pdf",
+      "category": "external"
     },
     {
       "letter": "G",
@@ -1201,6 +1581,14 @@
       "description": "Government Information (Public Access) Act 2009. KSC’s current Government Contracts register uses GIPAA as an acronym for the Act, while other KSC material uses “GIPA Act”. Preserve the form used by the source.",
       "status": "CURRENT KSC GOVERNANCE/ACCESS-TO-INFORMATION SHORTHAND",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/access-information/register-govt-contracts/2025-26-register-of-government-contracts.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "G",
+      "term": "GIPAYY/NN",
+      "description": "KSC internal-reference family for GIPA access applications. Verified examples include GIPA22/18, GIPA23/24 and GIPA24/25. The year-like component and sequence are preserved as observed; no further internal numbering rules are inferred.",
+      "status": "CURRENT / RECENT KSC GIPA IDENTIFIER FAMILY",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/access-information/disclosure-interests/registers/gipa-disclosure-log-december-2024.pdf",
       "category": "current"
     },
     {
@@ -1237,6 +1625,14 @@
     },
     {
       "letter": "H",
+      "term": "H24",
+      "description": "Continuous. The current Kempsey Aerodrome Manual defines H24 as continuous operation/availability notation.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION NOTATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "H",
       "term": "HBHP",
       "description": "Horseshoe Bay Holiday Park. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
       "status": "KSC-DEFINED / RECENT CAPITAL-PROJECT TERM",
@@ -1257,6 +1653,70 @@
       "description": "Hillgrove Mines Community Reference Group. KSC meeting records use the shortened attachment label “HM CRG” and elsewhere spell out the Hillgrove Mines Community Reference Group.",
       "status": "CURRENT / RECENT KSC MEETING-SHORTHAND TERM",
       "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-16-December-2025 ; https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-March-2026",
+      "category": "current"
+    },
+    {
+      "letter": "H",
+      "term": "HPPs",
+      "description": "Health Privacy Principles. KSC Procedure 5.3.4 states that Schedule 1 of the HRIP Act contains 15 HPPs governing collection, storage, use and disclosure of health information.",
+      "status": "KSC-DEFINED / EXTERNAL PRIVACY PRINCIPLES",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/policies-procedures/procedure-5-03-04-health-records-information-privacy.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "H",
+      "term": "HRIP Act",
+      "description": "Health Records and Information Privacy Act 2002. KSC uses this abbreviation in its privacy procedure and current privacy information.",
+      "status": "CURRENT KSC-USED / EXTERNAL NSW PRIVACY STATUTE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/policies-procedures/procedure-5-03-04-health-records-information-privacy.pdf ; https://www.kempsey.nsw.gov.au/Site-Footer/Privacy",
+      "category": "current"
+    },
+    {
+      "letter": "I",
+      "term": "IAP2",
+      "description": "International Association for Public Participation. KSC’s 2025-2028 Community Engagement & Participation Strategy uses the IAP2 public-participation framework and defines the acronym.",
+      "status": "CURRENT KSC COMMUNITY-ENGAGEMENT / EXTERNAL FRAMEWORK",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/ceps-2025-28-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "I",
+      "term": "IFR",
+      "description": "Instrument flight rules. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "I",
+      "term": "ILS",
+      "description": "Instrument landing system. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "I",
+      "term": "IMC",
+      "description": "Instrument Meteorological Conditions. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT / EXTERNAL AVIATION-WEATHER TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "I",
+      "term": "Informal Application Request for Information",
+      "description": "KSC GIPA pathway for requesting Council information that is not already publicly available where informal release is appropriate. Property-related requests may require an archive file search.",
+      "status": "CURRENT KSC GIPA ACCESS PATHWAY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Access-to-information",
+      "category": "current"
+    },
+    {
+      "letter": "I",
+      "term": "Interment Right",
+      "description": "Contractual right granted by a cemetery operator allowing burials/interments in a specified grave or other cemetery allotment; it does not transfer ownership of cemetery land.",
+      "status": "CURRENT KSC CEMETERY TERM",
+      "source": "https://beta.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/commercial-business/cemeteries/template-application-for-a-perpetual-interment-right_with-fees-first-application-to-be-completed-updatd-july-2025.pdf",
       "category": "current"
     },
     {
@@ -1316,6 +1776,14 @@
       "category": "legacy"
     },
     {
+      "letter": "I",
+      "term": "IWDI",
+      "description": "Illuminated wind direction indicator. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
       "letter": "J",
       "term": "JO",
       "description": "Joint Organisation. Exact expansion in KSC’s formal Key Abbreviations table.",
@@ -1333,6 +1801,14 @@
     },
     {
       "letter": "K",
+      "term": "KARG",
+      "description": "Kempsey Airport Reference Group. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC-SPECIFIC AIRPORT GOVERNANCE TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "K",
       "term": "KDCP",
       "description": "Kempsey Development Control Plan. KSC’s December 2025 Council minutes use the shorthand “KDCP 2026” in the resolution approving the revised draft plan for public exhibition.",
       "status": "CURRENT/RECENT KSC MEETING SHORTHAND",
@@ -1346,6 +1822,14 @@
       "status": "CURRENT",
       "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Local-planning-zoning/Kempsey-Development-Control-Plan",
       "category": "current"
+    },
+    {
+      "letter": "K",
+      "term": "KIAS",
+      "description": "(Knots) Indicated Air Speed. Exact expansion in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "external"
     },
     {
       "letter": "K",
@@ -1381,6 +1865,14 @@
     },
     {
       "letter": "K",
+      "term": "KPS",
+      "description": "Kempsey Airport. The Kempsey Airport Noise Management Plan uses KPS as an abbreviation for Kempsey Airport.",
+      "status": "KSC-SPECIFIC AIRPORT PLAN ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "K",
       "term": "KSC",
       "description": "Kempsey Shire Council. Council itself uses KSC in current material.",
       "status": "CURRENT",
@@ -1405,6 +1897,14 @@
     },
     {
       "letter": "L",
+      "term": "L/V",
+      "description": "Light and Variable. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT / EXTERNAL WEATHER-WIND NOTATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "L",
       "term": "LA",
       "description": "Lane. KSC Standard Drawing ASD 203 lists LA as the standard street-name abbreviation for Lane.",
       "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
@@ -1426,6 +1926,14 @@
       "status": "LEGACY KSC ASSET-MANAGEMENT TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
       "category": "legacy"
+    },
+    {
+      "letter": "L",
+      "term": "LDA",
+      "description": "Landing distance available. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
     },
     {
       "letter": "L",
@@ -1548,6 +2056,30 @@
       "category": "current"
     },
     {
+      "letter": "L",
+      "term": "LVP",
+      "description": "Low-visibility procedures. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "M",
+      "term": "MAG",
+      "description": "Movement area guidance sign. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "M",
+      "term": "Mandatory Release",
+      "description": "KSC term for open-access information that Council must publish or release unless an overriding public interest against disclosure applies.",
+      "status": "CURRENT KSC GIPA ACCESS PATHWAY",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Access-to-information",
+      "category": "current"
+    },
+    {
       "letter": "M",
       "term": "MH",
       "description": "Manhole. Exact expansion in KSC’s 2024-25 capital-project abbreviation table.",
@@ -1594,6 +2126,38 @@
       "status": "KSC-DEFINED / RECENT REGIONAL TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
       "category": "other"
+    },
+    {
+      "letter": "M",
+      "term": "MNDB",
+      "description": "Mandatory Notification of Data Breach scheme. KSC's current privacy information states that Council has processes for eligible data-breach notification under the MNDB scheme.",
+      "status": "CURRENT KSC PRIVACY / EXTERNAL NSW SCHEME TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Site-Footer/Privacy",
+      "category": "current"
+    },
+    {
+      "letter": "M",
+      "term": "MOS",
+      "description": "Manual of Standards. Defined in the current Kempsey Aerodrome Manual; see also the more specific MOS139 project abbreviation.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION REGULATORY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "M",
+      "term": "MOS139",
+      "description": "Manual of Standards Part 139. Exact project abbreviation in KSC’s Kempsey Airport rehabilitation Method of Working Plan.",
+      "status": "KSC AIRPORT PROJECT / EXTERNAL AVIATION STANDARD",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-airport-upgrade/kempsey-airport-method-of-working-plan.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "M",
+      "term": "MOWP",
+      "description": "Method of Working Plan. Defined in the current Kempsey Aerodrome Manual and KSC airport rehabilitation project documentation.",
+      "status": "CURRENT/RECENT KSC AIRPORT PROJECT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-airport-upgrade/kempsey-airport-method-of-working-plan.pdf",
+      "category": "current"
     },
     {
       "letter": "M",
@@ -1661,6 +2225,14 @@
     },
     {
       "letter": "M",
+      "term": "MTOW",
+      "description": "Maximum Take Off Weight. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "M",
       "term": "MVCHP",
       "description": "Macleay Valley Coast Holiday Parks. KSC Long-Term Financial Plan material uses MVCHP/MVCHPs in commercial and financial management initiatives.",
       "status": "CURRENT KSC CORPORATE / COMMERCIAL ABBREVIATION",
@@ -1674,6 +2246,22 @@
       "status": "KSC-DEFINED / RECENT CORPORATE-PLAN TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/departments/corporate-performance/planning-amp-reporting/2022/9.2.1-20220617-ksc-dp-op-22-26-a4-hoz-proof-v6b.pdf",
       "category": "other"
+    },
+    {
+      "letter": "N",
+      "term": "NAIPS",
+      "description": "National aeronautical information processing system. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION INFORMATION SYSTEM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "N",
+      "term": "NASF",
+      "description": "National Airports Safeguarding Framework. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT / EXTERNAL SAFEGUARDING FRAMEWORK",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "external"
     },
     {
       "letter": "N",
@@ -1693,10 +2281,50 @@
     },
     {
       "letter": "N",
+      "term": "NDD",
+      "description": "Non-Destructive Digging. Defined in KSC’s Kempsey Airport rehabilitation Method of Working Plan.",
+      "status": "KSC AIRPORT PROJECT / CONSTRUCTION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-airport-upgrade/kempsey-airport-method-of-working-plan.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "N",
       "term": "NHMRC",
       "description": "National Health and Medical Research Council. KSC water-service material uses NHMRC standards/guidelines as a drinking-water quality reference.",
       "status": "CURRENT / EXTERNAL HEALTH-STANDARD BODY",
       "source": "https://www.kempsey.nsw.gov.au/Residents/Water-sewerage ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "N",
+      "term": "Nm",
+      "description": "Nautical miles. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT / EXTERNAL AVIATION DISTANCE UNIT",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "N",
+      "term": "NMP",
+      "description": "Noise Management Plan. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT MANAGEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "other"
+    },
+    {
+      "letter": "N",
+      "term": "NOF",
+      "description": "NOTAM Office. Defined in the current Kempsey Aerodrome Manual and airport Method of Working Plan.",
+      "status": "CURRENT/RECENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-airport-upgrade/kempsey-airport-method-of-working-plan.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "N",
+      "term": "NOTAM",
+      "description": "Notice to airman. This is the exact expansion printed in the current Kempsey Aerodrome Manual and KSC airport project documentation; it is preserved here as source terminology rather than silently modernised.",
+      "status": "CURRENT KSC SOURCE FORM / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-airport-upgrade/kempsey-airport-method-of-working-plan.pdf",
       "category": "current"
     },
     {
@@ -1733,6 +2361,22 @@
     },
     {
       "letter": "O",
+      "term": "OAR",
+      "description": "Office of Airspace Regulation. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT PLAN / EXTERNAL AVIATION REGULATORY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "O",
+      "term": "OCP",
+      "description": "Operational Control Point. Defined in KSC’s June 2024 Drinking Water Management System glossary.",
+      "status": "CURRENT KSC DRINKING-WATER CONTROL TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-dwms-manual-2024_v4.7.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "O",
       "term": "OEH",
       "description": "Office of Environment and Heritage. Former NSW agency terminology appearing in historical KSC heritage/planning material.",
       "status": "LEGACY / EXTERNAL",
@@ -1741,10 +2385,34 @@
     },
     {
       "letter": "O",
+      "term": "OFZ",
+      "description": "Obstacle free zone. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "O",
       "term": "OLG",
       "description": "Office of Local Government. Appears in KSC meeting attachments, circulars and governance material.",
       "status": "CURRENT / EXTERNAL",
       "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-14-February-2023",
+      "category": "current"
+    },
+    {
+      "letter": "O",
+      "term": "OLS",
+      "description": "Obstacle limitation surface. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "O",
+      "term": "OMGWS",
+      "description": "Outer main gear wheel span. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
       "category": "current"
     },
     {
@@ -1765,10 +2433,34 @@
     },
     {
       "letter": "O",
+      "term": "Open access information",
+      "description": "GIPA category covering information KSC must make publicly available unless there is an overriding public interest against disclosure.",
+      "status": "CURRENT KSC GIPA / RECORDS TERM",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Access-to-information",
+      "category": "current"
+    },
+    {
+      "letter": "O",
       "term": "Operational Policy",
       "description": "Formal KSC policy category for internally focused policies governing day-to-day Council operations. Operational Policies are adopted or revised by the General Manager or delegate.",
       "status": "CURRENT / FORMALLY DEFINED KSC TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/governance/policies-procedures/5.11-v4-policy-framework-policy.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "O",
+      "term": "OSMS",
+      "description": "On-site Sewage Management System. Used in technical planning material held in KSC's planning record for individual on-site wastewater systems.",
+      "status": "KSC-HOSTED PLANNING / EXTERNAL WASTEWATER TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/str-amp-asset-planning/planning/planning-proposals/2024/20240517/pp-2023-2403_app-f-on-site-sewage-addendum.pdf",
+      "category": "external"
+    },
+    {
+      "letter": "O",
+      "term": "Overriding public interest against disclosure",
+      "description": "GIPA decision threshold used by KSC when considering whether open-access or requested government information should be withheld.",
+      "status": "CURRENT KSC GIPA LEGAL TEST",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/Access-to-information",
       "category": "current"
     },
     {
@@ -1781,11 +2473,35 @@
     },
     {
       "letter": "P",
+      "term": "PANS-OPS",
+      "description": "Procedures for Air Navigation Services - Aircraft Operations. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL ICAO AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "PAPI",
+      "description": "Precision approach path indicator. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
       "term": "PCI",
       "description": "Pavement condition index. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
       "status": "LEGACY KSC ASSET-CONDITION TERM",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
       "category": "legacy"
+    },
+    {
+      "letter": "P",
+      "term": "PCN",
+      "description": "Pavement classification number. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION PAVEMENT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
     },
     {
       "letter": "P",
@@ -1797,10 +2513,26 @@
     },
     {
       "letter": "P",
+      "term": "Perpetual Interment Right",
+      "description": "KSC cemetery right reserving a specific interment site for a holder. The current application explains that the right is contractual and does not create ownership of cemetery land.",
+      "status": "CURRENT KSC CEMETERY TERM",
+      "source": "https://beta.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/commercial-business/cemeteries/template-application-for-a-perpetual-interment-right_with-fees-first-application-to-be-completed-updatd-july-2025.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
       "term": "PFAS",
       "description": "Per- and poly-fluoroalkyl substances. Used in KSC environmental reporting relating to South West Rocks groundwater and waterways.",
       "status": "CURRENT ENVIRONMENTAL TERM",
       "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/EPA-Council-PFAS-testing-in-localwaterways",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "PHU",
+      "description": "Public Health Unit. Defined in KSC’s June 2024 Drinking Water Management System glossary.",
+      "status": "CURRENT KSC DRINKING-WATER / EXTERNAL HEALTH TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-dwms-manual-2024_v4.7.pdf",
       "category": "current"
     },
     {
@@ -1834,6 +2566,14 @@
       "status": "CURRENT OBSERVED KSC PROCUREMENT IDENTIFIER / UNRESOLVED EXPANSION",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/governance/access-information/register-govt-contracts/2025-26-register-of-government-contracts.pdf",
       "category": "unresolved"
+    },
+    {
+      "letter": "P",
+      "term": "POEO Act",
+      "description": "Protection of the Environment Operations Act 1997. KSC's current 2026-27 Fees & Charges uses this shorthand in approval/inspection and certificate-related material.",
+      "status": "CURRENT KSC-USED / EXTERNAL NSW ENVIRONMENT STATUTE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
     },
     {
       "letter": "P",
@@ -2093,6 +2833,70 @@
     },
     {
       "letter": "P",
+      "term": "PPIP Act",
+      "description": "Privacy and Personal Information Protection Act 1998. KSC uses PPIP Act as the abbreviation for the principal NSW public-sector personal-information statute.",
+      "status": "CURRENT KSC-USED / EXTERNAL NSW PRIVACY STATUTE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/policies-procedures/procedure-5-03-04-health-records-information-privacy.pdf ; https://www.kempsey.nsw.gov.au/Site-Footer/Privacy",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Pricing Policy A",
+      "description": "KSC Fees & Charges code: Regulated Charges - Federal or State Government set charges.",
+      "status": "CURRENT KSC FEES & CHARGES CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Pricing Policy B",
+      "description": "KSC Fees & Charges code: Regulated Charges - adopts the price or rate recommended by an advisory organisation.",
+      "status": "CURRENT KSC FEES & CHARGES CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Pricing Policy C",
+      "description": "KSC Fees & Charges code: Market Forces - Council operates in a competitive market and fixes charges similar to other providers.",
+      "status": "CURRENT KSC FEES & CHARGES CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Pricing Policy D",
+      "description": "KSC Fees & Charges code: Market Forces - intended to recover annual operation/maintenance costs and contribute to replacement of assets used to provide the service.",
+      "status": "CURRENT KSC FEES & CHARGES CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Pricing Policy E",
+      "description": "KSC Fees & Charges code: Market Forces - intended to recover full annual operation/maintenance cost or the actual cost of providing the good/service.",
+      "status": "CURRENT KSC FEES & CHARGES CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Pricing Policy F",
+      "description": "KSC Fees & Charges code: Market Forces - operating-cost recovery discounted for factors including ability to pay, market conditions and community benefit, with the balance met from general revenue.",
+      "status": "CURRENT KSC FEES & CHARGES CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "Pricing Policy G",
+      "description": "KSC Fees & Charges code: Market Forces - prices set similarly to those applied by other councils for comparable goods/services.",
+      "status": "CURRENT KSC FEES & CHARGES CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "P",
       "term": "Procedure",
       "description": "KSC formally defines a Procedure as an operational instruction setting out the process used to operationalise a Policy - how Council undertakes an activity.",
       "status": "CURRENT / FORMALLY DEFINED KSC TERM",
@@ -2114,6 +2918,14 @@
       "status": "ACTIVE WEBSITE PROCEDURE / CURRENT STATUS TO CONTINUE VERIFYING",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/policies-procedures/procedure-5-01-03-delegation-of-authority.pdf",
       "category": "current"
+    },
+    {
+      "letter": "P",
+      "term": "PSA",
+      "description": "Public Safety Area. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT / EXTERNAL SAFEGUARDING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "external"
     },
     {
       "letter": "P",
@@ -2149,6 +2961,14 @@
     },
     {
       "letter": "Q",
+      "term": "QAP",
+      "description": "Quality Assurance Program. Defined in KSC’s June 2024 Drinking Water Management System glossary.",
+      "status": "CURRENT KSC DRINKING-WATER QUALITY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-dwms-manual-2024_v4.7.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "Q",
       "term": "QBL",
       "description": "Quadruple Bottom Line. KSC Sustainable Procurement and Contracts Policy defines QBL as Economic, Environmental, Social and Governance impacts considered across procurement lifecycle.",
       "status": "CURRENT KSC PROCUREMENT ABBREVIATION",
@@ -2162,6 +2982,14 @@
       "status": "CURRENT",
       "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-February-2026",
       "category": "current"
+    },
+    {
+      "letter": "Q",
+      "term": "QNH",
+      "description": "Query Nautical Height. This is the literal expansion printed in KSC’s Kempsey Airport Noise Management Plan and is preserved as source text; the register does not silently substitute a different aviation explanation.",
+      "status": "KSC AIRPORT SOURCE TERM / SOURCE-FORM PRESERVED",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "other"
     },
     {
       "letter": "R",
@@ -2181,6 +3009,14 @@
     },
     {
       "letter": "R",
+      "term": "Rate peg",
+      "description": "IPART-determined limit used in NSW local-government rating. KSC's Revenue Policy distinguishes the ordinary rate peg from its approved Special Rate Variation.",
+      "status": "CURRENT KSC REVENUE / EXTERNAL NSW RATING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/revenue-policy-2025-26.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "R",
       "term": "RD",
       "description": "Road. KSC Standard Drawing ASD 203 lists RD as the standard street-name abbreviation for Road.",
       "status": "CURRENT KSC STANDARD STREET-NAME ABBREVIATION",
@@ -2193,6 +3029,14 @@
       "description": "Pre-acceptance/reference development-application identifier. KSC states that a newly submitted application is initially identified by a REFDA number, for example REFDA210001, before later processing.",
       "status": "CURRENT / RECENT KSC DEVELOPMENT IDENTIFIER FAMILY",
       "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-applications/Lodge-your-DA",
+      "category": "current"
+    },
+    {
+      "letter": "R",
+      "term": "RESA",
+      "description": "Runway end safety area. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION SAFETY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
       "category": "current"
     },
     {
@@ -2245,11 +3089,67 @@
     },
     {
       "letter": "R",
+      "term": "RTIL",
+      "description": "Runway threshold identification lights. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION LIGHTING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "R",
       "term": "RV",
-      "description": "Residual value. Listed in the 2013 KSC Water Supply Asset Management Plan abbreviation table.",
-      "status": "LEGACY KSC ASSET-VALUATION TERM",
-      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+      "description": "Two distinct KSC meanings are evidenced. In the 2013 Water Supply Asset Management Plan, RV means Residual Value. In the current Kempsey Aerodrome Manual, RV means Runway Visibility. Context is mandatory.",
+      "status": "AMBIGUOUS / CURRENT AIRPORT + LEGACY ASSET-MANAGEMENT COLLISION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "ambiguous"
+    },
+    {
+      "letter": "R",
+      "term": "RVR",
+      "description": "Runway visibility range. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "R",
+      "term": "RWY",
+      "description": "Runway. Defined in the current Kempsey Aerodrome Manual and Kempsey Airport Noise Management Plan.",
+      "status": "CURRENT/RECENT KSC AIRPORT TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "s10.7(2) / Section 10.7(2) Certificate",
+      "description": "Planning certificate reference used in KSC's current 2026-27 Fees & Charges. The subsection-specific certificate must be distinguished from the additional-information certificate under s10.7(5).",
+      "status": "CURRENT KSC PLANNING / STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "s10.7(5) / Section 10.7(5) Certificate",
+      "description": "Additional-information planning certificate reference used in KSC's current 2026-27 Fees & Charges.",
+      "status": "CURRENT KSC PLANNING / STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "s121Z / Section 121Z",
+      "description": "Legacy Environmental Planning and Assessment Act certificate reference that KSC's current 2026-27 Fees & Charges still reproduces in the certificates section. Treat as a historical statutory number carried into a current Council document; verify the applicable current statutory equivalent before legal reliance.",
+      "status": "CURRENT KSC DOCUMENT / LEGACY STATUTORY REFERENCE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
       "category": "legacy"
+    },
+    {
+      "letter": "S",
+      "term": "s319 / Section 319",
+      "description": "POEO Act reference used in KSC's current certificates/notice material. KSC groups it with outstanding-notice certificate searches.",
+      "status": "CURRENT KSC-USED / EXTERNAL STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
     },
     {
       "letter": "S",
@@ -2277,6 +3177,54 @@
     },
     {
       "letter": "S",
+      "term": "s494 / Section 494",
+      "description": "Local Government Act provision requiring councils to make and levy ordinary rates annually. KSC cites s494 in its annual rate-making resolution.",
+      "status": "CURRENT KSC RATING / STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-17-june-2025-draft-minutes.pdf ; https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1993-030",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "s496 / Section 496",
+      "description": "Local Government Act provision for annual domestic waste management charges. KSC cites s496 when making its Domestic Waste Management Service charges.",
+      "status": "CURRENT KSC REVENUE / STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/revenue-policy-2025-26.pdf ; https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1993-030",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "s496A / Section 496A",
+      "description": "Local Government Act provision specifically addressing annual stormwater management service charges. KSC used s496A in its 2023 rate-making resolution.",
+      "status": "KSC-USED / EXTERNAL STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2023/meeting-minutes/230627-ordinary-council-meeting-27-june-2023-confirmed-minutes-signed.pdf ; https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1993-030",
+      "category": "external"
+    },
+    {
+      "letter": "S",
+      "term": "s500 / Section 500",
+      "description": "Local Government Act limit on the proportion of rate revenue that may be raised from a base amount. KSC rate-making material uses “S500 LG Act” in its rate structure.",
+      "status": "CURRENT KSC RATING / STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-17-june-2025-draft-minutes.pdf ; https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1993-030",
+      "category": "current"
+    },
+    {
+      "letter": "S",
+      "term": "s501 / Section 501",
+      "description": "Local Government Act provision for annual charges for specified Council services. KSC's 2025-26 Revenue Policy cites s501 for its stormwater levy, while earlier KSC rate-making material used s496A for stormwater. Context and document date therefore matter.",
+      "status": "CURRENT KSC REVENUE / STATUTORY SHORTHAND / COLLISION RISK",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/revenue-policy-2025-26.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2023/meeting-minutes/230627-ordinary-council-meeting-27-june-2023-confirmed-minutes-signed.pdf ; https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1993-030",
+      "category": "ambiguous"
+    },
+    {
+      "letter": "S",
+      "term": "s603 / Section 603 Certificate",
+      "description": "Local Government Act rates-and-charges certificate reference used in KSC's current 2026-27 Fees & Charges.",
+      "status": "CURRENT KSC CERTIFICATE / STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
       "term": "S64 / Section 64",
       "description": "Section 64 developer contributions. KSC uses section 64 of the Local Government Act 1993 framework for water and sewer infrastructure contributions associated with development.",
       "status": "CURRENT",
@@ -2290,6 +3238,14 @@
       "status": "CURRENT STATUTORY REFERENCE WITH LEGACY NUMBER",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/3/docs/departments/governance/access-information/voluntary-planning-agreements/kempsey-shire-council-voluntary-planning-agreements-register.pdf",
       "category": "legacy"
+    },
+    {
+      "letter": "S",
+      "term": "s735A / Section 735A",
+      "description": "Local Government Act outstanding-notices certificate reference used in KSC's current 2026-27 Fees & Charges.",
+      "status": "CURRENT KSC CERTIFICATE / STATUTORY SHORTHAND",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf",
+      "category": "current"
     },
     {
       "letter": "S",
@@ -2389,6 +3345,14 @@
     },
     {
       "letter": "S",
+      "term": "SIS",
+      "description": "Species Impact Statement. KSC’s 2025-2028 Community Engagement & Participation Strategy defines SIS in its development-assessment acronym list.",
+      "status": "CURRENT KSC DEVELOPMENT/ENGAGEMENT / EXTERNAL NSW PLANNING TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/ceps-2025-28-vfinal.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
       "term": "SMD WTP",
       "description": "Steuart McIntyre Dam Water Treatment Plant. KSC uses SMD WTP as the shorthand project/facility name for the Steuart McIntyre Dam Water Treatment Plant project.",
       "status": "CURRENT KSC WATER-INFRASTRUCTURE PROJECT TERM",
@@ -2405,10 +3369,18 @@
     },
     {
       "letter": "S",
+      "term": "SMS",
+      "description": "Safety management system. Defined in the current Kempsey Aerodrome Manual.",
+      "status": "CURRENT KSC AIRPORT SAFETY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-ad-manual-v2-approved-7.3.24.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "S",
       "term": "SOP",
       "description": "Standard Operating Procedure. KSC’s Drinking Water Management System explicitly refers to “standard operating procedures (SOPs)” as controlled supporting documents.",
       "status": "CURRENT / RECENT KSC WATER-QUALITY PROCEDURE TERM",
-      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-dwms-manual-2024_v4.7.pdf",
       "category": "current"
     },
     {
@@ -2469,6 +3441,14 @@
     },
     {
       "letter": "S",
+      "term": "Stormwater Management Service Charge",
+      "description": "Annual stormwater charge used by KSC for eligible urban properties. Statutory citations in KSC material require date control because Council documents have used both s496A and s501 in relation to stormwater charging.",
+      "status": "CURRENT KSC REVENUE TERM / SOURCE-COLLISION RISK",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/revenue-policy-2025-26.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2023/meeting-minutes/230627-ordinary-council-meeting-27-june-2023-confirmed-minutes-signed.pdf",
+      "category": "ambiguous"
+    },
+    {
+      "letter": "S",
       "term": "STP",
       "description": "Sewage Treatment Plant. Explicitly used in KSC Council material, including STP Buffer Zone Policy material.",
       "status": "CURRENT",
@@ -2492,12 +3472,28 @@
       "category": "other"
     },
     {
+      "letter": "S",
+      "term": "SYM",
+      "description": "Symal Infrastructure. Exact expansion in KSC’s Kempsey Airport rehabilitation Method of Working Plan.",
+      "status": "KSC AIRPORT PROJECT / CONTRACTOR ABBREVIATION",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-airport-upgrade/kempsey-airport-method-of-working-plan.pdf",
+      "category": "other"
+    },
+    {
       "letter": "T",
       "term": "T6-YY-###",
       "description": "Legacy KSC development/application identifier family. Examples include T6-14-333, T6-17-446, T6-20-211, T6-20-507 and T6-21-182. Literal meaning of T6 remains unverified.",
       "status": "LEGACY / UNRESOLVED CODE FAMILY",
       "source": "https://www.kempsey.nsw.gov.au/Plan-Build/Development-in-South-West-Rocks",
       "category": "unresolved"
+    },
+    {
+      "letter": "T",
+      "term": "TAG",
+      "description": "The Airport Group. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT PLAN / ORGANISATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "other"
     },
     {
       "letter": "T",
@@ -2538,6 +3534,14 @@
       "status": "UNRESOLVED KSC RECORDS IDENTIFIER FAMILY",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/overall_dwms_manual_4.3_final_2019.pdf",
       "category": "unresolved"
+    },
+    {
+      "letter": "T",
+      "term": "TWY",
+      "description": "Taxiway. Defined in KSC’s Kempsey Airport rehabilitation Method of Working Plan.",
+      "status": "KSC AIRPORT PROJECT / EXTERNAL AVIATION TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-airport-upgrade/kempsey-airport-method-of-working-plan.pdf",
+      "category": "external"
     },
     {
       "letter": "U",
@@ -2586,6 +3590,14 @@
       "status": "CURRENT KSC PROCUREMENT PLATFORM",
       "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI",
       "category": "current"
+    },
+    {
+      "letter": "V",
+      "term": "VMC",
+      "description": "Visual Meteorological Conditions. Defined in the Kempsey Airport Noise Management Plan and Fly Neighbourly Advice.",
+      "status": "KSC AIRPORT / EXTERNAL AVIATION-WEATHER TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/commercial-business/airport/kempsey-airport-noise-management-plan-and-fly-neighbourly-advice.pdf",
+      "category": "external"
     },
     {
       "letter": "V",
@@ -2661,11 +3673,27 @@
     },
     {
       "letter": "W",
+      "term": "WQI",
+      "description": "Water Quality Indicators. Defined in KSC’s June 2024 Drinking Water Management System glossary.",
+      "status": "CURRENT KSC DRINKING-WATER QUALITY TERM",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-dwms-manual-2024_v4.7.pdf",
+      "category": "current"
+    },
+    {
+      "letter": "W",
       "term": "WSAA",
       "description": "Water Services Association of Australia. Referenced in KSC DCP material for water-service specifications and standard drawings.",
       "status": "EXTERNAL",
       "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/dev-and-compliance/development-assessment/part-a-explanation-kempsey-shire-council-development-control-plan-2026.pdf",
       "category": "external"
+    },
+    {
+      "letter": "W",
+      "term": "WSO",
+      "description": "Works Safety Officer. Defined in KSC’s Kempsey Airport rehabilitation Method of Working Plan.",
+      "status": "KSC AIRPORT PROJECT SAFETY ROLE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-airport-upgrade/kempsey-airport-method-of-working-plan.pdf",
+      "category": "other"
     },
     {
       "letter": "W",
@@ -2690,6 +3718,14 @@
       "status": "CURRENT / RECENT",
       "source": "https://www.kempsey.nsw.gov.au/Business/Doing-business-with-Council/Current-tenders-EOI/Archived-Tenders",
       "category": "current"
+    },
+    {
+      "letter": "Y",
+      "term": "YKMP",
+      "description": "Kempsey Airport. KSC’s airport rehabilitation Method of Working Plan defines YKMP as Kempsey Airport; it functions as the aerodrome location identifier in that project context.",
+      "status": "KSC AIRPORT PROJECT IDENTIFIER / EXTERNAL AVIATION CODE",
+      "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/major-projects/kempsey-airport-upgrade/kempsey-airport-method-of-working-plan.pdf",
+      "category": "external"
     }
   ],
   "referenceSections": [
@@ -2898,6 +3934,27 @@
       ]
     },
     {
+      "title": "Fees & Charges classification-code architecture — Sweep 008",
+      "type": "prose",
+      "items": [
+        "KSC's current 2026-27 Schedule of Fees & Charges encodes each priced item with a Pricing Policy letter (A-G) and a GST field using Y/N. The code values are substantive metadata, not decorative table labels, and should be preserved when a fee is cited."
+      ]
+    },
+    {
+      "title": "GIPA internal-reference architecture — Sweep 008",
+      "type": "prose",
+      "items": [
+        "KSC disclosure logs use a GIPAYY/NN-style internal reference, for example GIPA22/18, GIPA23/24 and GIPA24/25. Treat the complete identifier as provenance for the access application; do not collapse it to a year or sequence alone."
+      ]
+    },
+    {
+      "title": "Rate-making statutory code stack — Sweep 008",
+      "type": "prose",
+      "items": [
+        "KSC rate-making and revenue material uses a cluster of Local Government Act section references including s494, s496, s496A, s500 and s501. These codes describe different rating/annual-charge functions and must not be treated as interchangeable."
+      ]
+    },
+    {
       "title": "High-risk terminology collisions",
       "type": "terms",
       "items": [
@@ -2960,6 +4017,42 @@
           "description": "KSC uses both forms for the Government Information (Public Access) Act 2009. They are aliases, not different statutes. Preserve the exact form used by the source when quoting or indexing records.",
           "status": "",
           "source": ""
+        },
+        {
+          "term": "AEP collision",
+          "description": "AEP = Annual Exceedance Probability in KSC DCP 2026, but AEP = Aerodrome Emergency Plan in the current Kempsey Aerodrome Manual. Never resolve AEP without document context.",
+          "status": "",
+          "source": ""
+        },
+        {
+          "term": "RV collision",
+          "description": "RV = Residual Value in KSC legacy asset-management material, but RV = Runway Visibility in the current Kempsey Aerodrome Manual. Never resolve RV without functional context.",
+          "status": "",
+          "source": ""
+        },
+        {
+          "term": "AGL context warning",
+          "description": "The current Aerodrome Manual expands AGL as Aeronautical Ground Lighting, while the 2019 airport noise plan expands AGL as Above Ground Level. Airport source and document date therefore matter.",
+          "status": "",
+          "source": ""
+        },
+        {
+          "term": "Stormwater: s496A vs s501",
+          "description": "KSC's 27 June 2023 rate-making resolution cites section 496A for Stormwater Management Services, while the 2025-26 Revenue Policy says the stormwater levy is pursuant to section 501. The Local Government Act separately identifies s496A as the stormwater-management-charge provision. Preserve the source citation and year rather than silently substituting one section for the other.",
+          "status": "HIGH-RISK TERMINOLOGY / STATUTORY CONTEXT CONTROL",
+          "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2023/meeting-minutes/230627-ordinary-council-meeting-27-june-2023-confirmed-minutes-signed.pdf ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/revenue-policy-2025-26.pdf ; https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1993-030"
+        },
+        {
+          "term": "s121Z legacy carry-forward",
+          "description": "KSC's current 2026-27 Fees & Charges still refers to a certificate under \"Section 121Z (under the EPA Act 1979)\". This is a legacy statutory reference appearing in a current Council document. Any investigation relying on it must check the legislation applicable to the relevant date.",
+          "status": "HIGH-RISK TERMINOLOGY / STATUTORY CONTEXT CONTROL",
+          "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/4/docs/departments/corporate-performance/planning-amp-reporting/2024/2026-27-fees-and-charges.pdf"
+        },
+        {
+          "term": "GIPA vs PPIP/HRIP",
+          "description": "GIPA governs access to government information; PPIP and HRIP govern privacy handling of personal and health information. KSC material invokes all three frameworks. Similar subject matter does not make them interchangeable.",
+          "status": "HIGH-RISK TERMINOLOGY / STATUTORY CONTEXT CONTROL",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Access-to-information ; https://www.kempsey.nsw.gov.au/Site-Footer/Privacy ; https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/policies-procedures/procedure-5-03-04-health-records-information-privacy.pdf"
         }
       ]
     },
@@ -2988,12 +4081,8 @@
     {
       "title": "Next research sweep (planned)",
       "type": "prose",
-      "items": [
-        "Investigate G#####-## through KSC funding deeds, grant registers, project-control material and disaster-recovery business papers. Do not assign \"grant\" or any other literal expansion until directly evidenced.",
-        "Mine the 2026-27 Operational Plan and capital appendices for new work-order, facility, fund and grant codes introduced after the 2025-26 plan.",
-        "Build a complete current KSC policy/procedure concordance from the Policy Register and all linked procedure PDFs, including document numbers, version fields, approval bodies and supersession chains.",
-        "Continue mining KSC AUS-SPEC 2025 drawings and engineering specifications systematically beyond the ASD 200-series street/kerb layer, including drainage, pavement, water, sewer, traffic-control and survey notation."
-      ]
+      "items": [],
+      "note": "Snapshot 008 left this heading without listed items in the source document itself. Recorded as an honest gap rather than carrying forward Snapshot 006's now-superseded list or inventing new items."
     }
   ]
 }
