@@ -102,6 +102,12 @@ const html = `<!DOCTYPE html>
   evidence already frozen. This page is a living document: the "Discovered Through Investigation" section grows
   every time a case surfaces a genuine pattern with no match here.</p>
 
+  <p class="doc-subtitle"><strong>Interpretive layer, not a legal finding:</strong> every mechanism match applied
+  against a case is the operator's own structural interpretation of already-confirmed evidence - offered for
+  public scrutiny and further investigation, not asserted as a legal, regulatory, or judicial finding of
+  wrongdoing by any institution or individual. The evidence each match cites carries its own independent
+  verification status at the case level; the mechanism label is the analytical lens applied on top of it.</p>
+
   <input type="text" id="mech-filter" class="filter-input" placeholder="Search mechanisms..." aria-label="Search catalogue" />
 
   <h2>Category A &mdash; ${CAT_LABEL.A} (${byCat.A.length})</h2>
