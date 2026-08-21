@@ -10,6 +10,7 @@
     target.appendChild(el("div", { class: "card stack" }, [
       kv("Cycle", d.cycle),
       kv("Generated", d.generated),
+      kv("Evidence frozen", d.freeze_date + " (" + d.freeze_decision + ") — later developments are not reflected"),
       kv("Basis", d.basis_note),
       kv("Catalogue reference", el("span", {}, [d.catalogue_reference + " — ", el("a", { href: "../../../catalogue/index.html" }, ["Full catalogue"])])),
       kv("Position in chain", d.position_in_chain),

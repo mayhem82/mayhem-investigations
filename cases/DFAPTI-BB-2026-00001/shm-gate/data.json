@@ -3,6 +3,8 @@
   "dfapti_case_id": "DFAPTI-BB-2026-00001",
   "cycle": 1,
   "generated": "2026-08-22",
+  "freeze_date": "2026-08-06",
+  "freeze_decision": "DEC-0017",
   "basis_note": "Applies the operator's Structural Harm Mechanism (SHM) Catalogue - a set of named institutional-dysfunction patterns built by the operator from pattern detection across past cases - against this case's own frozen-baseline DFAPTA cross-pattern analysis (30 paths, EV-0001-EV-0071). The catalogue is applied only to evidence already gathered; it played no role in what evidence was collected. A mechanism is listed as Applied only where this case's own DFAPTA paths (produced before the catalogue was cross-referenced against them) already carry an explicit CONFIRMED-status tag with real EV- citations - PROVISIONAL and NOT CONFIRMED tags in the source paths are excluded from Applied and, where a clean pattern exists, carried into Risk / Provisional instead. Nothing here goes beyond what those paths already established.",
   "catalogue_reference": "Structural Harm Mechanism Catalogue v2.0 (operator-authored, 68 named mechanisms; this gate cites 9)",
   "position_in_chain": "Applied after DFAPTA (Stage 2), before Lattice Atlas (Stage 3) - a known-patterns check against frozen evidence, distinct from Lattice Atlas's search for new, not-yet-named emergent patterns.",

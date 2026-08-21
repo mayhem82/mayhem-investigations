@@ -11,9 +11,19 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { CASES, ROOT } = require('../scripts/case-registry.js');
 
 const mechanisms = JSON.parse(fs.readFileSync(path.join(__dirname, 'mechanisms.json'), 'utf8'));
 const discovered = JSON.parse(fs.readFileSync(path.join(__dirname, 'discovered.json'), 'utf8'));
+
+// Freeze dates come from each case's own SHM Gate data, not hardcoded here,
+// so this list stays correct as cases are added or move to a new cycle.
+const freezeDates = CASES.map((c) => {
+  const gatePath = path.join(ROOT, 'cases', c.id, 'shm-gate', 'data.json');
+  if (!fs.existsSync(gatePath)) return null;
+  const gate = JSON.parse(fs.readFileSync(gatePath, 'utf8'));
+  return { id: c.id, date: gate.freeze_date, decision: gate.freeze_decision };
+}).filter(Boolean);
 
 function esc(s) {
   return String(s == null ? '' : s)
@@ -108,10 +118,10 @@ const html = `<!DOCTYPE html>
   wrongdoing by any institution or individual. The evidence each match cites carries its own independent
   verification status at the case level; the mechanism label is the analytical lens applied on top of it.</p>
 
-  <p class="doc-subtitle"><strong>Scoped to each case's evidence freeze date:</strong> matches against
-  DFAPTI-MNC-2026-00001 reflect its register as frozen 17 August 2026; matches against DFAPTI-BB-2026-00001 reflect
-  its register as frozen 6 August 2026. Relevant developments may have occurred since either date that have not
-  been checked against these matches and are not reflected in them.</p>
+  <p class="doc-subtitle"><strong>Scoped to each case's own evidence freeze date:</strong> ${freezeDates.map((f) =>
+    `matches against ${f.id} reflect its register as frozen ${f.date} (${f.decision})`).join('; ')}. Relevant
+  developments may have occurred since that have not been checked against these matches and are not reflected in
+  them.</p>
 
   <input type="text" id="mech-filter" class="filter-input" placeholder="Search mechanisms..." aria-label="Search catalogue" />
 
