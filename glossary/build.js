@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 /**
- * Static-render the glossary page from data.json.
+ * Static-render the glossary page from data.json, styled to match the
+ * public-interest page's design system (this is a public-facing reference,
+ * not part of the internal MAYHEM investigation dashboard).
  *
- * The previous version built all content client-side via fetch(data.json)
- * + JS DOM construction, which meant any tool that reads HTML without
- * executing JavaScript (search-engine crawlers that skip JS, link-preview
- * bots, other research tooling) saw an empty page. This script embeds the
- * full content directly into index.html at build time; app.js is now only
- * a thin progressive-enhancement layer for the live search filter.
+ * Content is embedded directly in the HTML at build time - no fetch, no
+ * client-side DOM construction - so it's readable by any tool or crawler
+ * that doesn't execute JavaScript. app.js is a ~30-line progressive
+ * enhancement layer that only adds the live search filter on top.
  *
  * Usage: node glossary/build.js
  * Run this after editing data.json (e.g. after a new snapshot).
@@ -41,67 +41,73 @@ function statusCategory(status) {
   return 'other';
 }
 
+const CATEGORY_LABEL = {
+  current: 'CURRENT', legacy: 'LEGACY', external: 'EXTERNAL',
+  unresolved: 'UNRESOLVED', ambiguous: 'AMBIGUOUS', other: 'OTHER',
+};
+
 function renderSource(sourceStr) {
-  if (!sourceStr) return '<div class="glossary-source">-</div>';
+  if (!sourceStr) return '';
   const parts = sourceStr.split(/\s*;\s*/);
   return parts.map((part) => {
     const m = part.match(/https?:\/\/\S+/);
     if (m) {
       let url = m[0].replace(/[)\].,]+$/, '');
       const prefix = part.slice(0, part.indexOf(url));
-      return `<div class="glossary-source">${esc(prefix)}<a href="${esc(url)}" target="_blank" rel="noopener">${esc(url)}</a></div>`;
+      return `<div class="src-line">${esc(prefix)}<a href="${esc(url)}" target="_blank" rel="noopener">${esc(url)}</a></div>`;
     }
-    return part ? `<div class="glossary-source">${esc(part)}</div>` : '';
+    return part ? `<div class="src-line">${esc(part)}</div>` : '';
   }).join('');
 }
 
 function renderTermEntry(idPrefix, e) {
   const category = e.category || statusCategory(e.status);
   const searchText = esc(`${e.term} ${e.description} ${e.status}`.toLowerCase());
+  const src = renderSource(e.source);
   return `
-<div class="term-entry" id="${esc(idPrefix)}-${esc(slug(e.term))}" data-search="${searchText}">
-  <div class="term-head"><strong>${esc(e.term)}</strong> <span class="cat-badge cat-${category}">${category}</span></div>
-  ${e.status ? `<div class="record-sub">${esc(e.status)}</div>` : ''}
+<div class="term-entry cat-${category}" id="${esc(idPrefix)}-${esc(slug(e.term))}" data-search="${searchText}">
+  <div class="term-row"><span class="term-name">${esc(e.term)}</span><span class="cat-badge">${CATEGORY_LABEL[category] || category}</span></div>
+  ${e.status ? `<div class="term-status">${esc(e.status)}</div>` : ''}
   <div class="term-desc">${esc(e.description)}</div>
-  <div class="term-source"><span class="kv-label">Source</span>${renderSource(e.source)}</div>
+  ${src ? `<div class="term-source-block">${src}</div>` : ''}
 </div>`;
 }
 
 function renderOverview(d) {
   const snap = d.snapshot;
-  const rules = d.classificationRules.map((r) =>
-    `<div><strong>${esc(r.tag)}</strong>: ${esc(r.meaning)}</div>`).join('\n');
+  const rules = d.classificationRules.map((r) => {
+    const cls = { CURRENT: 'current', LEGACY: 'legacy', EXTERNAL: 'external', UNRESOLVED: 'unresolved', AMBIGUOUS: 'ambiguous' }[r.tag] || 'other';
+    return `<div class="rule-cell"><b class="cat-badge cat-${cls}">${esc(r.tag)}</b><p>${esc(r.meaning)}</p></div>`;
+  }).join('\n');
 
-  const deltas = d.researchDeltas.slice().reverse().map((delta) => `
-<details class="record">
-  <summary><div class="record-title">${esc(delta.snapshot)} — ${esc(delta.date)}</div><div class="record-sub">${delta.items.length} item(s)</div></summary>
-  <div class="record-body"><ul>${delta.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul></div>
+  const deltas = d.researchDeltas.slice().reverse().map((delta, i) => `
+<details class="delta-block"${i === 0 ? ' open' : ''}>
+  <summary><strong>${esc(delta.snapshot)}</strong> &mdash; ${esc(delta.date)} <span class="delta-count">${delta.items.length} item(s)</span></summary>
+  <ul>${delta.items.map((it) => `<li>${esc(it)}</li>`).join('')}</ul>
 </details>`).join('\n');
 
-  const snapshotFiles = [2, 3, 4, 5, 6, 7, 8].map((n) => {
-    const padded = String(n).padStart(3, '0');
-    const dateMap = { '002': '20 Aug 2026', '003': '21 Aug 2026', '004': '21 Aug 2026', '005': '21 Aug 2026', '006': '21 Aug 2026', '007': '21 Aug 2026', '008': '21 Aug 2026' };
-    const current = padded === '008' ? ' — current' : '';
-    return `<div><a href="preserved/KSC-Master-Glossary-Snapshot-${padded}-2026-08-${padded === '002' ? '20' : '21'}.docx">Snapshot ${padded} (.docx, ${dateMap[padded]})${current}</a></div>`;
+  const snapshotDates = { '002': '20 Aug 2026', '003': '21 Aug 2026', '004': '21 Aug 2026', '005': '21 Aug 2026', '006': '21 Aug 2026', '007': '21 Aug 2026', '008': '21 Aug 2026' };
+  const snapshotFiles = Object.keys(snapshotDates).map((padded) => {
+    const day = padded === '002' ? '20' : '21';
+    const current = padded === '008' ? ' &mdash; current' : '';
+    return `<li><a href="preserved/KSC-Master-Glossary-Snapshot-${padded}-2026-08-${day}.docx">Snapshot ${padded} (.docx, ${snapshotDates[padded]})${current}</a></li>`;
   }).join('\n');
 
   return `
-<div class="card stack">
-  <div class="kv-row"><div class="kv-label">Snapshot</div><div class="kv-value">${esc(snap.label)} (${esc(snap.id)})</div></div>
-  <div class="kv-row"><div class="kv-label">Date frozen</div><div class="kv-value">${esc(snap.dateFrozen)}</div></div>
-  <div class="kv-row"><div class="kv-label">Scope</div><div class="kv-value">${esc(snap.scope)}</div></div>
-  <div class="kv-row"><div class="kv-label">Method</div><div class="kv-value">${esc(snap.method)}</div></div>
-  <div class="kv-row"><div class="kv-label">Status</div><div class="kv-value">${esc(snap.status)}</div></div>
+<div class="overview-card">
+  <div class="kv"><span>Snapshot</span><b>${esc(snap.label)} (${esc(snap.id)})</b></div>
+  <div class="kv"><span>Date frozen</span><b>${esc(snap.dateFrozen)}</b></div>
+  <div class="kv"><span>Scope</span><b>${esc(snap.scope)}</b></div>
+  <div class="kv"><span>Method</span><b>${esc(snap.method)}</b></div>
+  <div class="kv"><span>Status</span><b>${esc(snap.status)}</b></div>
 </div>
-<h3 class="section-subtitle">Classification rules</h3>
-<div class="card stack">${rules}</div>
-<h3 class="section-subtitle">Research deltas by snapshot</h3>
+<h3 class="sub-heading">Classification rules</h3>
+<div class="rule-grid">${rules}</div>
+<h3 class="sub-heading">Research deltas by snapshot</h3>
 <div class="stack">${deltas}</div>
-<h3 class="section-subtitle">Preserved snapshot files</h3>
-<div class="card stack">
-${snapshotFiles}
-<div class="record-sub">More snapshots will be added as further research sweeps arrive; each is kept alongside the ones before it rather than overwritten.</div>
-</div>`;
+<h3 class="sub-heading">Preserved snapshot files</h3>
+<ul class="plain-list">${snapshotFiles}</ul>
+<p class="muted-note">More snapshots will be added as further research sweeps arrive; each is kept alongside the ones before it rather than overwritten.</p>`;
 }
 
 function renderGlossary(d) {
@@ -121,28 +127,31 @@ function renderGlossary(d) {
   });
 
   return `
-<div class="section-count">${list.length} term(s)</div>
+<p class="section-count">${list.length} term(s)</p>
 <input type="text" id="glossary-filter" class="filter-input" placeholder="Search terms, expansions, statuses..." aria-label="Search glossary" />
-<div class="glossary-letter-nav">${letterNav}</div>
+<div class="letter-nav">${letterNav}</div>
 <div id="glossary-list">${entries.join('\n')}</div>`;
 }
 
 function renderReferenceSection(section) {
   if (section.type === 'terms') {
-    const items = section.items.map((item) => `
-<div class="term-entry">
-  <div class="term-head"><strong>${esc(item.term)}</strong></div>
-  ${item.status ? `<div class="record-sub">${esc(item.status)}</div>` : ''}
+    const items = section.items.map((item) => {
+      const src = renderSource(item.source);
+      return `
+<div class="term-entry cat-other">
+  <div class="term-row"><span class="term-name">${esc(item.term)}</span></div>
+  ${item.status ? `<div class="term-status">${esc(item.status)}</div>` : ''}
   <div class="term-desc">${esc(item.description)}</div>
-  ${item.source ? `<div class="term-source"><span class="kv-label">Source</span>${renderSource(item.source)}</div>` : ''}
-</div>`).join('\n');
-    return `<div class="stack"><div class="record-sub">${esc(section.title)}</div>${items}</div>`;
+  ${src ? `<div class="term-source-block">${src}</div>` : ''}
+</div>`;
+    }).join('\n');
+    return `<div class="ref-block"><h4>${esc(section.title)}</h4>${items}</div>`;
   }
   const list = section.items.length
     ? `<ul>${section.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>`
-    : '';
-  const note = section.note ? `<div class="caveat">${esc(section.note)}</div>` : '';
-  return `<div class="card"><h3>${esc(section.title)}</h3>${list}${note}</div>`;
+    : '<p class="muted-note">(no items listed in the source this sweep)</p>';
+  const note = section.note ? `<p class="note-box">${esc(section.note)}</p>` : '';
+  return `<div class="ref-block"><h4>${esc(section.title)}</h4>${list}${note}</div>`;
 }
 
 function renderReference(d) {
@@ -154,78 +163,137 @@ const html = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<meta name="description" content="Kempsey Shire Council Master Glossary: terms, acronyms, codes and identifiers found in Council material, checked against primary sources, with known terminology collisions flagged. Shared reference for the MAYHEM investigations." />
-<title>MAYHEM - KSC Master Glossary</title>
+<meta name="description" content="Kempsey Shire Council Master Glossary: terms, acronyms, codes and identifiers found in Council material, checked against primary sources, with known terminology collisions flagged. Part of the Ordinary Public Translation Layer." />
+<meta property="og:title" content="KSC Master Glossary">
+<meta property="og:description" content="Kempsey Shire Council terms, acronyms, codes and identifiers, checked against primary sources.">
+<meta name="twitter:card" content="summary">
+<title>KSC Master Glossary | Public Interest Investigations</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
-<link rel="stylesheet" href="../style.css" />
 <style>
-  .glossary-letter-nav { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.75rem 0 1rem; }
-  .glossary-letter-nav a {
-    display: inline-block; min-width: 1.6rem; text-align: center; padding: 0.25rem 0.4rem;
-    border: 1px solid var(--border); border-radius: 0.35rem; font-size: 0.82rem; font-weight: 700;
-    color: var(--text); text-decoration: none; background: var(--surface);
-  }
-  .glossary-letter-nav a:hover { border-color: var(--accent); color: var(--accent); }
-  .cat-badge { display: inline-block; font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
-    letter-spacing: 0.04em; padding: 0.15rem 0.5rem; border-radius: 999px; background: var(--badge-bg); }
-  .cat-current { color: var(--confirmed); }
-  .cat-legacy { color: var(--pending); }
-  .cat-external { color: var(--focus); }
-  .cat-unresolved { color: var(--unresolved); }
-  .cat-ambiguous { color: var(--open); }
-  .cat-other { color: var(--text-muted); }
-  .letter-heading { font-size: 1.1rem; font-weight: 800; margin: 1.5rem 0 0.5rem; color: var(--accent); }
-  .glossary-source a { word-break: break-all; }
-  .term-entry { background: var(--surface); border: 1px solid var(--border); border-radius: 0.6rem;
-    padding: 0.85rem 1rem; margin-bottom: 0.6rem; overflow-wrap: anywhere; }
-  .term-entry.js-hidden { display: none; }
-  .term-head { font-size: 1rem; margin-bottom: 0.2rem; }
-  .term-desc { font-size: 0.92rem; margin: 0.35rem 0; }
-  .term-source { margin-top: 0.4rem; }
-  .page-nav { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; margin: 0.5rem 0 1.5rem; font-size: 0.85rem; }
-  .page-nav a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+:root { --ink: #17201c; --paper: #f2f0e9; --cream: #e8e4da; --acid: #d8ff3e; --red: #ef6045; --muted: #68716c; --line: #c8cbc3; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: var(--paper); color: var(--ink); margin: 0; font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; }
+.nav { border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); z-index: 10; background: rgba(242,240,233,.94); justify-content: space-between; align-items: center; height: 68px; padding: 0 5vw; display: flex; position: sticky; top: 0; }
+.wordmark { letter-spacing: .1em; align-items: center; gap: 10px; font-size: 13px; font-weight: 900; display: flex; text-decoration: none; }
+.wordmark span { background: var(--ink); color: var(--acid); padding: 0 6px; height: 28px; display: grid; place-items: center; font-size: 11px; }
+.navlinks { align-items: center; gap: 22px; font-size: 12px; font-weight: 700; display: flex; }
+.navlinks a { text-decoration: none; }
+.intro { padding: 56px 7vw 40px; max-width: 900px; }
+.kicker { text-transform: uppercase; letter-spacing: .16em; font-size: 11px; font-weight: 800; color: var(--red); margin: 0 0 14px; }
+.intro h1 { letter-spacing: -.03em; font-size: clamp(34px,5vw,58px); line-height: 1.03; margin: 0 0 16px; font-weight: 900; }
+.intro p.lead { font-family: Georgia, serif; font-size: clamp(17px,1.6vw,21px); line-height: 1.5; color: rgb(56,67,62); max-width: 700px; margin: 0 0 22px; }
+.page-nav { display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 13px; font-weight: 700; }
+.page-nav a { text-decoration: underline; text-underline-offset: 3px; }
+.section { padding: 40px 7vw 10px; max-width: 1100px; }
+.section h2 { letter-spacing: -.03em; font-size: clamp(26px,3.4vw,40px); margin: 0 0 6px; }
+.section-desc { color: var(--muted); max-width: 640px; line-height: 1.6; margin: 0 0 28px; }
+.sub-heading { font-size: 15px; text-transform: uppercase; letter-spacing: .08em; margin: 32px 0 12px; color: var(--red); font-weight: 800; }
+.overview-card { background: rgb(245,243,236); border-top: 5px solid var(--acid); padding: 22px 24px; }
+.kv { border-bottom: 1px solid var(--line); padding: 12px 0; display: flex; flex-direction: column; gap: 3px; }
+.kv:last-child { border-bottom: none; }
+.kv span { text-transform: uppercase; letter-spacing: .07em; font-size: 11px; color: var(--muted); }
+.kv b { font-weight: 400; font-size: 15px; line-height: 1.5; }
+.rule-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 10px; }
+.rule-cell { background: rgb(245,243,236); border: 1px solid var(--line); padding: 14px; }
+.rule-cell p { margin: 8px 0 0; font-size: 13px; color: rgb(85,96,90); line-height: 1.5; }
+.delta-block { background: rgb(245,243,236); border: 1px solid var(--line); padding: 14px 18px; margin-bottom: 8px; }
+.delta-block summary { cursor: pointer; font-size: 14px; }
+.delta-count { color: var(--muted); font-weight: 400; font-size: 12px; }
+.delta-block ul { margin: 12px 0 0; padding-left: 20px; }
+.delta-block li { font-size: 13.5px; line-height: 1.55; color: rgb(60,68,63); margin-bottom: 8px; }
+.plain-list { list-style: none; padding: 0; margin: 0; }
+.plain-list li { padding: 6px 0; font-size: 14px; }
+.plain-list a { text-decoration: underline; text-underline-offset: 2px; }
+.muted-note { color: var(--muted); font-size: 13px; margin-top: 14px; }
+.section-count { color: var(--muted); font-size: 13px; margin: 0 0 10px; }
+.filter-input { width: 100%; max-width: 480px; padding: .7rem .9rem; font-size: 15px; border: 1px solid var(--line); background: #fff; color: var(--ink); margin-bottom: 14px; }
+.letter-nav { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 22px; }
+.letter-nav a { display: inline-block; min-width: 26px; text-align: center; padding: 4px 6px; border: 1px solid var(--line); font-size: 12px; font-weight: 700; text-decoration: none; background: rgb(245,243,236); }
+.letter-nav a:hover { border-color: var(--red); color: var(--red); }
+.letter-heading { font-size: 22px; font-weight: 900; margin: 30px 0 10px; padding-top: 14px; border-top: 3px solid var(--ink); }
+.letter-heading:first-of-type { border-top: none; padding-top: 0; }
+.term-entry { background: rgb(245,243,236); border-left: 5px solid var(--line); padding: 14px 18px; margin-bottom: 10px; overflow-wrap: anywhere; }
+.term-entry.js-hidden { display: none; }
+.term-entry.cat-current { border-left-color: rgb(57,113,75); }
+.term-entry.cat-legacy { border-left-color: rgb(155,110,20); }
+.term-entry.cat-external { border-left-color: rgb(60,110,180); }
+.term-entry.cat-unresolved { border-left-color: rgb(120,120,120); }
+.term-entry.cat-ambiguous { border-left-color: var(--red); }
+.term-entry.cat-other { border-left-color: var(--line); }
+.term-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.term-name { font-size: 17px; font-weight: 900; }
+.cat-badge { font-family: ui-monospace,Menlo,Consolas,monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; padding: 2px 7px; border-radius: 3px; background: var(--line); color: rgb(50,55,52); }
+.cat-current .cat-badge, .rule-cell .cat-badge.cat-current { background: rgb(203,233,211); color: rgb(30,85,48); }
+.cat-legacy .cat-badge, .rule-cell .cat-badge.cat-legacy { background: rgb(255,228,157); color: rgb(110,75,10); }
+.cat-external .cat-badge, .rule-cell .cat-badge.cat-external { background: rgb(200,224,255); color: rgb(20,65,125); }
+.cat-unresolved .cat-badge, .rule-cell .cat-badge.cat-unresolved { background: rgb(222,222,222); color: rgb(70,70,70); }
+.cat-ambiguous .cat-badge, .rule-cell .cat-badge.cat-ambiguous { background: rgb(255,193,180); color: rgb(135,40,20); }
+.term-status { font-family: ui-monospace,Menlo,Consolas,monospace; font-size: 11px; color: var(--muted); margin-top: 4px; }
+.term-desc { font-size: 14.5px; line-height: 1.55; margin: 8px 0 0; color: rgb(40,48,44); }
+.term-source-block { margin-top: 8px; }
+.src-line { font-size: 12px; color: var(--muted); word-break: break-all; }
+.src-line a { text-decoration: underline; text-underline-offset: 2px; }
+.ref-block { margin-bottom: 30px; }
+.ref-block h4 { font-size: 15px; text-transform: uppercase; letter-spacing: .05em; color: var(--red); margin: 0 0 12px; }
+.ref-block ul { padding-left: 20px; }
+.ref-block li { font-size: 14px; line-height: 1.6; margin-bottom: 6px; }
+.note-box { background: rgb(228,231,217); padding: 14px 18px; font-size: 13px; line-height: 1.55; margin-top: 10px; }
+footer { color: #fff; background: rgb(16,23,19); padding: 46px 7vw; margin-top: 40px; font-size: 13px; line-height: 1.6; }
+footer a { text-decoration: underline; text-underline-offset: 2px; }
+@media (max-width: 760px) {
+  .nav { height: 60px; }
+  .intro, .section { padding-left: 6vw; padding-right: 6vw; }
+  .rule-grid { grid-template-columns: 1fr 1fr; }
+}
 </style>
 </head>
 <body>
 
-<header class="app-header">
-  <div class="app-header-row">
-    <div class="app-header-title">
-      <div class="app-name">MAYHEM &middot; Reference</div>
-      <div class="case-id">KSC Master Glossary</div>
-    </div>
+<nav class="nav" aria-label="Primary navigation">
+  <a class="wordmark" href="../public-interest/index.html"><span>PI</span> PUBLIC INTEREST INVESTIGATIONS</a>
+  <div class="navlinks">
+    <a href="../public-interest/index.html">Investigations</a>
+    <a href="../index.html">MAYHEM site</a>
   </div>
-</header>
+</nav>
 
-<main class="doc-page">
-  <h1>${esc(data.title)}</h1>
-  <p class="doc-subtitle">${esc(data.subtitle)}. Not tied to a single case &mdash; a shared reference for reading
-  any Kempsey Shire Council material across this site. Built from operator-supplied research snapshots and
-  updated as new snapshots arrive.</p>
-
+<div class="intro">
+  <p class="kicker">Ordinary Public Translation Layer &middot; Reference</p>
+  <h1>Council language,<br>translated.</h1>
+  <p class="lead">${esc(data.subtitle)}. Kempsey Shire Council material runs on hundreds of acronyms, codes and
+  reference numbers that are rarely explained where they appear &mdash; some meaning two different things in
+  different documents. This page is the plain-language key, checked against Council's own primary sources,
+  term by term.</p>
   <nav class="page-nav" aria-label="On this page">
     <a href="#overview">Overview</a>
     <a href="#glossary">Alphabetical Glossary (${data.glossary.length})</a>
     <a href="#reference">Reference Notes</a>
-    <a href="../index.html">&larr; MAYHEM Investigations</a>
+    <a href="../public-interest/index.html">&larr; Why this exists</a>
   </nav>
+</div>
 
-  <h2 id="overview">Overview</h2>
+<section class="section" id="overview">
+  <h2>Overview</h2>
   ${renderOverview(data)}
+</section>
 
-  <h2 id="glossary">Alphabetical Glossary</h2>
+<section class="section" id="glossary">
+  <h2>Alphabetical Glossary</h2>
   ${renderGlossary(data)}
+</section>
 
-  <h2 id="reference">Reference Notes</h2>
-  <p class="section-intro">Identifier families, code architectures and known term collisions that don't fit a
+<section class="section" id="reference">
+  <h2>Reference Notes</h2>
+  <p class="section-desc">Identifier families, code architectures and known term collisions that don't fit a
   single alphabetical entry.</p>
   ${renderReference(data)}
+</section>
 
-</main>
-
-<footer class="app-footer">
-  <div>Static-rendered at build time from data.json &mdash; content is present without JavaScript. The search
-  box below uses JavaScript as a progressive enhancement only.</div>
+<footer>
+  <div><a href="../public-interest/index.html">&larr; Public Interest Investigations</a> &middot; <a href="../index.html">MAYHEM Investigations (full site)</a></div>
+  <div style="margin-top:8px;color:rgb(170,180,175);">Static-rendered from data.json at build time &mdash; every term above is real HTML, not loaded by JavaScript. The search box is a progressive enhancement only.</div>
 </footer>
 
 <script src="app.js"></script>
