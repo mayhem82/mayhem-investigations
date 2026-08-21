@@ -214,5 +214,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": "EV-0835"
+  },
+  {
+    "note_id": "NOTE-0025",
+    "timestamp": "2026-08-21T14:20:00Z",
+    "activity_type": "Decision",
+    "text": "Operator requested a quality-control review of the Enforcement Notice's rigor - whether claims stay within what the evidence register supports, whether fact is distinguished from judgement, and whether the framing is systemic rather than allegatory. Reviewed the full document section by section. It held up: locatability-only claims in Part One, statutory grounding for every remedy in Part Three, procedural (not punitive) demands in Part Four, and an explicit sender checklist in Part Six. One gap: the verification_state \"Unverified\" disclosure (DEC-0001) existed only in the closing Evidentiary Basis section, where a reader of the substantive Parts One-Four - including the notice's actual recipients - could miss it. See DEC-0013 for the finding and the fix (a verification-status notice moved to immediately after the opening summary).",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

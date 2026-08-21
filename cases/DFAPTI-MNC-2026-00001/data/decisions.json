@@ -107,5 +107,13 @@
     ],
     "investigator": "mayhem82",
     "impact": "Establishes the citation-honesty pattern for any future live WebSearch-only evidence added to this case while this sandbox's WebFetch remains blocked. A future run with working WebFetch access (or a human with a browser) should prioritise re-fetching EV-0835 and EV-0836's source pages verbatim and upgrading them accordingly."
+  },
+  {
+    "decision_id": "DEC-0013",
+    "date": "2026-08-21",
+    "reason": "Operator-requested quality-control review of the Enforcement Notice's rigor and framing, following an unrelated discussion of legal-exposure risk for public-interest publishing generally. Reviewed Parts One through Six plus the Evidentiary Basis section against three criteria: (1) whether claims stay within what the evidence register actually supports, (2) whether the document distinguishes documented fact from inference/judgement, (3) whether it frames findings as systemic/procedural gaps rather than allegations against individuals. Findings: the document holds up well on all three - Part One deliberately claims only locatability (\"no primary source has been located for...\") rather than asserting facts are settled, and explicitly states its gaps are \"not presented as concealment or wrongdoing\"; Part Three grounds every remedy in a specific statutory provision; Part Four's remedies are procedural commitments and published documents, not verdicts. One real gap found: the disclosure that every evidence item carries verification_state \"Unverified\" (DEC-0001) appeared only once, in the final Evidentiary Basis section - a reader of Parts One through Four, including the notice's actual recipients, could reach the substantive claims and demands without seeing that caveat. Fixed by adding a prominent verification-status notice immediately after the document's opening summary, before any recipient-specific or substantive content.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Enforcement Notice now discloses its evidence's unverified, externally-sourced provenance immediately after the opening summary rather than only at the end. No claims, remedies, or recipients were changed - this was a placement/prominence fix, not a substantive correction, because the review found no claim exceeding what the evidence register supports."
   }
 ]
