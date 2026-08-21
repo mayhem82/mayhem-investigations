@@ -887,7 +887,7 @@
       container.appendChild(depCard);
     }
 
-    threads.forEach(function (t, idx) {
+    threads.forEach(function (t) {
       var diagram = buildThreadDiagram(t, edges, labels);
       var linkedCount = (t.supporting_evidence || []).length;
       var card = diagramCard(
@@ -899,10 +899,11 @@
         diagram,
         'No linked evidence recorded yet for this thread.'
       );
-      // Open the first couple by default so the diagrams are visible on
-      // arrival, not hidden behind a "Show more" click nobody expects to
-      // find a chart under - matches how the shared artifact presented them.
-      if (idx < 2) card.setAttribute('open', '');
+      // Open by default so every diagram is visible on arrival, not
+      // hidden behind a "Show more" click nobody expects to find a chart
+      // under. Still collapsible, for readers who want to close the ones
+      // they've already looked at.
+      card.setAttribute('open', '');
       container.appendChild(card);
     });
 
