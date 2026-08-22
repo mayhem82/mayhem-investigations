@@ -1,0 +1,72 @@
+[
+  {
+    "question_id": "Q-0001",
+    "question": "What did the 20 May 2025 Kempsey Shire Council meeting actually resolve regarding Bellbrook flying-fox management - a discretionary decline plus an informal hope to revisit, or a specific numbered resolution passed 9/0 directing investigation and an October report-back?",
+    "why_exists": "Direct conflict between the Hardened Submission Package (EV-0010) and every other source in the case, including the independently-fetched Macleay Argus article (EV-0001). See CTR-0001.",
+    "evidence_creating_question": ["EV-0001", "EV-0003", "EV-0010"],
+    "evidence_required_to_resolve": "The signed confirmed minutes of the 20 May 2025 ordinary council meeting.",
+    "likely_source": "Kempsey Shire Council meeting-minutes archive (council site returned HTTP 403 to automated fetch on 2026-08-22) or a GIPA/formal records request.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0002",
+    "question": "What are the exact eligibility terms of the NSW Government's flying-fox camp management grants program, and is it accurate that a completed Camp Management Plan is a strict precondition for any site to receive funding?",
+    "why_exists": "This is the case's central structural claim (EV-0011) but rests entirely on operator-supplied fact sheets, not the program's own published guidelines.",
+    "evidence_creating_question": ["EV-0002", "EV-0011"],
+    "evidence_required_to_resolve": "NSW DCCEEW's published flying-fox grants program guidelines or funding round documentation.",
+    "likely_source": "NSW Department of Climate Change, Energy, the Environment and Water (DCCEEW) website or a direct information request.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0003",
+    "question": "Has the 18 March 2026 council letter to Bellbrook residents (EV-0004) been independently obtained, and does its actual text match how it is described in the two operator-supplied documents that summarise it?",
+    "why_exists": "The letter itself has not been sighted directly by this investigation - only consistent summaries of it across two documents.",
+    "evidence_creating_question": ["EV-0004"],
+    "evidence_required_to_resolve": "A copy of the actual 18 March 2026 letter, signed by Caro Szary.",
+    "likely_source": "Operator's own copy, or a GIPA/records request to Kempsey Shire Council.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0004",
+    "question": "Does Kempsey Shire Council's website, or the NSW Government's Flying-fox Camp Database, actually classify the Bellbrook camp as 'historic' rather than active?",
+    "why_exists": "Single-source claim (EV-0009) from the media pitch document, not repeated in any of the other seven documents.",
+    "evidence_creating_question": ["EV-0009"],
+    "evidence_required_to_resolve": "Direct check of council's flying-fox camp page and/or the NSW Government Flying-fox Camp Database entry for Bellbrook.",
+    "likely_source": "Kempsey Shire Council website (returned HTTP 403 to automated fetch on 2026-08-22) or NSW DCCEEW's Flying-fox Camp Database.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0005",
+    "question": "Have any of the drafted formal submissions (council letter, Ombudsman complaint, senator letter, media pitch) actually been sent or lodged, and if so, has any response been received?",
+    "why_exists": "All four documents were supplied as unsigned drafts (\"Resident of Bellbrook NSW 2440\" with a blank signature line). Their status as sent-and-pending versus still-drafts is unconfirmed.",
+    "evidence_creating_question": ["EV-0006", "EV-0007"],
+    "evidence_required_to_resolve": "Confirmation from the operator of lodgement dates, or copies of any acknowledgement/response received.",
+    "likely_source": "Operator (mayhem82).",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0006",
+    "question": "Has any local Bellbrook resident sought medical care for symptoms consistent with histoplasmosis, whether or not formally tested or diagnosed?",
+    "why_exists": "EV-0008 establishes the illness mechanism and notes mild cases would go uncounted by design; it explicitly does not claim any local case has occurred.",
+    "evidence_creating_question": ["EV-0008"],
+    "evidence_required_to_resolve": "Resident testimony or, at aggregate/de-identified level, local health district data.",
+    "likely_source": "Community impact records (e.g. the Bellbrook Advocacy Flying-Fox Form) or Mid North Coast Local Health District.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0007",
+    "question": "What does the actual text of the NSW Flying-fox Camp Management Code of Practice 2018 say about Level 1 and Level 2 management actions, and does it match the description given in EV-0012?",
+    "why_exists": "Cross-corroborated between two operator documents but not yet checked against the primary regulatory text itself.",
+    "evidence_creating_question": ["EV-0012"],
+    "evidence_required_to_resolve": "The published NSW Flying-fox Camp Management Code of Practice 2018.",
+    "likely_source": "NSW DCCEEW publications.",
+    "status": "Open",
+    "resolution_evidence": []
+  }
+]

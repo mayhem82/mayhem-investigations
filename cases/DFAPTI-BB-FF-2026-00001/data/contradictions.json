@@ -1,0 +1,12 @@
+[
+  {
+    "contradiction_id": "CTR-0001",
+    "description": "Seven of the case's eight source documents, and the one independently-fetched press source (EV-0001, The Macleay Argus), describe the 20 May 2025 council meeting as council declining the Bellbrook management-plan request outright on budget grounds, with a separate stated hope to revisit the matter in October 2025 - an informal commitment, not a voted directive. The eighth document, the Hardened Submission Package (EV-0010), describes a materially different sequence: Resolution 2025.79 passed extending meeting hours, a shire-wide-alignment amendment defeated 2/7, and Resolution 2025.80 passed 9/0 unanimously directing the executive to investigate Level 1 management options and report back by October - meaning the October failure is non-execution of an affirmative unanimous resolution, not a missed informal hope.",
+    "supporting_evidence": ["EV-0001", "EV-0003", "EV-0005"],
+    "opposing_evidence": ["EV-0010"],
+    "status": "Open",
+    "material_significance": "Determines the actual statutory weight of council's October failure. \"Council didn't revisit something it hoped to\" and \"council didn't execute a resolution it unanimously voted for\" are different institutional failures - the second is the load-bearing claim for the Hardened Submission Package's SafeWork NSW and Office of Local Government submissions, and is not currently supported by the rest of this case's evidence.",
+    "required_resolution": "The signed confirmed minutes of the 20 May 2025 Kempsey Shire Council ordinary meeting, read directly rather than via search snippet or press summary. The council's own site and web.archive.org both blocked automated fetch attempts on 2026-08-22; this requires either a manual browser fetch of the meeting-minutes PDF or a GIPA/formal records request.",
+    "resolution_evidence": []
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "chronology_id": "CHR-0001",
+    "event_date": "2019-11",
+    "date_is_inference": false,
+    "event_description": "A grey-headed flying-fox colony relocates to Bellbrook during the Black Summer bushfire event, establishing a camp in the only unburnt area of the community.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0001"]
+  },
+  {
+    "chronology_id": "CHR-0002",
+    "event_date": "2022",
+    "date_is_inference": false,
+    "event_description": "Kempsey Shire Council completes a Flying-fox Camp Management Plan for Rudder Park, East Kempsey - the shire's only completed plan for any site.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0002"]
+  },
+  {
+    "chronology_id": "CHR-0003",
+    "event_date": "2025-05-20",
+    "date_is_inference": false,
+    "event_description": "Paul Hodgson, representing the Bellbrook Hall and Progress Association, formally presents a Flying-fox Camp Management Plan support request to Kempsey Shire Council at the ordinary council meeting. Council states it does not have the budget to tackle the issue, and indicates it hopes to revisit the matter at the October 2025 meeting. Separately, a Notice of Motion described as providing Bellbrook with more information about managing the colony is reported as passed at the same meeting.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0001", "EV-0003"]
+  },
+  {
+    "chronology_id": "CHR-0004",
+    "event_date": "2025-08-27",
+    "date_is_inference": false,
+    "event_description": "Council-organised community meeting held in Bellbrook to discuss flying-fox impacts.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0004"]
+  },
+  {
+    "chronology_id": "CHR-0005",
+    "event_date": "2025-09-16",
+    "date_is_inference": false,
+    "event_description": "Council-organised door-to-door visits with affected Bellbrook residents.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0004"]
+  },
+  {
+    "chronology_id": "CHR-0006",
+    "event_date": "2025-10",
+    "date_is_inference": false,
+    "event_description": "October 2025 ordinary council meeting held. No item on Bellbrook flying-fox management appears in the meeting agenda or, per every source in this case, the confirmed minutes.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0004", "EV-0005"]
+  },
+  {
+    "chronology_id": "CHR-0007",
+    "event_date": "2026-03-18",
+    "date_is_inference": false,
+    "event_description": "Kempsey Shire Council issues a written advocacy update to affected Bellbrook residents, signed by Caro Szary, Group Manager Strategic and Asset Planning. Describes correspondence to NSW DCCEEW and Mid North Coast Local Health District, the 2025 community meeting and resident visits, camp monitoring, a letter of support to Bellbrook Public School, an intention to seek external grants for infrastructure, and a request for state-level support through Michael Kemp MP, State Member for Oxley. States council is waiting on a response from state agencies.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0004"]
+  },
+  {
+    "chronology_id": "CHR-0008",
+    "event_date": "2026-06",
+    "date_is_inference": false,
+    "event_description": "Formal submissions drafted for simultaneous lodgement with Kempsey Shire Council, the NSW Minister for Climate Change/Energy/Environment/Water, the State Member for Oxley, the Federal Member for Lyne, the Federal Minister for the Environment and Water, and the NSW Ombudsman.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0006", "EV-0007"]
+  }
+]

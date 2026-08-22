@@ -1,0 +1,74 @@
+[
+  {
+    "search_id": "SRCH-0001",
+    "search_terms": "Kempsey Shire Council \"Resolution 2025.80\" Bellbrook flying fox",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-22",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0002",
+    "search_terms": "Kempsey Shire Council May 2025 ordinary meeting minutes Bellbrook flying fox",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-22",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0003",
+    "search_terms": "\"Bellbrook\" flying fox Kempsey council miragenews May 2025",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-22",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0004",
+    "search_terms": "kempsey.nsw.gov.au ordinary-council-meeting-20-may-2025 minutes filetype:pdf",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-22",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0005",
+    "search_terms": "\"Resolution 2025.80\" OR \"Resolution 2025.79\" Kempsey Shire Council",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-22",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 9,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0006",
+    "search_terms": "Kempsey Shire Council \"Notice of Motion\" Bellbrook flying fox management plan May 2025",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-22",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 5,
+    "results_preserved": 2
+  }
+]

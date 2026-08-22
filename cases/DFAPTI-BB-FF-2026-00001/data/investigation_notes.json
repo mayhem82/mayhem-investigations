@@ -1,0 +1,29 @@
+[
+  {
+    "note_id": "NOTE-0001",
+    "timestamp": "2026-08-22T00:00:00Z",
+    "activity_type": "Research",
+    "text": "Read the operator's linked repository, mayhem82/bellbrook-advocacy-flying-fox-form, for context before any case material was supplied: a standalone resident impact-record form (local storage only, no auto-submission) plus a genuinely rigorous canopy-health evidence methodology (NDVI satellite analysis, baseline/control-area comparison, GPS-tagged repeatable ground photography), framed as the first deployment of a future 'SEE' (Spatial Evidence Engine) capability. That spatial-evidence layer does not exist yet in MAYHEM and is out of scope for this case until it does.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0002",
+    "timestamp": "2026-08-22T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Extracted and read eight operator-supplied docx documents. Fixed a real bug in the extraction script during this pass: the <w:t> text-run regex was also matching <w:top> (Word's paragraph-border element), corrupting every bulleted paragraph in documents that used list-item borders. Re-extracted all eight files after the fix; verified no remaining XML leakage before reading.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0003",
+    "timestamp": "2026-08-22T00:00:00Z",
+    "activity_type": "Research",
+    "text": "Independently fetched the Macleay Argus's direct coverage of the 20 May 2025 council meeting and searched specifically for the Hardened Submission Package's resolution numbers (2025.79, 2025.80) and 9/0 vote claim. Found corroboration for the softer account (declined on budget, hoped to revisit October) in the Macleay Argus and in a search-snippet of council's own May meeting wrap (a Notice of Motion for 'more information' did pass). Found no corroboration anywhere for the specific resolution numbers or vote count. Council's own site and web.archive.org both blocked automated fetch of the primary signed minutes - this remains genuinely unresolved, not disproven, and is logged as CTR-0001 / Q-0001 rather than decided either way.",
+    "related_thread": "THR-02",
+    "related_source": "SRC-0001",
+    "related_evidence": "EV-0001"
+  }
+]

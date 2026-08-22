@@ -1,0 +1,10 @@
+[
+  {
+    "run_id": "RUN-0001",
+    "date": "2026-08-22",
+    "sources_checked": ["SRC-0001", "SRC-0002", "SRC-0003", "SRC-0004", "SRC-0005", "SRC-0006", "SRC-0007", "SRC-0008", "SRC-0009", "SRC-0010", "SRC-0011"],
+    "result": "New evidence added.",
+    "evidence_added": ["EV-0001", "EV-0002", "EV-0003", "EV-0004", "EV-0005", "EV-0006", "EV-0007", "EV-0008", "EV-0009", "EV-0010", "EV-0011", "EV-0012"],
+    "notes": "Case creation and initial ingestion run. Operator supplied 8 docx files (fact sheet, health briefing, harm/accountability record, and four draft advocacy/complaint letters) alongside a linked GitHub repository (mayhem82/bellbrook-advocacy-flying-fox-form) providing methodological context. This run: (1) fixed a text-extraction bug that had corrupted bulleted-paragraph content in the docx-to-text pipeline, (2) read all eight documents in full, (3) independently fetched and read one press source (Macleay Argus) rather than relying solely on operator-supplied material, (4) ran six targeted web searches to attempt verification of the Hardened Submission Package's specific resolution-number claim, and (5) opened a formal contradiction (CTR-0001) rather than silently choosing between the two competing accounts of the 20 May 2025 council meeting. Nothing in this run was treated as Verified except EV-0001, which was independently fetched and read directly; every other item remains Unverified pending primary-source confirmation."
+  }
+]

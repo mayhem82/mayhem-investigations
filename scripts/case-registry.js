@@ -20,6 +20,7 @@ const ROOT = path.join(__dirname, '..');
 const CASES = [
   { id: 'DFAPTI-BB-2026-00001', dataDir: path.join(ROOT, 'data'), preservedDir: path.join(ROOT, 'preserved') },
   { id: 'DFAPTI-MNC-2026-00001', dataDir: path.join(ROOT, 'cases', 'DFAPTI-MNC-2026-00001', 'data'), preservedDir: path.join(ROOT, 'cases', 'DFAPTI-MNC-2026-00001', 'preserved') },
+  { id: 'DFAPTI-BB-FF-2026-00001', dataDir: path.join(ROOT, 'cases', 'DFAPTI-BB-FF-2026-00001', 'data'), preservedDir: path.join(ROOT, 'cases', 'DFAPTI-BB-FF-2026-00001', 'preserved') },
 ];
 
 function findCase(caseId) {

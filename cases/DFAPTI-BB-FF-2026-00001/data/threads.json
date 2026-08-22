@@ -1,0 +1,56 @@
+[
+  {
+    "thread_id": "THR-01",
+    "name": "Management plan gap and grant-funding access",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0002", "EV-0011"],
+    "outstanding_work": "Confirm the NSW grants program's plan-gating rule against its own published guidelines (Q-0002), not just operator-supplied summaries.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-02",
+    "name": "The May 2025 meeting - what was actually resolved",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0001", "EV-0003", "EV-0010"],
+    "outstanding_work": "Obtain and read the signed confirmed minutes directly (Q-0001, CTR-0001). Highest-priority thread - almost every downstream accountability claim in this case depends on which account of this meeting is accurate.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-03",
+    "name": "Advocacy chain and disclosed outcomes",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0004", "EV-0005", "EV-0006", "EV-0007"],
+    "outstanding_work": "Confirm whether the drafted submissions were actually lodged and whether any response has been received (Q-0005). Obtain the 18 March 2026 letter directly rather than via summary (Q-0003).",
+    "dependencies": ["THR-02"],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-04",
+    "name": "Available management actions vs. the legal-protection framing",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0012"],
+    "outstanding_work": "Check the described Level 1/Level 2 actions against the actual Code of Practice text (Q-0007).",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-05",
+    "name": "Health risk - droppings exposure and histoplasmosis",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0008"],
+    "outstanding_work": "Establish whether any resident has sought care for symptoms consistent with histoplasmosis (Q-0006). This thread should not be advanced beyond what EV-0008 itself supports - the mechanism is documented, a local case is not.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-06",
+    "name": "Camp classification - documented status vs. functional reality",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0009"],
+    "outstanding_work": "Verify or discard the single-source 'historic camp' classification claim (Q-0004) before it is used anywhere.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  }
+]

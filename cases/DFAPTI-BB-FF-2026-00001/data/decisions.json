@@ -1,0 +1,26 @@
+[
+  {
+    "decision_id": "DEC-0001",
+    "date": "2026-08-22",
+    "reason": "Case opened as a new sibling case, DFAPTI-BB-FF-2026-00001, distinct from DFAPTI-BB-2026-00001 (the Willawarrin/Bellbrook water case). Same locality and council, but a structurally different issue (wildlife/land management vs. drinking water), different governing legal framework (Biodiversity Conservation Act 2016 / Flying-fox Camp Management Policy 2015, not drinking-water regulation), and its own document set - warranting its own case identifier and evidence register rather than a thread inside the water case. Per this repository's established live/frozen-snapshot gating model, only the DFAPTI (evidence) stage is built at case creation; DFAPTA and every stage downstream of it are not built until an explicit operator freeze command.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Case directory structure created at cases/DFAPTI-BB-FF-2026-00001/ following the per-case layout (established for DFAPTI-MNC-2026-00001, per DEC-0019 in the water case). Registered in scripts/case-registry.js and added as a card on the root index.html."
+  },
+  {
+    "decision_id": "DEC-0002",
+    "date": "2026-08-22",
+    "reason": "Eight operator-supplied docx documents were extracted and read in full, plus one independent source (Macleay Argus) was fetched directly. A real contradiction surfaced: the Hardened Submission Package (SRC-0006) describes the 20 May 2025 council meeting materially differently from every other source in the case, including the independently-fetched press account - specific resolution numbers, a 9/0 vote, and a defeated 2/7 amendment that no other source corroborates. A targeted web search for those specific resolution numbers found nothing; the council's own site and web.archive.org both blocked automated fetch of the primary minutes. Consistent with this repository's standing discipline against merging externally-sourced or operator-supplied material on trust (established for DFAPTI-BB-2026-00001's RUN-0064/RUN-0066 and DFAPTI-MNC-2026-00001's RUN-0066), the more specific and more damaging claim is recorded as Requires Verification, not fact, and logged as a formal contradiction (CTR-0001) rather than silently resolved either way.",
+    "supporting_evidence": ["EV-0001", "EV-0010"],
+    "investigator": "mayhem82",
+    "impact": "CTR-0001 opened. EV-0010 (the Resolution 2025.79/2025.80 claim) explicitly flagged as not to be used in any public-facing material until independently verified against the actual signed minutes."
+  },
+  {
+    "decision_id": "DEC-0003",
+    "date": "2026-08-22",
+    "reason": "The operator noted that case material supplied further back in their own working history should be expected to be less reliable, not more - reflecting their own evidentiary discipline maturing over time. This matches what was found: the Hardened Submission Package reads as an earlier, more aggressive draft than the Harm and Accountability Record and the formal complaint letters that followed it, and it is the one document whose account is not corroborated.",
+    "supporting_evidence": ["EV-0010"],
+    "investigator": "mayhem82",
+    "impact": "Standing instruction for future evidence intake on this and other cases: when documents from the same source disagree, check the more specific or more recently-styled claim against independent sources before treating it as an upgrade in accuracy - it may instead be the least verified."
+  }
+]
