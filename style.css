@@ -236,6 +236,8 @@ body {
   border-radius: 0.6rem;
   padding: 0.75rem;
   overflow-x: auto;
+  overflow-y: auto;
+  max-height: 70vh;
 }
 
 /* Relationship Map - stat strip and node-shape legend */

@@ -878,6 +878,10 @@
           startOnLoad: false,
           securityLevel: 'loose',
           theme: window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default',
+          // Render at native size instead of shrinking to fit the
+          // container - a 130+ node diagram squeezed to container width
+          // is illegible. .diagram-plate scrolls both axes instead.
+          flowchart: { useMaxWidth: false },
         });
         return mermaid;
       });
