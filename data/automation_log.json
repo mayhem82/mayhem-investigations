@@ -855,5 +855,22 @@
       "EV-0074"
     ],
     "notes": "Automated pass on DFAPTI-BB-2026-00001 (chosen over DFAPTI-MNC-2026-00001, whose Stages 2-6 are frozen and whose Stage-1 register is a still-Unverified external corpus; BB has 8 open questions and 13 active threads genuinely worth another pass). Multi-angle sweep per DEC-0014 across CTR-0001, Q-0001, Q-0005 and THR-10/THR-13. Direct fetch remains fully EGRESS_BLOCKED (abs.gov.au, kempsey.nsw.gov.au, macleayargus.com.au, nationalwatergrid.gov.au all blocked this session, same organizational egress policy as DEC-0008/DEC-0012); no attempt made to route around it, per DEC-0006/DEC-0012 and this run's operator prompt. One genuinely new finding registered: the ABS 2021 Census State Suburb population for Willawarrin (SAL14312) = 183, with 191 (2016) and 335 (2006) from the same series (EV-0074/SRC-0106). This is the independent statistical-boundary figure CTR-0001's required_resolution asked for; it corroborates EV-0006's ~180 and shows EV-0005's 130 matches no ABS boundary (most likely a narrower service/village-core count), so CTR-0001 was moved Open -> Partially Resolved (kept short of Resolved because the source is search-snippet-only and unpreserved). Q-0001/THR-10: definitively confirmed the recurring 'Northern Sentinel: water treatment plant commissioning planned for mid-August 2026' search hit is Kitimat, British Columbia, Canada - not Willawarrin - closing the distractor RUN-0065 had flagged; still no 2026-dated confirmation of the Willawarrin plant's commissioning status, which remains gated on fetch-blocked council pages. Q-0005/THR-13: reconfirmed LC Eire contractor, ~late-2026 completion and 12 ML/day for the Steuart McIntyre Dam plant; no new dated construction milestone. Minor snippet inconsistency noted and not registered: one summary gave the SMD future-expansion allowance as '+6 ML/day' against EV-0029's already-registered '12 ML/day expandable to 22' (i.e. +10) - treated as snippet noise, not a contradiction."
+  },
+  {
+    "run_id": "RUN-0068",
+    "date": "2026-08-22",
+    "sources_checked": [
+      "SRC-0025",
+      "SRC-0026",
+      "SRC-0058",
+      "SRC-0096",
+      "SRC-0098",
+      "SRC-0107"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0075"
+    ],
+    "notes": "Automated pass on DFAPTI-BB-2026-00001, chosen over DFAPTI-MNC-2026-00001 to keep the two cases' collection cadence roughly even (MNC was worked most recently, RUN-0010 on 2026-08-21; BB had gone two days, RUN-0067 on 2026-08-20, and still has 8 of 9 questions and 13 of 15 threads open). Confirmed via a live control fetch (example.com) that WebFetch remains EGRESS_BLOCKED this session, same organizational egress policy as DEC-0008/DEC-0012, while WebSearch functions normally; no attempt made to route around the block, per DEC-0006/DEC-0012 and this run's operator prompt. Ran a 20-query multi-angle sweep (SRCH-0266 to SRCH-0285) per DEC-0014's full-surface cadence, covering Q-0001, Q-0002, Q-0003, Q-0005, Q-0008 and THR-05/07/08/09/10/12/13/14. One genuinely new finding registered: a funding breakdown for the Steuart McIntyre Dam/Sherwood Borefield project ($17,225,000 NSW Government + $14.18m Kempsey Shire Council + a previously-unregistered $9m Australian Government Housing Support Program contribution), attributed to the National Water Grid Authority/DCCEEW project pages and corroborated by a dated Australian Pipeliner article, reproduced cleanly and consistently across three independently-worded searches this run - directly conflicting with the $13.2m NSW/$27.1m Council split already corroborated by three other independent dated sources. This revisits and corrects RUN-0063's dismissal of a similar figure as an unreliable one-off snippet; registered as EV-0075/SRC-0107 and a new contradiction, CTR-0002 (Open), rather than left as an artifact. Also investigated and ruled out a candidate lead that the Willawarrin plant's Council page had moved to a 'Completed-works' listing (it still resolves under Current-works) and confirmed no new Willawarrin community-update PDF, DWMS annual report (2021-22/2022-23), or Bellbrook-specific augmentation record exists beyond what is already registered - Q-0001, Q-0002 and Q-0008 remain genuinely search-exhausted, not newly closed. No commissioning confirmation or contractor/construction-progress update found for either the Willawarrin or Steuart McIntyre Dam plants beyond the register's existing figures."
   }
 ]

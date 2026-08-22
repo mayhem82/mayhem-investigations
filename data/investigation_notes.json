@@ -1159,5 +1159,32 @@
     "related_thread": null,
     "related_source": "SRC-0106",
     "related_evidence": "EV-0074"
+  },
+  {
+    "note_id": "NOTE-0130",
+    "timestamp": "2026-08-22T00:05:00",
+    "activity_type": "Researching",
+    "text": "RUN-0068 (automated pass). Compared both cases via resume.js: BB (DFAPTI-BB-2026-00001) last worked RUN-0067 (2026-08-20, two days ago), 8 of 9 questions and 13 of 15 threads still open; MNC (DFAPTI-MNC-2026-00001) last worked RUN-0010 (2026-08-21, yesterday), all 18 questions still open but was the case worked most recently. Chose BB for today's pass to keep rotation even between the two active cases, per the operator prompt's instruction to pick whichever case is genuinely due another pass today. Confirmed via the agent-proxy status endpoint and a live WebFetch/WebSearch test that WebSearch works normally this session but WebFetch remains EGRESS_BLOCKED on a control fetch of example.com - the same organizational egress constraint recorded at DEC-0008/DEC-0012 and every recent run; no attempt made to route around it.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0131",
+    "timestamp": "2026-08-22T00:20:00",
+    "activity_type": "Finding",
+    "text": "Multi-angle WebSearch sweep (20 queries, SRCH-0266 to SRCH-0285) across Q-0001/Q-0002/Q-0003/Q-0005/Q-0008 and THR-05/THR-07/THR-08/THR-09/THR-10/THR-12/THR-13/THR-14, per DEC-0014's full-surface cadence. Genuinely new finding: while re-checking the Steuart McIntyre Dam/Sherwood Borefield project's funding structure from several different angles, found a funding breakdown from National Water Grid Authority/DCCEEW project pages (corroborated by a dated 24 Mar 2025 Australian Pipeliner article) that reproduced cleanly and consistently across three independently-worded searches: $17,225,000 NSW Government + $14.18m Kempsey Shire Council + a previously-unregistered $9m Australian Government Housing Support Program contribution - conflicting with the $13.2m NSW/$27.1m Council split already corroborated by three other independent dated sources (EV-0005, a 27 Mar 2025 Macleay Argus Mayor's column, and EV-0029). This specifically revisits and corrects RUN-0063's dismissal of a similar figure as an unreliable one-off snippet - it is registered as new evidence (EV-0075/SRC-0107) and a new contradiction (CTR-0002) rather than left undocumented, since the bar for registering search-snippet leads in this investigation does not require a fetched primary document, only honest labelling of the sourcing gap.",
+    "related_thread": "THR-13",
+    "related_source": "SRC-0107",
+    "related_evidence": "EV-0075"
+  },
+  {
+    "note_id": "NOTE-0132",
+    "timestamp": "2026-08-22T00:35:00",
+    "activity_type": "Note",
+    "text": "Investigated and ruled out one candidate lead for Q-0001/THR-10 (Willawarrin commissioning status): a search result showed the Council project page at a shortened URL omitting the \"Current-works\" path segment, raising the possibility the page had been moved to a \"Completed-works\" listing the way other finished Willawarrin-area projects (e.g. the Showground precinct) have been. A dedicated follow-up search in the same session found the page still resolves under .../Major-projects/Current-works/Willawarrin-Water-Treatment-Plant, so this is not evidence of a status change - most likely two indexed URL variants of the same live page, not registered as evidence. Also searched specifically for any Winter/Spring/Summer 2025 or any 2026 Willawarrin community-update PDF beyond the already-registered Autumn 2025 edition (EV-0068) and for any 2021-22/2022-23 Drinking Water Management System annual report (Q-0008) or new Bellbrook-specific augmentation record (Q-0002/THR-14) - none found in any case; all three gaps remain exactly where prior runs left them, genuinely search-exhausted rather than newly closed.",
+    "related_thread": "THR-10",
+    "related_source": null,
+    "related_evidence": null
   }
 ]

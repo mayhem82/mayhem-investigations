@@ -1482,5 +1482,19 @@
     "hash_status": "No Hash",
     "associated_thread": null,
     "availability_notes": "abs.gov.au returns EGRESS_BLOCKED to this session's fetch tool (same organizational egress policy as DEC-0008/DEC-0012). Confirmed via search-engine snippet only. ABS 2021 Census QuickStats for the Willawarrin State Suburb (SAL14312): total population 183. Also captured from the same source series: Willawarrin 2016 Census (SSC14295) = 191, 2006 (SSC19409) = 335, and that Willawarrin does not meet the >=200-person threshold to be classified as an Urban Centre/Locality (UCL) in 2021, so no separate UCL count exists for it. Directly relevant to CTR-0001 (the 130 vs 180 Willawarrin population discrepancy between two March 2025 NSW Government releases)."
+  },
+  {
+    "source_id": "SRC-0107",
+    "authority": "National Water Grid Authority / Australian Government DCCEEW",
+    "title": "Kempsey water treatment plant (Steuart McIntyre Dam) project page",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.nationalwatergrid.gov.au/projects/kempsey-water-treatment-plant",
+    "first_checked": "2026-08-22",
+    "last_checked": "2026-08-22",
+    "current_version": "Not confirmed - fetch blocked; content known only via search-engine AI-summary snippets",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-13",
+    "availability_notes": "nationalwatergrid.gov.au and dcceew.gov.au both return EGRESS_BLOCKED to this session's fetch tool (same organizational egress policy as DEC-0008/DEC-0012). Search-engine summaries of this page state a funding breakdown ($12.5m Cwlth NWGF, $17,225,000 NSW Government, $14.18m Kempsey Shire Council, $9m Cwlth Housing Support Program) that conflicts with the $13.2m/$27.1m breakdown already registered from three other independent dated sources (EV-0005, EV-0029, and a 27 Mar 2025 Macleay Argus Mayor's column) - see EV-0075/CTR-0002. A companion Australian Pipeliner article (pipeliner.com.au, dated 24 Mar 2025) independently reproduces the same $17,225,000/$14.18m/$9m figures."
   }
 ]

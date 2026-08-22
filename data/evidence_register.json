@@ -1940,5 +1940,34 @@
       "CTR-0001"
     ],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0075",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-22",
+    "source_date": "2025-03-24",
+    "source_authority": "National Water Grid Authority / Australian Government DCCEEW",
+    "source_title": "Kempsey water treatment plant (Steuart McIntyre Dam) - project funding breakdown",
+    "source_type": "Government Record",
+    "source_location": "https://www.nationalwatergrid.gov.au/projects/kempsey-water-treatment-plant ; https://www.dcceew.gov.au/water/national-water-grid/projects/kempsey-water-treatment-plant",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "nationalwatergrid.gov.au and dcceew.gov.au are both EGRESS_BLOCKED to this session's fetch tool (same organizational egress policy as DEC-0008/DEC-0012); content known only via search-engine AI-summary snippets this session.",
+    "evidence_description": "Three separately-worded WebSearch queries this run (on the SMD project's general funding structure, on Bellbrook, and on the Housing Support Program specifically) each independently returned the same alternative funding breakdown for the $52.9m/$52.905m Steuart McIntyre Dam/Sherwood Borefield project, attributed to the National Water Grid Authority/DCCEEW project pages and corroborated by a same-window (24 March 2025) Australian Pipeliner article: $12.5m Australian Government National Water Grid Fund (matching the figure already in EV-0005/EV-0029), $17,225,000 from the NSW Government (rather than the $13.2m/$13.22m already registered), $14.18m from Kempsey Shire Council (rather than the $27.1m/$27.17m already registered), plus an additional $9m from the Australian Government's Housing Support Program not mentioned in any previously registered source. All four figures sum to approximately $52.9m, matching the established project total.",
+    "relevant_quotation": "New South Wales Government ($17,225,000) and Kempsey Shire Council ($14.18 million)... An additional $9 million in funding has been provided through the Australian Government's Housing Support Program.",
+    "investigation_relevance": "Creates a new, internally consistent (sums to the same ~$52.9m total) but directly conflicting funding breakdown for the Steuart McIntyre Dam/Sherwood Borefield project (THR-13/Q-0005), against the $13.2m NSW/$27.1m Council split already corroborated by three independent, dated sources spanning March-August 2025 (EV-0005, water.nsw.gov.au, 21 Mar 2025; a Macleay Argus Mayor Kinne Ring column dated 27 Mar 2025; EV-0029, a federal project tracker dated 31 Aug 2025). This revisits RUN-0063's dismissal of a similar '$17.23 million' figure (THR-05) as an unreliable one-off snippet: today it reproduces cleanly and consistently across three independently-worded searches, all citing the same National Water Grid Authority/DCCEEW source, so it is registered as evidence and a new contradiction (CTR-0002) rather than left undocumented - it is not yet established which breakdown (if either) is current/authoritative.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0005",
+      "EV-0029"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [
+      "CTR-0002"
+    ],
+    "open_question_links": [
+      "Q-0005"
+    ]
   }
 ]

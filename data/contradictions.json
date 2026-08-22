@@ -13,5 +13,20 @@
     "material_significance": "Both figures come from official government releases about the same project within the same week, so this is not an obvious media-error case - it may reflect different data sources (e.g. ABS Census vs a service-connections count), different geographic boundaries (the town itself vs a wider locality), or simply an editing inconsistency between two government departments describing the same project. Affects how the plant's population-served figure should be reported and whether either number can be treated as authoritative without qualification. RUN-0067 (2026-08-20): the ABS 2021 Census State Suburb count for Willawarrin (SAL14312) is 183 persons, with 191 at the 2016 Census (EV-0074) - independently corroborating the ~180 figure (EV-0006) as the defensible whole-of-locality population. The 130 figure (EV-0005) matches no ABS boundary and is most consistent with a narrower service-connections or village-core count. This is now treated as a boundary/definition difference rather than a straight error, so the contradiction is Partially Resolved: the census-locality population is reliably ~180, while the exact basis of the 130 figure remains unconfirmed. Formal resolution still awaits either a preserved ABS record (fetch-blocked this session) or a Council statement of the Willawarrin scheme's service-connection/resident count with its boundary defined.",
     "required_resolution": "An ABS Census figure for Willawarrin (State Suburb or Urban Centre/Locality boundary) or a Kempsey Shire Council record stating the number of service connections/residents for the Willawarrin supply scheme specifically, ideally with the population definition or boundary stated.",
     "resolution_evidence": []
+  },
+  {
+    "contradiction_id": "CTR-0002",
+    "description": "Two sets of sources give different funding breakdowns for the same ~$52.9m Steuart McIntyre Dam/Sherwood Borefield treatment plant project, both summing to approximately the same total: EV-0005 (water.nsw.gov.au, 21 Mar 2025), a Macleay Argus Mayor Kinne Ring column (27 Mar 2025), and EV-0029 (a federal project tracker, 31 Aug 2025) all state $13.2m/$13.22m from the NSW Government's Safe and Secure Water Program and $27.1m/$27.17m from Kempsey Shire Council; EV-0075 (National Water Grid Authority/DCCEEW project pages, corroborated by an Australian Pipeliner article dated 24 Mar 2025) states $17,225,000 from the NSW Government and $14.18m from Kempsey Shire Council, plus an additional $9m from the Australian Government's Housing Support Program not mentioned in any source in the first group.",
+    "supporting_evidence": [
+      "EV-0005",
+      "EV-0029"
+    ],
+    "opposing_evidence": [
+      "EV-0075"
+    ],
+    "status": "Open",
+    "material_significance": "Both readings describe the same named project (Steuart McIntyre Dam/Sherwood Borefield, ~$52.9m total) and both are attributed to official/government-adjacent sources, so this cannot be dismissed as an obvious single-outlet error. If EV-0075's breakdown is correct and reflects the current position, Council's own cash contribution would be materially lower ($14.18m vs $27.1m) and a previously unregistered $9m Commonwealth Housing Support Program contribution would exist - relevant to THR-07 (funding) and to whether the project's financing structure changed after the tender-driven cost increase already documented for the separate Willawarrin plant (EV-0066/Q-0003). If instead EV-0075 reflects a search-engine summarization artifact, the $13.2m/$27.1m figures already registered from three independent dated sources remain correct and this contradiction would resolve as an artifact rather than a real financing change.",
+    "required_resolution": "A direct fetch of the current nationalwatergrid.gov.au/dcceew.gov.au Kempsey project page (egress-blocked to this session) or the Australian Pipeliner article's full text, checked against a dated Council business paper or budget-variation resolution discussing any change to the project's funding-deed composition.",
+    "resolution_evidence": []
   }
 ]
