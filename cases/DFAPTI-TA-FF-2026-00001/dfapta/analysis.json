@@ -1,0 +1,231 @@
+{
+  "analysis_id": "DFAPTA-TA-FF-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-TA-FF-2026-00001",
+  "cycle": 1,
+  "status": "Frozen",
+  "analysis_commenced": "2026-06-16",
+  "evidence_basis_note": "Reads across the frozen evidence register EV-0001 through EV-0076 (originally EVID-001 through EVID-076, ingested 2026-08-23 - see DEC-0001). Every determination below inherits the register's own 'Requires Verification'/'Unverified' status except EV-0038 and EV-0039, independently corroborated this run via WebSearch. Twelve paths carried over from the operator's original 2026-06-16 Deep Forensic Analysis (eight named Failure Modes plus four section-level findings), restated in this repository's schema without adding new facts.",
+  "paths": [
+    {
+      "id": "AR-001",
+      "title": "The Council Response Void",
+      "analysis": [
+        "A minimum 37-month response void runs from 16 March 2023 to April 2026, documented across seven distinct council records: the March 2023 minutes themselves, and four consecutive Outstanding Actions registers (May 2023, November 2024, June 2025) plus the most recent retrieved agenda (April 2026), none of which contain any entry for this matter (EV-0007, EV-0008, EV-0009, EV-0026, EV-0027).",
+        "The Outstanding Actions register is council's own mechanism for tracking unresolved matters between meetings. A matter not entered into it has no institutional existence. This is not an absence in the record - the absence is the record."
+      ],
+      "determinations": [
+        ["AR-001.1", "The Taylors Arm flying-fox complaint has had no institutional existence within Nambucca Valley Council's own tracking mechanism at any point across the documented 37-month period."]
+      ],
+      "anchors": ["EV-0001", "EV-0006", "EV-0007", "EV-0008", "EV-0009", "EV-0026", "EV-0027"],
+      "boundary": "Does not claim no response was ever sent privately outside the public record - only that none appears in any public document retrieved. See Q-0002."
+    },
+    {
+      "id": "AR-002",
+      "title": "The Noxious Weed Bypass",
+      "analysis": [
+        "Vicki Provost's specific request - removal of the Camphor Laurel trees - engaged the Biosecurity Act 2015, not the more complex flying-fox protection framework. Council's own policy (EV-0010) and its own Weeds page (EV-0011) confirm it holds a mandatory Local Control Authority obligation to control Camphor Laurel as a priority weed (EV-0012).",
+        "The adjacent council, Kempsey Shire, navigated the identical tension - Camphor Laurel as both mandatory weed target and protected-species habitat - in April 2024 via a Review of Environmental Factors and a qualified ecologist (EV-0014). That model exists and was not applied at Taylors Arm."
+      ],
+      "determinations": [
+        ["AR-002.1", "The failure to act on the Camphor Laurel component is not explained by the EPBC Act, the Flying-Fox Camp Management Policy, or any other legislative constraint in the register - the only constraint that appears in the record is the absence of council action."]
+      ],
+      "anchors": ["EV-0006", "EV-0010", "EV-0011", "EV-0012", "EV-0014"],
+      "boundary": "Does not claim Camphor Laurel removal is legally straightforward in every case - only that a working procedural model exists nearby and was not applied here."
+    },
+    {
+      "id": "AR-003",
+      "title": "The Registration Gap",
+      "analysis": [
+        "The National Flying-Fox Monitoring Program is coordinated by CSIRO and DCCEEW, with camp registration a precondition for grant eligibility (EV-0021, EV-0030). No document in the register shows the Taylors Arm camp has ever been formally notified to CSIRO or NSW Environment.",
+        "The registration mechanism is a single email to named CSIRO contacts or speciespolicy@environment.gov.au (EV-0059) - available to council, any resident, or any advocate, without requiring council cooperation."
+      ],
+      "determinations": [
+        ["AR-003.1", "If the camp is unregistered, two consequences follow directly: the community cannot access the grant programs that require a registered camp, and no established Commonwealth population baseline exists to support any future EPBC referral."]
+      ],
+      "anchors": ["EV-0021", "EV-0030", "EV-0038", "EV-0044", "EV-0058", "EV-0059"],
+      "boundary": "Registration status itself cannot be confirmed or denied from public sources given the viewer's decommissioning and the CSIRO portal's unavailability at investigation time - see Q-0001."
+    },
+    {
+      "id": "AR-004",
+      "title": "The Grant Access Void",
+      "analysis": [
+        "Two relevant grant programs exist - the NSW Flying-Fox Camp Management Grant Program and the LGNSW Flying-Fox Habitat Restoration Program. Nambucca Valley Council itself accessed the first in 2017 for Gordon Park, Nambucca Heads (EV-0013), demonstrating institutional familiarity with the mechanism.",
+        "No application for, or documented consideration of, either program for any Nambucca Valley hinterland location appears anywhere in the 37-month record (EV-0018, EV-0030, EV-0031)."
+      ],
+      "determinations": [
+        ["AR-004.1", "A council that has previously used the exact funding mechanism this situation calls for has not applied it to the situation that most obviously calls for it."]
+      ],
+      "anchors": ["EV-0013", "EV-0018", "EV-0030", "EV-0031"],
+      "boundary": "Does not claim an application would necessarily succeed - only that none has been made or documented as considered."
+    },
+    {
+      "id": "AR-005",
+      "title": "The Electoral Silence",
+      "analysis": [
+        "Michael Kemp MP (Nationals, Oxley) and Pat Conaghan MP (Nationals, Cowper) both represent Taylors Arm and Bellbrook (EV-0019, EV-0020). No advocacy, representation, media statement, or parliamentary action by either member on this issue for either community appears in any document in evidence."
+      ],
+      "determinations": [
+        ["AR-005.1", "The silence is notable against both members' core constituency alignment - rural communities experiencing agricultural and liveability pressures from wildlife management failures - though this is a structural observation, not a claim about either member's motives."]
+      ],
+      "anchors": ["EV-0019", "EV-0020"],
+      "boundary": "Absence of documented advocacy is not proof of no private representation - only that none is publicly recorded."
+    },
+    {
+      "id": "AR-006",
+      "title": "The Institutional Memory Break",
+      "analysis": [
+        "Rhonda Hoban OAM was Mayor at the time of the March 2023 presentation; Gary Lee was elected in October 2024 (EV-0018). Because the matter was never entered into the Outstanding Actions register, it was never available for transfer to the incoming administration."
+      ],
+      "determinations": [
+        ["AR-006.1", "The current council under Mayor Gary Lee has no formal institutional knowledge that the complaint was ever made - any future advocacy to the current council effectively begins from zero, not from a position of an outstanding prior request."]
+      ],
+      "anchors": ["EV-0009", "EV-0018"],
+      "boundary": "Does not claim any individual councillor lacks personal awareness - only that no formal institutional record exists to transfer."
+    },
+    {
+      "id": "AR-007",
+      "title": "The Parallel Infrastructure Paradox",
+      "analysis": [
+        "Three months after Vicki Provost's presentation, council's June 2023 agenda considered a Post-Exhibition Report on the Draft Concept Design for the Taylors Arm Sporting Reserve - directly opposite the Pub With No Beer, in the same precinct as the reported colony (EV-0025). No cross-reference to the flying-fox infestation appears in any retrieved document related to this item."
+      ],
+      "determinations": [
+        ["AR-007.1", "Council was actively planning infrastructure investment in the precinct affected by the infestation at the same time it generated zero response to the infestation itself."]
+      ],
+      "anchors": ["EV-0005", "EV-0025"],
+      "boundary": "Does not claim the two processes were deliberately kept separate - only that no cross-reference exists in any retrieved document."
+    },
+    {
+      "id": "AR-008",
+      "title": "The Self-Contradiction in Council Claims",
+      "analysis": [
+        "The State of Our Valley Report 2022-2024 claims council's 'away meetings' in villages and outlying rural areas - including residents addressing council via delegations and public forums - as a civic achievement (EV-0029). The March 2023 Taylors Arm meeting is one of these documented away meetings. The flying-fox presentation made at that meeting is not referenced anywhere in that achievement claim."
+      ],
+      "determinations": [
+        ["AR-008.1", "The achievement claim and the response void exist simultaneously in the same institutional record - council documents the engagement format as a success while the substance of that specific engagement generated no institutional response."]
+      ],
+      "anchors": ["EV-0024", "EV-0028", "EV-0029"],
+      "boundary": "Does not claim the achievement claim is false as to engagement generally - only that it is silent on this specific engagement's substantive outcome."
+    },
+    {
+      "id": "AR-009",
+      "title": "Cross-Jurisdiction Equivalence Finding",
+      "analysis": [
+        "Bellbrook (Kempsey Shire) and Taylors Arm (Nambucca Valley) present structurally identical positions: an active grey-headed flying-fox colony, documented community harm, council non-response or budget-denial, no management plan, no confirmed grant access, and no confirmed Commonwealth monitoring registration (EV-0015, EV-0016).",
+        "Both sit in the same hinterland river corridor, the same state electorate (Oxley) and the same federal electorate (Cowper), under the same legislative framework."
+      ],
+      "determinations": [
+        ["AR-009.1", "The duplication is not adequately explained by geographic coincidence alone - it is consistent with the same legislative and administrative architecture producing the same outcome across two adjacent jurisdictions."]
+      ],
+      "anchors": ["EV-0015", "EV-0016", "EV-0017", "EV-0019", "EV-0020"],
+      "boundary": "Cross-references DFAPTI-BB-FF-2026-00001 (the adjacent Bellbrook case in this repository) rather than duplicating that case's own evidence register."
+    },
+    {
+      "id": "AR-010",
+      "title": "The Camphor Laurel Intersection Finding",
+      "analysis": [
+        "Three legislative instruments converge on the same trees: the Grey-headed Flying-fox is Vulnerable under the EPBC Act, requiring referral for actions likely to significantly affect it, including clearing important roosting habitat (EV-0065, EV-0068, EV-0069); Camphor Laurel is a priority weed council is legally required to manage under the Biosecurity Act 2015 (EV-0012); and the Flying-Fox Camp Management Code of Practice 2018 itself acknowledges understorey weeds can provide important roosting habitat (EV-0072).",
+        "Kempsey Shire Council resolved this exact tension in April 2024 via a Review of Environmental Factors and a local ecologist (EV-0014) - the documented, demonstrated pathway."
+      ],
+      "determinations": [
+        ["AR-010.1", "The Camphor Laurel trees at Taylors Arm are simultaneously a legally mandated weed-control target, protected-species roosting habitat requiring assessment before clearing, and the specific subject of the March 2023 community request - a demonstrated resolution pathway exists and has not been applied."]
+      ],
+      "anchors": ["EV-0006", "EV-0012", "EV-0014", "EV-0033", "EV-0065", "EV-0068", "EV-0069", "EV-0072"],
+      "boundary": "Does not conclude a Review of Environmental Factors would necessarily permit removal - only that it is the documented, demonstrated procedural pathway for resolving this exact tension."
+    },
+    {
+      "id": "AR-011",
+      "title": "The Public Health Finding",
+      "analysis": [
+        "Vicki Provost specifically documented tank drinking-water contamination as a harm category (EV-0006). Taylors Arm has no reticulated town water supply - residents rely on rainwater harvesting, making roof and tank proximity to roosting colonies a direct contamination pathway.",
+        "No referral by council to NSW Health, the North Coast Public Health Unit, or any other public health authority in relation to this specific risk appears in the register."
+      ],
+      "determinations": [
+        ["AR-011.1", "Council's own Community Strategic Plan lists Public Health - Clean Water as a strategic direction; the register shows no activation of that strategic direction in response to the March 2023 complaint."]
+      ],
+      "anchors": ["EV-0006"],
+      "boundary": "Does not assert a specific legal notification obligation was triggered - the original investigation's own Temporal Projection Integrity Engine explicitly excluded that stronger claim as requiring legislative-instrument mapping this register does not hold (see Classification 3, Excluded Observation B)."
+    },
+    {
+      "id": "AR-012",
+      "title": "The Tourism Economy Finding",
+      "analysis": [
+        "The Pub With No Beer is a nationally known tourism destination, formally listed by Destination NSW on the Visit NSW platform (independently confirmed by this repository, 2026-08-23 - see NOTE-0005). The council-managed Sports Reserve campground sits directly opposite it, in the same precinct as the reported colony (EV-0005), and council was actively developing that precinct in June 2023 with no cross-reference to the infestation (EV-0025).",
+        "At Bellbrook, the equivalent colony conditions are documented as having caused hospitality businesses to lose trade due to stench and noise, with locals and visitors choosing to dine elsewhere (EV-0016) - a directly comparable precedent in an equivalent hinterland setting."
+      ],
+      "determinations": [
+        ["AR-012.1", "The structural conditions at Taylors Arm - a nationally known pub, an adjacent campground, an active colony in the same precinct - present a comparable commercial-risk profile to the one already documented at Bellbrook, though no Taylors Arm-specific commercial harm has itself been documented (see Q-0006)."]
+      ],
+      "anchors": ["EV-0005", "EV-0016", "EV-0025"],
+      "boundary": "Projects a risk profile by analogy to Bellbrook's documented precedent - does not claim commercial harm has actually occurred at Taylors Arm, consistent with the Temporal Projection Integrity Engine's own Classification 2 (conditional, not evidence-grounded) treatment of this finding."
+    }
+  ],
+  "cross_path_observations": [
+    {
+      "id": "CPO-001",
+      "title": "The response void is not silence, it is a mechanism",
+      "analysis": "AR-001, AR-006 and AR-008 converge on a single structural point: the absence from the Outstanding Actions register is not a passive gap. It is the active mechanism by which the complaint was erased from institutional memory, reset by the 2024 mayoral transition, and simultaneously contradicted by council's own claim of the March 2023 meeting as a civic achievement.",
+      "anchors": "AR-001, AR-006, AR-008"
+    },
+    {
+      "id": "CPO-002",
+      "title": "The two most actionable paths do not require council",
+      "analysis": "AR-003 and AR-010 both identify remedies that are executable without council cooperation being a precondition: camp registration is a single email available to any sender, and the Review of Environmental Factors model has already been demonstrated by the adjacent council. Neither requires new legislation or a change of council position - only initiation.",
+      "anchors": "AR-003, AR-010"
+    },
+    {
+      "id": "CPO-003",
+      "title": "Corridor duplication converts two local complaints into one systemic finding",
+      "analysis": "AR-005 and AR-009 together establish that the same legislative framework, the same political representation, and the same institutional failure pattern are producing the same outcome across two adjacent jurisdictions - a finding with materially more weight than either case carries on its own.",
+      "anchors": "AR-005, AR-009"
+    }
+  ],
+  "disclosure_requests": [
+    {
+      "id": "DR-001",
+      "title": "GIPA application to Nambucca Valley Council",
+      "request": "All correspondence, emails, and internal documents regarding the Taylors Arm flying-fox infestation from January 2023 to present, including any response sent to Vicki Provost and any staff assessment of the Camphor Laurel removal request."
+    },
+    {
+      "id": "DR-002",
+      "title": "Full re-fetch of the 2023/24 Annual Report, page 78",
+      "request": "The Biosecurity (Noxious Plants) service review content, not rendered in the original investigation's PDF fetch - specifically whether Taylors Arm inspections were conducted."
+    },
+    {
+      "id": "DR-003",
+      "title": "Full re-fetch of the State of Our Valley Report 2022-2024, page 27",
+      "request": "The Environmental Protection section content, not rendered in the original investigation's fetch."
+    },
+    {
+      "id": "DR-004",
+      "title": "GIPA application - flying-fox grant applications",
+      "request": "Any flying-fox grant applications made or considered for the Nambucca Valley hinterland since 2023, and any internal documentation regarding National Flying-Fox Monitoring Program notification for the Taylors Arm camp."
+    }
+  ],
+  "contradictions_preserved": [
+    {
+      "id": "CTR-0001",
+      "issue": "The Temporal Projection Integrity Engine's Classification 4 assessment partly relies on an unverified 'East Cessnock case' attributed to a 'Tier Infinity Audit surface' this repository's own prior operating history established does not represent real completed investigation instances.",
+      "status": "Open",
+      "analysis": "Found during this repository's 2026-08-23 ingestion, not part of the original 2026-06-16 analysis - see DEC-0002 and Q-0008.",
+      "anchors": []
+    },
+    {
+      "id": "CTR-0002",
+      "issue": "The case's own Lattice Atlas and Mechanism Register disagree with each other, and the Lattice Atlas disagrees with itself, on how many Structural Harm Mechanism Catalogue mechanisms are confirmed active in this case.",
+      "status": "Open",
+      "analysis": "Found during this repository's 2026-08-23 ingestion - see DEC-0002 and the full Contradiction Register entry.",
+      "anchors": []
+    }
+  ],
+  "overreach_controls": [
+    "No claim is made about why Nambucca Valley Council did not respond - only that it did not, on the documented record.",
+    "No intent is attributed to any individual councillor, staff member, or elected representative - every finding describes documented system behaviour, matching this case's own explicit non-allegatory framing throughout the original material.",
+    "The public-health finding (AR-011) is deliberately not advanced as a claim that a specific legal notification obligation was triggered - the original investigation's own Temporal Projection Integrity Engine excluded that stronger claim, and this repository preserves that exclusion.",
+    "The tourism-economy finding (AR-012) is a risk profile by analogy to a documented precedent elsewhere, not a claim that commercial harm has occurred at Taylors Arm itself."
+  ],
+  "counts": {
+    "analysis_paths": 12,
+    "analytical_determinations": 12,
+    "evidence_anchors_referenced": 35
+  }
+}

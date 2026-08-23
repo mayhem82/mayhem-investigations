@@ -1,0 +1,65 @@
+[
+  {
+    "thread_id": "THR-01",
+    "name": "Council response void and institutional memory",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0001", "EV-0002", "EV-0006", "EV-0007", "EV-0008", "EV-0009", "EV-0018", "EV-0023", "EV-0024", "EV-0026", "EV-0027", "EV-0028", "EV-0029"],
+    "outstanding_work": "A GIPA application (Q-0002, Q-0003) for internal correspondence and staff assessment records would confirm whether any response was ever generated outside the public record. The Biosecurity (Noxious Plants) and Environmental Protection report sections not rendered in the original fetch (Q-0003, Q-0004) should be re-fetched in full.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-02",
+    "name": "Camphor Laurel biosecurity / EPBC intersection",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0006", "EV-0010", "EV-0011", "EV-0012", "EV-0014", "EV-0022", "EV-0033", "EV-0034", "EV-0035", "EV-0036", "EV-0037", "EV-0065", "EV-0068", "EV-0069", "EV-0072"],
+    "outstanding_work": "Whether Nambucca Valley Council has any internal position on applying the Kempsey Shire Review of Environmental Factors model to Taylors Arm has not been confirmed (Q-0003) - this is the single most actionable structural finding in the case's own Lattice Atlas (Emergent Pattern 1).",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-03",
+    "name": "Camp registration and grant eligibility",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0013", "EV-0021", "EV-0030", "EV-0031", "EV-0038", "EV-0039", "EV-0044", "EV-0045", "EV-0047", "EV-0048", "EV-0049", "EV-0058", "EV-0059"],
+    "outstanding_work": "Formal notification of the camp to CSIRO/DCCEEW (Q-0001) is this case's own Lattice Atlas's most actionable finding (Emergent Pattern 3) - a single email, achievable without council cooperation, that establishes the precondition for grant eligibility.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-04",
+    "name": "Regional corridor - cross-jurisdiction equivalence with Bellbrook",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0015", "EV-0016", "EV-0017", "EV-0019", "EV-0020"],
+    "outstanding_work": "A combined cross-corridor submission to the NSW Environment Minister or a parliamentary committee, covering both Taylors Arm and Bellbrook (DFAPTI-BB-FF-2026-00001), is identified in this case's own material as the highest-leverage escalation available (Lattice Atlas Emergent Pattern 4, TPIE Observation F) - not yet prepared.",
+    "dependencies": ["THR-03"],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-05",
+    "name": "Electoral silence - Oxley and Cowper",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0019", "EV-0020"],
+    "outstanding_work": "No documented public advocacy by Michael Kemp MP (Oxley) or Pat Conaghan MP (Cowper) on this issue for either Taylors Arm or Bellbrook has been found. Letters to both are ready-to-send in this case's preserved material - not yet confirmed sent.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-06",
+    "name": "Tourism economy and public health exposure",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0005", "EV-0006", "EV-0016", "EV-0025"],
+    "outstanding_work": "Whether the Pub With No Beer or the Sports Reserve campground have experienced any documented commercial impact since March 2023 is unconfirmed (Q-0006) - the case's own Supplementary Tourism Pathway document projects this as a conditional (Classification 2) risk, not a confirmed one. The public-health notification question (drinking-water contamination) was explicitly excluded by the original TPIE as requiring legislative-instrument mapping this register does not hold.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-07",
+    "name": "Advocacy chain - confirming what has actually been sent",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Confirm whether the Enforcement Notice, the CSIRO registration letter, or any of the 11 batch submission letters (to Council, NSW DCCEEW, Commonwealth DCCEEW, Destination NSW, Michael Kemp MP, Pat Conaghan MP, Penny Sharpe MLC, Murray Watt, or the three watchdog bodies) have actually been sent, and log any response received. Unlike DFAPTI-BB-LW-2026-00001, this case's own material does not contain conflicting completed-action language - every document consistently presents these as ready-to-send drafts - but no confirmation that any were actually sent has been provided to this repository either.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  }
+]

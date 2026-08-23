@@ -1,0 +1,13 @@
+{
+  "case_identifier": "DFAPTI-TA-FF-2026-00001",
+  "case_title": "Taylors Arm Flying Fox — Council Response Void",
+  "investigation_type": "DFAPTI Forensic Public Interest Investigation",
+  "jurisdiction": "New South Wales, Australia",
+  "geographic_scope": "Taylors Arm village (population 133), Nambucca Valley Local Government Area, NSW - hinterland corridor adjacent to Bellbrook, Kempsey Shire (DFAPTI-BB-FF-2026-00001)",
+  "commencement_date": "2026-08-23",
+  "prior_reference": "Originally conducted 2026-06-16/17 under the operator's own earlier framework, using an EVID-/AR- style numbering system, Factual Strength (FS) scoring, and GOVFAIL Enforcement/Yield Catalogue modules distinct from this repository's current methodology. Ingested into this repository's schema on 2026-08-23.",
+  "current_status": "Active - Ingested from Prior Complete Investigation, Verification Status Under Review",
+  "investigator": "mayhem82",
+  "repository_version": "1.0.0",
+  "specification_version": "MAYHEM-SPEC-CORE-v1.0.0"
+}

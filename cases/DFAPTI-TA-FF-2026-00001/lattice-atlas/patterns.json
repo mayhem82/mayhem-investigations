@@ -1,0 +1,78 @@
+{
+  "lattice_id": "LATTICE-TA-FF-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-TA-FF-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-23",
+  "basis_note": "Reads across DFAPTA-AR-001 through AR-012 (frozen, ingested from the operator's 2026-06-16 topology). Nine items carried over: three meshes (community harm, institutional non-response, legislative/governance architecture) and five emergent patterns that only become visible when the three meshes are read together, plus the Trajectory Direction Declaration. Overall trajectory classification: DEGRADING. Note: the source material's own mechanism-count claims are internally inconsistent between this document and its companion Mechanism Register - see CTR-0002; this repository's SHM Gate uses the Mechanism Register's independently-verified count of 13, not either figure stated in the original Lattice Atlas text.",
+  "patterns": [
+    {
+      "id": "LP-001",
+      "title": "Mesh 1 - The Community Harm Surface",
+      "threads_involved": ["THR-01", "THR-06"],
+      "description": "Five documented categories of harm (tank water contamination, soiled washing, foul odour, vehicle damage, loss of outdoor space) traced to one founding document - Vicki Provost's 16 March 2023 presentation - connecting the water contamination to the absence of reticulated supply, the foul odour to the adjacent tourism asset, and the harm generally to a single named resident who made one specific, legally-grounded remedy request.",
+      "basis": "AR-001, AR-002, AR-011, AR-012"
+    },
+    {
+      "id": "LP-002",
+      "title": "Mesh 2 - The Institutional Non-Response Surface",
+      "threads_involved": ["THR-01"],
+      "description": "Seven council meeting records, two annual reports, and one State of Our Valley report, all containing zero entries for this matter - connecting the Outstanding Actions register as the institutional memory mechanism, its absence as the mechanism of institutional forgetting, the away-meeting achievement claim that erases the substance of the engagement it cites, and the Sports Reserve concept design proceeding in the same precinct with no cross-reference to the infestation.",
+      "basis": "AR-001, AR-006, AR-007, AR-008"
+    },
+    {
+      "id": "LP-003",
+      "title": "Mesh 3 - The Legislative and Governance Architecture Surface",
+      "threads_involved": ["THR-02", "THR-03", "THR-04"],
+      "description": "Three intersecting legislative instruments, two grant programs, one national monitoring program, and two adjacent-council precedents (Kempsey 2024, MidCoast 2021) - connecting the mandatory weed obligation and the discretionary camp management policy occupying the same trees, the grant requiring registration that has not occurred, and a demonstrated model that has not been applied.",
+      "basis": "AR-002, AR-003, AR-004, AR-009, AR-010"
+    },
+    {
+      "id": "LP-004",
+      "title": "Emergent Pattern 1 - The Camphor Laurel Regulatory Pinch (HIGH significance)",
+      "threads_involved": ["THR-02"],
+      "description": "The community's own remedy request - Camphor Laurel removal - instinctively identified the exact point where the mandatory biosecurity obligation and the discretionary flying-fox protection framework intersect: the most legally grounded request available, the most structurally complex request available, and the most tractable request available (Kempsey Shire's own April 2024 model), all at once. No single path surfaces this three-way intersection - the community found it instinctively; the institution did not engage with it at all.",
+      "basis": "AR-002, AR-010"
+    },
+    {
+      "id": "LP-005",
+      "title": "Emergent Pattern 2 - The Institutional Memory Trap (HIGH significance)",
+      "threads_involved": ["THR-01"],
+      "description": "The Outstanding Actions register's failure is not a passive omission - it is the mechanism that erased the complaint from institutional memory before the October 2024 mayoral transition. The new council under Mayor Gary Lee has no formal knowledge the complaint was ever made; any future advocacy begins from zero, not from an outstanding request.",
+      "basis": "AR-001, AR-006"
+    },
+    {
+      "id": "LP-006",
+      "title": "Emergent Pattern 3 - The Grant Eligibility Lock (HIGH significance, most actionable)",
+      "threads_involved": ["THR-03"],
+      "description": "The grant-access failure and the camp-registration failure are not independent - they are structurally linked. The grant program requires a registered camp; the camp is not confirmed registered; registration is a single administrative email that does not require council cooperation. The budget constraint Kempsey Shire cited for denying the Bellbrook request may itself be addressable once registration and application occur - the path from complaint to funded response is blocked by an unstarted administrative step, not by law.",
+      "basis": "AR-003, AR-004"
+    },
+    {
+      "id": "LP-007",
+      "title": "Emergent Pattern 4 - The Corridor Duplication (VERY HIGH significance)",
+      "threads_involved": ["THR-04"],
+      "description": "Taylors Arm and Bellbrook - two communities, two councils, two histories - have arrived at structurally identical positions under the same legislative framework and the same political representation. The duplication converts two isolated community complaints into a systemic finding, carrying more structural weight as a combined submission than either case carries alone.",
+      "basis": "AR-009"
+    },
+    {
+      "id": "LP-008",
+      "title": "Emergent Pattern 5 - The Electoral Silence Convergence (MEDIUM-HIGH significance)",
+      "threads_involved": ["THR-04", "THR-05"],
+      "description": "The same National Party representation covers both communities at state and federal level. Neither member has documented public advocacy on this issue for either community across the entire documented period - one of the accountability pathways available to communities the council does not respond to has also been silent, and the corridor duplication means this applies to both communities within the same electorate boundaries.",
+      "basis": "AR-005, AR-009"
+    },
+    {
+      "id": "LP-009",
+      "title": "Trajectory Direction Declaration - DEGRADING",
+      "threads_involved": ["THR-01", "THR-02", "THR-03", "THR-05"],
+      "description": "Every indicator for which directionality can be assessed - council responsiveness, grant access, electoral advocacy - moves in the same direction: away from resolution and toward institutional embedding of the failure. Colony status and current community harm are indeterminate from public evidence, not resolved; their absence from the record does not indicate resolution, and is consistent with the complaint-suppression pattern documented elsewhere in this case. No countervailing force is currently operative in the evidence.",
+      "basis": "AR-001, AR-004, AR-005"
+    }
+  ],
+  "not_claimed": [
+    "No claim is made that Nambucca Valley Council, Kempsey Shire Council, or either elected representative are acting deliberately to avoid accountability - every pattern above is described as a structural consequence of institutional non-action, not a coordinated strategy.",
+    "No claim is made about current colony size, location, or commercial impact - these are explicitly indeterminate from the frozen register (see Q-0006).",
+    "No claim is made that the public-health contamination risk (Mesh 1) has triggered any specific legal notification obligation - that stronger claim was explicitly excluded by the original investigation's own Temporal Projection Integrity Engine and this repository preserves that exclusion.",
+    "The mechanism count referenced in the original Lattice Atlas material is not repeated here as a figure of record - see CTR-0002 and the SHM Gate, which uses the independently-verified 13-mechanism count from the companion Mechanism Register instead."
+  ]
+}

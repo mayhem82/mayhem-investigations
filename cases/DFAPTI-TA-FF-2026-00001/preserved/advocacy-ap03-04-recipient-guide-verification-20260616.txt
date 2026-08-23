@@ -1,0 +1,86 @@
+RECIPIENT GUIDE
+
+How to Read, Verify, Submit, and Act
+Flying Fox Governance Failure — Taylors Arm Village
+
+This guide explains how to use every document in the advocacy package. It tells you which documents to read in which order, what each document is for, which body has standing to act on which finding, how to submit the Enforcement Notice, and how to log the response you receive.
+
+PART ONE — READING ORDER
+If you are reading this package for the first time
+Read Document 2 (Plain Language Summary) first. It tells you what happened and what the investigation found in plain terms. Then read this guide. Then read Document 10 (Enforcement Notice) to understand what is being demanded and of whom.
+If you are preparing a submission
+Your primary submission document is Document 10 (Enforcement Notice). Read Part One to confirm which recipient has jurisdiction over your concern. Read Part Five for the remedy demands addressed to that recipient. Attach Document 5 (Evidence Register) as your evidence base.
+If you are verifying the findings
+Go to Document 4 (Five-Step Verification Guide). It will take you from any finding in the Enforcement Notice back to the original source document. Every finding can be checked independently.
+If you are sharing this package with others
+Document 2 (Plain Language Summary) is designed for sharing. It contains no technical language. It names the failure, the evidence, the remedies available, and the one action anyone can take immediately.
+
+PART TWO — WHICH BODY HAS STANDING FOR WHICH FINDING
+Nambucca Valley Council — Remedy Demands NVC-1 through NVC-5
+Nambucca Valley Council has standing on all findings related to: the failure to respond to the March 2023 complaint; the Camphor Laurel removal request; the camp registration notification; the grant application; and the management plan development. Council is the Local Control Authority under the Biosecurity Act 2015. It is the land manager for the affected community. It is the body that received the complaint and produced no response.
+NSW Department of Climate Change, Energy, the Environment and Water — Remedy Demands NSW-1 through NSW-3
+The NSW department has standing on findings related to: the flying fox camp management policy framework; the camp registration support; and the grant program. The department administers the Flying-Fox Camp Management Policy 2015 and coordinates NSW participation in the National Flying-Fox Monitoring Program. Its documented function includes providing expert advice to assist councils.
+Commonwealth Department of Climate Change, Energy, the Environment and Water — Remedy Demands CWLTH-1 and CWLTH-2
+The Commonwealth department has standing on findings related to: the National Flying-Fox Monitoring Program and camp registration; and the post-review monitoring architecture. The grey-headed flying fox is listed as Vulnerable under the Environment Protection and Biodiversity Conservation Act 1999 (Cth). The Commonwealth administers the monitoring program and is responsible for knowing where populations of this listed species exist.
+NSW Environment Minister — Cross-Corridor Submission
+The NSW Environment Minister (Penny Sharpe) has standing on the regional corridor finding documented in Part Six of the Enforcement Notice. The same failure is occurring at both Taylors Arm (Nambucca Valley) and Bellbrook (Kempsey Shire). A cross-corridor submission to the minister places the systemic regional pattern before a body with authority to direct state action on flying fox management across the hinterland corridor.
+State Member for Oxley and Federal Member for Cowper — Electoral Advocacy
+Michael Kemp MP (Nationals, Oxley — Suite 1, 72 Elbow Street, West Kempsey NSW 2440 — michael.kemp@parliament.nsw.gov.au) and Pat Conaghan MP (Nationals, Cowper — pat.conaghan.mp@aph.gov.au) are the elected representatives for both Taylors Arm and Bellbrook. Neither has documented public advocacy on this issue for either community. Both can be provided with Document 2 (Plain Language Summary) and the Enforcement Notice as a constituency matter requiring their attention.
+
+PART THREE — HOW TO SUBMIT
+Submitting to Nambucca Valley Council
+Address your submission to: General Manager, Nambucca Valley Council, 44 Princess Street, Macksville NSW 2447. Email: council@nambucca.nsw.gov.au. Attach the Enforcement Notice (Document 10) and the Evidence Register (Document 5). State in your covering email that you are submitting a formal complaint and requesting a written response within 28 days. Keep a copy of everything you send and the date you sent it.
+Submitting to NSW Department of Climate Change, Energy, the Environment and Water
+Address your submission to the North Coast Regional Office of NSW DCCEEW, attention Flying-Fox Camp Management Policy Administration. Attach the Enforcement Notice (Document 10), specifically Part Three (Legislative Basis) sections 3.2 and 3.4, and Part Five (Remedy Demands) section 5.2. Request a written response within 28 days.
+Submitting to Commonwealth Department of Climate Change, Energy, the Environment and Water
+Email: speciespolicy@dcceew.gov.au. Address to the Secretary, Department of Climate Change, Energy, the Environment and Water, GPO Box 3090, Canberra ACT 2601. Attach the Enforcement Notice (Document 10), specifically Part Three section 3.5 and Part Five section 5.3. Reference the grey-headed flying fox (Pteropus poliocephalus) and the Environment Protection and Biodiversity Conservation Act 1999. Request a written response within 28 days.
+Submitting to the NSW Environment Minister
+Address to: The Hon. Penny Sharpe MLC, Minister for the Environment, NSW Parliament House, Macquarie Street, Sydney NSW 2000. Attach the Enforcement Notice (Document 10) in full, with particular attention to Part Six (Regional Corridor Finding). Attach the Plain Language Summary (Document 2). State that the submission concerns a systemic regional governance failure affecting two communities within the same state electorate and requests ministerial direction to both Nambucca Valley Council and Kempsey Shire Council to develop hinterland flying fox management plans.
+
+PART FOUR — LOGGING INSTITUTIONAL RESPONSES
+Every response you receive to a submission must be logged. Use the following format for each entry. Keep this log as a separate document and add to it each time a response arrives.
+Date received:From (body and name if provided):Form (email / letter / phone call / no response):Verbatim content or summary:Classification: Acknowledged without action / Referral to another body / Action committed / Action taken / No response (log date response was due and date it was not received)
+If an institution acknowledges your submission without committing to action — this is documented. If it refers you to another body — this is documented. If it takes no action after 28 days — this is documented. Each entry in your log builds the evidentiary record. Silence and inaction become evidence over time, not the absence of evidence.
+
+PART FIVE — ONWARD TRAINING
+This package is designed to be passed on. If you have read the Plain Language Summary and understand the findings, you can explain them to someone else. If you understand the submission process in this guide, you can teach it to someone else. If you have verified a finding using the Five-Step Verification Guide, you can show someone else how to do the same.
+The chain of accountability does not require specialist knowledge, institutional access, or technology. It requires people who understand what happened and are willing to document, submit, and log.
+
+
+FIVE-STEP PRIMARY SOURCE VERIFICATION GUIDE
+
+How to Check Any Finding Against Its Original Source
+
+Every finding in the Enforcement Notice is grounded in a primary source document. This guide shows you how to go from any finding in the Enforcement Notice back to the original source it came from and verify it yourself. You do not need specialist knowledge. You need to be able to follow a documented trail.
+
+THE FIVE STEPS
+Step 1 — Identify the evidence reference
+Every finding in the Enforcement Notice carries an evidence reference in brackets — for example (EVID-006) or (EVID-010). Find the bracket reference in the finding you want to check. Write down the EVID number.
+Step 2 — Look up the evidence item in the Evidence Register
+Open Document 5 (Evidence Register). Find the EVID number you wrote down. Each evidence item in the register contains: the source (the document it came from), the date the document was produced, and the record (what the document says). Read the source field and the record field for your EVID item.
+Step 3 — Locate the original source document
+The source field tells you where the original document came from. For council documents, it will reference an agenda or minutes document with a file code (for example CO_16032023_MIN_1295.PDF) and the URL it was retrieved from (for example nambucca.infocouncil.biz). For government policy documents, it will reference the government website URL. For media articles, it will reference the publication and story identifier. Use the source information to locate the original document. For council documents, go directly to nambucca.infocouncil.biz and search for the agenda or minutes by date. For government documents, go to the URL provided.
+Step 4 — Verify the record against the original
+The record field in the evidence item tells you what the original document says. Open the original document. Find the section referenced. Read it. Check that what the evidence item says the document says is what the document actually says. If it matches — the finding is verified. If it does not match — note the discrepancy and document it. Discrepancies are findings in their own right.
+Step 5 — Record your verification
+Write down the date you checked, the EVID number, what you found, and whether the finding held. Keep this record. If you are submitting the Enforcement Notice to a body, your independent verification of the underlying evidence strengthens the submission. If you find a discrepancy, document it and contact the investigator.
+
+WORKED EXAMPLE
+The Enforcement Notice states in Part One, section 1.3: "Tank drinking water quality contamination from faecal matter of the roosting colony" — documented in EVID-006.
+Step 1: The reference is EVID-006.
+Step 2: Look up EVID-006 in the Evidence Register (Document 5). The source reads: "Nambucca Valley Council Ordinary Meeting Minutes, 16 March 2023, CO_16032023_MIN_1295.PDF, pages 2-3." The record reads: "Vicki Provost addressed council making the following points as recorded in the minutes: Causing issues with tank drinking water quality."
+Step 3: Go to nambucca.infocouncil.biz. Navigate to the March 2023 minutes. Open CO_16032023_MIN_1295.PDF. Go to pages 2 through 3.
+Step 4: Read the public forum section. Find the record of Vicki Provost's address. Check that "tank drinking water quality" appears in the minutes as described.
+Step 5: Record the date, "EVID-006 verified against council minutes 16 March 2023 — finding holds."
+The same process applies to every evidence item in the register. The trail from finding to source is documented at every step.
+
+WHAT IF YOU CANNOT ACCESS A DOCUMENT
+Some council documents may be removed from public access over time. If you cannot find a referenced document at its original URL, try the following:
+— Search the Nambucca Valley Council InfoCouncil portal (nambucca.infocouncil.biz) using the date and agenda reference number.
+— Search the NSW Government's open data portal for council records.
+— Submit a Government Information Public Access (GIPA) request to Nambucca Valley Council requesting the specific document. Under the Government Information (Public Access) Act 2009 (NSW), councils are required to respond to access applications within 20 working days.
+— If the document is a Commonwealth government source, submit a Freedom of Information request under the Freedom of Information Act 1982 (Cth).
+An inability to access a document is itself a finding. Document the date you attempted access, the URL you used, and what you found or did not find. Log it.
+
+
+Recipient Guide and Five-Step Verification Guide — Flying Fox Governance Failure — Taylors Arm Village | 16 June 2026

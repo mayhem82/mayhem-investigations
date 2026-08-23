@@ -1,0 +1,122 @@
+[
+  {
+    "chronology_id": "CHR-0001",
+    "event_date": "2021-07",
+    "date_is_inference": false,
+    "event_description": "MidCoast Council - the LGA immediately adjacent to Nambucca Valley - adopts a regional Flying-Fox Camp Management Plan covering its entire local government area. No equivalent regional or hinterland-specific plan exists for Nambucca Valley Council in any document in evidence.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0073"]
+  },
+  {
+    "chronology_id": "CHR-0002",
+    "event_date": "2022-12",
+    "date_is_inference": false,
+    "event_description": "Nambucca Valley Council resolves to place a $5-per-night camping fee for the Taylors Arm Sports Reserve - directly opposite the Pub With No Beer - on public exhibition.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0005"]
+  },
+  {
+    "chronology_id": "CHR-0003",
+    "event_date": "2023-03-16",
+    "date_is_inference": false,
+    "event_description": "Vicki Provost formally addresses Nambucca Valley Council's Ordinary Meeting, held at Taylors Arm Hall, describing a flying-fox colony that has more than doubled in size, roosting in Camphor Laurel trees at the rear of residential properties, causing tank drinking water contamination, soiled washing, foul odour and vehicle paintwork damage. She asks whether council can remove the Camphor Laurel trees. The minutes record no resolution, referral, or staff direction following the presentation.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0001", "EV-0002", "EV-0006", "EV-0007"]
+  },
+  {
+    "chronology_id": "CHR-0004",
+    "event_date": "2023-05-11",
+    "date_is_inference": false,
+    "event_description": "The Outstanding Actions register presented to council's Ordinary Meeting contains no entry referencing the flying-fox infestation or the Camphor Laurel removal request - the first of at least four consecutive registers documented as containing no entry.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0008"]
+  },
+  {
+    "chronology_id": "CHR-0005",
+    "event_date": "2023-06-15",
+    "date_is_inference": false,
+    "event_description": "Council's agenda contains a Post-Exhibition Report on the Draft Concept Design for the Taylors Arm Sporting Reserve - the same precinct as the reported colony - three months after Vicki Provost's presentation, with no cross-reference to the infestation in any retrieved document.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0025"]
+  },
+  {
+    "chronology_id": "CHR-0006",
+    "event_date": "2024-04",
+    "date_is_inference": false,
+    "event_description": "Kempsey Shire Council - the adjacent LGA - removes Camphor Laurel trees shire-wide, having conducted a Review of Environmental Factors and engaged a local ecologist, demonstrating a working model for resolving the same weed-versus-habitat regulatory tension. No equivalent process appears in any Nambucca Valley Council document in evidence.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0014"]
+  },
+  {
+    "chronology_id": "CHR-0007",
+    "event_date": "2024-10-01",
+    "date_is_inference": false,
+    "event_description": "Gary Lee (Independent) is elected Mayor of Nambucca Valley Council, replacing Rhonda Hoban OAM, who was Mayor at the time of the March 2023 presentation. Because the complaint was never entered into the Outstanding Actions register, the incoming council has no formal institutional record that it was ever made.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0018"]
+  },
+  {
+    "chronology_id": "CHR-0008",
+    "event_date": "2024-11-28",
+    "date_is_inference": false,
+    "event_description": "The Outstanding Actions register presented to council's Ordinary Meeting again contains no entry for this matter - over 20 months after the original complaint.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0009"]
+  },
+  {
+    "chronology_id": "CHR-0009",
+    "event_date": "2025-05-19",
+    "date_is_inference": false,
+    "event_description": "Cross-reference to the adjacent case (DFAPTI-BB-FF-2026-00001): Paul Hodgson makes a formal flying-fox camp management plan support request to Kempsey Shire Council regarding Bellbrook. At the 20 May 2025 meeting, council states it does not have the budget and hopes to revisit in October 2025 - no record of that meeting has been retrieved. The Bellbrook camp is documented as present since November 2019.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0016"]
+  },
+  {
+    "chronology_id": "CHR-0010",
+    "event_date": "2025-06-18",
+    "date_is_inference": false,
+    "event_description": "The Outstanding Actions register presented to council's Ordinary Meeting again contains no entry for this matter - extending the documented response void past 27 months.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0026"]
+  },
+  {
+    "chronology_id": "CHR-0011",
+    "event_date": "2025-06-25",
+    "date_is_inference": false,
+    "event_description": "The Commonwealth's Interactive Flying-Fox Web Viewer is decommissioned; camp census data moves to the CSIRO Data Access Portal. Independently corroborated by this repository via WebSearch on 2026-08-23 (direct WebFetch to dcceew.gov.au timed out) - see EV-0038, EV-0039 and NOTE-0005.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0038", "EV-0039"]
+  },
+  {
+    "chronology_id": "CHR-0012",
+    "event_date": "2026-04-22",
+    "date_is_inference": false,
+    "event_description": "The most recent Nambucca Valley Council agenda retrieved by the original investigation contains no reference to flying foxes, the Taylors Arm infestation, or Camphor Laurel removal - extending the documented response void to a minimum of 37 months.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0027"]
+  },
+  {
+    "chronology_id": "CHR-0013",
+    "event_date": "2026-06-16",
+    "date_is_inference": false,
+    "event_description": "Evidence Register frozen at 76 entries; DFAPTA (7 sections, 8 failure modes), Lattice Atlas (3 meshes, 5 emergent patterns, DEGRADING trajectory), Mechanism Register (13 mechanisms) and the Temporal Projection Integrity Engine gate record (7 forward observations) all completed and frozen the same day, under the operator's then-current framework.",
+    "status": "Confirmed",
+    "supporting_evidence": []
+  },
+  {
+    "chronology_id": "CHR-0014",
+    "event_date": "2026-06-17",
+    "date_is_inference": false,
+    "event_description": "Enforcement Notice, Advocacy Package (cover, plain-language summary, recipient guide, verification guide, tourism-pathway supplement) and a batch of 11 ready-to-send submission letters completed and frozen.",
+    "status": "Confirmed",
+    "supporting_evidence": []
+  },
+  {
+    "chronology_id": "CHR-0015",
+    "event_date": "2026-08-23",
+    "date_is_inference": false,
+    "event_description": "Case ingested into this repository as DFAPTI-TA-FF-2026-00001, translating the operator's earlier EVID-/AR- framework into this repository's current schema. Two internal inconsistencies in the source material's own frozen documents were found and logged rather than silently resolved - see CTR-0001 and CTR-0002.",
+    "status": "Confirmed",
+    "supporting_evidence": []
+  }
+]

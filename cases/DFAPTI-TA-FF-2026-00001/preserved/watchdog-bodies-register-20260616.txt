@@ -1,0 +1,58 @@
+WATCHDOG BODIES WITH STANDING TO ACT
+
+Flying Fox Governance Failure — Taylors Arm Village
+
+Date compiled: 17 June 2026
+Status: VERIFIED — jurisdiction and contact details confirmed by live search
+Relationship to other documents: Distinct from the Complete Recipient Register. The recipients in that register administer the legislation and are asked to act. The watchdogs in this register do not administer the legislation — they investigate whether the recipients have acted properly, and can compel disclosure or recommend correction independent of the recipient's cooperation.
+Total watchdog bodies identified: 5
+
+
+WHAT MAKES A WATCHDOG DIFFERENT FROM A RECIPIENT
+The Enforcement Notice asks Nambucca Valley Council, NSW Environment, and the Commonwealth to act. Those bodies can choose not to respond, and the only consequence is reputational. A watchdog is different: it is an independent body whose job is specifically to investigate whether a government body has acted unreasonably, unlawfully, or has failed to perform a duty — and it can do this regardless of whether the body being investigated wants it to happen.
+The watchdogs below are listed in order of directness — the ones most clearly equipped to act on the specific facts of this case come first. Each entry states plainly what the watchdog can and cannot do, because overstating a watchdog's power wastes the time of both the complainant and the watchdog and damages the credibility of the complaint.
+
+Watchdog 1 — NSW Ombudsman
+Primary state-level watchdog — most directly applicable
+Standing: The NSW Ombudsman is the independent integrity agency with primary responsibility to investigate serious maladministration in most NSW public sector agencies, including local councils. It can investigate whether a council's administrative conduct — including a documented failure to respond to a formal complaint over 37 months and the absence of any entry in an outstanding actions register — was objectively unreasonable or manifestly wrong. The Ombudsman has previously found against councils for administrative conduct that was unreasonable or contrary to law, including a 2026 finding against Lane Cove Council regarding its handling of a compliance matter.
+Contact: Online complaint form at ombo.nsw.gov.au, or in person at Level 24/580 George Street, Sydney NSW 2000
+What to provide: Copies of all communication with Nambucca Valley Council about this matter, including the original March 2023 minutes record and any Enforcement Notice submission and response received
+Important limitation: You generally need to complain to the council directly first and give it the chance to respond before the Ombudsman will investigate. The Enforcement Notice submission satisfies this requirement, since it constitutes a direct complaint to council with a defined response period. The Ombudsman generally only formally investigates complaints that identify potentially serious or systemic maladministration — a single missed meeting item may not qualify, but a documented 37-month total non-response with no tracking entry is a stronger candidate for systemic maladministration.
+
+Watchdog 2 — NSW Office of Local Government
+State oversight of council conduct
+Standing: Part of the NSW Department of Planning, Housing and Infrastructure. Any person can lodge a complaint about a council's conduct directly with the Office of Local Government, which can investigate or refer the complaint to the appropriate body, including the NSW Ombudsman or the Independent Commission Against Corruption. Complaints must identify the relevant council and be specific and brief.
+Contact: Lodge via the Office of Local Government complaint process, accessible through the NSW Department of Planning, Housing and Infrastructure
+Response timeframe: Documented as a response within four weeks of submission
+Important limitation: This body assesses whether to investigate or refer your complaint — it does not itself compel a remedy. It is most useful as a parallel or first-step lodgement alongside the NSW Ombudsman, not a substitute for it.
+
+Watchdog 3 — Commonwealth Ombudsman
+Federal watchdog — for Commonwealth department non-response
+Standing: The Commonwealth Ombudsman can investigate complaints from people who believe they have been treated unfairly or unreasonably by an Australian Government department or agency, including the Department of Climate Change, Energy, the Environment and Water. This becomes directly relevant if the Commonwealth department fails to respond to the Enforcement Notice or to a direct camp registration notification within a reasonable period.
+Contact: Online complaint form at ombudsman.gov.au, or by phone on 1300 362 072
+Important limitation: The Commonwealth Ombudsman generally declines to investigate if you have not first complained to the department itself, or if you could seek review through a tribunal such as the Administrative Review Tribunal instead. You must complain to the Department of Climate Change, Energy, the Environment and Water directly first — which the Enforcement Notice and Camp Registration Notification Letter already do — before this watchdog becomes available.
+
+Watchdog 4 — NSW Independent Commission Against Corruption
+Corruption-specific — narrow and high threshold
+Standing: ICAC investigates corrupt conduct in the NSW public sector. This is fundamentally different from maladministration. For conduct to meet the ICAC threshold, it generally needs to involve dishonest or partial use of power, a criminal or disciplinary offence, or grounds for dismissal. Nothing in the evidence register currently documented for this case meets that threshold — the finding throughout has been non-allegatory, describing system failure rather than individual corrupt intent.
+Contact: icac.nsw.gov.au
+Important limitation: Do not refer this matter to ICAC on the current evidence. Doing so without a documented basis for corrupt conduct (as opposed to maladministration) would weaken the credibility of the broader complaint and is contrary to the non-allegatory framing this entire investigation has deliberately maintained. This watchdog is listed for completeness only, not as a recommended next step.
+
+Watchdog 5 — NSW Auditor-General / Audit Office of New South Wales
+Parliamentary financial oversight — indirect, not directly accessible by individuals
+Standing: The Auditor-General conducts performance audits assessing whether public money is spent effectively, efficiently, economically and lawfully, including by local councils and in relation to grant programs. A relevant question this body could examine is whether NSW flying-fox grant programs have been administered, promoted, and taken up appropriately across affected councils, given that two adjacent councils (Nambucca Valley and Kempsey Shire) both have unmanaged colonies and neither has documented access to available grant funding.
+How audits are initiated: The Auditor-General's own annual work program, or a request from the Treasurer, a Minister, the Office of Local Government, or either House of NSW Parliament
+Important limitation: This is the one watchdog on this list that an individual member of the public cannot directly trigger. There is no public complaint-lodgement function equivalent to the Ombudsman. The realistic pathway is indirect: raising the grant-access pattern with Michael Kemp MP or the NSW Environment Minister, and asking that they consider requesting the Auditor-General examine the administration of flying-fox grant programs across affected North Coast councils. List this as a long-term escalation option, not an immediate action.
+
+SUMMARY — RECOMMENDED ORDER OF USE
+Use the NSW Ombudsman (Watchdog 1) once the Enforcement Notice has been submitted to Nambucca Valley Council and either no response is received within 28 days or the response is inadequate. This is the strongest and most directly applicable avenue.
+Lodge with the NSW Office of Local Government (Watchdog 2) in parallel with or shortly after the Ombudsman complaint — it costs nothing to do both and the Office can refer onward if appropriate.
+Hold the Commonwealth Ombudsman (Watchdog 3) in reserve until the Commonwealth department has been given a fair chance to respond to the Enforcement Notice and the Camp Registration Notification Letter and has not done so within a reasonable period — generally a matter of months given the program is under review.
+Do not use ICAC (Watchdog 4) on the current evidence.
+Treat the Auditor-General (Watchdog 5) as a long-term option to raise through an elected representative, not a direct action available now.
+
+VERIFICATION NOTE
+Jurisdiction, complaint thresholds, and contact details for all five bodies were confirmed by live search on 17 June 2026. The distinction drawn between maladministration (Ombudsman jurisdiction) and corrupt conduct (ICAC jurisdiction) reflects the bodies' own published guidance and should not be blurred when drafting any complaint — using the wrong framing for the wrong body is one of the most common reasons complaints are declined.
+
+
+Watchdog Bodies with Standing to Act — Taylors Arm Flying Fox Governance Failure | 17 June 2026

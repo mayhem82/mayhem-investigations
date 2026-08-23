@@ -1,0 +1,108 @@
+DEEP FORENSIC ALL PATHS TAKEN ANALYSIS
+
+Taylors Arm Flying Fox Infestation
+
+Template: v1.0
+Protocol: Analysis layer only | No new evidence added
+Operates against: Frozen Evidence Register EVID-001 to EVID-076
+Date executed: 16 June 2026
+Status: FROZEN
+Produced by: Julian Minko, The Architect of MAYHEM
+
+
+SECTION ONE — WHAT THE REGISTER PROVES WITHOUT INFERENCE
+The following facts are established by primary source documents in the register and require no inference to state.
+A resident of Taylors Arm village formally registered a complaint about a flying fox infestation with Nambucca Valley Council at a public meeting held in that village on 16 March 2023. The complaint was recorded in the official public agenda and the official minutes. The resident identified the colony as having more than doubled in size that year. The resident identified the roosting trees as Camphor Laurel, a species she described as a Class 4 Noxious Weed. The resident documented five categories of harm: tank drinking water contamination, soiled washing, foul odour, vehicle paintwork damage, and loss of usable outdoor space. The resident made a specific and discrete request: removal of the Camphor Laurel trees.
+The minutes record no resolution, referral, action, or staff direction following this presentation.
+The Outstanding Actions register of the 11 May 2023 meeting contains no entry for this matter.
+The Outstanding Actions register of the 28 November 2024 meeting contains no entry for this matter.
+The Outstanding Actions register of the 18 June 2025 meeting contains no entry for this matter.
+The April 2026 agenda contains no reference to this matter.
+The 2022/23 Annual Report contains no reference to this matter.
+The 2023/24 Annual Report contains no reference to this matter in any retrieved content.
+The State of Our Valley Report 2022-2024 contains no reference to this matter in any retrieved content.
+The council's own Roadside Vegetation Management Policy ES-16 lists Camphor Laurel as a target weed and states council as Local Control Authority has a legal requirement under the Biosecurity Act to actively control and reduce its spread.
+The council's own Weeds page states authorised officers carry out regular property inspections and enforce control requirements under the Biosecurity Act 2015.
+The adjacent LGA, MidCoast Council, adopted a regional flying fox camp management plan in July 2021. Nambucca Valley Council has no equivalent plan in any document in evidence.
+Nambucca Valley Council had a flying fox management plan for Gordon Park, Nambucca Heads, developed in 2017. No equivalent exists for any hinterland location in any document in evidence.
+Kempsey Shire Council removed Camphor Laurel trees from council land in April 2024, having conducted a Review of Environmental Factors and engaged a local ecologist. No equivalent process appears in any Nambucca Valley Council document in evidence.
+The Bellbrook flying fox camp has been active since November 2019. Kempsey Shire Council's own register lists Bellbrook as historic. A formal management plan request to Kempsey Shire Council in May 2025 was denied on budget grounds.
+The state government pledged $1 million to local councils to manage flying fox populations. The grant program is administered by LGNSW. Eligibility requires a registered camp. No application or access by Nambucca Valley Council for hinterland communities appears in any document in evidence.
+The National Flying-Fox Monitoring Program viewer was decommissioned on 25 June 2025. Camp data is now held in the CSIRO Data Access Portal. The CSIRO portal was unavailable at the time of investigation.
+The Grey-headed Flying-fox is listed as Vulnerable under the EPBC Act and under NSW legislation.
+Activities likely to have a significant impact on the Grey-headed Flying-fox must be referred to the Australian Government under the EPBC Act. This includes proposals to disperse camps, move or shift camp boundaries, or clear important roosting or foraging habitat.
+The Flying-Fox Camp Management Policy 2015 strongly encourages but does not mandate councils to prepare camp management plans. It is a discretionary framework.
+SECTION TWO — WHAT THE REGISTER DOES NOT PROVE
+The following questions remain open and cannot be answered from the register alone.
+Whether the Taylors Arm camp is or has ever been formally registered in the National Flying-Fox Monitoring Program. The decommissioning of the viewer on 25 June 2025 and the unavailability of the CSIRO portal at the time of investigation mean this cannot be confirmed or denied from public sources.
+Whether Nambucca Valley Council sent any written response to Vicki Provost following the March 2023 presentation. The absence of any response in the public record is consistent with no response having been sent, but does not prove it.
+Whether any internal staff assessment of the Camphor Laurel removal request was conducted. Internal council documents are not in the public record and have not been requested under Government Information Public Access.
+Whether the Biosecurity (Noxious Plants) service review in the 2023/24 Annual Report (page 78) references Taylors Arm. That section was not rendered in the PDF fetch.
+Whether the Environmental Protection section of the State of Our Valley Report 2022-2024 (page 27) references Taylors Arm. That section was not rendered in the fetch.
+Whether Nambucca Valley Council applied for or considered applying for any flying fox grant funding for the Taylors Arm or hinterland situation after March 2023.
+Whether Vicki Provost or any other Taylors Arm resident made further representations to council after March 2023 through any channel other than public forum registration.
+Whether the colony at Taylors Arm has grown, diminished, or relocated since March 2023.
+Whether the colony at Taylors Arm is the same colony that subsequently appeared at or near Bellbrook following the Black Summer fires, or whether these are separate populations.
+SECTION THREE — STRUCTURAL FAILURE ANALYSIS
+Failure Mode One — The Council Response Void
+The register establishes a minimum 37-month response void from March 2023 to April 2026. This is not a gap in the record. It is the record. The Outstanding Actions register is the mechanism by which council tracks unresolved matters between meetings. A matter not in that register has no institutional existence. The Taylors Arm flying fox infestation has had no institutional existence in Nambucca Valley Council since 16 March 2023.
+The council's own procedural language in the agenda states that failure to immediately agree to representations and seeking a report instead should not be taken to indicate disagreement or disinterest. The register shows that neither agreement nor a report was sought. The matter generated no procedural consequence whatsoever.
+Failure Mode Two — The Noxious Weed Bypass
+Vicki Provost's specific ask was removal of the Camphor Laurel trees. This ask did not engage the flying fox protection framework. It engaged the Biosecurity Act 2015. The council's own policy mandates Camphor Laurel control as Local Control Authority. The council's own Weeds page states officers conduct regular property inspections under the Biosecurity Act.
+The register establishes that the adjacent council, Kempsey Shire, navigated the identical regulatory tension — Camphor Laurels as both a priority weed and protected habitat — in April 2024 by conducting a Review of Environmental Factors and engaging a local ecologist. This is the model that exists. It was not applied.
+The failure to respond to the Camphor Laurel component is not explained by the EPBC Act. It is not explained by the Flying-Fox Camp Management Policy. It is not explained by any legislative constraint identified in the register. The only constraint that appears in the record is the absence of any council action.
+Failure Mode Three — The Registration Gap
+The National Flying-Fox Monitoring Program counts camps at all known locations. It acknowledges that camps may not be known to anyone or may not be known to the monitoring program. State governments coordinate counts by identifying camps and maintaining a database of their locations. In New South Wales this is coordinated by NSW Environment, contactable at ff.census@environment.nsw.gov.au.
+The register contains no evidence that the Taylors Arm camp has been formally reported to NSW Environment or to CSIRO for inclusion in the monitoring program. If the camp is unregistered, two consequences follow. First, the community cannot access the grant programs administered under the program framework, as eligibility requires a registered camp. Second, the camp has no Commonwealth monitoring history, making any future EPBC referral process more difficult to prosecute because there is no established population data for the site.
+The mechanism for correcting this exists: notification to speciespolicy@environment.gov.au or directly to CSIRO researchers David Westcott at david.westcott@csiro.au or Adam McKeown at adam.mckeown@csiro.au. Neither Nambucca Valley Council nor any documented community member has used this mechanism.
+Failure Mode Four — The Grant Access Void
+Two grant programs exist that are relevant to Taylors Arm: the NSW Flying-Fox Camp Management Grant Program and the LGNSW Flying-Fox Habitat Restoration Program. Nambucca Valley Council accessed the first program in 2017 for Gordon Park, Nambucca Heads. The programs have continued in subsequent rounds. No application for or access to either program for any Nambucca Valley hinterland location appears in any document in evidence.
+The register also establishes that the state government pledged $1 million to councils for flying fox management with a mixed response. Kempsey Shire Council denied a management plan request on budget grounds at approximately the same time this pledge was made. The council that denied on budget grounds appears not to have accessed the available grant mechanism designed to address that precise constraint.
+Failure Mode Five — The Electoral Silence
+Michael Kemp (Nationals) is Member for Oxley, covering both Taylors Arm and Bellbrook. Pat Conaghan (Nationals) is federal Member for Cowper, also covering both communities. No advocacy, representation, media statement, or parliamentary action by either member on the flying fox issue for either community appears in any document in the register. Both are National Party members whose core constituency is rural communities experiencing agricultural and liveability pressures from wildlife management failures. The silence is notable against that constituency alignment.
+Failure Mode Six — The Institutional Memory Break
+Rhonda Hoban OAM was Mayor of Nambucca Valley Council at the time of the March 2023 presentation. Gary Lee was elected Mayor in October 2024. The Outstanding Actions register is the institutional memory transfer mechanism between councils. Because the Taylors Arm flying fox matter was never entered into the Outstanding Actions register, it was never available for transfer to the incoming administration. The new council under Mayor Gary Lee has no formal institutional knowledge of the matter. Any advocacy directed at the current council begins from zero.
+Failure Mode Seven — The Parallel Infrastructure Paradox
+In June 2023, three months after Vicki Provost's presentation, Nambucca Valley Council considered a Post Exhibition Report on a Draft Concept Design for the Taylors Arm Sporting Reserve. The Taylors Arm Sports Reserve is located directly opposite the Pub With No Beer — the same precinct as the reported flying fox camp. Council was actively planning infrastructure investment in the precinct affected by the infestation at the same time it was generating zero response to the infestation itself. No cross-reference between the sporting reserve concept design and the flying fox infestation appears in any retrieved document.
+Failure Mode Eight — The Self-Contradiction in Council Claims
+The State of Our Valley Report 2022-2024 records as an achievement that council conducted away meetings in villages and outlying rural areas and that residents addressed council via delegations and public forums. The March 2023 meeting at Taylors Arm Hall is one of these documented away meetings. The flying fox presentation at that meeting is not referenced. The council claims the engagement as an achievement while the register shows the substance of that engagement generated no institutional response. The achievement claim and the response void exist simultaneously in the record.
+SECTION FOUR — CROSS-JURISDICTION EQUIVALENCE FINDING
+The register establishes the following parallel facts across two local government areas.
+At Bellbrook (Kempsey Shire): colony entered the community November 2019 following Black Summer fires. The Kempsey register lists the camp as historic despite six years of active occupation. A formal management plan request in May 2025 was denied on budget grounds. Council stated it hopes to revisit at the October 2025 meeting. No October 2025 meeting record has been retrieved.
+At Taylors Arm (Nambucca Valley): colony described as having more than doubled in size as of March 2023. No entry in any council record from March 2023 to April 2026.
+Both communities: Grey-headed Flying-fox. Both local government areas: same legislative framework. Both local government areas: National Party state and federal representation. Both local government areas: no management plan for the affected hinterland site. Both local government areas: no documented access to available grant programs for the affected communities. Both local government areas: council register documentation either absent (Taylors Arm) or demonstrably incorrect (Bellbrook listed as historic).
+The cross-jurisdiction equivalence is not a coincidence of geography. It is a consistent outcome produced by the same structural conditions operating across adjacent jurisdictions under the same legislative framework with the same political representation.
+SECTION FIVE — THE CAMPHOR LAUREL INTERSECTION FINDING
+The register establishes a specific regulatory intersection that has not been addressed by either council.
+The Grey-headed Flying-fox is listed as Vulnerable under the EPBC Act. Activities likely to have a significant impact must be referred to the Australian Government. This includes proposals to clear important roosting habitat.
+Camphor Laurel is a priority weed under the Biosecurity Act 2015. Council as Local Control Authority has a legal requirement to actively control and reduce its spread.
+The Flying-Fox Camp Management Code of Practice 2018 states that understorey weeds can provide important roosting habitat for flying-foxes, especially in heat stress events.
+These three instruments together create the following regulatory position. The Camphor Laurel trees at Taylors Arm are simultaneously: a priority weed that council is legally required to manage; roosting habitat for a Vulnerable threatened species that cannot be cleared without EPBC assessment; and the specific subject of the community's request to council in March 2023.
+The register establishes that Kempsey Shire Council resolved this tension in April 2024 by conducting a Review of Environmental Factors under the EP&A Act and engaging a local ecologist. That is the documented pathway to resolution. It has not been applied at Taylors Arm.
+SECTION SIX — THE PUBLIC HEALTH FINDING
+Vicki Provost specifically documented tank drinking water quality contamination as a harm. Taylors Arm is a hinterland village without reticulated town water. Residents rely on rainwater harvesting systems. Flying fox colonies roosting in proximity to rooftops and tank inlet systems create documented contamination risks through faecal matter.
+The register contains no evidence of any referral by Nambucca Valley Council to NSW Health, the North Coast Public Health Unit, or any other public health authority in relation to this specific risk. Council's own Community Strategic Plan lists Public Health — Clean Water as a key strategic direction. The register shows no activation of that strategic direction in response to the March 2023 complaint.
+SECTION SEVEN — THE TOURISM ECONOMY FINDING
+The Pub With No Beer at Taylors Arm is a nationally known tourism destination. The Taylors Arm Sports Reserve campground, which council was actively developing in June 2023, is directly opposite the pub. The flying fox camp is in the same village precinct.
+The register establishes that at Bellbrook, the flying fox colony caused hospitality businesses to lose trade due to stench and incessant noise, with both locals and visitors choosing to dine elsewhere. The structural conditions at Taylors Arm — a nationally known pub, an adjacent campground, a flying fox colony in the same precinct — present an identical risk profile.
+Council's own Community Strategic Plan lists Local Economy as a key strategic direction. The register shows no activation of that strategic direction in response to the March 2023 complaint or in the June 2023 sporting reserve development process.
+ANALYSIS CONCLUSION
+
+The register establishes a complete and internally consistent picture of a community that: formally presented a documented infestation to council; identified the specific legal pathway — Camphor Laurel removal — that did not engage the most complex legislative barriers; received no response across a minimum 37-month window; sits within a jurisdiction that has the policy framework, the precedent (Gordon Park 2017), the adjacent council model (MidCoast 2021, Kempsey 2024), and the grant access mechanism to have responded; and remains outside the institutional knowledge of the current administration because the matter was never entered into the tracking system.
+The register also establishes that the same structural failure pattern is producing the same outcome simultaneously in the adjacent jurisdiction of Kempsey Shire at Bellbrook, under the same legislative framework, the same political representation, and the same species.
+This is not two isolated local failures. This is one systemic failure operating across a regional corridor.
+
+
+AVAILABLE OUTPUT INSTRUMENTS
+The analysis is available to support the following output instruments at the instruction of the Architect:
+— Advocacy package for Taylors Arm community
+— Government Information Public Access request to Nambucca Valley Council
+— Cross-submission to the NSW Environment Minister (Penny Sharpe)
+— Electoral representation brief for Michael Kemp MP (Oxley) and/or Pat Conaghan MP (Cowper)
+— Comparative brief for both Taylors Arm and Bellbrook as a regional corridor submission
+— Formal notification of the Taylors Arm camp to the National Flying-Fox Monitoring Program
+— Enforcement notice to Nambucca Valley Council on Biosecurity Act obligations
+— Senate committee submission on regional flying fox governance failures
+
+
+Deep Forensic All Paths Taken Analysis — Taylors Arm Flying Fox Infestation | Julian Minko, The Architect of MAYHEM | 16 June 2026

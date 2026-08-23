@@ -1,0 +1,65 @@
+PLAIN LANGUAGE SUMMARY
+
+Flying Fox Governance Failure — Taylors Arm Village
+Nambucca Valley, New South Wales
+
+This document summarises the findings of a forensic investigation into the failure of Nambucca Valley Council to respond to a flying fox infestation complaint made by a resident of Taylors Arm in March 2023. It is written for community members, elected representatives, journalists, and anyone affected by the issue who wants to understand what the investigation found without reading the full technical documents.
+
+THE SITUATION
+Taylors Arm is a village of 133 people in the Nambucca Valley hinterland. The village has no mains water — everyone uses rainwater tanks. The Pub With No Beer is the village's main economic asset and a nationally known tourist destination. The council-managed campground sits directly opposite the pub.
+A colony of grey-headed flying foxes established itself in the village. By early 2023 the colony had more than doubled in size. The bats were roosting in Camphor Laurel trees at the back of residential properties. People's rainwater tanks were being contaminated by bat droppings. Washing was being soiled. Cars were being damaged. The smell and noise were constant. People couldn't use their backyards.
+The grey-headed flying fox is a protected and threatened species under Commonwealth and NSW law. You cannot simply remove a colony without going through a legal process. But the trees the bats were roosting in — Camphor Laurel trees — are also legally classified as a priority weed that councils are required to manage.
+
+WHAT A RESIDENT DID
+On 16 March 2023, a Taylors Arm resident named Vicki Provost formally addressed Nambucca Valley Council at a public meeting held in Taylors Arm Hall. She described the infestation and its effects. She asked the council whether it could do anything about removing the Camphor Laurel trees the bats were roosting in.
+The council recorded her presentation in its official minutes. That is confirmed — the minutes are a primary source document that has been read as part of this investigation.
+The council took no action.
+
+WHAT THE INVESTIGATION FOUND
+The investigation examined every available Nambucca Valley Council public record for the period March 2023 to April 2026. This included council meeting agendas and minutes, annual reports, and the State of Our Valley report. Here is what was found:
+Finding 1: The council's Outstanding Actions register — the mechanism by which councils track unresolved matters — contains no entry for this matter at any meeting across the entire 37-month period. The complaint was received and nothing was tracked.
+Finding 2: No resolution, referral, staff direction, or response to Vicki Provost appears in any public council document at any point between March 2023 and April 2026.
+Finding 3: In June 2023 — three months after the complaint — council was actively planning a new concept design for the Taylors Arm Sports Reserve campground, located directly opposite the pub and in the same precinct as the reported colony. The planning documents contain no reference to the flying fox infestation.
+Finding 4: The council's State of Our Valley report claims the March 2023 Taylors Arm away meeting as a community engagement achievement. The flying fox complaint made at that meeting is not mentioned.
+Finding 5: In October 2024 there was a change of mayor. Because the complaint was never entered into the Outstanding Actions register, the new mayor and council have no formal institutional record that the complaint was ever made.
+Finding 6: Council has a legal obligation under the Biosecurity Act 2015 to manage Camphor Laurel as a priority weed. Its own policies state this. The obligation was not activated in response to the March 2023 complaint.
+Finding 7: The adjacent council — Kempsey Shire — faced the same regulatory question and navigated it in April 2024: they conducted a formal environmental assessment and engaged a local ecologist before removing Camphor Laurels. That model exists. It was not applied at Taylors Arm.
+Finding 8: A state government grant program exists to help councils manage flying fox colonies. To access it, the colony must be registered with the Commonwealth's national monitoring program. The Taylors Arm colony is not confirmed as registered. Council has not notified the colony to the monitoring program. Without registration, the grant cannot be accessed.
+Finding 9: The exact same failure is happening simultaneously at Bellbrook in the adjacent Kempsey Shire Local Government Area. Same species, same hinterland ecology, same result: no management plan, no grant access, no effective response. Both communities sit within the same state electorate (Oxley) and federal electorate (Cowper). Neither the state member nor the federal member has documented public advocacy on the issue for either community.
+
+WHAT SHOULD HAVE HAPPENED
+The investigation identified three actions that were available to the council from March 2023 and were not taken:
+First — notify the colony to the national flying fox monitoring program. This is a single email to CSIRO or the Commonwealth environment department. It takes minutes. It does not require any legal approval. Once the colony is registered, it becomes eligible for grant funding.
+Second — initiate a Review of Environmental Factors for the Camphor Laurel trees. This is the legal process required before well-established Camphor Laurels can be removed. It involves engaging a qualified ecologist. Kempsey Shire Council did exactly this in April 2024. The model exists and has been demonstrated by the adjacent council.
+Third — apply for available grant funding. The NSW government has a grant program specifically for councils managing flying fox colonies. The same council accessed this program in 2017 for its colony at Nambucca Heads. The program is available again. But the colony must be registered first — see point one above.
+
+WHAT IS BEING DEMANDED
+The Enforcement Notice in this package makes ten non-optional remedy demands across three recipients. The most important are:
+NVC-1 (Nambucca Valley Council): Acknowledge the March 2023 complaint in writing and confirm what action, if any, was taken and what is now proposed.
+NVC-2 (Nambucca Valley Council): Notify the Taylors Arm colony to the National Flying-Fox Monitoring Program.
+NVC-3 (Nambucca Valley Council): Commence a Review of Environmental Factors for the Camphor Laurel trees, consistent with the Kempsey Shire model of April 2024.
+NVC-4 (Nambucca Valley Council): Apply for available grant funding once the colony is registered.
+NVC-5 (Nambucca Valley Council): Develop a flying fox camp management plan for the Taylors Arm site in consultation with the community.
+NSW-1 (NSW Environment): Provide direct support to Nambucca Valley Council on the camp registration and management plan process.
+NSW-2 (NSW Environment): Confirm whether the Taylors Arm colony is registered, and if not, initiate the registration process.
+NSW-3 (NSW Environment): Confirm the current status of grant programs available to councils for hinterland camp management.
+CWLTH-1 (Commonwealth Environment): Confirm whether the Taylors Arm colony is known to the monitoring program, and ensure it is assessed for inclusion in the post-review monitoring architecture.
+CWLTH-2 (Commonwealth Environment): Confirm the current status of the monitoring program review and how previously unregistered camps can be included.
+
+THE ONE THING ANYONE CAN DO RIGHT NOW
+You do not need to wait for the council, the state government, or the Commonwealth to act. The most important single action does not require any of them.
+Anyone can notify the Taylors Arm flying fox colony to the National Flying-Fox Monitoring Program. Send an email to:
+david.westcott@csiro.au  or  adam.mckeown@csiro.au  or  speciespolicy@environment.gov.au
+In the email, include: the village name (Taylors Arm), the local government area (Nambucca Valley), the state (New South Wales), the species (grey-headed flying fox), the approximate duration of occupation (present since at least 2023, colony described as having more than doubled by March 2023), the roosting vegetation (Camphor Laurel trees at the rear of residential properties), and the contact details for a local person who can assist with further information.
+This single step establishes the condition required for grant eligibility. Once the colony is registered, the council can apply for funding. The notification does not require council approval. It does not require legal expertise. It requires an email.
+
+THE BIGGER PICTURE
+Taylors Arm is not an isolated case. Bellbrook — another small hinterland village, 27 kilometres away in Kempsey Shire — is experiencing the identical situation. Same species. Same legislative framework. Same result: council non-response, no management plan, no grant access.
+Both communities sit within the same state electorate and federal electorate. The state member for Oxley is Michael Kemp (Nationals), based in West Kempsey. The federal member for Cowper is Pat Conaghan (Nationals), born in Kempsey. Neither has documented public advocacy on this issue for either community.
+This is not a local accident. It is a regional governance architecture producing the same failure across adjacent jurisdictions under the same legislative framework with the same political representation. The investigation has built the evidentiary foundation for a combined submission covering both communities — to the NSW Environment Minister and to a relevant parliamentary committee — that would put the systemic regional pattern formally before a body with authority to act.
+
+SOURCE NOTE
+Every finding in this summary is grounded in primary source documents. The Evidence Register (Document 5 in this package) contains 76 items with full source citations. The Five-Step Verification Guide (Document 4) shows you how to check any finding yourself against the original source. Nothing in this package is based on opinion, hearsay, or inference. If a finding is in this summary, it is in the evidence register, and the evidence register tells you exactly where it came from.
+
+
+Plain Language Summary — Flying Fox Governance Failure — Taylors Arm Village | 16 June 2026

@@ -1,0 +1,165 @@
+TEMPORAL PROJECTION INTEGRITY ENGINE
+GATE RECORD
+
+Taylors Arm Flying Fox Infestation
+
+Full title: Temporal Projection Integrity Engine — no abbreviation, no acronym, no shortened form
+Status: FROZEN
+Operates on: Frozen Lattice Atlas output
+Founding evidence: Frozen Evidence Register EVID-001 to EVID-076
+Date executed: 16 June 2026
+Produced by: Julian Minko, The Architect of MAYHEM
+
+
+GATE PROTOCOL
+Per the canonical specification, Classification 4 is assessed first in every gate pass. Sequence: 4 — 1 — 2 — 3.
+Each forward-facing Lattice Atlas output is passed through the gate in sequence. The gate does not advance any output to Enforcement Notice without a classification label carrying mandatory fields.
+GATE PASS ONE — CLASSIFICATION 4 ASSESSMENT
+Classification 4 — Projected — Mechanism-Grounded
+Entry conditions (all three required at FS 7.0 or above): mechanism is documented as an active process operating on the subject case — evidenced as operating, not characterised generally; output class of the mechanism is confirmed by evidence external to the subject case; subject case is currently within the operating conditions of the mechanism, confirmed by evidence.
+Forward observation under assessment
+The colony will remain without council management response unless an external intervention disrupts the current institutional trajectory.
+Condition 1 — Is the mechanism documented as an active process operating on this case?
+Mechanism 10 (Time as Structural Harm Mechanism) is confirmed active. EVID-007 through EVID-027 establish a continuous 37-month non-response record across seven retrieved meeting records, two annual reports, and the State of Our Valley Report. The Outstanding Actions register — the institutional mechanism that would contain a response — contains no entry at any point. The mechanism is not characterised generally. It is evidenced as operating in this case from 16 March 2023 to April 2026 without interruption.
+Mechanism 11 (Silence and Non-Response) is confirmed active by the same evidence base.
+Mechanism 54 (Reform as Reset) is confirmed active — the mayoral transition of October 2024 produced institutional memory erasure, confirmed by the Outstanding Actions register containing no flying fox entry in the November 2024 agenda (EVID-009).
+FS assessment for Condition 1: The founding entries — EVID-007, EVID-008, EVID-009, EVID-026, EVID-027 — are primary source official council documents. They are verbatim, source-anchored, time-stamped, and context-preserving. They carry no interpretation — they are records of what the register contained and did not contain. The evidence is multi-source across seven distinct meeting records spanning 37 months. It is resistant to alternative interpretation — the register either contains an entry or it does not. It replicates across independent source documents. FS: 8.5.
+Condition 1: SATISFIED at FS 8.5.
+Condition 2 — Is the output class of the mechanism confirmed by evidence external to this case?
+The output class of Mechanism 10 (Time as Structural Harm Mechanism) operating alongside Mechanism 54 (Reform as Reset) and Mechanism 11 (Silence and Non-Response) in a local government wildlife management context is documented in the evidence register from external cases.
+EVID-015 establishes that Kempsey Shire Council lists Bellbrook as a historic camp despite six years of active colony presence. The colony arrived November 2019. The register has not been updated to reflect the active status. The output of the same mechanism cluster operating in the adjacent LGA is confirmed: institutional records do not self-correct across time without external intervention. The failing state persists and becomes embedded as the baseline.
+EVID-016 establishes that a formal management plan request made in May 2025 — six years after colony arrival — was denied on budget grounds. The colony's persistence across six years without response did not build institutional momentum toward resolution. It built institutional normalisation. The output class is: prolonged non-response produces embedded failure, not eventual response.
+Additionally, the East Cessnock case documented during the Tier Infinity Audit surface — recorded in the investigation record — confirms the same output class across a third case: residents disengaged from the complaint process after non-response, the council's complaint register showed silence, and the council reported no problem. The silence produced by non-response was misread institutionally as resolution.
+FS assessment for Condition 2: Two external cases — Bellbrook (EVID-015, EVID-016) and East Cessnock (recorded in the Tier Infinity Audit surface) — confirm the output class through primary and secondary source documentation. The Bellbrook evidence is primary source (Kempsey Council register, Macleay Argus confirmed reporting). The East Cessnock evidence is secondary source (media). The combination produces sufficient external confirmation. FS: 7.5.
+Condition 2: SATISFIED at FS 7.5.
+Condition 3 — Is the subject case currently within the operating conditions of the mechanism?
+The operating conditions of Mechanism 10 (Time as Structural Harm Mechanism) require: an unresolved community complaint; an institution with the obligation to respond; time continuing to pass without response; and no external intervention disrupting the trajectory.
+All four conditions are confirmed in evidence.
+The complaint is unresolved — no response has been documented across 37 months (EVID-007 through EVID-027).
+The institution holds the obligation — the Biosecurity Act 2015 mandates Camphor Laurel control by council as Local Control Authority (EVID-010). The Flying-Fox Camp Management Policy 2015 strongly encourages management plans (EVID-070). Both obligations are documented as active.
+Time continues to pass. The most recent retrieved agenda (April 2026, EVID-027) contains no flying fox entry. There is no evidence of any process that would interrupt the trajectory before the next meeting cycle.
+No external intervention is documented as pending, active, or initiated. No Government Information Public Access request has been filed. No camp registration notification has been made. No grant application has been lodged. No electoral advocacy is documented from either state or federal member.
+The mayoral transition (EVID-018) has produced a new council with no institutional knowledge of the complaint, reducing the probability of internally-generated response further, not increasing it.
+FS assessment for Condition 3: The operating conditions are confirmed by primary source council documents across the full 37-month period. The absence of any documented interrupting mechanism is itself confirmed by the same evidence base — the Outstanding Actions register, annual reports, and agendas do not contain any entry that would constitute an interrupting mechanism. FS: 9.0.
+Condition 3: SATISFIED at FS 9.0.
+Classification 4 determination
+All three Classification 4 entry conditions satisfied. Minimum FS 7.5 across all three conditions. Classification 4 assigned.
+Classification 4 Label
+PROJECTED — MECHANISM-GROUNDEDHarm not yet manifested at its structural endpoint.Causal mechanisms confirmed in evidence as active: Mechanism 10 (Time as Structural HarmMechanism), Mechanism 11 (Silence and Non-Response), Mechanism 54 (Reform as Reset),Mechanism 60 (Normalisation Through Duration).Output class established by evidence external to this case: Bellbrook (EVID-015, EVID-016),East Cessnock (Tier Infinity Audit surface) — prolonged institutional non-response producesembedded failure, not eventual resolution.Mechanism FS: 8.5 (Condition 1), 7.5 (Condition 2), 9.0 (Condition 3).External basis: EVID-015, EVID-016.Snapshot basis: EVID-001 through EVID-027.Horizon status: OPEN — closes on: harm manifestation at structural endpoint; mechanisminterrupted by external intervention; new evidence contradicts that mechanisms are still operating.
+
+GATE PASS TWO — CLASSIFICATION 1 ASSESSMENT
+Classification 1 — Projected — Evidence-Grounded
+Entry conditions (all three required): drift between two or more snapshots is documented and directional; founding entries hold FS 7.0 or above; projected state is a direct continuation of the documented pattern with no intervening variable required.
+Forward observation A under assessment
+The Taylors Arm camp will remain unregistered in the National Flying-Fox Monitoring Program absent a notification action by council, the community, or an advocate.
+Drift assessment
+The camp registration status has been unverifiable from any public source across the full investigation period. EVID-021 establishes the registration mechanism. EVID-038 establishes that the National Flying-Fox Monitoring Program viewer was decommissioned on 25 June 2025. EVID-044 and EVID-058 establish that the CSIRO Data Access Portal was unavailable at the time of investigation. No council document, annual report, or grant application in the evidence base references camp registration for Taylors Arm. The directional drift is: the registration gap existed at the start of the documented period and no action to close it appears anywhere in 37 months of council records.
+FS of founding entries: EVID-021 (DCCEEW monitoring page — primary government source), EVID-030 (grant eligibility requiring registered camp — confirmed), EVID-049 (DCCEEW acknowledging unregistered camps exist — primary government source). FS: 7.8.
+Projected state: The camp remains unregistered. This is a direct continuation of the documented pattern. No intervening variable is required to produce this outcome — it is the absence of action that produces it. The only interrupting variable would be a notification to CSIRO or NSW Environment, which has not been documented.
+Condition assessment: All three conditions satisfied. FS 7.8. Classification 1 assigned.
+Classification 1 Label — Observation A
+PROJECTED — EVIDENCE-GROUNDEDForward observation derived from confirmed directional drift across the documented period.The Taylors Arm flying fox camp will remain unregistered in the National Flying-Fox MonitoringProgram absent a notification action by council, the community, or an advocate.Founding FS: 7.8.Snapshot basis: EVID-021, EVID-030, EVID-038, EVID-044, EVID-049, EVID-058.
+Forward observation B under assessment
+Grant access will remain unavailable to the Taylors Arm community for as long as the camp remains unregistered.
+Drift assessment
+EVID-030 establishes the structural link between camp registration and grant eligibility. EVID-013 establishes that the same council accessed the grant program in 2017 — and that access required a registered camp at that time. No grant application for Taylors Arm appears in any document across the 37-month period. The directional drift is: grant access has been unavailable and no action to establish it has been documented.
+FS of founding entries: EVID-030 (Ecosure grant program confirmation), EVID-013 (prior council access to the program — confirmed by Macleay Argus primary reporting). FS: 7.5.
+Projected state: Grant access remains unavailable. Direct continuation of documented pattern. No intervening variable required — the absence of camp registration is the operative condition.
+Condition assessment: All three conditions satisfied. FS 7.5. Classification 1 assigned.
+Classification 1 Label — Observation B
+PROJECTED — EVIDENCE-GROUNDEDForward observation derived from confirmed directional drift across the documented period.Grant access under the NSW Flying-Fox Camp Management Grant Program and LGNSW Flying-FoxHabitat Restoration Program will remain unavailable to the Taylors Arm community for as longas the camp remains unregistered.Founding FS: 7.5.Snapshot basis: EVID-013, EVID-030, EVID-031.
+Forward observation C under assessment
+The Pub With No Beer and Taylors Arm Sports Reserve campground will continue to operate under flying fox colony impact without any documented council management response.
+Drift assessment
+EVID-005 establishes the Sports Reserve as a council-managed asset directly opposite the Pub With No Beer. EVID-025 establishes council was actively planning infrastructure at the Sports Reserve in June 2023 — three months after the flying fox complaint — with no cross-reference to the infestation. EVID-016 establishes the Bellbrook precedent: hospitality businesses losing trade due to stench and noise. The directional drift is: council is investing in the same precinct while producing no response to the condition affecting it.
+FS of founding entries: EVID-005 (council agenda — primary source), EVID-025 (council agenda — primary source), EVID-016 (Macleay Argus confirmed reporting on Bellbrook commercial impact). FS: 7.2.
+Projected state: The tourism assets continue under colony impact without council management response. Direct continuation of documented pattern.
+Condition assessment: All three conditions satisfied. FS 7.2. Classification 1 assigned.
+Classification 1 Label — Observation C
+PROJECTED — EVIDENCE-GROUNDEDForward observation derived from confirmed directional drift across the documented period.The Pub With No Beer and Taylors Arm Sports Reserve campground will continue to operateunder flying fox colony impact without council management response, consistent with thedocumented pattern of council infrastructure investment in the precinct alongside documentednon-response to the infestation.Founding FS: 7.2.Snapshot basis: EVID-005, EVID-016, EVID-025.
+
+GATE PASS THREE — CLASSIFICATION 2 ASSESSMENT
+Classification 2 — Projected — Conditional
+Entry conditions (all three required): pattern evidenced in at least one snapshot; intervening variable possible but not indicated; projected state is probable given current evidence and the condition stated. FS between 5.0 and 6.9.
+Forward observation D under assessment
+If the Taylors Arm camp is formally notified to the National Flying-Fox Monitoring Program, the grant eligibility condition would be established, enabling a council application for flying fox management funding.
+Pattern basis
+EVID-013 establishes the council accessed this grant in 2017. EVID-030 establishes eligibility requires a registered camp. EVID-021 establishes the notification mechanism. The pattern — notification enables eligibility enables application — is confirmed by the 2017 precedent. The condition is the notification itself, which has not occurred.
+Intervening variables possible: council may not apply even if eligible; the grant program may be oversubscribed; application may be unsuccessful; the camp may not qualify for the monitoring program. FS: 6.5.
+Condition: Formal notification of the Taylors Arm camp to the National Flying-Fox Monitoring Program — by council, community, investigator, or advocate — to CSIRO contacts David Westcott (david.westcott@csiro.au) or Adam McKeown (adam.mckeown@csiro.au), or to speciespolicy@environment.gov.au.
+Classification 2 assigned.
+Classification 2 Label — Observation D
+PROJECTED — CONDITIONALForward observation probable given current evidence.If the Taylors Arm camp is formally notified to the National Flying-Fox Monitoring Program,the grant eligibility condition would be established, enabling a council application for flyingfox management funding under the NSW Flying-Fox Camp Management Grant Program or theLGNSW Flying-Fox Habitat Restoration Program.Condition: formal notification of the Taylors Arm camp to the National Flying-Fox MonitoringProgram — to CSIRO contacts David Westcott (david.westcott@csiro.au) or Adam McKeown(adam.mckeown@csiro.au), or to speciespolicy@environment.gov.au.Founding FS: 6.5.Snapshot basis: EVID-013, EVID-021, EVID-030, EVID-031, EVID-059.
+Forward observation E under assessment
+If a Camphor Laurel Review of Environmental Factors is initiated by council, the roosting habitat reduction pathway — the specific ask Vicki Provost made in March 2023 — becomes executable within existing legislative authority.
+Pattern basis
+EVID-014 establishes that Kempsey Shire Council conducted a Review of Environmental Factors and engaged a local ecologist before removing Camphor Laurels in April 2024. EVID-010 establishes that Nambucca Valley Council holds the same Local Control Authority obligation under the Biosecurity Act. The pathway is demonstrated as executable. The condition is council initiating the process.
+Intervening variables possible: the Review of Environmental Factors may determine removal is not appropriate; the ecologist engaged may assess the trees as providing habitat that cannot be disturbed; the EPBC framework may require referral if the colony is large enough that clearing constitutes significant impact. FS: 6.2.
+Condition: Nambucca Valley Council initiates a Review of Environmental Factors for the Camphor Laurel trees at Taylors Arm, engaging a qualified ecologist, consistent with the Kempsey Shire Council model of April 2024.
+Classification 2 assigned.
+Classification 2 Label — Observation E
+PROJECTED — CONDITIONALForward observation probable given current evidence.If a Review of Environmental Factors is initiated by Nambucca Valley Council for the CamphorLaurel trees at Taylors Arm, the roosting habitat reduction pathway — the specific remedyrequest made by Vicki Provost on 16 March 2023 — becomes executable within existinglegislative authority, consistent with the Kempsey Shire Council model documented in April 2024.Condition: Nambucca Valley Council initiates a Review of Environmental Factors engaging aqualified ecologist.Founding FS: 6.2.Snapshot basis: EVID-010, EVID-014, EVID-072.
+Forward observation F under assessment
+If a cross-corridor submission documenting both Taylors Arm and Bellbrook is made to the NSW Environment Minister or a Senate committee, the systemic regional pattern would be formally before a body with authority to direct state or Commonwealth action.
+Pattern basis
+Emergent Pattern 4 (Corridor Duplication) from the Lattice Atlas establishes the structural equivalence across both communities. EVID-017 establishes that the state government has already acknowledged flying fox management as a funding issue. EVID-019 and EVID-020 establish the shared electoral representation. The pattern of cross-community submissions producing ministerial or committee attention in analogous regional governance failure cases is documented in comparable Australian advocacy contexts.
+Intervening variables possible: the submission may not receive a response; the minister may refer it back to councils; the committee may not take up the matter; the submission may not be filed. FS: 5.8.
+Condition: A cross-corridor submission documenting both communities is prepared and formally submitted to the NSW Environment Minister (Penny Sharpe) and/or to a relevant Senate or parliamentary committee.
+Classification 2 assigned.
+Classification 2 Label — Observation F
+PROJECTED — CONDITIONALForward observation probable given current evidence.If a cross-corridor submission documenting both Taylors Arm and Bellbrook is formally submittedto the NSW Environment Minister or a relevant Senate or parliamentary committee, the systemicregional pattern would be formally before a body with authority to direct state or Commonwealthaction on flying fox management in the Macleay-Nambucca hinterland corridor.Condition: preparation and formal submission of a cross-corridor document to the NSWEnvironment Minister (Penny Sharpe) and/or relevant parliamentary committee.Founding FS: 5.8.Snapshot basis: EVID-015, EVID-016, EVID-017, EVID-019, EVID-020.
+
+GATE PASS FOUR — CLASSIFICATION 3 DETERMINATIONS
+Classification 3 — Inference — Excluded
+Applied where the evidence register does not satisfy Classification 1 or 2 entry conditions. The following forward observations were considered and excluded.
+Excluded observation A
+The colony will expand further within or beyond the village precinct.
+Colony status is indeterminate from the frozen register, confirmed in the Trajectory Direction Declaration. No evidence establishes current colony size, direction of movement, or seasonal behaviour specific to the Taylors Arm site. Any projection of colony expansion is inference from general grey-headed flying fox behaviour (EVID-062, EVID-063) applied without site-specific evidence. FS of founding entries: below 5.0 for this specific projection.
+Classification 3 Label — Excluded A
+INFERENCE — EXCLUDEDInsufficient evidential grounding for structured forward observation on colony expansion.No site-specific evidence of colony direction, size trajectory, or movement patterns in thefrozen register.Logged as open lead: colony status monitoring — direct community contact or CSIRO notificationresponse required.Snapshot basis: EVID-062, EVID-063.
+Excluded observation B
+The drinking water contamination at Taylors Arm constitutes a public health risk triggering mandatory NSW Health notification obligations.
+The public health notification framework for drinking water contamination from wildlife is not established in the frozen evidence register. EVID-006 establishes the community's claim of tank water quality impacts. Whether that claim, if verified, would trigger mandatory notification is a legal question that requires instrument citation the current register does not hold at PF(H,E)=1. The Solicitors Advocate Engine would be required to map the specific legislative instrument and obligation before this observation could advance.
+Classification 3 Label — Excluded B
+INFERENCE — EXCLUDEDInsufficient evidential grounding for structured forward observation on public healthnotification obligations.Legislative instrument mapping required — Solicitors Advocate Engine activation needed.Logged as open lead: public health obligation pathway — requires instrument citation atPF(H,E)=1 before advancement.Snapshot basis: EVID-006.
+Excluded observation C
+Michael Kemp MP or Pat Conaghan MP will raise the flying fox issue publicly following a cross-corridor submission.
+Electoral advocacy response is not predictable from any evidence in the register. The electoral silence is documented (EVID-019, EVID-020) but the conditions under which either member would respond to a submission are not established in evidence. This is inference about individual actor behaviour.
+Classification 3 Label — Excluded C
+INFERENCE — EXCLUDEDInsufficient evidential grounding for structured forward observation on electoral advocacyresponse.Individual actor behaviour not predictable from structural evidence.Logged as open lead: electoral advocacy pathway — response remains open following submission.Snapshot basis: EVID-019, EVID-020.
+
+TEMPORAL PROJECTION INTEGRITY ENGINE — COMPLETE OUTPUT
+
+Total forward observations assessed: 7.
+
+Classification 4 — Projected — Mechanism-Grounded: 1
+The colony will remain without council management response unless an external intervention disrupts the current institutional trajectory. Mechanism FS range: 7.5 to 9.0. Horizon: OPEN.
+Classification 1 — Projected — Evidence-Grounded: 3
+Observation A: Camp will remain unregistered absent notification action. FS: 7.8.
+Observation B: Grant access will remain unavailable while camp is unregistered. FS: 7.5.
+Observation C: Tourism assets will continue under colony impact without council response. FS: 7.2.
+Classification 2 — Projected — Conditional: 3
+Observation D: Camp notification enables grant eligibility. Condition: formal notification to monitoring program. FS: 6.5.
+Observation E: Review of Environmental Factors enables Camphor Laurel pathway. Condition: council initiates process. FS: 6.2.
+Observation F: Cross-corridor submission places systemic pattern before authority with standing. Condition: submission prepared and filed. FS: 5.8.
+Classification 3 — Inference — Excluded: 3
+Excluded A: Colony expansion trajectory — colony status indeterminate.
+Excluded B: Public health notification obligation — legislative instrument mapping required.
+Excluded C: Electoral advocacy response — individual actor behaviour.
+
+All seven assessments complete. All gate conditions applied. No Classification 4 entry conditions were below FS 7.0. All Classification 2 conditions are explicitly named. No output advances to Enforcement Notice without this gate record.
+
+CHAIN STATUS
+The Temporal Projection Integrity Engine gate is complete and frozen.
+
+The investigation has produced the following frozen documents in sequence:
+— Frozen Evidence Register: EVID-001 to EVID-076
+— Frozen DFAPTA: seven sections
+— Frozen Lattice Atlas: three meshes, five emergent patterns, trajectory classification DEGRADING
+— Frozen Mechanism Register: 13 mechanisms, eight yield functions, five citizen tools
+— Frozen Temporal Projection Integrity Engine Gate Record: one Classification 4, three Classification 1, three Classification 2, three Classification 3
+
+The investigation now stands at the Enforcement Notice entry point. Awaiting Architect instruction on chain completion — Enforcement Notice, advocacy package, cross-corridor submission, or yield determination at current stage.
+
+
+Temporal Projection Integrity Engine Gate Record — Taylors Arm Flying Fox Infestation | Julian Minko, The Architect of MAYHEM | 16 June 2026 | FROZEN

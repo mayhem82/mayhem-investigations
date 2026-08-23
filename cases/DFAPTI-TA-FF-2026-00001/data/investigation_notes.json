@@ -1,0 +1,56 @@
+[
+  {
+    "note_id": "NOTE-0001",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Extracted and read fourteen operator-supplied docx documents (uploaded in two batches). Together they form a complete prior six-stage investigation: Evidence Register (76 entries), Deep Forensic Analysis (7 sections, 8 named failure modes, a cross-jurisdiction equivalence finding, a Camphor Laurel regulatory-intersection finding, and public-health and tourism-economy findings), Lattice Atlas (3 meshes, 5 emergent patterns, DEGRADING trajectory), Mechanism Register (13 mechanisms, 8 yield functions, 5 citizen tools), Temporal Projection Integrity Engine (1 Classification 4, 3 Classification 1, 3 Classification 2, 3 Classification 3 excluded), Enforcement Notice, and a five-document Advocacy Package plus a batch of 11 ready-to-send submission letters.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0002",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Parsed the 76-entry Evidence Register programmatically (EVID-001 through EVID-076) into this repository's EV- schema, mapping 1:1 by number, resolving 'Same document' back-references to the preceding item's source, and mapping repeated paraphrased DCCEEW page citations to the real underlying URL. Deduplicated to 26 distinct sources. Assigned this repository's own uniform 'Requires Verification'/'Unverified' status throughout except two items independently corroborated this run - see NOTE-0005 and DEC-0001.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0003",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Independently checked all 13 mechanism numbers and names claimed in the Mechanism Register against this repository's actual catalog.json (68 mechanisms) via a direct script comparison - all 13 (8, 9, 10, 11, 21, 25, 41, 43, 46, 48, 54, 56, 60) matched exactly by number and name. This is a materially cleaner result than the adjacent DFAPTI-BB-LW-2026-00001 case, where only 3 of 5 claimed mechanism matches were genuine. Separately found that the case's own Lattice Atlas contradicts both the Mechanism Register's count and its own summary's count of confirmed mechanisms - logged as CTR-0002 rather than silently picking one figure. See DEC-0002.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0004",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Found that the Temporal Projection Integrity Engine's Classification 4 Condition 2 partly rests on an unverified 'East Cessnock case' attributed to a 'Tier Infinity Audit surface' - external to this case's own evidence register and self-described in the source document as secondary-source media. This repository's own prior operating history with this operator's material established that 'Tier Infinity Audit' content does not represent real completed submissions. Logged as CTR-0001 and Q-0008 rather than carrying the citation into the built record as established fact; the built Temporal Projection Integrity Engine for this case excludes it from Condition 2's confidence basis and notes the exclusion explicitly.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0005",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Research",
+    "text": "Attempted a direct WebFetch of https://www.dcceew.gov.au/environment/biodiversity/threatened/species/flying-fox-monitoring - the single most load-bearing external page in this register, underlying EV-0038 through EV-0057 - which timed out after 60 seconds. Fell back to WebSearch, which independently corroborated via multiple results that the National Flying-Fox Monitoring viewer was decommissioned 25 June 2025 and camp data moved to the CSIRO Data Access Portal (data.csiro.au/collection/csiro:64370). Upgraded EV-0038 and EV-0039 to Verified on that weaker-than-direct-fetch (search-synthesis) basis - flagged in each item's own investigation_relevance field as distinct from a direct primary-source confirmation. Separately, independently confirmed via WebSearch and WebFetch that the Visit NSW listing for the Pub With No Beer (visitnsw.com/destinations/north-coast/coffs-harbour-area/nambucca-heads/food-and-drink/the-pub-no-beer-0) is real and matches the Supplementary Tourism Pathway document's description almost exactly ('Australia's most iconic country pub', Slim Dusty, 27km from Macksville) - though the page as fetched does not itself mention Taylors Arm Sports Reserve camping, which the source document also claims. That claim (camping at the reserve) is independently supported elsewhere in this case's own evidence (EV-0005) rather than by the Visit NSW page itself.",
+    "related_thread": "THR-03",
+    "related_source": null,
+    "related_evidence": "EV-0038"
+  },
+  {
+    "note_id": "NOTE-0006",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "The original 14 .docx files were uploaded to an ephemeral attachment-staging location no longer reachable by the time this case's data files were built (a context summarization occurred between the initial read-and-verify pass and case construction). Only this repository's own extracted plaintext copies remained available, so preserved/ holds .txt files rather than the original Word binaries for this case only - see DEC-0003.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  }
+]

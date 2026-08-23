@@ -1,0 +1,34 @@
+[
+  {
+    "decision_id": "DEC-0001",
+    "date": "2026-08-23",
+    "reason": "This case originates from a complete six-stage investigation the operator conducted 2026-06-16/17 under an earlier, self-authored framework, using an EVID-/AR- numbering system, a Factual Strength (FS) scoring model, and GOVFAIL Enforcement/Yield Catalogue modules not present in this repository's current methodology. Per the operator's own established expectation that earlier-authored material warrants more scrutiny, not less, this case is ingested with that discipline applied throughout: every item is recorded at classification \"Requires Verification\" and verification_state \"Unverified\" regardless of the source material's own confidence, except two items independently corroborated during ingestion (EV-0038, EV-0039 - see DEC-0002).",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "All 76 evidence items carry classification \"Requires Verification\" / verification_state \"Unverified\" except EV-0038 and EV-0039, upgraded to Verified on independent WebSearch corroboration."
+  },
+  {
+    "decision_id": "DEC-0002",
+    "date": "2026-08-23",
+    "reason": "During ingestion, two internal inconsistencies were found in the source material's own frozen documents rather than resolved by assumption: (1) the Temporal Projection Integrity Engine's Classification 4 Condition 2 partly relies on an unverified 'East Cessnock case' attributed to a 'Tier Infinity Audit surface' that this repository's own prior operating history established does not represent real completed investigation instances (CTR-0001); (2) the Lattice Atlas's own closing summary claims 'eleven' structural harm mechanisms confirmed active, its own body names only seven, and the companion Mechanism Register claims thirteen (CTR-0002). This repository's built Temporal Projection Integrity Engine excludes the East Cessnock leg from Classification 4's confidence basis, and this repository's built SHM Gate uses the Mechanism Register's thirteen-mechanism count - the only one of the three counts independently checked and confirmed correct against this repository's actual 68-mechanism catalogue (2026-08-23) - rather than either of the Lattice Atlas's two internally inconsistent figures.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "CTR-0001 and CTR-0002 opened. Q-0008 opened. The built TPIE and SHM Gate for this case both diverge from the source material's own stated figures where those figures were found to be internally inconsistent or resting on an unconfirmed external citation."
+  },
+  {
+    "decision_id": "DEC-0003",
+    "date": "2026-08-23",
+    "reason": "The 14 original .docx files for this case were uploaded to an ephemeral attachment-staging location that was no longer accessible by the time this case was built (the conversation had been summarized and resumed in between reading the source material and building the case). Only this repository's own extracted plaintext copies (made during the initial read-and-verify pass) remained available.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "preserved/ holds the 14 documents as extracted plaintext (.txt) rather than the original Word binaries (.docx), unlike every other ingested case in this repository. The full text content is preserved and unchanged from the originals; only the file format differs. Flagged here rather than silently deviating from the established pattern."
+  },
+  {
+    "decision_id": "DEC-0004",
+    "date": "2026-08-23",
+    "reason": "The source material's own Complete Recipient Register lists a 'National Environmental Protection Agency' (CEO John Bradley PSM) as a recipient, but self-flags this specific entry as 'not able to be fully confirmed... require direct verification before submission.' No independent verification of this body's existence was carried out during ingestion.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Q-0009 opened. This repository's built Enforcement Notice and Advocacy Package omit this recipient from the primary recipient list pending confirmation, consistent with this repository's standing discipline against merging unconfirmed claims into the record."
+  }
+]

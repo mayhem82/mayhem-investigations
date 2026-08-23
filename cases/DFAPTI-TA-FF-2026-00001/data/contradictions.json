@@ -1,0 +1,22 @@
+[
+  {
+    "contradiction_id": "CTR-0001",
+    "description": "The Temporal Projection Integrity Engine's Classification 4 assessment (Gate Pass One, Condition 2) rests its FS 7.5 external-confirmation score partly on 'the East Cessnock case documented during the Tier Infinity Audit surface,' cited as a second external case confirming that prolonged institutional non-response produces embedded failure. That case is not part of this investigation's own EVID-001-076 evidence register - it is an external reference the source document itself labels 'secondary source (media).' This repository's own operating history separately established, in an earlier session working on this same operator's material, that 'Tier Infinity Audit' content does not represent real completed investigation instances.",
+    "supporting_evidence": [],
+    "opposing_evidence": [],
+    "status": "Open",
+    "material_significance": "Condition 2 of the Classification 4 gate pass is stated as satisfied at FS 7.5 using two external cases - Bellbrook (primary source, this repository's own adjacent case DFAPTI-BB-FF-2026-00001) and East Cessnock (unconfirmed). Removing the East Cessnock leg leaves only the Bellbrook confirmation. Whether that alone still clears the FS 7.0 threshold for Condition 2 has not been independently re-assessed by this repository - see Q-0001 and DEC-0002. The Classification 4 forward observation is built into this case's TPIE with the East Cessnock leg excluded from its confidence basis, per this repository's standing discipline of not merging unconfirmed externally-relayed material into the record.",
+    "required_resolution": "Confirm what the 'Tier Infinity Audit' material actually is and whether the East Cessnock case it describes is a real, verifiable local government matter, or exclude it permanently from this case's forward-assessment basis.",
+    "resolution_evidence": []
+  },
+  {
+    "contradiction_id": "CTR-0002",
+    "description": "This case's own frozen documents disagree with each other on how many Structural Harm Mechanism Catalogue mechanisms are confirmed active. The Lattice Atlas's closing 'FINAL STATUS' section states 'Eleven structural harm mechanisms confirmed active from the Structural Harm Mechanism Catalogue v2.0.' The Lattice Atlas's own 'Mechanism axis' paragraph, in the body of the same document, names only seven items (five numbered catalogue mechanisms - 8, 9, 10, 11, 46 - plus two items it labels 'non-canonical to the catalogue'). The companion Mechanism Register, frozen the same day, states 'Total structural harm mechanisms confirmed active: 13' and lists thirteen numbered mechanisms (8, 9, 10, 11, 21, 25, 41, 43, 46, 48, 54, 56, 60) - all thirteen independently confirmed by this repository against the current 68-mechanism catalogue as matching by number and name (2026-08-23).",
+    "supporting_evidence": [],
+    "opposing_evidence": [],
+    "status": "Open",
+    "material_significance": "The Mechanism Register's 13-mechanism claim is the one independently checked and confirmed correct against this repository's actual catalogue, and is the one this case's SHM Gate is built from. The Lattice Atlas's two internally inconsistent counts (eleven in its summary, seven named in its own body) are not used as this repository's count of record - the discrepancy is preserved here rather than silently reconciled.",
+    "required_resolution": "None available from public evidence - this is an internal consistency defect in the source material itself, not an evidentiary gap. Recorded for the operator's awareness.",
+    "resolution_evidence": []
+  }
+]

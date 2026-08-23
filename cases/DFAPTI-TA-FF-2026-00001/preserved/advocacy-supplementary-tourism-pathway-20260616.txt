@@ -1,0 +1,72 @@
+SUPPLEMENTARY SUBMISSION
+
+Tourism Economy Pathway
+Flying Fox Governance Failure — Taylors Arm Village
+Nambucca Valley Local Government Area, New South Wales
+
+Date: 16 June 2026
+Status: SUBMISSION-READY — SUPPLEMENTARY TO PRIMARY ENFORCEMENT NOTICE
+Framing: Non-allegatory throughout — describes system behaviour, not intent
+Relationship to primary package: This document supplements the Enforcement Notice dated 16 June 2026. It does not replace it. It opens a new recipient and a new pathway operating within the tourism and economic development framework, independent of the wildlife and biosecurity legislative framework addressed in the primary notice.
+New recipient: Destination NSW
+New remedy demands: 3
+Temporal Projection Integrity Engine classification: Classification 2 — Projected — Conditional — FS 6.0
+
+
+PART ONE — WHY THIS PATHWAY EXISTS
+The primary Enforcement Notice addresses the flying fox infestation at Taylors Arm through the wildlife protection and biosecurity legislative framework — the Biosecurity Act 2015, the Flying-Fox Camp Management Policy 2015, and the Environment Protection and Biodiversity Conservation Act 1999. That framework requires navigating species protection law, weed control obligations, and Commonwealth referral thresholds.
+This supplementary submission identifies a second, independent pathway. It does not require any finding about species protection, weed management, or biosecurity obligations. It requires only two facts: that the affected asset is a state-government-promoted tourism destination, and that the documented harm is commercially material to that asset's operation. Both facts are established in this document.
+This pathway is available to recipients whose mandate is economic development and tourism rather than environment or biosecurity. It is the most accessible pathway for media coverage, for elected representatives holding tourism or regional development portfolios, and for any advocate seeking a route into this matter that does not require specialist environmental law knowledge.
+
+PART TWO — THE TOURISM ASSET
+2.1 Formal State Government Listing
+The Pub With No Beer at Taylors Arm is formally listed on the Visit NSW platform, the official tourism website of Destination NSW, the New South Wales Government tourism and major events agency. The Visit NSW listing describes the venue as Australia's most iconic country pub, made famous by Slim Dusty's classic song, located 27 kilometres from Macksville.
+This is not a third-party tourism aggregator listing. It is a direct promotional listing by the NSW state government tourism authority. The state government is actively marketing this asset as a tourism destination to residents of NSW and visitors to the state.
+2.2 National Cultural Significance
+The pub's fame derives from the song "A Pub With No Beer," written by Gordon Parsons and recorded by Slim Dusty in 1957, which became a national number one recording. The song has been covered by The Clancy Brothers, Ted Egan, and Midnight Oil. The pub displays the original handwritten lyrics as part of its visitor experience. The venue is the subject of an annual festival held at Easter — the Pub With No Beer Festival — drawing visitors specifically for that recurring event.
+This level of cultural and tourism significance is uncommon for a venue in a village of 133 people. The asset substantially exceeds the scale of the community in which it sits, meaning the commercial and reputational stakes of any threat to its operation extend beyond the local community to state and national tourism interests.
+2.3 The Commercial Model Depends on Outdoor Amenity
+The pub's documented commercial offering includes an outdoor and indoor bistro operating daily for lunch, with extended dinner service Friday through Sunday; camping facilities directly across the road at the council-managed Taylors Arm Sports Reserve, available by donation; and hot showers provided at the pub for campers using the reserve. The commercial model is built around an integrated outdoor rural tourism experience — dining, camping, and the scenic drive into the village — not an enclosed indoor venue insulated from surrounding environmental conditions.
+This is the critical structural fact for this pathway. A venue whose commercial offering is indoor and enclosed could operate largely unaffected by an external wildlife issue. This venue cannot. Its camping ground, its outdoor dining, and its open-air cultural memorabilia experience are all directly exposed to the conditions documented in the primary Enforcement Notice: faecal contamination, foul odour, and noise from the flying fox colony roosting in the same precinct.
+
+PART THREE — THE STRUCTURAL CONFLICT BETWEEN STATE GOVERNMENT FUNCTIONS
+3.1 Two Arms of State Government, Two Directions
+Destination NSW, through Visit NSW, actively promotes the Pub With No Beer to the public as a tourism destination. Simultaneously, the NSW Department of Climate Change, Energy, the Environment and Water administers a Flying-Fox Camp Management Grant Program designed precisely to address the kind of colony impact documented at Taylors Arm — a program that has not been accessed for this site because the camp has not been registered (as established in the primary Enforcement Notice, Remedy Demands NVC-2 and NSW-2).
+One arm of the NSW Government is marketing the asset. Another arm holds a funding mechanism that could protect it. Neither arm has been connected to the other in any document examined during this investigation. The structural conflict is that the state is promoting a destination whose commercial viability is exposed to a governance failure the state's own grant program exists to address.
+3.2 The Bellbrook Commercial Harm Precedent
+The primary Evidence Register (EVID-016) documents that the Bellbrook flying fox colony — operating under the same legislative framework, the same species, and the same hinterland ecology in the adjacent Kempsey Shire Local Government Area — caused hospitality businesses to lose trade due to stench and noise, with both locals and visitors choosing to dine elsewhere. This is a directly comparable precedent. It establishes that the harm mechanism operating at Taylors Arm has already produced documented commercial loss to a hospitality business in an equivalent hinterland setting.
+3.3 The Festival Exposure
+The Pub With No Beer Festival is held annually at Easter. This is a dated, recurring, predictable commercial event. If the flying fox colony remains unmanaged through any future Easter period, the festival's outdoor activities, camping capacity at the Sports Reserve, and visitor experience are directly exposed to colony impact during the venue's highest-profile annual event. Any reduction in festival attendance, any visitor complaint record, or any documented festival disruption arising from colony conditions would constitute a quantifiable, dated commercial harm directly attributable to the unmanaged governance failure documented in the primary Enforcement Notice.
+
+PART FOUR — TEMPORAL PROJECTION INTEGRITY ENGINE CLASSIFICATION
+The following classification is produced consistent with the gate protocol applied in the primary Temporal Projection Integrity Engine Gate Record. Full title is mandatory in all references — no abbreviation, no acronym, no shortened form.
+Forward observation under assessment
+If the flying fox colony at Taylors Arm remains unmanaged through a future Pub With No Beer Festival or peak tourism season, the commercial viability of a state-government-promoted tourism asset will be directly and measurably exposed to colony impact.
+Pattern basis
+The Visit NSW listing establishes the asset's formal state government tourism status. The pub's documented commercial model establishes its outdoor exposure. The Bellbrook precedent (EVID-016) establishes the output class — equivalent colony conditions in an equivalent hinterland setting produced documented hospitality trade loss. The annual festival establishes a dated, recurring point of maximum exposure.
+Intervening variables possible
+The colony may relocate or diminish in size without intervention. Visitors may continue to attend despite colony conditions, as some hospitality venues retain customer loyalty despite environmental nuisance. The festival may be scheduled or managed in a way that minimises exposure. The commercial harm, if it occurs, may not be formally documented or reported by the venue operator. FS: 6.0.
+Condition
+The colony remains unmanaged — no Review of Environmental Factors process commenced, no camp registration completed, no management plan developed — through the next Pub With No Beer Festival or equivalent peak tourism period.
+Classification 2 Label
+PROJECTED — CONDITIONALForward observation probable given current evidence.If the flying fox colony at Taylors Arm remains unmanaged through a future Pub With No BeerFestival or peak tourism season, the commercial viability of a state-government-promotedtourism asset will be directly and measurably exposed to colony impact, consistent with thedocumented commercial harm precedent at Bellbrook.Condition: colony remains unmanaged through the next Pub With No Beer Festival or equivalentpeak tourism period.Founding FS: 6.0.Snapshot basis: Visit NSW listing (Destination NSW), pub commercial model documentation,EVID-016 (Bellbrook commercial harm precedent), EVID-005 and EVID-025 (Taylors Arm SportsReserve council management records).
+
+PART FIVE — RECIPIENT AND REMEDY DEMANDS
+New Recipient — Destination NSW
+Chief Executive OfficerDestination NSWLevel 16, 175 Liverpool StreetSydney NSW 2000info@destinationnsw.com.au
+Self-Remediation Classification: Available. Destination NSW holds discretion over its own tourism promotion content and holds an established communication channel with NSW Department of Climate Change, Energy, the Environment and Water through ordinary state government interagency processes. Destination NSW can act on this matter without requiring legislative change or council cooperation.
+Remedy DNSW-1: Destination NSW confirms whether it is aware of the flying fox colony at Taylors Arm and its documented impact on the commercial operating conditions of the Pub With No Beer, a venue formally listed and promoted on the Visit NSW platform.
+Remedy DNSW-2: Destination NSW formally notifies the NSW Department of Climate Change, Energy, the Environment and Water of the commercial tourism interest in resolving the Taylors Arm flying fox governance gap, given the documented precedent of hospitality trade loss from equivalent colony conditions at Bellbrook (EVID-016), and requests that the Taylors Arm camp be prioritised for assessment under the Flying-Fox Camp Management Grant Program once registered.
+Remedy DNSW-3: Destination NSW considers whether any tourism infrastructure or regional development funding administered by Destination NSW could support Nambucca Valley Council in addressing the Camphor Laurel removal pathway identified in the primary Enforcement Notice, given the direct commercial relationship between the affected precinct and a state-promoted tourism asset.
+
+PART SIX — RELATIONSHIP TO THE PRIMARY ENFORCEMENT NOTICE
+This supplementary submission does not alter, replace, or reduce any remedy demand in the primary Enforcement Notice dated 16 June 2026. All ten remedy demands addressed to Nambucca Valley Council, NSW Department of Climate Change, Energy, the Environment and Water, and the Commonwealth Department of Climate Change, Energy, the Environment and Water remain in full force.
+This document adds a fourth recipient and three additional remedy demands operating within a different government function — tourism and economic development rather than environment and biosecurity. The two pathways are complementary. A response from Destination NSW confirming commercial interest in resolution may accelerate action from the environment-side recipients, particularly NSW Department of Climate Change, Energy, the Environment and Water, by establishing that the matter carries cross-portfolio significance within the NSW Government.
+When submitting this supplementary document, attach it alongside the primary Enforcement Notice and the Evidence Register. State clearly that this is a supplementary submission opening an additional pathway, not a substitute for the primary submission.
+
+CLOSING STATEMENT
+The tourism pathway does not require any finding about species protection law, weed biosecurity obligations, or Commonwealth referral thresholds. It requires only the documented fact that the New South Wales Government actively promotes an asset whose commercial viability is exposed to a governance failure that another arm of the same government has the mechanism to address. That structural inconsistency is, on its own, sufficient grounds for a response.
+MAYHEM does not create rights. It enforces reality.
+
+
+Supplementary Submission — Tourism Economy Pathway — Taylors Arm Flying Fox Governance Failure | Julian Minko, The Architect of MAYHEM | 16 June 2026

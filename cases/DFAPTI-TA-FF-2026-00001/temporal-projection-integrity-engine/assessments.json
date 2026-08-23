@@ -1,0 +1,75 @@
+{
+  "tpie_id": "TPIE-TA-FF-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-TA-FF-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-23",
+  "purpose_note": "This page states what the current evidence suggests will keep happening if nothing changes. Every entry is a reasoned judgement, not a proven fact and not a measured probability. Confidence is described in plain terms and every entry states what specific new evidence would revise it. Carried over from the operator's 2026-06-16 assessment (originally a four-tier Classification 4/1/2/3 gate, restated here in this repository's Well-supported/Reasonably supported/Weakly supported schema), with one material change: the original Classification 4 assessment's external-confirmation basis cited a second case - 'East Cessnock,' attributed to a 'Tier Infinity Audit surface' - that this repository's own prior operating history established does not represent a real completed investigation instance. That leg is excluded from TPA-001's confidence basis below; only the Bellbrook confirmation (this repository's own adjacent case, DFAPTI-BB-FF-2026-00001) is carried forward. See CTR-0001, DEC-0002.",
+  "assessments": [
+    {
+      "id": "TPA-001",
+      "statement": "Absent external intervention, the Taylors Arm flying-fox colony will remain without any council management response.",
+      "basis": "Mechanism 10 (Time as Structural Harm Mechanism), Mechanism 11 (Silence and Non-Response) and Mechanism 54 (Reform as Reset) are confirmed active in this case's own frozen record: a continuous 37-month non-response spanning seven meeting records with no interrupting entry (EV-0007 through EV-0027), and a mayoral transition that erased institutional memory of the complaint rather than preserving it (EV-0009, EV-0018). The output class - that prolonged institutional non-response produces embedded failure rather than eventual resolution - is independently confirmed by this repository's own adjacent case, Bellbrook (EV-0015, EV-0016), where a camp active since November 2019 is still listed as 'historic' and a 2025 management-plan request was denied on budget grounds.",
+      "confidence": "Well-supported",
+      "confidence_note": "Grounded in a mechanism confirmed active across seven independent, primary-source council records, plus one independently-relevant external confirmation from this repository's own adjacent case. The original assessment also cited a second external case ('East Cessnock,' via the 'Tier Infinity Audit surface') which this repository excludes from this confidence basis - see CTR-0001. The Bellbrook confirmation alone is judged sufficient to retain 'Well-supported' rather than downgrading, since it is itself a primary-source-grounded case in this same repository, but this is a narrower basis than the original assessment claimed.",
+      "would_revise_this": "Council entering the matter into a live Outstanding Actions register, commencing a Review of Environmental Factors, notifying the camp to the monitoring program, or any other documented management step."
+    },
+    {
+      "id": "TPA-002",
+      "statement": "The Taylors Arm camp will remain unregistered in the National Flying-Fox Monitoring Program absent a notification action by council, the community, or an advocate.",
+      "basis": "The registration mechanism exists and is publicly available (EV-0021, EV-0059), but no council document, annual report, or grant application across the 37-month record references camp registration for Taylors Arm. The registration status has been unverifiable from any public source for the full investigation period, given the viewer's decommissioning (EV-0038, EV-0039 - independently corroborated by this repository via WebSearch, 2026-08-23) and the CSIRO portal's unavailability at investigation time (EV-0044, EV-0058).",
+      "confidence": "Well-supported",
+      "confidence_note": "A direct continuation of a documented pattern with no intervening variable required - the absence of action produces this outcome by default.",
+      "would_revise_this": "A notification email to CSIRO or speciespolicy@dcceew.gov.au, and a confirming reply."
+    },
+    {
+      "id": "TPA-003",
+      "statement": "Grant access under the NSW Flying-Fox Camp Management Grant Program and the LGNSW Flying-Fox Habitat Restoration Program will remain unavailable to the Taylors Arm community for as long as the camp remains unregistered.",
+      "basis": "Grant eligibility requires a registered camp (EV-0030). The same council accessed this exact mechanism in 2017 for Gordon Park, Nambucca Heads, when that site was registered (EV-0013) - confirming both that the council knows how to use the mechanism and that registration is the operative precondition.",
+      "confidence": "Well-supported",
+      "confidence_note": "Directly conditioned on TPA-002 - the registration gap is the single blocking variable, not a separate uncertain judgement.",
+      "would_revise_this": "Camp registration (see TPA-002), followed by a grant application."
+    },
+    {
+      "id": "TPA-004",
+      "statement": "The Pub With No Beer and the Taylors Arm Sports Reserve campground will continue to operate under flying-fox colony impact without any documented council management response.",
+      "basis": "Council was actively planning Sports Reserve infrastructure investment in June 2023, three months after the complaint, with no cross-reference to the infestation (EV-0025); the Sports Reserve sits directly opposite the Pub With No Beer (EV-0005). The comparable Bellbrook precedent documents hospitality trade loss from equivalent colony conditions (EV-0016).",
+      "confidence": "Reasonably supported",
+      "confidence_note": "A direct continuation of the documented pattern of investment-alongside-non-response, but current commercial impact at Taylors Arm itself is not independently confirmed - see Q-0006 - so this is judged one notch below the two registration/grant assessments above, which rest on harder administrative facts.",
+      "would_revise_this": "A documented commercial impact report from the venue, or a council management step addressing the precinct."
+    },
+    {
+      "id": "TPA-005",
+      "statement": "If the Taylors Arm camp is formally notified to the National Flying-Fox Monitoring Program, the grant-eligibility condition would be established, enabling a council application for flying-fox management funding.",
+      "basis": "The 2017 Gordon Park precedent (EV-0013) confirms the notification-enables-eligibility-enables-application pattern in this exact council's own history. The notification mechanism is confirmed available (EV-0021, EV-0059).",
+      "confidence": "Reasonably supported",
+      "confidence_note": "Conditional, not unconditional: council may not apply even if eligible, the program may be oversubscribed, or an application may be unsuccessful. This is this case's single most actionable finding (Lattice Atlas Emergent Pattern 3) precisely because the first step does not depend on council at all.",
+      "would_revise_this": "A completed notification and a subsequent council decision on whether to apply."
+    },
+    {
+      "id": "TPA-006",
+      "statement": "If Nambucca Valley Council initiates a Review of Environmental Factors for the Camphor Laurel trees, the roosting-habitat-reduction pathway Vicki Provost specifically requested becomes executable within existing legislative authority.",
+      "basis": "Kempsey Shire Council conducted exactly this process, with a qualified ecologist, in April 2024 (EV-0014). Nambucca Valley Council holds the same Local Control Authority obligation under the Biosecurity Act (EV-0010).",
+      "confidence": "Reasonably supported",
+      "confidence_note": "Conditional: the Review of Environmental Factors process could itself determine removal is inappropriate, or trigger an EPBC referral if the colony is assessed as large enough to constitute significant impact. The pathway is demonstrated as executable elsewhere, not guaranteed to succeed here.",
+      "would_revise_this": "Council formally commencing a Review of Environmental Factors, or a written statement of its position on the Camphor Laurel removal request."
+    },
+    {
+      "id": "TPA-007",
+      "statement": "If a cross-corridor submission documenting both Taylors Arm and Bellbrook is made to the NSW Environment Minister or a parliamentary committee, the systemic regional pattern would be formally before a body with authority to direct state or Commonwealth action.",
+      "basis": "The Corridor Duplication finding (Lattice Atlas LP-007) establishes the structural equivalence between the two communities; both sit within the same state and federal electorates (EV-0019, EV-0020).",
+      "confidence": "Reasonably supported",
+      "confidence_note": "The weakest-supported of the conditional assessments carried over: whether such a submission would receive a substantive response, rather than a referral back to the two councils, is genuinely uncertain and depends on factors outside this case's own evidence.",
+      "would_revise_this": "Preparation and formal submission of a cross-corridor document, and any response received."
+    }
+  ],
+  "not_claimed": [
+    "No entry above is a prediction of what will happen by a specific date.",
+    "No entry above is a measured probability - the confidence labels are qualitative judgements about how well-supported the pattern is, not statistics.",
+    "None of these assessments authorise or compel any action by any institution. They describe what this investigation expects to keep happening if nothing changes, nothing more.",
+    "No entry above assumes bad faith on the part of Nambucca Valley Council, Kempsey Shire Council, or either elected representative - each projects institutional behaviour patterns already visible in the frozen register, not motive.",
+    "Colony Expansion Trajectory was assessed and excluded: colony status is indeterminate from the frozen register - no site-specific evidence of current size, direction of movement, or seasonal behaviour exists. Logged as an open lead (Q-0006), not a forward assessment.",
+    "Public Health Notification Obligation was assessed and excluded: whether the documented tank-water contamination claim triggers a mandatory notification obligation is a legal question this register does not hold the instrument citation to answer. Logged as an open lead, not a forward assessment.",
+    "Electoral Advocacy Response was assessed and excluded: whether either MP will publicly raise the issue following a submission is inference about individual actor behaviour, not evidence-grounded projection.",
+    "The original assessment's Classification 4 external-confirmation basis cited a second case, 'East Cessnock' via a 'Tier Infinity Audit surface,' that this repository's own prior operating history established does not represent a real completed investigation instance. That leg is excluded from TPA-001 above - see CTR-0001."
+  ]
+}

@@ -22,6 +22,7 @@ const CASES = [
   { id: 'DFAPTI-MNC-2026-00001', dataDir: path.join(ROOT, 'cases', 'DFAPTI-MNC-2026-00001', 'data'), preservedDir: path.join(ROOT, 'cases', 'DFAPTI-MNC-2026-00001', 'preserved') },
   { id: 'DFAPTI-BB-FF-2026-00001', dataDir: path.join(ROOT, 'cases', 'DFAPTI-BB-FF-2026-00001', 'data'), preservedDir: path.join(ROOT, 'cases', 'DFAPTI-BB-FF-2026-00001', 'preserved') },
   { id: 'DFAPTI-BB-LW-2026-00001', dataDir: path.join(ROOT, 'cases', 'DFAPTI-BB-LW-2026-00001', 'data'), preservedDir: path.join(ROOT, 'cases', 'DFAPTI-BB-LW-2026-00001', 'preserved') },
+  { id: 'DFAPTI-TA-FF-2026-00001', dataDir: path.join(ROOT, 'cases', 'DFAPTI-TA-FF-2026-00001', 'data'), preservedDir: path.join(ROOT, 'cases', 'DFAPTI-TA-FF-2026-00001', 'preserved') },
 ];
 
 function findCase(caseId) {

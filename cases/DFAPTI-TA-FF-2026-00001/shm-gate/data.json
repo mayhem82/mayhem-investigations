@@ -1,0 +1,158 @@
+{
+  "gate_id": "SHM-GATE-DFAPTI-TA-FF-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-TA-FF-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-23",
+  "freeze_date": "2026-08-23",
+  "freeze_decision": "DEC-0001",
+  "basis_note": "Applies the operator's Structural Harm Mechanism (SHM) Catalogue against this case's own frozen DFAPTA analysis (12 paths, EV-0001-EV-0076). This case's own companion Mechanism Register already ran this exact catalogue cross-reference before this gate restated it, claiming 13 confirmed mechanisms - all 13 were independently re-checked by this repository against the current 68-mechanism catalogue (2026-08-23) and matched exactly by number and name, a materially cleaner result than the adjacent DFAPTI-BB-LW-2026-00001 case, where only 3 of 5 claimed matches were genuine. This gate uses that independently-verified count of 13 rather than either of the two different counts the case's own Lattice Atlas separately states - see CTR-0002.",
+  "catalogue_reference": "Structural Harm Mechanism Catalogue v2.0 (operator-authored, 68 named mechanisms; this gate cites 13)",
+  "position_in_chain": "Applied after DFAPTA (Stage 2), before Lattice Atlas (Stage 3) - a known-patterns check against frozen evidence, distinct from Lattice Atlas's search for new, not-yet-named emergent patterns.",
+  "root_finding": {
+    "title": "Documented Compliance Coexisting with a 37-Month Response Void",
+    "statement": "Every procedural step Nambucca Valley Council took in relation to this matter was individually compliant - the public forum was advertised, Vicki Provost registered and presented correctly, the meeting was held and minuted - and the harm continued regardless (AR-008; Mechanism Register Mechanism 8). Documented Compliance as Shield is the named instance of that gap: the State of Our Valley Report claims the March 2023 away meeting as a civic achievement while the substance of what was raised there generated no institutional response. Time as a Structural Harm Mechanism, Silence and Non-Response, Reform as Reset, and Normalisation Through Duration describe the same 37-month gap running on a clock, through a mayoral transition, and toward becoming the accepted baseline. Prevention Foreclosure, Complexity as Barrier, Language Barrier as Structural Exclusion, and Isolated Incident Framing describe why the gap was never closed. Accountability Inversion, Accountability Cost Externalisation, and Legitimacy Production Decoupled from Enforcement describe who bears the cost once the gap exists and how the institution's own output obscures it.",
+    "roles": [
+      { "mechanism_no": 9, "role": "core_instance", "role_label": "The named instance", "role_note": "The State of Our Valley Report claims the March 2023 'away meeting' as a documented civic achievement; the flying-fox presentation made at that same meeting is not referenced anywhere in that claim - documented engagement substituting for functional response (AR-008)." },
+      { "mechanism_no": 8, "role": "compliant_process", "role_label": "Every step individually compliant, harm continuing regardless", "role_note": "The public forum was advertised, Vicki Provost registered correctly, the meeting was held, the minutes were produced - and no resolution, referral, or staff direction followed (AR-001)." },
+      { "mechanism_no": 10, "role": "temporal_instance", "role_label": "The same gap, running on a clock", "role_note": "A minimum 37-month response void, confirmed across seven distinct council records with no interrupting entry at any point (AR-001)." },
+      { "mechanism_no": 11, "role": "silence_instance", "role_label": "No mechanism exists to log the silence", "role_note": "No resolution, referral, action item or staff direction was recorded following the March 2023 presentation, and none appears anywhere in the subsequent 37 months (AR-001)." },
+      { "mechanism_no": 54, "role": "reset_instance", "role_label": "The clock reset without a reform", "role_note": "The October 2024 mayoral transition produced a council with no formal institutional knowledge the complaint was ever made, because it was never entered into the Outstanding Actions register - a reset triggered by an election and a tracking gap, not a policy reform (AR-006)." },
+      { "mechanism_no": 60, "role": "normalisation_instance", "role_label": "The failure becoming the baseline", "role_note": "Absence of any management plan, monitoring registration, council response, or electoral advocacy across the documented period creates the structural conditions for the colony to be treated as the operating baseline rather than an unresolved emergency (AR-001, AR-005)." },
+      { "mechanism_no": 21, "role": "prevention_instance", "role_label": "Why the gap stayed open (1 of 4)", "role_note": "Camp registration, a Review of Environmental Factors, and grant application were all available preventative pathways from March 2023 onward - none were assessed, let alone rejected (AR-003, AR-004, AR-010)." },
+      { "mechanism_no": 48, "role": "barrier_instance", "role_label": "Why the gap stayed open (2 of 4)", "role_note": "The intersecting Biosecurity Act, Biodiversity Conservation Act, EPBC Act, Flying-Fox Camp Management Policy and Code of Practice constitute an instrument architecture no community member without specialist knowledge could independently navigate to identify available pathways (AR-002, AR-010)." },
+      { "mechanism_no": 56, "role": "exclusion_instance", "role_label": "Why the gap stayed open (3 of 4)", "role_note": "The camp registration mechanism, the grant program, and the Review of Environmental Factors process are all published in institutional register language with no obligation on council to translate them into plain terms for the Taylors Arm community (AR-002, AR-003, AR-010)." },
+      { "mechanism_no": 25, "role": "framing_instance", "role_label": "Why the gap stayed open (4 of 4)", "role_note": "Taylors Arm and Bellbrook, in the same hinterland corridor under the same legislative framework, have each been treated by their respective councils as separate, discrete local matters rather than a recognised regional pattern (AR-009)." },
+      { "mechanism_no": 43, "role": "cost_of_the_gap", "role_label": "Who bears the cost of the gap (1 of 3)", "role_note": "The 133-person village holds no structural standing in the mechanisms that could produce a response - the Flying-Fox Camp Management Policy empowers council, it does not require council to respond to community requests (AR-001, AR-002)." },
+      { "mechanism_no": 46, "role": "cost_of_the_gap", "role_label": "Who bears the cost of the gap (2 of 3)", "role_note": "Vicki Provost registered, prepared, and delivered a formal presentation; every cost of accountability-seeking was borne by her and the community, with the institution bearing no cost from non-response (AR-001)." },
+      { "mechanism_no": 41, "role": "cost_of_the_gap", "role_label": "Who bears the cost of the gap (3 of 3)", "role_note": "Two annual reports, a State of Our Valley report, and the June 2023 Sports Reserve concept-design process are all legitimacy-generating institutional outputs produced during the response void, none of which engage with the flying-fox complaint (AR-007, AR-008)." }
+    ]
+  },
+  "applied": [
+    {
+      "mechanism_no": 8,
+      "name": "Compliant Process Harm",
+      "definition": "The process followed its rules. The harm is real and documented. These are not in contradiction. Compliance is the mechanism of the harm, not its negation. Every institutional actor followed their mandate. Each process executed its designed function. The aggregate output is structural harm - produced through the sum of individually compliant acts.",
+      "status": "APPLIED - this case's own dedicated analytical finding",
+      "match_note": "The public forum was advertised, Vicki Provost registered correctly, the meeting was held, the presentation was received, the minutes were produced - every step compliant with council's own meeting procedures, and the harm continued.",
+      "paths": ["AR-001"],
+      "anchors": ["EV-0001", "EV-0002", "EV-0003", "EV-0004", "EV-0005", "EV-0006", "EV-0007"]
+    },
+    {
+      "mechanism_no": 9,
+      "name": "Documented Compliance as Shield",
+      "definition": "The institution points to the process it completed - the review, the consultation, the assessment - as evidence that the obligation was met. The process was completed. The outcome the process was supposed to produce was not achieved. Documented compliance substituted for functional compliance. This is the load-bearing distinction in every MAYHEM investigation.",
+      "status": "APPLIED - this case's own dedicated analytical finding",
+      "match_note": "The State of Our Valley Report 2022-2024 records the March 2023 Taylors Arm away meeting as a civic-engagement achievement; the substantive flying-fox complaint raised at that meeting generated no institutional response and is not referenced in the achievement claim.",
+      "paths": ["AR-008"],
+      "anchors": ["EV-0024", "EV-0028", "EV-0029"]
+    },
+    {
+      "mechanism_no": 10,
+      "name": "Time as Structural Harm Mechanism",
+      "definition": "Delay, silence, deferral, queueing, response latency. The institution does not refuse. It waits. The citizen's capacity to sustain the complaint erodes. The evidence ages. The political window closes. The harm compounds while the process continues.",
+      "status": "APPLIED - confirmed at case-duration level",
+      "match_note": "A minimum 37 months elapsed from the registered complaint to the most recently retrieved council agenda; the Outstanding Actions register - the mechanism designed to track unresolved matters - contained no entry for this matter at any point in that period.",
+      "paths": ["AR-001"],
+      "anchors": ["EV-0007", "EV-0008", "EV-0009", "EV-0026", "EV-0027"]
+    },
+    {
+      "mechanism_no": 11,
+      "name": "Silence and Non-Response",
+      "definition": "The institution was required to act or respond. It did neither. The silence is not noted because no mechanism exists to log it. The absence of action is invisible to every observer except the person who was waiting for the response.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "No resolution, referral, action item, or staff direction was recorded following Vicki Provost's presentation, and none appears in any public document across the 37-month window.",
+      "paths": ["AR-001"],
+      "anchors": ["EV-0007", "EV-0008", "EV-0009", "EV-0026"]
+    },
+    {
+      "mechanism_no": 21,
+      "name": "Prevention Foreclosure",
+      "definition": "Known preventative options existed. They were not implemented. Not because they were assessed and rejected - because they were never assessed. The window for prevention closed while the system processed other priorities. The mechanism is the non-examination of available remedies.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "Camp registration, a Review of Environmental Factors for the Camphor Laurel trees, and a grant application were all available preventative pathways from March 2023 onward - none were initiated across a minimum 37 months.",
+      "paths": ["AR-003", "AR-004", "AR-010"],
+      "anchors": ["EV-0013", "EV-0014", "EV-0021", "EV-0030", "EV-0059"]
+    },
+    {
+      "mechanism_no": 25,
+      "name": "Isolated Incident Framing",
+      "definition": "Each instance of harm is treated as individual and unconnected. The pattern across instances is not examined because no mechanism exists to aggregate them. The citizen experiences a systemic condition. The institution processes a series of unrelated events. The mechanism is the structural prevention of pattern visibility.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "The Bellbrook and Taylors Arm colonies exist in the same regional hinterland corridor; both have been treated by their respective councils as separate, discrete local matters, with no cross-council recognition of the corridor pattern appearing in any public document.",
+      "paths": ["AR-009"],
+      "anchors": ["EV-0012", "EV-0013", "EV-0014", "EV-0015", "EV-0016", "EV-0019", "EV-0020"]
+    },
+    {
+      "mechanism_no": 41,
+      "name": "Legitimacy Production Decoupled from Enforcement",
+      "definition": "The governance system produces high-volume procedural output - resolutions, reviews, reports, judgments, inspections - alongside documented non-enforcement against primary actors. The output volume generates legitimacy independent of enforcement performance. The legitimacy then absorbs accountability pressure.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "Council produced two annual reports, the State of Our Valley Report, and a June 2023 Sports Reserve concept-design process during the response void - none of which engaged with the flying-fox complaint.",
+      "paths": ["AR-007", "AR-008"],
+      "anchors": ["EV-0023", "EV-0024", "EV-0025", "EV-0028", "EV-0029"]
+    },
+    {
+      "mechanism_no": 43,
+      "name": "Accountability Inversion",
+      "definition": "The populations bearing the costs of governance failure hold no structural standing in the governance mechanisms that could remedy those failures. Power-holders bear minimal costs. The inversion is complete, not partial.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "The 133-person village holds no structural standing in the mechanisms that could produce a response - the Flying-Fox Camp Management Policy 2015 empowers council; it does not require council to respond to community requests, and enforcement of the Biosecurity Act obligation requires a complaint to a body above council, which has not been documented.",
+      "paths": ["AR-001", "AR-002"],
+      "anchors": ["EV-0010", "EV-0011", "EV-0070", "EV-0071"]
+    },
+    {
+      "mechanism_no": 46,
+      "name": "Accountability Cost Externalisation",
+      "definition": "The cost of holding the system to account is borne entirely by the citizen, not by the system. The citizen spends time, money, emotional capacity, and social capital to file complaints, pursue escalation, attend hearings, prepare submissions. The system absorbs these at no cost to itself. If the citizen stops, the complaint dies.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "Vicki Provost registered, prepared, and delivered a formal presentation to council; every cost of accountability-seeking was borne by her and the Taylors Arm community, and the institution bore no cost across the entire 37-month response void.",
+      "paths": ["AR-001"],
+      "anchors": ["EV-0006", "EV-0007", "EV-0008"]
+    },
+    {
+      "mechanism_no": 48,
+      "name": "Complexity as Barrier",
+      "definition": "The governance instrument is not hidden. It is published, available, technically accessible. But its language, structure, and cross-referencing make it functionally illegible to the population it governs. The barrier is not secrecy - it is density. The citizen has the right to read the instrument. They do not have the capacity to understand what it does to them.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "The intersecting Biosecurity Act, Biodiversity Conservation Act, EPBC Act, Flying-Fox Camp Management Policy 2015 and Code of Practice 2018 constitute a governance-instrument architecture of sufficient density that no community member without specialist knowledge could independently navigate it to identify available pathways.",
+      "paths": ["AR-002", "AR-010"],
+      "anchors": ["EV-0010", "EV-0022", "EV-0068", "EV-0069", "EV-0070", "EV-0072"]
+    },
+    {
+      "mechanism_no": 54,
+      "name": "Reform as Reset",
+      "definition": "The system announces a reform. The reform creates a new instrument. The new instrument replaces the old one. Complaints, submissions, and findings relating to the old instrument are rendered procedurally irrelevant because they reference a framework that no longer exists. The citizen must start again under the new instrument. Accumulated evidence of failure under the old system does not transfer.",
+      "status": "APPLIED - confirmed at case-duration level",
+      "match_note": "The October 2024 mayoral transition has functioned structurally as a reset: the incoming council under Mayor Gary Lee has no institutional record of the March 2023 complaint because it was never entered into the Outstanding Actions register. The mechanism operated through administrative silence, not an announced reform.",
+      "paths": ["AR-006"],
+      "anchors": ["EV-0007", "EV-0008", "EV-0018"]
+    },
+    {
+      "mechanism_no": 56,
+      "name": "Language Barrier as Structural Exclusion",
+      "definition": "The governance instrument is published in the language the population nominally operates in, but in the institutional register of governance documentation - technical, legal, bureaucratic, acronym-dense. No obligation exists to translate the institutional register into plain terms. No mechanism exists to identify the gap between the register and the population's functional reading capacity.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "The National Flying-Fox Monitoring Program, the Flying-Fox Camp Management Policy 2015, the Code of Practice 2018, and the Biosecurity Act obligations are all formally accessible but functionally illegible to a community member without specialist knowledge, with no obligation on council to translate them.",
+      "paths": ["AR-002", "AR-003", "AR-010"],
+      "anchors": ["EV-0010", "EV-0011", "EV-0012", "EV-0030", "EV-0070", "EV-0071"]
+    },
+    {
+      "mechanism_no": 60,
+      "name": "Normalisation Through Duration",
+      "definition": "The condition persists long enough that it ceases to be perceived as a failure. It becomes the baseline. New governance instruments are calibrated to the failed state as though it were the intended state.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "The Bellbrook colony has been active since November 2019; the Taylors Arm colony was described as having more than doubled by March 2023, implying prior presence. The absence of any management plan, monitoring registration, council response, or electoral advocacy across these periods creates the structural conditions for the colony to become the operating baseline rather than an unresolved emergency.",
+      "paths": ["AR-001", "AR-005", "AR-009"],
+      "anchors": ["EV-0006", "EV-0008", "EV-0009", "EV-0016"]
+    }
+  ],
+  "risk_provisional": [],
+  "candidate_new_mechanisms": [],
+  "not_claimed": [
+    "This gate does not claim the Structural Harm Mechanism Catalogue's other 55 mechanisms are absent from this matter - only that this case's own frozen DFAPTA analysis did not surface CONFIRMED-status matching findings for them.",
+    "This gate does not claim intent by any named individual, council, or agency. Every mechanism above is a structural/behavioural description, consistent with this case's own explicit non-allegatory framing throughout the original material.",
+    "Unlike DFAPTI-BB-LW-2026-00001, this case surfaces no new candidate mechanisms - all 13 mechanisms claimed in the original Mechanism Register were independently confirmed to match the current catalogue exactly by number and name (2026-08-23).",
+    "This gate does not use either of the two mechanism-count figures the case's own Lattice Atlas separately states (eleven in its summary, seven named in its own body) - see CTR-0002. It uses the Mechanism Register's independently-verified count of 13.",
+    "This gate does not re-open or re-verify the underlying EV- items. This case's evidence carries this repository's own \"Requires Verification\"/\"Unverified\" status throughout, except EV-0038 and EV-0039 (independently corroborated via WebSearch, 2026-08-23) - this gate does not upgrade any other item's status."
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "question_id": "Q-0001",
+    "question": "Is the Taylors Arm flying-fox camp currently registered with the National Flying-Fox Monitoring Program, and if not, what happens when it is notified?",
+    "why_exists": "No council document, annual report, or grant application in the evidence base references camp registration for Taylors Arm (EV-0021, EV-0038, EV-0044, EV-0058). The registration status is unverifiable from any public source - the viewer was decommissioned 25 June 2025 and the CSIRO Data Access Portal returned a 503 error at the time of the original investigation.",
+    "evidence_creating_question": ["EV-0021", "EV-0038", "EV-0044", "EV-0058"],
+    "evidence_required_to_resolve": "A reply from CSIRO (david.westcott@csiro.au or adam.mckeown@csiro.au) or speciespolicy@dcceew.gov.au to a notification email - the Registration Letter in this case's preserved material is a ready-to-send instrument for exactly this.",
+    "likely_source": "CSIRO / DCCEEW, per the Registration Letter (preserved/registration-letter-csiro-20260616.txt).",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0002",
+    "question": "Did Nambucca Valley Council send any written response to Vicki Provost following her 16 March 2023 presentation?",
+    "why_exists": "The absence of any response in the public record (EV-0007, EV-0008, EV-0009, EV-0026, EV-0027) is consistent with no response having been sent, but does not itself prove it - the response, if any, could have been made privately outside any public document this investigation retrieved.",
+    "evidence_creating_question": ["EV-0007", "EV-0008", "EV-0009"],
+    "evidence_required_to_resolve": "Council's internal correspondence records, obtainable via a formal GIPA application.",
+    "likely_source": "GIPA Application under the Government Information (Public Access) Act 2009 (NSW) to Nambucca Valley Council - this case's own Evidence Register names this as an open GIPA request target.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0003",
+    "question": "Was any internal staff assessment of the Camphor Laurel removal request ever conducted, and does the Biosecurity (Noxious Plants) service review at page 78 of the 2023/24 Annual Report reference Taylors Arm?",
+    "why_exists": "That section of the Annual Report was not rendered in the original investigation's PDF fetch (EV-0023). Internal council documents are not in the public record.",
+    "evidence_creating_question": ["EV-0023"],
+    "evidence_required_to_resolve": "A direct re-fetch of the full 2023/24 Annual Report PDF, or a GIPA application for internal weed-inspection records.",
+    "likely_source": "nambucca.nsw.gov.au (Annual Report), or GIPA application to Council.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0004",
+    "question": "Does the Environmental Protection section (page 27) of the State of Our Valley Report 2022-2024 reference Taylors Arm or the flying-fox complaint?",
+    "why_exists": "That section was not rendered in the original investigation's fetch (EV-0028).",
+    "evidence_creating_question": ["EV-0028"],
+    "evidence_required_to_resolve": "A direct re-fetch of the full State of Our Valley Report PDF.",
+    "likely_source": "nambucca.nsw.gov.au.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0005",
+    "question": "Has Nambucca Valley Council applied for, or considered applying for, any flying-fox management grant funding for Taylors Arm or the wider hinterland since March 2023?",
+    "why_exists": "No such application appears in any document in evidence (EV-0013, EV-0030), despite the same council having accessed the equivalent grant program in 2017 for Gordon Park, Nambucca Heads.",
+    "evidence_creating_question": ["EV-0013", "EV-0030"],
+    "evidence_required_to_resolve": "Council's internal grant-application records, obtainable via GIPA, or a direct written response to Remedy NVC-4 in the Enforcement Notice.",
+    "likely_source": "GIPA application to Nambucca Valley Council.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0006",
+    "question": "Has the Taylors Arm colony grown, diminished, or relocated since March 2023, and is it commercially affecting the Pub With No Beer's operations or the Sports Reserve campground today?",
+    "why_exists": "The frozen register's most recent colony-status evidence is Vicki Provost's March 2023 description of a colony that had 'more than doubled.' No subsequent public record of colony size, location, or commercial impact exists (Lattice Atlas Trajectory Direction Declaration: colony status 'Indeterminate from public evidence').",
+    "evidence_creating_question": ["EV-0006"],
+    "evidence_required_to_resolve": "Direct community contact, a current site visit, or a response to the notification letter to CSIRO.",
+    "likely_source": "Direct community contact (Taylors Arm residents, the Pub With No Beer operators) or CSIRO.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0007",
+    "question": "Is the Taylors Arm colony the same population that subsequently appeared at or near Bellbrook following the November 2019 Black Summer fires, or are these separate populations within the same hinterland corridor?",
+    "why_exists": "Both this case and DFAPTI-BB-FF-2026-00001 document colonies of the same species in the same river corridor within roughly the same period, but no evidence in either register establishes whether they are the same or distinct colonies.",
+    "evidence_creating_question": ["EV-0015", "EV-0016"],
+    "evidence_required_to_resolve": "CSIRO/DCCEEW population and movement data, once both camps are registered with the National Flying-Fox Monitoring Program.",
+    "likely_source": "CSIRO National Flying-Fox Monitoring Program.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0008",
+    "question": "What is the 'Tier Infinity Audit surface' referenced as the source of the 'East Cessnock case' cited in the Temporal Projection Integrity Engine's Classification 4 assessment, and is that case a real, verifiable local government matter?",
+    "why_exists": "See CTR-0001 - this repository's own prior operating history with this operator's material established that 'Tier Infinity Audit' content does not represent real completed investigation instances, which undermines one of the two external-confirmation legs relied on for Condition 2 of the Classification 4 gate pass.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Operator clarification of what the Tier Infinity Audit surface is and whether East Cessnock is real.",
+    "likely_source": "Operator (mayhem82).",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0009",
+    "question": "Is the 'National Environmental Protection Agency' (listed with CEO John Bradley PSM) named in the Complete Recipient Register a real, confirmed Commonwealth or NSW body with jurisdiction over this matter?",
+    "why_exists": "The source document itself flags this entry as 'not able to be fully confirmed... require direct verification before submission.' No independent confirmation of this body's existence or standing has been carried out by this repository.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Independent verification of the agency's existence, current CEO, and jurisdiction before it is treated as a real submission recipient.",
+    "likely_source": "Direct search of Commonwealth and NSW government agency directories.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0010",
+    "question": "Do the 76 cited council, legislative, and government-policy sources say what this register's extracts claim, when independently re-fetched in full?",
+    "why_exists": "This repository's standing evidentiary discipline treats every item ingested without independent re-fetching as Requires Verification regardless of how confidently the source material itself presented it. Only two items (EV-0038, EV-0039) were independently corroborated during ingestion, and only via WebSearch synthesis rather than a direct primary-source fetch (a direct WebFetch to dcceew.gov.au timed out) - see NOTE-0005.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Independent re-fetch of each cited URL - ongoing verification work, not a single resolvable question.",
+    "likely_source": "Direct fetch of each source's own URL, recorded per-item.",
+    "status": "Open",
+    "resolution_evidence": []
+  }
+]
