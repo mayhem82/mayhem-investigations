@@ -295,5 +295,86 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0034",
+    "timestamp": "2026-08-23T09:00:00Z",
+    "activity_type": "Decision",
+    "text": "Scheduled automated pass. Chose DFAPTI-MNC-2026-00001 over DFAPTI-BB-2026-00001 this run to keep collection cadence roughly even: BB was worked most recently (RUN-0068, 2026-08-22), while MNC's last live-collection run was RUN-0010 (2026-08-21) and still carries all 18 open questions Open. Confirmed via a live control fetch (example.com) that WebFetch remains EGRESS_BLOCKED this session, same as every prior run since DEC-0008/DEC-0012; no attempt made to route around it per DEC-0006. All evidence this run is recorded from WebSearch's own summarised results with hash_exception_reason flagged, same discipline as prior runs.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0035",
+    "timestamp": "2026-08-23T09:10:00Z",
+    "activity_type": "Researching",
+    "text": "Ran a 16-query WebSearch sweep (SRCH-0022 to SRCH-0037) per DEC-0014's full-surface cadence, covering Q-0004, Q-0005, Q-0007, Q-0009, Q-0010, Q-0011, Q-0012, Q-0013, Q-0014, Q-0015, Q-0017, Q-0018, Q-0002/Q-0003, and THR-03/04/05/06/07/08/09/10/11/12 - deliberately targeting angles (Q-0007, Q-0010, Q-0011, Q-0015, Q-0017) not yet swept in SRCH-0001-0021 (RUN-0009/RUN-0010), alongside re-checks of previously-tried angles with fresh query wording.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0036",
+    "timestamp": "2026-08-23T09:20:00Z",
+    "activity_type": "Finding",
+    "text": "Located a named, on-the-record source for EV-0224's previously uncited claim that the Police Minister identified Kempsey as a possible future expansion location: Minister for Police Yasmin Catley, quoted in the Macleay Argus saying she would be guided by police on any expansion and felt confident Kempsey would 'certainly be looked at very strongly'. Registered as EV-0841, cross-linked to EV-0224.",
+    "related_thread": "THR-11",
+    "related_source": "SRC-0091",
+    "related_evidence": "EV-0841"
+  },
+  {
+    "note_id": "NOTE-0037",
+    "timestamp": "2026-08-23T09:28:00Z",
+    "activity_type": "Finding",
+    "text": "Located reporting that NSW Police has used conventional (non-PolAir-Remote) drones in Kempsey and regionally since 2016 via a dedicated RPAS Support Unit, including a specific traffic-enforcement drone operation at Cochrane Street/Kemp Street, Kempsey (31 infringements in ~75 minutes). Registered as EV-0842 - sharpens Q-0007 by distinguishing existing conventional drone use in Kempsey from the fixed-dock PolAir-Remote model the petition seeks.",
+    "related_thread": "THR-05",
+    "related_source": "SRC-0092",
+    "related_evidence": "EV-0842"
+  },
+  {
+    "note_id": "NOTE-0038",
+    "timestamp": "2026-08-23T09:35:00Z",
+    "activity_type": "Finding",
+    "text": "Identified the content of SRC-0017 (NSW Parliament Q&A tracking id=108055), previously registered as a source but not yet captured as evidence: the government's answer reportedly directs the questioner to the NSW Police Force Annual Report for financial information rather than stating a cost figure - a second, independently-numbered parliamentary record pointing the same way as EV-0012 (id=108763). Registered as EV-0843.",
+    "related_thread": "THR-12",
+    "related_source": "SRC-0017",
+    "related_evidence": "EV-0843"
+  },
+  {
+    "note_id": "NOTE-0039",
+    "timestamp": "2026-08-23T09:42:00Z",
+    "activity_type": "Finding",
+    "text": "Located a second, distinct ASPI Strategist piece from EV-0836, specifically on DJI/Chinese-drone data sovereignty ('Australia is flying blind on Chinese drone data', coverage dated 25 July 2026 by DroneXL): ASPI argues Australia has no visibility into where Chinese-made-drone data ends up and calls for a partial ban on Chinese drone companies. No NSW Police response to this specific framing located. Registered as EV-0844.",
+    "related_thread": "THR-06",
+    "related_source": "SRC-0093",
+    "related_evidence": "EV-0844"
+  },
+  {
+    "note_id": "NOTE-0040",
+    "timestamp": "2026-08-23T09:50:00Z",
+    "activity_type": "Finding",
+    "text": "Located a jec.org.au page distinct from EV-0033's own formal submission: a republish/commentary on 'The Land' reporting that frames drone trials as set to expand, quoting Justice and Equity Centre Principal Solicitor Jonathan Hall Spence that serious privacy risks need to be accounted for before any further expansion. Registered as EV-0845, relevant to Q-0007/Q-0012/Q-0015.",
+    "related_thread": "THR-06",
+    "related_source": "SRC-0094",
+    "related_evidence": "EV-0845"
+  },
+  {
+    "note_id": "NOTE-0041",
+    "timestamp": "2026-08-23T09:58:00Z",
+    "activity_type": "Finding",
+    "text": "Located a third, distinct youth-crime statistic beyond the petition's 50% figure (EV-0835) and Moylan's ~19-20%-over-two-years figure (EV-0838): a Macleay Argus report of a 33% 12-month rise in Kempsey youth crime and court legal actions against young people rising from 154 (12mo to June 2024) to 205 (12mo to June 2025). Registered as EV-0846 - the continued proliferation of differently-scoped percentage claims across independent sources deepens rather than resolves Q-0002/Q-0003's statistic-provenance question.",
+    "related_thread": "THR-03",
+    "related_source": "SRC-0095",
+    "related_evidence": "EV-0846"
+  },
+  {
+    "note_id": "NOTE-0042",
+    "timestamp": "2026-08-23T10:05:00Z",
+    "activity_type": "Note",
+    "text": "Negative/no-change findings this pass, not separately logged as evidence: Q-0001 (no formal Moree trial evaluation report located, same as RUN-0009/RUN-0010), Q-0013/EOI YR-2026-0058 outcome (no supplier-award record located), Q-0014 (no LECC/Ombudsman/Audit Office complaint review of PolAir-Remote located), Q-0005 (no formal SOP/policy document text located, only the general central-Aviation-Command/local-request architecture already at EV-0135), Q-0017 (no publicly stated stop/decommissioning criteria or six-month extension notice located beyond what RUN-0009 already found), Q-0009 (no NSW Parliament e-petition tabling record located for the Kemp petition specifically, same as RUN-0009/RUN-0010), and Q-0018/EOI YR-2026-0012 (re-confirmed the same close date 4 May 2026/estimated decision 1 July 2026 already registered at EV-0839, no outcome record located - the missed self-stated deadline stands unchanged). These questions are search-exhausted for this pass, not newly closed. Run complete; proceeding to validate.js and commit.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
