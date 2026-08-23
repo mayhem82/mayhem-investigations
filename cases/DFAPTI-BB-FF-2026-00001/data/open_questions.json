@@ -98,5 +98,15 @@
     "likely_source": "Mid North Coast Local Health District (direct enquiry or GIPA-equivalent health-records request); resident testimony.",
     "status": "Open",
     "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0011",
+    "question": "Given DCCEEW's confirmation that the National Flying Fox Monitoring Program has had no operating capacity since 2022, what is the actual current pathway - if any - for formally registering or recording the Bellbrook camp at state level, and does the colony meet the EPBC Act's 'nationally important camp' threshold that would still trigger a Commonwealth referral obligation regardless of the paused program?",
+    "why_exists": "EV-0023 (DCCEEW's reply to the operator's own registration attempt, EV-0022) states the Department cannot send resources to survey the camp under the paused NFFMP, but separately states nationally important camps still require referral and recommends engaging the relevant state government instead.",
+    "evidence_creating_question": ["EV-0022", "EV-0023"],
+    "evidence_required_to_resolve": "Contact with the relevant NSW state government body (DCCEEW NSW counterpart or equivalent) regarding state-level camp registration, and an assessment of whether Bellbrook's colony size/density meets the EPBC 'nationally important camp' threshold.",
+    "likely_source": "NSW state government environment department; DCCEEW's own EPBC referral guidance.",
+    "status": "Open",
+    "resolution_evidence": []
   }
 ]

@@ -250,5 +250,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "A third working management-plan comparator. Independent WebSearch summary of a North Queensland Register article corroborates Mount Isa received $38,500 under the same DETSI grant program specifically to develop this plan. See EV-0021."
+  },
+  {
+    "source_id": "SRC-0019",
+    "authority": "Julian Minko (operator)",
+    "title": "Notification of Unrecorded Flying-Fox Camp — Bellbrook NSW (outgoing email, 18 June 2026)",
+    "type": "Operator Correspondence (sent)",
+    "url_or_file_location": "N/A - full email text pasted into conversation, no separate file",
+    "first_checked": "2026-08-23",
+    "last_checked": "2026-08-23",
+    "current_version": "Pasted in full by operator 2026-08-23, including original headers (To/Cc/Subject/Sent timestamp)",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "Operator's own outgoing notification email to DCCEEW Species Policy, cc Paul Hodgson. Operator separately confirmed this was a deliberate attempt to register the Bellbrook camp after learning any member of the public could do so, and that the attempt did not succeed - see EV-0022, EV-0023."
+  },
+  {
+    "source_id": "SRC-0020",
+    "authority": "Sam Horton, Senior Policy Officer, Species Listing, Information and Policy Section, DCCEEW",
+    "title": "DCCEEW reply re: Notification of Unrecorded Flying-Fox Camp — Bellbrook NSW",
+    "type": "Government Correspondence (received)",
+    "url_or_file_location": "N/A - full email text pasted into conversation, no separate file",
+    "first_checked": "2026-08-23",
+    "last_checked": "2026-08-23",
+    "current_version": "Pasted in full by operator 2026-08-23, including signature block and 'OFFICIAL' classification marking; reply's own date/time not stated in the material provided",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "Direct reply confirming the National Flying Fox Monitoring Program has been paused since 2022 due to a funding cessation and that DCCEEW cannot currently send resources to survey new camps - see EV-0023. Materially relevant to DFAPTI-TA-FF-2026-00001's own camp-registration remedy demands; cross-referenced there as EV-0077/CTR-0003."
   }
 ]

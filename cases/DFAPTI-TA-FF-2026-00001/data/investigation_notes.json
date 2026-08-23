@@ -52,5 +52,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0007",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Operator's real registration attempt for the comparable Bellbrook camp (this repository's own adjacent case, DFAPTI-BB-FF-2026-00001) produced a direct DCCEEW reply confirming the National Flying Fox Monitoring Program has had no operating capacity since 2022. Cross-referenced into this case as EV-0077, since it bears directly on this case's own camp-registration remedy demands (NVC-2, NSW-1/2/3, CWLTH-1/2, DNSW-2) and its Lattice Atlas's single most actionable finding (Emergent Pattern 3, the Grant Eligibility Lock). Opened CTR-0003 and Q-0011 rather than editing the frozen TPIE or SHM Gate - see DEC-0005.",
+    "related_thread": "THR-03",
+    "related_source": "SRC-0027",
+    "related_evidence": "EV-0077"
   }
 ]

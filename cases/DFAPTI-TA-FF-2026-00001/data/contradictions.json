@@ -18,5 +18,15 @@
     "material_significance": "The Mechanism Register's 13-mechanism claim is the one independently checked and confirmed correct against this repository's actual catalogue, and is the one this case's SHM Gate is built from. The Lattice Atlas's two internally inconsistent counts (eleven in its summary, seven named in its own body) are not used as this repository's count of record - the discrepancy is preserved here rather than silently reconciled.",
     "required_resolution": "None available from public evidence - this is an internal consistency defect in the source material itself, not an evidentiary gap. Recorded for the operator's awareness.",
     "resolution_evidence": []
+  },
+  {
+    "contradiction_id": "CTR-0003",
+    "description": "This case's remedy demands (NVC-2, NSW-1 through NSW-3, CWLTH-1 and CWLTH-2, DNSW-2), Lattice Atlas Emergent Pattern 3 (the Grant Eligibility Lock, described in the original material as this case's single most actionable finding), and Temporal Projection Integrity Engine assessments TPA-002, TPA-003 and TPA-005 all treat notifying the Taylors Arm camp to the National Flying-Fox Monitoring Program as a live, near-term action, achievable by anyone, that does not require council cooperation. DCCEEW's own direct reply to the operator's real registration attempt for a comparable NSW hinterland camp (EV-0077, originally received in relation to DFAPTI-BB-FF-2026-00001) states the National Flying Fox Monitoring Program has had no operating capacity since 2022, that the Department cannot currently send resources to survey a newly-notified camp, and recommends state-level engagement instead.",
+    "supporting_evidence": ["EV-0077"],
+    "opposing_evidence": [],
+    "status": "Open",
+    "material_significance": "Does not eliminate the notification pathway - DCCEEW's reply still confirms grey-headed flying-foxes are federally protected and that a camp exceeding the 'nationally important camp' threshold would require referral regardless of the NFFMP's pause, and the state-level pathway (NSW-1 through NSW-3, and the existing ff.census@environment.nsw.gov.au contact already cited in this case's own evidence, EV-0048) remains untested. But it substantially weakens the case's framing of Commonwealth notification as a quick, low-effort, near-certain first step - DCCEEW's own reply is that they currently cannot act on exactly this kind of notification. The frozen TPIE and SHM Gate are not rewritten to reflect this (per this repository's standing practice of not editing frozen stage content) - this contradiction, together with Q-0011, is the mechanism by which the update is preserved and made visible instead.",
+    "required_resolution": "Confirm whether NSW's own state-level flying-fox monitoring/registration process (ff.census@environment.nsw.gov.au) can actually register a camp in the absence of the Commonwealth program, and whether Taylors Arm's colony meets the EPBC 'nationally important camp' threshold that would trigger a referral obligation independent of the NFFMP's operating status.",
+    "resolution_evidence": []
   }
 ]

@@ -86,5 +86,21 @@
     "event_description": "Mount Isa City Council publishes public consultation for a new Flying-Fox Management Plan, developed with Queensland Government DETSI grant funding - a third working comparator, and the clearest evidence that state funding exists specifically to pay for plan development itself, not just implementation. Operator-flagged, canonical source confirmed.",
     "status": "Confirmed",
     "supporting_evidence": ["EV-0021"]
+  },
+  {
+    "chronology_id": "CHR-0012",
+    "event_date": "2026-06-18",
+    "date_is_inference": false,
+    "event_description": "Operator emails DCCEEW Species Policy (cc Paul Hodgson) notifying the Department of the Bellbrook camp and requesting a formal species count/census - a deliberate registration attempt, made after learning any member of the public could submit one.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0022"]
+  },
+  {
+    "chronology_id": "CHR-0013",
+    "event_date": "2026-06",
+    "date_is_inference": true,
+    "event_description": "DCCEEW replies (Sam Horton, Senior Policy Officer), stating the National Flying Fox Monitoring Program was paused in 2022 due to a funding cessation, that the Department cannot currently send resources to survey the camp, and recommending state-level engagement instead. Exact reply date inferred as shortly after 18 June 2026 - not stated in the material provided.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0023"]
   }
 ]

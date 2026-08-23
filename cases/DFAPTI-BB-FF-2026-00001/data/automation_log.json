@@ -38,5 +38,13 @@
     "result": "New evidence added.",
     "evidence_added": ["EV-0021"],
     "notes": "Operator pasted a Mount Isa City Council public-consultation notice (14 January 2026) for a new Flying-Fox Management Plan, funded via the Queensland Government's DETSI Flying-Fox Roost Management Local Government Grant Program. Council's own site returned HTTP 403 to direct fetch, but the canonical URL was confirmed via search, and an independent WebSearch summary of separate North Queensland press coverage corroborated that Mount Isa received $38,500 under this exact program for this exact purpose. Added as Verified. A third working comparator, and the clearest evidence yet that state funding exists specifically to pay for plan development itself, undercutting a 'no budget' justification for Bellbrook."
+  },
+  {
+    "run_id": "RUN-0006",
+    "date": "2026-08-23",
+    "sources_checked": ["SRC-0019", "SRC-0020"],
+    "result": "New evidence added.",
+    "evidence_added": ["EV-0022", "EV-0023"],
+    "notes": "Operator pasted a real, dated email exchange with DCCEEW: their own 18 June 2026 registration notification for the Bellbrook camp (cc Paul Hodgson) and DCCEEW's substantive reply. Operator confirmed directly this was a deliberate registration attempt, made after learning any member of the public could submit one, and that it did not succeed. Both items recorded at this repository's standard Requires Verification/Unverified classification - no independent means exists to confirm the email exchange as pasted, notwithstanding its official appearance. The reply's content (National Flying Fox Monitoring Program paused since 2022, department currently unable to survey camps) is a new, Commonwealth-level structural finding, recorded via a new thread (THR-08) and open question (Q-0011) rather than folded into the existing council-level contradictions (CTR-0001, CTR-0002). Cross-referenced into DFAPTI-TA-FF-2026-00001 (see that case's DEC-0005, CTR-0003, EV-0077)."
   }
 ]

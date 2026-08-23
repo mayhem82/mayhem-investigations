@@ -118,5 +118,13 @@
     "event_description": "Case ingested into this repository as DFAPTI-TA-FF-2026-00001, translating the operator's earlier EVID-/AR- framework into this repository's current schema. Two internal inconsistencies in the source material's own frozen documents were found and logged rather than silently resolved - see CTR-0001 and CTR-0002.",
     "status": "Confirmed",
     "supporting_evidence": []
+  },
+  {
+    "chronology_id": "CHR-0016",
+    "event_date": "2026-06",
+    "date_is_inference": true,
+    "event_description": "DCCEEW confirms, in a direct reply to the operator's registration attempt for the comparable Bellbrook camp, that the National Flying Fox Monitoring Program has had no operating capacity since 2022. Cross-referenced into this case 2026-08-23 as EV-0077 - see CTR-0003. Date is the inferred approximate month of the reply (shortly after 18 June 2026), not independently confirmed.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0077"]
   }
 ]

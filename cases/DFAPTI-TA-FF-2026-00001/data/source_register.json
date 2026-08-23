@@ -362,5 +362,19 @@
     "hash_status": "No Hash",
     "associated_thread": null,
     "availability_notes": "Cited by EV-0073. This repository treats every item as Requires Verification pending independent re-confirmation, consistent with this repository's evidence-intake standard."
+  },
+  {
+    "source_id": "SRC-0027",
+    "authority": "Sam Horton, Senior Policy Officer, Species Listing, Information and Policy Section, DCCEEW",
+    "title": "DCCEEW reply re: Notification of Unrecorded Flying-Fox Camp — Bellbrook NSW",
+    "type": "Government Correspondence (received) - cross-case",
+    "url_or_file_location": "N/A - full email text pasted into conversation, no separate file",
+    "first_checked": "2026-08-23",
+    "last_checked": "2026-08-23",
+    "current_version": "Pasted in full by operator 2026-08-23, including signature block and 'OFFICIAL' classification marking; not this case's own original evidence",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-03",
+    "availability_notes": "Cited by EV-0077. Originally received in relation to this repository's adjacent case DFAPTI-BB-FF-2026-00001 (see that case's SRC-0020, EV-0022, EV-0023) but generically applicable here since it concerns the National Flying Fox Monitoring Program's operating status, not the Bellbrook site specifically."
   }
 ]

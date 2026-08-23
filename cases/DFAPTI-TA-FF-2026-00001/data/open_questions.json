@@ -98,5 +98,15 @@
     "likely_source": "Direct fetch of each source's own URL, recorded per-item.",
     "status": "Open",
     "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0011",
+    "question": "Given DCCEEW's confirmation that the National Flying Fox Monitoring Program has had no operating capacity since 2022, what is the actual current pathway for registering the Taylors Arm camp - via NSW's own state-level process, or otherwise - and does the colony meet the EPBC Act's 'nationally important camp' threshold that would still trigger a Commonwealth referral obligation regardless of the paused program?",
+    "why_exists": "EV-0077 (DCCEEW's direct reply to the operator's real registration attempt for the comparable Bellbrook camp) states the Department cannot send resources to survey newly-notified camps under the paused NFFMP, but confirms nationally important camps still require referral and recommends engaging the relevant state government instead. See CTR-0003.",
+    "evidence_creating_question": ["EV-0077"],
+    "evidence_required_to_resolve": "A completed notification attempt to NSW's own state-level contact (ff.census@environment.nsw.gov.au, already cited in this case as EV-0048) and its outcome, and an assessment of whether Taylors Arm's colony meets the EPBC 'nationally important camp' threshold.",
+    "likely_source": "NSW state government environment department; DCCEEW's own EPBC referral guidance.",
+    "status": "Open",
+    "resolution_evidence": []
   }
 ]

@@ -61,5 +61,14 @@
     "outstanding_work": "Locate and cite the June 2026 report (Q-0009) and confirm the exact current text of Council's flying-fox page (Q-0009). This is now the case's central open thread - it determines whether CTR-0002 (documented 'historic' classification vs. active 2026 reality) is a confirmed finding or an unconfirmed one.",
     "dependencies": ["THR-06"],
     "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-08",
+    "name": "Commonwealth monitoring-program gap",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0022", "EV-0023"],
+    "outstanding_work": "Determine the actual current pathway for registering the camp given the NFFMP's 2022 pause, and whether Bellbrook meets the EPBC 'nationally important camp' referral threshold (Q-0011). This thread is new as of 2026-08-23, opened by the operator's own confirmed-sent registration attempt and DCCEEW's substantive reply - the first fully confirmed advocacy action-and-response pair in this case (distinct from THR-03's still-unconfirmed drafts). Also directly relevant to DFAPTI-TA-FF-2026-00001, where the same Commonwealth program's operating status bears on that case's own registration-based remedy demands (see that case's CTR-0003).",
+    "dependencies": [],
+    "completion_state": "Not Complete"
   }
 ]

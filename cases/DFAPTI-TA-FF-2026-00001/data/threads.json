@@ -21,8 +21,8 @@
     "thread_id": "THR-03",
     "name": "Camp registration and grant eligibility",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0013", "EV-0021", "EV-0030", "EV-0031", "EV-0038", "EV-0039", "EV-0044", "EV-0045", "EV-0047", "EV-0048", "EV-0049", "EV-0058", "EV-0059"],
-    "outstanding_work": "Formal notification of the camp to CSIRO/DCCEEW (Q-0001) is this case's own Lattice Atlas's most actionable finding (Emergent Pattern 3) - a single email, achievable without council cooperation, that establishes the precondition for grant eligibility.",
+    "supporting_evidence": ["EV-0013", "EV-0021", "EV-0030", "EV-0031", "EV-0038", "EV-0039", "EV-0044", "EV-0045", "EV-0047", "EV-0048", "EV-0049", "EV-0058", "EV-0059", "EV-0077"],
+    "outstanding_work": "Formal notification of the camp to CSIRO/DCCEEW (Q-0001) is this case's own Lattice Atlas's most actionable finding (Emergent Pattern 3) - a single email, achievable without council cooperation, that establishes the precondition for grant eligibility. Updated 2026-08-23: EV-0077 (a real DCCEEW reply to the operator's own registration attempt for the comparable Bellbrook camp) shows the Commonwealth program itself has had no operating capacity since 2022 - this thread's most actionable finding is materially weaker than the frozen material states. See CTR-0003, Q-0011. NSW's own state-level contact (ff.census@environment.nsw.gov.au, EV-0048) is now the more promising near-term pathway and has not yet been tried for this camp.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },

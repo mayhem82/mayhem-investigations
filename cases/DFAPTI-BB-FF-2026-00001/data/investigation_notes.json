@@ -43,5 +43,14 @@
     "related_thread": "THR-05",
     "related_source": "SRC-0016",
     "related_evidence": "EV-0019"
+  },
+  {
+    "note_id": "NOTE-0006",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Operator pasted a real email exchange: their own 18 June 2026 notification to DCCEEW Species Policy requesting the Bellbrook camp be surveyed and registered, cc Paul Hodgson, and DCCEEW's reply (Sam Horton, Senior Policy Officer). Operator confirmed directly that this was a deliberate registration attempt made after learning any member of the public could submit one, and that it did not succeed. The reply's substantive content is significant: the National Flying Fox Monitoring Program has had no operating capacity since 2022 (paused for funding reasons), independent of anything Kempsey Shire Council has or hasn't done - a new, Commonwealth-level structural finding distinct from the case's existing council-level and state-grant-funding threads. Recorded at this repository's standard Requires Verification/Unverified classification, consistent with every other item in this case, notwithstanding the email's official appearance. Cross-referenced into DFAPTI-TA-FF-2026-00001, where the same program's status bears directly on that case's own camp-registration remedy demands.",
+    "related_thread": "THR-08",
+    "related_source": "SRC-0019",
+    "related_evidence": "EV-0022"
   }
 ]

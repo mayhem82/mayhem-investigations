@@ -30,5 +30,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Q-0009 opened. This repository's built Enforcement Notice and Advocacy Package omit this recipient from the primary recipient list pending confirmation, consistent with this repository's standing discipline against merging unconfirmed claims into the record."
+  },
+  {
+    "decision_id": "DEC-0005",
+    "date": "2026-08-23",
+    "reason": "The operator's real, dated registration attempt for the comparable Bellbrook camp (this repository's own adjacent case, DFAPTI-BB-FF-2026-00001, EV-0022/EV-0023) produced a direct DCCEEW reply confirming the National Flying Fox Monitoring Program has had no operating capacity since 2022. This bears directly on this case's own remedy demands and forward assessments, which treat camp notification to that same Commonwealth program as a live, near-term action. Consistent with this repository's practice of not editing frozen stage content (the DFAPTI, DFAPTA, Lattice Atlas, SHM Gate, TPIE, Enforcement Notice and Advocacy Package for this case are all frozen as ingested), the update is not applied by rewriting TPA-002/TPA-003/TPA-005 or the SHM Gate's prevention_instance role - it is preserved by adding new evidence (EV-0077), a new contradiction (CTR-0003), and a new open question (Q-0011) that a reader of the frozen material would otherwise not know to look for.",
+    "supporting_evidence": ["EV-0077"],
+    "investigator": "mayhem82",
+    "impact": "EV-0077 added (cross-referenced from DFAPTI-BB-FF-2026-00001). CTR-0003 and Q-0011 opened. THR-03 updated to flag that its own most-actionable finding is materially weaker than the frozen Lattice Atlas states."
   }
 ]

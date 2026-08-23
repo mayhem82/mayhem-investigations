@@ -1822,5 +1822,27 @@
     "contradiction_links": [],
     "open_question_links": [],
     "original_evid_id": "EVID-076"
+  },
+  {
+    "evidence_id": "EV-0077",
+    "case_id": "DFAPTI-TA-FF-2026-00001",
+    "recording_date": "2026-08-23",
+    "source_date": "2026-06",
+    "source_authority": "Sam Horton, Senior Policy Officer, Species Listing, Information and Policy Section, Protected Species and Ecological Communities Branch, Biodiversity Division, Commonwealth Department of Climate Change, Energy, the Environment and Water",
+    "source_title": "DCCEEW reply confirming the National Flying Fox Monitoring Program has been paused since 2022",
+    "source_type": "Government Correspondence (received) - cross-case",
+    "source_location": null,
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Not this case's own original evidence. This is the operator's real email exchange with DCCEEW about the Bellbrook camp (this repository's own adjacent case, DFAPTI-BB-FF-2026-00001, EV-0022/EV-0023), pasted into conversation on 2026-08-23. Added here because its content is generic to the National Flying Fox Monitoring Program's operating status, not specific to the Bellbrook site, and bears directly on this case's own camp-registration remedy demands.",
+    "evidence_description": "DCCEEW's reply to the operator's own 18 June 2026 registration notification for the Bellbrook camp. States the National Flying Fox Monitoring Program (NFFMP) - a collaboration between national, state/territory governments, CSIRO, local governments and community volunteers - was PAUSED in 2022 due to cessation of federal funding, to allow participating partners to consider future investment approaches. States the Department is not currently monitoring flying-fox camps under the NFFMP and cannot send resources to survey a camp. States grey-headed flying-foxes remain federally protected and any camp exceeding the 'nationally important camp' threshold would still need referral. Recommends engaging the relevant state government instead.",
+    "relevant_quotation": "The NFFMP was paused in 2022 due to a cessation of federal funding... As the NFFMP is not currently monitoring flying-fox camps, the department is unable to send out resources to survey the camp.",
+    "investigation_relevance": "This case's own remedy demands (NVC-2, NSW-1/NSW-2/NSW-3, CWLTH-1/CWLTH-2, DNSW-2), Lattice Atlas Emergent Pattern 3 (the Grant Eligibility Lock, described as the case's single most actionable finding), and Temporal Projection Integrity Engine assessments TPA-002/TPA-003/TPA-005 all treat notifying the camp to the National Flying-Fox Monitoring Program as a live, near-term action available to anyone. This reply - obtained by the operator directly attempting exactly that action for a comparable NSW hinterland camp - shows the Commonwealth program itself has had no operating capacity since 2022, independent of anything Nambucca Valley Council has or hasn't done. See CTR-0003.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": ["CHR-0016"],
+    "contradiction_links": ["CTR-0003"],
+    "open_question_links": ["Q-0011"]
   }
 ]

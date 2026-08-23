@@ -30,5 +30,13 @@
     "supporting_evidence": ["EV-0013", "EV-0014", "EV-0015", "EV-0016", "EV-0017"],
     "investigator": "mayhem82",
     "impact": "CTR-0001 updated to reflect partial corroboration of an affirmative May 2025 resolution (EV-0014), narrowing (not resolving) the live dispute to specific resolution numbers. CTR-0002 opened for the historic-classification-vs-2026-severity question, explicitly not yet confirmed. Q-0008 and Q-0009 opened. All five new evidence items recorded as Requires Verification - none upgraded to Verified, since none were independently confirmed in full (only a partial search-snippet corroboration for EV-0016's 'historic' claim)."
+  },
+  {
+    "decision_id": "DEC-0005",
+    "date": "2026-08-23",
+    "reason": "Operator pasted a real, dated email exchange with DCCEEW: their own 18 June 2026 registration attempt for the Bellbrook camp (made after learning any member of the public could submit one, per operator's direct statement) and DCCEEW's substantive reply. Consistent with this repository's standing discipline, the exchange is recorded at classification \"Requires Verification\"/\"Unverified\" - this repository has no independent means to confirm the email was actually sent and received as pasted, notwithstanding the official-looking headers, signature block and 'OFFICIAL' classification marking - the same discipline applied to every other operator-supplied item in this case, including the operator's own direct statements. The reply's substantive content (NFFMP paused since 2022, department cannot currently survey camps) is treated as a new, distinct finding at the Commonwealth level, not folded into or used to resolve CTR-0001 or CTR-0002, which concern separate, council-level disputes.",
+    "supporting_evidence": ["EV-0022", "EV-0023"],
+    "investigator": "mayhem82",
+    "impact": "EV-0022 and EV-0023 added. THR-08 opened as a new thread distinct from the existing seven. Q-0011 opened. Cross-referenced into DFAPTI-TA-FF-2026-00001 as new evidence and a new contradiction there (that case's TPIE and SHM Gate assumed live camp-registration availability as a near-term remedy) - see that case's own DEC-0005 and CTR-0003."
   }
 ]
