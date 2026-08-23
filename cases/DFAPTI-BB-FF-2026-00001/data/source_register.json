@@ -236,5 +236,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-01",
     "availability_notes": "A second working management-plan comparator, from a different state and council entirely. See EV-0020."
+  },
+  {
+    "source_id": "SRC-0018",
+    "authority": "Mount Isa City Council",
+    "title": "Flying-Fox Management Plan - Have your say!",
+    "type": "Council Website",
+    "url_or_file_location": "https://www.mountisa.qld.gov.au/Latest-News/Flying-Fox-Management-Plan-Have-your-say",
+    "first_checked": "2026-08-23",
+    "last_checked": "2026-08-23",
+    "current_version": "Supplied in full by operator 2026-08-23, canonical URL confirmed via search; direct fetch returned HTTP 403",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "A third working management-plan comparator. Independent WebSearch summary of a North Queensland Register article corroborates Mount Isa received $38,500 under the same DETSI grant program specifically to develop this plan. See EV-0021."
   }
 ]

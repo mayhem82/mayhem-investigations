@@ -78,5 +78,13 @@
     "event_description": "Townsville City Council unanimously adopts a revised Flying-Fox Management Plan, adding active dispersal as a feasibility option after 2024 community consultation - a second working comparator to Rudder Park, from a different council entirely. Operator-flagged, independently confirmed.",
     "status": "Confirmed",
     "supporting_evidence": ["EV-0020"]
+  },
+  {
+    "chronology_id": "CHR-0011",
+    "event_date": "2026-01-14",
+    "date_is_inference": false,
+    "event_description": "Mount Isa City Council publishes public consultation for a new Flying-Fox Management Plan, developed with Queensland Government DETSI grant funding - a third working comparator, and the clearest evidence that state funding exists specifically to pay for plan development itself, not just implementation. Operator-flagged, canonical source confirmed.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0021"]
   }
 ]

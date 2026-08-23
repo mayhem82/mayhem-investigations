@@ -438,5 +438,27 @@
     "chronology_links": ["CHR-0010"],
     "contradiction_links": [],
     "open_question_links": ["Q-0002"]
+  },
+  {
+    "evidence_id": "EV-0021",
+    "case_id": "DFAPTI-BB-FF-2026-00001",
+    "recording_date": "2026-08-23",
+    "source_date": "2026-01-14",
+    "source_authority": "Mount Isa City Council",
+    "source_title": "Flying-Fox Management Plan - Have your say!",
+    "source_type": "Council Website",
+    "source_location": "https://www.mountisa.qld.gov.au/Latest-News/Flying-Fox-Management-Plan-Have-your-say",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Council site returned HTTP 403 to direct fetch on 2026-08-23; content supplied in full by operator, canonical URL confirmed via search.",
+    "evidence_description": "Published 14 January 2026: Mount Isa City Council is developing a Flying-Fox Management Plan, with public consultation (survey) closing 30 January 2026. The page states the plan is being developed with support from the Queensland Government's Flying-Fox Roost Management Local Government Grant Program, administered by the Department of the Environment, Tourism, Science and Innovation (DETSI).",
+    "relevant_quotation": "Mount Isa City Council is developing a Flying-Fox Management Plan for the community... This Strategy is being developed with the support of the Queensland Government Flying-Fox Roost Management Local Government Grant Program.",
+    "investigation_relevance": "A third comparator (with Rudder Park, EV-0002, and Townsville, EV-0020), and the most directly on point: an independent WebSearch summary (not directly fetched - DETSI's own site also returned HTTP 403) corroborates that Mount Isa Regional Council received $38,500 specifically to develop this plan under the same DETSI program, which was a four-year $2 million initiative extended by a further $1.5 million. This shows a real, funded state mechanism exists specifically to pay for plan *development* itself (not just implementation) - directly undercutting a 'no budget' justification for declining to even start one, since external funding exists for exactly that gap.",
+    "classification": "Verified",
+    "verification_state": "Verified",
+    "relationships": [],
+    "chronology_links": ["CHR-0011"],
+    "contradiction_links": [],
+    "open_question_links": ["Q-0002"]
   }
 ]

@@ -3,8 +3,8 @@
     "thread_id": "THR-01",
     "name": "Management plan gap and grant-funding access",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0002", "EV-0011", "EV-0020"],
-    "outstanding_work": "Confirm the NSW grants program's plan-gating rule against its own published guidelines (Q-0002), not just operator-supplied summaries. Updated 2026-08-23: EV-0020 (Townsville City Council's April 2026 plan revision) adds a second, independent comparator to Rudder Park - the management-plan mechanism is demonstrably not rare or hard to operate elsewhere.",
+    "supporting_evidence": ["EV-0002", "EV-0011", "EV-0020", "EV-0021"],
+    "outstanding_work": "Confirm the NSW grants program's plan-gating rule against its own published guidelines (Q-0002), not just operator-supplied summaries. Updated 2026-08-23: EV-0020 (Townsville) and EV-0021 (Mount Isa, funded by a Queensland state grant specifically to develop the plan) add two further comparators to Rudder Park - the management-plan mechanism is demonstrably not rare, hard to operate, or unfunded elsewhere.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },

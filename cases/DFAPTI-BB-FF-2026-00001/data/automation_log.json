@@ -30,5 +30,13 @@
     "result": "New evidence added.",
     "evidence_added": ["EV-0020"],
     "notes": "Operator pasted a Townsville City Council media release on its 1 April 2026 Flying-Fox Management Plan revision (adding active dispersal as a feasibility option). Located and confirmed the canonical URL via search, added as Verified. A second independent working comparator to Rudder Park (EV-0002), from a different state and council - strengthens THR-01's central contrast: the management-plan mechanism is not rare or hard to operate; Kempsey has not reached initial adoption for Bellbrook while other councils actively revise theirs."
+  },
+  {
+    "run_id": "RUN-0005",
+    "date": "2026-08-23",
+    "sources_checked": ["SRC-0018"],
+    "result": "New evidence added.",
+    "evidence_added": ["EV-0021"],
+    "notes": "Operator pasted a Mount Isa City Council public-consultation notice (14 January 2026) for a new Flying-Fox Management Plan, funded via the Queensland Government's DETSI Flying-Fox Roost Management Local Government Grant Program. Council's own site returned HTTP 403 to direct fetch, but the canonical URL was confirmed via search, and an independent WebSearch summary of separate North Queensland press coverage corroborated that Mount Isa received $38,500 under this exact program for this exact purpose. Added as Verified. A third working comparator, and the clearest evidence yet that state funding exists specifically to pay for plan development itself, undercutting a 'no budget' justification for Bellbrook."
   }
 ]
