@@ -3,88 +3,135 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<meta name="description" content="MAYHEM Investigations: forensic public-interest investigations into Willawarrin/Bellbrook drinking-water failures and the Mid North Coast drone expansion, Kempsey Shire, NSW, plus a plain-language public translation layer and a Kempsey Shire Council terminology glossary." />
+<meta name="description" content="MAYHEM Investigations: forensic public-interest investigations into council and government inaction across the Mid North Coast, NSW, plus a plain-language public translation layer and a Kempsey Shire Council terminology glossary." />
 <title>MAYHEM Investigations</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
-<link rel="stylesheet" href="style.css" />
+<style>
+:root { --ink: #17201c; --paper: #f2f0e9; --cream: #e8e4da; --acid: #d8ff3e; --red: #ef6045; --muted: #68716c; --line: #c8cbc3; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: var(--paper); color: var(--ink); margin: 0; font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; }
+.nav { border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); z-index: 10; background: rgba(242,240,233,.94); justify-content: space-between; align-items: center; height: 68px; padding: 0 5vw; display: flex; position: sticky; top: 0; }
+.wordmark { letter-spacing: .1em; align-items: center; gap: 10px; font-size: 13px; font-weight: 900; display: flex; text-decoration: none; color: var(--ink); }
+.wordmark span { background: var(--ink); color: var(--acid); padding: 0 6px; height: 28px; display: grid; place-items: center; font-size: 11px; }
+.navlinks { align-items: center; gap: 22px; font-size: 12px; font-weight: 700; display: flex; }
+.navlinks a { text-decoration: none; }
+.hero { padding: 64px 7vw 40px; max-width: 980px; }
+.kicker { text-transform: uppercase; letter-spacing: .16em; font-size: 11px; font-weight: 800; color: var(--red); margin: 0 0 14px; }
+.hero h1 { letter-spacing: -.04em; font-size: clamp(40px,6vw,74px); line-height: 0.98; margin: 0 0 18px; font-weight: 900; }
+.hero p.lead { font-family: Georgia, serif; font-size: clamp(18px,1.7vw,22px); line-height: 1.5; color: rgb(56,67,62); max-width: 760px; margin: 0; }
+.section { padding: 10px 7vw 60px; max-width: 1180px; }
+.section h2 { letter-spacing: -.03em; font-size: clamp(24px,3vw,34px); margin: 44px 0 8px; }
+.section-desc { color: var(--muted); max-width: 700px; line-height: 1.6; margin: 0 0 28px; }
+.card-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; display: grid; margin-top: 8px; }
+.card-tile { background: rgb(245,243,236); border-top: 6px solid var(--acid); padding: 26px 24px; display: block; }
+.card-tile:nth-child(3n+2) { border-top-color: rgb(143,200,255); }
+.card-tile:nth-child(3n) { border-top-color: rgb(255,180,90); }
+.card-tile .eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: 10.5px; font-weight: 800; color: var(--red); margin: 0 0 10px; }
+.card-tile h3 { margin: 0 0 10px; font-size: 21px; letter-spacing: -.02em; }
+.card-tile p { font-size: 14.5px; line-height: 1.55; color: rgb(78,89,83); margin: 0; }
+.doc-block { background: rgb(248,246,240); border-left: 6px solid var(--line); padding: 24px 28px; margin-top: 44px; line-height: 1.65; color: rgb(69,80,74); }
+.doc-block code { background: var(--cream); padding: 1px 5px; border-radius: 3px; font-size: 0.92em; }
+footer { color: #fff; background: rgb(16,23,19); padding: 46px 7vw; margin-top: 40px; font-size: 13px; line-height: 1.6; }
+footer a { text-decoration: underline; text-underline-offset: 2px; }
+@media (max-width: 760px) {
+  .nav { height: 60px; }
+  .navlinks { gap: 14px; }
+  .hero, .section { padding-left: 6vw; padding-right: 6vw; }
+}
+</style>
 </head>
 <body>
 
-<header class="app-header">
-  <div class="app-header-row">
-    <div class="app-header-title">
-      <div class="app-name">MAYHEM</div>
-      <div class="case-id">Investigations</div>
-    </div>
-  </div>
+<nav class="nav" aria-label="Primary navigation">
+<a class="wordmark" href="#top"><span>M</span> MAYHEM INVESTIGATIONS</a>
+<div class="navlinks">
+<a href="public-interest/index.html">Public interest</a>
+<a href="glossary/index.html">Glossary</a>
+<a href="catalogue/index.html">Catalogue</a>
+</div>
+</nav>
+
+<header class="hero" id="top">
+<p class="kicker">Forensic public-interest investigations</p>
+<h1>Six stages. Every claim traced to its source.</h1>
+<p class="lead">Each case runs the same structure - evidence, analysis, cross-pattern view, forward assessment, formal complaint, and how to use it - so a stage can be compared or reused across cases without re-deriving it each time.</p>
 </header>
 
-<main class="doc-page">
-  <h1>MAYHEM Investigations</h1>
-  <p class="doc-subtitle">Forensic public interest investigations. Each case runs the same six stages — evidence,
-  analysis, cross-pattern view, forward assessment, formal complaint, and how to use it — so a stage can be
-  compared or reused across cases without re-deriving the structure each time.</p>
+<main>
+<section class="section">
+<h2>Cases and reference material</h2>
+<p class="section-desc">Full technical case workspaces: evidence registers, source citations, analysis, and formal
+submission material. For the same investigations in plain language, see Public Interest below.</p>
+<div class="card-grid" id="case-list">
+<a class="card-tile" href="glossary/index.html">
+<p class="eyebrow">Reference</p>
+<h3>KSC Master Glossary</h3>
+<p>Kempsey Shire Council terms, acronyms, codes and identifiers - shared reference across every case, not tied to
+any one of them. 450 terms through Snapshot 008, cumulative as further snapshots arrive.</p>
+</a>
+<a class="card-tile" href="cases/DFAPTI-BB-2026-00001/index.html">
+<p class="eyebrow">Active</p>
+<h3>DFAPTI-BB-2026-00001</h3>
+<p>Willawarrin / Bellbrook recurring drinking-water failure - Kempsey Shire, NSW. 73 evidence items, 6 stages
+built.</p>
+</a>
+<a class="card-tile" href="cases/DFAPTI-MNC-2026-00001/index.html">
+<p class="eyebrow">Active</p>
+<h3>DFAPTI-MNC-2026-00001</h3>
+<p>Mid North Coast PolAir-Remote drone expansion - Kempsey petition evidentiary audit, NSW. 836 evidence items, 6
+stages built, downstream stages frozen at Cycle 1 (17 August 2026).</p>
+</a>
+<a class="card-tile" href="cases/DFAPTI-BB-FF-2026-00001/index.html">
+<p class="eyebrow">Active</p>
+<h3>DFAPTI-BB-FF-2026-00001</h3>
+<p>Bellbrook flying-fox camp management, Kempsey Shire, NSW. 23 evidence items, evidence collection in progress,
+downstream stages not yet built.</p>
+</a>
+<a class="card-tile" href="cases/DFAPTI-BB-LW-2026-00001/index.html">
+<p class="eyebrow">Active</p>
+<h3>DFAPTI-BB-LW-2026-00001</h3>
+<p>Bellbrook laneway Crown road governance, Kempsey Shire, NSW. 51 evidence items, 6 stages built, ingested from a
+complete prior investigation.</p>
+</a>
+<a class="card-tile" href="cases/DFAPTI-TA-FF-2026-00001/index.html">
+<p class="eyebrow">Active</p>
+<h3>DFAPTI-TA-FF-2026-00001</h3>
+<p>Taylors Arm flying-fox council response void, Nambucca Valley, NSW. 77 evidence items, 6 stages built,
+ingested from a complete prior investigation.</p>
+</a>
+<a class="card-tile" href="public-interest/index.html">
+<p class="eyebrow">Public</p>
+<h3>Public Interest Investigations</h3>
+<p>The Ordinary Public Translation Layer - plain-language summaries of the cases above, for readers who want the
+public picture without the underlying registers.</p>
+</a>
+<a class="card-tile" href="catalogue/index.html">
+<p class="eyebrow">Reference</p>
+<h3>Structural Harm Mechanism Catalogue</h3>
+<p>68 named patterns in how institutions produce harm while following their own rules, applied against every
+case's frozen evidence via each case's own SHM Gate. Grows as investigations surface genuine new patterns.</p>
+</a>
+</div>
 
-  <div class="landing-grid" id="case-list">
-    <a class="landing-card" href="glossary/index.html">
-      <div class="step">REFERENCE</div>
-      <h3>KSC Master Glossary</h3>
-      <p>Kempsey Shire Council terms, acronyms, codes and identifiers — shared reference across every case, not
-      tied to any one of them. 450 terms through Snapshot 008, cumulative as further snapshots arrive.</p>
-    </a>
-    <a class="landing-card" href="cases/DFAPTI-BB-2026-00001/index.html">
-      <div class="step">ACTIVE</div>
-      <h3>DFAPTI-BB-2026-00001</h3>
-      <p>Willawarrin / Bellbrook recurring drinking-water failure — Kempsey Shire, NSW. 73 evidence items, 6 stages
-      built.</p>
-    </a>
-    <a class="landing-card" href="cases/DFAPTI-MNC-2026-00001/index.html">
-      <div class="step">ACTIVE</div>
-      <h3>DFAPTI-MNC-2026-00001</h3>
-      <p>Mid North Coast PolAir-Remote drone expansion — Kempsey petition evidentiary audit, NSW. 836 evidence
-      items, 6 stages built, downstream stages frozen at Cycle 1 (17 August 2026).</p>
-    </a>
-    <a class="landing-card" href="cases/DFAPTI-BB-FF-2026-00001/index.html">
-      <div class="step">ACTIVE</div>
-      <h3>DFAPTI-BB-FF-2026-00001</h3>
-      <p>Bellbrook flying-fox camp management failure, Kempsey Shire, NSW. 23 evidence items, evidence collection
-      in progress, downstream stages not yet built.</p>
-    </a>
-    <a class="landing-card" href="cases/DFAPTI-BB-LW-2026-00001/index.html">
-      <div class="step">ACTIVE</div>
-      <h3>DFAPTI-BB-LW-2026-00001</h3>
-      <p>Bellbrook laneway Crown road governance failure, Kempsey Shire, NSW. 51 evidence items, 6 stages built,
-      ingested from a complete prior investigation.</p>
-    </a>
-    <a class="landing-card" href="cases/DFAPTI-TA-FF-2026-00001/index.html">
-      <div class="step">ACTIVE</div>
-      <h3>DFAPTI-TA-FF-2026-00001</h3>
-      <p>Taylors Arm flying-fox council response void, Nambucca Valley, NSW. 76 evidence items, 6 stages built,
-      ingested from a complete prior investigation.</p>
-    </a>
-    <a class="landing-card" href="public-interest/index.html">
-      <div class="step">PUBLIC</div>
-      <h3>Public Interest Investigations</h3>
-      <p>The Ordinary Public Translation Layer — plain-language summaries of the cases above, for readers who
-      want the public picture without the underlying registers.</p>
-    </a>
-    <a class="landing-card" href="catalogue/index.html">
-      <div class="step">REFERENCE</div>
-      <h3>Structural Harm Mechanism Catalogue</h3>
-      <p>68 named patterns in how institutions produce harm while following their own rules, applied against both
-      cases' frozen evidence via each case's own SHM Gate. Grows as investigations surface genuine new patterns.</p>
-    </a>
-  </div>
-
-  <h2>Adding a case</h2>
-  <p>Each case lives at <code>cases/&lt;CASE-ID&gt;/</code>, with its own <code>dfapti/</code>,
-  <code>dfapta/</code>, <code>lattice-atlas/</code>, <code>temporal-projection-integrity-engine/</code>,
-  <code>enforcement-notice/</code>, and <code>advocacy-package/</code>, plus a case-level <code>index.html</code>
-  linking the six. Add the new card above and give the case its own <code>cases/&lt;CASE-ID&gt;/data/</code>
-  evidence-register directory, registered in <code>scripts/case-registry.js</code> - the pattern established for
-  DFAPTI-MNC-2026-00001. DFAPTI-BB-2026-00001 keeps its evidence data at the repository root
-  (<code>data/</code>) as a grandfathered exception; every case after it uses the per-case layout.</p>
+<h2>Adding a case</h2>
+<div class="doc-block">
+<p>Each case lives at <code>cases/&lt;CASE-ID&gt;/</code>, with its own <code>dfapti/</code>,
+<code>dfapta/</code>, <code>lattice-atlas/</code>, <code>temporal-projection-integrity-engine/</code>,
+<code>enforcement-notice/</code>, and <code>advocacy-package/</code>, plus a case-level <code>index.html</code>
+linking the six. Add the new card above and give the case its own <code>cases/&lt;CASE-ID&gt;/data/</code>
+evidence-register directory, registered in <code>scripts/case-registry.js</code> - the pattern established for
+DFAPTI-MNC-2026-00001. DFAPTI-BB-2026-00001 keeps its evidence data at the repository root
+(<code>data/</code>) as a grandfathered exception; every case after it uses the per-case layout.</p>
+</div>
+</section>
 </main>
+
+<footer>
+<a class="wordmark" href="#top" style="color:#fff"><span>M</span> MAYHEM INVESTIGATIONS</a>
+<p style="margin-top:10px;color:rgb(170,180,175);">Forensic public-interest investigations, Mid North Coast NSW.</p>
+</footer>
 
 </body>
 </html>

@@ -6,60 +6,82 @@
 <meta name="description" content="Structural Harm Mechanism Catalogue: 68 named patterns in how institutions produce harm while following their own rules, plus mechanisms discovered through real MAYHEM investigations." />
 <title>MAYHEM - Structural Harm Mechanism Catalogue</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
-<link rel="stylesheet" href="../style.css" />
 <style>
-  .letter-nav { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.75rem 0 1rem; }
-  .letter-nav a { display: inline-block; padding: 0.25rem 0.5rem; border: 1px solid var(--border); border-radius: 0.35rem; font-size: 0.8rem; font-weight: 700; color: var(--text); text-decoration: none; background: var(--surface); }
-  .letter-nav a:hover { border-color: var(--accent); color: var(--accent); }
-  .cat-badge { display: inline-block; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.15rem 0.5rem; border-radius: 999px; background: var(--badge-bg); }
-  .term-entry { background: var(--surface); border-left: 5px solid var(--border); border-radius: 0.4rem; padding: 0.85rem 1rem; margin-bottom: 0.6rem; overflow-wrap: anywhere; }
-  .term-entry.js-hidden { display: none; }
-  .term-entry.cat-A { border-left-color: var(--confirmed); }
-  .term-entry.cat-B { border-left-color: var(--pending); }
-  .term-entry.cat-C { border-left-color: var(--unresolved); }
-  .term-entry.cat-other { border-left-color: var(--focus); }
-  .term-row { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
-  .term-name { font-weight: 700; }
-  .term-desc { font-size: 0.92rem; line-height: 1.55; margin-top: 0.35rem; }
-  .term-status { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.4rem; }
-  .src-line { font-size: 0.82rem; color: var(--text-muted); }
-  .src-line a { color: var(--accent); text-decoration: underline; }
+:root { --ink: #17201c; --paper: #f2f0e9; --cream: #e8e4da; --acid: #d8ff3e; --red: #ef6045; --muted: #68716c; --line: #c8cbc3; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: var(--paper); color: var(--ink); margin: 0; font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; }
+.nav { border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); z-index: 10; background: rgba(242,240,233,.94); justify-content: space-between; align-items: center; height: 68px; padding: 0 5vw; display: flex; position: sticky; top: 0; }
+.wordmark { letter-spacing: .1em; align-items: center; gap: 10px; font-size: 13px; font-weight: 900; display: flex; text-decoration: none; color: var(--ink); }
+.wordmark span { background: var(--ink); color: var(--acid); padding: 0 6px; height: 28px; display: grid; place-items: center; font-size: 11px; }
+.navlinks { align-items: center; gap: 22px; font-size: 12px; font-weight: 700; display: flex; }
+.navlinks a { text-decoration: none; }
+.intro { padding: 56px 7vw 32px; max-width: 900px; }
+.kicker { text-transform: uppercase; letter-spacing: .16em; font-size: 11px; font-weight: 800; color: var(--red); margin: 0 0 14px; }
+.intro h1 { letter-spacing: -.03em; font-size: clamp(34px,5vw,58px); line-height: 1.03; margin: 0 0 16px; font-weight: 900; }
+.intro p.lead { font-family: Georgia, serif; font-size: clamp(17px,1.6vw,21px); line-height: 1.5; color: rgb(56,67,62); max-width: 760px; margin: 0 0 18px; }
+.doc-note { color: var(--muted); max-width: 760px; line-height: 1.6; margin: 0 0 14px; font-size: 14.5px; }
+.doc-note strong { color: var(--ink); }
+.section { padding: 24px 7vw 10px; max-width: 1000px; }
+.section h2 { letter-spacing: -.03em; font-size: clamp(24px,3vw,34px); margin: 0 0 6px; }
+.section-desc { color: var(--muted); max-width: 640px; line-height: 1.6; margin: 0 0 22px; }
+.filter-input { width: 100%; max-width: 500px; padding: 12px 14px; border: 1px solid var(--line); background: #fff; font-size: 14px; font-family: inherit; margin-bottom: 24px; }
+.term-entry { background: rgb(245,243,236); border-top: 5px solid var(--line); padding: 16px 20px; margin-bottom: 10px; overflow-wrap: anywhere; }
+.term-entry.js-hidden { display: none; }
+.term-entry.cat-A { border-top-color: var(--acid); }
+.term-entry.cat-B { border-top-color: rgb(143,200,255); }
+.term-entry.cat-C { border-top-color: rgb(255,180,90); }
+.term-entry.cat-other { border-top-color: var(--red); }
+.term-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.term-name { font-weight: 800; letter-spacing: -.01em; }
+.cat-badge { display: inline-block; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; padding: 2px 8px; background: var(--cream); color: var(--muted); }
+.term-desc { font-size: 15px; line-height: 1.55; margin-top: 8px; color: rgb(69,80,74); font-family: Georgia, serif; }
+.term-status { font-size: 13.5px; color: var(--muted); margin-top: 8px; }
+.src-line { font-size: 12.5px; color: var(--muted); margin-top: 8px; }
+.src-line a { color: var(--red); text-decoration: underline; text-underline-offset: 2px; }
+footer { color: #fff; background: rgb(16,23,19); padding: 46px 7vw; margin-top: 50px; font-size: 13px; line-height: 1.6; }
+footer a { text-decoration: underline; text-underline-offset: 2px; }
+@media (max-width: 760px) {
+  .nav { height: 60px; }
+  .intro, .section { padding-left: 6vw; padding-right: 6vw; }
+  .term-entry { padding: 14px 16px; }
+}
 </style>
 </head>
 <body>
 
-<header class="app-header">
-  <div class="app-header-row">
-    <div class="app-header-title">
-      <div class="app-name">MAYHEM &middot; Reference</div>
-      <div class="case-id">Structural Harm Mechanism Catalogue</div>
-    </div>
-  </div>
+<nav class="nav" aria-label="Primary navigation">
+<a class="wordmark" href="../index.html"><span>M</span> MAYHEM INVESTIGATIONS</a>
+<div class="navlinks">
+<a href="../public-interest/index.html">Public interest</a>
+<a href="../glossary/index.html">Glossary</a>
+<a href="../index.html">All cases</a>
+</div>
+</nav>
+
+<header class="intro">
+<p class="kicker">Reference &middot; Structural Harm Mechanism Catalogue</p>
+<h1>68 named patterns in how institutions produce harm while following their own rules.</h1>
+<p class="lead">Operator-authored from pattern detection across past cases. Applied against real case evidence via
+each case's own SHM Gate - never used to shape what evidence gets collected, only to check patterns against
+evidence already frozen. This page is a living document: the "Discovered Through Investigation" section grows
+every time a case surfaces a genuine pattern with no match here.</p>
+<p class="doc-note"><strong>Interpretive layer, not a legal finding:</strong> every mechanism match applied
+against a case is the operator's own structural interpretation of already-confirmed evidence - offered for
+public scrutiny and further investigation, not asserted as a legal, regulatory, or judicial finding of
+wrongdoing by any institution or individual. The evidence each match cites carries its own independent
+verification status at the case level; the mechanism label is the analytical lens applied on top of it.</p>
+<p class="doc-note"><strong>Scoped to each case's own evidence freeze date:</strong> matches against DFAPTI-BB-2026-00001 reflect its register as frozen 2026-08-06 (DEC-0017); matches against DFAPTI-MNC-2026-00001 reflect its register as frozen 2026-08-17 (DEC-0009); matches against DFAPTI-BB-LW-2026-00001 reflect its register as frozen 2026-08-23 (DEC-0001); matches against DFAPTI-TA-FF-2026-00001 reflect its register as frozen 2026-08-23 (DEC-0001). Relevant
+developments may have occurred since that have not been checked against these matches and are not reflected in
+them.</p>
 </header>
 
-<main class="doc-page">
-  <p><a class="jump-link" href="../index.html">&larr; MAYHEM Investigations</a></p>
-  <h1>Structural Harm Mechanism Catalogue</h1>
-  <p class="doc-subtitle">68 named patterns in how institutions produce harm while following
-  their own rules, operator-authored from pattern detection across past cases. Applied against real case evidence
-  via each case's own SHM Gate - never used to shape what evidence gets collected, only to check patterns against
-  evidence already frozen. This page is a living document: the "Discovered Through Investigation" section grows
-  every time a case surfaces a genuine pattern with no match here.</p>
+<main class="section">
+<input type="text" id="mech-filter" class="filter-input" placeholder="Search mechanisms..." aria-label="Search catalogue" />
 
-  <p class="doc-subtitle"><strong>Interpretive layer, not a legal finding:</strong> every mechanism match applied
-  against a case is the operator's own structural interpretation of already-confirmed evidence - offered for
-  public scrutiny and further investigation, not asserted as a legal, regulatory, or judicial finding of
-  wrongdoing by any institution or individual. The evidence each match cites carries its own independent
-  verification status at the case level; the mechanism label is the analytical lens applied on top of it.</p>
-
-  <p class="doc-subtitle"><strong>Scoped to each case's own evidence freeze date:</strong> matches against DFAPTI-BB-2026-00001 reflect its register as frozen 2026-08-06 (DEC-0017); matches against DFAPTI-MNC-2026-00001 reflect its register as frozen 2026-08-17 (DEC-0009); matches against DFAPTI-BB-LW-2026-00001 reflect its register as frozen 2026-08-23 (DEC-0001); matches against DFAPTI-TA-FF-2026-00001 reflect its register as frozen 2026-08-23 (DEC-0001). Relevant
-  developments may have occurred since that have not been checked against these matches and are not reflected in
-  them.</p>
-
-  <input type="text" id="mech-filter" class="filter-input" placeholder="Search mechanisms..." aria-label="Search catalogue" />
-
-  <h2>Category A &mdash; Confirmed internal to canon (48)</h2>
-  <div id="cat-a-list">
+<h2>Category A &mdash; Confirmed internal to canon (48)</h2>
+<div id="cat-a-list">
 <div class="term-entry cat-A" id="mech-1" data-search="1 reclassification the institution does not deny the experience. it changes what the experience is. primary evidence becomes anecdote. observation becomes opinion. pattern becomes isolated incident. institutional record replaces lived account. five specific patterns: ‘this is just your perception’ (observed experience converted to subjective opinion); ‘we can’t verify that’ (primary evidence converted to unverifiable claim); ‘individual cases don’t show systemic problems’ (pattern evidence converted to isolated incident); ‘that’s not what our records show’ (lived account replaced by institutional record); ‘we take your concerns seriously’ (absorption without acknowledgment).">
   <div class="term-row"><span class="term-name">1. Reclassification</span><span class="cat-badge">CATEGORY A</span></div>
   <div class="term-desc">The institution does not deny the experience. It changes what the experience is. Primary evidence becomes anecdote. Observation becomes opinion. Pattern becomes isolated incident. Institutional record replaces lived account. Five specific patterns: ‘This is just your perception’ (observed experience converted to subjective opinion); ‘We can’t verify that’ (primary evidence converted to unverifiable claim); ‘Individual cases don’t show systemic problems’ (pattern evidence converted to isolated incident); ‘That’s not what our records show’ (lived account replaced by institutional record); ‘We take your concerns seriously’ (absorption without acknowledgment).</div>
@@ -300,8 +322,8 @@
   <div class="term-desc">The system imposes a structural limit on the number or type of complaints it will process — via staff allocation, eligibility criteria, classification thresholds, or processing timeframes — that is lower than the volume of structural complaints the governed population would otherwise generate. The cap is set by the accused party. Complaints that exceed the cap are either rejected, classified out, or indefinitely queued. The apparent existence of a complaints channel functions as evidence of accountability access while the channel's capacity is structurally insufficient. The mechanism is distinct from Mechanism 18 (Escalation Dead-End), which operates after intake. Capacity Cap operates at intake: complaints that would otherwise enter the channel are prevented from doing so. It is distinct from Mechanism 46 (Accountability Cost Externalisation), which operates on the complainant's capacity to sustain a complaint. Capacity Cap operates on the system's intake capacity to receive complaints in the first place.</div>
 </div></div>
 
-  <h2>Category B &mdash; Additional internal to canon (11)</h2>
-  <div id="cat-b-list">
+<h2>Category B &mdash; Additional internal to canon (11)</h2>
+<div id="cat-b-list">
 <div class="term-entry cat-B" id="mech-43" data-search="43 accountability inversion the populations bearing the costs of governance failure hold no structural standing in the governance mechanisms that could remedy those failures. power-holders bear minimal costs. the inversion is complete, not partial.">
   <div class="term-row"><span class="term-name">43. Accountability Inversion</span><span class="cat-badge">CATEGORY B</span></div>
   <div class="term-desc">The populations bearing the costs of governance failure hold no structural standing in the governance mechanisms that could remedy those failures. Power-holders bear minimal costs. The inversion is complete, not partial.</div>
@@ -357,8 +379,8 @@
   <div class="term-desc">The cost of translating governance instruments into citizen-legible findings falls entirely on the translator, the citizen, or the advocate — not on the producer of the instrument. Over time, the translation labour required to maintain legibility across an expanding governance corpus exceeds the capacity of any citizen or advocate. The mechanism is not the complexity itself (Mechanism 48) or the institutional register itself (Mechanism 56) but the structural distribution of the cost of addressing them. An instrument is produced by an institution at low cost per instrument. The translation labour required to convert that instrument into a citizen-legible finding is borne by the advocate, citizen, or operator at a cost per instrument that is orders of magnitude greater than the production cost. As the governance corpus expands — more instruments, more cross-references, more subordinate legislation, more administrative guidance — the translation labour scales while the translator's capacity does not. Exhaustion is the structural endpoint: the volume of untranslated material exceeds the translator's sustainable output, and the remaining untranslated governance material operates on the population without ever being translated. Mechanism 66 is the cost-asymmetry parent of Mechanisms 48 and 56 — they describe the barriers, 66 describes the structural distribution of the cost of crossing the barriers.</div>
 </div></div>
 
-  <h2>Category C &mdash; Predicted from structural implication (9)</h2>
-  <div id="cat-c-list">
+<h2>Category C &mdash; Predicted from structural implication (9)</h2>
+<div id="cat-c-list">
 <div class="term-entry cat-C" id="mech-51" data-search="51 waitlist as rationing by attrition the system places the citizen on a waiting list. the wait is indefinite. during the wait, the citizen’s condition deteriorates, their eligibility may change, or they may die. the waitlist produces the appearance of a queue — an ordered, fair system. it functions as a rationing mechanism that selects for those who can survive the wait. predicted to surface in health, housing, aged care, and disability investigations.">
   <div class="term-row"><span class="term-name">51. Waitlist as Rationing by Attrition</span><span class="cat-badge">CATEGORY C</span></div>
   <div class="term-desc">The system places the citizen on a waiting list. The wait is indefinite. During the wait, the citizen’s condition deteriorates, their eligibility may change, or they may die. The waitlist produces the appearance of a queue — an ordered, fair system. It functions as a rationing mechanism that selects for those who can survive the wait. Predicted to surface in health, housing, aged care, and disability investigations.</div>
@@ -404,10 +426,10 @@
   <div class="term-desc">The condition persists long enough that it ceases to be perceived as a failure. It becomes the baseline. New governance instruments are calibrated to the failed state as though it were the intended state. The mechanism is the conversion of failure into the operating assumption against which all future performance is measured. Structurally related to Mechanism 37 but operates in the opposite direction — not an obsolete calibration persisting, but a failed state being adopted as the new calibration.</div>
 </div></div>
 
-  <h2>Discovered Through Investigation (4)</h2>
-  <p>Not yet part of the canonical 68 - genuine patterns real cases surfaced with no clean match above, offered
-  back for the operator's own catalogue development.</p>
-  <div id="discovered-list">
+<h2>Discovered Through Investigation (4)</h2>
+<p class="section-desc">Not yet part of the canonical 68 - genuine patterns real cases surfaced with no clean match
+above, offered back for the operator's own catalogue development.</p>
+<div id="discovered-list">
 <div class="term-entry cat-other">
   <div class="term-row"><span class="term-name">Standing Without Discoverability</span><span class="cat-badge">CANDIDATE</span></div>
   <div class="term-desc">A real complaint mechanism exists, with clear statutory jurisdiction covering systemic (not only individual-conduct) concerns. The practical accountability gap is not the absence of a complaint mechanism - it is that a resident who suspects a drone observed their property has no obvious way to discover whether a specific flight occurred, and therefore no practical trigger to invoke the complaint mechanisms that do exist.</div>
@@ -436,11 +458,16 @@
   <div class="term-source-block"><div class="src-line">First surfaced: <a href="../cases/DFAPTI-BB-LW-2026-00001/shm-gate/index.html">DFAPTI-BB-LW-2026-00001</a>, path AR-003, 2026-08-23</div></div>
 </div></div>
 
-  <h2>Where this is applied</h2>
-  <p>Each case's SHM Gate cross-references this catalogue against that case's own frozen DFAPTA analysis, citing
-  real evidence for every match: <a href="../cases/DFAPTI-BB-2026-00001/shm-gate/index.html">DFAPTI-BB-2026-00001</a>,
-  <a href="../cases/DFAPTI-MNC-2026-00001/shm-gate/index.html">DFAPTI-MNC-2026-00001</a>.</p>
+<h2>Where this is applied</h2>
+<p class="section-desc">Each case's SHM Gate cross-references this catalogue against that case's own frozen DFAPTA
+analysis, citing real evidence for every match: <a href="../cases/DFAPTI-BB-2026-00001/shm-gate/index.html">DFAPTI-BB-2026-00001</a>,
+<a href="../cases/DFAPTI-MNC-2026-00001/shm-gate/index.html">DFAPTI-MNC-2026-00001</a>.</p>
 </main>
+
+<footer>
+<a class="wordmark" href="../index.html" style="color:#fff"><span>M</span> MAYHEM INVESTIGATIONS</a>
+<p style="margin-top:10px;color:rgb(170,180,175);">Structural Harm Mechanism Catalogue.</p>
+</footer>
 
 <script>
 (function () {
