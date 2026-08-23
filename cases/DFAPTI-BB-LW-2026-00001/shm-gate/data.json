@@ -1,0 +1,102 @@
+{
+  "gate_id": "SHM-GATE-DFAPTI-BB-LW-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-BB-LW-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-23",
+  "freeze_date": "2026-08-23",
+  "freeze_decision": "DEC-0001",
+  "basis_note": "Applies the operator's Structural Harm Mechanism (SHM) Catalogue - a set of named institutional-dysfunction patterns built by the operator from pattern detection across past cases - against this case's own frozen DFAPTA cross-pattern analysis (15 paths, EV-0001-EV-0051). The catalogue is applied only to evidence already gathered; it played no role in what evidence was collected. A mechanism is listed as Applied only where this case's own DFAPTA path AR-012 (Structural Harm Mechanisms Identification) already ran this exact catalogue cross-reference as part of its own frozen analysis, before this gate restated it - three of the five mechanisms AR-012 named matched existing catalogue entries by name and definition; those three, plus two further mechanisms confirmed by other frozen paths (AR-002, AR-014), make up the six below.",
+  "catalogue_reference": "Structural Harm Mechanism Catalogue v2.0 (operator-authored, 68 named mechanisms; this gate cites 6)",
+  "position_in_chain": "Applied after DFAPTA (Stage 2), before Lattice Atlas (Stage 3) - a known-patterns check against frozen evidence, distinct from Lattice Atlas's search for new, not-yet-named emergent patterns.",
+  "root_finding": {
+    "title": "Documented Compliance vs. Functional Compliance",
+    "statement": "This case's own DFAPTA baseline names this distinction directly, in its own words, before this catalogue was ever cross-referenced against it: \"Documented compliance position: no obligation exists on paper for either entity. Functional compliance position: Council is the de facto maintaining entity, by its own records. The gap between these two positions is this case's core governance failure\" (AR-002). Documented Compliance as Shield is the named instance. Definitional Control and Opacity by Design are two separate reasons the gap stays hard to check. Accountability Inversion and Accountability Cost Externalisation describe who bears the cost of that gap once it exists. Time as a Structural Harm Mechanism is the same gap running on a 134-year clock instead of a single claim.",
+    "roles": [
+      { "mechanism_no": 9, "role": "core_instance", "role_label": "The named instance", "role_note": "This case's own DFAPTA baseline states the distinction in almost identical language to the catalogue definition itself (AR-002): Council performs the maintenance function but discloses no formal obligation for it - documented activity substituting for a functional, formally authorised outcome." },
+      { "mechanism_no": 42, "role": "enables_gap", "role_label": "Why the gap stays uncheckable (1 of 2)", "role_note": "Council applies its own undocumented definition of 'roads and bridges' at the individual complaint point, with no publicly accessible instrument the resident can check it against (AR-003, AR-006, AR-012)." },
+      { "mechanism_no": 19, "role": "enables_gap", "role_label": "Why the gap stays uncheckable (2 of 2)", "role_note": "The laneway's tenure has no confirmed cadastral identity in any publicly accessible register - not because records are hidden, but because no instrument was ever executed that would give the parcel one (AR-001, AR-005)." },
+      { "mechanism_no": 43, "role": "cost_of_the_gap", "role_label": "Who bears the cost of the gap (1 of 2)", "role_note": "The resident holds no structural standing in the transfer mechanism, the gazette process, or the enforcement of the formal right of access - the exclusion is confirmed across every relevant accountability axis (AR-007, AR-009, AR-011, AR-013)." },
+      { "mechanism_no": 46, "role": "cost_of_the_gap", "role_label": "Who bears the cost of the gap (2 of 2)", "role_note": "Council and Crown Lands bear no cost from the current arrangement; the resident bears the full cost of pursuing accountability - time, persistence, and the burden of independently discovering the GIPA, transfer, and escalation mechanisms (AR-011)." },
+      { "mechanism_no": 10, "role": "temporal_instance", "role_label": "The same gap, running on a clock", "role_note": "The governance gap has persisted since at least the 1892 gazettal - 134 years on current evidence - unaddressed by the modernised legal framework, the existing transfer mechanism, or two documented planning cycles (AR-014)." }
+    ]
+  },
+  "applied": [
+    {
+      "mechanism_no": 9,
+      "name": "Documented Compliance as Shield",
+      "definition": "The institution points to the process it completed - the review, the consultation, the assessment - as evidence that the obligation was met. The process was completed. The outcome the process was supposed to produce was not achieved. Documented compliance substituted for functional compliance. This is the load-bearing distinction in every MAYHEM investigation.",
+      "status": "APPLIED - this case's own dedicated analytical finding",
+      "match_note": "AR-002 states the distinction explicitly: no documented obligation exists on paper for either Council or Crown Lands, while Council's own works updates, bin schedule and capital works program confirm it is the de facto maintaining entity. The case's own Analysis Register calls this \"this case's core governance failure\" in its own words.",
+      "paths": ["AR-002"],
+      "anchors": ["EV-0002", "EV-0005", "EV-0017", "EV-0037", "EV-0042", "EV-0048", "EV-0049", "EV-0050"]
+    },
+    {
+      "mechanism_no": 42,
+      "name": "Definitional Control",
+      "definition": "The institution defines the terms under which its own performance is assessed. Key terms are undefined in any publicly available document. The institution sets the standard, measures against the standard, and reports compliance with the standard. The citizen has no access to the definition and no mechanism to contest it.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "Council's public responsibility framework lists roads and bridges as a Council responsibility with no visible Crown road exclusion; the deflection at the individual complaint point is never recorded in any publicly accessible document a resident could check it against. AR-012 (this case's own catalogue check) names this mechanism by the same title used in the catalogue.",
+      "paths": ["AR-003", "AR-006", "AR-012"],
+      "anchors": ["EV-0013", "EV-0020", "EV-0034", "EV-0038"]
+    },
+    {
+      "mechanism_no": 19,
+      "name": "Opacity by Design",
+      "definition": "The system cannot be independently examined - not because records are hidden, but because the system was designed without the structural features that would make independent examination possible. The mechanism is not concealment - it is the absence of auditability as a design feature.",
+      "status": "APPLIED - repeated match",
+      "match_note": "The laneway is not selectable in the NSW Planning Portal, absent from Council's own 2021 Crown Land Plan of Management, and not indexed under any DP in the NSW Historical Land Records Viewer. No single instrument confirms or refutes the parcel's tenure - not because any record was withheld, but because no instrument giving it a checkable identity was ever executed.",
+      "paths": ["AR-001", "AR-005"],
+      "anchors": ["EV-0001", "EV-0009", "EV-0010", "EV-0023", "EV-0027", "EV-0038"]
+    },
+    {
+      "mechanism_no": 43,
+      "name": "Accountability Inversion",
+      "definition": "The populations bearing the costs of governance failure hold no structural standing in the governance mechanisms that could remedy those failures. Power-holders bear minimal costs. The inversion is complete, not partial.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "The resident has no standing in the transfer mechanism (government-to-government), no standing in the gazette process, and no way to enforce the formal right of public passage even though it has never been formally extinguished. AR-012 names this mechanism by the same title used in the catalogue; four independent analytical paths converge on the same exclusion.",
+      "paths": ["AR-007", "AR-009", "AR-011", "AR-012", "AR-013"],
+      "anchors": ["EV-0002", "EV-0004", "EV-0015", "EV-0016", "EV-0022", "EV-0024", "EV-0031", "EV-0034", "EV-0037", "EV-0038"]
+    },
+    {
+      "mechanism_no": 46,
+      "name": "Accountability Cost Externalisation",
+      "definition": "The cost of holding the system to account is borne entirely by the citizen, not by the system. The citizen spends time, money, emotional capacity, and social capital to file complaints, pursue escalation, attend hearings, prepare submissions. The system absorbs these at no cost to itself. If the citizen stops, the complaint dies.",
+      "status": "APPLIED - confirmed by the case's own catalogue cross-reference",
+      "match_note": "Neither Council nor Crown Lands bears any cost from the current arrangement - the deflection requires less effort than resolving the complaint, and the loop self-terminates when the resident stops. The resident bears the full search, time and knowledge cost of discovering the GIPA Act, the transfer mechanism, and the OLG/Ombudsman escalation pathways. AR-012 names this mechanism by the same title used in the catalogue.",
+      "paths": ["AR-011", "AR-012"],
+      "anchors": ["EV-0020", "EV-0034", "EV-0041"]
+    },
+    {
+      "mechanism_no": 10,
+      "name": "Time as Structural Harm Mechanism",
+      "definition": "Delay, silence, deferral, queueing, response latency. The institution does not refuse. It waits. The citizen's capacity to sustain the complaint erodes. The evidence ages. The political window closes. The harm compounds while the process continues.",
+      "status": "APPLIED - confirmed at case-duration level",
+      "match_note": "The governance gap has persisted since at least the 1892 gazettal - 134 years on current evidence - unaddressed by the 2016 Crown Land Management Act, the existing IND-O-250 transfer mechanism, the 2021 Crown Land Plan of Management, or the 2025/26 Operational Plan. This is the case's own explicitly confirmed application of the mechanism.",
+      "paths": ["AR-014"],
+      "anchors": ["EV-0009", "EV-0033", "EV-0039", "EV-0049"]
+    }
+  ],
+  "risk_provisional": [],
+  "candidate_new_mechanisms": [
+    {
+      "working_name": "Jurisdictional Void",
+      "definition_from_case": "An asset or matter sits in a space between two entities' formal mandates, and neither holds a documented obligation over it - not because the governing law is unclear, but because the law was never actually applied to this specific instance through a transfer, dedication, or management agreement. The void is a gap in implementation, not in the legal framework itself, and can persist indefinitely because neither entity bears any cost from leaving it unresolved.",
+      "note": "Checked against all 68 named mechanisms in Catalogue v2.0; no clean match found. The nearest neighbour - Opacity by Design (#19) - describes information being hard to assemble. This mechanism is different in kind: the applicable law is clear and locatable, but no party has ever triggered the specific instrument that would apply that clear law to this specific parcel. Surfaced here as a genuine candidate for the operator's own further catalogue development.",
+      "paths": ["AR-001"],
+      "anchors": ["EV-0001", "EV-0009", "EV-0023", "EV-0038"]
+    },
+    {
+      "working_name": "Circular Deflection Loop",
+      "definition_from_case": "A resident raising a concern is directed by Entity A to Entity B on jurisdictional grounds, and Entity B's own published guidance directs the same enquiry back to Entity A. Both entities' guidance is individually accurate and neither is lying - the loop is confirmed by each entity's own separately published material, not by any single false statement. The resident returns to their point of origin with no documented position from either entity and no record of the deflection to escalate with.",
+      "note": "Checked against all 68 named mechanisms in Catalogue v2.0; no clean match found. The nearest neighbour - a general Responsibility Diffusion pattern - describes responsibility being unclear across multiple actors broadly. This mechanism is more specific: exactly two entities, each pointing at the other, confirmed by each one's own separately published guidance, producing a closed loop rather than a diffuse fog of unclear responsibility.",
+      "paths": ["AR-003"],
+      "anchors": ["EV-0013", "EV-0015", "EV-0016", "EV-0022", "EV-0024", "EV-0034"]
+    }
+  ],
+  "not_claimed": [
+    "This gate does not claim the Structural Harm Mechanism Catalogue's other 62 mechanisms are absent from this matter - only that this case's own frozen DFAPTA analysis did not surface CONFIRMED-status matching findings for them.",
+    "This gate does not claim intent by any named individual or agency. Every mechanism above is a structural/behavioural description, consistent with this case's own explicit non-allegatory framing throughout the original material.",
+    "The two candidate new mechanisms (Jurisdictional Void, Circular Deflection Loop) are not yet part of the operator's catalogue. They are offered as discovery findings, not asserted as canon.",
+    "This gate does not re-open or re-verify the underlying EV- items. This case's evidence carries this repository's own \"Requires Verification\"/\"Unverified\" status throughout, except EV-0037, EV-0039 and EV-0040 (independently re-confirmed 2026-08-23) - this gate does not upgrade any other item's status."
+  ]
+}
