@@ -14,5 +14,13 @@
     "result": "New evidence added.",
     "evidence_added": ["EV-0013", "EV-0014", "EV-0015", "EV-0016", "EV-0017"],
     "notes": "Operator relayed new research on the case's current 2026 status: a stronger account of the May 2025 resolution, a June 2026 severity report, Council's current 'historic' camp classification, and an absence-of-substantive-intervention finding contrasted with Rudder Park's documented plan implementation. Six web searches (SRCH-0007 through SRCH-0012) and two direct-fetch attempts on kempsey.nsw.gov.au (both HTTP 403) were run before treating any of this as fact. One new, independently-sourced finding resulted: EV-0013, Council's own 27 October 2021 page reporting the colony's departure that year - not previously in this case's register and a plausible genuine basis for the 'historic' classification. The June 2026 report and the current page's exact wording remain unlocated/unconfirmed and were recorded as operator-relayed pending citation (EV-0015, EV-0016), not as fact. CTR-0001 updated with partial corroboration; CTR-0002 opened; Q-0008 and Q-0009 opened. See DEC-0004."
+  },
+  {
+    "run_id": "RUN-0003",
+    "date": "2026-08-23",
+    "sources_checked": ["SRC-0015", "SRC-0016"],
+    "result": "New evidence added.",
+    "evidence_added": ["EV-0018", "EV-0019"],
+    "notes": "Operator pasted a full ABC News article on North Queensland ABLV (lyssavirus) exposure risk, explicitly flagged as relevant background rather than as a Bellbrook-specific source. Located and confirmed the canonical URL via search, then independently found and fetched a directly relevant NSW source: Mid North Coast Local Health District's own general lyssavirus guidance - the same local health authority already named in EV-0004. Both added as Verified (both independently read in full). Extends THR-05 to cover a second, distinct exposure pathway (bite/scratch-transmitted ABLV) alongside the existing droppings/histoplasmosis material - neither claims a confirmed Bellbrook incident. Q-0010 opened."
   }
 ]

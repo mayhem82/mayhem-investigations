@@ -194,5 +194,33 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-07",
     "availability_notes": "Operator relayed a synthesized account of the case's 2026 status - the May 2025 resolution, a June 2026 severity report, current council page content, and absence of Bellbrook-specific management action - without citations. See EV-0014, EV-0015, EV-0016, EV-0017, DEC-0004. Citations requested; not yet supplied."
+  },
+  {
+    "source_id": "SRC-0015",
+    "authority": "ABC News",
+    "title": "North Queensland health authorities issue warning over flying foxes after more exposures",
+    "type": "Media Report",
+    "url_or_file_location": "https://www.abc.net.au/news/2025-10-23/flying-fox-health-concern/105915766",
+    "first_checked": "2026-08-23",
+    "last_checked": "2026-08-23",
+    "current_version": "Supplied in full by operator 2026-08-23, canonical URL located and confirmed via search",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-05",
+    "availability_notes": "Not Bellbrook-specific - North Queensland (Townsville/Mackay) bite/scratch exposure and ABLV context, offered by operator as relevant background rather than as a Bellbrook incident. See EV-0018."
+  },
+  {
+    "source_id": "SRC-0016",
+    "authority": "Mid North Coast Local Health District (NSW Health)",
+    "title": "Avoid handling bats to protect yourself against lyssavirus",
+    "type": "Government Health Authority Release",
+    "url_or_file_location": "https://mnclhd.health.nsw.gov.au/media-releases/avoid-handling-bats-to-protect-yourself-against-lyssavirus",
+    "first_checked": "2026-08-23",
+    "last_checked": "2026-08-23",
+    "current_version": "Fetched and read in full 2026-08-23",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-05",
+    "availability_notes": "The same local health authority named in EV-0004 as having corresponded with council about Bellbrook. This is the district's general regional guidance, not a Bellbrook-specific statement. See EV-0019."
   }
 ]

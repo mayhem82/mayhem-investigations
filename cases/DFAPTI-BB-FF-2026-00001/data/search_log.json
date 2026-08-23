@@ -142,5 +142,17 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 16,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0013",
+    "search_terms": "\"North Queensland health authorities issue warning over flying foxes after more exposures\" ABC News",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-23",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 8,
+    "results_preserved": 2
   }
 ]

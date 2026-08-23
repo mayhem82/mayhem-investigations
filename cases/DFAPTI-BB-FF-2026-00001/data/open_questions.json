@@ -88,5 +88,15 @@
     "likely_source": "Operator (mayhem82).",
     "status": "Open",
     "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0010",
+    "question": "Has any Bellbrook resident had a bite/scratch exposure to a flying fox, distinct from the droppings-contamination concern already in this case, and does the correspondence council states it had with Mid North Coast Local Health District (EV-0004) mention lyssavirus/ABLV or bite/scratch incidents specifically?",
+    "why_exists": "EV-0018 and EV-0019 establish that Australian bat lyssavirus is a real, medically serious risk from flying-fox bite/scratch contact, distinct from the droppings-based histoplasmosis risk already covered by EV-0008/THR-05 - but neither item claims a Bellbrook-specific incident, and this case has no evidence either way.",
+    "evidence_creating_question": ["EV-0018", "EV-0019"],
+    "evidence_required_to_resolve": "Local incident/exposure records for Bellbrook specifically, or the actual content of council's correspondence with Mid North Coast Local Health District referenced in EV-0004.",
+    "likely_source": "Mid North Coast Local Health District (direct enquiry or GIPA-equivalent health-records request); resident testimony.",
+    "status": "Open",
+    "resolution_evidence": []
   }
 ]

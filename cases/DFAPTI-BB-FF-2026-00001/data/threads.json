@@ -37,10 +37,10 @@
   },
   {
     "thread_id": "THR-05",
-    "name": "Health risk - droppings exposure and histoplasmosis",
+    "name": "Health risk - droppings exposure/histoplasmosis and bite-scratch/lyssavirus",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0008"],
-    "outstanding_work": "Establish whether any resident has sought care for symptoms consistent with histoplasmosis (Q-0006). This thread should not be advanced beyond what EV-0008 itself supports - the mechanism is documented, a local case is not.",
+    "supporting_evidence": ["EV-0008", "EV-0018", "EV-0019"],
+    "outstanding_work": "Establish whether any resident has sought care for symptoms consistent with histoplasmosis (Q-0006), and separately whether any Bellbrook bite/scratch exposure or lyssavirus concern exists (Q-0010, added 2026-08-23 after operator flagged general ABLV context - EV-0018, EV-0019). Two distinct exposure pathways, two distinct diseases - this thread should not be advanced beyond what each item itself supports; neither claims a confirmed Bellbrook case.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },

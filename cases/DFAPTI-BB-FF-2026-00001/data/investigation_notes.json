@@ -34,5 +34,14 @@
     "related_thread": "THR-07",
     "related_source": null,
     "related_evidence": "EV-0013"
+  },
+  {
+    "note_id": "NOTE-0005",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Research",
+    "text": "Operator pasted a full ABC News article on rising North Queensland flying-fox bite/scratch exposures and Australian bat lyssavirus (ABLV) risk, flagged explicitly as relevant background rather than a Bellbrook source. Confirmed the canonical URL via search. While searching, independently found a directly on-point NSW source: Mid North Coast Local Health District's own general lyssavirus guidance - fetched and read in full. This is the same health authority EV-0004 already records council as having corresponded with regarding Bellbrook, though the content of that correspondence is still unknown. Both added as a second, distinct health-risk pathway alongside the existing droppings/histoplasmosis material (EV-0008) - bite/scratch transmission, not droppings contamination. Neither claims a confirmed Bellbrook case.",
+    "related_thread": "THR-05",
+    "related_source": "SRC-0016",
+    "related_evidence": "EV-0019"
   }
 ]
