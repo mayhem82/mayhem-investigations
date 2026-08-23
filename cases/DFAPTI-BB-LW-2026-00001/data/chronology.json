@@ -1,0 +1,74 @@
+[
+  {
+    "chronology_id": "CHR-0001",
+    "event_date": "1892",
+    "date_is_inference": false,
+    "event_description": "Bellbrook is laid out and gazetted as a town. Under NSW land law of that era, road reservations in gazetted town layouts vested in the Crown by default, including - on the evidence available - Oreen Street and the laneway running behind the Main Street residential lots.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0029", "EV-0033"]
+  },
+  {
+    "chronology_id": "CHR-0002",
+    "event_date": "1900",
+    "date_is_inference": true,
+    "event_description": "A tennis court is documented as existing between Oreen Street and the laneway, per the Bellbrook Historical Society's historical walk record - confirming both features were physically present and functionally referenced within eight years of gazettal.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0031"]
+  },
+  {
+    "chronology_id": "CHR-0003",
+    "event_date": "2021",
+    "date_is_inference": false,
+    "event_description": "Kempsey Shire Council adopts its Crown Land Plan of Management. It identifies Bellbrook's two named Crown reserves (Reserve 1036268, School of Arts; Reserve 78580, Memorial Park) but does not identify the laneway parcel or an Oreen Street parcel.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0009"]
+  },
+  {
+    "chronology_id": "CHR-0004",
+    "event_date": "2022",
+    "date_is_inference": false,
+    "event_description": "Crown Lands publishes the Administration of Crown Roads Policy IND-O-250 v2.0, establishing a discretionary transfer mechanism for Crown roads a council is already maintaining, and pre-emptively excluding road condition and financial implications as valid grounds for a council to refuse a transfer.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0037", "EV-0039", "EV-0040", "EV-0041"]
+  },
+  {
+    "chronology_id": "CHR-0005",
+    "event_date": "2023",
+    "date_is_inference": false,
+    "event_description": "Kempsey Shire Council's Weekly Works Update records roadside slashing and vegetation control on Bellbrook Streets as completed works.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0048"]
+  },
+  {
+    "chronology_id": "CHR-0006",
+    "event_date": "2025",
+    "date_is_inference": false,
+    "event_description": "Kempsey Shire Council's Operational Plan 2025/26 commits $40.4 million to roads and bridges maintenance shire-wide, with active named capital works orders for Bellbrook roads, and no Crown road exclusion stated anywhere in the document.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0049", "EV-0050", "EV-0051"]
+  },
+  {
+    "chronology_id": "CHR-0007",
+    "event_date": "2026-07-17",
+    "date_is_inference": false,
+    "event_description": "Evidence Register frozen at 51 entries (39 originally self-classified Verified, 12 Unverified) by operator instruction, under the operator's then-current framework.",
+    "status": "Confirmed",
+    "supporting_evidence": []
+  },
+  {
+    "chronology_id": "CHR-0008",
+    "event_date": "2026-07-18",
+    "date_is_inference": false,
+    "event_description": "Analysis Register, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, press release, and four advocacy/action documents (formal notice to Council, MP letter, GIPA application, recipient guide, verification card) completed and frozen the same day.",
+    "status": "Confirmed",
+    "supporting_evidence": []
+  },
+  {
+    "chronology_id": "CHR-0009",
+    "event_date": "2026-08-23",
+    "date_is_inference": false,
+    "event_description": "Case ingested into this repository as DFAPTI-BB-LW-2026-00001, translating the operator's earlier ER-/AR- framework into this repository's current schema. Whether the four action documents (formal notice, MP letter, GIPA application) had actually been sent as of the original 2026-07-18 freeze is unconfirmed as at ingestion - see CTR-0002.",
+    "status": "Confirmed",
+    "supporting_evidence": []
+  }
+]

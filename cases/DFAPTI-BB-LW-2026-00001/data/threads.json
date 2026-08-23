@@ -1,0 +1,56 @@
+[
+  {
+    "thread_id": "THR-01",
+    "name": "Tenure classification",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0001", "EV-0009", "EV-0010", "EV-0027", "EV-0028", "EV-0029", "EV-0030", "EV-0031", "EV-0032", "EV-0033", "EV-0038", "EV-0046", "EV-0047"],
+    "outstanding_work": "Obtain a Crown Lands Current Road Status Search result (Q-0001), the 1892 Gazette notice (Q-0003), and the Uralgurra parish map (Q-0004) to formally confirm or refute Council's Crown-land basis for its disclaimer.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-02",
+    "name": "Maintenance obligation and service delivery",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0002", "EV-0005", "EV-0006", "EV-0017", "EV-0018", "EV-0019", "EV-0034", "EV-0035", "EV-0036", "EV-0037", "EV-0042", "EV-0048", "EV-0049", "EV-0050", "EV-0051"],
+    "outstanding_work": "GIPA request (Q-0002) for internal works-order and asset-classification records would confirm maintenance activity at the individual works-order level rather than only via published summaries.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-03",
+    "name": "Complaint pathway and resident exclusion",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0012", "EV-0013", "EV-0014", "EV-0015", "EV-0016", "EV-0022", "EV-0024", "EV-0044", "EV-0045"],
+    "outstanding_work": "No publicly documented KSC Complaints Handling Policy or multi-tier escalation process has been located (Q-0002). This gap conditions whether an OLG/Ombudsman escalation attempt would satisfy its own preconditions.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-04",
+    "name": "Transfer eligibility mechanism",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0039", "EV-0040", "EV-0041"],
+    "outstanding_work": "Neither Council nor Crown Lands has requested or initiated a transfer despite eligibility being continuously met on the evidence available. No further evidence-gathering identified beyond confirming tenure (THR-01) and maintenance (THR-02).",
+    "dependencies": ["THR-01", "THR-02"],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-05",
+    "name": "Advocacy chain - confirming what was actually sent",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Confirm whether the formal notice, MP letter, and GIPA application were actually sent as of or after 2026-07-18, and log any response (Q-0005, CTR-0002). Until confirmed, no claim that Council or the MP's office has been formally notified should be treated as fact.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-06",
+    "name": "Heritage village overlay",
+    "status": "Not Started",
+    "supporting_evidence": ["EV-0029"],
+    "outstanding_work": "No heritage body has been approached regarding the laneway specifically. This is an additional, independent lever rather than a load-bearing thread - see the original investigation's own Classification 3 (Inference - Excluded) treatment of this observation.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  }
+]

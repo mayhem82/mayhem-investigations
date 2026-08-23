@@ -1,0 +1,49 @@
+{
+  "tpie_id": "TPIE-BB-LW-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-BB-LW-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-23",
+  "purpose_note": "This page states what the current evidence suggests will keep happening if nothing changes. Every entry is a reasoned judgement, not a proven fact and not a measured probability. Confidence is described in plain terms and every entry states what specific new evidence would revise it. Nothing here is a prediction with a due date, and nothing here should be read as more certain than a person reading the underlying evidence themselves would conclude. Carried over from the operator's 2026-07-18 assessment, restated in this repository's schema.",
+  "assessments": [
+    {
+      "id": "TPA-001",
+      "statement": "Absent intervention, the Self-Sustaining Harm Equilibrium (Lattice Atlas LP-012) will continue: Council will keep maintaining the laneway just enough to prevent visible crisis, disclaim just enough to avoid formal accountability, and Crown Lands will continue not initiating a transfer it has no institutional incentive to pursue.",
+      "basis": "The mechanism is confirmed active in the frozen topology, not merely inferred: Council maintains without obligation (EV-0002, EV-0048), Crown Lands holds tenure without performing any function (EV-0037), and neither has an institutional incentive to change the arrangement (Lattice Atlas LP-010).",
+      "confidence": "Well-supported",
+      "confidence_note": "Based on a mechanism confirmed as currently active across multiple independent analytical paths (AR-002, AR-006, AR-008, AR-009), plus an external, independently-recognised failure class (IND-O-250's own transfer-eligibility criterion exists specifically because this governance failure type is known) - not speculation about future institutional conduct.",
+      "would_revise_this": "Council requesting transfer, Crown Lands initiating transfer, or a formal maintenance agreement being executed between them."
+    },
+    {
+      "id": "TPA-002",
+      "statement": "The transfer mechanism under Crown Lands Policy IND-O-250 will remain untriggered despite the Bellbrook laneway continuously meeting its eligibility criterion, unless an external party (the resident, a parliamentary representative, or an oversight body) compels activation.",
+      "basis": "The eligibility has been continuously met since Council's maintenance activity began, and has never been triggered across the entire documented period (EV-0039, EV-0040, EV-0041 - independently re-confirmed against the actual policy text, 2026-08-23). The mechanism is discretionary, not mandatory, under the policy's own terms.",
+      "confidence": "Well-supported",
+      "confidence_note": "Grounded in the policy's own discretionary design plus a documented record of non-triggering across the full maintenance period - not a guess about future intent.",
+      "would_revise_this": "A transfer request being lodged by Council, or Crown Lands initiating transfer unprompted."
+    },
+    {
+      "id": "TPA-003",
+      "statement": "The next council planning cycle will pass without the Bellbrook laneway being addressed, without transfer being initiated, and without a formal management instrument being executed, absent external compulsion.",
+      "basis": "Two consecutive documented planning-cycle snapshots - the 2021 KSC Crown Land Plan of Management (EV-0009) and the 2025/26 Operational Plan (EV-0049, EV-0050) - both passed without addressing the parcel. This is a direct continuation of an already-documented drift pattern, not a projection requiring an intervening assumption.",
+      "confidence": "Reasonably supported",
+      "confidence_note": "Two data points establish a pattern but not an unbreakable one - a single planning cycle can change if a specific trigger (e.g. a lodged GIPA application, a media story, a parliamentary question) intervenes before the next cycle closes.",
+      "would_revise_this": "The laneway appearing as an addressed item, with a resolution or resourced action, in the next KSC Operational Plan or Crown Land Plan of Management revision."
+    },
+    {
+      "id": "TPA-004",
+      "statement": "If a resident attempts to escalate a laneway maintenance complaint to the NSW Office of Local Government or NSW Ombudsman, the attempt is likely to stall on the precondition that documented prior Council contact be shown, because Council currently has no publicly documented Complaints Handling Policy or multi-tier escalation process to generate that documentation.",
+      "basis": "No publicly accessible KSC Complaints Handling Policy has been located (EV-0022), and no documented multi-tier escalation process has been located (EV-0016), against the NSW Ombudsman's own published three-tier standard (EV-0024).",
+      "confidence": "Reasonably supported",
+      "confidence_note": "This is a conditional projection, not an unconditional one: it holds only for as long as Council does not publish a Complaints Handling Policy before an escalation attempt is made. Publication of such a policy would remove the condition entirely.",
+      "would_revise_this": "Kempsey Shire Council publishing a Complaints Handling Policy or equivalent documented escalation process."
+    }
+  ],
+  "not_claimed": [
+    "No entry above is a prediction of what will happen by a specific date.",
+    "No entry above is a measured probability - the confidence labels are qualitative judgements about how well-supported the pattern is, not statistics.",
+    "None of these assessments authorise or compel any action by any institution. They describe what this investigation expects to keep happening if nothing changes, nothing more.",
+    "No entry above assumes bad faith on the part of Kempsey Shire Council or NSW Crown Lands - each projects institutional behaviour patterns already visible in the frozen register, not motive.",
+    "Heritage Protection Activation was assessed and excluded: no heritage body has taken any documented action specifically regarding this parcel - the village-level classification alone does not evidence an active mechanism. Logged as an open lead, not a forward assessment.",
+    "Council Voluntary Compliance was assessed and excluded: no evidence indicates Council has taken any step toward voluntarily requesting transfer or adopting a Crown Roads Maintenance Policy without external compulsion."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "case_identifier": "DFAPTI-BB-LW-2026-00001",
+  "case_title": "Bellbrook Laneway — Crown Road Governance Failure",
+  "investigation_type": "DFAPTI Forensic Public Interest Investigation",
+  "jurisdiction": "New South Wales, Australia",
+  "geographic_scope": "Bellbrook locality (laneway parallel to Oreen Street, behind Main Street residential lots), Kempsey Shire, NSW",
+  "commencement_date": "2026-08-23",
+  "prior_reference": "Originally conducted 2026-07-17 to 2026-07-18 under the operator's own earlier framework as MAYHEM-GOV-LANEWAY-001, using an ER-/AR- numbering and Factual Strength scoring system distinct from this repository's current EV-/AR- conventions. Ingested into this repository's schema on 2026-08-23.",
+  "current_status": "Active - Ingested from Prior Complete Investigation, Verification Status Under Review",
+  "investigator": "mayhem82",
+  "repository_version": "1.0.0",
+  "specification_version": "MAYHEM-SPEC-CORE-v1.0.0"
+}

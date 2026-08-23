@@ -1,0 +1,113 @@
+{
+  "lattice_id": "LATTICE-BB-LW-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-BB-LW-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-23",
+  "basis_note": "Reads across DFAPTA-AR-001 through AR-015 (frozen, ingested from the operator's 2026-07-18 topology). Fourteen items carried over: four load-bearing nodes, two stress points, three structured absences, one primary convergence finding, one isolated signal, and three emergent patterns. Harm externalisation classification: INVERTED. Trajectory Direction Declaration: DEGRADING.",
+  "patterns": [
+    {
+      "id": "LP-001",
+      "title": "Load-Bearing Node 1 - The Maintenance-Disclaimer Inversion",
+      "threads_involved": ["THR-01", "THR-02"],
+      "description": "Four independent analytical lenses - statutory obligation (AR-002), operational records (AR-006), ratepayer accountability (AR-009), and compliance documentation (AR-008) - arrive at the same structural finding without sharing operative assumptions: Council functions as the maintenance authority while simultaneously disclaiming that status. Highest-weight node in the topology.",
+      "basis": "AR-002, AR-006, AR-008, AR-009"
+    },
+    {
+      "id": "LP-002",
+      "title": "Load-Bearing Node 2 - The Circular Loop as Structural Design",
+      "threads_involved": ["THR-03"],
+      "description": "Three independent paths - complaint pathway analysis, structural harm mechanism identification, and self-remediation assessment - converge on the loop being the operational state, not a malfunction. Self-remediation is available to Council, constrained for Crown Lands, and structurally blocked for the resident. No action by either entity closes the loop on its own.",
+      "basis": "AR-003, AR-010, AR-012"
+    },
+    {
+      "id": "LP-003",
+      "title": "Load-Bearing Node 3 - Tenure Unverification as Active Condition",
+      "threads_involved": ["THR-01", "THR-04"],
+      "description": "Tenure analysis, historical origin analysis, and transfer eligibility analysis together produce a finding no single path states alone: the tenure gap is simultaneously Council's disclaimer basis, the eligibility condition for transfer, and the evidentiary gap preventing resolution without formal action. The unverification is not a gap pending resolution - it is the condition sustaining all other gaps.",
+      "basis": "AR-001, AR-004, AR-005"
+    },
+    {
+      "id": "LP-004",
+      "title": "Load-Bearing Node 4 - Resident Structural Exclusion",
+      "threads_involved": ["THR-03"],
+      "description": "Resident harm analysis, silent rights removal, the harm externalisation map, and consent architecture converge on exclusion operating across every relevant accountability axis simultaneously: the transfer mechanism, the gazette process, the consent architecture, and the formal right of access.",
+      "basis": "AR-007, AR-009, AR-011, AR-013"
+    },
+    {
+      "id": "LP-005",
+      "title": "Stress Point 1 - De Facto Authority vs Formal Disclaimer",
+      "threads_involved": ["THR-01", "THR-02"],
+      "description": "Council cannot maintain the laneway without generating evidence against its own disclaimer, and cannot disclaim the laneway without abandoning a function no other entity will perform. Neither Maintenance Obligation Analysis nor Tenure Analysis resolves this tension alone.",
+      "basis": "AR-001, AR-002"
+    },
+    {
+      "id": "LP-006",
+      "title": "Stress Point 2 - Right Intact, Right Functionless",
+      "threads_involved": ["THR-03"],
+      "description": "The formal right of public passage on a Crown road has never been extinguished, but it has no enforcement agent, no maintenance obligation, and no complaint pathway that survives the circular deflection loop. A right whose functional exercise cannot be demanded is not a right in any operational sense - the deepest legal stress in this topology.",
+      "basis": "AR-007, AR-013"
+    },
+    {
+      "id": "LP-007",
+      "title": "Structured Absence 1 - No Entity Has Sought Resolution in 134 Years",
+      "threads_involved": ["THR-01"],
+      "description": "No instrument has been located that any entity - Council, Crown Lands, or a predecessor - ever attempted to resolve the tenure or maintenance question. The 1892 gazettal, the 2016 Crown Land Management Act, the 2021 Plan of Management, and the 2025/26 Operational Plan all passed without the parcel being addressed.",
+      "basis": "AR-001, AR-005, AR-014"
+    },
+    {
+      "id": "LP-008",
+      "title": "Structured Absence 2 - No Internal Written Position",
+      "threads_involved": ["THR-03", "THR-05"],
+      "description": "No publicly accessible document records Council's internal jurisdictional position on the laneway. A verbal deflection with no written position has not created an accountable record - this absence is the mechanism that prevents the complaint pathway from generating something a resident can escalate with.",
+      "basis": "AR-003, AR-008, AR-010"
+    },
+    {
+      "id": "LP-009",
+      "title": "Structured Absence 3 - No Transfer Request, No Transfer Initiation",
+      "threads_involved": ["THR-04"],
+      "description": "No transfer has been requested or initiated despite eligibility being continuously met by Council's own maintenance activity. This is not an administrative backlog - it is permanent non-action on a permanently eligible mechanism.",
+      "basis": "AR-004, AR-014"
+    },
+    {
+      "id": "LP-010",
+      "title": "Primary Convergence - The Mutual Non-Action Architecture",
+      "threads_involved": ["THR-01", "THR-02", "THR-04"],
+      "description": "Both Council and Crown Lands occupy a structural position where non-action is the lowest-cost state. Council maintains to avoid resident complaints while disclaiming to avoid formal liability; Crown Lands holds authority while performing no function, requiring no expenditure. Neither institution has an incentive to change the arrangement - the resident bears all cost. This is the governance architecture in functional equilibrium, harmful only to the resident and costless to both institutions.",
+      "basis": "LP-001, LP-003, LP-007, LP-009"
+    },
+    {
+      "id": "LP-011",
+      "title": "Isolated Signal - Heritage Classification Without Heritage Instrument",
+      "threads_involved": ["THR-06"],
+      "description": "The laneway is a feature of a National Trust-classified heritage village with no specific heritage protection instrument. This signal does not interact with any load-bearing node - it strengthens the advocacy dimension as an additional, independent lever without altering the structural findings.",
+      "basis": "AR-015"
+    },
+    {
+      "id": "LP-012",
+      "title": "Emergent Pattern - The Self-Sustaining Harm Equilibrium",
+      "threads_involved": ["THR-01", "THR-02", "THR-04"],
+      "description": "Not visible in any single path. Council maintains the laneway just enough to prevent visible crisis, not enough to generate the crisis that would force resolution; Crown Lands does not initiate transfer because the laneway generates no complaints to it. The system self-maintains in a state of functional harm with no resident-side lever to disrupt it from outside. This is the mechanism explaining why 134 years have passed without resolution despite the resolution mechanism existing.",
+      "basis": "LP-010, LP-001, LP-002, LP-007, LP-009"
+    },
+    {
+      "id": "LP-013",
+      "title": "Emergent Pattern - The Documentation-Accountability Inversion",
+      "threads_involved": ["THR-02", "THR-03"],
+      "description": "Not visible in any single path. Council's maintenance documentation makes the laneway visible as a serviced asset and simultaneously functions as evidence of the disclaimer's falsity. The more thoroughly Council documents its service activity, the stronger the case against its disclaimer becomes - and the more the documentation obscures the accountability gap from any external reviewer who does not dig to the individual complaint level.",
+      "basis": "LP-001, AR-008, AR-006"
+    },
+    {
+      "id": "LP-014",
+      "title": "Emergent Pattern - The Eligibility Loop",
+      "threads_involved": ["THR-04"],
+      "description": "Not visible in any single path. Council's maintenance activity generates the transfer eligibility that would, if triggered, compel formalisation of the very function Council is already performing. Council's non-triggering of the mechanism allows the maintenance to continue without the accountability - the specific lever the Enforcement Notice can operate through without requiring new legislation or policy.",
+      "basis": "LP-003, AR-004, AR-014"
+    }
+  ],
+  "not_claimed": [
+    "No claim is made that Council or Crown Lands are acting deliberately to avoid accountability - the Self-Sustaining Harm Equilibrium (LP-012) is described as a structural consequence of institutional incentives, not a coordinated strategy.",
+    "No claim is made that the heritage classification (LP-011) would legally prevent closure or degradation of the laneway - only that it strengthens the public-interest case for formalisation.",
+    "No claim is made about which entity - Council or Crown Lands - bears greater responsibility for the 134-year non-action (LP-007, LP-009); both are named as having allowed the gap to persist.",
+    "No claim is made that this case's structural harm mechanisms (LP-002, part of AR-012) are unique to this parcel - the isolated Jurisdictional Void and Circular Deflection Loop candidates are offered to the operator's own catalogue for further development, not asserted as universally applicable."
+  ]
+}

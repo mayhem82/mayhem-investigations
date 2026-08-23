@@ -1,0 +1,38 @@
+[
+  {
+    "note_id": "NOTE-0001",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Extracted and read twelve operator-supplied docx documents (two were exact duplicates - the Verification Card was supplied twice under different upload names). Together they form a complete prior six-stage investigation: Evidence Register (51 entries), Analysis Register (15 paths), Lattice Atlas (4 load-bearing nodes, 2 stress points, 3 structured absences, 3 emergent patterns), Temporal Projection Integrity Engine (4 observations advancing, 2 excluded), Enforcement Notice (5 structural findings, 4 remedy demands), and an advocacy package (formal notice to Council, MP letter, GIPA application, recipient guide, verification card, press release).",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0002",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Parsed the 51-entry Evidence Register programmatically (ER-001 through ER-051) into this repository's EV- schema, mapping 1:1 by number. Preserved each entry's original classification and Factual Strength score as context, but assigned this repository's own uniform \"Requires Verification\"/\"Unverified\" status throughout, since nothing has been independently re-fetched by this repository - see DEC-0001.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0003",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Found a real inconsistency between the press release and MP letter (both describing the formal notice and GIPA application as already sent) and the recipient guide plus the documents' own unsigned-template state (instructing sending as a Step 1 future action). Logged as CTR-0002 and Q-0005 rather than silently treating either account as settled - see DEC-0002.",
+    "related_thread": "THR-05",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0004",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Research",
+    "text": "Independently re-fetched the actual Crown Lands Administration of Crown Roads Policy IND-O-250 PDF (the case's single most load-bearing document, underlying Structural Finding 4 and the Eligibility Loop mechanism) and confirmed the exact quoted text on all three claims cited from it: the maintenance-triggers-transfer-eligibility criterion, the pre-emptive exclusion of road condition and financial implications as valid refusal grounds, and the statement that the department does not provide road maintenance services. EV-0037, EV-0039, EV-0040 upgraded to Verified on this basis - the only items in this case independently confirmed by this repository rather than carried over from the original register. A second attempt to independently confirm the Roads Act 1993 s.7/s.108 Crown-roads-authority provision failed - both austlii.edu.au and legislation.nsw.gov.au returned HTTP 403 to automated fetch. That claim remains Requires Verification.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": "EV-0037"
+  }
+]

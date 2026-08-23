@@ -20,5 +20,27 @@
       "date": "2026-08-22"
     },
     "status": "candidate"
+  },
+  {
+    "working_name": "Jurisdictional Void",
+    "definition_from_case": "An asset or matter sits in a space between two entities' formal mandates, and neither holds a documented obligation over it - not because the governing law is unclear (it may be entirely clear on paper), but because the law was never actually applied to this specific instance through a transfer, dedication, or management agreement. The void is a gap in implementation, not in the legal framework itself, and can persist indefinitely because neither entity bears any cost from leaving it unresolved.",
+    "boundary_note": "The nearest neighbour - Opacity by Design (#19, no single accessible account of scattered information) - describes information being hard to assemble. This mechanism is different in kind: the information is not scattered or hidden, the applicable law is clear and locatable, but no party has ever triggered the specific instrument (transfer, dedication, agreement) that would apply that clear law to this specific parcel or matter.",
+    "first_surfaced": {
+      "case_id": "DFAPTI-BB-LW-2026-00001",
+      "path_id": "AR-001",
+      "date": "2026-08-23"
+    },
+    "status": "candidate"
+  },
+  {
+    "working_name": "Circular Deflection Loop",
+    "definition_from_case": "A resident raising a concern is directed by Entity A to Entity B on jurisdictional grounds, and Entity B's own published guidance directs the same enquiry back to Entity A. Both entities' guidance is individually accurate and neither is lying - the loop is confirmed by each entity's own published material, not by any single false statement. The resident returns to their point of origin with no documented position from either entity and no record of the deflection to escalate with.",
+    "boundary_note": "The nearest neighbour - Responsibility Diffusion (a broader institutional-dysfunction pattern) - describes responsibility being unclear across multiple actors generally. This mechanism is more specific and mechanically precise: exactly two entities, each pointing at the other, confirmed by each one's own separately published guidance, producing a closed loop rather than a diffuse fog of unclear responsibility.",
+    "first_surfaced": {
+      "case_id": "DFAPTI-BB-LW-2026-00001",
+      "path_id": "AR-003",
+      "date": "2026-08-23"
+    },
+    "status": "candidate"
   }
 ]

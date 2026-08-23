@@ -1,0 +1,22 @@
+[
+  {
+    "contradiction_id": "CTR-0001",
+    "description": "Kempsey Shire Council's stated position is that the Bellbrook laneway is Crown land, and it disclaims maintenance responsibility on that basis (EV-0003). No Crown Lands register, gazette notice, or cadastral record has been located that confirms this tenure classification (EV-0023, EV-0038). Council is disclaiming an obligation on the basis of a tenure classification it has not itself documented and which has not been independently confirmed through any publicly accessible instrument.",
+    "supporting_evidence": ["EV-0001", "EV-0009", "EV-0010", "EV-0027", "EV-0029", "EV-0031", "EV-0033"],
+    "opposing_evidence": ["EV-0003"],
+    "status": "Open",
+    "material_significance": "This is the case's central tenure gap. If the laneway is confirmed as Crown road, Council's disclaimer is legally accurate but its own maintenance activity triggers transfer eligibility it has never acted on (see Structural Finding 4 / Emergent Pattern 3 in the original Enforcement Notice). If the laneway is not Crown land, Council's disclaimer has no basis at all. Either way, the disclaimer currently rests on an unverified premise.",
+    "required_resolution": "A Crown Lands Current Road Status Search (fee-based, crownland.nsw.gov.au) is the direct formal resolution instrument. A Trove search of the 1892 NSW Government Gazette and the NSW LRS Historical Parish Map for the Parish of Uralgurra would strengthen the historical-origin case either way. See Q-0001, Q-0004.",
+    "resolution_evidence": []
+  },
+  {
+    "contradiction_id": "CTR-0002",
+    "description": "The press release and the draft letter to Michael Kemp MP both describe the formal notice to Council and the GIPA application as already completed, past-tense actions (\"Formal notices have been served on Kempsey Shire Council and the Member for Oxley... A Government Information (Public Access) Act application has been lodged... Council has 30 days to respond\"; \"I have today served a formal notice on the Kempsey Shire Council General Manager\"). The formal notice, MP letter, and GIPA application documents themselves are all unsigned templates with blank signature/name/address fields, and the Recipient Guide - dated the same day - instructs these as a future action: \"Step 1 - Immediately (today or within the week): Send Surface A... Send Surface B... Send Surface C.\"",
+    "supporting_evidence": ["EV-0001"],
+    "opposing_evidence": [],
+    "status": "Open",
+    "material_significance": "Determines whether this case's advocacy chain is in a pre-action or post-action state. If the notices were never actually sent, the press release's claims that Council \"has 30 days to respond\" and a complaint \"is prepared and will be lodged if Council does not respond\" describe events that have not occurred. This repository treats the documents as not yet confirmed sent, consistent with the majority of the source material (three unsigned templates plus an explicit send-it-now instruction) over the two documents using completed-action language.",
+    "required_resolution": "Operator confirmation of whether Surfaces A, B and C were actually sent on or after 2026-07-18, and if so, on what date and with what response, if any.",
+    "resolution_evidence": []
+  }
+]

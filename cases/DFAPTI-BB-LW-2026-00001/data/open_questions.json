@@ -1,0 +1,62 @@
+[
+  {
+    "question_id": "Q-0001",
+    "question": "What does a formal Crown Lands Current Road Status Search return for the Bellbrook laneway parcel - is it confirmed as a Crown road, and if so, who is the responsible authority?",
+    "why_exists": "The laneway is not selectable in the NSW Planning Portal cadastral layer (EV-0001, EV-0010) and does not appear in Council's Crown Land Plan of Management (EV-0009). Council's Crown-land basis for disclaiming responsibility is unverified. See CTR-0001.",
+    "evidence_creating_question": ["EV-0001", "EV-0010", "EV-0023"],
+    "evidence_required_to_resolve": "A Current Road Status Search result from NSW Crown Lands.",
+    "likely_source": "crownland.nsw.gov.au/find-services/conveyancing-status-and-other-searches/current-road-status (fee-based)",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0002",
+    "question": "What internal asset classification, works order history, Crown Roads Maintenance Policy, and Complaints Handling Policy does Kempsey Shire Council actually hold for the laneway, none of which are publicly indexed?",
+    "why_exists": "No publicly accessible KSC asset register identifies the laneway by any classification (EV-0021); no KSC Crown Roads Maintenance Policy is publicly located (EV-0011); no standalone KSC Complaints Handling Policy is publicly located (EV-0016, EV-0022).",
+    "evidence_creating_question": ["EV-0011", "EV-0016", "EV-0021", "EV-0022"],
+    "evidence_required_to_resolve": "Council's internal records, obtainable via a formal GIPA application.",
+    "likely_source": "GIPA Application under the Government Information (Public Access) Act 2009 (NSW) to Kempsey Shire Council - a draft already exists in this case's preserved material (advocacy-c-gipa-application-20260718.docx).",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0003",
+    "question": "Does the 1892 NSW Government Gazette contain a notice confirming the Bellbrook town layout and its original road reservations, including the laneway and Oreen Street?",
+    "why_exists": "No gazette notice has yet been located confirming or closing the original Crown road dedication (EV-0038, EV-0046). Trove's search returned 3,007 results for the query attempted; the specific notice was not isolated, and direct article access was blocked by bot protection.",
+    "evidence_creating_question": ["EV-0038", "EV-0046"],
+    "evidence_required_to_resolve": "A manually refined Trove search of the NSW Government Gazette, 1832-1900, filtered to 1892 and the keyword Bellbrook.",
+    "likely_source": "trove.nla.gov.au (free, requires manual browser search - not accessible to automated fetch)",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0004",
+    "question": "Does the NSW LRS Historical Parish Map for the Parish of Uralgurra show the original 1892 road dedications for Oreen Street and the laneway?",
+    "why_exists": "This map has not yet been retrieved and would be the definitive cartographic record of the original town layout (EV-0047).",
+    "evidence_creating_question": ["EV-0047"],
+    "evidence_required_to_resolve": "The Uralgurra parish map from the Historical Land Records Viewer.",
+    "likely_source": "hlrv.nswlrs.com.au (free, requires manual browser navigation - not accessible to automated fetch)",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0005",
+    "question": "Were the formal notice to Kempsey Shire Council, the letter to Michael Kemp MP, and the GIPA application actually sent, and if so, on what date, and has any response been received?",
+    "why_exists": "See CTR-0002 - the press release and MP letter describe these as already sent in past tense, while the recipient guide instructs sending them as a future step and the documents themselves are unsigned templates.",
+    "evidence_creating_question": ["EV-0001"],
+    "evidence_required_to_resolve": "Operator confirmation, or copies of sent receipts/responses.",
+    "likely_source": "Operator (mayhem82).",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0006",
+    "question": "Do the cited NSW legislation, Crown Lands policy, and council documents (Roads Act 1993, Crown Land Management Act 2016, IND-O-250, the KSC Operational Plan and bin collection schedule) actually say what the evidence register's verbatim extracts claim, when independently re-fetched?",
+    "why_exists": "This repository's standing evidentiary discipline treats every item ingested without independent re-fetching as Requires Verification, regardless of how confidently the source material itself classified it - the original register self-classified 39 of 51 entries as VERIFIED, but that classification was made under the operator's own now-superseded framework and has not been independently re-confirmed by this repository.",
+    "evidence_creating_question": ["EV-0005", "EV-0019", "EV-0037", "EV-0049"],
+    "evidence_required_to_resolve": "Independent re-fetch of each cited URL - this is a live investigation-quality task, not a one-off check, and should be treated as ongoing verification work rather than a single resolvable question.",
+    "likely_source": "Direct fetch of each source's own URL, recorded per-item.",
+    "status": "Open",
+    "resolution_evidence": []
+  }
+]

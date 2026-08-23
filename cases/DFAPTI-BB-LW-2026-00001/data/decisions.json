@@ -1,0 +1,18 @@
+[
+  {
+    "decision_id": "DEC-0001",
+    "date": "2026-08-23",
+    "reason": "This entire case originates from a complete six-stage investigation the operator conducted 2026-07-17 to 2026-07-18 under an earlier, self-authored framework (MAYHEM-GOV-LANEWAY-001), predating this repository's current schema and even predating this repository's own commencement (2026-07-25). It used a distinct ER-/AR- numbering system, a Factual Strength/PF(H,E) scoring model, and GOVFAIL/DEMOCSUPPRESS analytical modules not present in this repository's current methodology. Per the operator's own stated expectation (2026-08-22, during the Bellbrook flying-fox case intake) that earlier-authored material warrants more scrutiny, not less, this case is ingested with that discipline applied throughout: every item is recorded at classification \"Requires Verification\" and verification_state \"Unverified\" regardless of how the original register self-classified it (39 of 51 entries were self-labelled VERIFIED under the old framework). The original classification and Factual Strength score are preserved per-item as context, not treated as this repository's own confirmation.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "All 51 evidence items carry classification \"Requires Verification\" / verification_state \"Unverified\" in this repository, with the original framework's self-assessment preserved in each item's original_source_classification field."
+  },
+  {
+    "decision_id": "DEC-0002",
+    "date": "2026-08-23",
+    "reason": "During ingestion, a discrepancy was found between two of the case's own advocacy documents describing completed actions in past tense (press release: \"Formal notices have been served... Council has 30 days to respond\"; MP letter: \"I have today served a formal notice\") and both the recipient guide (\"Step 1 - Immediately: Send Surface A... Send Surface B... Send Surface C\") and the documents themselves, all supplied as unsigned templates with blank signature fields. Consistent with this investigation's standing discipline against merging asserted-but-unconfirmed claims into the record (established across every other case in this repository), the advocacy actions are treated as not yet confirmed sent rather than as completed fact.",
+    "supporting_evidence": ["EV-0001"],
+    "investigator": "mayhem82",
+    "impact": "CTR-0002 opened. Q-0005 opened. The Enforcement Notice and Advocacy Package pages built from this material will present the four action documents as ready-to-send drafts, not as already-served notices, until the operator confirms otherwise."
+  }
+]

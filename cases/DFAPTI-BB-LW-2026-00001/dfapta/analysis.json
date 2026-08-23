@@ -1,0 +1,266 @@
+{
+  "analysis_id": "DFAPTA-BB-LW-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-BB-LW-2026-00001",
+  "cycle": 1,
+  "status": "Frozen",
+  "analysis_commenced": "2026-07-18",
+  "evidence_basis_note": "Reads across the frozen evidence register EV-0001 through EV-0051 (originally ER-001 through ER-051, ingested 2026-08-23 - see DEC-0001). Every determination below inherits the register's own \"Requires Verification\"/\"Unverified\" status except where an item was independently re-confirmed this run (EV-0037, EV-0039, EV-0040). Fifteen paths carried over from the operator's original 2026-07-18 Analysis Register, restated in this repository's schema without adding new facts.",
+  "paths": [
+    {
+      "id": "AR-001",
+      "title": "Tenure Analysis",
+      "analysis": [
+        "The laneway parcel has no confirmed cadastral identity: not selectable in the NSW Planning Portal (EV-0001, EV-0010), absent from the KSC Crown Land Plan of Management (EV-0009), and not indexed under DP 758083 in the NSW Historical Land Records Viewer (EV-0027). Council's stated Crown-land basis for disclaiming responsibility (EV-0003) has not been confirmed by any Crown Lands register, gazette notice, or cadastral record (EV-0023, EV-0038).",
+        "What is confirmed: the laneway is a documented feature of the original 1892 Bellbrook town gazettal (EV-0029, EV-0031, EV-0033), and no transfer, dedication, or closure instrument has been located for it since. The most parsimonious explanation consistent with the available evidence is that it remains an original, unaltered Crown road - but this is consistent-with, not confirmed-by, the evidence."
+      ],
+      "determinations": [
+        ["AR-001.1", "The tenure classification Council's disclaimer rests on is unverified, not merely undocumented by this investigation."],
+        ["AR-001.2", "A Crown land asset neither entity has formally documented in any management instrument is a governance anomaly regardless of which tenure category ultimately applies - see CTR-0001."]
+      ],
+      "anchors": ["EV-0001", "EV-0003", "EV-0009", "EV-0010", "EV-0023", "EV-0027", "EV-0029", "EV-0031", "EV-0033", "EV-0038"],
+      "boundary": "Does not conclude the laneway is definitively Crown land - only that Council's disclaimer rests on an unverified premise. See Q-0001, Q-0003, Q-0004 for the direct resolution instruments."
+    },
+    {
+      "id": "AR-002",
+      "title": "Maintenance Obligation Analysis",
+      "analysis": [
+        "The statutory roads authority for a Crown road is the Minister (EV-0005, EV-0017); Crown Lands itself does not provide maintenance services (EV-0037, independently re-confirmed). Council performs maintenance on the laneway (EV-0002), documented in its own weekly works updates (EV-0048), bin collection schedule for adjacent Oreen Street (EV-0042), and Operational Plan capital works (EV-0049, EV-0050) - with no Crown road exclusion stated anywhere.",
+        "Documented compliance position: no obligation exists on paper for either entity. Functional compliance position: Council is the de facto maintaining entity, by its own records. The gap between these two positions is this case's core governance failure."
+      ],
+      "determinations": [
+        ["AR-002.1", "Council performs a function it holds no formal authority for, and discloses no formal authority for the function it performs."]
+      ],
+      "anchors": ["EV-0002", "EV-0005", "EV-0017", "EV-0037", "EV-0042", "EV-0048", "EV-0049", "EV-0050"],
+      "boundary": "Does not claim Council's maintenance is unlawful - only that it is undertaken without a documented obligation on either side."
+    },
+    {
+      "id": "AR-003",
+      "title": "Complaint Pathway Analysis",
+      "analysis": [
+        "Council's public responsibility framework lists roads and bridges as a Council responsibility with no visible Crown road exclusion (EV-0013). When Council deflects to Crown land status, Crown Lands' own guidance directs enquiries back to councils (EV-0034) - a documented circular loop confirmed by both entities' own published material.",
+        "Escalation above Council requires prior documented Council contact (EV-0015). KSC has no publicly accessible Complaints Handling Policy (EV-0022) and no documented multi-tier escalation process (EV-0016), against the NSW Ombudsman's own published three-tier standard (EV-0024)."
+      ],
+      "determinations": [
+        ["AR-003.1", "A resident cannot generate the documented internal escalation record that external oversight bodies require as a precondition."]
+      ],
+      "anchors": ["EV-0013", "EV-0015", "EV-0016", "EV-0022", "EV-0024", "EV-0034"],
+      "boundary": "Does not claim either entity is acting in bad faith - each entity's guidance is individually accurate; the loop is the emergent structural consequence of both, not a false statement by either."
+    },
+    {
+      "id": "AR-004",
+      "title": "Transfer Eligibility Analysis",
+      "analysis": [
+        "Crown Lands' Administration of Crown Roads Policy IND-O-250 (EV-0039, EV-0040, EV-0041 - independently re-confirmed against the actual policy PDF, 2026-08-23) makes a Crown road maintained by a council as part of its local road network suitable for transfer to that council. The Bellbrook laneway meets this criterion via Council's own maintenance activity.",
+        "Two transfer initiation pathways exist - council-requested or department-initiated - and neither has been used. Council cannot refuse on road-condition or financial grounds; both are pre-emptively excluded by the policy itself."
+      ],
+      "determinations": [
+        ["AR-004.1", "Council's maintenance activity has been continuously triggering its own transfer eligibility while Council simultaneously disclaims any obligation."]
+      ],
+      "anchors": ["EV-0002", "EV-0039", "EV-0040", "EV-0041", "EV-0048"],
+      "boundary": "Transfer is discretionary, not automatic, under IND-O-250 - eligibility does not mean a transfer must occur, only that it may be requested or initiated without the two most predictable objections being valid."
+    },
+    {
+      "id": "AR-005",
+      "title": "Historical Origin Analysis",
+      "analysis": [
+        "Bellbrook was gazetted as a town in 1892 (EV-0029, EV-0033); the laneway and Oreen Street are both documented features of that original layout, with a tennis court referenced between them by 1900 (EV-0031). No instrument transferring, closing, or dedicating either feature has been located.",
+        "The Parish of Uralgurra's historical parish map and the 1892 Gazette notice - the two direct evidentiary sources that would confirm the original Crown road dedication - have not yet been retrieved (EV-0046, EV-0047; Q-0003, Q-0004)."
+      ],
+      "determinations": [
+        ["AR-005.1", "The most parsimonious explanation consistent with all available evidence is that both parcels remain original Crown roads, unaltered in tenure since 1892 - pending direct confirmation via Q-0003/Q-0004."]
+      ],
+      "anchors": ["EV-0029", "EV-0030", "EV-0031", "EV-0032", "EV-0033", "EV-0038", "EV-0046", "EV-0047"],
+      "boundary": "Explicitly a most-parsimonious-explanation finding, not a confirmed one - the two direct primary sources (gazette, parish map) remain unretrieved."
+    },
+    {
+      "id": "AR-006",
+      "title": "Service Delivery Contradiction Analysis",
+      "analysis": [
+        "Council delivers waste collection to Oreen Street on a published schedule (EV-0042), performs roadside slashing on Bellbrook Streets (EV-0048), names Crown land management as an explicit Operational Plan function (EV-0051), and has active capital works in Bellbrook the same financial year it disclaims laneway responsibility (EV-0050).",
+        "A council that services the adjacent street across multiple categories but disclaims the parallel laneway has not applied a consistent service boundary - it has applied a selective disclaimer at the individual complaint point only."
+      ],
+      "determinations": [
+        ["AR-006.1", "The disclaimer is inconsistent with Council's own documented service delivery pattern, not merely legally unverified."]
+      ],
+      "anchors": ["EV-0013", "EV-0042", "EV-0048", "EV-0049", "EV-0050", "EV-0051"],
+      "boundary": "Does not claim the inconsistency is deliberate - it describes the documented pattern, not anyone's reasoning for it."
+    },
+    {
+      "id": "AR-007",
+      "title": "Resident Harm Analysis",
+      "analysis": [
+        "The laneway is the only functional access for the properties it serves - Oreen Street, the formal road reservation, does not exist on the ground (EV-0004, EV-0031). A resident raising a maintenance concern is directed into the circular deflection loop (AR-003) and cannot generate the documented Council position that external escalation requires."
+      ],
+      "determinations": [
+        ["AR-007.1", "Access-dependent residents are structurally excluded from the accountability framework governing the asset they depend on - not by accident, but as the predictable consequence of two entities each disclaiming responsibility without documenting the arrangement between them."]
+      ],
+      "anchors": ["EV-0004", "EV-0015", "EV-0016", "EV-0022", "EV-0024", "EV-0031", "EV-0034"],
+      "boundary": "Describes structural exclusion from accountability mechanisms - does not claim any specific resident has been physically denied access to date."
+    },
+    {
+      "id": "AR-008",
+      "title": "Legitimacy-Output Decoupling",
+      "analysis": [
+        "Council's published output - bin schedules, weekly works reports, operational plans, capital works programs - documents Bellbrook streets as serviced assets and constitutes real, accurate compliance documentation. That same documentation is simultaneously the evidence against Council's individual-complaint-level disclaimer.",
+        "A regulator reviewing Council's published output alone would find a well-documented road network; the accountability gap only becomes visible at the individual complaint level, which is not itself documented anywhere."
+      ],
+      "determinations": [
+        ["AR-008.1", "The documentation of service delivery and the accountability for service delivery move in opposite directions - more documentation does not close the gap, it obscures it from standard compliance review."]
+      ],
+      "anchors": ["EV-0042", "EV-0048", "EV-0049", "EV-0050"],
+      "boundary": "Does not claim the documentation was produced in order to obscure the gap - only that it has that structural effect."
+    },
+    {
+      "id": "AR-009",
+      "title": "Consent Architecture",
+      "analysis": [
+        "NSW local government's foundational accountability principle is ratepayer consent - rates paid, services delivered, councillors accountable. The laneway sits outside this architecture in two ways: Council performs ratepayer-funded maintenance on land it holds no formal authority over, and Crown Lands - the entity with formal authority - is not accountable to Bellbrook ratepayers in any direct sense."
+      ],
+      "determinations": [
+        ["AR-009.1", "The electoral accountability chain (resident to councillor to service delivery) is broken at the service delivery point because the parcel falls outside Council's formal service mandate."]
+      ],
+      "anchors": ["EV-0002", "EV-0037", "EV-0048"],
+      "boundary": "A structural observation about accountability architecture, not a claim of unlawful expenditure."
+    },
+    {
+      "id": "AR-010",
+      "title": "Self-Remediation Assessment",
+      "analysis": [
+        "Self-remediation is available to Council (it can request transfer under Roads Act s.152I and IND-O-250, or adopt a Crown Roads Maintenance Policy - both within its operational capacity), constrained for Crown Lands (it can initiate transfer, but subject to internal prioritisation with no resident-facing pressure mechanism), and structurally blocked for the resident (no standing in the transfer mechanism, no lever beyond the complaint pathway that terminates in the circular loop)."
+      ],
+      "determinations": [
+        ["AR-010.1", "Remedy demands are addressed primarily to Council as the entity with available self-remediation capacity, with Crown Lands as the secondary actor."]
+      ],
+      "anchors": ["EV-0022", "EV-0034", "EV-0039", "EV-0041"],
+      "boundary": "Assesses capacity to act, not likelihood of acting - it does not predict whether Council or Crown Lands will actually exercise the self-remediation option identified."
+    },
+    {
+      "id": "AR-011",
+      "title": "Harm Externalisation Map",
+      "analysis": [
+        "Power-holding actors (Council: maintenance capability, budget, complaint gateway, elected accountability; Crown Lands: formal tenure authority, transfer and gazette power) bear no cost from the current arrangement - the deflection requires less effort than resolving the complaint, and the loop self-terminates when the resident stops pursuing it. The resident bears the full cost: time, persistence, and the burden of independently discovering GIPA, the transfer mechanism, and the OLG/Ombudsman escalation pathways."
+      ],
+      "determinations": [
+        ["AR-011.1", "Classification: INVERTED. The relationship between structural power and harm cost is fully inverted, not partially."]
+      ],
+      "anchors": ["EV-0020", "EV-0034", "EV-0041"],
+      "boundary": "A structural cost/power mapping, not a claim about anyone's subjective motive."
+    },
+    {
+      "id": "AR-012",
+      "title": "Structural Harm Mechanisms Identification",
+      "analysis": [
+        "Confirmed active mechanisms, drawing on the operator's own prior structural-pattern work: Jurisdictional Void (a 134-year implementation gap, not a gap in the law itself); Circular Deflection Loop (Council-to-Crown-Lands-to-Council, confirmed in both entities' own guidance); Accountability Cost Externalisation (the full cost of resolution borne by the resident); Accountability Inversion (the resident has no standing in any resolution mechanism); Definitional Control (Council applies its own undocumented definition of 'roads and bridges' at the individual complaint point, uncontestable by the resident)."
+      ],
+      "determinations": [
+        ["AR-012.1", "Checked against this repository's current 68-mechanism Structural Harm Mechanism Catalogue (2026-08-23): three of the five - Accountability Cost Externalisation (#46), Accountability Inversion (#43), and Definitional Control (#42) - match existing catalogue entries by name and definition. Two - Jurisdictional Void and Circular Deflection Loop - have no match in the current 68 and are genuine candidates for the catalogue's Discovered Through Investigation section, consistent with how DFAPTI-MNC-2026-00001 and DFAPTI-BB-2026-00001 each surfaced one new candidate mechanism through their own SHM Gates."]
+      ],
+      "anchors": ["EV-0013", "EV-0020", "EV-0034", "EV-0038"],
+      "boundary": "Naming a mechanism is not a claim of intent - each is a structural/behavioural description, consistent with this case's own explicit non-allegatory framing throughout."
+    },
+    {
+      "id": "AR-013",
+      "title": "Silent Rights Removal",
+      "analysis": [
+        "The formal right of public passage on a Crown road has never been formally extinguished - no closure gazette notice has been located (EV-0038). But its functional exercise depends entirely on Council choosing, without obligation, to keep maintaining the parcel - a choice that could be withdrawn at any time, without legal process, notice, or remedy available to residents."
+      ],
+      "determinations": [
+        ["AR-013.1", "A right that can be functionally withdrawn without legal process and without notice is a right in form only."]
+      ],
+      "anchors": ["EV-0002", "EV-0038"],
+      "boundary": "Does not claim any withdrawal has occurred or is planned - only that no legal barrier to one currently exists."
+    },
+    {
+      "id": "AR-014",
+      "title": "Temporal Analysis",
+      "analysis": [
+        "The governance gap has persisted since at least 1892 - 134 years on current evidence - unaddressed by the modernised Crown Land Management Act 2016, the IND-O-250 transfer mechanism's existence, the 2021 KSC Crown Land Plan of Management, or the 2025/26 Operational Plan's active Bellbrook capital works."
+      ],
+      "determinations": [
+        ["AR-014.1", "Trajectory: Degrading. Each planning cycle that passes without resolution deepens the structural entrenchment, with no countervailing force currently operative in the evidence."]
+      ],
+      "anchors": ["EV-0009", "EV-0033", "EV-0039", "EV-0049"],
+      "boundary": "A trajectory read from two documented planning-cycle snapshots (2021, 2025/26), not a certainty about the future."
+    },
+    {
+      "id": "AR-015",
+      "title": "Heritage Village Overlay",
+      "analysis": [
+        "Bellbrook is a National Trust-classified heritage village (EV-0029); the laneway is part of the original 1892 town layout that generated that classification, physically referenced since at least 1900. No heritage protection instrument specifically covers the laneway as a distinct feature - the classification covers village character generally."
+      ],
+      "determinations": [
+        ["AR-015.1", "An additional, independent public-interest lever for formalisation - not load-bearing for the core findings, and explicitly not advanced as a forward projection without a heritage body's actual engagement (see the Temporal Projection Integrity Engine's Classification 3 exclusion of this observation)."]
+      ],
+      "anchors": ["EV-0029", "EV-0031"],
+      "boundary": "Does not claim any heritage body has engaged with the laneway specifically - only that the village-level classification exists and the laneway predates it."
+    }
+  ],
+  "cross_path_observations": [
+    {
+      "id": "CPO-001",
+      "title": "The tenure gap sustains itself",
+      "analysis": "AR-001, AR-004 and AR-005 converge on a finding no single path states alone: the tenure gap is simultaneously the basis of Council's disclaimer, the condition that makes transfer eligible, and the evidentiary gap preventing any party from resolving the matter without formal action.",
+      "anchors": "AR-001, AR-004, AR-005"
+    },
+    {
+      "id": "CPO-002",
+      "title": "Four lenses, one inversion",
+      "analysis": "AR-002, AR-006, AR-008 and AR-009 independently arrive at the same structural observation from four distinct lenses - statutory obligation, operational records, compliance documentation, and ratepayer accountability - that Council functions as the maintenance authority while disclaiming that status.",
+      "anchors": "AR-002, AR-006, AR-008, AR-009"
+    },
+    {
+      "id": "CPO-003",
+      "title": "Exclusion across every accountability axis",
+      "analysis": "AR-003, AR-007 and AR-013 converge on resident structural exclusion operating across every relevant accountability axis simultaneously: no standing in the transfer mechanism, no standing in the gazette process, and a formal right whose functional exercise cannot be demanded.",
+      "anchors": "AR-003, AR-007, AR-013"
+    }
+  ],
+  "disclosure_requests": [
+    {
+      "id": "DR-001",
+      "title": "GIPA application to Kempsey Shire Council",
+      "request": "Internal works orders, asset classification records, Crown road policies, and complaints handling records for the laneway - a draft already exists in this case's preserved material (Advocacy Package Surface C)."
+    },
+    {
+      "id": "DR-002",
+      "title": "Crown Lands Current Road Status Search",
+      "request": "Formal confirmation of the laneway's tenure classification and responsible authority."
+    },
+    {
+      "id": "DR-003",
+      "title": "1892 NSW Government Gazette",
+      "request": "The original Bellbrook town gazettal notice, via a manually refined Trove search."
+    },
+    {
+      "id": "DR-004",
+      "title": "NSW LRS Historical Parish Map, Parish of Uralgurra",
+      "request": "The original 1892 road dedications, via the Historical Land Records Viewer."
+    }
+  ],
+  "contradictions_preserved": [
+    {
+      "id": "CTR-0001",
+      "issue": "Council's Crown-land tenure basis for disclaiming the laneway is unverified by any Crown Lands register, gazette notice, or cadastral record.",
+      "status": "Open",
+      "analysis": "See AR-001 and the full Contradiction Register entry for the evidentiary detail.",
+      "anchors": ["EV-0001", "EV-0003", "EV-0009", "EV-0010", "EV-0023", "EV-0038"]
+    },
+    {
+      "id": "CTR-0002",
+      "issue": "The press release and MP letter describe the formal notice and GIPA application as already sent; the recipient guide and the documents' own unsigned-template state describe sending as a pending Step 1 action.",
+      "status": "Open",
+      "analysis": "Found during this repository's 2026-08-23 ingestion, not part of the original 2026-07-18 analysis - see DEC-0002 and Q-0005.",
+      "anchors": ["EV-0001"]
+    }
+  ],
+  "overreach_controls": [
+    "No claim is made about why the governance gap has persisted 134 years - only that it has, on the documented record.",
+    "No intent is attributed to any individual at Council or Crown Lands - every finding describes documented system behaviour, matching this case's own explicit non-allegatory framing throughout the original material.",
+    "The heritage overlay (AR-015) is not advanced as a live forward-facing lever - no heritage body has engaged with this specific parcel."
+  ],
+  "counts": {
+    "analysis_paths": 15,
+    "analytical_determinations": 16,
+    "evidence_anchors_referenced": 34
+  }
+}
