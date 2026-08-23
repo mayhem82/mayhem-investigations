@@ -22,5 +22,13 @@
     "result": "New evidence added.",
     "evidence_added": ["EV-0018", "EV-0019"],
     "notes": "Operator pasted a full ABC News article on North Queensland ABLV (lyssavirus) exposure risk, explicitly flagged as relevant background rather than as a Bellbrook-specific source. Located and confirmed the canonical URL via search, then independently found and fetched a directly relevant NSW source: Mid North Coast Local Health District's own general lyssavirus guidance - the same local health authority already named in EV-0004. Both added as Verified (both independently read in full). Extends THR-05 to cover a second, distinct exposure pathway (bite/scratch-transmitted ABLV) alongside the existing droppings/histoplasmosis material - neither claims a confirmed Bellbrook incident. Q-0010 opened."
+  },
+  {
+    "run_id": "RUN-0004",
+    "date": "2026-08-23",
+    "sources_checked": ["SRC-0017"],
+    "result": "New evidence added.",
+    "evidence_added": ["EV-0020"],
+    "notes": "Operator pasted a Townsville City Council media release on its 1 April 2026 Flying-Fox Management Plan revision (adding active dispersal as a feasibility option). Located and confirmed the canonical URL via search, added as Verified. A second independent working comparator to Rudder Park (EV-0002), from a different state and council - strengthens THR-01's central contrast: the management-plan mechanism is not rare or hard to operate; Kempsey has not reached initial adoption for Bellbrook while other councils actively revise theirs."
   }
 ]

@@ -416,5 +416,27 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": ["Q-0010"]
+  },
+  {
+    "evidence_id": "EV-0020",
+    "case_id": "DFAPTI-BB-FF-2026-00001",
+    "recording_date": "2026-08-23",
+    "source_date": "2026-04-01",
+    "source_authority": "Townsville City Council",
+    "source_title": "Further options to be investigated in Flying-Fox Plan",
+    "source_type": "Council Website",
+    "source_location": "https://www.townsville.qld.gov.au/our-townsville/posts/articles/2026/april/further-options-to-be-investigated-in-flying-fox-plan",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": null,
+    "evidence_description": "On 1 April 2026, Townsville City Council unanimously adopted a revised Flying-Fox Management Plan covering 16 recorded roosts, adding active dispersal as a feasibility option alongside existing routine-management and low-impact strategies - the first time dispersal has been added to that plan. The revision followed 2024 community consultation (information sessions and an online survey); most survey respondents agreed flying-foxes should be managed (60%) and that living near them was a serious problem (54%, described as \"horrible\"). Mayor Nick Dametto is quoted framing the change as improving Council's position to seek external funding if dispersal is found viable.",
+    "relevant_quotation": "This is an incremental but important change to Council's Flying-Fox Management Plan which allows us to further investigate all management options, including dispersal.",
+    "investigation_relevance": "A second, independent comparator to Rudder Park (EV-0002): a different council in a different state actively operating, consulting on, and revising a working Flying-fox Camp Management Plan in the same month this case is being investigated. Strengthens the Documented Compliance vs. Functional Compliance contrast at the centre of this case - the mechanism is not rare, difficult, or unusual to operate; multiple councils run and actively improve it. Kempsey has not reached initial plan adoption for Bellbrook, let alone active revision.",
+    "classification": "Verified",
+    "verification_state": "Verified",
+    "relationships": [],
+    "chronology_links": ["CHR-0010"],
+    "contradiction_links": [],
+    "open_question_links": ["Q-0002"]
   }
 ]

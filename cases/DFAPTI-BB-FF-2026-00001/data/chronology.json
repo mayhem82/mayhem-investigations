@@ -70,5 +70,13 @@
     "event_description": "Council reports the flying-fox colony left Bellbrook as weather warmed; Bellbrook Playground cleaned and reopened. Independently found 2026-08-23 while attempting to verify the camp's current 'historic' classification. Complicates the case's 'continuous since November 2019' framing - see CTR-0002, Q-0008.",
     "status": "Confirmed",
     "supporting_evidence": ["EV-0013"]
+  },
+  {
+    "chronology_id": "CHR-0010",
+    "event_date": "2026-04-01",
+    "date_is_inference": false,
+    "event_description": "Townsville City Council unanimously adopts a revised Flying-Fox Management Plan, adding active dispersal as a feasibility option after 2024 community consultation - a second working comparator to Rudder Park, from a different council entirely. Operator-flagged, independently confirmed.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0020"]
   }
 ]

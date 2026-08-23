@@ -222,5 +222,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-05",
     "availability_notes": "The same local health authority named in EV-0004 as having corresponded with council about Bellbrook. This is the district's general regional guidance, not a Bellbrook-specific statement. See EV-0019."
+  },
+  {
+    "source_id": "SRC-0017",
+    "authority": "Townsville City Council",
+    "title": "Further options to be investigated in Flying-Fox Plan",
+    "type": "Council Website",
+    "url_or_file_location": "https://www.townsville.qld.gov.au/our-townsville/posts/articles/2026/april/further-options-to-be-investigated-in-flying-fox-plan",
+    "first_checked": "2026-08-23",
+    "last_checked": "2026-08-23",
+    "current_version": "Supplied in full by operator 2026-08-23, canonical URL located and confirmed via search",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-01",
+    "availability_notes": "A second working management-plan comparator, from a different state and council entirely. See EV-0020."
   }
 ]
