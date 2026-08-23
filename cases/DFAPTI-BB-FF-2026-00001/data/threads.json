@@ -12,8 +12,8 @@
     "thread_id": "THR-02",
     "name": "The May 2025 meeting - what was actually resolved",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0001", "EV-0003", "EV-0010"],
-    "outstanding_work": "Obtain and read the signed confirmed minutes directly (Q-0001, CTR-0001). Highest-priority thread - almost every downstream accountability claim in this case depends on which account of this meeting is accurate.",
+    "supporting_evidence": ["EV-0001", "EV-0003", "EV-0010", "EV-0014"],
+    "outstanding_work": "Obtain and read the signed confirmed minutes directly (Q-0001, CTR-0001). Updated 2026-08-23: operator-relayed research (EV-0014) narrows the live dispute to specific resolution numbers/vote count, since an affirmative resolution to investigate and report back is now the better-supported reading. Highest-priority thread - almost every downstream accountability claim in this case depends on which account of this meeting is accurate.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -48,9 +48,18 @@
     "thread_id": "THR-06",
     "name": "Camp classification - documented status vs. functional reality",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0009"],
-    "outstanding_work": "Verify or discard the single-source 'historic camp' classification claim (Q-0004) before it is used anywhere.",
+    "supporting_evidence": ["EV-0009", "EV-0013", "EV-0016"],
+    "outstanding_work": "Updated 2026-08-23: the 'historic' classification now has partial independent corroboration (EV-0016) and a plausible real basis (EV-0013's confirmed 2021 departure). Still need: the June 2026 report (Q-0009) and confirmation of whether the colony returned after 2021 (Q-0008) before treating the classification as either accurate or a genuine documented-vs-functional gap.",
     "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-07",
+    "name": "2026 camp status and severity",
+    "status": "In Progress",
+    "supporting_evidence": ["EV-0013", "EV-0014", "EV-0015", "EV-0016", "EV-0017"],
+    "outstanding_work": "Locate and cite the June 2026 report (Q-0009) and confirm the exact current text of Council's flying-fox page (Q-0009). This is now the case's central open thread - it determines whether CTR-0002 (documented 'historic' classification vs. active 2026 reality) is a confirmed finding or an unconfirmed one.",
+    "dependencies": ["THR-06"],
     "completion_state": "Not Complete"
   }
 ]

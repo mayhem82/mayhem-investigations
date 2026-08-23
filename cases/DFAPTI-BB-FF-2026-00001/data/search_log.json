@@ -70,5 +70,77 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 5,
     "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0007",
+    "search_terms": "Bellbrook flying fox June 2026 residents park unusable school",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-23",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0008",
+    "search_terms": "\"Flying foxes move on from Bellbrook camp\" kempsey",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-23",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 10,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0009",
+    "search_terms": "Bellbrook flying fox 2026 park residents Macleay Argus; kempsey.nsw.gov.au Flying foxes historic camp Rudder Park; Bellbrook Public School flying fox 2026; Kempsey Shire Council flying fox management plan Bellbrook 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-23",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 40,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0010",
+    "search_terms": "NSW flying-fox camp database Bellbrook DCCEEW BioNet current status; \"Bellbrook\" flying fox Hansard NSW Parliament Kemp 2026; Bellbrook flying fox ABC Mid North Coast 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-23",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 30,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0011",
+    "search_terms": "Bellbrook flying fox \"unusable\" park droppings 2026; Kempsey Shire Council news flying fox Bellbrook June 2026",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-23",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 20,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0012",
+    "search_terms": "site:macleayargus.com.au Bellbrook flying fox 2026; miragenews Kempsey Shire Council budget 2026-27 Bellbrook flying fox",
+    "search_engine": "Claude WebSearch tool (general web search)",
+    "database": null,
+    "date": "2026-08-23",
+    "time": null,
+    "filters": null,
+    "jurisdiction": "Not jurisdiction-restricted (general web search)",
+    "results_reviewed": 16,
+    "results_preserved": 0
   }
 ]

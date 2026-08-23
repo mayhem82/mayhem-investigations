@@ -22,5 +22,13 @@
     "supporting_evidence": ["EV-0010"],
     "investigator": "mayhem82",
     "impact": "Standing instruction for future evidence intake on this and other cases: when documents from the same source disagree, check the more specific or more recently-styled claim against independent sources before treating it as an upgrade in accuracy - it may instead be the least verified."
+  },
+  {
+    "decision_id": "DEC-0004",
+    "date": "2026-08-23",
+    "reason": "Operator relayed new research (unanimous May 2025 resolution to investigate and report back; a June 2026 report of severe ongoing impacts; Council's current page listing Bellbrook as 'historic'; absence of a Bellbrook-specific management plan/funding/works contrasted with documented Rudder Park plan implementation) without initial citations. Six searches and two direct-fetch attempts were run before asking the operator for sources: Council's own site returned HTTP 403 to every automated fetch attempted (the current flying-fox page, the June 2026 meeting wrap, the October 2021 departure page); the June 2026 report was not locatable via Macleay Argus, ABC Mid North Coast, Mirage News, or NSW Parliament Hansard search. One genuinely new, independently-sourced finding emerged from this effort: Council's own 27 October 2021 page reporting the colony left Bellbrook that year (EV-0013) - not previously in this case's register, and a plausible real explanation for the 'historic' classification distinct from staleness or inaccuracy.",
+    "supporting_evidence": ["EV-0013", "EV-0014", "EV-0015", "EV-0016", "EV-0017"],
+    "investigator": "mayhem82",
+    "impact": "CTR-0001 updated to reflect partial corroboration of an affirmative May 2025 resolution (EV-0014), narrowing (not resolving) the live dispute to specific resolution numbers. CTR-0002 opened for the historic-classification-vs-2026-severity question, explicitly not yet confirmed. Q-0008 and Q-0009 opened. All five new evidence items recorded as Requires Verification - none upgraded to Verified, since none were independently confirmed in full (only a partial search-snippet corroboration for EV-0016's 'historic' claim)."
   }
 ]

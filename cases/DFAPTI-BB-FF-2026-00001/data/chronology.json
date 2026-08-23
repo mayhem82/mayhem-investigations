@@ -62,5 +62,13 @@
     "event_description": "Formal submissions drafted for simultaneous lodgement with Kempsey Shire Council, the NSW Minister for Climate Change/Energy/Environment/Water, the State Member for Oxley, the Federal Member for Lyne, the Federal Minister for the Environment and Water, and the NSW Ombudsman.",
     "status": "Confirmed",
     "supporting_evidence": ["EV-0006", "EV-0007"]
+  },
+  {
+    "chronology_id": "CHR-0009",
+    "event_date": "2021-10",
+    "date_is_inference": false,
+    "event_description": "Council reports the flying-fox colony left Bellbrook as weather warmed; Bellbrook Playground cleaned and reopened. Independently found 2026-08-23 while attempting to verify the camp's current 'historic' classification. Complicates the case's 'continuous since November 2019' framing - see CTR-0002, Q-0008.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0013"]
   }
 ]

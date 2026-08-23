@@ -68,5 +68,25 @@
     "likely_source": "NSW DCCEEW publications.",
     "status": "Open",
     "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0008",
+    "question": "Did the flying-fox colony leave Bellbrook in October 2021 (EV-0013) and, if operator's 2026 account holds up, return at some later date - or was the 2021 departure brief/partial, such that the case's existing 'continuous presence since November 2019' framing (CHR-0001) needs revision?",
+    "why_exists": "EV-0013 (independently found, 2026-08-23) documents a real 2021 departure not previously in this case's register, which the case's chronology did not account for.",
+    "evidence_creating_question": ["EV-0013"],
+    "evidence_required_to_resolve": "A dated account of the colony's presence/absence across 2021-2025 - local reporting, resident testimony, or council monitoring records.",
+    "likely_source": "Macleay Argus archive search for Bellbrook flying-fox coverage 2021-2025; the Bellbrook Advocacy Flying-Fox Form's resident records, if any predate 2025; direct resident testimony.",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0009",
+    "question": "What is the exact citation for the June 2026 report describing severe Bellbrook camp impacts, and what is the current, full text of Council's flying-fox page (historic classification, Rudder Park as only permanent camp, inability to manage private/Crown land colonies)?",
+    "why_exists": "Both claims were relayed by the operator on 2026-08-23 without citations. An extensive independent search found no trace of the June 2026 report, and Council's site is blocked to automated fetch (HTTP 403) for the current flying-fox page - only a partial, unrelated search-snippet corroboration of the 'historic' label was found. See CTR-0002.",
+    "evidence_creating_question": ["EV-0015", "EV-0016"],
+    "evidence_required_to_resolve": "The specific URL, publication, or document title for the June 2026 report; a manual (non-automated) browser visit to Council's current flying-fox page, or a saved copy/screenshot of it.",
+    "likely_source": "Operator (mayhem82).",
+    "status": "Open",
+    "resolution_evidence": []
   }
 ]

@@ -25,5 +25,14 @@
     "related_thread": "THR-02",
     "related_source": "SRC-0001",
     "related_evidence": "EV-0001"
+  },
+  {
+    "note_id": "NOTE-0004",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "activity_type": "Research",
+    "text": "Operator relayed new research: an unanimous May 2025 resolution to investigate and report back, a June 2026 report of severe ongoing camp impacts, Council's current 'historic' classification of Bellbrook, and an absence-of-substantive-intervention finding. Ran six searches and two direct-fetch attempts (both blocked, HTTP 403) before asking for citations. Found one genuinely new source independently: Council's own 27 October 2021 page confirming the colony left Bellbrook that year - a real, previously-unregistered event that offers a plausible non-sinister explanation for the 'historic' classification. Also found a partial, indirect corroboration of the 'historic' label via an unrelated Hansard-search summary that quoted Council's own page. Could not locate the June 2026 report anywhere searched. Asked operator directly for the specific citation before treating it as fact - consistent with this case's standing discipline (DEC-0002, DEC-0003) of not merging asserted-but-unconfirmed claims into the record.",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": "EV-0013"
   }
 ]

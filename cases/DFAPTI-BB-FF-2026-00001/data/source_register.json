@@ -152,5 +152,47 @@
     "hash_status": "No Hash",
     "associated_thread": null,
     "availability_notes": "Draft formal complaint to the NSW Ombudsman under the Ombudsman Act 1974. Account of the May 2025 meeting matches SRC-0001, not SRC-0006. Most detailed chronology of the eight documents; forms the basis of most CHR- entries in this case."
+  },
+  {
+    "source_id": "SRC-0012",
+    "authority": "Kempsey Shire Council",
+    "title": "Flying foxes move on from Bellbrook camp",
+    "type": "Council Website (search-snippet only)",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Flying-foxes-move-on-from-Bellbrook-camp",
+    "first_checked": "2026-08-23",
+    "last_checked": "2026-08-23",
+    "current_version": "Search-snippet only",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-06",
+    "availability_notes": "Council's own site returned HTTP 403 to direct fetch. Found independently while verifying operator-relayed claims about current camp status - dated 27 October 2021, reports the colony left Bellbrook that year. See EV-0013."
+  },
+  {
+    "source_id": "SRC-0013",
+    "authority": "Kempsey Shire Council",
+    "title": "Flying foxes (current camp status page)",
+    "type": "Council Website (not independently read in full)",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Valley/Your-environment/Wildlife/Flying-foxes",
+    "first_checked": "2026-08-23",
+    "last_checked": "2026-08-23",
+    "current_version": "Not directly readable - HTTP 403 to direct fetch; content known only via operator report and one unrelated search-snippet partially corroborating the 'historic' label",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-07",
+    "availability_notes": "Operator reports this page currently lists Bellbrook as a 'historic flying-fox camp', names Rudder Park as Council's only permanent camp, and states Council cannot manage colonies on private or Crown land. See EV-0016, CTR-0002, Q-0009."
+  },
+  {
+    "source_id": "SRC-0014",
+    "authority": "Operator (mayhem82)",
+    "title": "Operator-relayed research, 2026-08-23",
+    "type": "Operator-Relayed Research Summary",
+    "url_or_file_location": "N/A - conversational relay, no citation supplied",
+    "first_checked": "2026-08-23",
+    "last_checked": "2026-08-23",
+    "current_version": "N/A",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-07",
+    "availability_notes": "Operator relayed a synthesized account of the case's 2026 status - the May 2025 resolution, a June 2026 severity report, current council page content, and absence of Bellbrook-specific management action - without citations. See EV-0014, EV-0015, EV-0016, EV-0017, DEC-0004. Citations requested; not yet supplied."
   }
 ]

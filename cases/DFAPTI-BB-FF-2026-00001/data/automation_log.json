@@ -6,5 +6,13 @@
     "result": "New evidence added.",
     "evidence_added": ["EV-0001", "EV-0002", "EV-0003", "EV-0004", "EV-0005", "EV-0006", "EV-0007", "EV-0008", "EV-0009", "EV-0010", "EV-0011", "EV-0012"],
     "notes": "Case creation and initial ingestion run. Operator supplied 8 docx files (fact sheet, health briefing, harm/accountability record, and four draft advocacy/complaint letters) alongside a linked GitHub repository (mayhem82/bellbrook-advocacy-flying-fox-form) providing methodological context. This run: (1) fixed a text-extraction bug that had corrupted bulleted-paragraph content in the docx-to-text pipeline, (2) read all eight documents in full, (3) independently fetched and read one press source (Macleay Argus) rather than relying solely on operator-supplied material, (4) ran six targeted web searches to attempt verification of the Hardened Submission Package's specific resolution-number claim, and (5) opened a formal contradiction (CTR-0001) rather than silently choosing between the two competing accounts of the 20 May 2025 council meeting. Nothing in this run was treated as Verified except EV-0001, which was independently fetched and read directly; every other item remains Unverified pending primary-source confirmation."
+  },
+  {
+    "run_id": "RUN-0002",
+    "date": "2026-08-23",
+    "sources_checked": [],
+    "result": "New evidence added.",
+    "evidence_added": ["EV-0013", "EV-0014", "EV-0015", "EV-0016", "EV-0017"],
+    "notes": "Operator relayed new research on the case's current 2026 status: a stronger account of the May 2025 resolution, a June 2026 severity report, Council's current 'historic' camp classification, and an absence-of-substantive-intervention finding contrasted with Rudder Park's documented plan implementation. Six web searches (SRCH-0007 through SRCH-0012) and two direct-fetch attempts on kempsey.nsw.gov.au (both HTTP 403) were run before treating any of this as fact. One new, independently-sourced finding resulted: EV-0013, Council's own 27 October 2021 page reporting the colony's departure that year - not previously in this case's register and a plausible genuine basis for the 'historic' classification. The June 2026 report and the current page's exact wording remain unlocated/unconfirmed and were recorded as operator-relayed pending citation (EV-0015, EV-0016), not as fact. CTR-0001 updated with partial corroboration; CTR-0002 opened; Q-0008 and Q-0009 opened. See DEC-0004."
   }
 ]
