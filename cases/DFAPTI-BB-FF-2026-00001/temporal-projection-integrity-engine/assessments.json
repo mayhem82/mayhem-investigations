@@ -1,0 +1,74 @@
+{
+  "tpie_id": "TPIE-BB-FF-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-BB-FF-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-25",
+  "purpose_note": "This page states what the current evidence suggests will keep happening if nothing changes. Every entry is a reasoned judgement, not a proven fact and not a measured probability. Confidence is described in plain terms and every entry states what specific new evidence would revise it. Reads across DFAPTA-AR-001 through AR-009 and Lattice Atlas LP-001 through LP-008 against the register frozen at EV-0001-EV-0023 (DEC-0006).",
+  "assessments": [
+    {
+      "id": "TPA-001",
+      "statement": "Absent a change of instrument, Bellbrook will remain without a completed or draft Camp Management Plan.",
+      "basis": "Council's own most recent account of its activity (EV-0004, 18 March 2026) describes correspondence, meetings, monitoring and a funding intention, but no commitment to producing the plan itself - the specific instrument AR-001 identifies as the actual grant-access mechanism. No document in this case's register commits Council to starting one.",
+      "confidence": "Reasonably supported",
+      "confidence_note": "Not rated Well-supported: unlike a case built on prolonged institutional silence, this council remains visibly, recently active on this matter - genuine uncertainty exists about whether that activity converts into the specific instrument in the near term.",
+      "would_revise_this": "Council formally committing to develop a Bellbrook-specific plan, or commencing one, in any documented form."
+    },
+    {
+      "id": "TPA-002",
+      "statement": "NSW Government flying-fox camp management grant funding will remain unavailable to Bellbrook for as long as no plan exists.",
+      "basis": "Directly conditioned on TPA-001 and AR-001 - the plan is described as the funding precondition. Not a separate uncertain judgement once TPA-001 holds.",
+      "confidence": "Reasonably supported",
+      "confidence_note": "The underlying plan-gating claim itself rests on operator-supplied fact sheets, not the program's own published guidelines (Q-0002 open) - one notch below Well-supported until that primary source is confirmed.",
+      "would_revise_this": "Confirmation of the program's actual eligibility guidelines (Q-0002), or the plan itself being produced (see TPA-001)."
+    },
+    {
+      "id": "TPA-003",
+      "statement": "The camp will remain outside the Commonwealth's operational monitoring scope regardless of any further registration attempt, unless the National Flying Fox Monitoring Program's federal funding resumes.",
+      "basis": "DCCEEW's own written reply (EV-0023) states the program was paused in 2022 due to a cessation of federal funding and the Department cannot currently send resources to survey any camp under it - a direct institutional statement, not an inference.",
+      "confidence": "Well-supported",
+      "confidence_note": "Grounded directly in a primary institutional source responding to this case's own registration attempt - the strongest-evidenced projection in this set.",
+      "would_revise_this": "Confirmation that federal funding for the NFFMP has resumed, or that the camp meets the EPBC Act's 'nationally important camp' threshold triggering a referral obligation regardless of the pause (see Q-0011)."
+    },
+    {
+      "id": "TPA-004",
+      "statement": "The specific resolution numbers, 9/0 vote count and defeated 2/7 amendment claimed for the 20 May 2025 meeting (EV-0010) will remain unconfirmed unless the signed minutes are directly obtained.",
+      "basis": "No document in this case, including the one independently-fetched source (EV-0001), corroborates these specific figures. Both the council's and web.archive.org's sites have blocked automated fetch attempts across this case's runs.",
+      "confidence": "Well-supported",
+      "confidence_note": "A direct continuation of a documented absence with no intervening variable - the gap does not close on its own without a specific action.",
+      "would_revise_this": "Direct sighting of the signed confirmed minutes, via manual browser access or a GIPA/formal records request (DR-001)."
+    },
+    {
+      "id": "TPA-005",
+      "statement": "If a GIPA or formal records request for the 20 May 2025 signed minutes is lodged, CTR-0001 would very likely resolve on primary evidence.",
+      "basis": "Council holds a statutory obligation to maintain and, on request, disclose confirmed meeting minutes - a records mechanism distinct from the blocked automated web-fetch route this case has relied on so far.",
+      "confidence": "Reasonably supported",
+      "confidence_note": "Conditional: the mechanism exists and is reliable in principle, but this case has not yet tested it, and response timeframes and redactions are not accounted for.",
+      "would_revise_this": "A lodged request and Council's actual response."
+    },
+    {
+      "id": "TPA-006",
+      "statement": "If Kempsey Shire Council commences a Bellbrook-specific Camp Management Plan referencing its own Rudder Park precedent, grant eligibility becomes reachable without any change to NSW program rules.",
+      "basis": "The Rudder Park precedent (EV-0002) demonstrates this exact council already operates this exact mechanism successfully within the same shire; Mount Isa's DETSI-funded plan development (EV-0021) demonstrates funding exists specifically for the development step itself, not only implementation.",
+      "confidence": "Reasonably supported",
+      "confidence_note": "Conditional on a council decision this case cannot itself produce - the precedent shows the pathway is executable, not that Council will choose to execute it for Bellbrook.",
+      "would_revise_this": "Council formally commencing plan development for Bellbrook, in any documented form."
+    },
+    {
+      "id": "TPA-007",
+      "statement": "If Council's current flying-fox webpage is directly, manually sighted and its full text captured, CTR-0002 would very likely be substantially narrowed.",
+      "basis": "The page has only blocked automated fetch (HTTP 403); nothing in this case's register indicates manual browser access is restricted. A direct capture would confirm or correct the 'historic' classification, the Rudder Park comparison, and the private/Crown land management claims in one action (DR-002).",
+      "confidence": "Reasonably supported",
+      "confidence_note": "Narrowing the classification question does not by itself resolve whether the colony returned after its confirmed 2021 departure (Q-0008) - a second, independent question this single action would not settle.",
+      "would_revise_this": "A dated, directly-sighted capture of the page's current full text."
+    }
+  ],
+  "not_claimed": [
+    "No entry above is a prediction of what will happen by a specific date.",
+    "No entry above is a measured probability - the confidence labels are qualitative judgements about how well-supported the pattern is, not statistics.",
+    "None of these assessments authorise or compel any action by any institution. They describe what this investigation expects to keep happening if nothing changes, nothing more.",
+    "No entry above assumes bad faith on the part of Kempsey Shire Council, the Commonwealth Department of Climate Change, Energy, the Environment and Water, or any individual officer - each projects institutional behaviour patterns already visible in the frozen register, not motive.",
+    "Local Health Incidence was assessed and excluded: whether any Bellbrook resident has experienced histoplasmosis or an ABLV exposure is indeterminate from the frozen register - no site-specific incidence evidence exists either way (Q-0006, Q-0010).",
+    "June 2026 Severity Report Content was assessed and excluded: this case has not located the report referenced in EV-0015, so no forward judgement is made about what it would show if found (Q-0009).",
+    "Response to the Four Drafted Submissions was assessed and excluded: whether council, the Ombudsman, or elected representatives respond to the drafted materials (EV-0006, EV-0007) if lodged is inference about individual institutional behaviour this case's register does not yet support (Q-0005)."
+  ]
+}
