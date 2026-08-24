@@ -31,20 +31,12 @@ function esc(s) {
 }
 function slug(s) { return String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''); }
 
-const CAT_LABEL = {
-  A: 'Confirmed internal to canon',
-  B: 'Additional internal to canon',
-  C: 'Predicted from structural implication',
-};
-
-const byCat = { A: [], B: [], C: [] };
-mechanisms.forEach((m) => byCat[m.category].push(m));
-['A', 'B', 'C'].forEach((c) => byCat[c].sort((a, b) => a.no - b.no));
+const sortedMechanisms = mechanisms.slice().sort((a, b) => a.no - b.no);
 
 function renderMechList(list) {
   return list.map((m) => `
-<div class="term-entry cat-${m.category}" id="mech-${m.no}" data-search="${esc((m.no + ' ' + m.name + ' ' + m.definition).toLowerCase())}">
-  <div class="term-row"><span class="term-name">${m.no}. ${esc(m.name)}</span><span class="cat-badge">CATEGORY ${m.category}</span></div>
+<div class="term-entry" id="mech-${m.no}" data-search="${esc((m.no + ' ' + m.name + ' ' + m.definition).toLowerCase())}">
+  <div class="term-row"><span class="term-name">${m.no}. ${esc(m.name)}</span></div>
   <div class="term-desc">${esc(m.definition)}</div>
 </div>`).join('\n');
 }
@@ -93,12 +85,9 @@ a { color: inherit; }
 .section h2 { letter-spacing: -.03em; font-size: clamp(24px,3vw,34px); margin: 0 0 6px; }
 .section-desc { color: var(--muted); max-width: 640px; line-height: 1.6; margin: 0 0 22px; }
 .filter-input { width: 100%; max-width: 500px; padding: 12px 14px; border: 1px solid var(--line); background: #fff; font-size: 14px; font-family: inherit; margin-bottom: 24px; }
-.term-entry { background: rgb(245,243,236); border-top: 5px solid var(--line); padding: 16px 20px; margin-bottom: 10px; overflow-wrap: anywhere; }
+.term-entry { background: rgb(245,243,236); border-top: 5px solid var(--acid); padding: 16px 20px; margin-bottom: 10px; overflow-wrap: anywhere; }
 .term-entry.js-hidden { display: none; }
-.term-entry.cat-A { border-top-color: var(--acid); }
-.term-entry.cat-B { border-top-color: rgb(143,200,255); }
-.term-entry.cat-C { border-top-color: rgb(255,180,90); }
-.term-entry.cat-other { border-top-color: var(--red); }
+.term-entry.cat-other { border-top-color: rgb(143,200,255); }
 .term-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
 .term-name { font-weight: 800; letter-spacing: -.01em; }
 .cat-badge { display: inline-block; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; padding: 2px 8px; background: var(--cream); color: var(--muted); }
@@ -147,14 +136,10 @@ them.</p>
 <main class="section">
 <input type="text" id="mech-filter" class="filter-input" placeholder="Search mechanisms..." aria-label="Search catalogue" />
 
-<h2>Category A &mdash; ${CAT_LABEL.A} (${byCat.A.length})</h2>
-<div id="cat-a-list">${renderMechList(byCat.A)}</div>
-
-<h2>Category B &mdash; ${CAT_LABEL.B} (${byCat.B.length})</h2>
-<div id="cat-b-list">${renderMechList(byCat.B)}</div>
-
-<h2>Category C &mdash; ${CAT_LABEL.C} (${byCat.C.length})</h2>
-<div id="cat-c-list">${renderMechList(byCat.C)}</div>
+<h2>Mechanisms (${sortedMechanisms.length})</h2>
+<p class="section-desc">One unbounded, flat list - not divided into tiers or categories. Numbering reflects the
+order each mechanism was named, not a ranking.</p>
+<div id="mech-list">${renderMechList(sortedMechanisms)}</div>
 
 <h2>Discovered Through Investigation (${discovered.length})</h2>
 <p class="section-desc">Not yet part of the canonical 68 - genuine patterns real cases surfaced with no clean match
@@ -175,7 +160,7 @@ analysis, citing real evidence for every match: <a href="../cases/DFAPTI-BB-2026
 <script>
 (function () {
   var input = document.getElementById('mech-filter');
-  var containers = ['cat-a-list', 'cat-b-list', 'cat-c-list'].map(function (id) { return document.getElementById(id); });
+  var containers = [document.getElementById('mech-list')];
   input.addEventListener('input', function () {
     var q = input.value.trim().toLowerCase();
     containers.forEach(function (c) {
