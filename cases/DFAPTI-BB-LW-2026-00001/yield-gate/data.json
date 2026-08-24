@@ -1,0 +1,227 @@
+{
+  "yield_id": "YIELD-GATE-DFAPTI-BB-LW-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-BB-LW-2026-00001",
+  "generated": "2026-08-25",
+  "catalogue_reference": "MAYHEM-CAT-YIELD-001 (11 Discovered Functions, 19 Citizen Tools)",
+  "basis_note": "Reads across this case's full built chain - DFAPTI (51 evidence items), DFAPTA (15 paths), Lattice Atlas (four load-bearing nodes, three emergent patterns), SHM Gate (6 mechanisms applied, 2 candidate new mechanisms), Temporal Projection Integrity Engine (4 assessments), Enforcement Notice (4 remedies, 3 primary recipients), and Advocacy Package - plus this repository's own ingestion decisions (DEC-0001, DEC-0002) and contradiction findings (CTR-0001, CTR-0002).",
+  "functions": [
+    {
+      "no": 1, "name": "Enforcement",
+      "definition": "The methodology produces findings with evidentiary discipline sufficient to route to bodies with standing.",
+      "status": "Active - produced, delivery status unconfirmed",
+      "match_note": "A submission-ready Enforcement Notice exists, naming Kempsey Shire Council, Michael Kemp MP and NSW Crown Lands with four binding remedies - though whether it has actually been sent is itself an open, preserved contradiction (CTR-0002).",
+      "anchors": []
+    },
+    {
+      "no": 2, "name": "Translation",
+      "definition": "Converts inaccessible governance documentation into findings legible to the people governed by it.",
+      "status": "Active",
+      "match_note": "AR-004 (Transfer Eligibility Analysis) translates the Roads Act 1993 and Crown Lands Policy IND-O-250 into a single plain finding: council's own maintenance activity has been continuously triggering transfer eligibility it has never used.",
+      "anchors": ["EV-0037", "EV-0039", "EV-0040", "EV-0041"]
+    },
+    {
+      "no": 3, "name": "Pattern Detection",
+      "definition": "Documents a convergence across actors that no single actor can see.",
+      "status": "Active",
+      "match_note": "Lattice Atlas's primary convergence finding, the Mutual Non-Action Architecture (LP-010), is visible only by reading council's maintenance records, Crown Lands' own transfer policy, and the resident's complaint pathway together - no single record shows it alone.",
+      "anchors": []
+    },
+    {
+      "no": 4, "name": "Power Redistribution",
+      "definition": "Makes investigative power portable to any operator, no institutional backing required.",
+      "status": "Active - this case is a direct instance",
+      "match_note": "This case originates from a complete investigation the operator conducted independently in 2026, with no institutional backing, producing a full evidentiary chain through Enforcement Notice against a council and a state land agency.",
+      "anchors": []
+    },
+    {
+      "no": 5, "name": "Lived Experience Protection",
+      "definition": "Classifies lived experience as primary evidence; institutional dismissal becomes a finding.",
+      "status": "Active",
+      "match_note": "EV-0002 and EV-0003 record the operator's own direct observational statements as a Bellbrook resident with direct access to the laneway, classified in this case's register as primary evidence rather than anecdote.",
+      "anchors": ["EV-0002", "EV-0003"]
+    },
+    {
+      "no": 6, "name": "Legibility",
+      "definition": "Makes governance instruments understandable to the people they govern.",
+      "status": "Active",
+      "match_note": "AR-001 and AR-004 together make legible what has never been documented anywhere publicly: that the laneway's tenure is unconfirmed, and that a real, existing transfer mechanism exists to resolve exactly this kind of gap.",
+      "anchors": []
+    },
+    {
+      "no": 7, "name": "Containment",
+      "definition": "Names a structural harm mechanism so it can no longer operate invisibly.",
+      "status": "Active",
+      "match_note": "The SHM Gate names 6 mechanisms as operative, including two candidate mechanisms (Jurisdictional Void, Circular Deflection Loop) this case surfaced that were not previously in the catalogue.",
+      "anchors": []
+    },
+    {
+      "no": 8, "name": "Temporal Inversion",
+      "definition": "Time loads onto the institution, not the citizen.",
+      "status": "Active",
+      "match_note": "AR-014 (Temporal Analysis) documents the governance gap persisting since the laneway's 1892 origin - 134 years on current evidence - with the trajectory explicitly classified DEGRADING rather than improving with time.",
+      "anchors": []
+    },
+    {
+      "no": 9, "name": "Reflexive Audit",
+      "definition": "MAYHEM's own primitives applied to MAYHEM itself.",
+      "status": "Active",
+      "match_note": "During ingestion, this repository independently re-checked the original AR-012's claim that 5 mechanisms matched the catalogue and found only 3 genuinely did (the other 2 became the candidate mechanisms above) - MAYHEM's own evidentiary discipline applied to MAYHEM's own prior output, not taken on trust.",
+      "anchors": []
+    },
+    {
+      "no": 10, "name": "Impossibility Demonstration",
+      "definition": "Converts closure of every remediation surface into evidence of structural impossibility of self-remediation.",
+      "status": "Not a clean match - remediation is shown available, not impossible",
+      "match_note": "AR-010 (Self-Remediation Assessment) is the closest match, but concludes the opposite of impossibility: transfer remains available to Council and initiable by Crown Lands, simply unused. The finding is non-action despite availability, not closure of every surface. Not claimed as this function.",
+      "anchors": []
+    },
+    {
+      "no": 11, "name": "Divergence Preservation",
+      "definition": "Preserves disagreement rather than silently reconciling it.",
+      "status": "Active",
+      "match_note": "CTR-0001 (Council's Crown-land basis for its disclaimer is unverified) and CTR-0002 (the case's own advocacy material contradicts itself on whether documents were already sent) are both preserved as open, unresolved findings rather than resolved by assumption.",
+      "anchors": []
+    }
+  ],
+  "citizen_tools": [
+    {
+      "name": "The Evidence Register", "no_range": "8",
+      "definition": "A blank, paper-ready, append-only template for documenting evidence.",
+      "status": "Produced",
+      "match_note": "51 evidence items, append-only, three independently re-confirmed against the actual Crown Lands policy PDF during ingestion.",
+      "anchors": []
+    },
+    {
+      "name": "The Advocacy Package", "no_range": "9",
+      "definition": "The complete investigation output combined with recipient guidance.",
+      "status": "Produced",
+      "match_note": "Built and live, naming who has standing, how to submit the notice and GIPA application, and how to log responses.",
+      "anchors": []
+    },
+    {
+      "name": "Five-Step Primary Source Verification", "no_range": "10",
+      "definition": "Teaches any person to verify a finding against its primary source.",
+      "status": "Active",
+      "match_note": "Present in the Advocacy Package with a real worked example: the Crown Lands policy PDF was directly fetched and its transfer-eligibility criterion confirmed verbatim.",
+      "anchors": ["EV-0037", "EV-0039", "EV-0040"]
+    },
+    {
+      "name": "Recipient Routing", "no_range": "11",
+      "definition": "Names bodies with standing, their legislative basis, and the remedy addressed to each.",
+      "status": "Active",
+      "match_note": "The Enforcement Notice routes four remedies across three recipients (Council, the MP, Crown Lands), each with a stated basis for standing.",
+      "anchors": []
+    },
+    {
+      "name": "Lived Experience Documentation Protocol", "no_range": "12",
+      "definition": "Teaches affected people to document their own experience as primary evidence.",
+      "status": "Partially demonstrated, not built as a standalone artifact",
+      "match_note": "EV-0002/EV-0003 are real instances of this, but no standalone protocol document exists for another resident to follow.",
+      "anchors": ["EV-0002", "EV-0003"]
+    },
+    {
+      "name": "Reclassification Recognition Training", "no_range": "13",
+      "definition": "Teaches recognition of institutional reclassification patterns in real time.",
+      "status": "Not built for this case",
+      "match_note": "Not evidenced - no training artifact in this case's built material.",
+      "anchors": []
+    },
+    {
+      "name": "Institutional Response Log", "no_range": "14",
+      "definition": "Logs every institutional response - date, form, content, classification.",
+      "status": "Available, not yet active",
+      "match_note": "The Advocacy Package's logging section provides the template; no confirmed log entries exist, and whether the notice has even been sent remains an open, preserved contradiction (CTR-0002, Q-0005).",
+      "anchors": []
+    },
+    {
+      "name": "Harm Narration Construction", "no_range": "15",
+      "definition": "Constructs evidence-anchored harm narration for different audiences.",
+      "status": "Not built as a repository artifact",
+      "match_note": "A press release existed in the original preserved material but was not built into this repository as a live page.",
+      "anchors": []
+    },
+    {
+      "name": "Onward Training Capability", "no_range": "16",
+      "definition": "Designed to be passed on by anyone who has worked through it.",
+      "status": "Active",
+      "match_note": "The Advocacy Package is written for a reader with no prior MAYHEM knowledge, requiring no specialist background.",
+      "anchors": []
+    },
+    {
+      "name": "Operator Curriculum", "no_range": "17",
+      "definition": "Trains operators to run MAYHEM investigations across competency grades.",
+      "status": "Not applicable to a single investigation",
+      "match_note": "This is a methodology-level tool, not something a single case produces.",
+      "anchors": []
+    },
+    {
+      "name": "Paper-Ready Templates", "no_range": "18",
+      "definition": "Working instruments applying the methodology with no digital dependency.",
+      "status": "Not distinctly built for this case",
+      "match_note": "Not evidenced as a case-specific artifact beyond the general Advocacy Package content.",
+      "anchors": []
+    },
+    {
+      "name": "Non-Allegatory Framing", "no_range": "19",
+      "definition": "Describes system behaviour, never attributes intent or motivation.",
+      "status": "Active throughout",
+      "match_note": "Every path in DFAPTA and every mechanism in the SHM Gate describes documented conduct and absence, never council's or Crown Lands' intent - explicitly stated as deliberate framing in the case's own overreach_controls.",
+      "anchors": []
+    },
+    {
+      "name": "Federation as Mutual Legibility", "no_range": "20",
+      "definition": "Multiple independent registers whose convergence produces legibility no single one can.",
+      "status": "Not evidenced for this case",
+      "match_note": "Unlike DFAPTI-TA-FF-2026-00001, this case does not cross-reference another case's register as part of its own findings.",
+      "anchors": []
+    },
+    {
+      "name": "Temporal Accumulation as Citizen Power", "no_range": "21",
+      "definition": "Absence and delay become evidence that strengthens the citizen's case over time.",
+      "status": "Active",
+      "match_note": "Directly demonstrated by AR-014/Function 8 above - 134 years of non-resolution is itself the evidentiary record, not a weakening of the case.",
+      "anchors": []
+    },
+    {
+      "name": "Cross-Domain Pattern Detection", "no_range": "22",
+      "definition": "Surfaces convergence across health, housing, disability and other domains for the same person.",
+      "status": "Not evidenced for this case",
+      "match_note": "Single-domain (Crown land tenure and maintenance governance); does not cross into other governance domains.",
+      "anchors": []
+    },
+    {
+      "name": "Community Evidence Aggregation", "no_range": "23",
+      "definition": "Multiple people's accounts of the same system, aggregated without institutional processing.",
+      "status": "Not evidenced for this case",
+      "match_note": "The evidence base is one resident's direct observation plus institutional/documentary records, not multiple aggregated resident accounts.",
+      "anchors": []
+    },
+    {
+      "name": "Structural Literacy as Preventative Tool", "no_range": "24",
+      "definition": "Lets a citizen recognise a harm mechanism before it completes.",
+      "status": "Not evidenced as forward-preventative for this case",
+      "match_note": "This case's findings are retrospective, documenting a 134-year-old gap, not applied to catch a harm still in progress.",
+      "anchors": []
+    },
+    {
+      "name": "Parallel Verification as Democratic Infrastructure", "no_range": "25",
+      "definition": "Any completed investigation can be independently re-verified using the same methodology.",
+      "status": "Active",
+      "match_note": "This repository independently re-fetched and confirmed the Crown Lands policy PDF and independently re-checked AR-012's mechanism-match claims, finding the original overclaimed two of five - a real instance of parallel verification correcting the original finding.",
+      "anchors": ["EV-0037", "EV-0039", "EV-0040"]
+    },
+    {
+      "name": "Yield Without Enforcement", "no_range": "26",
+      "definition": "Chain completion is determined by yield delivery, not enforcement notice production.",
+      "status": "Active - the organising principle of this page",
+      "match_note": "This case's DFAPTA, Lattice Atlas, and SHM Gate already deliver legibility and structural visibility regardless of whether the Enforcement Notice was ever sent - a question this case itself leaves open (CTR-0002).",
+      "anchors": []
+    }
+  ],
+  "not_claimed": [
+    "This gate does not claim every catalogue entry above is fully or perfectly delivered - several are marked 'not evidenced' or 'not a clean match' rather than forced into a positive claim.",
+    "This gate does not claim intent by any institution named in this case. Every assessment above describes what this case's own material demonstrates, consistent with this case's non-allegatory framing throughout.",
+    "This gate does not re-verify the underlying EV- items cited as anchors - their verification status remains exactly as recorded in this case's own evidence register.",
+    "This is this repository's own reading of the catalogue against this case's material, not a claim of the operator's final or complete assessment."
+  ]
+}

@@ -43,5 +43,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0006",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Built this case's Yield Gate: a genuine assessment of all 11 Discovered Functions and 19 Citizen Tools against this case's own DFAPTA, Lattice Atlas and SHM Gate content. Marked Impossibility Demonstration as 'not a clean match' rather than force-fitting it to AR-010 (Self-Remediation Assessment), since AR-010 actually concludes remediation is available and unused, the opposite of structural impossibility. See DEC-0004.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

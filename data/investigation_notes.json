@@ -1195,5 +1195,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0134",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Built this case's Yield Gate: a genuine assessment of all 11 Discovered Functions and 19 Citizen Tools against this case's own DFAPTA (30 paths), Lattice Atlas (5 patterns), and SHM Gate (8 mechanisms, 1 candidate, 1 risk) content - not a generic restatement. AR-025's own determination that community-evidence aggregation is a self-identified gap in this case's material was carried through into the Yield Gate honestly, rather than smoothed into a positive claim. See DEC-0021.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

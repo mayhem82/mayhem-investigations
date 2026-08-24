@@ -1038,5 +1038,13 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Site-wide framing update, not an evidence-gathering run: applied Yield Catalogue framing (Yield for Humans as the always-required baseline, Enforcement as one delivery pathway among several) to this case's Enforcement Notice and Advocacy Package pages. No new evidence, no change to remedy demands or recipients. See DEC-0015."
+  },
+  {
+    "run_id": "RUN-0013",
+    "date": "2026-08-25",
+    "sources_checked": ["dfapta/analysis.json", "lattice-atlas/patterns.json", "shm-gate/data.json"],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Built this case's Yield Gate (yield-gate/data.json) - assessed all 11 Discovered Functions and 19 Citizen Tools against this case's own frozen material. No new evidence added; this is an analytical assessment of already-frozen content, not a new evidence-gathering pass. See DEC-0016."
   }
 ]

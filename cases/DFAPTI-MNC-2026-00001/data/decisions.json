@@ -131,5 +131,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "enforcement-notice/index.html and advocacy-package/index.html both updated with a Yield framing note, each linking to the repository-level yield-catalogue/index.html reference page. No case evidence, analysis, or remedy content changed - this is a framing addition only."
+  },
+  {
+    "decision_id": "DEC-0016",
+    "date": "2026-08-25",
+    "reason": "Operator asked whether the generic Yield framing (DEC-0015) had actually been processed into this case's own material, not just displayed. Built a new Yield Gate stage (yield-gate/), assessing which of the Yield Catalogue's 11 Discovered Functions and 19 Citizen Tools this case's own DFAPTA (22 paths), Lattice Atlas (8 patterns) and SHM Gate (6 mechanisms, 1 candidate) content actually demonstrates. This case is a prospective policy audit rather than a retrospective harm case, so several catalogue entries match differently here than in this repository's other cases - that difference is stated explicitly rather than forced into a uniform template.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "yield-gate/index.html, app.js and data.json added. Linked from this case's own index.html and from every other stage page's nav-drawer. Linked from the repository-level yield-catalogue/index.html's 'Where this is applied' section."
   }
 ]

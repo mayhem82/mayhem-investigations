@@ -70,5 +70,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0009",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Built this case's Yield Gate: a genuine assessment of all 11 Discovered Functions and 19 Citizen Tools against this case's own DFAPTA, Lattice Atlas and SHM Gate content. Marked Function 10 (Impossibility Demonstration) as not evidenced, since this case's DFAPTA does not include a dedicated self-remediation-closure path the way DFAPTI-BB-LW-2026-00001's AR-010 does. See DEC-0007.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

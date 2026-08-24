@@ -1,0 +1,227 @@
+{
+  "yield_id": "YIELD-GATE-DFAPTI-TA-FF-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-TA-FF-2026-00001",
+  "generated": "2026-08-25",
+  "catalogue_reference": "MAYHEM-CAT-YIELD-001 (11 Discovered Functions, 19 Citizen Tools)",
+  "basis_note": "Reads across this case's full built chain - DFAPTI (77 evidence items), DFAPTA (12 paths), Lattice Atlas (5 emergent patterns), SHM Gate (13 mechanisms), Temporal Projection Integrity Engine (7 forward assessments), Enforcement Notice (10 remedies, 4 recipients), and Advocacy Package - plus this repository's own ingestion decisions (DEC-0001 through DEC-0006) and contradiction findings (CTR-0001 through CTR-0004). Each entry below is assessed against what this case actually contains, not assumed from the catalogue definition alone.",
+  "functions": [
+    {
+      "no": 1, "name": "Enforcement",
+      "definition": "The methodology produces findings with evidentiary discipline sufficient to route to bodies with standing.",
+      "status": "Active - produced",
+      "match_note": "A submission-ready Enforcement Notice exists, naming Nambucca Valley Council, NSW DCCEEW, Commonwealth DCCEEW and Destination NSW, with ten remedy demands and a stated legislative basis for each recipient's jurisdiction.",
+      "anchors": ["EV-0010", "EV-0021"]
+    },
+    {
+      "no": 2, "name": "Translation",
+      "definition": "Converts inaccessible governance documentation into findings legible to the people governed by it.",
+      "status": "Active",
+      "match_note": "The Camphor Laurel biosecurity/EPBC intersection (AR-010) and the camp-registration/grant-eligibility mechanism (AR-003, AR-004) translate three overlapping legislative instruments - the Biosecurity Act, the EPBC Act, and the Flying-Fox Camp Management Policy - into a single plain finding a resident can act on.",
+      "anchors": ["EV-0010", "EV-0012", "EV-0021", "EV-0030"]
+    },
+    {
+      "no": 3, "name": "Pattern Detection",
+      "definition": "Documents a convergence across actors that no single actor can see.",
+      "status": "Active",
+      "match_note": "Lattice Atlas's Corridor Duplication finding (Emergent Pattern 4) is only visible by reading this case together with the adjacent Bellbrook case - neither council, on its own record, treats the two colonies as one regional pattern.",
+      "anchors": ["EV-0015", "EV-0016", "EV-0019", "EV-0020"]
+    },
+    {
+      "no": 4, "name": "Power Redistribution",
+      "definition": "Makes investigative power portable to any operator, no institutional backing required.",
+      "status": "Active - this case is a direct instance",
+      "match_note": "This case is itself the demonstration: a private individual produced a 77-item evidentiary chain through Enforcement Notice against a council, a state department and a Commonwealth department, with no institutional backing, legal credentials, or regulator standing.",
+      "anchors": []
+    },
+    {
+      "no": 5, "name": "Lived Experience Protection",
+      "definition": "Classifies lived experience as primary evidence; institutional dismissal becomes a finding.",
+      "status": "Active",
+      "match_note": "Vicki Provost's 16 March 2023 account, as recorded in council's own minutes, is treated as the founding evidence item (EV-0006) for the entire case - not downgraded to anecdote at any stage of DFAPTA or the SHM Gate.",
+      "anchors": ["EV-0006"]
+    },
+    {
+      "no": 6, "name": "Legibility",
+      "definition": "Makes governance instruments understandable to the people they govern.",
+      "status": "Active",
+      "match_note": "The Lattice Atlas and DFAPTA together make legible what council's obligations are, what the grant program requires, and what the camp-registration mechanism is - none of which appear connected anywhere in council's own public material.",
+      "anchors": ["EV-0021", "EV-0030", "EV-0048"]
+    },
+    {
+      "no": 7, "name": "Containment",
+      "definition": "Names a structural harm mechanism so it can no longer operate invisibly.",
+      "status": "Active",
+      "match_note": "The SHM Gate names and documents 13 structural harm mechanisms as operative in this case, each independently checked against the current 68-mechanism catalogue and confirmed correct.",
+      "anchors": []
+    },
+    {
+      "no": 8, "name": "Temporal Inversion",
+      "definition": "Time loads onto the institution, not the citizen.",
+      "status": "Active - directly named in this case's own material",
+      "match_note": "This case's own Mechanism 10 (Time as Structural Harm Mechanism) states the exact mechanism: the 37-month response void is not silence but a structural record - documented across four checked points in council's own tracking register.",
+      "anchors": ["EV-0007", "EV-0008", "EV-0009", "EV-0026", "EV-0027"]
+    },
+    {
+      "no": 9, "name": "Reflexive Audit",
+      "definition": "MAYHEM's own primitives applied to MAYHEM itself.",
+      "status": "Active",
+      "match_note": "This case's own ingestion applied MAYHEM's evidentiary discipline to MAYHEM's own prior output: an unverified external citation in the frozen Temporal Projection Integrity Engine was found and excluded (CTR-0001), and a mechanism-count inconsistency between two of the case's own frozen documents was found and preserved rather than silently reconciled (CTR-0002).",
+      "anchors": []
+    },
+    {
+      "no": 10, "name": "Impossibility Demonstration",
+      "definition": "Converts closure of every remediation surface into evidence of structural impossibility of self-remediation.",
+      "status": "Not directly evidenced for this case",
+      "match_note": "This case's DFAPTA does not include a dedicated self-remediation assessment path (unlike DFAPTI-BB-LW-2026-00001's AR-010). Individual paths touch on the community's lack of standing (AR-001, Mechanism 43), but no path in this case systematically closes off every available remediation surface to demonstrate impossibility. Not claimed.",
+      "anchors": []
+    },
+    {
+      "no": 11, "name": "Divergence Preservation",
+      "definition": "Preserves disagreement rather than silently reconciling it.",
+      "status": "Active",
+      "match_note": "Four contradictions are preserved rather than resolved by assumption: an unverified external citation (CTR-0001), a mechanism-count discrepancy (CTR-0002), a weakened remedy pathway found via a real DCCEEW reply (CTR-0003), and a citation error in the case's own Mechanism Register (CTR-0004, logged and then reverted after operator correction - see this case's own decisions.json for that exact sequence).",
+      "anchors": []
+    }
+  ],
+  "citizen_tools": [
+    {
+      "name": "The Evidence Register", "no_range": "8",
+      "definition": "A blank, paper-ready, append-only template for documenting evidence.",
+      "status": "Produced",
+      "match_note": "77 evidence items, append-only, each carrying source, classification, and verification status.",
+      "anchors": []
+    },
+    {
+      "name": "The Advocacy Package", "no_range": "9",
+      "definition": "The complete investigation output combined with recipient guidance.",
+      "status": "Produced",
+      "match_note": "Built and live, naming who has standing, how to submit, how to log responses, and how to verify findings.",
+      "anchors": []
+    },
+    {
+      "name": "Five-Step Primary Source Verification", "no_range": "10",
+      "definition": "Teaches any person to verify a finding against its primary source.",
+      "status": "Active",
+      "match_note": "Present in the Advocacy Package, with a worked example against EV-0038/EV-0039 - a real WebSearch corroboration attempt, including the case where a direct fetch failed and a weaker method was used and disclosed.",
+      "anchors": ["EV-0038", "EV-0039"]
+    },
+    {
+      "name": "Recipient Routing", "no_range": "11",
+      "definition": "Names bodies with standing, their legislative basis, and the remedy addressed to each.",
+      "status": "Active",
+      "match_note": "The Enforcement Notice routes ten remedies across four recipients, each with a stated jurisdictional basis; the Advocacy Package explains who has standing for which finding.",
+      "anchors": []
+    },
+    {
+      "name": "Lived Experience Documentation Protocol", "no_range": "12",
+      "definition": "Teaches affected people to document their own experience as primary evidence.",
+      "status": "Partially demonstrated, not built as a standalone artifact",
+      "match_note": "EV-0006 is a real instance of lived experience treated as primary evidence, but this case does not build a standalone protocol document a new resident could use to do the same for themselves.",
+      "anchors": ["EV-0006"]
+    },
+    {
+      "name": "Reclassification Recognition Training", "no_range": "13",
+      "definition": "Teaches recognition of institutional reclassification patterns in real time.",
+      "status": "Not built for this case",
+      "match_note": "Not evidenced - no training artifact exists in this case's built material.",
+      "anchors": []
+    },
+    {
+      "name": "Institutional Response Log", "no_range": "14",
+      "definition": "Logs every institutional response - date, form, content, classification.",
+      "status": "Available, not yet active",
+      "match_note": "The Advocacy Package's 'Logging Responses' section provides the template and instructions; no actual log entries exist yet since sending has not been confirmed (Q-0011, THR-03).",
+      "anchors": []
+    },
+    {
+      "name": "Harm Narration Construction", "no_range": "15",
+      "definition": "Constructs evidence-anchored harm narration for different audiences.",
+      "status": "Not built as a repository artifact",
+      "match_note": "The original source material included a Plain Language Summary document; it was read during ingestion but not built into this repository as a live page. Not claimed here.",
+      "anchors": []
+    },
+    {
+      "name": "Onward Training Capability", "no_range": "16",
+      "definition": "Designed to be passed on by anyone who has worked through it.",
+      "status": "Active",
+      "match_note": "The Advocacy Package's How to Submit and If There's No Response sections are written for a reader with no prior MAYHEM knowledge, requiring no specialist background to use.",
+      "anchors": []
+    },
+    {
+      "name": "Operator Curriculum", "no_range": "17",
+      "definition": "Trains operators to run MAYHEM investigations across competency grades.",
+      "status": "Not applicable to a single investigation",
+      "match_note": "This is a methodology-level tool, not something a single case produces.",
+      "anchors": []
+    },
+    {
+      "name": "Paper-Ready Templates", "no_range": "18",
+      "definition": "Working instruments applying the methodology with no digital dependency.",
+      "status": "Not distinctly built for this case",
+      "match_note": "Not evidenced as a case-specific artifact beyond the general Advocacy Package content.",
+      "anchors": []
+    },
+    {
+      "name": "Non-Allegatory Framing", "no_range": "19",
+      "definition": "Describes system behaviour, never attributes intent or motivation.",
+      "status": "Active throughout",
+      "match_note": "Every finding across DFAPTA, Lattice Atlas, and the SHM Gate describes documented absence or process, not council's intent - consistent with this repository's own separately-established allegation-free discipline.",
+      "anchors": []
+    },
+    {
+      "name": "Federation as Mutual Legibility", "no_range": "20",
+      "definition": "Multiple independent registers whose convergence produces legibility no single one can.",
+      "status": "Active",
+      "match_note": "This case's Regional Corridor Finding explicitly links to DFAPTI-BB-FF-2026-00001 as a parallel, independent register - two communities, two registers, one structural observation.",
+      "anchors": []
+    },
+    {
+      "name": "Temporal Accumulation as Citizen Power", "no_range": "21",
+      "definition": "Absence and delay become evidence that strengthens the citizen's case over time.",
+      "status": "Active",
+      "match_note": "Directly demonstrated by Mechanism 10 / Function 8 above - the 37-month absence from council's own tracking register is itself the evidentiary record.",
+      "anchors": ["EV-0007", "EV-0008", "EV-0009"]
+    },
+    {
+      "name": "Cross-Domain Pattern Detection", "no_range": "22",
+      "definition": "Surfaces convergence across health, housing, disability and other domains for the same person.",
+      "status": "Not evidenced for this case",
+      "match_note": "This case is single-domain (wildlife/biosecurity governance); it does not cross into other governance domains for the same affected population.",
+      "anchors": []
+    },
+    {
+      "name": "Community Evidence Aggregation", "no_range": "23",
+      "definition": "Multiple people's accounts of the same system, aggregated without institutional processing.",
+      "status": "Not evidenced for this case",
+      "match_note": "Only one named resident's account (Vicki Provost) appears in this case's register; no multi-resident aggregation was built.",
+      "anchors": ["EV-0006"]
+    },
+    {
+      "name": "Structural Literacy as Preventative Tool", "no_range": "24",
+      "definition": "Lets a citizen recognise a harm mechanism before it completes.",
+      "status": "Not evidenced as forward-preventative for this case",
+      "match_note": "This case's findings are retrospective, documenting a 37-month-old failure already complete, not applied to catch a harm still in progress. The Bellbrook cross-reference is the closest instance, but even there the equivalent failure is already well underway, not caught early.",
+      "anchors": []
+    },
+    {
+      "name": "Parallel Verification as Democratic Infrastructure", "no_range": "25",
+      "definition": "Any completed investigation can be independently re-verified using the same methodology.",
+      "status": "Active",
+      "match_note": "This repository independently re-checked all 13 mechanism claims in the original Mechanism Register against the current catalogue (all confirmed) and independently corroborated EV-0038/EV-0039 via WebSearch - a real instance of parallel verification strengthening the original findings.",
+      "anchors": ["EV-0038", "EV-0039"]
+    },
+    {
+      "name": "Yield Without Enforcement", "no_range": "26",
+      "definition": "Chain completion is determined by yield delivery, not enforcement notice production.",
+      "status": "Active - the organising principle of this page",
+      "match_note": "This case's DFAPTA, Lattice Atlas, and SHM Gate already deliver legibility, structural visibility, and naming capacity regardless of whether the Enforcement Notice is ever sent or acted on - that yield does not wait on enforcement.",
+      "anchors": []
+    }
+  ],
+  "not_claimed": [
+    "This gate does not claim every catalogue entry above is fully or perfectly delivered - several are marked 'not evidenced' or 'partially demonstrated' rather than forced into a positive claim.",
+    "This gate does not claim intent by any institution named in this case. Every assessment above describes what this case's own material demonstrates, consistent with this case's non-allegatory framing throughout.",
+    "This gate does not re-verify the underlying EV- items cited as anchors - their verification status remains exactly as recorded in this case's own evidence register.",
+    "This is this repository's own reading of the catalogue against this case's material, not a claim of the operator's final or complete assessment."
+  ]
+}

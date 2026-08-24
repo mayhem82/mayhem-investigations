@@ -22,5 +22,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "enforcement-notice/index.html and advocacy-package/index.html both updated with a Yield framing note, each linking to the repository-level yield-catalogue/index.html reference page. No case evidence, analysis, or remedy content changed - this is a framing addition only."
+  },
+  {
+    "decision_id": "DEC-0004",
+    "date": "2026-08-25",
+    "reason": "Operator asked whether the generic Yield framing (DEC-0003) had actually been processed into this case's own material, not just displayed. Built a new Yield Gate stage (yield-gate/), assessing which of the Yield Catalogue's 11 Discovered Functions and 19 Citizen Tools this case's own DFAPTA (15 paths), Lattice Atlas and SHM Gate (6 mechanisms, 2 candidates) content actually demonstrates. Reflexive Audit is directly evidenced by this case's own ingestion history: the original AR-012's claim of 5 mechanism matches was independently re-checked and found to overclaim two of five.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "yield-gate/index.html, app.js and data.json added. Linked from this case's own index.html and from every other stage page's nav-drawer. Linked from the repository-level yield-catalogue/index.html's 'Where this is applied' section."
   }
 ]

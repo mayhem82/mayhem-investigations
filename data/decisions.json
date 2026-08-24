@@ -200,5 +200,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "enforcement-notice/index.html and advocacy-package/index.html both updated with a Yield framing note, each linking to the repository-level yield-catalogue/index.html reference page. No case evidence, analysis, or remedy content changed - this is a framing addition only."
+  },
+  {
+    "decision_id": "DEC-0021",
+    "date": "2026-08-25",
+    "reason": "Operator asked whether the generic Yield framing (DEC-0020) had actually been processed into this case's own material, not just displayed. Built a new Yield Gate stage (yield-gate/), assessing which of the Yield Catalogue's 11 Discovered Functions and 19 Citizen Tools this case's own DFAPTA, Lattice Atlas, SHM Gate and Enforcement Notice content actually demonstrates, mirroring the SHM Gate's own pattern. This case's own analysis was found to be unusually candid about its limits: AR-025 states directly that 'a direct community evidence stream is a baseline yield gap' - that self-identified gap is reported as a gap in the Yield Gate too, not reframed as a success.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "yield-gate/index.html, app.js and data.json added. Linked from this case's own index.html and from every other stage page's nav-drawer. Linked from the repository-level yield-catalogue/index.html's 'Where this is applied' section."
   }
 ]

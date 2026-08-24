@@ -1,0 +1,227 @@
+{
+  "yield_id": "YIELD-GATE-DFAPTI-BB-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-BB-2026-00001",
+  "generated": "2026-08-25",
+  "catalogue_reference": "MAYHEM-CAT-YIELD-001 (11 Discovered Functions, 19 Citizen Tools)",
+  "basis_note": "Reads across this case's full built chain - DFAPTI, DFAPTA (30 paths), Lattice Atlas (5 patterns), SHM Gate (8 mechanisms applied, 1 candidate, 1 risk-provisional - the richest SHM Gate of any built case), Temporal Projection Integrity Engine, Enforcement Notice, and Advocacy Package. This is this repository's longest-running, most-corrected case (DEC-0020, NOTE-0133, RUN-0069 as of this assessment), and its own analysis is unusually candid about where it falls short - AR-025 states directly that 'a direct community evidence stream is a baseline yield gap.' That self-identified gap is reflected below rather than smoothed over.",
+  "functions": [
+    {
+      "no": 1, "name": "Enforcement",
+      "definition": "The methodology produces findings with evidentiary discipline sufficient to route to bodies with standing.",
+      "status": "Active - produced",
+      "match_note": "A submission-ready Enforcement Notice exists, addressed to Kempsey Shire Council as the local water utility and client for both treatment-plant projects.",
+      "anchors": []
+    },
+    {
+      "no": 2, "name": "Translation",
+      "definition": "Converts inaccessible governance documentation into findings legible to the people governed by it.",
+      "status": "Active",
+      "match_note": "AR-005 through AR-009 translate contaminant-specific water-safety technical material (iron, manganese, arsenic, turbidity, PFAS) into plain findings a resident can check against; AR-016 does the same for regional water-security network architecture.",
+      "anchors": []
+    },
+    {
+      "no": 3, "name": "Pattern Detection",
+      "definition": "Documents a convergence across actors that no single actor can see.",
+      "status": "Active",
+      "match_note": "Lattice Atlas's LP-002 ('Two villages, one root architecture choice, uneven investment') is visible only by reading Willawarrin's and Bellbrook's separate treatment histories side by side - neither village's own record shows the comparison.",
+      "anchors": []
+    },
+    {
+      "no": 4, "name": "Power Redistribution",
+      "definition": "Makes investigative power portable to any operator, no institutional backing required.",
+      "status": "Active - this case is a direct instance",
+      "match_note": "This is this repository's founding case, run by a private individual with no institutional backing, now carrying 30 analysis paths and 69 automation runs of accumulated, independently-conducted investigation.",
+      "anchors": []
+    },
+    {
+      "no": 5, "name": "Lived Experience Protection",
+      "definition": "Classifies lived experience as primary evidence; institutional dismissal becomes a finding.",
+      "status": "Present but thin - gap self-identified by this case's own analysis",
+      "match_note": "AR-025 (Community Complaint and Lived-Experience Visibility Path) states directly that the evidence corpus is 'dominated by institutional and media records' with 'little direct, structured resident testimony,' and its own determination AR-025.4 names this explicitly: 'a direct community evidence stream is a baseline yield gap.' This function is not fully delivered here, and this case's own material says so.",
+      "anchors": ["EV-0001", "EV-0002", "EV-0020", "EV-0021", "EV-0052", "EV-0054", "EV-0063"]
+    },
+    {
+      "no": 6, "name": "Legibility",
+      "definition": "Makes governance instruments understandable to the people they govern.",
+      "status": "Active",
+      "match_note": "AR-028 (Documented Compliance Versus Functional Outcome Path) makes legible the exact gap between what Council reports as compliant and what residents actually experienced.",
+      "anchors": []
+    },
+    {
+      "no": 7, "name": "Containment",
+      "definition": "Names a structural harm mechanism so it can no longer operate invisibly.",
+      "status": "Active - most extensively evidenced of any built case",
+      "match_note": "The SHM Gate applies 8 mechanisms (Documented Compliance as Shield, Narrative Compression, Opacity by Design, Complexity as Barrier, Definitional Control, Time as Structural Harm Mechanism, Isolated Incident Framing, Compliance Snapshot as Exclusion), one candidate (Institutional-Source Evidentiary Skew), and one flagged risk (Equity Disparity Through Neutral Process).",
+      "anchors": []
+    },
+    {
+      "no": 8, "name": "Temporal Inversion",
+      "definition": "Time loads onto the institution, not the citizen.",
+      "status": "Active",
+      "match_note": "Mechanism 10 (Time as Structural Harm Mechanism) is applied directly in this case's SHM Gate; AR-011 (Cost Escalation and Scope Variation) documents delay compounding cost and scope, not resolving it.",
+      "anchors": []
+    },
+    {
+      "no": 9, "name": "Reflexive Audit",
+      "definition": "MAYHEM's own primitives applied to MAYHEM itself.",
+      "status": "Active - the most extensively demonstrated of any built case",
+      "match_note": "AR-021 (Evidence Quality, Preservation and Verification Architecture Path) and AR-022 (Willawarrin Population Metric Contradiction Path) are dedicated self-audit paths. This case's own decision register runs to DEC-0020 - two decades of recorded corrections, wording fixes, and re-verifications applied to its own prior output over time.",
+      "anchors": []
+    },
+    {
+      "no": 10, "name": "Impossibility Demonstration",
+      "definition": "Converts closure of every remediation surface into evidence of structural impossibility of self-remediation.",
+      "status": "Not evidenced for this case",
+      "match_note": "This case's paths document delay and cost escalation, not exhaustion of every remediation option. Not claimed.",
+      "anchors": []
+    },
+    {
+      "no": 11, "name": "Divergence Preservation",
+      "definition": "Preserves disagreement rather than silently reconciling it.",
+      "status": "Active",
+      "match_note": "AR-022 (Willawarrin Population Metric Contradiction Path) and AR-029 (Open Question, Contradiction and Negative-Evidence Architecture Path) are dedicated paths for preserving exactly this kind of unresolved disagreement in the record.",
+      "anchors": []
+    }
+  ],
+  "citizen_tools": [
+    {
+      "name": "The Evidence Register", "no_range": "8",
+      "definition": "A blank, paper-ready, append-only template for documenting evidence.",
+      "status": "Produced",
+      "match_note": "This repository's founding, longest-running evidence register, still actively maintained (69 automation runs recorded).",
+      "anchors": []
+    },
+    {
+      "name": "The Advocacy Package", "no_range": "9",
+      "definition": "The complete investigation output combined with recipient guidance.",
+      "status": "Produced",
+      "match_note": "Built and live, naming Kempsey Shire Council as recipient and explaining how to submit, log, and verify.",
+      "anchors": []
+    },
+    {
+      "name": "Five-Step Primary Source Verification", "no_range": "10",
+      "definition": "Teaches any person to verify a finding against its primary source.",
+      "status": "Active",
+      "match_note": "Present in the Advocacy Package; AR-021's dedicated Evidence Quality and Verification Architecture path is direct evidence this discipline has been applied repeatedly, not just described once.",
+      "anchors": []
+    },
+    {
+      "name": "Recipient Routing", "no_range": "11",
+      "definition": "Names bodies with standing, their legislative basis, and the remedy addressed to each.",
+      "status": "Active",
+      "match_note": "The Enforcement Notice names Council as the local water utility with a stated legislative basis for standing.",
+      "anchors": []
+    },
+    {
+      "name": "Lived Experience Documentation Protocol", "no_range": "12",
+      "definition": "Teaches affected people to document their own experience as primary evidence.",
+      "status": "Not built - matches this case's own self-identified gap",
+      "match_note": "Consistent with AR-025's own finding, no standalone protocol exists in this case for residents to document their own water-quality experience directly - the case's evidence leans on institutional and media records instead.",
+      "anchors": []
+    },
+    {
+      "name": "Reclassification Recognition Training", "no_range": "13",
+      "definition": "Teaches recognition of institutional reclassification patterns in real time.",
+      "status": "Not built for this case",
+      "match_note": "Not evidenced - no training artifact in this case's built material.",
+      "anchors": []
+    },
+    {
+      "name": "Institutional Response Log", "no_range": "14",
+      "definition": "Logs every institutional response - date, form, content, classification.",
+      "status": "Available, not yet active",
+      "match_note": "The Advocacy Package's logging section provides the template; no confirmed log entries recorded in this repository.",
+      "anchors": []
+    },
+    {
+      "name": "Harm Narration Construction", "no_range": "15",
+      "definition": "Constructs evidence-anchored harm narration for different audiences.",
+      "status": "Not built as a standalone repository artifact",
+      "match_note": "The public-interest translation card for this case comes closest, but no dedicated harm-narration document exists inside the case's own six-stage chain.",
+      "anchors": []
+    },
+    {
+      "name": "Onward Training Capability", "no_range": "16",
+      "definition": "Designed to be passed on by anyone who has worked through it.",
+      "status": "Active",
+      "match_note": "The Advocacy Package is written for a reader with no prior MAYHEM knowledge.",
+      "anchors": []
+    },
+    {
+      "name": "Operator Curriculum", "no_range": "17",
+      "definition": "Trains operators to run MAYHEM investigations across competency grades.",
+      "status": "Not applicable to a single investigation",
+      "match_note": "This is a methodology-level tool, not something a single case produces.",
+      "anchors": []
+    },
+    {
+      "name": "Paper-Ready Templates", "no_range": "18",
+      "definition": "Working instruments applying the methodology with no digital dependency.",
+      "status": "Not distinctly built for this case",
+      "match_note": "Not evidenced as a case-specific artifact beyond the general Advocacy Package content.",
+      "anchors": []
+    },
+    {
+      "name": "Non-Allegatory Framing", "no_range": "19",
+      "definition": "Describes system behaviour, never attributes intent or motivation.",
+      "status": "Active throughout",
+      "match_note": "AR-028 (Documented Compliance Versus Functional Outcome) names the gap between claim and reality without characterising Council's motives for it.",
+      "anchors": []
+    },
+    {
+      "name": "Federation as Mutual Legibility", "no_range": "20",
+      "definition": "Multiple independent registers whose convergence produces legibility no single one can.",
+      "status": "Not evidenced for this case",
+      "match_note": "This case does not cross-reference another case's register as part of its own findings, though DFAPTI-BB-FF-2026-00001 and DFAPTI-BB-LW-2026-00001 both note they run alongside it in the same locality.",
+      "anchors": []
+    },
+    {
+      "name": "Temporal Accumulation as Citizen Power", "no_range": "21",
+      "definition": "Absence and delay become evidence that strengthens the citizen's case over time.",
+      "status": "Active",
+      "match_note": "AR-011's cost-escalation finding and AR-013's commissioning-status path both document delay compounding into a stronger, better-documented case rather than a weaker one.",
+      "anchors": []
+    },
+    {
+      "name": "Cross-Domain Pattern Detection", "no_range": "22",
+      "definition": "Surfaces convergence across health, housing, disability and other domains for the same person.",
+      "status": "Adjacent match, not a clean fit",
+      "match_note": "AR-026 (Thunggutti Aboriginal Community Adjacency and Equity Path) and the flagged risk mechanism (Equity Disparity Through Neutral Process) touch equity across a specific community's circumstances, but this is one water-safety domain viewed through an equity lens, not literally multiple governing systems for one person.",
+      "anchors": []
+    },
+    {
+      "name": "Community Evidence Aggregation", "no_range": "23",
+      "definition": "Multiple people's accounts of the same system, aggregated without institutional processing.",
+      "status": "Present but thin - same gap as Function 5",
+      "match_note": "AR-025 records 'a small number of formal customer enquiries' and complaint counts, but its own determinations state complaint counts 'are not a complete measure of lived harm' and the corpus 'cannot quantify non-reporting or complaint fatigue' - aggregation exists, but is explicitly flagged by this case's own analysis as incomplete.",
+      "anchors": ["EV-0001", "EV-0002", "EV-0020", "EV-0021"]
+    },
+    {
+      "name": "Structural Literacy as Preventative Tool", "no_range": "24",
+      "definition": "Lets a citizen recognise a harm mechanism before it completes.",
+      "status": "Not evidenced as forward-preventative for this case",
+      "match_note": "This case documents recurring, already-completed water-quality incidents; it is not framed as catching a new incident before it happens.",
+      "anchors": []
+    },
+    {
+      "name": "Parallel Verification as Democratic Infrastructure", "no_range": "25",
+      "definition": "Any completed investigation can be independently re-verified using the same methodology.",
+      "status": "Active - most extensively demonstrated of any built case",
+      "match_note": "AR-021's dedicated verification-architecture path, and 69 recorded automation runs re-checking and extending prior findings over time, are a sustained, real instance of this tool in continuous operation.",
+      "anchors": []
+    },
+    {
+      "name": "Yield Without Enforcement", "no_range": "26",
+      "definition": "Chain completion is determined by yield delivery, not enforcement notice production.",
+      "status": "Active - the organising principle of this page",
+      "match_note": "This case's DFAPTA, Lattice Atlas, and SHM Gate already deliver legibility and structural visibility regardless of whether the Enforcement Notice is ever acted on by Council.",
+      "anchors": []
+    }
+  ],
+  "not_claimed": [
+    "This gate does not claim every catalogue entry above is fully or perfectly delivered - AR-025's own self-identified gap (Function 5, Citizen Tool 23) is reported as a gap, not reframed as a success.",
+    "This gate does not claim intent by Kempsey Shire Council or any individual. Every assessment above describes what this case's own material demonstrates, consistent with this case's non-allegatory framing throughout.",
+    "This gate does not re-verify the underlying evidence items cited - their verification status remains exactly as recorded in this case's own evidence register.",
+    "This is this repository's own reading of the catalogue against this case's material, not a claim of the operator's final or complete assessment."
+  ]
+}
