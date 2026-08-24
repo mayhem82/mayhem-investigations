@@ -61,5 +61,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0008",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Operator: \"not done correctly, run DFAPTA NOW\" - the nine-path DFAPTA published under DEC-0006 was rejected. Asked what specifically was wrong; operator: \"we will continue to do passes until I state freeze\", then: \"remove all the gates that are now broken because of failure to perform DFAPTA - Deep Forensic All Paths Taken Analysis. 9 paths are not all paths, the word generic is an alarm bell.\" This corrects a misunderstanding carried since DEC-0006: DFAPTA is an iterative, multi-pass process the operator freezes explicitly, not a single-shot synthesis produced immediately after the evidence-register freeze. Removed SHM Gate, Lattice Atlas, TPIE, Enforcement Notice and Advocacy Package (DEC-0007) since all five were built on that insufficient pass. Rebuilding DFAPTA now as Pass 1 of an explicitly ongoing process - not claiming completeness, not claiming Frozen status, and not treating \"generic\" synthesis as acceptable where the actual evidence supports something more specific.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

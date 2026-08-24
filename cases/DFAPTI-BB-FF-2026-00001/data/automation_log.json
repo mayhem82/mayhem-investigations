@@ -54,5 +54,13 @@
     "result": "Evidence register frozen; Stages 2-6 build began.",
     "evidence_added": [],
     "notes": "Operator-directed freeze, not an automated evidence-gathering pass. Register frozen at EV-0001-EV-0023 (DEC-0006). Building DFAPTA, SHM Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice and Advocacy Package against this frozen boundary, per the same full-pipeline scope DFAPTI-MNC-2026-00001's DEC-0009 produced. CTR-0001 and CTR-0002 both remain Open at freeze."
+  },
+  {
+    "run_id": "RUN-0008",
+    "date": "2026-08-25",
+    "sources_checked": [],
+    "result": "Downstream gates removed; DFAPTA rebuild begun.",
+    "evidence_added": [],
+    "notes": "Operator-directed correction (DEC-0007), not an automated evidence-gathering pass. The nine-path DFAPTA published under RUN-0007 was rejected as generic and incomplete - not an actual Deep Forensic All Paths Taken Analysis. SHM Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice and Advocacy Package removed since each cited that DFAPTA as its basis. Beginning DFAPTA Pass 1 of an explicitly iterative, multi-pass process that continues until the operator states DFAPTA itself is frozen."
   }
 ]

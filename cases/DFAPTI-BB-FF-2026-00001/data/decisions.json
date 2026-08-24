@@ -46,5 +46,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Authorises building cases/DFAPTI-BB-FF-2026-00001/dfapta/, shm-gate/, lattice-atlas/, temporal-projection-integrity-engine/, enforcement-notice/, and advocacy-package/. Both open contradictions (CTR-0001, CTR-0002) and all eleven open questions remain genuinely open at freeze - downstream stages must carry them forward as unresolved, not narrate around them."
+  },
+  {
+    "decision_id": "DEC-0007",
+    "date": "2026-08-25",
+    "reason": "Operator correction: the DFAPTA build that followed DEC-0006 (nine analysis paths, generated in one pass) was not an actual Deep Forensic All Paths Taken Analysis - \"9 paths are not all paths\", and the generic quality of the analysis itself was flagged as \"an alarm bell\". Operator clarified DFAPTA is an iterative process - \"we will continue to do passes until I state freeze\" - distinct from the evidence-register freeze DEC-0006 already gave. Building SHM Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice and Advocacy Package directly off a single, insufficiently deep DFAPTA pass was premature: those five stages all cite DFAPTA's AR- paths as their basis, so an incomplete DFAPTA made every one of them unreliable by construction, not just DFAPTA itself.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Removed cases/DFAPTI-BB-FF-2026-00001/shm-gate/, lattice-atlas/, temporal-projection-integrity-engine/, enforcement-notice/, and advocacy-package/ in full. Case index.html and dfapti/index.html and dfapta/index.html nav links reverted to reflect only DFAPTI (frozen) and DFAPTA (in progress) as live. DFAPTA itself is being rebuilt through further passes and will not be treated as a valid basis for any downstream stage until the operator explicitly states DFAPTA is frozen - a separate, later event from DEC-0006."
   }
 ]
