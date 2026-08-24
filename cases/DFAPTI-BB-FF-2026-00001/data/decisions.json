@@ -62,5 +62,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Removed AR-029, AR-030 and AR-033 from dfapta/analysis.json, along with every cross-path observation and overreach-control line that referenced them. Path numbering left as-is (gap not closed) so the correction stays traceable. The underlying facts these paths described - the SafeWork NSW/WHS Act theory, the Office of Local Government pathway, and the Senator Faruqi letter's existence - remain available in the case's preserved primary-source material and should be properly incorporated into Enforcement Notice/Advocacy Package when those stages are rebuilt, not reintroduced into DFAPTA."
+  },
+  {
+    "decision_id": "DEC-0009",
+    "date": "2026-08-25",
+    "reason": "Operator: \"ar 23 states that you did not correct a spelling mistake and instead imbedded it into the case. verification would have removed it already.\" AR-023 treated 'Paul Hodgkinson' (appearing once, in the Hardened Submission Package) as potentially a distinct person from 'Paul Hodgson' (named consistently across five other sources, including the independently-fetched Macleay Argus and the operator's own Commonwealth registration email), hedging that this case's register \"cannot currently tell which.\" This overstated a single-document spelling variant as material uncertainty. Correct verification practice recognises an obvious transcription artefact against five consistent references and normalises it, rather than preserving it as an open analytical question - doing the latter embeds the error into the case instead of correcting it.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Removed AR-023 from dfapta/analysis.json, along with its references in CPO-008 and the overreach controls. Path numbering left as-is (a second gap, alongside AR-029/030/033) so both corrections stay traceable. DFAPTA now at 32 paths. 'Paul Hodgkinson' should be read as a scribal variant of 'Paul Hodgson' throughout this case's material, not as a possible second individual."
   }
 ]

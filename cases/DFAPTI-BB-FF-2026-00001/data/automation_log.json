@@ -78,5 +78,13 @@
     "result": "Protocol correction - 3 advocacy-package paths removed from DFAPTA.",
     "evidence_added": [],
     "notes": "Operator-directed correction (DEC-0008), not an evidence-gathering run. AR-029, AR-030 and AR-033 - all built around remedies sought, recipients, or submission asks rather than analysis of the evidence - were removed from dfapta/analysis.json for having been run through the analysis gate instead of reserved for Advocacy Package/Enforcement Notice. Cross-path observations and overreach controls referencing them updated. DFAPTA now at 33 paths, still In Progress — Pass 2."
+  },
+  {
+    "run_id": "RUN-0011",
+    "date": "2026-08-25",
+    "sources_checked": [],
+    "result": "Quality correction - AR-023 removed as an over-elevated spelling variant.",
+    "evidence_added": [],
+    "notes": "Operator-directed correction (DEC-0009), not an evidence-gathering run. AR-023 treated 'Paul Hodgkinson' (one document) as possibly distinct from 'Paul Hodgson' (five documents) rather than recognising an obvious transcription artefact. Removed from dfapta/analysis.json; CPO-008 and overreach controls updated. DFAPTA now at 32 paths, still In Progress — Pass 2."
   }
 ]

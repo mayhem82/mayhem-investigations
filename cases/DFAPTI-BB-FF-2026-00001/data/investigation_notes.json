@@ -88,5 +88,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0011",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Operator: \"ar 23 states that you did not correct a spelling mistake and instead imbedded it into the case. verification would have removed it already.\" Correct: AR-023 hedged 'Paul Hodgkinson' (one document) against 'Paul Hodgson' (five documents, including an independently-fetched press source and the operator's own sent email) as if it could be a genuinely distinct person, rather than recognising it as a transcription artefact. This inverts the lesson from DEC-0008 in a different direction - not merging distinct claims into a generic finding, but elevating a trivial, already-resolvable variant to the same evidentiary weight as genuine discrepancies (AR-024, AR-034). Removed AR-023 (DEC-0009), fixed CPO-008 and the overreach controls that referenced it. DFAPTA now at 32 paths. Lesson for future passes: before treating a naming/spelling variant as a discrepancy worth its own path, check whether the balance of sources already resolves it - if so, note it in passing (or correct it), don't build a hedge around it.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
