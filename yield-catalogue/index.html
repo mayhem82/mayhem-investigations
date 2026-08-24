@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<meta name="description" content="Yield Catalogue (MAYHEM-CAT-YIELD-001, current canon v3.0): what MAYHEM yields when applied - discovered functions and citizen tools, independent of whether Enforcement is reached." />
+<meta name="description" content="Yield Catalogue (MAYHEM-CAT-YIELD-001): what MAYHEM yields when applied - discovered functions and citizen tools, independent of whether Enforcement is reached." />
 <title>MAYHEM - Yield Catalogue</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
 <style>
@@ -21,21 +21,15 @@ a { color: inherit; }
 .kicker { text-transform: uppercase; letter-spacing: .16em; font-size: 11px; font-weight: 800; color: var(--red); margin: 0 0 14px; }
 .intro h1 { letter-spacing: -.03em; font-size: clamp(34px,5vw,58px); line-height: 1.03; margin: 0 0 16px; font-weight: 900; }
 .intro p.lead { font-family: Georgia, serif; font-size: clamp(17px,1.6vw,21px); line-height: 1.5; color: rgb(56,67,62); max-width: 760px; margin: 0 0 20px; }
-.status-note { border-left: 6px solid var(--line); background: rgb(248,246,240); padding: 22px 26px; margin: 24px 0 8px; max-width: 800px; line-height: 1.6; font-size: 14.5px; color: rgb(69,80,74); }
-.status-note b { display: block; text-transform: uppercase; letter-spacing: .07em; font-size: 11px; margin-bottom: 8px; color: var(--muted); }
 .section { padding: 24px 7vw 10px; max-width: 1000px; }
 .section h2 { letter-spacing: -.03em; font-size: clamp(24px,3vw,34px); margin: 40px 0 6px; }
 .section-desc { color: var(--muted); max-width: 700px; line-height: 1.6; margin: 0 0 24px; font-size: 14.5px; }
-.term-entry { background: rgb(245,243,236); border-top: 5px solid var(--line); padding: 18px 22px; margin-bottom: 10px; }
-.term-entry.fn { border-top-color: var(--acid); }
-.term-entry.tool-b { border-top-color: rgb(143,200,255); }
-.term-entry.tool-c { border-top-color: rgb(255,180,90); }
+.term-entry { background: rgb(245,243,236); border-top: 5px solid var(--acid); padding: 18px 22px; margin-bottom: 10px; }
+.term-entry.tool { border-top-color: rgb(143,200,255); }
 .term-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
 .term-name { font-weight: 800; letter-spacing: -.01em; font-size: 16px; }
-.cat-badge { display: inline-block; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; padding: 2px 8px; background: var(--cream); color: var(--muted); }
 .term-desc { font-size: 15px; line-height: 1.55; margin-top: 8px; color: rgb(69,80,74); font-family: Georgia, serif; }
 .doc-block { background: rgb(248,246,240); border-left: 6px solid var(--line); padding: 22px 26px; margin: 16px 0 30px; line-height: 1.65; color: rgb(69,80,74); font-size: 14.5px; }
-.doc-block h3 { margin: 0 0 8px; font-size: 16px; color: var(--ink); }
 footer { color: #fff; background: rgb(16,23,19); padding: 46px 7vw; margin-top: 40px; font-size: 13px; line-height: 1.6; }
 footer a { text-decoration: underline; text-underline-offset: 2px; }
 @media (max-width: 760px) {
@@ -57,213 +51,173 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
 </nav>
 
 <header class="intro">
-<p class="kicker">Reference &middot; Yield Catalogue &middot; MAYHEM-CAT-YIELD-001, current canon v3.0</p>
+<p class="kicker">Reference &middot; Yield Catalogue &middot; MAYHEM-CAT-YIELD-001</p>
 <h1>What MAYHEM yields when applied — independent of whether Enforcement is reached.</h1>
 <p class="lead">The Structural Harm Mechanism Catalogue names how institutions produce harm. The Yield Catalogue
-names the other side: what an investigation actually produces for the governed population at every stage.
-Discovered Functions describe what the methodology is doing. Citizen Tools are the concrete, numbered
-deliverables that come out of it. Per the companion correction document (MAYHEM-CORRECTION-YIELD-001-v1.0, 29
-March 2026), yield - not Enforcement - is the baseline the whole system is built to produce; Enforcement is one
-delivery pathway among several, not a mandatory terminal stage.</p>
-
-<div class="status-note">
-<b>Status of this page</b>
-The Discovered Functions count has grown across versions and is explicitly unbounded: 7 in MAYHEM-CAT-YIELD-001-v1.0
-(29 March 2026), 8 in v2.0 (adds Temporal Inversion), 11 in the current canon, v3.0 (adds Reflexive Audit,
-Impossibility Demonstration, Divergence Preservation). Functions 1-7 below carry the full descriptions from the
-v1.0 document this repository has read directly. Functions 8-11 carry the operator's own short summary of v3.0 -
-this repository has not yet been given the full v2.0/v3.0 documents to read directly. The Citizen Tools sections
-further down are still only from v1.0 and have not been checked against v2.0/v3.0 - see the numbering note before
-that section.
-</div>
+names the other side: what an investigation actually produces for the governed population at every stage. Yield -
+not Enforcement - is the baseline. Enforcement Notice is one delivery pathway through which yield arrives; it is
+not the only pathway, and not a mandatory terminal stage. Discovered Functions describe what the methodology is
+doing. Citizen Tools are the concrete, numbered deliverables that come out of it. Both lists are unbounded and
+grow as the methodology is applied further.</p>
 </header>
 
 <main class="section">
-<h2>Discovered Functions (11, current canon v3.0)</h2>
-<p class="section-desc">Structural capacities that emerged through applying the methodology - not designed in
-advance, none ranked, none subordinate, count explicitly unbounded across versions.</p>
+<h2>Discovered Functions</h2>
+<p class="section-desc">Structural capacities that emerge through applying the methodology - not designed in
+advance, none ranked, none subordinate.</p>
 
-<div class="term-entry fn">
+<div class="term-entry">
 <div class="term-row"><span class="term-name">1. Enforcement</span></div>
 <div class="term-desc">The methodology produces findings with evidentiary discipline sufficient to route to bodies with standing. The Enforcement Notice names recipient bodies, identifies the legislative basis for their jurisdiction, addresses remedy demands to actors with the obligation to act, and classifies forward observations for urgency. Enforcement is one delivery pathway through which yield arrives. It is not the only pathway. It is not the mandatory terminal output. The chain serves yield. Yield does not serve the chain.</div>
 </div>
 
-<div class="term-entry fn">
+<div class="term-entry">
 <div class="term-row"><span class="term-name">2. Translation</span></div>
 <div class="term-desc">The methodology converts inaccessible governance documentation - subordinate legislative instruments, ministerial guidance notes, regulatory frameworks, calibration methodologies - into findings that are legible and invocable by people who are governed by those instruments but excluded from the language they are written in. The affected person does not need to read the instrument. They need the instrument translated into a structural finding that makes their account not just testimony but evidence that anchors a remedy.</div>
 </div>
 
-<div class="term-entry fn">
+<div class="term-entry">
 <div class="term-row"><span class="term-name">3. Pattern Detection</span></div>
 <div class="term-desc">Each actor in a governance failure sees their own piece. The minister sees the reserve figures. The regulator sees the conduct. The industry body sees the mechanism. The citizen sees the empty tank. MAYHEM sees all of it simultaneously and documents the convergence. No single actor can produce that convergence - it requires the full investigative chain. Once named, it cannot be unseen.</div>
 </div>
 
-<div class="term-entry fn">
+<div class="term-entry">
 <div class="term-row"><span class="term-name">4. Power Redistribution</span></div>
 <div class="term-desc">The full investigative chain can be run by a person with no AI access, no institutional backing, no legal credentials, and no platform dependency. Paper, methodology, discipline. The investigative power that currently lives inside regulators, law firms, parliamentary committees, and well-funded advocacy organisations becomes portable to the populations those institutions govern.</div>
 </div>
 
-<div class="term-entry fn">
+<div class="term-entry">
 <div class="term-row"><span class="term-name">5. Lived Experience Protection</span></div>
 <div class="term-desc">Institutional dismissal of lived experience is not a neutral act. It is a structural harm mechanism. MAYHEM names it, logs it, and converts it into a finding. Lived experience is classified as a primary evidence category from the moment it enters the record. When an institution reclassifies lived experience as anecdote, that reclassification becomes a finding in its own right.</div>
 </div>
 
-<div class="term-entry fn">
+<div class="term-entry">
 <div class="term-row"><span class="term-name">6. Legibility</span></div>
 <div class="term-desc">Governance instruments that determine whether someone gets fuel, whether their disability support continues, whether their water is safe - these are written for a professional audience that happens to exclude everyone governed by the instrument. The operational chain converts that material into structural findings written in plain declarative language, naming what the instrument does, what it was supposed to do, and where the gap between those two things produces harm.</div>
 </div>
 
-<div class="term-entry fn">
+<div class="term-entry">
 <div class="term-row"><span class="term-name">7. Containment</span></div>
 <div class="term-desc">When MAYHEM encounters a structural harm mechanism, it names the mechanism, documents its operation, and makes it visible. The mechanism can no longer operate invisibly after containment. Containment does not promise remedy. It promises visibility - and is itself subject to the same evidentiary discipline MAYHEM applies to everything it investigates.</div>
 </div>
 
-<div class="term-entry fn">
-<div class="term-row"><span class="term-name">8. Temporal Inversion</span><span class="cat-badge">Added v2.0</span></div>
-<div class="term-desc">Time loads onto the institution, not the citizen: the longer a matter goes unresolved, the more that duration itself becomes documented evidence against the institution, rather than simply eroding the citizen's case. (Operator's own short-form summary of v3.0 - full extended description not yet supplied to this repository.)</div>
+<div class="term-entry">
+<div class="term-row"><span class="term-name">8. Temporal Inversion</span></div>
+<div class="term-desc">Time loads onto the institution, not the citizen. The longer a matter goes unresolved, the more that duration itself becomes documented evidence against the institution, rather than simply eroding the citizen's case.</div>
 </div>
 
-<div class="term-entry fn">
-<div class="term-row"><span class="term-name">9. Reflexive Audit</span><span class="cat-badge">Added v3.0</span></div>
-<div class="term-desc">MAYHEM's own primitives - the evidentiary discipline, the non-allegatory framing, the audit standard - applied to MAYHEM itself. (Operator's own short-form summary of v3.0 - full extended description not yet supplied to this repository.)</div>
+<div class="term-entry">
+<div class="term-row"><span class="term-name">9. Reflexive Audit</span></div>
+<div class="term-desc">MAYHEM's own primitives - the evidentiary discipline, the non-allegatory framing, the audit standard - applied to MAYHEM itself.</div>
 </div>
 
-<div class="term-entry fn">
-<div class="term-row"><span class="term-name">10. Impossibility Demonstration</span><span class="cat-badge">Added v3.0</span></div>
-<div class="term-desc">Converts the closure of every available remediation surface into evidence of a structural impossibility of self-remediation - the absence of a working fix becomes a documented finding in its own right. (Operator's own short-form summary of v3.0 - full extended description not yet supplied to this repository.)</div>
+<div class="term-entry">
+<div class="term-row"><span class="term-name">10. Impossibility Demonstration</span></div>
+<div class="term-desc">Converts the closure of every available remediation surface into evidence of a structural impossibility of self-remediation - the absence of a working fix becomes a documented finding in its own right.</div>
 </div>
 
-<div class="term-entry fn">
-<div class="term-row"><span class="term-name">11. Divergence Preservation</span><span class="cat-badge">Added v3.0</span></div>
-<div class="term-desc">(Operator's own short-form summary of v3.0 - full description not yet supplied to this repository beyond the function's name.)</div>
+<div class="term-entry">
+<div class="term-row"><span class="term-name">11. Divergence Preservation</span></div>
+<div class="term-desc">Where independent verification of a finding diverges from the original, the divergence itself is documented and preserved rather than silently reconciled - the record of disagreement is part of the yield.</div>
 </div>
 
-<div class="status-note">
-<b>Numbering note</b>
-The Citizen Tools below are numbered 8 through 26, continuing on from v1.0's seven Discovered Functions. Under
-the current v3.0 canon, Discovered Functions now run 1 through 11 - meaning Citizen Tool 8 ("The Evidence
-Register") and Discovered Function 8 ("Temporal Inversion") now share the same number under two different
-schemes. This repository has not been told whether v2.0/v3.0 renumbered the Citizen Tools to start at 12, or left
-them as originally numbered under v1.0 - so the numbers below are shown exactly as supplied, collision included,
-rather than guessed at.
-</div>
+<h2>Citizen Tools</h2>
+<p class="section-desc">Concrete, paper-first deliverables - usable without AI access, institutional backing, or
+specialist credentials.</p>
 
-<h2>Citizen Tools Built</h2>
-<p class="section-desc">Twelve operational, paper-first tools in the current architecture - usable without AI
-access, institutional backing, or specialist credentials. Numbered as supplied in MAYHEM-CAT-YIELD-001-v1.0 - see
-the numbering note above.</p>
-
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">8. The Evidence Register</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">The Evidence Register</span></div>
 <div class="term-desc">A blank, paper-ready template for documenting evidence with classification, source identification, and immutable snapshot chain. Append-only - entries are never modified, only added. The register is the citizen's own record. It does not belong to the institution.</div>
 </div>
 
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">9. The Advocacy Package</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">The Advocacy Package</span></div>
 <div class="term-desc">The complete investigation output combined with Teacher curriculum documents - evidence register, analysis register, Lattice Atlas output, Temporal Projection Integrity Engine gate record, and Enforcement Notice, together with the recipient guide, canonical specification, and paper-ready templates. Designed to be worked through by someone who has never seen MAYHEM before.</div>
 </div>
 
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">10. Five-Step Primary Source Verification</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Five-Step Primary Source Verification</span></div>
 <div class="term-desc">A process executable without AI that teaches any person how to verify a MAYHEM finding against the primary source it was derived from - five steps from the finding back to the original document, data source, or public record.</div>
 </div>
 
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">11. Recipient Routing</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Recipient Routing</span></div>
 <div class="term-desc">The Enforcement Notice names the bodies with standing to act on each finding, the legislative basis for their jurisdiction, and the remedy demand addressed to each. The citizen learns which body has the statutory obligation to act, what instrument creates that obligation, and what form of submission that body accepts.</div>
 </div>
 
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">12. Lived Experience Documentation Protocol</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Lived Experience Documentation Protocol</span></div>
 <div class="term-desc">Teaches affected people how to document their own experience as primary evidence - what qualifies, how to record an account in the person's own words, and how to produce a dated, signed record that meets evidentiary standards. Works on paper. The record is theirs.</div>
 </div>
 
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">13. Reclassification Recognition Training</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Reclassification Recognition Training</span></div>
 <div class="term-desc">Teaches affected people and operators to recognise institutional reclassification patterns when they occur, name them in real time, and log them as findings - converting the citizen from a passive recipient of institutional language into an active observer.</div>
 </div>
 
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">14. Institutional Response Log</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Institutional Response Log</span></div>
 <div class="term-desc">Every institutional response to a submission is logged - date, form, verbatim content, classification. Append-only. Over time, a pattern of responses that acknowledge without acting, deflect without engaging, or reclassify without counter-evidence becomes its own structural finding. The citizen holds the log.</div>
 </div>
 
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">15. Harm Narration Construction</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Harm Narration Construction</span></div>
 <div class="term-desc">Teaches how to construct evidence-anchored harm narration for different audiences - regulatory bodies (anchored to the legislative instrument), journalism (built around one person's documented experience), affected communities (plain language connecting findings to lived experience). Structural findings document what systems produce; harm narration documents what those outcomes feel like and cost.</div>
 </div>
 
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">16. Onward Training Capability</span></div>
-<div class="term-desc">Every module is designed to be passed on by anyone who has worked through it. The chain of capability does not require the Architect, a vendor instance, or AI access to continue - each person who completes a module can teach the next person from the module alone.</div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Onward Training Capability</span></div>
+<div class="term-desc">Every module is designed to be passed on by anyone who has worked through it. The chain of capability does not require AI access to continue - each person who completes a module can teach the next person from the module alone.</div>
 </div>
 
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">17. Operator Curriculum</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Operator Curriculum</span></div>
 <div class="term-desc">Trains operators to run MAYHEM investigations across seven modules and four competency grades, from evidence-gathering-only up to the full chain with no AI at any stage - the continuity guarantee. The ceiling is determined by demonstrated competency, not access to technology.</div>
 </div>
 
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">18. Paper-Ready Templates</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Paper-Ready Templates</span></div>
 <div class="term-desc">Evidence register template, path analysis template, Temporal Projection Integrity Engine classification checklist, and competency self-assessment - included in every advocacy package as the working instruments through which a citizen or operator applies the methodology with no digital dependency.</div>
 </div>
 
-<div class="term-entry tool-b">
-<div class="term-row"><span class="term-name">19. Non-Allegatory Framing</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Non-Allegatory Framing</span></div>
 <div class="term-desc">Every MAYHEM output describes system behaviour, structural gaps, and compliance architecture failures - never attributing intent, motivation, or individual culpability. This framing is itself a citizen tool: it means findings survive scrutiny that allegation-based framing does not, and the institution cannot redirect the conversation to the citizen's motives.</div>
 </div>
 
-<h2>Citizen Tools Implied</h2>
-<p class="section-desc">Structurally implied by the architecture but not yet built or tested at operational depth -
-predictions, not deliverables.</p>
-
-<div class="term-entry tool-c">
-<div class="term-row"><span class="term-name">20. Federation as Mutual Legibility</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Federation as Mutual Legibility</span></div>
 <div class="term-desc">Multiple operators running independent investigations into the same system, preserving divergence, producing parallel evidence registers. The convergence across those registers - observable but not forced - produces a legibility no single investigation can. Each register stands independently; the pattern across registers is a structural observation emerging from the federation itself.</div>
 </div>
 
-<div class="term-entry tool-c">
-<div class="term-row"><span class="term-name">21. Temporal Accumulation as Citizen Power</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Temporal Accumulation as Citizen Power</span></div>
 <div class="term-desc">The append-only evidence register and institutional response log gain weight over time. Absence is evidence. Delay is evidence. Time works for the citizen, not against them - the inverse of how institutional process normally operates.</div>
 </div>
 
-<div class="term-entry tool-c">
-<div class="term-row"><span class="term-name">22. Cross-Domain Pattern Detection</span></div>
-<div class="term-desc">A person governed by multiple failing systems - health, housing, disability, child protection - currently experiences each failure separately. MAYHEM applied across domains for the same person or community could surface the structural convergence across systems, rather than treating each as an unconnected problem.</div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Cross-Domain Pattern Detection</span></div>
+<div class="term-desc">A person governed by multiple failing systems - health, housing, disability, child protection - currently experiences each failure separately. MAYHEM applied across domains for the same person or community surfaces the structural convergence across systems, rather than treating each as an unconnected problem.</div>
 </div>
 
-<div class="term-entry tool-c">
-<div class="term-row"><span class="term-name">23. Community Evidence Aggregation</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Community Evidence Aggregation</span></div>
 <div class="term-desc">Multiple people in the same community documenting their experiences of the same system using the lived experience documentation protocol. Aggregated accounts - without statistical or institutional processing - produce pattern evidence the institution does not control.</div>
 </div>
 
-<div class="term-entry tool-c">
-<div class="term-row"><span class="term-name">24. Structural Literacy as Preventative Tool</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Structural Literacy as Preventative Tool</span></div>
 <div class="term-desc">A citizen who understands how a structural harm mechanism operates can recognise it before it completes - identifiable at the point an instrument is introduced, a consultation is announced, or an administrative instrument is published, before the harm is settled.</div>
 </div>
 
-<div class="term-entry tool-c">
-<div class="term-row"><span class="term-name">25. Parallel Verification as Democratic Infrastructure</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Parallel Verification as Democratic Infrastructure</span></div>
 <div class="term-desc">Any completed MAYHEM investigation can be independently verified by any operator using the same methodology on the same evidence base. If findings hold under independent verification, they are strengthened; if not, the divergence is documented and preserved. Self-correcting through replication, not institutional authority.</div>
 </div>
 
-<div class="term-entry tool-c">
-<div class="term-row"><span class="term-name">26. Yield Without Enforcement</span></div>
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Yield Without Enforcement</span></div>
 <div class="term-desc">Chain completion is determined by yield delivery, not enforcement notice production. An investigation can complete at any stage where the governed population received what they needed - legibility, structural visibility, naming capacity, actionable understanding. The investigation runs as far as the benefit requires. No further.</div>
-</div>
-
-<h2>The correction: yield is the baseline</h2>
-<div class="doc-block">
-<h3>MAYHEM-CORRECTION-YIELD-001-v1.0, 29 March 2026</h3>
-<p>MAYHEM's full name - Modular Audit and Yield for Humans Enforcement Mechanism - states the relationship
-explicitly. <b>Modular Audit</b> is the investigative methodology. <b>Yield for Humans</b> is the purpose: every
-operation exists to produce legibility, naming capacity, structural visibility, and actionable understanding for
-the governed population, independent of whether enforcement is reached. <b>Enforcement Mechanism</b> is one
-delivery pathway through which yield arrives - not the only one, and not a mandatory terminal output.</p>
-<p>Chain completion is defined by whether the governed population received yield, not by whether every stage was
-traversed. Some investigations complete at Lattice Atlas, when structural relationships become visible. Some
-complete at DFAPTA, when the governance instrument becomes legible. Some require the full chain through
-Enforcement Notice. The chain runs as far as the benefit requires - no further, and no less.</p>
 </div>
 
 <h2>Where this is applied</h2>
@@ -273,7 +227,7 @@ Enforcement Notice. The chain runs as far as the benefit requires - no further, 
 
 <footer>
 <a class="wordmark" href="../index.html" style="color:#fff"><span>M</span> MAYHEM INVESTIGATIONS</a>
-<p style="margin-top:10px;color:rgb(170,180,175);">Yield Catalogue v1.0.</p>
+<p style="margin-top:10px;color:rgb(170,180,175);">Yield Catalogue.</p>
 </footer>
 
 </body>
