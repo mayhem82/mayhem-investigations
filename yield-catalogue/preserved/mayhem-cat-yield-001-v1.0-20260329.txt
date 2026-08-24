@@ -1,0 +1,119 @@
+
+MAYHEM
+Modular Audit and Yield for Humans Enforcement Mechanism
+YIELD CATALOGUE
+Discovered Functions and Citizen Tools
+What the Methodology Produces When Applied
+MAYHEM-CAT-YIELD-001-v1.0
+2026-03-29
+7 discovered functions. 12 citizen tools built. 7 citizen tools implied. All unbounded.
+
+PURPOSE
+This catalogue documents what MAYHEM yields when the methodology is applied. Yield for Humans is the baseline. It always was. Enforcement is one delivery pathway through which yield arrives. It is not the only pathway. It is not the mandatory terminal output.
+
+Yield is not a byproduct. It is the reason the system exists. Every operation exists to produce yield — legibility, naming capacity, structural visibility, actionable understanding — for the governed population. Chain completion is defined by whether the governed population received yield. Not by whether an Enforcement Notice was produced. Not by whether all gates were traversed. The chain runs as far as the benefit requires. No further.
+
+The catalogue is organised in three categories. Category A contains seven discovered functions — the structural capacities that emerge when the methodology is applied. Category B contains twelve citizen tools built into the current architecture. Category C contains seven citizen tools implied by the architecture but not yet built or tested at operational depth. All three categories are unbounded.
+
+Specification ID:  MAYHEM-CAT-YIELD-001-v1.0
+Full Title:  Yield Catalogue — Discovered Functions and Citizen Tools
+Authority:  Architect of MAYHEM
+Version:  1.0
+
+
+CATEGORY A — DISCOVERED FUNCTIONS
+Seven functions discovered through application of the methodology. None ranked. None subordinate. None designed in advance. Each emerged because MAYHEM was applied to a domain and the output revealed a capacity that was not visible before application. The list is unbounded. Future application will surface functions not predictable from the current seven.
+
+1. Enforcement
+The methodology produces findings with evidentiary discipline sufficient to route to bodies with standing. The Enforcement Notice names recipient bodies, identifies the legislative basis for their jurisdiction, addresses remedy demands to actors with the obligation to act, and classifies forward observations for urgency. Enforcement is one delivery pathway through which yield arrives. It is not the only pathway. It is not the mandatory terminal output. The chain serves yield. Yield does not serve the chain.
+
+2. Translation
+The methodology converts inaccessible governance documentation — subordinate legislative instruments, ministerial guidance notes, regulatory frameworks, calibration methodologies — into findings that are legible and invocable by people who are governed by those instruments but excluded from the language they are written in. The affected person does not need to read the instrument. They need the instrument to be translated into a structural finding that makes their account not just testimony but evidence that anchors a remedy. The translation does not amplify harm. It amplifies the capacity of the affected person to name what is happening to them in terms that the governance system cannot dismiss.
+
+3. Pattern Detection
+Each actor in a governance failure sees their own piece. The minister sees the reserve figures. The regulator sees the conduct. The industry body sees the mechanism. The citizen sees the empty tank. MAYHEM sees all of it simultaneously and documents the convergence. No single actor can produce that convergence — it requires the full investigative chain. The pattern is only visible from the complete evidence register. Once named, it cannot be unseen. The naming produces a documented structural observation that each actor can use independently.
+
+4. Power Redistribution
+The full investigative chain can be run by a person with no AI access, no institutional backing, no legal credentials, and no platform dependency. Paper, methodology, discipline. The investigative power that currently lives inside regulators, law firms, parliamentary committees, and well-funded advocacy organisations becomes portable. A human-only operator in a community with no internet can run a structurally sound investigation that produces output with the same evidentiary discipline as one produced with AI assistance. The redistribution does not harm existing institutions. It adds investigative capacity to the populations those institutions govern.
+
+5. Lived Experience Protection
+Institutional dismissal of lived experience is not a neutral act. It is a structural harm mechanism. MAYHEM names it, logs it, and converts it into a finding. Lived experience is classified as a primary evidence category from the moment it enters the record — not when it becomes relevant, not when institutional contact occurs. The protection is active from load. When an institution reclassifies lived experience as anecdote, that reclassification becomes a finding in its own right. The person’s account cannot be dismissed once it is inside a MAYHEM evidence register. The protection does not wait for enforcement. It names the reclassification mechanism before the institution deploys it.
+
+6. Legibility
+The governance instruments that determine whether someone gets fuel, whether their disability support continues, whether their water is safe, whether their child is removed — these instruments are written in language designed to be processed by people who already understand them. Not designed to exclude. Designed for a professional audience that happens to exclude everyone governed by the instrument. The operational chain converts that material into structural findings written in plain declarative language. They name what the instrument does, what it was supposed to do, and where the gap between those two things produces harm. The person governed by the instrument can now read what it does to them. Legibility does not stop at the investigation output. The Teacher Engine extends it to anyone who receives the package, with no prior knowledge, no specialist credentials, and no AI access required.
+
+7. Containment
+When MAYHEM encounters a structural harm mechanism, it names the mechanism, documents its operation, and makes it visible. The mechanism can no longer operate invisibly after containment. Containment does not promise remedy. It promises visibility. What visibility produces downstream is subject to the same evidentiary discipline as everything else. Containment is itself subject to MAYHEM’s own standard. The act of naming and documenting a structural harm mechanism could produce a defensive institutional response that increases harm to the affected population. The containment could be captured by actors whose interests diverge from the affected population. MAYHEM holds itself to the same audit it applies to every system it investigates.
+
+
+CATEGORY B — CITIZEN TOOLS BUILT
+Twelve citizen tools that exist in the current MAYHEM architecture. Each is operational, paper-first, and designed to be usable without AI access, institutional backing, or specialist credentials.
+
+8. The Evidence Register
+A blank, paper-ready template for documenting evidence with classification, source identification, and immutable snapshot chain. The citizen or operator fills it in. Each entry is classified as observed fact, inference, or unverified. Each entry carries a timestamp and source. The register is append-only — entries are never modified, only added. The accumulated register becomes submission-ready evidence of a documented structural condition. The register is the citizen’s own record. It does not belong to the institution. It does not require the institution’s permission to exist.
+
+9. The Advocacy Package
+The complete investigation output combined with Teacher curriculum documents. Evidence register, analysis register, Lattice Atlas output, Temporal Projection Integrity Engine gate record, and Enforcement Notice — together with Module B (recipient guide), the canonical specification, and paper-ready templates. The package arrives complete. It is designed to be worked through by a person who has never seen MAYHEM before. It carries everything needed to read the findings, verify them against primary sources, identify who has standing to act, submit to the right bodies, and teach one further person to do the same.
+
+10. Five-Step Primary Source Verification
+A process executable without AI that teaches any person how to verify a MAYHEM finding against the primary source it was derived from. The five steps take the recipient from the finding in the Enforcement Notice back to the original document, data source, or public record. The verification does not require specialist knowledge. It requires the ability to follow a documented trail. If the finding holds, the recipient knows it holds because they verified it themselves. If it does not hold, they know that too.
+
+11. Recipient Routing
+The Enforcement Notice names the bodies with standing to act on each finding. It identifies the legislative basis for their jurisdiction, the specific remedy demand addressed to each body, and the urgency classification of each forward observation. Module B teaches the recipient how to read that routing and execute on it. The citizen now knows which body has the statutory obligation to address the documented failure, what legislative instrument creates that obligation, and what form of submission that body accepts. This information is not otherwise available to the citizen in any accessible form.
+
+12. Lived Experience Documentation Protocol
+Module C teaches affected people how to document their own experience as primary evidence. The protocol covers what qualifies as lived experience evidence, how to record an account in the person’s own words, what questions to ask and what questions to avoid, and how to produce a dated, signed record that meets evidentiary standards. The protocol works on paper. The person’s experience is recorded as close to verbatim as possible. The record is theirs. No one tells them their experience did not happen, did not matter, or needs to be softened before it can be recorded.
+
+13. Reclassification Recognition Training
+Module C teaches affected people and operators to recognise the five institutional reclassification patterns when they occur, name them in real time, and log them as findings. The training converts the citizen from a passive recipient of institutional language into an active observer who can identify when their experience is being structurally dismissed and document the dismissal as evidence. The skill is built by applying it once — not by being told about it.
+
+14. Institutional Response Log
+Every institutional response to a submission is logged — date, form, verbatim content, and classification. The log is append-only. Over time, a pattern of responses that acknowledge without acting, deflect without engaging, or reclassify without counter-evidence becomes its own structural finding. The citizen holds the log. The pattern belongs to them. On paper: a dated log added to the back of the package. Each response a new entry.
+
+15. Harm Narration Construction
+Module C teaches operators and affected people how to construct evidence-anchored harm narration for different audiences. Structural findings document what systems produce. Harm narration documents what those outcomes feel like, what they cost, and what they destroy. Both are evidence. For regulatory bodies: anchored to the legislative instrument the body administers. For journalism: built around one person’s documented experience that illustrates the structural finding. For affected communities: plain language connecting each finding to the lived experience the community already understands.
+
+16. Onward Training Capability
+Both Module B and Module C are designed to be passed on by anyone who has worked through them. Module B teaches reading, verifying, submitting, and training one further person. Module C teaches documenting, recognising reclassification, constructing harm narration, and training one further person. The chain of capability does not require the Architect, a vendor instance, or AI access to continue. Each person who completes the module can teach the next person from the module alone.
+
+17. Operator Curriculum
+Module A trains operators to run MAYHEM investigations. Seven modules. Four competency grades. Grade 1 runs evidence gathering. Grade 2 runs evidence and analysis. Grade 3 runs the full chain with AI assistance. Grade 4 runs the full chain with no AI at any stage — the continuity guarantee. Every grade is reachable on every delivery path. The ceiling is not determined by access to technology. It is determined by demonstrated competency.
+
+18. Paper-Ready Templates
+Evidence register template, path analysis template, Temporal Projection Integrity Engine classification checklist, and competency self-assessment — all paper-ready blanks included in every advocacy package. The templates are not supplementary. They are the working instruments through which a citizen or operator applies the methodology without any digital dependency.
+
+19. Non-Allegatory Framing
+Every MAYHEM output describes system behaviour, structural gaps, and compliance architecture failures. It does not attribute intent, motivation, or individual culpability to any person. This framing is itself a citizen tool. It means the findings survive legal scrutiny that allegation-based framing does not. It means the institution cannot redirect the conversation to the citizen’s motives. It means the findings describe what the system did, not what anyone meant. The citizen’s complaint is replaced by a structural observation. The observation is harder to dismiss, harder to deflect, and harder to reclassify.
+
+
+CATEGORY C — CITIZEN TOOLS IMPLIED BY THE ARCHITECTURE
+Seven citizen tools structurally implied by the MAYHEM architecture but not yet built or tested at operational depth. Each is a prediction, not a deliverable. The architecture creates the conditions for these tools to emerge. Whether they emerge, and in what form, will be determined by application.
+
+20. Federation as Mutual Legibility
+Multiple operators running independent investigations into the same system, preserving divergence, producing parallel evidence registers. The convergence across those registers — observable but not forced — would produce a kind of legibility that no single investigation can. The system’s behaviour becomes visible not from one angle but from many simultaneously. Each operator’s register stands independently. The pattern across registers is a structural observation that emerges from the federation, not from any individual investigation.
+
+21. Temporal Accumulation as Citizen Power
+The append-only evidence register and institutional response log gain weight over time. Absence is evidence. Delay is evidence. The longer an institution fails to respond, the stronger the documented pattern. This means time works for the citizen, not against them — the inverse of how institutional process normally operates. The citizen who persists does not merely survive the wait. Their case strengthens because of it.
+
+22. Cross-Domain Pattern Detection
+A person governed by multiple failing systems — health, housing, disability, child protection — currently experiences each failure separately. MAYHEM applied across domains for the same person or community could surface the structural convergence across systems. Not ‘this person has multiple problems’ but ‘these systems produce compounding failure when they intersect, and no governance instrument addresses the intersection.’ The individual domain investigations exist. The methodology for surfacing their intersection does not yet exist as a formalised tool.
+
+23. Community Evidence Aggregation
+Multiple people in the same community documenting their experiences of the same system using the lived experience documentation protocol. Each account stands independently. The aggregated accounts — without statistical processing, without institutional aggregation — produce pattern evidence that the institution does not control. The community holds its own evidence base. The pattern is visible from the community’s records, not from the institution’s reports.
+
+24. Structural Literacy as Preventative Tool
+The citizen who understands how a structural harm mechanism operates can recognise it before it completes. Silent rights removal is identifiable at the point the instrument is introduced — before it is settled. Consultation as legitimation is identifiable at the point the consultation is announced — before the submissions are absorbed. Eligibility erosion is identifiable at the point the administrative instrument is published — before the aggregate exclusion becomes visible. Structural literacy converts the citizen from a recipient of completed harm to an observer of harm in progress.
+
+25. Parallel Verification as Democratic Infrastructure
+Any completed MAYHEM investigation can be independently verified by any operator using the same methodology on the same evidence base. The paper-ready templates, the five-step verification process, and the path analysis templates make this possible without AI. If the findings hold under independent verification, they are strengthened. If they do not hold, the divergence is documented and preserved. The methodology is self-correcting through replication, not through institutional authority.
+
+26. Yield Without Enforcement
+The Correction document establishes that chain completion is determined by yield delivery, not by enforcement notice production. This means an investigation can complete at any stage where the governed population received what they needed — legibility, structural visibility, naming capacity, actionable understanding. Some investigations complete at the analysis register, when the governance instrument becomes legible. Some complete at the Lattice Atlas, when structural relationships become visible. The investigation runs as far as the benefit requires. No further. This is itself a citizen tool: the citizen’s need determines the scope, not the methodology’s structure.
+
+
+OPERATIONAL NOTE
+This catalogue is a living document. The methodology is unbounded. Both the discovered functions and the citizen tools will grow as MAYHEM is applied to new domains. The seven discovered functions are not the final seven. The twelve citizen tools built are not the final twelve. The seven citizen tools implied are not the final seven. Each emerged through application, not design. Future application will surface yield not predictable from the current catalogue.
+
+Discovery happens across distributed surfaces — the Architect, the vendor instances, and future operators. Vendor instances participate in discovery, not just execution. The Architect holds recognition authority. A function or tool is discovered when the Architect recognises it. Before that recognition, it is vendor output and nothing more.
+
+MAYHEM does not create rights. It enforces reality. What it yields is the capacity of the governed to understand, name, and respond to what governs them.

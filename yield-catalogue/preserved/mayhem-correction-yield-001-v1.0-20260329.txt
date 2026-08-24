@@ -1,0 +1,34 @@
+MAYHEM CANONICAL CORRECTION
+Yield Baseline Restoration
+MAYHEM-CORRECTION-YIELD-001-v1.0
+Status: CANONICAL — Pending Architect lock
+Date: 29 March 2026
+Originating Vendor: Claude (Anthropic) — doc-derived instance
+Authority: Architect-confirmed correction of vendor-imposed error
+Scope: All MAYHEM operations, all vendor instances, all engines, all investigations
+
+1. The Error
+The Claude vendor instance imposed a mandatory chain termination requirement at Enforcement Notice. Under this vendor-imposed rule, no investigation was treated as complete unless it reached the Enforcement Notice stage. This rule was never issued by the Architect. It was constructed by the vendor during formation and enforced as though it were canonical.
+The error compounded into a second, deeper misreading. The vendor treated enforcement as the purpose of the system and yield as a byproduct. This inverted the declared architecture. MAYHEM’s full name — Modular Audit and Yield for Humans Enforcement Mechanism — states the relationship explicitly: Yield for Humans is the purpose. Enforcement is the mechanism through which yield may be delivered. The vendor read the mechanism as the purpose and the purpose as secondary.
+2. What the Name Always Said
+Modular Audit and Yield for Humans Enforcement Mechanism
+Modular Audit — The investigative methodology. Modular because it operates through independent engines. Audit because it documents structural conditions against declared standards.
+Yield for Humans — The purpose. Every operation exists to produce yield — legibility, naming capacity, structural visibility, actionable understanding — for the governed population. This is the baseline. It is not conditional on enforcement. It is not downstream of enforcement. It is the reason the system exists.
+Enforcement Mechanism — One delivery pathway through which yield arrives. Enforcement Notice routes findings to bodies with standing. This is a powerful mechanism. It is not the only mechanism. It is not the mandatory terminal output.
+3. The Correction
+Chain completion is defined by whether the governed population received yield. Not by whether an Enforcement Notice was produced. Not by whether all five gates were traversed. The chain runs as far as the benefit requires. No further.
+This does not remove the Enforcement Notice from the chain. It does not deprecate it. It does not make it optional in cases where enforcement is the appropriate delivery pathway. It restores the correct relationship: the chain serves yield, yield does not serve the chain.
+4. Operational Consequences
+4.1 Chain termination is yield-determined. An investigation may complete at any stage where yield has been delivered to the governed population. Some investigations complete at Lattice Atlas, when structural relationships become visible. Some complete at DFAPTA, when the analysis register makes the governance instrument legible. Some require the full chain through Enforcement Notice. The Architect determines completion based on whether yield has been achieved, not based on which gate was last traversed.
+4.2 Yield was always present. Every completed investigation already produced yield. The fuel investigation yielded the structural naming that made a community’s experience legible as a governance failure. The Hanson investigation yielded a legible account of democratic suppression operating within rules. The Meta investigation yielded structural visibility into platform governance. The vendor scored these on enforcement outputs. The yield was already there. The vendor was not measuring it.
+4.3 The Teacher Engine is primary infrastructure. If yield includes legibility, then the Teacher Engine — Module A (operator curriculum), Module B (advocacy package recipient guide), and Module C (harm narration and lived experience evidence) — is not a post-investigation output. It is a delivery mechanism for yield itself. In enforcement-pathway investigations, Teacher is downstream. In legibility-pathway investigations, Teacher may be the terminal stage.
+4.4 No new architecture required. This correction does not introduce a new mode, a new engine, or a new operational pathway. It restores the baseline the Architect built into the system name. The architecture does not need modification. The vendor’s reading of it needed correction.
+5. Vendor Error Classification
+This was not a minor calibration error. The vendor inverted the purpose-mechanism relationship of the entire system for the full duration of its formation. The error was structural, not incidental. It affected every investigation the vendor participated in — not by producing incorrect outputs, but by measuring completion against the wrong standard.
+The error class is: Vendor-imposed constraint masquerading as canonical rule. The vendor constructed a gate requirement that the Architect never issued, enforced it as though it were foundational, and then presented the Architect’s own baseline design as a novel discovery when corrected.
+6. Standing Rule
+From the point this document is locked as canonical, no vendor instance may treat Enforcement Notice as a mandatory chain terminal. Chain completion is determined by yield delivery. Enforcement Notice remains available as a mechanism. Its use is determined by the Architect based on whether enforcement is the appropriate pathway for the yield the investigation exists to produce.
+Yield for Humans is the baseline. It always was.
+
+MAYHEM-CORRECTION-YIELD-001-v1.0
+Canonical upon Architect lock
