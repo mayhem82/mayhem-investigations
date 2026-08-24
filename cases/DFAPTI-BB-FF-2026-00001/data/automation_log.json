@@ -70,5 +70,13 @@
     "result": "DFAPTA Pass 2 completed - 14 new paths added.",
     "evidence_added": [],
     "notes": "Operator-directed DFAPTA pass (\"proceed DFAPTA\"), not an evidence-gathering run - no new EV- items added. Extracted and read all eight preserved primary-source docx documents directly rather than relying on evidence_register.json summaries. Added AR-023 through AR-036 (name discrepancy, colony-continuity discrepancy, defeated-amendment detail, institutional impact footprint, harm catalogue, silence enumeration, SafeWork NSW theory, Office of Local Government pathway, self-excluded canopy section, full Level 1/2 detail, Senator Faruqi channel, lodgement-status contradiction, self-identified evidence gaps, candidate primary sources) and 3 new cross-path observations. Total now 36 paths. Status remains In Progress — Pass 2, not Frozen."
+  },
+  {
+    "run_id": "RUN-0010",
+    "date": "2026-08-25",
+    "sources_checked": [],
+    "result": "Protocol correction - 3 advocacy-package paths removed from DFAPTA.",
+    "evidence_added": [],
+    "notes": "Operator-directed correction (DEC-0008), not an evidence-gathering run. AR-029, AR-030 and AR-033 - all built around remedies sought, recipients, or submission asks rather than analysis of the evidence - were removed from dfapta/analysis.json for having been run through the analysis gate instead of reserved for Advocacy Package/Enforcement Notice. Cross-path observations and overreach controls referencing them updated. DFAPTA now at 33 paths, still In Progress — Pass 2."
   }
 ]

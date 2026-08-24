@@ -351,30 +351,6 @@
       "boundary": "This is the operator's own enumeration of what has not been disclosed - it is a reasonable reading of EV-0004's content, not an independently confirmed audit of council's internal records."
     },
     {
-      "id": "AR-029",
-      "title": "The SafeWork NSW / Work Health and Safety Act 2011 Theory",
-      "analysis": [
-        "The Hardened Submission Package's Part 5 sets out a specific legal theory not previously surfaced in this case: under the Work Health and Safety Act 2011, a person conducting a business or undertaking bears a primary duty to ensure, so far as reasonably practicable, that a workplace and its means of access are without risks to health and safety. The document frames Central Bellbrook Park and its playground as a public facility to which this duty could apply, and characterises council's non-execution of pre-approved Level 1 hygiene and Level 2 buffer actions - despite multi-year documented notice - as a potential failure to discharge that duty. It proposes specific remedies: an immediate site inspection, an Improvement Notice compelling execution of Level 1 measures, and a Prohibition Notice restricting public access to contaminated playground equipment pending disinfection."
-      ],
-      "determinations": [
-        ["AR-029.1", "This is a distinct legal theory from every remedy pathway previously identified in this case (grant-funding gate, GIPA, Ombudsman) - a workplace/public-facility health and safety framing, addressed to SafeWork NSW rather than any environmental or local-government body."]
-      ],
-      "anchors": ["EV-0010"],
-      "boundary": "This theory rests entirely on the uncorroborated Hardened Submission Package (see AR-006, AR-008) and has not been checked against the Work Health and Safety Act 2011's actual application to a public park/playground, which is a genuinely open legal question this case's register cannot resolve. Not adopted as a confirmed pathway - flagged as a candidate for legal review, not asserted."
-    },
-    {
-      "id": "AR-030",
-      "title": "Office of Local Government NSW — An Unlogged Recipient Pathway",
-      "analysis": [
-        "The Hardened Submission Package's Part 5 sets out a specific submission addressed to the Office of Local Government NSW, distinct from the NSW Ombudsman - arguing that the executive branch's four-cycle omission of an operative directive from the business cycle, without a corresponding open resolution, departs from minimum local government transparency standards, and seeking public tabling of the mandated report and an external audit of council's resolution-tracking systems."
-      ],
-      "determinations": [
-        ["AR-030.1", "This is a specific state oversight body - distinct in remit from the NSW Ombudsman - that this case's evidence register and prior analysis had not previously surfaced as a recipient."]
-      ],
-      "anchors": ["EV-0010"],
-      "boundary": "This submission framework, like AR-029, depends on Account Two's uncorroborated resolution numbers (AR-006) - the underlying transparency argument would need to be reframed if those numbers do not hold up."
-    },
-    {
       "id": "AR-031",
       "title": "The Canopy Degradation Section — Explicitly Not Bellbrook-Specific Evidence",
       "analysis": [
@@ -397,18 +373,6 @@
       ],
       "anchors": ["EV-0010", "EV-0012"],
       "boundary": "The 30-metre figure and the itemised action list appear only in the Hardened Submission Package - like other detail from that document, it has not been checked against the primary Code of Practice text itself (Q-0007, DR-004)."
-    },
-    {
-      "id": "AR-033",
-      "title": "Senator Faruqi and Senate Estimates — A Sixth Advocacy Channel",
-      "analysis": [
-        "A drafted letter to Senator Mehreen Faruqi, Deputy Leader of the Australian Greens, asks her to raise Bellbrook flying-fox management at Senate Estimates or by other mechanism, directed at Senator the Hon. Murray Watt, Federal Minister for the Environment and Water - on the basis that the federal government holds jurisdiction over the EPBC-listed species and could be asked whether any federal mechanism exists to support communities where state and local frameworks have not produced an outcome. This channel is entirely separate from the four submissions previously logged in this case's register (council, Ombudsman, and the media pitch's broader recipient list) and was not itemised in EV-0006 or EV-0007."
-      ],
-      "determinations": [
-        ["AR-033.1", "This case's advocacy chain (previously understood as four drafted submissions plus one confirmed Commonwealth registration email, AR-013/AR-021) in fact includes at least a fifth drafted channel - a parliamentary/Senate Estimates request - that this case's register has not separately tracked."]
-      ],
-      "anchors": ["EV-0006", "EV-0007"],
-      "boundary": "Like the council submission and Ombudsman complaint, this letter carries an unsigned 'Resident of Bellbrook NSW 2440' placeholder - its lodgement status is exactly as unconfirmed as the other drafted submissions (see AR-021, AR-034)."
     },
     {
       "id": "AR-034",
@@ -486,9 +450,9 @@
     },
     {
       "id": "CPO-007",
-      "title": "One confirmed action stands apart from five unconfirmed drafts",
-      "analysis": "AR-013, AR-021 and AR-033 together show this case's advocacy record is not a uniform set of 'things the operator tried' - one action (Commonwealth registration) has a confirmed send date and a confirmed reply; five drafted channels (council, Ombudsman, Senator Faruqi, and the media pitch's own broader recipient list) remain unconfirmed. Conflating them would overstate what has actually been attempted - and AR-034 shows one source document actively asserts they were sent while the drafts themselves show no sign of it.",
-      "anchors": "AR-013, AR-021, AR-033, AR-034"
+      "title": "One confirmed action stands apart from four unconfirmed drafts",
+      "analysis": "AR-013 and AR-021 together show this case's advocacy record is not a uniform set of 'things the operator tried' - one action (Commonwealth registration) has a confirmed send date and a confirmed reply; four drafted channels (council, Ombudsman, and two more referenced in the same drafting round) remain unconfirmed. Conflating them would overstate what has actually been attempted - and AR-034 shows one source document actively asserts they were sent while the drafts themselves show no sign of it.",
+      "anchors": "AR-013, AR-021, AR-034"
     },
     {
       "id": "CPO-008",
@@ -498,9 +462,9 @@
     },
     {
       "id": "CPO-009",
-      "title": "The case's strongest and weakest legal theories share one source",
-      "analysis": "AR-006 (the specific resolution numbers), AR-025 (the defeated Rudder Park absorption amendment), AR-029 (the SafeWork NSW/WHS Act theory), AR-030 (the Office of Local Government submission), AR-031 (the self-excluded canopy-degradation section) and AR-032's most specific detail (the 30-metre buffer figure) all originate in the single least-corroborated document in this case, the Hardened Submission Package. This is not a reason to discount them individually - each stands or falls on its own terms - but the concentration is itself worth naming: this case's most legally elaborate material and its most evidentially cautious material are the same document.",
-      "anchors": "AR-006, AR-025, AR-029, AR-030, AR-031, AR-032"
+      "title": "The case's most specific detail and its most cautious sourcing share one document",
+      "analysis": "AR-006 (the specific resolution numbers), AR-025 (the defeated Rudder Park absorption amendment), AR-031 (the self-excluded canopy-degradation section) and AR-032's most specific detail (the 30-metre buffer figure) all originate in the single least-corroborated document in this case, the Hardened Submission Package. This is not a reason to discount them individually - each stands or falls on its own terms - but the concentration is itself worth naming: this case's most granular procedural and technical detail and its most evidentially cautious material are the same document.",
+      "anchors": "AR-006, AR-025, AR-031, AR-032"
     }
   ],
   "disclosure_requests": [
@@ -547,17 +511,19 @@
     "AR-006 and AR-008 do not adopt the Hardened Submission Package's characterisation of council's conduct as non-execution of an affirmative unanimous directive - that characterisation depends on the unresolved CTR-0001 and is not treated as established here.",
     "AR-016 through AR-018 do not present the 'historic' classification as inaccurate or as a confirmed documented-vs-functional gap - CTR-0002 remains genuinely open, with a real alternative explanation (the 2021 departure, AR-018) not yet ruled out.",
     "AR-019 and AR-020 do not claim any Bellbrook resident has experienced histoplasmosis or an ABLV exposure - both are stated as real mechanisms without a confirmed local instance, matching the source evidence's own explicit hedge.",
-    "AR-029 through AR-032 do not adopt the SafeWork NSW theory, the Office of Local Government submission framework, or the 30-metre buffer figure as confirmed - all four originate in the least-corroborated document in this case (see CPO-009) and are presented as candidate material, not established findings.",
+    "AR-031 and AR-032 do not adopt the 30-metre buffer figure or any other Hardened Submission Package detail as confirmed - both originate in the least-corroborated document in this case (see CPO-009) and are presented as candidate material, not established findings.",
     "AR-031 explicitly excludes the Hardened Submission Package's canopy-degradation section from this case's evidentiary basis, matching that section's own self-declared limitation - it is documented here as existing in the source material, not relied upon.",
     "AR-023, AR-024 and AR-034 name real inconsistencies in this case's own frozen source material without resolving them or assuming which side of each is accurate - resolving them is a DFAPTI-level task (confirming facts, obtaining the operator's clarification) that this DFAPTA pass does not perform.",
+    "This analysis does not propose remedies, recipients, or submission strategies for any finding - a SafeWork NSW/Work Health and Safety Act theory and an Office of Local Government NSW submission pathway (originally AR-029, AR-030) and a sixth advocacy channel to Senator Faruqi (originally AR-033) were removed 2026-08-25 after the operator flagged that Advocacy Package-only content - remedies sought, recipients, what to ask them for - had been run through the analysis gate (DEC-0008). DFAPTA states what the evidence and source material show; who to send it to and what to ask for belongs to Enforcement Notice and Advocacy Package, neither of which exists yet.",
     "This pass deliberately does not compress distinct claims of different evidentiary weight into single generic findings (see AR-022, CPO-006, CPO-007 and CPO-008) - the original nine-path pass's central failure was doing exactly that, and is not repeated here.",
     "This is Pass 2 of an explicitly ongoing process. It is not represented as exhaustive relative to future passes, and no downstream stage should be built from it until the operator states DFAPTA itself is frozen."
   ],
   "counts": {
-    "analysis_paths": 36,
-    "analytical_determinations": 36,
+    "analysis_paths": 33,
+    "analytical_determinations": 33,
     "evidence_anchors_referenced": 23,
     "cross_path_observations": 9,
-    "internal_inconsistencies_surfaced_pass_2": 3
+    "internal_inconsistencies_surfaced_pass_2": 3,
+    "note": "AR-029, AR-030 and AR-033 were removed 2026-08-25 (DEC-0008) - advocacy-package content (remedies sought, recipients, submission asks) that had been run through the analysis gate. Numbering left as-is rather than renumbered, so the gap stays traceable to the correction."
   }
 }

@@ -79,5 +79,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0010",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Operator: \"I discovered something that belongs only in the advocacy package but it has been run through analysis gate. that means it hasn't followed protocol.\" Audited all 36 Pass 2 paths for stage-boundary violations rather than asking the operator to name the exact one - found three: AR-029 (SafeWork NSW/WHS Act remedy framework, naming specific notices to seek), AR-030 (Office of Local Government NSW submission, naming a remedy sought), and AR-033 (Senator Faruqi channel, framed around what to ask her to raise). All three were lifted from the Hardened Submission Package's own 'Submission Frameworks' section and describe remedies/recipients/asks - Advocacy Package territory, not analysis of what the evidence shows. Removed all three (DEC-0008), fixed every cross-path observation and overreach-control line referencing them, left the ID gap unclosed for traceability. DFAPTA now at 33 paths. The underlying facts remain in the preserved source material for a future Enforcement Notice/Advocacy Package build, not reintroduced here.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

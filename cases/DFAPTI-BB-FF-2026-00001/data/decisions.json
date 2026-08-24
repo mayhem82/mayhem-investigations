@@ -54,5 +54,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Removed cases/DFAPTI-BB-FF-2026-00001/shm-gate/, lattice-atlas/, temporal-projection-integrity-engine/, enforcement-notice/, and advocacy-package/ in full. Case index.html and dfapti/index.html and dfapta/index.html nav links reverted to reflect only DFAPTI (frozen) and DFAPTA (in progress) as live. DFAPTA itself is being rebuilt through further passes and will not be treated as a valid basis for any downstream stage until the operator explicitly states DFAPTA is frozen - a separate, later event from DEC-0006."
+  },
+  {
+    "decision_id": "DEC-0008",
+    "date": "2026-08-25",
+    "reason": "Operator: \"I discovered something that belongs only in the advocacy package but it has been run through analysis gate. that means it hasn't followed protocol.\" DFAPTA Pass 2 had added three paths (originally AR-029, AR-030, AR-033) built from the Hardened Submission Package's own 'Submission Frameworks' section (Part 5) and Senate Estimates letter: a SafeWork NSW / Work Health and Safety Act remedy framework naming specific notices to seek, an Office of Local Government NSW submission naming a remedy sought, and a Senator Faruqi channel framed around what to ask her to raise. All three describe remedies, recipients, and submission asks - Advocacy Package/Enforcement Notice content by definition - not analysis of what the frozen evidence shows. Building that content inside DFAPTA, before Enforcement Notice or Advocacy Package exist, crossed the same stage boundary DFAPTA's own discipline (\"adds no new evidence\", no downstream stage built before DFAPTA is frozen) is meant to enforce in the other direction.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Removed AR-029, AR-030 and AR-033 from dfapta/analysis.json, along with every cross-path observation and overreach-control line that referenced them. Path numbering left as-is (gap not closed) so the correction stays traceable. The underlying facts these paths described - the SafeWork NSW/WHS Act theory, the Office of Local Government pathway, and the Senator Faruqi letter's existence - remain available in the case's preserved primary-source material and should be properly incorporated into Enforcement Notice/Advocacy Package when those stages are rebuilt, not reintroduced into DFAPTA."
   }
 ]
