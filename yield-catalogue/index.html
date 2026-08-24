@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="description" content="Yield Catalogue v1.0 (MAYHEM-CAT-YIELD-001-v1.0): what an investigation can hand back to a community before Enforcement is reached. This repository has only ever been given fragments of it, applied to one case - this page documents exactly those fragments and is explicit about the gaps." />
+<title>MAYHEM - Yield Catalogue</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
+<style>
+:root { --ink: #17201c; --paper: #f2f0e9; --cream: #e8e4da; --acid: #d8ff3e; --red: #ef6045; --muted: #68716c; --line: #c8cbc3; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: var(--paper); color: var(--ink); margin: 0; font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; }
+.nav { border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); z-index: 10; background: rgba(242,240,233,.94); justify-content: space-between; align-items: center; height: 68px; padding: 0 5vw; display: flex; position: sticky; top: 0; }
+.wordmark { letter-spacing: .1em; align-items: center; gap: 10px; font-size: 13px; font-weight: 900; display: flex; text-decoration: none; color: var(--ink); }
+.wordmark span { background: var(--ink); color: var(--acid); padding: 0 6px; height: 28px; display: grid; place-items: center; font-size: 11px; }
+.navlinks { align-items: center; gap: 22px; font-size: 12px; font-weight: 700; display: flex; }
+.navlinks a { text-decoration: none; }
+.intro { padding: 56px 7vw 30px; max-width: 900px; }
+.kicker { text-transform: uppercase; letter-spacing: .16em; font-size: 11px; font-weight: 800; color: var(--red); margin: 0 0 14px; }
+.intro h1 { letter-spacing: -.03em; font-size: clamp(34px,5vw,58px); line-height: 1.03; margin: 0 0 16px; font-weight: 900; }
+.intro p.lead { font-family: Georgia, serif; font-size: clamp(17px,1.6vw,21px); line-height: 1.5; color: rgb(56,67,62); max-width: 760px; margin: 0 0 20px; }
+.gap-notice { border-left: 6px solid var(--red); background: rgb(248,246,240); padding: 22px 26px; margin: 24px 0 8px; max-width: 800px; line-height: 1.6; font-size: 14.5px; color: rgb(69,80,74); }
+.gap-notice b { display: block; text-transform: uppercase; letter-spacing: .07em; font-size: 11px; margin-bottom: 8px; color: var(--red); }
+.section { padding: 24px 7vw 10px; max-width: 1000px; }
+.section h2 { letter-spacing: -.03em; font-size: clamp(24px,3vw,34px); margin: 40px 0 6px; }
+.section-desc { color: var(--muted); max-width: 700px; line-height: 1.6; margin: 0 0 24px; font-size: 14.5px; }
+.term-entry { background: rgb(245,243,236); border-top: 5px solid var(--line); padding: 18px 22px; margin-bottom: 10px; }
+.term-entry.fn { border-top-color: var(--acid); }
+.term-entry.tool { border-top-color: rgb(143,200,255); }
+.term-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.term-name { font-weight: 800; letter-spacing: -.01em; font-size: 16px; }
+.cat-badge { display: inline-block; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; padding: 2px 8px; background: var(--cream); color: var(--muted); }
+.term-desc { font-size: 15px; line-height: 1.55; margin-top: 8px; color: rgb(69,80,74); font-family: Georgia, serif; }
+.term-source { font-size: 12.5px; color: var(--muted); margin-top: 8px; }
+.term-source a { color: var(--red); text-decoration: underline; text-underline-offset: 2px; }
+.gap-row { display: flex; align-items: center; gap: 10px; padding: 10px 22px; border-top: 5px dashed var(--line); background: rgba(200,203,195,.18); color: var(--muted); font-size: 13.5px; margin-bottom: 10px; }
+.doc-block { background: rgb(248,246,240); border-left: 6px solid var(--line); padding: 22px 26px; margin: 16px 0 30px; line-height: 1.65; color: rgb(69,80,74); font-size: 14.5px; }
+footer { color: #fff; background: rgb(16,23,19); padding: 46px 7vw; margin-top: 40px; font-size: 13px; line-height: 1.6; }
+footer a { text-decoration: underline; text-underline-offset: 2px; }
+@media (max-width: 760px) {
+  .nav { height: 60px; }
+  .intro, .section { padding-left: 6vw; padding-right: 6vw; }
+  .term-entry { padding: 14px 16px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Primary navigation">
+<a class="wordmark" href="../index.html"><span>M</span> MAYHEM INVESTIGATIONS</a>
+<div class="navlinks">
+<a href="../index.html">All cases</a>
+<a href="../catalogue/index.html">SHM catalogue</a>
+<a href="../public-interest/index.html">Public interest</a>
+</div>
+</nav>
+
+<header class="intro">
+<p class="kicker">Reference &middot; Yield Catalogue</p>
+<h1>What an investigation can hand back before Enforcement is even reached.</h1>
+<p class="lead">The Structural Harm Mechanism Catalogue names how institutions produce harm. The Yield Catalogue -
+v1.0, MAYHEM-CAT-YIELD-001 - names the other side: what a community actually gets from an investigation at each
+stage, independent of whether a formal complaint or Enforcement Notice ever gets sent. Functions describe what the
+investigation is doing (translation, pattern detection, legibility). Citizen tools are the concrete, numbered
+deliverables that come out of it.</p>
+
+<div class="gap-notice">
+<b>This is not the full catalogue</b>
+Unlike the Structural Harm Mechanism Catalogue - supplied to this repository as a complete, canonical 68-entry
+document (<code>catalogue/mechanisms.json</code>) - the Yield Catalogue has never been supplied to this repository
+in full. Everything below comes from one source: the frozen Mechanism Register in
+<a href="../cases/DFAPTI-TA-FF-2026-00001/index.html">DFAPTI-TA-FF-2026-00001</a>, which applied the Yield
+Catalogue against that one case and described 8 Functions and 5 named Citizen Tools. The Citizen Tools are
+numbered 8, 9, 19, 20 and 26 - not 1 through 5 - which on its face means a larger catalogue exists that this
+repository has not been given. The Functions are numbered 1 through 8 with no gaps, which may mean that set is
+complete, but no standalone Yield Catalogue document has confirmed that. Nothing on this page should be treated as
+the definitive scope of the Yield Catalogue - only as what has actually been supplied and applied so far.
+</div>
+</header>
+
+<main class="section">
+<h2>Functions (8 of 8 described, source: one case)</h2>
+<p class="section-desc">Every function below is the Mechanism Register's own account of whether that function is
+active, complete, or available-but-not-yet-produced for DFAPTI-TA-FF-2026-00001 specifically - not a general
+definition of the function independent of that case. Requires Verification, consistent with every other item
+carried over from this case's source material (see that case's DEC-0001).</p>
+
+<div class="term-entry fn">
+<div class="term-row"><span class="term-name">Function 1 — Enforcement</span><span class="cat-badge">Available, not yet produced</span></div>
+<div class="term-desc">The investigation had reached Lattice Atlas at the time this register was frozen. Temporal Projection Integrity Engine classification was named as the next stage before an Enforcement Notice could be produced.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026.</div>
+</div>
+
+<div class="term-entry fn">
+<div class="term-row"><span class="term-name">Function 2 — Translation</span><span class="cat-badge">Active</span></div>
+<div class="term-desc">The Lattice Atlas converted intersecting legislative instruments, grant programs, monitoring architecture, and council procedures into plain structural findings - described as removing the need for specialist knowledge to understand the governance architecture governing the situation.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026.</div>
+</div>
+
+<div class="term-entry fn">
+<div class="term-row"><span class="term-name">Function 3 — Pattern Detection</span><span class="cat-badge">Active and complete</span></div>
+<div class="term-desc">The corridor pattern - Taylors Arm and Bellbrook as a regional structural failure across two local government areas - was documented as visible and part of the record.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026.</div>
+</div>
+
+<div class="term-entry fn">
+<div class="term-row"><span class="term-name">Function 4 — Power Redistribution</span><span class="cat-badge">Active</span></div>
+<div class="term-desc">Described as the investigation producing primary-source documented findings from publicly available records, without institutional backing, legal credentials, or council cooperation.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026.</div>
+</div>
+
+<div class="term-entry fn">
+<div class="term-row"><span class="term-name">Function 5 — Lived Experience Protection</span><span class="cat-badge">Active</span></div>
+<div class="term-desc">The resident's account (EVID-006) was classified as primary evidence, recorded in verbatim form as reflected in council minutes, and described as unable to be reclassified as anecdote inside the investigation.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026.</div>
+</div>
+
+<div class="term-entry fn">
+<div class="term-row"><span class="term-name">Function 6 — Legibility</span><span class="cat-badge">Active</span></div>
+<div class="term-desc">Described as the Lattice Atlas making legible what council's obligations are, what pathways are available, what the grant programs are, and what the camp registration mechanism is - structural legibility the community was not otherwise given by council's non-response.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026.</div>
+</div>
+
+<div class="term-entry fn">
+<div class="term-row"><span class="term-name">Function 7 — Containment</span><span class="cat-badge">Active</span></div>
+<div class="term-desc">Described as thirteen structural harm mechanisms having been named and documented as operative in the case, such that they can no longer operate invisibly within the investigation.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026.</div>
+</div>
+
+<div class="term-entry fn">
+<div class="term-row"><span class="term-name">Function 8 — Temporal Inversion</span><span class="cat-badge">Active</span></div>
+<div class="term-desc">Framed as the 37-month response void amplifying the documented case: every month that passed without response becomes evidence, not absence, and the Outstanding Actions register's silence across that period becomes part of the structural record. Also cited directly inside the Mechanism 10 (Time as Structural Harm Mechanism) entry in this case's SHM Gate.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026. Cross-referenced in <a href="../cases/DFAPTI-TA-FF-2026-00001/shm-gate/index.html">SHM Gate</a>.</div>
+</div>
+
+<h2>Citizen Tools (5 named, gaps in the numbering)</h2>
+<p class="section-desc">Numbered 8, 9, 19, 20 and 26 in the source material - the gaps below are shown deliberately,
+not filled in. This repository has no information about Citizen Tools 1-7, 10-18, 21-25, or anything past 26.</p>
+
+<div class="gap-row">Citizen Tools 1 – 7 — not supplied to this repository</div>
+
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Citizen Tool 8 — The Evidence Register</span><span class="cat-badge">Produced</span></div>
+<div class="term-desc">Described as the completed tool: the frozen evidence register, EVID-001 to EVID-076.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026. Live version: <a href="../cases/DFAPTI-TA-FF-2026-00001/dfapti/index.html">DFAPTI</a>.</div>
+</div>
+
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Citizen Tool 9 — The Advocacy Package</span><span class="cat-badge">Available, pending instruction</span></div>
+<div class="term-desc">Named as the next yield output available, pending further instruction from the case's original author, as at the 16 June 2026 freeze.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026. Live version: <a href="../cases/DFAPTI-TA-FF-2026-00001/advocacy-package/index.html">Advocacy Package</a>.</div>
+</div>
+
+<div class="gap-row">Citizen Tools 10 – 18 — not supplied to this repository</div>
+
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Citizen Tool 19 — Non-Allegatory Framing</span><span class="cat-badge">Active throughout</span></div>
+<div class="term-desc">Described as every finding in the investigation describing system behaviour, with no intent attributed to any actor - framed as making the findings structurally harder to dismiss than allegation-based framing. Consistent with this repository's own separate, independently-established discipline on allegation-free findings.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026.</div>
+</div>
+
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Citizen Tool 20 — Federation as Mutual Legibility</span><span class="cat-badge">Implied</span></div>
+<div class="term-desc">The source material itself labels this one "(implied)," not confirmed. Framed as the cross-jurisdiction corridor finding linking Taylors Arm and Bellbrook being the beginning of a federation pattern - two communities, two registers, one structural observation - with a combined submission named as the tool's next step.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026.</div>
+</div>
+
+<div class="gap-row">Citizen Tools 21 – 25 — not supplied to this repository</div>
+
+<div class="term-entry tool">
+<div class="term-row"><span class="term-name">Citizen Tool 26 — Yield Without Enforcement</span><span class="cat-badge">Available</span></div>
+<div class="term-desc">Described as the investigation having produced legibility, structural visibility, and naming capacity sufficient to constitute yield at the current stage, independent of whether the chain advances to a formal Enforcement Notice.</div>
+<div class="term-source">Source: Mechanism Register, DFAPTI-TA-FF-2026-00001, 16 June 2026.</div>
+</div>
+
+<h2>Where this is applied</h2>
+<div class="doc-block">Only one case on this site cites the Yield Catalogue at all:
+<a href="../cases/DFAPTI-TA-FF-2026-00001/index.html">DFAPTI-TA-FF-2026-00001</a> (Taylors Arm), in its preserved
+Mechanism Register. No other case's source material references it, and this repository has not independently
+verified any of the above against a standalone Yield Catalogue document - there isn't one to check against yet.
+If a future case supplies more of the catalogue, or the gaps above get filled in, this page should grow the same
+way the Structural Harm Mechanism Catalogue's own "Discovered Through Investigation" section does - by adding what
+gets confirmed, not by guessing at what the gaps might contain.</div>
+
+<h2>What this is not</h2>
+<div class="doc-block">This is not a claim that the Yield Catalogue only has 8 functions and 26 citizen tools -
+the numbering gaps above are strong evidence it has more. It is not a legal or regulatory instrument. Every
+function and tool above is presented exactly as this case's own frozen source material described it, carrying
+that case's own "Requires Verification" status - not independently confirmed by this repository against a
+canonical source, because no canonical source has been supplied.</div>
+</main>
+
+<footer>
+<a class="wordmark" href="../index.html" style="color:#fff"><span>M</span> MAYHEM INVESTIGATIONS</a>
+<p style="margin-top:10px;color:rgb(170,180,175);">Yield Catalogue - partial, as referenced.</p>
+</footer>
+
+</body>
+</html>
