@@ -70,5 +70,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "Removed AR-023 from dfapta/analysis.json, along with its references in CPO-008 and the overreach controls. Path numbering left as-is (a second gap, alongside AR-029/030/033) so both corrections stay traceable. DFAPTA now at 32 paths. 'Paul Hodgkinson' should be read as a scribal variant of 'Paul Hodgson' throughout this case's material, not as a possible second individual."
+  },
+  {
+    "decision_id": "DEC-0010",
+    "date": "2026-08-25",
+    "reason": "Operator: \"it appears have been allowed into DFAPTI, a critical error on your behalf.\" This refines and worsens DEC-0009's diagnosis. source_register.json's SRC-0006 entry - logged 2026-08-22 at case creation, three days before AR-023 was written - already states the Hardened Submission Package \"spells the community representative's surname 'Hodgkinson,' inconsistent with 'Hodgson' used in every other document and in SRC-0001,\" recorded as a plain observation, not an open question. DFAPTA Pass 2 did not cross-check source_register.json before building AR-023, so a fact DFAPTI's own frozen record had already correctly settled was re-litigated as an unresolved discrepancy. Checked AR-024 (colony continuity) and AR-034 (lodgement contradiction) against source_register.json for the same gap - neither is pre-existing there, so both remain genuinely new findings.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "No further content change - AR-023 was already removed under DEC-0009. Establishes the methodological rule for all future DFAPTA passes on this case: cross-check source_register.json (not only evidence_register.json) before treating anything as a new finding, since DFAPTI-level source verification may have already resolved it."
   }
 ]

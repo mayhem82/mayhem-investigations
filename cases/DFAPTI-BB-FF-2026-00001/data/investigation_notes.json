@@ -97,5 +97,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0012",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Operator: \"it appears have been allowed into DFAPTI, a critical error on your behalf.\" Checked - this refines NOTE-0011's diagnosis and makes it more serious. source_register.json's SRC-0006 entry (the Hardened Submission Package's own source record, logged 2026-08-22 at case creation, well before today's DFAPTA work) already states: \"Also spells the community representative's surname 'Hodgkinson,' inconsistent with 'Hodgson' used in every other document and in SRC-0001.\" DFAPTI had already correctly resolved this three days before AR-023 existed - a plain observation, not a hedge about a possibly-different person. The actual failure was not recognising a spelling variant in isolation - it was building DFAPTA Pass 2 without cross-checking source_register.json, so a fact DFAPTI's own frozen record already settled got re-litigated as an open discrepancy. Checked whether the same gap affected AR-024 (colony continuity) or AR-034 (lodgement contradiction) - source_register.json contains no prior mention of either, so both remain genuinely new findings, not duplicates of existing DFAPTI content. Lesson: DFAPTA must read the whole frozen DFAPTI record (source_register.json included, not just evidence_register.json) before treating anything as newly discovered.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

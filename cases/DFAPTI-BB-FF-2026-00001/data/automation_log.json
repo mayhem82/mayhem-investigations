@@ -86,5 +86,13 @@
     "result": "Quality correction - AR-023 removed as an over-elevated spelling variant.",
     "evidence_added": [],
     "notes": "Operator-directed correction (DEC-0009), not an evidence-gathering run. AR-023 treated 'Paul Hodgkinson' (one document) as possibly distinct from 'Paul Hodgson' (five documents) rather than recognising an obvious transcription artefact. Removed from dfapta/analysis.json; CPO-008 and overreach controls updated. DFAPTA now at 32 paths, still In Progress — Pass 2."
+  },
+  {
+    "run_id": "RUN-0012",
+    "date": "2026-08-25",
+    "sources_checked": ["SRC-0006"],
+    "result": "Root-cause refinement - DFAPTA Pass 2 had not cross-checked source_register.json.",
+    "evidence_added": [],
+    "notes": "Operator-directed root-cause check (DEC-0010), not an evidence-gathering run. Confirmed source_register.json's SRC-0006 entry already correctly noted the Hodgkinson/Hodgson spelling variant at case creation (2026-08-22), three days before AR-023 re-treated it as unresolved. Checked source_register.json for prior mentions of AR-024 (colony continuity) and AR-034 (lodgement contradiction) - none found, both remain genuinely new. Updated dfapta/analysis.json's evidence_basis_note to record the methodological fix: cross-check source_register.json, not only evidence_register.json, before treating anything as newly discovered."
   }
 ]
