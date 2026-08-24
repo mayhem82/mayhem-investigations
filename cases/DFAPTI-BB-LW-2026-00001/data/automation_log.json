@@ -6,5 +6,13 @@
     "result": "New evidence added.",
     "evidence_added": ["EV-0001", "EV-0002", "EV-0003", "EV-0004", "EV-0005", "EV-0006", "EV-0007", "EV-0008", "EV-0009", "EV-0010", "EV-0011", "EV-0012", "EV-0013", "EV-0014", "EV-0015", "EV-0016", "EV-0017", "EV-0018", "EV-0019", "EV-0020", "EV-0021", "EV-0022", "EV-0023", "EV-0024", "EV-0025", "EV-0026", "EV-0027", "EV-0028", "EV-0029", "EV-0030", "EV-0031", "EV-0032", "EV-0033", "EV-0034", "EV-0035", "EV-0036", "EV-0037", "EV-0038", "EV-0039", "EV-0040", "EV-0041", "EV-0042", "EV-0043", "EV-0044", "EV-0045", "EV-0046", "EV-0047", "EV-0048", "EV-0049", "EV-0050", "EV-0051"],
     "notes": "Case ingestion run. Operator supplied twelve docx documents (two exact duplicates) forming a complete prior six-stage investigation conducted 2026-07-17/18 under an earlier, self-authored framework (MAYHEM-GOV-LANEWAY-001). This run: (1) fixed nothing new (the docx-extraction bug fixed during the flying-fox case intake was already in place), (2) parsed the 51-entry Evidence Register programmatically into this repository's schema, (3) found and logged a real internal inconsistency between the press release/MP letter (describing advocacy actions as already sent) and the recipient guide/unsigned templates (instructing sending as a future step) - CTR-0002, DEC-0002, (4) independently re-fetched and confirmed the single most load-bearing external document (Crown Lands Policy IND-O-250) against its actual PDF text, upgrading three items to Verified - the only independent verification performed this run, (5) attempted but failed to independently confirm the Roads Act 1993 provisions (both austlii.edu.au and legislation.nsw.gov.au blocked automated fetch with HTTP 403). Every other item carries this repository's own \"Requires Verification\"/\"Unverified\" status regardless of the original register's self-classification, per DEC-0001."
+  },
+  {
+    "run_id": "RUN-0002",
+    "date": "2026-08-25",
+    "sources_checked": ["yield-catalogue/index.html (repository-level reference page)"],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Site-wide framing update, not an evidence-gathering run: applied Yield Catalogue framing (Yield for Humans as the always-required baseline, Enforcement as one delivery pathway among several) to this case's Enforcement Notice and Advocacy Package pages. No new evidence, no change to remedy demands or recipients. See DEC-0003."
   }
 ]

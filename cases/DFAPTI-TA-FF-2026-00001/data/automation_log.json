@@ -14,5 +14,13 @@
     "result": "New evidence added.",
     "evidence_added": ["EV-0077"],
     "notes": "Operator pasted a real email exchange between themselves and DCCEEW regarding a registration attempt for the comparable Bellbrook camp (this repository's own adjacent case, DFAPTI-BB-FF-2026-00001) - a deliberate attempt made after learning any member of the public could register a camp, and confirmed by the operator to have been unsuccessful. DCCEEW's reply states the National Flying Fox Monitoring Program has had no operating capacity since 2022. Cross-referenced into this case as EV-0077 since it bears directly on this case's own remedy demands and forward assessments, which treat camp notification as a live near-term action - see CTR-0003, Q-0011, DEC-0005. Frozen stage content (TPIE, SHM Gate, Enforcement Notice, Advocacy Package) is not edited; the update is preserved via new evidence and a new contradiction instead."
+  },
+  {
+    "run_id": "RUN-0003",
+    "date": "2026-08-25",
+    "sources_checked": ["yield-catalogue/index.html (repository-level reference page)"],
+    "result": "No relevant change detected.",
+    "evidence_added": [],
+    "notes": "Site-wide framing update, not an evidence-gathering run: applied Yield Catalogue framing (Yield for Humans as the always-required baseline, Enforcement as one delivery pathway among several) to this case's Enforcement Notice and Advocacy Package pages. No new evidence, no change to remedy demands or recipients. See DEC-0006."
   }
 ]

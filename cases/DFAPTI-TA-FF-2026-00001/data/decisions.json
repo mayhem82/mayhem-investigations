@@ -38,5 +38,13 @@
     "supporting_evidence": ["EV-0077"],
     "investigator": "mayhem82",
     "impact": "EV-0077 added (cross-referenced from DFAPTI-BB-FF-2026-00001). CTR-0003 and Q-0011 opened. THR-03 updated to flag that its own most-actionable finding is materially weaker than the frozen Lattice Atlas states."
+  },
+  {
+    "decision_id": "DEC-0006",
+    "date": "2026-08-25",
+    "reason": "The operator supplied the actual Yield Catalogue (MAYHEM-CAT-YIELD-001, current canon: 11 Discovered Functions, 19 Citizen Tools) and corrected this repository's earlier assumption that Enforcement is the terminal or mandatory stage of an investigation. Applied that framing to this case's Enforcement Notice and Advocacy Package pages: Yield for Humans is not a gate either document has to pass through - it is the always-required, paramount purpose MAYHEM exists to produce. Enforcement is one delivery pathway for that yield among several, not a completion requirement.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "enforcement-notice/index.html and advocacy-package/index.html both updated with a Yield framing note, each linking to the repository-level yield-catalogue/index.html reference page. No case evidence, analysis, or remedy content changed - this is a framing addition only."
   }
 ]

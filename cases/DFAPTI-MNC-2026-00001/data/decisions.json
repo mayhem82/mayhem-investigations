@@ -123,5 +123,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "AR-008 (dfapta/analysis.json) and the SHM Gate Definitional Control match_note (shm-gate/data.json) now describe \"Kemp's bail laws\" as a \"widely used\" rather than \"politically convenient\" label. No factual claim, citation, or conclusion changed - wording only, to keep the finding aimed at the definitional gap rather than at Kemp's motives."
+  },
+  {
+    "decision_id": "DEC-0015",
+    "date": "2026-08-25",
+    "reason": "The operator supplied the actual Yield Catalogue (MAYHEM-CAT-YIELD-001, current canon: 11 Discovered Functions, 19 Citizen Tools) and corrected this repository's earlier assumption that Enforcement is the terminal or mandatory stage of an investigation. Applied that framing to this case's Enforcement Notice and Advocacy Package pages: Yield for Humans is not a gate either document has to pass through - it is the always-required, paramount purpose MAYHEM exists to produce. Enforcement is one delivery pathway for that yield among several, not a completion requirement.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "enforcement-notice/index.html and advocacy-package/index.html both updated with a Yield framing note, each linking to the repository-level yield-catalogue/index.html reference page. No case evidence, analysis, or remedy content changed - this is a framing addition only."
   }
 ]

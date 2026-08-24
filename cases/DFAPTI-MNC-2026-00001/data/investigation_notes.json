@@ -376,5 +376,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0043",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Added Yield Catalogue framing to this case's Enforcement Notice (before any recipient or remedy demand) and Advocacy Package (naming its own components - Evidence Register, Five-Step Verification, non-allegatory framing - as Citizen Tools already delivered, independent of enforcement outcome). Applied identically across every case with a built Enforcement Notice, per the operator's instruction to apply the Yield Catalogue everywhere rather than to a single case. See DEC-0015.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
