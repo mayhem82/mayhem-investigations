@@ -1,0 +1,88 @@
+{
+  "gate_id": "SHM-GATE-DFAPTI-BB-FF-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-BB-FF-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-25",
+  "freeze_date": "2026-08-25",
+  "freeze_decision": "DEC-0006",
+  "basis_note": "Applies the operator's Structural Harm Mechanism (SHM) Catalogue - a set of named institutional-dysfunction patterns built by the operator from pattern detection across past cases - against this case's own frozen DFAPTA cross-pattern analysis (9 paths, EV-0001-EV-0023). The catalogue is applied only to evidence already gathered; it played no role in what evidence was collected. A mechanism is listed as Applied only where this case's own DFAPTA paths already contain a matching finding with real EV- citations. Nothing here goes beyond what those paths already established, and neither of this case's two open contradictions (CTR-0001, CTR-0002) is treated as resolved by any match below.",
+  "catalogue_reference": "Structural Harm Mechanism Catalogue (operator-authored, 68 named mechanisms; this gate cites 5)",
+  "position_in_chain": "Applied after DFAPTA (Stage 2), before Lattice Atlas (Stage 3) - a known-patterns check against frozen evidence, distinct from Lattice Atlas's search for new, not-yet-named emergent patterns.",
+  "root_finding": {
+    "title": "Documented Activity vs. Governance Instrument",
+    "statement": "This case's own DFAPTA baseline states the distinction directly: Council's own 18 March 2026 letter documents a substantial record of activity - correspondence, meetings, monitoring, a stated funding intention - while disclosing no commitment to the specific instrument, a completed or draft Camp Management Plan, that its own funding intention depends on (AR-004). That instrument functions as the system-designed precondition for grant access (AR-001), no logged mechanism exists to register the report-back's repeated absence (AR-003), a structurally similar gap exists one level up at the Commonwealth (AR-006), and the full cost of pursuing any of it - drafting, escalation, a Commonwealth registration attempt - falls on the operator and residents, not on either institution (AR-009).",
+    "roles": [
+      { "mechanism_no": 9, "role": "core_instance", "role_label": "The named instance", "role_note": "Council's own letter documents activity toward a funding intention without reaching the specific instrument that intention depends on - documented process substituting for the outcome (AR-004)." },
+      { "mechanism_no": 52, "role": "gates_the_remedy", "role_label": "What the missing instrument gates", "role_note": "The NSW grant program treats plan-possession as its own eligibility filter; a working precedent exists in-shire (Rudder Park) and funding exists elsewhere specifically to produce this exact instrument (Mount Isa) (AR-001)." },
+      { "mechanism_no": 11, "role": "enables_the_gap", "role_label": "Why the gap stays uncounted", "role_note": "No item on Bellbrook appears in the October, November, December 2025 or February 2026 agendas, regardless of which account of the May resolution is accurate - and no mechanism logs that repeated absence as a failure (AR-003)." },
+      { "mechanism_no": 14, "role": "separate_layer", "role_label": "The same shape, one level up", "role_note": "DCCEEW's own reply confirms the Commonwealth camp-monitoring program has been paused since 2022 and redirects to state-level engagement - a structurally similar handoff gap, independent of anything Council has or hasn't done (AR-006)." },
+      { "mechanism_no": 46, "role": "cost_of_the_gap", "role_label": "Who bears the cost of the gap", "role_note": "Four drafted formal submissions and one confirmed-sent Commonwealth registration attempt represent real time and effort the operator and residents have spent; neither institution bears a comparable cost for the gap persisting (AR-009)." }
+    ]
+  },
+  "applied": [
+    {
+      "mechanism_no": 9,
+      "name": "Documented Compliance as Shield",
+      "definition": "The institution points to the process it completed - the review, the consultation, the assessment - as evidence that the obligation was met. The process was completed. The outcome the process was supposed to produce was not achieved. Documented compliance substituted for functional compliance. This is the load-bearing distinction in every MAYHEM investigation.",
+      "status": "APPLIED - this case's own dedicated analytical finding",
+      "match_note": "Council's own 18 March 2026 letter (EV-0004) documents correspondence, a community meeting, door-knocking, monitoring, a school support letter and a stated funding intention - and discloses no commitment to the specific governance instrument, a Bellbrook Camp Management Plan, that its own stated funding intention depends on.",
+      "paths": ["AR-004"],
+      "anchors": ["EV-0002", "EV-0004", "EV-0011", "EV-0017"]
+    },
+    {
+      "mechanism_no": 52,
+      "name": "Assessment as Gatekeeping",
+      "definition": "Access to a service or right requires passing an assessment. The assessment criteria are designed by the system. The assessment produces a binary outcome - eligible or ineligible. The criteria may be technically neutral but functionally exclusionary. Reassessment after a failed attempt imposes additional cost on the citizen. The mechanism is the interposition of a system-designed filter between the citizen and the entitlement the system is obligated to provide.",
+      "status": "APPLIED - reasonable match, not a perfect one",
+      "match_note": "The NSW grant program's plan-possession precondition functions as the case's clearest system-designed filter: a real, working precedent exists for exactly this instrument inside Council's own shire (Rudder Park, EV-0002), and two further councils show the mechanism funded and operating elsewhere, including one funded specifically to develop the plan itself (Townsville EV-0020, Mount Isa EV-0021). This is a looser fit than the catalogue's own \"assessment\" framing - the precondition is a document Council itself would produce, not a test applied to the resident - flagged here rather than silently upgraded to a cleaner-sounding label.",
+      "paths": ["AR-001"],
+      "anchors": ["EV-0002", "EV-0011", "EV-0017", "EV-0020", "EV-0021"]
+    },
+    {
+      "mechanism_no": 11,
+      "name": "Silence and Non-Response",
+      "definition": "The institution was required to act or respond. It did neither. The silence is not noted because no mechanism exists to log it. The absence of action is invisible to every observer except the person who was waiting for the response.",
+      "status": "APPLIED - confirmed by the case's own record",
+      "match_note": "Independent of which of the three competing accounts of the May 2025 meeting is accurate, no item on Bellbrook flying-fox management appears in the October, November or December 2025, or February 2026 agendas (EV-0005) - a repeated absence with no mechanism in this case's register that formally registers it as a missed commitment.",
+      "paths": ["AR-003"],
+      "anchors": ["EV-0001", "EV-0003", "EV-0005", "EV-0014"]
+    },
+    {
+      "mechanism_no": 14,
+      "name": "Jurisdictional Escape",
+      "definition": "Accountability is avoided through jurisdictional handoff or ambiguity. One level approves under one framework; another rejects under a different framework; the first precedent remains undisturbed. Obligations transfer before the receiving system is capable. The citizen falls through the gap between two systems, each of which claims the other is responsible.",
+      "status": "APPLIED - confirmed by direct institutional correspondence",
+      "match_note": "DCCEEW's own reply (EV-0023) to the operator's registration attempt (EV-0022) states the National Flying Fox Monitoring Program was paused in 2022, that the Department cannot currently send resources to survey the camp, and recommends engaging the relevant state government instead - a documented handoff to a level of government whose own pathway this case has not yet confirmed exists or functions (Q-0011).",
+      "paths": ["AR-006"],
+      "anchors": ["EV-0022", "EV-0023"]
+    },
+    {
+      "mechanism_no": 46,
+      "name": "Accountability Cost Externalisation",
+      "definition": "The cost of holding the system to account is borne entirely by the citizen, not by the system. The citizen spends time, money, emotional capacity, and social capital to file complaints, pursue escalation, attend hearings, prepare submissions. The system absorbs these at no cost to itself. If the citizen stops, the complaint dies.",
+      "status": "APPLIED - confirmed by the case's own advocacy record",
+      "match_note": "Four separate formal submissions were drafted for simultaneous lodgement with council, state and federal representatives, and the NSW Ombudsman (EV-0006, EV-0007), and a Commonwealth registration attempt was independently made and answered (EV-0022, EV-0023) - all real time and effort borne by the operator and residents, with no comparable cost falling on either institution for the underlying gaps persisting.",
+      "paths": ["AR-009"],
+      "anchors": ["EV-0006", "EV-0007", "EV-0022", "EV-0023"]
+    }
+  ],
+  "risk_provisional": [
+    {
+      "mechanism_no": 9,
+      "name": "Documented Compliance as Shield",
+      "definition": "The institution points to the process it completed - the review, the consultation, the assessment - as evidence that the obligation was met. The process was completed. The outcome the process was supposed to produce was not achieved. Documented compliance substituted for functional compliance. This is the load-bearing distinction in every MAYHEM investigation.",
+      "status": "RISK / PROVISIONAL - the underlying path stops short of confirming this",
+      "match_note": "If Council's current page genuinely lists Bellbrook as 'historic' while the camp remains actively, severely impactful (EV-0015, EV-0016), that would be a second, cleaner instance of this same mechanism - a documented classification not matching functional reality. AR-007 explicitly does not reach that finding: EV-0013's independently-found 2021 departure is a real, plausible alternative explanation for the classification that has not been ruled out, and CTR-0002 remains genuinely Open.",
+      "paths": ["AR-007"],
+      "anchors": ["EV-0013", "EV-0015", "EV-0016"]
+    }
+  ],
+  "candidate_new_mechanisms": [],
+  "not_claimed": [
+    "No mechanism above is treated as resolving CTR-0001 (the meeting-account dispute) or CTR-0002 (the camp-classification dispute) - both remain Open and are carried forward from DFAPTA unresolved.",
+    "Mechanism 52 (Assessment as Gatekeeping) is flagged as a reasonable but imperfect fit for AR-001's funding-precondition finding, not a clean catalogue match - see its own match_note.",
+    "No claim is made about why Council has not produced a Bellbrook-specific plan, or why the Commonwealth program was paused - only that both gaps exist on the documented record.",
+    "No intent is attributed to any individual councillor, council officer, or Commonwealth official at any point in this gate.",
+    "This gate does not assess the health-risk mechanisms (AR-008) or the Level 1/2 management-action question (AR-005) against the catalogue - neither surfaced a clean or risk-provisional match this cycle."
+  ]
+}
