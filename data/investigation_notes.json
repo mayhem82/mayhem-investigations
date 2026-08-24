@@ -1204,5 +1204,59 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0135",
+    "timestamp": "2026-08-24T17:15:00Z",
+    "activity_type": "Researching",
+    "text": "RUN-0071: resumed DFAPTI-BB-2026-00001 (this case had gone longer without a genuine evidence-collection pass than DFAPTI-MNC-2026-00001: RUN-0068 on 2026-08-22 vs MNC's RUN-0011 on 2026-08-23; RUN-0069/RUN-0070 were non-evidentiary site-framing/Yield Gate work, not collection runs). Reviewed open_questions.json, threads.json, contradictions.json and automation_log.json first, per this run's operator prompt, to identify angles not already search-exhausted and avoid repeating RUN-0068's exact query wording.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0136",
+    "timestamp": "2026-08-24T17:18:00Z",
+    "activity_type": "Checking Source",
+    "text": "Confirmed via a live WebFetch control call to example.com that this session's fetch tool remains EGRESS_BLOCKED, same organizational egress policy as every prior run since DEC-0008/DEC-0012, while WebSearch functions normally. No attempt made to route around the block, per DEC-0006.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0137",
+    "timestamp": "2026-08-24T17:45:00Z",
+    "activity_type": "Finding",
+    "text": "Located the previously-unlocated Drinking Water Management System Annual Water Quality Report for July 2022-June 2023 (EV-0076/SRC-0108), under a fourth file-naming convention for this report series beyond the three already documented in EV-0065. This directly answers half of Q-0008. A further dedicated search for the 2021-2022 edition, including guessing the same naming convention for that year, did not locate it - that year remains genuinely unaccounted for, not merely unsearched.",
+    "related_thread": "THR-03",
+    "related_source": "SRC-0108",
+    "related_evidence": "EV-0076"
+  },
+  {
+    "note_id": "NOTE-0138",
+    "timestamp": "2026-08-24T17:52:00Z",
+    "activity_type": "Researching",
+    "text": "Investigated a lead from a search snippet suggesting a distinct \"Bellbrook Water Treatment Plant\" might exist among Council capital works (relevant to Q-0002/THR-14). Two further, differently-worded searches did not corroborate this - one directly contradicted it, stating Council's major water treatment infrastructure projects are the Steuart McIntyre Dam plant, Crescent Head, and Willawarrin, \"but not a separate Bellbrook Water Treatment Plant\". Treated as a likely AI-search-summary artifact rather than a real project and not registered as evidence, consistent with this investigation's practice of ruling out leads that don't survive a second look rather than forcing a result.",
+    "related_thread": "THR-14",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0139",
+    "timestamp": "2026-08-24T18:05:00Z",
+    "activity_type": "Researching",
+    "text": "Also swept fresh angles this run on Q-0001/Q-0005 (commissioning/construction status - no 2026-dated update beyond the existing March 2025 \"early 2026\"/\"late 2026\" targets found; one AI search summary appeared to conflate the Willawarrin and Steuart McIntyre Dam plants' separate completion dates, not treated as reliable), Q-0003 (cost rise - no new scope-change detail beyond what's already registered), Q-0006 (three more search-snippet corroborations of 14 September 2024 as Kempsey's polling day, including the Council's own voting-day notice and the NSWEC's own Kempsey page - still short of this question's established bar of a preserved primary document, so not newly closed), Q-0007/THR-06 (no new material on why Willawarrin/Bellbrook remain unconnected to the main network beyond the existing bore-vs-dam framing), Q-0009 (no LC Water contract terms, performance security, or commissioning-deadline detail located), and THR-05 (no 2026-dated Macleay River/dam level data beyond 2023 reporting). All genuinely search-exhausted this run, not newly closed.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0140",
+    "timestamp": "2026-08-24T18:12:00Z",
+    "activity_type": "Decision",
+    "text": "scripts/validate.js flagged 5 pre-existing errors from RUN-0069/RUN-0070/NOTE-0134 (non-source-id sources_checked entries and an out-of-enum activity_type), none introduced by this run. Recorded as DEC-0022 rather than silently edited, since Automation Log and Investigation Notes records are documented as strictly append-only in docs/DATA_MODEL.md and this run did not create those entries. This run's own new records introduce no new validation errors.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

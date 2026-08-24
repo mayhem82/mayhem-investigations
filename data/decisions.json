@@ -208,5 +208,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "yield-gate/index.html, app.js and data.json added. Linked from this case's own index.html and from every other stage page's nav-drawer. Linked from the repository-level yield-catalogue/index.html's 'Where this is applied' section."
+  },
+  {
+    "decision_id": "DEC-0022",
+    "date": "2026-08-24",
+    "reason": "This run's scripts/validate.js pass surfaced 5 pre-existing errors, none introduced by this run's own evidence-collection work: automation_log.json[RUN-0069] and [RUN-0070] list sources_checked values (\"yield-catalogue/index.html (repository-level reference page)\", \"dfapta/analysis.json (AR-025 re-read directly)\", \"lattice-atlas/patterns.json\", \"shm-gate/data.json\") that are not registered source_ids, and investigation_notes.json[NOTE-0134] uses activity_type \"Investigation\", which is not one of the six enumerated values in docs/DATA_MODEL.md. Both defects were introduced by RUN-0069/RUN-0070 (the non-evidentiary Yield Gate/framing work under DEC-0020/DEC-0021), which checked this case's own internal analysis artifacts rather than external registered sources, and logged that under a schema built for source_ids and a fixed activity_type enum.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Left RUN-0069, RUN-0070 and NOTE-0134 unmodified rather than editing them to pass validation: docs/DATA_MODEL.md is explicit that Automation Log and Investigation Notes records are strictly append-only, and this investigation's own standing practice (see e.g. the Source Register's append-only field boundary) is to correct history by adding a new record, never by mutating an old one in place - not something this evidence-collection run should do unilaterally to entries it did not create, still less to work an outside instruction to hold this run to the repository's own standards more strictly than usual. Recorded here instead, honestly, as an open structural gap for the operator: either the validator's automation_log.sources_checked rule needs a documented exception for internal-artifact-review runs, or those two runs' internal-reference checks need registering as real Source Register entries after the fact via a new record, and NOTE-0134's activity_type needs a superseding note or a sixth enum value added to the schema. This run's own new records (RUN-0071 and its search/evidence/source additions) were written to conform to the existing schema and introduce no new validation errors."
   }
 ]

@@ -876,7 +876,9 @@
   {
     "run_id": "RUN-0069",
     "date": "2026-08-25",
-    "sources_checked": ["yield-catalogue/index.html (repository-level reference page)"],
+    "sources_checked": [
+      "yield-catalogue/index.html (repository-level reference page)"
+    ],
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Site-wide framing update, not an evidence-gathering run: applied Yield Catalogue framing (Yield for Humans as the always-required baseline, Enforcement as one delivery pathway among several) to this case's Enforcement Notice and Advocacy Package pages. No new evidence, no change to remedy demands or recipients. See DEC-0020."
@@ -884,9 +886,30 @@
   {
     "run_id": "RUN-0070",
     "date": "2026-08-25",
-    "sources_checked": ["dfapta/analysis.json (AR-025 re-read directly)", "lattice-atlas/patterns.json", "shm-gate/data.json"],
+    "sources_checked": [
+      "dfapta/analysis.json (AR-025 re-read directly)",
+      "lattice-atlas/patterns.json",
+      "shm-gate/data.json"
+    ],
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Built this case's Yield Gate (yield-gate/data.json) - assessed all 11 Discovered Functions and 19 Citizen Tools against this case's own frozen material. No new evidence added; this is an analytical assessment of already-frozen content, not a new evidence-gathering pass. See DEC-0021."
+  },
+  {
+    "run_id": "RUN-0071",
+    "date": "2026-08-24",
+    "sources_checked": [
+      "SRC-0010",
+      "SRC-0011",
+      "SRC-0012",
+      "SRC-0018",
+      "SRC-0047",
+      "SRC-0108"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0076"
+    ],
+    "notes": "Automated evidence-collection pass on DFAPTI-BB-2026-00001, chosen over DFAPTI-MNC-2026-00001 to keep the two cases' collection cadence roughly even (MNC's last genuine collection run was RUN-0011 on 2026-08-23; BB's was RUN-0068 on 2026-08-22, with RUN-0069/RUN-0070 being non-evidentiary Yield Gate/site-framing work rather than collection). Confirmed via a live control fetch (example.com) that WebFetch remains EGRESS_BLOCKED this session, same organizational egress policy as every prior run since DEC-0008/DEC-0012, while WebSearch functions normally; no attempt made to route around the block, per DEC-0006. Ran a 25-query multi-angle sweep (SRCH-0286 to SRCH-0310) per DEC-0014's full-surface cadence, covering Q-0001, Q-0002, Q-0003, Q-0005, Q-0006, Q-0007, Q-0008, Q-0009 and THR-03/05/06/07/08/09/10/12/13/14. One genuinely new finding registered: the previously-unlocated Drinking Water Management System Annual Water Quality Report for July 2022-June 2023 (EV-0076/SRC-0108), under a fourth distinct file-naming convention for this report series beyond the three already documented in EV-0065 - directly answers half of Q-0008; the 2021-2022 edition remains genuinely unlocated despite a further dedicated search this run. Investigated and ruled out a search-snippet lead suggesting a separate \"Bellbrook Water Treatment Plant\" project (Q-0002/THR-14) - a second, independently-worded search directly contradicted it; not registered as evidence. No new material found on Q-0001/Q-0003/Q-0005/Q-0007/Q-0009/THR-05/THR-06 beyond what is already on record; three further search-snippet corroborations of 14 September 2024 as Kempsey's council-election polling day (Q-0006) were found but remain short of this question's established bar of a preserved primary document, so Q-0006 is not newly closed. scripts/validate.js surfaced 5 pre-existing errors from RUN-0069/RUN-0070/NOTE-0134 unrelated to this run's own additions; recorded as DEC-0022 rather than edited, per this repository's append-only rule for Automation Log and Investigation Notes records."
   }
 ]

@@ -1969,5 +1969,31 @@
     "open_question_links": [
       "Q-0005"
     ]
+  },
+  {
+    "evidence_id": "EV-0076",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-08-24",
+    "source_date": "2024-06-17",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Water Quality Report, July 2022-June 2023",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/dwms-annual-wq-report-2022-2023_v.1_final.1.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "kempsey.nsw.gov.au is EGRESS_BLOCKED to this session's fetch tool (same organizational egress policy as DEC-0008/DEC-0012); content known only via search-engine snippets this session, not a fetched/preserved copy.",
+    "evidence_description": "Two independently-worded WebSearch queries this run each returned the same PDF URL for a previously-unlocated Drinking Water Management System Annual Water Quality Report covering July 2022-June 2023, under a fourth distinct file-naming convention for this report series (\"dwms-annual-wq-report-2022-2023_v.1_final.1.pdf\") beyond the three already documented in EV-0065. Search snippets state the report was prepared by Bobbie Brenton (Water Quality Officer), passed through internal Council review and external review by the North Coast Public Health Unit, and was approved 17 June 2024 by Wes Trotter (Director Utilities) - nearly a year after the reporting period it covers ended. A further dedicated search this run for the 2021-2022 edition, including guesses at the same naming convention, did not locate it; that year remains unaccounted for.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Directly answers half of Q-0008 by locating one of the two previously-missing annual report editions (2022-2023), and extends EV-0065's documented pattern from three file-naming conventions to (at least) four, further supporting EV-0065's observation that convention changes have made the report series hard to audit externally rather than resolving it. Does not resolve the remaining half of Q-0008 (the 2021-2022 edition is still unlocated) or itself address Q-0001/Q-0002/Q-0003. Bears on THR-03/THR-04 (iron/manganese contamination) and THR-08 (treatment plant) only insofar as this report's actual water-quality data - not yet fetched - may speak to those threads in a future run once access allows.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0065"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0008"
+    ]
   }
 ]

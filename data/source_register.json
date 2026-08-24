@@ -1496,5 +1496,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-13",
     "availability_notes": "nationalwatergrid.gov.au and dcceew.gov.au both return EGRESS_BLOCKED to this session's fetch tool (same organizational egress policy as DEC-0008/DEC-0012). Search-engine summaries of this page state a funding breakdown ($12.5m Cwlth NWGF, $17,225,000 NSW Government, $14.18m Kempsey Shire Council, $9m Cwlth Housing Support Program) that conflicts with the $13.2m/$27.1m breakdown already registered from three other independent dated sources (EV-0005, EV-0029, and a 27 Mar 2025 Macleay Argus Mayor's column) - see EV-0075/CTR-0002. A companion Australian Pipeliner article (pipeliner.com.au, dated 24 Mar 2025) independently reproduces the same $17,225,000/$14.18m/$9m figures."
+  },
+  {
+    "source_id": "SRC-0108",
+    "authority": "Kempsey Shire Council",
+    "title": "Drinking Water Management System Annual Water Quality Report, July 2022-June 2023",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/dwms-annual-wq-report-2022-2023_v.1_final.1.pdf",
+    "first_checked": "2026-08-24",
+    "last_checked": "2026-08-24",
+    "current_version": "Initial check",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-03",
+    "availability_notes": "Located via WebSearch this run (RUN-0071); a fourth distinct file-naming convention for this report series beyond the three already documented in EV-0065 (docs/departments/water-amp-sewer/dwms-annual-wq-report-YYYY-YYYY_v.N_final.N.pdf). Search-engine snippet states the report was prepared by Bobbie Brenton (Water Quality Officer), reviewed by the North Coast Public Health Unit, and approved 17 June 2024 by Wes Trotter (Director Utilities) - i.e. published nearly a year after the reporting period closed. Fetch-blocked (EGRESS_BLOCKED, DEC-0008/DEC-0012); content known only via search snippet, not yet preserved/hashed. Directly answers half of Q-0008 (locates the previously-unlocated 2022-2023 edition); the 2021-2022 edition remains unlocated despite a further dedicated search this run."
   }
 ]

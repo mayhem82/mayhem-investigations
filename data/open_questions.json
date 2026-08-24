@@ -100,7 +100,7 @@
       "EV-0031",
       "EV-0065"
     ],
-    "evidence_required_to_resolve": "Direct location of the 2021-2022 and 2022-2023 reports (or Council confirmation that no report was produced for those years and why), and a stable, current index page for the full report series.",
+    "evidence_required_to_resolve": "Direct location of the 2021-2022 and 2022-2023 reports (or Council confirmation that no report was produced for those years and why), and a stable, current index page for the full report series. RUN-0071 (2026-08-24): located the 2022-2023 edition (EV-0076/SRC-0108), under a fourth, previously-untried naming convention (\"dwms-annual-wq-report-2022-2023_v.1_final.1.pdf\"). This closes half of the question - the 2021-2022 edition remains unlocated despite a further dedicated search this run trying the same naming convention and guessed variants for that year; still not found, and still not resolved to the point of a preserved primary document for the 2022-2023 edition either, since kempsey.nsw.gov.au remains fetch-blocked this session.",
     "likely_source": "Kempsey Shire Council's water and sewer publications page; NSW Health's Drinking Water Database (referenced but not directly queried in this case); a GIPA request if not publicly located.",
     "status": "Open",
     "resolution_evidence": []
