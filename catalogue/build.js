@@ -111,6 +111,7 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
 <div class="navlinks">
 <a href="../public-interest/index.html">Public interest</a>
 <a href="../glossary/index.html">Glossary</a>
+<a href="../yield-catalogue/index.html">Yield catalogue</a>
 <a href="../index.html">All cases</a>
 </div>
 </nav>
