@@ -1046,5 +1046,13 @@
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Built this case's Yield Gate (yield-gate/data.json) - assessed all 11 Discovered Functions and 19 Citizen Tools against this case's own frozen material. No new evidence added; this is an analytical assessment of already-frozen content, not a new evidence-gathering pass. See DEC-0016."
+  },
+  {
+    "run_id": "RUN-0014",
+    "date": "2026-08-25",
+    "sources_checked": [],
+    "result": "Downstream gates removed; DFAPTA Pass 2 begun.",
+    "evidence_added": [],
+    "notes": "Operator-directed correction (DEC-0017), not an evidence-gathering run. Cycle 1 DFAPTA (22 paths) found to anchor only 102 of 827 frozen evidence items - 12.3% coverage. SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice and Advocacy Package removed since all six were built on that incomplete basis. Existing 22 paths retained as Pass 1 - specific and accurate, just incomplete, unlike BB-FF's original generic pass. Site-wide references fixed (catalogue, yield-catalogue, public-interest/structural-patterns)."
   }
 ]

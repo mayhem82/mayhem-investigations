@@ -394,5 +394,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0045",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Following the protocol correction applied to DFAPTI-BB-FF-2026-00001 today, checked this case's own DFAPTA against the same standard before the operator asked: 22 paths anchor only 102 of 827 frozen evidence items (12.3% coverage). Reported this to the operator, who confirmed (\"Agreed about MNC\") the same treatment should apply: remove downstream gates, rebuild DFAPTA toward genuine coverage. Removed SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice and Advocacy Package (DEC-0017). Unlike BB-FF's original nine paths, these 22 are specific and accurate, not generic - retained as Pass 1 rather than discarded. Also fixed every site-wide reference to the removed pages: catalogue/index.html and yield-catalogue/index.html's 'Where this is applied' lists, and withdrew public-interest/structural-patterns/index.html's Mid North Coast section (built directly on the now-removed SHM Gate) pending rebuild.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

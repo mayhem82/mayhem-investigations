@@ -150,10 +150,10 @@ above, offered back for the operator's own catalogue development.</p>
 <h2>Where this is applied</h2>
 <p class="section-desc">Each case's SHM Gate cross-references this catalogue against that case's own frozen DFAPTA
 analysis, citing real evidence for every match: <a href="../cases/DFAPTI-BB-2026-00001/shm-gate/index.html">DFAPTI-BB-2026-00001</a>,
-<a href="../cases/DFAPTI-MNC-2026-00001/shm-gate/index.html">DFAPTI-MNC-2026-00001</a>,
 <a href="../cases/DFAPTI-BB-LW-2026-00001/shm-gate/index.html">DFAPTI-BB-LW-2026-00001</a>,
 <a href="../cases/DFAPTI-TA-FF-2026-00001/shm-gate/index.html">DFAPTI-TA-FF-2026-00001</a>. DFAPTI-BB-FF-2026-00001's
-SHM Gate is not yet built - its DFAPTA is still in progress (multiple passes, not yet frozen).</p>
+and DFAPTI-MNC-2026-00001's SHM Gates are not yet built - both cases' DFAPTA analyses are still in progress
+(multiple passes, not yet frozen).</p>
 </main>
 
 <footer>

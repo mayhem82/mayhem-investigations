@@ -139,5 +139,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "yield-gate/index.html, app.js and data.json added. Linked from this case's own index.html and from every other stage page's nav-drawer. Linked from the repository-level yield-catalogue/index.html's 'Where this is applied' section."
+  },
+  {
+    "decision_id": "DEC-0017",
+    "date": "2026-08-25",
+    "reason": "Applying the same protocol correction made on DFAPTI-BB-FF-2026-00001 (DEC-0007 through DEC-0010) after the operator agreed it should extend to this case (\"Agreed about MNC\"). Audit found the Cycle 1 DFAPTA (22 paths, built 2026-08-17 under the same single-pass \"freeze evidence register and proceed with gates\" model as BB-FF's original insufficient pass) anchors only 102 of 827 frozen evidence items - 12.3% coverage. The paths that exist are specific and accurate, not generic - a different failure mode from BB-FF's original nine-path pass - but still far short of the coverage \"Deep Forensic All Paths Taken Analysis\" requires at this case's scale, and every downstream stage (SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) was built on that incomplete basis.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Removed cases/DFAPTI-MNC-2026-00001/shm-gate/, yield-gate/, lattice-atlas/, temporal-projection-integrity-engine/, enforcement-notice/, and advocacy-package/ in full. Case index.html, dfapti/index.html and dfapta/index.html nav reverted to reflect only DFAPTI (live) and DFAPTA (in progress) as built. Removed the corresponding SHM Gate and Yield Gate links from catalogue/index.html and yield-catalogue/index.html, and withdrew the public-interest/structural-patterns/index.html section built on the removed SHM Gate pending its rebuild. DFAPTA's existing 22 paths are retained as Pass 1 (not discarded, unlike BB-FF's) - Pass 2 expands coverage toward the remaining ~725 evidence items. No downstream stage is rebuilt until the operator states DFAPTA itself is frozen."
   }
 ]
