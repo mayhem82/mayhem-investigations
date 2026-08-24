@@ -1,0 +1,192 @@
+{
+  "analysis_id": "DFAPTA-BB-FF-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-BB-FF-2026-00001",
+  "cycle": 1,
+  "status": "Frozen",
+  "analysis_commenced": "2026-08-25",
+  "evidence_basis_note": "Reads across the frozen evidence register EV-0001 through EV-0023, frozen 2026-08-25 per DEC-0006. Every determination below inherits the register's own classification/verification_state - most items remain \"Requires Verification\"/\"Unverified\". Both CTR-0001 and CTR-0002 were still Open at freeze and are carried forward here as unresolved, not narrated toward a conclusion this register does not yet support.",
+  "paths": [
+    {
+      "id": "AR-001",
+      "title": "Management Plan Gap and Grant-Access Analysis",
+      "analysis": [
+        "Kempsey Shire Council has completed exactly one Flying-fox Camp Management Plan in its whole shire - Rudder Park, East Kempsey, in 2022 (EV-0002). No plan exists, or is in draft, for Bellbrook (EV-0017). Access to the NSW Government's roughly $1 million flying-fox camp management grants program requires a completed or draft plan for the specific site (EV-0011) - without one, Bellbrook cannot lawfully receive plan-gated funding regardless of any application Council makes.",
+        "Two further comparators outside Kempsey Shire show this mechanism is neither rare nor unfunded elsewhere: Townsville City Council operates and actively revises a working plan covering 16 roosts (EV-0020), and Mount Isa City Council is developing a new plan funded specifically for that development work by a Queensland Government grant program (EV-0021) - direct evidence that state/territory funding exists to pay for plan development itself, not only implementation."
+      ],
+      "determinations": [
+        ["AR-001.1", "The absence of a Bellbrook management plan is not explained by an absence of a funding mechanism to produce one - a working precedent for exactly this exists inside Council's own shire (Rudder Park), and two further councils demonstrate the same mechanism funded and operating elsewhere."]
+      ],
+      "anchors": ["EV-0002", "EV-0011", "EV-0017", "EV-0020", "EV-0021"],
+      "boundary": "Does not confirm the NSW grant program's exact eligibility terms against its own published guidelines - that claim currently rests on operator-supplied fact sheets, not primary DCCEEW documentation (Q-0002 open)."
+    },
+    {
+      "id": "AR-002",
+      "title": "May 2025 Meeting Account Analysis",
+      "analysis": [
+        "Three accounts of the 20 May 2025 council meeting remain in tension. Seven of eight original source documents, plus the independently-fetched Macleay Argus (EV-0001), describe a discretionary decline on budget grounds with an informal hope to revisit in October. The Hardened Submission Package (EV-0010) describes a specific numbered sequence - Resolution 2025.79, a defeated 2/7 amendment, and Resolution 2025.80 passed 9/0 directing investigation and an October report-back. Operator-relayed research (EV-0014) partially bridges the two: an affirmative resolution to investigate and report back, without the specific numbers or vote count.",
+        "What actually followed - a council-organised community meeting in August 2025 and door-to-door visits in September 2025 (EV-0004) - reads more naturally as fulfilling a resolution to investigate than as unprompted goodwill after a flat decline, which lends some weight to the affirmative-resolution reading. But EV-0010's specific resolution numbers and 9/0 vote count remain uncorroborated by any other document in the case, including the one independently-fetched source."
+      ],
+      "determinations": [
+        ["AR-002.1", "The balance of evidence has shifted toward council having passed some affirmative resolution to investigate and report back, rather than merely declining and hoping to revisit - but the specific resolution numbers and vote count in EV-0010 remain unconfirmed and should not be treated as established, consistent with that evidence item's own recorded caution."]
+      ],
+      "anchors": ["EV-0001", "EV-0003", "EV-0005", "EV-0010", "EV-0014"],
+      "boundary": "Does not resolve CTR-0001. The signed confirmed minutes have not been obtained; this remains an open contradiction carried forward from the frozen register, not a conclusion this analysis reaches."
+    },
+    {
+      "id": "AR-003",
+      "title": "October Report-Back Absence Analysis",
+      "analysis": [
+        "Independent of which account of the May 2025 meeting is accurate, no item on Bellbrook flying-fox management appears in the October 2025 council agenda or confirmed minutes (EV-0005). The Hardened Submission Package extends this absence to the November, December 2025 and February 2026 meeting cycles as well (EV-0005) - a claim the underlying October absence itself is consistent across every document that addresses it, independent of the package's own framing of what that absence means."
+      ],
+      "determinations": [
+        ["AR-003.1", "Whatever council resolved in May 2025, the report-back component of it - on any of the three competing accounts - did not occur on the timeline council itself indicated."]
+      ],
+      "anchors": ["EV-0001", "EV-0003", "EV-0005", "EV-0014"],
+      "boundary": "Does not adopt the Hardened Submission Package's framing of this as non-execution of an affirmative unanimous directive - that framing's evidentiary weight depends entirely on the unresolved CTR-0001. This path states only the report-back's absence, not its legal character."
+    },
+    {
+      "id": "AR-004",
+      "title": "Documented Activity vs. Governance Instrument Analysis",
+      "analysis": [
+        "Council's own 18 March 2026 letter to Bellbrook residents (EV-0004) describes a substantial record of activity: correspondence to NSW DCCEEW and the Local Health District, a 2025 community meeting, door-to-door visits, ongoing camp monitoring, a letter of support to Bellbrook Public School, and a stated intention to seek external grants. It discloses no outcome, no confirmed grant application, and no commitment to develop a management plan.",
+        "Set against AR-001's finding that a completed plan is the actual access mechanism for the funding council says it intends to seek, the letter documents process without reaching the specific governance instrument that process would need to produce."
+      ],
+      "determinations": [
+        ["AR-004.1", "Council's own account of its activity is a record of process, not of the outcome - a completed or draft management plan - that its own funding intention depends on."]
+      ],
+      "anchors": ["EV-0004", "EV-0002", "EV-0011", "EV-0017"],
+      "boundary": "Does not claim the described activity is insincere or performed in bad faith - only that, on the documented record, it has not yet reached the specific instrument the funding pathway requires."
+    },
+    {
+      "id": "AR-005",
+      "title": "Available Management Actions vs. Legal-Protection Framing",
+      "analysis": [
+        "The NSW Flying-fox Camp Management Code of Practice 2018 pre-approves certain Level 1 (routine site management, hygiene cleaning, signage) and Level 2 (vegetation buffer creation, branch trimming) interventions without individual licensing, subject to welfare-based scheduling conditions (EV-0012). Protected-species status prevents dispersal or lethal control of the colony itself; it does not prevent these lower-tier management actions."
+      ],
+      "determinations": [
+        ["AR-005.1", "Legal protection of the species does not by itself explain an absence of any interim Level 1/Level 2 action at the site - those actions are described as available without individual licensing."]
+      ],
+      "anchors": ["EV-0012"],
+      "boundary": "The description of what the Code of Practice permits has not yet been checked against the primary regulatory text itself (Q-0007 open) - this path relies on two cross-corroborating but secondary operator-supplied documents."
+    },
+    {
+      "id": "AR-006",
+      "title": "Commonwealth Camp-Registration Pathway Analysis",
+      "analysis": [
+        "The operator's own confirmed-sent registration attempt (EV-0022, 18 June 2026) notified DCCEEW of the Bellbrook camp and requested a formal species count. DCCEEW's substantive reply (EV-0023) states the National Flying Fox Monitoring Program was paused in 2022 due to a cessation of federal funding, that the Department is not currently monitoring flying-fox camps under that program and cannot send resources to survey Bellbrook, that grey-headed flying-foxes remain federally protected, and that a camp meeting the EPBC Act's 'nationally important camp' threshold would still require referral - recommending state-level engagement in the meantime."
+      ],
+      "determinations": [
+        ["AR-006.1", "The Commonwealth camp-registration/monitoring pathway is not currently functional for a new camp via this route, independent of anything Kempsey Shire Council has or has not done - a distinct, Commonwealth-level structural gap from the council-level findings above."]
+      ],
+      "anchors": ["EV-0022", "EV-0023"],
+      "boundary": "Does not determine whether Bellbrook's colony meets the EPBC Act's 'nationally important camp' threshold that would still trigger a referral obligation regardless of the paused program (Q-0011 open)."
+    },
+    {
+      "id": "AR-007",
+      "title": "Camp Classification vs. Functional Reality Analysis",
+      "analysis": [
+        "Operator-relayed research states Council's current flying-fox page lists Bellbrook as a 'historic' camp (EV-0016), with partial independent corroboration via an unrelated search snippet. A June 2026 report is said to describe the camp as severely affecting residents (EV-0015), but this repository has not located that report despite an extensive independent search.",
+        "Independently found evidence complicates a straightforward documented-vs-functional reading: Council's own 27 October 2021 page reports the colony left Bellbrook that year, with the playground subsequently cleaned and reopened (EV-0013) - a real, plausible basis for a 'historic' classification that would not represent any inaccuracy on Council's part, if the colony has not returned."
+      ],
+      "determinations": [
+        ["AR-007.1", "This case's own frozen register cannot yet establish whether the 'historic' classification is a documented-vs-functional gap or an accurate description of a camp that genuinely relocated in 2021 - EV-0013 provides a real alternative explanation this analysis has not ruled out."]
+      ],
+      "anchors": ["EV-0013", "EV-0015", "EV-0016"],
+      "boundary": "Does not resolve CTR-0002. Explicitly does not present the classification as inaccurate or as evidence of a documented-vs-functional gap - that would overstate what the frozen register currently supports."
+    },
+    {
+      "id": "AR-008",
+      "title": "Health Risk Mechanism Analysis",
+      "analysis": [
+        "Histoplasmosis, a fungal lung/bloodstream infection from inhaling spores in accumulated droppings, is a real, medically documented mechanism under heavy direct droppings accumulation (EV-0008); no confirmed local case exists. Separately, Australian bat lyssavirus (ABLV) is a real, medically serious bite/scratch transmission risk documented in official health guidance (EV-0018, EV-0019); this case has no evidence of a Bellbrook-specific bite or scratch exposure."
+      ],
+      "determinations": [
+        ["AR-008.1", "Two distinct, medically documented health-risk mechanisms exist in principle for a community living near a heavily-accumulated flying-fox camp; neither is confirmed as having produced a Bellbrook-specific case in this case's register."]
+      ],
+      "anchors": ["EV-0008", "EV-0018", "EV-0019"],
+      "boundary": "Must not be read as a claim that any Bellbrook resident has been sickened - both source items and this path explicitly limit themselves to mechanism, not confirmed local instance (Q-0006, Q-0010 open)."
+    },
+    {
+      "id": "AR-009",
+      "title": "Advocacy Chain Status Analysis",
+      "analysis": [
+        "Four formal submissions - a council letter, an NSW Ombudsman complaint, a senator letter, and a media pitch - were drafted for simultaneous lodgement (EV-0006, EV-0007) but remained unsigned drafts as at case creation. Separately, the operator's DCCEEW registration email (EV-0022) has a dated send record and a substantive received reply (EV-0023) - the case's one fully confirmed action-and-response pair."
+      ],
+      "determinations": [
+        ["AR-009.1", "This case's advocacy record currently contains one fully confirmed action-and-reply pair and several drafted submissions whose lodgement status is unconfirmed - these should not be conflated when assessing what has actually been attempted."]
+      ],
+      "anchors": ["EV-0006", "EV-0007", "EV-0022", "EV-0023"],
+      "boundary": "Does not assume the four drafted submissions were sent or received a response either way (Q-0005 open)."
+    }
+  ],
+  "cross_path_observations": [
+    {
+      "id": "CPO-001",
+      "title": "A funded mechanism exists; the instrument it requires does not",
+      "analysis": "AR-001 and AR-004 converge on this case's central structural pattern: a real, working management-plan mechanism exists (Rudder Park within the same shire; Townsville and Mount Isa outside it), and funding exists specifically to develop such a plan (Mount Isa). Council's own documented activity for Bellbrook - correspondence, meetings, monitoring, a stated funding intention - has not yet reached the specific instrument that mechanism requires.",
+      "anchors": "AR-001, AR-004"
+    },
+    {
+      "id": "CPO-002",
+      "title": "The report-back gap survives every account of the meeting",
+      "analysis": "AR-002 and AR-003 converge on a finding that does not depend on resolving CTR-0001: whichever account of the 20 May 2025 meeting is accurate, the report-back component of it did not occur on the timeline council itself set.",
+      "anchors": "AR-002, AR-003"
+    },
+    {
+      "id": "CPO-003",
+      "title": "Two separate institutional layers, two separate registration gaps",
+      "analysis": "AR-006 (Commonwealth) and AR-007 (Council classification) independently show gaps in how this camp is tracked, at two entirely separate levels of government - one a paused national monitoring program, the other an unresolved question of whether a public-facing classification matches current reality. Neither gap explains or depends on the other.",
+      "anchors": "AR-006, AR-007"
+    }
+  ],
+  "disclosure_requests": [
+    {
+      "id": "DR-001",
+      "title": "Signed confirmed minutes, 20 May 2025 Kempsey Shire Council ordinary meeting",
+      "request": "The primary record needed to resolve CTR-0001 and Q-0001 - which of the three competing accounts of the meeting is accurate, including whether Resolution 2025.79/2025.80 and the stated 9/0 vote and defeated 2/7 amendment are real."
+    },
+    {
+      "id": "DR-002",
+      "title": "Current text of Council's flying-fox webpage",
+      "request": "A dated, directly-sighted capture of the page's full text - the 'historic' classification, the Rudder Park comparison, and the private/Crown land management claims - needed to resolve Q-0004, Q-0009 and CTR-0002."
+    },
+    {
+      "id": "DR-003",
+      "title": "NSW Government flying-fox camp management grants program guidelines",
+      "request": "The program's own published eligibility terms, to confirm or correct the operator-supplied claim that a completed or draft Camp Management Plan is a strict funding precondition (Q-0002)."
+    },
+    {
+      "id": "DR-004",
+      "title": "NSW Flying-fox Camp Management Code of Practice 2018 (primary text)",
+      "request": "To confirm the described Level 1/Level 2 management actions against the Code's actual text (Q-0007)."
+    }
+  ],
+  "contradictions_preserved": [
+    {
+      "id": "CTR-0001",
+      "issue": "Three distinct accounts of the 20 May 2025 council meeting remain in tension - a discretionary decline, a specific numbered resolution with a 9/0 vote, and an unnumbered affirmative resolution to investigate and report back.",
+      "status": "Open",
+      "analysis": "See AR-002 and AR-003 for the analytical detail. Not resolved by this analysis - the signed confirmed minutes have not been obtained.",
+      "anchors": ["EV-0001", "EV-0003", "EV-0005", "EV-0010", "EV-0014"]
+    },
+    {
+      "id": "CTR-0002",
+      "issue": "Council's current classification of Bellbrook as a 'historic' camp may or may not match a functional 2026 reality of severe, ongoing impact - complicated by independently-found evidence of a real 2021 departure that could fully explain the classification without inaccuracy.",
+      "status": "Open",
+      "analysis": "See AR-007. Not resolved by this analysis - the June 2026 report has not been located and it is not established whether the colony returned after its 2021 departure.",
+      "anchors": ["EV-0013", "EV-0015", "EV-0016"]
+    }
+  ],
+  "overreach_controls": [
+    "No claim is made about why Kempsey Shire Council has not produced a Bellbrook-specific management plan - only that it has not, against a mechanism it operates elsewhere in the same shire.",
+    "No intent is attributed to any individual councillor or council officer at any point in this analysis - every finding describes documented institutional record, not motive.",
+    "AR-002 and AR-003 do not adopt the Hardened Submission Package's characterisation of council's conduct as non-execution of an affirmative unanimous directive - that characterisation depends on the unresolved CTR-0001 and is not treated as established here.",
+    "AR-007 does not present the 'historic' classification as inaccurate or as a confirmed documented-vs-functional gap - CTR-0002 remains genuinely open, with a real alternative explanation (the 2021 departure) not yet ruled out.",
+    "AR-008 does not claim any Bellbrook resident has experienced histoplasmosis or an ABLV exposure - both are stated as real mechanisms without a confirmed local instance, matching the source evidence's own explicit hedge."
+  ],
+  "counts": {
+    "analysis_paths": 9,
+    "analytical_determinations": 9,
+    "evidence_anchors_referenced": 22
+  }
+}
