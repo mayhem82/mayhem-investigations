@@ -1,0 +1,71 @@
+{
+  "lattice_id": "LATTICE-BB-FF-2026-00001-001",
+  "dfapti_case_id": "DFAPTI-BB-FF-2026-00001",
+  "cycle": 1,
+  "generated": "2026-08-25",
+  "basis_note": "Reads across DFAPTA-AR-001 through AR-009 (frozen, EV-0001-EV-0023, DEC-0006) and this case's eight threads. Three meshes group the eight threads by natural affinity; four emergent patterns only become visible when the meshes are read together; one Trajectory Direction Declaration closes the set. Both open contradictions (CTR-0001, CTR-0002) are treated as genuinely unresolved throughout - no pattern below depends on either being resolved in a particular direction.",
+  "patterns": [
+    {
+      "id": "LP-001",
+      "title": "Mesh 1 - The Management-Plan and Funding Surface",
+      "threads_involved": ["THR-01", "THR-03", "THR-04"],
+      "description": "The management-plan gap (THR-01) - the one governance instrument that gates NSW grant access, completed for Rudder Park in the same shire but not for Bellbrook - sits alongside the case's own advocacy chain (THR-03, four drafted submissions of unconfirmed lodgement status) and the available-but-unused Level 1/2 management actions (THR-04). Three distinct routes toward the same outcome - a funded, working management response - none yet reaching it.",
+      "basis": "AR-001, AR-004, AR-005, AR-009"
+    },
+    {
+      "id": "LP-002",
+      "title": "Mesh 2 - The Institutional Record Surface",
+      "threads_involved": ["THR-02", "THR-06", "THR-07"],
+      "description": "Three threads orbit what the documented record says versus what may be happening on the ground: the disputed May 2025 resolution (THR-02), the 'historic' camp classification (THR-06), and the unconfirmed 2026 severity report (THR-07). All three remain genuinely open - this mesh does not resolve any of them, it names them as one connected surface rather than three unrelated disputes.",
+      "basis": "AR-002, AR-003, AR-007"
+    },
+    {
+      "id": "LP-003",
+      "title": "Mesh 3 - The External Verification Surface",
+      "threads_involved": ["THR-05", "THR-08"],
+      "description": "Two threads share a structural feature distinct from the other six: neither can be resolved from this case's own record alone. The health-risk question (THR-05, histoplasmosis and ABLV exposure) requires health-authority or resident data this case does not hold; the Commonwealth monitoring gap (THR-08) requires confirmation of a state-level registration pathway this case has not yet identified.",
+      "basis": "AR-006, AR-008"
+    },
+    {
+      "id": "LP-004",
+      "title": "Emergent Pattern 1 - The Precondition Loop (HIGH significance)",
+      "threads_involved": ["THR-01", "THR-02", "THR-03"],
+      "description": "Mesh 1's funding gate sits directly downstream of Mesh 2's report-back absence: the grant pathway requires a plan; producing a plan would plausibly follow from the investigate-and-report-back process the May 2025 meeting is said to have set in motion (on two of the three competing accounts); that report-back never appeared on any subsequent agenda. No single thread states this dependency - it only appears when the funding thread and the meeting-record thread are read together.",
+      "basis": "AR-001, AR-002, AR-003, AR-004"
+    },
+    {
+      "id": "LP-005",
+      "title": "Emergent Pattern 2 - No Confirmed Registration at Any Level (HIGH significance)",
+      "threads_involved": ["THR-06", "THR-08"],
+      "description": "Mesh 3's Commonwealth pathway pause and Mesh 2's unresolved local classification question combine into a single finding: this camp currently has no confirmed, functioning registration or monitoring record at any level of government this case has checked - not because any single body refused, but because the Commonwealth's own program lapsed in 2022 and the local classification question remains open in both directions.",
+      "basis": "AR-006, AR-007"
+    },
+    {
+      "id": "LP-006",
+      "title": "Emergent Pattern 3 - The One Confirmed Channel Redirects Elsewhere (MEDIUM significance)",
+      "threads_involved": ["THR-03", "THR-08"],
+      "description": "Of every advocacy action in this case, only the Commonwealth registration email has a confirmed send date and a confirmed reply - and that reply's substance is a redirect to state-level engagement, a pathway this case has not yet located. The four locally consequential channels (council, state member, federal member, Ombudsman) remain unconfirmed as sent at all.",
+      "basis": "AR-006, AR-009"
+    },
+    {
+      "id": "LP-007",
+      "title": "Emergent Pattern 4 - The Precedent Is Internal, Not External (MEDIUM-HIGH significance)",
+      "threads_involved": ["THR-01"],
+      "description": "Unlike a cross-council comparison, the strongest precedent in this case sits inside the same institution: Kempsey Shire Council itself completed a Camp Management Plan for Rudder Park in 2022. This is not a demonstration that some other council can do it - it is a demonstration that this council already has, for a different community in the same local government area.",
+      "basis": "AR-001"
+    },
+    {
+      "id": "LP-008",
+      "title": "Trajectory Direction Declaration - MIXED, NO CLEAR DIRECTION",
+      "threads_involved": ["THR-01", "THR-02", "THR-03", "THR-06", "THR-08"],
+      "description": "Indicators point in different directions rather than one. Toward improvement: operator-relayed research (EV-0014) narrows the meeting-account dispute toward a reading more favourable to council's intent, and council's own March 2026 letter shows continuing, not abandoned, engagement. Toward deterioration: DCCEEW's reply newly confirms the Commonwealth monitoring pathway has been non-functional since 2022, and the management-plan gap remains unaddressed regardless of which meeting account is accurate. This case's frozen record does not support a single directional call - both readings are genuinely live.",
+      "basis": "AR-001, AR-002, AR-003, AR-006, AR-009"
+    }
+  ],
+  "not_claimed": [
+    "No claim is made that Kempsey Shire Council or the Commonwealth Department of Climate Change, Energy, the Environment and Water are acting deliberately to avoid accountability - every pattern above describes a structural consequence of documented institutional record, not a coordinated strategy.",
+    "No claim is made about current colony size, health impact incidence, or the accuracy of the 'historic' classification - CTR-0001 and CTR-0002 remain Open and neither is resolved or leaned on by any pattern here.",
+    "The Trajectory Direction Declaration explicitly does not adopt a single directional label - the evidence supports readings in both directions and this repository will not force a cleaner-sounding conclusion than the record carries.",
+    "No pattern above claims the health-risk mechanisms (AR-008) have produced a confirmed local case - see AR-008's own explicit hedge, preserved here."
+  ]
+}
