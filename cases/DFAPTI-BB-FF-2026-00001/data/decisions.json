@@ -38,5 +38,13 @@
     "supporting_evidence": ["EV-0022", "EV-0023"],
     "investigator": "mayhem82",
     "impact": "EV-0022 and EV-0023 added. THR-08 opened as a new thread distinct from the existing seven. Q-0011 opened. Cross-referenced into DFAPTI-TA-FF-2026-00001 as new evidence and a new contradiction there (that case's TPIE and SHM Gate assumed live camp-registration availability as a near-term remedy) - see that case's own DEC-0005 and CTR-0003."
+  },
+  {
+    "decision_id": "DEC-0006",
+    "date": "2026-08-25",
+    "reason": "Operator issued the explicit \"freeze evidence register and proceed [with] gates\" command, confirmed as full Stages 2-6 scope (\"all gates like always, don't change the rules\") - the same command form and scope that triggered DFAPTI-MNC-2026-00001's DEC-0009. This is the only event that may trigger building Stages 2-6 (DFAPTA, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) for this case - no prior instruction authorised it, and none was self-authorised. The freeze boundary is EV-0001-EV-0023, SRC-0001-SRC-0020, CHR-0001-CHR-0013, CTR-0001-CTR-0002 (both still Open - neither resolves before this freeze, and both carry forward into downstream analysis as unresolved), Q-0001-Q-0011, THR-01-THR-08, all as they stood at this decision's timestamp. This becomes DFAPTA/SHM Gate/Lattice Atlas/Temporal Projection Integrity Engine Cycle 1's fixed analytical basis, following the same freeze mechanism DFAPTI-BB-2026-00001 and DFAPTI-MNC-2026-00001 use: DFAPTI itself keeps running live and is not locked, but the downstream analysis stages read a stated ID-range cutoff, not a live feed, until the next explicit freeze command opens a new numbered cycle.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "Authorises building cases/DFAPTI-BB-FF-2026-00001/dfapta/, shm-gate/, lattice-atlas/, temporal-projection-integrity-engine/, enforcement-notice/, and advocacy-package/. Both open contradictions (CTR-0001, CTR-0002) and all eleven open questions remain genuinely open at freeze - downstream stages must carry them forward as unresolved, not narrate around them."
   }
 ]

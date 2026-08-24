@@ -52,5 +52,14 @@
     "related_thread": "THR-08",
     "related_source": "SRC-0019",
     "related_evidence": "EV-0022"
+  },
+  {
+    "note_id": "NOTE-0007",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Operator: \"freeze evidence register and proceed gate snapshot.\" Asked the operator to confirm scope given two live open contradictions and eleven open questions - gate snapshot only (DFAPTA + SHM Gate), or the full Stages 2-6 pipeline DFAPTI-MNC-2026-00001 got from the same command form. Operator: \"all gates like always. dont change the rules.\" Freezing at EV-0001-EV-0023 as Cycle 1's boundary (DEC-0006) and beginning Stages 2-6: DFAPTA, SHM Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package - cloning each stage's exact mechanism from existing cases rather than inventing new page styles, per this repository's established rule. Both CTR-0001 and CTR-0002 remain genuinely Open at this freeze point and must be carried forward as unresolved through every downstream stage, not narrated toward resolution.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
