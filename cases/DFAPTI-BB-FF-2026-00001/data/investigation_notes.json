@@ -70,5 +70,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0009",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Operator: \"proceed DFAPTA\" - ran DFAPTA Pass 2. Rather than re-reading evidence_register.json's own summaries again, extracted and read all eight preserved primary-source docx documents (cases/DFAPTI-BB-FF-2026-00001/preserved/*.docx) directly in full. This surfaced real granularity Pass 1 had missed: a seven-category community harm catalogue and a seven-item institutional-silence enumeration inside the harm-accountability document (AR-027, AR-028); the Hardened Submission Package's full procedural detail on the defeated 2/7 amendment, the SafeWork NSW/WHS Act theory, and a 30-metre buffer figure (AR-025, AR-029, AR-032); a sixth advocacy channel to Senator Mehreen Faruqi not previously logged (AR-033); and three genuine internal inconsistencies in the case's own frozen source material - an advocate name discrepancy ('Paul Hodgson' vs 'Paul Hodgkinson', AR-023), a three-way discrepancy over the colony's actual continuity (AR-024), and a direct contradiction between the media pitch's claim that submissions 'have now been lodged' and the same submissions' unsigned template state (AR-034). Added 14 new paths (AR-023 through AR-036, total now 36) and 3 new cross-path observations. None of this is new evidence - every fact cited already exists inside documents this case's register already links to; DFAPTA reads them more closely, it does not fetch anything new. Status remains \"In Progress — Pass 2\", not Frozen.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

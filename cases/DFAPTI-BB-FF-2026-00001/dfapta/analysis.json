@@ -2,9 +2,9 @@
   "analysis_id": "DFAPTA-BB-FF-2026-00001-001",
   "dfapti_case_id": "DFAPTI-BB-FF-2026-00001",
   "cycle": 1,
-  "status": "In Progress — Pass 1",
+  "status": "In Progress — Pass 2",
   "analysis_commenced": "2026-08-25",
-  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0007. This is Pass 1: every distinct claim, account, comparator and mechanism in the frozen evidence register (EV-0001 through EV-0023, DEC-0006) is given its own dedicated path rather than compressed into a smaller number of thematic summaries. A prior nine-path pass was removed for being generic and incomplete. Further passes continue until the operator states DFAPTA itself is frozen - that freeze is a separate, later event from DEC-0006, and no downstream stage (SHM Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) is built until it happens. Both CTR-0001 and CTR-0002 were Open at freeze and are carried forward here as unresolved.",
+  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0007. Pass 1 (AR-001 through AR-022) worked from evidence_register.json's own summaries. Pass 2 (AR-023 onward) went back to the eight preserved primary-source documents themselves (cases/DFAPTI-BB-FF-2026-00001/preserved/*.docx) and re-read them in full, rather than relying on the register's condensed descriptions - this surfaced real granularity and at least one significant internal inconsistency the register summaries alone did not carry. This does not add new evidence: every fact cited in Pass 2 already exists inside a document this case's register already links to (EV-0004, EV-0006, EV-0007, EV-0008, EV-0010) - Pass 2 reads that same frozen material more closely, it does not fetch anything new. Where Pass 2 surfaces a fact or inconsistency with no corresponding EV-/CTR- entry, it says so explicitly and recommends a future DFAPTI pass formalise it, rather than minting one itself. Further passes continue until the operator states DFAPTA itself is frozen - a separate, later event from DEC-0006, and no downstream stage (SHM Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) is built until it happens. Both CTR-0001 and CTR-0002 were Open at freeze and are carried forward here as unresolved.",
   "paths": [
     {
       "id": "AR-001",
@@ -275,6 +275,176 @@
       ],
       "anchors": ["EV-0001", "EV-0018", "EV-0019", "EV-0020", "EV-0021"],
       "boundary": "This is a meta-analytical observation about the register's own composition, not a new factual finding about Bellbrook or Council."
+    },
+    {
+      "id": "AR-023",
+      "title": "Advocate Name Discrepancy — 'Paul Hodgson' vs 'Paul Hodgkinson'",
+      "analysis": [
+        "Every source that names the community representative who put the May 2025 management-plan request to council - the independently-fetched Macleay Argus (EV-0001), the council-submission letter (EV-0006), and the Ombudsman complaint draft (EV-0007) - names him 'Paul Hodgson', Bellbrook Hall and Progress Association. The operator's own Commonwealth registration email (EV-0022) cc's 'Paul Hodgson' at the same email address referenced across those documents. The Hardened Submission Package (EV-0010), by contrast, names the 'primary community advocate' compiling its notice record as 'Paul Hodgkinson' - a different surname, not used anywhere else in this case's document set."
+      ],
+      "determinations": [
+        ["AR-023.1", "This is either a transcription error in one document or a genuine distinction between two people - this case's register cannot currently tell which, and treating the two names as interchangeable would be an unwarranted assumption in either direction."]
+      ],
+      "anchors": ["EV-0001", "EV-0006", "EV-0007", "EV-0010", "EV-0022"],
+      "boundary": "Not treated as a credibility problem for either document - single-letter/syllable name discrepancies are a common transcription artefact. Recorded because DFAPTA's discipline is to surface, not silently resolve, this kind of inconsistency. Recommend a future DFAPTI pass add this as a logged discrepancy if not already captured."
+    },
+    {
+      "id": "AR-024",
+      "title": "Three Accounts of Colony Continuity, Not One",
+      "analysis": [
+        "This case's working chronology (CHR-0001) states the colony relocated to Bellbrook in November 2019 and treats its presence since then as continuous. Three source documents describe a materially different history when read closely. Account A (EV-0001, most documents): colony present since November 2019, no departure mentioned. Account B (EV-0013, independently found): Council's own 27 October 2021 page reports the colony left Bellbrook that year, with the playground subsequently cleaned. Account C (EV-0010, the Hardened Submission Package): the colony 'occupied central Bellbrook Park beginning December 2019' (a different month than every other source), then states 'following a temporary departure, the colony returned to the park in mid-2022 with a materially increased population size.'",
+        "Account C does not cite a source for the December 2019 start date, the temporary departure, or the mid-2022 return, and none of these three specific claims appears anywhere else in this case's register. It is nonetheless the same document that supplies Account Two of the meeting dispute (AR-006) and the specific resolution numbers this case treats with the most caution - so Account C's colony-continuity claims should receive at least the same level of caution."
+      ],
+      "determinations": [
+        ["AR-024.1", "This case's register now contains three non-identical accounts of the colony's continuity, not the single 'continuous since November 2019' fact CHR-0001 currently states as settled. Account B (the 2021 departure) is Council's own primary source and the most independently grounded of the three; Account C (temporary departure, mid-2022 return) is uncited and internally uncorroborated; Account A (simple continuity) is the majority framing but does not address either departure claim."]
+      ],
+      "anchors": ["EV-0001", "EV-0010", "EV-0013"],
+      "boundary": "Does not determine which account is accurate, or whether Accounts B and C describe the same event (a 2021 departure with a mid-2022 return would be consistent with both) or two different events. CHR-0001's 'continuous since November 2019' framing should not be treated as more settled than this three-way discrepancy allows. Recommend a future DFAPTI pass reconcile the chronology or log a new contradiction if the operator confirms these are genuinely in tension."
+    },
+    {
+      "id": "AR-025",
+      "title": "The Defeated 2/7 Amendment — What It Actually Proposed",
+      "analysis": [
+        "EV-0010's register summary records only that an amendment 'linking Bellbrook to the shire-wide Rudder Park Management Plan modification process' was defeated 2/7. The primary source text is more specific: the amendment proposed absorbing the Bellbrook matter into the existing shire-wide Rudder Park Management Plan modification process - i.e., treating Bellbrook procedurally as an extension of the plan council already has, rather than as a matter requiring its own standalone instrument. By defeating it 2/7, the chamber elected to treat Bellbrook as a standalone operational matter."
+      ],
+      "determinations": [
+        ["AR-025.1", "If accurate, this means council's own chamber explicitly considered, and rejected, the procedurally faster path of extending its existing Rudder Park plan to cover Bellbrook - choosing instead a path that required a new, standalone process. This directly complicates AR-001's framing of Rudder Park purely as a positive precedent: on this account, the same instrument was offered as a shortcut for Bellbrook and voted down."]
+      ],
+      "anchors": ["EV-0010"],
+      "boundary": "This detail exists only in the uncorroborated Account Two document (see AR-006, AR-008) - it should be read with the same caution as that account's resolution numbers, not treated as confirmed procedural history."
+    },
+    {
+      "id": "AR-026",
+      "title": "Institutional Impact Footprint — Beyond Residential Properties",
+      "analysis": [
+        "The evidence register's description of camp impact is framed mainly around residential properties. The Hardened Submission Package's primary text states the colony 'occupied public spaces including the local primary school, the police station, the Rural Fire Service station, and residential properties' - three specific civic/institutional sites beyond the residential frame the register summary conveys."
+      ],
+      "determinations": [
+        ["AR-026.1", "If accurate, the camp's footprint extends to at least three distinct institutional sites (school, police station, RFS station) in addition to residential properties - a materially wider institutional exposure than 'residential contamination' alone conveys, and directly relevant to the Rural Fire Service's own operational capacity in a fire-prone hinterland community."]
+      ],
+      "anchors": ["EV-0010"],
+      "boundary": "This claim exists only in the Hardened Submission Package - it is not independently corroborated by the harm-accountability document, which names only the school and Main Street bus stop specifically, not the police or RFS stations. Treat as uncorroborated pending confirmation."
+    },
+    {
+      "id": "AR-027",
+      "title": "The Seven-Category Community Harm Catalogue",
+      "analysis": [
+        "The Community Harm and Accountability Record (source for EV-0004 and other items) itemises seven distinct, named categories of documented impact: continuous faecal contamination of backyards, gardens, play equipment, crops and public spaces; noise and odour from the camp operating around the clock across seasons; suppression of local hospitality trade from residents and visitors being unable to use outdoor areas; children unable to use backyards, play equipment and outdoor spaces for ordinary daily activity; Bellbrook Public School requiring additional cleaning and structural shelter to protect students at the bus stop and in the school grounds; the Main Street bus stop requiring physical shielding from droppings; and documented physical, mental and financial stress to residents across the full period.",
+        "The register does not currently carry this seven-category breakdown as its own item - it is compressed inside EV-0004's broader description of the letter and this case's general framing of 'community harm.'"
+      ],
+      "determinations": [
+        ["AR-027.1", "This case has a specific, named harm catalogue in its own source material that has not previously been surfaced as its own analytical unit - each of the seven categories is a distinct, checkable claim (e.g. the school-shelter and bus-stop-shielding items are corroborated by Council's own March 2026 letter, EV-0004; the hospitality-trade and mental/financial-stress items are not independently corroborated by any other document in this case)."]
+      ],
+      "anchors": ["EV-0004"],
+      "boundary": "This catalogue comes from operator-authored advocacy material, not an independent survey or council record - two of the seven items (school shelter, bus stop shielding) are corroborated by Council's own letter; the remaining five rest on this document alone."
+    },
+    {
+      "id": "AR-028",
+      "title": "The Seven-Item Institutional Silence Enumeration",
+      "analysis": [
+        "The Community Harm and Accountability Record lists seven specific things that have not been provided to residents following Council's 18 March 2026 letter: (1) any response from NSW DCCEEW; (2) any response from Mid North Coast Local Health District; (3) any confirmation of a grant application - program, amount, date or status; (4) any response from Michael Kemp MP; (5) any timeline for the park hard shelters or bus stop shielding; (6) any outcome from the October 2025 meeting; (7) any commitment to develop a Camp Management Plan for Bellbrook."
+      ],
+      "determinations": [
+        ["AR-028.1", "This is a more specific and checkable formulation of AR-011's 'documents activity, discloses no outcome' finding - each of the seven silences is independently verifiable (e.g. a GIPA request could directly test items 1-3 and 6) rather than being one general absence."]
+      ],
+      "anchors": ["EV-0004"],
+      "boundary": "This is the operator's own enumeration of what has not been disclosed - it is a reasonable reading of EV-0004's content, not an independently confirmed audit of council's internal records."
+    },
+    {
+      "id": "AR-029",
+      "title": "The SafeWork NSW / Work Health and Safety Act 2011 Theory",
+      "analysis": [
+        "The Hardened Submission Package's Part 5 sets out a specific legal theory not previously surfaced in this case: under the Work Health and Safety Act 2011, a person conducting a business or undertaking bears a primary duty to ensure, so far as reasonably practicable, that a workplace and its means of access are without risks to health and safety. The document frames Central Bellbrook Park and its playground as a public facility to which this duty could apply, and characterises council's non-execution of pre-approved Level 1 hygiene and Level 2 buffer actions - despite multi-year documented notice - as a potential failure to discharge that duty. It proposes specific remedies: an immediate site inspection, an Improvement Notice compelling execution of Level 1 measures, and a Prohibition Notice restricting public access to contaminated playground equipment pending disinfection."
+      ],
+      "determinations": [
+        ["AR-029.1", "This is a distinct legal theory from every remedy pathway previously identified in this case (grant-funding gate, GIPA, Ombudsman) - a workplace/public-facility health and safety framing, addressed to SafeWork NSW rather than any environmental or local-government body."]
+      ],
+      "anchors": ["EV-0010"],
+      "boundary": "This theory rests entirely on the uncorroborated Hardened Submission Package (see AR-006, AR-008) and has not been checked against the Work Health and Safety Act 2011's actual application to a public park/playground, which is a genuinely open legal question this case's register cannot resolve. Not adopted as a confirmed pathway - flagged as a candidate for legal review, not asserted."
+    },
+    {
+      "id": "AR-030",
+      "title": "Office of Local Government NSW — An Unlogged Recipient Pathway",
+      "analysis": [
+        "The Hardened Submission Package's Part 5 sets out a specific submission addressed to the Office of Local Government NSW, distinct from the NSW Ombudsman - arguing that the executive branch's four-cycle omission of an operative directive from the business cycle, without a corresponding open resolution, departs from minimum local government transparency standards, and seeking public tabling of the mandated report and an external audit of council's resolution-tracking systems."
+      ],
+      "determinations": [
+        ["AR-030.1", "This is a specific state oversight body - distinct in remit from the NSW Ombudsman - that this case's evidence register and prior analysis had not previously surfaced as a recipient."]
+      ],
+      "anchors": ["EV-0010"],
+      "boundary": "This submission framework, like AR-029, depends on Account Two's uncorroborated resolution numbers (AR-006) - the underlying transparency argument would need to be reframed if those numbers do not hold up."
+    },
+    {
+      "id": "AR-031",
+      "title": "The Canopy Degradation Section — Explicitly Not Bellbrook-Specific Evidence",
+      "analysis": [
+        "The Hardened Submission Package's Part 3 describes a four-stage ecosystem degradation sequence (canopy defoliation from weight loading and excrement, structural dieback of roosting trees, loss of thermal protection driving colony expansion, expansion onto adjacent private property) as 'observable in documented case studies of equivalent urban roost sites' - and the source document itself appends an explicit hedge: 'the above represents the documented mechanism in comparable managed sites. Site-specific biological survey data for Bellbrook would strengthen this section as formal evidence.'"
+      ],
+      "determinations": [
+        ["AR-031.1", "This entire section is self-flagged by its own source document as general ecological mechanism, not a Bellbrook-specific finding - no site survey data for the Bellbrook camp exists anywhere in this case's register. It should not be cited as evidence of what is currently happening to Bellbrook's own canopy, matching the source's own explicit self-limitation."]
+      ],
+      "anchors": ["EV-0010"],
+      "boundary": "Recorded here precisely because it is self-excluded material, matching the overreach-control discipline used throughout this analysis - not to introduce it as a finding, but to document that it exists in the source material and was deliberately not relied on."
+    },
+    {
+      "id": "AR-032",
+      "title": "Level 1/Level 2 Management Actions — Full Primary-Source Detail",
+      "analysis": [
+        "The register's summary of available Level 1/Level 2 actions (EV-0012) is considerably less specific than the Hardened Submission Package's Part 4. Level 1 (pre-approved, no licence required) is described there as: high-pressure cleaning and disinfection of public infrastructure, playground equipment, pathways and park structures; installation of shade sails over play equipment, safety fencing around high-impact roost perimeters, and public health advisory signage; and routine mowing, slashing and weed clearance around roosting vegetation. Level 2 (also pre-approved) is described as: lopping, trimming and pruning of specific branches overhanging residential fences, school boundaries, walking tracks or civic structures; and removal of non-roosting vegetation beneath the canopy to create a buffer 'up to a maximum distance of 30 metres from any occupied residential building.' Welfare-based scheduling conditions (evening trimming after animals depart to forage, avoiding extreme heat and late-stage breeding, notifying wildlife rescue groups) apply to both levels as operational conditions, not prohibitions."
+      ],
+      "determinations": [
+        ["AR-032.1", "The specific 30-metre buffer figure and the itemised list of concrete interventions (shade sails, safety fencing, advisory signage, high-pressure disinfection) give AR-012's finding real operational content - these are not abstract 'management actions' but a defined menu council could execute without further licensing."]
+      ],
+      "anchors": ["EV-0010", "EV-0012"],
+      "boundary": "The 30-metre figure and the itemised action list appear only in the Hardened Submission Package - like other detail from that document, it has not been checked against the primary Code of Practice text itself (Q-0007, DR-004)."
+    },
+    {
+      "id": "AR-033",
+      "title": "Senator Faruqi and Senate Estimates — A Sixth Advocacy Channel",
+      "analysis": [
+        "A drafted letter to Senator Mehreen Faruqi, Deputy Leader of the Australian Greens, asks her to raise Bellbrook flying-fox management at Senate Estimates or by other mechanism, directed at Senator the Hon. Murray Watt, Federal Minister for the Environment and Water - on the basis that the federal government holds jurisdiction over the EPBC-listed species and could be asked whether any federal mechanism exists to support communities where state and local frameworks have not produced an outcome. This channel is entirely separate from the four submissions previously logged in this case's register (council, Ombudsman, and the media pitch's broader recipient list) and was not itemised in EV-0006 or EV-0007."
+      ],
+      "determinations": [
+        ["AR-033.1", "This case's advocacy chain (previously understood as four drafted submissions plus one confirmed Commonwealth registration email, AR-013/AR-021) in fact includes at least a fifth drafted channel - a parliamentary/Senate Estimates request - that this case's register has not separately tracked."]
+      ],
+      "anchors": ["EV-0006", "EV-0007"],
+      "boundary": "Like the council submission and Ombudsman complaint, this letter carries an unsigned 'Resident of Bellbrook NSW 2440' placeholder - its lodgement status is exactly as unconfirmed as the other drafted submissions (see AR-021, AR-034)."
+    },
+    {
+      "id": "AR-034",
+      "title": "The Lodgement Status Contradiction — 'Have Now Been Lodged' vs. Unsigned Templates",
+      "analysis": [
+        "The media pitch document states, in the present perfect tense: 'Formal submissions have now been lodged simultaneously with council, the NSW Minister for the Environment, the State Member for Oxley, the Federal Member for Lyne, the Federal Environment Minister, and the NSW Ombudsman.' This directly asserts completed lodgement. Yet the council-submission letter, the Ombudsman complaint, and the Senator Faruqi letter all carry the identical unsigned placeholder - a blank underscore line followed by 'Resident of Bellbrook NSW 2440' - with no signatory name, date, or evidence of having actually been sent."
+      ],
+      "determinations": [
+        ["AR-034.1", "This is a direct internal inconsistency between two pieces of this case's own preserved source material: one document asserts the submissions are already lodged; the documents that would need to be lodged remain in unsigned template form. This case's register currently treats lodgement as simply 'unconfirmed' (Q-0005) - the more precise finding is that one source actively claims completion while the primary documents themselves show no sign of it."]
+      ],
+      "anchors": ["EV-0006", "EV-0007"],
+      "boundary": "Does not determine which is accurate - the media pitch could be aspirational/forward-dated drafting, or the templates could be unedited copies retained after signed versions were sent elsewhere. This is exactly the kind of finding a single evidence-register summary compresses away and a primary-source re-read surfaces - recommend a future DFAPTI pass ask the operator directly and log the answer as new evidence or a formal contradiction."
+    },
+    {
+      "id": "AR-035",
+      "title": "The Source Material's Own Self-Identified Evidence Gaps",
+      "analysis": [
+        "The Hardened Submission Package's Part 6 sets out three structured 'evidence collection matrices' the original document proposes for closing gaps in its own record: psychosocial impact and the resolution-outcome gap (daily cleaning logs, property damage records, records of restricted outdoor-space use, resident accounts of the October milestone being missed); canopy destruction and property damage (counts of destroyed/damaged trees, financial estimates of vegetation loss, cleaning costs); and the notice chronology (every verbal and written complaint to council, with dates and reference numbers, and records of unreturned calls)."
+      ],
+      "determinations": [
+        ["AR-035.1", "These three matrices substantially overlap with, but are more granular than, this case's existing Open Question Register - Q-0006 (health impact) and the community harm items in AR-027 map to Matrix 1; no existing open question specifically covers the property-damage/canopy-destruction data in Matrix 2; and the notice-chronology data in Matrix 3 would materially strengthen AR-009/AR-010's report-back-absence findings if it existed."]
+      ],
+      "anchors": ["EV-0010"],
+      "boundary": "These are the source document's own proposed future data-collection targets, not evidence already in this case's register - none of the specific figures the matrices call for (tree counts, cost estimates, complaint logs) exist in this case currently."
+    },
+    {
+      "id": "AR-036",
+      "title": "Additional Candidate Primary Sources Named in the Source Material",
+      "analysis": [
+        "The Hardened Submission Package's Part 7 lists direct URLs to Kempsey Shire Council's own published documentation, including its Disclosure of Interests Register, a Councillor Certified Disclosure Repository, and a Proactive Information Access Log, alongside the council's flying-fox position page and the Rudder Park plan page already cited elsewhere in this case."
+      ],
+      "determinations": [
+        ["AR-036.1", "Three of these five URLs (the two disclosure registers and the proactive information access log) have not been checked by this case at any point across seven runs - they are candidate primary sources for a future DFAPTI evidence-gathering pass, not yet examined."]
+      ],
+      "anchors": ["EV-0010"],
+      "boundary": "DFAPTA does not fetch new evidence - this path names the candidate sources for a future DFAPTI pass to check, it does not check them itself."
     }
   ],
   "cross_path_observations": [
@@ -316,9 +486,21 @@
     },
     {
       "id": "CPO-007",
-      "title": "One confirmed action stands apart from four unconfirmed drafts",
-      "analysis": "AR-013 and AR-021 together show this case's advocacy record is not a uniform set of 'things the operator tried' - one action (Commonwealth registration) has a confirmed send date and a confirmed reply; four (council, Ombudsman, senator, media) remain unconfirmed drafts. Conflating them would overstate what has actually been attempted.",
-      "anchors": "AR-013, AR-021"
+      "title": "One confirmed action stands apart from five unconfirmed drafts",
+      "analysis": "AR-013, AR-021 and AR-033 together show this case's advocacy record is not a uniform set of 'things the operator tried' - one action (Commonwealth registration) has a confirmed send date and a confirmed reply; five drafted channels (council, Ombudsman, Senator Faruqi, and the media pitch's own broader recipient list) remain unconfirmed. Conflating them would overstate what has actually been attempted - and AR-034 shows one source document actively asserts they were sent while the drafts themselves show no sign of it.",
+      "anchors": "AR-013, AR-021, AR-033, AR-034"
+    },
+    {
+      "id": "CPO-008",
+      "title": "Primary-source re-reading surfaces what register summaries compress away",
+      "analysis": "AR-023 through AR-036 exist only because Pass 2 went back to the eight preserved primary documents directly rather than relying on evidence_register.json's own condensed descriptions. The most significant single finding of this pass - AR-034's lodgement-status contradiction - was invisible in Pass 1 precisely because the register's EV-0006/EV-0007 summaries describe the drafts' content, not the tension between the media pitch's completion claim and the drafts' own unsigned state. The name discrepancy (AR-023) and the three-way colony-continuity discrepancy (AR-024) are the same pattern: real inconsistencies that exist in the frozen source material regardless of which pass reads them, but that only a close primary-source read surfaces.",
+      "anchors": "AR-023, AR-024, AR-034"
+    },
+    {
+      "id": "CPO-009",
+      "title": "The case's strongest and weakest legal theories share one source",
+      "analysis": "AR-006 (the specific resolution numbers), AR-025 (the defeated Rudder Park absorption amendment), AR-029 (the SafeWork NSW/WHS Act theory), AR-030 (the Office of Local Government submission), AR-031 (the self-excluded canopy-degradation section) and AR-032's most specific detail (the 30-metre buffer figure) all originate in the single least-corroborated document in this case, the Hardened Submission Package. This is not a reason to discount them individually - each stands or falls on its own terms - but the concentration is itself worth naming: this case's most legally elaborate material and its most evidentially cautious material are the same document.",
+      "anchors": "AR-006, AR-025, AR-029, AR-030, AR-031, AR-032"
     }
   ],
   "disclosure_requests": [
@@ -353,10 +535,10 @@
     },
     {
       "id": "CTR-0002",
-      "issue": "Council's current 'historic' classification may or may not match a functional 2026 reality of severe, ongoing impact - see AR-016 through AR-018 for the three independent strands bearing on this.",
+      "issue": "Council's current 'historic' classification may or may not match a functional 2026 reality of severe, ongoing impact - see AR-016 through AR-018 for the three independent strands bearing on this, and AR-024 for a related, separate three-way discrepancy over when the colony was actually present.",
       "status": "Open",
-      "analysis": "Not resolved by this analysis - the June 2026 report has not been located and it is not established whether the colony returned after its confirmed 2021 departure.",
-      "anchors": ["EV-0013", "EV-0015", "EV-0016"]
+      "analysis": "Not resolved by this analysis - the June 2026 report has not been located and it is not established whether the colony returned after its confirmed 2021 departure, or whether the Hardened Submission Package's uncited December 2019 start date and mid-2022 return describe the same event or a different history again.",
+      "anchors": ["EV-0010", "EV-0013", "EV-0015", "EV-0016"]
     }
   ],
   "overreach_controls": [
@@ -365,12 +547,17 @@
     "AR-006 and AR-008 do not adopt the Hardened Submission Package's characterisation of council's conduct as non-execution of an affirmative unanimous directive - that characterisation depends on the unresolved CTR-0001 and is not treated as established here.",
     "AR-016 through AR-018 do not present the 'historic' classification as inaccurate or as a confirmed documented-vs-functional gap - CTR-0002 remains genuinely open, with a real alternative explanation (the 2021 departure, AR-018) not yet ruled out.",
     "AR-019 and AR-020 do not claim any Bellbrook resident has experienced histoplasmosis or an ABLV exposure - both are stated as real mechanisms without a confirmed local instance, matching the source evidence's own explicit hedge.",
-    "This pass deliberately does not compress distinct claims of different evidentiary weight into single generic findings (see AR-022 and every cross-path observation above) - the prior nine-path pass's central failure was doing exactly that, and is not repeated here.",
-    "This is Pass 1 of an explicitly ongoing process. It is not represented as exhaustive relative to future passes, and no downstream stage should be built from it until the operator states DFAPTA itself is frozen."
+    "AR-029 through AR-032 do not adopt the SafeWork NSW theory, the Office of Local Government submission framework, or the 30-metre buffer figure as confirmed - all four originate in the least-corroborated document in this case (see CPO-009) and are presented as candidate material, not established findings.",
+    "AR-031 explicitly excludes the Hardened Submission Package's canopy-degradation section from this case's evidentiary basis, matching that section's own self-declared limitation - it is documented here as existing in the source material, not relied upon.",
+    "AR-023, AR-024 and AR-034 name real inconsistencies in this case's own frozen source material without resolving them or assuming which side of each is accurate - resolving them is a DFAPTI-level task (confirming facts, obtaining the operator's clarification) that this DFAPTA pass does not perform.",
+    "This pass deliberately does not compress distinct claims of different evidentiary weight into single generic findings (see AR-022, CPO-006, CPO-007 and CPO-008) - the original nine-path pass's central failure was doing exactly that, and is not repeated here.",
+    "This is Pass 2 of an explicitly ongoing process. It is not represented as exhaustive relative to future passes, and no downstream stage should be built from it until the operator states DFAPTA itself is frozen."
   ],
   "counts": {
-    "analysis_paths": 22,
-    "analytical_determinations": 22,
-    "evidence_anchors_referenced": 23
+    "analysis_paths": 36,
+    "analytical_determinations": 36,
+    "evidence_anchors_referenced": 23,
+    "cross_path_observations": 9,
+    "internal_inconsistencies_surfaced_pass_2": 3
   }
 }
