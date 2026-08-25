@@ -18823,5 +18823,59 @@
       "Q-0002",
       "Q-0003"
     ]
+  },
+  {
+    "evidence_id": "EV-0847",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-25",
+    "source_date": "2026-03-26",
+    "source_authority": "NSW Parliament (Legislative Council, Portfolio Committee No. 5) / Minister for Police, Hon Yasmin Catley MP",
+    "source_title": "Answers to Supplementary QONs - Budget Estimates - Minister for Police (received 26 March 2026)",
+    "source_type": "Government Record",
+    "source_location": "https://www.parliament.nsw.gov.au/lcdocs/other/23325/Answers%20to%20Supplementary%20QONs%20-%20Budget%20Estimates%20%20-%20Minister%20for%20Police.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Located via WebSearch 2026-08-25; WebFetch remains EGRESS_BLOCKED for parliament.nsw.gov.au this session (reconfirmed via a control fetch to example.com, same as every prior run since DEC-0006/DEC-0008/DEC-0012), so only WebSearch's own indexed snippets/paraphrase of the PDF could be reviewed, not the full verbatim document - no preserved local copy or hash exists.",
+    "evidence_description": "A formal NSW Parliament written answer from the Minister for Police, previously unlocated by this case, appears (per WebSearch's summary of the document, not a verbatim reading) to address PolAir-Remote's public/private-space operating rules directly: that the technology 'clearly articulates public and private spaces at all times', that operations 'comply with state laws and internal Standard Operating Procedures', that remote pilots receive 'area familiarisation training', and that NSW Police Force 'will not be using RPA to conduct proactive policing activity of private spaces'. This is the first located primary-source (government, not media) statement narrowing what 'not surveillance'/reactive-only framing (CTR-0001, EV-0006) actually means operationally - though it addresses only private-space proactive policing specifically, not the separate covert-flying description in EV-0007, so it narrows rather than resolves CTR-0001.",
+    "relevant_quotation": "[WebSearch-tool paraphrase of the document, not a verbatim excerpt independently confirmed - WebFetch blocked] The technology used by POLAIR-Remote clearly articulates public and private spaces at all times, and operations comply with state laws and internal Standard Operating Procedures ... the NSW Police Force will not be using RPA to conduct proactive policing activity of private spaces.",
+    "investigation_relevance": "Bears on CTR-0001 (reactive/incident-response vs proactive/covert framing) and Q-0005 (controlling operational policy) and Q-0010 (reconciling the two framings): supplies a named, dated, government-authored statement narrowing the scope of the 'not surveillance' claim to private-space proactive policing specifically, rather than resolving the broader proactive/covert contradiction. Does not itself confirm or supply the underlying SOP document GIPA Application 2 seeks - only that supplementary parliamentary answers reference its existence. Full verbatim text still needs independent confirmation before this can move beyond 'Requires Verification'.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [
+      "CTR-0001"
+    ],
+    "open_question_links": [
+      "Q-0005",
+      "Q-0010"
+    ]
+  },
+  {
+    "evidence_id": "EV-0848",
+    "case_id": "DFAPTI-MNC-2026-00001",
+    "recording_date": "2026-08-25",
+    "source_date": "2026-03-26",
+    "source_authority": "NSW Parliament (Legislative Council, Portfolio Committee No. 5) / Minister for Police, Hon Yasmin Catley MP",
+    "source_title": "Answers to Supplementary QONs - Budget Estimates - Minister for Police (received 26 March 2026)",
+    "source_type": "Government Record",
+    "source_location": "https://www.parliament.nsw.gov.au/lcdocs/other/23325/Answers%20to%20Supplementary%20QONs%20-%20Budget%20Estimates%20%20-%20Minister%20for%20Police.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Located via WebSearch 2026-08-25; WebFetch remains EGRESS_BLOCKED for parliament.nsw.gov.au this session (reconfirmed via a control fetch to example.com, same as every prior run since DEC-0006/DEC-0008/DEC-0012), so only WebSearch's own indexed snippets/paraphrase of the PDF could be reviewed, not the full verbatim document - no preserved local copy or hash exists.",
+    "evidence_description": "The same 26 March 2026 Budget Estimates supplementary-answers document (see EV-0847) also appears, per WebSearch's summary, to reference NSW Police Force's 'AI and Emerging Biometrics Ethics Board' and describe it as reviewing Artificial Intelligence Assessment Framework (AIAF) determinations for AI-related projects. No text located in the search summary states, either way, whether PolAir-Remote imagery specifically has been put through this Board or an AIAF determination, or what any such determination found - only that the Board and framework exist as a governance mechanism the Minister's office pointed to in this context.",
+    "relevant_quotation": "[WebSearch-tool paraphrase of the document, not a verbatim excerpt independently confirmed - WebFetch blocked] ...references to an AI and Emerging Biometrics Ethics Board that provides ethical oversight for AI technologies and reviews Artificial Intelligence Assessment Frameworks (AIAFs).",
+    "investigation_relevance": "Relevant to Q-0006 (facial-recognition/biometric-matching linkage) and Q-0012 (Privacy Impact Assessment): identifies a specific named internal governance body and framework that would be the correct target for GIPA Application 2 to request a PolAir-Remote-specific determination from, sharpening what to ask for - but does not itself establish whether such a determination was made for PolAir-Remote or what it found, so both questions remain Open.",
+    "classification": "Requires Verification",
+    "verification_state": "Unverified",
+    "relationships": [
+      "EV-0847"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0006",
+      "Q-0012"
+    ]
   }
 ]

@@ -1328,5 +1328,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-04",
     "availability_notes": "Located via WebSearch; WebFetch not attempted (EGRESS_BLOCKED). Reports a 33% 12-month youth-crime rise and a 154-to-205 rise in court legal actions against young people (12mo to June 2024 vs 12mo to June 2025) - a third distinct youth-crime statistic alongside EV-0053/EV-0055's 53%-since-2022 figure and EV-0838's ~19-20%-over-two-years figure."
+  },
+  {
+    "source_id": "SRC-0096",
+    "authority": "NSW Parliament (Legislative Council, Portfolio Committee No. 5)",
+    "title": "Answers to Supplementary QONs - Budget Estimates - Minister for Police (received 26 March 2026)",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.parliament.nsw.gov.au/lcdocs/other/23325/Answers%20to%20Supplementary%20QONs%20-%20Budget%20Estimates%20%20-%20Minister%20for%20Police.pdf",
+    "first_checked": "2026-08-25",
+    "last_checked": "2026-08-25",
+    "current_version": "Initial check",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-05",
+    "availability_notes": "Located via WebSearch 2026-08-25; WebFetch EGRESS_BLOCKED for parliament.nsw.gov.au this session, so only WebSearch-indexed snippets/paraphrase of its content could be reviewed, not the full verbatim PDF text."
   }
 ]

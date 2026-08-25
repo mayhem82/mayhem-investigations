@@ -403,5 +403,50 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0046",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Researching",
+    "text": "Resumed both registered cases (resume.js) to choose today's DFAPTI pass. DFAPTI-BB-2026-00001's last genuine evidence-collection run was RUN-0071 (2026-08-24, yesterday); DFAPTI-MNC-2026-00001's last genuine collection run was RUN-0011 (2026-08-23) - its intervening RUN-0012/0013/0014 were non-evidentiary site-framing/Yield-Gate/DFAPTA-Pass-2 work, not collection passes. Per this repository's own established cadence-balancing practice (see RUN-0071's and RUN-0011's own notes), and because MNC still carries all 18 open questions Open against BB's 8 of 9, chose DFAPTI-MNC-2026-00001 for this run. Per this run's own operating instructions, only DFAPTI (evidence-register-level) work is in scope for this case - Stages 2-6 (dfapta/, etc.) are untouched regardless of their current build state.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0047",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Checking Source",
+    "text": "Confirmed via a live control fetch (example.com) that WebFetch remains EGRESS_BLOCKED in this session, consistent with every prior run since DEC-0006/DEC-0008/DEC-0012; WebSearch functions normally. No attempt made to route around the block, per DEC-0006. Ran a 21-query multi-angle sweep (SRCH-0038 to SRCH-0058) per DEC-0014's full-surface cadence, covering Q-0001, Q-0002, Q-0003, Q-0004, Q-0005, Q-0006, Q-0008, Q-0009, Q-0010, Q-0012, Q-0013, Q-0014, Q-0018 and THR-01/02/03/04/05/06/07/09/10/12, deliberately using fresh wording rather than repeating RUN-0011's queries.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0048",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Finding",
+    "text": "Located a previously-unregistered NSW Parliament document - 'Answers to Supplementary QONs - Budget Estimates - Minister for Police' (received 26 March 2026), registered as SRC-0096 - whose WebSearch-indexed content appears to address exactly the gaps THR-05/THR-06 have been probing: PolAir-Remote's public/private-space operating distinction and 'no proactive policing of private spaces' position (EV-0847, relevant to CTR-0001/Q-0005/Q-0010), and a named 'AI and Emerging Biometrics Ethics Board' reviewing Artificial Intelligence Assessment Framework determinations (EV-0848, relevant to Q-0006/Q-0012). WebFetch to parliament.nsw.gov.au returned EGRESS_BLOCKED, so only WebSearch's own paraphrase of the document could be reviewed, not verbatim text - both evidence items are recorded 'Requires Verification'/'Unverified' and quote only the paraphrase, explicitly labelled as such, rather than inventing a verbatim excerpt. Neither question is closed: this narrows what the controlling policy document and any PolAir-Remote-specific AIAF determination should say, it does not supply either document itself.",
+    "related_thread": null,
+    "related_source": "SRC-0096",
+    "related_evidence": "EV-0847"
+  },
+  {
+    "note_id": "NOTE-0049",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Also investigated and declined to register a distinct claim: multiple WebSearch result summaries this run stated the Moree trial's six-month cost as '$100,000', but no specific linked article's title or snippet actually surfaces that figure with attribution, and it directly conflicts with EV-0012/EV-0843's own already-registered finding that a 30 July 2026 NSW Parliament answer stated the total trial cost had 'not yet been finalised'. Treated as an unverifiable/likely search-summary artefact rather than evidence, per this investigation's standing discipline against merging an AI tool's own unattributed synthesis into the register (see DFAPTI-BB-2026-00001 RUN-0065's AI-summary-conflation discipline) - Q-0004 remains Open and unresolved by this run.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0050",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Negative/search-exhausted findings this pass, not separately logged as evidence: Q-0001 (still no located formal Moree trial evaluation report), Q-0008 (full 11 August 2026 Macleay Argus article still not accessible - paywalled, and WebFetch blocked), Q-0009 (no NSW Parliament e-petition tabling record found for the Kemp petition), Q-0013 (EOI YR-2026-0058 outcome still undisclosed as at this run), Q-0014 (no LECC/Ombudsman/IPC/Audit Office PolAir-Remote-specific finding located), Q-0018 (EOI YR-2026-0012/Aviation Command Operating Model Review outcome still undisclosed), and no Kempsey/Bellbrook Aboriginal Land Council-specific consultation record located for Q-0015/THR-08 beyond confirming the Land Council itself exists. The already-registered ~53% Moree youth-legal-actions decline (EV-0018/EV-0838) was reproduced again under fresh wording with no new drone-specific causal attribution found (Q-0002/THR-03).",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

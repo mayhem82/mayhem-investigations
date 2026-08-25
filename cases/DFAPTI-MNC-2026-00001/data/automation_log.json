@@ -1034,7 +1034,9 @@
   {
     "run_id": "RUN-0012",
     "date": "2026-08-25",
-    "sources_checked": ["yield-catalogue/index.html (repository-level reference page)"],
+    "sources_checked": [
+      "yield-catalogue/index.html (repository-level reference page)"
+    ],
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Site-wide framing update, not an evidence-gathering run: applied Yield Catalogue framing (Yield for Humans as the always-required baseline, Enforcement as one delivery pathway among several) to this case's Enforcement Notice and Advocacy Package pages. No new evidence, no change to remedy demands or recipients. See DEC-0015."
@@ -1042,7 +1044,11 @@
   {
     "run_id": "RUN-0013",
     "date": "2026-08-25",
-    "sources_checked": ["dfapta/analysis.json", "lattice-atlas/patterns.json", "shm-gate/data.json"],
+    "sources_checked": [
+      "dfapta/analysis.json",
+      "lattice-atlas/patterns.json",
+      "shm-gate/data.json"
+    ],
     "result": "No relevant change detected.",
     "evidence_added": [],
     "notes": "Built this case's Yield Gate (yield-gate/data.json) - assessed all 11 Discovered Functions and 19 Citizen Tools against this case's own frozen material. No new evidence added; this is an analytical assessment of already-frozen content, not a new evidence-gathering pass. See DEC-0016."
@@ -1054,5 +1060,18 @@
     "result": "Downstream gates removed; DFAPTA Pass 2 begun.",
     "evidence_added": [],
     "notes": "Operator-directed correction (DEC-0017), not an evidence-gathering run. Cycle 1 DFAPTA (22 paths) found to anchor only 102 of 827 frozen evidence items - 12.3% coverage. SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice and Advocacy Package removed since all six were built on that incomplete basis. Existing 22 paths retained as Pass 1 - specific and accurate, just incomplete, unlike BB-FF's original generic pass. Site-wide references fixed (catalogue, yield-catalogue, public-interest/structural-patterns)."
+  },
+  {
+    "run_id": "RUN-0015",
+    "date": "2026-08-25",
+    "sources_checked": [
+      "SRC-0096"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0847",
+      "EV-0848"
+    ],
+    "notes": "Automated pass on DFAPTI-MNC-2026-00001, chosen over DFAPTI-BB-2026-00001 to keep the two cases' collection cadence roughly even (BB's last genuine collection run was RUN-0071 on 2026-08-24; MNC's was RUN-0011 on 2026-08-23, with the intervening RUN-0012/RUN-0013/RUN-0014 being non-evidentiary site-framing/Yield-Gate/DFAPTA-Pass-2 work rather than collection). Confirmed via a live control fetch (example.com) that WebFetch remains EGRESS_BLOCKED this session, same organisational egress policy as every prior run since DEC-0006/DEC-0008/DEC-0012, while WebSearch functions normally; no attempt made to route around the block, per DEC-0006. Ran a 21-query multi-angle sweep (SRCH-0038 to SRCH-0058) per DEC-0014's full-surface cadence, covering Q-0001 through Q-0006, Q-0008 through Q-0010, Q-0012 through Q-0014, Q-0018, and THR-01 through THR-07, THR-09, THR-10, THR-12. Two genuinely new findings registered: EV-0847 and EV-0848, both drawn from a previously-unlocated NSW Parliament document (SRC-0096, 'Answers to Supplementary QONs - Budget Estimates - Minister for Police', received 26 March 2026) whose WebSearch-indexed content addresses PolAir-Remote's public/private-space operating rules (bearing on CTR-0001/Q-0005/Q-0010) and references a named 'AI and Emerging Biometrics Ethics Board' reviewing AI Assessment Framework determinations (bearing on Q-0006/Q-0012). WebFetch to parliament.nsw.gov.au was EGRESS_BLOCKED, so both items record only WebSearch's own paraphrase, explicitly labelled as such, and remain classification 'Requires Verification'/verification_state 'Unverified' pending independent full-text confirmation; neither Q-0005, Q-0006, Q-0010 nor Q-0012 is closed by this run. Investigated and declined to register a recurring but unattributable WebSearch-summary claim that the Moree trial's six-month cost was \"$100,000\" - it directly conflicts with EV-0012/EV-0843's already-registered 30 July 2026 Parliament answer that the total cost had not yet been finalised, and no specific source snippet actually carried the figure with attribution, so it was treated as a likely search-summary artefact rather than evidence (Q-0004 remains Open). Negative/search-exhausted findings this pass (not separately logged as evidence): Q-0001 (no located trial evaluation report), Q-0008 (full Macleay Argus article still inaccessible), Q-0009 (no e-petition tabling record), Q-0013 (EOI YR-2026-0058 outcome still undisclosed), Q-0014 (no LECC/oversight-body finding), Q-0018 (EOI YR-2026-0012 outcome still undisclosed), and no Aboriginal Land Council-specific consultation record located (Q-0015/THR-08). The already-registered ~53% Moree youth-legal-actions decline (EV-0018/EV-0838) was reproduced under fresh search wording with no new drone-specific causal attribution found (Q-0002/THR-03)."
   }
 ]
