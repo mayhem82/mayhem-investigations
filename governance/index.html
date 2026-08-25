@@ -76,14 +76,16 @@ isn't written for a public reader - see the note near the end of this page for w
 <p class="section-desc">Scope and purpose. &sect;1-3, &sect;5.</p>
 
 <div class="term-entry">
-<div class="term-row"><span class="term-name">One case, permanently continuable</span><span class="sec-badge">&sect;1-3</span></div>
+<div class="term-row"><span class="term-name">Each case, permanently continuable</span><span class="sec-badge">&sect;1-3</span></div>
 <div class="term-desc">This is not a general-purpose research wiki, a public-intelligence dashboard, or a scratch
-space for notes. Its sole operational purpose is to maintain one persistent forensic investigation while
-preserving every stage of evidence collection - the repository <em>is</em> the investigation, not a description
-of it. Only one investigation is active at a time: a deliberate constraint against partial attention,
-cross-contamination between unrelated matters, and automation quietly broadening scope. Every conclusion must
-remain supported by preserved primary-source evidence - never by inference alone, and never by an investigator's
-or an automated agent's unsupported assertion.</div>
+space for notes. Its operational purpose is to maintain forensic investigations while preserving every stage of
+evidence collection - the repository <em>is</em> the investigation, not a description of it. MAYHEM is a modular
+mechanism: a repository can run one investigation or several at once, each fully isolated from every other -
+own evidence, own chronology, own automation state, nothing shared or blended across cases. What's constrained
+is cross-contamination between unrelated matters and automation quietly broadening a case's own scope, not the
+number of cases a repository can carry. Every conclusion must remain supported by preserved primary-source
+evidence - never by inference alone, and never by an investigator's or an automated agent's unsupported
+assertion.</div>
 </div>
 
 <div class="term-entry constraint">
@@ -98,8 +100,10 @@ routine operation.</div>
 <p class="section-desc">Design principles and architectural constraints. &sect;4, &sect;35-36.</p>
 
 <div class="term-entry">
-<div class="term-row"><span class="term-name">Single Case</span><span class="sec-badge">&sect;4</span></div>
-<div class="term-desc">Only one investigation is active at a time.</div>
+<div class="term-row"><span class="term-name">Case Isolation</span><span class="sec-badge">&sect;4</span></div>
+<div class="term-desc">A repository may run one investigation or several concurrently; each is fully isolated
+from every other (its own evidence, chronology, threads, and automation state) and none share or blend state
+with another.</div>
 </div>
 
 <div class="term-entry">

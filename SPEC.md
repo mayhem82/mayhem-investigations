@@ -52,20 +52,27 @@ reaches must remain supported by preserved primary-source evidence — never by
 inference alone, and never by the investigator's or an automated agent's unsupported
 assertion.
 
-## 3. Architectural Change (Single-Case Discipline)
+## 3. Architectural Change (Case Isolation Discipline)
 
-A MAYHEM repository supports **one operational investigation at a time**. This is a
-deliberate constraint, not a limitation of convenience: it prevents partial attention,
+MAYHEM is a **modular** audit mechanism: a repository supports one or more
+operational investigations, run concurrently where useful, each **fully isolated**
+from every other — its own evidence register, chronology, threads, and automation
+state, with nothing shared or blended across cases. This is a deliberate constraint,
+not a limitation of convenience: it prevents partial attention within a given case,
 cross-contamination between unrelated matters, and the temptation to let automation
-silently broaden scope. A repository may go on to host further investigations over
-its lifetime (see §20), but never more than one *active* case without each being
-fully isolated (§34).
+silently broaden a case's own scope, or to let one case's automation act on another.
+A repository may host further investigations over its lifetime (see §20) and run
+several at once (§34); what never happens is two cases sharing state, or automation
+creating a new case on its own initiative.
 
 ## 4. Design Principles
 
 These principles are permanent and apply to every MAYHEM investigation:
 
-- **Single Case** — only one investigation is active at a time.
+- **Case Isolation** — a repository may run one investigation or several
+  concurrently; each is fully isolated from every other (its own evidence,
+  chronology, threads, and automation state) and none share or blend state with
+  another.
 - **Persistent Investigation** — the investigation never resets; state accumulates,
   it is not recomputed from scratch each session.
 - **Append-Only Evidence** — evidence is never overwritten, renumbered, or silently

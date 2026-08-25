@@ -55,19 +55,24 @@ repository concretely satisfies it.
 
 - Nothing in this repository creates a case automatically. There is no
   scheduled task, script, or automation that generates a new
-  `case_identifier` — every `case_id` field in every register is validated
-  against the single value in `data/case.json` (`scripts/validate.js`),
-  which structurally *prevents* a second case's data from entering this
-  repository by accident.
-- Per spec section 3 ("Architectural Change"), this repository's active
-  architecture is intentionally single-case. Should the operator authorize
-  a genuinely new investigation, the correct approach is a **new,
-  independent repository** built the same way as this one (its own
-  `data/`, `docs/`, `scripts/`, `app.js`/`index.html`/`style.css`, its own `case.json` with a new
-  `case_identifier`), not a second case folder inside this repository —
-  that is what "cases remain completely isolated" requires, and it avoids
-  any risk of the two investigations' evidence, chronology, or automation
-  state ever being cross-contaminated.
+  `case_identifier` — every case's own `case_id` field in every register is
+  validated against that case's own `case.json` (`scripts/validate.js`,
+  iterating the registered case list in `scripts/case-registry.js`), which
+  structurally *prevents* one case's data from being recorded under
+  another case's identifier by accident.
+- This repository's architecture is modular and multi-case by design (see
+  `SPEC.md` §3, "Case Isolation Discipline" — this document's reference to
+  spec section 3 originally described the single-case predecessor spec,
+  `docs/specs/MAYHEM-SPEC-DFAPTI-WATER-001-v2.0.md`; the repository has
+  since grown past that single-case constraint and `SPEC.md`, the current
+  case-agnostic specification, reflects that). Each investigation lives
+  under its own `cases/<CASE-ID>/` directory (or the repository root, for
+  the original case) with a fully independent `data/case.json`,
+  `case_identifier`, evidence register, chronology, contradiction
+  register, thread structure, and automation state — never a shared
+  `data/` directory across cases, and no case's automation acts on
+  another's data. What "cases remain completely isolated" requires is that
+  isolation, not a one-repository-per-case rule.
 - This is a decision for the operator to make explicitly (see
   `data/decisions.json`), never something this codebase does on its own.
 
@@ -130,21 +135,21 @@ state anywhere in this repository that recovery could lose.
 
 **In this repository:**
 
-This repository currently implements exactly one of those five listed
-capabilities — a single, long-running investigation (`DFAPTI-BB-2026-00001`)
-— because spec section 3 deliberately retires the multi-investigation
-architecture in favor of a single operational case. That restriction, not
-a technical limitation, is why this repository does not support multiple
-concurrent cases today.
+This repository currently implements multiple concurrent investigations —
+`DFAPTI-BB-2026-00001`, `DFAPTI-MNC-2026-00001`, `DFAPTI-BB-FF-2026-00001`,
+`DFAPTI-BB-LW-2026-00001`, and `DFAPTI-TA-FF-2026-00001` — each logically
+isolated per the pattern described in section 20 above: its own
+`case_identifier`, evidence register, chronology, contradiction register,
+thread structure, and automation state, scoped to its own `cases/<CASE-ID>/`
+directory (or the repository root, for the original case) and validated
+independently. Two of these cases (`DFAPTI-BB-FF-2026-00001` and
+`DFAPTI-MNC-2026-00001`) currently run their own separate scheduled
+automation routines, each operating only on its own case's data.
 
-The underlying pattern *is* built to scale, though: each register is
-scoped to a single `case_id` and validated against exactly one
-`case.json`, so the same `data/` + `scripts/` + workspace layout could be
-instantiated once per investigation. If the operator ever authorizes
-"multiple concurrent investigations" or "multi-jurisdiction repositories,"
-the correct approach is one independent repository per case (see section
-20 above), not extending this repository's schema to hold more than one
-`case_id`.
+Each register being scoped to a single `case_id` and validated against
+exactly one `case.json` per case is what makes this multi-case operation
+safe within a single repository, rather than a reason multiple concurrent
+investigations would require separate repositories.
 
 ---
 
@@ -163,7 +168,7 @@ aspirationally:**
 | Never alter preserved evidence | No script in `scripts/` edits or deletes an existing entry in `evidence_register.json`. `preserved/README.md` states files there are never edited in place. Corrections require a *new* evidence item. |
 | Never reuse evidence identifiers | `scripts/validate.js` (`checkUnique`) rejects any duplicate `evidence_id`; the ID scheme (`EV-0001`, `EV-0002`, ...) is always assigned as `max + 1`, never reassigned. |
 | Never delete audit history | Git history is the audit trail — nothing in this repository force-rewrites commits. `data/change_log.json` additionally records every structural change in the data itself, independent of git. |
-| Never merge unrelated investigations | Every register's `case_id` must equal `data/case.json.case_identifier`; `scripts/validate.js` fails the build if it doesn't, which structurally prevents another case's records from being merged in. |
+| Never merge unrelated investigations | Every register's `case_id` must equal that case's own `case.json.case_identifier`; `scripts/validate.js` validates each registered case independently and fails the build if it doesn't, which structurally prevents another case's records from being merged in. |
 | Never hide validation failures | `scripts/validate.js` prints every failing rule by name and exits with a non-zero status; there is no "warnings only" or suppressed mode. |
 | Never modify chronology without recording the change | `data/chronology.json` is append-only (new entries only); any change to the chronology's structure or an existing entry's status is itself recorded as a `data/change_log.json` entry, per spec section 30. |
 
