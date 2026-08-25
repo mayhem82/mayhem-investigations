@@ -448,5 +448,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0051",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass (DEC-0019). Read dfapta/analysis.json's status field first (\"In Progress - Pass 2\", not Frozen - proceeded), then all 18 prior decisions.json entries, all 50 prior investigation_notes.json entries, all 15 automation_log.json entries, and source_register.json in full, before treating anything as new, per DEC-0009/DEC-0010's standing correction. Computed coverage against the current 848-item evidence register (not the 827-item figure Pass 1's own note still described): 102/848 = 12.0%. Cross-referenced dfapta/analysis.json's anchors against threads.json and evidence_register.json to find genuine gaps rather than re-treading covered ground, and identified that preserved/snapshot-06-2026-08-16.txt's Sections B-D (Findings F-101-F-130, EV-0053-EV-0082) were almost entirely unanchored while Section A (F-091-F-100) was already fully covered by AR-018 - read the full snapshot text directly before writing anything, per the protocol's requirement to work from primary-source material rather than a topic label.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]

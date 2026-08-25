@@ -4,7 +4,7 @@
   "cycle": 1,
   "status": "In Progress — Pass 2",
   "analysis_commenced": "2026-08-17",
-  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0017 and the equivalent correction on DFAPTI-BB-FF-2026-00001 (DEC-0007). Pass 1 (AR-001 through AR-022, commenced 2026-08-17) analysed the evidence register as frozen by the operator's explicit \"freeze evidence register\" command (DEC-0009): 827 entries, EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs. Pass 1 anchored only 102 of those 827 items (12.3% coverage) - specific and accurate where it went, but nowhere near \"all paths taken\" at this case's scale. Downstream gates built on Pass 1 (SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) were removed 2026-08-25. Pass 2 (AR-023 onward) expands coverage toward the remaining evidence. Every anchor cited carries the register's own \"Unverified\" verification_state; this analysis introduces no new evidence and does not upgrade that status. Further passes continue until the operator states DFAPTA itself is frozen - no downstream gate is rebuilt until then.",
+  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0017 and the equivalent correction on DFAPTI-BB-FF-2026-00001 (DEC-0007). Pass 1 (AR-001 through AR-022, commenced 2026-08-17) analysed the evidence register as frozen by the operator's explicit \"freeze evidence register\" command (DEC-0009): 827 entries, EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs. Pass 1 anchored only 102 of those 827 items (12.3% coverage) - specific and accurate where it went, but nowhere near \"all paths taken\" at this case's scale. Downstream gates built on Pass 1 (SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) were removed 2026-08-25. Pass 2 (AR-023 onward) expands coverage toward the remaining evidence; unlike Pass 1, it runs against a register that keeps growing under the still-live DFAPTI stage, not a fixed snapshot - the register held 848 items (EV-0001 through EV-0848) as at this sub-pass, following genuine evidence-collection runs since the DEC-0009 freeze. The first Pass 2 sub-pass (AR-023 through AR-025, 2026-08-25) closely read preserved/snapshot-06-2026-08-16.txt (Deep Research Snapshot 6, Findings F-091 through F-130) in full and added three paths covering its previously-unanchored incapacitation/displacement/substitution (F-101-F-110), deterrence-signalling (F-111-F-120) and political-feedback/perception-trend (F-121-F-130) sections - Section A of the same snapshot (F-091-F-100, economic system effect) was already anchored by Pass 1's AR-018. Coverage now stands at 130 of 848 items (15.3%). Every anchor cited carries the register's own \"Unverified\" verification_state; this analysis introduces no new evidence and does not upgrade that status. Further passes continue until the operator states DFAPTA itself is frozen - no downstream gate is rebuilt until then.",
   "paths": [
     {
       "id": "AR-001",
@@ -882,6 +882,140 @@
         "EV-0052"
       ],
       "boundary": "No determination is made of intent, wrongdoing, the truth or falsity of the petition's underlying policy case, or any forward projection - see Temporal Projection Integrity Engine for forward judgement stated separately."
+    },
+    {
+      "id": "AR-023",
+      "title": "Incapacitation, Displacement and Substitution: Untested Alternative Mechanisms Behind the Moree Decline",
+      "analysis": [
+        "Moree's 53% youth-legal-action decline sits inside a broader Mid North Coast/regional decline (BOCSAR reports a 12.5% fall across Regional NSW over the same two years) and cannot be explained by incapacitation alone, since Moree's own youth-custody count fell over the same period (20 in 2024 to 13 in 2025) rather than rising as a large cohort was removed from the community. That leaves at least three further candidate mechanisms - geographic displacement (offending pushed to nearby towns), temporal displacement (offending shifted to times outside known deployment/patrol windows), and offence substitution (a targeted cohort shifting to different offence types or conduct less visible to aerial policing) - each capable of producing the same headline decline without any genuine reduction in underlying offending. None of the three has been measured, tested or ruled out for Moree specifically in the public record checked.",
+        "The closest available evidence bears on whether the question is even open, not on its answer: NSW Police's own reporting of Operation Soteria surge activity in Moree and surrounding towns establishes the enforcement footprint was not confined to Moree's municipal boundary, which keeps geographic displacement live rather than resolving it. BOCSAR-hosted and international systematic-review evidence on geographically focused policing separately establishes, as a general criminological rule rather than a Moree-specific finding, that displacement is not inevitable and that diffusion of benefits to nearby areas can occur instead - meaning the absence of a displacement finding for Moree cannot be read as evidence that no displacement occurred. A credible evaluation would need a geographic comparator (adjacent/catchment communities) and a temporal comparator (before/during/after deployment windows) that do not currently exist for Moree, on top of the counterfactual-design gap already established at AR-006."
+      ],
+      "determinations": [
+        [
+          "AR-023.1",
+          "Geographic displacement, temporal displacement and offence substitution are each theoretically capable of producing Moree's observed youth-crime decline independent of any genuine reduction in offending, and none has been measured or ruled out in the public record."
+        ],
+        [
+          "AR-023.2",
+          "Operation Soteria's own reported surge activity in Moree and surrounding towns establishes the enforcement footprint was not confined to Moree's municipal boundary, which keeps the displacement question open rather than resolving it either way."
+        ],
+        [
+          "AR-023.3",
+          "Because incapacitation, geographic displacement, temporal displacement, offence substitution and desistance can each independently produce the same headline decline, and the public Moree data do not separate them, no single mechanism can be credited with the decline from the trend data alone."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Complexity as Barrier",
+          "CONFIRMED",
+          "At least five non-exclusive candidate mechanisms (incapacitation, geographic displacement, temporal displacement, offence substitution, desistance) can each produce the same observed statistic; disentangling them requires a comparator design that does not exist in the public record."
+        ]
+      ],
+      "anchors": [
+        "EV-0053",
+        "EV-0054",
+        "EV-0055",
+        "EV-0056",
+        "EV-0057",
+        "EV-0058",
+        "EV-0059",
+        "EV-0060",
+        "EV-0061",
+        "EV-0062"
+      ],
+      "boundary": "No determination is made that geographic displacement, temporal displacement, offence substitution or genuine desistance actually occurred, or did not occur, in Moree; the finding is limited to the fact that these are unmeasured, testable alternative mechanisms absent from the public record, extending AR-006's broader counterfactual-design gap to the specific mechanisms that gap contains."
+    },
+    {
+      "id": "AR-024",
+      "title": "Deterrence Signalling as an Untested Alternative Causal Mechanism",
+      "analysis": [
+        "NSW's own BOCSAR research - a study finding a 1% increase in police numbers associated with reduced theft and motor-vehicle theft with no significant increase in arrest rates, interpreted by BOCSAR as more consistent with deterrence than incapacitation - together with the broader deterrence literature's emphasis on perceived certainty of apprehension over severity of punishment, establishes a general, NSW-grounded basis for a mechanism distinct from either incapacitation or arrest volume: a policing presence can reduce offending by raising perceived detection probability, including when no aircraft is actually overhead. Applied cautiously to PolAir-Remote and Operation Soteria's own stated high-visibility design, this creates a live alternative hypothesis for Moree's decline that the petition's operational-output framing does not engage with.",
+        "No Moree evaluation in the public record measures the perceived-certainty variables a deterrence evaluation requires (awareness of PolAir-Remote, perceived escape probability, knowledge of night/thermal capability), and the closest NSW precedent for targeted-policing deterrence - BOCSAR's evaluation of the Suspect Target Management Plan - both supports the mechanism's plausibility (larger associated reductions among juveniles than adults) and separately warns against causal interpretation of its own headline figures, while finding a smaller associated offending reduction for Aboriginal people alongside a larger associated increase in imprisonment risk. That combination of plausibility and governance caution is not carried forward into the petition's aggregate arrest figures. Because a successful deterrence effect would be expected to reduce, not increase, arrest counts over time as underlying offending itself falls, \"100+ arrests\" cannot function as a deterrence-success metric - it is only interpretable as a count of enforcement activity."
+      ],
+      "determinations": [
+        [
+          "AR-024.1",
+          "Deterrence via increased perceived detection probability is a criminologically-supported alternative mechanism, distinct from incapacitation or arrest volume, by which PolAir-Remote or Operation Soteria could reduce Moree offending."
+        ],
+        [
+          "AR-024.2",
+          "No public Moree evaluation measures the perceived-certainty variables a deterrence evaluation requires; the mechanism's applicability to Moree specifically remains untested."
+        ],
+        [
+          "AR-024.3",
+          "The closest NSW precedent for targeted-policing deterrence (BOCSAR's Suspect Target Management Plan evaluation) both supports the mechanism's plausibility and separately warns against causal interpretation of its own headline figures, while finding unequal associated justice-system effects across Aboriginal and non-Aboriginal cohorts - a governance caution the petition's aggregate arrest figures do not carry forward."
+        ],
+        [
+          "AR-024.4",
+          "Because successful deterrence could reduce rather than increase arrest counts, \"100+ arrests\" cannot serve as a deterrence-success metric; it is interpretable only as an enforcement-activity count."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Activity as Outcome",
+          "CONFIRMED AS A STRUCTURAL GAP",
+          "The petition's arrest/recovery figures measure enforcement activity, not the outcome (reduced underlying offending via deterrence) the activity is offered as proof of; the two move in opposite directions if deterrence is actually occurring."
+        ]
+      ],
+      "anchors": [
+        "EV-0063",
+        "EV-0064",
+        "EV-0065",
+        "EV-0066",
+        "EV-0067",
+        "EV-0068",
+        "EV-0069",
+        "EV-0070",
+        "EV-0071",
+        "EV-0072"
+      ],
+      "boundary": "No determination is made that deterrence is or is not occurring in Moree, or that the petition's arrest figures are inflated or fabricated; the finding is limited to the fact that arrest volume cannot serve as a deterrence-success metric, and that the perceived-certainty measures a deterrence evaluation requires do not exist in the public record."
+    },
+    {
+      "id": "AR-025",
+      "title": "Perception-Trend Gap and the Political-Visibility Feedback Loop",
+      "analysis": [
+        "BOCSAR's own 2025 statewide public-confidence survey found half of respondents believed property crime had increased over the previous five years despite a significant recorded decline, and separately found confidence in the NSW criminal justice system at its lowest recorded level even as some crime indicators improved - establishing, at a statewide level independent of Kempsey, that public perception of crime trend and the recorded trend itself can diverge. That divergence does not resolve to \"the fear is irrational\": Kempsey's own February 2025 rally (nearly 700 residents) was organised around documented, individually severe victim testimony, which is direct evidence of harm at the individual level even where an aggregate trend statistic moves the other way. Moree's own record demonstrates the same pattern locally rather than only in theory - youth legal actions and youth custody both fell sharply while adult violent offending, including domestic-violence-related assault, remained high - meaning \"crime is falling\" and \"this community has a serious ongoing safety problem\" can both be true of the same place at the same time, depending which crime component and which evaluation endpoint (objective trend, individual harm, or perceived safety) is being described.",
+        "The petition and the political process around it sit inside a feedback architecture BOCSAR's own data makes visible without establishing intent: a severe incident generates community attention and rallies, which generates visible enforcement and publicised arrests or recoveries, which reinforces both a crime-threat narrative and an enforcement-success narrative, while prevented offences and desistance - the outcomes an evaluation should actually be measuring - are structurally far less visible than either. Michael Kemp MP's own November 2025 parliamentary question demanding public performance metrics for a separate $23 million youth-crime package, a demand the government's own December answer did not satisfy, establishes that Kemp has himself already placed public outcome-measurement on the record as the correct accountability standard - a standard this analysis applies back to the PolAir-Remote petition's own claims for consistency, without alleging bad faith on his part or presuming the feedback mechanism operated in this specific case."
+      ],
+      "determinations": [
+        [
+          "AR-025.1",
+          "NSW-wide, documented public perception of crime trend can diverge materially from the recorded trend (BOCSAR's own \"perception-reality gap\" finding); this divergence does not by itself establish that any individual Kempsey resident's fear is unfounded."
+        ],
+        [
+          "AR-025.2",
+          "Objective crime-trend improvement and persistent local insecurity are independently documented as coexisting in Moree (youth decline alongside high adult violent offending), and are evidenced as a general NSW pattern by BOCSAR's confidence and crime-trend data read together."
+        ],
+        [
+          "AR-025.3",
+          "A political-visibility feedback architecture - severe incident to community attention to visible enforcement to publicised output, with prevention and desistance structurally less visible - is a documented structural possibility grounded in BOCSAR's own confidence research; this analysis does not find that Kemp, NSW Police, or any specific media outlet intentionally manufactured or exploited it in this case."
+        ],
+        [
+          "AR-025.4",
+          "Kemp's own prior parliamentary demand for public performance metrics on a separate youth-crime package establishes a transparency standard this investigation applies consistently back to the PolAir-Remote petition's own claims, not a standard invented for this case alone."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Narrative Compression",
+          "CONFIRMED AS A RISK",
+          "Two distinct evaluation endpoints - objective recorded trend and perceived/lived safety - are compressed into a single \"crime is/isn't falling\" narrative on both sides of the public debate, when BOCSAR's own data shows they can move independently."
+        ]
+      ],
+      "anchors": [
+        "EV-0073",
+        "EV-0074",
+        "EV-0075",
+        "EV-0076",
+        "EV-0077",
+        "EV-0078",
+        "EV-0079",
+        "EV-0080",
+        "EV-0081",
+        "EV-0082"
+      ],
+      "boundary": "No determination is made about whether Kempsey's fear of crime is proportionate to recorded risk, whether any specific person or outlet acted in bad faith, or whether the political-visibility feedback loop actually operated in this case rather than merely being a documented structural possibility."
     }
   ],
   "cross_path_observations": [
@@ -944,6 +1078,12 @@
       "title": "Baseline convergence: a real capability seeking expansion faster than its own evidentiary and governance base can support it",
       "analysis": "Across independent paths, PolAir-Remote is a real, tactically useful capability inside an active statewide expansion trajectory whose specific public justifications (crime statistics, cost, deployment speed) and governance documentation (operational policy, AI assessment, exit criteria, chain of custody) have not caught up with the pace of that trajectory.",
       "anchors": "AR-002 through AR-022"
+    },
+    {
+      "id": "CPO-011",
+      "title": "Five mechanisms, one headline number, and a second unmeasured layer on top of it",
+      "analysis": "AR-023's incapacitation/displacement/substitution alternatives and AR-024's deterrence-signalling alternative extend AR-006's counterfactual-design gap into the specific mechanisms it contains: at least five distinct, non-exclusive mechanisms (incapacitation, geographic displacement, temporal displacement, offence substitution, deterrence) could each independently produce Moree's headline youth-crime decline, and none has been measured, ruled out, or disentangled from the others in the public record. AR-025 separately establishes that the political narrative built on top of that same headline number tracks visible activity (arrests, rallies, publicised recoveries) rather than the underlying outcome measures (prevented offences, desistance, perceived safety) any of these five mechanisms would actually require to evaluate. Read together, the petition's central causal claim and the political urgency built on top of it both rest on unmeasured layers, not one.",
+      "anchors": "EV-0055, EV-0056, EV-0060, EV-0061, EV-0063, EV-0072, EV-0081"
     }
   ],
   "disclosure_requests": [
@@ -1209,13 +1349,99 @@
       "AR-018",
       "AR-022"
     ],
+    "EV-0053": [
+      "AR-023"
+    ],
+    "EV-0054": [
+      "AR-023"
+    ],
     "EV-0055": [
       "AR-003",
-      "AR-006"
+      "AR-006",
+      "AR-023"
+    ],
+    "EV-0056": [
+      "AR-023"
+    ],
+    "EV-0057": [
+      "AR-023"
+    ],
+    "EV-0058": [
+      "AR-023"
+    ],
+    "EV-0059": [
+      "AR-023"
+    ],
+    "EV-0060": [
+      "AR-023"
     ],
     "EV-0061": [
       "AR-003",
-      "AR-006"
+      "AR-006",
+      "AR-023"
+    ],
+    "EV-0062": [
+      "AR-023"
+    ],
+    "EV-0063": [
+      "AR-024"
+    ],
+    "EV-0064": [
+      "AR-024"
+    ],
+    "EV-0065": [
+      "AR-024"
+    ],
+    "EV-0066": [
+      "AR-024"
+    ],
+    "EV-0067": [
+      "AR-024"
+    ],
+    "EV-0068": [
+      "AR-024"
+    ],
+    "EV-0069": [
+      "AR-024"
+    ],
+    "EV-0070": [
+      "AR-024"
+    ],
+    "EV-0071": [
+      "AR-024"
+    ],
+    "EV-0072": [
+      "AR-024"
+    ],
+    "EV-0073": [
+      "AR-025"
+    ],
+    "EV-0074": [
+      "AR-025"
+    ],
+    "EV-0075": [
+      "AR-025"
+    ],
+    "EV-0076": [
+      "AR-025"
+    ],
+    "EV-0077": [
+      "AR-025"
+    ],
+    "EV-0078": [
+      "AR-025"
+    ],
+    "EV-0079": [
+      "AR-025"
+    ],
+    "EV-0080": [
+      "AR-025"
+    ],
+    "EV-0081": [
+      "AR-025"
+    ],
+    "EV-0082": [
+      "AR-025"
     ],
     "EV-0089": [
       "AR-016"
@@ -1380,11 +1606,11 @@
     ]
   },
   "counts": {
-    "analysis_paths": 22,
-    "analytical_determinations": 72,
-    "cross_path_observations": 10,
+    "analysis_paths": 25,
+    "analytical_determinations": 83,
+    "cross_path_observations": 11,
     "disclosure_requests": 12,
     "contradictions_preserved": 2,
-    "evidence_anchors_referenced": 102
+    "evidence_anchors_referenced": 130
   }
 }
