@@ -48,3 +48,9 @@ finding to make the run look productive.
   precedent.
 - Do not spend the run trying to defeat a specific access block (bot
   detection, 403s, etc.) - log it and move to the next open angle instead.
+- Follow SPEC.md §4's Language Discipline principle in every
+  `evidence_description`, `investigation_relevance`, or note you write:
+  describe documented record, never intent, motive, or a legal conclusion
+  the investigation has no authority to reach; never describe more
+  certainty than the item's verification_state supports. See SPEC.md
+  Appendix A for the specific failure modes this exists to prevent.

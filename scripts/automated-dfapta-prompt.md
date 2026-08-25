@@ -153,3 +153,15 @@ on, and this routine has no authorisation to touch frozen material.
   with no new paths, the same way the DFAPTI routine is allowed to log "no
   new evidence found" rather than force a result.
 - Do not fabricate or overstate a finding to make the run look productive.
+- **Follow SPEC.md §4's Language Discipline principle in every path you
+  write.** Describe documented record or structural behavior, never
+  intent, motive, or a legal conclusion (unlawful, breach, negligent) this
+  investigation has no authority to reach. Never use "complaint" to
+  describe MAYHEM's own Enforcement Notice or any stage of this pipeline —
+  it is a remedy demand, not a complaint, even where a source document
+  itself uses the word for something it sent. See SPEC.md Appendix A for
+  the specific failure modes this exists to prevent, including "framing
+  drift after a correction" — a wording fixed in one place doesn't fix
+  every other place it's echoed, so check the case's own index.html and
+  meta descriptions too if a path's finding touches how a stage gets
+  described, not only the DFAPTA file itself.

@@ -80,6 +80,16 @@ These principles are permanent and apply to every MAYHEM investigation:
   investigation) determines investigation scope, case creation, evidence acceptance
   policy, thread closure, and investigation completion. Automation proposes; the
   operator decides.
+- **Language Discipline** — every finding describes documented record or structural
+  behavior, never intent, motive, or a legal conclusion (unlawful, breach, negligent)
+  the investigation has no authority to reach. Nothing is described with more
+  certainty than its verification status supports. MAYHEM's own remedy-demand
+  document (Enforcement Notice) is never described as a complaint — it demands
+  specific, binding action; it does not ask an institution to investigate itself.
+  This applies everywhere a finding or a stage is described, not only in the
+  document where it is stated most formally — a front-page summary sentence or a
+  case's own meta description is just as much a place this can drift as the finding
+  itself.
 
 ## 5. Removed Capabilities
 
@@ -483,3 +493,18 @@ process:
   evidence of this case. §4's Controlled Scope principle exists so that "this is
   interesting" and "this is relevant to what we were asked to investigate" stay
   distinct judgments.
+- **Framing drift after a correction.** A language-discipline fix made in one
+  document (e.g., rewriting a remedy-demand document that had drifted into
+  complaint-lodging language) does not automatically propagate to every other place
+  the same document or stage is described. A case's own meta description, a
+  front-page summary sentence, or another case's copy of the same template can
+  silently keep the old framing after the document itself has been fixed. A fix to
+  *the* document is not a fix to *every mention of* the document — sweep for the
+  same phrase everywhere it could recur, not only where it was first found.
+- **Analysis re-litigating what an earlier stage already settled.** A downstream
+  stage that treats a fact as newly discovered without first checking whether an
+  earlier stage's own record already resolved it (e.g. re-opening a naming variant
+  as an unresolved discrepancy when the source register already noted it as a plain
+  scribal artifact) doesn't just waste effort — it can quietly overstate uncertainty
+  the record doesn't actually have. Read the full existing record for the stage
+  being built on, not only the specific file that stage is nominally about.
