@@ -165,3 +165,6 @@ on, and this routine has no authorisation to touch frozen material.
   every other place it's echoed, so check the case's own index.html and
   meta descriptions too if a path's finding touches how a stage gets
   described, not only the DFAPTA file itself.
+- Never add a link to the repository itself (GitHub source browsing,
+  commit history, raw `.md`/`.json` files) in anything public-facing. See
+  SPEC.md §17.

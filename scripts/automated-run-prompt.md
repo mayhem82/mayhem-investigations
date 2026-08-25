@@ -54,3 +54,6 @@ finding to make the run look productive.
   the investigation has no authority to reach; never describe more
   certainty than the item's verification_state supports. See SPEC.md
   Appendix A for the specific failure modes this exists to prevent.
+- Never add a link to the repository itself (GitHub source browsing,
+  commit history, raw `.md`/`.json` files) in anything public-facing. See
+  SPEC.md §17.

@@ -264,7 +264,12 @@ publicly accessible. Public outputs remain separate from working investigation
 records where the two diverge. Verification status must always remain visible next
 to the claim it qualifies — never implied, never hidden behind a confident-sounding
 sentence. No interface may imply evidence certainty beyond its recorded
-classification.
+classification. Public-facing pages never link directly to the repository itself
+(source browsing, commit history, or raw specification/data files) — the published
+site is a complete, self-contained presentation layer, not a pointer into the
+working repository behind it. Where a public page needs to summarize repository
+content (e.g. this specification), it presents that content directly rather than
+sending the reader off-site to read it.
 
 ## 18. Repository Structure
 
