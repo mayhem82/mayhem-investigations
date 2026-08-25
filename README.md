@@ -36,7 +36,7 @@ directly in this repo, not in separate documents. See
 [`docs/DATA_MODEL.md`](docs/DATA_MODEL.md) for the field-level schema.
 
 Every case runs the same six-stage site structure - evidence, analysis,
-cross-pattern view, forward assessment, formal complaint, how to use it -
+cross-pattern view, forward assessment, remedy demand, how to use it -
 under `cases/<CASE-ID>/`, so the structure doesn't need re-deriving each
 time a case is added. **The evidence data layer is per-case**:
 `cases/<CASE-ID>/data/`, registered by data directory in
@@ -117,7 +117,7 @@ cases/
                          Stage 4: forward assessment, framed as reasoned
                          judgement with its evidentiary basis stated, not
                          as a certainty score
-    enforcement-notice/  Stage 5: the submission-ready formal complaint
+    enforcement-notice/  Stage 5: the submission-ready remedy demand
     advocacy-package/    Stage 6: recipients, how to submit, how to log
                          responses, and how to verify any finding yourself
   DFAPTI-MNC-2026-00001/ Live at Stage 1 only - the per-case data/ pattern
