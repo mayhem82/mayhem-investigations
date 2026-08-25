@@ -421,9 +421,63 @@ the ones where nobody in government has responded yet. Full technical detail: <a
 <h2>Checking our own work</h2>
 <p class="integrity-intro">This site holds itself to the same standard it applies to Council and NSW Police: claims
 traced to evidence, distinguished from judgement, with gaps disclosed rather than concealed. This is the running
-log of self-checks against that standard - the first of more as this work continues, applying the same Decision
-Register discipline explained in full on the <a href="../governance/index.html">Governance</a> page.</p>
+log of self-checks against that standard, newest first, applying the same Decision Register discipline explained
+in full on the <a href="../governance/index.html">Governance</a> page. More gets added as this work continues.</p>
 <div class="audit-log">
+<div class="audit-entry">
+<div class="audit-meta"><span>25 August 2026</span><span class="audit-case">Site-wide</span></div>
+<h3>Does the governance rules page actually match the repository's own architecture?</h3>
+<p class="audit-summary">Checked the newly-published Governance page against the repository it describes. One
+principle - "Single Case: only one investigation is active at a time" - directly contradicted the repository's
+actual state: five concurrently active, isolated cases, and two of them now running their own separate scheduled
+automation.</p>
+<div class="audit-result"><b>Result:</b> the rule was wrong, not the repository. Corrected the specification
+itself, not just the page describing it - renamed the principle "Case Isolation": a repository may run one
+investigation or several at once, each fully isolated, never sharing state. A separate, older internal document
+had drifted even further, claiming the repository "does not support multiple concurrent cases today" - corrected
+that too.</div>
+<a class="audit-link" href="../governance/index.html">Full record: the corrected principle, on the Governance page &rarr;</a>
+</div>
+<div class="audit-entry">
+<div class="audit-meta"><span>25 August 2026</span><span class="audit-case">Site-wide</span></div>
+<h3>Does Enforcement Notice ever get described as a complaint?</h3>
+<p class="audit-summary">Swept the site for language that frames MAYHEM's own remedy-demand document as a
+complaint - something already corrected once on one case, but never checked for elsewhere it could have
+recurred.</p>
+<div class="audit-result"><b>Result:</b> found it had recurred. This site's own front page, and two separate
+cases' own meta descriptions, still called the fifth stage a "formal complaint" after the underlying document had
+already been rewritten. Fixed all four, then swept separately for intent-attribution language (refused, ignored,
+concealed), legal-conclusion language (unlawful, breach, negligent), and certainty inflation (proven,
+definitively) - all three came back clean. Locked the whole discipline into the specification as a standing
+principle so it isn't a one-off fix.</div>
+<a class="audit-link" href="../governance/index.html">Full record: Language Discipline, on the Governance page &rarr;</a>
+</div>
+<div class="audit-entry">
+<div class="audit-meta"><span>25 August 2026</span><span class="audit-case">DFAPTI-MNC-2026-00001</span></div>
+<h3>Does the analysis stage actually cover the evidence it's built on?</h3>
+<p class="audit-summary">Checked this case's DFAPTA (the cross-pattern analysis stage) against its own frozen,
+827-item evidence register, after the same check on a smaller case found a real gap.</p>
+<div class="audit-result"><b>Result:</b> the analysis anchored only 102 of 827 evidence items - 12.3% coverage.
+What existed was specific and accurate, not generic, but nowhere near complete enough to build on. Removed every
+downstream stage resting on it - SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine,
+Enforcement Notice, and Advocacy Package - rather than leave conclusions standing on an analysis this thin. None
+will be rebuilt until the analysis itself reaches genuine coverage.</div>
+<a class="audit-link" href="../cases/DFAPTI-MNC-2026-00001/dfapti/index.html#decisions">Full record: DEC-0017, DFAPTI-MNC-2026-00001 Decision Register &rarr;</a>
+</div>
+<div class="audit-entry">
+<div class="audit-meta"><span>25 August 2026</span><span class="audit-case">DFAPTI-BB-FF-2026-00001</span></div>
+<h3>Is the case's own analysis actually analysis - or did something else get into it?</h3>
+<p class="audit-summary">A first attempt at this case's DFAPTA (nine analysis paths) was rejected as generic and
+incomplete. Rebuilding it in two deeper passes surfaced two further problems worth naming honestly rather than
+quietly fixing.</p>
+<div class="audit-result"><b>Result:</b> three of the rebuilt paths turned out to be Advocacy Package content -
+remedies sought, recipients, what to ask them for - written into the analysis stage, where it doesn't belong;
+removed. A fourth path treated a single-document spelling variant as an unresolved discrepancy, when this case's
+own source register had already correctly noted it as a plain scribal artifact three days earlier - the actual
+failure wasn't the variant, it was not reading the existing record before writing the analysis. Both lessons are
+now written into the process itself, not just fixed in this one case.</div>
+<a class="audit-link" href="../cases/DFAPTI-BB-FF-2026-00001/dfapti/index.html#decisions">Full record: DEC-0007 through DEC-0010, DFAPTI-BB-FF-2026-00001 Decision Register &rarr;</a>
+</div>
 <div class="audit-entry">
 <div class="audit-meta"><span>21 August 2026</span><span class="audit-case">DFAPTI-MNC-2026-00001</span></div>
 <h3>Enforcement Notice: does it stay within what the evidence supports?</h3>
