@@ -94,5 +94,13 @@
     "result": "Root-cause refinement - DFAPTA Pass 2 had not cross-checked source_register.json.",
     "evidence_added": [],
     "notes": "Operator-directed root-cause check (DEC-0010), not an evidence-gathering run. Confirmed source_register.json's SRC-0006 entry already correctly noted the Hodgkinson/Hodgson spelling variant at case creation (2026-08-22), three days before AR-023 re-treated it as unresolved. Checked source_register.json for prior mentions of AR-024 (colony continuity) and AR-034 (lodgement contradiction) - none found, both remain genuinely new. Updated dfapta/analysis.json's evidence_basis_note to record the methodological fix: cross-check source_register.json, not only evidence_register.json, before treating anything as newly discovered."
+  },
+  {
+    "run_id": "RUN-0013",
+    "date": "2026-08-25",
+    "sources_checked": ["SRC-0007", "SRC-0010"],
+    "result": "DFAPTA Pass 3 completed - 2 new paths added.",
+    "evidence_added": [],
+    "notes": "First automated DFAPTA pass on this case (scripts/automated-dfapta-prompt.md), not an evidence-gathering run - no new EV- items added. Confirmed status was 'In Progress — Pass 2' (not Frozen) before proceeding, and read decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first. All 23 evidence items already had at least one AR- anchor, so re-read the eight preserved primary-source documents directly for granularity Pass 2's own anchors had not fully mined, rather than targeting an uncovered evidence item. Added AR-037 ('confirmed minutes' claimed by two documents - the Community Harm and Accountability Record's Evidence Base line and the Media Pitch's 'What Is Available' section - against this case's own record that the signed minutes were never independently obtained) and AR-038 (a single-source, previously unregistered claim that Bellbrook was 'assessed as not feasible for vegetation management' in July 2022). Both checked against source_register.json first; neither appears there. Added CPO-010, naming this as a third instance of the claims-vs-record gap pattern already seen in AR-006 and AR-034. DFAPTA now at 34 paths, status updated to In Progress — Pass 3. Recursive-audit check per SPEC.md §4: no other repository page names this case's specific pass number or path count, so no further correction was needed."
   }
 ]

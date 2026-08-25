@@ -106,5 +106,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0013",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 2' before proceeding. Read decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires - source_register.json contains no prior mention of either finding below, so both are genuinely new, not re-litigations. Computed evidence-anchor coverage: all 23 evidence items already have at least one AR- anchor, so re-read the eight preserved primary-source documents directly for granularity rather than an uncovered EV- item, concentrating on sections Pass 2's paths had anchored but not fully quoted. Found: (1) the Community Harm and Accountability Record's own 'Evidence Base' line claims 'Kempsey Shire Council confirmed minutes 2022–2026', and the Media Pitch's 'What Is Available' section separately offers 'confirmed meeting minutes' to media - both claims sit in tension with this case's own DR-001/CTR-0001, which record that the signed confirmed minutes were never independently obtained across seven runs; (2) the same Harm and Accountability Record's governance timeline states Bellbrook was 'assessed as not feasible for vegetation management' in July 2022, a specific claim absent from every other document in this case, including the plain-language fact sheet drawn from overlapping material. Added as AR-037 and AR-038, plus CPO-010 naming this as a third instance (after AR-006, AR-034) of the same claims-vs-record gap pattern. Neither finding proposes a remedy, names a recipient, or resolves which side of either tension is accurate - both boundaries recommend a future DFAPTI pass ask the operator directly. Recursive-audit check: no other public-facing page names this case's specific pass number or path count, so no further correction was needed outside dfapta/analysis.json, dfapta/index.html and the case's own index.html.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
