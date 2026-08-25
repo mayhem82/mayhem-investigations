@@ -150,6 +150,16 @@ to investigate itself. This applies everywhere a finding or a stage is described
 it is stated most formally.</div>
 </details>
 
+<details class="term-entry">
+<summary class="term-row"><span class="term-name">Recursive Audit</span><span class="sec-badge">&sect;4</span></summary>
+<div class="term-desc">A correction is not complete until a follow-up pass checks whether the same failure recurs
+elsewhere - other cases, other pages, other copies of the same template - and whether the fix itself introduced
+new drift: a generator and its rendered output falling out of sync, a cross-reference left stale. That follow-up
+pass repeats until it finds nothing new - not indefinitely: a clean pass is itself the stopping condition, and is
+logged as a decision like any other, the same way a "no relevant change detected" result is a legitimate,
+expected outcome, not a failure to be papered over.</div>
+</details>
+
 <details class="term-entry constraint">
 <summary class="term-row"><span class="term-name">What this system shall never do</span><span class="sec-badge">&sect;35</span></summary>
 <div class="term-desc">A MAYHEM-compliant system shall never: alter preserved evidence; reuse evidence
@@ -337,6 +347,16 @@ sweep for the same phrase everywhere it could recur, not only where it was first
 earlier stage's own record already resolved it doesn't just waste effort - it can quietly overstate uncertainty
 the record doesn't actually have. Read the full existing record for the stage being built on, not only the
 specific file that stage is nominally about.</div>
+</details>
+
+<details class="term-entry">
+<summary class="term-row"><span class="term-name">Declaring a fix complete after the first instance</span></summary>
+<div class="term-desc">A correction that stops at the first place a problem was found, without checking whether
+the same root cause exists elsewhere or whether the fix itself created a new inconsistency, looks complete but
+often isn't - see "Framing drift after a correction" and "analysis re-litigating what an earlier stage already
+settled" above for two concrete instances of this same shape. The Recursive Audit principle exists so that
+checking for recurrence and drift is a required step of finishing a correction, not an optional afterthought -
+with an actual stopping point (one clean follow-up pass), not an open-ended obligation.</div>
 </details>
 
 <div class="doc-block">This page leaves out the parts of the specification that are internal implementation

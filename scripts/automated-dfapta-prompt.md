@@ -168,3 +168,10 @@ on, and this routine has no authorisation to touch frozen material.
 - Never add a link to the repository itself (GitHub source browsing,
   commit history, raw `.md`/`.json` files) in anything public-facing. See
   SPEC.md §17.
+- **After any correction this pass makes** (removing a path, fixing a
+  mislabeled finding, correcting a discrepancy), run one follow-up check:
+  does the same issue exist in another path in this case's own DFAPTA, or
+  did the correction itself leave anything inconsistent - counts,
+  cross-references, the case's own index.html blurb? Log what you checked
+  and found - including finding nothing - in the same DEC/NOTE/RUN entry
+  as the correction itself. See SPEC.md §4's Recursive Audit principle.

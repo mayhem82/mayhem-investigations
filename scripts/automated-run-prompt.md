@@ -57,3 +57,9 @@ finding to make the run look productive.
 - Never add a link to the repository itself (GitHub source browsing,
   commit history, raw `.md`/`.json` files) in anything public-facing. See
   SPEC.md §17.
+- After any correction this run makes to an existing entry, run one
+  follow-up check: does the same issue exist in another entry from the
+  same source document or the same research pass? Log what you checked
+  and found - including finding nothing - in the same automation_log.json
+  entry as the correction itself, rather than a separate step. See SPEC.md
+  §4's Recursive Audit principle.

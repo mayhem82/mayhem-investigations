@@ -97,6 +97,14 @@ These principles are permanent and apply to every MAYHEM investigation:
   document where it is stated most formally — a front-page summary sentence or a
   case's own meta description is just as much a place this can drift as the finding
   itself.
+- **Recursive Audit** — a correction is not complete until a follow-up pass checks
+  whether the same failure recurs elsewhere (other cases, other pages, other copies
+  of the same template) and whether the fix itself introduced new drift (a generator
+  and its rendered output falling out of sync, a cross-reference left stale). That
+  follow-up pass repeats until it finds nothing new - not indefinitely: a clean pass
+  is itself the stopping condition, and is logged as a decision like any other, the
+  same way §7 treats "no relevant change detected" as a legitimate, expected result,
+  not a failure to be papered over.
 
 ## 5. Removed Capabilities
 
@@ -520,3 +528,12 @@ process:
   scribal artifact) doesn't just waste effort — it can quietly overstate uncertainty
   the record doesn't actually have. Read the full existing record for the stage
   being built on, not only the specific file that stage is nominally about.
+- **Declaring a fix complete after the first instance.** A correction that stops at
+  the first place a problem was found, without checking whether the same root cause
+  exists elsewhere or whether the fix itself created a new inconsistency, looks
+  complete but often isn't - see "Framing drift after a correction" and "analysis
+  re-litigating what an earlier stage already settled" above for two concrete
+  instances of this same shape. §4's Recursive Audit principle exists so that
+  checking for recurrence and drift is a required step of finishing a correction,
+  not an optional afterthought - with an actual stopping point (one clean follow-up
+  pass), not an open-ended obligation.
