@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="description" content="MAYHEM-SPEC-CORE v1.0.0: the governance rules this site runs on - design principles, evidence discipline, permitted automation, decision-making authority, and the failure modes these rules exist to prevent." />
+<title>MAYHEM - Governance</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
+<style>
+:root { --ink: #17201c; --paper: #f2f0e9; --cream: #e8e4da; --acid: #d8ff3e; --red: #ef6045; --muted: #68716c; --line: #c8cbc3; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: var(--paper); color: var(--ink); margin: 0; font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; }
+.nav { border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); z-index: 10; background: rgba(242,240,233,.94); justify-content: space-between; align-items: center; height: 68px; padding: 0 5vw; display: flex; position: sticky; top: 0; }
+.wordmark { letter-spacing: .1em; align-items: center; gap: 10px; font-size: 13px; font-weight: 900; display: flex; text-decoration: none; color: var(--ink); }
+.wordmark span { background: var(--ink); color: var(--acid); padding: 0 6px; height: 28px; display: grid; place-items: center; font-size: 11px; }
+.navlinks { align-items: center; gap: 22px; font-size: 12px; font-weight: 700; display: flex; }
+.navlinks a { text-decoration: none; }
+.intro { padding: 56px 7vw 30px; max-width: 900px; }
+.kicker { text-transform: uppercase; letter-spacing: .16em; font-size: 11px; font-weight: 800; color: var(--red); margin: 0 0 14px; }
+.intro h1 { letter-spacing: -.03em; font-size: clamp(34px,5vw,58px); line-height: 1.03; margin: 0 0 16px; font-weight: 900; }
+.intro p.lead { font-family: Georgia, serif; font-size: clamp(17px,1.6vw,21px); line-height: 1.5; color: rgb(56,67,62); max-width: 760px; margin: 0 0 20px; }
+.doc-note { color: var(--muted); max-width: 760px; line-height: 1.6; margin: 0 0 14px; font-size: 14.5px; }
+.doc-note a { color: var(--red); font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+.section { padding: 24px 7vw 10px; max-width: 1000px; }
+.section h2 { letter-spacing: -.03em; font-size: clamp(24px,3vw,34px); margin: 40px 0 6px; }
+.section-desc { color: var(--muted); max-width: 700px; line-height: 1.6; margin: 0 0 24px; font-size: 14.5px; }
+.term-entry { background: rgb(245,243,236); border-top: 5px solid var(--acid); padding: 18px 22px; margin-bottom: 10px; }
+.term-entry.constraint { border-top-color: var(--red); }
+.term-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.term-name { font-weight: 800; letter-spacing: -.01em; font-size: 16px; }
+.sec-badge { display: inline-block; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; padding: 2px 8px; background: var(--cream); color: var(--muted); }
+.term-desc { font-size: 15px; line-height: 1.55; margin-top: 8px; color: rgb(69,80,74); font-family: Georgia, serif; }
+.term-desc ul { margin: 6px 0 0; padding-left: 20px; }
+.term-desc li { margin-bottom: 4px; }
+.doc-block { background: rgb(248,246,240); border-left: 6px solid var(--line); padding: 22px 26px; margin: 16px 0 30px; line-height: 1.65; color: rgb(69,80,74); font-size: 14.5px; }
+.doc-block a { color: var(--red); font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+footer { color: #fff; background: rgb(16,23,19); padding: 46px 7vw; margin-top: 40px; font-size: 13px; line-height: 1.6; }
+footer a { text-decoration: underline; text-underline-offset: 2px; }
+@media (max-width: 760px) {
+  .nav { height: 60px; }
+  .intro, .section { padding-left: 6vw; padding-right: 6vw; }
+  .term-entry { padding: 14px 16px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Primary navigation">
+<a class="wordmark" href="../index.html"><span>M</span> MAYHEM INVESTIGATIONS</a>
+<div class="navlinks">
+<a href="../index.html">All cases</a>
+<a href="../public-interest/index.html">Public interest</a>
+<a href="../catalogue/index.html">SHM catalogue</a>
+<a href="../yield-catalogue/index.html">Yield catalogue</a>
+<a href="../glossary/index.html">Glossary</a>
+</div>
+</nav>
+
+<header class="intro">
+<p class="kicker">Reference &middot; Governance &middot; MAYHEM-SPEC-CORE v1.0.0</p>
+<h1>The rules this site runs on.</h1>
+<p class="lead">The purpose of MAYHEM is to preserve factual continuity, eliminate investigation restart costs,
+maintain permanent evidence integrity, and provide a structured environment for continuing forensic investigation
+over time, under direct operator control. Every case on this site - and every automated pass that touches one -
+is required to follow the rules below.</p>
+<p class="doc-note">This page is a public-readable summary. The complete, canonical specification - including the
+data-schema and repository-implementation detail this page leaves out - is
+<a href="https://github.com/mayhem82/mayhem-investigations/blob/main/SPEC.md">SPEC.md, on GitHub</a>.</p>
+</header>
+
+<main class="section">
+
+<h2>What this investigation is - and isn't</h2>
+<p class="section-desc">Scope and purpose. &sect;1-3, &sect;5.</p>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">One case, permanently continuable</span><span class="sec-badge">&sect;1-3</span></div>
+<div class="term-desc">This is not a general-purpose research wiki, a public-intelligence dashboard, or a scratch
+space for notes. Its sole operational purpose is to maintain one persistent forensic investigation while
+preserving every stage of evidence collection - the repository <em>is</em> the investigation, not a description
+of it. Only one investigation is active at a time: a deliberate constraint against partial attention,
+cross-contamination between unrelated matters, and automation quietly broadening scope. Every conclusion must
+remain supported by preserved primary-source evidence - never by inference alone, and never by an investigator's
+or an automated agent's unsupported assertion.</div>
+</div>
+
+<div class="term-entry constraint">
+<div class="term-row"><span class="term-name">What this repository will never be</span><span class="sec-badge">&sect;5</span></div>
+<div class="term-desc">Explicitly not: a general intelligence-collection or monitoring platform; an automatic
+target-generation or mass-investigation-creation system; a heat-score dashboard, ranking system, or public
+allegation system; an automatic keyword-triggered investigation spawner. None of this machinery runs during
+routine operation.</div>
+</div>
+
+<h2>Rules that never change</h2>
+<p class="section-desc">Design principles and architectural constraints. &sect;4, &sect;35-36.</p>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Single Case</span><span class="sec-badge">&sect;4</span></div>
+<div class="term-desc">Only one investigation is active at a time.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Persistent Investigation</span><span class="sec-badge">&sect;4</span></div>
+<div class="term-desc">The investigation never resets; state accumulates, it is not recomputed from scratch each
+session.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Append-Only Evidence</span><span class="sec-badge">&sect;4</span></div>
+<div class="term-desc">Evidence is never overwritten, renumbered, or silently modified. Corrections become new
+evidence entries that reference what they correct.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Source Before Analysis</span><span class="sec-badge">&sect;4</span></div>
+<div class="term-desc">Primary source material is preserved (and hashed, where the material is a fetchable
+document) before analytical interpretation is written down.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Controlled Scope</span><span class="sec-badge">&sect;4</span></div>
+<div class="term-desc">The investigation never expands itself beyond operator-defined scope. An automated agent
+does not decide to investigate something new; a human does.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Human Authority</span><span class="sec-badge">&sect;4</span></div>
+<div class="term-desc">Only the operator (the accountable human running the investigation) determines investigation
+scope, case creation, evidence acceptance policy, thread closure, and investigation completion. Automation
+proposes; the operator decides.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Language Discipline</span><span class="sec-badge">&sect;4</span></div>
+<div class="term-desc">Every finding describes documented record or structural behavior, never intent, motive, or a
+legal conclusion (unlawful, breach, negligent) the investigation has no authority to reach. Nothing is described
+with more certainty than its verification status supports. MAYHEM's own remedy-demand document (Enforcement
+Notice) is never described as a complaint - it demands specific, binding action; it does not ask an institution
+to investigate itself. This applies everywhere a finding or a stage is described, not only in the document where
+it is stated most formally.</div>
+</div>
+
+<div class="term-entry constraint">
+<div class="term-row"><span class="term-name">What this system shall never do</span><span class="sec-badge">&sect;35</span></div>
+<div class="term-desc">A MAYHEM-compliant system shall never: alter preserved evidence; reuse evidence
+identifiers; delete audit history; merge unrelated investigations; hide validation failures; modify chronology
+without recording the change. These constraints are invariant - not subject to case-by-case exception.</div>
+</div>
+
+<h2>How evidence accumulates</h2>
+<p class="section-desc">The registers every case keeps, and the discipline behind them. &sect;7-12, &sect;25-27.</p>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">"No relevant change detected" is a legitimate result</span><span class="sec-badge">&sect;7</span></div>
+<div class="term-desc">When a pass finds no relevant source changes, it must not manufacture evidence to appear
+productive. Instead it records the date, the sources checked, and the honest result. A string of honest "no
+relevant change" outcomes is expected once a question or source is genuinely exhausted - it is not a failure to
+be papered over, and it is strictly preferable to inventing a finding or softening a null result into a vague
+restatement of what's already known.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Evidence Register</span><span class="sec-badge">&sect;8</span></div>
+<div class="term-desc">The investigation's primary factual record. Every item carries a permanent, never-reused
+identifier, its source and classification, what it establishes, and links to the chronology, contradictions and
+open questions it bears on. A wrong entry is corrected by a new entry that says so - never by deletion or
+renumbering.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Source Register</span><span class="sec-badge">&sect;9</span></div>
+<div class="term-desc">Every source checked - whether or not it yielded evidence - gets a permanent record,
+including availability notes (blocked, paywalled, since removed). A future pass can see what's already been
+tried, including dead ends, without re-discovering that from scratch.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Chronology</span><span class="sec-badge">&sect;10</span></div>
+<div class="term-desc">The factual progression of events, with confirmed entries kept distinct from
+pending/unconfirmed ones. Later evidence may refine an entry - add detail, correct a date - but never erase the
+earlier record; the correction is itself logged. Inferred dates are flagged as inferred, never presented as
+directly sourced.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Contradiction Register</span><span class="sec-badge">&sect;11</span></div>
+<div class="term-desc">Contradictions between sources are tracked as independent records, not buried in narrative:
+what supports each side, why it matters, what would resolve it. A contradiction is not resolved by picking the
+more plausible side - only by evidence actually resolving it, or by an explicit "unable to resolve" with
+reasoning.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Open Question Register</span><span class="sec-badge">&sect;12</span></div>
+<div class="term-desc">Unresolved questions are recorded permanently, not left implicit. They stay open until
+genuinely supported by evidence - not until a plausible-sounding but unverified answer accumulates enough
+repetition to feel settled.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Source classification and confidence</span><span class="sec-badge">&sect;25-27</span></div>
+<div class="term-desc">Every source is classified before evidence is extracted from it, and every evidence item's
+confidence rating reflects preservation quality and sourcing strength - never whether a conclusion is true. A
+plausible fact from an unfetched search-engine summary is recorded at a lower tier than the same fact confirmed
+against an actually preserved primary document, even describing the same underlying reality. Every search
+performed is logged - terms, engine, date, filters, results - so a future investigator can repeat it rather than
+guess what was already tried.</div>
+</div>
+
+<h2>Automation rules</h2>
+<p class="section-desc">What an automated pass is allowed to do, in full, and nothing else. &sect;6, &sect;19, &sect;33.</p>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Permitted Automation</span><span class="sec-badge">&sect;6</span></div>
+<div class="term-desc">Every automated evidence-collection pass follows the same fixed sequence: load the case,
+the evidence, the chronology, the contradictions, the open questions and the threads; find where the last pass
+stopped; check approved sources or continue prior leads; detect genuine change (not a restatement of what's
+already known); preserve new source material and hash it where applicable; prevent duplicate evidence; create
+new entries only if something genuinely new was found; update the registers; save; stop. Nothing else occurs. A
+pass does not redesign the investigation, does not silently change scope, and does not delete or rewrite prior
+entries.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Resumption Protocol</span><span class="sec-badge">&sect;19</span></div>
+<div class="term-desc">MAYHEM's defining feature. Reconnecting to an investigation - a new session, a new
+contributor, after any gap - means loading the case, displaying the latest evidence, chronology, unresolved
+questions, contradictions, active threads and the latest automation result, then continuing. No reconstruction.
+No document rebuilding. No searching for previous work. The repository's own state <em>is</em> the memory -
+nothing relies on a human's or an AI's memory of prior sessions.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Failure Recovery</span><span class="sec-badge">&sect;33</span></div>
+<div class="term-desc">If interrupted at any point, the investigation resumes from the last validated state. No
+recovery step relies on memory - human or AI - of what happened before the interruption; everything needed is in
+the repository itself.</div>
+</div>
+
+<h2>Who decides what</h2>
+<p class="section-desc">The audit trail for judgment calls, structural changes, and public/private discipline.
+&sect;17, &sect;29-30.</p>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Decision Register</span><span class="sec-badge">&sect;29</span></div>
+<div class="term-desc">Operational and methodological decisions - as distinct from factual evidence about the
+investigation's subject matter - are recorded separately, in their own register: what was decided, why, by whom,
+and what it changes going forward. This is what lets an investigation accumulate working rules over time without
+re-litigating them from scratch every session.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Change Log</span><span class="sec-badge">&sect;30</span></div>
+<div class="term-desc">Every structural change to the repository - not just evidence additions - is logged: date,
+author, files affected, reason, and whether validation was completed. This is the audit trail for the
+repository's own evolution, distinct from the Decision Register's audit trail for investigative judgment calls.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Security</span><span class="sec-badge">&sect;17</span></div>
+<div class="term-desc">Private investigation records must never be described as private while actually publicly
+accessible. Verification status must always remain visible next to the claim it qualifies - never implied, never
+hidden behind a confident-sounding sentence. No interface may imply evidence certainty beyond its recorded
+classification.</div>
+</div>
+
+<h2>Failure modes this exists to prevent</h2>
+<p class="section-desc">Not additional rules - the specific, recurring failures that motivated the rules above,
+named so implementers understand why they exist. Appendix A.</p>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Manufactured evidence under pressure to look productive</span></div>
+<div class="term-desc">An automated pass that always finds <em>something</em> to add will eventually pad the
+register with restatements or weak inferences. &sect;7 exists specifically to make "nothing new found" a
+legitimate, expected, honestly-logged outcome.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">AI-summary conflation</span></div>
+<div class="term-desc">Search-engine or LLM-generated summaries can misdate old content, or blend two distinct
+source documents into one confident-sounding claim that neither actually supports. A striking new finding
+sourced only from an AI-generated summary gets checked against independently reproducible detail before it's
+registered - and if it doesn't hold up, the rejection and reasoning are logged, not silently dropped.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Provenance drift</span></div>
+<div class="term-desc">Evidence extracted by an AI from a document carries a materially different confidence than
+a human's direct read of the same document, and this must be reflected in classification - never silently
+treated as equivalent.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Untrustworthy hashes</span></div>
+<div class="term-desc">A document hash must always be the literal output of a hashing tool run against the actual
+preserved file - never estimated, recalled, or typed from memory. A hash that was never actually computed is
+worse than no hash, because it creates false confidence in integrity that was never verified.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Silent workaround of access controls</span></div>
+<div class="term-desc">If a source is blocked - paywall, bot detection, robots.txt, an explicit organizational
+access policy - that is a recorded access gap, not a problem to be engineered around. Routing through the
+constraint dishonestly makes the resulting evidence's provenance unreliable in a way validation can't catch
+after the fact.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Scope creep disguised as thoroughness</span></div>
+<div class="term-desc">Finding something interesting adjacent to the investigation's actual scope is not, by
+itself, a reason to register it as evidence of this case. "This is interesting" and "this is relevant to what we
+were asked to investigate" stay distinct judgments.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Framing drift after a correction</span></div>
+<div class="term-desc">A language-discipline fix made in one document doesn't automatically propagate to every
+other place the same document or stage is described. A case's own meta description, a front-page summary
+sentence, or another case's copy of the same template can silently keep the old framing after the document
+itself has been fixed. A fix to <em>the</em> document is not a fix to <em>every mention of</em> the document -
+sweep for the same phrase everywhere it could recur, not only where it was first found.</div>
+</div>
+
+<div class="term-entry">
+<div class="term-row"><span class="term-name">Analysis re-litigating what an earlier stage already settled</span></div>
+<div class="term-desc">A downstream stage that treats a fact as newly discovered without first checking whether an
+earlier stage's own record already resolved it doesn't just waste effort - it can quietly overstate uncertainty
+the record doesn't actually have. Read the full existing record for the stage being built on, not only the
+specific file that stage is nominally about.</div>
+</div>
+
+<div class="doc-block">This page leaves out the parts of the specification that are internal implementation
+detail rather than public-reader material: the literal evidence-register field schema, investigation threads,
+visual-workspace and mobile-design requirements, structural validation rules, repository directory layout, the
+reference implementation order, specification version history, canonical terminology, implementation-technology
+independence, and multi-case scalability. None of it is hidden - it's all in the full specification, it's just
+not written for a public reader. See &sect;8, &sect;13-16, &sect;18, &sect;20-21, &sect;28, &sect;31-32, &sect;34
+in <a href="https://github.com/mayhem82/mayhem-investigations/blob/main/SPEC.md">SPEC.md on GitHub</a> for that
+detail in full.</div>
+
+</main>
+
+<footer>
+<a class="wordmark" href="../index.html" style="color:#fff"><span>M</span> MAYHEM INVESTIGATIONS</a>
+<p style="margin-top:10px;color:rgb(170,180,175);">Governance - MAYHEM-SPEC-CORE v1.0.0. Full specification:
+<a href="https://github.com/mayhem82/mayhem-investigations/blob/main/SPEC.md" style="color:#fff;">SPEC.md on GitHub</a>.</p>
+</footer>
+
+</body>
+</html>
