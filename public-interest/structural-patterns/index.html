@@ -28,6 +28,13 @@ a { color: inherit; }
 .section { padding: 40px 7vw 10px; max-width: 1000px; }
 .section h2 { letter-spacing: -.03em; font-size: clamp(26px,3.4vw,40px); margin: 0 0 6px; }
 .section-desc { color: var(--muted); max-width: 640px; line-height: 1.6; margin: 0 0 28px; }
+.case-block { display: block; }
+.case-block > summary { cursor: pointer; list-style: none; padding: 0 7vw; }
+.case-block > summary::-webkit-details-marker { display: none; }
+.case-block > summary h2 { position: relative; padding-right: 46px; }
+.case-block > summary h2::after { content: "+"; position: absolute; right: 0; top: 0; font-size: 30px; font-weight: 800; color: var(--red); }
+.case-block[open] > summary h2::after { content: "\2212"; }
+.case-collapse { display: inline-block; margin: 10px 7vw 30px; font-size: 13px; font-weight: 800; letter-spacing: .04em; color: var(--red); cursor: pointer; background: none; border: none; padding: 0; font-family: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .mech-card { background: rgb(245,243,236); border-top: 6px solid var(--acid); padding: 26px 28px; margin-bottom: 16px; }
 .mech-card.risk { border-top-color: rgb(255,180,90); }
 .mech-card.candidate { border-top-color: rgb(143,200,255); }
@@ -100,7 +107,8 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   been checked against what's on this page and aren't reflected in it.</p>
 </section>
 
-<h2 style="padding:0 7vw;letter-spacing:-.03em;font-size:clamp(30px,4vw,46px);margin:56px 0 0;">Mid North Coast drone expansion</h2>
+<details class="case-block">
+<summary><h2 style="padding:0 7vw;letter-spacing:-.03em;font-size:clamp(30px,4vw,46px);margin:56px 0 0;">Mid North Coast drone expansion</h2></summary>
 <section class="section" id="mnc-pending">
   <h2>Temporarily withdrawn</h2>
   <p class="section-desc">This case's SHM Gate - the source for everything previously shown on this page for the
@@ -111,8 +119,11 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   See the case's own <a href="../../cases/DFAPTI-MNC-2026-00001/dfapta/index.html">DFAPTA page</a> for current
   status.</p>
 </section>
+<button type="button" class="case-collapse" onclick="var d=this.closest('details');d.open=false;d.scrollIntoView({block:'start',behavior:'smooth'});">&uarr; Collapse this case</button>
+</details>
 
-<h2 style="padding:0 7vw;letter-spacing:-.03em;font-size:clamp(30px,4vw,46px);margin:56px 0 0;">Willawarrin / Bellbrook water failures</h2>
+<details class="case-block">
+<summary><h2 style="padding:0 7vw;letter-spacing:-.03em;font-size:clamp(30px,4vw,46px);margin:56px 0 0;">Willawarrin / Bellbrook water failures</h2></summary>
 <section class="section" id="bb-found">
   <h2>What we found</h2>
   <p class="section-desc">Checked against the Willawarrin/Bellbrook recurring drinking-water investigation's own
@@ -243,8 +254,11 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
     capture or preserve it alongside the institutional account.</p>
   </details>
 </section>
+<button type="button" class="case-collapse" onclick="var d=this.closest('details');d.open=false;d.scrollIntoView({block:'start',behavior:'smooth'});">&uarr; Collapse this case</button>
+</details>
 
-<h2 style="padding:0 7vw;letter-spacing:-.03em;font-size:clamp(30px,4vw,46px);margin:56px 0 0;">Bellbrook laneway</h2>
+<details class="case-block">
+<summary><h2 style="padding:0 7vw;letter-spacing:-.03em;font-size:clamp(30px,4vw,46px);margin:56px 0 0;">Bellbrook laneway</h2></summary>
 <section class="section" id="bb-lw-found">
   <h2>What we found</h2>
   <p class="section-desc">Checked against the Bellbrook laneway investigation's own evidence, already gathered
@@ -343,7 +357,11 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
     writing from either side.</p>
   </details>
 </section>
+<button type="button" class="case-collapse" onclick="var d=this.closest('details');d.open=false;d.scrollIntoView({block:'start',behavior:'smooth'});">&uarr; Collapse this case</button>
+</details>
 
+<details class="case-block">
+<summary><h2 style="padding:0 7vw;letter-spacing:-.03em;font-size:clamp(30px,4vw,46px);margin:56px 0 0;">Taylors Arm flying-fox</h2></summary>
 <section class="section" id="ta-ff-found">
   <h2>What we found</h2>
   <p class="section-desc">Checked against the Taylors Arm flying-fox investigation's own evidence, already
@@ -420,6 +438,8 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
     time from the original complaint to the most recent available record.</div>
   </details>
 </section>
+<button type="button" class="case-collapse" onclick="var d=this.closest('details');d.open=false;d.scrollIntoView({block:'start',behavior:'smooth'});">&uarr; Collapse this case</button>
+</details>
 
 <footer>
   <div><a href="../index.html">&larr; Public Interest Investigations</a> &middot; <a href="../../glossary/index.html">KSC Master Glossary</a> &middot; <a href="../../index.html">MAYHEM Investigations (full site)</a></div>
