@@ -122,12 +122,12 @@ function renderTermEntry(idPrefix, e) {
   const searchText = esc(`${e.term} ${e.description} ${e.status}`.toLowerCase());
   const src = renderSource(e.source);
   return `
-<div class="term-entry cat-${category}" id="${esc(idPrefix)}-${esc(slug(e.term))}" data-search="${searchText}">
-  <div class="term-row"><span class="term-name">${esc(e.term)}</span><span class="cat-badge">${CATEGORY_LABEL[category] || category}</span></div>
+<details class="term-entry cat-${category}" id="${esc(idPrefix)}-${esc(slug(e.term))}" data-search="${searchText}">
+  <summary class="term-row"><span class="term-name">${esc(e.term)}</span><span class="cat-badge">${CATEGORY_LABEL[category] || category}</span></summary>
   ${e.status ? `<div class="term-status">${esc(e.status)}</div>` : ''}
   <div class="term-desc">${esc(e.description)}</div>
   ${src ? `<div class="term-source-block">${src}</div>` : ''}
-</div>`;
+</details>`;
 }
 
 function renderOverview(d) {
@@ -211,12 +211,12 @@ function renderReferenceSection(section) {
     const items = section.items.map((item) => {
       const src = renderSource(item.source);
       return `
-<div class="term-entry cat-other">
-  <div class="term-row"><span class="term-name">${esc(item.term)}</span></div>
+<details class="term-entry cat-other">
+  <summary class="term-row"><span class="term-name">${esc(item.term)}</span></summary>
   ${item.status ? `<div class="term-status">${esc(item.status)}</div>` : ''}
   <div class="term-desc">${esc(item.description)}</div>
   ${src ? `<div class="term-source-block">${src}</div>` : ''}
-</div>`;
+</details>`;
     }).join('\n');
     return `<div class="ref-block"><h4>${esc(section.title)}</h4>${items}</div>`;
   }
@@ -295,7 +295,10 @@ a { color: inherit; }
 .term-entry.cat-unresolved { border-left-color: rgb(120,120,120); }
 .term-entry.cat-ambiguous { border-left-color: var(--red); }
 .term-entry.cat-other { border-left-color: var(--line); }
-.term-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.term-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; cursor: pointer; list-style: none; }
+.term-row::-webkit-details-marker { display: none; }
+.term-row::before { content: "+"; font-weight: 800; color: var(--muted); width: 14px; flex: none; }
+.term-entry[open] > .term-row::before { content: "\\2212"; }
 .term-name { font-size: 17px; font-weight: 900; }
 .cat-badge { font-family: ui-monospace,Menlo,Consolas,monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; padding: 2px 7px; border-radius: 3px; background: var(--line); color: rgb(50,55,52); }
 .cat-current .cat-badge, .rule-cell .cat-badge.cat-current { background: rgb(203,233,211); color: rgb(30,85,48); }

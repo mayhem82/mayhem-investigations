@@ -31,8 +31,14 @@ a { color: inherit; }
 .mech-card { background: rgb(245,243,236); border-top: 6px solid var(--acid); padding: 26px 28px; margin-bottom: 16px; }
 .mech-card.risk { border-top-color: rgb(255,180,90); }
 .mech-card.candidate { border-top-color: rgb(143,200,255); }
+.mech-card > summary { cursor: pointer; list-style: none; }
+.mech-card > summary::-webkit-details-marker { display: none; }
+.mech-card > summary::before { content: "+"; font-weight: 800; color: var(--muted); float: right; font-size: 20px; }
+.mech-card[open] > summary::before { content: "\2212"; }
 .mech-card .mech-eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: 11px; font-weight: 800; color: var(--red); margin: 0 0 8px; }
 .mech-card h3 { margin: 0 0 12px; font-size: 24px; letter-spacing: -.02em; }
+.mech-card[open] h3 { margin-bottom: 12px; }
+.mech-card:not([open]) h3 { margin-bottom: 0; }
 .mech-card .plain { font-family: Georgia, serif; font-size: 17px; line-height: 1.55; color: rgb(40,48,44); margin: 0 0 14px; }
 .mech-card .found { background: rgb(228,231,217); padding: 14px 16px; font-size: 14px; line-height: 1.6; }
 .mech-card .found b { display: block; text-transform: uppercase; letter-spacing: .06em; font-size: 10.5px; margin-bottom: 6px; color: var(--muted); }
@@ -113,31 +119,28 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   evidence, already gathered before this check was run. Full technical detail and every citation:
   <a href="../../cases/DFAPTI-BB-2026-00001/shm-gate/index.html">SHM Gate</a>.</p>
 
-  <div class="mech-card" style="border-top-color:var(--red);">
-    <p class="mech-eyebrow">One gap, six faces</p>
-    <h3>Documented Compliance vs. Functional Compliance</h3>
+  <details class="mech-card" style="border-top-color:var(--red);">
+    <summary><p class="mech-eyebrow">One gap, six faces</p><h3>Documented Compliance vs. Functional Compliance</h3></summary>
     <p class="plain">This investigation's own analysis named this distinction directly, before any pattern catalogue
     was ever checked against it: "documented action and verified outcome are not interchangeable." The six findings
     below aren't six separate problems - they're that one distinction wearing different faces. One finding names
     the gap directly. Three explain why it's so hard to check in the first place. One shows how the public version
     gets simplified before it reaches anyone. One shows the same gap playing out over a construction timeline
     instead of a single claim.</p>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">The named instance &middot; Pattern: Documented Compliance as Shield</p>
-    <h3>Real construction milestones, and a still-unverified outcome</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">The named instance &middot; Pattern: Documented Compliance as Shield</p><h3>Real construction milestones, and a still-unverified outcome</h3></summary>
     <p class="plain">Concept-design endorsement, site works, a formal construction start, a moving "early 2026"
     completion target - these are real, documented project milestones. None of them is the same thing as a verified
     working water supply reaching Willawarrin. The investigation's own baseline states this is the load-bearing
     distinction of the entire case, not an isolated observation.</p>
     <div class="found"><b>Found in</b> The project's own milestone record, cross-checked against whether the
     replacement system has actually been confirmed operational.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Why the gap stays uncheckable (1 of 3) &middot; Pattern: Opacity by Design</p>
-    <h3>The full project record doesn't exist in one place</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Why the gap stays uncheckable (1 of 3) &middot; Pattern: Opacity by Design</p><h3>The full project record doesn't exist in one place</h3></summary>
     <p class="plain">The complete cost-and-scope history for the Willawarrin project isn't published as a single
     line-by-line public record. The full Bellbrook augmentation project - scope, cost, funding source, approval,
     tender, contractor, timeline - can't be reconstructed beyond confirming it exists at planning stage. Why the
@@ -146,11 +149,10 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
     <div class="found"><b>Found in</b> Three separate parts of the investigation independently ran into this same
     wall: the Willawarrin variation chain, the Bellbrook augmentation's delivery record, and the design rationale
     for standalone village systems.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Why the gap stays uncheckable (2 of 3) &middot; Pattern: Complexity as Barrier</p>
-    <h3>Checking the record takes more work than publishing it did</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Why the gap stays uncheckable (2 of 3) &middot; Pattern: Complexity as Barrier</p><h3>Checking the record takes more work than publishing it did</h3></summary>
     <p class="plain">The drinking-water report series itself changed its title, filename and web address three
     separate times across 2018-2024, so reconstructing the full series means already knowing multiple naming
     conventions. The underlying evidence mixes verified primary sources, partial extractions, and search-snippet
@@ -158,43 +160,39 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
     to use correctly.</p>
     <div class="found"><b>Found in</b> The investigation's own evidence architecture, and the report series' three
     separate renaming conventions across 2018-2019, 2019-2021 and 2023-2024.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Why the gap stays uncheckable (3 of 3) &middot; Pattern: Definitional Control</p>
-    <h3>Two official numbers, three days apart, no explanation</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Why the gap stays uncheckable (3 of 3) &middot; Pattern: Definitional Control</p><h3>Two official numbers, three days apart, no explanation</h3></summary>
     <p class="plain">One official release gives Willawarrin's population as approximately 130. Another, three days
     later, gives it as approximately 180. Both figures can be real - one may count the service area, the other the
     locality - but which is which is never disclosed anywhere public. Whoever controls the definition controls
     whether the figure can be checked at all.</p>
     <div class="found"><b>Found in</b> This is a formally recorded contradiction in the investigation's own
     register (CTR-0001), not a loose observation.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">How the documented side gets built &middot; Pattern: Narrative Compression</p>
-    <h3>Short phrases hide different problems and different places</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">How the documented side gets built &middot; Pattern: Narrative Compression</p><h3>Short phrases hide different problems and different places</h3></summary>
     <p class="plain">"Iron and manganese" as one phrase erases which contaminant the evidence actually concerns.
     "Bellbrook water plant" can mean either the existing arsenic-removal plant already operating, or a later,
     undelivered augmentation project - two very different things under one name. A "regional water package"
     obscures which specific village actually benefits from which funded piece of it.</p>
     <div class="found"><b>Found in</b> The single most repeated confirmed match in this investigation - seven
     separate, independent parts of the case found the same kind of compression.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">The same gap, running on a clock &middot; Pattern: Time as Structural Harm</p>
-    <h3>A 1960s system stayed in service while its replacement kept slipping</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">The same gap, running on a clock &middot; Pattern: Time as Structural Harm</p><h3>A 1960s system stayed in service while its replacement kept slipping</h3></summary>
     <p class="plain">The Willawarrin replacement plant's own timeline runs from concept-design endorsement in 2022
     through a formal construction start in 2025 to a moving "early 2026" completion target - while the legacy
     1960s-era system it's meant to replace remained the one actually serving the village the whole time.</p>
     <div class="found"><b>Found in</b> The project's own record, cross-checked against public planning
     announcements going back to 2022.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Also found &middot; Pattern: Isolated Incident Framing</p>
-    <h3>Treated as one crisis, when it's a recurring one</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Also found &middot; Pattern: Isolated Incident Framing</p><h3>Treated as one crisis, when it's a recurring one</h3></summary>
     <p class="plain">Bellbrook's water problems aren't one 2019-2020 event. There's a documented heavy-metal and
     arsenic history going back to 2005, a reported 2008 trucked-water episode, the prolonged 2019-2020 crisis
     itself, and further water-cartage incidents in 2020-2021. Compressed to just the best-known episode, the
@@ -202,11 +200,10 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
     <div class="found"><b>Found in</b> The investigation's own timeline of Bellbrook incidents spanning 2005 to
     2021, and a separate finding that Bellbrook's arsenic/heavy-metal history is materially different from
     Willawarrin's iron/manganese history and shouldn't be treated as one undifferentiated problem.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Also found &middot; Pattern: Compliance Snapshot as Exclusion</p>
-    <h3>A clean test result isn't the same as a resilient system</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Also found &middot; Pattern: Compliance Snapshot as Exclusion</p><h3>A clean test result isn't the same as a resilient system</h3></summary>
     <p class="plain">Late-2024 testing found undetectable levels of PFAS chemicals across all eight local supply
     systems, including Willawarrin and Bellbrook - a real, positive, current result for the specific substances
     tested. But "safe for PFAS" and "structurally resilient drinking-water system" are different claims. Reporting
@@ -214,7 +211,7 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
     itself, which the investigation treats as genuine.</p>
     <div class="found"><b>Found in</b> The investigation's own analysis of the 2024 PFAS testing results,
     explicitly flagging the scope this result does and doesn't cover.</div>
-  </div>
+  </details>
 </section>
 
 <section class="section" id="bb-risk">
@@ -222,15 +219,14 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   <p class="section-desc">The investigation found something that looks like this pattern, but its own evidence
   isn't strong enough yet to call it confirmed. Named honestly as a risk rather than stretched into a claim.</p>
 
-  <div class="mech-card risk">
-    <p class="mech-eyebrow">Pattern: Equity Disparity Through Neutral Process</p>
-    <h3>The same rules, applied to very different systems</h3>
+  <details class="mech-card risk">
+    <summary><p class="mech-eyebrow">Pattern: Equity Disparity Through Neutral Process</p><h3>The same rules, applied to very different systems</h3></summary>
     <p class="plain">The much larger, better-resourced main Kempsey-Lower Macleay network can switch between two
     water sources if one fails. Willawarrin and Bellbrook remain single-source, standalone systems with no such
     backup. Different system scales appear to attract materially different capital investment. Whether this
     actually produces an unequal outcome for the villages - the core of this pattern - hasn't yet been measured
     against a real comparison; the record so far shows the conditions for it, not the confirmed disparity itself.</p>
-  </div>
+  </details>
 </section>
 
 <section class="section" id="bb-gap">
@@ -238,15 +234,14 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   <p class="section-desc">Something the investigation found that doesn't match any pattern in the existing
   catalogue - offered as a genuine new observation, not forced into an existing label.</p>
 
-  <div class="mech-card candidate">
-    <p class="mech-eyebrow">Not yet named</p>
-    <h3>The institution's record exists. The residents' record mostly doesn't.</h3>
+  <details class="mech-card candidate">
+    <summary><p class="mech-eyebrow">Not yet named</p><h3>The institution's record exists. The residents' record mostly doesn't.</h3></summary>
     <p class="plain">Almost everything available to check Council's own claims - incident logs, official releases,
     monitoring reports - was generated by Council or by media reporting on Council. What's largely missing is any
     structured record of what residents themselves experienced: how long the disruption lasted for a household,
     what it cost them, what it did to trust. Not because that experience wasn't real, but because nothing exists to
     capture or preserve it alongside the institutional account.</p>
-  </div>
+  </details>
 </section>
 
 <h2 style="padding:0 7vw;letter-spacing:-.03em;font-size:clamp(30px,4vw,46px);margin:56px 0 0;">Bellbrook laneway</h2>
@@ -255,9 +250,8 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   <p class="section-desc">Checked against the Bellbrook laneway investigation's own evidence, already gathered
   before this check was run. Full technical detail and every citation: <a href="../../cases/DFAPTI-BB-LW-2026-00001/shm-gate/index.html">SHM Gate</a>.</p>
 
-  <div class="mech-card" style="border-top-color:var(--red);">
-    <p class="mech-eyebrow">One gap, six faces</p>
-    <h3>Documented Compliance vs. Functional Compliance</h3>
+  <details class="mech-card" style="border-top-color:var(--red);">
+    <summary><p class="mech-eyebrow">One gap, six faces</p><h3>Documented Compliance vs. Functional Compliance</h3></summary>
     <p class="plain">This investigation's own analysis names this distinction in almost its own words, before any
     pattern catalogue was ever checked against it: no formal obligation exists on paper for either council or the
     state land agency, while council's own records show it's the one actually doing the work. The six findings
@@ -265,73 +259,67 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
     the gap directly. Two explain why it's so hard to check in the first place. Two show who ends up paying for
     that gap once it exists. One shows the same gap running for over a century instead of appearing in a single
     claim.</p>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">The named instance &middot; Pattern: Documented Compliance as Shield</p>
-    <h3>Doing the work, on paper answerable to no one</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">The named instance &middot; Pattern: Documented Compliance as Shield</p><h3>Doing the work, on paper answerable to no one</h3></summary>
     <p class="plain">Council's own weekly works updates, bin collection schedule, and capital works program all
     show it maintaining a laneway that residents rely on for access. Ask council who's responsible for it, and the
     answer is: not us, it's Crown land. Both things are true at once, and council's own records are the evidence
     of the gap between them.</p>
     <div class="found"><b>Found in</b> Council's own published maintenance and service records, cross-checked
     against the absence of any document giving it formal authority over the parcel.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Why the gap stays uncheckable (1 of 2) &middot; Pattern: Definitional Control</p>
-    <h3>Council decides what "not our responsibility" means, and doesn't write it down</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Why the gap stays uncheckable (1 of 2) &middot; Pattern: Definitional Control</p><h3>Council decides what "not our responsibility" means, and doesn't write it down</h3></summary>
     <p class="plain">Council's own public material lists roads and bridges as something it looks after, with
     nothing telling a resident in advance that this particular laneway is treated differently. The actual
     decision - Crown land, not our problem - only surfaces when someone raises a specific complaint, and it's
     never put in writing anywhere a resident could check it against.</p>
     <div class="found"><b>Found in</b> Council's own public responsibility pages, compared against how the
     laneway is actually handled at the individual complaint level.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Why the gap stays uncheckable (2 of 2) &middot; Pattern: Opacity by Design</p>
-    <h3>Not hidden - just never given an identity to check</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Why the gap stays uncheckable (2 of 2) &middot; Pattern: Opacity by Design</p><h3>Not hidden - just never given an identity to check</h3></summary>
     <p class="plain">The laneway can't be looked up on the state's own land-parcel map. It doesn't appear in
     council's list of the Crown land it manages. Nobody is hiding a file - no file with the laneway's name on it
     was ever created. A record that was never made can't be checked, which has the same practical effect as one
     that's been hidden.</p>
     <div class="found"><b>Found in</b> Three separate official records that should show this laneway - the state
     property map, council's own Crown land plan, and the historical land-title index - none of which do.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Who bears the cost of the gap (1 of 2) &middot; Pattern: Accountability Inversion</p>
-    <h3>The resident isn't invited to the table where this gets fixed</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Who bears the cost of the gap (1 of 2) &middot; Pattern: Accountability Inversion</p><h3>The resident isn't invited to the table where this gets fixed</h3></summary>
     <p class="plain">The one process that could actually resolve this - transferring the laneway formally to
     council - is a conversation between council and the state land agency. A resident has no seat in it, no way to
     start it, and no way to force it to happen. The legal right to use the laneway has never been taken away; it
     just depends entirely on council choosing, with no obligation to, to keep looking after it.</p>
     <div class="found"><b>Found in</b> The investigation's own review of who can actually set the transfer process
     in motion - council, and separately the state - with no pathway that includes the resident.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Who bears the cost of the gap (2 of 2) &middot; Pattern: Accountability Cost Externalisation</p>
-    <h3>Neither authority loses anything by leaving this unresolved</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Who bears the cost of the gap (2 of 2) &middot; Pattern: Accountability Cost Externalisation</p><h3>Neither authority loses anything by leaving this unresolved</h3></summary>
     <p class="plain">Council loses nothing by continuing to quietly maintain the laneway without formal
     responsibility. The state land agency loses nothing by not stepping in. The only party who spends real time
     and effort chasing this - working out who to even ask, let alone getting an answer - is the resident. If they
     give up, the gap just continues.</p>
     <div class="found"><b>Found in</b> The investigation's own mapping of who holds power over this laneway
     against who actually bears the cost of the arrangement staying unresolved.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">The same gap, running on a clock &middot; Pattern: Time as Structural Harm</p>
-    <h3>Unaddressed since the town was first laid out</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">The same gap, running on a clock &middot; Pattern: Time as Structural Harm</p><h3>Unaddressed since the town was first laid out</h3></summary>
     <p class="plain">This laneway has existed since Bellbrook was first mapped out in 1892. A modern law
     covering exactly this situation exists. A formal process to fix it exists. Two full rounds of council land
     planning have passed since the modern process became available, and neither addressed it. Nothing about this
     is a recent oversight.</p>
     <div class="found"><b>Found in</b> Historical town records dating to 1892, cross-checked against council's own
     recent land-management planning documents.</div>
-  </div>
+  </details>
 </section>
 
 <section class="section" id="bb-lw-gap">
@@ -339,23 +327,21 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   <p class="section-desc">Things the investigation found that don't match any pattern in the existing catalogue -
   offered as genuine new observations, not forced into an existing label.</p>
 
-  <div class="mech-card candidate">
-    <p class="mech-eyebrow">Not yet named</p>
-    <h3>A clear law, never actually applied to this specific spot</h3>
+  <details class="mech-card candidate">
+    <summary><p class="mech-eyebrow">Not yet named</p><h3>A clear law, never actually applied to this specific spot</h3></summary>
     <p class="plain">This isn't a case of confusing or contested law - the rules for exactly this situation are
     written down and clear. What never happened is someone actually applying that clear law to this specific
     piece of land, through the one formal step that would give it an answer. The law being clear doesn't help if
     nobody ever presses the button.</p>
-  </div>
+  </details>
 
-  <div class="mech-card candidate">
-    <p class="mech-eyebrow">Not yet named</p>
-    <h3>Two honest answers that add up to a dead end</h3>
+  <details class="mech-card candidate">
+    <summary><p class="mech-eyebrow">Not yet named</p><h3>Two honest answers that add up to a dead end</h3></summary>
     <p class="plain">Council tells a resident to contact the state land agency. The state land agency's own public
     guidance tells people to contact their local council. Neither is lying - both are giving their genuinely
     correct standard answer. Followed exactly as told, a resident ends up back where they started, with nothing in
     writing from either side.</p>
-  </div>
+  </details>
 </section>
 
 <section class="section" id="ta-ff-found">
@@ -363,84 +349,76 @@ footer a { text-decoration: underline; text-underline-offset: 2px; }
   <p class="section-desc">Checked against the Taylors Arm flying-fox investigation's own evidence, already
   gathered before this check was run. Full technical detail and every citation: <a href="../../cases/DFAPTI-TA-FF-2026-00001/shm-gate/index.html">SHM Gate</a>.</p>
 
-  <div class="mech-card" style="border-top-color:var(--red);">
-    <p class="mech-eyebrow">Thirteen faces, one 37-month gap</p>
-    <h3>Every step compliant, the complaint answered by nobody</h3>
+  <details class="mech-card" style="border-top-color:var(--red);">
+    <summary><p class="mech-eyebrow">Thirteen faces, one 37-month gap</p><h3>Every step compliant, the complaint answered by nobody</h3></summary>
     <p class="plain">A resident asked her council to remove specific trees, at a public meeting, using the exact
     legal process available to her. Every procedural box was ticked - the meeting was advertised, she registered,
     she was heard, the minutes were kept. Three years and one change of mayor later, no response, no referral, and
     no record that the request was ever tracked. Thirteen recurring patterns from this site's catalogue show up in
     that gap - this page covers the seven clearest.</p>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Every step individually compliant &middot; Pattern: Compliant Process Harm</p>
-    <h3>Nobody broke a rule. That's the problem.</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Every step individually compliant &middot; Pattern: Compliant Process Harm</p><h3>Nobody broke a rule. That's the problem.</h3></summary>
     <p class="plain">The meeting was properly advertised. The resident registered correctly. She was allowed to
     speak. The minutes recorded what she said. Every individual step matched council's own procedures exactly -
     and the process that was supposed to produce a response produced nothing at all.</p>
     <div class="found"><b>Found in</b> Council's own meeting agenda and minutes from the March 2023 meeting.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">The named instance &middot; Pattern: Documented Compliance as Shield</p>
-    <h3>Claiming credit for the meeting, silent on what was said at it</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">The named instance &middot; Pattern: Documented Compliance as Shield</p><h3>Claiming credit for the meeting, silent on what was said at it</h3></summary>
     <p class="plain">Council's own report to the community lists that exact meeting as proof of good community
     engagement. What the report doesn't mention is what the meeting was actually about, or that the request made
     there went nowhere. The achievement claim and the silence sit side by side in the same document.</p>
     <div class="found"><b>Found in</b> Council's own community report, compared against its own meeting minutes.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Why the gap stayed open (1 of 2) &middot; Pattern: Complexity as Barrier</p>
-    <h3>Three overlapping laws, no map through them</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Why the gap stayed open (1 of 2) &middot; Pattern: Complexity as Barrier</p><h3>Three overlapping laws, no map through them</h3></summary>
     <p class="plain">The trees in question are simultaneously a legally protected species' habitat and a weed
     council is legally required to control - three different laws all touch the same trees. The rules aren't
     secret. They're just dense enough that no resident without specialist knowledge could work out on their own
     which one actually lets the trees be dealt with, or how.</p>
     <div class="found"><b>Found in</b> The overlapping wildlife-protection, biosecurity, and weed-management
     rules that all apply to the same trees, none of which council explained to the resident who asked.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Why the gap stayed open (2 of 2) &middot; Pattern: Isolated Incident Framing</p>
-    <h3>The same problem, two councils, treated as unrelated</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Why the gap stayed open (2 of 2) &middot; Pattern: Isolated Incident Framing</p><h3>The same problem, two councils, treated as unrelated</h3></summary>
     <p class="plain">The same species of colony, causing the same kind of harm, is happening at the same time in
     the neighbouring council area. Neither council has treated it as a shared regional problem - each has handled
     its own version as a one-off local matter, which is exactly why the working fix nearby was never brought over.</p>
     <div class="found"><b>Found in</b> Cross-checking this case against the near-identical case in the
     neighbouring council area on this same site.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Who bears the cost of the gap (1 of 2) &middot; Pattern: Accountability Inversion</p>
-    <h3>A 133-person village with no seat at the table</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Who bears the cost of the gap (1 of 2) &middot; Pattern: Accountability Inversion</p><h3>A 133-person village with no seat at the table</h3></summary>
     <p class="plain">The law that could help doesn't require council to respond to a resident's request - it only
     allows council to act if it chooses to. The resident who raised this has no formal standing to make anything
     happen. She can ask. She cannot compel an answer.</p>
     <div class="found"><b>Found in</b> The investigation's own review of which laws create an obligation to act,
     and which merely permit it.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">Who bears the cost of the gap (2 of 2) &middot; Pattern: Accountability Cost Externalisation</p>
-    <h3>She did everything right. She paid every cost anyway.</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">Who bears the cost of the gap (2 of 2) &middot; Pattern: Accountability Cost Externalisation</p><h3>She did everything right. She paid every cost anyway.</h3></summary>
     <p class="plain">The resident prepared a case, showed up, and made her request in person. That took time and
     effort. Council's cost for not responding was nothing - no meeting to attend, no report to write, no
     consequence at all. If she had simply stopped asking, the matter would have ended exactly where it is now.</p>
     <div class="found"><b>Found in</b> The investigation's own mapping of what each side actually spent pursuing,
     or not pursuing, this matter.</div>
-  </div>
+  </details>
 
-  <div class="mech-card">
-    <p class="mech-eyebrow">The same gap, running on a clock &middot; Pattern: Time as Structural Harm</p>
-    <h3>37 months, and the tracking system never once mentioned it</h3>
+  <details class="mech-card">
+    <summary><p class="mech-eyebrow">The same gap, running on a clock &middot; Pattern: Time as Structural Harm</p><h3>37 months, and the tracking system never once mentioned it</h3></summary>
     <p class="plain">Council keeps a running list specifically for unresolved matters like this one. Checked at
     four separate points over more than three years, spanning a change of mayor, that list has never once
     contained an entry for this complaint. The new council has no record it was ever raised.</p>
     <div class="found"><b>Found in</b> Council's own tracking register, checked across four separate points in
     time from the original complaint to the most recent available record.</div>
-  </div>
+  </details>
 </section>
 
 <footer>

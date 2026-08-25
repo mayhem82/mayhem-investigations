@@ -35,10 +35,10 @@ const sortedMechanisms = mechanisms.slice().sort((a, b) => a.no - b.no);
 
 function renderMechList(list) {
   return list.map((m) => `
-<div class="term-entry" id="mech-${m.no}" data-search="${esc((m.no + ' ' + m.name + ' ' + m.definition).toLowerCase())}">
-  <div class="term-row"><span class="term-name">${m.no}. ${esc(m.name)}</span></div>
+<details class="term-entry" id="mech-${m.no}" data-search="${esc((m.no + ' ' + m.name + ' ' + m.definition).toLowerCase())}">
+  <summary class="term-row"><span class="term-name">${m.no}. ${esc(m.name)}</span></summary>
   <div class="term-desc">${esc(m.definition)}</div>
-</div>`).join('\n');
+</details>`).join('\n');
 }
 
 function renderDiscovered(list) {
@@ -47,12 +47,12 @@ function renderDiscovered(list) {
     const fs_ = d.first_surfaced;
     const gateHref = `../cases/${fs_.case_id}/shm-gate/index.html`;
     return `
-<div class="term-entry cat-other">
-  <div class="term-row"><span class="term-name">${esc(d.working_name)}</span><span class="cat-badge">${esc((d.status || 'candidate').toUpperCase())}</span></div>
+<details class="term-entry cat-other">
+  <summary class="term-row"><span class="term-name">${esc(d.working_name)}</span><span class="cat-badge">${esc((d.status || 'candidate').toUpperCase())}</span></summary>
   <div class="term-desc">${esc(d.definition_from_case)}</div>
   <div class="term-status">${esc(d.boundary_note)}</div>
   <div class="term-source-block"><div class="src-line">First surfaced: <a href="${esc(gateHref)}">${esc(fs_.case_id)}</a>, path ${esc(fs_.path_id)}, ${esc(fs_.date)}</div></div>
-</div>`;
+</details>`;
   }).join('\n');
 }
 
@@ -88,7 +88,10 @@ a { color: inherit; }
 .term-entry { background: rgb(245,243,236); border-top: 5px solid var(--acid); padding: 16px 20px; margin-bottom: 10px; overflow-wrap: anywhere; }
 .term-entry.js-hidden { display: none; }
 .term-entry.cat-other { border-top-color: rgb(143,200,255); }
-.term-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.term-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; cursor: pointer; list-style: none; }
+.term-row::-webkit-details-marker { display: none; }
+.term-row::before { content: "+"; font-weight: 800; color: var(--muted); width: 14px; flex: none; }
+.term-entry[open] > .term-row::before { content: "\\2212"; }
 .term-name { font-weight: 800; letter-spacing: -.01em; }
 .cat-badge { display: inline-block; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; padding: 2px 8px; background: var(--cream); color: var(--muted); }
 .term-desc { font-size: 15px; line-height: 1.55; margin-top: 8px; color: rgb(69,80,74); font-family: Georgia, serif; }
