@@ -457,5 +457,23 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0052",
+    "timestamp": "2026-08-26T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass (DEC-0020). Read dfapta/analysis.json's status field first (\"In Progress - Pass 2\", not Frozen - proceeded), then all 19 prior decisions.json entries, all 51 prior investigation_notes.json entries, all 16 automation_log.json entries, and source_register.json in full, before treating anything as new, per DEC-0009/DEC-0010's standing correction. The evidence register was unchanged at 848 items since the prior sub-pass. Rather than re-treading the snapshot files Pass 2's first sub-pass already worked, computed anchor coverage per primary-source file and found preserved/answer-register-a-to-k-run001.txt - the case's own Continuing Investigation Question Bank Answer Register, 312 evidence items across eleven sections - only 5/312 anchored despite being the largest single unexploited primary-source file in the case. Read the full file section by section (all eleven sections, Q1-Q312) before deciding scope, per the protocol's requirement to work from the actual primary-source text rather than a topic label.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0053",
+    "timestamp": "2026-08-26T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: Section A (\"Moree Trial Evaluation\", Q1-Q47) was entirely unanchored and is independently identified by the register's own \"RUN 001 CONTROL FINDING\" as the single highest-priority acquisition gap in the case - ahead of PolAir-specific policy/SOPs, mission-level flight/outcome data, and the PIA/AI/cyber/vendor assessments covered by the file's remaining ten sections (Sections B-K, roughly 260 further evidence items, and the separate answer-register-l-to-t-run001.txt file, remain open for subsequent sub-passes). Chose to close Section A completely (all 47 questions, six paths grouped by natural sub-topic: evaluator existence/independence, pre-deployment criteria, analytic design, and two clusters of undisclosed outcome measures, plus the publication/decision-control gap) rather than sample a few questions from several sections, on the view that a fully closed, coherent section is more genuinely useful and less generic than partial coverage spread thin - consistent with the operator's standing correction that a path count without real depth is exactly the failure this routine exists to avoid. Cross-referenced each new path against existing paths before writing to avoid duplicating ground already covered: AR-006 (causal attribution gap), AR-014 (continuation beyond the six-month window), AR-020 (child/Indigenous data governance), AR-023 and AR-024 (untested alternative causal mechanisms) each connect to specific new findings in this pass without restating them.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
   }
 ]

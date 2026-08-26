@@ -4,7 +4,7 @@
   "cycle": 1,
   "status": "In Progress — Pass 2",
   "analysis_commenced": "2026-08-17",
-  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0017 and the equivalent correction on DFAPTI-BB-FF-2026-00001 (DEC-0007). Pass 1 (AR-001 through AR-022, commenced 2026-08-17) analysed the evidence register as frozen by the operator's explicit \"freeze evidence register\" command (DEC-0009): 827 entries, EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs. Pass 1 anchored only 102 of those 827 items (12.3% coverage) - specific and accurate where it went, but nowhere near \"all paths taken\" at this case's scale. Downstream gates built on Pass 1 (SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) were removed 2026-08-25. Pass 2 (AR-023 onward) expands coverage toward the remaining evidence; unlike Pass 1, it runs against a register that keeps growing under the still-live DFAPTI stage, not a fixed snapshot - the register held 848 items (EV-0001 through EV-0848) as at this sub-pass, following genuine evidence-collection runs since the DEC-0009 freeze. The first Pass 2 sub-pass (AR-023 through AR-025, 2026-08-25) closely read preserved/snapshot-06-2026-08-16.txt (Deep Research Snapshot 6, Findings F-091 through F-130) in full and added three paths covering its previously-unanchored incapacitation/displacement/substitution (F-101-F-110), deterrence-signalling (F-111-F-120) and political-feedback/perception-trend (F-121-F-130) sections - Section A of the same snapshot (F-091-F-100, economic system effect) was already anchored by Pass 1's AR-018. Coverage now stands at 130 of 848 items (15.3%). Every anchor cited carries the register's own \"Unverified\" verification_state; this analysis introduces no new evidence and does not upgrade that status. Further passes continue until the operator states DFAPTA itself is frozen - no downstream gate is rebuilt until then.",
+  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0017 and the equivalent correction on DFAPTI-BB-FF-2026-00001 (DEC-0007). Pass 1 (AR-001 through AR-022, commenced 2026-08-17) analysed the evidence register as frozen by the operator's explicit \"freeze evidence register\" command (DEC-0009): 827 entries, EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs. Pass 1 anchored only 102 of those 827 items (12.3% coverage) - specific and accurate where it went, but nowhere near \"all paths taken\" at this case's scale. Downstream gates built on Pass 1 (SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) were removed 2026-08-25. Pass 2 (AR-023 onward) expands coverage toward the remaining evidence; unlike Pass 1, it runs against a register that keeps growing under the still-live DFAPTI stage, not a fixed snapshot - the register held 848 items (EV-0001 through EV-0848) as at this sub-pass, following genuine evidence-collection runs since the DEC-0009 freeze. The first Pass 2 sub-pass (AR-023 through AR-025, 2026-08-25) closely read preserved/snapshot-06-2026-08-16.txt (Deep Research Snapshot 6, Findings F-091 through F-130) in full and added three paths covering its previously-unanchored incapacitation/displacement/substitution (F-101-F-110), deterrence-signalling (F-111-F-120) and political-feedback/perception-trend (F-121-F-130) sections - Section A of the same snapshot (F-091-F-100, economic system effect) was already anchored by Pass 1's AR-018. Coverage after that sub-pass stood at 130 of 848 items (15.3%). The second Pass 2 sub-pass (AR-026 through AR-031, 2026-08-26) closely read preserved/answer-register-a-to-k-run001.txt (the case's Continuing Investigation Question Bank Answer Register, Q1 through Q312 across eleven sections) in full and fully closed its Section A, \"Moree Trial Evaluation\" (Q1-Q47, EV-0263 through EV-0309), the single highest-priority acquisition gap identified by that register's own \"RUN 001 CONTROL FINDING\" - covering the evaluation's existence/authorship/independence, its pre-deployment criteria framework, its analytic design, eighteen specific outcome measures split across two paths, and its publication/decision-control status. Sections B through K of the same register (Q48-Q312, roughly 260 further items) remain open for subsequent sub-passes, as does the separate answer-register-l-to-t-run001.txt file (Q313 onward) - this sub-pass deliberately closed one coherent section in full rather than sampling across several, consistent with this routine's standing instruction to make honestly-scoped progress rather than stretch for a number. Coverage now stands at 177 of 848 items (20.9%). Every anchor cited carries the register's own \"Unverified\" verification_state; this analysis introduces no new evidence and does not upgrade that status. Further passes continue until the operator states DFAPTA itself is frozen - no downstream gate is rebuilt until then.",
   "paths": [
     {
       "id": "AR-001",
@@ -1016,6 +1016,265 @@
         "EV-0082"
       ],
       "boundary": "No determination is made about whether Kempsey's fear of crime is proportionate to recorded risk, whether any specific person or outlet acted in bad faith, or whether the political-visibility feedback loop actually operated in this case rather than merely being a documented structural possibility."
+    },
+    {
+      "id": "AR-026",
+      "title": "Moree Trial Evaluation: Existence, Authorship and Independence Undisclosed",
+      "analysis": [
+        "Public NSW Police and government material publicly contemplated an evaluation of the six-month Moree trial before and at its commencement, but no complete evaluation document, completion date, commissioning instrument, evaluating body, or named evaluator has been located in the public record checked by this investigation (Q1-Q5, Q7 of the case's Continuing Investigation Question Bank Answer Register). Because no evaluator has been identified, this investigation cannot test the evaluator's operational independence from the PolAir-Remote program (Q6) - independence is a threshold condition for treating any future evaluation finding as impartial, and that threshold cannot currently be assessed because there is no named evaluator to assess.",
+        "This compounds, rather than duplicates, AR-014's existing finding that the program continued operating past its publicly stated six-month window without a located exit-criteria document: that path establishes the trial kept running; this path establishes that the process meant to assess whether it should have kept running is itself unattributed at every checked stage - nobody is publicly identified as having conducted it, commissioned it, or set its method."
+      ],
+      "determinations": [
+        [
+          "AR-026.1",
+          "No public record establishes that a completed NSW Police evaluation of the six-month Moree trial exists, or when it was completed if so."
+        ],
+        [
+          "AR-026.2",
+          "No commissioning instrument or evaluating body/individual has been publicly identified."
+        ],
+        [
+          "AR-026.3",
+          "Evaluator independence from the program cannot be assessed because no evaluator has been identified to test it against."
+        ],
+        [
+          "AR-026.4",
+          "No evaluation methodology has been publicly located."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "Absence of a public evaluator, methodology or completion record is consistent with either a genuinely incomplete/undisclosed internal process or simple non-publication; the public record does not distinguish these."
+        ]
+      ],
+      "anchors": [
+        "EV-0263",
+        "EV-0264",
+        "EV-0265",
+        "EV-0266",
+        "EV-0267",
+        "EV-0268",
+        "EV-0269"
+      ],
+      "boundary": "No determination is made that a Moree trial evaluation does not exist internally, or that NSW Police withheld one improperly - only that none is established on the public record checked, including who would have conducted it or how."
+    },
+    {
+      "id": "AR-027",
+      "title": "Undisclosed Pre-Deployment Criteria Framework for the Moree Trial",
+      "analysis": [
+        "Public messaging around the Moree trial's launch describes its purpose only at the level of general aims - rapid aerial support, public safety, and testing whether the capability should scale (Q8) - and while the trial itself was publicly announced before or at commencement (Q9), no located document sets out, in advance of deployment, the specific criteria that would count as success, failure, continuation, expansion or termination (Q10-Q14), nor whether any such criteria were later changed and by whose authority (Q15-Q16).",
+        "This is distinct from AR-014's finding that the program continued past its publicly stated six-month window: that path establishes the trial kept running; this path establishes that no public document specifies what set of measured outcomes would have triggered stopping it, expanding it, or continuing it in the first place, so a \"moving the goalposts\" risk cannot currently be tested because no goalposts are located to test against."
+      ],
+      "determinations": [
+        [
+          "AR-027.1",
+          "Only general, high-level trial objectives are publicly documented; no pre-deployment objectives document itself has been located."
+        ],
+        [
+          "AR-027.2",
+          "No pre-deployment success or failure criteria have been publicly located."
+        ],
+        [
+          "AR-027.3",
+          "No pre-deployment continuation, expansion, or termination criteria have been publicly located."
+        ],
+        [
+          "AR-027.4",
+          "Whether any criteria were changed during the trial, and under what authority, cannot be determined because no baseline criteria document has been located to compare against."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "A program with no publicly located continuation, expansion or termination criteria cannot be shown to have satisfied any specific threshold before continuing or being advocated for expansion; this does not establish that no such threshold exists internally."
+        ]
+      ],
+      "anchors": [
+        "EV-0270",
+        "EV-0271",
+        "EV-0272",
+        "EV-0273",
+        "EV-0274",
+        "EV-0275",
+        "EV-0276",
+        "EV-0277",
+        "EV-0278"
+      ],
+      "boundary": "No determination is made that NSW Police changed criteria improperly, or that no pre-deployment criteria document exists internally - only that none is public, so no comparison against a stated standard is currently possible."
+    },
+    {
+      "id": "AR-028",
+      "title": "Undisclosed Analytic Design Behind the Moree Trial Evaluation",
+      "analysis": [
+        "This path adds the granular design elements underlying AR-006's existing, more general finding of a causal-attribution and counterfactual-design gap: no formal baseline period, no comparison period, and no comparison or control location have been publicly located for the Moree evaluation (Q17-Q19), and no disclosed evaluation design separates youth from adult offending, reactive from proactive drone operations, or individual tactical outcomes from population-level outcomes (Q20, Q22-Q24).",
+        "Most consequentially, no disclosed design states how the several documented, co-occurring interventions - Operation Soteria, bail-law changes, diversion and place-based programs, and ordinary policing activity - were treated analytically or apportioned against any claimed PolAir-Remote effect (Q25-Q26). AR-023 and AR-024 already establish incapacitation/displacement/substitution and deterrence-signalling as untested alternative mechanisms behind the Moree decline; this path establishes structurally why they remain untested - there is no disclosed analytic design in which they could have been separated from a PolAir-Remote effect even if NSW Police wished to do so."
+      ],
+      "determinations": [
+        [
+          "AR-028.1",
+          "No formal baseline period or comparison period for the Moree evaluation has been publicly located."
+        ],
+        [
+          "AR-028.2",
+          "No comparison or control location has been publicly located."
+        ],
+        [
+          "AR-028.3",
+          "No disclosed evaluation design separates youth from adult offending, reactive from proactive drone operations, or individual tactical outcomes from population-level outcomes."
+        ],
+        [
+          "AR-028.4",
+          "No disclosed evaluation design states how the co-occurring interventions already documented elsewhere in this investigation (Operation Soteria, bail-law changes, diversion and place-based programs) were treated analytically or apportioned against a claimed PolAir-Remote effect."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "Absence of a disclosed analytic design does not establish that PolAir-Remote had no effect, or that one was concealed - only that no design capable of isolating that effect from co-occurring interventions is currently public."
+        ]
+      ],
+      "anchors": [
+        "EV-0279",
+        "EV-0280",
+        "EV-0281",
+        "EV-0282",
+        "EV-0283",
+        "EV-0284",
+        "EV-0285",
+        "EV-0286",
+        "EV-0287",
+        "EV-0288"
+      ],
+      "boundary": "No determination is made that PolAir-Remote had no effect on Moree crime, or that the alternative mechanisms already identified elsewhere in this analysis (AR-006, AR-023, AR-024) fully explain the decline - only that no disclosed analytic design currently exists that could distinguish between these explanations."
+    },
+    {
+      "id": "AR-029",
+      "title": "Undisclosed Outcome Measures I: Operational and Case Metrics",
+      "analysis": [
+        "Of nine specific, individually plausible operational outcome measures for an aerial-observation policing trial - officer safety, response time, search time, ground-police workload, helicopter hours displaced, drone-attributable arrests, drone-attributable property recovery, missing-person outcomes, and public confidence - not one has a located public results table establishing whether it was measured at all, let alone how it was defined or what its value was (Q27-Q35).",
+        "This bears directly on the petition's own \"100+ arrests\" and \"70+ vehicles\" aggregate claims, already examined in AR-004: those numbers are asserted publicly while the underlying measurement framework that would let anyone attribute a specific arrest or vehicle recovery to drone involvement specifically - rather than merely coincide with a drone being airborne during the same operation - remains completely undisclosed."
+      ],
+      "determinations": [
+        [
+          "AR-029.1",
+          "No public results table establishes whether officer safety, response time, search time, or ground-police workload were measured in the Moree trial evaluation."
+        ],
+        [
+          "AR-029.2",
+          "No public results table establishes whether helicopter hours displaced, drone-attributable arrests, or drone-attributable property recovery were measured."
+        ],
+        [
+          "AR-029.3",
+          "No public results table establishes whether missing-person outcomes or public confidence were measured as trial outcomes."
+        ],
+        [
+          "AR-029.4",
+          "The absence of a disclosed attribution methodology for arrests and property recovery bears directly on the ability to verify the petition's own \"100+ arrests\" and \"70+ stolen vehicles\" aggregates (see AR-004), independent of whether those aggregates are themselves accurate."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "Absence of a public results table is consistent with either these measures not being tracked, or being tracked and not published; the public record does not distinguish these."
+        ]
+      ],
+      "anchors": [
+        "EV-0289",
+        "EV-0290",
+        "EV-0291",
+        "EV-0292",
+        "EV-0293",
+        "EV-0294",
+        "EV-0295",
+        "EV-0296",
+        "EV-0297"
+      ],
+      "boundary": "No determination is made that these measures were not tracked internally, or that the petition's aggregate figures are inaccurate - only that no public results table discloses whether or how any of these nine measures was defined or recorded."
+    },
+    {
+      "id": "AR-030",
+      "title": "Undisclosed Outcome Measures II: Rights, Equity and Efficiency Metrics",
+      "analysis": [
+        "A second, analytically distinct cluster of nine outcome measures - perceived safety, privacy impacts, complaints, demographic impacts, Aboriginal justice-system contact, youth remand or detention effects, false-detection rate, no-outcome deployment rate, and net cost-effectiveness - is equally undisclosed (Q36-Q44). These sit alongside AR-029's operational-metrics cluster but serve a different function: they are the equity- and rights-facing measures a program operating in a community with the documented youth-justice and Aboriginal-population profile this investigation has recorded elsewhere (see AR-020's existing finding on child and Indigenous data governance) would need to track to demonstrate it is not disproportionately burdening the population it also serves.",
+        "None of the nine measures in this cluster is shown to have been defined, measured, or reported at any point in the public record checked."
+      ],
+      "determinations": [
+        [
+          "AR-030.1",
+          "No public results table establishes whether perceived safety, privacy impacts, or complaints were measured as trial outcomes."
+        ],
+        [
+          "AR-030.2",
+          "No public results table establishes whether demographic impacts, Aboriginal justice-system contact, or youth remand/detention effects were measured."
+        ],
+        [
+          "AR-030.3",
+          "No public results table establishes whether false-detection rate, no-outcome deployment rate, or net cost-effectiveness were measured or calculated."
+        ],
+        [
+          "AR-030.4",
+          "The equity-facing measures in this cluster (demographic impact, Aboriginal justice-system contact) sit in the same category of gap AR-020 already flagged for records governance, applied here to trial outcome measurement rather than data retention."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "Absence of a public results table for these measures is consistent with either non-tracking or non-publication; the public record does not distinguish these."
+        ]
+      ],
+      "anchors": [
+        "EV-0298",
+        "EV-0299",
+        "EV-0300",
+        "EV-0301",
+        "EV-0302",
+        "EV-0303",
+        "EV-0304",
+        "EV-0305",
+        "EV-0306"
+      ],
+      "boundary": "No determination is made that PolAir-Remote has had a disproportionate impact on any group, or that these measures were not tracked internally - only that none is publicly disclosed."
+    },
+    {
+      "id": "AR-031",
+      "title": "Publication Commitment and Decision-Control Gap for the Moree Evaluation",
+      "analysis": [
+        "The final three questions in this section close the loop opened by AR-026 through AR-030: even setting aside every open question about the evaluation's existence, criteria, design, and measures, there is no located public commitment that a complete evaluation - however it is ultimately constructed - will ever be published (Q45), no way to know in advance what would be withheld under the GIPA Act and on what specific exemption (Q46), and no public document identifying which formal NSW Police decision instrument the evaluation is actually meant to control (Q47).",
+        "Public statements describe only that the trial \"would be assessed before determining next steps,\" without naming the decision, the decision-maker, or the process by which any assessment feeds into it."
+      ],
+      "determinations": [
+        [
+          "AR-031.1",
+          "No commitment to publish a complete Moree trial evaluation, in any form, has been publicly located."
+        ],
+        [
+          "AR-031.2",
+          "Any future withholding under the GIPA Act cannot be assessed in advance because no publication decision or exemption claim currently exists to test."
+        ],
+        [
+          "AR-031.3",
+          "No public document identifies the specific decision instrument the evaluation is formally intended to control, beyond a general public statement that \"next steps\" would be assessed."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "Absence of a named controlling decision instrument or publication commitment is consistent with either an undecided process or a decided-but-undisclosed one; the public record does not distinguish these."
+        ]
+      ],
+      "anchors": [
+        "EV-0307",
+        "EV-0308",
+        "EV-0309"
+      ],
+      "boundary": "No determination is made that NSW Police intends to withhold the evaluation, or that a decision on next steps has already been made without it - only that no publication commitment or named controlling decision instrument is currently public."
     }
   ],
   "cross_path_observations": [
@@ -1084,6 +1343,12 @@
       "title": "Five mechanisms, one headline number, and a second unmeasured layer on top of it",
       "analysis": "AR-023's incapacitation/displacement/substitution alternatives and AR-024's deterrence-signalling alternative extend AR-006's counterfactual-design gap into the specific mechanisms it contains: at least five distinct, non-exclusive mechanisms (incapacitation, geographic displacement, temporal displacement, offence substitution, deterrence) could each independently produce Moree's headline youth-crime decline, and none has been measured, ruled out, or disentangled from the others in the public record. AR-025 separately establishes that the political narrative built on top of that same headline number tracks visible activity (arrests, rallies, publicised recoveries) rather than the underlying outcome measures (prevented offences, desistance, perceived safety) any of these five mechanisms would actually require to evaluate. Read together, the petition's central causal claim and the political urgency built on top of it both rest on unmeasured layers, not one.",
       "anchors": "EV-0055, EV-0056, EV-0060, EV-0061, EV-0063, EV-0072, EV-0081"
+    },
+    {
+      "id": "CPO-012",
+      "title": "Total evaluation opacity across all 47 checked dimensions of the Moree trial's own assessment process",
+      "analysis": "AR-026 through AR-031 independently checked every dimension of the Moree trial's evaluation apparatus identified by the case's own Continuing Investigation Question Bank - existence, authorship, independence and methodology (AR-026); pre-deployment success/failure/continuation/expansion/termination criteria (AR-027); baseline, comparison and confounder-treatment design (AR-028); nine operational outcome measures (AR-029); nine rights- and equity-facing outcome measures (AR-030); and publication commitment plus the decision it is meant to control (AR-031) - and found the same undisclosed status on all 47 questions checked (Q1-Q47), not a sample of them. This is distinct from CPO-005's separate finding that governance-documentation gaps recur across different policy domains (operational policy, AI assessment, chain of custody, child/Indigenous data governance, exit criteria): this observation is about the completeness of the gap within a single trial's own evaluation process specifically, checked question-by-question rather than domain-by-domain, and it is a stronger structural finding than any of AR-026 through AR-031 read alone - there is currently no publicly disclosed dimension of the Moree evaluation on which this investigation could test a scaling decision against.",
+      "anchors": "EV-0263, EV-0270, EV-0279, EV-0289, EV-0298, EV-0307"
     }
   ],
   "disclosure_requests": [
@@ -1552,6 +1817,147 @@
     "EV-0256": [
       "AR-015"
     ],
+    "EV-0263": [
+      "AR-026"
+    ],
+    "EV-0264": [
+      "AR-026"
+    ],
+    "EV-0265": [
+      "AR-026"
+    ],
+    "EV-0266": [
+      "AR-026"
+    ],
+    "EV-0267": [
+      "AR-026"
+    ],
+    "EV-0268": [
+      "AR-026"
+    ],
+    "EV-0269": [
+      "AR-026"
+    ],
+    "EV-0270": [
+      "AR-027"
+    ],
+    "EV-0271": [
+      "AR-027"
+    ],
+    "EV-0272": [
+      "AR-027"
+    ],
+    "EV-0273": [
+      "AR-027"
+    ],
+    "EV-0274": [
+      "AR-027"
+    ],
+    "EV-0275": [
+      "AR-027"
+    ],
+    "EV-0276": [
+      "AR-027"
+    ],
+    "EV-0277": [
+      "AR-027"
+    ],
+    "EV-0278": [
+      "AR-027"
+    ],
+    "EV-0279": [
+      "AR-028"
+    ],
+    "EV-0280": [
+      "AR-028"
+    ],
+    "EV-0281": [
+      "AR-028"
+    ],
+    "EV-0282": [
+      "AR-028"
+    ],
+    "EV-0283": [
+      "AR-028"
+    ],
+    "EV-0284": [
+      "AR-028"
+    ],
+    "EV-0285": [
+      "AR-028"
+    ],
+    "EV-0286": [
+      "AR-028"
+    ],
+    "EV-0287": [
+      "AR-028"
+    ],
+    "EV-0288": [
+      "AR-028"
+    ],
+    "EV-0289": [
+      "AR-029"
+    ],
+    "EV-0290": [
+      "AR-029"
+    ],
+    "EV-0291": [
+      "AR-029"
+    ],
+    "EV-0292": [
+      "AR-029"
+    ],
+    "EV-0293": [
+      "AR-029"
+    ],
+    "EV-0294": [
+      "AR-029"
+    ],
+    "EV-0295": [
+      "AR-029"
+    ],
+    "EV-0296": [
+      "AR-029"
+    ],
+    "EV-0297": [
+      "AR-029"
+    ],
+    "EV-0298": [
+      "AR-030"
+    ],
+    "EV-0299": [
+      "AR-030"
+    ],
+    "EV-0300": [
+      "AR-030"
+    ],
+    "EV-0301": [
+      "AR-030"
+    ],
+    "EV-0302": [
+      "AR-030"
+    ],
+    "EV-0303": [
+      "AR-030"
+    ],
+    "EV-0304": [
+      "AR-030"
+    ],
+    "EV-0305": [
+      "AR-030"
+    ],
+    "EV-0306": [
+      "AR-030"
+    ],
+    "EV-0307": [
+      "AR-031"
+    ],
+    "EV-0308": [
+      "AR-031"
+    ],
+    "EV-0309": [
+      "AR-031"
+    ],
     "EV-0338": [
       "AR-007"
     ],
@@ -1606,11 +2012,11 @@
     ]
   },
   "counts": {
-    "analysis_paths": 25,
-    "analytical_determinations": 83,
-    "cross_path_observations": 11,
+    "analysis_paths": 31,
+    "analytical_determinations": 106,
+    "cross_path_observations": 12,
     "disclosure_requests": 12,
     "contradictions_preserved": 2,
-    "evidence_anchors_referenced": 130
+    "evidence_anchors_referenced": 177
   }
 }
