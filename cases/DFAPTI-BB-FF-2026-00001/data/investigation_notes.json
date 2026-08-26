@@ -115,5 +115,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0014",
+    "timestamp": "2026-08-26T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 3' before proceeding. Read decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires. Computed evidence-anchor coverage: all 23 evidence items already have at least one AR- anchor, so computed thread-level coverage instead (mapping each of this case's eight threads' supporting evidence to the AR- paths touching it) - THR-04 (Level 1/2 management actions vs. legal-protection framing) had the fewest paths (2) of any thread, so its underlying primary-source material was re-read directly rather than a topic chosen from a summary label. Re-read the Hardened Submission Package's Part 4 and the Community Harm and Accountability Record's Sections 2, 4 and 7 against each other and against AR-012/AR-032's existing text. Found: both documents' earlier framing (Level 1/Level 2 actions pre-approved, available independent of any Camp Management Plan) sits in tension with the Harm and Accountability Record's own later sections, which describe the Plan as the 'gateway' authorising those same Level 1/Level 2 actions - a tension that recurs inside that single document, not only between the two documents. Checked against source_register.json first: neither SRC-0006's nor SRC-0007's entry records this tension, so it is genuinely new, not a re-litigation. Added as AR-039, plus CPO-011 naming the tension it creates with AR-012/AR-032, and extended DR-004 so a future Code of Practice check resolves both questions together. Does not propose a remedy, name a recipient, or resolve which framing is accurate - the boundary recommends the primary Code of Practice text itself as the only source that could settle it. Recursive-audit check: reviewed the case's own index.html, dfapta/index.html, and the remaining un-mined text of the Ombudsman complaint, council-submission letter, and Greens senator letter for the same claims-vs-record/framing-tension pattern (CPO-006 through CPO-010) - the three letters are largely remedy/submission-ask content already outside DFAPTA's scope under DEC-0008, and their embedded factual claims are already captured by existing evidence and paths; no further correction was needed.",
+    "related_thread": "THR-04",
+    "related_source": null,
+    "related_evidence": "EV-0012"
   }
 ]
