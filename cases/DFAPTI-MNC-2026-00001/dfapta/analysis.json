@@ -4,7 +4,7 @@
   "cycle": 1,
   "status": "In Progress — Pass 2",
   "analysis_commenced": "2026-08-17",
-  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0017 and the equivalent correction on DFAPTI-BB-FF-2026-00001 (DEC-0007). Pass 1 (AR-001 through AR-022, commenced 2026-08-17) analysed the evidence register as frozen by the operator's explicit \"freeze evidence register\" command (DEC-0009): 827 entries, EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs. Pass 1 anchored only 102 of those 827 items (12.3% coverage) - specific and accurate where it went, but nowhere near \"all paths taken\" at this case's scale. Downstream gates built on Pass 1 (SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) were removed 2026-08-25. Pass 2 (AR-023 onward) expands coverage toward the remaining evidence; unlike Pass 1, it runs against a register that keeps growing under the still-live DFAPTI stage, not a fixed snapshot - the register held 848 items (EV-0001 through EV-0848) as at this sub-pass, following genuine evidence-collection runs since the DEC-0009 freeze. The first Pass 2 sub-pass (AR-023 through AR-025, 2026-08-25) closely read preserved/snapshot-06-2026-08-16.txt (Deep Research Snapshot 6, Findings F-091 through F-130) in full and added three paths covering its previously-unanchored incapacitation/displacement/substitution (F-101-F-110), deterrence-signalling (F-111-F-120) and political-feedback/perception-trend (F-121-F-130) sections - Section A of the same snapshot (F-091-F-100, economic system effect) was already anchored by Pass 1's AR-018. Coverage after that sub-pass stood at 130 of 848 items (15.3%). The second Pass 2 sub-pass (AR-026 through AR-031, 2026-08-26) closely read preserved/answer-register-a-to-k-run001.txt (the case's Continuing Investigation Question Bank Answer Register, Q1 through Q312 across eleven sections) in full and fully closed its Section A, \"Moree Trial Evaluation\" (Q1-Q47, EV-0263 through EV-0309), the single highest-priority acquisition gap identified by that register's own \"RUN 001 CONTROL FINDING\" - covering the evaluation's existence/authorship/independence, its pre-deployment criteria framework, its analytic design, eighteen specific outcome measures split across two paths, and its publication/decision-control status. Sections B through K of the same register (Q48-Q312, roughly 260 further items) remain open for subsequent sub-passes, as does the separate answer-register-l-to-t-run001.txt file (Q313 onward) - this sub-pass deliberately closed one coherent section in full rather than sampling across several, consistent with this routine's standing instruction to make honestly-scoped progress rather than stretch for a number. Coverage now stands at 177 of 848 items (20.9%). Every anchor cited carries the register's own \"Unverified\" verification_state; this analysis introduces no new evidence and does not upgrade that status. Further passes continue until the operator states DFAPTA itself is frozen - no downstream gate is rebuilt until then.",
+  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0017 and the equivalent correction on DFAPTI-BB-FF-2026-00001 (DEC-0007). Pass 1 (AR-001 through AR-022, commenced 2026-08-17) analysed the evidence register as frozen by the operator's explicit \"freeze evidence register\" command (DEC-0009): 827 entries, EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs. Pass 1 anchored only 102 of those 827 items (12.3% coverage) - specific and accurate where it went, but nowhere near \"all paths taken\" at this case's scale. Downstream gates built on Pass 1 (SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) were removed 2026-08-25. Pass 2 (AR-023 onward) expands coverage toward the remaining evidence; unlike Pass 1, it runs against a register that keeps growing under the still-live DFAPTI stage, not a fixed snapshot - the register held 848 items (EV-0001 through EV-0848) as at this sub-pass, following genuine evidence-collection runs since the DEC-0009 freeze. The first Pass 2 sub-pass (AR-023 through AR-025, 2026-08-25) closely read preserved/snapshot-06-2026-08-16.txt (Deep Research Snapshot 6, Findings F-091 through F-130) in full and added three paths covering its previously-unanchored incapacitation/displacement/substitution (F-101-F-110), deterrence-signalling (F-111-F-120) and political-feedback/perception-trend (F-121-F-130) sections - Section A of the same snapshot (F-091-F-100, economic system effect) was already anchored by Pass 1's AR-018. Coverage after that sub-pass stood at 130 of 848 items (15.3%). The second Pass 2 sub-pass (AR-026 through AR-031, 2026-08-26) closely read preserved/answer-register-a-to-k-run001.txt (the case's Continuing Investigation Question Bank Answer Register, Q1 through Q312 across eleven sections) in full and fully closed its Section A, \"Moree Trial Evaluation\" (Q1-Q47, EV-0263 through EV-0309), the single highest-priority acquisition gap identified by that register's own \"RUN 001 CONTROL FINDING\" - covering the evaluation's existence/authorship/independence, its pre-deployment criteria framework, its analytic design, eighteen specific outcome measures split across two paths, and its publication/decision-control status. Sections B through K of the same register (Q48-Q312, roughly 260 further items) remain open for subsequent sub-passes, as does the separate answer-register-l-to-t-run001.txt file (Q313 onward) - this sub-pass deliberately closed one coherent section in full rather than sampling across several, consistent with this routine's standing instruction to make honestly-scoped progress rather than stretch for a number. Coverage after that sub-pass stood at 177 of 848 items (20.9%). The third Pass 2 sub-pass (AR-032, AR-033, 2026-08-27) read Section B, \"Petition Claim Verification\" (Q48-Q92, EV-0310 through EV-0354), of the same Continuing Investigation Question Bank Answer Register in full and found that most of it - the \"50%\" crime-drop claim's own definitional components (Q48-Q55) and the causal-attribution status of the underlying decline (Q56-Q59) - substantively duplicates findings Pass 1's AR-003 already established (determination AR-003.3 already names the same undisclosed offence definition, geography, age group and baseline/comparison dates; AR-003.2 already states no NSW Police or BOCSAR source makes the causal claim), so no new path was added for that ground and those 12 items remain deliberately unanchored rather than padded with a restating path. The deployment-time cluster (Q76-Q81, EV-0338-EV-0343) was found to duplicate Pass 1's AR-007 in the same way, which already anchors half of that cluster (EV-0338, EV-0342, EV-0343); the remaining three items (EV-0339-EV-0341) are left deliberately unanchored for the same reason. Two genuinely incremental findings were identified and anchored as new paths: AR-032 (Q60-Q75, EV-0322-EV-0337) extends AR-004's undefined-\"assisted\"-methodology finding to the stolen-vehicle and missing-person aggregates and surfaces a zero-drone-contribution category (arrests resting on information already available to ground officers; missing persons located primarily by another resource after only initial drone assistance) that AR-004's three candidate meanings did not cover; AR-033 (Q82-Q92, EV-0344-EV-0354) establishes that none of eight specific cost components (personnel, communications, the Remote Operations Centre, maintenance, data infrastructure, regulatory compliance, ground response, downstream justice-system costs) is disclosed as included or excluded in the petition's helicopter cost comparison, a more granular inclusion/exclusion finding than AR-005's existing net-cost-per-prevented-harm framing. Coverage now stands at 204 of 848 items (24.1%). Every anchor cited carries the register's own \"Unverified\" verification_state; this analysis introduces no new evidence and does not upgrade that status. Further passes continue until the operator states DFAPTA itself is frozen - no downstream gate is rebuilt until then.",
   "paths": [
     {
       "id": "AR-001",
@@ -1275,6 +1275,93 @@
         "EV-0309"
       ],
       "boundary": "No determination is made that NSW Police intends to withhold the evaluation, or that a decision on next steps has already been made without it - only that no publication commitment or named controlling decision instrument is currently public."
+    },
+    {
+      "id": "AR-032",
+      "title": "Undisclosed Drone-Contribution Threshold Extends Identically Across All Three Aggregate Claims, Including a Zero-Contribution Category",
+      "analysis": [
+        "AR-004 established that \"assisted\" is undefined for the petition's more-than-100-arrests aggregate, with three candidate meanings (direct detection, tracking after another detection source, or mere presence during a multi-unit operation) left undistinguished. Section B of the Continuing Investigation Question Bank Answer Register (Q60-Q75) confirms the same undefined-contribution gap applies identically, and independently, to the petition's other two aggregates - more-than-70-stolen-vehicles and six-missing-people - and surfaces a fourth candidate meaning for the arrests aggregate that AR-004 did not identify: an arrest where the underlying information was already available to ground officers, independent of the drone (Q68).",
+        "That fourth category is materially different from AR-004's three: \"mere presence\" still implies the drone was tasked to the incident, while \"information already available to ground officers\" implies the incident could have concluded the same way with no drone involvement at all. The missing-person aggregate shows the equivalent pattern in reverse - Q75 leaves open whether some of the six were located primarily by another resource, with drone involvement limited to initial assistance rather than the locating act itself."
+      ],
+      "determinations": [
+        [
+          "AR-032.1",
+          "The undefined-\"assisted\" methodology gap AR-004 established for the arrests aggregate applies identically, on the same primary-source register, to the stolen-vehicle-recovery and missing-person components of the petition's aggregate claims."
+        ],
+        [
+          "AR-032.2",
+          "The public record does not exclude a category of counted outcomes in which the drone's operative contribution was smaller than any of AR-004's three candidate meanings - down to arrests where the information was already available to ground officers, or missing-person locations primarily attributable to another resource after only initial drone assistance."
+        ],
+        [
+          "AR-032.3",
+          "Because this narrower category is not excluded, the count of outcomes causally dependent on drone deployment could be smaller than the \"assisted\" aggregate for all three petition claims, by an amount this register cannot currently quantify."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "The absence of a stated drone-contribution threshold is consistent with ordinary aggregate reporting practice, not necessarily a deliberate inflation of the count; the public record does not distinguish these."
+        ]
+      ],
+      "anchors": [
+        "EV-0322",
+        "EV-0323",
+        "EV-0324",
+        "EV-0325",
+        "EV-0326",
+        "EV-0327",
+        "EV-0328",
+        "EV-0329",
+        "EV-0330",
+        "EV-0331",
+        "EV-0332",
+        "EV-0333",
+        "EV-0334",
+        "EV-0335",
+        "EV-0336",
+        "EV-0337"
+      ],
+      "boundary": "No determination is made about what fraction, if any, of the three aggregate totals involved no operative drone contribution - only that the public record does not exclude this possibility and does not provide the incident-level data needed to test it."
+    },
+    {
+      "id": "AR-033",
+      "title": "The Cost Claim's Comparison Base Has Eight Undisclosed Inclusion/Exclusion Components",
+      "analysis": [
+        "AR-005 established that no complete drone-system cost numerator or defined helicopter cost comparator is publicly available, and that the correct evaluative unit - net cost per prevented harm - has not been publicly constructed. Section B of the Continuing Investigation Question Bank Answer Register (Q85-Q92) adds a distinct, more granular finding sitting on top of that gap: none of eight specific cost components identified in the primary-source register - personnel, communications, the Remote Operations Centre, maintenance, data infrastructure, regulatory compliance, ground response, and downstream justice-system costs - is disclosed as included or excluded on either side of the petition's \"a fraction of the cost of a police helicopter\" comparison.",
+        "This is an inclusion/exclusion boundary finding, not a net-cost-unit finding: even a fully defined drone-system numerator and helicopter comparator, as AR-005 calls for, would not by itself establish which of these eight components each side of the comparison represents."
+      ],
+      "determinations": [
+        [
+          "AR-033.1",
+          "None of eight specific cost components named in the primary-source register - personnel, communications, the Remote Operations Centre, maintenance, data infrastructure, regulatory compliance, ground response, and downstream justice-system costs - is disclosed as included or excluded in the petition's helicopter cost comparison."
+        ],
+        [
+          "AR-033.2",
+          "This inclusion/exclusion gap is independent of, and additional to, AR-005's finding that no complete drone-system cost numerator or helicopter cost comparator is itself publicly defined."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "CONFIRMED FOR PUBLIC RECONSTRUCTION",
+          "The comparison's own component boundary is not publicly disclosed for either side of it."
+        ]
+      ],
+      "anchors": [
+        "EV-0344",
+        "EV-0345",
+        "EV-0346",
+        "EV-0347",
+        "EV-0348",
+        "EV-0349",
+        "EV-0350",
+        "EV-0351",
+        "EV-0352",
+        "EV-0353",
+        "EV-0354"
+      ],
+      "boundary": "No determination is made about which of these components would change the comparison's outcome if disclosed, or that their omission was deliberate - only that none is currently confirmed included or excluded on either side of the published claim."
     }
   ],
   "cross_path_observations": [
@@ -1958,6 +2045,54 @@
     "EV-0309": [
       "AR-031"
     ],
+    "EV-0322": [
+      "AR-032"
+    ],
+    "EV-0323": [
+      "AR-032"
+    ],
+    "EV-0324": [
+      "AR-032"
+    ],
+    "EV-0325": [
+      "AR-032"
+    ],
+    "EV-0326": [
+      "AR-032"
+    ],
+    "EV-0327": [
+      "AR-032"
+    ],
+    "EV-0328": [
+      "AR-032"
+    ],
+    "EV-0329": [
+      "AR-032"
+    ],
+    "EV-0330": [
+      "AR-032"
+    ],
+    "EV-0331": [
+      "AR-032"
+    ],
+    "EV-0332": [
+      "AR-032"
+    ],
+    "EV-0333": [
+      "AR-032"
+    ],
+    "EV-0334": [
+      "AR-032"
+    ],
+    "EV-0335": [
+      "AR-032"
+    ],
+    "EV-0336": [
+      "AR-032"
+    ],
+    "EV-0337": [
+      "AR-032"
+    ],
     "EV-0338": [
       "AR-007"
     ],
@@ -1966,6 +2101,39 @@
     ],
     "EV-0343": [
       "AR-007"
+    ],
+    "EV-0344": [
+      "AR-033"
+    ],
+    "EV-0345": [
+      "AR-033"
+    ],
+    "EV-0346": [
+      "AR-033"
+    ],
+    "EV-0347": [
+      "AR-033"
+    ],
+    "EV-0348": [
+      "AR-033"
+    ],
+    "EV-0349": [
+      "AR-033"
+    ],
+    "EV-0350": [
+      "AR-033"
+    ],
+    "EV-0351": [
+      "AR-033"
+    ],
+    "EV-0352": [
+      "AR-033"
+    ],
+    "EV-0353": [
+      "AR-033"
+    ],
+    "EV-0354": [
+      "AR-033"
     ],
     "EV-0498": [
       "AR-012"
@@ -2012,11 +2180,11 @@
     ]
   },
   "counts": {
-    "analysis_paths": 31,
-    "analytical_determinations": 106,
+    "analysis_paths": 33,
+    "analytical_determinations": 111,
     "cross_path_observations": 12,
     "disclosure_requests": 12,
     "contradictions_preserved": 2,
-    "evidence_anchors_referenced": 177
+    "evidence_anchors_referenced": 204
   }
 }

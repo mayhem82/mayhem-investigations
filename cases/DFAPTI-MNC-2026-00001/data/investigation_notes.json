@@ -475,5 +475,23 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0054",
+    "timestamp": "2026-08-27T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass (DEC-0021). Read dfapta/analysis.json's status field first (\"In Progress - Pass 2\", not Frozen - proceeded), then all 20 prior decisions.json entries, all 53 prior investigation_notes.json entries, all 17 automation_log.json entries, and source_register.json in full, before treating anything as new, per DEC-0009/DEC-0010's standing correction. Evidence register unchanged at 848 items since the prior sub-pass. Continued from the prior sub-pass's own stated scope and read preserved/answer-register-a-to-k-run001.txt Section B, \"Petition Claim Verification\" (Q48-Q92, EV-0310-EV-0354), in full - the next unclosed section after Section A, and the least-anchored (only 3 of 45 items previously cited, all by AR-007). Read the full section text directly before deciding scope, per the protocol's requirement to work from primary-source material rather than a topic label.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0055",
+    "timestamp": "2026-08-27T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: unlike Section A, most of Section B substantively duplicates Pass 1 analysis already on record rather than opening new ground. Q48-Q55 (the petition's \"50%\" figure lacking a disclosed measure, geography, offence set, age group or baseline/comparison dates) restates AR-003.3 almost item-for-item; Q56-Q59 (the decline predates the trial and neither NSW Police nor BOCSAR make the causal claim) restates AR-003.2 and AR-003's own analysis text; Q76-Q81 (the undefined 30-60-second deployment clock) restates AR-007, which already anchors three of that cluster's six items. Adding new paths to re-cite this ground would be exactly the padding-for-a-number failure this routine exists to avoid, so none was added - those 15 items (EV-0310-EV-0321, EV-0339-EV-0341) remain honestly unanchored rather than forced into a duplicate path. The section's remaining two clusters were read closely enough to confirm they add something AR-004 and AR-005 do not already state: Q68 and Q75 name a drone-contribution category (information already known to ground officers; a missing person located primarily by another resource after only initial assistance) that AR-004's three existing candidate meanings of \"assisted\" do not cover, and which - if it applies to any share of the aggregate - means the true drone-caused count could be smaller than any of AR-004's readings; Q85-Q92 name eight specific cost components (personnel, communications, the Remote Operations Centre, maintenance, data infrastructure, regulatory compliance, ground response, downstream justice-system costs) none of which is disclosed as included or excluded in the petition's cost comparison, more granular than AR-005's existing net-cost-per-prevented-harm framing. AR-032 and AR-033 anchor exactly those two clusters (Q60-Q75 and Q82-Q92).",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
