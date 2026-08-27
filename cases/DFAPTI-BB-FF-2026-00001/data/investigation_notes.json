@@ -124,5 +124,14 @@
     "related_thread": "THR-04",
     "related_source": null,
     "related_evidence": "EV-0012"
+  },
+  {
+    "note_id": "NOTE-0015",
+    "timestamp": "2026-08-27T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 4' before proceeding. Read decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires. Computed thread-level coverage: THR-05 and THR-08 were newly tied as this case's thinnest threads (3 paths each). THR-08 has no preserved primary-source document behind it (two pasted emails only), so re-read THR-05's preserved document (the droppings-info briefing) first - already substantially mined by AR-019, with only procedural precaution advice remaining, not an evidentiary claim. Broadened to the Community Harm and Accountability Record's Section 1/governance timeline and the Media Pitch. Found: the November 2019 Black Summer bushfire-origin claim is corroborated across two independently-purposed documents for its timing, but the 'only unburnt area of the community' refuge detail recurs only within one document (twice, within its own Section 1 and governance timeline) - not independently corroborated. Also found this case's own chronology.json entry for the origin event (CHR-0001) cites EV-0001 as supporting evidence, but EV-0001 is about the 20 May 2025 meeting, not the November 2019 origin - no evidence item currently anchors the bushfire-origin claim itself. Checked against source_register.json first: neither SRC-0007's nor SRC-0010's entry records this detail or the citation gap, so it is genuinely new. Added as AR-040. Does not correct chronology.json or mint a new evidence item - both logged as candidate future-DFAPTI work in AR-040's own boundary. Recursive-audit check: spot-checked all other twelve chronology.json entries for the same citation-mismatch pattern - none found, CHR-0001 is an isolated instance. Also swept the case's own index.html, dfapta/index.html, and every other repository page referencing this case for stale pass-number/path-count framing - none found beyond the two files this pass updates.",
+    "related_thread": "THR-05",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
