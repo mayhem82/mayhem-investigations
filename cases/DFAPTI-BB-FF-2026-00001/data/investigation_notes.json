@@ -133,5 +133,14 @@
     "related_thread": "THR-05",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0016",
+    "timestamp": "2026-08-28T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 5' before proceeding. Read decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires. Computed thread-level coverage: THR-04, THR-05 and THR-08 remained tied as this case's thinnest threads (3 paths each), with THR-05 and THR-08 already exhausted of unmined primary-source content by Pass 5. Re-read AR-039's own boundary, which had deliberately scoped itself to the Level 1/Level 2 pre-approval claim and named four other items on the Community Harm and Accountability Record's Section 2 list it did not examine: infrastructure hardening, resident subsidies, school support, formal advocacy. Re-read Section 2 against the same document's Section 3, Section 4 and Section 5 for the first of those, infrastructure hardening. Found: Section 2 lists infrastructure hardening as available to council regardless of the species-protection constraint, the same way it lists Level 1/2 actions - but Section 4's own funding-mechanism analysis (EV-0011) and Section 5's advocacy-chain summary (EV-0004) show the only funding pathway this document describes for hardening works, external grants, is itself plan-gated, and Bellbrook has no plan (EV-0002). Checked against source_register.json first: neither SRC-0007's nor SRC-0005's entry records this connection, so it is genuinely new - an extension of CPO-011's existing pattern to a second action category, not a re-litigation. Added as AR-041, plus a corresponding overreach-control line, and extended DR-003's request text so a future grants-program-guidelines check resolves both AR-002's and this path's question together. Recursive-audit check: checked whether the same pattern recurs for the two remaining unexamined Section 2 items (resident subsidies, formal advocacy) - the source material supplies no comparable funding-mechanism or authorisation detail for either, so no further extension is currently supportable; also checked school support specifically (already delivered per Section 5) and found no plan-dependency claimed for it, so that item's framing is not contradicted the same way. Also swept the case's own index.html, dfapta/index.html, and every other repository page referencing this case for stale pass-number/path-count framing - none found beyond the two files this pass updates.",
+    "related_thread": "THR-04",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
