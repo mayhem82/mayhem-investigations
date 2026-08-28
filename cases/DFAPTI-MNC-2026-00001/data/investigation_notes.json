@@ -493,5 +493,23 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0056",
+    "timestamp": "2026-08-28T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass (DEC-0022). Read dfapta/analysis.json's status field first (\"In Progress - Pass 2\", not Frozen - proceeded), then all 21 prior decisions.json entries, all 55 prior investigation_notes.json entries, all 18 automation_log.json entries, and source_register.json in full, before treating anything as new, per DEC-0009/DEC-0010's standing correction. Evidence register unchanged at 848 items since the prior sub-pass. Continued from the prior sub-pass's own stated scope and read preserved/answer-register-a-to-k-run001.txt Section C, \"Causal Attribution and Counterfactual\" (Q93-Q109, EV-0355-EV-0371), in full - the next unclosed section, and entirely unanchored beforehand even though its topic overlaps AR-006's existing counterfactual-design-gap path. Read the full section text directly before deciding scope, per the protocol's requirement to work from primary-source material rather than a topic label.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0057",
+    "timestamp": "2026-08-28T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: Section C overlaps AR-006's existing topic but is not simply duplicative of it. Q93 (\"a counterfactual needs matched comparison or interrupted time series\") restates AR-006.1 almost verbatim, Q94 (pre-existing trend) restates AR-003.1, and Q99 (comparison with similar regional locations) restates AR-006.1's \"matched comparator\" concept - those three items (EV-0355, EV-0356, EV-0361) were left unanchored rather than forced into a new path. The remaining fourteen items split into two genuinely incremental clusters. Q100-Q101 report that youth-offending indicators also declined across the broader New England/North West police district and Regional NSW as a whole over the same period - a confound AR-006 does not name, and one that operates at a different level (region-wide trend) from AR-006's policy-mechanism entanglement (Soteria/s 22C), meaning it would remain live even if those two policies' effects were fully isolated and subtracted. Q95-Q98 and Q102-Q109 name specific, testable components of the counterfactual design AR-006 described only in general terms: a negative-control offence-category test (Q103), whether changes concentrate in aerial-detection-susceptible offences (Q102), whether the decline's rate itself changed distinguishably post-deployment (Q97-Q98), two further candidate confounds beyond AR-006's Soteria/bail pairing (diversion/place-based programs, ordinary policing changes - Q106-Q107), and three additional falsifiability tests beyond AR-006.3's original two (disproportionate effect in drone-susceptible offences, equivalent movement in untreated comparators, linked incident/cohort evidence - Q108-Q109). AR-034 anchors the first cluster (Q100-Q101); AR-035 anchors the second (Q95-Q98, Q102-Q109).",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
   }
 ]

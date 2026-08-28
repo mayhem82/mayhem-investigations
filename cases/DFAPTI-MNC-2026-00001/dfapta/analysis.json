@@ -4,7 +4,7 @@
   "cycle": 1,
   "status": "In Progress — Pass 2",
   "analysis_commenced": "2026-08-17",
-  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0017 and the equivalent correction on DFAPTI-BB-FF-2026-00001 (DEC-0007). Pass 1 (AR-001 through AR-022, commenced 2026-08-17) analysed the evidence register as frozen by the operator's explicit \"freeze evidence register\" command (DEC-0009): 827 entries, EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs. Pass 1 anchored only 102 of those 827 items (12.3% coverage) - specific and accurate where it went, but nowhere near \"all paths taken\" at this case's scale. Downstream gates built on Pass 1 (SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) were removed 2026-08-25. Pass 2 (AR-023 onward) expands coverage toward the remaining evidence; unlike Pass 1, it runs against a register that keeps growing under the still-live DFAPTI stage, not a fixed snapshot - the register held 848 items (EV-0001 through EV-0848) as at this sub-pass, following genuine evidence-collection runs since the DEC-0009 freeze. The first Pass 2 sub-pass (AR-023 through AR-025, 2026-08-25) closely read preserved/snapshot-06-2026-08-16.txt (Deep Research Snapshot 6, Findings F-091 through F-130) in full and added three paths covering its previously-unanchored incapacitation/displacement/substitution (F-101-F-110), deterrence-signalling (F-111-F-120) and political-feedback/perception-trend (F-121-F-130) sections - Section A of the same snapshot (F-091-F-100, economic system effect) was already anchored by Pass 1's AR-018. Coverage after that sub-pass stood at 130 of 848 items (15.3%). The second Pass 2 sub-pass (AR-026 through AR-031, 2026-08-26) closely read preserved/answer-register-a-to-k-run001.txt (the case's Continuing Investigation Question Bank Answer Register, Q1 through Q312 across eleven sections) in full and fully closed its Section A, \"Moree Trial Evaluation\" (Q1-Q47, EV-0263 through EV-0309), the single highest-priority acquisition gap identified by that register's own \"RUN 001 CONTROL FINDING\" - covering the evaluation's existence/authorship/independence, its pre-deployment criteria framework, its analytic design, eighteen specific outcome measures split across two paths, and its publication/decision-control status. Sections B through K of the same register (Q48-Q312, roughly 260 further items) remain open for subsequent sub-passes, as does the separate answer-register-l-to-t-run001.txt file (Q313 onward) - this sub-pass deliberately closed one coherent section in full rather than sampling across several, consistent with this routine's standing instruction to make honestly-scoped progress rather than stretch for a number. Coverage after that sub-pass stood at 177 of 848 items (20.9%). The third Pass 2 sub-pass (AR-032, AR-033, 2026-08-27) read Section B, \"Petition Claim Verification\" (Q48-Q92, EV-0310 through EV-0354), of the same Continuing Investigation Question Bank Answer Register in full and found that most of it - the \"50%\" crime-drop claim's own definitional components (Q48-Q55) and the causal-attribution status of the underlying decline (Q56-Q59) - substantively duplicates findings Pass 1's AR-003 already established (determination AR-003.3 already names the same undisclosed offence definition, geography, age group and baseline/comparison dates; AR-003.2 already states no NSW Police or BOCSAR source makes the causal claim), so no new path was added for that ground and those 12 items remain deliberately unanchored rather than padded with a restating path. The deployment-time cluster (Q76-Q81, EV-0338-EV-0343) was found to duplicate Pass 1's AR-007 in the same way, which already anchors half of that cluster (EV-0338, EV-0342, EV-0343); the remaining three items (EV-0339-EV-0341) are left deliberately unanchored for the same reason. Two genuinely incremental findings were identified and anchored as new paths: AR-032 (Q60-Q75, EV-0322-EV-0337) extends AR-004's undefined-\"assisted\"-methodology finding to the stolen-vehicle and missing-person aggregates and surfaces a zero-drone-contribution category (arrests resting on information already available to ground officers; missing persons located primarily by another resource after only initial drone assistance) that AR-004's three candidate meanings did not cover; AR-033 (Q82-Q92, EV-0344-EV-0354) establishes that none of eight specific cost components (personnel, communications, the Remote Operations Centre, maintenance, data infrastructure, regulatory compliance, ground response, downstream justice-system costs) is disclosed as included or excluded in the petition's helicopter cost comparison, a more granular inclusion/exclusion finding than AR-005's existing net-cost-per-prevented-harm framing. Coverage now stands at 204 of 848 items (24.1%). Every anchor cited carries the register's own \"Unverified\" verification_state; this analysis introduces no new evidence and does not upgrade that status. Further passes continue until the operator states DFAPTA itself is frozen - no downstream gate is rebuilt until then.",
+  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0017 and the equivalent correction on DFAPTI-BB-FF-2026-00001 (DEC-0007). Pass 1 (AR-001 through AR-022, commenced 2026-08-17) analysed the evidence register as frozen by the operator's explicit \"freeze evidence register\" command (DEC-0009): 827 entries, EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs. Pass 1 anchored only 102 of those 827 items (12.3% coverage) - specific and accurate where it went, but nowhere near \"all paths taken\" at this case's scale. Downstream gates built on Pass 1 (SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) were removed 2026-08-25. Pass 2 (AR-023 onward) expands coverage toward the remaining evidence; unlike Pass 1, it runs against a register that keeps growing under the still-live DFAPTI stage, not a fixed snapshot - the register held 848 items (EV-0001 through EV-0848) as at this sub-pass, following genuine evidence-collection runs since the DEC-0009 freeze. The first Pass 2 sub-pass (AR-023 through AR-025, 2026-08-25) closely read preserved/snapshot-06-2026-08-16.txt (Deep Research Snapshot 6, Findings F-091 through F-130) in full and added three paths covering its previously-unanchored incapacitation/displacement/substitution (F-101-F-110), deterrence-signalling (F-111-F-120) and political-feedback/perception-trend (F-121-F-130) sections - Section A of the same snapshot (F-091-F-100, economic system effect) was already anchored by Pass 1's AR-018. Coverage after that sub-pass stood at 130 of 848 items (15.3%). The second Pass 2 sub-pass (AR-026 through AR-031, 2026-08-26) closely read preserved/answer-register-a-to-k-run001.txt (the case's Continuing Investigation Question Bank Answer Register, Q1 through Q312 across eleven sections) in full and fully closed its Section A, \"Moree Trial Evaluation\" (Q1-Q47, EV-0263 through EV-0309), the single highest-priority acquisition gap identified by that register's own \"RUN 001 CONTROL FINDING\" - covering the evaluation's existence/authorship/independence, its pre-deployment criteria framework, its analytic design, eighteen specific outcome measures split across two paths, and its publication/decision-control status. Sections B through K of the same register (Q48-Q312, roughly 260 further items) remain open for subsequent sub-passes, as does the separate answer-register-l-to-t-run001.txt file (Q313 onward) - this sub-pass deliberately closed one coherent section in full rather than sampling across several, consistent with this routine's standing instruction to make honestly-scoped progress rather than stretch for a number. Coverage after that sub-pass stood at 177 of 848 items (20.9%). The third Pass 2 sub-pass (AR-032, AR-033, 2026-08-27) read Section B, \"Petition Claim Verification\" (Q48-Q92, EV-0310 through EV-0354), of the same Continuing Investigation Question Bank Answer Register in full and found that most of it - the \"50%\" crime-drop claim's own definitional components (Q48-Q55) and the causal-attribution status of the underlying decline (Q56-Q59) - substantively duplicates findings Pass 1's AR-003 already established (determination AR-003.3 already names the same undisclosed offence definition, geography, age group and baseline/comparison dates; AR-003.2 already states no NSW Police or BOCSAR source makes the causal claim), so no new path was added for that ground and those 12 items remain deliberately unanchored rather than padded with a restating path. The deployment-time cluster (Q76-Q81, EV-0338-EV-0343) was found to duplicate Pass 1's AR-007 in the same way, which already anchors half of that cluster (EV-0338, EV-0342, EV-0343); the remaining three items (EV-0339-EV-0341) are left deliberately unanchored for the same reason. Two genuinely incremental findings were identified and anchored as new paths: AR-032 (Q60-Q75, EV-0322-EV-0337) extends AR-004's undefined-\"assisted\"-methodology finding to the stolen-vehicle and missing-person aggregates and surfaces a zero-drone-contribution category (arrests resting on information already available to ground officers; missing persons located primarily by another resource after only initial drone assistance) that AR-004's three candidate meanings did not cover; AR-033 (Q82-Q92, EV-0344-EV-0354) establishes that none of eight specific cost components (personnel, communications, the Remote Operations Centre, maintenance, data infrastructure, regulatory compliance, ground response, downstream justice-system costs) is disclosed as included or excluded in the petition's helicopter cost comparison, a more granular inclusion/exclusion finding than AR-005's existing net-cost-per-prevented-harm framing. Coverage after that sub-pass stood at 204 of 848 items (24.1%). The fourth Pass 2 sub-pass (AR-034, AR-035, 2026-08-28) read Section C, \"Causal Attribution and Counterfactual\" (Q93-Q109, EV-0355 through EV-0371), of the same register in full - the section immediately following the one the prior sub-pass closed, and entirely unanchored beforehand. Found three of its seventeen items (Q93, Q94, Q99; EV-0355, EV-0356, EV-0361) substantively restate existing determinations (AR-006.1's \"no credible counterfactual design exists\"; AR-003.1's pre-existing-decline finding) and left them deliberately unanchored rather than padded with a restating path. The remaining fourteen items contained two genuinely incremental findings: AR-034 (Q100-Q101, EV-0362-EV-0363) establishes a regional-scale confound - youth-offending indicators also declined across the broader New England/North West district and Regional NSW as a whole - distinct from AR-006's policy-entanglement confound because it would persist even if Soteria's and s 22C's contributions were fully isolated; AR-035 (Q95-Q98, Q102-Q107, EV-0357-EV-0360, EV-0364-EV-0369, plus Q108-Q109, EV-0370-EV-0371) specifies named, testable components of the counterfactual design AR-006 identified only in general terms - a negative-control offence-category test, two further candidate confounds (diversion/place-based programs, ordinary policing changes) beyond AR-006's Soteria/bail pairing, and three additional falsifiability tests beyond AR-006.3's original two. Coverage now stands at 218 of 848 items (25.7%). Every anchor cited carries the register's own \"Unverified\" verification_state; this analysis introduces no new evidence and does not upgrade that status. Further passes continue until the operator states DFAPTA itself is frozen - no downstream gate is rebuilt until then.",
   "paths": [
     {
       "id": "AR-001",
@@ -1362,6 +1362,84 @@
         "EV-0354"
       ],
       "boundary": "No determination is made about which of these components would change the comparison's outcome if disclosed, or that their omission was deliberate - only that none is currently confirmed included or excluded on either side of the published claim."
+    },
+    {
+      "id": "AR-034",
+      "title": "A Regional-Scale Trend Is a Confound Independent of the Policy-Entanglement Problem Already Established",
+      "analysis": [
+        "AR-003 established that Moree's youth-offending/legal-action decline predates the January 2026 trial. AR-006 separately established that concurrent policy interventions (Operation Soteria, s 22C bail reform) may be mechanistically entangled with PolAir-Remote's own detection function, so their effects cannot simply be treated as independent and subtracted out. Section C of the Continuing Investigation Question Bank Answer Register (Q100-Q101) adds a third, geographically distinct confound that neither existing path names: youth offending/legal-action indicators also declined across the broader New England/North West police district and across Regional NSW as a whole over the same period.",
+        "This is not the same problem as AR-006's policy entanglement. A regional-scale trend would remain a live confound even in the hypothetical case where Soteria's and s 22C's specific contributions were fully isolated and subtracted, because it operates at the level of a wider geography rather than a named intervention. It means Moree's decline cannot be assumed distinctively Moree-specific - let alone specifically attributable to PolAir-Remote - without a comparator that separates what is common to the wider region from what, if anything, is particular to Moree."
+      ],
+      "determinations": [
+        [
+          "AR-034.1",
+          "Youth offending/legal-action indicators also declined across the broader New England/North West police district and Regional NSW as a whole over the same period as Moree's own decline."
+        ],
+        [
+          "AR-034.2",
+          "This regional-scale trend is a distinct confound from the policy-mechanism entanglement already established in AR-006 - it would remain material even if Soteria's and s 22C bail reform's specific contributions were fully isolated."
+        ],
+        [
+          "AR-034.3",
+          "No public matched-comparator analysis separates what is Moree-specific in the observed decline from what reflects the broader regional trend."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Complexity as Barrier",
+          "CONFIRMED",
+          "A causal claim narrowed to one town is harder to sustain once the same direction of change is documented at district and state-region scale, and disentangling the two requires a comparator design that does not currently exist publicly."
+        ]
+      ],
+      "anchors": [
+        "EV-0362",
+        "EV-0363"
+      ],
+      "boundary": "No determination is made about the relative size of the region-wide component or whether Moree's decline exceeds the regional trend; only that the two have not been publicly separated."
+    },
+    {
+      "id": "AR-035",
+      "title": "The Counterfactual Design Gap Now Has Named, Testable Components AR-006 Did Not Specify",
+      "analysis": [
+        "AR-006 established, at a general level, that a credible counterfactual design (a matched comparator or interrupted time series) does not exist in the public record for Moree, and named falsifiers in principle (a post-deployment trend break surviving comparator controls; dose-response by drone exposure). Section C of the Answer Register (Q95-Q98, Q102-Q107) specifies particular components such a design would need that AR-006 did not itemise: whether offence-category changes are concentrated in categories most susceptible to aerial detection (Q102), whether a negative-control set of offences not materially affected by drone capability moved similarly over the same period (Q103), and whether the rate of decline itself changed distinguishably after January 2026 rather than merely continuing its pre-existing trajectory (Q97-Q98) - none of which the public record currently answers.",
+        "The same section also names two further candidate confounds beyond AR-006's Soteria/s 22C pairing that remain unapportioned - diversion or place-based programs, and ordinary policing changes (Q106-Q107) - and states three additional specific falsifiability tests beyond AR-006.3's two (Q108-Q109): disproportionate effect concentrated in drone-susceptible offences, equivalent movement in untreated comparator offences, and linked incident/cohort evidence showing outcomes materially attributable to drone tasking specifically. None of these tests has been publicly applied."
+      ],
+      "determinations": [
+        [
+          "AR-035.1",
+          "A negative-control offence-category test (offences not materially affected by drone capability, checked for parallel movement over the same period) is a specific, named component of the counterfactual design that the public record does not currently supply."
+        ],
+        [
+          "AR-035.2",
+          "Diversion/place-based programs and ordinary policing changes join AR-006's Soteria/s 22C pairing as named components requiring apportionment that no public analysis currently performs."
+        ],
+        [
+          "AR-035.3",
+          "Three additional specific falsifiability tests beyond AR-006.3's two - disproportionate effect in drone-susceptible offences, equivalent movement in untreated comparators, and linked incident/cohort evidence of drone-attributable outcomes - further specify how the causal hypothesis could be tested; none is currently applied in the public record."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Complexity as Barrier",
+          "CONFIRMED",
+          "Naming the specific tests a credible evaluation would require does not itself supply the offence-level data those tests depend on."
+        ]
+      ],
+      "anchors": [
+        "EV-0357",
+        "EV-0358",
+        "EV-0359",
+        "EV-0360",
+        "EV-0364",
+        "EV-0365",
+        "EV-0366",
+        "EV-0367",
+        "EV-0368",
+        "EV-0369",
+        "EV-0370",
+        "EV-0371"
+      ],
+      "boundary": "No determination is made about what any of these tests would show if performed; only that the specific tests themselves, and the data they require, are now named and remain unperformed."
     }
   ],
   "cross_path_observations": [
@@ -2135,6 +2213,48 @@
     "EV-0354": [
       "AR-033"
     ],
+    "EV-0357": [
+      "AR-035"
+    ],
+    "EV-0358": [
+      "AR-035"
+    ],
+    "EV-0359": [
+      "AR-035"
+    ],
+    "EV-0360": [
+      "AR-035"
+    ],
+    "EV-0362": [
+      "AR-034"
+    ],
+    "EV-0363": [
+      "AR-034"
+    ],
+    "EV-0364": [
+      "AR-035"
+    ],
+    "EV-0365": [
+      "AR-035"
+    ],
+    "EV-0366": [
+      "AR-035"
+    ],
+    "EV-0367": [
+      "AR-035"
+    ],
+    "EV-0368": [
+      "AR-035"
+    ],
+    "EV-0369": [
+      "AR-035"
+    ],
+    "EV-0370": [
+      "AR-035"
+    ],
+    "EV-0371": [
+      "AR-035"
+    ],
     "EV-0498": [
       "AR-012"
     ],
@@ -2180,11 +2300,11 @@
     ]
   },
   "counts": {
-    "analysis_paths": 33,
-    "analytical_determinations": 111,
+    "analysis_paths": 35,
+    "analytical_determinations": 117,
     "cross_path_observations": 12,
     "disclosure_requests": 12,
     "contradictions_preserved": 2,
-    "evidence_anchors_referenced": 204
+    "evidence_anchors_referenced": 218
   }
 }
