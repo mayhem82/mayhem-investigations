@@ -511,5 +511,23 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0058",
+    "timestamp": "2026-08-29T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass (DEC-0023). Read dfapta/analysis.json's status field first (\"In Progress - Pass 2\", not Frozen - proceeded), then all 22 prior decisions.json entries, all 57 prior investigation_notes.json entries, all 19 automation_log.json entries, and source_register.json in full, before treating anything as new, per DEC-0009/DEC-0010's standing correction. Evidence register unchanged at 848 items since the prior sub-pass. Continued from the prior sub-pass's own stated scope and read preserved/answer-register-a-to-k-run001.txt Section D, \"Response Capability Versus Observation Capability\" (Q110-Q127, EV-0372-EV-0389), in full - the next unclosed section, and entirely unanchored beforehand. Read the full section text directly before deciding scope, per the protocol's requirement to work from primary-source material rather than a topic label.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0059",
+    "timestamp": "2026-08-29T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: Section D overlaps two existing paths, not one. Q110 (\"average aircraft launch time not published\") restates AR-007.2's existing determination that the 30-60-second deployment clock's exact definition and distributional statistics are undisclosed, so EV-0372 was left unanchored rather than forced into a new path. Q121-Q124 (foot-search time, officers required for searches, conventional PolAir tasking, officer exposure - each \"could plausibly affect this outcome, but no aggregate Moree trial result has been published\") restate, respectively, AR-029's existing \"search time\", \"ground-police workload\", \"helicopter hours displaced\" and \"officer safety\" undisclosed-outcome-measure determinations from the separate Moree Trial Evaluation section (Q27-Q35) closed in DEC-0020 - so EV-0383 through EV-0386 were also left unanchored. The remaining thirteen items split into two genuinely incremental clusters. Q111-Q119 ask about the entire chain downstream of the launch clock AR-007 already covers - average time to arrival over the incident, to useful intelligence reaching ground police, to ground-police arrival, to physical intervention, and to arrest, plus how often the drone arrives before ground police, locates a suspect first, encounters unavailable ground officers, or produces useful intelligence with no immediate intervention - none of which is publicly disclosed or computable without linked mission/event and ground-unit records that do not exist publicly. Q120 and Q125-Q127 name a structural risk no existing path covers: a remote-observation platform can in principle scale detection faster than physical-response capacity scales, and no public evidence shows local frontline staffing increased alongside it, or any formal threshold/control preventing a resulting imbalance; Q120 (dangerous vehicle pursuits) supplies the one operational-outcome angle on this gap not already covered by AR-029/AR-030's existing measures. AR-036 anchors the first cluster (Q111-Q119); AR-037 anchors the second (Q120, Q125-Q127).",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
