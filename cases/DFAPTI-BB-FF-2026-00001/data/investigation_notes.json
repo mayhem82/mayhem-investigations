@@ -151,5 +151,14 @@
     "related_thread": "THR-08",
     "related_source": "SRC-0019",
     "related_evidence": "EV-0022"
+  },
+  {
+    "note_id": "NOTE-0018",
+    "timestamp": "2026-08-30T00:00:00Z",
+    "activity_type": "Investigation",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 7' before proceeding. Read decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires. Before starting the case work, found this session's git HEAD detached with five unpushed commits spanning this case's own prior two passes and DFAPTI-MNC-2026-00001's most recent three - fast-forwarded `main` onto them and pushed, since origin was a strict ancestor and nothing was discarded. Computed thread-level coverage: THR-04 and THR-05 remained tied as this case's thinnest threads (3 paths each), with THR-08 now ahead at 4. Re-read the Hardened Submission Package's Part 4 and the droppings-info briefing in full again rather than accepting the prior passes' 'exhausted' characterisation on trust - both confirmed exhausted. Re-read the council-submission letter and Ombudsman complaint (already re-read in full by Pass 7 for a different purpose) and found both treat the absence of any disclosed output from the August/September 2025 community consultation as a distinct undisclosed item - not covered by AR-028's existing seven-item enumeration, which concerns only silences from external bodies, not silence toward the community that generated the consultation material itself. Checked against source_register.json first: neither SRC-0008's nor SRC-0011's entry records this specific claim, so it is genuinely new. Added as AR-043. Does not allege the consultation output was deliberately withheld, and does not propose that council be asked to produce it - that is Enforcement Notice/Advocacy Package territory (DEC-0008). Recursive-audit check: after the fast-forward and push, re-verified git status was clean with nothing stranded; also swept the case's own index.html, dfapta/index.html, and every other repository page referencing this case for stale pass-number/path-count framing - none found beyond the two files this pass updates.",
+    "related_thread": "THR-03",
+    "related_source": "SRC-0008",
+    "related_evidence": "EV-0006"
   }
 ]
