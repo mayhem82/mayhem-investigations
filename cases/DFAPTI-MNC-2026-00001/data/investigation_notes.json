@@ -529,5 +529,23 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0060",
+    "timestamp": "2026-08-30T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass (DEC-0024). Read dfapta/analysis.json's status field first (\"In Progress - Pass 2\", not Frozen - proceeded), then all 23 prior decisions.json entries, all 59 prior investigation_notes.json entries, all 20 automation_log.json entries, and source_register.json in full, before treating anything as new, per DEC-0009/DEC-0010's standing correction. Evidence register unchanged at 848 items since the prior sub-pass. Continued from the prior sub-pass's own stated scope and read preserved/answer-register-a-to-k-run001.txt Section E, \"Flight-Geography Data\" (Q128-Q158, EV-0390-EV-0420), in full - the next unclosed section, and entirely unanchored beforehand. Read the full section text directly before deciding scope, per the protocol's requirement to work from primary-source material rather than a topic label.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0061",
+    "timestamp": "2026-08-30T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: unlike the last four sub-passes, Section E contained no restated ground - every one of its 31 items was genuinely open and unanchored. Checked it against AR-019 (the closest existing path, on evidence integrity and chain of custody) specifically because both concern flight records: AR-019 addresses whether an individual flight's record is auditable and evidentially usable in a courtroom sense, while Section E asks a different question - whether NSW Police's own mission dataset is structured (identifiers, incident linkage, classification, per-category proportions) and geographically legible (frequency by area, loiter time, patrol-route repetition) at all, independent of any single flight's later evidentiary use. That distinction held up on a full read, so the section was treated as new ground. Split the 31 items at their own internal boundary: Q128-Q149 (dataset structure and per-flight technical fields) became AR-038; Q150-Q158 (joining that geography against demographic/spatial datasets to test disproportionate exposure) became AR-039, since the first cluster answers whether the underlying dataset exists and what it would contain, and the second answers whether it could be used to test equity questions if it existed - two different capability gaps, not one. Noticed while drafting AR-039 that its finding connects directly to AR-030's existing 'no results table establishes whether demographic impact or Aboriginal justice-system contact were measured' determination: AR-030 is about the trial's own evaluation, AR-038/AR-039 are about whether anyone outside NSW Police could independently test the same question - together they show neither channel currently exists, which is a genuine convergence across three independently-derived paths, not a restatement of any one of them, so it was recorded as CPO-013 rather than folded into AR-039's own boundary.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
