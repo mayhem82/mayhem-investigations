@@ -547,5 +547,23 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0062",
+    "timestamp": "2026-08-31T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass (DEC-0025). Read dfapta/analysis.json's status field first (\"In Progress - Pass 2\", not Frozen - proceeded), then all 24 prior decisions.json entries, all 61 prior investigation_notes.json entries, all 21 automation_log.json entries, and source_register.json in full, before treating anything as new, per DEC-0009/DEC-0010's standing correction. Evidence register unchanged at 848 items since the prior sub-pass. Continued from the prior sub-pass's own stated scope and read preserved/answer-register-a-to-k-run001.txt Section F, \"Secondary Detection and Purpose Expansion\" (Q159-Q179, EV-0421-EV-0441), in full - the next unclosed section, and entirely unanchored beforehand. Read the full section text directly before deciding scope, per the protocol's requirement to work from primary-source material rather than a topic label.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0063",
+    "timestamp": "2026-08-31T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: checked Section F against five existing paths that plausibly overlap it - AR-010 (operating-mode contradiction), AR-012 (AI/biometric governance), AR-016 (oversight/complaint discoverability), AR-019 (chain-of-custody) and AR-020 (secondary-use/retention governance) - because Section F's own topic, an incidental detection during a tasked mission, touches all five at first glance. On a full read none of the section's 21 items restated an existing determination: AR-020 establishes only that a legal secondary-use pathway exists for law-enforcement information in the abstract (PPIP Act s 23), not whether PolAir-Remote itself has any published process for the specific live moment a mission's purpose changes; AR-019's chain-of-custody finding concerns imagery already being used as courtroom evidence, not the internal authorization decision that precedes any evidentiary question; AR-012's AI-governance gap concerns whether an AI Assessment Framework determination exists at all, not whether AI-assisted tracking may be activated mid-mission for an unrelated matter. Split the 21 items at their own internal boundary: Q159-Q165 and Q177 (who authorises a purpose change, whether it must be documented or separately tasked, and whether an audit trail exists) became AR-040, since these all concern the decision process itself; Q166-Q176, Q178-Q179 (what a resulting detection can be used to justify, whether incidental imagery can be retained or reused, and whether secondary detections are even tracked as a category) became AR-041, since these all concern what happens after the purpose-change decision is made. Noticed while drafting AR-041 that it sits on exactly the same undisclosed-AI/legal-pathway boundary as AR-012 and AR-020 - the legal capacity and the technology both exist, but the specific policy and audit trail at their intersection do not appear to - a genuine convergence across four independently-derived paths, so it was recorded as CPO-014 rather than folded into either new path's own boundary.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
