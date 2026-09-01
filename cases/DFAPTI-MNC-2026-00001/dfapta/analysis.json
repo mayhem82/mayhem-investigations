@@ -4,7 +4,7 @@
   "cycle": 1,
   "status": "In Progress — Pass 2",
   "analysis_commenced": "2026-08-17",
-  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0017 and the equivalent correction on DFAPTI-BB-FF-2026-00001 (DEC-0007). Pass 1 (AR-001 through AR-022, commenced 2026-08-17) analysed the evidence register as frozen by the operator's explicit \"freeze evidence register\" command (DEC-0009): 827 entries, EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs. Pass 1 anchored only 102 of those 827 items (12.3% coverage) - specific and accurate where it went, but nowhere near \"all paths taken\" at this case's scale. Downstream gates built on Pass 1 (SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) were removed 2026-08-25. Pass 2 (AR-023 onward) expands coverage toward the remaining evidence; unlike Pass 1, it runs against a register that keeps growing under the still-live DFAPTI stage, not a fixed snapshot - the register held 848 items (EV-0001 through EV-0848) as at this sub-pass, following genuine evidence-collection runs since the DEC-0009 freeze. The first Pass 2 sub-pass (AR-023 through AR-025, 2026-08-25) closely read preserved/snapshot-06-2026-08-16.txt (Deep Research Snapshot 6, Findings F-091 through F-130) in full and added three paths covering its previously-unanchored incapacitation/displacement/substitution (F-101-F-110), deterrence-signalling (F-111-F-120) and political-feedback/perception-trend (F-121-F-130) sections - Section A of the same snapshot (F-091-F-100, economic system effect) was already anchored by Pass 1's AR-018. Coverage after that sub-pass stood at 130 of 848 items (15.3%). The second Pass 2 sub-pass (AR-026 through AR-031, 2026-08-26) closely read preserved/answer-register-a-to-k-run001.txt (the case's Continuing Investigation Question Bank Answer Register, Q1 through Q312 across eleven sections) in full and fully closed its Section A, \"Moree Trial Evaluation\" (Q1-Q47, EV-0263 through EV-0309), the single highest-priority acquisition gap identified by that register's own \"RUN 001 CONTROL FINDING\" - covering the evaluation's existence/authorship/independence, its pre-deployment criteria framework, its analytic design, eighteen specific outcome measures split across two paths, and its publication/decision-control status. Sections B through K of the same register (Q48-Q312, roughly 260 further items) remain open for subsequent sub-passes, as does the separate answer-register-l-to-t-run001.txt file (Q313 onward) - this sub-pass deliberately closed one coherent section in full rather than sampling across several, consistent with this routine's standing instruction to make honestly-scoped progress rather than stretch for a number. Coverage after that sub-pass stood at 177 of 848 items (20.9%). The third Pass 2 sub-pass (AR-032, AR-033, 2026-08-27) read Section B, \"Petition Claim Verification\" (Q48-Q92, EV-0310 through EV-0354), of the same Continuing Investigation Question Bank Answer Register in full and found that most of it - the \"50%\" crime-drop claim's own definitional components (Q48-Q55) and the causal-attribution status of the underlying decline (Q56-Q59) - substantively duplicates findings Pass 1's AR-003 already established (determination AR-003.3 already names the same undisclosed offence definition, geography, age group and baseline/comparison dates; AR-003.2 already states no NSW Police or BOCSAR source makes the causal claim), so no new path was added for that ground and those 12 items remain deliberately unanchored rather than padded with a restating path. The deployment-time cluster (Q76-Q81, EV-0338-EV-0343) was found to duplicate Pass 1's AR-007 in the same way, which already anchors half of that cluster (EV-0338, EV-0342, EV-0343); the remaining three items (EV-0339-EV-0341) are left deliberately unanchored for the same reason. Two genuinely incremental findings were identified and anchored as new paths: AR-032 (Q60-Q75, EV-0322-EV-0337) extends AR-004's undefined-\"assisted\"-methodology finding to the stolen-vehicle and missing-person aggregates and surfaces a zero-drone-contribution category (arrests resting on information already available to ground officers; missing persons located primarily by another resource after only initial drone assistance) that AR-004's three candidate meanings did not cover; AR-033 (Q82-Q92, EV-0344-EV-0354) establishes that none of eight specific cost components (personnel, communications, the Remote Operations Centre, maintenance, data infrastructure, regulatory compliance, ground response, downstream justice-system costs) is disclosed as included or excluded in the petition's helicopter cost comparison, a more granular inclusion/exclusion finding than AR-005's existing net-cost-per-prevented-harm framing. Coverage after that sub-pass stood at 204 of 848 items (24.1%). The fourth Pass 2 sub-pass (AR-034, AR-035, 2026-08-28) read Section C, \"Causal Attribution and Counterfactual\" (Q93-Q109, EV-0355 through EV-0371), of the same register in full - the section immediately following the one the prior sub-pass closed, and entirely unanchored beforehand. Found three of its seventeen items (Q93, Q94, Q99; EV-0355, EV-0356, EV-0361) substantively restate existing determinations (AR-006.1's \"no credible counterfactual design exists\"; AR-003.1's pre-existing-decline finding) and left them deliberately unanchored rather than padded with a restating path. The remaining fourteen items contained two genuinely incremental findings: AR-034 (Q100-Q101, EV-0362-EV-0363) establishes a regional-scale confound - youth-offending indicators also declined across the broader New England/North West district and Regional NSW as a whole - distinct from AR-006's policy-entanglement confound because it would persist even if Soteria's and s 22C's contributions were fully isolated; AR-035 (Q95-Q98, Q102-Q107, EV-0357-EV-0360, EV-0364-EV-0369, plus Q108-Q109, EV-0370-EV-0371) specifies named, testable components of the counterfactual design AR-006 identified only in general terms - a negative-control offence-category test, two further candidate confounds (diversion/place-based programs, ordinary policing changes) beyond AR-006's Soteria/bail pairing, and three additional falsifiability tests beyond AR-006.3's original two. Coverage after that sub-pass stood at 218 of 848 items (25.7%). The fifth Pass 2 sub-pass (AR-036, AR-037, 2026-08-29) read Section D, \"Response Capability Versus Observation Capability\" (Q110-Q127, EV-0372 through EV-0389, 18 items), of the same register in full - the next unclosed section, and entirely unanchored beforehand despite overlapping AR-007's existing launch-clock finding and AR-029/AR-030's existing undisclosed-outcome-measures findings. Found five items substantially restate existing determinations: Q110 (EV-0372) restates AR-007.2's undisclosed-clock-statistics finding, and Q121-Q124 (EV-0383 through EV-0386, foot-search time, officers required for searches, conventional PolAir tasking, officer exposure) restate AR-029's already-established \"search time\", \"ground-police workload\", \"helicopter hours displaced\" and \"officer safety\" undisclosed-measures findings; all five were left deliberately unanchored rather than padded with a restating path. The remaining thirteen items contained two genuinely incremental findings: AR-036 (Q111-Q119, EV-0373 through EV-0381) extends AR-007's launch-clock finding to the entire downstream observation-to-intervention pipeline, establishing that neither the timing (arrival, intelligence-relay, ground-police arrival, intervention, arrest) nor the frequency of specific pipeline outcomes (drone-first arrival, suspect-location-first, officer unavailability, intelligence-without-intervention) is publicly disclosed or computable from the public record; AR-037 (Q120, Q125-Q127, EV-0382, EV-0387 through EV-0389) names a structural risk this investigation's other paths had not yet identified - that observation capacity can scale faster than physical-response capacity, creating a possible growing imbalance - and establishes that no public evidence shows matched staffing, a formal threshold/control, or (via the one operational outcome in the section not already covered by AR-029/AR-030) reduced dangerous vehicle pursuits. Coverage after that sub-pass stood at 231 of 848 items (27.2%). The sixth Pass 2 sub-pass (AR-038, AR-039, 2026-08-30) read Section E, \"Flight-Geography Data\" (Q128-Q158, EV-0390 through EV-0420, 31 items), of the same register in full - the next unclosed section, and entirely unanchored beforehand. Unlike prior sub-passes, none of this section's items substantively restated an existing determination: AR-019 already established the platform's general auditable-record capability and CASA's seven-year requirement, but nothing in this investigation had yet addressed NSW Police's own mission-level dataset structure or the geographic/demographic analysability of its flight footprint specifically. Two genuinely incremental findings were added: AR-038 (Q128-Q149, EV-0390-EV-0411) establishes that NSW Police's own flight-classification schema, geographic distribution data, and granular per-flight technical fields (sensor mode, zoom, thermal use, recording status, operator identity, mid-flight purpose change, cross-flight tracking) are not publicly disclosed; AR-039 (Q150-Q158, EV-0412-EV-0420) establishes that joining flight geography against demographic/spatial datasets to test disproportionate exposure is technically feasible in principle but blocked by NSW Police's non-publication of the underlying flight-geography dataset. Read together with AR-030's existing finding that the trial's own evaluation does not establish whether demographic impact or Aboriginal justice-system contact were measured, these two new paths showed there is currently no channel - official evaluation or independent analysis - through which surveillance-footprint disproportionality could be tested (CPO-013). Coverage after that sub-pass stood at 262 of 848 items (30.9%). The seventh Pass 2 sub-pass (AR-040, AR-041, 2026-08-31) read Section F, \"Secondary Detection and Purpose Expansion\" (Q159-Q179, EV-0421 through EV-0441, 21 items), of the same register in full - the next unclosed section, and entirely unanchored beforehand. None of this section's items substantively restated an existing determination: AR-020 had already established that NSW law provides real, if circumstance-dependent, secondary-use legal pathways for PolAir-derived information in the abstract, but nothing in this investigation had yet addressed whether PolAir-Remote itself has a published authorization, documentation, or audit-trail process for the specific live moment a mission's own purpose changes, nor what downstream actions an incidental detection can be used to justify. Two genuinely incremental findings were added: AR-040 (Q159-Q165, Q177, EV-0421-EV-0427, EV-0439) establishes that no public PolAir-Remote-specific rule identifies who authorises a mid-mission purpose change, requires its documentation or a separate tasking record, or guarantees an audit trail for it; AR-041 (Q166-Q176, Q178-Q179, EV-0428-EV-0436, EV-0438, EV-0440, EV-0441) establishes that no public threshold or process governs whether an incidental detection can justify a search, pursuit, arrest, or intelligence record, whether incidental imagery can be retained or reused without fresh approval, or whether AI-assisted tracking can be activated for it - and that secondary detections are not confirmed as tracked as a distinct category at all, so even their frequency is unknown. Read together with AR-012 and AR-020, these two new paths showed that a real legal pathway and a real technological capability for secondary use both exist in principle, but the specific operational policy and audit trail governing the exact moment they would be invoked together do not appear to be publicly documented (CPO-014). Coverage now stands at 283 of 848 items (33.4%). Every anchor cited carries the register's own \"Unverified\" verification_state; this analysis introduces no new evidence and does not upgrade that status. Further passes continue until the operator states DFAPTA itself is frozen - no downstream gate is rebuilt until then.",
+  "evidence_basis_note": "DFAPTA (Deep Forensic All Paths Taken Analysis) is an iterative, multi-pass process, not a single-shot synthesis - see DEC-0017 and the equivalent correction on DFAPTI-BB-FF-2026-00001 (DEC-0007). Pass 1 (AR-001 through AR-022, commenced 2026-08-17) analysed the evidence register as frozen by the operator's explicit \"freeze evidence register\" command (DEC-0009): 827 entries, EV-0001 through EV-0827, sourced from an external ChatGPT Deep Research investigation ingested across five runs. Pass 1 anchored only 102 of those 827 items (12.3% coverage) - specific and accurate where it went, but nowhere near \"all paths taken\" at this case's scale. Downstream gates built on Pass 1 (SHM Gate, Yield Gate, Lattice Atlas, Temporal Projection Integrity Engine, Enforcement Notice, Advocacy Package) were removed 2026-08-25. Pass 2 (AR-023 onward) expands coverage toward the remaining evidence; unlike Pass 1, it runs against a register that keeps growing under the still-live DFAPTI stage, not a fixed snapshot - the register held 848 items (EV-0001 through EV-0848) as at this sub-pass, following genuine evidence-collection runs since the DEC-0009 freeze. The first Pass 2 sub-pass (AR-023 through AR-025, 2026-08-25) closely read preserved/snapshot-06-2026-08-16.txt (Deep Research Snapshot 6, Findings F-091 through F-130) in full and added three paths covering its previously-unanchored incapacitation/displacement/substitution (F-101-F-110), deterrence-signalling (F-111-F-120) and political-feedback/perception-trend (F-121-F-130) sections - Section A of the same snapshot (F-091-F-100, economic system effect) was already anchored by Pass 1's AR-018. Coverage after that sub-pass stood at 130 of 848 items (15.3%). The second Pass 2 sub-pass (AR-026 through AR-031, 2026-08-26) closely read preserved/answer-register-a-to-k-run001.txt (the case's Continuing Investigation Question Bank Answer Register, Q1 through Q312 across eleven sections) in full and fully closed its Section A, \"Moree Trial Evaluation\" (Q1-Q47, EV-0263 through EV-0309), the single highest-priority acquisition gap identified by that register's own \"RUN 001 CONTROL FINDING\" - covering the evaluation's existence/authorship/independence, its pre-deployment criteria framework, its analytic design, eighteen specific outcome measures split across two paths, and its publication/decision-control status. Sections B through K of the same register (Q48-Q312, roughly 260 further items) remain open for subsequent sub-passes, as does the separate answer-register-l-to-t-run001.txt file (Q313 onward) - this sub-pass deliberately closed one coherent section in full rather than sampling across several, consistent with this routine's standing instruction to make honestly-scoped progress rather than stretch for a number. Coverage after that sub-pass stood at 177 of 848 items (20.9%). The third Pass 2 sub-pass (AR-032, AR-033, 2026-08-27) read Section B, \"Petition Claim Verification\" (Q48-Q92, EV-0310 through EV-0354), of the same Continuing Investigation Question Bank Answer Register in full and found that most of it - the \"50%\" crime-drop claim's own definitional components (Q48-Q55) and the causal-attribution status of the underlying decline (Q56-Q59) - substantively duplicates findings Pass 1's AR-003 already established (determination AR-003.3 already names the same undisclosed offence definition, geography, age group and baseline/comparison dates; AR-003.2 already states no NSW Police or BOCSAR source makes the causal claim), so no new path was added for that ground and those 12 items remain deliberately unanchored rather than padded with a restating path. The deployment-time cluster (Q76-Q81, EV-0338-EV-0343) was found to duplicate Pass 1's AR-007 in the same way, which already anchors half of that cluster (EV-0338, EV-0342, EV-0343); the remaining three items (EV-0339-EV-0341) are left deliberately unanchored for the same reason. Two genuinely incremental findings were identified and anchored as new paths: AR-032 (Q60-Q75, EV-0322-EV-0337) extends AR-004's undefined-\"assisted\"-methodology finding to the stolen-vehicle and missing-person aggregates and surfaces a zero-drone-contribution category (arrests resting on information already available to ground officers; missing persons located primarily by another resource after only initial drone assistance) that AR-004's three candidate meanings did not cover; AR-033 (Q82-Q92, EV-0344-EV-0354) establishes that none of eight specific cost components (personnel, communications, the Remote Operations Centre, maintenance, data infrastructure, regulatory compliance, ground response, downstream justice-system costs) is disclosed as included or excluded in the petition's helicopter cost comparison, a more granular inclusion/exclusion finding than AR-005's existing net-cost-per-prevented-harm framing. Coverage after that sub-pass stood at 204 of 848 items (24.1%). The fourth Pass 2 sub-pass (AR-034, AR-035, 2026-08-28) read Section C, \"Causal Attribution and Counterfactual\" (Q93-Q109, EV-0355 through EV-0371), of the same register in full - the section immediately following the one the prior sub-pass closed, and entirely unanchored beforehand. Found three of its seventeen items (Q93, Q94, Q99; EV-0355, EV-0356, EV-0361) substantively restate existing determinations (AR-006.1's \"no credible counterfactual design exists\"; AR-003.1's pre-existing-decline finding) and left them deliberately unanchored rather than padded with a restating path. The remaining fourteen items contained two genuinely incremental findings: AR-034 (Q100-Q101, EV-0362-EV-0363) establishes a regional-scale confound - youth-offending indicators also declined across the broader New England/North West district and Regional NSW as a whole - distinct from AR-006's policy-entanglement confound because it would persist even if Soteria's and s 22C's contributions were fully isolated; AR-035 (Q95-Q98, Q102-Q107, EV-0357-EV-0360, EV-0364-EV-0369, plus Q108-Q109, EV-0370-EV-0371) specifies named, testable components of the counterfactual design AR-006 identified only in general terms - a negative-control offence-category test, two further candidate confounds (diversion/place-based programs, ordinary policing changes) beyond AR-006's Soteria/bail pairing, and three additional falsifiability tests beyond AR-006.3's original two. Coverage after that sub-pass stood at 218 of 848 items (25.7%). The fifth Pass 2 sub-pass (AR-036, AR-037, 2026-08-29) read Section D, \"Response Capability Versus Observation Capability\" (Q110-Q127, EV-0372 through EV-0389, 18 items), of the same register in full - the next unclosed section, and entirely unanchored beforehand despite overlapping AR-007's existing launch-clock finding and AR-029/AR-030's existing undisclosed-outcome-measures findings. Found five items substantially restate existing determinations: Q110 (EV-0372) restates AR-007.2's undisclosed-clock-statistics finding, and Q121-Q124 (EV-0383 through EV-0386, foot-search time, officers required for searches, conventional PolAir tasking, officer exposure) restate AR-029's already-established \"search time\", \"ground-police workload\", \"helicopter hours displaced\" and \"officer safety\" undisclosed-measures findings; all five were left deliberately unanchored rather than padded with a restating path. The remaining thirteen items contained two genuinely incremental findings: AR-036 (Q111-Q119, EV-0373 through EV-0381) extends AR-007's launch-clock finding to the entire downstream observation-to-intervention pipeline, establishing that neither the timing (arrival, intelligence-relay, ground-police arrival, intervention, arrest) nor the frequency of specific pipeline outcomes (drone-first arrival, suspect-location-first, officer unavailability, intelligence-without-intervention) is publicly disclosed or computable from the public record; AR-037 (Q120, Q125-Q127, EV-0382, EV-0387 through EV-0389) names a structural risk this investigation's other paths had not yet identified - that observation capacity can scale faster than physical-response capacity, creating a possible growing imbalance - and establishes that no public evidence shows matched staffing, a formal threshold/control, or (via the one operational outcome in the section not already covered by AR-029/AR-030) reduced dangerous vehicle pursuits. Coverage after that sub-pass stood at 231 of 848 items (27.2%). The sixth Pass 2 sub-pass (AR-038, AR-039, 2026-08-30) read Section E, \"Flight-Geography Data\" (Q128-Q158, EV-0390 through EV-0420, 31 items), of the same register in full - the next unclosed section, and entirely unanchored beforehand. Unlike prior sub-passes, none of this section's items substantively restated an existing determination: AR-019 already established the platform's general auditable-record capability and CASA's seven-year requirement, but nothing in this investigation had yet addressed NSW Police's own mission-level dataset structure or the geographic/demographic analysability of its flight footprint specifically. Two genuinely incremental findings were added: AR-038 (Q128-Q149, EV-0390-EV-0411) establishes that NSW Police's own flight-classification schema, geographic distribution data, and granular per-flight technical fields (sensor mode, zoom, thermal use, recording status, operator identity, mid-flight purpose change, cross-flight tracking) are not publicly disclosed; AR-039 (Q150-Q158, EV-0412-EV-0420) establishes that joining flight geography against demographic/spatial datasets to test disproportionate exposure is technically feasible in principle but blocked by NSW Police's non-publication of the underlying flight-geography dataset. Read together with AR-030's existing finding that the trial's own evaluation does not establish whether demographic impact or Aboriginal justice-system contact were measured, these two new paths showed there is currently no channel - official evaluation or independent analysis - through which surveillance-footprint disproportionality could be tested (CPO-013). Coverage after that sub-pass stood at 262 of 848 items (30.9%). The seventh Pass 2 sub-pass (AR-040, AR-041, 2026-08-31) read Section F, \"Secondary Detection and Purpose Expansion\" (Q159-Q179, EV-0421 through EV-0441, 21 items), of the same register in full - the next unclosed section, and entirely unanchored beforehand. None of this section's items substantively restated an existing determination: AR-020 had already established that NSW law provides real, if circumstance-dependent, secondary-use legal pathways for PolAir-derived information in the abstract, but nothing in this investigation had yet addressed whether PolAir-Remote itself has a published authorization, documentation, or audit-trail process for the specific live moment a mission's own purpose changes, nor what downstream actions an incidental detection can be used to justify. Two genuinely incremental findings were added: AR-040 (Q159-Q165, Q177, EV-0421-EV-0427, EV-0439) establishes that no public PolAir-Remote-specific rule identifies who authorises a mid-mission purpose change, requires its documentation or a separate tasking record, or guarantees an audit trail for it; AR-041 (Q166-Q176, Q178-Q179, EV-0428-EV-0436, EV-0438, EV-0440, EV-0441) establishes that no public threshold or process governs whether an incidental detection can justify a search, pursuit, arrest, or intelligence record, whether incidental imagery can be retained or reused without fresh approval, or whether AI-assisted tracking can be activated for it - and that secondary detections are not confirmed as tracked as a distinct category at all, so even their frequency is unknown. Read together with AR-012 and AR-020, these two new paths showed that a real legal pathway and a real technological capability for secondary use both exist in principle, but the specific operational policy and audit trail governing the exact moment they would be invoked together do not appear to be publicly documented (CPO-014). Coverage after that sub-pass stood at 283 of 848 items (33.4%). The eighth Pass 2 sub-pass (AR-042, AR-043, 2026-09-01) read Section G, \"Private Property and Surveillance Boundaries\" (Q180-Q198, EV-0442 through EV-0460, 19 items), of the same register in full - the next unclosed section, and entirely unanchored beforehand. None of this section's items substantively restated an existing determination: AR-012 concerns AI/biometric processing of imagery already captured, AR-010 concerns which overall operating mode the program is described as using, and AR-016 concerns oversight-body jurisdiction and a resident's practical inability to discover whether a specific flight occurred - none of which addresses where the boundary of permitted private-property observation itself sits, or whether an internal escalation/incident-logging process for a suspected boundary breach exists. Two genuinely incremental findings were added: AR-042 (Q180-Q189, EV-0442-EV-0451) establishes that no public PolAir-Remote-specific rule addresses any of ten distinct private-property observation-boundary dimensions (yards, home exteriors, windows, deliberate window viewing, zoom, thermal observation, loitering, altitude/angle, an emergency-versus-proactive distinction, or a suspected-offence distinction), and that even the conditions under which an undisclosed boundary might vary are themselves undocumented; AR-043 (Q190-Q198, EV-0452-EV-0460) establishes that the applicable legal-authority and warrant-requirement questions are fact-specific rather than settled by any single public rule, and that no public document identifies an escalation route, a post-breach process, or confirms that privacy incidents are logged as a distinct category or that complaint/substantiation counts for this category exist - extending AR-016's discoverability finding to the internal incident-tracking layer itself. Coverage now stands at 302 of 848 items (35.6%). Every anchor cited carries the register's own \"Unverified\" verification_state; this analysis introduces no new evidence and does not upgrade that status. Further passes continue until the operator states DFAPTA itself is frozen - no downstream gate is rebuilt until then.",
   "paths": [
     {
       "id": "AR-001",
@@ -1708,6 +1708,93 @@
         "EV-0441"
       ],
       "boundary": "No determination is made that any incidental detection has in fact been used to justify a search, arrest, or tracking action, or that any of these have occurred without proper authority; only that no public threshold, process, or frequency data exists to test this."
+    },
+    {
+      "id": "AR-042",
+      "title": "Private-Property Aerial Observation Boundary Is Not Publicly Defined",
+      "analysis": [
+        "Section G (Q180-Q189) of the Answer Register puts ten specific, distinct questions to the public record about where the boundary of PolAir-Remote's permitted aerial observation of private property sits: yards, home exteriors, windows, deliberate viewing through windows, zoom into residential property, thermal observation of homes, prolonged loitering over residences, altitude or angle restrictions, and whether any of the foregoing differs between emergency response and proactive patrol, or when a person is suspected of an offence. Every one of the ten receives materially the same answer: no NSW Police PolAir-Remote-specific operational rule addressing that dimension has been publicly located, and general law is not shown to substitute for the missing police-specific limit.",
+        "This is a distinct governance layer from AR-012's AI/biometric-processing gap, which concerns what may be done with imagery once captured, and from AR-010's reactive/proactive operating-mode contradiction, which concerns which overall mode the program is described as using: this path concerns the prior question of where and how imagery of private property may be captured in the first place. Q188 asks directly whether the undisclosed boundary itself varies by operating mode, and Q189 whether it varies when a person is suspected of an offence - meaning even the conditions under which the boundary might shift are themselves undocumented, not only the boundary's substantive content."
+      ],
+      "determinations": [
+        [
+          "AR-042.1",
+          "No public PolAir-Remote-specific rule addresses any of ten distinct private-property observation-boundary dimensions tested: yards, home exteriors, windows, deliberate window viewing, zoom, thermal observation, loitering, altitude/angle, an emergency-versus-proactive-patrol distinction, or a suspected-offence distinction."
+        ],
+        [
+          "AR-042.2",
+          "General law is not shown to substitute for the missing PolAir-Remote-specific limit on any of these ten dimensions."
+        ],
+        [
+          "AR-042.3",
+          "Whether an undisclosed boundary, if one exists internally, varies between emergency response and proactive patrol, or when a person is suspected of an offence, is itself not established from the public record."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Opacity by Design",
+          "PROVISIONAL",
+          "The materially identical answer recorded against all ten items is consistent with a single templated non-answer rather than ten independently-resolved negatives; the public record does not distinguish an unpublished internal rule from the absence of any rule at all."
+        ]
+      ],
+      "anchors": [
+        "EV-0442",
+        "EV-0443",
+        "EV-0444",
+        "EV-0445",
+        "EV-0446",
+        "EV-0447",
+        "EV-0448",
+        "EV-0449",
+        "EV-0450",
+        "EV-0451"
+      ],
+      "boundary": "No determination is made about NSW Police's actual internal practice on any of these ten dimensions, or that any specific flight has observed private property in a manner that would breach an undocumented boundary; only that no public rule establishes where that boundary sits."
+    },
+    {
+      "id": "AR-043",
+      "title": "Warrant-Authority Ambiguity and Absent Privacy-Incident/Complaint Architecture",
+      "analysis": [
+        "The remaining nine items in Section G (Q190-Q198) shift from where the observation boundary sits (AR-042) to what governs crossing it and what happens afterward. Three items (Q190-Q192) establish that the applicable legal-authority and warrant-requirement questions are fact-specific rather than settled by any single public rule: the Surveillance Devices Act does not establish a blanket rule that every drone view of private property needs a warrant, and what other warrant or authority might be required depends on the operation type and the applicable police power, neither of which is specified in the abstract. The remaining six items (Q193-Q198) establish that no public PolAir-Remote-specific document names who advises operators approaching this boundary or what process exists if it is breached, accidentally or deliberately - and that whether privacy incidents are even logged as a distinct category, and how many complaints have been made or substantiated, are not established from the public record.",
+        "AR-016 already established that NSW's formal complaint architecture (principally the LECC) has clear, systemic jurisdiction over PolAir-Remote governance concerns, and that the practical accountability gap is a resident's inability to discover whether a specific flight occurred, not the absence of a complaint mechanism itself. Section G sharpens that finding one layer further: even setting the discoverability problem aside, no public record establishes that an internal escalation route or incident-logging process exists at all for the specific case of a suspected private-property observation-boundary breach, or that complaint volume or substantiation data for this category is tracked anywhere. A resident who does learn a flight occurred would still have no visible internal process shown to receive that concern, nor any published figure showing the mechanism has ever been used for this purpose."
+      ],
+      "determinations": [
+        [
+          "AR-043.1",
+          "No single public rule establishes a blanket legal authority or blanket warrant requirement for drone observation of private activity; both are stated to be fact-specific, and no public criteria establish how that fact-specific determination is to be made."
+        ],
+        [
+          "AR-043.2",
+          "No public PolAir-Remote-specific document identifies an operational or legal adviser, or an escalation route, for private-property observation-boundary questions."
+        ],
+        [
+          "AR-043.3",
+          "No public PolAir-Remote-specific process establishes what occurs following an accidental or deliberate observation-boundary breach."
+        ],
+        [
+          "AR-043.4",
+          "Whether privacy incidents are logged as a distinct operational category, and the number of privacy complaints made or substantiated, are not established from the public record - extending AR-016's discoverability finding to the internal incident-tracking layer itself."
+        ]
+      ],
+      "mechanisms": [
+        [
+          "Standing Without Discoverability",
+          "PROVISIONAL",
+          "AR-016 established that a resident cannot discover whether a specific flight occurred; this section shows the internal incident-logging and complaint-count layer is not established as existing either, which would remain a barrier even if individual-flight discoverability were resolved."
+        ]
+      ],
+      "anchors": [
+        "EV-0452",
+        "EV-0453",
+        "EV-0454",
+        "EV-0455",
+        "EV-0456",
+        "EV-0457",
+        "EV-0458",
+        "EV-0459",
+        "EV-0460"
+      ],
+      "boundary": "No determination is made that any observation-boundary breach has occurred, that any complaint has been filed, or that any complaint-handling failure has taken place; only that no public rule establishes the applicable warrant/authority test in specific terms, or confirms the existence of an incident-logging and complaint-count architecture for this category."
     }
   ],
   "cross_path_observations": [
@@ -2727,6 +2814,63 @@
     "EV-0441": [
       "AR-041"
     ],
+    "EV-0442": [
+      "AR-042"
+    ],
+    "EV-0443": [
+      "AR-042"
+    ],
+    "EV-0444": [
+      "AR-042"
+    ],
+    "EV-0445": [
+      "AR-042"
+    ],
+    "EV-0446": [
+      "AR-042"
+    ],
+    "EV-0447": [
+      "AR-042"
+    ],
+    "EV-0448": [
+      "AR-042"
+    ],
+    "EV-0449": [
+      "AR-042"
+    ],
+    "EV-0450": [
+      "AR-042"
+    ],
+    "EV-0451": [
+      "AR-042"
+    ],
+    "EV-0452": [
+      "AR-043"
+    ],
+    "EV-0453": [
+      "AR-043"
+    ],
+    "EV-0454": [
+      "AR-043"
+    ],
+    "EV-0455": [
+      "AR-043"
+    ],
+    "EV-0456": [
+      "AR-043"
+    ],
+    "EV-0457": [
+      "AR-043"
+    ],
+    "EV-0458": [
+      "AR-043"
+    ],
+    "EV-0459": [
+      "AR-043"
+    ],
+    "EV-0460": [
+      "AR-043"
+    ],
     "EV-0498": [
       "AR-012"
     ],
@@ -2772,11 +2916,11 @@
     ]
   },
   "counts": {
-    "analysis_paths": 41,
-    "analytical_determinations": 138,
+    "analysis_paths": 43,
+    "analytical_determinations": 145,
     "cross_path_observations": 14,
     "disclosure_requests": 12,
     "contradictions_preserved": 2,
-    "evidence_anchors_referenced": 283
+    "evidence_anchors_referenced": 302
   }
 }
