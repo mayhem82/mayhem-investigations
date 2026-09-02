@@ -574,5 +574,14 @@
     "related_thread": "THR-06",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0065",
+    "timestamp": "2026-09-02T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Start-of-session housekeeping before any case work: this session's git HEAD and local `main` were both already at commit 3af06a3, matching `origin/main` exactly - no stranded-commit recovery was needed this pass, a contrast worth recording precisely since several recent prior sub-passes (DEC-0021, DEC-0022, DEC-0025, DEC-0026) each found and had to recover from a stale local `main` pointer. Scope decision for this sub-pass: checked Section H (Q199-Q223, Recording, Retention and Secondary Use) against two existing paths that plausibly overlap it - AR-012 (privacy/AI/biometric governance) and AR-019 (evidence integrity, chain of custody and courtroom use). On a full read none of the section's 25 items restated an existing determination: AR-019's finding is scoped to evidentiary integrity for courtroom use specifically (the platform's technical auditability, CASA's seven-year rule, absence of a chain-of-custody protocol) - it does not address the much broader retention-duration, access-control, and secondary-use governance framework that would apply to all PolAir-Remote-derived data, evidentiary or not, which is Section H's actual subject; AR-012's finding is scoped to facial-recognition/biometric-matching linkage and the absent AI Assessment Framework determination - Section H's single adjacent item (Q220, whether footage can be used to develop AI models) is a narrower, separate disclosure gap about basic authorisation to use the data for that purpose at all, not a restatement of AR-012's assessment-framework finding. Split the 25 items at their own internal boundary: Q199-Q204 (whether/when recording is triggered, and the fuller technical scope of what is captured even when unrecorded - audio, stills, metadata) became AR-044; Q205-Q223 (the entire subsequent data lifecycle - retention duration and discretion, access control and logging, secondary use including sharing, intelligence analysis, training, AI model development, and deletion/termination disposition) became AR-045, since these 19 items all concern governance of retained material rather than the initial capture decision. Considered a cross_path_observations entry linking AR-044/AR-045 to AR-012 and AR-019 (and, more generally, to CPO-005's already-recorded pattern of governance documentation lagging operational capability); judged that both new paths are further instances of that same already-named pattern rather than a new convergence only visible by reading several paths together, so no new CPO was added this pass, consistent with the same judgment DEC-0022, DEC-0023 and DEC-0026 made for comparable extensions of an existing pattern.",
+    "related_thread": "THR-06",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
