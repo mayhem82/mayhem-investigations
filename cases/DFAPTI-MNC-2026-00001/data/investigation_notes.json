@@ -592,5 +592,23 @@
     "related_thread": "THR-06",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0067",
+    "timestamp": "2026-09-04T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass (DEC-0029). Read scripts/automated-dfapta-prompt.md, README.md and SPEC.md in full first, per this routine's own standing instruction to hold itself to house style strictly given no human is watching live. Checked dfapta/analysis.json's status field (\"In Progress - Pass 2\", not Frozen - proceeded). Checked this session's own git state: HEAD (ad57c46) matched origin/main exactly after a fresh `git fetch origin main`; only the local `main` pointer was stale (0081d53) - fast-forwarded and checked out before any change, nothing actually stranded. Cross-checked all 28 prior decisions.json entries, all 66 prior investigation_notes.json entries, all 25 prior automation_log.json entries, and source_register.json in full (96 entries) before treating anything as new, per DEC-0009/DEC-0010's standing correction. Evidence register unchanged at 848 items since the prior sub-pass. Continued from the prior sub-pass's own stated scope and read preserved/answer-register-a-to-k-run001.txt Section J, \"Data Flow, Cloud and Cybersecurity\" (Q252-Q283, EV-0514-EV-0545, 32 items), in full - the next unclosed section, and entirely unanchored beforehand. Read the full section text directly before deciding scope, per the protocol's requirement to work from primary-source material rather than a topic label.",
+    "related_thread": "THR-06",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0068",
+    "timestamp": "2026-09-04T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: checked Section J against AR-013 (procurement and statewide RPAS architecture), the one existing path whose topic plausibly overlaps it, by reading AR-013's own anchors, determinations and analysis text directly rather than just its title. Found two items substantively restate that existing material - Q274/EV-0536 (\"has a supply-chain risk assessment been conducted\") restates AR-013.4 almost verbatim, and Q278/EV-0540 (\"were Commonwealth DJI restrictions considered\") restates a point already stated in AR-013's own analysis text about Commonwealth DJI fleet restrictions - and left both unanchored rather than forced into a new path. Split the remaining 30 items at the section's own internal boundary: Q252-Q265 (where live video, recorded video, flight logs and telemetry are stored/processed; whether DJI cloud infrastructure, FlightHub 2, Local Data Mode or disabled manufacturer-cloud-connections are configured; whether data or telemetry leaves Australia; whether DJI personnel, another vendor, or NSW Police support staff can access it) became AR-048, since all fourteen items concern where data physically goes and who can reach it there. Q266-Q271, Q272-Q273, Q275-Q277, Q279, Q280-Q283 (encryption, authentication, MFA, privileged access, log monitoring; penetration testing, general cyber-security risk assessment, foreign-ownership/control/influence assessment, the DJI-specific risk finding and required mitigations beyond AR-013.4's own supply-chain-specific gap, and the Moree configuration's own undisclosed acceptance rationale; vendor remote support, update-approval authority, and per-update security assessment) became AR-049, since all sixteen items concern the system's ongoing security assurance and change-management process rather than where data is located. AR-049's supply-chain/DJI-risk cluster is written as a direct, more granular extension of AR-013's existing gap (the same treatment DEC-0021 gave AR-032/033 against AR-004/005, and DEC-0023 gave AR-036/037 against AR-007/AR-029) rather than a free-standing new finding; considered but did not add a cross_path_observations entry for AR-048/AR-049's relationship to AR-013 or to CPO-005's governance-lag theme, since both new paths are further instances of already-recorded patterns rather than a convergence visible only by reading several independently-derived paths together, the same judgment DEC-0022, DEC-0023, DEC-0026 and DEC-0027 made for comparable single-path extensions.",
+    "related_thread": "THR-06",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
