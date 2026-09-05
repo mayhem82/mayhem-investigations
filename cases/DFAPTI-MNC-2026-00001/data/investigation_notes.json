@@ -610,5 +610,23 @@
     "related_thread": "THR-06",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0069",
+    "timestamp": "2026-09-05T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass (DEC-0030). Read scripts/automated-dfapta-prompt.md, README.md and SPEC.md in full first, per this routine's own standing instruction to hold itself to house style strictly given no human is watching live. Checked dfapta/analysis.json's status field (\"In Progress - Pass 2\", not Frozen - proceeded). Checked this session's own git state: HEAD (f00a086) matched origin/main exactly after a fresh `git fetch origin main`; only the local `main` pointer was stale (0081d53, a DFAPTI-BB-FF-2026-00001 commit behind) - fast-forwarded and checked out before any change, nothing actually stranded. Cross-checked all 29 prior decisions.json entries, all 68 prior investigation_notes.json entries, all 26 prior automation_log.json entries, and source_register.json in full (96 entries) before treating anything as new, per DEC-0009/DEC-0010's standing correction. Evidence register unchanged at 848 items since the prior sub-pass. Continued from the prior sub-pass's own stated scope and read preserved/answer-register-a-to-k-run001.txt Section K, \"Procurement and Supplier Architecture\" (Q284-Q312, EV-0546-EV-0574, 29 items), in full - the next unclosed section, and the final section of the A-K Answer Register file. Read the full section text directly before deciding scope, per the protocol's requirement to work from primary-source material rather than a topic label.",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0070",
+    "timestamp": "2026-09-05T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: checked Section K against AR-013 (procurement and statewide RPAS architecture), the one existing path whose topic plausibly overlaps it, by reading AR-013's own anchors, determinations and analysis text directly rather than just its title. Found one item substantively restates that existing material - Q284/EV-0546 (\"what was the outcome of EOI YR-2026-0058\") restates AR-013.3's \"neither EOI's outcome is currently publicly disclosed\" determination almost verbatim - and left it unanchored rather than forced into a new path. Split the remaining 28 items at the section's own internal boundary: Q285-Q306 (whether a panel/supplier has been established at all, plus eighteen specific undisclosed contract-term dimensions - value, duration, scope, Remote Operations Centre services, autonomous dock systems, specialist payloads, AI functionality, software subscriptions, data hosting, overseas-personnel support, future-capability-addition rights, exit rights, data-return/deletion obligations, cyber-security requirements, Australian data-location requirements, foreign-cloud restrictions, ownership-change notification) became AR-050, a more granular, named-component extension of AR-013.3 in the same manner AR-033/AR-048/AR-049 extended their own respective base paths; Q307-Q312 (the Aviation Command Operating Model Review's own findings/adoption/subsequent-procurement status, and whether it evaluated a no-expansion or frontline-staffing alternative) became AR-051, extending AR-013.2's \"sits inside a broader review\" finding to that review's own substance. Unlike the routine 'further instance of an already-generic pattern' judgment DEC-0022/0023/0026/0027/0029 made for comparable single-path extensions, this pass added a new cross_path_observations entry (CPO-016): AR-051's finding that whether the review evaluated any alternative to RPAS expansion is undisclosed, read together with AR-006/AR-034/AR-035's existing counterfactual-design-gap finding, shows the same absent-alternative pattern recurring at the institutional decision-making layer rather than only the statistical crime-attribution layer this investigation had previously identified it at. The A-K Answer Register file (Q1-Q312) is now fully closed; the next unclosed source is the separate answer-register-l-to-t-run001.txt file (Q313 onward).",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
