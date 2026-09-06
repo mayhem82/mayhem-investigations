@@ -628,5 +628,23 @@
     "related_thread": "THR-07",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0071",
+    "timestamp": "2026-09-06T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass (DEC-0031). Read scripts/automated-dfapta-prompt.md, README.md and SPEC.md in full first, per this routine's own standing instruction to hold itself to house style strictly given no human is watching live. Checked dfapta/analysis.json's status field (\"In Progress - Pass 2\", not Frozen - proceeded). Checked this session's own git state: HEAD was detached at 4c17333 (a DFAPTI-BB-FF-2026-00001 commit); a fresh `git fetch origin main` confirmed origin/main matched HEAD exactly, so nothing was stranded - only the local `main` pointer was stale (0081d53) - fast-forwarded and checked out before any change. Cross-checked all 30 prior decisions.json entries, all 70 prior investigation_notes.json entries, all 27 prior automation_log.json entries, and source_register.json in full (96 entries) before treating anything as new, per DEC-0009/DEC-0010's standing correction. Evidence register unchanged at 848 items since the prior sub-pass. The A-K Answer Register file was already fully closed; read the next unclosed source, preserved/answer-register-l-to-t-run001.txt, and within it Section L, \"Technology Ratchet and Sunk-Cost Effect\" (Q313-Q337, EV-0575-EV-0599, 25 items) - the first section of that file, in full, before deciding scope, per the protocol's requirement to work from primary-source material rather than a topic label.",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0072",
+    "timestamp": "2026-09-06T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: checked Section L against AR-014 (continuation beyond the six-month window and absent exit criteria) and AR-013 (procurement and statewide RPAS architecture), the two existing paths whose topics plausibly overlap it, by reading their own anchors, determinations and analysis text directly rather than just their titles. Found one item substantively restates existing material - Q323/EV-0585 (\"what future rollout planning had been undertaken\") restates AR-002.2's and AR-013.1's finding that statewide/Kempsey expansion planning predates the petition, almost verbatim - and left it unanchored rather than forced into a new path. Grepped source_register.json for the section's own key terms (sunk cost, training expenditure, supplier relationships, decommission, withdrawal threshold) and found no entry resolving any of the remaining items. Split the remaining 24 items at the section's own internal boundary between what has already been committed and what governs further commitment: Q313-Q322 (money committed, infrastructure, Remote Operations Centre build, staff trained, training expenditure, CASA approvals, operating procedures, data integration, procurement work, supplier relationships) became AR-052, a concrete commitment-inventory finding distinct from AR-014's general continuation finding and AR-013's procurement-architecture finding because it names the actual categories of resource already committed; Q324-Q337 (dock-location/Kempsey/Mid North Coast planning, cancellable-versus-costly commitments, repurposable infrastructure, continuing contracts, sunk-cost safeguard, and whether the trial evaluation is required before a new expansion contract, new docks, recruitment/training expansion, or Remote Operations Centre capacity expansion, plus the undefined withdrawal-difficulty threshold) became AR-053. AR-053's finding that no rule makes the evaluation a precondition for any of those four forward steps was judged a genuine convergence with AR-014's continuation finding and AR-026 through AR-031's evaluation-attribution gap - together showing that accumulation and evaluation are not sequenced against each other anywhere in the public record - recorded as CPO-017. The next unclosed source within answer-register-l-to-t-run001.txt is Section M, \"Formal Decision Gating\" (Q338 onward).",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
