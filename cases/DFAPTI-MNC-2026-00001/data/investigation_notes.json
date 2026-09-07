@@ -646,5 +646,23 @@
     "related_thread": "THR-07",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0073",
+    "timestamp": "2026-09-07T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass (DEC-0032). Read scripts/automated-dfapta-prompt.md, README.md and SPEC.md in full first, per this routine's own standing instruction to hold itself to house style strictly given no human is watching live. Checked dfapta/analysis.json's status field (\"In Progress - Pass 2\", not Frozen - proceeded). Checked this session's own git state: HEAD was detached at 04c247d (a DFAPTI-BB-FF-2026-00001 commit); a fresh `git fetch origin main` confirmed origin/main matched HEAD exactly, so nothing was stranded - only the local `main` pointer was stale (0081d53) - fast-forwarded and checked out before any change. Cross-checked all 31 prior decisions.json entries, all 72 prior investigation_notes.json entries, all 28 prior automation_log.json entries, and source_register.json in full (96 entries) before treating anything as new, per DEC-0009/DEC-0010's standing correction. Evidence register unchanged at 848 items since the prior sub-pass.",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0074",
+    "timestamp": "2026-09-07T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: checked Section M against AR-012, AR-013, AR-014, AR-016, AR-047 and AR-049, the existing paths whose topics plausibly overlap it, by reading their own anchors, determinations and analysis text directly rather than just their titles. Found one item substantively restates existing material - Q346/EV-0608 (\"is an AI assurance approval required\") restates AR-012.2's existing \"no public AI Assessment Framework determination for PolAir-Remote has been located\" finding almost verbatim - and left it unanchored rather than forced into a new path; also confirmed the section's general PIA, cyber-security-accreditation and CASA-per-region items are each broader than or distinct from AR-047's narrower biometric-specific PIA finding and AR-049's narrower conducted-steps finding, not restatements. Grepped source_register.json for the section's own key terms (legal authority, ministerial approval, treasury, cabinet, stop/go, decision record, threshold, withdrawal, decommission, sunk, cyber-security accreditation, privacy impact assessment, formal decision) and found no entry resolving any of the remaining items. Split the remaining 25 items at the section's own internal boundary between who decides and what formal approvals apply (Q338-Q345, Q347-Q349) and what threshold a decision is measured against and whether one has already occurred (Q350-Q363): the first cluster became AR-054, establishing that no public instrument identifies the decision-maker(s) for continuation, expansion, or site selection, nor confirms which of six checked approval gates (ministerial, Treasury, Cabinet, procurement, a general PIA, a cyber-security accreditation, and CASA approval variance by region) apply; the second became AR-055, establishing that none of five threshold types (documentary, performance, cost-effectiveness, privacy, complaint, demographic-impact) has been publicly located, that no published refusal/modification/termination trigger exists, and that no formal stop/go decision date, written decision record, or publication commitment has been located. AR-054 was judged a direct, single-step extension of CPO-005's existing governance-lag pattern (no new CPO). AR-055's demographic-impact-threshold finding was judged a genuine convergence with CPO-013's existing 'no channel exists to measure disproportionate surveillance impact' finding - showing that even if such a channel existed, no public rule would act on the resulting data - recorded as CPO-018. The next unclosed source within answer-register-l-to-t-run001.txt is Section N, \"Decommissioning and Exit Architecture\" (Q364 onward).",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
