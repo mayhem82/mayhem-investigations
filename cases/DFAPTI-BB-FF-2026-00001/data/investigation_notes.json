@@ -223,5 +223,14 @@
     "related_thread": null,
     "related_source": "SRC-0006",
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0026",
+    "timestamp": "2026-09-07T00:00:00Z",
+    "activity_type": "Researching",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 14' before proceeding. Read decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, including DEC-0023/NOTE-0025/RUN-0028, the prior day's pass on this same case, which had already re-read all eight preserved primary-source documents in full and found no genuinely new path. Rather than accept that conclusion without independent verification, extracted and re-read all eight documents in full again from scratch. Found that the Hardened Submission Package's Part 2.2 - a different section from the specific resolution-number claim in Part 2.1, already fully treated by AR-006 - states council itself 'distributed public summaries and news-wraps documenting the passage of Resolution 2025.80' which 'characterised the resolution as evidence of active council engagement'. This case's own register already holds an independently-sourced item of exactly this kind: EV-0003/SRC-0003, Council's own 'May 2025 Council meeting wrap' search-snippet, found and read directly by this investigation rather than operator-supplied. Its own text - 'Two Notices of Motion... providing Bellbrook with more information about managing a bat colony' - names no resolution number and does not match 'evidence of active council engagement'. Checked source_register.json before treating this as a finding: SRC-0003's entry notes it is narrower than SRC-0006's specific-resolution claim but does not record this specific connection to Part 2.2, so it is genuinely new. Added AR-050 and extended CPO-010 to a fifth instance (AR-006, AR-034, AR-037, AR-049, AR-050) - the first checked against this case's own independently-fetched material rather than only an absence of corroboration. Updated dfapta/analysis.json's status to Pass 15, its counts, dfapta/index.html and this case's own index.html to match. Recursive-audit per SPEC.md §4: checked whether the same pattern recurs elsewhere in the Hardened Submission Package's Part 2 - Part 2.1 and Part 2.3 are already fully treated by AR-006 and AR-009 respectively; no further extension supportable. Swept every repository page referencing this case for stale pass-number/path-count framing beyond what this pass itself updates - none found.",
+    "related_thread": "THR-02",
+    "related_source": "SRC-0003",
+    "related_evidence": "EV-0003"
   }
 ]
