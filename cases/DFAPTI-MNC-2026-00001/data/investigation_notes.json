@@ -664,5 +664,14 @@
     "related_thread": "THR-07",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0075",
+    "timestamp": "2026-09-08T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: checked Section N against AR-014, AR-055, AR-050 and AR-013, the existing paths whose topics plausibly overlap it, by reading their own anchors, determinations and analysis text directly rather than just their titles. Found no item in the section substantively restates an existing determination - AR-014.2/AR-055 concern whether a threshold or trigger exists for a stop/go decision at all, not what would concretely happen operationally, in authority terms, or in public-accountability terms if one occurred. One adjacent, non-duplicate item was checked and recorded explicitly: Q376 (\"are contracts terminable without penalty\") concerns the actual current Moree deployment's own contract terms, distinct from AR-050.2's existing finding about a possible future RPAS panel contract's own undisclosed exit-rights term - both were kept as genuinely different contracts, not treated as a restatement. Grepped source_register.json for the section's own key terms (decommission, exit, termination, disposal, transition, permanent capability, contract termination, public notice) and found no entry resolving any of the sixteen items. Split the section at its own internal boundary between wind-down mechanics and conversion/accountability: the first cluster became AR-056, establishing that no pre-deployment decommissioning plan, failure-response plan, or public rule on dock removal, aircraft reassignment, software/cloud/Remote Operations Centre access termination, operator permission revocation, stored-imagery deletion, post-termination telemetry treatment, operating-procedure withdrawal, or Remote Operations Centre reactivation ability has been publicly located; the second became AR-057, establishing that no public instrument identifies who holds authority over a trial-to-permanent conversion, whether existing deployment contracts carry termination penalties, what disposal path applies to Moree hardware, or whether a termination decision or its reasons would ever be made public. Judged AR-056/AR-057 read together with AR-014/AR-055 a genuine cross-path convergence, not a routine extension: the decision trigger, the execution mechanics, and the authority/accountability layer of any exit or conversion decision are each independently undisclosed - recorded as CPO-019. The next unclosed source within answer-register-l-to-t-run001.txt is Section O, \"Consultation Effectiveness\" (Q380 onward).",
+    "related_thread": "THR-07",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
