@@ -673,5 +673,14 @@
     "related_thread": "THR-07",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0076",
+    "timestamp": "2026-09-09T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: checked Section O against AR-015, the one existing path whose topic plausibly overlaps it, by reading its own anchors, determinations and analysis text directly rather than just its title. Found one item substantively restates existing material - Q401/EV-0663 (\"did consultation occur before or after material technical configuration was fixed\") restates AR-015.1's existing \"public consultation followed, rather than preceded, operational deployment\" finding almost verbatim - and left it unanchored rather than forced into a new path, following the same discipline NOTE-0074 applied to Q346/EV-0608. Grepped source_register.json for the section's own key terms (consultation, have your say, briefing, governance group, engagement, feedback, survey) and found no entry resolving any of the remaining twenty-five items. Split the remaining items at the section's own internal boundaries into three genuinely incremental clusters: Q380-Q389 (content disclosed to participants) became AR-058, establishing that operational activity was disclosed but the underlying data-handling architecture (AI/detection capability, retention, data-hosting) was not shown to have been; Q390-Q400 (whether consultation could bind anything, and whether raised concerns received any response) became AR-059, establishing no binding authority over checked operational parameters and no located accountability-response record for concerns raised; Q402-Q405 (forward-looking Kempsey-specific commitments) became AR-060, establishing no located commitment to a different consultation arrangement for any Kempsey rollout. Judged AR-058/AR-059/AR-060 read together with AR-015 a genuine cross-path convergence - timing, content, authority/accountability, and forward commitment are each independently undisclosed - recorded as CPO-020. The next unclosed source within answer-register-l-to-t-run001.txt is Section P, \"Shared Governance and Local Decision-Making\" (Q406 onward).",
+    "related_thread": "THR-08",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
