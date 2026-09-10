@@ -682,5 +682,14 @@
     "related_thread": "THR-08",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0077",
+    "timestamp": "2026-09-10T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: checked Section P, \"Shared Governance and Local Decision-Making\" (Q406-Q422), against AR-015 first, by reading its own analysis text directly rather than just its determinations. AR-015's analysis paragraph itself states 'no public record establishes formal consultation with, approval by, or co-design input from the Moree Youth Crime Governance Group or Aboriginal community-controlled organisations before deployment' - a sentence with three distinct verbs (consultation, approval, co-design). Q406-Q408/EV-0668-EV-0670 ask exactly those three questions of exactly that body and were left unanchored as a checked restatement, following the same discipline NOTE-0074 and NOTE-0076 applied to Q346/EV-0608 and Q401/EV-0663 respectively. The remaining 14 items split at the section's own internal boundary into two genuinely incremental clusters: Q409-Q416 (governance functions beyond consultation/approval/co-design, plus the Aboriginal Legal Service/Land Council/ACCO representation question) became AR-061, establishing that no record shows the Moree Youth Crime Governance Group set success criteria, surveillance boundaries, reviewed privacy safeguards, received trial performance data, or currently receives outcome reporting, and that three Aboriginal organisations independently confirmed as represented in the Group's broader remit are not shown to hold a further PolAir-specific authority - a refinement of AR-015.2's ACCO finding, not a repeat of it, since it shows the general representation AR-015.2 did not; Q417-Q422 (Kempsey's separate, existing Reference Group) became AR-062, establishing that body is not shown to hold a review, veto, conditions-setting, data-access, or public-accountability function over a prospective PolAir rollout. Judged AR-061/AR-062 read together with CPO-020 a genuine cross-path convergence rather than padding: CPO-020 found no consultation event functions as more than after-the-fact, non-binding, unaccountable input; AR-061/AR-062 show the same pattern recurring in standing governance bodies rather than discrete events - recorded as CPO-021. The next unclosed source within answer-register-l-to-t-run001.txt is Section Q, \"Aboriginal Exposure and Closing the Gap\" (Q423 onward).",
+    "related_thread": "THR-08",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
