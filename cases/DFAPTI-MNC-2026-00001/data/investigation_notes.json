@@ -691,5 +691,14 @@
     "related_thread": "THR-08",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0078",
+    "timestamp": "2026-09-11T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: checked Section Q, \"Aboriginal Exposure and Closing the Gap\" (Q423-Q445), against five existing paths whose topics plausibly overlap it - AR-039 (flight-geography demographic disproportionality), AR-030 (undisclosed rights/equity outcome measures), AR-020 (Indigenous data governance), AR-055 (decision thresholds) and AR-061 (Moree Youth Crime Governance Group reporting) - by reading each one's own analysis and determinations text directly, not just its title. Q445/EV-0707 ('What threshold would trigger modification if disproportionate effects were identified?') was found to restate AR-055.1's existing determination ('no...demographic-impact threshold...has been publicly located') in different words and was left unanchored as a checked restatement, following the same discipline NOTE-0074, NOTE-0076 and NOTE-0077 applied to Q346/EV-0608, Q401/EV-0663 and Q406-Q408/EV-0668-EV-0670 respectively. The remaining 22 items split at the section's own internal boundary into two genuinely incremental clusters, neither a repeat of AR-039 or AR-030: Q423-Q437 (eleven Aboriginal-specific processing-funnel proportions plus four analytical follow-ups) became AR-063, establishing that no de-identified Moree mission/person-level dataset exists covering flight exposure, tracking, stops, arrests, charges, child status, bail, remand, diversion, or repeat contact broken down by Aboriginality - a distinct, broader scope than AR-039's existing flight-geography-only finding, which stops at spatial exposure and does not reach the downstream processing funnel; Q438-Q444 (Closing the Gap impact assessment, Target 10/11 evaluation, three further evaluation KPIs, and ACCO data access) became AR-064, extending AR-030's general rights/equity-metrics-undisclosed finding to the specific Closing the Gap National Agreement framework that section did not itself name, and refining rather than repeating AR-061.2's narrower finding about one governance body's own outcome reporting. Judged AR-063/AR-064 read together with CPO-013 and CPO-018 a genuine cross-path convergence rather than padding: CPO-013 found no channel, official or independent, exists to test demographic-disproportionality of PolAir-Remote's surveillance footprint; AR-063/AR-064 show that same absence recurring specifically for Aboriginal outcomes at both the underlying-data layer and the national-policy-alignment layer - recorded as CPO-022. The next unclosed source within answer-register-l-to-t-run001.txt is Section R, \"Operation Soteria Cohort Accounting\" (Q446 onward).",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
