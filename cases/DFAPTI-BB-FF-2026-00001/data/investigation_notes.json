@@ -259,5 +259,14 @@
     "related_thread": "THR-01",
     "related_source": "SRC-0005",
     "related_evidence": "EV-0002"
+  },
+  {
+    "note_id": "NOTE-0030",
+    "timestamp": "2026-09-11T00:00:00Z",
+    "activity_type": "Researching",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 18' before proceeding. Read decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, including DEC-0027/NOTE-0029/RUN-0033, the prior pass on this same case, which had already re-read all eight preserved primary-source documents in full and added AR-053. Session's local main was detached but exactly at origin/main; nothing was stranded and no fast-forward was needed. Rather than accept the prior pass's coverage as exhaustive, extracted and re-read all eight documents in full again. Found that the Community Harm and Accountability Record's own governance timeline (Section 3) carries a 2021 entry - filed under its '2022' year-heading rather than the '2020-2021' heading directly above it - reading only 'Kempsey Shire Council publishes a council news item acknowledging flying-foxes at Bellbrook. Institutional acknowledgement. No management action confirmed', with no mention of any departure. This had never been checked against this case's own independently-found 2021 record (EV-0013/SRC-0012, Council's own 27 October 2021 page reporting the colony's departure and the playground's subsequent cleaning), even though AR-018 and AR-024 already treat EV-0013 as bearing on the same period, and AR-024 identifies SRC-0007 as the source of the case's own Account A 'continuity' framing. Checked source_register.json before treating this as a finding: neither SRC-0007's nor SRC-0012's own entry cross-references the other on this specific point, so it is genuinely new. Added AR-054, extending without resolving AR-018's and AR-024's existing three-way colony-continuity discrepancy. Updated dfapta/analysis.json's status to Pass 19, its counts, dfapta/index.html and this case's own index.html to match. Recursive-audit per SPEC.md §4: checked whether any other yearly entry in SRC-0007's Section 3 timeline is misfiled under the wrong year-heading the way the 2021 entry is - none is. Also checked whether this finding renders AR-018's or AR-024's own boundary text inaccurate rather than merely incomplete - concluded not wrong; both paths' own text was left unedited. Swept every repository page referencing this case for stale pass-number/path-count framing beyond what this pass itself updates - none found.",
+    "related_thread": "THR-06",
+    "related_source": "SRC-0007",
+    "related_evidence": "EV-0013"
   }
 ]
