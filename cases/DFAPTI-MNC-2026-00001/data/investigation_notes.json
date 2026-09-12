@@ -700,5 +700,14 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0079",
+    "timestamp": "2026-09-12T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: checked Section R, \"Operation Soteria Cohort Accounting\" (Q446-Q469), against seven existing paths whose topics plausibly overlap it - AR-006 (counterfactual-design gap), AR-023 (incapacitation/displacement/substitution), AR-024 (deterrence signalling), AR-034/AR-035 (regional-trend and named counterfactual-design components), AR-039 (flight-geography demographic disproportionality) and AR-063 (Aboriginal processing-funnel disproportionality) - by reading each one's own analysis and determinations text directly, not just its title. Unlike the prior two sub-passes, no item in this section was found to restate an existing determination, so nothing was left unanchored. The section split at its own internal boundary into two genuinely incremental clusters, neither a repeat of any existing path: Q446-Q463 (original cohort identity, composition, and longitudinal exit/entry accounting) became AR-065, establishing that the approximately 80-100 Operation Soteria cohort NSW Police named at launch has never been publicly broken down by location, age, Aboriginality or bail status, nor tracked for exits, entries, or the derived metrics (replacement rate, reoffending rate, current size, average legal actions per member, repeat-processing proportion) that depend on such tracking - narrower and prior to AR-063's population-wide processing-funnel question, and a further layer beneath AR-006's counterfactual-design gap; Q464-Q469 (PolAir-cohort arrest linkage and effect mechanism) became AR-066, establishing that no data link PolAir-assisted arrests to that cohort in either direction, leaving AR-024's detection-versus-reduction question untestable at the cohort-specific level. Judged AR-065/AR-066 read together with AR-006 and AR-024 a genuine cross-path convergence rather than padding: the named cohort either causal-design gap would need as its basic unit of analysis has itself never been publicly tracked - recorded as CPO-023. The next unclosed source within answer-register-l-to-t-run001.txt is Section S, \"Bail Interaction\" (Q470 onward).",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
