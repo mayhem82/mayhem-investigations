@@ -709,5 +709,14 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0080",
+    "timestamp": "2026-09-13T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Scope decision for this sub-pass: checked Section S, \"Bail Interaction\" (Q470-Q483), against five existing paths whose topics plausibly overlap it - AR-006 (counterfactual-design gap), AR-024 (deterrence signalling), AR-047 (biometric authorisation pathway and AI risk-governance process), AR-063 (Aboriginal processing-funnel disproportionality) and AR-065/AR-066 (Operation Soteria cohort accounting) - by reading each one's own analysis and determinations text directly, not just its title. No item in this section was found to restate an existing determination. The section split at its own internal boundary into two genuinely incremental clusters: Q470-Q474 (aggregate bail-breach/refusal/remand accounting) became AR-067, establishing that no aggregate count of PolAir-associated bail-breach allegations, bail refusals, remand outcomes, or technical-versus-substantive breach classification has been published at even the plain, non-demographic level - narrower and prior to AR-063's Aboriginal-specific disproportionality finding for the same processing stages, since the plain aggregate itself is absent before any demographic breakdown is attempted; Q475-Q483 (tasking status, extension policy, and demographic-impact analysis for judicial-supervision monitoring) became AR-068, establishing that PolAir-Remote has not been shown to be specifically tasked for bail compliance despite documented presence during compliance-adjacent surge operations, that no public policy governs extending it to curfew or electronic-monitoring compliance, and that the demographic and Closing the Gap Target 11 impact of such an extension cannot presently be determined - distinct from AR-047's biometric-identification-pathway finding, since this concerns redirecting the surveillance function toward monitoring compliance with a court-imposed condition rather than identity-matching. Judged AR-067 read together with AR-063 a genuine cross-path convergence rather than padding: the Aboriginal-specific disproportionality gap CPO-022 already identified sits atop an even more basic absence - the plain aggregate a demographic breakdown would need as its own denominator does not exist either, for anyone - recorded as CPO-024. The next unclosed source within answer-register-l-to-t-run001.txt is Section T, \"Economic System Effect\" (Q484 onward).",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
