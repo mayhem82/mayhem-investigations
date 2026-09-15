@@ -18,5 +18,15 @@
     "material_significance": "If confirmed as described, this would be the case's clearest single instance of the Documented Compliance vs. Functional Compliance pattern - a formal classification that doesn't match the situation on the ground. But it is not yet confirmed: the June 2026 report has not been located by this repository, and EV-0013 shows a real, independently-documented departure in 2021 that could fully explain the classification without any inaccuracy on Council's part - the open question is whether the colony returned after 2021, not whether Council's page is wrong.",
     "required_resolution": "Direct sighting of the June 2026 report (citation needed from operator - see Q-0009), and confirmation of whether the colony that prompted the case's 2025-2026 material is a return of the same or a new colony after the 2021 departure, or whether the 2021 departure was brief/partial and the case's 'continuous since 2019' framing needs revision instead.",
     "resolution_evidence": []
+  },
+  {
+    "contradiction_id": "CTR-0003",
+    "description": "The operator's own 18 June 2026 email to DCCEEW Species Policy (EV-0022) states the Bellbrook camp 'does not currently appear in the Australian Flying-Fox Monitor or any National Flying-Fox Monitoring Program record I am aware of.' The National Flying-Fox Monitoring Program's own published dataset (EV-0024), located and downloaded 2026-09-15, lists a site named 'Bellbrook' with an assigned CampID (230) and coordinates - it does appear in the program's own record, just with a single count (0) from February 2013 and nothing recorded since.",
+    "supporting_evidence": ["EV-0022"],
+    "opposing_evidence": ["EV-0024"],
+    "status": "Open",
+    "material_significance": "Does not contradict EV-0023's separate statement that the NFFMP has been paused since 2022 and cannot currently send resources to survey camps - a stale 2013 registration with no post-2022 (or post-2019) data is consistent with that pause. It does complicate the framing that Bellbrook was entirely unrecorded prior to the operator's 2026 notification: the site was already known to the program under a CampID, just never re-surveyed once the current colony arrived. Not established whether CampID 230 refers to the same physical location as the colony this case documents, or whether DCCEEW/CSIRO staff were aware of the existing ID when replying to the operator (EV-0023 does not mention one).",
+    "required_resolution": "Confirmation from DCCEEW or CSIRO of whether CampID 230 corresponds to the same site as the current Bellbrook colony, why no survey occurred between February 2013 and the operator's 2026 notification despite the colony's documented 2019 arrival, and whether the operator's original notification email was itself in error in describing the site as unrecorded, or whether 'does not appear' meant something narrower (e.g. not appearing in the public-facing viewer specifically, as distinct from an internal CampID existing in the underlying dataset).",
+    "resolution_evidence": []
   }
 ]

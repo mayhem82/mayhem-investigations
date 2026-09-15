@@ -102,5 +102,13 @@
     "event_description": "DCCEEW replies (Sam Horton, Senior Policy Officer), stating the National Flying Fox Monitoring Program was paused in 2022 due to a funding cessation, that the Department cannot currently send resources to survey the camp, and recommending state-level engagement instead. Exact reply date inferred as shortly after 18 June 2026 - not stated in the material provided.",
     "status": "Confirmed",
     "supporting_evidence": ["EV-0023"]
+  },
+  {
+    "chronology_id": "CHR-0014",
+    "event_date": "2013-02",
+    "date_is_inference": false,
+    "event_description": "The National Flying-Fox Monitoring Program records a single count of 0 grey-headed flying-foxes at a site named 'Bellbrook' (CampID 230). Added to this case's chronology out of date order, per the append-only discipline, on 2026-09-15 when the dataset was located - nearly seven years before the colony's documented November 2019 arrival at Bellbrook (CHR-0001) and over thirteen years before this entry's own recording date. Not established as the same physical site as the colony this case documents.",
+    "status": "Confirmed",
+    "supporting_evidence": ["EV-0024"]
   }
 ]

@@ -108,5 +108,15 @@
     "likely_source": "NSW state government environment department; DCCEEW's own EPBC referral guidance.",
     "status": "Open",
     "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0012",
+    "question": "Does the National Flying-Fox Monitoring Program's CampID 230 ('Bellbrook', -30.82048499, 152.5096945), last and only surveyed in February 2013 with a count of 0, refer to the same physical site as the colony this case documents since November 2019? If so, why was it never re-surveyed once the colony arrived, and were DCCEEW/CSIRO staff aware this existing CampID predated the operator's 2026 notification when they replied that the Department could not currently survey the camp?",
+    "why_exists": "EV-0024 shows a site named 'Bellbrook' already existed in the NFFMP's own dataset with an assigned CampID before the operator's 2026 registration attempt (EV-0022) - which itself stated the camp did not appear in any such record. Neither EV-0022 nor DCCEEW's reply (EV-0023) mentions an existing CampID. See CTR-0003.",
+    "evidence_creating_question": ["EV-0022", "EV-0023", "EV-0024"],
+    "evidence_required_to_resolve": "Confirmation from DCCEEW or CSIRO of what CampID 230 refers to, its survey history beyond the single 2013 entry, and whether it was cross-checked against the operator's 2026 notification before DCCEEW's reply was sent.",
+    "likely_source": "DCCEEW Species Policy / CSIRO NFFMP data custodians (a follow-up to the operator's own EV-0022/EV-0023 correspondence).",
+    "status": "Open",
+    "resolution_evidence": []
   }
 ]

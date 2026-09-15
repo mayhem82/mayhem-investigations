@@ -3,8 +3,8 @@
     "thread_id": "THR-01",
     "name": "Management plan gap and grant-funding access",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0002", "EV-0011", "EV-0020", "EV-0021"],
-    "outstanding_work": "Confirm the NSW grants program's plan-gating rule against its own published guidelines (Q-0002), not just operator-supplied summaries. Updated 2026-08-23: EV-0020 (Townsville) and EV-0021 (Mount Isa, funded by a Queensland state grant specifically to develop the plan) add two further comparators to Rudder Park - the management-plan mechanism is demonstrably not rare, hard to operate, or unfunded elsewhere.",
+    "supporting_evidence": ["EV-0002", "EV-0011", "EV-0020", "EV-0021", "EV-0025"],
+    "outstanding_work": "Confirm the NSW grants program's plan-gating rule against its own published guidelines (Q-0002), not just operator-supplied summaries. Updated 2026-08-23: EV-0020 (Townsville) and EV-0021 (Mount Isa, funded by a Queensland state grant specifically to develop the plan) add two further comparators to Rudder Park - the management-plan mechanism is demonstrably not rare, hard to operate, or unfunded elsewhere. Updated 2026-09-15: EV-0025 gives Rudder Park itself a decade of real NFFMP count data (0 to a 39,600 peak in May 2019) - a materially richer picture than this thread previously had, not yet reconciled against the plan/funding narrative.",
     "dependencies": [],
     "completion_state": "Not Complete"
   },
@@ -66,8 +66,8 @@
     "thread_id": "THR-08",
     "name": "Commonwealth monitoring-program gap",
     "status": "In Progress",
-    "supporting_evidence": ["EV-0022", "EV-0023"],
-    "outstanding_work": "Determine the actual current pathway for registering the camp given the NFFMP's 2022 pause, and whether Bellbrook meets the EPBC 'nationally important camp' referral threshold (Q-0011). This thread is new as of 2026-08-23, opened by the operator's own confirmed-sent registration attempt and DCCEEW's substantive reply - the first fully confirmed advocacy action-and-response pair in this case (distinct from THR-03's still-unconfirmed drafts). Also directly relevant to DFAPTI-TA-FF-2026-00001, where the same Commonwealth program's operating status bears on that case's own registration-based remedy demands (see that case's CTR-0003).",
+    "supporting_evidence": ["EV-0022", "EV-0023", "EV-0024"],
+    "outstanding_work": "Determine the actual current pathway for registering the camp given the NFFMP's 2022 pause, and whether Bellbrook meets the EPBC 'nationally important camp' referral threshold (Q-0011). This thread is new as of 2026-08-23, opened by the operator's own confirmed-sent registration attempt and DCCEEW's substantive reply - the first fully confirmed advocacy action-and-response pair in this case (distinct from THR-03's still-unconfirmed drafts). Also directly relevant to DFAPTI-TA-FF-2026-00001, where the same Commonwealth program's operating status bears on that case's own registration-based remedy demands (see that case's CTR-0003). Updated 2026-09-15: EV-0024 shows a 'Bellbrook' CampID already existed in the NFFMP's own dataset (last surveyed February 2013, 0 count, never revisited) before the operator's 2026 notification - complicating, not resolving, the registration question (CTR-0003, Q-0012).",
     "dependencies": [],
     "completion_state": "Not Complete"
   }

@@ -278,5 +278,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-08",
     "availability_notes": "Direct reply confirming the National Flying Fox Monitoring Program has been paused since 2022 due to a funding cessation and that DCCEEW cannot currently send resources to survey new camps - see EV-0023. Materially relevant to DFAPTI-TA-FF-2026-00001's own camp-registration remedy demands; cross-referenced there as EV-0077/CTR-0003."
+  },
+  {
+    "source_id": "SRC-0021",
+    "authority": "CSIRO / DCCEEW (National Flying-Fox Monitoring Program)",
+    "title": "National Flying-fox Monitoring Program data (2024-01_GHFF_Data_public.xlsx)",
+    "type": "Government Data Portal (dataset)",
+    "url_or_file_location": "https://data.csiro.au/collection/csiro:64370v3",
+    "first_checked": "2026-09-15",
+    "last_checked": "2026-09-15",
+    "current_version": "Version 4, published 26 Feb 2026 (DOI 10.25919/tfhg-ej16). Downloaded directly by the operator 2026-09-15 and supplied to this investigation; four-sheet workbook (NFFMP GHFF counts, Covid affected surveys, Fig 2 data, Fig 3 data) covering national grey-headed flying-fox camp counts, quarterly, November 2012 to August 2022.",
+    "preservation_status": "Preserved",
+    "hash_status": "Hashed",
+    "associated_thread": "THR-08",
+    "availability_notes": "The collection page itself now loads normally and lists this file among six total - a materially different state than the JavaScript-required/503 errors DFAPTI-TA-FF-2026-00001's own record shows for an earlier check of a related CSIRO Data Access Portal URL on 2026-06-16 (see that case's EV-0044/EV-0058); not itself independently re-checked by this case before today. The 'NFFMP GHFF counts' sheet includes a row for 'Bellbrook' (CampID 230) and for 'Kempsey, Rudder park' (CampID 528) - see EV-0024, EV-0025. This does not contradict EV-0023's own 'paused since 2022' statement about the monitoring program's current survey capacity - this file is historical count data collected before and up to the pause, not evidence the program has resumed active surveying."
   }
 ]

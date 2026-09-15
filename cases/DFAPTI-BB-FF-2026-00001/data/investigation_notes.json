@@ -304,5 +304,14 @@
     "related_thread": "THR-01",
     "related_source": "SRC-0010",
     "related_evidence": "EV-0005"
+  },
+  {
+    "note_id": "NOTE-0035",
+    "timestamp": "2026-09-15T00:00:00Z",
+    "activity_type": "Finding",
+    "text": "Interactive, operator-directed evidence-gathering (not the automated DFAPTA routine, and not a DFAPTA analysis action - DFAPTI keeps running live per DEC-0006's own terms). Operator was checking whether the CSIRO Data Access Portal (raised in DFAPTI-TA-FF-2026-00001's own EV-0044/EV-0058 as broken) was working, confirmed it now loads normally, and downloaded a file from the 'National Flying-fox Monitoring Program data' collection (data.csiro.au/collection/csiro:64370v3, v4, published 26 Feb 2026). The first file checked (SFF_DayFixes.csv) was Spectacled Flying-fox movement data for Far North Queensland camps only - not relevant to this case. The operator then supplied a second file from the same collection, 2024-01_GHFF_Data_public.xlsx, containing national grey-headed flying-fox quarterly camp counts November 2012-August 2022. Searched its 'NFFMP GHFF counts' sheet (750 camps) for Bellbrook/Taylors Arm/Kempsey/Nambucca/Macleay matches and found two directly relevant rows: CampID 230 'Bellbrook' (-30.82048499, 152.5096945), with exactly one recorded count across all 40 quarters (0, February 2013, nothing since); and CampID 528 'Kempsey, Rudder park' (-31.0839, 152.8429), with a much fuller count history (0 to a 39,600 peak in May 2019). Preserved the workbook (cases/DFAPTI-BB-FF-2026-00001/preserved/csiro-nffmp-ghff-data-2024-01.xlsx) and hashed it (sha256:531cd752bf3245f48b73a7025ec74697d6e865c42c03a3c4126ce2ed779370b9) before recording anything, per this repository's Source Before Analysis and hashing discipline. Added SRC-0021, EV-0024, EV-0025, CHR-0014 (out of date order, per the append-only discipline - the event itself is from February 2013), CTR-0003 (EV-0022's own 'does not currently appear in any... record' claim vs. EV-0024's existing CampID), and Q-0012 (whether CampID 230 is the same site, why it was never re-surveyed, whether DCCEEW/CSIRO knew of it when replying to the operator). Updated THR-01 and THR-08's supporting_evidence and outstanding_work. Did not touch dfapta/analysis.json - DEC-0006 froze DFAPTA Cycle 1's evidentiary basis at EV-0001-EV-0023; this new material is flagged in EV-0024's own investigation_relevance field for a future DFAPTA pass (next freeze cycle) to reconcile against AR-042, not folded into the current, already-frozen cycle. Investigator: mayhem82 (operator-directed interactive session), not the automated routine - logged with the same rigor (hash-before-record, cross-check before treating as new, explicit non-claims) as an automated pass would use.",
+    "related_thread": "THR-08",
+    "related_source": "SRC-0021",
+    "related_evidence": "EV-0024"
   }
 ]
