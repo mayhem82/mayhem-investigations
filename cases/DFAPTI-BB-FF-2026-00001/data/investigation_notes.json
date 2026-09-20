@@ -358,5 +358,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": "EV-0007"
+  },
+  {
+    "note_id": "NOTE-0041",
+    "timestamp": "2026-09-20T00:00:00Z",
+    "activity_type": "Researching",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 25' before proceeding. Read README.md, SPEC.md, decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires. Local main was eleven commits behind a detached-HEAD checkout; fast-forwarded main onto it and confirmed origin/main already held the same commit after fetching - nothing was actually stranded. Confirmed by direct anchor comparison that every EV-0001 through EV-0023 item remains cited by at least one existing path; only EV-0024 and EV-0025 remain unanchored, both still outside DFAPTA Cycle 1's frozen basis. THR-04 and THR-05 remained this case's thinnest threads by path count, but direct re-reads of both threads' own primary-source material confirmed both genuinely exhausted. Independently re-extracted and re-read all eight preserved primary-source documents in full again rather than accept that exhaustion on trust, this time reading the Greens senator letter's own framing paragraph line by line against this case's own direct institutional correspondence, having noticed AR-049 already treats one sentence of that same paragraph without examining the paragraph's earlier sentence. Found that the letter states, as its own basis for asking a federal senator to raise the matter with the federal Minister for the Environment and Water, that 'the federal government holds jurisdiction over the management' of the species - broader than DCCEEW's own reply (EV-0023), which describes a conditional referral obligation tied to the EPBC Act's still-unresolved 'nationally important camp' threshold (AR-015) and recommends engaging the state government instead. Checked against source_register.json first: neither SRC-0009's nor SRC-0020's own entry draws this connection, so this is a genuinely new finding. Added AR-061 and extended CPO-010 to a ninth instance. Recursive-audit follow-up per SPEC.md §4: checked whether the same overstated-jurisdiction framing recurs for any other government body named in this case's material - none found; checked whether this renders AR-013, AR-014 or AR-015 inaccurate rather than merely incomplete - concluded none is wrong, so all three left unedited. Swept the case's own index.html, dfapta/index.html, and every other repository page referencing this case for stale pass-number/path-count framing beyond what this pass itself updates - none found. See DEC-0041 for the corresponding decision-register entry.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0023"
   }
 ]
