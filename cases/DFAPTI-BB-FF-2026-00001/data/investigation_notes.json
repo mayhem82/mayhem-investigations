@@ -367,5 +367,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": "EV-0023"
+  },
+  {
+    "note_id": "NOTE-0042",
+    "timestamp": "2026-09-21T00:00:00Z",
+    "activity_type": "Researching",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 26' before proceeding. Read README.md, SPEC.md, decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires. Local main was a detached HEAD matching origin/main after fetching (13 commits ahead of the stale local branch pointer); checked out main and fast-forwarded onto origin/main - nothing was stranded. Confirmed by direct anchor comparison that every EV-0001 through EV-0023 item remains cited by at least one existing path; only EV-0024 and EV-0025 remain unanchored, both still outside DFAPTA Cycle 1's frozen basis. Independently re-extracted and re-read all eight preserved primary-source documents in full again, this time reading the Community Harm and Accountability Record's own Section 2 line by line against this case's one instance of direct DCCEEW correspondence, having noticed AR-012 and AR-014 each already draw on adjacent material in that section and in EV-0023 without either checking this specific sentence against the other. Found that Section 2 states, unattributed, that 'DCCEEW has made clear that dispersal licences are unlikely to be approved and are not a realistic management pathway' - no document in this case names when or how DCCEEW conveyed this, and this case's one instance of direct DCCEEW correspondence (EV-0023) addresses only the paused monitoring program and the nationally-important-camp referral threshold, saying nothing about dispersal licensing. Checked against source_register.json first: neither SRC-0007's nor SRC-0020's own entry draws this connection, so this is a genuinely new finding. Added AR-062 (58 paths total) and extended CPO-010 to a tenth instance. Recursive-audit follow-up per SPEC.md §4: while extending CPO-010, found its own title still read 'a seventh time' although its analysis text had already reached nine instances - corrected to 'a tenth time'. Checked every other cross_path_observation for the same title-vs-count drift - none found. Checked whether this renders AR-012 or AR-014 inaccurate rather than merely incomplete - concluded neither is wrong, so both left unedited. Swept the case's own index.html, dfapta/index.html, and every other repository page referencing this case for stale pass-number/path-count framing beyond what this pass itself updates - none found beyond the count itself and the CPO-010 title already corrected. See DEC-0042 for the corresponding decision-register entry.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0023"
   }
 ]
