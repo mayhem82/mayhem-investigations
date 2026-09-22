@@ -1748,5 +1748,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-02",
     "availability_notes": "Reports EN.OP24 Integrated Water Cycle Management Strategy at 70% progress, with consultant delays and a new expected delivery date of January 2026. Also reports EN.OP25 Willawarrin WTP at 100% against the specific performance measure 'Detailed design complete and construction commenced by June 2025'; that percentage must not be misread as proof that the plant itself was commissioned or operational."
+  },
+  {
+    "source_id": "SRC-0126",
+    "authority": "Kempsey Shire Council",
+    "title": "Willawarrin Water Treatment Plant — current works page",
+    "type": "Council Web Page",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Valley/Ongoing-works-in-the-shire/Major-projects/Current-works/Willawarrin-Water-Treatment-Plant",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Live Council page checked 22 September 2026; page now states construction is nearing completion and project has entered commissioning phase.",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-12",
+    "availability_notes": "Current page materially advances SRC-0120/EV-0093. It states commissioning is underway; defines commissioning as mechanical/electrical/hydraulic testing before handover; retains planned 30 Aug 2026 connection outage; and announces a 16 Oct 2026 community celebration to mark completion. This is direct current evidence that commissioning is not yet documented as complete as of the page version checked."
   }
 ]
