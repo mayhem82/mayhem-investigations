@@ -1692,5 +1692,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-02",
     "availability_notes": "Item 9.3, Water Restrictions Implementation Review, originating 19 May 2020, remains listed 'In Progress' in the November 2025 Council Actions Register. Earlier detailed action-register records state the unresolved action was revision of the Drought Management Plan in accordance with the 2020 review recommendations, in conjunction with the Integrated Water Cycle Management Strategy."
+  },
+  {
+    "source_id": "SRC-0122",
+    "authority": "Kempsey Shire Council",
+    "title": "2026-27 Operational Plan — Attachment 11.2.1",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-16-June-2026",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Operator-supplied 4,319,122-byte PDF identified as Attachment 11.2.1; relevant Bellbrook entry at PDF page 50 of 54.",
+    "preservation_status": "Original externally preserved in investigation workspace; repository provenance/extract manifest preserved at sources/SRC-0122-2026-27-operational-plan-manifest.txt",
+    "hash_status": "SHA-256 verified: 217063a477685f55e41478e64a099b43e69307c24a4599c12cc4662e5912355e",
+    "associated_thread": "THR-14",
+    "availability_notes": "Adopted 2026-27 capital program records W3024-WF Bellbrook WTP Augmentation (G00241-01) $119,860 under EN.OP44. Willawarrin WTP (G00206-01) is separately listed at $589,329. Source does not establish physical completion, expenditure, procurement, drought redundancy or interconnection."
   }
 ]
