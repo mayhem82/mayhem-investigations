@@ -2242,5 +2242,89 @@
       "Q-0002"
     ],
     "supersedes_or_corrects": "EV-0080"
+  },
+  {
+    "evidence_id": "EV-0086",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2023-06-30",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Annual Report 2022-23",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/20240214-annual-report-2022-23-hero-ab_1.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "No preserved repository copy/hash exists yet. Under Source Before Analysis and the existing evidentiary bar, this record is not promoted to Verified until preservation/hash is completed.",
+    "evidence_description": "CORRECTIVE RECORD FOR EV-0083. Council's 2022-23 performance reporting identifies EN.OP25 Bellbrook Water Treatment Plant Augmentation. The stated performance measure was to define scope and commence design. The status comment records that Council was awaiting NSW Health feedback on the Raw Water Quality Report before finalising design. This is evidence of a live design-stage project and a documented external-feedback dependency during the reporting period; it is not evidence that design was completed, construction commenced, augmentation was delivered, or the project was cancelled.",
+    "relevant_quotation": "Awaiting NSW Health feedback on Raw Water Quality Report prior to finalising design.",
+    "investigation_relevance": "Establishes the Bellbrook augmentation's 2022-23 design-stage position and identifies the Raw Water Quality Report/NSW Health feedback as a specific missing source chain. Corrects EV-0083's inadequate provenance package without deleting or rewriting it.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0083",
+      "EV-0077",
+      "EV-0078"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0087",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2013-01-01",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Water Supply Asset Management Plan",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "No preserved repository copy/hash exists yet. This corrective record therefore retains Requires Verification rather than the unsupported Verified state used by EV-0081.",
+    "evidence_description": "CORRECTIVE RECORD FOR EV-0081. Council's historical Bellbrook water-supply description records two production bores drawing from the Macleay River shingle bed, a 0.1 ML reservoir, approximately 69 connections and an 18 ML/year licence allocation. It describes variable raw-water quality including iron, manganese and historical arsenic, and states daily water-quality monitoring informed whether water was drawn from the river supply or carted by truck. It records that carting from Kempsey, approximately 50 km away, at considerable cost was necessary when river turbidity prevented effective disinfection, and records the Bellbrook treatment plant as commissioned in 2010. These are historical architecture and contingency facts only; they do not establish Bellbrook's current 2026 operating contingency.",
+    "relevant_quotation": "Water carting from Kempsey (a distance of 50 km) at considerable cost was necessary when river turbidity (or muddiness) prevents disinfection of the water supply.",
+    "investigation_relevance": "Establishes the historical mechanism behind Bellbrook's cartage dependence and creates a direct comparison point for the current drought-resilience question. Current arrangements remain open and require contemporary evidence.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0081",
+      "EV-0079"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0088",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2020-01-01",
+    "source_authority": "Parliament of New South Wales",
+    "source_title": "Supplementary Questions — Water, Property and Housing — Further hearings",
+    "source_type": "Government Record",
+    "source_location": "https://www.parliament.nsw.gov.au/lcdocs/other/13303/Supp%20Qs%20-%20Water%20Property%20and%20Housing%20-%20Further%20hearings.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "No preserved repository copy/hash exists yet. The direct parliamentary source is registered but the evidence remains Requires Verification until preservation/hash and exact page locator are completed.",
+    "evidence_description": "CORRECTIVE RECORD FOR EV-0082. NSW parliamentary response material records drought-response expenditure items of $84,000 for Willawarrin water carting and $77,000 for Bellbrook water carting. The record establishes that separate public expenditure was attributed to emergency water carting for both communities. It does not, on the presently preserved evidence, establish the precise service dates, litres carted, tanker movements, cartage source for every load, or whether those amounts represent total episode cost.",
+    "relevant_quotation": "Willawarrin water carting ($84,000) ... Bellbrook water carting ($77,000)",
+    "investigation_relevance": "Quantifies a documented public-cost consequence of emergency cartage in both communities and makes current contingency cost and architecture material to Q-0002. Corrects EV-0082's unsupported Verified status.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0082",
+      "EV-0001",
+      "EV-0002",
+      "EV-0087"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
