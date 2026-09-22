@@ -1232,5 +1232,16 @@
     ],
     "reason": "Corrected public-facing translation of DFAPTI-BB-2026-00001 after operator identified Bellbrook weighting. Rebuilt the water explainer around the two-community case scope: shared history, Willawarrin current position, Bellbrook current position, then shared/town-specific unresolved questions. Preserved source boundaries and did not alter Evidence Register facts. Logged the translation-layer correction as NOTE-0145 so the public-site change is auditable.",
     "validation_completed": false
+  },
+  {
+    "change_id": "CHG-0080",
+    "date": "2026-09-22",
+    "author": "ChatGPT under operator direction",
+    "files_affected": [
+      "data/evidence_register.json",
+      "data/change_log.json"
+    ],
+    "reason": "Recursive post-publication audit identified that EV-0095 had been created with a forward chronology link to CHR-0041 before CHR-0041 existed, contrary to append-only cross-reference ordering enforced by the repository validator. Removed only that invalid forward link; CHR-0041 still correctly points back to EV-0095. No evidentiary proposition or classification changed.",
+    "validation_completed": false
   }
 ]
