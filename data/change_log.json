@@ -1174,5 +1174,18 @@
     ],
     "reason": "Implemented DEC-0019: added the second case, DFAPTI-MNC-2026-00001, with its own cases/DFAPTI-MNC-2026-00001/data/ directory per the resolved per-case data-layer architecture. Added scripts/case-registry.js as the single source of truth for every case's data directory; reworked scripts/validate.js and scripts/generate-relationship-map.js to run independently per registered case; added an optional --case flag to scripts/resume.js, add-source.js, and log-run.js, defaulting to DFAPTI-BB-2026-00001 for backward compatibility.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0076",
+    "date": "2026-09-22",
+    "author": "ChatGPT under operator direction",
+    "files_affected": [
+      "data/evidence_register.json",
+      "data/source_register.json",
+      "data/chronology.json",
+      "data/open_questions.json"
+    ],
+    "reason": "Operator-directed Bellbrook augmentation evidence ingestion and corrective pass. Added EV-0077-EV-0089 and SRC-0109-SRC-0115, extended chronology CHR-0034-CHR-0036, and sharpened Q-0002. A recursive audit identified that EV-0077-EV-0083 had been ingested below MAYHEM's Source Before Analysis/provenance standard; append-only corrective records EV-0084-EV-0089 now explicitly preserve proof boundaries and downgrade unpreserved/ambiguous material rather than silently rewriting history. Further promotion requires preserved/hash-verified source copies where applicable.",
+    "validation_completed": false
   }
 ]
