@@ -1312,5 +1312,14 @@
     "related_thread": "THR-14",
     "related_source": null,
     "related_evidence": "EV-0095"
+  },
+  {
+    "note_id": "NOTE-0146",
+    "timestamp": "2026-09-22T13:02:00+10:00",
+    "activity_type": "Finding",
+    "text": "RUN-0073 extended the drought-governance chain rather than treating the November 2025 'In Progress' label as self-explanatory. SRC-0123 / EV-0096 establishes the underlying 2020 resolution: revise the Drought Management Plan in accordance with the Water Restrictions Implementation Review recommendations in conjunction with IWCM; updates through February 2023 repeatedly show the action unchanged/awaiting IWCM. SRC-0125 / EV-0097 then shows IWCM at 70% in 2025 with consultant delays and a revised January 2026 expected delivery date. SRC-0124 / EV-0098 shows IWCM implementation remained an active 2025/26 Operational Plan action. Combined with EV-0094, this creates a continuous documented governance path from the 2020 drought review into late 2025. It does not establish whether the DMP revision or IWCM was completed after November 2025; current completion evidence remains required.",
+    "related_thread": "THR-02",
+    "related_source": "SRC-0123",
+    "related_evidence": "EV-0096"
   }
 ]
