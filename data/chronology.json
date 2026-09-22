@@ -362,5 +362,35 @@
     "supporting_evidence": [
       "EV-0080"
     ]
+  },
+  {
+    "chronology_id": "CHR-0037",
+    "event_date": "2024-02-20",
+    "date_is_inference": false,
+    "event_description": "Council's Q2 2023-24 capital budget review records a $0.2 million reduction for Bellbrook water treatment plant augmentation among Renewals – Water projects partially or fully deferred to the next financial year. This records a financial deferral, not cancellation.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0090"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0038",
+    "event_date": "2024-06-30",
+    "date_is_inference": true,
+    "event_description": "By the end of the 2023-24 reporting period, Council's DWMS annual report records no additional Bellbrook upgrade during the year and ongoing planning of WTP augmentation. Bellbrook remains a standalone Macleay River gravel-bed bore supply with 140 kL/day treatment capacity.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0091"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0039",
+    "event_date": "2026-08-30",
+    "date_is_inference": false,
+    "event_description": "Council schedules a six-hour Willawarrin water outage to connect the new Willawarrin Water Treatment Plant to the town supply. This is a Willawarrin connection milestone; the source does not establish Bellbrook supply support or a Bellbrook-Willawarrin interconnection.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0093"
+    ]
   }
 ]
