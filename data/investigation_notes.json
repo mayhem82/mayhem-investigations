@@ -1321,5 +1321,14 @@
     "related_thread": "THR-02",
     "related_source": "SRC-0123",
     "related_evidence": "EV-0096"
+  },
+  {
+    "note_id": "NOTE-0147",
+    "timestamp": "2026-09-22T14:21:00+10:00",
+    "activity_type": "Finding",
+    "text": "Current-status search materially advances Q-0001. Council's live Willawarrin WTP page now expressly states the project has entered commissioning and that construction is nearing completion. It defines commissioning as mechanical, electrical and hydraulic testing before handover and announces a 16 October 2026 community celebration to mark completion. This eliminates the older evidence gap about whether commissioning had begun. Q-0001 is narrowed to whether commissioning/performance verification and operational handover have actually completed. No completion inference is made from the planned celebration or the 30 August connection outage.",
+    "related_thread": "THR-12",
+    "related_source": "SRC-0126",
+    "related_evidence": "EV-0099"
   }
 ]
