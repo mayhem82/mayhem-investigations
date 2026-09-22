@@ -1510,5 +1510,61 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-03",
     "availability_notes": "Located via WebSearch this run (RUN-0071); a fourth distinct file-naming convention for this report series beyond the three already documented in EV-0065 (docs/departments/water-amp-sewer/dwms-annual-wq-report-YYYY-YYYY_v.N_final.N.pdf). Search-engine snippet states the report was prepared by Bobbie Brenton (Water Quality Officer), reviewed by the North Coast Public Health Unit, and approved 17 June 2024 by Wes Trotter (Director Utilities) - i.e. published nearly a year after the reporting period closed. Fetch-blocked (EGRESS_BLOCKED, DEC-0008/DEC-0012); content known only via search snippet, not yet preserved/hashed. Directly answers half of Q-0008 (locates the previously-unlocated 2022-2023 edition); the 2021-2022 edition remains unlocated despite a further dedicated search this run."
+  },
+  {
+    "source_id": "SRC-0109",
+    "authority": "Kempsey Shire Council / IPART-hosted Council attachment",
+    "title": "Delivery Program 2022-2026 & Operational Plan 2023-2024",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.ipart.nsw.gov.au/sites/default/files/cm9_documents/Kempsey-Shire-Council-Attachment-Delivery-Program-Delivery-Program-2022_26-Operational-Plan-2023_24.PDF",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Current indexed record checked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "Confirms EN.OP27 / W3024-WF Bellbrook WTP Augmentation, $218,900, separately from Willawarrin."
+  },
+  {
+    "source_id": "SRC-0110",
+    "authority": "Kempsey Shire Council",
+    "title": "Annual Report 2023-24 Part B - Legislative Report",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2023-24-ar-and-eotr/2023-24-annual-report_part-b-legislative-data.pdf",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Current indexed record checked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "Confirms Bellbrook augmentation delay, finalised catchment assessment and planned treatment-process gap analysis."
+  },
+  {
+    "source_id": "SRC-0111",
+    "authority": "Kempsey Shire Council",
+    "title": "Drinking Water Management System Annual Report 2023-2024",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/dwms-annual-wq-report-2022-2023_v.1_final.1.pdf",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Current indexed record checked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "Records Bellbrook and Willawarrin source/treatment architecture and ongoing Bellbrook augmentation planning."
+  },
+  {
+    "source_id": "SRC-0112",
+    "authority": "Kempsey Shire Council",
+    "title": "Operational Plan 2025-26 - adopted Council-hosted version",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Current indexed record checked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "Retains W3024-WF Bellbrook WTP Augmentation (G00241-01) with $50,000 adopted 2025-26 budget."
   }
 ]
