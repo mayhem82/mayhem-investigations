@@ -2491,5 +2491,36 @@
     "open_question_links": [
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0095",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2026-06-16",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "2026-27 Operational Plan — Attachment 11.2.1",
+    "source_type": "Council Record",
+    "source_location": "Ordinary Council Meeting 16 June 2026, Attachment 11.2.1; PDF page 50 of 54",
+    "preserved_file_reference": "sources/SRC-0122-2026-27-operational-plan-manifest.txt; original PDF preserved in investigation workspace",
+    "document_hash": "SHA-256 217063a477685f55e41478e64a099b43e69307c24a4599c12cc4662e5912355e",
+    "hash_exception_reason": null,
+    "evidence_description": "The adopted 2026-27 Operational Plan Appendix 2 capital works program carries Bellbrook WTP Augmentation as W3024-WF / G00241-01 with $119,860 funding under EN.OP44, 'Provide safe and reliable drinking water to the community via approximately 14,000 connections'. On the same program line group, Willawarrin WTP is separately identified as W1344-WF / G00206-01 with $589,329. This establishes continued 2026-27 programming of Bellbrook's own augmentation and separate project identity from Willawarrin. It does not establish physical delivery, expenditure, procurement, completion, commissioning, drought-source redundancy or a Bellbrook-Willawarrin interconnection.",
+    "relevant_quotation": "W3024-WF Bellbrook WTP Augmentation (G00241-01) 119,860",
+    "investigation_relevance": "Closes the 2026-27 program-presence component of Q-0002 and supersedes the earlier evidence gap created when automated retrieval of Attachment 11.2.1 failed. The remaining question is what the $119,860 is intended to deliver, what has physically occurred, and Bellbrook's current drought/emergency supply architecture.",
+    "classification": "Original Available",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0080",
+      "EV-0090",
+      "EV-0091",
+      "EV-0093"
+    ],
+    "chronology_links": [
+      "CHR-0041"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
