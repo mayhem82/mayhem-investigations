@@ -1,0 +1,21 @@
+MAYHEM SOURCE PRESERVATION MANIFEST
+Case: DFAPTI-BB-2026-00001
+Source ID: SRC-0122
+Evidence ID: EV-0095
+Document: Kempsey Shire Council 2026-27 Operational Plan
+Meeting provenance: Ordinary Council Meeting, 16 June 2026, Attachment 11.2.1
+Operator-supplied original filename: 11-2-1-2026-27-Operational-Plan.pdf
+Captured file size: 4,319,122 bytes
+SHA-256 of captured original PDF: 217063a477685f55e41478e64a099b43e69307c24a4599c12cc4662e5912355e
+Hash calculated: 2026-09-22
+Relevant location: PDF page 50 of 54, Appendix 2 Capital Works Projects (>$50,000)
+Exact relevant extract:
+EN.OP44 Provide safe and reliable drinking water to the community via approximately 14,000 connections
+W1344-WF Willawarrin WTP (G00206-01) 589,329
+W3024-WF Bellbrook WTP Augmentation (G00241-01) 119,860
+
+Proof boundary:
+This source proves that the adopted 2026-27 Operational Plan carries Bellbrook WTP Augmentation as W3024-WF / G00241-01 with $119,860 in the capital works program, separately from Willawarrin WTP / G00206-01 at $589,329. It does not by itself prove physical works completed, expenditure incurred, procurement status, completion date, commissioning status, drought-source redundancy, or Bellbrook-Willawarrin interconnection.
+
+Preservation note:
+The original PDF bytes were supplied in the ChatGPT investigation workspace and hashed there. GitHub connector writes UTF-8 text only, so this repository file is a preservation/provenance manifest and exact extract, not a claim that the original binary PDF itself has been committed to GitHub.
