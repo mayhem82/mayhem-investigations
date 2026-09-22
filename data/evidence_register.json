@@ -2326,5 +2326,31 @@
     "open_question_links": [
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0089",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2024-06-17",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Water Quality Report — 2023-24 Bellbrook/Willawarrin system material",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/dwms-annual-wq-report-2022-2023_v.1_final.1.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "EV-0079 was promoted beyond the repository's Source Before Analysis standard without a preserved/hash-verified copy. This corrective record deliberately does not repeat that Verified status. The URL/file naming also appears inconsistent with the claimed 2023-24 title, so exact edition identity must be resolved before promotion.",
+    "evidence_description": "CORRECTIVE RECORD FOR EV-0079. The prior entry attributes Bellbrook system characteristics and 'Ongoing planning of WTP augmentation' to a Council drinking-water annual report, but the registered URL itself is named for 2022-2023 while EV-0079 labels the source 2023-2024. Until the exact edition, page/table locator and preserved copy are established, the system-characteristic claims remain useful leads rather than fully verified evidence under MAYHEM's Source Before Analysis rule.",
+    "relevant_quotation": "Ongoing planning of WTP augmentation",
+    "investigation_relevance": "Prevents EV-0079's source-edition ambiguity and unsupported Verified state from flowing downstream as settled fact. The Bellbrook/Willawarrin raw-water architecture remains independently material to Q-0002, but this particular record must be re-grounded against the exact Council edition.",
+    "classification": "Secondary Reference",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0079"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
