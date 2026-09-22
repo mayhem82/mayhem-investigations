@@ -1285,5 +1285,14 @@
     "related_thread": "THR-14",
     "related_source": "SRC-0122",
     "related_evidence": "EV-0095"
+  },
+  {
+    "note_id": "NOTE-0144",
+    "timestamp": "2026-09-22T13:02:00+10:00",
+    "activity_type": "Analysis",
+    "text": "Budget-sequence check after EV-0095: an indexed draft 2025-26 Operational Plan shows W3024-WF / G00241-01 at $169,860, while the Council-hosted adopted/final 2025-26 plan records $50,000 (already captured in EV-0080). The adopted 2026-27 plan records $119,860 (EV-0095). Arithmetically, $169,860 - $50,000 = $119,860. This exact equality is analytically notable and is consistent with the possibility that the balance was shifted/carried into 2026-27, but no located Council source expressly states that this is what occurred. It must therefore remain an inference, not an Evidence Register fact. Dedicated searches for Bellbrook process-gap outputs, catchment-assessment outputs, 2025-26 quarterly delivery/expenditure and an express explanation of the $119,860 did not locate a new primary record in this pass. Q-0002 remains open on scope, expenditure and physical delivery.",
+    "related_thread": "THR-14",
+    "related_source": "SRC-0122",
+    "related_evidence": "EV-0095"
   }
 ]
