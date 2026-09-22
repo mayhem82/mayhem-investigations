@@ -432,5 +432,15 @@
     "supporting_evidence": [
       "EV-0097"
     ]
+  },
+  {
+    "chronology_id": "CHR-0044",
+    "event_date": "2026-09-22",
+    "date_is_inference": false,
+    "event_description": "Council's live Willawarrin WTP project page states construction is nearing completion and the project has entered commissioning. Commissioning is described as mechanical, electrical and hydraulic testing before handover. A community celebration is planned for 16 October 2026 to mark completion; the page does not state commissioning or handover is already complete.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0099"
+    ]
   }
 ]
