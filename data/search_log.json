@@ -3718,5 +3718,53 @@
     "jurisdiction": "Not jurisdiction-restricted (general web search)",
     "results_reviewed": 10,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0311",
+    "search_terms": "site:kempsey.nsw.gov.au Bellbrook W3024 2026 2027; Bellbrook WTP Augmentation 2026; G00241-01 Bellbrook",
+    "search_engine": "ChatGPT web search",
+    "database": null,
+    "date": "2026-09-22",
+    "time": null,
+    "filters": "Kempsey Shire Council domain prioritised",
+    "jurisdiction": "Kempsey Shire, NSW",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0312",
+    "search_terms": "site:kempsey.nsw.gov.au Bellbrook Drought Management Plan water carting; Bellbrook process gap analysis; Raw Water Catchment Category Assessment",
+    "search_engine": "ChatGPT web search",
+    "database": null,
+    "date": "2026-09-22",
+    "time": null,
+    "filters": "Kempsey Shire Council domain prioritised",
+    "jurisdiction": "Kempsey Shire, NSW",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0313",
+    "search_terms": "site:kempsey.nsw.gov.au 2026-27 Operational Plan Bellbrook WTP / W3024-WF / G00241-01",
+    "search_engine": "ChatGPT web search",
+    "database": null,
+    "date": "2026-09-22",
+    "time": null,
+    "filters": "Kempsey Shire Council domain prioritised",
+    "jurisdiction": "Kempsey Shire, NSW",
+    "results_reviewed": 10,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0314",
+    "search_terms": "site:kempsey.nsw.gov.au 2026 Water Restrictions Implementation Review action register",
+    "search_engine": "ChatGPT web search",
+    "database": null,
+    "date": "2026-09-22",
+    "time": null,
+    "filters": "Kempsey Shire Council domain prioritised",
+    "jurisdiction": "Kempsey Shire, NSW",
+    "results_reviewed": 10,
+    "results_preserved": 1
   }
 ]
