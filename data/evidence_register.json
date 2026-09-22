@@ -2520,5 +2520,88 @@
     "open_question_links": [
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0096",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2023-02-07",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Action Register — February 2023",
+    "source_type": "Council Record",
+    "source_location": "Council-hosted Action Register, PDF pages 18-19; item 9.3 Water Restrictions Implementation Review",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Direct Council PDF inspected with exact page/line location established, but no repository-preserved copy/hash has yet been created.",
+    "evidence_description": "The detailed Action Register records Council's 19 May 2020 resolution to revise the Drought Management Plan in accordance with the Water Restrictions Implementation Review recommendations, in conjunction with development of the Integrated Water Cycle Management Strategy. The register records the DMP revision as underway in August 2020; subsequent updates repeatedly leave the status unchanged, and from February 2022 through February 2023 state that it was awaiting implementation of the Integrated Water Cycle Management Plan. This establishes the substantive action represented by the later summary-register 'In Progress' status. It does not establish the content of the review recommendations, the current DMP text, or whether the revision was completed after February 2023.",
+    "relevant_quotation": "Revise the Drought Management Plan in accordance with the recommendations of this report in conjunction with the development of the Integrated Water Cycle Management Strategy.",
+    "investigation_relevance": "Strengthens the drought-contingency branch of Q-0002 by replacing a generic status label with the underlying Council resolution and progress history. Read with EV-0094, it shows that the DMP-revision action was formally tied to IWCM and remained open in Council's later register.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0092",
+      "EV-0094"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0097",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2025-06-30",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Annual Report Part B — Delivery Program progress",
+    "source_type": "Council Record",
+    "source_location": "Council-hosted annual report Part B, water-program progress table page 7",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Direct Council PDF/search extraction inspected, but no repository-preserved copy/hash has yet been created.",
+    "evidence_description": "Council reports the Integrated Water Cycle Management Strategy action EN.OP24 at 70% progress, with consultant delays and a revised expected delivery date of January 2026. In the same progress table, Willawarrin WTP action EN.OP25 is shown at 100%, but its stated performance measure is only 'Detailed design complete and construction commenced by June 2025'. Therefore the 100% figure verifies achievement against that milestone, not completion, commissioning or operational handover of the plant. The IWCM delay is material because Council's 2020 Drought Management Plan revision was expressly linked to development of that strategy.",
+    "relevant_quotation": "Continued delays from consultant. New expected delivery date January 2026.",
+    "investigation_relevance": "Provides a dated explanation for why the governance framework linked to the unresolved Drought Management Plan revision was still progressing years after the 2020 resolution, while also preventing a false inference from the Willawarrin 100% progress figure.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0093",
+      "EV-0094",
+      "EV-0096"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0098",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2025-06-17",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Operational Plan 2025/26",
+    "source_type": "Council Record",
+    "source_location": "Council-hosted final Operational Plan 2025/26; EN.DP7 / EN.OP51",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Direct Council PDF/search extraction inspected, but no repository-preserved copy/hash has yet been created.",
+    "evidence_description": "The final 2025/26 Operational Plan carries EN.OP51 'Implement Integrated Water Cycle Management Strategy' under the objective of providing secure, reliable drinking water and required infrastructure. Its performance measure is completion of the IWCM Strategy issues paper. This establishes that implementation of the strategy remained an active 2025/26 Council work item. It does not establish that the IWCM Strategy or the associated Drought Management Plan revision was completed.",
+    "relevant_quotation": "EN.OP51 Implement Integrated Water Cycle Management Strategy",
+    "investigation_relevance": "Extends the documentary chain behind Q-0002: the same IWCM framework to which Council tied its 2020 Drought Management Plan revision remained a current operational-plan action in 2025/26.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0096",
+      "EV-0097"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
