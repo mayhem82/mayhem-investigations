@@ -1220,5 +1220,17 @@
     ],
     "reason": "Operator supplied Council Attachment 11.2.1 after automated retrieval had failed. SHA-256 verified original PDF; preserved repository provenance/extract manifest; added SRC-0122 / EV-0095 and CHR-0041; narrowed Q-0002; advanced THR-14; NOTE-0143 explicitly corrects the prior process failure by establishing that automated retrieval failure is not source unavailability and requires an immediate manual-capture target where the operator can capture the identified primary source. No cancellation/transfer inference remains for Bellbrook: the adopted 2026-27 plan carries W3024-WF / G00241-01 at $119,860 separately from Willawarrin.",
     "validation_completed": false
+  },
+  {
+    "change_id": "CHG-0079",
+    "date": "2026-09-22",
+    "author": "ChatGPT under operator direction",
+    "files_affected": [
+      "public-interest/index.html",
+      "data/investigation_notes.json",
+      "data/change_log.json"
+    ],
+    "reason": "Corrected public-facing translation of DFAPTI-BB-2026-00001 after operator identified Bellbrook weighting. Rebuilt the water explainer around the two-community case scope: shared history, Willawarrin current position, Bellbrook current position, then shared/town-specific unresolved questions. Preserved source boundaries and did not alter Evidence Register facts. Logged the translation-layer correction as NOTE-0145 so the public-site change is auditable.",
+    "validation_completed": false
   }
 ]
