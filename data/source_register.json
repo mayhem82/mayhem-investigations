@@ -1566,5 +1566,47 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-08",
     "availability_notes": "Retains W3024-WF Bellbrook WTP Augmentation (G00241-01) with $50,000 adopted 2025-26 budget."
+  },
+  {
+    "source_id": "SRC-0113",
+    "authority": "Kempsey Shire Council",
+    "title": "Water Supply Asset Management Plan",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Public indexed record checked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "Historical Bellbrook source, treatment, reservoir and emergency cartage architecture."
+  },
+  {
+    "source_id": "SRC-0114",
+    "authority": "NSW Parliament / NSW Department of Industry",
+    "title": "Supplementary Questions — Water, Property and Housing — Further hearings",
+    "type": "Parliamentary Record",
+    "url_or_file_location": "https://www.parliament.nsw.gov.au/lcdocs/other/13303/Supp%20Qs%20-%20Water%20Property%20and%20Housing%20-%20Further%20hearings.pdf",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Public indexed record checked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "Records $77,000 Bellbrook and $84,000 Willawarrin water-carting items."
+  },
+  {
+    "source_id": "SRC-0115",
+    "authority": "Kempsey Shire Council",
+    "title": "Annual Report 2022-23",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/20240214-annual-report-2022-23-hero-ab_1.pdf",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Public indexed record checked",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "Bellbrook WTP augmentation design status; awaiting NSW Health feedback on Raw Water Quality Report."
   }
 ]
