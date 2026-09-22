@@ -1303,5 +1303,14 @@
     "related_thread": "THR-14",
     "related_source": "SRC-0122",
     "related_evidence": "EV-0095"
+  },
+  {
+    "note_id": "NOTE-0146",
+    "timestamp": "2026-09-22T13:02:00+10:00",
+    "activity_type": "Researching",
+    "text": "Post-public-translation continuation searched Council primary sources for a newer W3024 delivery record, 2025-26 quarterly reporting, the Bellbrook treatment-process gap analysis and the Raw Water Catchment Category Assessment output. The search returned the already-known adopted 2025-26 plan ($50,000), 2023-24 Annual Report (augmentation behind target; catchment assessment finalised; process-gap-analysis scope being prepared), 2022-26 Delivery Program and older LTFP/2021-22 program records. No newer primary record was located that establishes Bellbrook physical works, expenditure, procurement, process-gap-analysis completion or completion date. No new Evidence Register item created; Q-0002 remains open.",
+    "related_thread": "THR-14",
+    "related_source": null,
+    "related_evidence": "EV-0095"
   }
 ]
