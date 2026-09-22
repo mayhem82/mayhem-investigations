@@ -2098,5 +2098,87 @@
     "open_question_links": [
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0081",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2013-01-01",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Water Supply Asset Management Plan",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/docs/policies-procedures/procedure-3-04-04-asset-management-plan-water-supply-2013.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public Council PDF indexed and read during this collection run; binary preservation/hash not performed in this connector session.",
+    "evidence_description": "Council's Bellbrook scheme description records two production bores drawing from the Macleay River shingle bed, a 0.1 ML reservoir, approximately 69 connections and an 18 ML/year licence allocation. It identifies poor/varying bore-water quality, including iron, manganese and historical arsenic, and states daily water-quality monitoring determined whether water was drawn from the Macleay River surface or carted by truck. It records that water carting from Kempsey, approximately 50 km away, at considerable cost was necessary when river turbidity prevented effective disinfection. It also records the Bellbrook treatment plant commissioned in 2010.",
+    "relevant_quotation": "Water carting from Kempsey (a distance of 50 km) at considerable cost was necessary when river turbidity (or muddiness) prevents disinfection of the water supply.",
+    "investigation_relevance": "Establishes that Bellbrook's emergency cartage dependency and raw-water vulnerability predate the later W3024 augmentation project. It supports the need to determine whether W3024 was intended to mitigate the same failure mode and whether cartage remains the current contingency.",
+    "classification": "Primary Evidence",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0079",
+      "EV-0080"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0082",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2020-01-01",
+    "source_authority": "NSW Parliament / NSW Department of Industry response material",
+    "source_title": "Supplementary Questions — Water, Property and Housing — Further hearings",
+    "source_type": "Parliamentary Record",
+    "source_location": "https://www.parliament.nsw.gov.au/lcdocs/other/13303/Supp%20Qs%20-%20Water%20Property%20and%20Housing%20-%20Further%20hearings.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public NSW Parliament PDF indexed and read during this collection run; binary preservation/hash not performed in this connector session.",
+    "evidence_description": "NSW parliamentary response material lists drought-response expenditure items including $84,000 for Willawarrin water carting and $77,000 for Bellbrook water carting.",
+    "relevant_quotation": "Willawarrin water carting ($84,000) ... Bellbrook water carting ($77,000)",
+    "investigation_relevance": "Provides a government-recorded fiscal consequence of emergency cartage affecting both upriver communities. It supports examination of whether later capital works changed the underlying emergency-supply architecture. The record does not by itself establish the precise cartage dates, volumes, source or future contingency.",
+    "classification": "Primary Evidence",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0001",
+      "EV-0002",
+      "EV-0081"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0083",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2023-06-30",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Annual Report 2022-23",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/20240214-annual-report-2022-23-hero-ab_1.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public Council PDF indexed and read during this collection run; binary preservation/hash not performed in this connector session.",
+    "evidence_description": "Council's 2022-23 Annual Report lists EN.OP25 Bellbrook Water Treatment Plant Augmentation with the performance measure that scope be defined and design work commenced. Council's status comment states it was awaiting NSW Health feedback on the Raw Water Quality Report before finalising design.",
+    "relevant_quotation": "Awaiting NSW Health feedback on Raw Water Quality Report prior to finalising design.",
+    "investigation_relevance": "Extends the Bellbrook project trail backward from EV-0077/EV-0078 and identifies a specific design dependency: NSW Health feedback on the Raw Water Quality Report. This creates a document trail into the later Raw Water Catchment Category Assessment and process-gap-analysis work.",
+    "classification": "Primary Evidence",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0077",
+      "EV-0078"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
