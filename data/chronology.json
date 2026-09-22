@@ -392,5 +392,15 @@
     "supporting_evidence": [
       "EV-0093"
     ]
+  },
+  {
+    "chronology_id": "CHR-0040",
+    "event_date": "2025-11-14",
+    "date_is_inference": false,
+    "event_description": "Council's November 2025 Actions Register still lists the Water Restrictions Implementation Review (item 9.3, originating 19 May 2020) as In Progress. Earlier detailed action-register records identify revision of the Drought Management Plan in conjunction with the Integrated Water Cycle Management Strategy as the substantive outstanding action.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0094"
+    ]
   }
 ]
