@@ -3802,5 +3802,17 @@
     "jurisdiction": "Kempsey Shire, NSW",
     "results_reviewed": 2,
     "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0318",
+    "search_terms": "site:kempsey.nsw.gov.au Bellbrook W3024 2026; Bellbrook WTP 2025-26 quarterly; Bellbrook process gap analysis; Bellbrook Raw Water Catchment Category Assessment",
+    "search_engine": "ChatGPT web search",
+    "database": null,
+    "date": "2026-09-22",
+    "time": "13:02+10:00",
+    "filters": "Kempsey Shire Council primary sources only",
+    "jurisdiction": "Kempsey Shire, NSW",
+    "results_reviewed": 6,
+    "results_preserved": 0
   }
 ]
