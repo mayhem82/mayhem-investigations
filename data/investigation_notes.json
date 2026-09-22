@@ -1276,5 +1276,14 @@
     "related_thread": "THR-14",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0143",
+    "timestamp": "2026-09-22T07:20:00+10:00",
+    "activity_type": "Correction",
+    "text": "Supersedes the evidence-gap posture recorded in NOTE-0142. The operator was able to view and capture Attachment 11.2.1 even though automated retrieval had failed. Rule correction: machine/tool retrieval failure is not source unavailability. When a specific public primary source is identified but automated capture fails, the investigation must immediately surface a manual-capture target with exact document identity, attachment number, search terms, page/context requirements and proof boundary; it must not infer absence. Attachment 11.2.1 has now been supplied, hashed and ingested as SRC-0122 / EV-0095.",
+    "related_thread": "THR-14",
+    "related_source": "SRC-0122",
+    "related_evidence": "EV-0095"
   }
 ]
