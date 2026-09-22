@@ -331,5 +331,36 @@
     "supporting_evidence": [
       "EV-0073"
     ]
+  },
+  {
+    "chronology_id": "CHR-0034",
+    "event_date": "2023-07-01",
+    "date_is_inference": true,
+    "event_description": "For the 2023-24 Operational Plan period, Council programs Bellbrook WTP Augmentation as EN.OP27 / W3024-WF with $218,900 capital budget and a performance measure that design work be completed. Willawarrin WTP remains a separate capital project.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0077"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0035",
+    "event_date": "2024-06-30",
+    "date_is_inference": true,
+    "event_description": "By the end of the 2023-24 reporting period, Council reports Bellbrook WTP Augmentation behind target. The Raw Water Catchment Category Assessment Report has been finalised; a treatment-plant process gap analysis is being scoped; Council attributes delay to competing organisational priorities and focus on the catchment assessment. The drinking-water annual report records no additional Bellbrook upgrade and ongoing augmentation planning.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0078",
+      "EV-0079"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0036",
+    "event_date": "2025-07-01",
+    "date_is_inference": true,
+    "event_description": "In the adopted 2025-26 Operational Plan, Bellbrook WTP Augmentation persists as W3024-WF / G00241-01 under the safe-and-reliable-drinking-water annual program with a $50,000 budget; Willawarrin remains separately listed.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0080"
+    ]
   }
 ]
