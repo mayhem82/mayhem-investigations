@@ -911,5 +911,25 @@
       "EV-0076"
     ],
     "notes": "Automated evidence-collection pass on DFAPTI-BB-2026-00001, chosen over DFAPTI-MNC-2026-00001 to keep the two cases' collection cadence roughly even (MNC's last genuine collection run was RUN-0011 on 2026-08-23; BB's was RUN-0068 on 2026-08-22, with RUN-0069/RUN-0070 being non-evidentiary Yield Gate/site-framing work rather than collection). Confirmed via a live control fetch (example.com) that WebFetch remains EGRESS_BLOCKED this session, same organizational egress policy as every prior run since DEC-0008/DEC-0012, while WebSearch functions normally; no attempt made to route around the block, per DEC-0006. Ran a 25-query multi-angle sweep (SRCH-0286 to SRCH-0310) per DEC-0014's full-surface cadence, covering Q-0001, Q-0002, Q-0003, Q-0005, Q-0006, Q-0007, Q-0008, Q-0009 and THR-03/05/06/07/08/09/10/12/13/14. One genuinely new finding registered: the previously-unlocated Drinking Water Management System Annual Water Quality Report for July 2022-June 2023 (EV-0076/SRC-0108), under a fourth distinct file-naming convention for this report series beyond the three already documented in EV-0065 - directly answers half of Q-0008; the 2021-2022 edition remains genuinely unlocated despite a further dedicated search this run. Investigated and ruled out a search-snippet lead suggesting a separate \"Bellbrook Water Treatment Plant\" project (Q-0002/THR-14) - a second, independently-worded search directly contradicted it; not registered as evidence. No new material found on Q-0001/Q-0003/Q-0005/Q-0007/Q-0009/THR-05/THR-06 beyond what is already on record; three further search-snippet corroborations of 14 September 2024 as Kempsey's council-election polling day (Q-0006) were found but remain short of this question's established bar of a preserved primary document, so Q-0006 is not newly closed. scripts/validate.js surfaced 5 pre-existing errors from RUN-0069/RUN-0070/NOTE-0134 unrelated to this run's own additions; recorded as DEC-0022 rather than edited, per this repository's append-only rule for Automation Log and Investigation Notes records."
+  },
+  {
+    "run_id": "RUN-0072",
+    "date": "2026-09-22",
+    "sources_checked": [
+      "SRC-0116",
+      "SRC-0117",
+      "SRC-0118",
+      "SRC-0120",
+      "SRC-0121"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0090",
+      "EV-0091",
+      "EV-0092",
+      "EV-0093",
+      "EV-0094"
+    ],
+    "notes": "Operator-directed continuation under site rules. Direct-source pass corrected the 2023-24 DWMS edition, established a Feb 2024 Bellbrook capital deferral, dated the 2020 Bellbrook cartage episode, captured the Aug 2026 Willawarrin connection milestone, and identified the 2020 Water Restrictions Implementation Review as still In Progress in Council's Nov 2025 Actions Register. Searches for the adopted 2026-27 Bellbrook W3024/G00241-01 line located Council's June 2026 adoption page and attachment listing but did not expose the Bellbrook-specific content; no cancellation/omission inference was made. Search activity logged SRCH-0311-SRCH-0314; notes NOTE-0141-NOTE-0142."
   }
 ]
