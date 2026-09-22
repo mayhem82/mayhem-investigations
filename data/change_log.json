@@ -1187,5 +1187,22 @@
     ],
     "reason": "Operator-directed Bellbrook augmentation evidence ingestion and corrective pass. Added EV-0077-EV-0089 and SRC-0109-SRC-0115, extended chronology CHR-0034-CHR-0036, and sharpened Q-0002. A recursive audit identified that EV-0077-EV-0083 had been ingested below MAYHEM's Source Before Analysis/provenance standard; append-only corrective records EV-0084-EV-0089 now explicitly preserve proof boundaries and downgrade unpreserved/ambiguous material rather than silently rewriting history. Further promotion requires preserved/hash-verified source copies where applicable.",
     "validation_completed": false
+  },
+  {
+    "change_id": "CHG-0077",
+    "date": "2026-09-22",
+    "author": "ChatGPT under operator direction",
+    "files_affected": [
+      "data/source_register.json",
+      "data/evidence_register.json",
+      "data/chronology.json",
+      "data/open_questions.json",
+      "data/threads.json",
+      "data/search_log.json",
+      "data/investigation_notes.json",
+      "data/automation_log.json"
+    ],
+    "reason": "RUN-0072 direct-source Bellbrook augmentation/drought-contingency continuation. Added SRC-0116-SRC-0121 and EV-0090-EV-0094; extended chronology to CHR-0040; sharpened Q-0002 and THR-14; logged searches and notes. Current 2026-27 Operational Plan adoption was located but Bellbrook-specific attachment content was not accessible/indexed, so no absence/cancellation inference was recorded. Validation not marked complete because the repository retains known pre-existing validator errors and this session has not executed the repository validator.",
+    "validation_completed": false
   }
 ]
