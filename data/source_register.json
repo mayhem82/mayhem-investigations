@@ -1706,5 +1706,47 @@
     "hash_status": "SHA-256 verified: 217063a477685f55e41478e64a099b43e69307c24a4599c12cc4662e5912355e",
     "associated_thread": "THR-14",
     "availability_notes": "Adopted 2026-27 capital program records W3024-WF Bellbrook WTP Augmentation (G00241-01) $119,860 under EN.OP44. Willawarrin WTP (G00206-01) is separately listed at $589,329. Source does not establish physical completion, expenditure, procurement, drought redundancy or interconnection."
+  },
+  {
+    "source_id": "SRC-0123",
+    "authority": "Kempsey Shire Council",
+    "title": "Action Register — February 2023",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/action-registers/action-register-february-2023.pdf",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Council-hosted February 2023 Action Register; Water Restrictions Implementation Review item 9.3 at PDF pages 18-19.",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-02",
+    "availability_notes": "Detailed primary-source history for the 19 May 2020 Water Restrictions Implementation Review. Council resolved to revise the Drought Management Plan in accordance with review recommendations in conjunction with the Integrated Water Cycle Management Strategy. Updates from Aug 2020 through Feb 2023 repeatedly state the revision was underway/unchanged/awaiting implementation of the Integrated Water Cycle Management Plan. This supplies the missing substantive action behind the later summary status in SRC-0121."
+  },
+  {
+    "source_id": "SRC-0124",
+    "authority": "Kempsey Shire Council",
+    "title": "Operational Plan 2025/26",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Council-hosted final 2025/26 Operational Plan.",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-02",
+    "availability_notes": "Under EN.DP7, EN.OP51 requires implementation of the Integrated Water Cycle Management Strategy, with completion of the IWCM Strategy issues paper as the 2025/26 performance measure. Relevant because the unresolved 2020 Drought Management Plan revision was expressly tied to development/implementation of the IWCM framework."
+  },
+  {
+    "source_id": "SRC-0125",
+    "authority": "Kempsey Shire Council",
+    "title": "Annual Report Part B — statutory requirements / Delivery Program progress",
+    "type": "Council Record",
+    "url_or_file_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/annual-report/annual-report-part-b_statutory-requirements.pdf",
+    "first_checked": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "current_version": "Council-hosted annual-report Part B; water-program progress table page 7.",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-02",
+    "availability_notes": "Reports EN.OP24 Integrated Water Cycle Management Strategy at 70% progress, with consultant delays and a new expected delivery date of January 2026. Also reports EN.OP25 Willawarrin WTP at 100% against the specific performance measure 'Detailed design complete and construction commenced by June 2025'; that percentage must not be misread as proof that the plant itself was commissioned or operational."
   }
 ]
