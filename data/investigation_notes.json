@@ -1294,5 +1294,14 @@
     "related_thread": "THR-14",
     "related_source": "SRC-0122",
     "related_evidence": "EV-0095"
+  },
+  {
+    "note_id": "NOTE-0145",
+    "timestamp": "2026-09-22T13:02:00+10:00",
+    "activity_type": "Public Translation",
+    "text": "Public-facing translation layer corrected after operator identified Bellbrook weighting. The Willawarrin/Bellbrook water card is now structured symmetrically: shared failure/system history first; a separate current-position section for Willawarrin; a separate current-position section for Bellbrook; then unresolved questions applying to each or both. Willawarrin now includes the new WTP, 30 Aug 2026 connection milestone and $589,329 adopted 2026-27 allocation. Bellbrook retains the verified W3024-WF / G00241-01 $119,860 allocation and delivery-status uncertainty. The public wording explicitly preserves the evidence boundary that no Bellbrook-Willawarrin interconnection has been established. No Evidence Register facts were changed by this translation-layer correction.",
+    "related_thread": "THR-14",
+    "related_source": "SRC-0122",
+    "related_evidence": "EV-0095"
   }
 ]
