@@ -931,5 +931,23 @@
       "EV-0094"
     ],
     "notes": "Operator-directed continuation under site rules. Direct-source pass corrected the 2023-24 DWMS edition, established a Feb 2024 Bellbrook capital deferral, dated the 2020 Bellbrook cartage episode, captured the Aug 2026 Willawarrin connection milestone, and identified the 2020 Water Restrictions Implementation Review as still In Progress in Council's Nov 2025 Actions Register. Searches for the adopted 2026-27 Bellbrook W3024/G00241-01 line located Council's June 2026 adoption page and attachment listing but did not expose the Bellbrook-specific content; no cancellation/omission inference was made. Search activity logged SRCH-0311-SRCH-0314; notes NOTE-0141-NOTE-0142."
+  },
+  {
+    "run_id": "RUN-0073",
+    "date": "2026-09-22",
+    "sources_checked": [
+      "SRC-0122",
+      "SRC-0123",
+      "SRC-0124",
+      "SRC-0125"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0095",
+      "EV-0096",
+      "EV-0097",
+      "EV-0098"
+    ],
+    "notes": "Continuation after operator-supplied 2026-27 Operational Plan and renewed DFAPTI evidence ingestion. EV-0095 closed the Bellbrook 2026-27 program-presence gap. This pass then traced the drought-governance dependency behind Q-0002: detailed February 2023 Action Register history confirms the 2020 Drought Management Plan revision was expressly tied to IWCM and remained awaiting that framework; 2025 reporting shows IWCM at 70% with a revised January 2026 expected delivery date; the final 2025/26 Operational Plan still carries IWCM implementation as an active action. The same 2025 progress table marks Willawarrin WTP at 100% only against 'detailed design complete and construction commenced', so no commissioning inference is permitted. New sources remain Requires Verification until preserved/hash-verified."
   }
 ]
