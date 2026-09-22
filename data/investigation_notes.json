@@ -1258,5 +1258,23 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0141",
+    "timestamp": "2026-09-22T07:00:00+10:00",
+    "activity_type": "Finding",
+    "text": "Direct current-source pass found the November 2025 Council Actions Register still listing the 19 May 2020 Water Restrictions Implementation Review (item 9.3) as In Progress. Earlier detailed Council action-register material identifies revision of the Drought Management Plan in conjunction with the Integrated Water Cycle Management Strategy as the substantive action. Registered as SRC-0121 / EV-0094 and linked to Q-0002 because Bellbrook's historical cartage episode was managed within that drought-response framework.",
+    "related_thread": "THR-02",
+    "related_source": "SRC-0121",
+    "related_evidence": "EV-0094"
+  },
+  {
+    "note_id": "NOTE-0142",
+    "timestamp": "2026-09-22T07:05:00+10:00",
+    "activity_type": "Researching",
+    "text": "Located Council's 16 June 2026 meeting page and 19 June 2026 meeting wrap confirming adoption of the 2026-27 Operational Plan and a capital-program reduction from $169m to $63m through project deferrals rather than savings. The meeting page exposes attachment 11.2.1 (2026-27 Operational Plan), but the attachment fetch path currently returns 404 through the research interface and search indexing did not expose Bellbrook/W3024/G00241-01 content. Therefore no claim is made yet about Bellbrook's presence or absence in the adopted 2026-27 plan. This remains an explicit evidence gap rather than an inferred cancellation.",
+    "related_thread": "THR-14",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
