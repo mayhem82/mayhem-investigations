@@ -2180,5 +2180,67 @@
     "open_question_links": [
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0084",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2023-06-01",
+    "source_authority": "Kempsey Shire Council / IPART-hosted Council attachment",
+    "source_title": "Delivery Program 2022-2026 & Operational Plan 2023-2024",
+    "source_type": "Council Record",
+    "source_location": "https://www.ipart.nsw.gov.au/sites/default/files/cm9_documents/Kempsey-Shire-Council-Attachment-Delivery-Program-Delivery-Program-2022_26-Operational-Plan-2023_24.PDF",
+    "source_locator": "Page 071",
+    "retrieval_date": "2026-09-22",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Source was retrieved as a public indexed record in this run; repository preservation and binary hash have not yet been completed. This record is therefore not treated as a preserved forensic copy.",
+    "evidence_description": "Primary Council planning record. Page 071 places Bellbrook in the water capital program as EN.OP27, identifies it as a New project, work order W3024-WF Bellbrook WTP Augmentation, Capex $218,900. On the same page Willawarrin is EN.OP24, Multi-year Project, W1344-WF Willawarrin WTP, Capex $1,606,146.",
+    "relevant_quotation": "EN.OP27 — Bellbrook Water Treatment Plant (WTP) Augmentation — New project — W3024-WF Bellbrook WTP Augmentation; Capex — 218,900",
+    "proof_boundary": "Proves Bellbrook and Willawarrin were distinct simultaneously programmed projects in the 2023-24 plan. Does not prove expenditure, construction, completion, cancellation or transfer of funds.",
+    "investigation_relevance": "Corrective uncompressed evidence record for EV-0077. Preserves exact source identity, direct source URL, locator, evidentiary extract, retrieval date and proof boundary.",
+    "classification": "Primary Evidence",
+    "verification_state": "Source Verified — Preservation Pending",
+    "verification_basis": "Direct public government/Council record retrieved and its relevant text independently indexed in the research run. Forensic preservation/hash remains outstanding.",
+    "relationships": [
+      "EV-0077"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ],
+    "supersedes_or_corrects": "EV-0077"
+  },
+  {
+    "evidence_id": "EV-0085",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2025-06-01",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Operational Plan 2025-26 — adopted Council-hosted version",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+    "source_locator": "Capital-program table under EN.OP43; indexed Council-hosted adopted PDF",
+    "retrieval_date": "2026-09-22",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Source was retrieved as a public indexed record in this run; repository preservation and binary hash have not yet been completed. This record is therefore not treated as a preserved forensic copy.",
+    "evidence_description": "Primary adopted Council planning record. Under EN.OP43, 'Provide safe and reliable drinking water to the community via approximately 12,000 connections', W3024-WF Bellbrook WTP Augmentation (G00241-01) carries $50,000. EN.OP46 separately lists W1344-WF Willawarrin WTP (G00206-01), $4,825,295.",
+    "relevant_quotation": "W3024-WF Bellbrook WTP Augmentation (G00241-01) — 50,000",
+    "proof_boundary": "Proves W3024/G00241-01 remained in the adopted 2025-26 program. Does not prove the $50,000 was spent or establish physical delivery. A separately indexed consultation/draft copy states $169,860, so version reconciliation remains required.",
+    "investigation_relevance": "Corrective uncompressed evidence record for EV-0080. Preserves exact source identity, direct source URL, locator, evidentiary extract, retrieval date and proof boundary.",
+    "classification": "Primary Evidence",
+    "verification_state": "Source Verified — Preservation Pending",
+    "verification_basis": "Direct public government/Council record retrieved and its relevant text independently indexed in the research run. Forensic preservation/hash remains outstanding.",
+    "relationships": [
+      "EV-0080"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ],
+    "supersedes_or_corrects": "EV-0080"
   }
 ]
