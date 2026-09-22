@@ -2352,5 +2352,118 @@
     "open_question_links": [
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0090",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2024-02-20",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Ordinary Council Meeting 20 February 2024 — Q2 2023-24 Quarterly Budget Review Statements",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2024/business-papers/ordinary_council_meeting_-_20__x5avi_0l4k-so8i8e2xumg.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Direct Council source inspected, but no repository-preserved copy/hash has yet been created; retained as Requires Verification under Source Before Analysis.",
+    "evidence_description": "Council's Q2 2023-24 capital budget review lists Bellbrook water treatment plant augmentation among Renewals – Water reductions associated with projects partially or fully deferred to the next financial year, with a $0.2 million reduction. This establishes a dated financial deferral in the Bellbrook augmentation trajectory. It does not establish cancellation, transfer to Willawarrin, or the reason specific to Bellbrook.",
+    "relevant_quotation": "Bellbrook water treatment plant augmentation.",
+    "investigation_relevance": "Adds a concrete 20 February 2024 budget-deferral point between the earlier programmed/design stages and the later 2023-24 annual-report explanation of delay. It strengthens Q-0002's requirement for an expenditure and delivery trail.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0077",
+      "EV-0078",
+      "EV-0080"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0091",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2024-06-30",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report 2023-2024",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/2/docs/departments/water-amp-sewer/dwms-annual-wq-report-2023-2024.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Correct Council-hosted edition has now been located directly, resolving EV-0079/EV-0089's URL-edition ambiguity, but no repository-preserved copy/hash exists yet.",
+    "evidence_description": "The correct Council-hosted 2023-24 DWMS annual report identifies Bellbrook as a standalone supply serving approximately 100 people, with treatment capacity of 140 kL/day and source water from a Macleay River bore within the river for gravel-bed extraction. Treatment is described as multi-media filtration including arsenic removal, coagulation, soda-ash pH correction and sodium-hypochlorite chlorination. The report records 'No additional upgrades' for 2023-24 and separately notes 'Ongoing planning of WTP augmentation'. Willawarrin is separately listed as drawing surface water from a Macleay River-edge bore for gravel-bed extraction. This establishes shared Macleay River-related source architecture but does not establish identical bore yield, failure thresholds or a physical interconnection.",
+    "relevant_quotation": "Ongoing planning of WTP augmentation",
+    "investigation_relevance": "Resolves the source-edition ambiguity quarantined by EV-0089 and directly grounds the 2023-24 Bellbrook architecture/augmentation-planning facts. It also sharpens the common-mode drought question without assuming that the two village supplies fail identically.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0079",
+      "EV-0089",
+      "EV-0078"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0092",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2020-06-30",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Water Quality Report 2019-2020",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2019-2020.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Direct Council source located but not yet repository-preserved/hashed.",
+    "evidence_description": "Council's crisis-year DWMS report records intermittent water carting to Bellbrook and Thunggutti during the height of the November 2019 bushfire emergency, then records Bellbrook water carting commencing on 13 January 2020 and ceasing on 18 June 2020. It also states that a water-restriction review completed in May 2020 addressed actions initiated from the Drought Response Strategy and Drought Recovery Strategy sections of Council's Drought Management Plan.",
+    "relevant_quotation": "Water carting to the Bellbrook supply commenced on 13 January 2020 and ceased on the 18 June 2020.",
+    "investigation_relevance": "Provides direct Council timing for Bellbrook's prolonged 2020 cartage episode and identifies the Drought Management Plan/2020 restriction review as the primary documentary path for historical contingency triggers. It does not establish the current 2026 contingency.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0001",
+      "EV-0002",
+      "EV-0087",
+      "EV-0088"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0093",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2026-08-30",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Willawarrin Water Treatment Plant — current works update",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/Your-Valley/Ongoing-works-in-the-shire/Major-projects/Current-works/Willawarrin-Water-Treatment-Plant",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Live Council page directly checked but not yet preserved/hashed in repository.",
+    "evidence_description": "Council's current Willawarrin project page records a planned six-hour water outage on 30 August 2026 to connect the new Water Treatment Plant to the Willawarrin town water supply. The page describes the project as intended to reduce Willawarrin's dependence on water carting. This is evidence of a connection milestone for the Willawarrin project. It is not evidence that the plant had already completed commissioning by that date, and it contains no statement that the plant will supply Bellbrook.",
+    "relevant_quotation": "connect the new Water Treatment Plant to the town water supply",
+    "investigation_relevance": "Materially updates Q-0001's current-status evidence and places a hard boundary on Q-0002: the current Council page describes Willawarrin's own connection and cartage-reduction purpose but supplies no evidence of a Bellbrook interconnection or backup role.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0006",
+      "EV-0068"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002"
+    ]
   }
 ]
