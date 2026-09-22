@@ -2071,5 +2071,32 @@
     "open_question_links": [
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0080",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2025-06-01",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Operational Plan 2025-26 - adopted Council-hosted version",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/op-2025-26-vfinal.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public Council PDF indexed and read during this collection run; binary preservation/hash not performed in this connector session.",
+    "evidence_description": "The adopted Council-hosted 2025-26 Operational Plan retains Bellbrook WTP Augmentation as W3024-WF (G00241-01) under EN.OP43, 'Provide safe and reliable drinking water to the community via approximately 12,000 connections', with a $50,000 2025-26 budget. Willawarrin remains separately listed under EN.OP46 as W1344-WF (G00206-01). A separately indexed earlier/draft copy exposes $169,860 against Bellbrook W3024; that discrepancy is not resolved by this record and requires version reconciliation.",
+    "relevant_quotation": "W3024-WF Bellbrook WTP Augmentation (G00241-01) 50,000",
+    "investigation_relevance": "Shows Bellbrook augmentation had not simply disappeared by 2025-26: its work order persisted in the adopted capital program, though at a smaller allocation than earlier years and no longer as the earlier standalone named OP action. This sharpens Q-0002 toward scope, expenditure, delivery stage and present status rather than presumed cancellation.",
+    "classification": "Primary Evidence",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0077",
+      "EV-0078"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
