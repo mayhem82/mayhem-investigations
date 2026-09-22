@@ -402,5 +402,15 @@
     "supporting_evidence": [
       "EV-0094"
     ]
+  },
+  {
+    "chronology_id": "CHR-0041",
+    "event_date": "2026-06-16",
+    "date_is_inference": false,
+    "event_description": "Council adopts the 2026-27 Operational Plan. Appendix 2 carries Bellbrook WTP Augmentation as W3024-WF / G00241-01 with $119,860, separately from Willawarrin WTP W1344-WF / G00206-01 at $589,329. This establishes continued programming, not physical completion or expenditure.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0095"
+    ]
   }
 ]
