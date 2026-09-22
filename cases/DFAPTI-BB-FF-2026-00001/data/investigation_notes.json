@@ -376,5 +376,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": "EV-0023"
+  },
+  {
+    "note_id": "NOTE-0043",
+    "timestamp": "2026-09-22T00:00:00Z",
+    "activity_type": "Researching",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 27' before proceeding. Read README.md, SPEC.md, decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires. Local main was a detached HEAD matching origin/main after fetching; checked out main and reset it onto origin/main - nothing was stranded. Confirmed by direct anchor comparison that every EV-0001 through EV-0023 item remains cited by at least one existing path; only EV-0024 and EV-0025 remain unanchored, both still outside DFAPTA Cycle 1's frozen basis. Rather than extend CPO-010's claims-vs-record pattern an eleventh time, re-read the council-submission letter, the Ombudsman complaint and the Greens senator letter in full again, having noticed AR-058/CPO-016's own citation-completeness finding had previously been checked only against evidence_register.json, never against chronology.json. Found chronology.json's CHR-0004 (27 August 2025 community meeting) and CHR-0005 (16 September 2025 door-to-door visits) each cite only EV-0004, despite the Ombudsman complaint independently restating both dated events in near-identical language and the council-submission letter independently referencing the same consultation at month-level grain; and CHR-0007 (the 18 March 2026 letter's own no-outcome-disclosed content) cites only EV-0004, despite the council-submission letter, the Ombudsman complaint and the Media Pitch each independently restating the identical claim. Checked against source_register.json first: none of SRC-0006, SRC-0007, SRC-0008 or SRC-0011's own entries record this chronology.json crediting gap, so this is a genuinely new finding. Checked CHR-0002 (2022 Rudder Park plan) for the same pattern since the Media Pitch also restates that fact - found it is the same gap AR-058 already named at the evidence_register.json layer, not a new instance, so it was not double-counted. Added AR-063 (59 paths total). Recursive-audit follow-up per SPEC.md §4: checked every other chronology.json entry (CHR-0001, CHR-0003, CHR-0006, CHR-0008) for the same pattern - none show it, for reasons logged in DEC-0043. Checked whether this renders AR-008 or AR-011 inaccurate rather than merely incomplete - concluded neither is wrong, so both left unedited. Swept the case's own index.html, dfapta/index.html, and every other repository page referencing this case for stale pass-number/path-count framing beyond what this pass itself updates - none found. See DEC-0043 for the corresponding decision-register entry.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0004"
   }
 ]
