@@ -2465,5 +2465,31 @@
       "Q-0001",
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0094",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2025-11-14",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Council Actions Register — November 2025",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/action-registers/20251114-actions-register-nov-25.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Direct Council PDF inspected and exact page/line location established, but no repository-preserved copy/hash has yet been created.",
+    "evidence_description": "Council's November 2025 Actions Register lists the 19 May 2020 item 9.3 'Water Restrictions Implementation Review' as 'In Progress'. Earlier Council action-register detail for the same item states that Council resolved to revise the Drought Management Plan in accordance with the 2020 review recommendations in conjunction with development of the Integrated Water Cycle Management Strategy. This evidence establishes that the Council action remained formally open more than five years after the drought review. It does not establish which individual Drought Management Plan revisions remained incomplete in November 2025, nor whether the action was completed after that register.",
+    "relevant_quotation": "19/05/2020 9.3 Water Restrictions Implementation Review — In Progress",
+    "investigation_relevance": "Creates a governance/document-control path directly relevant to Bellbrook's current drought contingency. Because Bellbrook's 2020 cartage episode was managed under the Drought Management Plan framework, the continuing open status of the implementation review makes the current adopted DMP and completion status material evidence for Q-0002.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0092"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
