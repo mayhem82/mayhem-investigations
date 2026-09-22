@@ -1995,5 +1995,29 @@
     "open_question_links": [
       "Q-0008"
     ]
+  },
+  {
+    "evidence_id": "EV-0077",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2023-06-01",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Delivery Program 2022-2026 & Operational Plan 2023-2024",
+    "source_type": "Council Record",
+    "source_location": "https://www.ipart.nsw.gov.au/sites/default/files/cm9_documents/Kempsey-Shire-Council-Attachment-Delivery-Program-Delivery-Program-2022_26-Operational-Plan-2023_24.PDF",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Registered from publicly indexed government/regulatory-hosted document during this collection run; binary preservation/hash not performed in this connector session.",
+    "evidence_description": "Council's 2023-24 Operational Plan separately programs Willawarrin WTP and Bellbrook WTP Augmentation. Bellbrook appears as EN.OP27, a new project, work order W3024-WF, with a 2023-24 capital budget of $218,900 and performance measure 'Design work completed'. Willawarrin appears separately as EN.OP24, W1344-WF, with a $1,606,146 capital budget.",
+    "relevant_quotation": "W3024-WF Bellbrook WTP Augmentation; Capex 218,900",
+    "investigation_relevance": "Establishes that Bellbrook augmentation and Willawarrin replacement WTP were distinct, simultaneously programmed capital projects in 2023-24. It does not support an inference that Bellbrook funding was transferred to Willawarrin. Material to Q-0002 and the Bellbrook augmentation trajectory.",
+    "classification": "Primary Evidence",
+    "verification_state": "Verified",
+    "relationships": [],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
