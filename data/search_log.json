@@ -3766,5 +3766,41 @@
     "jurisdiction": "Kempsey Shire, NSW",
     "results_reviewed": 10,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0315",
+    "search_terms": "W3024-WF Bellbrook 2026 Kempsey; G00241-01 Bellbrook; Bellbrook WTP Augmentation Kempsey 2026; Bellbrook WTP 119,860 Kempsey",
+    "search_engine": "ChatGPT web search",
+    "database": null,
+    "date": "2026-09-22",
+    "time": "13:02+10:00",
+    "filters": "Kempsey Shire Council primary sources prioritised",
+    "jurisdiction": "Kempsey Shire, NSW",
+    "results_reviewed": 5,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0316",
+    "search_terms": "Bellbrook Water Treatment Plant process gap analysis Kempsey; Raw Water Catchment Category Assessment Bellbrook; W3024 quarterly Kempsey 2026; Bellbrook W3024 2025-26 quarterly",
+    "search_engine": "ChatGPT web search",
+    "database": null,
+    "date": "2026-09-22",
+    "time": "13:02+10:00",
+    "filters": "Kempsey Shire Council primary sources prioritised",
+    "jurisdiction": "Kempsey Shire, NSW",
+    "results_reviewed": 3,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0317",
+    "search_terms": "119,860 Bellbrook Kempsey; 169,860 Bellbrook Kempsey; 50,000 Bellbrook WTP Augmentation Kempsey; 119860 W3024 Kempsey",
+    "search_engine": "ChatGPT web search",
+    "database": null,
+    "date": "2026-09-22",
+    "time": "13:02+10:00",
+    "filters": "Kempsey Shire Council primary sources prioritised",
+    "jurisdiction": "Kempsey Shire, NSW",
+    "results_reviewed": 2,
+    "results_preserved": 0
   }
 ]
