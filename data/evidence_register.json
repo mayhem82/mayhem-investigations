@@ -2045,5 +2045,31 @@
     "open_question_links": [
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0079",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2024-06-17",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Drinking Water Management System Annual Report 2023-2024",
+    "source_type": "Council Record",
+    "source_location": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/dwms-annual-wq-report-2022-2023_v.1_final.1.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public Council PDF indexed and read during this collection run; binary preservation/hash not performed in this connector session.",
+    "evidence_description": "Council's system table records Bellbrook as supplied by surface water from the Macleay River through a bore within the river for gravel-bed extraction. Treatment is multi-media filtration including arsenic removal, coagulation, soda ash for pH correction and sodium-hypochlorite chlorination; capacity 140 kL/day; population serviced approximately 100. For 2023-24 it records no additional upgrades and 'Ongoing planning of WTP augmentation'. The same table records Willawarrin as Macleay River surface water through a bore on the river edge for gravel-bed extraction, capacity 200 kL/day, with planning for a new WTP.",
+    "relevant_quotation": "No additional upgrades ... Ongoing planning of WTP augmentation",
+    "investigation_relevance": "Establishes the then-current Bellbrook treatment architecture and continued augmentation planning, while documenting that both Bellbrook and Willawarrin depend on Macleay River gravel-bed extraction. This supports investigation of common-mode drought/raw-water vulnerability but does not establish identical bore yield or failure thresholds.",
+    "classification": "Primary Evidence",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0078"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
