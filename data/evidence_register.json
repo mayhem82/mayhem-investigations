@@ -2603,5 +2603,34 @@
     "open_question_links": [
       "Q-0002"
     ]
+  },
+  {
+    "evidence_id": "EV-0099",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-22",
+    "source_date": "2026-09-22",
+    "source_authority": "Kempsey Shire Council",
+    "source_title": "Willawarrin Water Treatment Plant — current works page",
+    "source_type": "Council Web Page",
+    "source_location": "https://www.kempsey.nsw.gov.au/Your-Valley/Ongoing-works-in-the-shire/Major-projects/Current-works/Willawarrin-Water-Treatment-Plant",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Live Council webpage directly inspected on 22 September 2026; no repository-preserved HTML snapshot/hash has yet been created.",
+    "evidence_description": "Council's current Willawarrin WTP page states construction is nearing completion and the project has entered the commissioning phase. Council defines that phase as testing the plant's mechanical, electrical and hydraulic systems to confirm correct operation and required performance before handover. The page retains the planned 30 August 2026 town-supply connection outage and announces a community celebration for 16 October 2026 to mark completion. This directly establishes that the project had advanced into commissioning, but the current page does not state that commissioning or handover is complete. It therefore narrows Q-0001 from whether commissioning has begun to whether commissioning, compliant performance verification and operational handover have been completed.",
+    "relevant_quotation": "Construction of the new Willawarrin Water Treatment Plant is nearing completion, and the project has now entered the commissioning phase.",
+    "investigation_relevance": "Provides the strongest current Council status evidence for Willawarrin. It supersedes any inference that the 30 August connection milestone itself proved operational completion and establishes commissioning as the current documented state.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0006",
+      "EV-0068",
+      "EV-0093",
+      "EV-0097"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001"
+    ]
   }
 ]
