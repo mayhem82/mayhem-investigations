@@ -412,5 +412,25 @@
     "supporting_evidence": [
       "EV-0095"
     ]
+  },
+  {
+    "chronology_id": "CHR-0042",
+    "event_date": "2023-02-07",
+    "date_is_inference": false,
+    "event_description": "Council's detailed Action Register still records the 2020 Water Restrictions Implementation Review as In Progress. The outstanding Drought Management Plan revision is described as awaiting implementation of the Integrated Water Cycle Management Plan after repeated unchanged updates since 2020.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0096"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0043",
+    "event_date": "2025-06-30",
+    "date_is_inference": false,
+    "event_description": "Council reports the Integrated Water Cycle Management Strategy action at 70% progress, with consultant delays and a revised expected delivery date of January 2026. The same progress table marks the Willawarrin WTP action at 100% against the narrower milestone of detailed design complete and construction commenced, not plant commissioning.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0097"
+    ]
   }
 ]
