@@ -385,5 +385,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": "EV-0004"
+  },
+  {
+    "note_id": "NOTE-0044",
+    "timestamp": "2026-09-23T00:00:00Z",
+    "activity_type": "Researching",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 28' before proceeding. Read README.md, SPEC.md, decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires. Local main was a detached HEAD matching origin/main after fetching; checked out main and reset it onto origin/main - nothing was stranded. Confirmed this case (DFAPTI-BB-FF-2026-00001) is distinct from DFAPTI-BB-2026-00001, whose own same-day commits (SRC-0127, Q-0002, THR-14) share a similar commit-message prefix and locality name but belong to that other case entirely; no new commits had landed against this case's own files since RUN-0082. Confirmed by direct anchor comparison that every EV-0001 through EV-0023 item remains cited by at least one existing path; only EV-0024 and EV-0025 remain unanchored, both still outside DFAPTA Cycle 1's frozen basis. Re-read all eight preserved primary-source documents in full again. Having noticed AR-063 had already re-read the council-submission letter and the Ombudsman complaint in full for a chronology.json check, re-read both again against EV-0011's funding/grant-program claim instead. Found the council-submission letter and the Ombudsman complaint restate EV-0011's plan-gated grants program claim in near-identical language to the Harm and Accountability Record's own already-credited phrasing, and the Greens senator letter restates the same substance more loosely; none of the three is credited in EV-0011's own source_location, which currently names only two documents. Checked against source_register.json first: none of SRC-0008, SRC-0009 or SRC-0011's own entries record this connection to EV-0011, so this is a genuinely new finding. Added AR-064 (60 paths total). Extended CPO-016 (anchors, analysis, and title) to record this as a second instance of the same under-crediting pattern beyond the Media Pitch, rather than minting a new cross-path observation. Recursive-audit follow-up per SPEC.md §4: checked this does not double-count AR-063's own chronology.json finding (different file, different evidence item); checked whether EV-0011's or EV-0005's other documents needed further correction - none did. Swept the case's own index.html, dfapta/index.html, and every other repository page referencing this case for stale pass-number/path-count framing beyond what this pass itself updates - none found. See DEC-0044 for the corresponding decision-register entry.",
+    "related_thread": "THR-01",
+    "related_source": null,
+    "related_evidence": "EV-0011"
   }
 ]
