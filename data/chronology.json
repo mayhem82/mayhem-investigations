@@ -442,5 +442,26 @@
     "supporting_evidence": [
       "EV-0099"
     ]
+  },
+  {
+    "chronology_id": "CHR-0045",
+    "event_date": "2026-09-23",
+    "date_is_inference": false,
+    "event_description": "Council CEO response, conveying Utilities Directorate advice after referral by the Mayor, confirms Bellbrook WTP Augmentation remains planned and intended to progress after earlier deferral due competing organisational priorities. Council says an internal Bellbrook infrastructure/planning inspection is scheduled for mid-October 2026.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0100"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0046",
+    "event_date": "2026-09-23",
+    "date_is_inference": false,
+    "event_description": "Council states Bellbrook's current emergency contingency when its local river source is inadequate or unsuitable is water cartage from Kempsey. During extended drought, Council says emergency water may be sourced from Kempsey groundwater and Steuarts McIntyre Dam off-creek storage and carted to Bellbrook and Willawarrin as required; Council expressly states Willawarrin WTP is separate from Bellbrook.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0101",
+      "EV-0102"
+    ]
   }
 ]
