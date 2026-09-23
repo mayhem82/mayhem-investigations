@@ -2632,5 +2632,89 @@
     "open_question_links": [
       "Q-0001"
     ]
+  },
+  {
+    "evidence_id": "EV-0100",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-23",
+    "source_date": "2026-09-23",
+    "source_authority": "Kempsey Shire Council — CEO Andrew Meddle conveying Utilities Directorate advice",
+    "source_title": "CEO response to questions referred by Mayor — Bellbrook WTP Augmentation",
+    "source_type": "Direct Correspondence",
+    "source_location": "Operator-supplied email text; addressed to Mr Minko and transmitted by Council CEO after Mayor referral",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Complete email body supplied as pasted correspondence in the investigation conversation. Original .eml/message headers or other independently hashable source file have not been supplied, so authenticity/provenance beyond the supplied text is not promoted to hash-verified status.",
+    "evidence_description": "Council states directly that the Bellbrook Water Treatment Plant Augmentation remains in forward planning, Council still intends to progress it, and delivery had previously been deferred because of competing organisational priorities. Council's Water and Sewer Infrastructure Planning and Operations teams have an internal Bellbrook site inspection scheduled for mid-October to review existing infrastructure and future planning requirements. The response does not provide a construction/completion date, defined augmentation scope, expenditure position or committed procurement/construction milestone.",
+    "relevant_quotation": "The Bellbrook Water Treatment Plant Augmentation remains planned, although its delivery has previously been deferred due to competing organisational priorities.",
+    "investigation_relevance": "Directly answers the project-existence/intention component of Q-0002 and independently corroborates the documentary deferral/programming chain in EV-0090/EV-0095. It materially narrows the remaining delivery question to post-inspection scope, timing, expenditure and physical implementation.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0090",
+      "EV-0095"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0101",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-23",
+    "source_date": "2026-09-23",
+    "source_authority": "Kempsey Shire Council — CEO Andrew Meddle conveying Utilities Directorate advice",
+    "source_title": "CEO response — Bellbrook current drought and emergency water-supply contingency",
+    "source_type": "Direct Correspondence",
+    "source_location": "Operator-supplied email text; response items 3-5",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Complete email body supplied as pasted correspondence in the investigation conversation; original .eml/message headers or hashable source file not yet supplied.",
+    "evidence_description": "Council states Bellbrook's primary source remains the local river supply and identifies prolonged drought, insufficient river flow and high turbidity following flooding as circumstances in which that source may be inadequate or unsuitable. Council states water cartage from Kempsey remains Bellbrook's current emergency contingency. For extended drought where local river flows are insufficient and no suitable surface water is available, Council states emergency supplies can be sourced from Kempsey's groundwater aquifer and Steuarts McIntyre Dam off-creek storage and then carted to Bellbrook and Willawarrin as required. Council recognises the risk that both communities may require cartage during an extended drought and says longer-term planning aims to improve resilience while retaining those broader Kempsey sources. The correspondence does not specify trigger thresholds, available emergency volumes, tanker/logistics capacity, storage/demand assumptions, cost, service-duration limits or priority rules during simultaneous demand.",
+    "relevant_quotation": "Water cartage from Kempsey remains the current emergency contingency for Bellbrook when the local source cannot be relied upon.",
+    "investigation_relevance": "Substantially answers the current-contingency component of Q-0002 with direct Council advice and identifies the present emergency architecture. It also creates a narrower resilience/capacity evidence requirement: whether the stated Kempsey source-and-cartage arrangement is quantitatively adequate during simultaneous Bellbrook/Willawarrin drought demand.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0092",
+      "EV-0094",
+      "EV-0096",
+      "EV-0100"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
+  },
+  {
+    "evidence_id": "EV-0102",
+    "case_id": "DFAPTI-BB-2026-00001",
+    "recording_date": "2026-09-23",
+    "source_date": "2026-09-23",
+    "source_authority": "Kempsey Shire Council — CEO Andrew Meddle conveying Utilities Directorate advice",
+    "source_title": "CEO response — Willawarrin separation from Bellbrook supply scheme",
+    "source_type": "Direct Correspondence",
+    "source_location": "Operator-supplied email text; response item 4",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Complete email body supplied as pasted correspondence in the investigation conversation; original .eml/message headers or hashable source file not yet supplied.",
+    "evidence_description": "Council expressly states the Willawarrin Water Treatment Plant supplies the Willawarrin community and is separate from the Bellbrook water supply scheme. Council identifies water cartage from Kempsey—not the Willawarrin WTP—as Bellbrook's current emergency contingency. This directly resolves the earlier evidentiary uncertainty over whether Willawarrin was intended to operate as Bellbrook's drought backup, subject to preservation/authentication of the correspondence source.",
+    "relevant_quotation": "The Willawarrin Water Treatment Plant supplies the Willawarrin community and is separate from the Bellbrook water supply scheme.",
+    "investigation_relevance": "Direct Council clarification supports the investigation's prior conservative boundary and removes the need to treat a Bellbrook-Willawarrin plant connection as an unresolved working possibility absent contrary engineering evidence.",
+    "classification": "Original Available",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0093",
+      "EV-0095",
+      "EV-0101"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002"
+    ]
   }
 ]
