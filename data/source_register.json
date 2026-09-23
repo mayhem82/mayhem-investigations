@@ -1762,5 +1762,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-12",
     "availability_notes": "Current page materially advances SRC-0120/EV-0093. It states commissioning is underway; defines commissioning as mechanical/electrical/hydraulic testing before handover; retains planned 30 Aug 2026 connection outage; and announces a 16 Oct 2026 community celebration to mark completion. This is direct current evidence that commissioning is not yet documented as complete as of the page version checked."
+  },
+  {
+    "source_id": "SRC-0127",
+    "authority": "Kempsey Shire Council — Chief Executive Officer Andrew Meddle, conveying advice from Council Utilities Directorate",
+    "title": "CEO response to questions referred by Mayor — Bellbrook Water Treatment Plant Augmentation and drought contingency",
+    "type": "Direct Correspondence",
+    "url_or_file_location": "Operator-supplied email text in investigation workspace; addressed 'Dear Mr Minko'; received via Mayor referral.",
+    "first_checked": "2026-09-23",
+    "last_checked": "2026-09-23",
+    "current_version": "Complete email text supplied by operator on 23 September 2026. Email states Utilities Directorate advice verbatim within CEO response.",
+    "preservation_status": "Source text supplied in investigation conversation; repository evidentiary extract/metadata pending dedicated preservation artifact",
+    "hash_status": "No Hash — pasted correspondence text, original email file/headers not yet supplied",
+    "associated_thread": "THR-14",
+    "availability_notes": "Direct first-party Council correspondence. Material statements: Bellbrook WTP Augmentation remains planned and intended to progress; previous deferral due competing organisational priorities; internal site inspection scheduled mid-October to review infrastructure/future requirements; Bellbrook primary source remains local river; inadequate/unsuitable source conditions include prolonged drought, insufficient flow and high turbidity after flooding; water cartage is current emergency contingency; Willawarrin WTP is separate and supplies Willawarrin; cartage from Kempsey remains Bellbrook contingency; during extended drought emergency supply may be sourced from Kempsey groundwater aquifer and Steuarts McIntyre Dam off-creek storage then carted to Bellbrook/Willawarrin; Council recognises simultaneous cartage risk. Does not provide augmentation delivery date, defined scope, expenditure, design/procurement/construction milestone, inspection outcome, cartage trigger thresholds/capacity/cost, or proof that augmentation itself removes cartage dependence."
   }
 ]
