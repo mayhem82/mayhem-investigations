@@ -1330,5 +1330,14 @@
     "related_thread": "THR-12",
     "related_source": "SRC-0126",
     "related_evidence": "EV-0099"
+  },
+  {
+    "note_id": "NOTE-0148",
+    "timestamp": "2026-09-23T11:43:00+10:00",
+    "activity_type": "Finding",
+    "text": "Operator supplied direct correspondence from Kempsey Shire Council CEO Andrew Meddle after the Mayor referred the operator's Bellbrook water questions. The response materially closes several uncertainty branches: Council expressly confirms the Bellbrook augmentation remains planned/intended to progress after previous deferral; an internal site inspection is scheduled mid-October; Bellbrook remains a separate scheme from Willawarrin; and water cartage from Kempsey is Bellbrook's current emergency contingency. Council further identifies Kempsey groundwater and Steuarts McIntyre Dam off-creek storage as emergency sources for cartage during extended drought and acknowledges simultaneous Bellbrook/Willawarrin cartage risk. Q-0002 is therefore narrowed from project existence/current contingency to augmentation scope/timing/delivery and quantitative adequacy of the emergency architecture. The correspondence is ingested as Requires Verification because the operator supplied the complete email text but not a hashable original .eml/header export.",
+    "related_thread": "THR-14",
+    "related_source": "SRC-0127",
+    "related_evidence": "EV-0100"
   }
 ]
