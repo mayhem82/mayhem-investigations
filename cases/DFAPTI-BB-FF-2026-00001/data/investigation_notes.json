@@ -394,5 +394,14 @@
     "related_thread": "THR-01",
     "related_source": null,
     "related_evidence": "EV-0011"
+  },
+  {
+    "note_id": "NOTE-0045",
+    "timestamp": "2026-09-24T00:00:00Z",
+    "activity_type": "Researching",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 29' before proceeding. Read README.md, SPEC.md, decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires. Local repository was a detached HEAD one commit behind origin/main; checked out main and fast-forwarded it onto origin/main - nothing was stranded. Confirmed by direct anchor comparison that every EV-0001 through EV-0023 item remains cited by at least one existing path; only EV-0024 and EV-0025 remain unanchored, both still outside DFAPTA Cycle 1's frozen basis. Re-read all eight preserved primary-source documents in full again, this time re-verifying AR-036 (Pass 12)'s own 'Additional Candidate Primary Sources' finding against this case's own data files. Found AR-036 had wrongly described the Hardened Submission Package's own Part 7 'Rudder Park Flying-fox Camp Management Plan' URL as already cited elsewhere in this case: direct comparison shows only the adjacent council flying-fox position page URL matches an existing citation (SRC-0013/EV-0016), while the Rudder Park plan URL does not appear anywhere else in this case's data files. Checked against source_register.json first: SRC-0006's own entry does not characterise the Part 7 URL list, and SRC-0013's own entry records only the position-page URL - so this is a genuine correction, not a re-litigation. Corrected AR-036's analysis and determination text in place (unchecked-URL count raised from three to four). Added AR-065 (61 paths total) recording the correction and its materiality - the Rudder Park plan URL is a direct, never-obtained primary source for EV-0002's own currently-unverified 'completed 2022' claim, central to this case's Documented Compliance vs. Functional Compliance comparator pattern. Added DR-006 naming the page as a candidate future DFAPTI disclosure target. Recursive-audit follow-up per SPEC.md §4: checked whether the same framing error recurs elsewhere referencing Part 7's URL list - it does not; checked whether evidence_anchors_referenced needed updating - it did not, no new evidence item was introduced; checked whether a new cross_path_observation was warranted - no genuine convergence exists beyond what AR-036 itself already covers. Swept the case's own index.html, dfapta/index.html, and every other repository page referencing this case for stale pass-number/path-count framing and updated both to Pass 30/61 paths. See DEC-0045 for the corresponding decision-register entry.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0006",
+    "related_evidence": "EV-0002"
   }
 ]
