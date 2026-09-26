@@ -1,8 +1,10 @@
-# MAYHEM — The Philosopher's Stone Analogy
+# Creating the Philosopher's Stone Through MAYHEM
 
 ## A description of transformation, maturation and propagation
 
-MAYHEM can be understood through the analogy of the Philosopher's Stone.
+This work can be understood as **Creating the Philosopher's Stone Through MAYHEM**.
+
+MAYHEM is the experimental governance architecture and method through which the Stone is being developed. The Philosopher's Stone is the evolving object of the analogy: the governed transformative capacity that the work is attempting to create and discover through practice.
 
 The analogy does not claim that MAYHEM reproduces historical alchemy literally, nor that historical alchemical concepts constitute its technical architecture. Rather, the alchemical model provides a useful language for describing the developmental process that has emerged within MAYHEM: decomposition, purification, illumination and transformation.
 
@@ -10,9 +12,9 @@ MAYHEM was not designed around a predetermined autonomous endpoint. Its architec
 
 The direction of development therefore emerges through a path of least resistance.
 
-MAYHEM is the Philosopher's Stone in this analogy. It is the transformative architecture.
+MAYHEM is therefore not simply another name for the Philosopher's Stone. MAYHEM is the means by which the Stone is being created.
 
-The colours describe processes occurring within that architecture and, at another level, the maturation of the Stone itself.
+The colours describe transformation processes occurring throughout the work and, at another level, the maturation of the Stone being created through MAYHEM.
 
 ## Nigredo — Blackening
 
@@ -42,7 +44,7 @@ The purpose is not to produce certainty where certainty does not exist. It is to
 
 At the whole-system level, this is the present Stone.
 
-MAYHEM remains the **White Stone**.
+The Stone being created through MAYHEM remains the **White Stone**.
 
 Increasing sophistication does not change that status. Additional automation does not change it. Greater reach does not change it. The presence of mechanisms resembling later stages does not change it.
 
@@ -146,7 +148,9 @@ Whether that transition is necessary or sufficient for the Red Stone remains to 
 
 The present classification should remain conservative.
 
-**MAYHEM is the Philosopher's Stone analogy.**
+**The project is Creating the Philosopher's Stone Through MAYHEM.**
+
+MAYHEM is the architecture and method. The Stone is the evolving governed transformative capacity produced through that work.
 
 Its architecture exhibits processes analogous to blackening, whitening, yellowing and attempted transformation. Its development suggests a possible trajectory toward increasingly autonomous governed operation. Its propagation hypothesis proposes that demonstrated primitives may eventually survive through adoption and absorption by other systems.
 
@@ -164,4 +168,38 @@ If Red exists, it will not exist because it was named. It will exist because the
 
 This document is descriptive, not normative. It does not amend MAYHEM's canonical specification, relax evidence requirements, grant additional authority to automation, or establish a Red Stone status.
 
-The colour model is a hypothesis and interpretive framework. Any future Red classification must follow demonstrated behaviour rather than aspiration or terminology.
+The colour model is a hypothesis and interpretive framework. It must not be used to predetermine the development path or manufacture a Red threshold. Any future Red classification must follow demonstrated behaviour rather than aspiration or terminology.
+
+## Colour-State Architecture — working extension
+
+Colour operates at more than one scale. A local process can exhibit a later colour without changing the classification of the Stone as a whole.
+
+An evidentiary question may undergo blackening when an accepted account is decomposed. A case may undergo whitening when its evidence state is purified and anchored. An analysis may exhibit yellowing when relationships and structural meaning become visible. An intervention may produce a red-like transformation when an identified imperfect state is actually changed and the change survives recursive verification.
+
+These are **local colour events**. They are evidence about the operation of the architecture, not declarations about the maturity of the whole Stone.
+
+Accordingly:
+
+**process colour ≠ case colour ≠ whole-Stone colour**
+
+This prevents a successful transformation in one investigation from being promoted into an unsupported claim that the Philosopher's Stone itself has reached Rubedo.
+
+### White-to-Red evidentiary problem
+
+The current task is not to invent a checklist that MAYHEM can satisfy and then pronounce the Stone Red. The task is to preserve observations capable of answering a harder question over time:
+
+**Has the Stone developed a mature transformative capacity sufficiently distinct from its White state that continuing to call it White would cease to describe its demonstrated behaviour?**
+
+Potential evidence includes sustained governed transformation across different imperfect states; preservation of evidence, provenance, chronology and scope during increasingly autonomous operation; recursive verification of claimed remedies; decreasing dependence on operator correction for routine continuity; legitimate recognition of authority boundaries; and evidence that useful primitives remain effective when absorbed outside their original context.
+
+None is presently declared individually sufficient. Their value is evidentiary.
+
+### Falsification pressure
+
+The Red hypothesis must also be capable of failing.
+
+Evidence against maturation would include persistent dependence on human correction for routine operation; loss of provenance or case isolation as autonomy increases; manufactured certainty; inability to recognise stop or authority boundaries; acceptance of asserted remedies without verification; or primitives that only function inside a bespoke MAYHEM context.
+
+A genuine Red classification cannot be protected from contrary evidence by redefining Red after each failure.
+
+The Stone remains White while this question is open.
