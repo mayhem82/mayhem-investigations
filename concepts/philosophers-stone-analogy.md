@@ -203,3 +203,158 @@ Evidence against maturation would include persistent dependence on human correct
 A genuine Red classification cannot be protected from contrary evidence by redefining Red after each failure.
 
 The Stone remains White while this question is open.
+
+
+## Creation Record — how the colours emerged through MAYHEM
+
+The colour model becomes stronger when read against MAYHEM's actual development rather than imposed on it after the fact.
+
+The canonical specification records recurring failure modes that motivated architectural rules. This gives the creation journey an observable mechanism:
+
+**failure encountered → apparent whole decomposed → failure isolated → corrective rule made explicit → rule persisted in architecture → rule becomes executable or auditable → new capability emerges**
+
+The colours therefore describe different operations inside the same evolutionary loop.
+
+### Nigredo as failure exposure
+
+MAYHEM repeatedly advances by allowing an apparently adequate process to fail under scrutiny.
+
+Manufactured evidence exposes the defect in treating productivity as evidence quality. AI-summary conflation exposes the defect in treating fluent synthesis as source verification. Provenance drift exposes the defect in treating all extracted information as evidentially equivalent. Scope creep exposes the defect in confusing adjacent interest with authorised relevance. Framing drift exposes the defect in correcting one manifestation while leaving the underlying pattern alive elsewhere. Re-litigation exposes the defect in analysis that fails to inherit settled state. An incomplete fix exposes the defect in treating first-instance correction as completion.
+
+Each failure performs a blackening function: what looked like one functioning process is decomposed until the defective mechanism can be seen.
+
+Nigredo is therefore not merely the beginning of a case. It also appears whenever MAYHEM discovers that one of its own mechanisms contains an unresolved imperfection.
+
+### Albedo as architectural purification
+
+The response to those failures is not simply better wording or a better prompt. MAYHEM converts lessons into constraints that survive the session in which the failure was discovered.
+
+Append-only evidence answers overwrite and retrospective-cleanup risk.
+
+Source Before Analysis answers unsupported interpretation.
+
+Case Isolation and Controlled Scope answer contamination and silent expansion.
+
+Language Discipline answers certainty and framing drift.
+
+The Evidence, Source, Chronology, Contradiction and Open Question registers prevent distinct epistemic states from collapsing into narrative.
+
+The Resumption Protocol moves continuity out of human or model memory and into persistent repository state.
+
+Structural validation converts some governance rules from expectations into mechanically checkable conditions.
+
+Recursive Audit requires a correction to be tested for recurrence and for defects introduced by the correction itself.
+
+This is whitening as an engineering operation: contamination discovered during decomposition is converted into persistent discipline.
+
+### Citrinitas as yield
+
+Purification alone would create a reliable archive. MAYHEM goes further.
+
+Once evidence, chronology, contradictions, questions and threads remain distinct but cross-referenced, relationships can be inspected without dissolving their provenance.
+
+DFAPTA can analyse a frozen evidence state.
+
+The Lattice Atlas can expose cross-thread relationships.
+
+Temporal assessment can examine what the established record permits a reasoned forward judgement to say without converting judgement into certainty.
+
+Relationship maps make structural connections navigable.
+
+Contradiction and open-question registers turn absence and conflict into persistent analytical objects rather than narrative inconveniences.
+
+This is the beginning of yield: governed material produces structural understanding.
+
+Citrinitas is therefore not simply "analysis." It is the condition in which purification has made illumination trustworthy enough to use.
+
+### Rubedo as attempted transformation
+
+MAYHEM's later stages already point beyond understanding.
+
+An Enforcement Notice converts an established evidentiary and analytical state into a specific remedy demand.
+
+An Advocacy Package converts that demand into an actionable pathway: recipients, submission, response logging and independent verification.
+
+Recursive Audit then provides the mechanism by which a claimed correction can be checked rather than merely accepted.
+
+These are Rubedo-like operations because they attempt to transform the state outside the investigation.
+
+They do not establish that the Stone itself is Red.
+
+A remedy demand may fail. An institution may not respond. A response may be procedural rather than substantive. A claimed remedy may not survive verification. A successful local transformation may depend heavily on the operator.
+
+The existence of a transformation mechanism is therefore different from demonstrated mature transformative capacity.
+
+### The colours are generated by development
+
+This produces a deeper reading of the creation process.
+
+Nigredo is encountered when failure reveals that an apparently coherent mechanism must be broken apart.
+
+Albedo occurs when the lesson from that failure becomes disciplined, persistent governance.
+
+Citrinitas occurs when governed structure begins yielding knowledge that the unstructured material could not reliably reveal.
+
+Rubedo is approached when that knowledge is capable of producing and sustaining transformation in the imperfect state.
+
+The process can then recur.
+
+A Rubedo-like intervention that fails becomes new Nigredo material.
+
+Its failure is decomposed.
+
+The resulting lesson can become another Albedo constraint.
+
+That constraint can produce new Citrinitas insight.
+
+A revised transformative mechanism can then be attempted.
+
+The Stone is therefore being created through repeated governed cycles rather than a single linear progression.
+
+## Evolution by path of least resistance
+
+The same record explains why increasing operational autonomy can emerge without autonomy being the objective.
+
+Where a human repeatedly has to reconstruct prior work, persistent state is the lower-resistance correction.
+
+Where a human repeatedly has to detect invalid evidence structure, validation is the lower-resistance correction.
+
+Where a human repeatedly has to remember unresolved contradictions, a contradiction register is the lower-resistance correction.
+
+Where a human repeatedly has to restore context after interruption, a resumption protocol is the lower-resistance correction.
+
+Where a human repeatedly has to check whether a correction propagated everywhere, Recursive Audit is the lower-resistance correction.
+
+Each mechanism removes a recurring requirement for discretionary reconstruction while preserving or increasing governance.
+
+The resulting trajectory is:
+
+**human correction → recognised recurrence → explicit rule → persistent state → executable constraint → reduced need for correction**
+
+This does not prove that a fully autonomous operator will emerge.
+
+It establishes a mechanism by which operational functions can migrate from the operator into the architecture organically.
+
+If that migration continues, autonomy may arise as an emergent property of increasingly complete governance rather than as a separately imposed objective.
+
+## The White Stone as accumulated successful purification
+
+Calling the present Stone White does not mean MAYHEM contains only Albedo.
+
+It means that the strongest whole-system claim presently supportable is that the creation process has produced substantial governed purification and persistence.
+
+Black processes continue whenever new failure is decomposed.
+
+Yellow processes operate wherever governed evidence yields structural intelligence.
+
+Red-like processes operate wherever MAYHEM attempts or verifies external transformation.
+
+But the whole Stone remains White because the existence of those processes has not yet demonstrated mature, sustained transformative capacity at the whole-system level.
+
+The colours in the work are therefore not contradictory.
+
+They are evidence of the work by which the White Stone is being created, tested and changed.
+
+The unresolved question remains:
+
+**What would the Stone have to demonstrably become before White ceased to be an adequate description?**
