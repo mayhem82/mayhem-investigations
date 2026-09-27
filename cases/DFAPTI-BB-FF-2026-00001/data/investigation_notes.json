@@ -421,5 +421,14 @@
     "related_thread": null,
     "related_source": "SRC-0006",
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0048",
+    "timestamp": "2026-09-27T00:00:00Z",
+    "activity_type": "Researching",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 30' before proceeding. Read README.md, SPEC.md, decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires. Local repository was a detached HEAD exactly matching origin/main after fetching; checked out main and fast-forwarded it - nothing stranded. Confirmed by direct anchor comparison that every EV-0001 through EV-0023 item remains cited by at least one existing path; only EV-0024 and EV-0025 remain unanchored, both still outside DFAPTA Cycle 1's frozen basis. Independently re-extracted (direct docx zip/XML parse) and re-read all eight preserved primary-source documents in full, then re-read this case's own 61 existing paths, cross_path_observations and overreach_controls in full. Worked forward from AR-048 (Pass 13), whose own boundary explicitly left unexamined whether the Ombudsman complaint's claim that the plan-gated grants mechanism has resulted in East Kempsey 'accessing state funding' rests on a premise this case's record actually establishes. Checked EV-0002, EV-0011 and EV-0017 directly: none establishes that Rudder Park's completed plan or its 2022 vegetation management were actually paid for through the plan-gated program, as opposed to Council's own operating budget or another source - EV-0011's own 'unless directed to Rudder Park' language is a hypothetical eligibility position, not a record of an actual disbursement. Checked source_register.json in full first: SRC-0006's, SRC-0007's and SRC-0011's own entries record nothing on this specific gap, and neither AR-001's boundary (why Rudder Park received a plan, not how it was funded) nor AR-002 (whether the plan-gating rule itself is confirmed, not whether Rudder Park drew on it) covers it either - a genuinely new finding. Added AR-066 to dfapta/analysis.json (62 paths total), an eleventh instance of CPO-010's claims-vs-record gap pattern; extended CPO-010's anchors, analysis text and title accordingly. dfapta/analysis.json's status is now 'In Progress — Pass 31'. Updated dfapta/analysis.json's counts, evidence_basis_note and overreach_controls, dfapta/index.html, and cases/DFAPTI-BB-FF-2026-00001/index.html to match. See DEC-0048 for the corresponding decision-register entry.",
+    "related_thread": null,
+    "related_source": "SRC-0007",
+    "related_evidence": "EV-0002"
   }
 ]
