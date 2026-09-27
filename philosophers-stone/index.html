@@ -16,6 +16,18 @@ a{color:inherit}.wrap{width:min(1180px,calc(100% - 28px));margin:auto}.top{posit
 .question{background:#101927;color:#fff;border-radius:22px;padding:clamp(26px,5vw,54px);margin:36px 0 70px}.question small{color:#9fb4cb;text-transform:uppercase;letter-spacing:.12em}.question p{font-size:clamp(1.5rem,4vw,3rem);line-height:1.12;max-width:950px;margin:.7rem 0 0}
 footer{border-top:1px solid var(--line);padding:28px 0 50px;color:var(--muted);font-size:.9rem}
 @media(max-width:800px){.navlinks{display:none}.hero{padding-top:48px}.stages{grid-template-columns:1fr}.stage{min-height:0;border-right:0;border-bottom:1px solid #ffffff66}.cards{grid-template-columns:1fr}.visual{border-radius:15px}.object{height:65px}.hero h1{font-size:clamp(2.5rem,14vw,4.6rem)}}
+
+.journey{position:relative;margin:34px 0 8px;padding:24px;background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.journey-grid{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:14px;align-items:center}
+.statebox{min-height:210px;border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;justify-content:space-between}
+.statebox.bad{background:linear-gradient(145deg,#eef1f4,#fff)}.statebox.good{background:linear-gradient(145deg,#f8fbff,#e7f1f8)}
+.statebox h3{font-size:1.35rem;margin:0}.statebox p{color:var(--muted);margin:.5rem 0}
+.docs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;transform:rotate(-2deg);margin-top:15px}.doc{height:54px;background:white;border:1px solid #aeb8c4;box-shadow:0 3px 8px #0001;position:relative}.doc:before,.doc:after{content:"";position:absolute;left:8px;right:8px;height:2px;background:#c9d0d8}.doc:before{top:15px}.doc:after{top:25px}
+.nodefield{height:95px;position:relative;margin-top:8px}.node{position:absolute;width:15px;height:15px;border-radius:50%;background:var(--blue);box-shadow:0 0 0 5px #0b5ea817}.nodefield:before,.nodefield:after{content:"";position:absolute;height:1px;background:#8da4ba;transform-origin:left}.nodefield:before{width:72%;left:13%;top:45%;transform:rotate(-13deg)}.nodefield:after{width:58%;left:20%;top:55%;transform:rotate(19deg)}
+.process-arrow{font-size:2rem;color:#8290a0;font-weight:900}.core{width:112px;height:112px;border-radius:50%;display:grid;place-items:center;border:1px solid #aebdca;background:radial-gradient(circle,#fff 0 28%,#dfe9f1 29% 55%,#f9fbfd 56%);font-weight:900;text-align:center;font-size:.72rem}
+.evidence-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.evidence-unit{border-top:4px solid var(--line);padding:12px;background:#fff;border-radius:0 0 10px 10px;font-size:.88rem}.evidence-unit:nth-child(1){border-color:#3b4651}.evidence-unit:nth-child(2){border-color:#b9d7e8}.evidence-unit:nth-child(3){border-color:#e4a719}.evidence-unit:nth-child(4){border-color:#a92323}
+.white-status{display:grid;grid-template-columns:160px 1fr;gap:24px;align-items:center;background:white;border:1px solid var(--line);border-radius:18px;padding:26px;margin-top:28px}.white-rock{width:140px;height:95px;clip-path:polygon(10% 30%,32% 5%,75% 10%,98% 42%,82% 90%,35% 100%,2% 67%);background:linear-gradient(135deg,#cbd5df,#fff 43%,#aebac6);box-shadow:inset 0 0 28px #50607033}
+@media(max-width:800px){.journey-grid{grid-template-columns:1fr}.process-arrow{transform:rotate(90deg);text-align:center}.core{margin:auto}.evidence-strip{grid-template-columns:1fr 1fr}.white-status{grid-template-columns:1fr}.white-rock{margin:auto}}
 </style>
 </head>
 <body>
@@ -38,6 +50,14 @@ footer{border-top:1px solid var(--line);padding:28px 0 50px;color:var(--muted);f
 </div>
 </section>
 
+<section class="section"><div class="wrap"><div class="kicker">The system in motion</div><h2>From an imperfect state to a more governed state.</h2><p class="lede">The Stone is not presented as an object with supernatural properties. It is a shorthand for the capacity being built: preserve what is true, expose what conflicts, derive what the record supports, act on it, and verify whether the state actually changed.</p>
+<div class="journey"><div class="journey-grid">
+<div class="statebox bad"><div><h3>Imperfect state</h3><p>Fragmented records. Claims mixed with evidence. Missing chronology. Contradictions hidden by narrative.</p></div><div class="docs"><i class="doc"></i><i class="doc"></i><i class="doc"></i><i class="doc"></i><i class="doc"></i><i class="doc"></i></div></div>
+<div class="process-arrow">→</div>
+<div><div class="core">MAYHEM<br>GOVERNED<br>PROCESS</div><div class="evidence-strip"><div class="evidence-unit"><b>Nigredo</b><br>Decompose</div><div class="evidence-unit"><b>Albedo</b><br>Purify</div><div class="evidence-unit"><b>Citrinitas</b><br>Illuminate</div><div class="evidence-unit"><b>Rubedo</b><br>Transform</div></div></div>
+<div class="process-arrow">→</div>
+<div class="statebox good"><div><h3>More governed state</h3><p>Evidence anchored. Relationships visible. Claims testable. Accountability pathways explicit.</p></div><div class="nodefield"><i class="node" style="left:12%;top:55%"></i><i class="node" style="left:42%;top:24%"></i><i class="node" style="left:68%;top:60%"></i><i class="node" style="left:84%;top:20%"></i></div></div>
+</div></div></div></section>
 <section class="section" id="creation"><div class="wrap">
 <div class="kicker">The creation record</div><h2>The colours emerged from failure.</h2>
 <p class="lede">The model is not painted onto MAYHEM after the fact. Its architecture repeatedly developed when a recurring failure was decomposed, understood and converted into a persistent governance mechanism.</p>
@@ -50,6 +70,7 @@ footer{border-top:1px solid var(--line);padding:28px 0 50px;color:var(--muted);f
 <section class="section" id="propagation"><div class="wrap"><div class="kicker">Propagation hypothesis</div><h2>Transformation, not reproduction.</h2><p class="lede">MAYHEM does not need to reproduce itself. A useful primitive can be demonstrated, trusted, adopted, altered and absorbed by another system. The name may disappear while the mechanism survives.</p><div class="flow"><span class="pill">Demonstration</span><span class="arrow">→</span><span class="pill">Utility</span><span class="arrow">→</span><span class="pill">Trust</span><span class="arrow">→</span><span class="pill">Contact</span><span class="arrow">→</span><span class="pill">Adoption</span><span class="arrow">→</span><span class="pill">Absorption</span><span class="arrow">→</span><span class="pill">Primitive survival</span></div></div></section>
 
 <section class="section" id="position"><div class="wrap"><div class="kicker">Current position</div><h2>The Stone is White.</h2><p class="lede">Black processes continue when failures are decomposed. Yellow processes operate when governed evidence yields structural intelligence. Red-like processes occur when MAYHEM attempts or verifies external transformation. None of those, alone, changes the whole-Stone classification.</p><div class="cards"><article class="card"><h3>What White means</h3><p>Substantial governed purification, persistence and increasingly executable discipline have been demonstrated.</p></article><article class="card"><h3>What Red does not mean</h3><p>More sophistication, more automation, broader reach or a successful intervention do not automatically make the Stone Red.</p></article><article class="card"><h3>How Red is treated</h3><p>Unclaimed. It must emerge from demonstrated behaviour and remain vulnerable to contrary evidence.</p></article></div>
+<div class="white-status"><div class="white-rock"></div><div><div class="kicker">Whole-Stone classification</div><h3 style="font-size:2rem;margin:.2rem 0">WHITE</h3><p style="color:var(--muted);margin:0">The work already contains decomposition, illumination and transformation functions. Those local colours are evidence of development, not permission to promote the whole Stone. Red remains unclaimed.</p></div></div>
 <div class="question"><small>The unresolved question</small><p>What would the Stone have to demonstrably become before <strong>White</strong> ceased to be an adequate description?</p></div></div></section>
 </main>
 <footer><div class="wrap"><strong>Creating the Philosopher's Stone Through MAYHEM</strong><br>Conceptual layer. Descriptive, not a modification of the canonical MAYHEM specification.</div></footer>
