@@ -28,6 +28,9 @@ footer{border-top:1px solid var(--line);padding:28px 0 50px;color:var(--muted);f
 .evidence-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.evidence-unit{border-top:4px solid var(--line);padding:12px;background:#fff;border-radius:0 0 10px 10px;font-size:.88rem}.evidence-unit:nth-child(1){border-color:#3b4651}.evidence-unit:nth-child(2){border-color:#b9d7e8}.evidence-unit:nth-child(3){border-color:#e4a719}.evidence-unit:nth-child(4){border-color:#a92323}
 .white-status{display:grid;grid-template-columns:160px 1fr;gap:24px;align-items:center;background:white;border:1px solid var(--line);border-radius:18px;padding:26px;margin-top:28px}.white-rock{width:140px;height:95px;clip-path:polygon(10% 30%,32% 5%,75% 10%,98% 42%,82% 90%,35% 100%,2% 67%);background:linear-gradient(135deg,#cbd5df,#fff 43%,#aebac6);box-shadow:inset 0 0 28px #50607033}
 @media(max-width:800px){.journey-grid{grid-template-columns:1fr}.process-arrow{transform:rotate(90deg);text-align:center}.core{margin:auto}.evidence-strip{grid-template-columns:1fr 1fr}.white-status{grid-template-columns:1fr}.white-rock{margin:auto}}
+
+.interactive{background:#101927;color:white;border-radius:22px;padding:clamp(22px,4vw,40px);margin-top:30px}.interactive h3{font-size:clamp(1.5rem,4vw,2.4rem);margin:.2rem 0 8px}.interactive .intro{color:#b9c6d5;max-width:760px}.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:24px 0}.tab{border:1px solid #ffffff28;background:#ffffff0c;color:#fff;border-radius:12px;padding:14px 8px;font:inherit;font-weight:800;cursor:pointer}.tab[aria-selected="true"]{background:#fff;color:#101927}.tab small{display:block;font-weight:500;opacity:.7}.panel{display:none;background:#fff;color:#101927;border-radius:14px;padding:22px}.panel.active{display:block}.mechanisms{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px}.mechanism{border:1px solid var(--line);border-radius:10px;padding:14px}.mechanism b{display:block;margin-bottom:3px}.mechanism span{color:var(--muted);font-size:.92rem}.boundary{margin-top:18px;padding:13px;border-left:4px solid #9ba9b8;background:#f1f4f7;font-weight:700}
+@media(max-width:800px){.tabs{grid-template-columns:1fr 1fr}.mechanisms{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -58,6 +61,21 @@ footer{border-top:1px solid var(--line);padding:28px 0 50px;color:var(--muted);f
 <div class="process-arrow">→</div>
 <div class="statebox good"><div><h3>More governed state</h3><p>Evidence anchored. Relationships visible. Claims testable. Accountability pathways explicit.</p></div><div class="nodefield"><i class="node" style="left:12%;top:55%"></i><i class="node" style="left:42%;top:24%"></i><i class="node" style="left:68%;top:60%"></i><i class="node" style="left:84%;top:20%"></i></div></div>
 </div></div></div></section>
+<section class="section"><div class="wrap"><div class="kicker">Operational view</div><h2>Touch a colour. See what MAYHEM is doing.</h2><p class="lede">The colours describe functions operating inside the architecture. They are not badges awarded to the whole system.</p>
+<div class="interactive">
+<h3 id="stageTitle">Nigredo — decomposition</h3><p class="intro" id="stageIntro">Break the apparent whole apart until claims, evidence, contradictions, actors and unknowns can be treated separately.</p>
+<div class="tabs" role="tablist" aria-label="Transformation processes">
+<button class="tab" role="tab" aria-selected="true" data-stage="nigredo">NIGREDO<small>Decompose</small></button>
+<button class="tab" role="tab" aria-selected="false" data-stage="albedo">ALBEDO<small>Purify</small></button>
+<button class="tab" role="tab" aria-selected="false" data-stage="citrinitas">CITRINITAS<small>Illuminate</small></button>
+<button class="tab" role="tab" aria-selected="false" data-stage="rubedo">RUBEDO<small>Transform</small></button>
+</div>
+<div id="nigredo" class="panel active"><div class="mechanisms"><div class="mechanism"><b>Evidence discovery</b><span>Locate and preserve source material before conclusions are formed.</span></div><div class="mechanism"><b>Chronology construction</b><span>Separate events and decisions into a traceable sequence.</span></div><div class="mechanism"><b>Contradiction capture</b><span>Keep conflicts visible instead of smoothing them into narrative.</span></div><div class="mechanism"><b>Open questions</b><span>Preserve what is unresolved rather than manufacturing closure.</span></div></div></div>
+<div id="albedo" class="panel"><div class="mechanisms"><div class="mechanism"><b>Append-only evidence</b><span>Preserve the evidentiary record against retrospective replacement.</span></div><div class="mechanism"><b>Source Before Analysis</b><span>Keep evidentiary support distinct from interpretation.</span></div><div class="mechanism"><b>Case Isolation</b><span>Prevent one investigation from silently contaminating another.</span></div><div class="mechanism"><b>Resumption Protocol</b><span>Persist state outside fragile human or model memory.</span></div><div class="mechanism"><b>Language Discipline</b><span>Prevent certainty from exceeding the established record.</span></div><div class="mechanism"><b>Recursive Audit</b><span>Check whether correction actually propagated and remained clean.</span></div></div></div>
+<div id="citrinitas" class="panel"><div class="mechanisms"><div class="mechanism"><b>DFAPTA</b><span>Analyse the governed evidence state after the appropriate freeze.</span></div><div class="mechanism"><b>Lattice Atlas</b><span>Expose relationships across threads without collapsing provenance.</span></div><div class="mechanism"><b>Temporal assessment</b><span>Examine what established evidence permits forward reasoning to say.</span></div><div class="mechanism"><b>Pattern detection</b><span>Identify recurring structural mechanisms rather than isolated symptoms.</span></div></div></div>
+<div id="rubedo" class="panel"><div class="mechanisms"><div class="mechanism"><b>Enforcement Notice</b><span>Convert established findings into a specific remedy demand.</span></div><div class="mechanism"><b>Advocacy Package</b><span>Convert remedy into an actionable pathway, recipients and response record.</span></div><div class="mechanism"><b>Remedy verification</b><span>Test claimed correction against the observed external state.</span></div><div class="mechanism"><b>Recursive return</b><span>A failed intervention becomes new decomposition material rather than hidden failure.</span></div></div></div>
+<div class="boundary">PROCESS COLOUR ≠ CASE COLOUR ≠ WHOLE-STONE COLOUR. The whole Stone remains WHITE.</div>
+</div></div></section>
 <section class="section" id="creation"><div class="wrap">
 <div class="kicker">The creation record</div><h2>The colours emerged from failure.</h2>
 <p class="lede">The model is not painted onto MAYHEM after the fact. Its architecture repeatedly developed when a recurring failure was decomposed, understood and converted into a persistent governance mechanism.</p>
@@ -74,4 +92,19 @@ footer{border-top:1px solid var(--line);padding:28px 0 50px;color:var(--muted);f
 <div class="question"><small>The unresolved question</small><p>What would the Stone have to demonstrably become before <strong>White</strong> ceased to be an adequate description?</p></div></div></section>
 </main>
 <footer><div class="wrap"><strong>Creating the Philosopher's Stone Through MAYHEM</strong><br>Conceptual layer. Descriptive, not a modification of the canonical MAYHEM specification.</div></footer>
-</body></html>
+<script>
+const copy={
+nigredo:["Nigredo — decomposition","Break the apparent whole apart until claims, evidence, contradictions, actors and unknowns can be treated separately."],
+albedo:["Albedo — purification","Convert lessons from failure into persistent evidentiary and governance discipline."],
+citrinitas:["Citrinitas — illumination","Use purified, cross-referenced structure to reveal relationships, mechanisms and defensible understanding."],
+rubedo:["Rubedo — transformation","Attempt governed external change, verify the remedy and return failure to the cycle when transformation does not hold."]
+};
+document.querySelectorAll(".tab").forEach(btn=>btn.addEventListener("click",()=>{
+ document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected","false"));
+ document.querySelectorAll(".panel").forEach(p=>p.classList.remove("active"));
+ btn.setAttribute("aria-selected","true");
+ const s=btn.dataset.stage;document.getElementById(s).classList.add("active");
+ document.getElementById("stageTitle").textContent=copy[s][0];
+ document.getElementById("stageIntro").textContent=copy[s][1];
+}));
+</script></body></html>
