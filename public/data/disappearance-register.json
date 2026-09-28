@@ -1,0 +1,39 @@
+{
+  "updatedUtc":"2026-06-18T00:00:00Z",
+  "verificationState":"tracking-rules-expanded",
+  "registerPurpose":"Track whether agenda items survive into minutes, action registers, report cycles and later meeting records.",
+  "disappearanceEvents":[
+    {
+      "disappearanceId":"ADR-KSC-BELLBROOK-FF-2025-05-20-001",
+      "matterId":"bellbrook-flying-fox",
+      "locationId":"bellbrook",
+      "title":"Flying Fox Management Request",
+      "matter":"flying-fox-camp",
+      "firstSeenDate":"2025-05-20",
+      "lastSeenDate":"2025-05-20",
+      "sourceMeetingId":"KSC-OCM-2025-05-20",
+      "sourceCouncil":"Kempsey Shire Council",
+      "status":"source-targeted-unverified",
+      "disappearanceRisk":"unknown-until-historical-comparison",
+      "eventType":"agenda-to-action-lifecycle-watch",
+      "plainEnglish":"Bellbrook flying fox management request has been identified as a tracked council-record matter. It is not yet a disappearance finding. It requires comparison across minutes, following agendas, following minutes, action registers and any October 2025 report cycle.",
+      "needsComparisonAgainst":[
+        {"comparisonId":"CMP-001","target":"2025-05-20 confirmed minutes","question":"Did the agenda item survive into confirmed minutes and what wording or resolution was recorded?","status":"pending-extraction"},
+        {"comparisonId":"CMP-002","target":"next ordinary council meeting agenda","question":"Was the matter carried forward, deferred, renamed, omitted or replaced?","status":"pending-enumeration"},
+        {"comparisonId":"CMP-003","target":"next ordinary council meeting minutes","question":"Was any follow-up action or reporting pathway recorded?","status":"pending-enumeration"},
+        {"comparisonId":"CMP-004","target":"later outstanding actions registers","question":"Did it become an official tracked action and did that action receive closure?","status":"pending-source-targeting"},
+        {"comparisonId":"CMP-005","target":"October 2025 report cycle if applicable","question":"Was the expected report delivered, deferred, renamed, omitted or absorbed into another report?","status":"pending-source-targeting"}
+      ],
+      "trackingRules":[
+        {"ruleId":"TR-001","name":"Agenda to confirmed minutes survival","logic":"If the item appears in agenda but not in confirmed minutes, flag missing-from-minutes."},
+        {"ruleId":"TR-002","name":"Resolution closure trail","logic":"If minutes record a resolution but later records show no action, report or closure, flag resolution-without-closure."},
+        {"ruleId":"TR-003","name":"Next meeting continuity","logic":"If a matter implies future action, check the next ordinary agenda and minutes for continuity or omission."},
+        {"ruleId":"TR-004","name":"Outstanding action registration","logic":"If a motion creates a task, check whether it enters the outstanding actions register."},
+        {"ruleId":"TR-005","name":"Report-cycle delivery","logic":"If a report was due by a later cycle, check that meeting cycle for delivery, deferral, renaming or omission."},
+        {"ruleId":"TR-006","name":"Renaming and merge detection","logic":"If the same matter appears under different wording, link it as renamed or merged rather than treating it as vanished."}
+      ],
+      "currentFinding":"no-disappearance-finding-yet"
+    }
+  ],
+  "detectionClasses":["missing-next-meeting","missing-multiple-meetings","renamed-matter","split-matter","merged-matter","reappeared-matter","resolution-without-closure","report-without-action","action-without-evidence","multi-term-persistence","missing-from-confirmed-minutes","report-cycle-omission"]
+}
