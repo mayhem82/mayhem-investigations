@@ -1,0 +1,11 @@
+{
+  "updatedUtc": "2026-06-18T00:00:00Z",
+  "verificationState": "starter-unverified",
+  "matters": [
+    { "matterId": "bellbrook-flying-fox", "locationId": "bellbrook", "title": "Flying Fox Camp", "domain": "environment-health", "status": "open-watch", "created": "2019-11-01" },
+    { "matterId": "bellbrook-roads", "locationId": "bellbrook", "title": "Roads and Access", "domain": "infrastructure", "status": "source-discovery-watch", "created": null },
+    { "matterId": "bellbrook-water-security", "locationId": "bellbrook", "title": "Water Security", "domain": "utilities", "status": "source-discovery-watch", "created": null },
+    { "matterId": "bellbrook-community-facilities", "locationId": "bellbrook", "title": "Hall and Community Facilities", "domain": "community-assets", "status": "source-discovery-watch", "created": null },
+    { "matterId": "upper-macleay-bridge-access", "locationId": "bellbrook", "title": "Bridge and Crossing Access", "domain": "transport-resilience", "status": "source-discovery-watch", "created": null }
+  ]
+}
