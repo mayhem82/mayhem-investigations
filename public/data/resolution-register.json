@@ -1,0 +1,16 @@
+{
+  "updatedUtc": "2026-06-18T00:00:00Z",
+  "verificationState": "starter-unverified",
+  "resolutions": [
+    {
+      "resolutionId": "RES-001",
+      "matterId": "bellbrook-flying-fox",
+      "locationId": "bellbrook",
+      "title": "Flying Fox Management Request",
+      "meetingDate": "2025-05-20",
+      "status": "watch",
+      "closureEvidence": [],
+      "verificationState": "source-targeted-unverified"
+    }
+  ]
+}
