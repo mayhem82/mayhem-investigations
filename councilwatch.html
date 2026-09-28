@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CouncilWatch — Kempsey Shire</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0f14;
+      --panel: #151b23;
+      --line: #2d3642;
+      --text: #eef3f8;
+      --muted: #9ca8b5;
+      --amber: #f59e0b;
+      --red: #f87171;
+      --green: #34d399;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: var(--bg); color: var(--text); }
+    main { max-width: 1040px; margin: 0 auto; padding: 16px; }
+    header { border-bottom: 1px solid var(--line); padding: 18px 0; }
+    .eyebrow { color: var(--amber); text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; font-weight: 800; }
+    h1 { margin: 6px 0 8px; font-size: clamp(2.4rem, 8vw, 5rem); line-height: .9; }
+    h2 { margin-top: 0; }
+    .lead { color: var(--muted); line-height: 1.45; max-width: 780px; }
+    .grid { display: grid; gap: 12px; margin-top: 16px; }
+    @media (min-width: 800px) { .grid { grid-template-columns: 1.05fr .95fr; } }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+    .gauge-wrap { display: grid; place-items: center; padding: 8px; }
+    .gauge { width: min(82vw, 420px); aspect-ratio: 1 / 1; border-radius: 50%; background: conic-gradient(var(--green) 0deg, var(--amber) 120deg, var(--red) 250deg, #111827 250deg 360deg); display: grid; place-items: center; position: relative; }
+    .gauge::after { content: ""; position: absolute; inset: 15%; border-radius: 50%; background: var(--panel); border: 1px solid var(--line); }
+    .needle { position: absolute; width: 4px; height: 42%; background: var(--text); bottom: 50%; left: calc(50% - 2px); transform-origin: bottom center; transform: rotate(var(--angle, -110deg)); border-radius: 999px; z-index: 2; }
+    .hub { position: absolute; width: 26px; height: 26px; background: var(--text); border-radius: 50%; z-index: 3; }
+    .gauge-text { position: relative; z-index: 4; text-align: center; margin-top: 80px; }
+    .score { font-size: 4rem; font-weight: 900; line-height: 1; }
+    .band { color: var(--amber); font-weight: 900; text-transform: uppercase; letter-spacing: .06em; }
+    .metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    @media (min-width: 900px) { .metrics.wide { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+    .metric { background: #0f151d; border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+    .metric span { display: block; color: var(--muted); font-size: .75rem; text-transform: uppercase; font-weight: 800; }
+    .metric strong { display: block; margin-top: 6px; font-size: 2rem; }
+    .notice { margin-top: 12px; border: 1px solid rgba(245, 158, 11, .45); background: rgba(245, 158, 11, .1); color: #fde68a; border-radius: 10px; padding: 12px; line-height: 1.45; }
+    .resolution { border-top: 1px solid var(--line); padding: 12px 0; }
+    .resolution:first-child { border-top: 0; }
+    .resolution strong { display: block; font-size: 1rem; }
+    .meta { color: var(--muted); font-size: .85rem; margin-top: 5px; line-height: 1.45; }
+    a { color: #7dd3fc; font-weight: 800; }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .btn { display: inline-flex; min-height: 42px; align-items: center; justify-content: center; padding: 10px 14px; border: 1px solid var(--line); border-radius: 8px; background: #10161d; color: var(--text); text-decoration: none; }
+  </style>
+<style id="experiment-nav-style">.experiment-nav{display:flex;gap:8px;align-items:center;overflow-x:auto;padding:10px 14px;background:#101927;color:#fff;border-bottom:1px solid #334155;position:relative;z-index:100}.experiment-nav a{color:#fff;text-decoration:none;white-space:nowrap;font:700 12px/1.2 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding:8px 10px;border:1px solid #ffffff33;border-radius:8px}.experiment-nav a:focus,.experiment-nav a:hover{background:#ffffff18}@media(max-width:700px){.experiment-nav{padding:8px;gap:6px}.experiment-nav a{font-size:11px;padding:7px 8px}}</style><style id="ct-exp-nav-style">.ct-exp-nav{display:flex;gap:7px;align-items:center;overflow-x:auto;padding:9px 12px;background:#101927;color:#fff;border-bottom:1px solid #334155;position:relative;z-index:100}.ct-exp-nav a{color:#fff;text-decoration:none;white-space:nowrap;font:700 12px/1.2 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding:7px 9px;border:1px solid #ffffff33;border-radius:7px}.ct-exp-nav a:hover,.ct-exp-nav a:focus{background:#ffffff18}</style></head>
+<body><nav class="ct-exp-nav" aria-label="Council Tracker experiment navigation"><a href="philosophers-stone/">Experiment</a><a href="council-tracker/">Council Tracker</a><a href="dashboard.html">Dashboard</a><a href="councilwatch.html">CouncilWatch</a><a href="resolutions.html">Resolutions</a><a href="historical-coverage.html">Coverage</a><a href="lattice-atlas.html">Lattice Atlas</a><a href="agenda-disappearance.html">Agenda Register</a><a href="data-viewer.html">Data Viewer</a></nav><nav class="experiment-nav" aria-label="Experiment navigation"><a href="index.html">Experiment</a><a href="philosophers-stone/">The Stone</a><a href="council-tracker/">Council Tracker</a><a href="public-interest/">Public View</a><a href="dashboard.html">Dashboard</a><a href="councilwatch.html">CouncilWatch</a><a href="resolutions.html">Resolutions</a><a href="historical-coverage.html">Coverage</a><a href="lattice-atlas.html">Lattice Atlas</a><a href="agenda-disappearance.html">Agenda Register</a><a href="data-viewer.html">Data Viewer</a></nav>
+  <main>
+    <header>
+      <div class="eyebrow">Kempsey Shire</div>
+      <h1>CouncilWatch</h1>
+      <p class="lead">CouncilWatch is the operational resolution tracker: Council resolved this — did it happen?</p><div class="notice"><strong>Data freshness warning:</strong> scheduled acquisition is currently blocked before job creation. The loaded datasets are historical working material and must not be read as current council state.</div>
+      <div class="actions">
+        <a class="btn" href="index.html">Evidence Dashboard</a>
+        <a class="btn" href="public/council-dashboard-data.json">Dashboard Data</a>
+        <a class="btn" href="public/councilwatch-resolutions.json">Resolution Register</a>
+        <a class="btn" href="CouncilWatch/README.md">CouncilWatch Notes</a>
+      </div>
+    </header>
+
+    <section class="grid">
+      <div class="card gauge-wrap">
+        <div class="gauge" id="gauge">
+          <div class="needle" id="needle"></div>
+          <div class="hub"></div>
+          <div class="gauge-text">
+            <div class="score" id="score">--</div>
+            <div class="band" id="band">Loading</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>CouncilWatch State</h2>
+        <div class="metrics" id="metrics"></div>
+        <div class="notice"><strong>Proof of Fact: <span id="pof">0</span>.</strong> This page is a triage gauge. It does not prove misconduct, compliance failure, legal breach or intent. It indicates investigation load, unresolved matters, missing verification and public-record pressure.</div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top: 12px;">
+      <h2>Resolution Register</h2>
+      <div class="metrics wide" id="resolutionMetrics"></div>
+      <div id="resolutionList" style="margin-top: 12px;"></div>
+    </section>
+  </main>
+
+  <script>
+    const DATA_PATH = 'public/council-dashboard-data.json';
+    const RESOLUTION_PATH = 'public/councilwatch-resolutions.json';
+
+    function metric(title, value) {
+      return `<div class="metric"><span>${title}</span><strong>${value ?? 0}</strong></div>`;
+    }
+
+    function bandFor(score) {
+      if (score >= 75) return 'Critical Watch';
+      if (score >= 50) return 'High Watch';
+      if (score >= 25) return 'Active Watch';
+      return 'Baseline Watch';
+    }
+
+    function calculateGauge(summary, councilWatch, resolutionSummary) {
+      if (councilWatch?.derivedScores?.accountabilityPressure !== undefined) {
+        return Number(councilWatch.derivedScores.accountabilityPressure);
+      }
+      const matters = Number(summary.mattersTracked || 0);
+      const open = Number(summary.openWatchMatters || 0);
+      const overdue = Number(resolutionSummary?.overdue || 0);
+      const unknown = Number(resolutionSummary?.unknown || 0);
+      const unverified = Number(resolutionSummary?.unverified || 0);
+      let score = 0;
+      score += Math.min(30, matters * 3);
+      score += Math.min(25, open * 3);
+      score += Math.min(20, overdue * 5);
+      score += Math.min(15, unknown * 5);
+      score += Math.min(10, unverified * 3);
+      return Math.max(0, Math.min(100, score));
+    }
+
+    function renderResolutions(data) {
+      const s = data.summary || {};
+      document.getElementById('resolutionMetrics').innerHTML = [
+        metric('Tracked', s.resolutionsTracked),
+        metric('Completed', s.completed),
+        metric('In Progress', s.inProgress),
+        metric('Overdue', s.overdue),
+        metric('Unknown', s.unknown),
+        metric('Watch', s.watch),
+        metric('Verified', s.verified),
+        metric('Evidence Links', s.evidenceLinks)
+      ].join('');
+
+      const resolutions = data.resolutions || [];
+      document.getElementById('resolutionList').innerHTML = resolutions.length ? resolutions.map(item => `
+        <div class="resolution">
+          <strong>${item.resolutionId} — ${item.title}</strong>
+          <div class="meta">${item.council} · ${item.meetingDate} · ${item.location} · status: ${item.status} · verification: ${item.verificationState}</div>
+          <div class="meta">Matter: ${item.matter} · Evidence links: ${item.evidenceCount}</div>
+        </div>
+      `).join('') : '<div class="meta">No resolutions loaded.</div>';
+    }
+
+    async function loadGauge() {
+      const [dashboardRes, resolutionRes] = await Promise.all([
+        fetch(DATA_PATH + '?cache=' + Date.now()),
+        fetch(RESOLUTION_PATH + '?cache=' + Date.now())
+      ]);
+      const data = await dashboardRes.json();
+      const resolutions = await resolutionRes.json();
+      const summary = data.summary || {};
+      const resolutionSummary = resolutions.summary || {};
+      const councilWatch = data.councilWatch || {};
+      const score = calculateGauge(summary, councilWatch, resolutionSummary);
+      const angle = -110 + (score / 100) * 220;
+      document.getElementById('score').textContent = score;
+      document.getElementById('band').textContent = councilWatch?.derivedScores?.publicRiskBand || bandFor(score);
+      document.getElementById('needle').style.setProperty('--angle', `${angle}deg`);
+      document.getElementById('pof').textContent = Math.min(data.proofOfFact ?? 0, resolutions.proofOfFact ?? 0);
+      document.getElementById('metrics').innerHTML = [
+        metric('Matters', summary.mattersTracked),
+        metric('Open Watch', summary.openWatchMatters),
+        metric('Resolutions', resolutionSummary.resolutionsTracked),
+        metric('Unverified', resolutionSummary.unverified),
+        metric('Raw Files', summary.rawPreservedFiles),
+        metric('Extracted Text', summary.extractedTextFiles)
+      ].join('');
+      renderResolutions(resolutions);
+    }
+
+    loadGauge().catch(error => {
+      document.getElementById('band').textContent = 'Data Load Failed';
+      console.error(error);
+    });
+  </script>
+</body>
+</html>
