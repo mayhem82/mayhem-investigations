@@ -1,0 +1,65 @@
+{
+  "updatedUtc": "2026-06-16T06:20:00Z",
+  "proofOfFact": 0,
+  "verificationState": "starter-unverified",
+  "publicUseWarning": "CouncilWatch resolution records are not final evidence until each source is preserved, checked against the original council record and independently verified.",
+  "summary": {
+    "resolutionsTracked": 1,
+    "completed": 0,
+    "inProgress": 0,
+    "overdue": 0,
+    "unknown": 1,
+    "watch": 1,
+    "verified": 0,
+    "partiallyVerified": 0,
+    "unverified": 1,
+    "bellbrookRelated": 1,
+    "evidenceLinks": 2
+  },
+  "statusModel": [
+    "unknown",
+    "watch",
+    "open",
+    "in-progress",
+    "overdue",
+    "completed",
+    "abandoned"
+  ],
+  "verificationModel": [
+    "unverified",
+    "partial",
+    "verified"
+  ],
+  "resolutions": [
+    {
+      "resolutionId": "KSC-FF-2025-05-20-001",
+      "council": "Kempsey Shire Council",
+      "matter": "flying-fox-camp",
+      "location": "Bellbrook",
+      "meetingDate": "2025-05-20",
+      "meetingType": "ordinary-council-meeting",
+      "title": "Flying Fox Management Request",
+      "resolutionText": "Pending extraction from preserved council minutes.",
+      "responsibleUnit": "unknown",
+      "responsibleOfficer": "unknown",
+      "dueDate": "unknown",
+      "status": "watch",
+      "verificationState": "unverified",
+      "communityImpact": "high",
+      "lastEvidenceDate": "2025-05-20",
+      "evidenceCount": 2,
+      "sourceLinks": [
+        "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-20-May-2025",
+        "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf"
+      ],
+      "completionEvidence": [],
+      "watchQuestions": [
+        "What exactly did council resolve?",
+        "What action was assigned?",
+        "Was a report due?",
+        "Was the report delivered?",
+        "What evidence proves completion or non-completion?"
+      ]
+    }
+  ]
+}
