@@ -1,0 +1,15 @@
+{
+  "updatedUtc": "2026-06-18T00:00:00Z",
+  "verificationState": "starter-unverified",
+  "locations": [
+    { "locationId": "bellbrook", "name": "Bellbrook", "lga": "Kempsey Shire", "status": "active", "priority": "high" },
+    { "locationId": "willawarrin", "name": "Willawarrin", "lga": "Kempsey Shire", "status": "active", "priority": "medium" },
+    { "locationId": "sherwood", "name": "Sherwood", "lga": "Kempsey Shire", "status": "active", "priority": "medium" },
+    { "locationId": "turners-flat", "name": "Turners Flat", "lga": "Kempsey Shire", "status": "active", "priority": "medium" },
+    { "locationId": "kempsey", "name": "Kempsey", "lga": "Kempsey Shire", "status": "active", "priority": "medium" },
+    { "locationId": "south-west-rocks", "name": "South West Rocks", "lga": "Kempsey Shire", "status": "active", "priority": "medium" },
+    { "locationId": "smithtown", "name": "Smithtown", "lga": "Kempsey Shire", "status": "active", "priority": "low" },
+    { "locationId": "gladstone", "name": "Gladstone", "lga": "Kempsey Shire", "status": "active", "priority": "low" },
+    { "locationId": "crescent-head", "name": "Crescent Head", "lga": "Kempsey Shire", "status": "active", "priority": "low" }
+  ]
+}
