@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CouncilWatch Historical Acquisition Coverage</title>
+<style>
+:root{color-scheme:dark;--bg:#0b0f14;--panel:#151b23;--line:#2d3642;--text:#eef3f8;--muted:#9ca8b5;--accent:#f59e0b;--ok:#22c55e;--warn:#f59e0b}*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}main{max-width:1180px;margin:0 auto;padding:16px}header{border-bottom:1px solid var(--line);padding:16px 0}.eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:.08em;font-size:.75rem;font-weight:800}h1{margin:6px 0 8px;font-size:clamp(1.8rem,6vw,3.6rem);line-height:.95}.lead,.meta{color:var(--muted);line-height:1.45}.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.btn{display:inline-flex;min-height:40px;align-items:center;justify-content:center;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:#10161d;color:var(--text);text-decoration:none;font-weight:800}.card{margin-top:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}@media(min-width:860px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}.cols{grid-template-columns:1fr 1fr}}.metric,.row,.notice{background:#0f151d;border:1px solid var(--line);border-radius:10px;padding:12px}.notice{border-color:rgba(245,158,11,.55);background:rgba(245,158,11,.09);color:#fde68a}.metric span{display:block;color:var(--muted);font-size:.72rem;text-transform:uppercase;font-weight:800}.metric strong{display:block;margin-top:6px;font-size:1.85rem}.row{margin-top:10px}.row strong{display:block;font-size:1rem}.bar{height:9px;border-radius:999px;background:#0b0f14;border:1px solid var(--line);overflow:hidden;margin-top:8px}.fill{height:100%;background:var(--accent)}.cols{display:grid;gap:12px}a{color:#7dd3fc}.tag{display:inline-flex;margin-top:6px;border:1px solid var(--line);border-radius:999px;padding:4px 8px;color:var(--muted);font-size:.8rem}.tag.ok{color:#bbf7d0;border-color:rgba(34,197,94,.45)}.tag.warn{color:#fde68a;border-color:rgba(245,158,11,.45)}
+</style>
+<style id="experiment-nav-style">.experiment-nav{display:flex;gap:8px;align-items:center;overflow-x:auto;padding:10px 14px;background:#101927;color:#fff;border-bottom:1px solid #334155;position:relative;z-index:100}.experiment-nav a{color:#fff;text-decoration:none;white-space:nowrap;font:700 12px/1.2 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding:8px 10px;border:1px solid #ffffff33;border-radius:8px}.experiment-nav a:focus,.experiment-nav a:hover{background:#ffffff18}@media(max-width:700px){.experiment-nav{padding:8px;gap:6px}.experiment-nav a{font-size:11px;padding:7px 8px}}</style><style id="ct-exp-nav-style">.ct-exp-nav{display:flex;gap:7px;align-items:center;overflow-x:auto;padding:9px 12px;background:#101927;color:#fff;border-bottom:1px solid #334155;position:relative;z-index:100}.ct-exp-nav a{color:#fff;text-decoration:none;white-space:nowrap;font:700 12px/1.2 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding:7px 9px;border:1px solid #ffffff33;border-radius:7px}.ct-exp-nav a:hover,.ct-exp-nav a:focus{background:#ffffff18}</style></head>
+<body><nav class="ct-exp-nav" aria-label="Council Tracker experiment navigation"><a href="philosophers-stone/">Experiment</a><a href="council-tracker/">Council Tracker</a><a href="dashboard.html">Dashboard</a><a href="councilwatch.html">CouncilWatch</a><a href="resolutions.html">Resolutions</a><a href="historical-coverage.html">Coverage</a><a href="lattice-atlas.html">Lattice Atlas</a><a href="agenda-disappearance.html">Agenda Register</a><a href="data-viewer.html">Data Viewer</a></nav><nav class="experiment-nav" aria-label="Experiment navigation"><a href="index.html">Experiment</a><a href="philosophers-stone/">The Stone</a><a href="council-tracker/">Council Tracker</a><a href="public-interest/">Public View</a><a href="dashboard.html">Dashboard</a><a href="councilwatch.html">CouncilWatch</a><a href="resolutions.html">Resolutions</a><a href="historical-coverage.html">Coverage</a><a href="lattice-atlas.html">Lattice Atlas</a><a href="agenda-disappearance.html">Agenda Register</a><a href="data-viewer.html">Data Viewer</a></nav>
+<main>
+<header>
+<div class="eyebrow">CouncilWatch</div>
+<h1>Historical Acquisition Coverage</h1>
+<p class="lead">This page separates source layers from actual meeting records. A known index is not counted as historical record coverage until meeting-level records are enumerated.</p>
+<div class="actions"><a class="btn" href="index.html">Home</a><a class="btn" href="dashboard.html">Live Dashboard</a><a class="btn" href="public/historical-coverage.json">Coverage JSON</a><a class="btn" href="public/data/meeting-register.json">Meeting JSON</a></div>
+</header>
+<section class="card notice"><strong>Reading rule:</strong> source-layer known means an index or archive path exists. Meeting-record coverage means individual meeting pages are loaded into the repository register. Preserved/text-extracted coverage remains zero until files are copied into the repo and converted to readable text.</section>
+<section class="card"><h2>Acquisition Snapshot</h2><div class="grid" id="metrics"></div></section>
+<section class="cols"><section class="card"><h2>Source Layers</h2><div id="layers">Loading...</div></section><section class="card"><h2>Meeting Data Loaded</h2><div id="meetingSummary">Loading...</div></section></section>
+<section class="card"><h2>Year-by-Year Acquisition</h2><div id="years">Loading...</div></section>
+<section class="card"><h2>Enumerated Meetings</h2><div id="meetings">Loading...</div></section>
+<section class="card"><h2>Source Targets</h2><div id="targets">Loading...</div></section>
+</main>
+<script>
+function metric(t,v){return '<div class="metric"><span>'+t+'</span><strong>'+(v??0)+'</strong></div>'}
+function pct(a,b){return b?Math.round(a/b*100):0}
+function row(title,meta,cls=''){return '<article class="row"><strong>'+title+'</strong><div class="meta">'+meta+'</div>'+cls+'</article>'}
+Promise.all([
+ fetch('public/historical-coverage.json?cache='+Date.now()).then(r=>r.json()),
+ fetch('public/data/meeting-register.json?cache='+Date.now()).then(r=>r.json()).catch(()=>null)
+]).then(([data,meet])=>{
+ const s=data.summary||{},ms=(meet&&meet.summary)||{},sm=data.sourceModel||{};
+ document.getElementById('metrics').innerHTML=[
+  metric('Years targeted',s.yearsTargeted),
+  metric('Years with source layer',s.yearsWithSourceLayer),
+  metric('Years with meeting records',s.yearsWithMeetingRecords),
+  metric('Meeting records',s.meetingRecordsEnumerated),
+  metric('Agendas found',s.agendasFound),
+  metric('Minutes found',s.minutesFound),
+  metric('Raw preserved',s.rawRecordsPreserved),
+  metric('Text extracted',s.textRecordsExtracted)
+ ].join('');
+ document.getElementById('layers').innerHTML=row('Current meeting index','Visible years: '+((sm.currentIndexYearsObserved||[]).join(', ')))+row('Archive index','Targeted years: '+((sm.archiveYearsTargeted||[]).join(', ')));
+ document.getElementById('meetingSummary').innerHTML=row('Repository meeting register','Meetings: '+(ms.meetingsEnumerated||0)+' · Agendas: '+(ms.agendasFound||0)+' · Minutes: '+(ms.minutesFound||0)+' · Attachments listed: '+(ms.attachmentsEnumerated||0)) + row('Preservation state','Raw records preserved: '+(s.rawRecordsPreserved||0)+' · Text extracted: '+(s.textRecordsExtracted||0)+' · Disappearance checks: '+(s.disappearanceChecksCompleted||0));
+ document.getElementById('years').innerHTML=(data.years||[]).map(y=>{let loaded=(y.meetingsEnumerated||0)+(y.agendaTargets||0)+(y.minuteTargets||0);let progress=Math.min(100,pct(loaded,20));let tag=(y.meetingsEnumerated||0)?'<span class="tag ok">Meeting records enumerated</span>':'<span class="tag warn">Source layer only</span>';return '<article class="row"><strong>'+y.year+' — '+(y.publicState||y.status)+'</strong><div class="meta">Layer: '+(y.sourceLayer||'unknown')+' · Source targets: '+(y.sourceTargets||0)+' · Meetings: '+(y.meetingsEnumerated||0)+' · Agendas: '+(y.agendaTargets||0)+' · Minutes: '+(y.minuteTargets||0)+'</div><div class="meta">Attachments listed: '+(y.attachmentsEnumerated||0)+' · Raw preserved: '+(y.rawPreserved||0)+' · Text extracted: '+(y.textExtracted||0)+' · Pairs checked: '+(y.pairsChecked||0)+'</div><div class="bar"><div class="fill" style="width:'+progress+'%"></div></div>'+tag+'</article>'}).join('');
+ document.getElementById('meetings').innerHTML=((meet&&meet.meetings)||[]).map(m=>row(m.date+' — '+m.title,(m.meetingType||'')+' · '+(m.time||'')+' · '+(m.venue||'')+'<br>Agenda: '+m.agendaStatus+' · Minutes: '+m.minuteStatus+' · Attachments listed: '+m.attachmentCount+'<br><a href="'+m.pageUrl+'" target="_blank" rel="noreferrer">Open source page</a>')).join('')||'No meeting records loaded.';
+ document.getElementById('targets').innerHTML=(data.sourceTargets||[]).map(t=>row(t.targetId+' — '+t.label,'Year: '+(t.year??'multi-year')+' · Type: '+(t.recordType||'unknown')+' · Status: '+t.status+(t.url?'<br><a href="'+t.url+'" target="_blank" rel="noreferrer">Open source target</a>':''))).join('')||'No targets listed.';
+}).catch(e=>{document.getElementById('years').textContent='Data load failed: '+e.message});
+</script>
+</body>
+</html>
