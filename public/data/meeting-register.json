@@ -1,0 +1,122 @@
+{
+  "updatedUtc": "2026-09-27T00:00:00Z",
+  "verificationState": "mixed-source-observed-external-acquisition",
+  "sourceBasis": "Kempsey Shire Council meeting index plus individually retrieved July and August 2026 meeting pages. September 2026 is index-observed but its meeting page/documents were not retrieved in this pass.",
+  "summary": {
+    "meetingsEnumerated": 7,
+    "agendasFound": 7,
+    "minutesFound": 7,
+    "confirmedMinutesFound": 4,
+    "draftMinutesFound": 3,
+    "attachmentsEnumerated": 110,
+    "yearsRepresented": [
+      2026
+    ],
+    "attachmentsNotCountedForMeetings": 1
+  },
+  "meetings": [
+    {
+      "meetingId": "KSC-OCM-2026-07-21",
+      "year": 2026,
+      "date": "2026-07-21",
+      "title": "Ordinary Council Meeting - 21 July 2026",
+      "meetingType": "Ordinary Council Meeting",
+      "time": "09:00 AM",
+      "venue": "Council Chambers, Civic Centre",
+      "pageUrl": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-21-July-2026",
+      "minuteStatus": "confirmed-minutes-present",
+      "agendaStatus": "agenda-present",
+      "attachmentCount": 4,
+      "acquisitionNote": "Meeting page retrieved externally 27 September 2026."
+    },
+    {
+      "meetingId": "KSC-OCM-2026-08-18",
+      "year": 2026,
+      "date": "2026-08-18",
+      "title": "Ordinary Council Meeting - 18 August 2026",
+      "meetingType": "Ordinary Council Meeting",
+      "time": "09:00 AM",
+      "venue": "Council Chambers, Civic Centre",
+      "pageUrl": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-18-August-2026",
+      "minuteStatus": "draft-minutes-present",
+      "agendaStatus": "agenda-present",
+      "attachmentCount": null,
+      "acquisitionNote": "Meeting page retrieved externally 27 September 2026; attachments were visible but not counted in this recovery pass."
+    },
+    {
+      "meetingId": "KSC-OCM-2026-06-16",
+      "year": 2026,
+      "date": "2026-06-16",
+      "title": "Ordinary Council Meeting - 16 June 2026",
+      "meetingType": "Ordinary Council Meeting",
+      "time": "09:00 AM",
+      "venue": "Council Chambers, Civic Centre",
+      "pageUrl": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-16-June-2026",
+      "minuteStatus": "draft-minutes-present",
+      "agendaStatus": "agenda-present",
+      "attachmentCount": 26
+    },
+    {
+      "meetingId": "KSC-OCM-2026-05-19",
+      "year": 2026,
+      "date": "2026-05-19",
+      "title": "Ordinary Council Meeting - 19 May 2026",
+      "meetingType": "Ordinary Council Meeting",
+      "time": "09:00 AM",
+      "venue": "Council Chambers, Civic Centre",
+      "pageUrl": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-19-May-2026",
+      "minuteStatus": "draft-minutes-present",
+      "agendaStatus": "agenda-present",
+      "attachmentCount": 18
+    },
+    {
+      "meetingId": "KSC-OCM-2026-04-21",
+      "year": 2026,
+      "date": "2026-04-21",
+      "title": "Ordinary Council Meeting - 21 April 2026",
+      "meetingType": "Ordinary Council Meeting",
+      "time": "09:00 AM",
+      "venue": "Council Chambers, Civic Centre",
+      "pageUrl": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-21-April-2026",
+      "minuteStatus": "confirmed-minutes-present",
+      "agendaStatus": "agenda-present",
+      "attachmentCount": 10
+    },
+    {
+      "meetingId": "KSC-OCM-2026-03-17",
+      "year": 2026,
+      "date": "2026-03-17",
+      "title": "Ordinary Council Meeting - 17 March 2026",
+      "meetingType": "Ordinary Council Meeting",
+      "time": "09:00 AM",
+      "venue": "Council Chambers, Civic Centre",
+      "pageUrl": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-March-2026",
+      "minuteStatus": "confirmed-minutes-present",
+      "agendaStatus": "agenda-present",
+      "attachmentCount": 31
+    },
+    {
+      "meetingId": "KSC-OCM-2026-02-17",
+      "year": 2026,
+      "date": "2026-02-17",
+      "title": "Ordinary Council Meeting - 17 February 2026",
+      "meetingType": "Ordinary Council Meeting",
+      "time": "09:00 AM",
+      "venue": "Council Chambers, Civic Centre",
+      "pageUrl": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-February-2026",
+      "minuteStatus": "confirmed-minutes-present",
+      "agendaStatus": "agenda-present",
+      "attachmentCount": 21
+    }
+  ],
+  "indexObservations": {
+    "observedUtc": "2026-09-27T00:00:00Z",
+    "latestOrdinaryMeetingListed": "2026-09-15",
+    "latestOrdinaryMeetingStatus": "index-observed-not-enumerated",
+    "nextOrdinaryMeetingsListed": [
+      "2026-10-20",
+      "2026-11-17",
+      "2026-12-15"
+    ]
+  }
+}
