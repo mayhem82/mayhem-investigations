@@ -1,0 +1,13 @@
+{
+  "updatedUtc": "2026-06-18T00:00:00Z",
+  "verificationState": "starter-unverified",
+  "relationships": [
+    { "relationshipId": "REL-001", "sourceId": "bellbrook", "sourceType": "location", "targetId": "bellbrook-flying-fox", "targetType": "matter", "relationship": "location-has-matter", "status": "active" },
+    { "relationshipId": "REL-002", "sourceId": "bellbrook-flying-fox", "sourceType": "matter", "targetId": "EVID-001", "targetType": "evidence", "relationship": "supported-by-source-target", "status": "unverified" },
+    { "relationshipId": "REL-003", "sourceId": "bellbrook-flying-fox", "sourceType": "matter", "targetId": "RES-001", "targetType": "resolution", "relationship": "has-resolution-candidate", "status": "watch" },
+    { "relationshipId": "REL-004", "sourceId": "bellbrook-flying-fox", "sourceType": "matter", "targetId": "DIS-001", "targetType": "disappearance-event", "relationship": "requires-comparison", "status": "comparison-required" },
+    { "relationshipId": "REL-005", "sourceId": "bellbrook-flying-fox", "sourceType": "matter", "targetId": "DOC-001", "targetType": "document", "relationship": "has-source-document", "status": "source-targeted-unverified" },
+    { "relationshipId": "REL-006", "sourceId": "bellbrook-flying-fox", "sourceType": "matter", "targetId": "TIME-002", "targetType": "timeline-event", "relationship": "has-timeline-event", "status": "source-targeted-unverified" },
+    { "relationshipId": "REL-007", "sourceId": "ACT-001", "sourceType": "actor", "targetId": "bellbrook-flying-fox", "targetType": "matter", "relationship": "council-record-holder", "status": "class-link" }
+  ]
+}
