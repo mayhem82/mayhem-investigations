@@ -1,0 +1,10 @@
+{
+  "updatedUtc": "2026-06-18T00:00:00Z",
+  "verificationState": "starter-unverified",
+  "actors": [
+    { "actorId": "ACT-001", "name": "Kempsey Shire Council", "type": "council", "status": "active" },
+    { "actorId": "ACT-002", "name": "Council staff", "type": "actor-class", "status": "class-only" },
+    { "actorId": "ACT-003", "name": "Councillors", "type": "actor-class", "status": "class-only" },
+    { "actorId": "ACT-004", "name": "Community speakers", "type": "actor-class", "status": "class-only" }
+  ]
+}
