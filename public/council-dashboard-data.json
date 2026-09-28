@@ -1,0 +1,258 @@
+{
+  "updatedUtc": "2026-06-16T06:00:00Z",
+  "proofOfFact": 0,
+  "proofMeaning": "Unverified - starter dashboard data seeded from project registers and public source locations. Source review is required before evidentiary use.",
+  "factualStrength": {
+    "score": 0,
+    "band": "Unverified",
+    "rationale": "This payload preserves navigation, source targets and CouncilWatch signals. It does not make final findings until source records are fetched, preserved and independently reviewed."
+  },
+  "summary": {
+    "mattersTracked": 8,
+    "openWatchMatters": 8,
+    "watchOnlyMatterSignals": 7,
+    "resolutionCandidates": 0,
+    "duplicateUrlCandidates": 0,
+    "duplicateFileCandidates": 0,
+    "rawPreservedFiles": 0,
+    "extractedTextFiles": 0,
+    "evidenceReferencesChecked": 0,
+    "evidenceReferencesMissing": 0
+  },
+  "councilWatch": {
+    "name": "CouncilWatch — Kempsey Shire",
+    "scope": "Public council records, meeting minutes, resolutions, reports, actions, source preservation and issue monitoring for Kempsey Shire Council with Upper Macleay priority matters.",
+    "verificationStatus": "starter-unverified",
+    "publicUseWarning": "CouncilWatch is a triage gauge. It does not prove misconduct, intent, legal breach or factual correctness without source-record review.",
+    "scoreModelVersion": "COUNCILWATCH-KSC-GAUGE-001",
+    "dimensions": {
+      "matterLoad": {
+        "label": "Matter Load",
+        "score": 64,
+        "weight": 20,
+        "basis": "Eight seeded matters are under watch, including flying fox camp, roads, bridges, water security, grants, public health and safety, community facilities and governance."
+      },
+      "openWatchPressure": {
+        "label": "Open Watch Pressure",
+        "score": 100,
+        "weight": 20,
+        "basis": "All seeded matters are open-watch or source-discovery-watch."
+      },
+      "evidencePreservationGap": {
+        "label": "Evidence Preservation Gap",
+        "score": 100,
+        "weight": 20,
+        "basis": "Raw preserved files and extracted text files are currently zero in the dashboard summary."
+      },
+      "actionFollowThrough": {
+        "label": "Action Follow-through",
+        "score": 25,
+        "weight": 15,
+        "basis": "Only one action signal is currently seeded. Completion status is not yet verified."
+      },
+      "resolutionProgress": {
+        "label": "Resolution Progress",
+        "score": 0,
+        "weight": 10,
+        "basis": "No resolution candidates are currently recorded."
+      },
+      "sourceVerification": {
+        "label": "Source Verification",
+        "score": 0,
+        "weight": 15,
+        "basis": "Evidence references checked are currently zero. Proof of Fact remains zero."
+      }
+    },
+    "derivedScores": {
+      "accountabilityPressure": 54,
+      "verificationReadiness": 0,
+      "evidenceGap": 100,
+      "publicRiskBand": "High Watch - Unverified"
+    },
+    "prioritySignals": [
+      {
+        "id": "source-preservation-gap",
+        "label": "Source preservation gap",
+        "status": "active",
+        "detail": "Dashboard summary reports zero raw preserved files and zero extracted text files."
+      },
+      {
+        "id": "all-matters-open-watch",
+        "label": "All seeded matters remain under watch",
+        "status": "active",
+        "detail": "Eight of eight seeded matters are open-watch or source-discovery-watch."
+      },
+      {
+        "id": "proof-of-fact-zero",
+        "label": "Proof of Fact remains zero",
+        "status": "active",
+        "detail": "CouncilWatch must not be used as final evidence until source checks are completed."
+      }
+    ]
+  },
+  "matters": [
+    {
+      "id": "flying-fox-camp",
+      "status": "open-watch",
+      "score": 6,
+      "evidenceReferences": 3,
+      "actionSignals": 1,
+      "events": 2,
+      "chronologyPath": "matters/flying-fox-camp/chronology.md",
+      "eventList": [
+        {
+          "date": "2025-05-20",
+          "kind": "priority-source-target",
+          "status": "source-targeted-unverified",
+          "trigger": "Ordinary Council Meeting 20 May 2025 and Flying Fox Management Request",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-20-May-2025"
+        },
+        {
+          "date": "2025-05-20",
+          "kind": "minutes-source-target",
+          "status": "source-targeted-unverified",
+          "trigger": "Confirmed minutes PDF identified for preservation and review",
+          "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "roads",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/roads/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook roads, Upper Macleay roads, Armidale Road, road maintenance",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "bridges",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/bridges/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook bridge, Upper Macleay bridge, flood crossing, causeway",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "water-security",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/water-security/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook water, Upper Macleay water, water carting, potable water",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "grants-funding",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/grants-funding/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook grant, Upper Macleay grant, funding, budget allocation",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "public-health-safety",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/public-health-safety/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook public health, flying-fox public health, playground safety",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "community-facilities",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/community-facilities/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook hall, Bellbrook playground, Bellbrook park, public toilet",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/governance/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "notice of motion, council resolution, councillor, ordinary meeting, deferred report",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    }
+  ],
+  "files": {
+    "dashboard": "upper-macleay-council-intelligence/DASHBOARD.md",
+    "intelligenceHome": "upper-macleay-council-intelligence/INTELLIGENCE-HOME.md",
+    "sourceMap": "upper-macleay-council-intelligence/config/source-map.txt",
+    "sourcePriority": "upper-macleay-council-intelligence/manual-seed/source-priority-register.md",
+    "manualSeedIssues": "upper-macleay-council-intelligence/registers/manual-seed-issue-register.md",
+    "lifecycle": "upper-macleay-council-intelligence/reports/matter-lifecycle.md",
+    "heatmap": "upper-macleay-council-intelligence/reports/matter-heatmap.md",
+    "duplicates": "upper-macleay-council-intelligence/reports/duplicate-source-report.md",
+    "audit": "upper-macleay-council-intelligence/reports/evidence-chain-audit.md",
+    "councilWatch": "councilwatch.html"
+  }
+}
