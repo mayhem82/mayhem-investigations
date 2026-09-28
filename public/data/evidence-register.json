@@ -1,0 +1,26 @@
+{
+  "updatedUtc": "2026-06-18T00:00:00Z",
+  "verificationState": "starter-unverified",
+  "evidence": [
+    {
+      "evidenceId": "EVID-001",
+      "matterId": "bellbrook-flying-fox",
+      "locationId": "bellbrook",
+      "sourceType": "council-minutes-source-target",
+      "sourceTitle": "Kempsey Shire Council Ordinary Council Meeting 20 May 2025 confirmed minutes",
+      "sourceDate": "2025-05-20",
+      "url": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf",
+      "status": "source-targeted-unverified"
+    },
+    {
+      "evidenceId": "EVID-002",
+      "matterId": "bellbrook-flying-fox",
+      "locationId": "bellbrook",
+      "sourceType": "meeting-page-source-target",
+      "sourceTitle": "Ordinary Council Meeting 20 May 2025 page",
+      "sourceDate": "2025-05-20",
+      "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-20-May-2025",
+      "status": "source-targeted-unverified"
+    }
+  ]
+}
