@@ -1,0 +1,81 @@
+{
+  "updatedUtc": "2026-06-17T00:00:00Z",
+  "proofOfFact": 0,
+  "verificationState": "starter-unverified",
+  "purpose": "Track council agenda and minute items across historical records to detect items that appear, disappear, defer, reappear, rename, or remain unresolved without clear closure evidence.",
+  "publicUseWarning": "This register is a disappearance-detection tool. It does not prove concealment, misconduct, intent, legal breach, or factual correctness without source-record preservation and manual verification.",
+  "scope": {
+    "council": "Kempsey Shire Council",
+    "priorityLocality": "Bellbrook and Upper Macleay",
+    "recommendedHistoricalStartYear": 2019,
+    "recommendedHistoricalEndYear": 2026,
+    "sourceTypes": [
+      "ordinary-council-agenda",
+      "ordinary-council-minutes",
+      "extraordinary-council-agenda",
+      "extraordinary-council-minutes",
+      "business-paper",
+      "attachments",
+      "notice-of-motion",
+      "public-forum-registration",
+      "outstanding-actions-register"
+    ]
+  },
+  "summary": {
+    "itemsTracked": 1,
+    "disappearanceCandidates": 1,
+    "renameCandidates": 0,
+    "deferredCandidates": 0,
+    "reappearedCandidates": 0,
+    "closedWithEvidence": 0,
+    "closedWithoutEvidence": 0,
+    "sourceRecordsPreserved": 0,
+    "yearsCovered": 0
+  },
+  "statusModel": [
+    "source-targeted-unverified",
+    "appeared",
+    "deferred",
+    "renamed",
+    "missing-next-cycle",
+    "missing-multiple-cycles",
+    "reappeared",
+    "closed-with-evidence",
+    "closed-without-evidence",
+    "requires-gipa"
+  ],
+  "trackingRules": [
+    "Every identified agenda item must be matched against the next available minutes.",
+    "Every resolution in minutes must be checked against later action registers or subsequent reports.",
+    "If an item appears in an agenda but no matching resolution, deferral, withdrawal or closure is found in minutes, flag missing-next-cycle.",
+    "If an item disappears for two or more meeting cycles without closure evidence, flag missing-multiple-cycles.",
+    "If wording changes but subject, location, actors or source path remain similar, flag rename-candidate rather than treating as resolved.",
+    "No item may be marked closed unless closure evidence is recorded."
+  ],
+  "items": [
+    {
+      "itemId": "ADR-KSC-BELLBROOK-FF-2025-05-20-001",
+      "matter": "flying-fox-camp",
+      "location": "Bellbrook",
+      "firstSeenDate": "2025-05-20",
+      "firstSeenRecordType": "ordinary-council-meeting-source-target",
+      "firstSeenTitle": "Flying Fox Management Request",
+      "lastSeenDate": "2025-05-20",
+      "currentStatus": "source-targeted-unverified",
+      "disappearanceRisk": "unknown-until-historical-comparison",
+      "needsComparisonAgainst": [
+        "2025-05-20 confirmed minutes",
+        "next ordinary council meeting agenda",
+        "next ordinary council meeting minutes",
+        "later outstanding actions registers",
+        "October 2025 report cycle if applicable"
+      ],
+      "knownSourceTargets": [
+        "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-20-May-2025",
+        "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf"
+      ],
+      "closureEvidence": [],
+      "notes": "Seed item only. Requires historical agenda/minutes scrape and manual extraction before making any disappearance finding."
+    }
+  ]
+}
