@@ -6,11 +6,22 @@ body{margin:0;font:16px system-ui,sans-serif;background:#0b0d10;color:#edf1f5}ma
 h1{font-size:2rem;margin-bottom:6px}h2{margin-top:30px}.muted{color:#aeb7c2}.card{border:1px solid #303842;border-radius:12px;padding:16px;margin:12px 0;background:#12161b}
 .stage{font-weight:700}.flow{font-family:ui-monospace,monospace;line-height:1.8;overflow-wrap:anywhere}.rule{border-left:4px solid #8994a1;padding-left:12px}
 a{color:#9ecbff}code{white-space:normal}
+nav{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 24px}nav a{border:1px solid #303842;border-radius:9px;padding:9px 12px;text-decoration:none;background:#12161b}
+.jump{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 24px}.jump a{font-size:.9rem}
+section{scroll-margin-top:16px}
 </style></head><body><main>
+<nav aria-label="Council Tracker navigation">
+<a href="./">Tracker home</a>
+<a href="./machinery.html" aria-current="page">Machinery</a>
+<a href="../philosophers-stone/">Philosopher’s Stone</a>
+</nav>
 <h1>Council Tracker — Machinery</h1>
+<div class="jump" aria-label="Page navigation">
+<a href="#machinery">Current machinery</a><a href="#flow">Flow</a><a href="#limits">Limits</a><a href="#separation">Experimental separation</a>
+</div>
 <p class="muted">Public translation of the zero-information construction. This page describes what has actually been constructed; it is not a Council findings page and does not credit progress to the Philosopher’s Stone.</p>
 <div class="card rule"><strong>Construction boundary</strong><p>The machinery starts with no Council identity, source URL, locality, actor, matter, issue, glossary, historical register, investigation dataset or inherited operational workflow. A source enters only when explicitly supplied at runtime.</p></div>
-<h2>Current machinery</h2>
+<section id="machinery"><h2>Current machinery</h2>
 <div class="card"><span class="stage">1 — Neutral contracts</span><p>Defines an explicit runtime source boundary, canonical URLs, SHA-256 digests and immutable preserved-source records.</p></div>
 <div class="card"><span class="stage">2 — Acquisition boundary</span><p>Accepts an explicitly supplied HTTP(S) source, retrieves it, preserves the returned bytes and records provenance. It does not interpret the content.</p></div>
 <div class="card"><span class="stage">3 — Neutral discovery and preservation</span><p>Discovers links exposed by the supplied source without subject keywords or predetermined record types. Same-host objects are independently preserved with provenance before interpretation.</p></div>
@@ -18,10 +29,10 @@ a{color:#9ecbff}code{white-space:normal}
 <div class="card"><span class="stage">5 — Source-bound observation</span><p>Makes source text addressable as deterministic observations. An observation is source text only: not a finding, truth assessment or verification decision.</p></div>
 <div class="card"><span class="stage">6 — Emergent relationship candidates</span><p>Compares observations using source-derived lexical overlap. Similarity creates a candidate relationship only; it does not establish a matter, causation, responsibility, importance or outcome.</p></div>
 <div class="card"><span class="stage">7 — Source-derived identity and recurrence</span><p>Detects identifier-shaped strings supplied by the source and records recurrence across different preserved objects. Recurrence does not itself establish identity, continuity, a matter or an outcome.</p></div>
-<h2>Flow</h2><div class="card flow">ZERO INFORMATION → explicit runtime source → preserve → discover → preserve each object → extract → observe → relationship candidates → recurrence candidates → [construction continues]</div>
-<h2>What the machinery still cannot claim</h2>
+</section><section id="flow"><h2>Flow</h2><div class="card flow">ZERO INFORMATION → explicit runtime source → preserve → discover → preserve each object → extract → observe → relationship candidates → recurrence candidates → [construction continues]</div>
+</section><section id="limits"><h2>What the machinery still cannot claim</h2>
 <div class="card"><p>It cannot yet claim that two records concern the same substantive matter, construct a lifecycle, determine responsibility, verify an outcome, publish a Council finding, or advance the Philosopher’s Stone. Those capabilities must be constructed and tested rather than assumed.</p></div>
-<h2>Experimental separation</h2>
+</section><section id="separation"><h2>Experimental separation</h2>
 <div class="card"><p>The Council Tracker is the experimental machinery. The Philosopher’s Stone is separate. Tracker behaviour may later provide evidence about Stone development, but construction alone is not Stone advancement.</p></div>
-<p class="muted">Construction branch: <code>council-tracker-zero-baseline</code>. Current construction through Stage 7.</p>
+</section><p><a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top</a></p><p class="muted">Construction branch: <code>council-tracker-zero-baseline</code>. Current construction through Stage 7.</p>
 </main></body></html>
