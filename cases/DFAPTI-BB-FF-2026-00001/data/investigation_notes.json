@@ -439,5 +439,14 @@
     "related_thread": null,
     "related_source": "SRC-0006",
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0050",
+    "timestamp": "2026-09-29T00:00:00Z",
+    "activity_type": "Researching",
+    "text": "Automated DFAPTA pass (scripts/automated-dfapta-prompt.md). Confirmed status was 'In Progress — Pass 31' before proceeding. Read README.md, SPEC.md, decisions.json, investigation_notes.json, automation_log.json and source_register.json in full first, as the routine requires. This session's detached HEAD matched origin/main exactly, so no worktree was needed, unlike the stale-local-main situation DEC-0049 handled. Confirmed RUN- is a shared repository-wide sequence (DEC-0037); checked every case's own automation_log.json and found the highest existing id was RUN-0095, so this pass uses RUN-0096. evidence_register.json remains at 25 items, unchanged since the last pass. Confirmed by direct anchor comparison that every EV-0001 through EV-0023 item remains cited by at least one existing path; only EV-0024 and EV-0025 remain unanchored, both still outside DFAPTA Cycle 1's frozen basis. Independently re-extracted (direct docx zip/XML parse) and re-read all eight preserved primary-source documents in full, then re-read source_register.json, contradictions.json and open_questions.json in full, and this case's own 62 existing paths. Checked several specific candidates against the existing record and found each already anchored, not new: the Hardened Submission Package's Part 5 'Submission 1' and 'Submission 3' Matters of Fact, resting on the same uncorroborated 9/0 resolution claim AR-006 already treats, and which AR-060's own boundary already notes lack a comparably-targeted second document to compare against, unlike Submission 2; the Harm and Accountability Record's own 'Advocacy Chain'/Finding 6 point about the Michael Kemp MP conduit producing no disclosed outcome, already the fourth item of AR-028's seven-item institutional-silence enumeration; and the Facts Insert's own six-item 'Council has not' list, a differently-worded enumeration from a different document than AR-028's seven-item list but not an uncredited restatement, since evidence_register.json's own EV-0004 entry already credits both documents jointly. No genuinely new, evidence-groundable, non-remedy path was found this pass; dfapta/analysis.json's paths/counts/status unchanged (62 paths, 'In Progress — Pass 31'). One edit made: appended this finding to dfapta/analysis.json's counts.note field. See DEC-0050 for the corresponding decision-register entry.",
+    "related_thread": null,
+    "related_source": "SRC-0006",
+    "related_evidence": null
   }
 ]
