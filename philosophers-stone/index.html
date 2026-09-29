@@ -48,6 +48,17 @@ footer{border-top:1px solid var(--line);padding:28px 0 50px;color:var(--muted);f
 .evidence-unit.albedo-unit{border-top-color:#d9e9f3;background:linear-gradient(180deg,#eef8ff,#fff 34%)}
 .evidence-unit.citrinitas-unit{border-top-color:#e4a719;background:linear-gradient(180deg,#fff2c4,#fff 34%)}
 .evidence-unit.rubedo-unit{border-top-color:#a92323;background:linear-gradient(180deg,#f8d9d9,#fff 34%)}
+
+/* Mobile readability floor — deliberately large for phone use */
+@media(max-width:700px){
+  body{font-size:22px!important;line-height:1.68!important}
+  p,li{font-size:1rem!important;line-height:1.68!important}
+  small,.muted,.note,.eyebrow,.kicker{font-size:.9rem!important;line-height:1.55!important}
+  nav a,.nav a,.navlinks a,.jump a{font-size:.9rem!important;line-height:1.35!important;padding:11px 13px!important}
+  .card,.panel,.mini,.poster-stage,.statebox,.evidence-unit,.mechanism{font-size:1rem!important}
+  .card h3,.mini h3,.stage h2,.poster-stage h2{font-size:1.25rem!important}
+  .flow,.pill,.pip,.ext,.primitive,.core{font-size:.9rem!important}
+}
 </style>
 </head>
 <body><div style="max-width:900px;margin:20px auto;padding:0 18px"><p><a href="../council-tracker/">The Experiment</a> · <a href="../council-tracker/experiment.html">Experimental Protocol</a> · <a href="../council-tracker/machinery.html">The Machinery</a></p><p><strong>Developmental analogy.</strong> The Philosopher’s Stone provides a way to describe demonstrated changes in system capability and governance. It is not an input to the experimental machinery and does not determine what the machinery discovers.</p></div>
