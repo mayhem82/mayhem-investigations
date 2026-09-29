@@ -9,6 +9,17 @@ a{color:#9ecbff}code{white-space:normal}
 nav{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 24px}nav a{border:1px solid #303842;border-radius:9px;padding:9px 12px;text-decoration:none;background:#12161b}
 .jump{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 24px}.jump a{font-size:1.05rem}
 section{scroll-margin-top:16px}
+
+/* Mobile readability floor — deliberately large for phone use */
+@media(max-width:700px){
+  body{font-size:22px!important;line-height:1.68!important}
+  p,li{font-size:1rem!important;line-height:1.68!important}
+  small,.muted,.note,.eyebrow,.kicker{font-size:.9rem!important;line-height:1.55!important}
+  nav a,.nav a,.navlinks a,.jump a{font-size:.9rem!important;line-height:1.35!important;padding:11px 13px!important}
+  .card,.panel,.mini,.poster-stage,.statebox,.evidence-unit,.mechanism{font-size:1rem!important}
+  .card h3,.mini h3,.stage h2,.poster-stage h2{font-size:1.25rem!important}
+  .flow,.pill,.pip,.ext,.primitive,.core{font-size:.9rem!important}
+}
 </style></head><body><main>
 <nav aria-label="Experiment navigation"><a href="./">The Experiment</a><a href="./experiment.html">Experimental Protocol</a><a href="./machinery.html" aria-current="page">The Machinery</a><a href="../philosophers-stone/">Philosopher’s Stone</a></nav>
 <h1>The Machinery</h1><div class="card rule"><strong>BUILD STAGE</strong><p>The Experiment is still under construction. Machinery described here is developmental and must not be treated as a completed, validated or operational experimental system.</p></div>
