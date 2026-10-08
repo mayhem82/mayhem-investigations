@@ -10,7 +10,12 @@
       "glossary_resolution": "NOT_APPLICABLE",
       "glossary_source": null,
       "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
-      "status": "UNRESOLVED_LEAD"
+      "status": "UNRESOLVED_LEAD",
+      "next_urls": [
+        "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-June-2025",
+        "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-draft-minutes.pdf"
+      ],
+      "continuation_state": "BYPASS_AND_CONTINUE"
     },
     {
       "from": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-June-2025",
@@ -21,7 +26,9 @@
       "glossary_resolution": "NOT_APPLICABLE",
       "glossary_source": null,
       "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
-      "status": "UNRESOLVED_LEAD"
+      "status": "UNRESOLVED_LEAD",
+      "next_urls": [],
+      "continuation_state": "BLOCKED_SOURCE_RECORDED"
     },
     {
       "from": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-draft-minutes.pdf",
@@ -32,7 +39,9 @@
       "glossary_resolution": "NOT_APPLICABLE",
       "glossary_source": null,
       "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
-      "status": "UNRESOLVED_LEAD"
+      "status": "UNRESOLVED_LEAD",
+      "next_urls": [],
+      "continuation_state": "BLOCKED_SOURCE_RECORDED"
     }
   ],
   "seen_urls": [

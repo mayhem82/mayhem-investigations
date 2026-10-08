@@ -40,8 +40,9 @@
     "prior_hashes_loaded": 0,
     "unresolved_leads_carried": 3
   },
+  "continuation_policy": "AUTONOMOUS_BOUNDED_CONTINUATION",
   "authority_state": "CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED",
-  "workflow_run_id": "37714989230",
-  "workflow_commit": "3651eea3ba6c2246105d0b1b81442d9803314760",
+  "workflow_run_id": "37715133095",
+  "workflow_commit": "1fdc405e2d844d269e90d5953feb70049fc24663",
   "workflow_state": "COMPLETED"
 }
