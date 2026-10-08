@@ -25,6 +25,10 @@ on:
         required: true
         default: "40"
 
+concurrency:
+  group: mayhem-government-record-agent
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
