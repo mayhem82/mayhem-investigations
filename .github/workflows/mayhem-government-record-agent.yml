@@ -1,0 +1,42 @@
+name: MAYHEM Government Record Agent
+
+on:
+  workflow_dispatch:
+    inputs:
+      case_id:
+        description: Existing MAYHEM CASE-ID
+        required: true
+      seed_url:
+        description: Public government document/page URL
+        required: true
+      allowed_hosts:
+        description: Comma-separated government hosts explicitly in scope
+        required: true
+      max_documents:
+        description: Maximum documents this test run may preserve
+        required: true
+        default: "40"
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify case already exists
+        run: |
+          node -e 'const r=require("./scripts/case-registry"); const id=process.env.CASE; const xs=(r.CASES||r.cases||r); if(!Array.isArray(xs)||!xs.some(x=>(x.id||x.case_id||x.case_identifier)===id)){console.error("Case is not registered: "+id);process.exit(2)}' || { echo "Case verification failed closed."; exit 2; }
+        env:
+          CASE: ${{ inputs.case_id }}
+      - name: Collect public government records
+        run: python3 agent/government_record_agent.py --case "${{ inputs.case_id }}" --seed "${{ inputs.seed_url }}" --hosts "${{ inputs.allowed_hosts }}" --max-docs "${{ inputs.max_documents }}" --out agent-output
+      - name: Upload candidate collection
+        uses: actions/upload-artifact@v4
+        with:
+          name: mayhem-government-record-agent-${{ inputs.case_id }}-${{ github.run_id }}
+          path: agent-output/
+          if-no-files-found: error
+          retention-days: 90
