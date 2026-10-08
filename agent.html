@@ -2,8 +2,20 @@
 :root{color-scheme:dark;--bg:#0b0f14;--p:#151b23;--line:#2d3642;--text:#eef3f8;--muted:#9ca8b5;--a:#f59e0b}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:18px/1.45 Arial,sans-serif}main{max-width:900px;margin:auto;padding:18px}.nav{display:flex;gap:8px;overflow:auto;padding:10px 14px;background:#101927}.nav a,.btn{color:#fff;text-decoration:none;border:1px solid #ffffff33;border-radius:8px;padding:10px 12px;font-weight:700;white-space:nowrap}h1{font-size:clamp(2.2rem,9vw,4rem);margin:.3em 0}.ey{color:var(--a);font-weight:800;text-transform:uppercase}.card{background:var(--p);border:1px solid var(--line);border-radius:12px;padding:16px;margin:12px 0}.state{font-size:1.35rem;font-weight:900}.muted{color:var(--muted)}dl{margin:0}dt{color:var(--muted);font-weight:700;margin-top:12px}dd{margin:2px 0;word-break:break-word}code{font-size:.85em}a{color:#7dd3fc}</style></head>
 <body><nav class="nav"><a href="dashboard.html">Dashboard</a><a href="agent.html">MAYHEM Agent</a><a href="glossary/index.html">Master Glossary</a></nav><main>
 <div class="ey">MAYHEM · Government Record Agent</div><h1>Agent Control</h1>
-<section class="card"><div class="state">STATE: NOT YET RUN</div><p class="muted">The agent code is installed on main. No Bellbrook acceptance run has yet been verified. This page will not display invented run results.</p></section>
+<section class="card"><div class="state" id="state">STATE: LOADING</div><p class="muted" id="summary">Reading the persisted candidate operational state.</p></section>
+<section class="card"><h2>Live run state</h2><dl><dt>Workflow run</dt><dd id="runid">—</dd><dt>Glossary gate</dt><dd id="glossary">—</dd><dt>Documents preserved</dt><dd id="docs">—</dd><dt>Documentary leads</dt><dd id="leads">—</dd><dt>Errors</dt><dd id="errors">—</dd><dt>Resume state</dt><dd id="resume">—</dd></dl></section>
 <section class="card"><h2>Acceptance case</h2><dl><dt>CASE-ID</dt><dd><code>DFAPTI-BB-FF-2026-00001</code></dd><dt>Subject</dt><dd>Bellbrook flying-fox camp</dd><dt>Seed authority</dt><dd>Kempsey Shire Council</dd><dt>Seed record</dt><dd>Ordinary Council Meeting — 20 May 2025 confirmed signed minutes</dd><dt>Authority</dt><dd>Candidate collection only. Accepted evidence cannot be written by this agent.</dd></dl></section>
 <section class="card"><h2>Controls currently installed</h2><p>Government-host allowlist · SHA-256 source preservation · Master Glossary resolution gate · fail-closed terminology control · glossary provenance hash · documentary lead extraction · deterministic resume frontier · duplicate detection.</p></section>
 <section class="card"><h2>What you will see after a verified run</h2><p>Run state, glossary-gate state, preserved document count, unresolved leads, duplicate detections, errors and the documentary frontier. A run will only be shown as successful after its GitHub Actions output has been inspected.</p></section>
-</main></body></html>
+</main><script>
+fetch('public/agent-state/run.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(d=>{
+document.getElementById('state').textContent='STATE: '+(d.workflow_state||'COMPLETED');
+document.getElementById('summary').textContent=d.authority_state||'Candidate operational state';
+document.getElementById('runid').textContent=d.workflow_run_id||'—';
+document.getElementById('glossary').textContent=(d.glossary_gate?.state||'—')+' · '+(d.glossary_gate?.entries_loaded??'—')+' entries';
+document.getElementById('docs').textContent=d.documents_preserved??'—';
+document.getElementById('leads').textContent=d.documentary_leads??'—';
+document.getElementById('errors').textContent=(d.errors||[]).length;
+const r=d.resume_state||{}; document.getElementById('resume').textContent=r.resumed_from?'RESUMED · '+(r.prior_hashes_loaded||0)+' prior hashes':'INITIAL RUN';
+}).catch(e=>{document.getElementById('state').textContent='STATE: NO PUBLISHED RUN';document.getElementById('summary').textContent='No persisted candidate state is currently available.'});
+</script></body></html>
