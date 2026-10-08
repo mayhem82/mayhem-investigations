@@ -37,3 +37,7 @@ If the Master Glossary cannot be loaded, the run records the glossary gate as BL
 
 ### Glossary provenance
 Every successful run preserves the exact Master Glossary HTML used for terminology control and records its SHA-256 digest in run.json. Reproduction can therefore identify the precise glossary state governing that run even if the public glossary changes later.
+
+
+## Deterministic resumption
+The collector can resume from a prior agent-output directory. It loads prior document hashes for duplicate detection, carries unresolved documentary leads forward, and emits frontier.json containing unresolved leads, seen URLs and cumulative known hashes. Duplicate content is marked rather than silently treated as new material. Resumption state remains candidate collection state and does not alter accepted evidence.
