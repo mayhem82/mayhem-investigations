@@ -3,7 +3,7 @@ name: MAYHEM Government Record Agent
 on:
   push:
     branches:
-      - agent-government-record-v0-1
+      - main
     paths:
       - "agent/**"
       - ".github/workflows/mayhem-government-record-agent.yml"
