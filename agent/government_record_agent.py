@@ -10,6 +10,23 @@ except ImportError:
     PdfReader=None
 
 UA="MAYHEM-Government-Record-Agent/0.1 (+public-record research)"
+GLOSSARY_URL="https://mayhem82.github.io/mayhem-investigations/glossary/index.html"
+
+def load_glossary():
+    try:
+        req=Request(GLOSSARY_URL,headers={"User-Agent":UA})
+        with urlopen(req,timeout=25) as r: html=r.read(5_000_000).decode("utf-8","replace")
+        p=Links(); p.feed(html); lines=p.text
+        statuses={"CURRENT","LEGACY","EXTERNAL","UNRESOLVED","AMBIGUOUS","OTHER"}
+        entries={}
+        for i,s in enumerate(lines):
+            parts=s.rsplit(" ",1)
+            if len(parts)==2 and parts[1] in statuses and len(parts[0])<120:
+                term=parts[0].strip()
+                entries.setdefault(term,{"term":term,"status":parts[1],"source":GLOSSARY_URL})
+        return entries,None
+    except Exception as e:
+        return {},str(e)[:500]
 class Links(HTMLParser):
     def __init__(self): super().__init__(); self.links=[]; self.text=[]
     def handle_starttag(self,tag,attrs):
@@ -35,7 +52,9 @@ def main():
     seed=norm(a.seed); sh=urlparse(seed).hostname.lower()
     if sh not in hosts: raise SystemExit("Seed host must be explicitly allowed")
     os.makedirs(os.path.join(a.out,"preserved"),exist_ok=True)
+    glossary,glossary_error=load_glossary()
     q=[seed]; seen=set(); docs=[]; edges=[]; errors=[]; leads=[]
+    if glossary_error: errors.append({"url":GLOSSARY_URL,"error":"Glossary gate unavailable: "+glossary_error})
     while q and len(docs)<a.max_docs:
         u=q.pop(0)
         if u in seen: continue
@@ -71,10 +90,12 @@ def main():
                             context=" ".join(pdftext[start:end].split())
                             score=weights[kind]
                             if re.search(r"Bellbrook|Flying[- ]?Fox",context,re.I): score+=3
+                            glossary_match=glossary.get(val)
+                            glossary_state=(glossary_match or {}).get("status","NOT_FOUND")
                             query=f'site:{urlparse(final).hostname} "{val}"'
                             if re.search(r"Bellbrook|Flying[- ]?Fox",context,re.I):
                                 query += ' Bellbrook "flying fox"'
-                            item={"from":final,"kind":kind,"value":val,"specificity_score":score,"context":context[:500],"suggested_search_query":query,"status":"UNRESOLVED_LEAD"}
+                            item={"from":final,"kind":kind,"value":val,"specificity_score":score,"context":context[:500],"glossary_resolution":glossary_state,"glossary_source":GLOSSARY_URL if glossary_match else None,"suggested_search_query":query,"status":"UNRESOLVED_LEAD"}
                             if not any(x["kind"]==kind and x["value"]==val and x["from"]==final for x in leads):
                                 leads.append(item)
                     for raw in re.findall(r"https?://[^\s<>()]+",pdftext):
@@ -102,7 +123,7 @@ def main():
     json.dump(edges,open(os.path.join(a.out,"links.json"),"w"),indent=2)
     leads.sort(key=lambda x:(-x.get("specificity_score",0),x["kind"],x["value"]))
     json.dump(leads,open(os.path.join(a.out,"leads.json"),"w"),indent=2)
-    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
+    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"glossary_gate":{"source":GLOSSARY_URL,"entries_loaded":len(glossary),"error":glossary_error},"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
     json.dump(run,open(os.path.join(a.out,"run.json"),"w"),indent=2)
     print(json.dumps(run,indent=2))
 if __name__=="__main__": main()
