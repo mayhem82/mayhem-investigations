@@ -1,6 +1,18 @@
 {
   "case_id": "DFAPTI-BB-FF-2026-00001",
-  "unresolved_leads": [],
+  "unresolved_leads": [
+    {
+      "from": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story",
+      "kind": "retrieval_required",
+      "value": "Official source blocked to GitHub runner",
+      "specificity_score": 10,
+      "context": "Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence.",
+      "glossary_resolution": "NOT_APPLICABLE",
+      "glossary_source": null,
+      "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
+      "status": "UNRESOLVED_LEAD"
+    }
+  ],
   "seen_urls": [
     "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story"
   ],
