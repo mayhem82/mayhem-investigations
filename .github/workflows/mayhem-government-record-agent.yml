@@ -1,6 +1,8 @@
 name: MAYHEM Government Record Agent
 
 on:
+  schedule:
+    - cron: '17 * * * *'
   push:
     branches:
       - main
