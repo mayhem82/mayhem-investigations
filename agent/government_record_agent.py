@@ -3,6 +3,11 @@ import argparse, hashlib, json, os, re, time
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse, urldefrag
 from urllib.request import Request, urlopen
+from io import BytesIO
+try:
+    from pypdf import PdfReader
+except ImportError:
+    PdfReader=None
 
 UA="MAYHEM-Government-Record-Agent/0.1 (+public-record research)"
 class Links(HTMLParser):
@@ -46,6 +51,19 @@ def main():
             open(os.path.join(a.out,"preserved",fn),"wb").write(body)
             rec={"document_id":f"DOC-{len(docs)+1:04d}","url":u,"final_url":final,"content_type":ct,"sha256":sha,"bytes":len(body),"preserved_file":f"preserved/{fn}"}
             docs.append(rec)
+            if ext==".pdf" and PdfReader:
+                try:
+                    reader=PdfReader(BytesIO(body))
+                    pdftext="\n".join((pg.extract_text() or "") for pg in reader.pages)
+                    rec["extracted_text_chars"]=len(pdftext)
+                    for raw in re.findall(r"https?://[^\\s<>()]+",pdftext):
+                        v=norm(raw.rstrip(".,;:"))
+                        vh=(urlparse(v).hostname or "").lower()
+                        if v and vh in hosts:
+                            edges.append({"from":final,"to":v,"discovered_in":"pdf_text"})
+                            if v not in seen and v not in q:q.append(v)
+                except Exception as e:
+                    errors.append({"url":u,"error":"PDF parse: "+str(e)[:450]})
             if ext==".html":
                 text=body.decode("utf-8","replace"); p=Links(); p.feed(text)
                 rec["title_text"]=next((x for x in p.text if len(x)>8),"")[:300]
