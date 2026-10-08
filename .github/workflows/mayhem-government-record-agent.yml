@@ -42,7 +42,7 @@ jobs:
       - name: Collect public government records
         env:
           CASE_ID: ${{ inputs.case_id || 'DFAPTI-BB-FF-2026-00001' }}
-          SEED_URL: ${{ inputs.seed_url || 'https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf' }}
+          SEED_URL: ${{ inputs.seed_url || 'https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story' }}
           ALLOWED_HOSTS: ${{ inputs.allowed_hosts || 'www.kempsey.nsw.gov.au,kempsey.nsw.gov.au' }}
           MAX_DOCUMENTS: ${{ inputs.max_documents || '20' }}
         run: |
