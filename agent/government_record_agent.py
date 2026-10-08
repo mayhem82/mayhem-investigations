@@ -49,6 +49,7 @@ def main():
     ap.add_argument("--case",required=True); ap.add_argument("--seed",required=True)
     ap.add_argument("--hosts",required=True); ap.add_argument("--max-docs",type=int,default=40)
     ap.add_argument("--out",default="agent-output")
+    ap.add_argument("--resume",default=None,help="Prior agent-output directory to resume from")
     a=ap.parse_args()
     hosts={h.strip().lower() for h in a.hosts.split(",") if h.strip()}
     seed=norm(a.seed); sh=urlparse(seed).hostname.lower()
@@ -59,7 +60,21 @@ def main():
         glossary_preserved_file=f"preserved/master-glossary-{glossary_sha[:16]}.html"
         open(os.path.join(a.out,glossary_preserved_file),"wb").write(glossary_raw)
     glossary,glossary_error,glossary_raw,glossary_sha=load_glossary()
-    q=[seed]; seen=set(); docs=[]; edges=[]; errors=[]; leads=[]
+    q=[seed]; seen=set(); docs=[]; edges=[]; errors=[]; leads=[]; known_hashes=set(); resumed_from=None
+    if a.resume:
+        prior_docs=os.path.join(a.resume,"documents.json")
+        prior_leads=os.path.join(a.resume,"leads.json")
+        if os.path.exists(prior_docs):
+            try:
+                old=json.load(open(prior_docs))
+                known_hashes={x.get("sha256") for x in old if x.get("sha256")}
+                resumed_from=a.resume
+            except Exception as e: errors.append({"resume":a.resume,"error":"Prior documents unreadable: "+str(e)[:400]})
+        if os.path.exists(prior_leads):
+            try:
+                old_leads=json.load(open(prior_leads))
+                leads.extend(x for x in old_leads if x.get("status")=="UNRESOLVED_LEAD")
+            except Exception as e: errors.append({"resume":a.resume,"error":"Prior leads unreadable: "+str(e)[:400]})
     glossary_gate_open=bool(glossary) and not glossary_error
     if glossary_error: errors.append({"url":GLOSSARY_URL,"error":"Glossary gate unavailable: "+glossary_error})
     while q and len(docs)<a.max_docs:
@@ -73,9 +88,10 @@ def main():
                 body=r.read(20_000_000); final=norm(r.geturl()); ct=r.headers.get("Content-Type","").split(";")[0].lower()
             sha=hashlib.sha256(body).hexdigest()
             ext=".pdf" if ("pdf" in ct or final.lower().endswith(".pdf")) else ".html"
+            duplicate_of_prior=sha in known_hashes
             fn=f"{len(docs)+1:04d}-{sha[:16]}{ext}"
             open(os.path.join(a.out,"preserved",fn),"wb").write(body)
-            rec={"document_id":f"DOC-{len(docs)+1:04d}","url":u,"final_url":final,"content_type":ct,"sha256":sha,"bytes":len(body),"preserved_file":f"preserved/{fn}"}
+            rec={"document_id":f"DOC-{len(docs)+1:04d}","url":u,"final_url":final,"content_type":ct,"sha256":sha,"bytes":len(body),"preserved_file":f"preserved/{fn}","duplicate_of_prior_run":duplicate_of_prior}
             docs.append(rec)
             if ext==".pdf" and PdfReader:
                 try:
@@ -132,7 +148,9 @@ def main():
     json.dump(edges,open(os.path.join(a.out,"links.json"),"w"),indent=2)
     leads.sort(key=lambda x:(-x.get("specificity_score",0),x["kind"],x["value"]))
     json.dump(leads,open(os.path.join(a.out,"leads.json"),"w"),indent=2)
-    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"glossary_gate":{"source":GLOSSARY_URL,"entries_loaded":len(glossary),"error":glossary_error,"state":"OPEN" if glossary_gate_open else "BLOCKED","sha256":glossary_sha,"preserved_file":glossary_preserved_file},"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
+    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"glossary_gate":{"source":GLOSSARY_URL,"entries_loaded":len(glossary),"error":glossary_error,"state":"OPEN" if glossary_gate_open else "BLOCKED","sha256":glossary_sha,"preserved_file":glossary_preserved_file},"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"resume_state":{"resumed_from":resumed_from,"prior_hashes_loaded":len(known_hashes),"unresolved_leads_carried":sum(1 for x in leads if x.get("status")=="UNRESOLVED_LEAD")},"authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
+    frontier={"case_id":a.case,"unresolved_leads":[x for x in leads if x.get("status")=="UNRESOLVED_LEAD"],"seen_urls":sorted(seen),"known_hashes":sorted(known_hashes|{x["sha256"] for x in docs})}
+    json.dump(frontier,open(os.path.join(a.out,"frontier.json"),"w"),indent=2)
     json.dump(run,open(os.path.join(a.out,"run.json"),"w"),indent=2)
     print(json.dumps(run,indent=2))
 if __name__=="__main__": main()
