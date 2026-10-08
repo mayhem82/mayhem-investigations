@@ -19,20 +19,18 @@ OFFICIAL_FALLBACKS={
 ]}
 
 def load_glossary():
+    local_path=os.path.join("glossary","data.json")
     try:
-        req=Request(GLOSSARY_URL,headers={"User-Agent":UA})
-        with urlopen(req,timeout=25) as r: raw=r.read(5_000_000)
-        html=raw.decode("utf-8","replace")
-        glossary_sha=hashlib.sha256(raw).hexdigest()
-        p=Links(); p.feed(html); lines=p.text
-        statuses={"CURRENT","LEGACY","EXTERNAL","UNRESOLVED","AMBIGUOUS","OTHER"}
+        raw=open(local_path,"rb").read()
+        data=json.loads(raw.decode("utf-8"))
         entries={}
-        for i,s in enumerate(lines):
-            parts=s.rsplit(" ",1)
-            if len(parts)==2 and parts[1] in statuses and len(parts[0])<120:
-                term=parts[0].strip()
-                entries.setdefault(term,{"term":term,"status":parts[1],"source":GLOSSARY_URL})
-        return entries,None,raw,glossary_sha
+        for item in data.get("glossary",[]):
+            term=str(item.get("term","")).strip()
+            if term:
+                entries[term]={"term":term,"status":item.get("status","UNRESOLVED"),"source":item.get("source"),"description":item.get("description","")}
+        if not entries:
+            raise ValueError("Structured glossary contains no entries")
+        return entries,None,raw,hashlib.sha256(raw).hexdigest()
     except Exception as e:
         return {},str(e)[:500],None,None
 class Links(HTMLParser):
@@ -64,7 +62,7 @@ def main():
     glossary,glossary_error,glossary_raw,glossary_sha=load_glossary()
     glossary_preserved_file=None
     if glossary_raw is not None:
-        glossary_preserved_file=f"preserved/master-glossary-{glossary_sha[:16]}.html"
+        glossary_preserved_file=f"preserved/master-glossary-{glossary_sha[:16]}.json"
         open(os.path.join(a.out,glossary_preserved_file),"wb").write(glossary_raw)
     q=[seed]; seen=set(); docs=[]; edges=[]; errors=[]; leads=[]; known_hashes=set(); resumed_from=None
     if a.resume:
