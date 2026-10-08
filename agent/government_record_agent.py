@@ -2,7 +2,7 @@
 import argparse, hashlib, json, os, re, time
 from urllib.error import HTTPError
 from html.parser import HTMLParser
-from urllib.parse import urljoin, urlparse, urldefrag
+from urllib.parse import urljoin, urlparse, urldefrag, quote_plus
 from urllib.request import Request, urlopen
 from io import BytesIO
 try:
@@ -12,6 +12,7 @@ except ImportError:
 
 UA="MAYHEM-Government-Record-Agent/0.1 (+public-record research)"
 GLOSSARY_URL="https://mayhem82.github.io/mayhem-investigations/glossary/index.html"
+DISCOVERY_PATHS=["/search?query={q}","/Search?query={q}","/search?q={q}","/Search?q={q}"]
 OFFICIAL_FALLBACKS={
 "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story":[
 "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-June-2025",
@@ -47,6 +48,11 @@ def norm(u):
     u=urldefrag(u)[0]
     p=urlparse(u)
     return u if p.scheme in ("http","https") else ""
+
+def discovery_urls(host, query):
+    q=quote_plus(query)
+    return ["https://"+host+p.format(q=q) for p in DISCOVERY_PATHS]
+
 
 def main():
     ap=argparse.ArgumentParser()
@@ -159,15 +165,17 @@ def main():
             if e.code == 403:
                 errors.append({"url":u,"error":"HTTP 403: direct runner retrieval blocked","classification":"ACCESS_CHANNEL_BLOCK"})
                 fallbacks=OFFICIAL_FALLBACKS.get(u,[])
+                discovery=discovery_urls((urlparse(u).hostname or "").lower(),'Bellbrook flying fox council meeting')
+                continuation=fallbacks + [x for x in discovery if x not in fallbacks]
                 existing=next((x for x in leads if x.get("from")==u and x.get("kind")=="retrieval_required"),None)
                 if existing:
-                    existing["next_urls"]=fallbacks
-                    existing["continuation_state"]="BYPASS_AND_CONTINUE" if fallbacks else "BLOCKED_SOURCE_RECORDED"
+                    existing["next_urls"]=continuation
+                    existing["continuation_state"]="DISCOVER_AND_CONTINUE"
                 else:
-                    leads.append({"from":u,"kind":"retrieval_required","value":"Official source blocked to GitHub runner","specificity_score":10,"context":"Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.","glossary_resolution":"NOT_APPLICABLE","glossary_source":None,"suggested_search_query":f'site:{urlparse(u).hostname} Bellbrook "flying fox" council meeting',"next_urls":fallbacks,"continuation_state":"BYPASS_AND_CONTINUE" if fallbacks else "BLOCKED_SOURCE_RECORDED","status":"UNRESOLVED_LEAD"})
-                for v in fallbacks:
+                    leads.append({"from":u,"kind":"retrieval_required","value":"Official source blocked to GitHub runner","specificity_score":10,"context":"Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.","glossary_resolution":"NOT_APPLICABLE","glossary_source":None,"suggested_search_query":f'site:{urlparse(u).hostname} Bellbrook "flying fox" council meeting',"next_urls":continuation,"continuation_state":"DISCOVER_AND_CONTINUE","status":"UNRESOLVED_LEAD"})
+                for v in continuation:
                     vh=(urlparse(v).hostname or "").lower()
-                    edges.append({"from":u,"to":v,"discovered_in":"curated_official_fallback","authority":"same_official_authority"})
+                    edges.append({"from":u,"to":v,"discovered_in":"official_continuation","authority":"same_official_authority"})
                     if vh in hosts and v not in seen and v not in q:
                         q.append(v)
             else:
