@@ -54,6 +54,7 @@ def main():
     os.makedirs(os.path.join(a.out,"preserved"),exist_ok=True)
     glossary,glossary_error=load_glossary()
     q=[seed]; seen=set(); docs=[]; edges=[]; errors=[]; leads=[]
+    glossary_gate_open=bool(glossary) and not glossary_error
     if glossary_error: errors.append({"url":GLOSSARY_URL,"error":"Glossary gate unavailable: "+glossary_error})
     while q and len(docs)<a.max_docs:
         u=q.pop(0)
@@ -83,7 +84,9 @@ def main():
                         ("statutory_reference",r"((?:section|clause)\s+\d+(?:\.\d+)?[^\n.]{0,100})"),
                     ]
                     weights={"future_meeting":5,"management_plan":4,"resolution":4,"statutory_reference":2,"file_number":1}
-                    for kind,pat in patterns:
+                    if not glossary_gate_open:
+                        rec["terminology_gate"]="GLOSSARY_GATE_BLOCKED"
+                    for kind,pat in (patterns if glossary_gate_open else []):
                         for m in re.finditer(pat,pdftext,re.I):
                             val=(m.group(1) if m.groups() else m.group(0)).strip()
                             start=max(0,m.start()-220); end=min(len(pdftext),m.end()+220)
@@ -123,7 +126,7 @@ def main():
     json.dump(edges,open(os.path.join(a.out,"links.json"),"w"),indent=2)
     leads.sort(key=lambda x:(-x.get("specificity_score",0),x["kind"],x["value"]))
     json.dump(leads,open(os.path.join(a.out,"leads.json"),"w"),indent=2)
-    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"glossary_gate":{"source":GLOSSARY_URL,"entries_loaded":len(glossary),"error":glossary_error},"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
+    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"glossary_gate":{"source":GLOSSARY_URL,"entries_loaded":len(glossary),"error":glossary_error,"state":"OPEN" if glossary_gate_open else "BLOCKED"},"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
     json.dump(run,open(os.path.join(a.out,"run.json"),"w"),indent=2)
     print(json.dumps(run,indent=2))
 if __name__=="__main__": main()
