@@ -33,3 +33,7 @@ Before interpreting an extracted KSC term, code or identifier, the agent consult
 
 ### Fail-closed behaviour
 If the Master Glossary cannot be loaded, the run records the glossary gate as BLOCKED. Government source retrieval and preservation may continue, but terminology extraction, interpretation and terminology-derived search-lead generation are disabled for that run. This prevents a temporary glossary failure from silently bypassing MAYHEM terminology control.
+
+
+### Glossary provenance
+Every successful run preserves the exact Master Glossary HTML used for terminology control and records its SHA-256 digest in run.json. Reproduction can therefore identify the precise glossary state governing that run even if the public glossary changes later.
