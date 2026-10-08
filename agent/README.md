@@ -25,3 +25,7 @@ Seed the Bellbrook flying-fox council record. The run passes only if it follows 
 
 ## Documentary leads
 PDF text is also mined for auditable next-search leads such as council file numbers, resolution numbers, promised future meeting/report dates, named management plans and statutory references. These are leads only; they are never promoted to evidence automatically.
+
+
+## Master Glossary gate
+Before interpreting an extracted KSC term, code or identifier, the agent consults the published KSC Master Glossary. Existing CURRENT, LEGACY, EXTERNAL, UNRESOLVED and AMBIGUOUS classifications are inherited rather than reinvented. A glossary miss does not authorize an expansion. Context-sensitive interpretation remains required for AMBIGUOUS terms. The glossary is a terminology-control input, not evidence of the underlying case fact.
