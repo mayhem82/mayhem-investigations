@@ -12,6 +12,11 @@ except ImportError:
 
 UA="MAYHEM-Government-Record-Agent/0.1 (+public-record research)"
 GLOSSARY_URL="https://mayhem82.github.io/mayhem-investigations/glossary/index.html"
+OFFICIAL_FALLBACKS={
+"https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story":[
+"https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-June-2025",
+"https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-draft-minutes.pdf"
+]}
 
 def load_glossary():
     try:
@@ -147,6 +152,11 @@ def main():
                 errors.append({"url":u,"error":"HTTP 403: direct runner retrieval blocked","classification":"ACCESS_CHANNEL_BLOCK"})
                 if not any(x.get("from")==u and x.get("kind")=="retrieval_required" for x in leads):
                     leads.append({"from":u,"kind":"retrieval_required","value":"Official source blocked to GitHub runner","specificity_score":10,"context":"Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence.","glossary_resolution":"NOT_APPLICABLE","glossary_source":None,"suggested_search_query":f'site:{urlparse(u).hostname} Bellbrook "flying fox" council meeting',"status":"UNRESOLVED_LEAD"})
+                for v in OFFICIAL_FALLBACKS.get(u,[]):
+                    vh=(urlparse(v).hostname or "").lower()
+                    edges.append({"from":u,"to":v,"discovered_in":"curated_official_fallback","authority":"same_official_authority"})
+                    if vh in hosts and v not in seen and v not in q:
+                        q.append(v)
             else:
                 errors.append({"url":u,"error":str(e)[:500]})
         except Exception as e:
