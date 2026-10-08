@@ -2,7 +2,7 @@
   "agent": "MAYHEM Government Record Agent",
   "version": "0.1",
   "case_id": "DFAPTI-BB-FF-2026-00001",
-  "seed": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf",
+  "seed": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story",
   "allowed_hosts": [
     "kempsey.nsw.gov.au",
     "www.kempsey.nsw.gov.au"
@@ -20,17 +20,17 @@
   "documentary_leads": 0,
   "errors": [
     {
-      "url": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf",
+      "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story",
       "error": "HTTP Error 403: Forbidden"
     }
   ],
   "resume_state": {
-    "resumed_from": null,
+    "resumed_from": "prior-agent-output",
     "prior_hashes_loaded": 0,
     "unresolved_leads_carried": 0
   },
   "authority_state": "CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED",
-  "workflow_run_id": "37713366751",
-  "workflow_commit": "f9c015bd3add7c4872bb053aea94252e30c1f09f",
+  "workflow_run_id": "37713520816",
+  "workflow_commit": "b7b9da5cbfc1a12bb9caa4184752e8259e86243d",
   "workflow_state": "COMPLETED"
 }
