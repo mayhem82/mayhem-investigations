@@ -55,11 +55,11 @@ def main():
     seed=norm(a.seed); sh=urlparse(seed).hostname.lower()
     if sh not in hosts: raise SystemExit("Seed host must be explicitly allowed")
     os.makedirs(os.path.join(a.out,"preserved"),exist_ok=True)
+    glossary,glossary_error,glossary_raw,glossary_sha=load_glossary()
     glossary_preserved_file=None
     if glossary_raw is not None:
         glossary_preserved_file=f"preserved/master-glossary-{glossary_sha[:16]}.html"
         open(os.path.join(a.out,glossary_preserved_file),"wb").write(glossary_raw)
-    glossary,glossary_error,glossary_raw,glossary_sha=load_glossary()
     q=[seed]; seen=set(); docs=[]; edges=[]; errors=[]; leads=[]; known_hashes=set(); resumed_from=None
     if a.resume:
         prior_docs=os.path.join(a.resume,"documents.json")
