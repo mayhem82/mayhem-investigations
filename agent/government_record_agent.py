@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse, hashlib, json, os, re, time
+from urllib.error import HTTPError
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse, urldefrag
 from urllib.request import Request, urlopen
@@ -141,6 +142,13 @@ def main():
                     if vh in hosts:
                         edges.append({"from":final,"to":v})
                         if v not in seen and v not in q:q.append(v)
+        except HTTPError as e:
+            if e.code == 403:
+                errors.append({"url":u,"error":"HTTP 403: direct runner retrieval blocked","classification":"ACCESS_CHANNEL_BLOCK"})
+                if not any(x.get("from")==u and x.get("kind")=="retrieval_required" for x in leads):
+                    leads.append({"from":u,"kind":"retrieval_required","value":"Official source blocked to GitHub runner","specificity_score":10,"context":"Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence.","glossary_resolution":"NOT_APPLICABLE","glossary_source":None,"suggested_search_query":f'site:{urlparse(u).hostname} Bellbrook "flying fox" council meeting',"status":"UNRESOLVED_LEAD"})
+            else:
+                errors.append({"url":u,"error":str(e)[:500]})
         except Exception as e:
             errors.append({"url":u,"error":str(e)[:500]})
         time.sleep(.2)
