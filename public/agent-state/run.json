@@ -16,11 +16,21 @@
     "preserved_file": "preserved/master-glossary-28a8e6a27cd763b3.html"
   },
   "documents_preserved": 0,
-  "links_recorded": 0,
-  "documentary_leads": 1,
+  "links_recorded": 2,
+  "documentary_leads": 3,
   "errors": [
     {
       "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-June-2025",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-draft-minutes.pdf",
       "error": "HTTP 403: direct runner retrieval blocked",
       "classification": "ACCESS_CHANNEL_BLOCK"
     }
@@ -28,10 +38,10 @@
   "resume_state": {
     "resumed_from": "prior-agent-output",
     "prior_hashes_loaded": 0,
-    "unresolved_leads_carried": 1
+    "unresolved_leads_carried": 3
   },
   "authority_state": "CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED",
-  "workflow_run_id": "37713630610",
-  "workflow_commit": "65fdf10f8a3b7faef5e947dcb07185849681841a",
+  "workflow_run_id": "37714002016",
+  "workflow_commit": "f3c4550d093df87e305197f6dae4bb32b05af500",
   "workflow_state": "COMPLETED"
 }
