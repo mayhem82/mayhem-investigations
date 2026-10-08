@@ -76,7 +76,8 @@ jobs:
             echo "No candidate state change to publish."
           else
             git commit -m "Publish MAYHEM agent candidate state [agent-state]"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
       - name: Upload candidate collection
         uses: actions/upload-artifact@v4
