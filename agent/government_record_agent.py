@@ -65,9 +65,19 @@ def main():
         glossary_preserved_file=f"preserved/master-glossary-{glossary_sha[:16]}.json"
         open(os.path.join(a.out,glossary_preserved_file),"wb").write(glossary_raw)
     q=[seed]; seen=set(); docs=[]; edges=[]; errors=[]; leads=[]; known_hashes=set(); resumed_from=None
+    prior_frontier={}
     if a.resume:
         prior_docs=os.path.join(a.resume,"documents.json")
         prior_leads=os.path.join(a.resume,"leads.json")
+        prior_frontier_path=os.path.join(a.resume,"frontier.json")
+        if os.path.exists(prior_frontier_path):
+            try:
+                prior_frontier=json.load(open(prior_frontier_path))
+                for lead in prior_frontier.get("unresolved_leads",[]):
+                    for v in lead.get("next_urls",[]):
+                        if norm(v) and (urlparse(v).hostname or "").lower() in hosts and v not in q:
+                            q.append(v)
+            except Exception as e: errors.append({"resume":a.resume,"error":"Prior frontier unreadable: "+str(e)[:400]})
         if os.path.exists(prior_docs):
             try:
                 old=json.load(open(prior_docs))
@@ -148,9 +158,14 @@ def main():
         except HTTPError as e:
             if e.code == 403:
                 errors.append({"url":u,"error":"HTTP 403: direct runner retrieval blocked","classification":"ACCESS_CHANNEL_BLOCK"})
-                if not any(x.get("from")==u and x.get("kind")=="retrieval_required" for x in leads):
-                    leads.append({"from":u,"kind":"retrieval_required","value":"Official source blocked to GitHub runner","specificity_score":10,"context":"Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence.","glossary_resolution":"NOT_APPLICABLE","glossary_source":None,"suggested_search_query":f'site:{urlparse(u).hostname} Bellbrook "flying fox" council meeting',"status":"UNRESOLVED_LEAD"})
-                for v in OFFICIAL_FALLBACKS.get(u,[]):
+                fallbacks=OFFICIAL_FALLBACKS.get(u,[])
+                existing=next((x for x in leads if x.get("from")==u and x.get("kind")=="retrieval_required"),None)
+                if existing:
+                    existing["next_urls"]=fallbacks
+                    existing["continuation_state"]="BYPASS_AND_CONTINUE" if fallbacks else "BLOCKED_SOURCE_RECORDED"
+                else:
+                    leads.append({"from":u,"kind":"retrieval_required","value":"Official source blocked to GitHub runner","specificity_score":10,"context":"Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.","glossary_resolution":"NOT_APPLICABLE","glossary_source":None,"suggested_search_query":f'site:{urlparse(u).hostname} Bellbrook "flying fox" council meeting',"next_urls":fallbacks,"continuation_state":"BYPASS_AND_CONTINUE" if fallbacks else "BLOCKED_SOURCE_RECORDED","status":"UNRESOLVED_LEAD"})
+                for v in fallbacks:
                     vh=(urlparse(v).hostname or "").lower()
                     edges.append({"from":u,"to":v,"discovered_in":"curated_official_fallback","authority":"same_official_authority"})
                     if vh in hosts and v not in seen and v not in q:
@@ -164,7 +179,7 @@ def main():
     json.dump(edges,open(os.path.join(a.out,"links.json"),"w"),indent=2)
     leads.sort(key=lambda x:(-x.get("specificity_score",0),x["kind"],x["value"]))
     json.dump(leads,open(os.path.join(a.out,"leads.json"),"w"),indent=2)
-    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"glossary_gate":{"source":GLOSSARY_URL,"entries_loaded":len(glossary),"error":glossary_error,"state":"OPEN" if glossary_gate_open else "BLOCKED","sha256":glossary_sha,"preserved_file":glossary_preserved_file},"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"resume_state":{"resumed_from":resumed_from,"prior_hashes_loaded":len(known_hashes),"unresolved_leads_carried":sum(1 for x in leads if x.get("status")=="UNRESOLVED_LEAD")},"authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
+    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"glossary_gate":{"source":GLOSSARY_URL,"entries_loaded":len(glossary),"error":glossary_error,"state":"OPEN" if glossary_gate_open else "BLOCKED","sha256":glossary_sha,"preserved_file":glossary_preserved_file},"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"resume_state":{"resumed_from":resumed_from,"prior_hashes_loaded":len(known_hashes),"unresolved_leads_carried":sum(1 for x in leads if x.get("status")=="UNRESOLVED_LEAD")},"continuation_policy":"AUTONOMOUS_BOUNDED_CONTINUATION","authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
     frontier={"case_id":a.case,"unresolved_leads":[x for x in leads if x.get("status")=="UNRESOLVED_LEAD"],"seen_urls":sorted(seen),"known_hashes":sorted(known_hashes|{x["sha256"] for x in docs})}
     json.dump(frontier,open(os.path.join(a.out,"frontier.json"),"w"),indent=2)
     json.dump(run,open(os.path.join(a.out,"run.json"),"w"),indent=2)
