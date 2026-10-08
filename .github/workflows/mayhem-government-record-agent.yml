@@ -24,7 +24,7 @@ on:
         default: "40"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   collect:
@@ -45,7 +45,39 @@ jobs:
           SEED_URL: ${{ inputs.seed_url || 'https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf' }}
           ALLOWED_HOSTS: ${{ inputs.allowed_hosts || 'www.kempsey.nsw.gov.au,kempsey.nsw.gov.au' }}
           MAX_DOCUMENTS: ${{ inputs.max_documents || '20' }}
-        run: python3 agent/government_record_agent.py --case "$CASE_ID" --seed "$SEED_URL" --hosts "$ALLOWED_HOSTS" --max-docs "$MAX_DOCUMENTS" --out agent-output
+        run: |
+          RESUME_ARGS=""
+          if [ -f "public/agent-state/frontier.json" ]; then
+            mkdir -p prior-agent-output
+            cp public/agent-state/*.json prior-agent-output/ 2>/dev/null || true
+            RESUME_ARGS="--resume prior-agent-output"
+          fi
+          python3 agent/government_record_agent.py --case "$CASE_ID" --seed "$SEED_URL" --hosts "$ALLOWED_HOSTS" --max-docs "$MAX_DOCUMENTS" --out agent-output $RESUME_ARGS
+      - name: Publish candidate operational state
+        env:
+          RUN_ID: ${{ github.run_id }}
+          RUN_SHA: ${{ github.sha }}
+        run: |
+          mkdir -p public/agent-state
+          cp agent-output/run.json agent-output/documents.json agent-output/leads.json agent-output/frontier.json public/agent-state/
+          python3 - <<'PY'
+          import json, os
+          p="public/agent-state/run.json"
+          d=json.load(open(p))
+          d["workflow_run_id"]=os.environ["RUN_ID"]
+          d["workflow_commit"]=os.environ["RUN_SHA"]
+          d["workflow_state"]="COMPLETED"
+          json.dump(d,open(p,"w"),indent=2)
+          PY
+          git config user.name "MAYHEM Government Record Agent"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/agent-state
+          if git diff --cached --quiet; then
+            echo "No candidate state change to publish."
+          else
+            git commit -m "Publish MAYHEM agent candidate state [agent-state]"
+            git push
+          fi
       - name: Upload candidate collection
         uses: actions/upload-artifact@v4
         with:
