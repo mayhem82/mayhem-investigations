@@ -40,12 +40,12 @@ jobs:
       - name: Install PDF parser
         run: python3 -m pip install --quiet pypdf
       - name: Collect public government records
-        run: python3 agent/government_record_agent.py \
-            --case "${{ inputs.case_id || 'DFAPTI-BB-FF-2026-00001' }}" \
-            --seed "${{ inputs.seed_url || 'https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf' }}" \
-            --hosts "${{ inputs.allowed_hosts || 'www.kempsey.nsw.gov.au,kempsey.nsw.gov.au' }}" \
-            --max-docs "${{ inputs.max_documents || '20' }}" \
-            --out agent-output
+        env:
+          CASE_ID: ${{ inputs.case_id || 'DFAPTI-BB-FF-2026-00001' }}
+          SEED_URL: ${{ inputs.seed_url || 'https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf' }}
+          ALLOWED_HOSTS: ${{ inputs.allowed_hosts || 'www.kempsey.nsw.gov.au,kempsey.nsw.gov.au' }}
+          MAX_DOCUMENTS: ${{ inputs.max_documents || '20' }}
+        run: python3 agent/government_record_agent.py --case "$CASE_ID" --seed "$SEED_URL" --hosts "$ALLOWED_HOSTS" --max-docs "$MAX_DOCUMENTS" --out agent-output
       - name: Upload candidate collection
         uses: actions/upload-artifact@v4
         with:
