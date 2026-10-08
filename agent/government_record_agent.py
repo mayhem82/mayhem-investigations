@@ -35,7 +35,7 @@ def main():
     seed=norm(a.seed); sh=urlparse(seed).hostname.lower()
     if sh not in hosts: raise SystemExit("Seed host must be explicitly allowed")
     os.makedirs(os.path.join(a.out,"preserved"),exist_ok=True)
-    q=[seed]; seen=set(); docs=[]; edges=[]; errors=[]
+    q=[seed]; seen=set(); docs=[]; edges=[]; errors=[]; leads=[]
     while q and len(docs)<a.max_docs:
         u=q.pop(0)
         if u in seen: continue
@@ -56,6 +56,18 @@ def main():
                     reader=PdfReader(BytesIO(body))
                     pdftext="\n".join((pg.extract_text() or "") for pg in reader.pages)
                     rec["extracted_text_chars"]=len(pdftext)
+                    patterns=[
+                        ("file_number",r"File Number\\s+([A-Z]\\d{2}/\\d+(?:/\\d+)?)"),
+                        ("resolution",r"\\b(20\\d{2}\\.\\d{1,3})\\b"),
+                        ("future_meeting",r"report(?: results)? back by the ([A-Za-z]+) ordinary council meeting"),
+                        ("management_plan",r"([A-Z][A-Za-z ]{2,60}Management Plan)"),
+                        ("statutory_reference",r"((?:section|clause)\\s+\\d+(?:\\.\\d+)?[^\\n.]{0,100})"),
+                    ]
+                    for kind,pat in patterns:
+                        for m in re.finditer(pat,pdftext,re.I):
+                            val=(m.group(1) if m.groups() else m.group(0)).strip()
+                            item={"from":final,"kind":kind,"value":val}
+                            if item not in leads: leads.append(item)
                     for raw in re.findall(r"https?://[^\\s<>()]+",pdftext):
                         v=norm(raw.rstrip(".,;:"))
                         vh=(urlparse(v).hostname or "").lower()
@@ -79,7 +91,8 @@ def main():
         time.sleep(.2)
     json.dump(docs,open(os.path.join(a.out,"documents.json"),"w"),indent=2)
     json.dump(edges,open(os.path.join(a.out,"links.json"),"w"),indent=2)
-    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"documents_preserved":len(docs),"links_recorded":len(edges),"errors":errors,"authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
+    json.dump(leads,open(os.path.join(a.out,"leads.json"),"w"),indent=2)
+    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
     json.dump(run,open(os.path.join(a.out,"run.json"),"w"),indent=2)
     print(json.dumps(run,indent=2))
 if __name__=="__main__": main()
