@@ -76,6 +76,13 @@ jobs:
           d["workflow_updated_at"]=datetime.now(timezone.utc).isoformat().replace("+00:00","Z")
           d["workflow_state"]="COMPLETED"
           json.dump(d,open(p,"w"),indent=2)
+          import html
+          leads=json.load(open("public/agent-state/leads.json"))
+          parts=["<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>MAYHEM Documentary Leads</title></head><body style='max-width:900px;margin:auto;padding:18px;background:#0b0f14;color:#eef3f8;font:18px/1.45 Arial,sans-serif'><p><a style='color:#7dd3fc' href='../../agent.html'>Back to Agent Control</a></p><h1>Documentary leads</h1><p>"+str(len(leads))+" persisted candidate leads.</p>"]
+          for i,x in enumerate(leads,1):
+              parts.append("<article style='border-top:1px solid #2d3642;padding:16px 0'><h2>"+str(i)+". "+html.escape(str(x.get("kind","lead")))+"</h2><p><b>"+html.escape(str(x.get("value","")))+"</b></p><p>State: "+html.escape(str(x.get("continuation_state") or x.get("status","—")))+"</p><p>Source: "+html.escape(str(x.get("from","—")))+"</p><p>"+html.escape(str(x.get("context","")))+"</p><p>Next actions queued: "+str(len(x.get("next_urls",[])))+"</p></article>")
+          parts.append("</body></html>")
+          open("public/agent-state/leads.html","w").write("".join(parts))
           PY
           git config user.name "MAYHEM Government Record Agent"
           git config user.email "actions@users.noreply.github.com"
