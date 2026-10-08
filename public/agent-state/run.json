@@ -9,11 +9,11 @@
   ],
   "glossary_gate": {
     "source": "https://mayhem82.github.io/mayhem-investigations/glossary/index.html",
-    "entries_loaded": 7,
+    "entries_loaded": 450,
     "error": null,
     "state": "OPEN",
-    "sha256": "28a8e6a27cd763b359f062386ca11f836e24ba5024af1a0accfaa422cc5ce682",
-    "preserved_file": "preserved/master-glossary-28a8e6a27cd763b3.html"
+    "sha256": "db2f6097b7025b64242c7d159ebbdec1b013a19e7ddf48868e2c008a79bf70a0",
+    "preserved_file": "preserved/master-glossary-db2f6097b7025b64.json"
   },
   "documents_preserved": 0,
   "links_recorded": 2,
@@ -41,7 +41,7 @@
     "unresolved_leads_carried": 3
   },
   "authority_state": "CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED",
-  "workflow_run_id": "37714002016",
-  "workflow_commit": "f3c4550d093df87e305197f6dae4bb32b05af500",
+  "workflow_run_id": "37714949285",
+  "workflow_commit": "e82b4a8fd79318e43a6de6cefa1e9fa4b268e420",
   "workflow_state": "COMPLETED"
 }
