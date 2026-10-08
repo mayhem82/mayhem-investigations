@@ -1,0 +1,5 @@
+{
+  "purpose": "Trigger GitHub Pages deployment for MAYHEM Agent page",
+  "agent_page": "agent.html",
+  "state": "deployment requested"
+}
