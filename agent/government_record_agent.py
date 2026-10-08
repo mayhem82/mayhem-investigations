@@ -15,7 +15,9 @@ GLOSSARY_URL="https://mayhem82.github.io/mayhem-investigations/glossary/index.ht
 def load_glossary():
     try:
         req=Request(GLOSSARY_URL,headers={"User-Agent":UA})
-        with urlopen(req,timeout=25) as r: html=r.read(5_000_000).decode("utf-8","replace")
+        with urlopen(req,timeout=25) as r: raw=r.read(5_000_000)
+        html=raw.decode("utf-8","replace")
+        glossary_sha=hashlib.sha256(raw).hexdigest()
         p=Links(); p.feed(html); lines=p.text
         statuses={"CURRENT","LEGACY","EXTERNAL","UNRESOLVED","AMBIGUOUS","OTHER"}
         entries={}
@@ -24,9 +26,9 @@ def load_glossary():
             if len(parts)==2 and parts[1] in statuses and len(parts[0])<120:
                 term=parts[0].strip()
                 entries.setdefault(term,{"term":term,"status":parts[1],"source":GLOSSARY_URL})
-        return entries,None
+        return entries,None,raw,glossary_sha
     except Exception as e:
-        return {},str(e)[:500]
+        return {},str(e)[:500],None,None
 class Links(HTMLParser):
     def __init__(self): super().__init__(); self.links=[]; self.text=[]
     def handle_starttag(self,tag,attrs):
@@ -52,7 +54,11 @@ def main():
     seed=norm(a.seed); sh=urlparse(seed).hostname.lower()
     if sh not in hosts: raise SystemExit("Seed host must be explicitly allowed")
     os.makedirs(os.path.join(a.out,"preserved"),exist_ok=True)
-    glossary,glossary_error=load_glossary()
+    glossary_preserved_file=None
+    if glossary_raw is not None:
+        glossary_preserved_file=f"preserved/master-glossary-{glossary_sha[:16]}.html"
+        open(os.path.join(a.out,glossary_preserved_file),"wb").write(glossary_raw)
+    glossary,glossary_error,glossary_raw,glossary_sha=load_glossary()
     q=[seed]; seen=set(); docs=[]; edges=[]; errors=[]; leads=[]
     glossary_gate_open=bool(glossary) and not glossary_error
     if glossary_error: errors.append({"url":GLOSSARY_URL,"error":"Glossary gate unavailable: "+glossary_error})
@@ -126,7 +132,7 @@ def main():
     json.dump(edges,open(os.path.join(a.out,"links.json"),"w"),indent=2)
     leads.sort(key=lambda x:(-x.get("specificity_score",0),x["kind"],x["value"]))
     json.dump(leads,open(os.path.join(a.out,"leads.json"),"w"),indent=2)
-    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"glossary_gate":{"source":GLOSSARY_URL,"entries_loaded":len(glossary),"error":glossary_error,"state":"OPEN" if glossary_gate_open else "BLOCKED"},"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
+    run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"glossary_gate":{"source":GLOSSARY_URL,"entries_loaded":len(glossary),"error":glossary_error,"state":"OPEN" if glossary_gate_open else "BLOCKED","sha256":glossary_sha,"preserved_file":glossary_preserved_file},"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
     json.dump(run,open(os.path.join(a.out,"run.json"),"w"),indent=2)
     print(json.dumps(run,indent=2))
 if __name__=="__main__": main()
