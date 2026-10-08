@@ -1,6 +1,12 @@
 name: MAYHEM Government Record Agent
 
 on:
+  push:
+    branches:
+      - agent-government-record-v0-1
+    paths:
+      - "agent/**"
+      - ".github/workflows/mayhem-government-record-agent.yml"
   workflow_dispatch:
     inputs:
       case_id:
@@ -30,15 +36,20 @@ jobs:
         run: |
           node -e 'const r=require("./scripts/case-registry"); const id=process.env.CASE; const xs=(r.CASES||r.cases||r); if(!Array.isArray(xs)||!xs.some(x=>(x.id||x.case_id||x.case_identifier)===id)){console.error("Case is not registered: "+id);process.exit(2)}' || { echo "Case verification failed closed."; exit 2; }
         env:
-          CASE: ${{ inputs.case_id }}
+          CASE: ${{ inputs.case_id || 'DFAPTI-BB-FF-2026-00001' }}
       - name: Install PDF parser
         run: python3 -m pip install --quiet pypdf
       - name: Collect public government records
-        run: python3 agent/government_record_agent.py --case "${{ inputs.case_id }}" --seed "${{ inputs.seed_url }}" --hosts "${{ inputs.allowed_hosts }}" --max-docs "${{ inputs.max_documents }}" --out agent-output
+        run: python3 agent/government_record_agent.py \
+            --case "${{ inputs.case_id || 'DFAPTI-BB-FF-2026-00001' }}" \
+            --seed "${{ inputs.seed_url || 'https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf' }}" \
+            --hosts "${{ inputs.allowed_hosts || 'www.kempsey.nsw.gov.au,kempsey.nsw.gov.au' }}" \
+            --max-docs "${{ inputs.max_documents || '20' }}" \
+            --out agent-output
       - name: Upload candidate collection
         uses: actions/upload-artifact@v4
         with:
-          name: mayhem-government-record-agent-${{ inputs.case_id }}-${{ github.run_id }}
+          name: mayhem-government-record-agent-${{ inputs.case_id || 'DFAPTI-BB-FF-2026-00001' }}-${{ github.run_id }}
           path: agent-output/
           if-no-files-found: error
           retention-days: 90
