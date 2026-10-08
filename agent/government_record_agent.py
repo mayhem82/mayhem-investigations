@@ -71,7 +71,10 @@ def main():
                             context=" ".join(pdftext[start:end].split())
                             score=weights[kind]
                             if re.search(r"Bellbrook|Flying[- ]?Fox",context,re.I): score+=3
-                            item={"from":final,"kind":kind,"value":val,"specificity_score":score,"context":context[:500],"status":"UNRESOLVED_LEAD"}
+                            query=f'site:{urlparse(final).hostname} "{val}"'
+                            if re.search(r"Bellbrook|Flying[- ]?Fox",context,re.I):
+                                query += ' Bellbrook "flying fox"'
+                            item={"from":final,"kind":kind,"value":val,"specificity_score":score,"context":context[:500],"suggested_search_query":query,"status":"UNRESOLVED_LEAD"}
                             if not any(x["kind"]==kind and x["value"]==val and x["from"]==final for x in leads):
                                 leads.append(item)
                     for raw in re.findall(r"https?://[^\s<>()]+",pdftext):
