@@ -165,14 +165,15 @@ def main():
             if e.code == 403:
                 errors.append({"url":u,"error":"HTTP 403: direct runner retrieval blocked","classification":"ACCESS_CHANNEL_BLOCK"})
                 fallbacks=OFFICIAL_FALLBACKS.get(u,[])
-                discovery=discovery_urls((urlparse(u).hostname or "").lower(),'Bellbrook flying fox council meeting')
+                is_discovery_endpoint=(urlparse(u).path or "").lower()=="/search"
+                discovery=[] if is_discovery_endpoint else discovery_urls((urlparse(u).hostname or "").lower(),'Bellbrook flying fox council meeting')
                 continuation=fallbacks + [x for x in discovery if x not in fallbacks]
                 existing=next((x for x in leads if x.get("from")==u and x.get("kind")=="retrieval_required"),None)
                 if existing:
                     existing["next_urls"]=continuation
-                    existing["continuation_state"]="DISCOVER_AND_CONTINUE"
+                    existing["continuation_state"]="DISCOVER_AND_CONTINUE" if continuation else "DISCOVERY_EXHAUSTED"
                 else:
-                    leads.append({"from":u,"kind":"retrieval_required","value":"Official source blocked to GitHub runner","specificity_score":10,"context":"Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.","glossary_resolution":"NOT_APPLICABLE","glossary_source":None,"suggested_search_query":f'site:{urlparse(u).hostname} Bellbrook "flying fox" council meeting',"next_urls":continuation,"continuation_state":"DISCOVER_AND_CONTINUE","status":"UNRESOLVED_LEAD"})
+                    leads.append({"from":u,"kind":"retrieval_required","value":"Official source blocked to GitHub runner","specificity_score":10,"context":"Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.","glossary_resolution":"NOT_APPLICABLE","glossary_source":None,"suggested_search_query":f'site:{urlparse(u).hostname} Bellbrook "flying fox" council meeting',"next_urls":continuation,"continuation_state":"DISCOVER_AND_CONTINUE" if continuation else "DISCOVERY_EXHAUSTED","status":"UNRESOLVED_LEAD"})
                 for v in continuation:
                     vh=(urlparse(v).hostname or "").lower()
                     edges.append({"from":u,"to":v,"discovered_in":"official_continuation","authority":"same_official_authority"})
