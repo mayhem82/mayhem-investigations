@@ -16,8 +16,8 @@
     "preserved_file": "preserved/master-glossary-db2f6097b7025b64.json"
   },
   "documents_preserved": 0,
-  "links_recorded": 2,
-  "documentary_leads": 3,
+  "links_recorded": 30,
+  "documentary_leads": 7,
   "errors": [
     {
       "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story",
@@ -33,16 +33,36 @@
       "url": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-draft-minutes.pdf",
       "error": "HTTP 403: direct runner retrieval blocked",
       "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/search?query=Bellbrook+flying+fox+council+meeting",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/Search?query=Bellbrook+flying+fox+council+meeting",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/search?q=Bellbrook+flying+fox+council+meeting",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/Search?q=Bellbrook+flying+fox+council+meeting",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
     }
   ],
   "resume_state": {
     "resumed_from": "prior-agent-output",
     "prior_hashes_loaded": 0,
-    "unresolved_leads_carried": 3
+    "unresolved_leads_carried": 7
   },
   "continuation_policy": "AUTONOMOUS_BOUNDED_CONTINUATION",
   "authority_state": "CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED",
-  "workflow_run_id": "37715133095",
-  "workflow_commit": "1fdc405e2d844d269e90d5953feb70049fc24663",
+  "workflow_run_id": "37715228750",
+  "workflow_commit": "de4d05cf2f4f2c1fc006f77c75c564b4b7bf080d",
   "workflow_state": "COMPLETED"
 }
