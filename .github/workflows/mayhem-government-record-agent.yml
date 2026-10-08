@@ -71,7 +71,9 @@ jobs:
           p="public/agent-state/run.json"
           d=json.load(open(p))
           d["workflow_run_id"]=os.environ["RUN_ID"]
+          from datetime import datetime, timezone
           d["workflow_commit"]=os.environ["RUN_SHA"]
+          d["workflow_updated_at"]=datetime.now(timezone.utc).isoformat().replace("+00:00","Z")
           d["workflow_state"]="COMPLETED"
           json.dump(d,open(p,"w"),indent=2)
           PY
