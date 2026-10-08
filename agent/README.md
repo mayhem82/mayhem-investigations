@@ -17,7 +17,11 @@ Human Authority in SPEC.md remains controlling.
 GitHub Actions -> "MAYHEM Government Record Agent" -> Run workflow.
 Inputs: existing CASE-ID, seed government URL, allowed government hosts, document limit.
 
-Each run emits an immutable downloadable artifact containing run.json, documents.json, links.json and preserved source files. Nothing is written to canonical case data.
+Each run emits an immutable downloadable artifact containing run.json, documents.json, links.json, leads.json and preserved source files. Nothing is written to canonical case data.
 
 ## v0.1 acceptance test
 Seed the Bellbrook flying-fox council record. The run passes only if it follows the connected public-government documentary chain without leaving approved hosts or contaminating accepted evidence.
+
+
+## Documentary leads
+PDF text is also mined for auditable next-search leads such as council file numbers, resolution numbers, promised future meeting/report dates, named management plans and statutory references. These are leads only; they are never promoted to evidence automatically.
