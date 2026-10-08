@@ -66,13 +66,8 @@
       "glossary_resolution": "NOT_APPLICABLE",
       "glossary_source": null,
       "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
-      "next_urls": [
-        "https://www.kempsey.nsw.gov.au/search?query=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/Search?query=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/search?q=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/Search?q=Bellbrook+flying+fox+council+meeting"
-      ],
-      "continuation_state": "DISCOVER_AND_CONTINUE",
+      "next_urls": [],
+      "continuation_state": "DISCOVERY_EXHAUSTED",
       "status": "UNRESOLVED_LEAD"
     },
     {
@@ -84,13 +79,8 @@
       "glossary_resolution": "NOT_APPLICABLE",
       "glossary_source": null,
       "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
-      "next_urls": [
-        "https://www.kempsey.nsw.gov.au/search?query=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/Search?query=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/search?q=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/Search?q=Bellbrook+flying+fox+council+meeting"
-      ],
-      "continuation_state": "DISCOVER_AND_CONTINUE",
+      "next_urls": [],
+      "continuation_state": "DISCOVERY_EXHAUSTED",
       "status": "UNRESOLVED_LEAD"
     },
     {
@@ -102,13 +92,8 @@
       "glossary_resolution": "NOT_APPLICABLE",
       "glossary_source": null,
       "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
-      "next_urls": [
-        "https://www.kempsey.nsw.gov.au/search?query=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/Search?query=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/search?q=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/Search?q=Bellbrook+flying+fox+council+meeting"
-      ],
-      "continuation_state": "DISCOVER_AND_CONTINUE",
+      "next_urls": [],
+      "continuation_state": "DISCOVERY_EXHAUSTED",
       "status": "UNRESOLVED_LEAD"
     },
     {
@@ -120,13 +105,8 @@
       "glossary_resolution": "NOT_APPLICABLE",
       "glossary_source": null,
       "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
-      "next_urls": [
-        "https://www.kempsey.nsw.gov.au/search?query=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/Search?query=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/search?q=Bellbrook+flying+fox+council+meeting",
-        "https://www.kempsey.nsw.gov.au/Search?q=Bellbrook+flying+fox+council+meeting"
-      ],
-      "continuation_state": "DISCOVER_AND_CONTINUE",
+      "next_urls": [],
+      "continuation_state": "DISCOVERY_EXHAUSTED",
       "status": "UNRESOLVED_LEAD"
     }
   ],

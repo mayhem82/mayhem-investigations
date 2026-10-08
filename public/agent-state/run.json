@@ -16,7 +16,7 @@
     "preserved_file": "preserved/master-glossary-db2f6097b7025b64.json"
   },
   "documents_preserved": 0,
-  "links_recorded": 30,
+  "links_recorded": 14,
   "documentary_leads": 7,
   "errors": [
     {
@@ -62,7 +62,7 @@
   },
   "continuation_policy": "AUTONOMOUS_BOUNDED_CONTINUATION",
   "authority_state": "CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED",
-  "workflow_run_id": "37715228750",
-  "workflow_commit": "de4d05cf2f4f2c1fc006f77c75c564b4b7bf080d",
+  "workflow_run_id": "37715293533",
+  "workflow_commit": "78280d34946ea525cc68c376c47230a24ff0c73e",
   "workflow_state": "COMPLETED"
 }
