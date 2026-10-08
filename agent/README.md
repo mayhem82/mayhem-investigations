@@ -29,3 +29,7 @@ PDF text is also mined for auditable next-search leads such as council file numb
 
 ## Master Glossary gate
 Before interpreting an extracted KSC term, code or identifier, the agent consults the published KSC Master Glossary. Existing CURRENT, LEGACY, EXTERNAL, UNRESOLVED and AMBIGUOUS classifications are inherited rather than reinvented. A glossary miss does not authorize an expansion. Context-sensitive interpretation remains required for AMBIGUOUS terms. The glossary is a terminology-control input, not evidence of the underlying case fact.
+
+
+### Fail-closed behaviour
+If the Master Glossary cannot be loaded, the run records the glossary gate as BLOCKED. Government source retrieval and preservation may continue, but terminology extraction, interpretation and terminology-derived search-lead generation are disabled for that run. This prevents a temporary glossary failure from silently bypassing MAYHEM terminology control.
