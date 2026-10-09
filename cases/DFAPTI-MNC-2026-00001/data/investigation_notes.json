@@ -943,5 +943,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0106",
+    "timestamp": "2026-10-09T00:00:00Z",
+    "activity_type": "Note",
+    "text": "Automated DFAPTA Pass 2 sub-pass for DFAPTI-MNC-2026-00001 (DEC-0064). Read scripts/automated-dfapta-prompt.md, README.md and SPEC.md in full; checked status (\"In Progress — Pass 2\", not Frozen) before proceeding. Git state at session start was unusual: HEAD detached, local main fully diverged from origin/main with no common ancestor on either side (fifty commits each) rather than a simple fast-forward; working tree was clean on both, so local main was reset to origin/main's own tip before any edit, with no local work at risk. Cross-checked all 63 prior decisions.json entries, all 105 prior investigation_notes.json entries, all 60 prior automation_log.json entries, and source_register.json in full (96 entries) before treating anything as new, per DEC-0009/DEC-0010. Evidence register unchanged at 848 items.\n\nIndependently recomputed the unanchored-evidence list (125 of 848, unchanged). Took up DEC-0063's own next-candidate - a systematic per-thread cross-reference of threads.json's 12 THR- entries against which AR-0NN paths actually address each one's own outstanding_work text - and found every thread's stated gap already mapped to a specific existing path (re-read AR-009, AR-016 and AR-043 in full to confirm text-level, not title-level, match). Also tried a second, previously-unused lens: cross-referencing the 'mechanisms' field for a shared tag not yet united in a CPO; found 'Narrative Compression' recurs 7 times, with AR-018 and AR-025 the two instances not yet in CPO-001 or CPO-033, and confirmed on full re-read that the two share only the mechanism label, not a specific new shape - declined to force a CPO. No new path, determination, cross-path observation, or anchor added - counts unchanged (96 paths, 324 determinations, 39 CPOs, 723/848 anchors, 85.3%). node scripts/validate.js before/after: 6 pre-existing DFAPTI-MNC-2026-00001-scoped errors and 363 repository-wide both times, unchanged. Next candidate: with five distinct lenses now exhausted (file/item-level, full cross-path-observation convergence, Language-Discipline, per-thread, mechanisms-field), further movement likely depends on new DFAPTI evidence or a sixth lens not yet tried. See DEC-0064 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
