@@ -7,6 +7,7 @@ import json
 import pathlib
 import urllib.request
 import urllib.error
+import urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CASE = ROOT / "cases/DFAPTI-NSW-AIS-2026-00001"
@@ -31,15 +32,23 @@ for source in sources:
     result = {"source_id": source["source_id"], "url": url}
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "MAYHEM-DFAPTI-source-capture/1.0", "Accept": "text/html,application/pdf,text/plain"})
+        if urllib.parse.urlparse(url).scheme != "https":
+            raise ValueError("Only HTTPS source URLs are permitted")
         with urllib.request.urlopen(req, timeout=20) as response:
             result["http_status"] = response.status
             result["final_url"] = response.geturl()
             result["content_type"] = response.headers.get("Content-Type", "")
             content = response.read(LIMIT + 1)
+            result["response_bytes"] = len(content)
         if len(content) > LIMIT:
             result["capture_status"] = "Oversize: not archived; no partial preservation"
         elif not content:
             result["capture_status"] = "Empty response; not archived"
+        elif content.lstrip().lower().startswith((b"<!doctype html", b"<html")) and any(
+            marker in content[:5000].lower()
+            for marker in (b"captcha", b"verify you are human", b"access denied", b"cloudflare challenge")
+        ):
+            result["capture_status"] = "Challenge or access-denied page; not preserved as source"
         else:
             digest = hashlib.sha256(content).hexdigest()
             extension = ".pdf" if content.startswith(b"%PDF-") else ".html" if b"html" in result["content_type"].lower() else ".bin"
