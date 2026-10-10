@@ -8,6 +8,7 @@ import pathlib
 import urllib.request
 import urllib.error
 import urllib.parse
+import time
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CASE = ROOT / "cases/DFAPTI-NSW-AIS-2026-00001"
@@ -34,7 +35,15 @@ for source in sources:
         req = urllib.request.Request(url, headers={"User-Agent": "MAYHEM-DFAPTI-source-capture/1.0", "Accept": "text/html,application/pdf,text/plain"})
         if urllib.parse.urlparse(url).scheme != "https":
             raise ValueError("Only HTTPS source URLs are permitted")
-        with urllib.request.urlopen(req, timeout=20) as response:
+        for attempt in range(3):
+            try:
+                response = urllib.request.urlopen(req, timeout=20)
+                break
+            except (urllib.error.URLError, TimeoutError) as transient:
+                if attempt == 2:
+                    raise
+                time.sleep(attempt + 1)
+        with response:
             result["http_status"] = response.status
             result["final_url"] = response.geturl()
             result["content_type"] = response.headers.get("Content-Type", "")
