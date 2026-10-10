@@ -216,5 +216,21 @@
       "SRC-0014"
     ],
     "document_hash": "19832c4b68e3016a30097ad2106e72867bb99ff1adcab58d9eeceb03a4bf2522"
+  },
+  {
+    "evidence_id": "EV-0013",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-11",
+    "source_title": "NSW AI Assessment Framework",
+    "source_location": "https://digital.nsw.gov.au/policy/artificial-intelligence/ai-governance-assurance-and-frameworks/nsw-ai-assessment-framework",
+    "source_register_reference": "SRC-0009",
+    "evidence_description": "Official NSW Digital NSW publication concerning AI assessment and governance. Specific obligations and effective dates require passage-level validation before application to an agency.",
+    "investigation_relevance": "Establishes a government AI assessment source for subsequent deployment-specific compliance checks.",
+    "verification_state": "Requires Verification",
+    "classification": "Requires Verification",
+    "relationships": [
+      "SRC-0009"
+    ],
+    "document_hash": null
   }
 ]
