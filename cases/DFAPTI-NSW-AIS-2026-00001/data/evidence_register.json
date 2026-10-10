@@ -132,5 +132,89 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0007",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-11",
+    "source_title": "NSW AI Assessment Framework",
+    "evidence_description": "The NSW AI Assessment Framework publication is registered as official NSW Government guidance concerning agency AI assurance.",
+    "source_register_reference": "SRC-0009",
+    "verification_state": "Requires Verification",
+    "classification": "Requires Verification",
+    "relationships": [
+      "SRC-0009"
+    ],
+    "document_hash": null
+  },
+  {
+    "evidence_id": "EV-0008",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-11",
+    "source_title": "Identifying AI",
+    "evidence_description": "NSW Government guidance addresses identification of AI use in agency systems.",
+    "source_register_reference": "SRC-0010",
+    "verification_state": "Requires Verification",
+    "classification": "Requires Verification",
+    "relationships": [
+      "SRC-0010"
+    ],
+    "document_hash": null
+  },
+  {
+    "evidence_id": "EV-0009",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-11",
+    "source_title": "NSW strengthens AI oversight",
+    "evidence_description": "NSW Department of Customer Service published an announcement concerning modernised AI oversight.",
+    "source_register_reference": "SRC-0011",
+    "verification_state": "Requires Verification",
+    "classification": "Requires Verification",
+    "relationships": [
+      "SRC-0011"
+    ],
+    "document_hash": null
+  },
+  {
+    "evidence_id": "EV-0010",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-11",
+    "source_title": "National Framework for Assurance of AI",
+    "evidence_description": "IPC NSW published material concerning the national AI assurance framework.",
+    "source_register_reference": "SRC-0012",
+    "verification_state": "Requires Verification",
+    "classification": "Requires Verification",
+    "relationships": [
+      "SRC-0012"
+    ],
+    "document_hash": null
+  },
+  {
+    "evidence_id": "EV-0011",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-11",
+    "source_title": "IPC NSW guide catalogue",
+    "evidence_description": "The registered IPC NSW guide catalogue requires document-level identification before specific propositions are attributed.",
+    "source_register_reference": "SRC-0013",
+    "verification_state": "Requires Verification",
+    "classification": "Requires Verification",
+    "relationships": [
+      "SRC-0013"
+    ],
+    "document_hash": null
+  },
+  {
+    "evidence_id": "EV-0012",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-11",
+    "source_title": "AI privacy impact assessment PDF",
+    "evidence_description": "An official IPC NSW privacy impact assessment PDF has an archived source copy and SHA-256 recorded in the source register.",
+    "source_register_reference": "SRC-0014",
+    "verification_state": "Requires Verification",
+    "classification": "Requires Verification",
+    "relationships": [
+      "SRC-0014"
+    ],
+    "document_hash": "19832c4b68e3016a30097ad2106e72867bb99ff1adcab58d9eeceb03a4bf2522"
   }
 ]
