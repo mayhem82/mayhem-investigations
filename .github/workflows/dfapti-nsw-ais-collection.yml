@@ -19,6 +19,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Identify active workflow execution
+        run: |
+          echo "DFAPTI NSW AIS collector starting"
+          echo "UTC: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "Run: $GITHUB_RUN_ID"
+          echo "Commit: $GITHUB_SHA"
       - name: Validate collector syntax and canonical registers
         run: |
           python -m py_compile scripts/dfapti_nsw_ais_monitor.py
