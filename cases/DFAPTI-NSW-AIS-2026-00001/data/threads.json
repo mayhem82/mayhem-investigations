@@ -106,5 +106,14 @@
     "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
     "dependencies": [],
     "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-13",
+    "name": "Non-Police Surveillance Acquisition, Covert Secondary Processing and Data Exploitation",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Examine device firmware, VMS/NVR analytics, cloud endpoints, software permissions, remote access, derived data retention, vendor contracts and independent audits. Distinguish built-in, inadequately disclosed, unauthorised and deliberately concealed functionality. No deployment or wrongdoing presumed.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
   }
 ]
