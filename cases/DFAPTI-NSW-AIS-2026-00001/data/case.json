@@ -1,0 +1,12 @@
+{
+  "case_identifier": "DFAPTI-NSW-AIS-2026-00001",
+  "case_title": "Civilian Surveillance Data Transfer and AI Processing — NSW Preventive Governance Audit",
+  "investigation_type": "DFAPTI Forensic Public Interest Investigation",
+  "jurisdiction": "New South Wales, Australia",
+  "geographic_scope": "NSW, using Bellbrook Hotel car park as a hypothetical local reference; Flock-style ALPR and police drone systems examined as distinct technologies",
+  "commencement_date": "2026-10-10",
+  "current_status": "Active - Evidence Collection Pending",
+  "investigator": "mayhem82",
+  "repository_version": "1.0.0",
+  "specification_version": "MAYHEM-SPEC-CORE-v1.0.0"
+}
