@@ -16,5 +16,14 @@
     "related_thread": "THR-08",
     "related_source": "SRC-0001",
     "related_evidence": "EV-0001"
+  },
+  {
+    "note_id": "NOTE-0003",
+    "timestamp": "2026-10-10T00:00:00+11:00",
+    "activity_type": "Correction",
+    "text": "Evidence-handling nonconformance: two THR-13 Markdown research files were introduced outside the canonical Source Register, Evidence Register, Search Log and Investigation Notes. They are unverified source leads, not accepted evidence. Original commits remain in Git history. Research links must be reconciled through existing registers; standalone research-file surfacing is withdrawn. No evidence freeze or stage advancement.",
+    "related_thread": "THR-13",
+    "related_source": null,
+    "related_evidence": null
   }
 ]
