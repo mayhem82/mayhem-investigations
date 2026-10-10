@@ -108,5 +108,29 @@
     "chronology_links": [],
     "contradiction_links": [],
     "open_question_links": []
+  },
+  {
+    "evidence_id": "EV-0006",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-10",
+    "source_date": "2024-12",
+    "source_authority": "Information and Privacy Commission NSW",
+    "source_title": "Guide to undertaking Privacy Impact Assessments on AI systems and projects",
+    "source_type": "Official regulatory guidance",
+    "source_location": "https://www.ipc.nsw.gov.au/resources/guide-guide-undertaking-privacy-impact-assessments-ai-systems-and-projects",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Primary web text independently reviewed; original source file not yet preserved in case repository.",
+    "evidence_description": "IPC guidance explicitly identifies AI systems that process CCTV and vehicle-registration data, and states that PIAs for AI handling personal information are ordinarily risk-based and typically required. This establishes regulatory guidance, not actual NSW deployment.",
+    "relevant_quotation": "If an AI system or project involves handling personal information, a PIA will typically be required.",
+    "investigation_relevance": "Establishes an official baseline for investigating AI/CCTV data flows, third-party disclosures and privacy assessment controls; applicability to a particular deployment requires separate evidence.",
+    "classification": "Requires Verification",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "SRC-0002"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": []
   }
 ]
