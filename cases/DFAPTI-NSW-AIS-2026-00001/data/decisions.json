@@ -6,5 +6,13 @@
     "supporting_evidence": [],
     "investigator": "mayhem82",
     "impact": "New independent case. Bellbrook Hotel is illustrative only; no assertion of camera installation, incident, contractor misuse or unlawful activity. Existing PolAir-Remote evidence remains isolated. DFAPTI starts without frozen evidence; Stages 2-6 remain locked."
+  },
+  {
+    "decision_id": "DEC-0002",
+    "date": "2026-10-10",
+    "reason": "Operator authorised adding a separate investigation pathway for civilian surveillance systems and secondary analytics.",
+    "supporting_evidence": [],
+    "investigator": "mayhem82",
+    "impact": "THR-13 and Q-0007 address technical and governance questions only. No finding of deployment or misuse. Existing cases and frozen records remain unchanged."
   }
 ]
