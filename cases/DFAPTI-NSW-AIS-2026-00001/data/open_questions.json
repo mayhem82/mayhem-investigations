@@ -1,0 +1,62 @@
+[
+  {
+    "question_id": "Q-0001",
+    "question": "What NSW laws regulate private CCTV disclosure to police and subsequent contractor access?",
+    "why_exists": "Operator-defined preventive surveillance governance scope; not an allegation of an actual incident.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Primary-source legislation, policies, contracts, technical specifications and auditable records.",
+    "likely_source": "NSW legislation, NSW Police policy and procurement records, privacy regulators, vendor technical documentation",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0002",
+    "question": "Which contractor access, onward disclosure, retention and deletion terms govern NSW Police video evidence systems?",
+    "why_exists": "Operator-defined preventive surveillance governance scope; not an allegation of an actual incident.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Primary-source legislation, policies, contracts, technical specifications and auditable records.",
+    "likely_source": "NSW legislation, NSW Police policy and procurement records, privacy regulators, vendor technical documentation",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0003",
+    "question": "What capabilities and deployments of Flock-style ALPR are independently verified in Australia?",
+    "why_exists": "Operator-defined preventive surveillance governance scope; not an allegation of an actual incident.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Primary-source legislation, policies, contracts, technical specifications and auditable records.",
+    "likely_source": "NSW legislation, NSW Police policy and procurement records, privacy regulators, vendor technical documentation",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0004",
+    "question": "Can derived plate or person identifiers be retained or reused independently of incident footage?",
+    "why_exists": "Operator-defined preventive surveillance governance scope; not an allegation of an actual incident.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Primary-source legislation, policies, contracts, technical specifications and auditable records.",
+    "likely_source": "NSW legislation, NSW Police policy and procurement records, privacy regulators, vendor technical documentation",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0005",
+    "question": "Which safeguards prevent unrelated civilian footage from being indexed or searched beyond the original incident?",
+    "why_exists": "Operator-defined preventive surveillance governance scope; not an allegation of an actual incident.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Primary-source legislation, policies, contracts, technical specifications and auditable records.",
+    "likely_source": "NSW legislation, NSW Police policy and procurement records, privacy regulators, vendor technical documentation",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0006",
+    "question": "What are the independently verified contractual and technical safeguards for PolAir-Remote data?",
+    "why_exists": "Operator-defined preventive surveillance governance scope; not an allegation of an actual incident.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Primary-source legislation, policies, contracts, technical specifications and auditable records.",
+    "likely_source": "NSW legislation, NSW Police policy and procurement records, privacy regulators, vendor technical documentation",
+    "status": "Open",
+    "resolution_evidence": []
+  }
+]
