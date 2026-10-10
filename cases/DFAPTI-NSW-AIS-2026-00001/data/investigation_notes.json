@@ -7,5 +7,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0002",
+    "timestamp": "2026-10-10T13:00:00+11:00",
+    "activity_type": "Finding",
+    "text": "First DFAPTI pass identified five official NSW legislative/regulatory guidance sources. Registered EV-0001 to EV-0005 as Requires Verification; no documents preserved or hashed yet.",
+    "related_thread": "THR-08",
+    "related_source": "SRC-0001",
+    "related_evidence": "EV-0001"
   }
 ]
