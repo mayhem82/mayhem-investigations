@@ -26,6 +26,19 @@ jobs:
           python -m json.tool cases/DFAPTI-NSW-AIS-2026-00001/data/automation_log.json > /dev/null
       - name: Capture source bytes and record SHA-256 provenance
         run: python scripts/dfapti_nsw_ais_monitor.py
+      - name: Validate collector output and append-only run
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          case = pathlib.Path('cases/DFAPTI-NSW-AIS-2026-00001/data')
+          runs = json.loads((case / 'automation_log.json').read_text())
+          sources = json.loads((case / 'source_register.json').read_text())
+          assert runs and isinstance(runs[-1].get('checks'), list)
+          assert len(runs[-1]['checks']) == len(sources)
+          assert not runs[-1].get('evidence_added'), 'Collector must not promote evidence'
+          assert len({s['source_id'] for s in sources}) == len(sources)
+          print('DFAPTI run and source registry validated')
+          PY
       - name: Verify captured file hashes before publication
         run: |
           python - <<'PY'
