@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/dfapti-nsw-ais-snapshot.yml'
       - 'scripts/build_dfapti_snapshot.py'
       - 'cases/DFAPTI-NSW-AIS-2026-00001/data/evidence_register.json'
 permissions:
