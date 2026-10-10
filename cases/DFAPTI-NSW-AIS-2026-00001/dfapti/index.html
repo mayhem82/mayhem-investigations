@@ -171,6 +171,33 @@
   <div id="footer-loaded"></div>
 </footer>
 
+<script>
+/* Refresh the existing workspace when the canonical registers change. */
+(function () {
+  var urls = ['../data/evidence_register.json', '../data/source_register.json', '../data/automation_log.json'];
+  var baseline = null;
+  async function check() {
+    try {
+      var texts = await Promise.all(urls.map(function (url) {
+        return fetch(url + '?refresh=' + Date.now(), {cache: 'no-store'}).then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.text();
+        });
+      }));
+      var signature = JSON.stringify(texts);
+      if (baseline !== null && signature !== baseline) {
+        window.location.reload();
+        return;
+      }
+      baseline = signature;
+    } catch (err) {
+      /* Preserve existing working view on temporary network failure. */
+    }
+  }
+  check();
+  setInterval(check, 60000);
+})();
+</script>
 <script src="app.js"></script>
 </body>
 </html>
