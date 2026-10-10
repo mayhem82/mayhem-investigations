@@ -1,0 +1,110 @@
+[
+  {
+    "thread_id": "THR-01",
+    "name": "Surveillance technology and functional capabilities",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-02",
+    "name": "Private CCTV collection and lawful purposes",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-03",
+    "name": "Transfer to NSW Police and chain of custody",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-04",
+    "name": "Contractor and subcontractor access",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-05",
+    "name": "AI-derived identifiers and secondary processing",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-06",
+    "name": "Retention deletion and backup persistence",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-07",
+    "name": "Network interoperability and cross-location searches",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-08",
+    "name": "NSW legislation privacy and oversight",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-09",
+    "name": "Civilian notice access correction and remedies",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-10",
+    "name": "Procurement contractual safeguards and audit rights",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-11",
+    "name": "Cross-case methodological comparison with PolAir-Remote",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-12",
+    "name": "Preventive governance and community safeguards",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  }
+]
