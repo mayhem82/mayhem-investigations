@@ -1,0 +1,38 @@
+name: DFAPTI NSW AIS snapshot DOCX
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_dfapti_snapshot.py'
+      - 'cases/DFAPTI-NSW-AIS-2026-00001/data/evidence_register.json'
+permissions:
+  contents: write
+concurrency:
+  group: dfapti-nsw-ais-snapshot
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install python-docx==1.2.0
+      - run: python scripts/build_dfapti_snapshot.py
+      - name: Commit immutable snapshot DOCX
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cases/DFAPTI-NSW-AIS-2026-00001/snapshots/MAYHEM-NSW-AIS-2026-00001-ER-SNAPSHOT-001.docx
+          if ! git diff --cached --quiet; then
+            git commit -m "DFAPTI snapshot 001: immutable origin evidence register DOCX"
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git pull --rebase origin main || exit 1
+              sleep $((attempt * 3))
+            done
+            exit 1
+          fi
