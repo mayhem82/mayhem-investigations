@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "source_id": "SRC-0001",
+    "authority": "NSW Parliament",
+    "title": "Privacy and Personal Information Protection Act 1998 No 133",
+    "type": "Legislation",
+    "url_or_file_location": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1998-133",
+    "first_checked": "2026-10-10",
+    "last_checked": "2026-10-10",
+    "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-08",
+    "availability_notes": "Primary source URL; preservation and hash pending."
+  },
+  {
+    "source_id": "SRC-0002",
+    "authority": "Information and Privacy Commission NSW",
+    "title": "Guide to undertaking Privacy Impact Assessments on AI systems and projects",
+    "type": "Policy",
+    "url_or_file_location": "https://www.ipc.nsw.gov.au/resources/guide-guide-undertaking-privacy-impact-assessments-ai-systems-and-projects",
+    "first_checked": "2026-10-10",
+    "last_checked": "2026-10-10",
+    "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-04",
+    "availability_notes": "Primary source URL; preservation and hash pending."
+  },
+  {
+    "source_id": "SRC-0003",
+    "authority": "Information and Privacy Commission NSW",
+    "title": "Guide to section 121 of the GIPA Act for private sector contractors (July 2026)",
+    "type": "Policy",
+    "url_or_file_location": "https://www.ipc.nsw.gov.au/resources/fact-sheet-guide-section-121-gipa-act-private-sector-contractors",
+    "first_checked": "2026-10-10",
+    "last_checked": "2026-10-10",
+    "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-10",
+    "availability_notes": "Primary source URL; preservation and hash pending."
+  },
+  {
+    "source_id": "SRC-0004",
+    "authority": "Information and Privacy Commission NSW",
+    "title": "Fact Sheet - Local councils' use of CCTV cameras in public places",
+    "type": "Policy",
+    "url_or_file_location": "https://www.ipc.nsw.gov.au/resources/fact-sheet-local-councils-use-closed-circuit-tv-cctv-cameras-public-places",
+    "first_checked": "2026-10-10",
+    "last_checked": "2026-10-10",
+    "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-02",
+    "availability_notes": "Primary source URL; preservation and hash pending."
+  },
+  {
+    "source_id": "SRC-0005",
+    "authority": "Information and Privacy Commission NSW",
+    "title": "Fact Sheet - Managing access to audio visual information under the GIPA Act",
+    "type": "Policy",
+    "url_or_file_location": "https://www.ipc.nsw.gov.au/resources/fact-sheet-managing-access-audio-visual-information-under-gipa-act",
+    "first_checked": "2026-10-10",
+    "last_checked": "2026-10-10",
+    "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-09",
+    "availability_notes": "Primary source URL; preservation and hash pending."
+  }
+]
