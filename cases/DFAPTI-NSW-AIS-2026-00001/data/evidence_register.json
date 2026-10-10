@@ -232,5 +232,24 @@
       "SRC-0009"
     ],
     "document_hash": null
+  },
+  {
+    "evidence_id": "EV-0014",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-11",
+    "source_title": "NSW IPC AI Privacy Impact Assessment Guide",
+    "source_location": "https://www.ipc.nsw.gov.au/sites/default/files/2024-12/Guide_Guide_to_undertaking_Privacy_Impact_Assessments_on_AI_systems_and_projects_December_2024.pdf",
+    "source_register_reference": "SRC-0014",
+    "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0014/19832c4b68e3016a30097ad2106e72867bb99ff1adcab58d9eeceb03a4bf2522.pdf",
+    "document_hash": "19832c4b68e3016a30097ad2106e72867bb99ff1adcab58d9eeceb03a4bf2522",
+    "evidence_description": "A PDF copy of NSW IPC guidance on privacy impact assessments for AI systems is preserved in the source archive and linked by recorded SHA-256. Passage-level examination and applicability remain separate verification steps.",
+    "investigation_relevance": "Preserved primary regulatory guidance for AI privacy risk and CCTV-related inquiries.",
+    "verification_state": "Source preserved; content review pending",
+    "classification": "Requires Verification",
+    "relationships": [
+      "SRC-0014",
+      "EV-0006",
+      "EV-0012"
+    ]
   }
 ]
