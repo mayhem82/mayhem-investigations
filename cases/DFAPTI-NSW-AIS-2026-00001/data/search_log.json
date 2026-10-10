@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "search_id": "SEARCH-0001",
+    "date": "2026-10-10",
+    "query": "AXIS Object Analytics user manual",
+    "source": "https://help.axis.com/en-US/axis-object-analytics",
+    "result": "Manufacturer documentation lead recorded in prior noncanonical THR-13 files. Source capture and hash not completed.",
+    "status": "Requires Verification",
+    "related_thread": "THR-13"
+  },
+  {
+    "search_id": "SEARCH-0002",
+    "date": "2026-10-10",
+    "query": "Axis Scene Metadata",
+    "source": "https://developer.axis.com/analytics/axis-scene-metadata/",
+    "result": "Manufacturer documentation lead; no verified source snapshot or accepted evidence.",
+    "status": "Requires Verification",
+    "related_thread": "THR-13"
+  },
+  {
+    "search_id": "SEARCH-0003",
+    "date": "2026-10-10",
+    "query": "Axis object track definition",
+    "source": "https://developer.axis.com/analytics/axis-scene-metadata/reference/definitions/object-track/",
+    "result": "Manufacturer technical definition lead; no verified source snapshot or accepted evidence.",
+    "status": "Requires Verification",
+    "related_thread": "THR-13"
+  }
+]
