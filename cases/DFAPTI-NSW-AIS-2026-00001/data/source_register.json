@@ -68,5 +68,47 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-09",
     "availability_notes": "Primary source URL; preservation and hash pending."
+  },
+  {
+    "source_id": "SRC-0006",
+    "authority": "Axis Communications",
+    "title": "AXIS Object Analytics user manual",
+    "type": "Manufacturer documentation",
+    "url_or_file_location": "https://help.axis.com/en-US/axis-object-analytics",
+    "first_checked": "2026-10-10",
+    "last_checked": "2026-10-10",
+    "current_version": "Research lead; source version and substantive claims require verification",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-13",
+    "availability_notes": "Reconciled from canonical Search Log; capture pending."
+  },
+  {
+    "source_id": "SRC-0007",
+    "authority": "Axis Communications",
+    "title": "AXIS Scene Metadata documentation",
+    "type": "Manufacturer documentation",
+    "url_or_file_location": "https://developer.axis.com/analytics/axis-scene-metadata/",
+    "first_checked": "2026-10-10",
+    "last_checked": "2026-10-10",
+    "current_version": "Research lead; source version and substantive claims require verification",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-13",
+    "availability_notes": "Reconciled from canonical Search Log; capture pending."
+  },
+  {
+    "source_id": "SRC-0008",
+    "authority": "Axis Communications",
+    "title": "AXIS Scene Metadata object track definition",
+    "type": "Manufacturer documentation",
+    "url_or_file_location": "https://developer.axis.com/analytics/axis-scene-metadata/reference/definitions/object-track/",
+    "first_checked": "2026-10-10",
+    "last_checked": "2026-10-10",
+    "current_version": "Research lead; source version and substantive claims require verification",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-13",
+    "availability_notes": "Reconciled from canonical Search Log; capture pending."
   }
 ]
