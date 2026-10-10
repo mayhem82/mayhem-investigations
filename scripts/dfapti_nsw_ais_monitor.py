@@ -72,7 +72,9 @@ for source in sources:
             source["hash_status"] = "SHA-256: " + digest
             source["last_checked"] = now.date().isoformat()
             source["availability_notes"] = "Captured response: " + str(destination.relative_to(ROOT)) + "; source contents and applicability still require review."
-    except (urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
+    except Exception as exc:
+        # Isolate failures to the affected source, including HTTP errors and
+        # unexpected parser/response failures; preserve the remaining checks.
         result["check_error"] = type(exc).__name__ + ": " + str(exc)[:240]
     results.append(result)
 logs.append({
