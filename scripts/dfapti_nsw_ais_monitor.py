@@ -60,7 +60,7 @@ for source in sources:
             result["capture_status"] = "Challenge or access-denied page; not preserved as source"
         else:
             digest = hashlib.sha256(content).hexdigest()
-            extension = ".pdf" if content.startswith(b"%PDF-") else ".html" if b"html" in result["content_type"].lower() else ".bin"
+            extension = ".pdf" if content.startswith(b"%PDF-") else ".html" if "html" in result["content_type"].lower() else ".bin"
             folder = ARCHIVE / source["source_id"]
             folder.mkdir(parents=True, exist_ok=True)
             filename = digest + extension
