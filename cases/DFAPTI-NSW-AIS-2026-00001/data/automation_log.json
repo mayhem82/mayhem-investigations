@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "run_id": "RUN-0001",
+    "date": "2026-10-10",
+    "sources_checked": [
+      "SRC-0001",
+      "SRC-0002",
+      "SRC-0003",
+      "SRC-0004",
+      "SRC-0005"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0001",
+      "EV-0002",
+      "EV-0003",
+      "EV-0004",
+      "EV-0005"
+    ],
+    "notes": "First DFAPTI primary-source review. Five source-backed provisional entries; full text preservation, hashing and legal applicability checks remain open. No claims of deployment or misconduct."
+  }
+]
