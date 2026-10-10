@@ -190,9 +190,9 @@
     "first_checked": "2026-10-10",
     "last_checked": "2026-10-10",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
-    "preservation_status": "Not Preserved",
-    "hash_status": "No Hash",
+    "preservation_status": "Preserved",
+    "hash_status": "SHA-256: 19832c4b68e3016a30097ad2106e72867bb99ff1adcab58d9eeceb03a4bf2522",
     "associated_thread": "THR-08",
-    "availability_notes": "Official public source identified; automated immutable capture and content review pending."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0014/19832c4b68e3016a30097ad2106e72867bb99ff1adcab58d9eeceb03a4bf2522.pdf; source contents and applicability still require review."
   }
 ]
