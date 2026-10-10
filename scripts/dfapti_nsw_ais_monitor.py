@@ -1,35 +1,70 @@
-"""Isolated, append-only DFAPTI source availability monitor. No evidence promotion."""
+"""DFAPTI NSW AIS: bounded primary-source capture, SHA-256 and append-only audit.
+No automatic promotion of assertions into the Evidence Register.
+"""
 import datetime as dt
+import hashlib
 import json
 import pathlib
 import urllib.request
+import urllib.error
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-DATA = ROOT / "cases/DFAPTI-NSW-AIS-2026-00001/data"
-sources = json.loads((DATA / "source_register.json").read_text())
-logfile = DATA / "automation_log.json"
-logs = json.loads(logfile.read_text())
-now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+CASE = ROOT / "cases/DFAPTI-NSW-AIS-2026-00001"
+DATA = CASE / "data"
+ARCHIVE = CASE / "source-archive"
+LIMIT = 2_000_000
+now = dt.datetime.now(dt.timezone.utc)
+stamp = now.strftime("%Y%m%dT%H%M%SZ")
+
+def read(name):
+    return json.loads((DATA / name).read_text(encoding="utf-8"))
+
+def write(name, value):
+    (DATA / name).write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+sources = read("source_register.json")
+logs = read("automation_log.json")
 results = []
+ARCHIVE.mkdir(parents=True, exist_ok=True)
 for source in sources:
     url = source["url_or_file_location"]
     result = {"source_id": source["source_id"], "url": url}
     try:
-        request = urllib.request.Request(url, headers={"User-Agent": "MAYHEM-DFAPTI-source-monitor/1.0"})
-        with urllib.request.urlopen(request, timeout=15) as response:
+        req = urllib.request.Request(url, headers={"User-Agent": "MAYHEM-DFAPTI-source-capture/1.0", "Accept": "text/html,application/pdf,text/plain"})
+        with urllib.request.urlopen(req, timeout=20) as response:
             result["http_status"] = response.status
             result["final_url"] = response.geturl()
             result["content_type"] = response.headers.get("Content-Type", "")
-    except Exception as exc:
+            content = response.read(LIMIT + 1)
+        if len(content) > LIMIT:
+            result["capture_status"] = "Oversize: not archived; no partial preservation"
+        elif not content:
+            result["capture_status"] = "Empty response; not archived"
+        else:
+            digest = hashlib.sha256(content).hexdigest()
+            extension = ".pdf" if content.startswith(b"%PDF-") else ".html" if b"html" in result["content_type"].lower() else ".bin"
+            folder = ARCHIVE / source["source_id"]
+            folder.mkdir(parents=True, exist_ok=True)
+            filename = digest + extension
+            destination = folder / filename
+            if not destination.exists():
+                destination.write_bytes(content)
+            result.update({"capture_status": "Preserved", "sha256": digest, "preserved_file_reference": str(destination.relative_to(ROOT)), "bytes": len(content)})
+            source["preservation_status"] = "Preserved"
+            source["hash_status"] = "SHA-256: " + digest
+            source["last_checked"] = now.date().isoformat()
+            source["availability_notes"] = "Captured response: " + str(destination.relative_to(ROOT)) + "; source contents and applicability still require review."
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
         result["check_error"] = type(exc).__name__ + ": " + str(exc)[:240]
     results.append(result)
 logs.append({
     "run_id": "RUN-" + str(len(logs) + 1).zfill(4),
-    "date": now,
+    "date": now.isoformat(timespec="seconds"),
     "sources_checked": [s["source_id"] for s in sources],
-    "result": "Source availability checked; no evidence added or verified.",
+    "result": "Primary-source capture attempted; no evidence assertions promoted.",
     "evidence_added": [],
-    "notes": "Automated HEAD/GET source accessibility observations only; results do not establish document contents, authenticity, currency or legal applicability.",
+    "notes": "Source bytes and SHA-256 captured where accessible and within size limit. Archived responses may be redirects, errors or challenge pages: manual content validation required. Existing evidence remains provisional.",
     "checks": results,
 })
-logfile.write_text(json.dumps(logs, indent=2, ensure_ascii=False) + "\n")
+write("source_register.json", sources)
+write("automation_log.json", logs)
