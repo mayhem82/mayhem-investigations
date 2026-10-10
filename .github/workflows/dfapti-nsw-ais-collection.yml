@@ -33,5 +33,12 @@ jobs:
           git add cases/DFAPTI-NSW-AIS-2026-00001/data/automation_log.json cases/DFAPTI-NSW-AIS-2026-00001/data/source_register.json cases/DFAPTI-NSW-AIS-2026-00001/source-archive/
           if ! git diff --cached --quiet; then
             git commit -m "DFAPTI NSW AIS: append source monitoring run"
-            git push
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              echo "Push conflict; retrying with linear rebase ($attempt/3)"
+              git pull --rebase origin main || exit 1
+              sleep $((attempt * 3))
+            done
+            echo "Unable to publish DFAPTI capture after retries" >&2
+            exit 1
           fi
