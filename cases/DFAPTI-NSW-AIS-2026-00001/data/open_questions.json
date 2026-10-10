@@ -58,5 +58,15 @@
     "likely_source": "NSW legislation, NSW Police policy and procurement records, privacy regulators, vendor technical documentation",
     "status": "Open",
     "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0007",
+    "question": "What technical controls and disclosures govern secondary analytics performed by civilian camera systems independently of the live viewing interface?",
+    "why_exists": "Operator requested examination of non-police video systems where display and data processing may differ.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Technical manuals, firmware assessments, data-flow documentation, vendor terms and independent security audits.",
+    "likely_source": "Equipment manufacturers, independent auditors and relevant privacy regulators",
+    "status": "Open",
+    "resolution_evidence": []
   }
 ]
