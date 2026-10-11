@@ -348,5 +348,17 @@
     "relationships": [
       "SRC-0007"
     ]
+  },
+  {
+    "evidence_id": "EV-0023",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0008",
+    "evidence_description": "Axis Object Track documentation describes identifiers linking detections over time and possible summaries including timestamps, classifications, speed and image snapshots. Actual NSW deployment is not established.",
+    "verification_state": "Archived vendor documentation reviewed",
+    "classification": "Source-supported observation",
+    "relationships": [
+      "SRC-0008"
+    ]
   }
 ]
