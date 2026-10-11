@@ -1,0 +1,1750 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23165906-2"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-23165906-2", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path","allow_ad_personalization_signals":false});gtag("config", "G-387159139", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});gtag('config', 'G-0XT7NFV9ZS', {'name': 'govcms'}); gtag('govcms.send', 'pageview', {'anonymizeIp': true})</script>
+<meta name="description" content="This guide supports agencies in understanding, assessing and reducing privacy risks relating to AI systems and projects when undertaking PIAs." />
+<link rel="canonical" href="https://www.ipc.nsw.gov.au/resources/guide-guide-undertaking-privacy-impact-assessments-ai-systems-and-projects" />
+<link rel="image_src" href="https://www.ipc.nsw.gov.au/sites/default/files/2026-09/Guides%20icon.webp" />
+<meta property="og:site_name" content="Information and Privacy Commission New South Wales" />
+<meta property="og:type" content="Resource" />
+<meta property="og:url" content="https://www.ipc.nsw.gov.au/resources/guide-guide-undertaking-privacy-impact-assessments-ai-systems-and-projects" />
+<meta property="og:title" content="Guide - Guide to undertaking Privacy Impact Assessments on AI systems and projects" />
+<meta property="og:description" content="This guide supports agencies in understanding, assessing and reducing privacy risks relating to AI systems and projects when undertaking PIAs." />
+<meta property="og:image" content="https://www.ipc.nsw.gov.au/sites/default/files/2026-09/Guides%20icon.webp" />
+<meta property="og:updated_time" content="2025-09-05T11:45:44+1000" />
+<meta name="msvalidate.01" content="2C6403AF20B7FBF32213658A56BF2BC0" />
+<meta name="Generator" content="Drupal 11 (http://drupal.org) + GovCMS (http://govcms.gov.au)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/ipc_theme/favicon.ico" type="image/png" />
+<style media="all" data-modifiers="paragraph-131">html body .modifiers.modifiers-id-paragraph-131{background-color:#01486d}</style>
+<style media="all" data-modifiers="paragraph-126">html body .modifiers.modifiers-id-paragraph-126{background-color:#01486d}</style>
+<style media="all" data-modifiers="paragraph-2014">html body .modifiers.modifiers-id-paragraph-2014{background-color:#01486d}</style>
+
+    <title>Guide - Guide to undertaking Privacy Impact Assessments on AI systems and projects</title>
+    <link rel="icon" type="image/png" href="/themes/custom/ipc_theme/images/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/themes/custom/ipc_theme/images/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/themes/custom/ipc_theme/images/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/ipc_theme/images/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="IPC" />
+    <link rel="manifest" href="/themes/custom/ipc_theme/images/favicons/site.webmanifest" />
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_a9IY2JRip5RLH5VyNkToSxSkc_8kZZ2qovupOPa2cxk.css?delta=0&amp;language=en&amp;theme=ipc_theme&amp;include=eJx1UNGOwzAI-6E2ebn_mUjqpZFIiALVrvv6de2mO63aC2AbCZsgYmqd2o9PLIF4VFs51zREJtXVB1K85wJVStAhSoef-tKIneHXqIPGDs13HFqVXoifENWyrReUgMlHapalDrnFi80o8FepNtINKgUftP7DH94adUqb6VnfLv4Yt9S2BM46Yxp0VUM5QtwQrpst_-ouSmmi2c4KeLtZzU0wyqzOJCX-vvZ6y1dd9tB60p_lRO553fHwB_-LoOQ" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_lljsWDKLjOr5xNaMMcI1tNrZohF0UrQlrG6q_xZMWLs.css?delta=1&amp;language=en&amp;theme=ipc_theme&amp;include=eJx1UNGOwzAI-6E2ebn_mUjqpZFIiALVrvv6de2mO63aC2AbCZsgYmqd2o9PLIF4VFs51zREJtXVB1K85wJVStAhSoef-tKIneHXqIPGDs13HFqVXoifENWyrReUgMlHapalDrnFi80o8FepNtINKgUftP7DH94adUqb6VnfLv4Yt9S2BM46Yxp0VUM5QtwQrpst_-ouSmmi2c4KeLtZzU0wyqzOJCX-vvZ6y1dd9tB60p_lRO553fHwB_-LoOQ" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/2861","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":"UA-23165906-2","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"webform":{"xss":{"allowedTags":["a","abbr","acronym","address","article","aside","b","bdi","bdo","big","blockquote","br","caption","cite","code","col","colgroup","command","dd","del","details","dfn","div","dl","dt","em","figcaption","figure","footer","h1","h2","h3","h4","h5","h6","header","hgroup","hr","i","img","ins","kbd","li","mark","menu","meter","nav","ol","output","p","pre","progress","q","rp","rt","ruby","s","samp","section","small","span","strong","sub","summary","sup","table","tbody","td","tfoot","th","thead","time","tr","tt","u","ul","var","wbr","label","fieldset","legend","font"]}},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"modifiers":{"attributes":{"paragraph-131":{"all":{"html body .modifiers.modifiers-id-paragraph-131":{"class":["modifiers-has-background"]}}},"paragraph-126":{"all":{"html body .modifiers.modifiers-id-paragraph-126":{"class":["modifiers-has-background"]}}},"paragraph-2014":{"all":{"html body .modifiers.modifiers-id-paragraph-2014":{"class":["modifiers-has-background"]}}}}},"user":{"uid":0,"permissionsHash":"4ab5e46bfac805cc19d523816b1fa217eddd093230224778bbc6895666cfdd85"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"></script>
+<script src="/sites/default/files/js/js_HMXT4su3wtpV5gWfLj-asH3W1GnpoRfsRMp9J_tuagE.js?scope=header&amp;delta=1&amp;language=en&amp;theme=ipc_theme&amp;include=eJyFkF1uxDAIhC-UTY5kEWeWRQETGfqzt68r9cFqteoLSPMNIw3szopCjfSZUmPjX8IiVy35gGGjWhEh-8AGJkN7myir76S3yKdK4wkY9bPgM9FHZhnwnEMNh1BJ6oyc5A464gKd6JMa5p6PW9Tuqov5IXdBj02a5PKB_e7dtp-9QsdJy_VAkmisQe_415TOo_5Lm40HEL_mfqV4iz_8e3wBanmOEg"></script>
+<script src="//f1-eu.readspeaker.com/script/3/webReader/webReader.js?pids=wr"></script>
+
+  <script >bazadebezolkohpepadr="237401148"</script><script type="text/javascript" src="https://www.ipc.nsw.gov.au/akam/13/e267746"  defer></script></head>
+  <body class="path-node page-node-type-resource search-form--inline">
+        <div role="region" aria-label="Skip link">
+      <a href="#main-content" class="visually-hidden focusable skip-link">
+        Skip to main content
+      </a>
+    </div>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div class="has-page-layout">
+    
+  <div class="top-bar bs-bg--alt" role="region" aria-label="Utility header">
+    <div class="container">
+        <div class="region region-top-bar">
+    <div id="block-subscribetoipcupdates" class="block-bundle-components block block-block-content block-block-content34731b54-4d70-490d-8c34-d1768704fe3b">
+  
+    
+      
+      <div class="field field--name-field-components field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="modifiers modifiers-id-paragraph-507 modifiers-type-paragraph modifiers-bundle-content modifiers-display-default paragraph paragraph--type--content paragraph--view-mode--default">
+    <div class="paragraph-content">
+      <div class="row">
+        <div class="col-sm-12">
+                      
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="globe-icon" href="/about-us/information-your-language" data-entity-type="node" data-entity-uuid="e9b20ce3-db15-42d6-9961-59e821b13a8c" data-entity-substitution="canonical" title="Information in your language"><u>中文 Tiếng Việt العربية</u></a></p></div>
+      
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+  
+  </div>
+<div id="block-ipc-theme-headersocialicons" class="block-bundle-components block block-block-content block-block-contentc7f60416-cd3b-457c-9caf-0baacd312340">
+  
+    
+      <div class="block-headersocialicons__content">
+      
+      <div class="field field--name-field-components field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="modifiers modifiers-id-paragraph-166 modifiers-type-paragraph modifiers-bundle-content modifiers-display-default paragraph paragraph--type--content paragraph--view-mode--default">
+    <div class="paragraph-content">
+      <div class="row">
+        <div class="col-sm-12">
+                      
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+  
+    </div>
+  </div>
+
+  </div>
+
+    </div>
+  </div>
+
+
+
+
+  
+
+
+  <header class="bs-header bs-menu-bar bs-header--contained bs-header--non-sticky" role="banner" data-header-style="">
+    <div class="header-sticky-wrap ">
+
+      
+              <div class="container">
+          <div class="navbar navbar-expand-lg navbar-light">
+            <div class="row">
+                              <div class="logo col-lg-6">
+                                      <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbar-collapse"
+                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="region region-logo">
+    <div id="block-ipc-theme-sitebranding" class="block block-system block-system-branding-block">
+  
+    
+    <a href="/" title="Home" rel="home" class="navbar-brand d-flex align-items-center">
+          <img src="/themes/custom/ipc_theme/logo.svg" alt="IPC logo" class="mr-2"/>
+      </a>
+  </div>
+
+  </div>
+
+                </div>
+               
+
+                              <div class="search search--large col-lg-6">
+                    <div class="region region-search">
+    <div id="block-searchformsitewide" class="block-bundle-search block block-block-content block-block-content19aa26f9-fb8d-4df9-944c-27526011922f">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><form accept-charset="UTF-8" action="/search" class="searchform" method="get">
+<input aria-label="What are you looking for?" autocomplete="off" class="searchform__query" maxlength="128" name="keys" placeholder="What are you looking for?" size="30" type="text"><button class="btn btn-primary searchform__button" type="submit" value="Search">Search</button></form></div>
+      
+  </div>
+
+  </div>
+
+
+                  <button class="searchform-toggler" type="button" aria-label="Toggle search form">
+                    <svg width="22" height="22" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <circle fill="none" stroke="#000" stroke-width="1.5" cx="9" cy="9" r="7"></circle>
+                      <path fill="none" stroke="#000" stroke-width="1.5" d="M14,14 L20,20 L14,14 Z"></path>
+                    </svg>
+                  </button>
+                </div>
+                          </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                                <div class="region region-navigation">
+    
+
+<nav role="navigation" aria-labelledby="block-ipc-theme-mainnavigation-menu" id="block-ipc-theme-mainnavigation" class="block block-menu navigation menu--main megamenu megamenu--simple megamenu--columns-3">
+          
+  <span class="visually-hidden" id="block-ipc-theme-mainnavigation-menu">Main navigation</span>
+  
+
+      
+            <ul region="navigation" class="menu menu__main">
+    
+          
+            
+      <li class="menu-item menu-item--expanded nav-item">
+        <a href="/individuals" title="For Individuals" aria-expanded="false" data-drupal-link-system-path="node/21">For Individuals</a>
+                              <div class="sub-nav">
+                              <div class="sub-nav__header-description">
+                  <div class='sub-nav__title'>
+                    <a href="/individuals" title="For Individuals" data-drupal-link-system-path="node/21">For Individuals</a>
+                  </div>
+                  <p class="sub-nav__description">For Individuals</p>
+                </div>
+                                          <ul class="sub-nav__menu sub-nav__menu-1">
+    
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/nsw-information-access-laws" aria-expanded="false" data-drupal-link-system-path="node/64">NSW Information Access Laws</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/nsw-privacy-laws" aria-expanded="false" data-drupal-link-system-path="node/82">NSW Privacy Laws</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/about-us/information-your-language" aria-expanded="false" data-drupal-link-system-path="node/2509">Information in your language</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/citizens/access-nsw-govt-info" aria-expanded="false" data-drupal-link-system-path="node/38">Accessing NSW government information</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/citizens/request-personal-information" aria-expanded="false" data-drupal-link-system-path="node/94">Making a request for personal information</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/data-breach-support" aria-expanded="false" data-drupal-link-system-path="node/2508">Data breach support</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/citizens/lodge-review" aria-expanded="false" data-drupal-link-system-path="node/73">Applying for an information access review</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/citizens/make-complaint" aria-expanded="false" data-drupal-link-system-path="node/95">Making a privacy complaint</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/about-us/easy-english-guides" aria-expanded="false" data-drupal-link-system-path="node/2565">Easy English guides</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/citizens/lodge-complaint" aria-expanded="false" data-drupal-link-system-path="node/75">Lodging an information access complaint</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/citizens/privacy-reviews" aria-expanded="false" data-drupal-link-system-path="node/92">Privacy reviews in NCAT</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/mandatory-notification-data-breach-scheme-citizens" aria-expanded="false" data-drupal-link-system-path="node/2440">Data breach information and the MNDB Scheme</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/citizens/access-nsw-govt-info-forms" aria-expanded="false" data-drupal-link-system-path="node/224">Information access forms</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/citizens/make-complaint-forms" aria-expanded="false" data-drupal-link-system-path="node/225">Privacy forms</a>
+        
+      </li>
+      </ul>
+  
+            </div>
+                  
+      </li>
+          
+            
+      <li class="menu-item menu-item--expanded nav-item">
+        <a href="/government" title="For Government" aria-expanded="false" data-drupal-link-system-path="node/19">For Government</a>
+                              <div class="sub-nav">
+                              <div class="sub-nav__header-description">
+                  <div class='sub-nav__title'>
+                    <a href="/government" title="For Government" data-drupal-link-system-path="node/19">For Government</a>
+                  </div>
+                  <p class="sub-nav__description">For Government</p>
+                </div>
+                                          <ul class="sub-nav__menu sub-nav__menu-1">
+    
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/nsw-information-access-laws" aria-expanded="false" data-drupal-link-system-path="node/64">NSW Information Access Laws</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/nsw-privacy-laws" aria-expanded="false" data-drupal-link-system-path="node/82">NSW Privacy Laws</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/agencies/role-privacy-contact-officers" aria-expanded="false" data-drupal-link-system-path="node/104">The role of Privacy Contact Officers</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/agencies/ipc-gipa-tool" aria-expanded="false" data-drupal-link-system-path="node/281">IPC GIPA Tool</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/MNDB-scheme" aria-expanded="false" data-drupal-link-system-path="node/2368">Mandatory Notification of Data Breach Scheme</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/agencies/agency-privacy-management-plans" aria-expanded="false" data-drupal-link-system-path="node/105">Privacy Management Plans</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/agencies/informal-release-information" aria-expanded="false" data-drupal-link-system-path="node/2443">Informal release of information</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/privacy-governance-framework" aria-expanded="false" data-drupal-link-system-path="node/2451">Privacy Governance Framework</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/about-us/ipc-e-learning" aria-expanded="false" data-drupal-link-system-path="node/61">e-Learning</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/agencies/searches-information-under-gipa-act" aria-expanded="false" data-drupal-link-system-path="node/399">Searches for information under the GIPA Act</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/agencies/implementing-technology-privacy-toolkit" aria-expanded="false" data-drupal-link-system-path="node/2490">Implementing Technology - Privacy Toolkit</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/agencies/essential-guidance-toolkit-information-access-and-privacy-fundamentals" aria-expanded="false" data-drupal-link-system-path="node/1697">Essential Guidance Toolkit</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/agencies/gipa-compliance-reports" aria-expanded="false" data-drupal-link-system-path="node/70">GIPA Compliance Reports</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/agencies/ppip-hrip-compliance-reports" aria-expanded="false" data-drupal-link-system-path="node/1636">PPIP &amp; HRIP Compliance Reports</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-governance-agency-self-assessment-tools-privacy" aria-expanded="false" data-drupal-link-system-path="node/1520">Information Governance Self-assessment Tools</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/information-access/open-government-open-data" aria-expanded="false" data-drupal-link-system-path="node/357">Open Government, Open Data</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/agencies/how-handle-internal-review" aria-expanded="false" data-drupal-link-system-path="node/107">How to handle an Internal Review</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/about-us/public-interest-disclosures" aria-expanded="false" data-drupal-link-system-path="node/115">Public Interest Disclosures</a>
+        
+      </li>
+      </ul>
+  
+            </div>
+                  
+      </li>
+          
+            
+      <li class="menu-item menu-item--expanded nav-item">
+        <a href="/healthcare-providers" title="For Healthcare providers" aria-expanded="false" data-drupal-link-system-path="node/2610">For Healthcare providers</a>
+                              <div class="sub-nav">
+                              <div class="sub-nav__header-description">
+                  <div class='sub-nav__title'>
+                    <a href="/healthcare-providers" title="For Healthcare providers" data-drupal-link-system-path="node/2610">For Healthcare providers</a>
+                  </div>
+                  <p class="sub-nav__description">For Healthcare providers</p>
+                </div>
+                                          <ul class="sub-nav__menu sub-nav__menu-1">
+    
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/resources/fact-sheet-guide-privacy-laws-nsw" aria-expanded="false" data-drupal-link-system-path="node/2806">A guide to privacy laws in NSW</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/resources/fact-sheet-information-protection-principles-ipps" aria-expanded="false" data-drupal-link-system-path="node/2827">Information Protection Principles (IPPs)</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/resources/fact-sheet-health-privacy-principles-hpps" aria-expanded="false" data-drupal-link-system-path="node/2828">Health Privacy Principles (HPPs)</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/resources/fact-sheet-guide-retention-and-storage-health-information-nsw-private-health-service-providers" aria-expanded="false" data-drupal-link-system-path="node/2873">Retention and storage of health information in NSW</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/resources/guideline-statutory-guidelines-management-health-services" aria-expanded="false" data-drupal-link-system-path="node/2846">Statutory guidelines on the management of health services</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/privacy/private-nsw-health-service-providers/data-protection-principles" aria-expanded="false" data-drupal-link-system-path="node/109">Data protection principles</a>
+        
+      </li>
+      </ul>
+  
+            </div>
+                  
+      </li>
+          
+            
+      <li class="menu-item">
+        <a href="/resources" aria-expanded="false" data-drupal-link-system-path="resources">Resources</a>
+        
+      </li>
+          
+            
+      <li class="menu-item menu-item--expanded nav-item">
+        <a href="/news-events" aria-expanded="false" data-drupal-link-system-path="node/2">News &amp; Events</a>
+                              <div class="sub-nav">
+                              <div class='sub-nav__title'>
+                  <a href="/news-events" data-drupal-link-system-path="node/2">News &amp; Events</a>
+                </div>
+                                          <ul class="sub-nav__menu sub-nav__menu-1">
+    
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/news-events/recent-news" aria-expanded="false" data-drupal-link-system-path="node/1541">Recent News</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/news-events/media-releases" aria-expanded="false" data-drupal-link-system-path="node/4">Media releases</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/news-events/statements" aria-expanded="false" data-drupal-link-system-path="node/1598">Statements</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/news-events/ipc-key-events" aria-expanded="false" data-drupal-link-system-path="node/436">IPC Campaigns &amp; Events</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/news-events/ipc-bulletin" aria-expanded="false" data-drupal-link-system-path="node/302">IPC Bulletin</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/news-events/news-archive" aria-expanded="false" data-drupal-link-system-path="node/136">News Archive</a>
+        
+      </li>
+      </ul>
+  
+            </div>
+                  
+      </li>
+          
+            
+      <li class="menu-item menu-item--expanded nav-item">
+        <a href="/about-us" aria-expanded="false" data-drupal-link-system-path="node/41">About us</a>
+                              <div class="sub-nav">
+                              <div class='sub-nav__title'>
+                  <a href="/about-us" data-drupal-link-system-path="node/41">About us</a>
+                </div>
+                                          <ul class="sub-nav__menu sub-nav__menu-1">
+    
+          
+            
+      <li class="menu-item menu-item--collapsed sub-nav__group">
+        <a href="/about-us/our-commissioners" aria-expanded="false" data-drupal-link-system-path="node/40">Our Commissioners</a>
+        
+      </li>
+          
+            
+      <li class="menu-item menu-item--collapsed sub-nav__group">
+        <a href="/about-us/our-corporate-information" aria-expanded="false" data-drupal-link-system-path="node/45">Our Corporate Information</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/about-us/reports" aria-expanded="false" data-drupal-link-system-path="about-us/reports">Corporate Reports and Polices</a>
+        
+      </li>
+          
+            
+      <li class="menu-item menu-item--collapsed sub-nav__group">
+        <a href="/about-us/who-we-work" aria-expanded="false" data-drupal-link-system-path="node/53">Who we work with</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/about-us/making-complaint-about-ipc" aria-expanded="false" data-drupal-link-system-path="node/56">Making a complaint about the IPC</a>
+        
+      </li>
+          
+            
+      <li class="menu-item menu-item--collapsed sub-nav__group">
+        <a href="/about-us/accessing-ipc-information" aria-expanded="false" data-drupal-link-system-path="node/50">Accessing IPC Information</a>
+        
+      </li>
+          
+            
+      <li class="menu-item menu-item--collapsed sub-nav__group">
+        <a href="/about-us/public-interest-disclosures" aria-expanded="false" data-drupal-link-system-path="node/115">Public interest disclosures</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/about-us/ipc-e-learning" aria-expanded="false" data-drupal-link-system-path="node/61">e-Learning</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/about-us/careers-ipc" aria-expanded="false" data-drupal-link-system-path="node/49">Careers at the IPC</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/about-us/have-your-say" aria-expanded="false" data-drupal-link-system-path="node/1546">Have your say</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/about-us/easy-english-guides" aria-expanded="false" data-drupal-link-system-path="node/2565">Easy English guides</a>
+        
+      </li>
+          
+            
+      <li class="menu-item menu-item--collapsed sub-nav__group">
+        <a href="/about-us/information-your-language" aria-expanded="false" data-drupal-link-system-path="node/2509">Information in your language</a>
+        
+      </li>
+          
+            
+      <li class="menu-item menu-item--collapsed sub-nav__group">
+        <a href="/about-us/data-breach-support-your-language" aria-expanded="false" data-drupal-link-system-path="node/2541">Data Breach Support in your language</a>
+        
+      </li>
+          
+            
+      <li class="menu-item sub-nav__group">
+        <a href="/contact-us" aria-expanded="false" data-drupal-link-system-path="node/52">Contact Us</a>
+        
+      </li>
+      </ul>
+  
+            </div>
+                  
+      </li>
+      </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+              
+                                            <div class="search search--small">
+                    <div class="region region-search">
+    <div id="block-searchformsitewide" class="block-bundle-search block block-block-content block-block-content19aa26f9-fb8d-4df9-944c-27526011922f">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><form accept-charset="UTF-8" action="/search" class="searchform" method="get">
+<input aria-label="What are you looking for?" autocomplete="off" class="searchform__query" maxlength="128" name="keys" placeholder="What are you looking for?" size="30" type="text"><button class="btn btn-primary searchform__button" type="submit" value="Search">Search</button></form></div>
+      
+  </div>
+
+  </div>
+
+                </div>
+                          </div>
+          </div>
+        </div>
+      
+    </div>
+    
+  </header>
+
+    <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+
+    
+        
+              <div class="main-content">
+        <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-ipc-theme-mainpagecontent" class="block block-system block-system-main-block">
+  
+    
+      
+<article class="node node--type-resource node--view-mode-full clearfix">
+  
+  
+            
+<div class="page-layout--30-70 page-layout has-sidebar">
+    <section class="page-layout__content-header-section">
+    <div class="container">
+      <div class="row">
+        <div  class="layout__region layout__region--header page-layout__content-header">
+        <div class="block block-system block-system-breadcrumb-block">
+  
+    
+        <nav aria-label="Breadcrumb">
+    <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+                  <a href="/">Home</a>
+              </li>
+          <li class="breadcrumb-item">
+                  <a href="/resources">Resources</a>
+              </li>
+          <li class="breadcrumb-item">
+                  Guide - Guide to undertaking Privacy Impact Assessments on AI systems and projects
+              </li>
+        </ol>
+  </nav>
+
+  </div>
+<div class="block-entity-fieldnodetitle block block-layout-builder block-field-blocknoderesourcetitle">
+  
+    
+      
+    <h1>Guide - Guide to undertaking Privacy Impact Assessments on AI systems and projects</h1>
+
+
+  </div>
+
+      </div>
+    </div>
+   </div>
+  </section>
+      <section class="page-layout__content-section">
+        <div class="row">
+          <div  class="layout__region layout__region--content-top page-layout__content-top">
+            
+          </div>
+        </div>
+              <div class="row page-layout__content-row has-sidebar">
+                      <div class="page-layout__content block-region-content ">
+              <div class="block-entity-fieldnodebody block block-layout-builder block-field-blocknoderesourcebody">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><strong>Read the document below or download it here:</strong> <a href="/media/4062">Guide - Guide to undertaking Privacy Impact Assessments on AI systems and projects December 2024</a></p>
+<div class="WordSection1">&nbsp;</div>
+<div class="WordSection2">
+<table>
+<tbody>
+<tr>
+<th><span lang="EN-US">Who is this information for?</span></th>
+<td><span lang="EN-US">NSW public sector staff working with AI</span></td>
+</tr>
+<tr>
+<th><span lang="EN-US">Why is this information important to them?</span></th>
+<td><span lang="EN-US">This guide is intended to support agencies in understanding, assessing and reducing privacy risks in relation to the use of AI systems and projects when undertaking Privacy Impact Assessments (PIAs)</span></td>
+</tr>
+</tbody>
+</table>
+<h4><span><strong>Introduction</strong></span></h4>
+<p><span>Artificial Intelligence (<strong>AI</strong>) solutions offer a range of opportunities for agencies, including productivity, safety and accessibility benefits. To responsibly harness the benefits of AI however, privacy risks must be considered and appropriately managed.</span></p>
+<p><span>This guide is intended to support agencies in understanding, assessing and reducing privacy risks in relation to the use of AI systems and projects when undertaking Privacy Impact Assessments (<strong>PIAs</strong>). This guide will also support agencies in undertaking privacy related assessments under the&nbsp;</span><a href="https://www.digital.nsw.gov.au/policy/artificial-intelligence/nsw-artificial-intelligence-assessment-framework"><span lang="EN-AU">NSW AI Assessment Framework</span></a><span> (<strong>AIAF</strong>) and the&nbsp;</span><a href="https://www.finance.gov.au/sites/default/files/2024-06/National-framework-for-the-assurance-of-AI-in-government.pdf"><span lang="EN-AU">National framework for the assurance of artificial intelligence in government</span></a><span>.</span></p>
+<p><span>This guide builds on and is complementary to the&nbsp;</span><a href="/node/2860"><span lang="EN-AU">Guide to Privacy Impact Assessments in NSW</span></a><span>, to provide more specific guidance on AI-related privacy risks.&nbsp;</span></p>
+<div>
+<h5><strong>When to use this guideline</strong></h5>
+</div>
+<ul>
+<li>
+<p class="Bullets">When determining if a PIA is necessary</p>
+</li>
+<li>
+<p class="Bullets">When determining the likely scope and scale of a PIA&nbsp;</p>
+</li>
+<li>
+<p class="Bullets">When undertaking an AI-related PIA</p>
+</li>
+<li>
+<p class="Bullets">When periodically reviewing AI-related privacy risks</p>
+</li>
+<li>
+<p class="Bullets">When using the AIAF in the course of designing, developing, deploying, procuring, or using systems containing AI components.</p>
+</li>
+</ul>
+<div>
+<h5><strong>What is AI?</strong></h5>
+</div>
+<p><span>The AIAF defines AI as the ability of a computer system to perform tasks that would normally require human intelligence, such as learning, reasoning, and making decisions. AI encompasses various specialised domains that focus on different tasks and includes automation.</span></p>
+<p><span>Generative AI, Machine Learning (<strong>ML</strong>), Natural Language Processing (<strong>NLP</strong>) and Computer Vision (<strong>CV</strong>) are all kinds of AI, and each can have unique privacy impacts. More information on the kinds of AI and commonly used terms can be found on the Digital NSW website:&nbsp;</span><a href="https://www.digital.nsw.gov.au/policy/artificial-intelligence/a-common-understanding-simplified-ai-definitions-from-leading"><span lang="EN-AU">A common understanding: simplified AI definitions from leading standards</span></a><span>.</span></p>
+<p><span>Examples of ways government agencies might seek to use AI include:</span></p>
+<ul>
+<li>
+<p class="Bullets">an AI-powered chatbot on an agency website that visitors can interact with</p>
+</li>
+<li>
+<p class="Bullets">a&nbsp;traffic management system that collects or uses vehicle registration data from CCTV footage and/or toll collection systems to automatically issue fines</p>
+</li>
+<li>
+<p class="Bullets">a piece of software which uses large amounts of data held by the agency to predict or determine who is eligible for a subsidy and/or to calculate the subsidy they are entitled to</p>
+</li>
+<li>
+<p class="Bullets">a piece of software that uses agency records to predict which individuals or businesses are more likely to be non-compliant with certain obligations</p>
+</li>
+<li>
+<p class="Bullets">a technology that analyses crowd sentiment in a stadium by using CCTV footage combined with social media data and environmental system data to alert the stadium management to changes in customer sentiment during crowded events.</p>
+</li>
+</ul>
+<p><span>There are also different methods of deploying AI systems and solutions within an agency, such as by:</span></p>
+<ul>
+<li>
+<p class="Bullets">procuring or subscribing to third party AI systems that could be hosted internally or externally and could be off the shelf or modified for the agency’s needs</p>
+</li>
+<li>
+<p class="Bullets">internally developing a custom system.</p>
+</li>
+</ul>
+<p><span>Whichever way your agency implements AI, privacy risks must be considered.</span></p>
+<div>
+<h5><strong>The role of the IPC</strong></h5>
+</div>
+<p><span>The IPC provides advice and assistance to agencies about compliance with privacy and access to government information laws. As an independent oversight agency, the IPC and the Privacy Commissioner must maintain independence from government policy decisions and projects.&nbsp;</span></p>
+<p><span>While it can give general advice, the IPC cannot:</span></p>
+<ul>
+<li>
+<p class="Bullets">endorse an initiative or project as privacy compliant</p>
+</li>
+<li>
+<p class="Bullets">conduct or write a privacy impact assessment for an agency or entity</p>
+</li>
+<li>
+<p class="Bullets">comment on the policy objectives of the program or project.</p>
+</li>
+</ul>
+<p><span>For more information, see&nbsp;</span><a href="/node/2837"><span lang="EN-AU">Fact Sheet - The Role of the Privacy Commissioner: Consulting the IPC on Initiatives and Projects</span></a><span>.</span></p>
+<h4><span><strong>PIA considerations when assessing AI systems and projects</strong></span></h4>
+<div>
+<h5><strong>The PIA process when assessing AI systems and projects</strong></h5>
+</div>
+<p><span>When considering a PIA, you will need to refer to NSW privacy legislation, which includes:</span></p>
+<ul>
+<li>
+<p class="Bullets">the&nbsp;Privacy and Personal Information Protection Act 1998&nbsp;(<strong>PPIP Act</strong>)</p>
+</li>
+<li>
+<p class="Bullets">the&nbsp;Health Records and Information Privacy Act 2002&nbsp;(<strong>HRIP Act</strong>).</p>
+</li>
+</ul>
+<table>
+<tbody>
+<tr>
+<td><span><strong>What is a PIA?</strong></span></td>
+<td>
+<p><span>A PIA is a structured methodology that can help you to identify and minimise privacy risks, and realise privacy improvements, when you are starting a new project or making changes to existing initiatives. A PIA is one way to implement ‘privacy by design’ in your organisation’s practices. It can help you to understand the collection and flows of personal information while building and demonstrating compliance with privacy laws.</span></p>
+<p><span>Refer to the&nbsp;</span><a href="/node/2860"><span lang="EN-AU">Guide to Privacy Impact Assessments in NSW</span></a><span> for more information about PIAs.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span>The first question to ask when assessing whether a PIA is needed is, “Will any personal or health information be collected, stored, used or disclosed in the project?” This question is equally important when assessing whether a PIA is needed on an AI system. In fact, the use of an AI system could mean there is an elevated risk associated with the collection, storage, use or disclosure of personal or health information.</span></p>
+<p><span>If an AI system or project involves handling personal information, a PIA will typically be required. However, whether a PIA is needed is ultimately a risk-based decision that should be made on a case-by-case basis. The cost or size of a project or system is not a reliable indicator of whether a PIA should be conducted, as even low-cost or small-scale projects may have privacy impacts. Agencies should not consider a PIA to be a compliance checklist, but rather an opportunity to consider and assess the way a system or project could affect the privacy of individuals.</span></p>
+<p><span>The PPIP Act and the HRIP Act describe the principles that govern how agencies must handle personal information and health information – the PPIP Act sets out 12 Information Protection Principles (<strong>IPPs</strong>) and the HRIP Act sets out 15 Health Privacy Principles (<strong>HPPs</strong>). The IPPs and the HPPs are drafted in a technology neutral way, which means that they can be applied to physical and electronic records as well as existing and emerging technologies.</span></p>
+<p><span lang="EN-US">The PIA process helps to identify and manage the privacy risks that may arise from using AI systems and projects that involve personal and health information. The IPC considers that the PIA process is suitable for this purpose, since the PPIP Act and HRIP Act already set out the rules for how to handle such information.</span></p>
+<p><span>Below, we have provided additional considerations which could be relevant to your PIA when assessing AI systems and projects.</span></p>
+<p><span lang="EN-US">A PIA is a dynamic tool that should be regularly reviewed and updated throughout the development and implementation of an AI system or project. This is because the privacy risks may change as the AI system or project changes its inputs, outputs and impacts. Frequent reviews and updates to PIAs on AI systems and projects will help to keep track of, and address, these changes. It is advisable to conduct fresh PIAs (or PIA updates) at decision points such as before a purchase, before a system is launched, when a system is being reconfigured, when a new use case is being considered, or when a vendor contract is due for renewal.&nbsp;</span><span>Agencies should ensure each use case being contemplated is assessed on its own merits against the IPPs and HPPs. </span><span lang="EN-US"></span></p>
+<p><span lang="EN-US">The PIA is also an opportunity to engage with key stakeholders that may include the system or project’s users, the wider public, and people across both government and non-government sectors and those who have expertise in privacy and human rights.</span></p>
+<p><span lang="EN-US"></span></p>
+<h4><span><strong>Considerations when assessing AI systems and projects</strong></span></h4>
+<table>
+<tbody>
+<tr>
+<td><span><strong>What is personal information?</strong></span></td>
+<td><span>‘Personal information’ is information or an opinion (which can be part of a database) about an individual whose identity is apparent or can be reasonably ascertained from the information or opinion. Personal information can include fingerprints, retina prints, body samples or genetic characteristics.</span></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><span><strong>What is health information?</strong></span></td>
+<td><span>‘Health information’ is a specific type of ‘personal information’ which may include information about physical or mental health or disability. It includes:personal information an individual provides to any health organisation, personal information about a health service requested by or provided to an individual, some personal information for organ donation, and some genetic information.&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><span><strong>Is AI-related data really personal information?</strong></span></td>
+<td>
+<p><span>AI systems and projects could involve data that, at first glance, may not appear to be personal information, such as randomly assigned identifiers that distinguish individuals from each other but do not include attributes such as a name, address or driver licence number. Agencies should be aware that data of this kind could still be considered personal information if a person’s identity can be reasonably ascertained by referring to other data sources – even if the agency doesn’t have any specific intention to do such an identification.</span></p>
+<p><span>Because personal information can include an opinion about an individual, AI-generated inferences about individuals are also considered personal information, even if they are incorrect.</span></p>
+<p><span>See: &nbsp;</span><a href="/node/2835"><span lang="EN-AU">Fact Sheet - Reasonably Ascertainable Identity&nbsp;</span></a><span>and&nbsp;</span><a href="/node/2833"><span lang="EN-AU">Fact Sheet - De-identification of personal information</span></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><span><strong>What makes AI different from other privacy impacting technologies?</strong></span></td>
+<td>
+<p><span>The IPPs and the HPPs are applicable to the activities of agencies involving personal information, whether the activity involves AI or not. AI is a broad label and there can be differing views on what constitutes AI. So the question might arise: “Why does AI require special treatment when it comes to privacy?”</span></p>
+<p><span>For the purposes of privacy, what is important is that substantive privacy impacts on the community are assessed irrespective of the label applied to the technology. However, in practice AI can enable the processing and production of vast quantities of data on a scale which is uncommon among other technology solutions. AI can also be readily used to make or guide decision-making processes which have a profound impact on individuals. For these reasons, the impact and likelihood of traditional privacy risks can be greatly amplified by the use of AI technology. AI also intersects with other emerging technologies to create novel risks and challenges.&nbsp;</span></p>
+<p><span>These AI privacy risks are part of a range of ethical concerns arising from the technology. Ethical concerns include bias. fairness, transparency and accountability. They will often require careful consideration and for agencies to go beyond merely complying with privacy laws.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h4><strong>Additional considerations when assessing AI systems and projects</strong></h4>
+<p><span>In addition to the steps set out in the&nbsp;</span><a href="/node/2860"><span lang="EN-AU">Guide to Privacy Impact Assessments in NSW</span></a><span>, consider the following IPPs or HPPs, questions to ask and some relevant considerations and illustrative examples.&nbsp;</span><br><br><em><span>Note there are exceptions throughout the IPP/HPP requirements which are not fully considered here, and the legislation should be consulted further. (In addition to the IPPs/HPPs, see&nbsp;</span></em><a href="/resources?f%5B0%5D=resource_type%3A27&amp;f%5B1%5D=topics%3A29"><em><span lang="EN-AU">Statutory Guidelines on exemptions</span></em></a><em><span>)</span></em></p>
+<table>
+<thead>
+<tr>
+<th><span>IPP/HPP reference</span></th>
+<th><span>Questions to ask</span></th>
+<th><span>Considerations and impacts</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span><strong>IPP/HPP 1 - Lawful</strong></span></td>
+<td>
+<ul>
+<li><span>Is the personal information that is being collected for the AI system or project directly related to the agency’s function or activities and necessary for that purpose?</span></li>
+<li><span>Does the AI system or project collect personal information beyond what is reasonably necessary for the agency’s function or activities?</span>
+<ul>
+<li><span>Be sure to review each input.</span></li>
+<li><span>Consider also that the outputs of the AI system or project could be considered a “collection through creation” of personal information. Consider whether those outputs are all reasonably necessary for the agency’s functions or activities.</span></li>
+</ul>
+</li>
+<li><span>Does the AI system or project clearly comply with the relevant legislation?&nbsp;</span></li>
+</ul>
+</td>
+<td>
+<p><span>AI technology enables both large-scale and novel kinds of data collection. Agencies should ensure the collection of personal information is reasonably necessary and directly related to the agency’s functions or activities.</span></p>
+<p><span>AI systems can also create personal information through new insights about individuals. The creation of these new insights can be viewed as a collection of personal information.&nbsp;</span></p>
+<p><span>An example is a mobile fitness device and app that regularly ‘creates’ personal information about individuals through the monitoring of heart rate, pulse, walking or sleeping patterns. Over a period of time, new insights are created about an individual’s likely health outcomes, including the detection and prediction of disease.</span></p>
+<p><span>Accordingly, agencies should ensure any new personal information created is also reasonably necessary and directly related to the function or activity of the agency.</span></p>
+<p><span>If an AI solution can collect personal information that is beyond the scope of the agency’s activities, that capability should not be deployed. Configurations need to be carefully considered. Features that are merely interesting or fun should not be used if they involve collecting personal information that is not directly related to the agency’s activities.</span></p>
+<p><span>AI systems which are not clearly explainable, or which do not transparently and comprehensively document the basis and evidence for their output, should not be relied upon for automated decision-making processes that affect individuals. Agencies that are seeking to use AI systems to make decisions that will impact individuals should carefully consider the legal basis underpinning the activity before proceeding and should ensure that there are appropriate opportunities for human review throughout the decision-making process.</span></p>
+</td>
+</tr>
+<tr>
+<td><span><strong>IPP 2/HPP 3 – Direct</strong></span></td>
+<td>
+<ul>
+<li><span>Does the AI system or project collect personal information directly from the individual or seek their authorisation to collect it from other sources?</span></li>
+<li><span>Consider personal information created through the use of AI systems and projects.</span></li>
+</ul>
+</td>
+<td>
+<p><span>AI technology can involve collecting data from multiple sources – whether public or held by other organisations. Agencies should not collect personal information about individuals from other sources without consent from the individual.&nbsp;</span></p>
+<p><span>Agencies must consider whether the AI system creates personal information, and whether this “collection through creation” is without the user’s involvement or with the consent of the individual. Some common ways that AI can indirectly collect personal information is collection of facial images or biometric data from cameras or sensors, or inferences about a person’s emotional state derived from their movements, their voice or other physical characteristics.</span></p>
+<p><span>Collecting data from other sources including from public sources like social media posts, or semi-public sources like the ASIC company register which charges a fee, is also an indirect collection of personal information which can be unexpected, unfair or intrusive, and could also result in the collection of unsolicited information.</span></p>
+<p><span>When agencies enter into agreements to collect data from third party organisations, agencies should satisfy themselves that the data was collected from individuals lawfully and that the sharing to the agency is aligned with the original purpose of collection or individuals have consented.</span></p>
+<p><span>In addition, commonly used software applications are integrating AI features to collect user data ‘behind the scenes’ in a way which is often not obvious to users. Agencies should satisfy themselves when deploying software applications as to whether this is a feature of the software.</span></p>
+</td>
+</tr>
+<tr>
+<td><span><strong>IPP 3/HPP 4 - Open</strong></span></td>
+<td>
+<ul>
+<li><span>Are individuals notified that their personal information is being collected, the purposes for the collection and the intended recipients of their personal information?</span></li>
+<li><span>Consider third party providers managing the AI system.</span></li>
+<li><span>Consider whether the individual is notified of any personal information created through the use of the AI system.</span></li>
+<li><span>Consider whether personal information is being used to train the AI system, and whether that training is restricted to use on the agency’s system or also benefiting the third party provider, and whether that purpose should be notified to the individual at the time of collection.</span></li>
+<li><span>Is it clear whether the collection is required by law or is voluntary, and any consequences if the individual chooses not to provide the information?</span></li>
+</ul>
+</td>
+<td>
+<p><span>AI technology may involve data collection that is covert or not obvious such as recording behaviour of users on a website or capturing data from a person’s voice or movements to ascertain their emotional state. Agencies should ensure individuals are informed in the manner that is most effective in the context of the collection.</span></p>
+<p><span>Third party providers managing AI systems could be recipients of an individual’s personal information and should be mentioned in privacy notices in such circumstances.</span></p>
+<p><span>If an agency is using an AI system that will use personal information solely for enhancing the agency’s service, a privacy statement or notice should include this. If the personal information is used beyond this, for example to allow the AI vendor to enhance their product, seek consent from affected individuals.&nbsp;</span></p>
+<p><span>Generally, using personal information to train AI systems outside of an agency use case is high risk and should be avoided wherever possible.</span></p>
+<p><span>Agencies need to consider how to effectively communicate to individuals about novel forms of personal information collection. For example, where an AI-powered chatbot is engaging in a human-like conversation to elicit information, it is preferable to have the required notification communicated by the chatbot at the time the conversation is occurring, not posted on a web page which the user may not see.</span></p>
+</td>
+</tr>
+<tr>
+<td><span><strong>IPP 4/HPP 2 - Relevant</strong></span></td>
+<td>
+<ul>
+<li><span>Is all the personal information collected for the AI system relevant to the purpose of collection?</span>
+<ul>
+<li><span>Review each data point/input for relevance.</span></li>
+</ul>
+</li>
+<li><span>How are you ensuring the personal information being collected is accurate, complete, up-to-date and not excessive?</span>
+<ul>
+<li><span>Consider the source of the personal information being collected. Can it be relied on?</span></li>
+<li><span>Are there measures in place to ensure all required personal information is provided? What are the impacts if the individual provides only some of the required personal information?</span></li>
+<li><span>Will the individual be prompted to provide all the required information?</span></li>
+<li><span>Will the individual be prompted to provide the personal information in an appropriate format?</span></li>
+<li><span>Is old information that may be out of date being used or relied upon?</span></li>
+</ul>
+</li>
+</ul>
+</td>
+<td>
+<p><span>Using poor quality information such as agency records which are out-of-date could result in unfair or wrong decisions. This is particularly concerning where it could limit an individual’s access to a service, opportunity or benefit, or result in a penalty.</span></p>
+<p><span>Some AI tools, such as chatbots, may need to prompt an individual to provide personal information. It is important that this prompting occurs in a way that elicits relevant, accurate, complete and up to date information.</span></p>
+<p><span>When using AI technology, it can be easy to collect more information than is required and automated collection may not be subject to the same quality assurance that applies to personal information collected through other means.</span></p>
+<p><span>Agencies should guard against collecting excessive amount of data just because it is there or easy to do with the use of technology. If an AI tool needs to be fed data held by the agency, it should be limited to what is strictly required for a specific outcome.&nbsp;</span></p>
+<p><span>Agencies should consider whether the use of free text fields is necessary, as there can be a heightened risk of collecting unsolicited personal information. There is less risk in using structured data fields.</span></p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td><span><strong>IPP/HPP 5 - Secure</strong></span></td>
+<td>
+<ul>
+<li><span>Is personal information being stored securely within the AI system?</span></li>
+<li><span>Who has access to the personal information handled within the AI system?</span></li>
+<li><span>Is there a risk that an individual may see personal information of another individual when using the AI system?</span></li>
+<li><span>Have retention periods and appropriate data disposal methods been defined and implemented?</span></li>
+<li><span>If a third party is handling personal information, what due diligence has been undertaken to ensure the personal information is protected from unauthorised use or disclosure?</span></li>
+</ul>
+</td>
+<td>
+<p><span>Data in an AI tool will need to be securely managed as it would in any other platform or system, on-premise or cloud-hosted.</span> <span>Data retention policies will need to incorporate mandatory minimum retention periods as required by the State Records Act or any other legislative requirements.</span></p>
+<p><span>Contracts should be in place with third-party providers containing binding clauses on data security and compliance with the PPIP Act and the HRIP Act. Contracts should consider and account for obligations under the Mandatory Notification of Data Breach Scheme.</span></p>
+<p><span>Use caution in using AI tools provided by third parties on the basis of standard terms. These terms are unlikely to require third parties to handle personal information in accordance with the PPIP Act and HRIP Act.</span></p>
+</td>
+</tr>
+<tr>
+<td><span><strong>IPP/HPP 6 – Transparent</strong></span></td>
+<td>
+<ul>
+<li><span>How is the agency explaining to the person what personal information about them is being stored, why it is being used and any rights they have to access it?</span></li>
+<li><span>Can you describe what, how and why an individual’s personal information is being used in relation to the AI system?</span></li>
+</ul>
+</td>
+<td>
+<p><span>Agencies should ensure clear information is made obviously and prominently available in a way that is appropriate to the situation, whether it is a website, in a live chat, on a sign in a public place or in a personal email addressed to the individual. Privacy Management Plans should be updated to include information about the use of AI.&nbsp;</span></p>
+<p><span>Individuals should not have to undertake onerous investigations or chase down information to know whether personal information about them is being stored and their rights in relation to that personal information.</span></p>
+</td>
+</tr>
+<tr>
+<td><span><strong>IPP/HPP 7 – Accessible&nbsp;</strong></span></td>
+<td>
+<ul>
+<li><span>Are you prepared to meet requests for access to personal information, including insights or inferences, derived from the use of AI systems.</span></li>
+<li><span>Are you allowing people to access their personal information without excessive delay or expense?</span>
+<ul>
+<li><span>Consider whether the AI system will enable or delay an individual’s access to their personal information.</span></li>
+</ul>
+</li>
+</ul>
+</td>
+<td><span>Agencies should consider whether arrangements with platforms or vendors and the data types and formats they use would allow for an extract of personal information to be provided in the event such a request was received.</span></td>
+</tr>
+<tr>
+<td><span><strong>IPP/HPP 8 - Correct</strong></span></td>
+<td>
+<ul>
+<li><span>How can an individual update, correct or amend their personal information where necessary in relation to the AI system or project?</span></li>
+<li><span>Can you ensure the AI system or project will make decisions based on the updated personal information?</span></li>
+</ul>
+</td>
+<td><span>Agencies should consider whether arrangements with platforms or vendors and the data types and formats would allow for correcting of personal information in the event such a request was received.</span></td>
+</tr>
+<tr>
+<td><span><strong>IPP/HPP 9 – Accurate</strong></span></td>
+<td>
+<ul>
+<li><span>What measures are in place to ensure the personal information is relevant, accurate, up to date and complete before being used by the agency?</span>
+<ul>
+<li><span>Consider whether additional checks are required if relying on AI generated outputs.</span></li>
+<li><span>Should AI generated outputs be limited to specific, low risk use by the agency?</span></li>
+</ul>
+</li>
+</ul>
+</td>
+<td>
+<p><span>AI technology such as automated decision-making can be used to make decisions or to recommend decisions to agency staff which will affect an individual’s access to a service, opportunity or benefit, or result in a penalty.</span></p>
+<p><span>AI may produce outputs that are sufficiently reliable for some purposes (such as recommending a service), but not for other purposes (such as approving an application). Consider the accuracy of the information when deciding how it will be used.</span></p>
+<p><span>Poor system design, or the use of poor-quality information such as historical agency records could result in biased, unfair or wrong decisions. Agencies must ensure training data and systems are reviewed with these risks in mind, especially where the AI system informs or makes decisions.</span></p>
+<p><span>Agencies should ensure that decisions made by an AI tool are explainable. If there is uncertainty about the reasons why the technology is making certain decisions or recommendations, it should not be used.</span></p>
+<p><span>Agencies should ensure that there is human validation of any AI process that uses personal information.</span></p>
+</td>
+</tr>
+<tr>
+<td><span><strong>IPP/HPP 10 - Limited</strong></span></td>
+<td>
+<ul>
+<li><span>Are you only using the personal information for the purpose it was collected unless the person has given their consent, or the purpose of use is directly related to the purpose for which it was collected, or to prevent or lessen a serious or imminent threat to any person’s health or safety?</span></li>
+<li><span>If using a third-party provider, have you ensured an individual’s personal information is not being used by that third party for their own purposes?</span></li>
+<li><span>When it comes to training AI models have you considered ways this can be done without using personal information?</span></li>
+</ul>
+</td>
+<td>
+<p><span>AI systems can make it easy for agencies to use data for multiple purposes. Agencies should ensure each use case is assessed on its own merits against the IPPs and HPPs. For example, a database of facial images for security passes should not be used for research without a separate assessment.</span></p>
+<p><span>Agencies should refrain from using personal information collected for a specific purpose for a different purpose unless individuals give their consent or an exemption applies.&nbsp;</span></p>
+<p><span>It is also common that AI system providers seek to use their customer’s data for their own purposes, such as training their AI models. This is distinct from an agency using personal information for training an AI system exclusively for internal purposes.&nbsp;</span></p>
+<p><span>Agencies should ensure external use of personal information does not occur unless affected individuals give consent or an exemption applies. Generally, using personal information to train AI systems outside of an agency use case is high risk and should be avoided wherever possible.</span></p>
+<p><span>(In addition to the IPPs and HPPs, see&nbsp;</span><a href="/resources?f%5B0%5D=resource_type%3A27&amp;f%5B1%5D=topics%3A29"><span lang="EN-AU">Statutory Guidelines on exemptions</span></a><span>)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span><strong>IPP 11 – Restricted&nbsp;</strong></span></p>
+<p><span><strong>HPP 11 - Limited</strong></span></p>
+</td>
+<td>
+<ul>
+<li><span>Does the AI system or project disclose personal information to another person or organisation?</span></li>
+<li><span>If so,</span>
+<ul>
+<li><span>Is the disclosure directly related to the purpose the information was collected, and the individual is unlikely to object to the disclosure? or</span></li>
+<li><span>Is the individual reasonably likely to have been aware of this disclosure? or</span></li>
+<li><span>Is the disclosure necessary to prevent or lessen a serious and imminent threat to the life or health of an individual?</span></li>
+</ul>
+</li>
+</ul>
+</td>
+<td>
+<p><span>Where AI technology vendors, platform providers, or any other external organisation, will have access to personal information being processed by the technology, this could be considered a disclosure, and the agency should ensure it is able to satisfy one or more of the criteria in IPP 11 to permit the disclosure.&nbsp;</span></p>
+<p><span>Where agencies provide their contracted service providers, including AI system vendors, with access to personal information for the sole purpose of carrying out a contracted service on behalf of the agency, this is likely to be a 'use' (see IPP/HPP 10).</span></p>
+<p><span>Agencies should also consider whether staff or users of a system may be able to view information of other individuals and implement measures to prevent this or ensure it occurs only with authorisation from the individual.</span></p>
+<p><span>Agencies should consider what information needs to be provided to individuals who are users of a system and what consents might be needed if they are partnering with a third-party vendor.</span></p>
+<p><span>In the PIA, agencies should document the disclosures which are intended and the rationale for how they comply with IPP 11. For example, AI vendor tech support is provided by a team of five staff who will have access to all data including personal information. This is a directly related purpose to which it may be assumed there is no objection if appropriate contractual obligations, access controls and security measures are in place.</span></p>
+</td>
+</tr>
+<tr>
+<td><span><strong>IPP 12 – Safeguarded&nbsp;</strong></span></td>
+<td>
+<ul>
+<li><span>Have you ensured personal information relating to an individual’s ethnic or racial origin, political opinions, religious or philosophical belief, trade union membership or sexual activities are not being disclosed unless there is a serious and imminent threat to the life or health of an individual?</span></li>
+<li><span>Is the personal information being disclosed to a Commonwealth agency or a person or body outside of New South Wales?</span>
+<ul>
+<li><span>Consider the location of any third-party providers engaged to support the AI system or project.</span></li>
+</ul>
+</li>
+</ul>
+</td>
+<td>
+<p><span>Agencies should carefully consider whether data they disclose could fall under the categories mentioned in IPP 12.</span></p>
+<p><span>Agencies should refrain from disclosing datasets automatically and should ensure there is human review of data before it is disclosed.</span></p>
+<p><span>Agencies should design systems and processes to remove sensitive information if it is included in chatbot free text fields. Agencies may also consider clear user guidance or notifications to deter users from entering sensitive information that is not required.</span></p>
+<p><span>Facial images may be considered ‘sensitive information’ because it is potentially personal information about racial or ethnic origin or can indicate a person’s religion. Sensitive information points can be inferred from other personal information.</span></p>
+</td>
+</tr>
+<tr>
+<td><span><strong>HPP 12 – Not identified</strong></span></td>
+<td>
+<ul>
+<li><span>In the event the AI system or project involves health information, can you achieve your objectives without using unique identifiers?</span></li>
+</ul>
+</td>
+<td><span>Agencies should only use unique identifiers such as a Medicare number or a patient number if it is reasonably necessary to carry out the activity efficiently. If a unique identifier is required, consider a randomly assigned number which is used temporarily for a specific purpose and then deleted.</span></td>
+</tr>
+<tr>
+<td><span><strong>HPP 14 - Controlled</strong></span></td>
+<td>
+<ul>
+<li><span>In the event the AI system or project involves health information, and you are transferring data outside NSW, have you considered if the recipient is bound to standards which are equivalent to the NSW HPPs or if you can obtain individuals’ consent?</span></li>
+</ul>
+</td>
+<td>
+<p><span>Agencies should ensure they are transferring health information only in accordance with the criteria in HPP 14. Key considerations are:</span></p>
+<ul>
+<li><span>whether the recipient is bound to standards which are equivalent to the NSW HPPs,</span></li>
+<li><span>whether the individual has given consent, or</span></li>
+<li><span>whether there is a contract which would benefit the individual, it is impracticable to obtain consent, and the individual would be likely to consent.</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h4><span><strong>AI privacy risks and mitigations</strong></span></h4>
+</div>
+<div>
+<h5><strong>Common AI privacy risks</strong></h5>
+</div>
+<p><span>AI has the potential to amplify privacy concerns in its consumption and analysis of personal information. It is important to be aware of the common privacy risks associated with implementing AI systems and ensure these have been considered.</span></p>
+<p><span>The table below describes some of the most common privacy risks associated with the use of AI and lists common techniques for mitigating those risks. For more information on the mitigation measures, see the following section.</span></p>
+<p><span>This is a non-exhaustive list of risks and mitigations/controls for reducing those risks.</span></p>
+<table>
+<thead>
+<tr>
+<th><span>Risk</span></th>
+<th><span>Risk Description</span></th>
+<th><span>Common mitigations</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span><strong>Inaccurate, incomplete or out-of-date information</strong></span></td>
+<td>
+<p><span>AI, particularly generative AI, can produce inaccurate, incomplete or out-of-date information. This can arise because of low quality training data.</span></p>
+<p><span>Inaccurate, incomplete or out-of-date information in training data or in outputs may lead to the misrepresentation of an individual. Many AI systems use factual and/or inferred data to generate outcomes or decisions. It is therefore important that data quality is maintained to avoid defective decisions.</span></p>
+</td>
+<td>
+<ul>
+<li><span>Data minimisation</span></li>
+<li><span>Expert and legal advice</span></li>
+<li><span>Automated destruction</span></li>
+<li><span>Internal policies</span></li>
+<li><span>Staff training</span></li>
+<li><span>Human validation</span></li>
+<li><span>Technical controls</span></li>
+<li><span>Use of synthetic data</span></li>
+<li><span>Data quality controls for training data</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span><strong>Bias and discrimination</strong></span></td>
+<td>
+<p><span>AI bias and discrimination can occur where the AI is trained on poor quality data, or the AI is learning from and perpetuating systematic social inequalities (such as racial profiling or gender biases). It may not become apparent until a pattern is replicated. An example of this would be an AI system implemented for expediting processes for hiring staff which recommends male applicants over equally qualified female applicants because it was trained using data that wasn’t gender balanced.</span></p>
+<p><span>Automated decisions made by AI should be carefully considered, and human oversight and intervention is often needed to monitor for bias and discrimination.&nbsp;</span></p>
+</td>
+<td>
+<ul>
+<li><span>Expert and legal advice</span></li>
+<li><span>Internal policies</span></li>
+<li><span>Staff training</span></li>
+<li><span>Human validation</span></li>
+<li><span>Technical controls</span></li>
+<li><span>Use of synthetic data</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span><strong>Lack of transparency</strong></span></td>
+<td>
+<p><span>AI systems can be complex and difficult to understand. Transparency and explainability are important principles to help prevent the risk of bias and discrimination. A decision made by AI and how it was made should be understandable by humans.&nbsp;</span></p>
+<p><span>In addition to transparency about how decisions are made, there should be transparency around how personal information is collected and stored. It can be difficult to obtain informed consent if there is not proper understanding about how the AI system will use the information being collected. If the information being collected is going to be used to further train the AI, consideration should be given as to whether it is really possible to obtain meaningful consent, particularly if the complexities of the AI system make it unclear what the information is being used for.</span></p>
+</td>
+<td>
+<ul>
+<li><span>Transparency and consent</span></li>
+<li><span>Expert and legal advice</span></li>
+<li><span>Internal policies</span></li>
+<li><span>Use of synthetic data</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span><strong>Secondary use of personal information</strong></span></td>
+<td><span>The potential for repurposing collected information for secondary uses is a significant risk when using AI systems as capabilities improve and the range of AI products and services expand. In addition, AI systems often need large amounts of data for training. It can be tempting to use existing data for this purpose; however, this can result in a misuse of personal information if that personal information was collected for another purpose. Additionally, third party providers may seek to use data collected through the AI system for their own purposes, which may be inconsistent with the initial purpose of collection by an agency. Generally, using personal information to train AI systems outside of an agency use case is high risk and should be avoided wherever possible.</span></td>
+<td>
+<ul>
+<li><span>Staff training</span></li>
+<li><span>Internal policies</span></li>
+<li><span>Privacy policies and notices with clear information about AI system uses</span></li>
+<li><span>Obtaining consent from affected individuals</span></li>
+<li><span>Data minimisation</span></li>
+<li><span>Third party due diligence</span></li>
+<li><span>Contractual controls</span></li>
+<li><span>Expert and legal advice</span></li>
+<li><span>Automated destruction</span></li>
+<li><span>Access restrictions</span></li>
+<li><span>Technical controls</span></li>
+<li><span>Use of synthetic data</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span><strong>Unauthorised disclosure</strong></span></td>
+<td><span>Some AI systems are managed by third party providers, who may gain access to personal information through the provision of their services. Depending on how the personal information is being handled, this may be a disclosure of personal information. There is a risk that these disclosures could be unauthorised where the disclosure isn’t directly related to the purpose the personal information was collected or the individual isn’t likely to have been aware of the disclosure.</span></td>
+<td>
+<ul>
+<li><span>Data minimisation</span></li>
+<li><span>Third party due diligence</span></li>
+<li><span>Contractual controls</span></li>
+<li><span>Expert and legal advice</span></li>
+<li><span>Automated destruction</span></li>
+<li><span>Internal policies</span></li>
+<li><span>Staff training</span></li>
+<li><span>Access restrictions</span></li>
+<li><span>Technical controls</span></li>
+<li><span>Use of synthetic data</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span><strong>Retention and disposal</strong></span></td>
+<td><span>AI systems often require significant volumes of data to improve the effectiveness of the system. This can result in extended retention and delayed disposal of personal information, expanding the privacy risk for an agency. Consideration should be given to if and how data can be removed or disposed of if it is held in an AI system.&nbsp;</span></td>
+<td>
+<ul>
+<li><span>Data minimisation</span></li>
+<li><span>Third party due diligence</span></li>
+<li><span>Contractual controls</span></li>
+<li><span>Expert and legal advice</span></li>
+<li><span>Automated destruction</span></li>
+<li><span>Use of synthetic data</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span><strong>Re-identification</strong></span></td>
+<td><span>AI systems can infer information about an individual, and may be able to identify an individual from seemingly de-identified data through the creation of new inferences or attributes. This can also occur where an AI system is able to combine a variety of data from multiple sources, and stitch information about an individual together in a way that makes them identifiable.</span></td>
+<td>
+<ul>
+<li><span>Data minimisation</span></li>
+<li><span>Third party due diligence</span></li>
+<li><span>Contractual controls</span></li>
+<li><span>Expert and legal advice</span></li>
+<li><span>Automated destruction</span></li>
+<li><span>Internal policies</span></li>
+<li><span>Staff training</span></li>
+<li><span>Access restrictions</span></li>
+<li><span>Technical controls</span></li>
+<li><span>Use of synthetic data</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span><strong>Third party risk</strong></span></td>
+<td><span>Whenever a third party handles personal information, there is a risk that the third party will not handle personal information consistently with the requirements of NSW privacy laws and expectations of your agency. This risk can be significant when the third party is an AI system provider with access to significant volumes of personal information.</span></td>
+<td>
+<ul>
+<li><span>Data minimisation</span></li>
+<li><span>Third party due diligence</span></li>
+<li><span>Contractual controls</span></li>
+<li><span>Expert and legal advice</span></li>
+<li><span>Security reviews</span></li>
+<li><span>Access restrictions</span></li>
+<li><span>Use of synthetic data</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span><strong>Data breaches</strong></span></td>
+<td><span>AI systems often rely on significant amounts of data to train and operate effectively. This can make them targets for malicious actors seeking to gain access to agency data. Additionally, poor system controls and human error can lead to non-malicious data breaches, where data relating to one individual becomes visible to another individual.</span></td>
+<td>
+<ul>
+<li><span>Data minimisation</span></li>
+<li><span>Third party due diligence</span></li>
+<li><span>Contractual controls</span></li>
+<li><span>Expert and legal advice</span></li>
+<li><span>Security reviews</span></li>
+<li><span>Automated destruction</span></li>
+<li><span>Staff training</span></li>
+<li><span>Access restrictions</span></li>
+<li><span>Technical controls</span></li>
+<li><span>Use of synthetic data</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span><strong>Cross border transfers</strong></span></td>
+<td><span>Many AI system providers operate in jurisdictions outside of NSW and may be subject to different privacy and data protection laws, which could offer less protection than the laws of NSW.&nbsp;</span></td>
+<td>
+<ul>
+<li><span>Third party due diligence</span></li>
+<li><span>Contractual controls</span></li>
+<li><span>Expert and legal advice</span></li>
+<li><span>Transparency and consent</span></li>
+<li><span>Compliance with all legislative obligations including State Records Act.</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<h5><strong>Common AI privacy risk mitigations</strong></h5>
+</div>
+<p><span>One of the key challenges for developing and using AI systems in a responsible manner is to identify and mitigate the potential privacy risks that may arise from the use of AI technology. This section provides some examples of common AI privacy risk mitigations that can be applied at different stages of the AI lifecycle.</span></p>
+<p><span><strong>AI Governance</strong></span></p>
+<p><span>AI Governance policies, processes and frameworks as part of agencies’ overall data governance arrangements establish guardrails for the safe and lawful use of Al and data, and also assign roles, responsibilities and accountability for decision-making.</span></p>
+<p><span><strong>Data minimisation</strong></span></p>
+<p><span>At all stages of the AI lifecycle, personal information should be limited to the minimum amount necessary to achieve the required purpose. This includes minimising the personal information used for training the AI system, as well as minimising the potential collection of personal information of users of the AI system, such as through the use of pick lists rather than free text fields where appropriate. Guidance notes encouraging users to limit the personal information provided when interacting with the AI system can also support data minimisation.</span></p>
+<p><span><strong>Third party due diligence</strong></span></p>
+<p><span>Conducting thorough privacy and security assessments of third parties can support you in understanding the privacy and security maturity of that third party and identify whether they meet the standards and expectations of your agency when handling personal information.</span></p>
+<p><span><strong>Contractual controls</strong></span></p>
+<p><span>Agencies should have clear contractual agreements with third parties, outlining how the third party will protect personal information, limitations on the use and disclosure of the personal information, processes in the event of a data breach, and mechanisms for auditing compliance with the agreement.</span></p>
+<p><span><strong>Expert and legal advice</strong></span></p>
+<p><span lang="EN-US">Agencies should seek advice from their legal team and/or their privacy officers when developing AI projects and conducting a PIA.</span></p>
+<p><span><strong>Transparency and consent</strong></span></p>
+<p><span>Agencies should be transparent about the use of AI systems and disclosures to third parties supporting AI systems. Plain language explanations and just-in-time notifications should be provided to ensure individuals are appropriately informed of how and why their personal information is being handled. In some circumstances, agencies may need to seek the consent of individuals to use AI systems.&nbsp;</span></p>
+<p><span><strong>Security reviews</strong></span></p>
+<p><span>When implementing AI systems and projects, agencies should ensure security reviews have been undertaken and security risks are managed to protect the personal information from unauthorised access, disclosure and loss.</span></p>
+<p><span><strong>Routine destruction</strong></span></p>
+<p><span>Destruction (deletion) of personal information must occur in accordance with the </span><em><span>State Records Act</span></em><span>. Human oversight and approval should be factored into routine destruction.&nbsp;</span></p>
+<p><span><strong>Internal policies&nbsp;</strong></span></p>
+<p><span>Internal policies and procedures to manage the use of AI systems and AI system outputs should be defined, documented and implemented. These policies should consider the ways AI systems and their outputs should and should not be used, considering both the benefits and risks of the AI system. For example, outputs that are appropriate for general insights and analysis may not be appropriate for making decisions about an individual’s eligibility for a service.</span></p>
+<p><span><strong>Staff training&nbsp;</strong></span></p>
+<p><span>Staff should be trained on how to responsibly use AI systems, including the collection and use of data and the privacy impacts.</span></p>
+<p><span><strong>Access restrictions</strong></span></p>
+<p><span>As with any system, access controls should be implemented so only those with a need to use AI systems or view AI outputs are given those permissions. This includes programming regular review of access permissions and the removal of permissions when staff leave or change roles where the existing permissions are no longer appropriate or required for the role.</span></p>
+<p><span><strong>Human validation</strong></span></p>
+<p><span>While AI can be a helpful tool, human validation should be used where appropriate to reduce the likelihood of harms from unmonitored AI systems.&nbsp;</span></p>
+<p><span><strong>Technical controls</strong></span></p>
+<p><span>There are a variety of technical controls that can be implemented to reduce privacy risks, such as differential privacy, federated learning, and fully homomorphic encryption. These should be explored and implemented where appropriate to reduce risks.</span></p>
+<p><span><strong>Use of synthetic data</strong></span></p>
+<p><span>Synthetic data is artificially generated data that mimics real data and can be used as an alternative to real data. Synthetic data use can have its own risks, and expert advice should be sought to ensure the benefits outweigh the risks.</span></p>
+<p><span><strong>Monitoring and Assurance</strong></span></p>
+<p><span>Ongoing monitoring and periodic assurance or audit activities can help agencies detect if any known risks materialise, if mitigations put in place are not effectively managing risks, or if new risks emerge and need to be managed.</span></p>
+<h4><span><strong>Additional resources</strong></span></h4>
+<p><span>More information on how to identify and manage privacy risks related to AI technology is available and includes the following resources.</span></p>
+<ul>
+<li>
+<p class="Bullets">NSW AI Assessment Framework: <a href="https://www.digital.nsw.gov.au/policy/artificial-intelligence/nsw-artificial-intelligence-assessment-framework">NSW Artificial Intelligence Assessment Framework | Digital NSW</a></p>
+</li>
+<li>
+<p class="Bullets">IPC PIA guidance: <a href="/node/2860">Guide to Privacy Impact Assessments in NSW</a></p>
+</li>
+<li>
+<p class="Bullets">Digital NSW AI resources: <a href="https://www.digital.nsw.gov.au/policy/artificial-intelligence">Artificial Intelligence | Digital NSW</a></p>
+</li>
+<li>
+<p class="Bullets">National framework for the assurance of AI in government: <a href="https://www.finance.gov.au/sites/default/files/2024-06/National-framework-for-the-assurance-of-AI-in-government.pdf">National framework for the assurance of artificial intelligence in government (finance.gov.au)</a></p>
+</li>
+<li>
+<p class="Bullets">Department of Industry, Science and Resources, Australia’s AI Ethics Principles: <a href="https://www.finance.gov.au/sites/default/files/2024-06/National-framework-for-the-assurance-of-AI-in-government.pdf">National framework for the assurance of artificial intelligence in government (finance.gov.au)</a></p>
+</li>
+<li>
+<p class="Bullets"><a href="/node/2837">Fact Sheet - The Role of the Privacy Commissioner: Consulting the IPC on Initiatives and Projects (nsw.gov.au)</a></p>
+</li>
+<li>
+<p class="Bullets"><a href="https://ovic.vic.gov.au/privacy/resources-for-organisations/artificial-intelligence-and-privacy-issues-and-challenges/">Artificial Intelligence and Privacy – Issues and Challenges – Office of the Victorian Information Commissioner (ovic.vic.gov.au)</a></p>
+</li>
+<li>
+<p class="Bullets"><a href="https://www.ombo.nsw.gov.au/guidance-for-organisations/improving-public-administration/automated-decision-making-systems">Automated decision-making in the public sector </a>(NSW Ombudsman)</p>
+</li>
+<li>
+<p class="Bullets"><a href="https://www.ombo.nsw.gov.au/guidance-for-organisations/improving-public-administration/automated-decision-making-systems/administrative-law-and-automated-decision-making">Administrative law and automated decision-making</a> (NSW Ombudsman)</p>
+</li>
+<li>
+<p class="Bullets"><a href="https://www.ombo.nsw.gov.au/guidance-for-organisations/improving-public-administration/automated-decision-making-systems/implementing-automated-decision-making">Implementing automated decision-making</a> (NSW Ombudsman)</p>
+</li>
+</ul>
+<div>
+<p><span><strong>For more information</strong></span></p>
+</div>
+<p><span>Contact the Information and Privacy Commission NSW (IPC):</span></p>
+<p><span><strong>Freecall:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1800 472 679</span><br><span><strong>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></span><a href="mailto:ipcinfo@ipc.nsw.gov.au"><span lang="EN-AU">ipcinfo@ipc.nsw.gov.au</span></a><span>&nbsp;</span><br><span><strong>Website:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a href="http://www.ipc.nsw.gov.au/"><span lang="EN-AU">http://www.ipc.nsw.gov.au/</span></a></p>
+<p><em><span>NOTE: The information in this guideline is to be used as a guide only. Legal advice should be sought in relation to individual circumstances.</span></em></p></div>
+      
+  </div>
+<div class="block-entity-fieldnodefield-components block block-layout-builder block-field-blocknoderesourcefield-components">
+  
+    
+      
+      <div class="field field--name-field-components field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="modifiers modifiers-id-paragraph-2089 modifiers-type-paragraph modifiers-bundle-webform modifiers-display-default paragraph paragraph--type--webform paragraph--view-mode--default">
+    <div class="paragraph-content">
+      <div class="row">
+        <div class="col-sm-12">
+                      
+            <div class="field field--name-field-webform field--type-webform field--label-hidden field__item"><form class="webform-submission-form webform-submission-add-form webform-submission-feedback-test-survey-form webform-submission-feedback-test-survey-add-form webform-submission-feedback-test-survey-paragraph-2089-form webform-submission-feedback-test-survey-paragraph-2089-add-form container-inline clearfix js-webform-details-toggle webform-details-toggle" data-drupal-selector="webform-submission-feedback-test-survey-paragraph-2089-add-form-4" action="/resources/guide-guide-undertaking-privacy-impact-assessments-ai-systems-and-projects" method="post" id="webform-submission-feedback-test-survey-paragraph-2089-add-form--4" accept-charset="UTF-8">
+  
+  <fieldset data-drupal-selector="edit-how-easy-did-you-find-it-to-understand-this-resource-" id="edit-how-easy-did-you-find-it-to-understand-this-resource---4--wrapper" class="radios--wrapper fieldgroup form-composite webform-composite-visible-title js-webform-type-radios webform-type-radios js-form-item form-item js-form-wrapper form-wrapper">
+      <legend id="edit-how-easy-did-you-find-it-to-understand-this-resource---4--wrapper-legend">
+    <span class="fieldset-legend">How easy did you find it to understand this resource?</span>
+  </legend>
+  <div class="fieldset-wrapper">
+                <div id="edit-how-easy-did-you-find-it-to-understand-this-resource---4" class="js-webform-radios webform-options-display-side-by-side form-radios"><div class="js-webform-type-radio webform-type-radio js-form-item form-item js-form-type-radio form-type-radio js-form-item-how-easy-did-you-find-it-to-understand-this-resource- form-item-how-easy-did-you-find-it-to-understand-this-resource- form-check">
+        
+  <input data-drupal-selector="edit-how-easy-did-you-find-it-to-understand-this-resource-very-easy-4" type="radio" id="edit-how-easy-did-you-find-it-to-understand-this-resource-very-easy--4" name="how_easy_did_you_find_it_to_understand_this_resource_" value="Very easy" class="form-radio form-check-input" />
+
+
+        <label for="edit-how-easy-did-you-find-it-to-understand-this-resource-very-easy--4" class="option">Very easy</label>
+      </div>
+<div class="js-webform-type-radio webform-type-radio js-form-item form-item js-form-type-radio form-type-radio js-form-item-how-easy-did-you-find-it-to-understand-this-resource- form-item-how-easy-did-you-find-it-to-understand-this-resource- form-check">
+        
+  <input data-drupal-selector="edit-how-easy-did-you-find-it-to-understand-this-resource-easy-4" type="radio" id="edit-how-easy-did-you-find-it-to-understand-this-resource-easy--4" name="how_easy_did_you_find_it_to_understand_this_resource_" value="Easy" class="form-radio form-check-input" />
+
+
+        <label for="edit-how-easy-did-you-find-it-to-understand-this-resource-easy--4" class="option">Easy</label>
+      </div>
+<div class="js-webform-type-radio webform-type-radio js-form-item form-item js-form-type-radio form-type-radio js-form-item-how-easy-did-you-find-it-to-understand-this-resource- form-item-how-easy-did-you-find-it-to-understand-this-resource- form-check">
+        
+  <input data-drupal-selector="edit-how-easy-did-you-find-it-to-understand-this-resource-neutral-4" type="radio" id="edit-how-easy-did-you-find-it-to-understand-this-resource-neutral--4" name="how_easy_did_you_find_it_to_understand_this_resource_" value="Neutral" class="form-radio form-check-input" />
+
+
+        <label for="edit-how-easy-did-you-find-it-to-understand-this-resource-neutral--4" class="option">Neutral</label>
+      </div>
+<div class="js-webform-type-radio webform-type-radio js-form-item form-item js-form-type-radio form-type-radio js-form-item-how-easy-did-you-find-it-to-understand-this-resource- form-item-how-easy-did-you-find-it-to-understand-this-resource- form-check">
+        
+  <input data-drupal-selector="edit-how-easy-did-you-find-it-to-understand-this-resource-difficult-4" type="radio" id="edit-how-easy-did-you-find-it-to-understand-this-resource-difficult--4" name="how_easy_did_you_find_it_to_understand_this_resource_" value="Difficult" class="form-radio form-check-input" />
+
+
+        <label for="edit-how-easy-did-you-find-it-to-understand-this-resource-difficult--4" class="option">Difficult</label>
+      </div>
+<div class="js-webform-type-radio webform-type-radio js-form-item form-item js-form-type-radio form-type-radio js-form-item-how-easy-did-you-find-it-to-understand-this-resource- form-item-how-easy-did-you-find-it-to-understand-this-resource- form-check">
+        
+  <input data-drupal-selector="edit-how-easy-did-you-find-it-to-understand-this-resource-very-difficult-4" type="radio" id="edit-how-easy-did-you-find-it-to-understand-this-resource-very-difficult--4" name="how_easy_did_you_find_it_to_understand_this_resource_" value="Very difficult" class="form-radio form-check-input" />
+
+
+        <label for="edit-how-easy-did-you-find-it-to-understand-this-resource-very-difficult--4" class="option">Very difficult</label>
+      </div>
+</div>
+
+          </div>
+</fieldset>
+<fieldset data-drupal-selector="edit-have-you-used-the-information-in-this-resource-to-assist-you-" id="edit-have-you-used-the-information-in-this-resource-to-assist-you---4--wrapper" class="radios--wrapper fieldgroup form-composite webform-composite-visible-title js-webform-type-radios webform-type-radios js-form-item form-item js-form-wrapper form-wrapper">
+      <legend id="edit-have-you-used-the-information-in-this-resource-to-assist-you---4--wrapper-legend">
+    <span class="fieldset-legend">Have you used the information in this resource to assist you?</span>
+  </legend>
+  <div class="fieldset-wrapper">
+                <div id="edit-have-you-used-the-information-in-this-resource-to-assist-you---4" class="js-webform-radios webform-options-display-side-by-side form-radios"><div class="js-webform-type-radio webform-type-radio js-form-item form-item js-form-type-radio form-type-radio js-form-item-have-you-used-the-information-in-this-resource-to-assist-you- form-item-have-you-used-the-information-in-this-resource-to-assist-you- form-check">
+        
+  <input data-drupal-selector="edit-have-you-used-the-information-in-this-resource-to-assist-you-yes-4" type="radio" id="edit-have-you-used-the-information-in-this-resource-to-assist-you-yes--4" name="have_you_used_the_information_in_this_resource_to_assist_you_" value="Yes" class="form-radio form-check-input" />
+
+
+        <label for="edit-have-you-used-the-information-in-this-resource-to-assist-you-yes--4" class="option">Yes</label>
+      </div>
+<div class="js-webform-type-radio webform-type-radio js-form-item form-item js-form-type-radio form-type-radio js-form-item-have-you-used-the-information-in-this-resource-to-assist-you- form-item-have-you-used-the-information-in-this-resource-to-assist-you- form-check">
+        
+  <input data-drupal-selector="edit-have-you-used-the-information-in-this-resource-to-assist-you-somewhat-4" type="radio" id="edit-have-you-used-the-information-in-this-resource-to-assist-you-somewhat--4" name="have_you_used_the_information_in_this_resource_to_assist_you_" value="Somewhat" class="form-radio form-check-input" />
+
+
+        <label for="edit-have-you-used-the-information-in-this-resource-to-assist-you-somewhat--4" class="option">Somewhat</label>
+      </div>
+<div class="js-webform-type-radio webform-type-radio js-form-item form-item js-form-type-radio form-type-radio js-form-item-have-you-used-the-information-in-this-resource-to-assist-you- form-item-have-you-used-the-information-in-this-resource-to-assist-you- form-check">
+        
+  <input data-drupal-selector="edit-have-you-used-the-information-in-this-resource-to-assist-you-no-4" type="radio" id="edit-have-you-used-the-information-in-this-resource-to-assist-you-no--4" name="have_you_used_the_information_in_this_resource_to_assist_you_" value="No" class="form-radio form-check-input" />
+
+
+        <label for="edit-have-you-used-the-information-in-this-resource-to-assist-you-no--4" class="option">No</label>
+      </div>
+</div>
+
+          </div>
+</fieldset>
+<div class="js-webform-type-textarea webform-type-textarea js-form-item form-item js-form-type-textarea form-type-textarea js-form-item-are-there-any-resources-the-ipc-could-develop-to-assist-you form-item-are-there-any-resources-the-ipc-could-develop-to-assist-you">
+      <label for="edit-are-there-any-resources-the-ipc-could-develop-to-assist-you--4">Do you have any suggestions for new resources the IPC could develop to assist you?</label>
+        <div>
+  <textarea data-drupal-selector="edit-are-there-any-resources-the-ipc-could-develop-to-assist-you" id="edit-are-there-any-resources-the-ipc-could-develop-to-assist-you--4" name="are_there_any_resources_the_ipc_could_develop_to_assist_you" rows="5" cols="60" class="form-textarea resize-vertical form-control"></textarea>
+</div>
+
+        </div>
+
+  <input data-drupal-selector="edit-honeypot-time" type="hidden" name="honeypot_time" value="0DfBuhAZDlIF34rFXUNTU7HE_c5aFucYddQGJWtsRdM" class="form-control" />
+
+
+  <input autocomplete="off" data-drupal-selector="form-cbrv09dmjqchjqhtagjzc1q7in1kxzuzatpicqqoir8" type="hidden" name="form_build_id" value="form-cbrV09dmjQCHJQhtAGJzC1Q7IN1KxZUzATpicQqOIr8" class="form-control" />
+
+
+  <input data-drupal-selector="edit-webform-submission-feedback-test-survey-paragraph-2089-add-form-4" type="hidden" name="form_id" value="webform_submission_feedback_test_survey_paragraph_2089_add_form" class="form-control" />
+
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--4">
+  <input class="webform-button--submit button button--primary js-form-submit form-submit btn btn-primary" data-drupal-selector="edit-submit" type="submit" id="edit-submit--4" name="op" value="Submit" />
+
+
+</div>
+<div class="url-textfield js-form-wrapper form-wrapper" style="display: none !important;"><div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-url form-item-url">
+      <label for="edit-url--4">Leave this field blank</label>
+        
+  <input autocomplete="off" data-drupal-selector="edit-url" type="text" id="edit-url--4" name="url" value="" size="20" maxlength="128" class="form-text form-control" />
+
+
+        </div>
+</div>
+
+
+  
+</form>
+</div>
+      
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+  
+  </div>
+<div class="block-entity-fieldnodefield-attachments block block-layout-builder block-field-blocknoderesourcefield-attachments mt-3">
+  
+    
+      
+      <div class="field field--name-field-attachments field--type-entity-reference field--label-hidden field__items">
+              <div class="field__item"><a href="/media/4062" hreflang="en">Guide - Guide to undertaking Privacy Impact Assessments on AI systems and projects December 2024</a></div>
+          </div>
+  
+  </div>
+
+            </div>
+                                <div class="page-layout__sidebar col-sm-4">
+              <div class="block-region-sidebar">
+                <nav role="navigation" aria-labelledby="-menu" class="block block-menu navigation menu--resources">
+            
+  <h5 class="visually-hidden" id="-menu">Resources</h5>
+  
+
+        
+
+              <ul class="nav">
+                            <li class="nav-item">
+        <a href="https://www.ipc.nsw.gov.au/resources" class="nav-link">All resources</a>
+                          </li>
+                              <li class="nav-item">
+        <a href="/information-access/individuals" class="nav-link">Information access for individuals</a>
+                          </li>
+                              <li class="nav-item">
+        <a href="/information-access/agencies" class="nav-link">Information access for agencies</a>
+                          </li>
+                              <li class="nav-item">
+        <a href="/privacy/individuals" class="nav-link">Privacy for individuals</a>
+                          </li>
+                              <li class="nav-item">
+        <a href="/privacy/agencies" class="nav-link">Privacy for agencies</a>
+                          </li>
+                              <li class="nav-item">
+        <a href="/privacy/private-nsw-health-service-providers" class="nav-link">Information for NSW private health service providers</a>
+                          </li>
+                              <li class="nav-item">
+        <a href="/about-us/ipc-e-learning" class="nav-link">e-Learning</a>
+                          </li>
+                    </ul>
+        
+
+
+  </nav>
+
+              </div>
+            </div>
+                  </div>
+                </section>
+    </div>
+
+      </article>
+
+  </div>
+
+  </div>
+
+      </div>
+      </main>
+
+    
+
+<footer class="footer bs-bg--dark bs-bg--alt" role="contentinfo">
+  
+      <div class="nadir">
+        <div class="region region-nadir">
+    <div id="block-footer-2" class="block-bundle-components block block-block-content block-block-contentc0466276-f15f-4658-9611-786e9eb62418">
+  
+    
+      
+      <div class="field field--name-field-components field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="color--dark-alt no-bottom-gap modifiers modifiers-id-paragraph-2014 modifiers-type-paragraph modifiers-bundle-content modifiers-display-default paragraph paragraph--type--content paragraph--view-mode--default">
+    <div class="paragraph-content">
+      <div class="row">
+        <div class="col-sm-12">
+                      
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><div class="row">
+<div class="col-sm-3"><div data-entity-type="media" data-entity-uuid="99883fe3-d873-414d-833e-d3637873a34f" data-embed-button="media_entity_embed" data-entity-embed-display="view_mode:media.full" data-entity-embed-display-settings="[]" data-langcode="en" class="embedded-entity"><article class="media-entity media-entity--type-image media-entity--view-mode-full">
+  
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/full_lg/public/2025-07/Acknowledgment%20flags.webp?itok=EeYLsfSB 1x, /sites/default/files/styles/full_lg_hi/public/2025-07/Acknowledgment%20flags.webp?itok=YZM0HaSs 2x" media="(min-width: 992px)" type="image/webp" width="392" height="121">
+              <source srcset="/sites/default/files/styles/full_md/public/2025-07/Acknowledgment%20flags.webp?itok=kDa2H5Fp 1x, /sites/default/files/styles/full_md_hi/public/2025-07/Acknowledgment%20flags.webp?itok=TVQ5ljiJ 2x" media="(min-width: 768px)" type="image/webp" width="392" height="121">
+              <source srcset="/sites/default/files/styles/full_sm/public/2025-07/Acknowledgment%20flags.webp?itok=IZ5ytJEM 1x, /sites/default/files/styles/full_sm_hi/public/2025-07/Acknowledgment%20flags.webp?itok=r11F-Wmf 2x" media="(min-width: 576px)" type="image/webp" width="392" height="121">
+              <source srcset="/sites/default/files/styles/full_xs/public/2025-07/Acknowledgment%20flags.webp?itok=lZ25us-V 1x, /sites/default/files/styles/full_xs_hi/public/2025-07/Acknowledgment%20flags.webp?itok=sJhTDaPr 2x" type="image/webp" width="392" height="121">
+                  <img loading="eager" width="392" height="121" src="/sites/default/files/styles/full_xs/public/2025-07/Acknowledgment%20flags.webp?itok=lZ25us-V" alt="Aboriginal and Torres Strait Islander Flags">
+
+  </picture>
+
+</div>
+      
+  </article>
+</div>
+</div>
+<div class="col-sm-9">We acknowledge Aboriginal and Torres Strait Islander peoples as custodians of Australia and pay our respects to Elders, past and present. We also acknowledge the ongoing connection to land, sea and communities throughout Australia, and the contributions to the lives of all Australians.&nbsp;</div>
+</div>
+</div>
+      
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+              <div class="field__item">  <div class="color--dark-alt list-layout--3-3-3-3 modifiers modifiers-id-paragraph-131 modifiers-type-paragraph modifiers-bundle-section modifiers-display-default paragraph paragraph--type--section paragraph--view-mode--default">
+    <div class="paragraph-content">
+      <div class="row">
+        <div class="col-sm-12">
+                      
+      <div class="field field--name-field-s-components field--type-entity-reference-revisions field--label-hidden section-components__items">
+              <div class="section-components__item">  <div class="modifiers modifiers-id-paragraph-111 modifiers-type-paragraph modifiers-bundle-content modifiers-display-default paragraph paragraph--type--content paragraph--view-mode--default">
+    <div class="paragraph-content">
+      <div class="row">
+        <div class="col-sm-12">
+                      
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p></p><div data-entity-type="media" data-entity-uuid="40f68822-a832-44e0-9d76-15dcada39269" data-embed-button="media_entity_embed" data-entity-embed-display="view_mode:media.full" data-langcode="en" data-entity-embed-display-settings="[]" class="embedded-entity"><article class="media-entity media-entity--type-image media-entity--view-mode-full">
+  
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/full_lg/public/2026-09/logo-dark.png?itok=9yyitLlF 1x, /sites/default/files/styles/full_lg_hi/public/2026-09/logo-dark.png?itok=Afb7C2qb 2x" media="(min-width: 992px)" type="image/png" width="210" height="50">
+              <source srcset="/sites/default/files/styles/full_md/public/2026-09/logo-dark.png?itok=QZDb_nkX 1x, /sites/default/files/styles/full_md_hi/public/2026-09/logo-dark.png?itok=-SVY1XoO 2x" media="(min-width: 768px)" type="image/png" width="210" height="50">
+              <source srcset="/sites/default/files/styles/full_sm/public/2026-09/logo-dark.png?itok=rmPgT6bL 1x, /sites/default/files/styles/full_sm_hi/public/2026-09/logo-dark.png?itok=Av7-BRKL 2x" media="(min-width: 576px)" type="image/png" width="210" height="50">
+              <source srcset="/sites/default/files/styles/full_xs/public/2026-09/logo-dark.png?itok=F48H_j63 1x, /sites/default/files/styles/full_xs_hi/public/2026-09/logo-dark.png?itok=r_2fbUXC 2x" type="image/png" width="210" height="50">
+                  <img loading="eager" width="210" height="50" src="/sites/default/files/styles/full_xs/public/2026-09/logo-dark.png?itok=F48H_j63" alt=" Information and Privacy Commission NSW">
+
+  </picture>
+
+</div>
+      
+  </article>
+</div>
+
+<p>&nbsp;</p>
+<p>© IPC</p>
+<p><a href="https://creativecommons.org/licenses/by/4.0/legalcode"><img src="/themes/custom/ipc_theme/images/cc-logo.png" alt="CC logo" width="88" height="31" loading="lazy"></a></p></div>
+      
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+              <div class="section-components__item">  <div class="modifiers modifiers-id-paragraph-116 modifiers-type-paragraph modifiers-bundle-content modifiers-display-default paragraph paragraph--type--content paragraph--view-mode--default">
+    <div class="paragraph-content">
+      <div class="row">
+        <div class="col-sm-12">
+                      
+      <h2>Navigate</h2>
+  
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><ul class="list--bulletless">
+<li><a href="/information-access">Information access</a></li>
+<li><a href="/node/29">Privacy</a></li>
+<li><a href="/about-us">About the IPC</a></li>
+<li><a href="/news-events">News and events</a></li>
+<li><a href="/about-us/contact-us">Contact us</a></li>
+</ul></div>
+      
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+              <div class="section-components__item">  <div class="modifiers modifiers-id-paragraph-121 modifiers-type-paragraph modifiers-bundle-content modifiers-display-default paragraph paragraph--type--content paragraph--view-mode--default">
+    <div class="paragraph-content">
+      <div class="row">
+        <div class="col-sm-12">
+                      
+      <h2>Useful links</h2>
+  
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><ul class="list--bulletless">
+<li><a href="/accessibility">Accessibility</a></li>
+<li><a href="/copyright">Copyright</a></li>
+<li><a href="/disclaimer">Disclaimer</a></li>
+<li><a href="/node/2886">Privacy statement</a></li>
+<li><a href="/translating-and-interpreting">Translating and Interpreting</a></li>
+<li><a href="/readspeaker">ReadSpeaker</a></li>
+<li><a href="/sitemap">Sitemap</a></li>
+</ul></div>
+      
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+              <div class="section-components__item">  <div class="color--dark-alt modifiers modifiers-id-paragraph-126 modifiers-type-paragraph modifiers-bundle-content modifiers-display-default paragraph paragraph--type--content paragraph--view-mode--default">
+    <div class="paragraph-content">
+      <div class="row">
+        <div class="col-sm-12">
+                      
+      <h2>IPC Social Media</h2>
+  
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="linkedin_dark_icon" href="http://www.linkedin.com/company/1942090?trk=tyah">LinkedIn</a> <a class="x_dark_icon" href="https://x.com/IPCNSW">X</a> <a class="facebook_dark_icon" href="https://www.facebook.com/InformationandPrivacyCommissionNSW">Facebook</a></p>
+<p><a href="/node/1642">IPC Social Media Terms of Use</a></p></div>
+      
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+  
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+  
+  </div>
+
+  </div>
+
+    </div>
+  
+</footer>
+  <div id="back-to-top" role="region" aria-label="Back to top">
+    <button title="Back to top" class="back-to-top__link">
+      <i class="fa fa-angle-double-up"></i>
+      Back to top
+    </button>
+  </div>
+</div>
+  </div>
+
+    
+    <script src="/sites/default/files/js/js_Oc_6HEQK3AfWxID_shKBQ9ZSpgNWHh7fUi4sedOfIZg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=ipc_theme&amp;include=eJyFkF1uxDAIhC-UTY5kEWeWRQETGfqzt68r9cFqteoLSPMNIw3szopCjfSZUmPjX8IiVy35gGGjWhEh-8AGJkN7myir76S3yKdK4wkY9bPgM9FHZhnwnEMNh1BJ6oyc5A464gKd6JMa5p6PW9Tuqov5IXdBj02a5PKB_e7dtp-9QsdJy_VAkmisQe_415TOo_5Lm40HEL_mfqV4iz_8e3wBanmOEg"></script>
+
+  <noscript><img src="https://www.ipc.nsw.gov.au/akam/13/pixel_e267746?a=dD1lZGI5YjVhODRiMjk5YWNiMWQzODZjMTc3NTZiMDQ5MzExODk2ODNjJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+</html>
