@@ -336,5 +336,17 @@
     "relationships": [
       "SRC-0005"
     ]
+  },
+  {
+    "evidence_id": "EV-0022",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0007",
+    "evidence_description": "Axis documentation describes scene metadata about detected objects, including people and vehicles, distributed using supported interfaces such as MQTT and RTSP. This is capability evidence, not deployment evidence.",
+    "verification_state": "Archived vendor documentation reviewed",
+    "classification": "Source-supported observation",
+    "relationships": [
+      "SRC-0007"
+    ]
   }
 ]
