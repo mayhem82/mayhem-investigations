@@ -75,8 +75,11 @@
   {
     "thread_id": "THR-07",
     "name": "Network interoperability and cross-location searches",
-    "status": "Not Started",
-    "supporting_evidence": [],
+    "status": "Evidence Ingested",
+    "supporting_evidence": [
+      "EV-0022",
+      "EV-0023"
+    ],
     "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
     "dependencies": [],
     "completion_state": "Not Complete"
