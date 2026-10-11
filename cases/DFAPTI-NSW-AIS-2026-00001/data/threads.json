@@ -138,8 +138,11 @@
   {
     "thread_id": "THR-12",
     "name": "Preventive governance and community safeguards",
-    "status": "Not Started",
-    "supporting_evidence": [],
+    "status": "Evidence Ingested",
+    "supporting_evidence": [
+      "EV-0024",
+      "EV-0029"
+    ],
     "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
     "dependencies": [],
     "completion_state": "Not Complete"
