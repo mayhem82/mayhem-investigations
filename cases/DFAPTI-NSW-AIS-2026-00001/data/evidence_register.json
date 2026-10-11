@@ -457,5 +457,18 @@
     "relationships": [
       "SRC-0021"
     ]
+  },
+  {
+    "evidence_id": "EV-0032",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0019",
+    "evidence_description": "NSW AI Procurement Essentials (updated 6 May 2026) identifies specific supplier controls for lawful training and operational data, algorithm updates, system shutdown, documentation, logs and negotiated audit rights. These are procurement guidance measures, not proof of implementation in any identified contract.",
+    "verification_state": "Official NSW procurement page directly reviewed; full-source archive and hash pending",
+    "classification": "Official procurement guidance",
+    "relationships": [
+      "SRC-0019",
+      "EV-0029"
+    ]
   }
 ]
