@@ -470,5 +470,18 @@
       "SRC-0019",
       "EV-0029"
     ]
+  },
+  {
+    "evidence_id": "EV-0033",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0019",
+    "evidence_description": "NSW AI procurement guidance addresses AI features added to existing contracts, algorithm update controls and supplier audit records.",
+    "verification_state": "Official guidance reviewed; archive pending",
+    "classification": "Source-supported observation",
+    "relationships": [
+      "SRC-0019",
+      "EV-0032"
+    ]
   }
 ]
