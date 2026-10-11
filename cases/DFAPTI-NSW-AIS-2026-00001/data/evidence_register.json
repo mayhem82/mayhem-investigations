@@ -483,5 +483,17 @@
       "SRC-0019",
       "EV-0032"
     ]
+  },
+  {
+    "evidence_id": "EV-0034",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0022",
+    "evidence_description": "Corrective Services NSW Axon contract for statewide body-worn camera managed service including cameras, docking, digital evidence management, licensing and support; published value $11,272,948.02 including GST; 23 Sep 2019 to 22 Sep 2027.",
+    "verification_state": "Official public notice reviewed; archive and contract annexures pending",
+    "classification": "Official procurement observation; no misconduct inferred",
+    "relationships": [
+      "SRC-0022"
+    ]
   }
 ]
