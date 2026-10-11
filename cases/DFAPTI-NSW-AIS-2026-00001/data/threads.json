@@ -2,8 +2,11 @@
   {
     "thread_id": "THR-01",
     "name": "Surveillance technology and functional capabilities",
-    "status": "Not Started",
-    "supporting_evidence": [],
+    "status": "Evidence Ingested",
+    "supporting_evidence": [
+      "EV-0022",
+      "EV-0023"
+    ],
     "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
     "dependencies": [],
     "completion_state": "Not Complete"
