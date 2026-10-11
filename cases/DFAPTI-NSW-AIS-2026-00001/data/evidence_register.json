@@ -555,5 +555,17 @@
     "relationships": [
       "SRC-0027"
     ]
+  },
+  {
+    "evidence_id": "EV-0040",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0028",
+    "evidence_description": "Transport for NSW Indra Australia contract 4600049059 to replace surveillance units at 24 regional rail sites, 11 Mar to 31 Dec 2025, estimated $242,963 including GST.",
+    "verification_state": "Official public notice reviewed; archive and contract annexures pending",
+    "classification": "Official procurement observation; no misconduct inferred",
+    "relationships": [
+      "SRC-0028"
+    ]
   }
 ]
