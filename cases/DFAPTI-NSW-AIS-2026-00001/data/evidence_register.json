@@ -360,5 +360,17 @@
     "relationships": [
       "SRC-0008"
     ]
+  },
+  {
+    "evidence_id": "EV-0024",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0012",
+    "evidence_description": "The NSW IPC June 2024 notice encourages agencies to consider recording AI and automated decision-making use in their Agency Information Guides to support transparency.",
+    "verification_state": "Archived official source reviewed",
+    "classification": "Source-supported observation",
+    "relationships": [
+      "SRC-0012"
+    ]
   }
 ]
