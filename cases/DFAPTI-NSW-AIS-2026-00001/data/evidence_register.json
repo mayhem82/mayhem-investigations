@@ -275,5 +275,17 @@
     "relationships": [
       "SRC-0010"
     ]
+  },
+  {
+    "evidence_id": "EV-0017",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0011",
+    "evidence_description": "The NSW Department of Customer Service announcement describes privacy impact assessment, cyber security and legal review, and AI Review Committee oversight in an illustrative high-risk AI chatbot case. This example does not establish surveillance deployment.",
+    "verification_state": "Archived source text reviewed",
+    "classification": "Source-supported observation",
+    "relationships": [
+      "SRC-0011"
+    ]
   }
 ]
