@@ -278,7 +278,7 @@
     list.forEach(function (e) {
       var card = recordCard(
         e.evidence_id,
-        el('span', {}, [idTag(e.evidence_id), ' — ', e.source_title || e.evidence_description || e.source_register_reference || 'Evidence observation']),
+        el('span', {}, [idTag(e.evidence_id), ' — ', e.source_title || (e.evidence_description ? String(e.evidence_description).slice(0,120) : '') || e.source_register_reference || 'Evidence observation']),
         (e.source_authority || '') + (e.source_date ? ' · ' + e.source_date : ''),
         [
           kv('Case', idTag(e.case_id)),
