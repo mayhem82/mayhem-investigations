@@ -269,7 +269,7 @@
 
   function renderEvidence(list) {
     var container = document.getElementById('evidence-list');
-    document.getElementById('evidence-count').textContent = list.length + ' item(s)';
+    document.getElementById('evidence-count').textContent = list.length + ' item(s) · renderer 20261012evidence41';
     container.innerHTML = '';
     if (!list.length) {
       container.appendChild(emptyState('No evidence has been collected yet. Evidence collection has not started for this case.'));
@@ -1050,7 +1050,7 @@
   // ---------------------------------------------------------------
 
   function fetchJson(path) {
-    return fetch(path).then(function (res) {
+    return fetch(path + (path.indexOf('?') === -1 ? '?' : '&') + 'v=20261012evidence41', { cache: 'no-store' }).then(function (res) {
       if (!res.ok) throw new Error(path + ' - HTTP ' + res.status);
       return res.json();
     });
