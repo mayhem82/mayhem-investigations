@@ -507,5 +507,17 @@
     "relationships": [
       "SRC-0023"
     ]
+  },
+  {
+    "evidence_id": "EV-0036",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0024",
+    "evidence_description": "Transport for NSW Objective RegTech contract CAN-106763 for continuous camera enforcement and cashback systems support; published value $4,630,815 including GST; 29 Sep 2025 to 30 Jun 2026.",
+    "verification_state": "Official public notice reviewed; archive and contract annexures pending",
+    "classification": "Official procurement observation; no misconduct inferred",
+    "relationships": [
+      "SRC-0024"
+    ]
   }
 ]
