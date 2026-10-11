@@ -263,5 +263,17 @@
     "relationships": [
       "SRC-0009"
     ]
+  },
+  {
+    "evidence_id": "EV-0016",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0010",
+    "evidence_description": "NSW guidance on identifying AI instructs agencies to register solutions that use or may use AI, and to document determinations that AI is not used, with review when features or use changes.",
+    "verification_state": "Archived source text reviewed",
+    "classification": "Source-supported observation",
+    "relationships": [
+      "SRC-0010"
+    ]
   }
 ]
