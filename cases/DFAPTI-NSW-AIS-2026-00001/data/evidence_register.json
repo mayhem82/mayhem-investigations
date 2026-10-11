@@ -519,5 +519,17 @@
     "relationships": [
       "SRC-0024"
     ]
+  },
+  {
+    "evidence_id": "EV-0037",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0025",
+    "evidence_description": "Transport for NSW FAES RFP WS5766247796 seeks camera incident ingestion, adjudication, external integrations and AI-assisted decisioning; RFP is not proof of awarded or deployed capability.",
+    "verification_state": "Official public notice reviewed; archive and contract annexures pending",
+    "classification": "Official procurement observation; no misconduct inferred",
+    "relationships": [
+      "SRC-0025"
+    ]
   }
 ]
