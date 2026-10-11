@@ -251,5 +251,17 @@
       "EV-0006",
       "EV-0012"
     ]
+  },
+  {
+    "evidence_id": "EV-0015",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0009",
+    "evidence_description": "The NSW AI Assessment Framework states that the AIAF Platform is mandatory from 30 September 2026 for registration of NSW Government AI use cases. High and critical risk cases receive additional review.",
+    "verification_state": "Archived source text reviewed",
+    "classification": "Source-supported observation",
+    "relationships": [
+      "SRC-0009"
+    ]
   }
 ]
