@@ -125,7 +125,15 @@
       "EV-0028",
       "EV-0029",
       "EV-0032",
-      "EV-0033"
+      "EV-0033",
+      "EV-0034",
+      "EV-0035",
+      "EV-0036",
+      "EV-0037",
+      "EV-0038",
+      "EV-0039",
+      "EV-0040",
+      "EV-0041"
     ],
     "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
     "dependencies": [],
