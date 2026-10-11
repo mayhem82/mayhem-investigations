@@ -397,5 +397,17 @@
       "SRC-0016",
       "EV-0025"
     ]
+  },
+  {
+    "evidence_id": "EV-0027",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0017",
+    "evidence_description": "NSW procurement award SOH-1065A identifies Sydney Opera House contract with AerVision Technologies Pty Ltd for video analytics, $606,000 including GST, from 11 September 2023 to 11 September 2026. Analytics methods and data recipients are unspecified.",
+    "verification_state": "Official award notice reviewed; archive pending",
+    "classification": "Confirmed contract award",
+    "relationships": [
+      "SRC-0017"
+    ]
   }
 ]
