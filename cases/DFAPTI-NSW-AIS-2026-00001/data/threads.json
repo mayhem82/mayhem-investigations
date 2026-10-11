@@ -51,8 +51,12 @@
   {
     "thread_id": "THR-05",
     "name": "AI-derived identifiers and secondary processing",
-    "status": "Not Started",
-    "supporting_evidence": [],
+    "status": "Evidence Ingested",
+    "supporting_evidence": [
+      "EV-0015",
+      "EV-0023",
+      "EV-0026"
+    ],
     "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
     "dependencies": [],
     "completion_state": "Not Complete"
