@@ -56,7 +56,10 @@
     "question_id": "Q-0005",
     "question": "Which safeguards prevent unrelated civilian footage from being indexed or searched beyond the original incident?",
     "why_exists": "Operator-defined preventive surveillance governance scope; not an allegation of an actual incident.",
-    "evidence_creating_question": [],
+    "evidence_creating_question": [
+      "EV-0015",
+      "EV-0029"
+    ],
     "evidence_required_to_resolve": "Primary-source legislation, policies, contracts, technical specifications and auditable records.",
     "likely_source": "NSW legislation, NSW Police policy and procurement records, privacy regulators, vendor technical documentation",
     "status": "Open",
