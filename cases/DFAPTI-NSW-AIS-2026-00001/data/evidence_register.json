@@ -299,5 +299,18 @@
     "relationships": [
       "SRC-0004"
     ]
+  },
+  {
+    "evidence_id": "EV-0019",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0004",
+    "evidence_description": "The IPC fact sheet describes PPIP Regulation exemptions relevant to public-place council CCTV and live transmission to NSW Police. Scope and applicability to any identified installation remain unverified.",
+    "verification_state": "Official archived source text reviewed",
+    "classification": "Source-supported observation",
+    "relationships": [
+      "SRC-0004",
+      "EV-0018"
+    ]
   }
 ]
