@@ -543,5 +543,17 @@
     "relationships": [
       "SRC-0026"
     ]
+  },
+  {
+    "evidence_id": "EV-0039",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0027",
+    "evidence_description": "Youth Justice NSW Axon body-worn camera procurement notice records negotiated unlimited data storage and retention requirements; exact operational retention practice not established.",
+    "verification_state": "Official public notice reviewed; archive and contract annexures pending",
+    "classification": "Official procurement observation; no misconduct inferred",
+    "relationships": [
+      "SRC-0027"
+    ]
   }
 ]
