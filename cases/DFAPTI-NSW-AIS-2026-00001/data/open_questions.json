@@ -3,7 +3,11 @@
     "question_id": "Q-0001",
     "question": "What NSW laws regulate private CCTV disclosure to police and subsequent contractor access?",
     "why_exists": "Operator-defined preventive surveillance governance scope; not an allegation of an actual incident.",
-    "evidence_creating_question": [],
+    "evidence_creating_question": [
+      "EV-0018",
+      "EV-0019",
+      "EV-0020"
+    ],
     "evidence_required_to_resolve": "Primary-source legislation, policies, contracts, technical specifications and auditable records.",
     "likely_source": "NSW legislation, NSW Police policy and procurement records, privacy regulators, vendor technical documentation",
     "status": "Open",
