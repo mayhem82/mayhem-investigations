@@ -324,5 +324,17 @@
     "relationships": [
       "SRC-0003"
     ]
+  },
+  {
+    "evidence_id": "EV-0021",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0005",
+    "evidence_description": "The NSW IPC July 2026 fact sheet describes audiovisual records including CCTV, body-camera, dashcam and drone footage as government information when held by agencies. It addresses records management, retention and access under applicable legislation.",
+    "verification_state": "Archived official source text reviewed; application to specific agencies unverified",
+    "classification": "Source-supported observation",
+    "relationships": [
+      "SRC-0005"
+    ]
   }
 ]
