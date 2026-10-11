@@ -531,5 +531,17 @@
     "relationships": [
       "SRC-0025"
     ]
+  },
+  {
+    "evidence_id": "EV-0038",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0026",
+    "evidence_description": "Sydney Trains Indra Australia CCTV integration and maintenance contract CW2588164, 1 Jul 2024 to 29 Jun 2027; notice shows amended estimated value $26,345,000 including GST.",
+    "verification_state": "Official public notice reviewed; archive and contract annexures pending",
+    "classification": "Official procurement observation; no misconduct inferred",
+    "relationships": [
+      "SRC-0026"
+    ]
   }
 ]
