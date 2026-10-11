@@ -445,5 +445,17 @@
     "relationships": [
       "SRC-0020"
     ]
+  },
+  {
+    "evidence_id": "EV-0031",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0021",
+    "evidence_description": "NSW standing offer SON-115332 names Scyne Advisory Pty Ltd for ICT professional services supporting Transport for NSW Asset AI program development, effective 20 February to 20 August 2026. It does not establish surveillance footage processing.",
+    "verification_state": "Official standing offer reviewed; archive pending",
+    "classification": "Published standing offer",
+    "relationships": [
+      "SRC-0021"
+    ]
   }
 ]
