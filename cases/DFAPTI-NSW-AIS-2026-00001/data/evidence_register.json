@@ -567,5 +567,17 @@
     "relationships": [
       "SRC-0028"
     ]
+  },
+  {
+    "evidence_id": "EV-0041",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0029",
+    "evidence_description": "Transport for NSW 2025 FAES EOI describes existing Camera Enforcement System managing camera enforcement evidence and interfaces, with planned replacement; procurement description not deployment proof.",
+    "verification_state": "Official public notice reviewed; archive and contract annexures pending",
+    "classification": "Official procurement observation; no misconduct inferred",
+    "relationships": [
+      "SRC-0029"
+    ]
   }
 ]
