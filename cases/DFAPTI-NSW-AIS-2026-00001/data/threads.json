@@ -167,7 +167,9 @@
     "supporting_evidence": [
       "EV-0022",
       "EV-0023",
-      "EV-0027"
+      "EV-0027",
+      "EV-0038",
+      "EV-0040"
     ],
     "outstanding_work": "Examine device firmware, VMS/NVR analytics, cloud endpoints, software permissions, remote access, derived data retention, vendor contracts and independent audits. Distinguish built-in, inadequately disclosed, unauthorised and deliberately concealed functionality. No deployment or wrongdoing presumed.",
     "dependencies": [],
