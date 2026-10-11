@@ -312,5 +312,17 @@
       "SRC-0004",
       "EV-0018"
     ]
+  },
+  {
+    "evidence_id": "EV-0020",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0003",
+    "evidence_description": "The July 2026 NSW IPC fact sheet states that GIPA Act section 121 requires certain public service contracts with private sector entities to give agencies immediate access to specified contractor-held information, subject to statutory exceptions.",
+    "verification_state": "Archived official source text reviewed; applicability to specific contracts unverified",
+    "classification": "Source-supported observation",
+    "relationships": [
+      "SRC-0003"
+    ]
   }
 ]
