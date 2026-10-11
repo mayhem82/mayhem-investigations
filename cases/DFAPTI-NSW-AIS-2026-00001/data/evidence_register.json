@@ -409,5 +409,17 @@
     "relationships": [
       "SRC-0017"
     ]
+  },
+  {
+    "evidence_id": "EV-0028",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0018",
+    "evidence_description": "NSW ICT Services Scheme update history states revised contract templates include AI clauses effective 23 August 2025 for qualifying new procurements or approved strategies.",
+    "verification_state": "Official procurement guidance reviewed; archive pending",
+    "classification": "Published procurement governance requirement",
+    "relationships": [
+      "SRC-0018"
+    ]
   }
 ]
