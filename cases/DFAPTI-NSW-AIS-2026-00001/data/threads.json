@@ -38,8 +38,12 @@
   {
     "thread_id": "THR-04",
     "name": "Contractor and subcontractor access",
-    "status": "Not Started",
-    "supporting_evidence": [],
+    "status": "Evidence Ingested",
+    "supporting_evidence": [
+      "EV-0020",
+      "EV-0025",
+      "EV-0027"
+    ],
     "outstanding_work": "Identify and verify primary-source material; do not infer deployment or misuse.",
     "dependencies": [],
     "completion_state": "Not Complete"
