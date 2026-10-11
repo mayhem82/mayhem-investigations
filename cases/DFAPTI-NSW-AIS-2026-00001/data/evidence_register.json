@@ -384,5 +384,18 @@
     "relationships": [
       "SRC-0015"
     ]
+  },
+  {
+    "evidence_id": "EV-0026",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0016",
+    "evidence_description": "TfNSW tender WS4878301930 describes one-to-one and one-to-many facial matching and support for agency identification requests. It does not establish live CCTV matching.",
+    "verification_state": "Official tender reviewed; archive pending",
+    "classification": "Published procurement requirement",
+    "relationships": [
+      "SRC-0016",
+      "EV-0025"
+    ]
   }
 ]
