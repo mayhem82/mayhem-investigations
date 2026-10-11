@@ -433,5 +433,17 @@
     "relationships": [
       "SRC-0019"
     ]
+  },
+  {
+    "evidence_id": "EV-0030",
+    "case_id": "DFAPTI-NSW-AIS-2026-00001",
+    "recording_date": "2026-10-12",
+    "source_register_reference": "SRC-0020",
+    "evidence_description": "Transport for NSW procurement WS5766247796 seeks a future automated enforcement system to ingest and process camera-captured enforcement incidents, with adjudication, reporting and access control. The notice does not identify an awarded contractor.",
+    "verification_state": "Official tender reviewed; archive pending",
+    "classification": "Published procurement requirement; no award verified",
+    "relationships": [
+      "SRC-0020"
+    ]
   }
 ]
