@@ -970,5 +970,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0109",
+    "timestamp": "2026-10-12T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items (723 anchored, 85.3%) since the last sub-pass - no genuine DFAPTI collection occurred in between. Tried a tenth lens, not attempted by any of the nine prior sub-passes: cross-referenced data/open_questions.json's own 18-item Q-00NN case register (distinct from the external Question Bank's Q1-Q763) against all 96 paths via shared evidence anchors. All 18 resolved to at least one existing path with no zero-match question. Read Q-0008 and Q-0009 - the two narrowest, least coincidental-looking matches - in full against AR-009 and AR-002 respectively and confirmed genuine substantive coverage (AR-009 states exactly the headline-quote-provenance risk Q-0008 raises; AR-002 states directly that the petition carries no formal NSW Parliament petition status, exactly what Q-0009 asks). No new path, determination or cross-path observation added. Checked both public-facing HTML files for framing drift against the unchanged 96-path/723-anchor/85.3% figures: both already correct. See DEC-0067 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
