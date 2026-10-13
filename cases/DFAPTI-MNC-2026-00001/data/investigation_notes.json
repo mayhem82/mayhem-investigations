@@ -979,5 +979,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0110",
+    "timestamp": "2026-10-13T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items (723 anchored, 85.3%) since the last sub-pass - no genuine DFAPTI collection occurred in between. Tried an eleventh and twelfth lens, not attempted by any of the ten prior sub-passes: cross-referenced data/chronology.json's 21 CHR-00NN entries' supporting_evidence against all 96 paths' anchors (all 21 resolved, no zero-match entry), and data/contradictions.json's 2 CTR-00NN entries' supporting_evidence/opposing_evidence against the same (both already fully anchored and already restated in dfapta/analysis.json's own contradictions_preserved array, CDR-001/CDR-002, with no drift between the two). Also re-read preserved/answer-register-l-to-t-continuity-break-variants-2026-08-17.txt - the one preserved file never previously named in evidence_basis_note - and confirmed via its own header and DEC-0011 that it is a deliberately-excluded continuity-break artifact (four duplicate regenerations of already-ingested material, no new citation or fact), not an unread source. No new path, determination or cross-path observation added. Checked both public-facing HTML files for framing drift against the unchanged 96-path/723-anchor/85.3% figures: both already correct. With twelve lenses now exhausted and the register unchanged since 2026-08-25, further movement depends on new DFAPTI collection, not a further analytical lens. See DEC-0068 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
