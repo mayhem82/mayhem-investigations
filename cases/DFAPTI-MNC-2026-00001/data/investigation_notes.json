@@ -988,5 +988,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0111",
+    "timestamp": "2026-10-14T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items (723 anchored, 85.3%) since the last sub-pass. Rather than accept the twelve-lens-exhausted conclusion on trust, independently re-derived three of the largest previously-closed unanchored clusters directly from primary source text rather than from the prior notes' own prose: preserved/snapshot-03-2026-08-14.txt's F-021-F-043 range (EV-0220-EV-0262), preserved/answer-register-a-to-k-run001.txt's Q48-Q121 range (EV-0310-EV-0386), and preserved/ae-primary-record-acquisition-register-run001.txt's Q699-Q733 range (EV-0787-EV-0821). Each still-unanchored item's own evidence_description was read against the specific path text it is said to restate; all were confirmed genuine, checked restatements, with no previously-unexamined item surfaced and no drift from DEC-0040/DEC-0042/DEC-0043/DEC-0047/DEC-0048/DEC-0049/DEC-0052/DEC-0058/DEC-0059's prior closures. Also re-ran the repository-wide Language-Discipline/overreach-controls risky-term grep across all 96 paths' full text and confirmed all ten hits (AR-014, AR-015, AR-016, AR-025, AR-030, AR-043, AR-055, AR-059, AR-084, AR-094) remain disciplined negations or factual references to NSW's own external (LECC) complaint architecture, never a claim of intent. This is independent re-verification of existing closures, not a new analytical lens, and it reaches the same conclusion the last six sub-passes reached: further movement depends on new DFAPTI collection, not a further analytical pass over the same frozen 848 items. No new path, determination or cross-path observation added. See DEC-0069 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
