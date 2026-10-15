@@ -23,9 +23,9 @@
     "last_checked": "2026-10-15",
     "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
     "preservation_status": "Preserved",
-    "hash_status": "SHA-256: 9ac0b9bc8665e0c1715d1fae64d2d47095af8ec715a92a591df7c4122768fd4c",
+    "hash_status": "SHA-256: 0b91931d289774c9f5881d12ea6a3039f300c8f681b0bc2e77e6e842e378c640",
     "associated_thread": "THR-04",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0002/9ac0b9bc8665e0c1715d1fae64d2d47095af8ec715a92a591df7c4122768fd4c.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0002/0b91931d289774c9f5881d12ea6a3039f300c8f681b0bc2e77e6e842e378c640.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0003",
@@ -37,9 +37,9 @@
     "last_checked": "2026-10-15",
     "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
     "preservation_status": "Preserved",
-    "hash_status": "SHA-256: 55f8b67e78b8a32b870fba599905971c50f6c9cbcfb4c2a66a6591426c1faa9c",
+    "hash_status": "SHA-256: 9e7a3739c05be8ec08919c11085ae42c1911c521079d5fbb6278b7ccb77a8219",
     "associated_thread": "THR-10",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0003/55f8b67e78b8a32b870fba599905971c50f6c9cbcfb4c2a66a6591426c1faa9c.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0003/9e7a3739c05be8ec08919c11085ae42c1911c521079d5fbb6278b7ccb77a8219.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0004",
@@ -51,9 +51,9 @@
     "last_checked": "2026-10-15",
     "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
     "preservation_status": "Preserved",
-    "hash_status": "SHA-256: cbdb7176729338b6718eac0a043e86adb1a686f52d998c63e9fd1c166938ac2d",
+    "hash_status": "SHA-256: a5f1cf989663db96ca7e03b4a5a2aa9fb11b00e0a7db20628fd3961c92689db7",
     "associated_thread": "THR-02",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0004/cbdb7176729338b6718eac0a043e86adb1a686f52d998c63e9fd1c166938ac2d.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0004/a5f1cf989663db96ca7e03b4a5a2aa9fb11b00e0a7db20628fd3961c92689db7.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0005",
@@ -65,9 +65,9 @@
     "last_checked": "2026-10-15",
     "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
     "preservation_status": "Preserved",
-    "hash_status": "SHA-256: ebd8b131946342fcda3c6397c59d1bf25d037fd3320bb08fd8b1aa6d991d55fa",
+    "hash_status": "SHA-256: 2f3f75f25d100ea2e059cdeb52f5fc906c6e64cd4ecbf193b9a5fb36d71d57cb",
     "associated_thread": "THR-09",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0005/ebd8b131946342fcda3c6397c59d1bf25d037fd3320bb08fd8b1aa6d991d55fa.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0005/2f3f75f25d100ea2e059cdeb52f5fc906c6e64cd4ecbf193b9a5fb36d71d57cb.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0006",
@@ -79,9 +79,9 @@
     "last_checked": "2026-10-15",
     "current_version": "Research lead; source version and substantive claims require verification",
     "preservation_status": "Preserved",
-    "hash_status": "SHA-256: b1003a998fa549b098aafe61f7280e88d7091b8b9ec9672a817e673d8c9e1d5b",
+    "hash_status": "SHA-256: 3ce9068b11d49ccea82d376daa26232c4f4d83eea709ab887befa5c5538bedad",
     "associated_thread": "THR-13",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0006/b1003a998fa549b098aafe61f7280e88d7091b8b9ec9672a817e673d8c9e1d5b.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0006/3ce9068b11d49ccea82d376daa26232c4f4d83eea709ab887befa5c5538bedad.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0007",
@@ -149,9 +149,9 @@
     "last_checked": "2026-10-15",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
-    "hash_status": "SHA-256: 66fe2271d7a3f306f6b0e0f967fe069c7bde65bab4b5c5cf177d306e81d16aec",
+    "hash_status": "SHA-256: 245081fde8b20734ef4d45031da5be59da6b839d04399396884ff1c0650c9f25",
     "associated_thread": "THR-08",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0011/66fe2271d7a3f306f6b0e0f967fe069c7bde65bab4b5c5cf177d306e81d16aec.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0011/245081fde8b20734ef4d45031da5be59da6b839d04399396884ff1c0650c9f25.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0012",
@@ -163,9 +163,9 @@
     "last_checked": "2026-10-15",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
-    "hash_status": "SHA-256: 041815e4ff78cb25af66940f985b5fdef05074c1c2136eb1257f6770e9c37648",
+    "hash_status": "SHA-256: b80d7a703055723267c75f7f733a00b7c1fe66990dc42253590cb6ad7b19eaed",
     "associated_thread": "THR-08",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0012/041815e4ff78cb25af66940f985b5fdef05074c1c2136eb1257f6770e9c37648.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0012/b80d7a703055723267c75f7f733a00b7c1fe66990dc42253590cb6ad7b19eaed.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0013",
@@ -177,9 +177,9 @@
     "last_checked": "2026-10-15",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
-    "hash_status": "SHA-256: b678bb6f6155150b464cf5f6d0db596130a1b2a2ab10c1f148aa22bfe792be10",
+    "hash_status": "SHA-256: bc64486cb9d2410c42fa92ca9461b29f0e233de06373f0adcc7cd4a0a5e7037d",
     "associated_thread": "THR-04",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0013/b678bb6f6155150b464cf5f6d0db596130a1b2a2ab10c1f148aa22bfe792be10.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0013/bc64486cb9d2410c42fa92ca9461b29f0e233de06373f0adcc7cd4a0a5e7037d.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0014",
@@ -247,9 +247,9 @@
     "last_checked": "2026-10-15",
     "current_version": "Public notice reviewed; source byte capture pending",
     "preservation_status": "Preserved",
-    "hash_status": "SHA-256: 5766f1d3af54a5888cf5427eeeeeec26d7facc218d59ded2d0c410d566ac4562",
+    "hash_status": "SHA-256: 59f81e06b5952ceaf5ac5911598de4d327cf785caaeae805a0fc67a6041b21c9",
     "associated_thread": "AI contractor procurement",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0018/5766f1d3af54a5888cf5427eeeeeec26d7facc218d59ded2d0c410d566ac4562.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0018/59f81e06b5952ceaf5ac5911598de4d327cf785caaeae805a0fc67a6041b21c9.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0019",
@@ -261,9 +261,9 @@
     "last_checked": "2026-10-15",
     "current_version": "Public notice reviewed; source byte capture pending",
     "preservation_status": "Preserved",
-    "hash_status": "SHA-256: 85d4215f3abfc6b4f0770605ad758569812e51a7a6f6574d97940b085ff66caa",
+    "hash_status": "SHA-256: 2b52732e86f92ac64261d86f18e7559a00ba2ec315b6c6fae47f3293778b7580",
     "associated_thread": "AI contractor procurement",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0019/85d4215f3abfc6b4f0770605ad758569812e51a7a6f6574d97940b085ff66caa.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0019/2b52732e86f92ac64261d86f18e7559a00ba2ec315b6c6fae47f3293778b7580.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0020",
