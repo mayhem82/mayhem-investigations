@@ -1006,5 +1006,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0113",
+    "timestamp": "2026-10-17T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items (723 anchored, 85.3%) and source_register.json unchanged at 96 entries (last_checked tops out 2026-08-25) since the last sub-pass - independently reconfirmed against the live files. Independently recomputed the unanchored-evidence list (125 of 848, unchanged) and confirmed it matches DEC-0070's own recorded list item-for-item. NOTE-0106 already recorded twelve analytical lenses as exhausted, and the two sub-passes since (DEC-0069/NOTE-0111, DEC-0070/NOTE-0112) each independently re-verified that conclusion with no drift. Rather than repeat an already-exhausted lens a third time, checked for a genuinely unexplored thirteenth one: opened in full the two case data files never previously named by file in any prior sub-pass's note, data/change_log.json (8 entries) and data/search_log.json (58 entries). Neither carries a supporting_evidence/evidence-linkage field comparable to threads.json/chronology.json/contradictions.json/open_questions.json (the four files the twelve prior lenses cross-referenced against the 96-path anchor set): change_log.json's entries are pure file-change metadata (files touched, author, date) and search_log.json's entries are DFAPTI-stage search-audit records (search terms, engine, date, results reviewed/preserved) - neither has evidentiary content an AR path could anchor or fail to anchor. Confirmed, rather than assumed, that no thirteenth lens exists there, and declined to force one. No new path, determination or cross-path observation added. Checked both public-facing HTML files for framing drift against the unchanged 96-path/723-anchor/85.3% figures: both already correct. `node scripts/validate.js` run before and after this pass's own edit: the same 6 pre-existing DFAPTI-MNC-2026-00001-scoped errors both times, unchanged - this pass introduced no new validation error. RECURSIVE AUDIT CHECK (SPEC.md §4): DEC-0070 made no correction for this pass to follow up on; checked instead whether its own conclusion had drifted since - it has not: coverage, counts and both HTML files remain exactly as DEC-0070 left them. This is the eighth consecutive sub-pass to reach the same conclusion: further coverage movement is blocked on new evidence entering the register through genuine DFAPTI collection, not on any remaining analytical lens. See DEC-0071 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
