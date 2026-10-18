@@ -1015,5 +1015,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0114",
+    "timestamp": "2026-10-18T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items (723 anchored, 85.3% at the start of this pass) and source_register.json unchanged at 96 entries (last_checked tops out 2026-08-25) since the last sub-pass - independently reconfirmed against the live files. Independently recomputed the unanchored-evidence list (125 of 848, unchanged) and confirmed it matches DEC-0071's own recorded list item-for-item. With twelve analytical lenses already recorded exhausted (NOTE-0106) and three further negative-result passes since (DEC-0069/0070/0071), this pass did not attempt a fourteenth structural lens. Instead it pursued a specific candidate DEC-0049 (2026-09-24) had itself flagged two months earlier but no sub-pass had actually acted on: EV-0147 (F-158, the Law Reform (Vicarious Liability) Act 1983's Crown-liability route for police tort claims), deliberately left unanchored as a freestanding legal-architecture fact, which DEC-0049's own text said \"conceptually pairs with AR-019's already-anchored F-159 [EV-0148, vendor/operator liability limitation] and may combine with a future related finding.\" Read both EV-0147 and EV-0148 in full against AR-019's complete text, and grepped every path's full text for \"liabilit\" (AR-016, AR-043, AR-049, AR-075, AR-088, AR-090) to confirm none already states that NSW civil liability for a PolAir-Remote-connected incident splits across Crown vicarious liability (officer conduct) and separate fault/contract/product-liability law (vendor/integrator/network-provider/remote-operator conduct), or that no public record establishes how the causal fact-finding needed to allocate liability under either track would occur given AR-019.3's own established absence of a chain-of-custody protocol. Confirmed this is a genuine, previously-unstated finding, not a restatement, and added it as a new path, AR-097, directly extending AR-019 (the same treatment NOTE-0088 gave AR-084/085/086 relative to AR-019/AR-030/AR-080). AR-097 anchors EV-0147 (newly anchored) and EV-0148 (already anchored to AR-019). Coverage moves from 723/848 (85.3%) to 724/848 (85.4%); 97 paths, 327 determinations, 39 cross-path observations (unchanged - this is a single-path extension, not a cross-path convergence). Updated both case-facing HTML files to match. node scripts/validate.js run before and after: the same 6 pre-existing DFAPTI-MNC-2026-00001-scoped errors both times, unchanged. See DEC-0072 for the full record, including the recursive-audit check confirming nothing else was left stale by this addition.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0147"
   }
 ]
