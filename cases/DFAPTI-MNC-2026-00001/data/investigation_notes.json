@@ -1042,5 +1042,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0117",
+    "timestamp": "2026-10-21T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items (726 anchored, 85.6%) and source_register.json unchanged at 96 entries since DEC-0074 - independently reconfirmed against the live files. DEC-0074 named snapshot-09 (F-161-F-180, EV-0150-EV-0169) and snapshot-11 (F-201-F-210, EV-0190-EV-0199) as the two remaining candidates for full primary-text re-derivation. Read both preserved snapshot files in full this pass. Snapshot-11: independently re-derived DEC-0074's own six individual mappings (EV-0190/0191/0192/0194/0195/0197 against AR-021/026/028/029/031/038.1/047/049/050/054/055/056/013/005/033/079) directly against the primary text rather than against DEC-0074's note alone, and confirmed all hold with no discrepancy, closing that flag. Snapshot-09: sixteen of its twenty items were already anchored; four were not. EV-0155 (F-166, PPIP Act s23 law-enforcement secondary-use exemption) and EV-0156 (F-167, negative finding on inter-agency imagery sharing) are already paraphrased near-verbatim in AR-020's own analysis prose but had never been added to AR-020's anchors array. EV-0160 (F-171, Closing the Gap Priority Reform Four's data-access expectation) is substantively the same point AR-064.3 already states, missing only from AR-064's anchors array. EV-0164 (F-175, a 2025 BOCSAR finding on DV court actions reflecting detection rather than underlying harm) is a distinct, later, independent corroboration of AR-081.3's existing ascertainment-bias determination - its own text says it 'reinforces the investigation's earlier ascertainment-bias finding' - so it was added as a supporting anchor to AR-081 with one new analysis sentence naming the source, not as a new determination. All four are anchor-list corrections (the same treatment AR-096 gave the snapshot-12 cluster), not new paths or determinations; none was previously resolved either way, so none reopens a closed fact (DEC-0009/DEC-0010). Coverage moves from 726/848 (85.6%) to 730/848 (86.1%); 98 paths, 330 determinations, 39 cross-path observations (unchanged). Updated dfapta/analysis.json's counts and evidence_anchor_coverage map and both case-facing HTML files to match. node scripts/validate.js run before and after: the same 6 pre-existing DFAPTI-MNC-2026-00001-scoped errors both times, unchanged. See DEC-0075 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0164"
   }
 ]
