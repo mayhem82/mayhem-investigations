@@ -1060,5 +1060,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": "EV-0085"
+  },
+  {
+    "note_id": "NOTE-0119",
+    "timestamp": "2026-10-23T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items (732 anchored, 86.3%) and source_register.json unchanged at 96 entries since DEC-0076 - independently reconfirmed against the live files. DEC-0076 confirmed no further named candidate remains outstanding after AR-099 closed the last genuine gap (EV-0084/EV-0085). Rebuilt the full 116-item unanchored list directly from the live register and dfapta/analysis.json's own anchors arrays and traced each item's source range against this case's existing decision history: EV-0033/EV-0833/EV-0845, EV-0189, EV-0190-EV-0197 (excluding EV-0193/EV-0196), the Snapshot 5 twenty-item restatement set, EV-0220-EV-0262, the answer-register restatement range, the answer-register-l-to-t set, and EV-0787-EV-0821 all trace to the same already-closed decisions DEC-0076 cited (DEC-0040/0042/0043/0047/0048/0049/0052/0058/0059/0069/0073/0074). That accounted for 115 of the 116 items.\n\nThe 116th, EV-0203, is not named in DEC-0076's own summary text. Checked it separately rather than assuming it closed by association: traced through DEC-0045, DEC-0056, DEC-0061, DEC-0070 and DEC-0074 (DEC-0074 itself notes 'the same pattern already established for EV-0203'), confirming its content (business case, trial risk register, stop/go instrument, expansion-threshold document, termination/decommissioning plan undisclosed) is already covered by distributed anchors across AR-021, AR-055 and AR-056 rather than any single path - a deliberate prior design choice, not an unexamined gap.\n\nNo new analysis path, determination, or cross_path_observation was added. No remedy, recipient, or 'what to ask for' content was added (DEC-0008); no previously-resolved fact was reopened as newly open (DEC-0009/DEC-0010) - EV-0203 was independently re-verified through its own decision chain rather than left unchecked merely because DEC-0076's prose did not name it. Coverage, counts (99 paths, 334 determinations, 39 cross-path observations) and both case-facing HTML files remain unchanged and were confirmed to already state the current figures, so no edit was required. node scripts/validate.js run before and after: the same 6 pre-existing DFAPTI-MNC-2026-00001-scoped errors both times, unchanged. See DEC-0077 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": "EV-0203"
   }
 ]
