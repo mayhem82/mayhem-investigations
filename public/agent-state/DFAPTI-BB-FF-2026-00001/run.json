@@ -1,0 +1,70 @@
+{
+  "agent": "MAYHEM Government Record Agent",
+  "version": "0.1",
+  "case_id": "DFAPTI-BB-FF-2026-00001",
+  "seed": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story",
+  "allowed_hosts": [
+    "kempsey.nsw.gov.au",
+    "www.kempsey.nsw.gov.au"
+  ],
+  "glossary_gate": {
+    "source": "https://mayhem82.github.io/mayhem-investigations/glossary/index.html",
+    "entries_loaded": 450,
+    "error": null,
+    "state": "OPEN",
+    "sha256": "db2f6097b7025b64242c7d159ebbdec1b013a19e7ddf48868e2c008a79bf70a0",
+    "preserved_file": "preserved/master-glossary-db2f6097b7025b64.json"
+  },
+  "documents_preserved": 0,
+  "links_recorded": 14,
+  "documentary_leads": 7,
+  "errors": [
+    {
+      "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-June-2025",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-draft-minutes.pdf",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/search?query=Bellbrook+flying+fox+council+meeting",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/Search?query=Bellbrook+flying+fox+council+meeting",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/search?q=Bellbrook+flying+fox+council+meeting",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    },
+    {
+      "url": "https://www.kempsey.nsw.gov.au/Search?q=Bellbrook+flying+fox+council+meeting",
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
+    }
+  ],
+  "resume_state": {
+    "resumed_from": null,
+    "prior_hashes_loaded": 0,
+    "unresolved_leads_carried": 7
+  },
+  "continuation_policy": "AUTONOMOUS_BOUNDED_CONTINUATION",
+  "authority_state": "CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED",
+  "workflow_run_id": "40030268773",
+  "workflow_commit": "95ef377c152daa26852ee36cb4b06ded4644fe1a",
+  "workflow_event": "push",
+  "workflow_updated_at": "2026-10-23T21:56:22.338229Z",
+  "workflow_state": "COMPLETED"
+}

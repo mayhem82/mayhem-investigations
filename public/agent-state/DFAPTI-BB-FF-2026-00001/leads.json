@@ -1,0 +1,110 @@
+[
+  {
+    "from": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250520-May-Council-meeting-wrap-story",
+    "kind": "retrieval_required",
+    "value": "Official source blocked to GitHub runner",
+    "specificity_score": 10,
+    "context": "Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.",
+    "glossary_resolution": "NOT_APPLICABLE",
+    "glossary_source": null,
+    "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
+    "next_urls": [
+      "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-June-2025",
+      "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-draft-minutes.pdf",
+      "https://www.kempsey.nsw.gov.au/search?query=Bellbrook+flying+fox+council+meeting",
+      "https://www.kempsey.nsw.gov.au/Search?query=Bellbrook+flying+fox+council+meeting",
+      "https://www.kempsey.nsw.gov.au/search?q=Bellbrook+flying+fox+council+meeting",
+      "https://www.kempsey.nsw.gov.au/Search?q=Bellbrook+flying+fox+council+meeting"
+    ],
+    "continuation_state": "DISCOVER_AND_CONTINUE",
+    "status": "UNRESOLVED_LEAD"
+  },
+  {
+    "from": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-June-2025",
+    "kind": "retrieval_required",
+    "value": "Official source blocked to GitHub runner",
+    "specificity_score": 10,
+    "context": "Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.",
+    "glossary_resolution": "NOT_APPLICABLE",
+    "glossary_source": null,
+    "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
+    "next_urls": [
+      "https://www.kempsey.nsw.gov.au/search?query=Bellbrook+flying+fox+council+meeting",
+      "https://www.kempsey.nsw.gov.au/Search?query=Bellbrook+flying+fox+council+meeting",
+      "https://www.kempsey.nsw.gov.au/search?q=Bellbrook+flying+fox+council+meeting",
+      "https://www.kempsey.nsw.gov.au/Search?q=Bellbrook+flying+fox+council+meeting"
+    ],
+    "continuation_state": "DISCOVER_AND_CONTINUE",
+    "status": "UNRESOLVED_LEAD"
+  },
+  {
+    "from": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-draft-minutes.pdf",
+    "kind": "retrieval_required",
+    "value": "Official source blocked to GitHub runner",
+    "specificity_score": 10,
+    "context": "Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.",
+    "glossary_resolution": "NOT_APPLICABLE",
+    "glossary_source": null,
+    "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
+    "next_urls": [
+      "https://www.kempsey.nsw.gov.au/search?query=Bellbrook+flying+fox+council+meeting",
+      "https://www.kempsey.nsw.gov.au/Search?query=Bellbrook+flying+fox+council+meeting",
+      "https://www.kempsey.nsw.gov.au/search?q=Bellbrook+flying+fox+council+meeting",
+      "https://www.kempsey.nsw.gov.au/Search?q=Bellbrook+flying+fox+council+meeting"
+    ],
+    "continuation_state": "DISCOVER_AND_CONTINUE",
+    "status": "UNRESOLVED_LEAD"
+  },
+  {
+    "from": "https://www.kempsey.nsw.gov.au/search?query=Bellbrook+flying+fox+council+meeting",
+    "kind": "retrieval_required",
+    "value": "Official source blocked to GitHub runner",
+    "specificity_score": 10,
+    "context": "Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.",
+    "glossary_resolution": "NOT_APPLICABLE",
+    "glossary_source": null,
+    "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
+    "next_urls": [],
+    "continuation_state": "DISCOVERY_EXHAUSTED",
+    "status": "UNRESOLVED_LEAD"
+  },
+  {
+    "from": "https://www.kempsey.nsw.gov.au/Search?query=Bellbrook+flying+fox+council+meeting",
+    "kind": "retrieval_required",
+    "value": "Official source blocked to GitHub runner",
+    "specificity_score": 10,
+    "context": "Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.",
+    "glossary_resolution": "NOT_APPLICABLE",
+    "glossary_source": null,
+    "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
+    "next_urls": [],
+    "continuation_state": "DISCOVERY_EXHAUSTED",
+    "status": "UNRESOLVED_LEAD"
+  },
+  {
+    "from": "https://www.kempsey.nsw.gov.au/search?q=Bellbrook+flying+fox+council+meeting",
+    "kind": "retrieval_required",
+    "value": "Official source blocked to GitHub runner",
+    "specificity_score": 10,
+    "context": "Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.",
+    "glossary_resolution": "NOT_APPLICABLE",
+    "glossary_source": null,
+    "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
+    "next_urls": [],
+    "continuation_state": "DISCOVERY_EXHAUSTED",
+    "status": "UNRESOLVED_LEAD"
+  },
+  {
+    "from": "https://www.kempsey.nsw.gov.au/Search?q=Bellbrook+flying+fox+council+meeting",
+    "kind": "retrieval_required",
+    "value": "Official source blocked to GitHub runner",
+    "specificity_score": 10,
+    "context": "Direct acquisition returned HTTP 403. Preserve as unresolved acquisition lead; do not treat as missing evidence and do not halt the investigation.",
+    "glossary_resolution": "NOT_APPLICABLE",
+    "glossary_source": null,
+    "suggested_search_query": "site:www.kempsey.nsw.gov.au Bellbrook \"flying fox\" council meeting",
+    "next_urls": [],
+    "continuation_state": "DISCOVERY_EXHAUSTED",
+    "status": "UNRESOLVED_LEAD"
+  }
+]
