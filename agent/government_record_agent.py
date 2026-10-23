@@ -3,8 +3,9 @@ import argparse, hashlib, json, os, re, time
 from urllib.error import HTTPError
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse, urldefrag, quote_plus
-from urllib.request import Request, urlopen
+from urllib.request import Request, build_opener, HTTPRedirectHandler
 from io import BytesIO
+from pathlib import Path
 try:
     from pypdf import PdfReader
 except ImportError:
@@ -22,7 +23,7 @@ OFFICIAL_FALLBACKS={
 def load_glossary():
     local_path=os.path.join("glossary","data.json")
     try:
-        raw=open(local_path,"rb").read()
+        raw=Path(local_path).read_bytes()
         data=json.loads(raw.decode("utf-8"))
         entries={}
         for item in data.get("glossary",[]):
@@ -53,6 +54,37 @@ def discovery_urls(host, query):
     q=quote_plus(query)
     return ["https://"+host+p.format(q=q) for p in DISCOVERY_PATHS]
 
+MAX_BYTES = 20_000_000
+
+def require_allowed(url, hosts):
+    p = urlparse(url)
+    if (p.scheme not in ("http", "https") or p.username or p.password
+            or (p.hostname or "").lower() not in hosts
+            or p.port not in (None, 80 if p.scheme == "http" else 443)):
+        raise ValueError("URL outside approved scope: " + url)
+    return url
+
+class ScopedRedirect(HTTPRedirectHandler):
+    def __init__(self, hosts):
+        self.hosts = hosts
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        require_allowed(newurl, self.hosts)
+        if urlparse(req.full_url).scheme == "https" and urlparse(newurl).scheme != "https":
+            raise ValueError("HTTPS downgrade redirect refused")
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+def read_complete(response, limit=MAX_BYTES):
+    body = response.read(limit + 1)
+    if len(body) > limit:
+        raise ValueError("Oversize response; no partial preservation")
+    length = response.headers.get("Content-Length")
+    if length is not None and int(length) != len(body):
+        raise ValueError("Incomplete response; no partial preservation")
+    if not body:
+        raise ValueError("Empty response; not preserved")
+    return body
+
 
 def main():
     ap=argparse.ArgumentParser()
@@ -62,55 +94,75 @@ def main():
     ap.add_argument("--resume",default=None,help="Prior agent-output directory to resume from")
     a=ap.parse_args()
     hosts={h.strip().lower() for h in a.hosts.split(",") if h.strip()}
-    seed=norm(a.seed); sh=urlparse(seed).hostname.lower()
-    if sh not in hosts: raise SystemExit("Seed host must be explicitly allowed")
+    seed=norm(a.seed)
+    require_allowed(seed, hosts)
+    if a.max_docs < 1: raise SystemExit("--max-docs must be positive")
+    opener = build_opener(ScopedRedirect(hosts))
     os.makedirs(os.path.join(a.out,"preserved"),exist_ok=True)
     glossary,glossary_error,glossary_raw,glossary_sha=load_glossary()
     glossary_preserved_file=None
     if glossary_raw is not None:
         glossary_preserved_file=f"preserved/master-glossary-{glossary_sha[:16]}.json"
-        open(os.path.join(a.out,glossary_preserved_file),"wb").write(glossary_raw)
+        Path(a.out,glossary_preserved_file).write_bytes(glossary_raw)
     q=[seed]; seen=set(); docs=[]; edges=[]; errors=[]; leads=[]; known_hashes=set(); resumed_from=None
-    prior_frontier={}
+    prior_frontier={}; retry_urls=[]
     if a.resume:
         prior_docs=os.path.join(a.resume,"documents.json")
         prior_leads=os.path.join(a.resume,"leads.json")
         prior_frontier_path=os.path.join(a.resume,"frontier.json")
         if os.path.exists(prior_frontier_path):
             try:
-                prior_frontier=json.load(open(prior_frontier_path))
+                prior_frontier=json.loads(Path(prior_frontier_path).read_text(encoding="utf-8"))
+                if prior_frontier.get("case_id") != a.case:
+                    raise ValueError("Resume case_id mismatch")
+                if prior_frontier.get("seed", seed) != seed or set(prior_frontier.get("allowed_hosts", hosts)) != hosts:
+                    raise ValueError("Resume scope mismatch")
+                seen = set(prior_frontier.get("seen_urls", []))
+                known_hashes = set(prior_frontier.get("known_hashes", []))
+                q = list(dict.fromkeys(prior_frontier.get("pending_urls", []) + prior_frontier.get("retry_urls", [])))
+                # Legacy frontiers did not persist the queue; restart once to recover it.
+                if "pending_urls" not in prior_frontier:
+                    q=[seed]; seen=set()
+                for v in q: require_allowed(v, hosts)
                 for lead in prior_frontier.get("unresolved_leads",[]):
                     for v in lead.get("next_urls",[]):
                         if norm(v) and (urlparse(v).hostname or "").lower() in hosts and v not in q:
                             q.append(v)
-            except Exception as e: errors.append({"resume":a.resume,"error":"Prior frontier unreadable: "+str(e)[:400]})
+            except Exception as e: raise SystemExit("Resume rejected: " + str(e))
+        else:
+            raise SystemExit("Resume requires a case-bound frontier.json")
         if os.path.exists(prior_docs):
             try:
-                old=json.load(open(prior_docs))
-                known_hashes={x.get("sha256") for x in old if x.get("sha256")}
+                old=json.loads(Path(prior_docs).read_text(encoding="utf-8"))
+                known_hashes.update(x.get("sha256") for x in old if x.get("sha256"))
                 resumed_from=a.resume
             except Exception as e: errors.append({"resume":a.resume,"error":"Prior documents unreadable: "+str(e)[:400]})
         if os.path.exists(prior_leads):
             try:
-                old_leads=json.load(open(prior_leads))
+                old_leads=json.loads(Path(prior_leads).read_text(encoding="utf-8"))
                 leads.extend(x for x in old_leads if x.get("status")=="UNRESOLVED_LEAD")
             except Exception as e: errors.append({"resume":a.resume,"error":"Prior leads unreadable: "+str(e)[:400]})
     glossary_gate_open=bool(glossary) and not glossary_error
     if glossary_error: errors.append({"url":GLOSSARY_URL,"error":"Glossary gate unavailable: "+glossary_error})
-    while q and len(docs)<a.max_docs:
+    attempts=0; attempted=set()
+    while q and len(docs)<a.max_docs and attempts < a.max_docs * 5:
         u=q.pop(0)
-        if u in seen: continue
+        if u in seen or u in attempted: continue
+        attempted.add(u)
         seen.add(u); host=(urlparse(u).hostname or "").lower()
         if host not in hosts: continue
+        attempts += 1
         try:
+            require_allowed(u, hosts)
             req=Request(u,headers={"User-Agent":UA})
-            with urlopen(req,timeout=25) as r:
-                body=r.read(20_000_000); final=norm(r.geturl()); ct=r.headers.get("Content-Type","").split(";")[0].lower()
+            with opener.open(req,timeout=25) as r:
+                final=require_allowed(norm(r.geturl()), hosts)
+                body=read_complete(r); ct=r.headers.get("Content-Type","").split(";")[0].lower()
             sha=hashlib.sha256(body).hexdigest()
             ext=".pdf" if ("pdf" in ct or final.lower().endswith(".pdf")) else ".html"
             duplicate_of_prior=sha in known_hashes
             fn=f"{len(docs)+1:04d}-{sha[:16]}{ext}"
-            open(os.path.join(a.out,"preserved",fn),"wb").write(body)
+            Path(a.out,"preserved",fn).write_bytes(body)
             rec={"document_id":f"DOC-{len(docs)+1:04d}","url":u,"final_url":final,"content_type":ct,"sha256":sha,"bytes":len(body),"preserved_file":f"preserved/{fn}","duplicate_of_prior_run":duplicate_of_prior}
             docs.append(rec)
             if ext==".pdf" and PdfReader:
@@ -162,6 +214,7 @@ def main():
                         edges.append({"from":final,"to":v})
                         if v not in seen and v not in q:q.append(v)
         except HTTPError as e:
+            retry_urls.append(u); seen.discard(u)
             if e.code == 403:
                 errors.append({"url":u,"error":"HTTP 403: direct runner retrieval blocked","classification":"ACCESS_CHANNEL_BLOCK"})
                 fallbacks=OFFICIAL_FALLBACKS.get(u,[])
@@ -182,15 +235,16 @@ def main():
             else:
                 errors.append({"url":u,"error":str(e)[:500]})
         except Exception as e:
+            retry_urls.append(u); seen.discard(u)
             errors.append({"url":u,"error":str(e)[:500]})
         time.sleep(.2)
-    json.dump(docs,open(os.path.join(a.out,"documents.json"),"w"),indent=2)
-    json.dump(edges,open(os.path.join(a.out,"links.json"),"w"),indent=2)
+    Path(a.out,"documents.json").write_text(json.dumps(docs,indent=2),encoding="utf-8")
+    Path(a.out,"links.json").write_text(json.dumps(edges,indent=2),encoding="utf-8")
     leads.sort(key=lambda x:(-x.get("specificity_score",0),x["kind"],x["value"]))
-    json.dump(leads,open(os.path.join(a.out,"leads.json"),"w"),indent=2)
+    Path(a.out,"leads.json").write_text(json.dumps(leads,indent=2),encoding="utf-8")
     run={"agent":"MAYHEM Government Record Agent","version":"0.1","case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"glossary_gate":{"source":GLOSSARY_URL,"entries_loaded":len(glossary),"error":glossary_error,"state":"OPEN" if glossary_gate_open else "BLOCKED","sha256":glossary_sha,"preserved_file":glossary_preserved_file},"documents_preserved":len(docs),"links_recorded":len(edges),"documentary_leads":len(leads),"errors":errors,"resume_state":{"resumed_from":resumed_from,"prior_hashes_loaded":len(known_hashes),"unresolved_leads_carried":sum(1 for x in leads if x.get("status")=="UNRESOLVED_LEAD")},"continuation_policy":"AUTONOMOUS_BOUNDED_CONTINUATION","authority_state":"CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED"}
-    frontier={"case_id":a.case,"unresolved_leads":[x for x in leads if x.get("status")=="UNRESOLVED_LEAD"],"seen_urls":sorted(seen),"known_hashes":sorted(known_hashes|{x["sha256"] for x in docs})}
-    json.dump(frontier,open(os.path.join(a.out,"frontier.json"),"w"),indent=2)
-    json.dump(run,open(os.path.join(a.out,"run.json"),"w"),indent=2)
+    frontier={"case_id":a.case,"seed":seed,"allowed_hosts":sorted(hosts),"pending_urls":list(dict.fromkeys(q)),"retry_urls":list(dict.fromkeys(retry_urls)),"unresolved_leads":[x for x in leads if x.get("status")=="UNRESOLVED_LEAD"],"seen_urls":sorted(seen),"known_hashes":sorted(known_hashes|{x["sha256"] for x in docs})}
+    Path(a.out,"frontier.json").write_text(json.dumps(frontier,indent=2),encoding="utf-8")
+    Path(a.out,"run.json").write_text(json.dumps(run,indent=2),encoding="utf-8")
     print(json.dumps(run,indent=2))
 if __name__=="__main__": main()

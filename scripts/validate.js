@@ -17,6 +17,7 @@
 const fs = require('fs');
 const path = require('path');
 const { CASES } = require('./case-registry');
+const { verifyPreserved } = require('./preservation');
 
 function isNonEmptyString(v) {
   return typeof v === 'string' && v.trim().length > 0;
@@ -72,7 +73,7 @@ function validateCase(caseInfo) {
   const errors = [];
   const warnings = [];
   const DATA_DIR = caseInfo.dataDir;
-  const relDataDir = path.relative(path.join(__dirname, '..'), DATA_DIR);
+  const relDataDir = path.relative(path.join(__dirname, '..'), DATA_DIR).split(path.sep).join('/');
 
   function fail(message) {
     errors.push(message);
@@ -228,6 +229,10 @@ function validateCase(caseInfo) {
     }
 
     checkReferences(e.relationships, evidenceIds, label, 'relationships');
+    if (e.preserved_file_reference || e.document_hash) {
+      const preservationError = verifyPreserved(path.join(__dirname, '..'), e.preserved_file_reference, e.document_hash);
+      if (preservationError) fail(`${label}: ${preservationError}`);
+    }
   }
 
   // ---------------------------------------------------------------------
@@ -239,6 +244,15 @@ function validateCase(caseInfo) {
     'first_checked', 'last_checked', 'current_version', 'preservation_status',
     'hash_status',
   ];
+
+  for (const [field, records, idField] of [
+    ['chronology_links', chronology, 'chronology_id'],
+    ['contradiction_links', contradictions, 'contradiction_id'],
+    ['open_question_links', openQuestions, 'question_id'],
+  ]) {
+    const ids = new Set(records.map((record) => record[idField]));
+    for (const e of evidence) checkReferences(e[field], ids, `evidence_register.json[${e.evidence_id || '?'}]`, field);
+  }
 
   checkUnique(sources, 'source_id', 'source_register.json');
 
@@ -401,6 +415,8 @@ function validateCase(caseInfo) {
 
   const AUTOMATION_RESULTS = new Set([
     'No relevant change detected.', 'New evidence added.', 'New source added.',
+    'Source capture attempted.',
+    'Primary-source capture attempted; no evidence assertions promoted.',
   ]);
 
   const RUN_REQUIRED_FIELDS = ['run_id', 'date', 'sources_checked', 'result', 'evidence_added'];
@@ -532,6 +548,7 @@ function validateCase(caseInfo) {
 // Report
 // ---------------------------------------------------------------------
 
+if (require.main === module) {
 console.log('MAYHEM DFAPTI repository validation');
 console.log('====================================');
 console.log('');
@@ -576,3 +593,6 @@ if (totalErrors) {
   console.log(`OVERALL: PASSED - all validation rules satisfied across ${CASES.length} case(s).`);
   process.exit(0);
 }
+}
+
+module.exports = { validateCase };

@@ -1,0 +1,12 @@
+[
+  {
+    "change_id": "CHG-0001",
+    "date": "2026-10-24",
+    "author": "Codex — operator-authorized technical audit",
+    "files_affected": [
+      "cases/DFAPTI-BB-FF-2026-00001/data/change_log.json"
+    ],
+    "reason": "Initialize the missing change register during technical audit repair. Earlier change history is not reconstructed. Existing evidence and verification states remain unchanged; unresolved validation failures are disclosed on the audit page.",
+    "validation_completed": false
+  }
+]

@@ -69,7 +69,8 @@ for source in sources:
                 destination.write_bytes(content)
             result.update({"capture_status": "Preserved", "sha256": digest, "preserved_file_reference": str(destination.relative_to(ROOT)), "bytes": len(content)})
             source["preservation_status"] = "Preserved"
-            source["hash_status"] = "SHA-256: " + digest
+            source["hash_status"] = "Hashed"
+            source["document_hash"] = digest
             source["last_checked"] = now.date().isoformat()
             source["availability_notes"] = "Captured response: " + str(destination.relative_to(ROOT)) + "; source contents and applicability still require review."
     except Exception as exc:
@@ -78,10 +79,10 @@ for source in sources:
         result["check_error"] = type(exc).__name__ + ": " + str(exc)[:240]
     results.append(result)
 logs.append({
-    "run_id": "RUN-" + str(len(logs) + 1).zfill(4),
+    "run_id": "RUN-" + str(max((int(r["run_id"].split("-")[-1]) for r in logs), default=0) + 1).zfill(4),
     "date": now.isoformat(timespec="seconds"),
     "sources_checked": [s["source_id"] for s in sources],
-    "result": "Primary-source capture attempted; no evidence assertions promoted.",
+    "result": "Source capture attempted.",
     "evidence_added": [],
     "notes": "Source bytes and SHA-256 captured where accessible and within size limit. Archived responses may be redirects, errors or challenge pages: manual content validation required. Existing evidence remains provisional.",
     "checks": results,

@@ -77,6 +77,8 @@ cannot possess zero proof-of-fact"): an evidence item with
 Spec section 9. One record per approved source (a source may back multiple
 evidence items).
 
+The collector may additionally store `document_hash`, the SHA-256 of its latest captured source bytes. This mutable capture metadata is separate from the `hash_status` enum; each capture's immutable provenance remains in the automation log. A capture does not change evidence verification states.
+
 | Field | Type | Notes |
 |---|---|---|
 | `source_id` | string | Format `SRC-0001`, ... Permanent. |
@@ -205,9 +207,11 @@ runner would use.
 | `run_id` | string | Format `RUN-0001`, ... Permanent. |
 | `date` | string (ISO date) | |
 | `sources_checked` | array of string | `source_id`s checked during this run. |
-| `result` | enum | `"No relevant change detected."`, `"New evidence added."`, `"New source added."` |
+| `result` | enum | `"No relevant change detected."`, `"New evidence added."`, `"New source added."`, `"Source capture attempted."` |
 | `evidence_added` | array of string | `evidence_id`s created by this run, if any. |
 | `notes` | string \| `null` | |
+
+The legacy collector result `Primary-source capture attempted; no evidence assertions promoted.` is also valid and has the same capture-only meaning as `Source capture attempted.` It does not mean a claim was verified. Historical run text remains unchanged.
 
 ## Search Log (`data/search_log.json`)
 

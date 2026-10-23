@@ -45,7 +45,8 @@ function renderDiscovered(list) {
   if (!list.length) return '<p class="muted-note">None yet - this list grows as SHM Gates on future cases find genuine patterns with no match in the 68 above.</p>';
   return list.map((d) => {
     const fs_ = d.first_surfaced;
-    const gateHref = `../cases/${fs_.case_id}/shm-gate/index.html`;
+    const gateExists = fs.existsSync(path.join(ROOT, 'cases', fs_.case_id, 'shm-gate', 'index.html'));
+    const gateHref = `../cases/${fs_.case_id}/${gateExists ? 'shm-gate/' : ''}index.html`;
     return `
 <details class="term-entry cat-other">
   <summary class="term-row"><span class="term-name">${esc(d.working_name)}</span><span class="cat-badge">${esc((d.status || 'candidate').toUpperCase())}</span></summary>

@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch: {}
+  workflow_run:
+    workflows: ["MAYHEM Government Record Agent", "DFAPTI NSW AIS source monitor", "DFAPTI NSW AIS snapshot DOCX", "Regenerate relationship map"]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
@@ -16,6 +20,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -23,6 +28,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run collection and integrity regression tests
+        run: |
+          node --test tests/*.test.js
+          python -B -m unittest discover -s tests -p 'test_*.py'
+      - name: Publish all validation results and reject new failures
+        run: node scripts/audit-report.js --gate
+      - name: Verify site links, syntax and archive integrity
+        run: node scripts/check-site.js
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

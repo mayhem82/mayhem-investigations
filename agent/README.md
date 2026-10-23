@@ -36,8 +36,18 @@ If the Master Glossary cannot be loaded, the run records the glossary gate as BL
 
 
 ### Glossary provenance
-Every successful run preserves the exact Master Glossary HTML used for terminology control and records its SHA-256 digest in run.json. Reproduction can therefore identify the precise glossary state governing that run even if the public glossary changes later.
+Every successful run preserves the exact structured Master Glossary JSON used for terminology control and records its SHA-256 digest in run.json. Reproduction can therefore identify the precise glossary state governing that run even if the public glossary changes later.
 
 
 ## Deterministic resumption
 The collector can resume from a prior agent-output directory. It loads prior document hashes for duplicate detection, carries unresolved documentary leads forward, and emits frontier.json containing unresolved leads, seen URLs and cumulative known hashes. Duplicate content is marked rather than silently treated as new material. Resumption state remains candidate collection state and does not alter accepted evidence.
+
+### Audit repair — 24 October 2026
+
+Operational state now lives under `public/agent-state/<CASE-ID>/`. Legacy shared state remains available as historical output, but workflows do not import it into another case. The Agent Control page reads the default acceptance case's scoped state and falls back to the historical output only until its first scoped run.
+
+Frontiers persist pending and retry URLs and restore cumulative seen URLs/hashes. A completed frontier does not automatically recrawl the seed; fresh monitoring requires a deliberate new collection without `--resume`. Failed URLs are retried on subsequent bounded runs. Resuming with a different case, seed or host scope fails closed.
+
+Redirects are checked before following them. Empty, oversized and incomplete responses are rejected before saving. Runs are bounded by document count and by five times that count in fetch attempts. These controls do not bypass upstream access restrictions or establish that retrieved content supports a claim.
+
+Regression tests: `python -B -m unittest discover -s tests -p 'test_*.py'`.

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "change_id": "CHG-0001",
+    "date": "2026-10-24",
+    "author": "Codex — operator-authorized technical audit",
+    "files_affected": ["cases/DFAPTI-NSW-AIS-2026-00001/data/source_register.json", "scripts/dfapti_nsw_ais_monitor.py", "scripts/validate.js", "docs/DATA_MODEL.md"],
+    "reason": "Normalize 15 mutable SHA-256 hash_status values to Hashed while retaining identical digests in document_hash. Historical capture hashes remain in automation_log.json. Accept the exact legacy capture-only result sentence without rewriting run history. No evidence verification states or assertions changed.",
+    "validation_completed": false
+  }
+]

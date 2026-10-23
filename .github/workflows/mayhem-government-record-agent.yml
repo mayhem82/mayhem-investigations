@@ -54,9 +54,10 @@ jobs:
           MAX_DOCUMENTS: ${{ inputs.max_documents || '20' }}
         run: |
           RESUME_ARGS=""
-          if [ -f "public/agent-state/frontier.json" ]; then
+          STATE_DIR="public/agent-state/$CASE_ID"
+          if [ -f "$STATE_DIR/frontier.json" ]; then
             mkdir -p prior-agent-output
-            cp public/agent-state/*.json prior-agent-output/ 2>/dev/null || true
+            cp "$STATE_DIR"/*.json prior-agent-output/
             RESUME_ARGS="--resume prior-agent-output"
           fi
           python3 agent/government_record_agent.py --case "$CASE_ID" --seed "$SEED_URL" --hosts "$ALLOWED_HOSTS" --max-docs "$MAX_DOCUMENTS" --out agent-output $RESUME_ARGS
@@ -64,12 +65,15 @@ jobs:
         env:
           RUN_ID: ${{ github.run_id }}
           RUN_SHA: ${{ github.sha }}
+          CASE_ID: ${{ inputs.case_id || 'DFAPTI-BB-FF-2026-00001' }}
         run: |
-          mkdir -p public/agent-state
-          cp agent-output/run.json agent-output/documents.json agent-output/leads.json agent-output/frontier.json public/agent-state/
+          STATE_DIR="public/agent-state/$CASE_ID"
+          mkdir -p "$STATE_DIR"
+          cp agent-output/run.json agent-output/documents.json agent-output/leads.json agent-output/frontier.json "$STATE_DIR/"
           python3 - <<'PY'
           import json, os
-          p="public/agent-state/run.json"
+          state="public/agent-state/"+os.environ["CASE_ID"]
+          p=state+"/run.json"
           d=json.load(open(p))
           d["workflow_run_id"]=os.environ["RUN_ID"]
           from datetime import datetime, timezone
@@ -79,12 +83,12 @@ jobs:
           d["workflow_state"]="COMPLETED"
           json.dump(d,open(p,"w"),indent=2)
           import html
-          leads=json.load(open("public/agent-state/leads.json"))
+          leads=json.load(open(state+"/leads.json"))
           parts=["<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>MAYHEM Documentary Leads</title></head><body style='max-width:900px;margin:auto;padding:18px;background:#0b0f14;color:#eef3f8;font:18px/1.45 Arial,sans-serif'><p><a style='color:#7dd3fc' href='../../agent.html'>Back to Agent Control</a></p><h1>Documentary leads</h1><p>"+str(len(leads))+" persisted candidate leads.</p>"]
           for i,x in enumerate(leads,1):
               parts.append("<article style='border-top:1px solid #2d3642;padding:16px 0'><h2>"+str(i)+". "+html.escape(str(x.get("kind","lead")))+"</h2><p><b>"+html.escape(str(x.get("value","")))+"</b></p><p>State: "+html.escape(str(x.get("continuation_state") or x.get("status","—")))+"</p><p>Source: "+html.escape(str(x.get("from","—")))+"</p><p>"+html.escape(str(x.get("context","")))+"</p><p>Next actions queued: "+str(len(x.get("next_urls",[])))+"</p></article>")
           parts.append("</body></html>")
-          open("public/agent-state/leads.html","w").write("".join(parts))
+          open(state+"/leads.html","w").write("".join(parts).replace("../../agent.html", "../../../agent.html"))
           PY
           git config user.name "MAYHEM Government Record Agent"
           git config user.email "actions@users.noreply.github.com"
@@ -97,6 +101,7 @@ jobs:
             git push origin HEAD:main
           fi
       - name: Upload candidate collection
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: mayhem-government-record-agent-${{ inputs.case_id || 'DFAPTI-BB-FF-2026-00001' }}-${{ github.run_id }}

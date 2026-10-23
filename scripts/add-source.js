@@ -26,6 +26,7 @@
 const fs = require('fs');
 const path = require('path');
 const { findCase, DEFAULT_CASE_ID } = require('./case-registry');
+const { normalizeUrl } = require('./source-identity');
 
 const caseArgIndex = process.argv.indexOf('--case');
 const caseId = caseArgIndex !== -1 ? process.argv[caseArgIndex + 1] : DEFAULT_CASE_ID;
@@ -39,10 +40,6 @@ function parseArgs(argv) {
     args[key.slice(2)] = argv[i + 1];
   }
   return args;
-}
-
-function normalizeUrl(value) {
-  return String(value || '').trim().toLowerCase().replace(/\/+$/, '');
 }
 
 function todayIso() {
