@@ -56,15 +56,15 @@
     }
   ],
   "resume_state": {
-    "resumed_from": null,
+    "resumed_from": "prior-agent-output",
     "prior_hashes_loaded": 0,
     "unresolved_leads_carried": 7
   },
   "continuation_policy": "AUTONOMOUS_BOUNDED_CONTINUATION",
   "authority_state": "CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED",
-  "workflow_run_id": "40030268773",
-  "workflow_commit": "95ef377c152daa26852ee36cb4b06ded4644fe1a",
-  "workflow_event": "push",
-  "workflow_updated_at": "2026-10-23T21:56:22.338229Z",
+  "workflow_run_id": "40032602737",
+  "workflow_commit": "664531bb6a83dee79c49f06408b5486b080b6221",
+  "workflow_event": "schedule",
+  "workflow_updated_at": "2026-10-23T22:17:18.757139Z",
   "workflow_state": "COMPLETED"
 }
