@@ -62,9 +62,9 @@
   },
   "continuation_policy": "AUTONOMOUS_BOUNDED_CONTINUATION",
   "authority_state": "CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED",
-  "workflow_run_id": "40050747986",
-  "workflow_commit": "140a99f49b2f39042447fc700513a8e2d73fc405",
+  "workflow_run_id": "40052199403",
+  "workflow_commit": "42d83f6d28889dae8fe8260d78723b9d41d4cf6f",
   "workflow_event": "schedule",
-  "workflow_updated_at": "2026-10-24T01:39:07.414266Z",
+  "workflow_updated_at": "2026-10-24T01:58:58.176434Z",
   "workflow_state": "COMPLETED"
 }
