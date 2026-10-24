@@ -1,0 +1,15 @@
+[
+  {
+    "correction_id": "RUN-CORR-0001",
+    "case_id": "DFAPTI-BB-FF-2026-00001",
+    "run_id": "RUN-0144",
+    "original_sha256": "f82e72272e3914a813c72929eece88dc71dbe57d5bf2a051d4e138f29e13ab00",
+    "date": "2026-10-24",
+    "stage": "DFAPTA",
+    "result": "Analysis paths added.",
+    "analysis_paths_added": [
+      "AR-075"
+    ],
+    "reason": "Schema correction only. Original RUN-0144 remains unchanged. Its description records Pass 40 adding AR-075, not evidence collection. Its claim that a recurring invalid-result category is acceptable is corrected: the publication gate compares individual errors, so the additional error was a regression. No investigation conclusion, evidence or stage is changed."
+  }
+]

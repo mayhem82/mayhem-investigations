@@ -371,3 +371,20 @@ exception to support their stated purpose:
   `specification_version`, none of which ever change). Each change to
   `current_status` or `repository_version` is a deliberate edit,
   documented by its own Change Log entry - never a silent update.
+
+## Analysis-run contract and corrections (24 October 2026)
+
+DFAPTA automation records use stage `DFAPTA`, no added evidence, and an array
+`analysis_paths_added` referencing paths in that same case's analysis.json.
+The only results are `Analysis paths added.`, `No analysis paths added.`, and
+`Analysis frozen; no action taken.`. Only the first permits a nonempty path list.
+These are operational log states, not evidence verification or stage authority.
+Existing collection outcomes remain unchanged. Other stage names are rejected.
+
+Optional per-case automation_corrections.json is an append-only schema correction
+register. Each entry identifies its case and run, reason, original_sha256
+(SHA-256 of UTF-8 JSON.stringify(original run)), and explicit replacement stage,
+result and analysis_paths_added. Only those three fields are interpreted; no
+original record is overwritten. Invalid provenance, duplicate run corrections,
+or non-existent same-case analysis paths fail validation. This does not exempt
+other errors or enlarge the known-failure inventory.

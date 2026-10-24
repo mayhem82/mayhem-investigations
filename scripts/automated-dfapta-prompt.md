@@ -175,3 +175,17 @@ on, and this routine has no authorisation to touch frozen material.
   cross-references, the case's own index.html blurb? Log what you checked
   and found - including finding nothing - in the same DEC/NOTE/RUN entry
   as the correction itself. See SPEC.md §4's Recursive Audit principle.
+
+## Result-contract repair, 24 October 2026
+
+Future analysis run entries must set `stage: "DFAPTA"`, `evidence_added: []`,
+`analysis_paths_added` to the exact existing AR identifiers added by this pass,
+and result to exactly `Analysis paths added.`, `No analysis paths added.`, or
+`Analysis frozen; no action taken.` as appropriate. Never encode pass counts
+in the result enum; keep those details in notes. The latter two outcomes have
+empty analysis_paths_added arrays. Use the shared validator in scripts/run-contract.js.
+Run the regression suite and `node scripts/audit-report.js --gate` after ALL log
+entries have been added and before committing. A familiar error category is still
+a new error when a new record introduces it; never expand the known-failure inventory.
+Historical run text remains immutable. Case-scoped automation_corrections.json
+provides hash-bound schema corrections separately from the original records.

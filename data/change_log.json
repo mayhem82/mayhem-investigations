@@ -1243,5 +1243,25 @@
     ],
     "reason": "Recursive post-publication audit identified that EV-0095 had been created with a forward chronology link to CHR-0041 before CHR-0041 existed, contrary to append-only cross-reference ordering enforced by the repository validator. Removed only that invalid forward link; CHR-0041 still correctly points back to EV-0095. No evidentiary proposition or classification changed.",
     "validation_completed": false
-  }
+  },
+{
+  "change_id": "CHG-0081",
+  "date": "2026-10-24",
+  "author": "AI assistant under explicit Architect repair approval",
+  "files_affected": [
+    "scripts/run-contract.js",
+    "scripts/validate.js",
+    "scripts/log-run.js",
+    "scripts/automated-dfapta-prompt.md",
+    "docs/DATA_MODEL.md",
+    "docs/audits/README.md",
+    "audit/index.html",
+    "audit/results.json",
+    "audit/validation.txt",
+    "tests/run-contract.test.js",
+    "cases/DFAPTI-BB-FF-2026-00001/data/automation_corrections.json"
+  ],
+  "reason": "Typed analysis-run contract and hash-bound RUN-0144 schema correction, original records retained. Regression gate returns to 870 existing failures without enlarging baseline. Corrected public claims about publication: legacy Pages route is not yet aligned; settings unavailable through connected tools. See docs/audits/README.md for verification and remaining limits.",
+  "validation_completed": false
+}
 ]

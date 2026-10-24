@@ -17,6 +17,7 @@
 const fs = require('fs');
 const path = require('path');
 const { findCase, DEFAULT_CASE_ID } = require('./case-registry');
+const { validateRun } = require('./run-contract');
 
 const caseArgIndex = process.argv.indexOf('--case');
 const caseId = caseArgIndex !== -1 ? process.argv[caseArgIndex + 1] : DEFAULT_CASE_ID;
@@ -71,6 +72,15 @@ const record = {
   notes: args.notes || null,
 };
 
+if (args.stage) record.stage = args.stage;
+if (args.stage === 'DFAPTA') record.analysis_paths_added = splitList(args.paths);
+let analysisIds = new Set();
+if (record.stage === 'DFAPTA') {
+  const analysis = JSON.parse(fs.readFileSync(path.join(findCase(caseId).dataDir, '..', 'dfapta', 'analysis.json'), 'utf8'));
+  analysisIds = new Set(analysis.paths.map(p => p.id));
+}
+const errors = validateRun(record, analysisIds);
+if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 runs.push(record);
 fs.writeFileSync(DATA_FILE, JSON.stringify(runs, null, 2) + '\n');
 console.log(`Logged ${record.run_id}: ${record.result}`);

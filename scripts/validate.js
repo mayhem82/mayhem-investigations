@@ -18,6 +18,7 @@ const fs = require('fs');
 const path = require('path');
 const { CASES } = require('./case-registry');
 const { verifyPreserved } = require('./preservation');
+const { validateRun, digest } = require('./run-contract');
 
 function isNonEmptyString(v) {
   return typeof v === 'string' && v.trim().length > 0;
@@ -413,11 +414,27 @@ function validateCase(caseInfo) {
   // Automation Log (sections 6-7)
   // ---------------------------------------------------------------------
 
-  const AUTOMATION_RESULTS = new Set([
-    'No relevant change detected.', 'New evidence added.', 'New source added.',
-    'Source capture attempted.',
-    'Primary-source capture attempted; no evidence assertions promoted.',
-  ]);
+  const analysisFile = path.join(DATA_DIR, '..', 'dfapta', 'analysis.json');
+  let analysisIds = new Set();
+  if (fs.existsSync(analysisFile)) {
+    try { analysisIds = new Set(JSON.parse(fs.readFileSync(analysisFile, 'utf8')).paths.map(p => p.id)); }
+    catch (e) { fail(`Cannot read analysis path references: ${e.message}`); }
+  }
+  const correctionsFile = path.join(DATA_DIR, 'automation_corrections.json');
+  let corrections = [];
+  if (fs.existsSync(correctionsFile)) {
+    try { corrections = JSON.parse(fs.readFileSync(correctionsFile, 'utf8')); }
+    catch (e) { fail(`Invalid automation corrections: ${e.message}`); }
+  }
+  if (!Array.isArray(corrections)) { fail('automation corrections must be an array'); corrections = []; }
+  if (corrections.some(c => !c || typeof c !== 'object' || Array.isArray(c))) { fail('automation corrections must contain objects'); corrections = corrections.filter(c => c && typeof c === 'object' && !Array.isArray(c)); }
+  checkUnique(corrections, 'run_id', 'automation_corrections.json');
+  for (const c of corrections) {
+    const original = automationLog.find(r => r.run_id === c.run_id);
+    if (c.case_id !== caseInfo.id || !original || digest(original) !== c.original_sha256 || !isNonEmptyString(c.reason)) {
+      fail(`automation correction ${c.run_id}: case, provenance or reason mismatch`);
+    }
+  }
 
   const RUN_REQUIRED_FIELDS = ['run_id', 'date', 'sources_checked', 'result', 'evidence_added'];
 
@@ -426,9 +443,9 @@ function validateCase(caseInfo) {
   for (const r of automationLog) {
     const label = `automation_log.json[${r.run_id || '?'}]`;
     requireFields(r, RUN_REQUIRED_FIELDS, label);
-    if ('result' in r && !AUTOMATION_RESULTS.has(r.result)) {
-      fail(`${label}: invalid result "${r.result}"`);
-    }
+    const correction = corrections.find(c => c.run_id === r.run_id && c.case_id === caseInfo.id && c.original_sha256 === digest(r) && isNonEmptyString(c.reason));
+    const effective = correction ? { ...r, stage: correction.stage, result: correction.result, analysis_paths_added: correction.analysis_paths_added } : r;
+    for (const error of validateRun(effective, analysisIds)) fail(`${label}: ${error}`);
     checkReferences(r.sources_checked, sourceIds, label, 'sources_checked');
     checkReferences(r.evidence_added, evidenceIds, label, 'evidence_added');
   }
