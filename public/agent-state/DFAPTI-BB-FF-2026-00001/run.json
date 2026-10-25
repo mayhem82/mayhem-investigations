@@ -51,7 +51,8 @@
     },
     {
       "url": "https://www.kempsey.nsw.gov.au/Search?q=Bellbrook+flying+fox+council+meeting",
-      "error": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
+      "error": "HTTP 403: direct runner retrieval blocked",
+      "classification": "ACCESS_CHANNEL_BLOCK"
     }
   ],
   "resume_state": {
@@ -61,9 +62,9 @@
   },
   "continuation_policy": "AUTONOMOUS_BOUNDED_CONTINUATION",
   "authority_state": "CANDIDATE COLLECTION ONLY - NO EVIDENCE ACCEPTED",
-  "workflow_run_id": "40202851137",
-  "workflow_commit": "86620ce8091b6ef899bb152b2e9cb2ae43225afb",
+  "workflow_run_id": "40211991468",
+  "workflow_commit": "283e021b40b6c493d5777e86bc6e1026ca6bd2ef",
   "workflow_event": "schedule",
-  "workflow_updated_at": "2026-10-25T14:34:44.059868Z",
+  "workflow_updated_at": "2026-10-25T16:30:30.686874Z",
   "workflow_state": "COMPLETED"
 }
