@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T14:30:27.045Z",
-  "revision": "cbfe3cd2e1ee4439624131e70d8ee59cb9af339e",
+  "generatedAt": "2026-10-31T19:17:29.532Z",
+  "revision": "c88900ff146b6dc48dfd6f3997889be327cf8a83",
   "workingTreeChanges": true,
   "status": "FAILED",
   "totalErrors": 870,
@@ -78,11 +78,11 @@
         "contradictions": 2,
         "openQuestions": 18,
         "threads": 12,
-        "automationLog": 81,
+        "automationLog": 82,
         "searchLog": 58,
-        "decisions": 84,
+        "decisions": 85,
         "changeLog": 8,
-        "investigationNotes": 126
+        "investigationNotes": 127
       }
     },
     {
