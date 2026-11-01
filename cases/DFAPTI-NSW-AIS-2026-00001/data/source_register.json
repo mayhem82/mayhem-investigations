@@ -159,9 +159,9 @@
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "ff046db1cf7ece124b25df4579c185be8f7cbc08adf0b4a7ab2de793374445bf",
+    "document_hash": "6b9474171f9051b38d24abd566e7bd07f93e19d5a4d3f45eeb4cb98ec505170c",
     "associated_thread": "THR-08",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0011/ff046db1cf7ece124b25df4579c185be8f7cbc08adf0b4a7ab2de793374445bf.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0011/6b9474171f9051b38d24abd566e7bd07f93e19d5a4d3f45eeb4cb98ec505170c.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0012",
@@ -261,9 +261,9 @@
     "current_version": "Public notice reviewed; source byte capture pending",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "25e21b2d511a280e0a58a963fc2a9e0ca4369e94470bf065d1946ca836a5c776",
+    "document_hash": "8f905eea808658ec3411b1566bf41242c64d3b1e2ac023ce2de3e60b88191c53",
     "associated_thread": "AI contractor procurement",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0018/25e21b2d511a280e0a58a963fc2a9e0ca4369e94470bf065d1946ca836a5c776.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0018/8f905eea808658ec3411b1566bf41242c64d3b1e2ac023ce2de3e60b88191c53.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0019",
@@ -276,9 +276,9 @@
     "current_version": "Public notice reviewed; source byte capture pending",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "a4345eb243054c3da973472dabb82421825b7959c10c4f77de12160f916873ad",
+    "document_hash": "fdeda2d7c6f1077fe2af3da81feaf2878f54cce94e8c6a5ba9939099e75f585b",
     "associated_thread": "AI contractor procurement",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0019/a4345eb243054c3da973472dabb82421825b7959c10c4f77de12160f916873ad.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0019/fdeda2d7c6f1077fe2af3da81feaf2878f54cce94e8c6a5ba9939099e75f585b.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0020",
