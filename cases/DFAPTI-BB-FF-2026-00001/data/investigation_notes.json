@@ -763,5 +763,14 @@
     "related_thread": "THR-03",
     "related_source": "SRC-0006",
     "related_evidence": "EV-0010"
+  },
+  {
+    "note_id": "NOTE-0086",
+    "timestamp": "2026-11-05T00:00:00Z",
+    "activity_type": "Researching",
+    "text": "Pass run 2026-11-05 (RUN-0168/DEC-0086/NOTE-0086): confirmed status 'In Progress — Pass 49' (not Frozen) before proceeding. HEAD was detached but matched origin/main; local 'main' this time shared no common ancestor with origin/main at all (not merely 'behind') - reset local 'main' directly to origin/main before reading any case file. Read decisions.json, investigation_notes.json, automation_log.json and source_register.json (21 entries, unchanged) in full first per the routine's own required protocol. evidence_register.json (25), contradictions.json (3), open_questions.json (12), chronology.json (14) and threads.json (8) all unchanged; re-confirmed EV-0024/EV-0025 remain outside Cycle 1's frozen EV-0001-EV-0023 basis. Checked the shared run_id sequence (DEC-0037): highest existing was RUN-0167 (DFAPTI-MNC-2026-00001), so this entry uses RUN-0168. Rather than repeat the OOXML-metadata channel DEC-0085 already found approaching saturation, re-extracted the full visible text of all eight preserved documents directly via xml.etree and pursued seven independent content-level candidate leads, checking each against the existing 80 paths and source_register.json before declining it: the Facts Insert's/media pitch's 'East Kempsey's problem was resolved'/'was managed' framing (already AR-053, AR-055); the Greens senator letter's 'federal government holds jurisdiction over the management' claim (already AR-061); the Harm and Accountability Record's governance-timeline header sequencing (already AR-074); the Hardened Submission Package's Part 7 reference-URL list (already AR-036/AR-065); the Harm and Accountability Record's own self-declared 'Evidence Base' list (already AR-037); the droppings briefing's '90% undiagnosed' histoplasmosis citation (already AR-019); and the 2/7-defeated macro-alignment amendment's characterisation (already AR-025). No genuinely new, evidence-groundable, non-remedy analytical path was found among these; dfapta/analysis.json is unchanged (80 paths, status 'In Progress — Pass 49' not advanced). Ran node scripts/validate.js before and after (870 pre-existing errors both times, no addition against baseline), node --test tests/*.test.js (7/7 pass), and node scripts/audit-report.js --gate (gate passes) after all log entries were added, immediately before committing. Did not touch evidence_register.json, source_register.json, or any other DFAPTI-stage file, and did not touch any other case. See DEC-0086 for the full record.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0006",
+    "related_evidence": "EV-0010"
   }
 ]
