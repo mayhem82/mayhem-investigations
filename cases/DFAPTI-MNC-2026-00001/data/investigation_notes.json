@@ -1186,5 +1186,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0133",
+    "timestamp": "2026-11-06T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items and source_register.json unchanged at 96 entries since DEC-0077 - independently reconfirmed against the live files. Rebuilt the unanchored-evidence list directly from dfapta/analysis.json's own anchors arrays: 113 items, unchanged from DEC-0086 through DEC-0090's own recomputed total.\n\nRather than re-run DEC-0088's two saturated aggregate tests again, cross-validated all 46 cross-path observations' own anchors strings against the full union of all 101 paths' anchors arrays in one sweep (not just the individually-flagged items checked before). Found two apparent exceptions and resolved both against this case's own prior record rather than treating either as new: CPO-010's anchors field being a string, not a list, matches all 45 other cross-path observations' own consistent schema (paths use lists; cross-path observations use a comma-separated string) and is not the content defect DEC-0090 fixed; and CPO-035's citing of EV-0033/EV-0845 (neither path-anchored) is DEC-0053/DEC-0073's own already-documented, deliberate design choice - those two items stay outside the path-anchor coverage count by design, specifically because CPO-035's own analysis text contrasts an advocacy submission ('recorded as existing, not adopted', DEC-0051/DEC-0008) with independent published commentary ('read as corroboration'). No new defect found. Spot-checked every 'complaint'/'unlawful' occurrence in dfapta/analysis.json's full text in context: all remain factual references to the LECC's real external complaint architecture or explicit negations, none describing MAYHEM's own pipeline. Re-confirmed index.html and dfapta/index.html's stated figures (101 paths, 735/848, 86.7%) still match analysis.json's counts object exactly.\n\nNo remedy, recipient or 'what to ask for' content was added (DEC-0008 - moot). No previously-resolved fact was reopened, and no previously-closed item was wrongly reopened (DEC-0009/0010) - both apparent leads above were checked against this case's own record before being set aside. RECURSIVE AUDIT CHECK (SPEC.md §4): this pass's own cross-path-observation sweep is DEC-0090's own correction's recursive-audit follow-up (not a separate check) and found nothing left inconsistent by that correction. No new analysis path, determination, cross-path observation or evidence anchor was added; coverage remains 735/848 (86.7%), 101 paths, 340 determinations, 46 cross-path observations - the sixth consecutive sub-pass to add no new path since AR-101 at RUN-0159 (2026-10-31). See DEC-0091 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
