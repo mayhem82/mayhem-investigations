@@ -1258,5 +1258,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0141",
+    "timestamp": "2026-11-14T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items and source_register.json unchanged at 96 entries (read in full end to end) - independently reconfirmed against the live files. Unique EV-#### anchor union across all 101 paths still 735, matching counts exactly; unanchored-evidence count still 113, unchanged since DEC-0086. Only one commit (RUN-0183/DEC-0098) had touched this case since this routine's own prior turn; everything else since was the DFAPTI-BB-FF-2026-00001 sibling's own passes and unrelated automation.\n\nRather than repeat DEC-0086/DEC-0088's deferral of the AR-100/AR-101 cross-path-observation check ('too newly added to expect a convergence read yet'), this pass actually performed it, two weeks and eleven sub-passes later. Read AR-100 and AR-101 against every path either already names as a distinct neighbour (AR-012, AR-047, AR-038, AR-070, AR-043), against the two general cross-path observations whose scope could absorb either (CPO-005, CPO-015), and against AR-021 (confirmed via preserved/ae-primary-record-acquisition-register-run001.txt that AR-100/AR-101's named GIPA Applications 2 and 3 are part of the same six-application plan AR-021 already describes in general terms). Also considered one new candidate: a joint observation that AR-094's own Q694-Q733 sweep has been shown incomplete in two independent ways (Q699 omitted, per AR-100.3; Q710/Q711 misattributed, per AR-101.3) - found AR-094's own current text already narrates the Q710/Q711 correction directly, and AR-100.3 already states the Q699 omission, so a joining cross-path observation would restate rather than add.\n\nEvery candidate connection is one the paths' own text, or AR-094's own text, already states explicitly - adding a cross-path observation for any of them would pad rather than add, the same failure DEC-0088 named when declining a separate entry for AR-032. AR-100 and AR-101's absence from every cross_path_observations entry is therefore confirmed a correct, examined state, not an unexamined gap - DEC-0086/DEC-0088's 'too new' holding is superseded by an actual negative result for these two specific paths. No edit was made to dfapta/analysis.json. Second check this pass: re-read both case-facing HTML files' own rendered text directly against dfapta/analysis.json's counts (101 paths, 735/848, 86.7%) - both match exactly, no drift. Recursive-audit note: no correction was made this pass, so the applicable check is confirming a standing judgment still holds once actually tested, which this pass is the first to do for AR-100/AR-101 rather than deferring a twelfth time. See DEC-0099 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
