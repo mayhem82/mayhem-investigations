@@ -1276,5 +1276,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0143",
+    "timestamp": "2026-11-16T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items and source_register.json unchanged at 96 entries (read in full end to end) - independently reconfirmed against the live files. Unique EV-#### anchor union across all 101 paths still 735, matching counts exactly; unanchored-evidence count still 113, unchanged since DEC-0086. AR-001 through AR-101 and CPO-001 through CPO-046 both confirmed contiguous with no identifier gap.\n\nRather than re-run the now-saturated standing aggregate checks for their own sake, this pass ran two checks: first, a from-scratch re-run of the 'never named in any cross_path_observation' test against the live 46-entry CPO array's own full text (not any decision's stated list) - the set is exactly {AR-001, AR-032, AR-100, AR-101}, unchanged from DEC-0099's own conclusion. Re-read each of the four directly rather than assuming the prior disposition still holds: AR-001 is still this case's own scope statement (DEC-0086); AR-032's own analysis text still states its own extends-AR-004 relationship directly, so a separate CPO would still pad (DEC-0088); AR-100 and AR-101's own text still expressly states their own relationships to AR-012/AR-047 and AR-038/AR-070/AR-094 (DEC-0099). No new candidate pairing was found among these four or against any other path. Second: swept the top-level disclosure_requests array's own title/request text (12 entries, YIELD-REQ-001 through YIELD-REQ-012) against this case's Language Discipline intent/motive/legal-conclusion vocabulary list for the first time - a distinct, narrower check from DEC-0094's own still-open finding about this array's demand-shaped register. Zero hits.\n\nNo new analysis path, determination, cross-path observation, or evidence anchor was added, and no edit was made to dfapta/analysis.json or either case-facing HTML file - both new checks resolved clean. Recursive-audit note: no correction was made this pass, so there is no fix whose recurrence elsewhere needs checking; noted rather than skipped, per SPEC.md §4. The operator's own open decision on the disclosure_requests wording (DEC-0094/NOTE-0136) was re-checked and remains unresolved; it was not acted on by this pass. See DEC-0101 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
