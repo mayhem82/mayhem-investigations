@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "question_id": "Q-0001",
+    "question": "What occurred in each incident, when and where, and which services and people were affected?",
+    "why_exists": "Initial question specified in the operator-approved DFAPTI investigation frame.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Dated primary incident notices, operator records and independent accounts.",
+    "likely_source": "Affected service providers and government agencies",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0002",
+    "question": "What causes, technical changes and recovery measures were reported for each incident, and what supports or challenges those accounts?",
+    "why_exists": "Initial question specified in the operator-approved DFAPTI investigation frame.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Operator post-incident reports, change records and independent technical evidence.",
+    "likely_source": "Operators, suppliers and regulators",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0003",
+    "question": "What malicious campaigns, threat-actor claims, phishing, credential theft or published indicators are relevant?",
+    "why_exists": "Initial question specified in the operator-approved DFAPTI investigation frame.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Dated public threat intelligence, incident records and independently attributable samples.",
+    "likely_source": "Security researchers, ASD, CISA and affected providers",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0004",
+    "question": "For each incident, does evidence establish an outage, exploitation of an outage, a verified compromise, or a proven connection between a compromise and outage?",
+    "why_exists": "Initial question specified in the operator-approved DFAPTI investigation frame.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Incident-specific technical evidence, forensic reports and independent corroboration.",
+    "likely_source": "Incident investigators and affected organisations",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0005",
+    "question": "Which supplier, cloud, identity, telecommunications, disaster recovery, change-management and alternative-service dependencies can be established?",
+    "why_exists": "Initial question specified in the operator-approved DFAPTI investigation frame.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Supplier records, contract disclosures, architecture and incident reports.",
+    "likely_source": "Operators, suppliers and regulators",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0006",
+    "question": "What consequences for people are documented, including healthcare, money, public services, employment, travel, deadlines and recovery?",
+    "why_exists": "Initial question specified in the operator-approved DFAPTI investigation frame.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Dated service notices and corroborated accounts of affected people and organisations.",
+    "likely_source": "Service providers, affected people and community organisations",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0007",
+    "question": "What evidence supports a connection between particular incidents, and what evidence supports separate explanations?",
+    "why_exists": "Initial question specified in the operator-approved DFAPTI investigation frame.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Incident timelines, technical records, independent investigations and competing explanations.",
+    "likely_source": "Affected operators and incident investigators",
+    "status": "Open",
+    "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0008",
+    "question": "What remains unknown, contradictory, unavailable or dependent on an unverified allegation?",
+    "why_exists": "Initial question specified in the operator-approved DFAPTI investigation frame.",
+    "evidence_creating_question": [],
+    "evidence_required_to_resolve": "Source records, acquisition logs, versioned status updates and follow-up requests.",
+    "likely_source": "Original publishers and independent authorities",
+    "status": "Open",
+    "resolution_evidence": []
+  }
+]
