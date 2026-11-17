@@ -1,0 +1,12 @@
+{
+  "case_identifier": "INV-TECH-CYBER-001",
+  "case_title": "Technology Disruption Surge, Cybercriminal Signals and Critical Infrastructure Dependencies",
+  "investigation_type": "DFAPTI Forensic Public Interest Investigation",
+  "jurisdiction": "Australia and international",
+  "geographic_scope": "Australia and international, as relevant to the stated investigation",
+  "commencement_date": "2026-11-18",
+  "current_status": "DFAPTI frame established; evidence collection not commenced",
+  "investigator": "MAYHEM operator",
+  "repository_version": "1.0.0",
+  "specification_version": "MAYHEM-SPEC-CORE-v1.0.0"
+}

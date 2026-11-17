@@ -1,0 +1,74 @@
+[
+  {
+    "thread_id": "THR-01",
+    "name": "Incident chronology and operator reports",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Await the start of evidence collection.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-02",
+    "name": "Cybercriminal activity and outage-related phishing",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Await the start of evidence collection.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-03",
+    "name": "Supplier, cloud, identity and telecommunications dependencies",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Await the start of evidence collection.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-04",
+    "name": "Change management, failure and recovery",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Await the start of evidence collection.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-05",
+    "name": "Australian critical infrastructure and public services",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Await the start of evidence collection.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-06",
+    "name": "Human consequences and access barriers",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Await the start of evidence collection.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-07",
+    "name": "Contradictions, missing records and alternative explanations",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Await the start of evidence collection.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  },
+  {
+    "thread_id": "THR-08",
+    "name": "Investigation continuity and record integrity",
+    "status": "Not Started",
+    "supporting_evidence": [],
+    "outstanding_work": "Await the start of evidence collection.",
+    "dependencies": [],
+    "completion_state": "Not Complete"
+  }
+]
