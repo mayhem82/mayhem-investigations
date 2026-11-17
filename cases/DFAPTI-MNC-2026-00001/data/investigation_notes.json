@@ -1285,5 +1285,14 @@
     "related_thread": null,
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0144",
+    "timestamp": "2026-11-17T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items and source_register.json unchanged at 96 entries (read in full end to end) - independently reconfirmed against the live files. Unique EV-#### anchor union across all 101 paths still 735, matching counts exactly; unanchored-evidence count still 113, unchanged since DEC-0086. AR-001 through AR-101 and CPO-001 through CPO-046 both confirmed contiguous with no identifier gap.\n\nRan four mechanical structural checks not previously recorded in exactly this form: (1) full recomputation of the evidence_anchor_coverage map's keys and per-key values against the live paths' own anchors arrays - zero mismatches, both directions. (2) a determinations-numbering contiguity check across all 101 paths' own determinations arrays - zero defects, total matches counts.analytical_determinations exactly. (3) a token-level check of all 46 cross_path_observations' own anchors field against the EV-#### schema and against whether each cited EV is anchored by an underlying path - 45 of 46 clean; CPO-035 cites EV-0033 and EV-0845, neither anchored by any path, which on first read looked like a candidate defect. Checked this case's own decision history before acting: DEC-0061 (2026-10-06) already found these two are deliberately counted outside the path-anchor coverage percentage while remaining cited in CPO-035's own anchors list by design, not silently dropped. Re-read CPO-035's own analysis text and DEC-0061's finding directly and confirmed that resolution still holds - no correction made. (4) confirmed both case-facing HTML files (index.html's DFAPTA stage tile, dfapta/index.html's meta description and overview intro) still state 101 paths/735/848/86.7% exactly, and that both render their per-item lists dynamically from analysis.json via app.js rather than from static markup that could drift independently.\n\nNo new analysis path, determination, cross-path observation, or evidence anchor was added, and no edit was made to dfapta/analysis.json or either case-facing HTML file - all four checks resolved clean or confirmed an existing resolution still holds. Recursive-audit note: no correction was made this pass, so there is no fix whose recurrence elsewhere needs checking; the CPO-035 near-miss is logged specifically so a future sub-pass does not re-investigate the same false positive from scratch. The operator's own open decision on the disclosure_requests wording (DEC-0094/NOTE-0136) was re-checked and remains unresolved; it was not acted on by this pass. See DEC-0102 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
