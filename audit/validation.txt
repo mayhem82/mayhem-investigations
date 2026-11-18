@@ -879,3 +879,6 @@ DFAPTI-NSW-AIS-2026-00001 — 488 errors
   - search_log.json[SEARCH-0003]: missing required field "results_reviewed"
   - search_log.json[SEARCH-0003]: missing required field "results_preserved"
   - investigation_notes.json[NOTE-0003]: invalid activity_type "Correction"
+
+INV-TECH-CYBER-001 — 0 errors
+
