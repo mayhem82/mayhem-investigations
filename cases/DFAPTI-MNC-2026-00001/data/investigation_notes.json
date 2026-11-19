@@ -1303,5 +1303,14 @@
     "related_thread": "THR-03",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0146",
+    "timestamp": "2026-11-19T00:00:00Z",
+    "activity_type": "Decision",
+    "text": "Automated DFAPTA Pass 2 sub-pass. Evidence register unchanged at 848 items and source_register.json unchanged at 96 entries (read in full end to end) - independently reconfirmed against the live files. Closely read Deep Research Snapshot 3's cumulative findings register, F-001 through F-043 (preserved/snapshot-03-2026-08-14.txt, EV-0220 through EV-0262) - the condensed register Pass 1's AR-002 through AR-022 were originally built from - after confirming thirty-two of its forty-three items were unanchored by any of the 102 pre-pass paths.\n\nChecked each unanchored item's full text against the full analysis/determination text (not titles alone) of every topically-overlapping path. All thirty-two restate a finding this case already establishes, usually in greater and more specific depth: F-001-F-004 restate AR-001/AR-009/AR-076; F-006-F-016 restate AR-002 through AR-006, AR-010, AR-017, AR-026, AR-033 and AR-069 through AR-071; F-018-F-020 restate AR-045/AR-099, AR-073 and AR-007.3; F-022-F-025 restate AR-079, AR-013 and AR-048/AR-096; F-027-F-028 restate AR-082 and AR-013/AR-051; F-032-F-034 restate AR-048, AR-049 and AR-096; F-039-F-043 restate AR-029/AR-030, AR-006/AR-024/AR-081, AR-061, AR-062 and AR-015. See DEC-0104 for the full per-group restatement mapping and the exact confirming figures/dates each existing path already carries.\n\nZero items were genuinely new - unlike RUN-0193's Snapshot 5 sweep, which yielded AR-102. No new path is added this pass. This specific range (Snapshot 3, F-001-F-043) is now formally closed as fully examined, so a future sub-pass does not re-examine it from scratch; two further ranges sampled this pass (Answer Register Q48-Q124 residue; Snapshot 11-12 condensed bullets) were spot-checked only and remain open for a dedicated future sweep.\n\nRecursive-audit follow-up: re-confirmed CPO-035/DEC-0061's existing resolution for EV-0033/EV-0845 still holds; re-checked AR-094/AR-095/AR-102/AR-100.3 for any further unfixed \"accounts for every item\" completeness claim - none found. No case-facing HTML file needed updating, since no count changed. The operator's own open decision on the disclosure_requests wording (DEC-0094/NOTE-0136) was re-checked and remains unresolved; it was not acted on by this pass. node scripts/validate.js: the same 7 pre-existing, case-scoped validation errors recorded since DEC-0078, unchanged. node --test tests/*.test.js: all pass. node scripts/audit-report.js --gate run after all log entries were added and before committing: gate passed, no additional validation error. See DEC-0104 for the full record.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null
   }
 ]
