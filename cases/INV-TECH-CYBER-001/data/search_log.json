@@ -214,5 +214,77 @@
     "jurisdiction": "Australia or international, as relevant to the selected source",
     "results_reviewed": 1,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0019",
+    "search_terms": "site:agriculture.gov.au \"247-2026\" \"Unplanned Outage\" \"COLS\" November 2026 249-2026 restored",
+    "search_engine": "Public web and publisher records",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Department’s 15 November cargo lodgement outage and multi-system restoration notices",
+    "jurisdiction": "Australia",
+    "results_reviewed": 2,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0020",
+    "search_terms": "site:agriculture.gov.au \"255-2026\" \"256-2026\" unplanned service disruption 23 November 2026 COLS",
+    "search_engine": "Public web and publisher records",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Department’s 23 November outage and restoration notices",
+    "jurisdiction": "Australia",
+    "results_reviewed": 2,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0021",
+    "search_terms": "\"20 November 2026\" Brisbane \"terminal outage\" \"resumed\" terminal delays DP World; \"20 November 2026\" Brisbane terminal November 20 \"truck turnaround\" port DP World Australian measured data OneStop",
+    "search_engine": "Public web and publisher records",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Bounded search for terminal closeout, throughput and named delivery effects. No qualifying records in the searched results. A trade cargo snapshot requires login.",
+    "jurisdiction": "Australia",
+    "results_reviewed": 0,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0022",
+    "search_terms": "Brown Workday outage November 2026 payroll deadline status report time November 14 Brown University workday",
+    "search_engine": "Public web and publisher records",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Opened Brown’s distinct Workday incident notice; payroll completion unavailable in that notice",
+    "jurisdiction": "United States",
+    "results_reviewed": 1,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0023",
+    "search_terms": "November 2026 Microsoft 365 outage 12 13 November NHS Trust impact patient appointments actual delayed government November 2026 post incident recovery; November 2026 Microsoft NHS outage referrals appointments delayed patient interview 13 November Microsoft Outlook UK November 2026",
+    "search_engine": "Public web and publisher records",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Checked both retained trust publications; no individual referral outcome in those notices",
+    "jurisdiction": "United Kingdom",
+    "results_reviewed": 2,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0024",
+    "search_terms": "\"November 13, 2026\" FAA ground stop \"United\" stranded passenger refund airport cancelled said",
+    "search_engine": "Public web and publisher records",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Opened the selected named passenger interview. The account does not identify the airline or document payment.",
+    "jurisdiction": "United States",
+    "results_reviewed": 1,
+    "results_preserved": 1
   }
 ]

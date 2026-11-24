@@ -1,0 +1,11 @@
+255-2026: Unplanned Service Disruption — Cargo Online Lodgement System
+Source: Australian Department of Agriculture, Fisheries and Forestry
+URL: https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/255-2026
+Locator: Information section, approximately 07:36 Australian Eastern Daylight Time
+Accessed 2026-11-24T07:45:08Z through public web retrieval.
+
+Selected source description. The digest identifies this extract.
+
+The department reports disruption as of about 07:36 on 23 November and warns that some importers and customs brokers may encounter errors when lodging documents. It advises retrying failed lodgements once the service is restored.
+
+The notice identifies the transaction at risk. It supplies no error count, individual shipment outcomes, verified root cause or terminal-level operating record.

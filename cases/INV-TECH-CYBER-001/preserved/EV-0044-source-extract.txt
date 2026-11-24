@@ -1,0 +1,11 @@
+256-2026: Services Restored — Cargo Online Lodgement System
+Source: Australian Department of Agriculture, Fisheries and Forestry
+URL: https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/256-2026
+Locator: Information section, 09:51 Australian Eastern Daylight Time
+Accessed 2026-11-24T07:45:08Z through public web retrieval.
+
+Selected source description. The digest identifies this extract.
+
+The department reports that access was restored at 09:51. The restoration notice lists no action required.
+
+The previous outage notice’s retry advice and this restoration notice do not establish that a failed lodgement was subsequently received or that shipments met deadlines. This notice is distinct from the 15 November restoration.

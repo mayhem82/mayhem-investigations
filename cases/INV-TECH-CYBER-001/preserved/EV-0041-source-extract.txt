@@ -1,0 +1,11 @@
+Microsoft outage — update
+Source: King’s College Hospital National Health Service Foundation Trust
+URL: https://www.kch.nhs.uk/news/microsoft-outage/
+Locator: 13 November advice and 16 November restoration update
+Accessed 2026-11-24T07:45:08Z through public web retrieval.
+
+Selected source description. The digest identifies this extract.
+
+The trust reported procedures were going ahead on 13 November, published telephone fallback guidance for time-sensitive referrals, and stated on 16 November that Microsoft services had been restored and its services were operating normally.
+
+The statements are bounded to this trust and the stated dates. They do not measure missed referrals, response times, or outcomes at other trusts.

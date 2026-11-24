@@ -1,0 +1,11 @@
+249-2026: Services Restored — Multiple Systems
+Source: Australian Department of Agriculture, Fisheries and Forestry
+URL: https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/249-2026
+Locator: Affected users and resolution time sections
+Accessed 2026-11-24T07:45:08Z through public web retrieval.
+
+Selected source description. The digest identifies this extract.
+
+The department records 18:40 Australian Eastern Daylight Time as the time of resolution for cargo lodgement, maritime and aircraft reporting, post-entry biosecurity, and import-conditions systems. It identifies shipping agents and maritime operators among the affected categories.
+
+Beginnings of the other systems’ outages, individual lodgement outcomes, incident cause, and any relationship to the earlier messaging disruption are unverified. The statement records service restoration and supplies no proof of backlog clearance.

@@ -58,5 +58,18 @@
     ],
     "investigator": "MAYHEM operator · AI-assisted collection",
     "impact": "Retain the original eight question records. Record progress against each and link four closed subquestions. Closure applies only to their stated scope. Keep evidence gathering open."
+  },
+  {
+    "decision_id": "DEC-0005",
+    "date": "2026-11-24",
+    "reason": "The 15 November cargo lodgement record concerns a separate dated notice after the 14 November messaging restoration announcement.",
+    "supporting_evidence": [
+      "EV-0028",
+      "EV-0029",
+      "EV-0037",
+      "EV-0038"
+    ],
+    "investigator": "MAYHEM operator · AI-assisted collection",
+    "impact": "Track the later outage as a distinct episode in chronology. Retain the prior fallback dependency. Keep terminal operating status, causation and individual effects open."
   }
 ]

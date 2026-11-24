@@ -1,0 +1,11 @@
+Global Microsoft outage affecting some services
+Source: Hampshire and Isle of Wight Healthcare National Health Service Foundation Trust
+URL: https://hiowhealthcare.nhs.uk/about-us/news-and-views/global-microsoft-outage-affecting-some-services
+Locator: Musculoskeletal self-referrals section and 17:00 update
+Accessed 2026-11-24T07:45:08Z through public web retrieval.
+
+Selected source description. The digest identifies this extract.
+
+The trust reported it could not receive online musculoskeletal self-referrals and suspended that route from midday. At 17:00 it reported email and referral systems returning to normal and warned of slower responses while teams recovered.
+
+The notice documents an actual suspension and a recovery update. It supplies no count of people affected, actual referral wait times, or evidence that the whole backlog cleared.

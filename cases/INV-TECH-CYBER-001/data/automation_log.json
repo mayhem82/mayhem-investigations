@@ -73,5 +73,32 @@
       "EV-0036"
     ],
     "notes": "Question-led public source collection and bounded question closures. Eight original questions are retained and have evidence-linked progress in the question workspace. No freeze was requested."
+  },
+  {
+    "run_id": "RUN-0003",
+    "date": "2026-11-24",
+    "stage": "DFAPTI",
+    "sources_checked": [
+      "SRC-0040",
+      "SRC-0041",
+      "SRC-0042",
+      "SRC-0043",
+      "SRC-0044",
+      "SRC-0045",
+      "SRC-0046",
+      "SRC-0047"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0037",
+      "EV-0038",
+      "EV-0039",
+      "EV-0040",
+      "EV-0041",
+      "EV-0042",
+      "EV-0043",
+      "EV-0044"
+    ],
+    "notes": "Checked the operation-to-recovery gap. Added eight evidence records and nine chronology entries. All original question statuses retained. Question updates distinguish actual service unavailability, published restoration, and human outcomes."
   }
 ]

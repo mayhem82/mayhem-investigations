@@ -349,5 +349,95 @@
     "supporting_evidence": [
       "EV-0036"
     ]
+  },
+  {
+    "chronology_id": "CHR-0035",
+    "event_date": "2026-11-15",
+    "date_is_inference": false,
+    "event_description": "The Australian agriculture department reports its cargo lodgement service unavailable as of 10:30 Australian Eastern Daylight Time.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0037"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0036",
+    "event_date": "2026-11-15",
+    "date_is_inference": false,
+    "event_description": "The Australian agriculture department reports four import and reporting systems restored at 18:40 Australian Eastern Daylight Time.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0038"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0037",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "Brown University publishes alternate time-reporting arrangements during local Workday unavailability.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0039"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0038",
+    "event_date": "2026-11-14",
+    "date_is_inference": false,
+    "event_description": "Brown University marks its Workday incident resolved at 12:28 Eastern Standard Time and reports automated processing catching up.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0039"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0039",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "A healthcare trust suspends its online musculoskeletal self-referral route and later reports referral systems returning to normal.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0040"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0040",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "King’s College Hospital trust reports that Microsoft services have been restored and its operations are normal.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0041"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0041",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "A named passenger account from Charlotte documents an onboard announcement during the nationwide ground stop and the report describes subsequent deplaning.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0042"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0042",
+    "event_date": "2026-11-23",
+    "date_is_inference": false,
+    "event_description": "The agriculture department reports cargo lodgement disruption as of about 07:36 Australian Eastern Daylight Time and warns that users may see errors.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0043"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0043",
+    "event_date": "2026-11-23",
+    "date_is_inference": false,
+    "event_description": "The agriculture department reports cargo lodgement access restored at 09:51 Australian Eastern Daylight Time.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0044"
+    ]
   }
 ]

@@ -1,0 +1,11 @@
+Workday Outage
+Source: Brown University Office of Information Technology
+URL: https://status.brown.edu/incidents/kkmzzsmq2xrg
+Locator: 13 November 22:17 and 14 November 12:28 Eastern Standard Time updates
+Accessed 2026-11-24T07:45:08Z through public web retrieval.
+
+Selected source description. The digest identifies this extract.
+
+Brown reports that direct time reporting, open enrollment, expense reports, hiring, and time-off functions were unavailable. It says staff with physical time clocks could continue using them and advised other staff to keep time records outside Workday. It marked the campus incident resolved on 14 November at 12:28, with automated processing catching up.
+
+The institutional record distinguishes local recovery from automated backlog processing. It does not confirm payroll on time, backlog completion, or the vendor explanation independently.

@@ -1,0 +1,11 @@
+247-2026: Unplanned Outage — Cargo Online Lodgement System
+Source: Australian Department of Agriculture, Fisheries and Forestry
+URL: https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/247-2026
+Locator: Information section, 10:30 Australian Eastern Daylight Time status
+Accessed 2026-11-24T07:45:08Z through public web retrieval.
+
+Selected source description. The digest identifies this extract.
+
+The department reported that the Cargo Online Lodgement System was unavailable as of 10:30 on 15 November. The notice covers importers and customs brokers lodging cargo documentation for biosecurity assessment.
+
+The listed time is the notice’s status time. The exact start and any measured clearance or delivery delay remain unknown. This concerns a government lodgement service, with no terminal operating status stated.

@@ -1157,5 +1157,279 @@
       "Q-0007",
       "Q-0008"
     ]
+  },
+  {
+    "evidence_id": "EV-0037",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-15",
+    "source_authority": "Australian Department of Agriculture, Fisheries and Forestry",
+    "source_title": "247-2026: Unplanned Outage — Cargo Online Lodgement System",
+    "source_type": "Government Record",
+    "source_location": "https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/247-2026",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0037-source-extract.txt",
+    "document_hash": "sha256:909c0ba1b5d49570b40323cb97fa58396d6117de525dde6192e2cdd732c562e9",
+    "hash_exception_reason": null,
+    "evidence_description": "Information section, 10:30 Australian Eastern Daylight Time status. The department reported that the Cargo Online Lodgement System was unavailable as of 10:30 on 15 November. The notice covers importers and customs brokers lodging cargo documentation for biosecurity assessment.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0 for the underlying operation under the current qualification method. This entry documents what the institution published. The listed time is the notice’s status time. The exact start and any measured clearance or delivery delay remain unknown. This concerns a government lodgement service, with no terminal operating status stated.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0028",
+      "EV-0029",
+      "EV-0035"
+    ],
+    "chronology_links": [
+      "CHR-0035"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0038",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-15",
+    "source_authority": "Australian Department of Agriculture, Fisheries and Forestry",
+    "source_title": "249-2026: Services Restored — Multiple Systems",
+    "source_type": "Government Record",
+    "source_location": "https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/249-2026",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0038-source-extract.txt",
+    "document_hash": "sha256:709c8c404941547fd35b32ad1486de25830b84adc5121a63d4b619df3be57972",
+    "hash_exception_reason": null,
+    "evidence_description": "Affected users and resolution time sections. The department records 18:40 Australian Eastern Daylight Time as the time of resolution for cargo lodgement, maritime and aircraft reporting, post-entry biosecurity, and import-conditions systems. It identifies shipping agents and maritime operators among the affected categories.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0 for the underlying operation under the current qualification method. This entry documents what the institution published. Beginnings of the other systems’ outages, individual lodgement outcomes, incident cause, and any relationship to the earlier messaging disruption are unverified. The statement records service restoration and supplies no proof of backlog clearance.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0028",
+      "EV-0029",
+      "EV-0037"
+    ],
+    "chronology_links": [
+      "CHR-0036"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0039",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-14",
+    "source_authority": "Brown University Office of Information Technology",
+    "source_title": "Workday Outage",
+    "source_type": "Public Statement",
+    "source_location": "https://status.brown.edu/incidents/kkmzzsmq2xrg",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0039-source-extract.txt",
+    "document_hash": "sha256:2fd19e6e3159c3834264f5ef184aa746a53e4671be3022e489ec9b8f8d560a65",
+    "hash_exception_reason": null,
+    "evidence_description": "13 November 22:17 and 14 November 12:28 Eastern Standard Time updates. Brown reports that direct time reporting, open enrollment, expense reports, hiring, and time-off functions were unavailable. It says staff with physical time clocks could continue using them and advised other staff to keep time records outside Workday. It marked the campus incident resolved on 14 November at 12:28, with automated processing catching up.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 5. PF(H,E)=0 for the underlying operation under the current qualification method. This entry documents what the institution published. The institutional record distinguishes local recovery from automated backlog processing. It does not confirm payroll on time, backlog completion, or the vendor explanation independently.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0024"
+    ],
+    "chronology_links": [
+      "CHR-0037",
+      "CHR-0038"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0040",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-13",
+    "source_authority": "Hampshire and Isle of Wight Healthcare National Health Service Foundation Trust",
+    "source_title": "Global Microsoft outage affecting some services",
+    "source_type": "Government Record",
+    "source_location": "https://hiowhealthcare.nhs.uk/about-us/news-and-views/global-microsoft-outage-affecting-some-services",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0040-source-extract.txt",
+    "document_hash": "sha256:e6fbcf0539cc8277e3a7caab28e829067347c5005267def2bd2d8df117ceb072",
+    "hash_exception_reason": null,
+    "evidence_description": "Musculoskeletal self-referrals section and 17:00 update. The trust reported it could not receive online musculoskeletal self-referrals and suspended that route from midday. At 17:00 it reported email and referral systems returning to normal and warned of slower responses while teams recovered.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0 for the underlying operation under the current qualification method. This entry documents what the institution published. The notice documents an actual suspension and a recovery update. It supplies no count of people affected, actual referral wait times, or evidence that the whole backlog cleared.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0020",
+      "EV-0023",
+      "EV-0031",
+      "EV-0032"
+    ],
+    "chronology_links": [
+      "CHR-0039"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0041",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-16",
+    "source_authority": "King’s College Hospital National Health Service Foundation Trust",
+    "source_title": "Microsoft outage — update",
+    "source_type": "Government Record",
+    "source_location": "https://www.kch.nhs.uk/news/microsoft-outage/",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0041-source-extract.txt",
+    "document_hash": "sha256:f1e6a3d3989cc095c692649dc92dfddfbc39a9c681ad85195012478bbe2f191f",
+    "hash_exception_reason": null,
+    "evidence_description": "13 November advice and 16 November restoration update. The trust reported procedures were going ahead on 13 November, published telephone fallback guidance for time-sensitive referrals, and stated on 16 November that Microsoft services had been restored and its services were operating normally.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0 for the underlying operation under the current qualification method. This entry documents what the institution published. The statements are bounded to this trust and the stated dates. They do not measure missed referrals, response times, or outcomes at other trusts.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0023",
+      "EV-0032",
+      "EV-0040"
+    ],
+    "chronology_links": [
+      "CHR-0040"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0042",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-13",
+    "source_authority": "Los Angeles Times · passenger Dylan Schroeder",
+    "source_title": "Nationwide ground stop lifted, but passengers remain stranded at airports",
+    "source_type": "Media Report",
+    "source_location": "https://www.latimes.com/california/story/2026-11-13/faa-issues-nationwide-ground-stop",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0042-source-extract.txt",
+    "document_hash": "sha256:f33abf4496e8585e83ecf53a77524998e09771d754e85b0eafe87ee82e7d2dd2",
+    "hash_exception_reason": null,
+    "evidence_description": "Named passenger interview near the end of the report. Schroeder described a pilot announcement about air traffic control problems after boarding at Charlotte, North Carolina. The report describes the passengers being told to deplane after waiting just over an hour.",
+    "relevant_quotation": "the pilot came on saying Air Traffic Control was having system issues.",
+    "investigation_relevance": "Tier 4. PF(H,E)=1 with FS-MEDIUM for the named source’s directly attributed observation. Qualification covers the directly attributed passenger account of hearing the announcement. Airline attribution, time lost in total, final itinerary and any compensation remain unverified.",
+    "classification": "Partial",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0017",
+      "EV-0018",
+      "EV-0019",
+      "EV-0025"
+    ],
+    "chronology_links": [
+      "CHR-0041"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0043",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-23",
+    "source_authority": "Australian Department of Agriculture, Fisheries and Forestry",
+    "source_title": "255-2026: Unplanned Service Disruption — Cargo Online Lodgement System",
+    "source_type": "Government Record",
+    "source_location": "https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/255-2026",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0043-source-extract.txt",
+    "document_hash": "sha256:ab1114dcd03448b78d96264fa02a8d99c04f3b61a5f867567684ffe948745021",
+    "hash_exception_reason": null,
+    "evidence_description": "Information section, approximately 07:36 Australian Eastern Daylight Time. The department reports disruption as of about 07:36 on 23 November and warns that some importers and customs brokers may encounter errors when lodging documents. It advises retrying failed lodgements once the service is restored.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0 for the underlying operation under the current qualification method. This entry documents what the institution published. The notice identifies the transaction at risk. It supplies no error count, individual shipment outcomes, verified root cause or terminal-level operating record.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0028",
+      "EV-0035",
+      "EV-0037",
+      "EV-0038"
+    ],
+    "chronology_links": [
+      "CHR-0042"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0044",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-23",
+    "source_authority": "Australian Department of Agriculture, Fisheries and Forestry",
+    "source_title": "256-2026: Services Restored — Cargo Online Lodgement System",
+    "source_type": "Government Record",
+    "source_location": "https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/256-2026",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0044-source-extract.txt",
+    "document_hash": "sha256:ddf61f080d9b1ca8d4cf3486dffe1fb6de380d9d0691f1a2fcfaca9415125cb0",
+    "hash_exception_reason": null,
+    "evidence_description": "Information section, 09:51 Australian Eastern Daylight Time. The department reports that access was restored at 09:51. The restoration notice lists no action required.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0 for the underlying operation under the current qualification method. This entry documents what the institution published. The previous outage notice’s retry advice and this restoration notice do not establish that a failed lodgement was subsequently received or that shipments met deadlines. This notice is distinct from the 15 November restoration.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0037",
+      "EV-0038",
+      "EV-0043"
+    ],
+    "chronology_links": [
+      "CHR-0043"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
   }
 ]

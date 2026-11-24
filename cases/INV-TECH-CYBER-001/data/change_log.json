@@ -62,5 +62,31 @@
     ],
     "reason": "Continue question-led evidence collection, append chronology and question updates, and display bounded resolutions without rewriting the eight original questions.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0003",
+    "date": "2026-11-24",
+    "author": "MAYHEM operator · AI-assisted collection",
+    "files_affected": [
+      "cases/INV-TECH-CYBER-001/data/automation_log.json",
+      "cases/INV-TECH-CYBER-001/data/change_log.json",
+      "cases/INV-TECH-CYBER-001/data/chronology.json",
+      "cases/INV-TECH-CYBER-001/data/decisions.json",
+      "cases/INV-TECH-CYBER-001/data/evidence_register.json",
+      "cases/INV-TECH-CYBER-001/data/investigation_notes.json",
+      "cases/INV-TECH-CYBER-001/data/search_log.json",
+      "cases/INV-TECH-CYBER-001/data/source_register.json",
+      "cases/INV-TECH-CYBER-001/data/threads.json",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0037-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0038-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0039-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0040-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0041-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0042-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0043-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0044-source-extract.txt"
+    ],
+    "reason": "Append dated disruption and recovery milestones and update investigation thread evidence links.",
+    "validation_completed": true
   }
 ]
