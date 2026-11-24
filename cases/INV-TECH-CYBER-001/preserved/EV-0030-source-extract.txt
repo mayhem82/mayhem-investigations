@@ -1,0 +1,11 @@
+246-2026: Cancelled — scheduled outages, multiple systems
+Source: Australian Department of Agriculture, Fisheries and Forestry
+URL: https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/246-2026
+Locator: Cancellation notice and action
+Accessed: 2026-11-24T06:46:24Z via public web retrieval.
+
+Selected evidence description. The digest identifies this extract, not the original document.
+
+The department cancelled the scheduled 13–15 November maintenance outages announced in notice 242-2026 and said it would advise of rescheduled windows.
+
+Limitations: This is a separate scheduled change notice. It does not establish a port operator outage, or rule out other unplanned disruptions during that period.

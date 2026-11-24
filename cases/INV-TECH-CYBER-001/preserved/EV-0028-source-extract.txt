@@ -1,0 +1,11 @@
+245-2026: Update — Unplanned service disruption, DAFF messaging
+Source: Australian Department of Agriculture, Fisheries and Forestry
+URL: https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/245-2026
+Locator: Aviation, Agriculture Import Management System, Self Assessed Clearance, and treatment requests
+Accessed: 2026-11-24T06:46:24Z via public web retrieval.
+
+Selected evidence description. The digest identifies this extract, not the original document.
+
+The department reported disrupted inbound and outbound messaging. It advised use of the online cargo lodgement enquiry function for some treatment documents. It reported that Integrated Cargo System Self Assessed Clearance evaluations continued at the time of the notice, while some email and document retrieval functions were affected.
+
+Limitations: The notice records departmental processes and workarounds. It supplies no port-terminal shutdown record or proof that the department’s Microsoft D365 dependency was the same service-level incident tracked under MO1550821.

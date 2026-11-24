@@ -1,0 +1,11 @@
+JPMorganChase, Mastercard, Visa report cyberattack on third-party service providers
+Source: ABC News · reproduced JPMorgan Chase statement
+URL: https://abcnews.com/US/jpmorgan-chase-reports-cyberattack-party-service-providers/story?id=138287705
+Locator: 19 November report, Chase statement on vendor incident and earlier disruption
+Accessed: 2026-11-24T06:46:24Z via public web retrieval.
+
+Selected evidence description. The digest identifies this extract, not the original document.
+
+The report reproduces Chase’s statement that service vendors were targeted and that the company believed some vendor-held marketing data may have been accessed. It records Chase’s statement that it found no connection to the earlier service disruption.
+
+Limitations: This is the bank’s attributed statement via a news outlet. Independent confirmation of access, affected customers, vendor identity and the bank’s separation account remain outstanding.

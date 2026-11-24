@@ -259,5 +259,95 @@
     "supporting_evidence": [
       "EV-0026"
     ]
+  },
+  {
+    "chronology_id": "CHR-0026",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "The agriculture department publishes a messaging disruption update with alternate cargo lodgement and states that Integrated Cargo System Self Assessed Clearance evaluations continued.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0028"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0027",
+    "event_date": "2026-11-14",
+    "date_is_inference": false,
+    "event_description": "The agriculture department issues its messaging restoration notice. Completion of delayed individual transactions remains unverified.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0029"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0028",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "The agriculture department cancels the planned multiple-system outages for 13–15 November. The messaging disruption was reported separately.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0030"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0029",
+    "event_date": "2026-11-20",
+    "date_is_inference": false,
+    "event_description": "A third-party hosted copy of a Microsoft post-incident report bears this date and distinguishes active impact, backlog recovery and final customer communication.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0031"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0030",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "Washington University publishes alternative workflows for Microsoft 365 degradation, including a fallback for time-sensitive patient communication.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0032"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0031",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "Plaid publishes a partial-outage notice concerning Chase connections and later marks the Plaid incident resolved.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0033"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0032",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "Chase spokesperson publicly gives the bank’s technical explanation. An affected provider records intermittent connection errors separately.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0034"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0033",
+    "event_date": "2026-11-20",
+    "date_is_inference": false,
+    "event_description": "A freight forwarder advertised a planned Brisbane terminal outage for 20 November. Whether and when the terminal actually stopped operating remains pending.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0035"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0034",
+    "event_date": "2026-11-19",
+    "date_is_inference": false,
+    "event_description": "Chase publicly reports a separate vendor incident with potential marketing-data exposure. It says it found no connection to earlier service disruptions.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0036"
+    ]
   }
 ]

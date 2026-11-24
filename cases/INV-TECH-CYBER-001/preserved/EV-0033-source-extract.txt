@@ -1,0 +1,11 @@
+Service Disruption Impacting Chase connections
+Source: Plaid Status
+URL: https://status.plaid.com/incidents/01M7JEKB8MRJTMF1SKMY8D776V
+Locator: Investigating and Resolved updates; incident identifier 01M7JEKB8MRJTMF1SKMY8D776V
+Accessed: 2026-11-24T06:46:24Z via public web retrieval.
+
+Selected evidence description. The digest identifies this extract, not the original document.
+
+Plaid recorded intermittent errors affecting a small percentage of users connecting to Chase on 16 November and subsequently marked its own incident resolved.
+
+Limitations: This is an affected provider’s report of its own connections. Its opening time is a notice milestone, and its resolution does not establish bank-wide restoration or outcomes for individual bank customers.

@@ -142,5 +142,77 @@
     "jurisdiction": "Australia",
     "results_reviewed": 1,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0013",
+    "search_terms": "Microsoft MO1550821 EX1550543 November 2026 final post incident report Workday 13 November 2026 payroll WashU incident follow up",
+    "search_engine": "Public web search and source retrieval",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Microsoft report mirror and Washington University alternative workflows. Counts are retained source records for the search.",
+    "jurisdiction": "Australia or international, as relevant to the selected source",
+    "results_reviewed": 2,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0014",
+    "search_terms": "site:gov.au November 2026 outage Microsoft Department Agriculture importing November 13 2026 biosecurity messaging D365",
+    "search_engine": "Public web search and source retrieval",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Australian department notices 245-2026 and 248-2026. Counts are retained source records for the search.",
+    "jurisdiction": "Australia or international, as relevant to the selected source",
+    "results_reviewed": 2,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0015",
+    "search_terms": "site:agriculture.gov.au November 2026 resolved DAFF messaging Microsoft 246-2026 scheduled outage 242-2026",
+    "search_engine": "Public web search and source retrieval",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Australian department cancellation notice 246-2026. Counts are retained source records for the search.",
+    "jurisdiction": "Australia or international, as relevant to the selected source",
+    "results_reviewed": 1,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0016",
+    "search_terms": "JPMorgan Chase November 16 2026 transaction delay company statement Zelle operator \"software bug\" on-premise official incident; \"Chase\" \"November 16\" 2026 incident Plaid official status",
+    "search_engine": "Public web search and source retrieval",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Plaid and named spokesperson account, access to original Chase post restricted. Counts are retained source records for the search.",
+    "jurisdiction": "Australia or international, as relevant to the selected source",
+    "results_reviewed": 2,
+    "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0017",
+    "search_terms": "Chase 19 November 2026 third party vendor marketing data JPMorgan Chase official breach notice November 2026 2123405210445857009",
+    "search_engine": "Public web search and source retrieval",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "ABC News reproduction of Chase statement; original social post unavailable through public retrieval. Counts are retained source records for the search.",
+    "jurisdiction": "Australia or international, as relevant to the selected source",
+    "results_reviewed": 1,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0018",
+    "search_terms": "\"DP World Brisbane\" \"20 November 2026\" \"terminal\" FTA APSA outage closure",
+    "search_engine": "Public web search and source retrieval",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Freight forwarder notice, terminal operator’s confirmation not located. Counts are retained source records for the search.",
+    "jurisdiction": "Australia or international, as relevant to the selected source",
+    "results_reviewed": 1,
+    "results_preserved": 1
   }
 ]

@@ -144,6 +144,8 @@ Spec section 12.
 | `likely_source` | string | |
 | `status` | enum | `"Open"`, `"Closed"`. |
 | `resolution_evidence` | array of string | `evidence_id`s. Required (non-empty) when `status` is `"Closed"`. |
+| `parent_question_id` | optional string | Existing question narrowed by this record. |
+| `resolution_summary` | optional string | Bounded answer for a closed question, with its limits. |
 
 ---
 
@@ -282,6 +284,8 @@ a correction is a new, later note.
 | `related_thread` | string \| `null` | `thread_id`, if this note relates to a specific thread. |
 | `related_source` | string \| `null` | `source_id`, if this note relates to a specific source. |
 | `related_evidence` | string \| `null` | `evidence_id`, if this note relates to a specific evidence item. |
+| `related_question` | optional string | Existing question updated by this working note. |
+| `question_evidence` | optional array of strings | Evidence reviewed in the question update. |
 
 ---
 

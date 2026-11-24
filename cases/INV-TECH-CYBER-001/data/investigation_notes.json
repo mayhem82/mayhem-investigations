@@ -61,5 +61,180 @@
     "related_thread": "THR-08",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0008",
+    "timestamp": "2026-11-24T06:46:24Z",
+    "activity_type": "Checking Source",
+    "text": "Incident boundaries. Dated records now distinguish aviation, Microsoft 365, the university’s Workday and Microsoft records, agriculture messaging, and Plaid’s Chase connection issue. Departmental messaging and Plaid’s publication are answered in Q-0009 and Q-0012. The freight notice is evidence of the advertised terminal plan only. Next: obtain the terminal operator’s actual downtime and bank-wide onset and restoration records.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null,
+    "related_question": "Q-0001",
+    "question_evidence": [
+      "EV-0017",
+      "EV-0018",
+      "EV-0020",
+      "EV-0022",
+      "EV-0024",
+      "EV-0027",
+      "EV-0028",
+      "EV-0029",
+      "EV-0033",
+      "EV-0034",
+      "EV-0035"
+    ]
+  },
+  {
+    "note_id": "NOTE-0009",
+    "timestamp": "2026-11-24T06:46:24Z",
+    "activity_type": "Checking Source",
+    "text": "Cause and recovery. The Microsoft report copy adds a detailed operator explanation and separates end of active impact from backlog recovery. Chase’s named spokesperson gives an attributed technical explanation. Next: check Microsoft’s authenticated publication and seek a final aviation, Workday and Chase incident report with independent support.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null,
+    "related_question": "Q-0002",
+    "question_evidence": [
+      "EV-0017",
+      "EV-0020",
+      "EV-0022",
+      "EV-0024",
+      "EV-0029",
+      "EV-0031",
+      "EV-0034"
+    ]
+  },
+  {
+    "note_id": "NOTE-0010",
+    "timestamp": "2026-11-24T06:46:24Z",
+    "activity_type": "Checking Source",
+    "text": "Malicious activity. The case has dated defensive disclosures of outage-themed phishing in 2024 and 2026. Microsoft’s 2026 disclosure reports attempted phishing and does not establish successful credential capture. Chase later reported a vendor incident, with the scope of access still unverified. Next: seek attributable affected-entity outcomes or regulator confirmation.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null,
+    "related_question": "Q-0003",
+    "question_evidence": [
+      "EV-0001",
+      "EV-0002",
+      "EV-0008",
+      "EV-0021",
+      "EV-0036"
+    ]
+  },
+  {
+    "note_id": "NOTE-0011",
+    "timestamp": "2026-11-24T06:46:24Z",
+    "activity_type": "Checking Source",
+    "text": "Outage and compromise. The service disruption records and phishing report now sit alongside attributed operator statements. No source in this pass establishes that a compromise caused one of the scoped disruptions. Next: seek incident-specific forensic findings and confirm what the scope of each defensive source actually excludes.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null,
+    "related_question": "Q-0004",
+    "question_evidence": [
+      "EV-0017",
+      "EV-0020",
+      "EV-0021",
+      "EV-0028",
+      "EV-0031",
+      "EV-0033",
+      "EV-0034",
+      "EV-0036"
+    ]
+  },
+  {
+    "note_id": "NOTE-0012",
+    "timestamp": "2026-11-24T06:46:24Z",
+    "activity_type": "Checking Source",
+    "text": "Dependencies and workarounds. Records identify specific reported dependencies and fallback routes, including alternative cargo lodgement, patient communications and Plaid’s Chase connection. Next: verify which fallbacks users were able to use and obtain service-level dependency records for the remaining sectors.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null,
+    "related_question": "Q-0005",
+    "question_evidence": [
+      "EV-0007",
+      "EV-0018",
+      "EV-0020",
+      "EV-0022",
+      "EV-0024",
+      "EV-0026",
+      "EV-0028",
+      "EV-0031",
+      "EV-0032",
+      "EV-0033"
+    ]
+  },
+  {
+    "note_id": "NOTE-0013",
+    "timestamp": "2026-11-24T06:46:24Z",
+    "activity_type": "Checking Source",
+    "text": "Consequences for people. Records now show concrete alternative steps for workers, patients and cargo clients. Q-0011 answers the university’s published patient fallback. Counts of affected people, paid reimbursements, missed appointments, payment outcomes and terminal delays remain outstanding.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null,
+    "related_question": "Q-0006",
+    "question_evidence": [
+      "EV-0011",
+      "EV-0012",
+      "EV-0015",
+      "EV-0019",
+      "EV-0023",
+      "EV-0024",
+      "EV-0025",
+      "EV-0026",
+      "EV-0027",
+      "EV-0028",
+      "EV-0032",
+      "EV-0033",
+      "EV-0034",
+      "EV-0035"
+    ]
+  },
+  {
+    "note_id": "NOTE-0014",
+    "timestamp": "2026-11-24T06:46:24Z",
+    "activity_type": "Checking Source",
+    "text": "Connections and separate explanations. United explicitly attributes operational impact to the ground stop. Plaid reports disruption to its connections with Chase. The cancelled agriculture maintenance windows are resolved in Q-0010 and remain distinct from the messaging disruption. Chase says it found no connection between the vendor incident and the earlier disruption. There is no evidence here tying the reported terminal plan to the other cases. Next: reconcile Microsoft D365 and Microsoft 365 product records before linking their incidents.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null,
+    "related_question": "Q-0007",
+    "question_evidence": [
+      "EV-0019",
+      "EV-0020",
+      "EV-0022",
+      "EV-0024",
+      "EV-0026",
+      "EV-0028",
+      "EV-0030",
+      "EV-0031",
+      "EV-0033",
+      "EV-0034",
+      "EV-0035",
+      "EV-0036"
+    ]
+  },
+  {
+    "note_id": "NOTE-0015",
+    "timestamp": "2026-11-24T06:46:24Z",
+    "activity_type": "Checking Source",
+    "text": "Uncertainty and unavailable records. The register retains the Microsoft 2024 time-zone issue, the provenance limit on the mirrored 2026 report, the distinction between service announcements and individual recovery, and the unverified Brisbane terminal operation. The Chase source’s official social post was unavailable directly in this pass. Next: obtain authenticated operator notices and dated outcome records.",
+    "related_thread": null,
+    "related_source": null,
+    "related_evidence": null,
+    "related_question": "Q-0008",
+    "question_evidence": [
+      "EV-0006",
+      "EV-0010",
+      "EV-0013",
+      "EV-0016",
+      "EV-0021",
+      "EV-0028",
+      "EV-0029",
+      "EV-0031",
+      "EV-0033",
+      "EV-0034",
+      "EV-0035",
+      "EV-0036"
+    ]
   }
 ]

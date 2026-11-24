@@ -1,0 +1,11 @@
+248-2026: Services restored — DAFF messaging
+Source: Australian Department of Agriculture, Fisheries and Forestry
+URL: https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/248-2026
+Locator: Information and Action sections
+Accessed: 2026-11-24T06:46:24Z via public web retrieval.
+
+Selected evidence description. The digest identifies this extract, not the original document.
+
+The department published that it had been advised the Microsoft D365 outage was resolved and that affected clients should again be able to send and receive email with the department and impacted systems.
+
+Limitations: The notice establishes the department’s public restoration statement. The exact restoration time, delivery of all queued items and clearance outcomes were not supplied.

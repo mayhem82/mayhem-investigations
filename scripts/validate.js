@@ -359,12 +359,19 @@ function validateCase(caseInfo) {
   ];
 
   checkUnique(openQuestions, 'question_id', 'open_questions.json');
+  const questionIds = new Set(openQuestions.map((q) => q.question_id));
 
   for (const q of openQuestions) {
     const label = `open_questions.json[${q.question_id || '?'}]`;
     requireFields(q, QUESTION_REQUIRED_FIELDS, label);
     if ('status' in q && !QUESTION_STATUSES.has(q.status)) {
       fail(`${label}: invalid status "${q.status}"`);
+    }
+    if ('parent_question_id' in q && (!questionIds.has(q.parent_question_id) || q.parent_question_id === q.question_id)) {
+      fail(`${label}: invalid parent_question_id "${q.parent_question_id}"`);
+    }
+    if ('resolution_summary' in q && (q.status !== 'Closed' || !isNonEmptyString(q.resolution_summary))) {
+      fail(`${label}: resolution_summary requires a closed question and non-empty text`);
     }
     if ('evidence_creating_question' in q) {
       checkReferences(q.evidence_creating_question, evidenceIds, label, 'evidence_creating_question');
@@ -528,6 +535,12 @@ function validateCase(caseInfo) {
     requireFields(n, NOTE_REQUIRED_FIELDS, label);
     if ('activity_type' in n && !NOTE_ACTIVITY_TYPES.has(n.activity_type)) {
       fail(`${label}: invalid activity_type "${n.activity_type}"`);
+    }
+    if (n.related_question && !questionIds.has(n.related_question)) {
+      fail(`${label}: related_question references unknown id "${n.related_question}"`);
+    }
+    if ('question_evidence' in n) {
+      checkReferences(n.question_evidence, evidenceIds, label, 'question_evidence');
     }
     if (n.related_thread && !threadIds.has(n.related_thread)) {
       fail(`${label}: related_thread references unknown id "${n.related_thread}"`);

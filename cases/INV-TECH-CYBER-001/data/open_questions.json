@@ -78,5 +78,72 @@
     "likely_source": "Original publishers and independent authorities",
     "status": "Open",
     "resolution_evidence": []
+  },
+  {
+    "question_id": "Q-0009",
+    "parent_question_id": "Q-0001",
+    "question": "What did the agriculture department announce about messaging disruption and restoration on 13–14 November?",
+    "why_exists": "Bounded question arising under Q-0001. The closure concerns what the dated records document.",
+    "evidence_creating_question": [
+      "EV-0028"
+    ],
+    "evidence_required_to_resolve": "An identifiable dated publication from the responsible organisation.",
+    "likely_source": "Original publisher of the operational notice",
+    "status": "Closed",
+    "resolution_evidence": [
+      "EV-0028",
+      "EV-0029"
+    ],
+    "resolution_summary": "Notices 245-2026 and 248-2026 establish the disruption and workaround it published on 13 November and the restoration notice it issued on 14 November. Delivery of queued messages and terminal operations remain under the parent questions."
+  },
+  {
+    "question_id": "Q-0010",
+    "parent_question_id": "Q-0007",
+    "question": "Did the agriculture department retain its scheduled 13–15 November maintenance windows?",
+    "why_exists": "Bounded question arising under Q-0007. The closure concerns what the dated records document.",
+    "evidence_creating_question": [
+      "EV-0028"
+    ],
+    "evidence_required_to_resolve": "An identifiable dated publication from the responsible organisation.",
+    "likely_source": "Original publisher of the operational notice",
+    "status": "Closed",
+    "resolution_evidence": [
+      "EV-0028",
+      "EV-0030"
+    ],
+    "resolution_summary": "Notice 246-2026 expressly cancelled the scheduled outages. The department’s separately published messaging disruption remains its own event. This answers whether the announced maintenance windows were retained."
+  },
+  {
+    "question_id": "Q-0011",
+    "parent_question_id": "Q-0006",
+    "question": "What alternative did Washington University publish for time-sensitive patient communications during Microsoft 365 degradation?",
+    "why_exists": "Bounded question arising under Q-0006. The closure concerns what the dated records document.",
+    "evidence_creating_question": [
+      "EV-0032"
+    ],
+    "evidence_required_to_resolve": "An identifiable dated publication from the responsible organisation.",
+    "likely_source": "Original publisher of the operational notice",
+    "status": "Closed",
+    "resolution_evidence": [
+      "EV-0032"
+    ],
+    "resolution_summary": "The university published a direction to check the patient portal directly and telephone patients for time-sensitive matters. Individual outcomes remain under the parent question."
+  },
+  {
+    "question_id": "Q-0012",
+    "parent_question_id": "Q-0001",
+    "question": "Did Plaid itself report errors affecting its Chase connections on 16 November?",
+    "why_exists": "Bounded question arising under Q-0001. The closure concerns what the dated records document.",
+    "evidence_creating_question": [
+      "EV-0033"
+    ],
+    "evidence_required_to_resolve": "An identifiable dated publication from the responsible organisation.",
+    "likely_source": "Original publisher of the operational notice",
+    "status": "Closed",
+    "resolution_evidence": [
+      "EV-0033",
+      "EV-0034"
+    ],
+    "resolution_summary": "Plaid’s incident record documents intermittent errors to its Chase connections. This resolves publication and scope of Plaid’s report. Bank-wide impact and customer outcomes remain under the parent questions."
   }
 ]

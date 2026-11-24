@@ -851,5 +851,311 @@
       "Q-0007",
       "Q-0008"
     ]
+  },
+  {
+    "evidence_id": "EV-0028",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-13",
+    "source_authority": "Australian Department of Agriculture, Fisheries and Forestry",
+    "source_title": "245-2026: Update — Unplanned service disruption, DAFF messaging",
+    "source_type": "Government Record",
+    "source_location": "https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/245-2026",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0028-source-extract.txt",
+    "document_hash": "sha256:7501e76454d502f226dd0c2c0365070fae4d00d98a9feaca987cab9e599195b0",
+    "hash_exception_reason": null,
+    "evidence_description": "Aviation, Agriculture Import Management System, Self Assessed Clearance, and treatment requests. The department reported disrupted inbound and outbound messaging. It advised use of the online cargo lodgement enquiry function for some treatment documents. It reported that Integrated Cargo System Self Assessed Clearance evaluations continued at the time of the notice, while some email and document retrieval functions were affected.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0 for underlying claims without a named observer. The notice records departmental processes and workarounds. It supplies no port-terminal shutdown record or proof that the department’s Microsoft D365 dependency was the same service-level incident tracked under MO1550821.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0020",
+      "EV-0026"
+    ],
+    "chronology_links": [
+      "CHR-0026"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008",
+      "Q-0009"
+    ]
+  },
+  {
+    "evidence_id": "EV-0029",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-14",
+    "source_authority": "Australian Department of Agriculture, Fisheries and Forestry",
+    "source_title": "248-2026: Services restored — DAFF messaging",
+    "source_type": "Government Record",
+    "source_location": "https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/248-2026",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0029-source-extract.txt",
+    "document_hash": "sha256:cfeafaf9e41cc1c996f3aa9e9bbebff7cdf18a1445c7f453dcea0804ff3a5dda",
+    "hash_exception_reason": null,
+    "evidence_description": "Information and Action sections. The department published that it had been advised the Microsoft D365 outage was resolved and that affected clients should again be able to send and receive email with the department and impacted systems.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0 for underlying claims without a named observer. The notice establishes the department’s public restoration statement. The exact restoration time, delivery of all queued items and clearance outcomes were not supplied.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0028"
+    ],
+    "chronology_links": [
+      "CHR-0027"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0006",
+      "Q-0008",
+      "Q-0009"
+    ]
+  },
+  {
+    "evidence_id": "EV-0030",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-13",
+    "source_authority": "Australian Department of Agriculture, Fisheries and Forestry",
+    "source_title": "246-2026: Cancelled — scheduled outages, multiple systems",
+    "source_type": "Government Record",
+    "source_location": "https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/246-2026",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0030-source-extract.txt",
+    "document_hash": "sha256:0f79016bb3e108c30ca501518db5ba698e936923cd87a61729211f30cfba8dba",
+    "hash_exception_reason": null,
+    "evidence_description": "Cancellation notice and action. The department cancelled the scheduled 13–15 November maintenance outages announced in notice 242-2026 and said it would advise of rescheduled windows.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0 for underlying claims without a named observer. This is a separate scheduled change notice. It does not establish a port operator outage, or rule out other unplanned disruptions during that period.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0028",
+      "EV-0029"
+    ],
+    "chronology_links": [
+      "CHR-0028"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0007",
+      "Q-0008",
+      "Q-0010"
+    ]
+  },
+  {
+    "evidence_id": "EV-0031",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-20",
+    "source_authority": "Microsoft · third-party hosted copy",
+    "source_title": "Post-incident report · EX1550543 and MO1550821",
+    "source_type": "Other Public Record",
+    "source_location": "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0031-source-extract.txt",
+    "document_hash": "sha256:14401d0dbe2c36e2d4fee4739f72e2def84b1e742a2b1c836a19dcaf76992b17",
+    "hash_exception_reason": null,
+    "evidence_description": "Report header, incident information, recovery milestones and root cause summary. A publicly hosted copy bearing Microsoft’s name and matching the reported incident identifiers gives a service-impact interval of 12 November 16:20 to 13 November 16:10 Coordinated Universal Time. It attributes the incident to interacting factors involving a latent defect and load conditions, and distinguishes the end of active impact from backlog recovery and the final customer update.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 6. PF(H,E)=0 for underlying claims without a named observer. The copy is hosted outside Microsoft. Incident identifiers and main impact window match the tenant status extract. Authenticated provenance, independent confirmation of the technical explanation and local backlog outcomes remain outstanding.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0020",
+      "EV-0023",
+      "EV-0027"
+    ],
+    "chronology_links": [
+      "CHR-0029"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0004",
+      "Q-0005",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0032",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-13",
+    "source_authority": "Washington University in St. Louis Information Technology",
+    "source_title": "Microsoft Service Degradation: Alternative Solutions",
+    "source_type": "Public Statement",
+    "source_location": "https://it.washu.edu/2026/11/13/microsoft-degradation/",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0032-source-extract.txt",
+    "document_hash": "sha256:d6065a87830f608cc8ddef5bb543c76769300743257308a22dcc41bf15f7feb4",
+    "hash_exception_reason": null,
+    "evidence_description": "Update on restoration and patient communications guidance. The university published alternative workflows during Microsoft 365 degradation, advising staff to check the patient portal directly and telephone patients for time-sensitive matters. It records its own restoration observation and a subsequent notice to students, faculty and staff.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 5. PF(H,E)=0 for underlying claims without a named observer. These are published local directions and a local service observation. No patient-level missed appointment, uptake of alternatives or measured health outcome is supplied. This is the Microsoft 365 incident, separately tracked from Workday.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0020",
+      "EV-0023",
+      "EV-0024",
+      "EV-0031"
+    ],
+    "chronology_links": [
+      "CHR-0030"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008",
+      "Q-0011"
+    ]
+  },
+  {
+    "evidence_id": "EV-0033",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-16",
+    "source_authority": "Plaid Status",
+    "source_title": "Service Disruption Impacting Chase connections",
+    "source_type": "Public Statement",
+    "source_location": "https://status.plaid.com/incidents/01M7JEKB8MRJTMF1SKMY8D776V",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0033-source-extract.txt",
+    "document_hash": "sha256:230063d7b3340f9510e2906d1d704c6b709f2761cbd11c302b29f478988b775b",
+    "hash_exception_reason": null,
+    "evidence_description": "Investigating and Resolved updates; incident identifier 01M7JEKB8MRJTMF1SKMY8D776V. Plaid recorded intermittent errors affecting a small percentage of users connecting to Chase on 16 November and subsequently marked its own incident resolved.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 6. PF(H,E)=0 for underlying claims without a named observer. This is an affected provider’s report of its own connections. Its opening time is a notice milestone, and its resolution does not establish bank-wide restoration or outcomes for individual bank customers.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0031"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0004",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008",
+      "Q-0012"
+    ]
+  },
+  {
+    "evidence_id": "EV-0034",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-16",
+    "source_authority": "Associated Press · attributed statement by Chase spokesperson Joe Evangelisti",
+    "source_title": "A technical issue at JPMorgan Chase triggers online banking delays for major US banks",
+    "source_type": "Media Report",
+    "source_location": "https://www.opb.org/article/2026/11/16/a-technical-issue-at-jpmorgan-chase-triggers-online-banking-delays-across-major-us-banks/",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0034-source-extract.txt",
+    "document_hash": "sha256:f89b4be664be04075efb55a96bc4733d950d841e6a66d232c9cbee9ebc601854",
+    "hash_exception_reason": null,
+    "evidence_description": "Chase and payment service responses in Associated Press report republished by Oregon Public Broadcasting. Named Chase spokesperson Joe Evangelisti attributed the disruption to an internal technical issue and said there was no cyber connection. The story separately attributes statements about payment delays and network operation to other organisations.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 4. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed statement. The dated report directly attributes the operator account to a named spokesperson. Verification applies to that reported statement. The underlying explanation, complete customer scope and resolution metrics need an independent or operator incident report.",
+    "classification": "Partial",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0033"
+    ],
+    "chronology_links": [
+      "CHR-0032"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0004",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008",
+      "Q-0012"
+    ]
+  },
+  {
+    "evidence_id": "EV-0035",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-19",
+    "source_authority": "Dieterle & Victory",
+    "source_title": "Terminal Closure – Brisbane",
+    "source_type": "Public Statement",
+    "source_location": "https://www.dieterle-victory.com/terminal-closure-brisbane-17/",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0035-source-extract.txt",
+    "document_hash": "sha256:d399b7bf30f15c72e4c54197b85bd1e66150288009f4c48b0a5c03a9964bfe0e",
+    "hash_exception_reason": null,
+    "evidence_description": "Customer notice and Recent Posts date; notices attributed to the Freight & Trade Alliance and Australian Peak Shippers Association. The freight forwarder announced a reported planned outage at the Brisbane DP World terminal on 20 November, from 06:00 to 16:00, and advised customers of possible delivery delays.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 6. PF(H,E)=0 for underlying claims without a named observer. First-party record of the freight forwarder’s advice, second-hand for the terminal plan. The notice omits the time zone. Actual outage, delay counts, operator confirmation, compromise and links to other incidents remain unverified.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0028",
+      "EV-0030"
+    ],
+    "chronology_links": [
+      "CHR-0033"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0036",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-19",
+    "source_authority": "ABC News · reproduced JPMorgan Chase statement",
+    "source_title": "JPMorganChase, Mastercard, Visa report cyberattack on third-party service providers",
+    "source_type": "Media Report",
+    "source_location": "https://abcnews.com/US/jpmorgan-chase-reports-cyberattack-party-service-providers/story?id=138287705",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0036-source-extract.txt",
+    "document_hash": "sha256:ff710b15f6e16d8d530472841087c0ef491c7b13bd3262f949c4116e432b46e9",
+    "hash_exception_reason": null,
+    "evidence_description": "19 November report, Chase statement on vendor incident and earlier disruption. The report reproduces Chase’s statement that service vendors were targeted and that the company believed some vendor-held marketing data may have been accessed. It records Chase’s statement that it found no connection to the earlier service disruption.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 4. PF(H,E)=0 for underlying claims without a named observer. This is the bank’s attributed statement via a news outlet. Independent confirmation of access, affected customers, vendor identity and the bank’s separation account remain outstanding.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0033",
+      "EV-0034"
+    ],
+    "chronology_links": [
+      "CHR-0034"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0003",
+      "Q-0004",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
   }
 ]

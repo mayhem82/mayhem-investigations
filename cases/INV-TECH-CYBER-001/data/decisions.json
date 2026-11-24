@@ -43,5 +43,20 @@
     ],
     "investigator": "MAYHEM operator · AI-assisted collection",
     "impact": "Preserve clearly labeled extracts with their own hashes and retain source provenance and access limitations. A dated provider explanation, observed service impact and verified compromise remain distinct."
+  },
+  {
+    "decision_id": "DEC-0004",
+    "date": "2026-11-24",
+    "reason": "The original questions cover several incidents and require distinct kinds of evidence. Dated notices allow resolution of narrower operational or publication questions with explicit limits.",
+    "supporting_evidence": [
+      "EV-0028",
+      "EV-0029",
+      "EV-0030",
+      "EV-0032",
+      "EV-0033",
+      "EV-0034"
+    ],
+    "investigator": "MAYHEM operator · AI-assisted collection",
+    "impact": "Retain the original eight question records. Record progress against each and link four closed subquestions. Closure applies only to their stated scope. Keep evidence gathering open."
   }
 ]

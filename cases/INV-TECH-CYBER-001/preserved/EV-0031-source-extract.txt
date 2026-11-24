@@ -1,0 +1,11 @@
+Post-incident report · EX1550543 and MO1550821
+Source: Microsoft · third-party hosted copy
+URL: https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf
+Locator: Report header, incident information, recovery milestones and root cause summary
+Accessed: 2026-11-24T06:46:24Z via public web retrieval.
+
+Selected evidence description. The digest identifies this extract, not the original document.
+
+A publicly hosted copy bearing Microsoft’s name and matching the reported incident identifiers gives a service-impact interval of 12 November 16:20 to 13 November 16:10 Coordinated Universal Time. It attributes the incident to interacting factors involving a latent defect and load conditions, and distinguishes the end of active impact from backlog recovery and the final customer update.
+
+Limitations: The copy is hosted outside Microsoft. Incident identifiers and main impact window match the tenant status extract. Authenticated provenance, independent confirmation of the technical explanation and local backlog outcomes remain outstanding.

@@ -1,0 +1,11 @@
+Microsoft Service Degradation: Alternative Solutions
+Source: Washington University in St. Louis Information Technology
+URL: https://it.washu.edu/2026/11/13/microsoft-degradation/
+Locator: Update on restoration and patient communications guidance
+Accessed: 2026-11-24T06:46:24Z via public web retrieval.
+
+Selected evidence description. The digest identifies this extract, not the original document.
+
+The university published alternative workflows during Microsoft 365 degradation, advising staff to check the patient portal directly and telephone patients for time-sensitive matters. It records its own restoration observation and a subsequent notice to students, faculty and staff.
+
+Limitations: These are published local directions and a local service observation. No patient-level missed appointment, uptake of alternatives or measured health outcome is supplied. This is the Microsoft 365 incident, separately tracked from Workday.

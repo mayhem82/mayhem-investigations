@@ -42,5 +42,36 @@
       "EV-0027"
     ],
     "notes": "AI-assisted, operator-directed continuation. Checked chartered November leads and reconciled the prior state. The 25 chronology records include historical context and distinguish confirmed statements from pending underlying reports. Eleven selected source extracts were retained. The source check list includes historical checks recovered from prior collection records. Evidence Freeze remains open."
+  },
+  {
+    "run_id": "RUN-0002",
+    "date": "2026-11-24",
+    "stage": "DFAPTI",
+    "sources_checked": [
+      "SRC-0029",
+      "SRC-0030",
+      "SRC-0031",
+      "SRC-0032",
+      "SRC-0033",
+      "SRC-0034",
+      "SRC-0035",
+      "SRC-0036",
+      "SRC-0037",
+      "SRC-0038",
+      "SRC-0039"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0028",
+      "EV-0029",
+      "EV-0030",
+      "EV-0031",
+      "EV-0032",
+      "EV-0033",
+      "EV-0034",
+      "EV-0035",
+      "EV-0036"
+    ],
+    "notes": "Question-led public source collection and bounded question closures. Eight original questions are retained and have evidence-linked progress in the question workspace. No freeze was requested."
   }
 ]

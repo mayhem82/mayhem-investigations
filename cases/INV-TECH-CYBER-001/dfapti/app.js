@@ -413,15 +413,29 @@
     });
   }
 
-  function renderQuestions(list, evidence) {
+  function questionProgress(notes) {
+    var byQuestion = new Map();
+    notes.forEach(function (note) {
+      if (note.related_question) byQuestion.set(note.related_question, note);
+    });
+    return byQuestion;
+  }
+
+  function renderQuestions(list, evidence, progress) {
     var container = document.getElementById('questions-list');
-    document.getElementById('questions-count').textContent = list.length + ' question(s)';
+    var closedCount = list.filter(function (q) { return q.status === 'Closed'; }).length;
+    document.getElementById('questions-count').textContent =
+      (list.length - closedCount) + ' open · ' + closedCount + ' answered';
     container.innerHTML = '';
     if (!list.length) {
       container.appendChild(emptyState('No open questions have been recorded yet.'));
       return;
     }
     list.forEach(function (q) {
+      var update = progress.get(q.question_id);
+      var answered = list.filter(function (item) {
+        return item.parent_question_id === q.question_id && item.status === 'Closed';
+      }).map(function (item) { return item.question_id; });
       var card = recordCard(
         q.question_id,
         el('span', {}, [idTag(q.question_id), ' — ', q.question || '']),
@@ -429,6 +443,11 @@
         [
           kv('Status', badge(q.status)),
           kv('Question', q.question),
+          q.parent_question_id ? kv('Parent Question', linkedTag(q.parent_question_id)) : null,
+          q.resolution_summary ? kv('Answer', q.resolution_summary) : null,
+          update ? kv('Latest Evidence Check', update.text) : null,
+          update ? kv('Evidence Reviewed', tagList(update.question_evidence)) : null,
+          answered.length ? kv('Answered Subquestions', tagList(answered)) : null,
           kv('Why This Question Exists', q.why_exists),
           kv('Evidence Creating Question', tagList(q.evidence_creating_question)),
           kv('Related Evidence', tagList(evidence.filter(function (e) {
@@ -436,8 +455,8 @@
           }).map(function (e) { return e.evidence_id; }))),
           kv('Evidence Required to Resolve', q.evidence_required_to_resolve),
           kv('Likely Source', q.likely_source),
-          kv('Resolution Evidence', tagList(q.resolution_evidence)),
-        ]
+          q.status === 'Closed' ? kv('Resolution Evidence', tagList(q.resolution_evidence)) : null,
+        ].filter(Boolean)
       );
       container.appendChild(card);
     });
@@ -454,7 +473,7 @@
       (text.indexOf('403') !== -1 || text.indexOf('blocked') !== -1 || text.indexOf('egress') !== -1);
   }
 
-  function renderActions(questions, sources) {
+  function renderActions(questions, sources, progress) {
     var openQuestions = questions.filter(function (q) { return q.status === 'Open'; });
     var qContainer = document.getElementById('actions-questions-list');
     document.getElementById('actions-questions-count').textContent = openQuestions.length + ' open question(s)';
@@ -463,6 +482,7 @@
       qContainer.appendChild(emptyState('No open questions currently need evidence.'));
     } else {
       openQuestions.forEach(function (q) {
+        var update = progress.get(q.question_id);
         qContainer.appendChild(recordCard(
           'action-' + q.question_id,
           el('span', {}, [idTag(q.question_id), ' — ', q.question || '']),
@@ -470,7 +490,9 @@
           [
             kv('What Would Resolve This', q.evidence_required_to_resolve),
             kv('Where to Look', q.likely_source),
-          ]
+            update ? kv('Latest Evidence Check', update.text) : null,
+            kv('Question Register', linkedTag(q.question_id)),
+          ].filter(Boolean)
         ));
       });
     }
@@ -618,8 +640,8 @@
         [
           el('div', { class: 'notes-timestamp' }, [formatTimestamp(n.timestamp)]),
           el('div', { class: 'kv-value' }, [n.text || '']),
-          (n.related_thread || n.related_source || n.related_evidence)
-            ? kv('Related', tagList([n.related_thread, n.related_source, n.related_evidence].filter(Boolean)))
+          (n.related_thread || n.related_source || n.related_evidence || n.related_question)
+            ? kv('Related', tagList([n.related_thread, n.related_source, n.related_evidence, n.related_question].filter(Boolean)))
             : null,
         ].filter(Boolean)
       );
@@ -1127,8 +1149,9 @@
     renderSources(sources, evidence);
     renderChronology(chronology);
     renderContradictions(contradictions);
-    renderQuestions(questions, evidence);
-    renderActions(questions, sources);
+    var progress = questionProgress(notes);
+    renderQuestions(questions, evidence, progress);
+    renderActions(questions, sources, progress);
     renderThreads(threads);
     renderDecisions(decisions);
     renderSearchLog(searchLog);

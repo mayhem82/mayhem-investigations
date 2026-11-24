@@ -1,0 +1,11 @@
+A technical issue at JPMorgan Chase triggers online banking delays for major US banks
+Source: Associated Press · attributed statement by Chase spokesperson Joe Evangelisti
+URL: https://www.opb.org/article/2026/11/16/a-technical-issue-at-jpmorgan-chase-triggers-online-banking-delays-across-major-us-banks/
+Locator: Chase and payment service responses in Associated Press report republished by Oregon Public Broadcasting
+Accessed: 2026-11-24T06:46:24Z via public web retrieval.
+
+Selected evidence description. The digest identifies this extract, not the original document.
+
+Named Chase spokesperson Joe Evangelisti attributed the disruption to an internal technical issue and said there was no cyber connection. The story separately attributes statements about payment delays and network operation to other organisations.
+
+Limitations: The dated report directly attributes the operator account to a named spokesperson. Verification applies to that reported statement. The underlying explanation, complete customer scope and resolution metrics need an independent or operator incident report.
