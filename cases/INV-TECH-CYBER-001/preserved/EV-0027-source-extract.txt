@@ -1,0 +1,11 @@
+Global outage to multiple Microsoft 365 services
+Source: University of Queensland Information Technology Services
+Locator: https://status.its.uq.edu.au/issues/20072/
+Section: Incident banner, local staff and student notices, and resolved timestamp
+Retrieved: 2026-11-24T06:35:58Z via public web retrieval.
+
+Preservation scope: selected evidence extract. This file is a faithful description of the visible source, not an original page capture. Its digest identifies this extract only.
+
+The university posted a local incident record from 04:27 Australian Eastern Standard Time on 13 November to a resolved timestamp of 14:17 on 14 November. Its notice addresses difficulty accessing tools used by staff and students.
+
+Limitations: Institutional status page without a named observer. Local notice and resolution timestamps do not establish continuous individual downtime. Keep this timeline distinct from the provider’s incident interval.

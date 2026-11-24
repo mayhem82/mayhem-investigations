@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "note_id": "NOTE-0001",
+    "timestamp": "2026-11-24T06:35:58Z",
+    "activity_type": "Researching",
+    "text": "Resumed from the canonical 16-entry register. Checked the charter and identified empty chronology, search, decision and run records and eight stale thread statuses.",
+    "related_thread": "THR-08",
+    "related_source": null,
+    "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0002",
+    "timestamp": "2026-11-24T06:35:58Z",
+    "activity_type": "Checking Source",
+    "text": "Checked the aviation authority and Secretary’s ground-stop records, then United’s published account of impacts.",
+    "related_thread": "THR-01",
+    "related_source": "SRC-0015",
+    "related_evidence": "EV-0017"
+  },
+  {
+    "note_id": "NOTE-0003",
+    "timestamp": "2026-11-24T06:35:58Z",
+    "activity_type": "Checking Source",
+    "text": "Compared the reproduced Microsoft service health incident with the university’s local status and the regulator’s account. Kept dated recovery boundaries and source provenance explicit.",
+    "related_thread": "THR-03",
+    "related_source": "SRC-0018",
+    "related_evidence": "EV-0020"
+  },
+  {
+    "note_id": "NOTE-0004",
+    "timestamp": "2026-11-24T06:35:58Z",
+    "activity_type": "Checking Source",
+    "text": "Checked Microsoft’s defensive phishing disclosure and retained its limitations on confirmed credential capture and compromise.",
+    "related_thread": "THR-02",
+    "related_source": "SRC-0019",
+    "related_evidence": "EV-0021"
+  },
+  {
+    "note_id": "NOTE-0005",
+    "timestamp": "2026-11-24T06:35:58Z",
+    "activity_type": "Checking Source",
+    "text": "Checked Google Security Operations and WashU’s Workday updates as separate provider or customer records.",
+    "related_thread": "THR-04",
+    "related_source": "SRC-0022",
+    "related_evidence": "EV-0024"
+  },
+  {
+    "note_id": "NOTE-0006",
+    "timestamp": "2026-11-24T06:35:58Z",
+    "activity_type": "Blocked",
+    "text": "The Jetstar incident-specific notice and payment records remain outstanding. The Melbourne university outage page was unavailable through public retrieval during this pass.",
+    "related_thread": "THR-07",
+    "related_source": "SRC-0028",
+    "related_evidence": "EV-0016"
+  },
+  {
+    "note_id": "NOTE-0007",
+    "timestamp": "2026-11-24T06:35:58Z",
+    "activity_type": "Decision",
+    "text": "Reconciled chronology and thread views while preserving all 16 previous evidence records and all eight open questions. Evidence gathering remains open.",
+    "related_thread": "THR-08",
+    "related_source": null,
+    "related_evidence": null
+  }
+]

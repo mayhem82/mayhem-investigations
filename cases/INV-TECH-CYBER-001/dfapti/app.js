@@ -238,10 +238,16 @@
     ));
 
     var lastRun = automationLog.length ? automationLog[automationLog.length - 1] : null;
-    target.appendChild(el('div', { class: 'card stack' }, [
+    var runSummary = [
       el('div', { class: 'record-title' }, ['Last Automation Run']),
       el('div', { class: 'resume-line' }, [lastRun ? (lastRun.run_id + ' (' + lastRun.date + ') — ' + lastRun.result) : 'No automation runs recorded yet.']),
-    ]));
+    ];
+    if (lastRun) {
+      runSummary.push(kv('Sources Checked', tagList(lastRun.sources_checked)));
+      runSummary.push(kv('Evidence Added', tagList(lastRun.evidence_added)));
+      runSummary.push(kv('Notes', lastRun.notes));
+    }
+    target.appendChild(el('div', { class: 'card stack' }, runSummary));
   }
 
   function renderCase(caseDef) {
@@ -267,7 +273,7 @@
     target.appendChild(card);
   }
 
-  function renderEvidence(list) {
+  function renderEvidence(list, chronology, sources, threads) {
     var container = document.getElementById('evidence-list');
     document.getElementById('evidence-count').textContent = list.length + ' item(s) · renderer 20261012evidence41';
     container.innerHTML = '';
@@ -276,6 +282,10 @@
       return;
     }
     list.forEach(function (e) {
+      var linkedChronology = chronology.filter(function (c) {
+        return (c.supporting_evidence || []).includes(e.evidence_id);
+      }).map(function (c) { return c.chronology_id; });
+      var chronologyIds = Array.from(new Set((e.chronology_links || []).concat(linkedChronology)));
       var card = recordCard(
         e.evidence_id,
         el('span', {}, [idTag(e.evidence_id), ' — ', e.source_title || (e.evidence_description ? String(e.evidence_description).slice(0,120) : '') || e.source_register_reference || 'Evidence observation']),
@@ -286,6 +296,7 @@
           kv('Classification', badge(e.classification)),
           kv('Verification State', badge(e.verification_state)),
           kv('Source Location', e.source_location),
+          kv('Source Register', tagList(sources.filter(function (s) { return s.url_or_file_location === e.source_location; }).map(function (s) { return s.source_id; }))),
           kv('Preserved File Reference', e.preserved_file_reference),
           kv('Document Hash', e.document_hash),
           kv('Recording Date', e.recording_date),
@@ -293,7 +304,10 @@
           kv('Relevant Quotation', e.relevant_quotation),
           kv('Investigation Relevance', e.investigation_relevance),
           kv('Relationships', tagList(e.relationships)),
-          kv('Chronology Links', tagList(e.chronology_links)),
+          kv('Chronology Links', tagList(chronologyIds)),
+          kv('Investigation Threads', tagList(threads.filter(function (t) {
+            return (t.supporting_evidence || []).includes(e.evidence_id);
+          }).map(function (t) { return t.thread_id; }))),
           kv('Contradiction Links', tagList(e.contradiction_links)),
           kv('Open Question Links', tagList(e.open_question_links)),
         ]
@@ -340,7 +354,7 @@
     });
   }
 
-  function renderSources(list) {
+  function renderSources(list, evidence) {
     var container = document.getElementById('sources-list');
     document.getElementById('sources-count').textContent = list.length + ' source(s)';
     container.innerHTML = '';
@@ -363,6 +377,9 @@
           kv('Hash Status', badge(s.hash_status)),
           kv('Associated Thread', s.associated_thread ? linkedTag(s.associated_thread) : '-'),
           kv('Availability Notes', s.availability_notes),
+          kv('Related Evidence', tagList(evidence.filter(function (e) {
+            return e.source_location === s.url_or_file_location;
+          }).map(function (e) { return e.evidence_id; }))),
         ]
       );
       container.appendChild(card);
@@ -396,7 +413,7 @@
     });
   }
 
-  function renderQuestions(list) {
+  function renderQuestions(list, evidence) {
     var container = document.getElementById('questions-list');
     document.getElementById('questions-count').textContent = list.length + ' question(s)';
     container.innerHTML = '';
@@ -414,6 +431,9 @@
           kv('Question', q.question),
           kv('Why This Question Exists', q.why_exists),
           kv('Evidence Creating Question', tagList(q.evidence_creating_question)),
+          kv('Related Evidence', tagList(evidence.filter(function (e) {
+            return (e.open_question_links || []).includes(q.question_id);
+          }).map(function (e) { return e.evidence_id; }))),
           kv('Evidence Required to Resolve', q.evidence_required_to_resolve),
           kv('Likely Source', q.likely_source),
           kv('Resolution Evidence', tagList(q.resolution_evidence)),
@@ -1103,11 +1123,11 @@
 
     renderResume(caseDef, evidence, chronology, contradictions, questions, threads, automationLog, decisions);
     renderCase(caseDef);
-    renderEvidence(evidence);
-    renderSources(sources);
+    renderEvidence(evidence, chronology, sources, threads);
+    renderSources(sources, evidence);
     renderChronology(chronology);
     renderContradictions(contradictions);
-    renderQuestions(questions);
+    renderQuestions(questions, evidence);
     renderActions(questions, sources);
     renderThreads(threads);
     renderDecisions(decisions);

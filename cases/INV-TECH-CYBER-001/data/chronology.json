@@ -1,1 +1,263 @@
-[]
+[
+  {
+    "chronology_id": "CHR-0001",
+    "event_date": "2023-11-08",
+    "date_is_inference": false,
+    "event_description": "Historical context — Optus nationwide outage interrupted access to Triple Zero. The regulator later published findings on access failures and missed welfare checks.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0003",
+      "EV-0004",
+      "EV-0007"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0002",
+    "event_date": "2024-01-23",
+    "date_is_inference": false,
+    "event_description": "Historical context — Communications Minister records Optus’s revised unsuccessful mobile-call count, retaining the original figure and the revised minimum.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0003"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0003",
+    "event_date": "2024-03-21",
+    "date_is_inference": false,
+    "event_description": "Historical context — Richard Bean’s final review records emergency-call fallback and the limits of remote intervention during the Optus outage.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0007"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0004",
+    "event_date": "2024-07-19",
+    "date_is_inference": false,
+    "event_description": "Historical context — CrowdStrike’s signed filing dates update release to 04:09 and reversion to 05:27 Coordinated Universal Time. Google Cloud reports customer-system symptoms from 04:09. Reversion did not mark completion of customer restoration.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0005",
+      "EV-0013",
+      "EV-0014"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0005",
+    "event_date": "2024-07-19",
+    "date_is_inference": false,
+    "event_description": "Historical context — Australia’s cyber agency publishes its advisory on widespread Windows disruption.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0001"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0006",
+    "event_date": "2024-07-20",
+    "date_is_inference": false,
+    "event_description": "Historical context — Australia’s consumer regulator issues the outage-related scam warning; the cyber agency reports material presented as recovery assistance.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0001",
+      "EV-0002"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0007",
+    "event_date": "2024-07-20",
+    "date_is_inference": false,
+    "event_description": "Historical context — Microsoft publishes a global device estimate and its account of recovery coordination. Its 18 July reference has an unspecified time zone.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0006"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0008",
+    "event_date": "2024-07-20",
+    "date_is_inference": false,
+    "event_description": "Historical context — The Australian Broadcasting Corporation publishes Lucas Gibson’s firsthand account of unavailable airport service-desk assistance.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0011"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0009",
+    "event_date": "2024-07-22",
+    "date_is_inference": false,
+    "event_description": "Historical context — Published interview records Leon Wilson’s account of being stranded in Osaka and incurring upfront expenses.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0012",
+      "EV-0015"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0010",
+    "event_date": "2024-09-24",
+    "date_is_inference": false,
+    "event_description": "Historical context — CrowdStrike executive Adam Meyers testifies on the outage and customer recovery. A later bounded transcript search did not locate the deployment minute.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0009",
+      "EV-0010"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0011",
+    "event_date": "2024-11-08",
+    "date_is_inference": false,
+    "event_description": "Historical context — Communications regulator publishes emergency-access and welfare-check figures for the 2023 Optus outage. Its access count measures people.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0004"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0012",
+    "event_date": "2024–25 reporting year",
+    "date_is_inference": false,
+    "event_description": "Historical context — The Australian Signals Directorate’s annual report describes outage-themed impersonation and defensive measures. Exact case-study publication day remains unverified here.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0008"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0013",
+    "event_date": "2026-11-11",
+    "date_is_inference": false,
+    "event_description": "Google reports disruption to Security Operations searches, detections and dashboards from 14:07 to 22:30 Pacific time. Third-party network attribution remains the operator’s account.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0022"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0014",
+    "event_date": "2026-11-12",
+    "date_is_inference": false,
+    "event_description": "Microsoft 365 tenant notices reproduced by the University of Pennsylvania report an incident start at 16:20 Coordinated Universal Time.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0020"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0015",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "Microsoft 365 tenant notices report a 16:10 Coordinated Universal Time incident end. Local recovery times can differ.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0020",
+      "EV-0027"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0016",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "The Federal Aviation Administration says a nationwide ground stop followed technical disruption starting at about 15:30 Eastern Time. Secretary Duffy confirms the airspace reopened at 20:15 Eastern Time.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0017",
+      "EV-0018",
+      "EV-0025"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0017",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "Microsoft Threat Intelligence reports observing Microsoft 365 outage-themed phishing. Successful credential capture, malware delivery and subsequent compromise were unconfirmed in its report.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0021"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0018",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "University of Queensland posts a local Microsoft 365 incident at 04:27 Australian Eastern Standard Time, distinct from the provider’s incident interval.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0020",
+      "EV-0027"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0019",
+    "event_date": "2026-11-14",
+    "date_is_inference": false,
+    "event_description": "Washington University publishes manual timekeeping instructions for employees and student workers during the Workday outage and marks its local incident resolved at 18:49 Central Standard Time.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0024"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0020",
+    "event_date": "2026-11-14",
+    "date_is_inference": false,
+    "event_description": "University of Queensland marks its local Microsoft 365 incident resolved at 14:17 Australian Eastern Standard Time.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0027"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0021",
+    "event_date": "2026-11-15",
+    "date_is_inference": false,
+    "event_description": "United chief executive Scott Kirby publicly reports effects on its operations, employees and customers from the nationwide ground stop.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0019"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0022",
+    "event_date": "2026-11-15",
+    "date_is_inference": false,
+    "event_description": "Federal Aviation Administration publishes its ground stop account and gives a daily cancellation estimate. It says some cancellations were not directly caused by the ground stop.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0017"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0023",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "United Kingdom minister Ian Murray reports Microsoft 365 disruption to health and other public services and states emergency services remained operational.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0023"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0024",
+    "event_date": "2026-11-19",
+    "date_is_inference": false,
+    "event_description": "Niagara Frontier Transportation Authority briefing records airport-specific arrival and departure cancellations for 13–16 November.",
+    "status": "Pending",
+    "supporting_evidence": [
+      "EV-0025"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0025",
+    "event_date": "2026-11-20",
+    "date_is_inference": false,
+    "event_description": "Australian Prudential Regulation Authority Deputy Chair reports customer and entity disruptions and says critical financial services continued.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0026"
+    ]
+  }
+]

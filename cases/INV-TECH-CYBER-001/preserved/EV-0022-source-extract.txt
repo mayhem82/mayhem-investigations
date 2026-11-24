@@ -1,0 +1,11 @@
+Google Security Operations incident 1sSrwjq5t9bK41xTazW7
+Source: Google Security Products Status Dashboard
+Locator: https://status.cloud.google.com/security/incidents/1sSrwjq5t9bK41xTazW7
+Section: Incident date range and 12 November 02:08 Pacific Standard Time update
+Retrieved: 2026-11-24T06:35:58Z via public web retrieval.
+
+Preservation scope: selected evidence extract. This file is a faithful description of the visible source, not an original page capture. Its digest identifies this extract only.
+
+Google reports latency and retriable errors in searches, detections and dashboards in the United States multi-region from 14:07 to 22:30 Pacific time on 11 November. The final update attributes the disruption to a third-party network issue and reports recovery after mitigation.
+
+Limitations: Institutional report. Named observer, third-party confirmation and any causal connection to another November incident remain outstanding.

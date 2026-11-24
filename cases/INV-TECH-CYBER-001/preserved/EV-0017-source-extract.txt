@@ -1,0 +1,11 @@
+Nationwide Ground Stop: Questions and Answers
+Source: Federal Aviation Administration
+Locator: https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers
+Section: Opening statement; questions on cause, cyberattack and cancellations
+Retrieved: 2026-11-24T06:35:58Z via public web retrieval.
+
+Preservation scope: selected evidence extract. This file is a faithful description of the visible source, not an original page capture. Its digest identifies this extract only.
+
+The agency dates the start of technical disruption to about 15:30 Eastern Time on 13 November and says air traffic resumed at 20:15. It describes telecommunications instability during maintenance, reports no indication of a cyberattack in information then available, and says investigation of the underlying cause continued. It reports about 12,462 cancellations that day and explicitly says some were not directly caused by the ground stop.
+
+Limitations: The agency publishes a bounded account. No named observer is bound in this source. Await the final incident report and a count attributable to the ground stop.

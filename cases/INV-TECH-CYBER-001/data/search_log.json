@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "search_id": "SRCH-0001",
+    "search_terms": "04:09; 4:09; 78 minutes",
+    "search_engine": "In-document search",
+    "database": "United States Government Publishing Office hearing transcript",
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Search limited to searchable 24 September 2024 hearing edition; no matches. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "United States",
+    "results_reviewed": 0,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0002",
+    "search_terms": "site:jetstar.com OR site:qantasnewsroom.com.au Jetstar July 2024 global IT outage cancelled flights compensation 19 July",
+    "search_engine": "Public web search",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Historical search. Three relevant first-party result types reviewed: compensation, carriage and recovery. No incident-specific notice surfaced. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "Australia and New Zealand",
+    "results_reviewed": 3,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0003",
+    "search_terms": "CrowdStrike July 19 04:09 05:27 CISA Microsoft cloud google official incident 2024 UTC CrowdStrike",
+    "search_engine": "Public web search",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Historical follow-up. CrowdStrike filing and Google Cloud status record reviewed and registered; no original bytes captured. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "International",
+    "results_reviewed": 2,
+    "results_preserved": 0
+  },
+  {
+    "search_id": "SRCH-0004",
+    "search_terms": "November 13 2026 FAA ground stop 8:15 November 13 Secretary Duffy Bryan Bedford United Airlines cancellations official Department Transportation; FAA November 13 2026 ground stop November 13 United Airlines operational statement FAA L3Harris 2026",
+    "search_engine": "Public web search",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Matched FAA, Department of Transportation and Niagara Frontier Transportation Authority records; counts refer to registered sources selected for this pass. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "United States",
+    "results_reviewed": 3,
+    "results_preserved": 3
+  },
+  {
+    "search_id": "SRCH-0005",
+    "search_terms": "United Airlines 15 November 2026 ground stop statement, item 125499",
+    "search_engine": "Direct public source retrieval",
+    "database": "United Airlines MediaRoom",
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Opened the identified statement and checked attribution and incident date. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "United States",
+    "results_reviewed": 1,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0006",
+    "search_terms": "site:microsoft.com \"November 13, 2026\" fake Microsoft 365 service-health notifications phishing",
+    "search_engine": "Public web search",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Microsoft Threat Intelligence report, opening scope and outcome limitations checked. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "International",
+    "results_reviewed": 1,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0007",
+    "search_terms": "site:cloud.google.com security Google Security Operations November 2026 Microsoft outage phishing service health November 13",
+    "search_engine": "Public web search",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Opened status incident 1sSrwjq5t9bK41xTazW7. Scope is the 11 November incident. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "United States",
+    "results_reviewed": 1,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0008",
+    "search_terms": "\"Microsoft's Incident Report for PennO365\" November 2026 ISC UPenn outage; \"preliminary\" \"EX1550543\" site:upenn.edu; MO1550821",
+    "search_engine": "Public web search and in-document search",
+    "database": "PennO365 service health extract",
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Confirmed start and end fields for incident MO1550821 in the tenant extract, distinct from Exchange Online incident notices. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "United States",
+    "results_reviewed": 1,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0009",
+    "search_terms": "\"tenanted services within the DR Site\" Workday status Workday maintenance November 2026 workday outlook official",
+    "search_engine": "Public web search",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Opened WashU local incident report and checked the vendor and local update sections. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "United States",
+    "results_reviewed": 1,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0010",
+    "search_terms": "Microsoft 365 Outage; 999",
+    "search_engine": "In-document search and linked debate",
+    "database": "UK Parliament Hansard, 16 November 2026",
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Opened the relevant debate and checked the minister’s oral statement. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "United Kingdom",
+    "results_reviewed": 1,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0011",
+    "search_terms": "Australia outage banking financial infrastructure 16 November 2026 Chase November disruption Australian payments RBA official Microsoft 365 Australian government; outage",
+    "search_engine": "Public web search and in-document search",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Checked the Australian Prudential Regulation Authority’s report of observed impacts. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "Australia",
+    "results_reviewed": 1,
+    "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0012",
+    "search_terms": "\"November 2026\" \"Microsoft 365\" outage November 13 Australian university status notice Australia Outlook official",
+    "search_engine": "Public web search and source retrieval",
+    "database": null,
+    "date": "2026-11-24",
+    "time": null,
+    "filters": "Checked the University of Queensland’s local record. The University of Melbourne page was unavailable through the retrieval tool. Exact per-query execution time was not captured. Counts cover the records described here, not total hits.",
+    "jurisdiction": "Australia",
+    "results_reviewed": 1,
+    "results_preserved": 1
+  }
+]

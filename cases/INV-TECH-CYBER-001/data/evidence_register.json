@@ -493,5 +493,363 @@
       "Q-0006",
       "Q-0008"
     ]
+  },
+  {
+    "evidence_id": "EV-0017",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-15",
+    "source_authority": "Federal Aviation Administration",
+    "source_title": "Nationwide Ground Stop: Questions and Answers",
+    "source_type": "Government Record",
+    "source_location": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0017-source-extract.txt",
+    "document_hash": "sha256:55272e43c6c0b57ade3959d5f45c68344263f6ea7d132b97b3938f3097401a65",
+    "hash_exception_reason": null,
+    "evidence_description": "Opening statement; questions on cause, cyberattack and cancellations. The agency dates the start of technical disruption to about 15:30 Eastern Time on 13 November and says air traffic resumed at 20:15. It describes telecommunications instability during maintenance, reports no indication of a cyberattack in information then available, and says investigation of the underlying cause continued. It reports about 12,462 cancellations that day and explicitly says some were not directly caused by the ground stop.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0. The agency publishes a bounded account. No named observer is bound in this source. Await the final incident report and a count attributable to the ground stop.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0016",
+      "CHR-0022"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0004",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0018",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-13",
+    "source_authority": "United States Department of Transportation · Sean P. Duffy",
+    "source_title": "Secretary Sean P. Duffy Announces Lifting of Nationwide Ground Stop, Provides Updates from FAA",
+    "source_type": "Government Record",
+    "source_location": "https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-announces-lifting-nationwide-ground",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0018-source-extract.txt",
+    "document_hash": "sha256:56d62baea13967e47672c70d18e866ee56ec51b370c2cdb3acbfa476352ceac7",
+    "hash_exception_reason": null,
+    "evidence_description": "Attributed statement on the status of the airspace. Secretary Duffy announced that the airspace reopened at 20:15 Eastern Time and said flight recovery would depend on available crews.",
+    "relevant_quotation": "At 8:15 tonight, Eastern Time, we've opened up the airspace.",
+    "investigation_relevance": "Tier 1. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed record. Qualification applies to the named, contemporaneous announcement. Reopening is a separate milestone from restoration of individual flights.",
+    "classification": "Partial",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0017"
+    ],
+    "chronology_links": [
+      "CHR-0016"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0019",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-15",
+    "source_authority": "United Airlines · Scott Kirby",
+    "source_title": "An Update on the FAA Nationwide Ground Stop from Scott Kirby",
+    "source_type": "Public Statement",
+    "source_location": "https://united.mediaroom.com/news-releases?item=125499",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0019-source-extract.txt",
+    "document_hash": "sha256:392f6413406e40f971535ea39c31efa6e883032c6f29fbd952cc2a055c2861df",
+    "hash_exception_reason": null,
+    "evidence_description": "Statement dated 15 November; paragraph on effects at United. The chief executive reported effects on United operations, employees and customers following the federal ground stop.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 6. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed record. Qualification applies to Kirby’s signed-by-name public account. No United-specific count, fare remedy or recovery distribution was provided in the statement.",
+    "classification": "Partial",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0017",
+      "EV-0018"
+    ],
+    "chronology_links": [
+      "CHR-0021"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0020",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-13",
+    "source_authority": "Microsoft notices reproduced by University of Pennsylvania Information Systems and Computing",
+    "source_title": "Microsoft’s Incident Reports for PennO365 · MO1550821",
+    "source_type": "Other Public Record",
+    "source_location": "https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html?q=MO1550821",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0020-source-extract.txt",
+    "document_hash": "sha256:9528be0be30979e6208ef1b113945ae7fea1a35643b1c66464fe95a311548484",
+    "hash_exception_reason": null,
+    "evidence_description": "Incident MO1550821, start and end fields and linked service-impact description. The tenant extract reports a 12 November 16:20 to 13 November 16:10 Coordinated Universal Time interval for Microsoft 365. It describes service features dependent on interaction with Exchange Online and gradual restoration.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 6. PF(H,E)=0. The university reproduces provider notices. The interval is the incident record’s interval, not proof of every customer’s recovery. Obtain the provider’s final report and reconcile local recovery times.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0014",
+      "CHR-0015",
+      "CHR-0018"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0021",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-16",
+    "source_authority": "Microsoft Threat Intelligence",
+    "source_title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+    "source_type": "Public Statement",
+    "source_location": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0021-source-extract.txt",
+    "document_hash": "sha256:294eb870ecd9d9951c4e0c661243b2fc08e9c86ca7edd7d104b913120f88624b",
+    "hash_exception_reason": null,
+    "evidence_description": "Report opening, 13 November observation and limits of evidence. The team reports observing cross-sector phishing on 13 November using impersonated Microsoft 365 service-health notices related to the outage. The report assesses likely credential phishing and says it did not confirm credential capture, malware delivery or post-compromise activity.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 6. PF(H,E)=0. Institutional byline without a named observer. Seek an attributable affected-entity or defensive investigation record before qualifying any compromise.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0002",
+      "EV-0008",
+      "EV-0020"
+    ],
+    "chronology_links": [
+      "CHR-0017"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0003",
+      "Q-0004",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0022",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-12",
+    "source_authority": "Google Security Products Status Dashboard",
+    "source_title": "Google Security Operations incident 1sSrwjq5t9bK41xTazW7",
+    "source_type": "Public Statement",
+    "source_location": "https://status.cloud.google.com/security/incidents/1sSrwjq5t9bK41xTazW7",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0022-source-extract.txt",
+    "document_hash": "sha256:56b6844c88a6359907b9fd538e2c8061e99a02b8ae5e01d022cf60bc8e893569",
+    "hash_exception_reason": null,
+    "evidence_description": "Incident date range and 12 November 02:08 Pacific Standard Time update. Google reports latency and retriable errors in searches, detections and dashboards in the United States multi-region from 14:07 to 22:30 Pacific time on 11 November. The final update attributes the disruption to a third-party network issue and reports recovery after mitigation.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 6. PF(H,E)=0. Institutional report. Named observer, third-party confirmation and any causal connection to another November incident remain outstanding.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0013"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0023",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-16",
+    "source_authority": "United Kingdom House of Commons · Ian Murray",
+    "source_title": "Microsoft 365 Outage",
+    "source_type": "Government Record",
+    "source_location": "https://hansard.parliament.uk/commons/2026-11-16/debates/52FEDF8F-7F19-47A6-9FB7-1930054C9061/Microsoft365Outage",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0023-source-extract.txt",
+    "document_hash": "sha256:7979b18704bb2e3db54a75f6058b550e0c334b7a7e71ca96076545c69b5a895c",
+    "hash_exception_reason": null,
+    "evidence_description": "Oral statement by Minister Ian Murray in the House of Commons. The minister reported disruption in health and other public services on 12–13 November and stated that the 999 emergency number and accident and emergency departments remained operational.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 2. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed record. Qualification covers the minister’s recorded statement. Service availability does not establish the absence of local delays or patient-level consequences.",
+    "classification": "Partial",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0020"
+    ],
+    "chronology_links": [
+      "CHR-0023"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0024",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-14",
+    "source_authority": "Washington University in St. Louis Information Technology",
+    "source_title": "Service Outage (Vendor) - Workday",
+    "source_type": "Public Statement",
+    "source_location": "https://itstatus.wustl.edu/incidents/0f4y2czjzbf1",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0024-source-extract.txt",
+    "document_hash": "sha256:010518f510efce6d6f0ef39a685ba4c770d81c27137d504e566f044d5ce16b5f",
+    "hash_exception_reason": null,
+    "evidence_description": "13 November vendor notice and 14 November 09:46 and 18:49 Central Standard Time local notices. The university records instructions for staff and student workers to track hours manually while Workday was unavailable. It marked the incident resolved at 18:49 Central Standard Time on 14 November. Its earlier post relays Workday’s account of a disaster-recovery validation and associated data issue.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 5. PF(H,E)=0. Local publisher and vendor account are distinguished. No named observer, final vendor investigation, payroll totals or evidence of a common cause is included.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0019"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0025",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-19",
+    "source_authority": "Niagara Frontier Transportation Authority",
+    "source_title": "FAA Outage: November 13–16, 2026 · Buffalo airport operations briefing",
+    "source_type": "Government Record",
+    "source_location": "https://nfta.granicus.com/DocumentViewer.php?file=nfta_9bc53996e9cec5e2f2d85b3c93776a23.pdf&view=1",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0025-source-extract.txt",
+    "document_hash": "sha256:cdd980de3b469dee9bf1c07e5eaff4a8e3e0a4ddc9c92df3bf58cdc09aabca0c",
+    "hash_exception_reason": null,
+    "evidence_description": "Aviation briefing slide “FAA Outage: November 13-16, 2026”, milestone 3. The airport authority briefing records 67 departure cancellations and 61 arrival cancellations during 13–16 November.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0. Institutional figures for the airport and stated period. They are not United-only or nationwide totals. Individual passenger outcomes and causal allocation are outstanding.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0017",
+      "EV-0018",
+      "EV-0019"
+    ],
+    "chronology_links": [
+      "CHR-0016",
+      "CHR-0024"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0026",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-20",
+    "source_authority": "Australian Prudential Regulation Authority · Therese McCarthy Hockey",
+    "source_title": "APRA Deputy Chair Therese McCarthy Hockey’s remarks to CISI’s The Regulators",
+    "source_type": "Government Record",
+    "source_location": "https://www.apra.gov.au/news-and-publications/apra-deputy-chair-therese-mccarthy-hockeys-remarks-cisis-regulators",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0026-source-extract.txt",
+    "document_hash": "sha256:bc85e0db824093da1262c395e5ea83722e082b4fcaf10f429c07a67c42f0b5ea",
+    "hash_exception_reason": null,
+    "evidence_description": "Deputy Chair’s discussion of the Microsoft outage and financial stability. McCarthy Hockey reported disruption for regulated entities and customers during the Microsoft outage. She stated that critical financial services continued and the authority observed no threat to financial stability.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed record. Qualification applies to the named regulator’s public account. It provides no institution-by-institution outage totals, missed payments or household loss data.",
+    "classification": "Partial",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0020"
+    ],
+    "chronology_links": [
+      "CHR-0025"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0027",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-13",
+    "source_authority": "University of Queensland Information Technology Services",
+    "source_title": "Global outage to multiple Microsoft 365 services",
+    "source_type": "Public Statement",
+    "source_location": "https://status.its.uq.edu.au/issues/20072/",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0027-source-extract.txt",
+    "document_hash": "sha256:93e8330e5b72ebd3ec38f866687aa8574e98e83168e2e653670d42bcbccff42e",
+    "hash_exception_reason": null,
+    "evidence_description": "Incident banner, local staff and student notices, and resolved timestamp. The university posted a local incident record from 04:27 Australian Eastern Standard Time on 13 November to a resolved timestamp of 14:17 on 14 November. Its notice addresses difficulty accessing tools used by staff and students.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 5. PF(H,E)=0. Institutional status page without a named observer. Local notice and resolution timestamps do not establish continuous individual downtime. Keep this timeline distinct from the provider’s incident interval.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0020",
+      "EV-0023",
+      "EV-0026"
+    ],
+    "chronology_links": [
+      "CHR-0015",
+      "CHR-0018",
+      "CHR-0020"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ]
   }
 ]

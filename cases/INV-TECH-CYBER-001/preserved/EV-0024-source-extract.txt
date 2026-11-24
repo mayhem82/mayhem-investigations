@@ -1,0 +1,11 @@
+Service Outage (Vendor) - Workday
+Source: Washington University in St. Louis Information Technology
+Locator: https://itstatus.wustl.edu/incidents/0f4y2czjzbf1
+Section: 13 November vendor notice and 14 November 09:46 and 18:49 Central Standard Time local notices
+Retrieved: 2026-11-24T06:35:58Z via public web retrieval.
+
+Preservation scope: selected evidence extract. This file is a faithful description of the visible source, not an original page capture. Its digest identifies this extract only.
+
+The university records instructions for staff and student workers to track hours manually while Workday was unavailable. It marked the incident resolved at 18:49 Central Standard Time on 14 November. Its earlier post relays Workday’s account of a disaster-recovery validation and associated data issue.
+
+Limitations: Local publisher and vendor account are distinguished. No named observer, final vendor investigation, payroll totals or evidence of a common cause is included.

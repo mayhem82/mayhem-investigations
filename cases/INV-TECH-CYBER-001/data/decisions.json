@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "decision_id": "DEC-0001",
+    "date": "2026-11-24",
+    "reason": "The resume checkpoint showed 16 evidence entries but no chronology or current thread state. The case charter names current subjects and permits relevant earlier material.",
+    "supporting_evidence": [
+      "EV-0003",
+      "EV-0013",
+      "EV-0017",
+      "EV-0020",
+      "EV-0022",
+      "EV-0024",
+      "EV-0026"
+    ],
+    "investigator": "MAYHEM operator · AI-assisted collection",
+    "impact": "Chronology and thread state are updated. Optus 2023 and CrowdStrike 2024 remain explicitly historical context. Collection has resumed on the November 2026 subjects and the evidence register remains open."
+  },
+  {
+    "decision_id": "DEC-0002",
+    "date": "2026-11-24",
+    "reason": "Existing evidence rows have permanent identifiers and earlier classifications. Chronology, question and source links are needed across the workspace.",
+    "supporting_evidence": [
+      "EV-0006",
+      "EV-0010",
+      "EV-0013",
+      "EV-0014",
+      "EV-0016"
+    ],
+    "investigator": "MAYHEM operator · AI-assisted collection",
+    "impact": "Keep the original rows and seed questions intact. Display related records from their existing references. Keep all eight questions open and the Microsoft time-zone discrepancy partially resolved."
+  },
+  {
+    "decision_id": "DEC-0003",
+    "date": "2026-11-24",
+    "reason": "Public retrieval exposed selected source text for the new entries, without original source bytes available for this pass.",
+    "supporting_evidence": [
+      "EV-0017",
+      "EV-0020",
+      "EV-0021",
+      "EV-0022",
+      "EV-0024",
+      "EV-0027"
+    ],
+    "investigator": "MAYHEM operator · AI-assisted collection",
+    "impact": "Preserve clearly labeled extracts with their own hashes and retain source provenance and access limitations. A dated provider explanation, observed service impact and verified compromise remain distinct."
+  }
+]

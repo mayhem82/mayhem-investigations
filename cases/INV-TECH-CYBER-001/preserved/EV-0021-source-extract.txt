@@ -1,0 +1,11 @@
+High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors
+Source: Microsoft Threat Intelligence
+Locator: https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
+Section: Report opening, 13 November observation and limits of evidence
+Retrieved: 2026-11-24T06:35:58Z via public web retrieval.
+
+Preservation scope: selected evidence extract. This file is a faithful description of the visible source, not an original page capture. Its digest identifies this extract only.
+
+The team reports observing cross-sector phishing on 13 November using impersonated Microsoft 365 service-health notices related to the outage. The report assesses likely credential phishing and says it did not confirm credential capture, malware delivery or post-compromise activity.
+
+Limitations: Institutional byline without a named observer. Seek an attributable affected-entity or defensive investigation record before qualifying any compromise.

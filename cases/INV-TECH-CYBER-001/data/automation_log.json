@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "run_id": "RUN-0001",
+    "date": "2026-11-24",
+    "stage": "DFAPTI",
+    "sources_checked": [
+      "SRC-0003",
+      "SRC-0004",
+      "SRC-0006",
+      "SRC-0007",
+      "SRC-0009",
+      "SRC-0012",
+      "SRC-0013",
+      "SRC-0014",
+      "SRC-0015",
+      "SRC-0016",
+      "SRC-0017",
+      "SRC-0018",
+      "SRC-0019",
+      "SRC-0020",
+      "SRC-0021",
+      "SRC-0022",
+      "SRC-0023",
+      "SRC-0024",
+      "SRC-0025",
+      "SRC-0026",
+      "SRC-0027",
+      "SRC-0028"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0017",
+      "EV-0018",
+      "EV-0019",
+      "EV-0020",
+      "EV-0021",
+      "EV-0022",
+      "EV-0023",
+      "EV-0024",
+      "EV-0025",
+      "EV-0026",
+      "EV-0027"
+    ],
+    "notes": "AI-assisted, operator-directed continuation. Checked chartered November leads and reconciled the prior state. The 25 chronology records include historical context and distinguish confirmed statements from pending underlying reports. Eleven selected source extracts were retained. The source check list includes historical checks recovered from prior collection records. Evidence Freeze remains open."
+  }
+]

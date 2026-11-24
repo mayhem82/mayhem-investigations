@@ -1,0 +1,11 @@
+Microsoft 365 Outage
+Source: United Kingdom House of Commons · Ian Murray
+Locator: https://hansard.parliament.uk/commons/2026-11-16/debates/52FEDF8F-7F19-47A6-9FB7-1930054C9061/Microsoft365Outage
+Section: Oral statement by Minister Ian Murray in the House of Commons
+Retrieved: 2026-11-24T06:35:58Z via public web retrieval.
+
+Preservation scope: selected evidence extract. This file is a faithful description of the visible source, not an original page capture. Its digest identifies this extract only.
+
+The minister reported disruption in health and other public services on 12–13 November and stated that the 999 emergency number and accident and emergency departments remained operational.
+
+Limitations: Qualification covers the minister’s recorded statement. Service availability does not establish the absence of local delays or patient-level consequences.

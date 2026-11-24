@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "change_id": "CHG-0001",
+    "date": "2026-11-24",
+    "author": "MAYHEM operator · AI-assisted collection",
+    "files_affected": [
+      "cases/INV-TECH-CYBER-001/data/chronology.json",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0017-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0018-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0019-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0020-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0021-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0022-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0023-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0024-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0025-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0026-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0027-source-extract.txt",
+      "cases/INV-TECH-CYBER-001/data/evidence_register.json",
+      "cases/INV-TECH-CYBER-001/data/source_register.json",
+      "cases/INV-TECH-CYBER-001/data/threads.json",
+      "cases/INV-TECH-CYBER-001/data/search_log.json",
+      "cases/INV-TECH-CYBER-001/data/decisions.json",
+      "cases/INV-TECH-CYBER-001/data/investigation_notes.json",
+      "cases/INV-TECH-CYBER-001/data/automation_log.json",
+      "cases/INV-TECH-CYBER-001/dfapti/app.js",
+      "cases/INV-TECH-CYBER-001/dfapti/index.html",
+      "cases/INV-TECH-CYBER-001/index.html",
+      "cases/INV-TECH-CYBER-001/data/change_log.json"
+    ],
+    "reason": "On resumption, record the missing chronology and register updates, advance thread tracking, and display existing evidence relationships in the Evidence, Sources, Questions and Resume views. Preserve the prior 16 evidence records and keep the evidence stage open.",
+    "validation_completed": true
+  }
+]

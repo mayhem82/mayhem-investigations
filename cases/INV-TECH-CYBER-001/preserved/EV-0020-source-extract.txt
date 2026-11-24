@@ -1,0 +1,11 @@
+Microsoft’s Incident Reports for PennO365 · MO1550821
+Source: Microsoft notices reproduced by University of Pennsylvania Information Systems and Computing
+Locator: https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html?q=MO1550821
+Section: Incident MO1550821, start and end fields and linked service-impact description
+Retrieved: 2026-11-24T06:35:58Z via public web retrieval.
+
+Preservation scope: selected evidence extract. This file is a faithful description of the visible source, not an original page capture. Its digest identifies this extract only.
+
+The tenant extract reports a 12 November 16:20 to 13 November 16:10 Coordinated Universal Time interval for Microsoft 365. It describes service features dependent on interaction with Exchange Online and gradual restoration.
+
+Limitations: The university reproduces provider notices. The interval is the incident record’s interval, not proof of every customer’s recovery. Obtain the provider’s final report and reconcile local recovery times.
