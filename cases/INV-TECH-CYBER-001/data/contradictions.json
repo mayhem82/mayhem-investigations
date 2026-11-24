@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "contradiction_id": "CTR-0001",
+    "description": "Microsoft gives 18 July without a time zone. The CrowdStrike filing gives 04:09 Coordinated Universal Time on 19 July.",
+    "supporting_evidence": [
+      "EV-0006"
+    ],
+    "opposing_evidence": [
+      "EV-0013"
+    ],
+    "status": "Partially Resolved",
+    "material_significance": "04:09 Coordinated Universal Time converts to 21:09 Pacific Daylight Time on 18 July. The two dates align if Microsoft used Pacific time.",
+    "required_resolution": "Verify Microsoft's time zone.",
+    "resolution_evidence": []
+  }
+]

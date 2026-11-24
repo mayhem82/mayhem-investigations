@@ -1,1 +1,497 @@
-[]
+[
+  {
+    "evidence_id": "EV-0001",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-07-19",
+    "source_authority": "Australian Cyber Security Centre",
+    "source_title": "Widespread outages relating to CrowdStrike software update",
+    "source_type": "Government Record",
+    "source_location": "https://www.cyber.gov.au/alert/widespread-outages-relating-crowdstrike-software-update",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "Official advisory, 19–21 July updates. Relays CrowdStrike’s Windows outage account, reports malicious material presented as recovery assistance, and points customers to further BitLocker recovery guidance. The underlying observations have no named observer in this entry.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0. Original snapshot ID EVID-001.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0002"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0003",
+      "Q-0004",
+      "Q-0005",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0002",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-07-20",
+    "source_authority": "Australian Competition and Consumer Commission · Catriona Lowe",
+    "source_title": "Consumers and businesses warned of potential scams following CrowdStrike outage",
+    "source_type": "Government Record",
+    "source_location": "https://www.accc.gov.au/media-release/consumers-and-businesses-warned-of-potential-scams-following-crowdstrike-outage",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "Release 88/24 warns about unsolicited recovery offers and requests for personal or financial information. Verification covers publication of the warning. The release supplies no victim or confirmed loss count.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed account. Original snapshot ID EVID-002.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0001"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0003",
+      "Q-0004",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0003",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-01-23",
+    "source_authority": "Communications Minister Michelle Rowland",
+    "source_title": "Triple Zero disclosure by Optus",
+    "source_type": "Government Record",
+    "source_location": "https://minister.infrastructure.gov.au/rowland/media-release/triple-zero-disclosure-optus",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "The minister records that Optus revised its initial figure from 229 unsuccessful mobile calls to at least 2,697 for the 8 November 2023 outage. Verification covers the reported correction. Original call logs and counting definitions remain outstanding.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed account. Original snapshot ID EVID-003.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0004"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0004",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-11-08",
+    "source_authority": "Australian Communications and Media Authority · Nerida O’Loughlin",
+    "source_title": "Optus pays $12 million penalty for Triple Zero outage",
+    "source_type": "Government Record",
+    "source_location": "https://www.acma.gov.au/articles/2024-11/optus-pays-12-million-penalty-triple-zero-outage",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "Release MR 29/2024 reports 2,145 people lacked emergency-call access and 369 welfare checks were missed. The 2,145 figure measures people, while EV-0003 records calls. Individual outcomes and the counting method remain outstanding.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 2. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed account. Original snapshot ID EVID-004.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0003"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0005",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-07-20",
+    "source_authority": "CrowdStrike",
+    "source_title": "Technical Details: Falcon Content Update for Windows Hosts",
+    "source_type": "Public Statement",
+    "source_location": "https://www.crowdstrike.com/en-us/blog/falcon-update-for-windows-hosts-technical-details/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "In “What Happened?”, the operator reports deployment at 04:09 Coordinated Universal Time and configuration remediation at 05:27 on 19 July. It attributes crashes to the update and states a cyberattack did not cause the outage. The post names no individual author. System restoration is a separate milestone.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 6. PF(H,E)=0. Original snapshot ID EVID-005.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0001",
+      "EV-0006",
+      "EV-0008",
+      "EV-0013"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [
+      "CTR-0001"
+    ],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0004",
+      "Q-0005",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0006",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-07-20",
+    "source_authority": "Microsoft · David Weston",
+    "source_title": "Helping our customers through the CrowdStrike outage",
+    "source_type": "Public Statement",
+    "source_location": "https://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "Weston published an estimate of 8.5 million affected Windows devices and described recovery coordination with CrowdStrike, Amazon Web Services and Google Cloud. Microsoft gives 18 July without a time zone. Verification covers the published account and estimate, which gives no Australian device allocation or count of people.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 6. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed account. Original snapshot ID EVID-006.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0005",
+      "EV-0013",
+      "EV-0014"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [
+      "CTR-0001"
+    ],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0007",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-03-21",
+    "source_authority": "Richard Bean",
+    "source_title": "Review into the Optus outage of 8 November 2023 – Final Report",
+    "source_type": "Government Record",
+    "source_location": "https://www.infrastructure.gov.au/sites/default/files/documents/review_into_the_optus_outage_of_8_november.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "Printed pages 12–13 describe radios continuing to transmit when some calls could not reach Triple Zero, and limits on remotely forcing those radios to stop so phones could seek another network. Verification covers the review’s documented account. Underlying logs and completion of the proposed work are outstanding.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 2. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed account. Original snapshot ID EVID-007.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0003",
+      "EV-0004"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0008",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "Unknown",
+    "source_authority": "Australian Signals Directorate",
+    "source_title": "Annual Report 2024–25 · Case Study 1: CrowdStrike",
+    "source_type": "Government Record",
+    "source_location": "https://www.asd.gov.au/sites/default/files/2025-10/ASD-Annual-Report-2024-25.pdf",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "Case study on the thirteenth PDF page reports hundreds of impersonation sites, information sharing, domain blocking and takedowns after the outage. It names analysts collectively and supplies no victim-level confirmation of credential theft, malware installation or loss.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=0. Original snapshot ID EVID-008.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0001",
+      "EV-0002",
+      "EV-0005"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0003",
+      "Q-0004",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0009",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-09-24",
+    "source_authority": "United States House of Representatives · Adam Meyers",
+    "source_title": "An Outage Strikes: Assessing the Global Impact of CrowdStrike’s Faulty Software Update",
+    "source_type": "Government Record",
+    "source_location": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg60030/html/CHRG-118hhrg60030.htm",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "Printed pages 8–9. Meyers attributes crashes to a 19 July update, describes manual then automated recovery work, and reports around 99 percent of Windows sensors online by 29 July. Verification covers the named testimony. The causal explanation remains first-party and the sensor measure does not establish complete service restoration.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 2. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed account. Original snapshot ID EVID-009.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0001",
+      "EV-0005",
+      "EV-0006"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0004",
+      "Q-0005",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0010",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-09-24",
+    "source_authority": "United States Government Publishing Office",
+    "source_title": "Bounded search for deployment minute in the hearing transcript",
+    "source_type": "Government Record",
+    "source_location": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg60030/html/CHRG-118hhrg60030.htm",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "The searchable web transcript returned no matches for “04:09”, “4:09” and “78 minutes”. This search bounds the absence to those terms in that edition. The signed operator filing later supplied the exact minute, and independent deployment telemetry remains outstanding.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 2. PF(H,E)=0. Original snapshot ID EVID-010.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0005",
+      "EV-0006",
+      "EV-0009",
+      "EV-0013"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0011",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-07-20",
+    "source_authority": "Australian Broadcasting Corporation News · Lucas Gibson",
+    "source_title": "Australian small businesses, regional towns among those most affected by CrowdStrike IT outage",
+    "source_type": "Media Report",
+    "source_location": "https://www.abc.net.au/news/2024-07-20/australians-hit-by-global-crowdstrike-it-outage/104120736",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "Named passenger account in “Big problems at the airport”. Gibson describes unavailable check-in assistance. Verification covers the firsthand encounter. Technical cause, delay duration and final travel outcome remain open.",
+    "relevant_quotation": "The service desk staff can't help, computers are down, they don't know what's going on, they're just waiting and seeing",
+    "investigation_relevance": "Tier 4. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed account. Original snapshot ID EVID-011.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0005",
+      "EV-0006"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006"
+    ]
+  },
+  {
+    "evidence_id": "EV-0012",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-07-22",
+    "source_authority": "Australian Broadcasting Corporation News · Leon Wilson",
+    "source_title": "Australians left stranded overseas as airlines scramble to recover from major IT outage",
+    "source_type": "Media Report",
+    "source_location": "https://www.abc.net.au/news/2024-07-22/australians-stranded-overseas-due-to-tech-outage/104123768",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "Named passenger account in “Stuck in a hotel in Osaka”. Verification covers Wilson’s firsthand account of being stranded in a hotel for several days. Actual return date and reimbursement remain open.",
+    "relevant_quotation": "We've been stuck for the last few days in a hotel, so we're just making the most of it",
+    "investigation_relevance": "Tier 4. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed account. Original snapshot ID EVID-012.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0006",
+      "EV-0011"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0013",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-07-22",
+    "source_authority": "CrowdStrike Holdings · Burt W. Podbere",
+    "source_title": "Form 8-K, Item 8.01 and signature",
+    "source_type": "Government Record",
+    "source_location": "https://www.sec.gov/Archives/edgar/data/1535527/000110465924081571/tm2419936d1_8k.htm",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "Signed operator disclosure gives release at 04:09 Coordinated Universal Time on 19 July and reversion at 05:27, with restoration work continuing. Verification covers the signed filing. The earlier post shares the operator source. Independent deployment and reversion logs remain outstanding.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 1. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed account. Original snapshot ID EVID-013.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0005",
+      "EV-0006",
+      "EV-0009",
+      "EV-0010",
+      "EV-0014"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [
+      "CTR-0001"
+    ],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0014",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-07-19",
+    "source_authority": "Google Cloud",
+    "source_title": "Incident details · DK3LfKowzJPpZq4Q9YqP",
+    "source_type": "Public Statement",
+    "source_location": "https://status.cloud.google.com/incidents/DK3LfKowzJPpZq4Q9YqP",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "The 16:32 Pacific Daylight Time update says Google Cloud detected some customer Windows virtual machines crashing from 04:09 Coordinated Universal Time. It reports no direct impact to Google Cloud services. Google attributes the deployment account to CrowdStrike and does not identify individual observers.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 6. PF(H,E)=0. Original snapshot ID EVID-014.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0005",
+      "EV-0006",
+      "EV-0013"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [
+      "CTR-0001"
+    ],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0015",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2024-07-22",
+    "source_authority": "Australian Broadcasting Corporation News · Leon Wilson",
+    "source_title": "Australians left stranded overseas as airlines scramble to recover from major IT outage",
+    "source_type": "Media Report",
+    "source_location": "https://www.abc.net.au/news/2024-07-22/australians-stranded-overseas-due-to-tech-outage/104123768",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "In “Majority of passengers now moved”, Wilson describes upfront hotel, food and transport costs. The article separately attributes a conditional offer of up to 280 dollars per day to Wilson’s account. A dated airline notice, receipt and claims outcome remain outstanding.",
+    "relevant_quotation": "We do have to dig into our own pockets to pay for the hotels, pay for food and getting around",
+    "investigation_relevance": "Tier 4. PF(H,E)=1, Factual Strength FS-MEDIUM for the attributed account. Original snapshot ID EVID-015.",
+    "classification": "Complete",
+    "verification_state": "Verified",
+    "relationships": [
+      "EV-0012",
+      "EV-0016"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0006",
+      "Q-0008"
+    ]
+  },
+  {
+    "evidence_id": "EV-0016",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-24",
+    "source_date": "2026-11-24",
+    "source_authority": "MAYHEM investigator",
+    "source_title": "Bounded search for Jetstar’s incident-specific reimbursement notice",
+    "source_type": "Other Public Record",
+    "source_location": "https://www.jetstar.com/au/en/media-release-archive",
+    "preserved_file_reference": null,
+    "document_hash": null,
+    "hash_exception_reason": "Public source consulted through web retrieval without a preserved source copy.",
+    "evidence_description": "A public index search filtered to Jetstar and Qantas Newsroom returned general policy pages. No first-party 19–20 July incident notice or payment record appeared in the results. An attempt to open the 20 July 2024 Cook Islands News report returned access denied. The search covers the retrieved index results. Seek dated passenger notices and claims records.",
+    "relevant_quotation": null,
+    "investigation_relevance": "Tier 6. PF(H,E)=0. Original snapshot ID EVID-016.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0011",
+      "EV-0012",
+      "EV-0015"
+    ],
+    "chronology_links": [],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ]
+  }
+]
