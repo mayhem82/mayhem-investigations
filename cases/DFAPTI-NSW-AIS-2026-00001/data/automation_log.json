@@ -41338,5 +41338,295 @@
         "check_error": "HTTPError: HTTP Error 403: Forbidden"
       }
     ]
+  },
+  {
+    "run_id": "RUN-0157",
+    "date": "2026-11-24T23:53:38+00:00",
+    "sources_checked": [
+      "SRC-0001",
+      "SRC-0002",
+      "SRC-0003",
+      "SRC-0004",
+      "SRC-0005",
+      "SRC-0006",
+      "SRC-0007",
+      "SRC-0008",
+      "SRC-0009",
+      "SRC-0010",
+      "SRC-0011",
+      "SRC-0012",
+      "SRC-0013",
+      "SRC-0014",
+      "SRC-0015",
+      "SRC-0016",
+      "SRC-0017",
+      "SRC-0018",
+      "SRC-0019",
+      "SRC-0020",
+      "SRC-0021",
+      "SRC-0022",
+      "SRC-0023",
+      "SRC-0024",
+      "SRC-0025",
+      "SRC-0026",
+      "SRC-0027",
+      "SRC-0028",
+      "SRC-0029"
+    ],
+    "result": "Source capture attempted.",
+    "evidence_added": [],
+    "notes": "Source bytes and SHA-256 captured where accessible and within size limit. Archived responses may be redirects, errors or challenge pages: manual content validation required. Existing evidence remains provisional.",
+    "checks": [
+      {
+        "source_id": "SRC-0001",
+        "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1998-133",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0002",
+        "url": "https://www.ipc.nsw.gov.au/resources/guide-guide-undertaking-privacy-impact-assessments-ai-systems-and-projects",
+        "http_status": 200,
+        "final_url": "https://www.ipc.nsw.gov.au/resources/guide-guide-undertaking-privacy-impact-assessments-ai-systems-and-projects",
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 117481,
+        "capture_status": "Preserved",
+        "sha256": "a32b98ec5ad5b1a55179042db4dc130b150fa6d50bea4e14d5148a4cc4b29c5f",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0002/a32b98ec5ad5b1a55179042db4dc130b150fa6d50bea4e14d5148a4cc4b29c5f.html",
+        "bytes": 117481
+      },
+      {
+        "source_id": "SRC-0003",
+        "url": "https://www.ipc.nsw.gov.au/resources/fact-sheet-guide-section-121-gipa-act-private-sector-contractors",
+        "http_status": 200,
+        "final_url": "https://www.ipc.nsw.gov.au/resources/fact-sheet-guide-section-121-gipa-act-private-sector-contractors",
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 71935,
+        "capture_status": "Preserved",
+        "sha256": "1e2e292c1bc386b8fc0d8862151439b457fca95d11f62b2554bd720fe1bafb1d",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0003/1e2e292c1bc386b8fc0d8862151439b457fca95d11f62b2554bd720fe1bafb1d.html",
+        "bytes": 71935
+      },
+      {
+        "source_id": "SRC-0004",
+        "url": "https://www.ipc.nsw.gov.au/resources/fact-sheet-local-councils-use-closed-circuit-tv-cctv-cameras-public-places",
+        "http_status": 200,
+        "final_url": "https://www.ipc.nsw.gov.au/resources/fact-sheet-local-councils-use-closed-circuit-tv-cctv-cameras-public-places",
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 64633,
+        "capture_status": "Preserved",
+        "sha256": "67b5efba71e2e404bf3b9548417054135b1781090770d947b72baaf52d4cd1d2",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0004/67b5efba71e2e404bf3b9548417054135b1781090770d947b72baaf52d4cd1d2.html",
+        "bytes": 64633
+      },
+      {
+        "source_id": "SRC-0005",
+        "url": "https://www.ipc.nsw.gov.au/resources/fact-sheet-managing-access-audio-visual-information-under-gipa-act",
+        "http_status": 200,
+        "final_url": "https://www.ipc.nsw.gov.au/resources/fact-sheet-managing-access-audio-visual-information-under-gipa-act",
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 98695,
+        "capture_status": "Preserved",
+        "sha256": "9a57a8c3002675f4a7785a2a3ef9dbc22a9d9b1db35155eb3c0c277ac2e49450",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0005/9a57a8c3002675f4a7785a2a3ef9dbc22a9d9b1db35155eb3c0c277ac2e49450.html",
+        "bytes": 98695
+      },
+      {
+        "source_id": "SRC-0006",
+        "url": "https://help.axis.com/en-US/axis-object-analytics",
+        "http_status": 200,
+        "final_url": "https://help.axis.com/en-us/axis-object-analytics",
+        "content_type": "text/html;charset=utf-8",
+        "response_bytes": 328715,
+        "capture_status": "Preserved",
+        "sha256": "b891d68439bba89c74239aefbdc953b987a1db17e0b7bdbee3f3c2fa26c3791c",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0006/b891d68439bba89c74239aefbdc953b987a1db17e0b7bdbee3f3c2fa26c3791c.html",
+        "bytes": 328715
+      },
+      {
+        "source_id": "SRC-0007",
+        "url": "https://developer.axis.com/analytics/axis-scene-metadata/",
+        "http_status": 200,
+        "final_url": "https://developer.axis.com/analytics/axis-scene-metadata/",
+        "content_type": "text/html",
+        "response_bytes": 24560,
+        "capture_status": "Preserved",
+        "sha256": "13fc4f7600041cd9d0fc6fb7c547035680b93319378fca75c335d23aa19d6d9f",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0007/13fc4f7600041cd9d0fc6fb7c547035680b93319378fca75c335d23aa19d6d9f.html",
+        "bytes": 24560
+      },
+      {
+        "source_id": "SRC-0008",
+        "url": "https://developer.axis.com/analytics/axis-scene-metadata/reference/definitions/object-track/",
+        "http_status": 200,
+        "final_url": "https://developer.axis.com/analytics/axis-scene-metadata/reference/definitions/object-track/",
+        "content_type": "text/html",
+        "response_bytes": 24396,
+        "capture_status": "Preserved",
+        "sha256": "b431d48da662e639f808bd70314101c461cdf6443c347736829020a8f8de699f",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0008/b431d48da662e639f808bd70314101c461cdf6443c347736829020a8f8de699f.html",
+        "bytes": 24396
+      },
+      {
+        "source_id": "SRC-0009",
+        "url": "https://digital.nsw.gov.au/policy/artificial-intelligence/ai-governance-assurance-and-frameworks/nsw-ai-assessment-framework",
+        "http_status": 200,
+        "final_url": "https://www.nsw.gov.au/nsw-government/digital-nsw/strategy-policy-assurance/artificial-intelligence/ai-governance/nsw-ai-assessment-framework",
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 152889,
+        "capture_status": "Preserved",
+        "sha256": "42685cd16628cec330d30ee149d2a35e17d37113f677287600437c09fb418fbc",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0009/42685cd16628cec330d30ee149d2a35e17d37113f677287600437c09fb418fbc.html",
+        "bytes": 152889
+      },
+      {
+        "source_id": "SRC-0010",
+        "url": "https://digital.nsw.gov.au/policy/artificial-intelligence/nsw-artificial-intelligence-assessment-framework/identifying-ai",
+        "http_status": 200,
+        "final_url": "https://www.nsw.gov.au/nsw-government/digital-nsw/strategy-policy-assurance/artificial-intelligence/ai-governance/nsw-ai-assessment-framework/identifying-ai",
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 152440,
+        "capture_status": "Preserved",
+        "sha256": "2b8dd2b57847325ef18bc578946ae83245a0e86b2f67e531b35754dc74839a64",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0010/2b8dd2b57847325ef18bc578946ae83245a0e86b2f67e531b35754dc74839a64.html",
+        "bytes": 152440
+      },
+      {
+        "source_id": "SRC-0011",
+        "url": "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/nsw-strengthens-ai-oversight-modernised-framework",
+        "http_status": 200,
+        "final_url": "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/nsw-strengthens-ai-oversight-modernised-framework",
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 145621,
+        "capture_status": "Preserved",
+        "sha256": "fb9216977e242b02ffad7c03b8412c03e09f9583b2f9cc672bb66a2c0ebf96d8",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0011/fb9216977e242b02ffad7c03b8412c03e09f9583b2f9cc672bb66a2c0ebf96d8.html",
+        "bytes": 145621
+      },
+      {
+        "source_id": "SRC-0012",
+        "url": "https://www.ipc.nsw.gov.au/news-events/news/national-framework-assurance-artificial-intelligence-government",
+        "http_status": 200,
+        "final_url": "https://www.ipc.nsw.gov.au/news-events/news/national-framework-assurance-artificial-intelligence-government",
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 48660,
+        "capture_status": "Preserved",
+        "sha256": "0bf250be1828c983d707bfcc01bdfd84a154046feb6409326e9d2d8b40fc28c3",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0012/0bf250be1828c983d707bfcc01bdfd84a154046feb6409326e9d2d8b40fc28c3.html",
+        "bytes": 48660
+      },
+      {
+        "source_id": "SRC-0013",
+        "url": "https://www.ipc.nsw.gov.au/guide",
+        "http_status": 200,
+        "final_url": "https://www.ipc.nsw.gov.au/guide",
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 76307,
+        "capture_status": "Preserved",
+        "sha256": "251b2c1e15a3176eae94b3afcab08bd3425908f269dcf42c632c62bb2b8f83ad",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0013/251b2c1e15a3176eae94b3afcab08bd3425908f269dcf42c632c62bb2b8f83ad.html",
+        "bytes": 76307
+      },
+      {
+        "source_id": "SRC-0014",
+        "url": "https://www.ipc.nsw.gov.au/sites/default/files/2024-12/Guide_Guide_to_undertaking_Privacy_Impact_Assessments_on_AI_systems_and_projects_December_2024.pdf",
+        "http_status": 200,
+        "final_url": "https://www.ipc.nsw.gov.au/sites/default/files/2024-12/Guide_Guide_to_undertaking_Privacy_Impact_Assessments_on_AI_systems_and_projects_December_2024.pdf",
+        "content_type": "application/pdf",
+        "response_bytes": 478424,
+        "capture_status": "Preserved",
+        "sha256": "19832c4b68e3016a30097ad2106e72867bb99ff1adcab58d9eeceb03a4bf2522",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0014/19832c4b68e3016a30097ad2106e72867bb99ff1adcab58d9eeceb03a4bf2522.pdf",
+        "bytes": 478424
+      },
+      {
+        "source_id": "SRC-0015",
+        "url": "https://buy.nsw.gov.au/notices/C67A32C4-4613-427E-B9E0B899C3CE0551",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0016",
+        "url": "https://buy.nsw.gov.au/prcOpportunity/F6C4935E-9918-4985-95C71DE886C89819/displayPageStandard",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0017",
+        "url": "https://buy.nsw.gov.au/notices/14C74FB4-A0F1-9110-3C3EE41DB4B772D4",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0018",
+        "url": "https://www.info.buy.nsw.gov.au/schemes/ict-services-scheme/update-history",
+        "http_status": 200,
+        "final_url": "https://www.info.buy.nsw.gov.au/schemes/ict-services-scheme/update-history",
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 72526,
+        "capture_status": "Preserved",
+        "sha256": "e76ac3044169e6fa57aa8c83ea1c60f41c1298dbf9b34f38cd0b84e697a24f41",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0018/e76ac3044169e6fa57aa8c83ea1c60f41c1298dbf9b34f38cd0b84e697a24f41.html",
+        "bytes": 72526
+      },
+      {
+        "source_id": "SRC-0019",
+        "url": "https://www.info.buy.nsw.gov.au/resources/artificial-intelligence-ai-procurement-essentials",
+        "http_status": 200,
+        "final_url": "https://www.info.buy.nsw.gov.au/resources/artificial-intelligence-ai-procurement-essentials",
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 105151,
+        "capture_status": "Preserved",
+        "sha256": "11a88a10166834791e2ff19112fa628436b4d8c5ffcb819e6b4f4d0dc6ab4f5c",
+        "preserved_file_reference": "cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0019/11a88a10166834791e2ff19112fa628436b4d8c5ffcb819e6b4f4d0dc6ab4f5c.html",
+        "bytes": 105151
+      },
+      {
+        "source_id": "SRC-0020",
+        "url": "https://buy.nsw.gov.au/prcOpportunity/B307A47C-8646-4812-ACF8C8B6169B5909",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0021",
+        "url": "https://buy.nsw.gov.au/notices/312BC114-A2C0-41D3-B50DEEE92A1FEBC0",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0022",
+        "url": "https://buy.nsw.gov.au/notices/331E1A89-5470-4A18-A8DDC61A9CECC64D",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0023",
+        "url": "https://buy.nsw.gov.au/notices/2C10177E-B54D-5DE7-69BBADA1743A5A16",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0024",
+        "url": "https://buy.nsw.gov.au/notices/D838226C-A6C9-4D53-8EA1C08E2F786B8F/source/prcNotice",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0025",
+        "url": "https://buy.nsw.gov.au/prcOpportunity/B307A47C-8646-4812-ACF8C8B6169B5909",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0026",
+        "url": "https://buy.nsw.gov.au/notices/68D0421F-C588-C4D2-9F8528AAA392B8E7",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0027",
+        "url": "https://buy.nsw.gov.au/notices/DC0792D4-E900-4F3A-806228E2C6C26562",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0028",
+        "url": "https://buy.nsw.gov.au/notices/1BB2D23F-FDD7-DEEE-ECF05C07146F37C2/source/etrCN",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "SRC-0029",
+        "url": "https://buy.nsw.gov.au/prcOpportunity/4D917CB5-A4EC-49C0-A973DDBFDD05EFAF",
+        "check_error": "HTTPError: HTTP Error 403: Forbidden"
+      }
+    ]
   }
 ]
