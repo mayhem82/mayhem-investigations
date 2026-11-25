@@ -1,0 +1,7 @@
+Source description: Australian Department of Agriculture, Fisheries and Forestry notice 235-2026, published 5 November 2026.
+
+The department reported that a disruption affected lodgements submitted through two cargo lodgement services as of about 09:12 Australian Eastern Daylight Time on 4 November. It reported those services restored at 11:45 on 5 November. It said assessment outcomes may have been delayed and that staff used workarounds when lodgement reference issues were identified.
+
+This description is not the original source. The source does not establish the number of affected consignments, individual recovery outcomes, exact onset, or a shared cause with later incidents. The complete response was separately preserved in the private evidence archive; see its separately recorded hash and retrieval time.
+
+Source: https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/235-2026

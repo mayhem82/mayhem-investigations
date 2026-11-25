@@ -806,5 +806,53 @@
     "original_sha256": "4cb607f39f33d3bd19215246c71ed6b8822b1e35449580c6765951ff35b0b8bc",
     "original_retrieved_at": "2026-11-25T03:38:55.438311+00:00",
     "original_archive_key": "knowbe4-2026-11-24.html"
+  },
+  {
+    "source_id": "SRC-0057",
+    "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+    "title": "235-2026: Services Restored: Thursday 05 November 2026 – COLS & COLSB2G",
+    "type": "Government Record",
+    "url_or_file_location": "https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/235-2026",
+    "first_checked": "2026-11-25",
+    "last_checked": "2026-11-25",
+    "current_version": "Response retrieved 2026-11-25T03:38:52.704449+00:00",
+    "preservation_status": "Partially Preserved",
+    "hash_status": "Hashed",
+    "associated_thread": "THR-05",
+    "availability_notes": "The original response is preserved in the local research archive with its own hash. The public repository contains a separately hashed source description, not the original source.",
+    "original_sha256": "a3f917b65427ec9ee80d344e805205479741c8d96764f2b562e6926400f84c65",
+    "original_retrieved_at": "2026-11-25T03:38:52.704449+00:00",
+    "original_archive_key": "agriculture-235-2026.html"
+  },
+  {
+    "source_id": "SRC-0058",
+    "authority": "Hamilton City Council, New Zealand",
+    "title": "Global Microsoft outage",
+    "type": "Government Record",
+    "url_or_file_location": "https://hamilton.govt.nz/microsoft-outlook-outage",
+    "first_checked": "2026-11-25",
+    "last_checked": "2026-11-25",
+    "current_version": "Response retrieved 2026-11-25T03:38:54.512469+00:00",
+    "preservation_status": "Partially Preserved",
+    "hash_status": "Hashed",
+    "associated_thread": "THR-06",
+    "availability_notes": "The original response is preserved in the local research archive with its own hash. The public repository contains a separately hashed source description, not the original source.",
+    "original_sha256": "24cd829d90f1b1f4f7a54a7c758ff01f3a04633b41e7db1d18e89861da78ea8b",
+    "original_retrieved_at": "2026-11-25T03:38:54.512469+00:00",
+    "original_archive_key": "hamilton-city-outage-2026.html"
+  },
+  {
+    "source_id": "SRC-0059",
+    "authority": "CSX Transportation",
+    "title": "CSX Customer Advisory: Update on Microsoft Global Outage",
+    "type": "Public Statement",
+    "url_or_file_location": "https://www.csx.com/index.cfm/customers/news/service-bulletins1/csx-customer-advisory-update-on-microsoft-global-outage/",
+    "first_checked": "2026-11-25",
+    "last_checked": "2026-11-25",
+    "current_version": "Unknown",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-07",
+    "availability_notes": "Automated acquisition on 2026-11-25T03:38:54.512469+00:00 received HTTP 403 before the robots check completed. No source bytes were acquired and no restriction was bypassed. The advisory itself was not confirmed to have returned 403."
   }
 ]

@@ -1,0 +1,7 @@
+Source description: Hamilton City Council, New Zealand, "Global Microsoft outage", containing updates from 13 to 16 November 2026.
+
+The council reported its online payments and applications paused as a precaution by 11:30 on 13 November, while in-person payments remained available. On 14 November it said the online services would stay paused over the weekend pending checks. On 16 November it reported queued submissions were being processed at 10:30 and online payment and application systems operating normally by its 14:00 update. Times are as reported locally by the council.
+
+This description is not the original source. The council's statements do not establish when every individual application was processed, actual resumption time for each service, or outcomes for each resident. The complete response was separately preserved in the private evidence archive; see its separately recorded hash and retrieval time.
+
+Source: https://hamilton.govt.nz/microsoft-outlook-outage

@@ -30,7 +30,9 @@
       "EV-0042",
       "EV-0049",
       "EV-0050",
-      "EV-0051"
+      "EV-0051",
+      "EV-0055",
+      "EV-0056"
     ],
     "outstanding_work": "Obtain the final aviation and Microsoft incident reports. Seek dated source records for the other chartered subjects, including JPMorgan Chase and Australian ports and terminals.",
     "dependencies": [],
@@ -81,7 +83,9 @@
       "EV-0041",
       "EV-0043",
       "EV-0044",
-      "EV-0051"
+      "EV-0051",
+      "EV-0055",
+      "EV-0056"
     ],
     "outstanding_work": "Verify reported dependencies and the duration of each recovery path against customer and infrastructure records.",
     "dependencies": [],
@@ -109,7 +113,9 @@
       "EV-0039",
       "EV-0049",
       "EV-0050",
-      "EV-0051"
+      "EV-0051",
+      "EV-0055",
+      "EV-0056"
     ],
     "outstanding_work": "Obtain final provider reports and evidence of restoration and tested fallback. Preserve the operator’s explanations as attributed accounts.",
     "dependencies": [],
@@ -131,7 +137,8 @@
       "EV-0030",
       "EV-0035",
       "EV-0037",
-      "EV-0038"
+      "EV-0038",
+      "EV-0055"
     ],
     "outstanding_work": "Acquire dated operator and regulator records for Australian government services, ports and terminals, and financial infrastructure. Seek service-level evidence of disruption and continuity.",
     "dependencies": [],
@@ -167,7 +174,9 @@
       "EV-0041",
       "EV-0042",
       "EV-0043",
-      "EV-0044"
+      "EV-0044",
+      "EV-0055",
+      "EV-0056"
     ],
     "outstanding_work": "Seek dated passenger notices, reimbursement outcomes, local service-delay records and payroll effects. Preserve firsthand accounts with their original scope.",
     "dependencies": [],
@@ -210,7 +219,9 @@
       "EV-0051",
       "EV-0052",
       "EV-0053",
-      "EV-0054"
+      "EV-0054",
+      "EV-0055",
+      "EV-0056"
     ],
     "outstanding_work": "Check Microsoft’s 2024 time-zone basis and keep regulator measures and source boundaries explicit. Pursue evidence that could independently support or rule out a connection between incidents.",
     "dependencies": [],

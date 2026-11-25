@@ -579,5 +579,55 @@
     "supporting_evidence": [
       "EV-0054"
     ]
+  },
+  {
+    "chronology_id": "CHR-0058",
+    "event_date": "2026-11-04",
+    "date_is_inference": false,
+    "event_description": "The department later reported a disruption affecting cargo lodgements as of approximately 09:12 Australian Eastern Daylight Time.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0055"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0059",
+    "event_date": "2026-11-05",
+    "date_is_inference": false,
+    "event_description": "The department reported cargo lodgement services restored at 11:45 Australian Eastern Daylight Time; it described possible assessment delays and workarounds for affected lodgement references.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0055"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0060",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "At 11:30 local time the council reported that online payments and applications were paused, with an in-person payment route remaining available.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0056"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0061",
+    "event_date": "2026-11-14",
+    "date_is_inference": false,
+    "event_description": "The council stated online payments and applications would stay paused over the weekend pending service checks, despite improving upstream availability.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0056"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0062",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "At 10:30 local time the council reported queued submissions were being processed; by its 14:00 update it reported online payment and application systems operating normally.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0056"
+    ]
   }
 ]

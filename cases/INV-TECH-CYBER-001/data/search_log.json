@@ -322,5 +322,17 @@
     "jurisdiction": "International",
     "results_reviewed": 3,
     "results_preserved": 3
+  },
+  {
+    "search_id": "SRCH-0028",
+    "search_terms": "2026 cargo lodgement service disruptions; Microsoft outage payments applications freight recovery",
+    "search_engine": "Public web and original publisher records",
+    "database": null,
+    "date": "2026-11-25",
+    "time": null,
+    "filters": "Two publisher responses preserved and SHA-256 checked; CSX acquisition stopped at HTTP 403 before robots check completed. No technical bypass.",
+    "jurisdiction": "Australia, New Zealand and United States",
+    "results_reviewed": 3,
+    "results_preserved": 2
   }
 ]

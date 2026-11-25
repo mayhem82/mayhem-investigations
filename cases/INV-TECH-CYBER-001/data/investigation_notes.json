@@ -453,5 +453,19 @@
       "EV-0053",
       "EV-0054"
     ]
+  },
+  {
+    "note_id": "NOTE-0025",
+    "timestamp": "2026-11-25T03:42:49.536153+00:00",
+    "activity_type": "Checking Source",
+    "text": "The 4–5 November Australian cargo-lodgement report predates the already recorded later fallback and disruptions; no shared cause is established. The Hamilton council record reports a multi-day local service pause and later restoration while queued submissions were still being processed. CSX acquisition stopped on HTTP 403 before robots checking completed; no restriction was bypassed.",
+    "related_thread": "THR-06",
+    "related_source": "SRC-0057",
+    "related_evidence": "EV-0055",
+    "related_question": "Q-0006",
+    "question_evidence": [
+      "EV-0055",
+      "EV-0056"
+    ]
   }
 ]

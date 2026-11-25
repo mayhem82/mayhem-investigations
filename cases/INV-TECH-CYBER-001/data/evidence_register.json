@@ -1780,5 +1780,82 @@
     "original_response_sha256": "4cb607f39f33d3bd19215246c71ed6b8822b1e35449580c6765951ff35b0b8bc",
     "original_retrieved_at": "2026-11-25T03:38:55.438311+00:00",
     "original_archive_key": "knowbe4-2026-11-24.html"
+  },
+  {
+    "evidence_id": "EV-0055",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-25",
+    "source_date": "2026-11-05",
+    "source_authority": "Australian Department of Agriculture, Fisheries and Forestry",
+    "source_title": "235-2026: Services Restored: Thursday 05 November 2026 – COLS & COLSB2G",
+    "source_type": "Government Record",
+    "source_location": "https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/235-2026",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0055-source-description.txt",
+    "document_hash": "sha256:7b43798936412b52e943437de28c76681314f2f59495005dd840b32e1e95429b",
+    "hash_exception_reason": null,
+    "evidence_description": "Before the later 13, 15 and 23 November notices already in the case, the department reported that a disruption affected cargo lodgements as of approximately 09:12 Australian Eastern Daylight Time on 4 November. Its notice reported restoration at 11:45 on 5 November. The department said importers and brokers may have faced delays receiving biosecurity assessment outcomes and staff used workarounds when lodgement reference number issues were identified.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The actual start time, number of affected lodgements, clearance or shipping delay outcomes, common cause with later incidents, and whether every workaround succeeded are not established by this notice.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0028",
+      "EV-0037",
+      "EV-0043"
+    ],
+    "chronology_links": [
+      "CHR-0058",
+      "CHR-0059"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ],
+    "source_register_id": "SRC-0057",
+    "original_response_sha256": "a3f917b65427ec9ee80d344e805205479741c8d96764f2b562e6926400f84c65",
+    "original_retrieved_at": "2026-11-25T03:38:52.704449+00:00",
+    "original_archive_key": "agriculture-235-2026.html"
+  },
+  {
+    "evidence_id": "EV-0056",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-25",
+    "source_date": "2026-11-16",
+    "source_authority": "Hamilton City Council, New Zealand",
+    "source_title": "Global Microsoft outage",
+    "source_type": "Government Record",
+    "source_location": "https://hamilton.govt.nz/microsoft-outlook-outage",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0056-source-description.txt",
+    "document_hash": "sha256:7d0cb5fede8dac3d3061c68bd65560edf5cd9118026caa993c28b77a0974b002",
+    "hash_exception_reason": null,
+    "evidence_description": "The council reported that by 11:30 on 13 November it had paused online payments and applications as a precaution, with in-person payments still available. On 14 November it said those services would remain paused over the weekend even if Microsoft's services returned. At 10:30 on 16 November it reported queued submissions and attachments were being processed, and by its 14:00 update said online payments and applications were operating normally.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The updates do not give the exact time each service resumed, the number of affected residents, completion of the queued submissions, the accessibility of in-person alternatives to each resident, or independent technical causation. Times are the council's local times.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0060",
+      "CHR-0061",
+      "CHR-0062"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ],
+    "source_register_id": "SRC-0058",
+    "original_response_sha256": "24cd829d90f1b1f4f7a54a7c758ff01f3a04633b41e7db1d18e89861da78ea8b",
+    "original_retrieved_at": "2026-11-25T03:38:54.512469+00:00",
+    "original_archive_key": "hamilton-city-outage-2026.html"
   }
 ]

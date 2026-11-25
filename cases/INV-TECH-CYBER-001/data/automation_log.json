@@ -152,5 +152,21 @@
       "EV-0054"
     ],
     "notes": "Added three attributed research reports and four dated publication/observation entries. Original bytes and separate descriptions hashed; no claims of confirmed account compromise, named actor or outage causation."
+  },
+  {
+    "run_id": "RUN-0007",
+    "date": "2026-11-25",
+    "stage": "DFAPTI",
+    "sources_checked": [
+      "SRC-0057",
+      "SRC-0058",
+      "SRC-0059"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0055",
+      "EV-0056"
+    ],
+    "notes": "Preserved two original public responses locally with hashes and separately hashed public descriptions; logged an HTTP 403 before robots check as an access gap. No source claims were promoted to independent causal findings."
   }
 ]
