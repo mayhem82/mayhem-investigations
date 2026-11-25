@@ -1,0 +1,11 @@
+How Phishing Campaigns Exploited the Microsoft 365 Outage
+Source: Trellix SecondSight
+URL: https://www.trellix.com/blogs/research/outage-notices-in-the-inbox-what-trellix-secondsight-saw/
+Original retrieved: 2026-11-25T03:38:52.960397+00:00
+Original SHA-256: 3011ea11d7016e5f722208a6f535c958a082a872e6317071337feb8486c2e0e5
+Original response is held in the local private research archive as trellix-2026-11-17.html; it is not in this public repository.
+This file is an attributed, paraphrased description, not the original. Its own SHA-256 is recorded in the evidence register.
+
+Trellix researchers report observing 252 outage-themed emails across more than 30 organisations between approximately 17:04 and 20:38 Coordinated Universal Time on 13 November. The reported messages used service-health and held-message lures. Trellix describes a multi-stage route ending in a Microsoft-like sign-in page and discusses the risk of captured sessions.
+
+Limits: The count is limited to Trellix observations, not a worldwide count. Trellix reports the same three sender domains and an intermediary destination described by Microsoft in EV-0021. That overlap supports a relationship between source reports, not proof of independent samples, a named operator, successful account compromise, or a cause of the outage. Trellix says its suggested link to a particular phishing kit is unconfirmed.

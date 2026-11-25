@@ -437,5 +437,21 @@
       "EV-0050",
       "EV-0051"
     ]
+  },
+  {
+    "note_id": "NOTE-0024",
+    "timestamp": "2026-11-25T03:40:35.120661+00:00",
+    "activity_type": "Checking Source",
+    "text": "Compared three first-party defensive reports with the Microsoft account. Trellix reports a bounded count and later sign-in chain; Cofense describes a sign-in flow. The same sender-domain and intermediary details recur, but sample independence, actor identity, actual credential capture and outage causation remain unestablished. KnowBe4's ratios use its own three-day baseline. Originals and separate public descriptions were hashed.",
+    "related_thread": "THR-02",
+    "related_source": null,
+    "related_evidence": null,
+    "related_question": "Q-0003",
+    "question_evidence": [
+      "EV-0021",
+      "EV-0052",
+      "EV-0053",
+      "EV-0054"
+    ]
   }
 ]

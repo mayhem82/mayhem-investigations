@@ -135,5 +135,22 @@
       "EV-0051"
     ],
     "notes": "Added three attributed Observer-derived incident records and separately dated later edits; hash verified original feed bytes, paraphrased public descriptions separately hashed. No evidence freeze or independent causal determination."
+  },
+  {
+    "run_id": "RUN-0006",
+    "date": "2026-11-25",
+    "stage": "DFAPTI",
+    "sources_checked": [
+      "SRC-0054",
+      "SRC-0055",
+      "SRC-0056"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0052",
+      "EV-0053",
+      "EV-0054"
+    ],
+    "notes": "Added three attributed research reports and four dated publication/observation entries. Original bytes and separate descriptions hashed; no claims of confirmed account compromise, named actor or outage causation."
   }
 ]

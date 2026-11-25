@@ -310,5 +310,17 @@
     "jurisdiction": "International",
     "results_reviewed": 3,
     "results_preserved": 3
+  },
+  {
+    "search_id": "SRCH-0027",
+    "search_terms": "November 2026 Microsoft outage phishing primary researcher reports",
+    "search_engine": "Public web and original publisher pages",
+    "database": null,
+    "date": "2026-11-25",
+    "time": null,
+    "filters": "Checked publisher robots rules; acquired original HTTPS responses without contacting phishing infrastructure. Compared the overlap and retained alternative explanations.",
+    "jurisdiction": "International",
+    "results_reviewed": 3,
+    "results_preserved": 3
   }
 ]

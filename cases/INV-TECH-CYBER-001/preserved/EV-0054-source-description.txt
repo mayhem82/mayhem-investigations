@@ -1,0 +1,11 @@
+The Microsoft Outage Brought a Surge of Phishing Email
+Source: KnowBe4 Threat Lab
+URL: https://blog.knowbe4.com/microsoft-outage-phishing-email-surge
+Original retrieved: 2026-11-25T03:38:55.438311+00:00
+Original SHA-256: 4cb607f39f33d3bd19215246c71ed6b8822b1e35449580c6765951ff35b0b8bc
+Original response is held in the local private research archive as knowbe4-2026-11-24.html; it is not in this public repository.
+This file is an attributed, paraphrased description, not the original. Its own SHA-256 is recorded in the evidence register.
+
+KnowBe4 reports that its product telemetry detected outage-themed phishing on 13 November at approximately 468 times its 9–11 November daily detection average; user reports were approximately 187 times that baseline. It describes four example lures, including held messages, a security check, an Exchange notice and a Teams-style message.
+
+Limits: The ratios are KnowBe4's reported product-telemetry comparisons against a three-day baseline, not counts of attacks worldwide or evidence of successful compromises. Absolute counts and sample overlap with other vendors are not established by this record. The company separately relies on a preliminary Microsoft report for technical outage context.

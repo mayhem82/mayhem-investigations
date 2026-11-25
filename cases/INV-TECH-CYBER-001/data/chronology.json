@@ -539,5 +539,45 @@
     "supporting_evidence": [
       "EV-0049"
     ]
+  },
+  {
+    "chronology_id": "CHR-0054",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "Trellix reports observing 252 outage-themed emails across more than 30 organisations between approximately 17:04 and 20:38 Coordinated Universal Time. This is its observed sample, not a worldwide total.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0052"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0055",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "Cofense published its account of an outage-themed message and Microsoft-like sign-in page; its description does not establish a successful compromise.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0053"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0056",
+    "event_date": "2026-11-17",
+    "date_is_inference": false,
+    "event_description": "Trellix published its account of observed outage-themed emails and a sign-in chain. It says an asserted association with a named phishing kit remains unconfirmed.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0052"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0057",
+    "event_date": "2026-11-24",
+    "date_is_inference": false,
+    "event_description": "KnowBe4 published telemetry ratios comparing 13 November outage-themed phishing with its 9–11 November baseline; these ratios concern its own product observations.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0054"
+    ]
   }
 ]

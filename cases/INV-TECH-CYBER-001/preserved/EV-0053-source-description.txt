@@ -1,0 +1,11 @@
+Flash Alert: Weaponizing the November 2026 Microsoft Outage
+Source: Cofense Intelligence
+URL: https://cofense.com/blog/flash-alert-weaponizing-the-november-2026-microsoft-outage
+Original retrieved: 2026-11-25T03:38:55.011540+00:00
+Original SHA-256: 0f910b0aa2ea4b078a862307255891e531717db9c270f319c04d08e3bd72c0ad
+Original response is held in the local private research archive as cofense-2026-11-16.html; it is not in this public repository.
+This file is an attributed, paraphrased description, not the original. Its own SHA-256 is recorded in the evidence register.
+
+Cofense researcher Jacob Malimban reports an outage-themed email that impersonated a Microsoft service notification and led to a Microsoft-like sign-in page. Cofense describes the first credential submission being rejected and a second submission redirecting to Microsoft.
+
+Limits: The page describes how the phishing page behaved; it does not establish that any identified victim submitted working credentials, that credentials were captured, or that an account was compromised. The report shares an intermediary domain with the Microsoft and Trellix reports, which does not independently establish one operator or independent events. Its suggestion of generative artificial intelligence is not established evidence.
