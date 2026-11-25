@@ -108,5 +108,19 @@
     ],
     "reason": "Append source-backed records for emergency service continuity, referral communications and Tasmanian parliamentary accountability, and document an unsuccessful source acquisition.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0005",
+    "date": "2026-11-25",
+    "author": "AI-assisted public explanation",
+    "files_affected": [
+      "cases/INV-TECH-CYBER-001/public/index.html",
+      "cases/INV-TECH-CYBER-001/public/2026-11-25/index.html",
+      "cases/INV-TECH-CYBER-001/index.html",
+      "cases/INV-TECH-CYBER-001/dfapti/index.html",
+      "cases/INV-TECH-CYBER-001/data/change_log.json"
+    ],
+    "reason": "Add a dated, source-linked public explanation of the open investigation without changing existing case records.",
+    "validation_completed": true
   }
 ]
