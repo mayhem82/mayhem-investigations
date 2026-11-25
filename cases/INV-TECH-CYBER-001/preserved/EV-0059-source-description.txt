@@ -1,0 +1,15 @@
+Cloudflare service-status record: Replicate model registry restriction, 13–14 November
+Incident URL: https://www.cloudflarestatus.com/incidents/mc91s22odfvf
+Original feed SHA-256: 2c6df95db6fdeb747494b008e120c6c1047a4d16c821af50a93c8960a7cdda21
+Original response retrieved: 2026-11-25 08:02:41.301154+11:00
+
+Public paraphrase, not the original source:
+Cloudflare identified a restriction involving the r8.im registry used to publish and build Replicate models. It reported a fix under monitoring and subsequently marked the incident resolved. This is a second reported registry incident after an earlier registry incident was marked resolved; the source does not establish whether they shared a cause.
+
+Recorded update occurrences (UTC; creation and last modification are separate):
+- Update bupssimkmqbf: created 2026-11-13T14:55:26.179Z; last modified 2026-11-13T14:55:26.179Z; status identified.
+- Update 29nfcd38rdvu: created 2026-11-13T23:34:56.651Z; last modified 2026-11-13T23:34:56.651Z; status monitoring.
+- Update zcvy5k6eamtb: created 2026-11-14T00:51:29.308Z; last modified 2026-11-14T00:51:29.308Z; status resolved.
+
+This documents Cloudflare’s published account, not an independent technical finding.
+The original response bytes remain in Observer; the fingerprint above does not apply to this description.

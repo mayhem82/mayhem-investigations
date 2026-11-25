@@ -1,0 +1,17 @@
+Cloudflare service-status record: Replicate prediction errors and stalled processing, 17–18 November
+Incident URL: https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf
+Original feed SHA-256: 2c6df95db6fdeb747494b008e120c6c1047a4d16c821af50a93c8960a7cdda21
+Original response retrieved: 2026-11-25 08:02:41.301154+11:00
+
+Public paraphrase, not the original source:
+Cloudflare reported that some prediction requests could fail or remain in processing and that missing response-version information could cause client validation errors. At 21:53 UTC on 17 November it said OpenAI-model predictions had returned to normal while other models could remain affected. It marked the overall incident resolved at 03:23 UTC on 18 November. It did not independently establish every customer outcome or explain the different recovery stages.
+
+Recorded update occurrences (UTC; creation and last modification are separate):
+- Update 2ld6nzsj6vcz: created 2026-11-17T15:02:47.698Z; last modified 2026-11-17T15:02:47.698Z; status investigating.
+- Update whughkl5oujw: created 2026-11-17T16:32:13.057Z; last modified 2026-11-17T16:32:13.057Z; status identified.
+- Update j6r5t7lo7g3p: created 2026-11-17T21:53:51.025Z; last modified 2026-11-17T21:53:51.025Z; status identified.
+- Update d67uga863xxr: created 2026-11-18T02:56:06.358Z; last modified 2026-11-18T02:56:06.358Z; status monitoring.
+- Update 1kvm6loth74e: created 2026-11-18T03:23:23.095Z; last modified 2026-11-18T03:23:23.095Z; status resolved.
+
+This documents Cloudflare’s published account, not an independent technical finding.
+The original response bytes remain in Observer; the fingerprint above does not apply to this description.

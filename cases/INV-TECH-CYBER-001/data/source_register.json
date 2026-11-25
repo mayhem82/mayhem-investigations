@@ -854,5 +854,22 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-07",
     "availability_notes": "Automated acquisition on 2026-11-25T03:38:54.512469+00:00 received HTTP 403 before the robots check completed. No source bytes were acquired and no restriction was bypassed. The advisory itself was not confirmed to have returned 403."
+  },
+  {
+    "source_id": "SRC-0060",
+    "authority": "Cloudflare",
+    "title": "Cloudflare published service-status incident feed",
+    "type": "Public Statement",
+    "url_or_file_location": "https://www.cloudflarestatus.com/api/v2/incidents.json",
+    "first_checked": "2026-11-25",
+    "last_checked": "2026-11-25",
+    "current_version": "Observer response retrieved 25 November 2026",
+    "preservation_status": "Partially Preserved",
+    "hash_status": "Hashed",
+    "associated_thread": "THR-01",
+    "availability_notes": "Observer preserved and hash-verified original feed bytes locally as evidence 41. Public descriptions are paraphrases with separate hashes, not original feed bytes. Later source updates or earlier versions are not established.",
+    "original_sha256": "2c6df95db6fdeb747494b008e120c6c1047a4d16c821af50a93c8960a7cdda21",
+    "original_retrieved_at": "2026-11-25 08:02:41.301154+11:00",
+    "original_archive_key": "observer-evidence-41"
   }
 ]

@@ -334,5 +334,17 @@
     "jurisdiction": "Australia, New Zealand and United States",
     "results_reviewed": 3,
     "results_preserved": 2
+  },
+  {
+    "search_id": "SRCH-0029",
+    "search_terms": "Observer evidence 41: Replicate incident IDs and update histories",
+    "search_engine": "Preserved Observer feed",
+    "database": "Observer evidence 41",
+    "date": "2026-11-25",
+    "time": "2026-11-25T03:45:26.474142+00:00",
+    "filters": "Five source incidents selected from the already captured feed; no new network request. Source creation, modification and retrieval times remain distinct.",
+    "jurisdiction": "International",
+    "results_reviewed": 5,
+    "results_preserved": 5
   }
 ]

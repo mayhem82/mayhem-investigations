@@ -32,7 +32,12 @@
       "EV-0050",
       "EV-0051",
       "EV-0055",
-      "EV-0056"
+      "EV-0056",
+      "EV-0057",
+      "EV-0058",
+      "EV-0059",
+      "EV-0060",
+      "EV-0061"
     ],
     "outstanding_work": "Obtain the final aviation and Microsoft incident reports. Seek dated source records for the other chartered subjects, including JPMorgan Chase and Australian ports and terminals.",
     "dependencies": [],
@@ -85,7 +90,12 @@
       "EV-0044",
       "EV-0051",
       "EV-0055",
-      "EV-0056"
+      "EV-0056",
+      "EV-0057",
+      "EV-0058",
+      "EV-0059",
+      "EV-0060",
+      "EV-0061"
     ],
     "outstanding_work": "Verify reported dependencies and the duration of each recovery path against customer and infrastructure records.",
     "dependencies": [],
@@ -115,7 +125,12 @@
       "EV-0050",
       "EV-0051",
       "EV-0055",
-      "EV-0056"
+      "EV-0056",
+      "EV-0057",
+      "EV-0058",
+      "EV-0059",
+      "EV-0060",
+      "EV-0061"
     ],
     "outstanding_work": "Obtain final provider reports and evidence of restoration and tested fallback. Preserve the operator’s explanations as attributed accounts.",
     "dependencies": [],
@@ -221,7 +236,12 @@
       "EV-0053",
       "EV-0054",
       "EV-0055",
-      "EV-0056"
+      "EV-0056",
+      "EV-0057",
+      "EV-0058",
+      "EV-0059",
+      "EV-0060",
+      "EV-0061"
     ],
     "outstanding_work": "Check Microsoft’s 2024 time-zone basis and keep regulator measures and source boundaries explicit. Pursue evidence that could independently support or rule out a connection between incidents.",
     "dependencies": [],
@@ -261,7 +281,12 @@
       "EV-0051",
       "EV-0052",
       "EV-0053",
-      "EV-0054"
+      "EV-0054",
+      "EV-0057",
+      "EV-0058",
+      "EV-0059",
+      "EV-0060",
+      "EV-0061"
     ],
     "outstanding_work": "Keep snapshots, source captures, chronology, search log and decisions in step. Preserve original source bytes and hashes when practical, and retain any later qualification changes as new records.",
     "dependencies": [],

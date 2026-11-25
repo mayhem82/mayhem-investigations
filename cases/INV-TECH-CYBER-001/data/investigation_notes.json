@@ -467,5 +467,22 @@
       "EV-0055",
       "EV-0056"
     ]
+  },
+  {
+    "note_id": "NOTE-0026",
+    "timestamp": "2026-11-25T03:45:26.474142+00:00",
+    "activity_type": "Checking Source",
+    "text": "Observer evidence 41 contains five Cloudflare reports concerning Replicate inputs, model registry or predictions. Preserve each update and distinguish its creation and modification times. Separate reports on the same component do not establish a common cause, compromise, or a connection to other incidents. Public descriptions are separately hashed paraphrases; the original response remains in Observer.",
+    "related_thread": "THR-07",
+    "related_source": "SRC-0060",
+    "related_evidence": null,
+    "related_question": "Q-0007",
+    "question_evidence": [
+      "EV-0057",
+      "EV-0058",
+      "EV-0059",
+      "EV-0060",
+      "EV-0061"
+    ]
   }
 ]

@@ -629,5 +629,215 @@
     "supporting_evidence": [
       "EV-0056"
     ]
+  },
+  {
+    "chronology_id": "CHR-0063",
+    "event_date": "2026-11-11",
+    "date_is_inference": false,
+    "event_description": "At 04:33:19 UTC Cloudflare said it was investigating in its Replicate model registry and input uploads, 11–13 November report. The saved update was created 2026-11-11T04:33:19.016Z and last modified 2026-11-11T04:33:19.016Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0057"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0064",
+    "event_date": "2026-11-11",
+    "date_is_inference": false,
+    "event_description": "At 05:11:52 UTC Cloudflare reported the issue identified or a fix in progress in its Replicate model registry and input uploads, 11–13 November report. The saved update was created 2026-11-11T05:11:52.647Z and last modified 2026-11-11T05:11:52.647Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0057"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0065",
+    "event_date": "2026-11-11",
+    "date_is_inference": false,
+    "event_description": "At 07:33:53 UTC Cloudflare reported the issue identified or a fix in progress in its Replicate model registry and input uploads, 11–13 November report. The saved update was created 2026-11-11T07:33:53.799Z and last modified 2026-11-11T07:33:53.799Z. It reported degraded input uploads and unavailable model builds and pushes via r8.im.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0057"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0066",
+    "event_date": "2026-11-11",
+    "date_is_inference": false,
+    "event_description": "At 23:50:01 UTC Cloudflare reported the issue identified or a fix in progress in its Replicate model registry and input uploads, 11–13 November report. The saved update was created 2026-11-11T23:50:01.742Z and last modified 2026-11-11T23:50:49.056Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0057"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0067",
+    "event_date": "2026-11-12",
+    "date_is_inference": false,
+    "event_description": "At 22:55:17 UTC Cloudflare reported a fix implemented and under monitoring in its Replicate model registry and input uploads, 11–13 November report. The saved update was created 2026-11-12T22:55:17.816Z and last modified 2026-11-12T22:55:17.816Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0057"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0068",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "At 01:44:17 UTC Cloudflare marked the incident resolved in its Replicate model registry and input uploads, 11–13 November report. The saved update was created 2026-11-13T01:44:17.916Z and last modified 2026-11-13T01:44:17.916Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0057"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0069",
+    "event_date": "2026-11-12",
+    "date_is_inference": false,
+    "event_description": "At 08:30:17 UTC Cloudflare said it was investigating in its Replicate prediction errors, 12 November report. The saved update was created 2026-11-12T08:30:17.012Z and last modified 2026-11-12T08:30:17.012Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0058"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0070",
+    "event_date": "2026-11-12",
+    "date_is_inference": false,
+    "event_description": "At 09:34:19 UTC Cloudflare reported the issue identified or a fix in progress in its Replicate prediction errors, 12 November report. The saved update was created 2026-11-12T09:34:19.802Z and last modified 2026-11-12T09:34:19.802Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0058"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0071",
+    "event_date": "2026-11-12",
+    "date_is_inference": false,
+    "event_description": "At 11:34:02 UTC Cloudflare marked the incident resolved in its Replicate prediction errors, 12 November report. The saved update was created 2026-11-12T11:34:02.628Z and last modified 2026-11-12T11:34:02.628Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0058"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0072",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "At 14:55:26 UTC Cloudflare reported the issue identified or a fix in progress in its Replicate model registry restriction, 13–14 November report. The saved update was created 2026-11-13T14:55:26.179Z and last modified 2026-11-13T14:55:26.179Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0059"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0073",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "At 23:34:56 UTC Cloudflare reported a fix implemented and under monitoring in its Replicate model registry restriction, 13–14 November report. The saved update was created 2026-11-13T23:34:56.651Z and last modified 2026-11-13T23:34:56.651Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0059"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0074",
+    "event_date": "2026-11-14",
+    "date_is_inference": false,
+    "event_description": "At 00:51:29 UTC Cloudflare marked the incident resolved in its Replicate model registry restriction, 13–14 November report. The saved update was created 2026-11-14T00:51:29.308Z and last modified 2026-11-14T00:51:29.308Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0059"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0075",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "At 14:30:20 UTC Cloudflare said it was investigating in its Replicate prediction creation errors, 16 November report. The saved update was created 2026-11-16T14:30:20.417Z and last modified 2026-11-16T14:30:20.417Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0060"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0076",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "At 15:30:10 UTC Cloudflare reported the issue identified or a fix in progress in its Replicate prediction creation errors, 16 November report. The saved update was created 2026-11-16T15:30:10.943Z and last modified 2026-11-16T15:30:10.943Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0060"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0077",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "At 15:52:49 UTC Cloudflare reported a fix implemented and under monitoring in its Replicate prediction creation errors, 16 November report. The saved update was created 2026-11-16T15:52:49.624Z and last modified 2026-11-16T15:52:49.624Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0060"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0078",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "At 16:19:08 UTC Cloudflare marked the incident resolved in its Replicate prediction creation errors, 16 November report. The saved update was created 2026-11-16T16:19:08.732Z and last modified 2026-11-16T16:19:08.732Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0060"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0079",
+    "event_date": "2026-11-17",
+    "date_is_inference": false,
+    "event_description": "At 15:02:47 UTC Cloudflare said it was investigating in its Replicate prediction errors and stalled processing, 17–18 November report. The saved update was created 2026-11-17T15:02:47.698Z and last modified 2026-11-17T15:02:47.698Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0061"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0080",
+    "event_date": "2026-11-17",
+    "date_is_inference": false,
+    "event_description": "At 16:32:13 UTC Cloudflare reported the issue identified or a fix in progress in its Replicate prediction errors and stalled processing, 17–18 November report. The saved update was created 2026-11-17T16:32:13.057Z and last modified 2026-11-17T16:32:13.057Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0061"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0081",
+    "event_date": "2026-11-17",
+    "date_is_inference": false,
+    "event_description": "At 21:53:51 UTC Cloudflare reported the issue identified or a fix in progress in its Replicate prediction errors and stalled processing, 17–18 November report. The saved update was created 2026-11-17T21:53:51.025Z and last modified 2026-11-17T21:53:51.025Z. It said OpenAI-model predictions were back to normal while other models could remain affected.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0061"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0082",
+    "event_date": "2026-11-18",
+    "date_is_inference": false,
+    "event_description": "At 02:56:06 UTC Cloudflare reported a fix implemented and under monitoring in its Replicate prediction errors and stalled processing, 17–18 November report. The saved update was created 2026-11-18T02:56:06.358Z and last modified 2026-11-18T02:56:06.358Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0061"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0083",
+    "event_date": "2026-11-18",
+    "date_is_inference": false,
+    "event_description": "At 03:23:23 UTC Cloudflare marked the incident resolved in its Replicate prediction errors and stalled processing, 17–18 November report. The saved update was created 2026-11-18T03:23:23.095Z and last modified 2026-11-18T03:23:23.095Z.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0061"
+    ]
   }
 ]

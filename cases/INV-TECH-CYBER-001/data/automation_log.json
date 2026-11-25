@@ -168,5 +168,22 @@
       "EV-0056"
     ],
     "notes": "Preserved two original public responses locally with hashes and separately hashed public descriptions; logged an HTTP 403 before robots check as an access gap. No source claims were promoted to independent causal findings."
+  },
+  {
+    "run_id": "RUN-0008",
+    "date": "2026-11-25",
+    "stage": "DFAPTI",
+    "sources_checked": [
+      "SRC-0060"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0057",
+      "EV-0058",
+      "EV-0059",
+      "EV-0060",
+      "EV-0061"
+    ],
+    "notes": "Reviewed five incident objects from previously captured and hash-verified Observer evidence 41. The full original response remains local; public paraphrases have separate hashes. Chronology records every captured status-update occurrence; no freeze or causal determination."
   }
 ]

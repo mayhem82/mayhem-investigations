@@ -1,0 +1,15 @@
+Cloudflare service-status record: Replicate prediction errors, 12 November
+Incident URL: https://www.cloudflarestatus.com/incidents/1na2mbfshgdh
+Original feed SHA-256: 2c6df95db6fdeb747494b008e120c6c1047a4d16c821af50a93c8960a7cdda21
+Original response retrieved: 2026-11-25 08:02:41.301154+11:00
+
+Public paraphrase, not the original source:
+Cloudflare reported that Replicate customers might see increased server errors for predictions. It said a fix was being implemented and later marked the incident resolved. This event overlapped the model-registry incident, but the source does not establish a common cause.
+
+Recorded update occurrences (UTC; creation and last modification are separate):
+- Update 1fdidizflddg: created 2026-11-12T08:30:17.012Z; last modified 2026-11-12T08:30:17.012Z; status investigating.
+- Update vcodmt2covvp: created 2026-11-12T09:34:19.802Z; last modified 2026-11-12T09:34:19.802Z; status identified.
+- Update y67f587lcu67: created 2026-11-12T11:34:02.628Z; last modified 2026-11-12T11:34:02.628Z; status resolved.
+
+This documents Cloudflare’s published account, not an independent technical finding.
+The original response bytes remain in Observer; the fingerprint above does not apply to this description.
