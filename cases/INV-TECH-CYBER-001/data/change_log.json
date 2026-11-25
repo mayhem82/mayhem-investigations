@@ -122,5 +122,25 @@
     ],
     "reason": "Add a dated, source-linked public explanation of the open investigation without changing existing case records.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0006",
+    "date": "2026-11-25",
+    "author": "AI-assisted collection",
+    "files_affected": [
+      "cases/INV-TECH-CYBER-001/data/source_register.json",
+      "cases/INV-TECH-CYBER-001/data/evidence_register.json",
+      "cases/INV-TECH-CYBER-001/data/chronology.json",
+      "cases/INV-TECH-CYBER-001/data/investigation_notes.json",
+      "cases/INV-TECH-CYBER-001/data/search_log.json",
+      "cases/INV-TECH-CYBER-001/data/automation_log.json",
+      "cases/INV-TECH-CYBER-001/data/change_log.json",
+      "cases/INV-TECH-CYBER-001/data/threads.json",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0049-source-description.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0050-source-description.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0051-source-description.txt"
+    ],
+    "reason": "Append three Observer-sourced GitHub incident records, their creation and modification chronology, and bounded dependency and alternative-explanation evidence.",
+    "validation_completed": true
   }
 ]

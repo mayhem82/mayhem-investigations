@@ -489,5 +489,55 @@
     "supporting_evidence": [
       "EV-0048"
     ]
+  },
+  {
+    "chronology_id": "CHR-0049",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "At 15:47 UTC GitHub opened a pull-request degradation incident. Its saved feed records resolution at 18:29 UTC; the presently visible resolved update was modified on 23 November.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0049"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0050",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "At 20:14 UTC GitHub attributed degraded Copilot model availability to an upstream provider and suggested alternative model selection; it reported resolution at 21:27 UTC.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0051"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0051",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "At 11:59 UTC GitHub opened a second pull-request degradation incident and reported resolution at 16:26 UTC; the presently visible resolved update was modified on 20 November.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0050"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0052",
+    "event_date": "2026-11-20",
+    "date_is_inference": false,
+    "event_description": "The saved feed says the 16 November resolved update was modified at 18:50 UTC. Its current later text attributes both pull-request events to storage read bandwidth and a disk setting; an earlier version is unavailable here.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0050"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0053",
+    "event_date": "2026-11-23",
+    "date_is_inference": false,
+    "event_description": "The saved feed says the 13 November resolved update was modified at 21:45 UTC. Its current text includes the later account of both events; it cannot be treated as text published on 13 November.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0049"
+    ]
   }
 ]

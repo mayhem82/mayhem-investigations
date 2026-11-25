@@ -1,0 +1,11 @@
+GitHub pull request disruption on 13 November
+Source: GitHub service status feed
+Feed: https://www.githubstatus.com/api/v2/incidents.json
+Original retrieved: 2026-11-25T08:02:40.067139+11:00
+Original SHA-256: 49787fbacfb19f4fd14bab9ecd72c972662e1a8534f3192f8a577d74a44f82e6
+Original response is in the local Observer evidence archive as evidence 40; it is not in this public repository.
+This file is a selected paraphrased description, not the original; its own digest is recorded in the evidence register.
+
+The feed records GitHub opening the incident at 15:47 UTC on 13 November 2026 and reporting it resolved at 18:29 UTC. The current resolution update was last modified at 21:45 UTC on 23 November, ten days after its creation. That later text reports a 13 November merge-timeout event and attributes it, together with a 16 November event, to storage read-bandwidth saturation and a disk-configuration setting. It reports mitigation by changing the setting and moving load.
+
+Limits: The later explanation must not be presented as text published on 13 November. The feed does not preserve the earlier wording of that update. The cause and metrics are GitHub's account, not independently verified; no connection to Microsoft or aviation incidents is established.

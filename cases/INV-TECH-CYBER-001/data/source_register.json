@@ -738,5 +738,22 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-07",
     "availability_notes": "Direct retrieval attempt 2026-11-25T02:25:57.785795+00:00 failed TLS certificate verification. No bypass was attempted; original bytes and publication date remain unverified. A search index displayed text, which was not treated as the original."
+  },
+  {
+    "source_id": "SRC-0053",
+    "authority": "GitHub",
+    "title": "GitHub service status published incident feed",
+    "type": "Public Statement",
+    "url_or_file_location": "https://www.githubstatus.com/api/v2/incidents.json",
+    "first_checked": "2026-11-25",
+    "last_checked": "2026-11-25",
+    "current_version": "Response retrieved 2026-11-25; incident updates carry distinct creation and modification times",
+    "preservation_status": "Partially Preserved",
+    "hash_status": "Hashed",
+    "associated_thread": "THR-01",
+    "availability_notes": "Observer captured original feed bytes as local evidence 40 and checked the SHA-256. Public repository contains separate paraphrased descriptions with their own hashes, not the original feed. Earlier versions of subsequently edited updates are not established.",
+    "original_sha256": "49787fbacfb19f4fd14bab9ecd72c972662e1a8534f3192f8a577d74a44f82e6",
+    "original_retrieved_at": "2026-11-25T08:02:40.067139+11:00",
+    "original_archive_key": "observer-evidence-40"
   }
 ]

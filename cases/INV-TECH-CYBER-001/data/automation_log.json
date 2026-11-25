@@ -120,5 +120,20 @@
       "EV-0048"
     ],
     "notes": "Four first-party public sources captured with SHA-256, source date and retrieval time. Public descriptions and original local bytes have separately identified hashes. An IP Australia source could not be acquired because certificate verification failed; it is an access gap. No evidence freeze or causation determination."
+  },
+  {
+    "run_id": "RUN-0005",
+    "date": "2026-11-25",
+    "stage": "DFAPTI",
+    "sources_checked": [
+      "SRC-0053"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0049",
+      "EV-0050",
+      "EV-0051"
+    ],
+    "notes": "Added three attributed Observer-derived incident records and separately dated later edits; hash verified original feed bytes, paraphrased public descriptions separately hashed. No evidence freeze or independent causal determination."
   }
 ]

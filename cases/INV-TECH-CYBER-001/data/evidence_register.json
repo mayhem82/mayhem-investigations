@@ -1566,5 +1566,113 @@
     "original_response_sha256": "c2638ef62db09d7637e7e0a24e6abe98131990608b92b64f1f09368426d4a815",
     "original_retrieved_at": "2026-11-25T02:25:57.785795+00:00",
     "original_archive_key": "southeast-coast-ambulance-2026-11-13.html"
+  },
+  {
+    "evidence_id": "EV-0049",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-25",
+    "source_date": "2026-11-13",
+    "source_authority": "GitHub",
+    "source_title": "GitHub pull request disruption on 13 November",
+    "source_type": "Public Statement",
+    "source_location": "https://www.githubstatus.com/api/v2/incidents.json",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0049-source-description.txt",
+    "document_hash": "sha256:39243b81d88695ea6d46d52e1c094d1b008bad661dea60713d5fddd46279bb3f",
+    "hash_exception_reason": null,
+    "evidence_description": "The feed records GitHub opening the incident at 15:47 UTC on 13 November 2026 and reporting it resolved at 18:29 UTC. The current resolution update was last modified at 21:45 UTC on 23 November, ten days after its creation. That later text reports a 13 November merge-timeout event and attributes it, together with a 16 November event, to storage read-bandwidth saturation and a disk-configuration setting. It reports mitigation by changing the setting and moving load.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The later explanation must not be presented as text published on 13 November. The feed does not preserve the earlier wording of that update. The cause and metrics are GitHub's account, not independently verified; no connection to Microsoft or aviation incidents is established.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0049",
+      "CHR-0053"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0007",
+      "Q-0008"
+    ],
+    "source_register_id": "SRC-0053",
+    "original_response_sha256": "49787fbacfb19f4fd14bab9ecd72c972662e1a8534f3192f8a577d74a44f82e6",
+    "original_retrieved_at": "2026-11-25T08:02:40.067139+11:00",
+    "original_archive_key": "observer-evidence-40",
+    "source_incident_id": "1xzmt89vv61l",
+    "source_incident_url": "https://www.githubstatus.com/incidents/1xzmt89vv61l"
+  },
+  {
+    "evidence_id": "EV-0050",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-25",
+    "source_date": "2026-11-16",
+    "source_authority": "GitHub",
+    "source_title": "GitHub pull request disruption on 16 November",
+    "source_type": "Public Statement",
+    "source_location": "https://www.githubstatus.com/api/v2/incidents.json",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0050-source-description.txt",
+    "document_hash": "sha256:6d4d195e66909027ce8ab4b2e68cf8222a6c166ae7685fb877e7ea5dfca9dbd2",
+    "hash_exception_reason": null,
+    "evidence_description": "The feed records GitHub opening the incident at 11:59 UTC on 16 November 2026. Its reports describe elevated pull-request merge timeouts and later workflow delays, followed by monitoring and an operator-reported resolution at 16:26 UTC. The present resolution update was last modified on 20 November at 18:50 UTC. The later account reports an average 2.9 percent merge timeout rate, a peak of 7.1 percent, and the storage-bandwidth and disk-configuration explanation for both the 13 and 16 November events.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The November 20 account is a later revision; the original resolved text is not in this saved feed. It is the same provider account appearing in EV-0049, not independent corroboration. Actual customer outcomes and a connection to other case incidents are not established.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0051",
+      "CHR-0052"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0007",
+      "Q-0008"
+    ],
+    "source_register_id": "SRC-0053",
+    "original_response_sha256": "49787fbacfb19f4fd14bab9ecd72c972662e1a8534f3192f8a577d74a44f82e6",
+    "original_retrieved_at": "2026-11-25T08:02:40.067139+11:00",
+    "original_archive_key": "observer-evidence-40",
+    "source_incident_id": "2zfqmghmg3s3",
+    "source_incident_url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3"
+  },
+  {
+    "evidence_id": "EV-0051",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-25",
+    "source_date": "2026-11-13",
+    "source_authority": "GitHub",
+    "source_title": "GitHub Copilot model availability on 13 November",
+    "source_type": "Public Statement",
+    "source_location": "https://www.githubstatus.com/api/v2/incidents.json",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0051-source-description.txt",
+    "document_hash": "sha256:37cef748ec90c7eb5c76f59cb62fcef6ffea99ad6bd9b464a3adc006509333f0",
+    "hash_exception_reason": null,
+    "evidence_description": "At 20:14 UTC on 13 November 2026 GitHub reported degraded availability of specified models in Copilot and attributed it to an upstream model-provider issue, advising use of another model or automatic selection. An update reported the incident resolved at 21:27 UTC; its present text was last modified at 21:38 UTC and says availability improved after the upstream provider mitigated the issue.",
+    "relevant_quotation": null,
+    "investigation_relevance": "This is GitHub's account of a service dependency and mitigation; the feed does not identify the upstream provider or independently verify cause or individual outcomes. It does not establish a compromise or a connection to the other incidents.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0050"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0007",
+      "Q-0008"
+    ],
+    "source_register_id": "SRC-0053",
+    "original_response_sha256": "49787fbacfb19f4fd14bab9ecd72c972662e1a8534f3192f8a577d74a44f82e6",
+    "original_retrieved_at": "2026-11-25T08:02:40.067139+11:00",
+    "original_archive_key": "observer-evidence-40",
+    "source_incident_id": "51drrqvsv66g",
+    "source_incident_url": "https://www.githubstatus.com/incidents/51drrqvsv66g"
   }
 ]

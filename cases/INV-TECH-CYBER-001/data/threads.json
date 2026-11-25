@@ -27,7 +27,10 @@
       "EV-0037",
       "EV-0038",
       "EV-0039",
-      "EV-0042"
+      "EV-0042",
+      "EV-0049",
+      "EV-0050",
+      "EV-0051"
     ],
     "outstanding_work": "Obtain the final aviation and Microsoft incident reports. Seek dated source records for the other chartered subjects, including JPMorgan Chase and Australian ports and terminals.",
     "dependencies": [],
@@ -74,7 +77,8 @@
       "EV-0040",
       "EV-0041",
       "EV-0043",
-      "EV-0044"
+      "EV-0044",
+      "EV-0051"
     ],
     "outstanding_work": "Verify reported dependencies and the duration of each recovery path against customer and infrastructure records.",
     "dependencies": [],
@@ -99,7 +103,10 @@
       "EV-0031",
       "EV-0034",
       "EV-0038",
-      "EV-0039"
+      "EV-0039",
+      "EV-0049",
+      "EV-0050",
+      "EV-0051"
     ],
     "outstanding_work": "Obtain final provider reports and evidence of restoration and tested fallback. Preserve the operator’s explanations as attributed accounts.",
     "dependencies": [],
@@ -194,7 +201,10 @@
       "EV-0038",
       "EV-0039",
       "EV-0043",
-      "EV-0044"
+      "EV-0044",
+      "EV-0049",
+      "EV-0050",
+      "EV-0051"
     ],
     "outstanding_work": "Check Microsoft’s 2024 time-zone basis and keep regulator measures and source boundaries explicit. Pursue evidence that could independently support or rule out a connection between incidents.",
     "dependencies": [],
@@ -228,7 +238,10 @@
       "EV-0039",
       "EV-0040",
       "EV-0041",
-      "EV-0042"
+      "EV-0042",
+      "EV-0049",
+      "EV-0050",
+      "EV-0051"
     ],
     "outstanding_work": "Keep snapshots, source captures, chronology, search log and decisions in step. Preserve original source bytes and hashes when practical, and retain any later qualification changes as new records.",
     "dependencies": [],

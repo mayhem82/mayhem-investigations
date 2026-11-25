@@ -1,0 +1,11 @@
+GitHub pull request disruption on 16 November
+Source: GitHub service status feed
+Feed: https://www.githubstatus.com/api/v2/incidents.json
+Original retrieved: 2026-11-25T08:02:40.067139+11:00
+Original SHA-256: 49787fbacfb19f4fd14bab9ecd72c972662e1a8534f3192f8a577d74a44f82e6
+Original response is in the local Observer evidence archive as evidence 40; it is not in this public repository.
+This file is a selected paraphrased description, not the original; its own digest is recorded in the evidence register.
+
+The feed records GitHub opening the incident at 11:59 UTC on 16 November 2026. Its reports describe elevated pull-request merge timeouts and later workflow delays, followed by monitoring and an operator-reported resolution at 16:26 UTC. The present resolution update was last modified on 20 November at 18:50 UTC. The later account reports an average 2.9 percent merge timeout rate, a peak of 7.1 percent, and the storage-bandwidth and disk-configuration explanation for both the 13 and 16 November events.
+
+Limits: The November 20 account is a later revision; the original resolved text is not in this saved feed. It is the same provider account appearing in EV-0049, not independent corroboration. Actual customer outcomes and a connection to other case incidents are not established.

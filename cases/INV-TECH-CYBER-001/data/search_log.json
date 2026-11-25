@@ -298,5 +298,17 @@
     "jurisdiction": "Australia and United Kingdom",
     "results_reviewed": 5,
     "results_preserved": 4
+  },
+  {
+    "search_id": "SRCH-0026",
+    "search_terms": "Observer evidence 40: GitHub incidents 1xzmt89vv61l, 2zfqmghmg3s3 and 51drrqvsv66g",
+    "search_engine": "Observer preserved public-source feed",
+    "database": "Observer local evidence archive",
+    "date": "2026-11-25",
+    "time": null,
+    "filters": "Read the saved original response and verified its SHA-256. Distinguished update creation from later modification; no new network request or inference of common cause with unrelated incidents.",
+    "jurisdiction": "International",
+    "results_reviewed": 3,
+    "results_preserved": 3
   }
 ]

@@ -1,0 +1,11 @@
+GitHub Copilot model availability on 13 November
+Source: GitHub service status feed
+Feed: https://www.githubstatus.com/api/v2/incidents.json
+Original retrieved: 2026-11-25T08:02:40.067139+11:00
+Original SHA-256: 49787fbacfb19f4fd14bab9ecd72c972662e1a8534f3192f8a577d74a44f82e6
+Original response is in the local Observer evidence archive as evidence 40; it is not in this public repository.
+This file is a selected paraphrased description, not the original; its own digest is recorded in the evidence register.
+
+At 20:14 UTC on 13 November 2026 GitHub reported degraded availability of specified models in Copilot and attributed it to an upstream model-provider issue, advising use of another model or automatic selection. An update reported the incident resolved at 21:27 UTC; its present text was last modified at 21:38 UTC and says availability improved after the upstream provider mitigated the issue.
+
+Limits: This is GitHub's account of a service dependency and mitigation; the feed does not identify the upstream provider or independently verify cause or individual outcomes. It does not establish a compromise or a connection to the other incidents.

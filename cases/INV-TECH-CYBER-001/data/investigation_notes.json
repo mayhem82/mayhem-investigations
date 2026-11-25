@@ -422,5 +422,20 @@
       "EV-0047",
       "EV-0048"
     ]
+  },
+  {
+    "note_id": "NOTE-0023",
+    "timestamp": "2026-11-25T03:08:56.752776+00:00",
+    "activity_type": "Checking Source",
+    "text": "Observer evidence 40 preserves the GitHub feed and supplies three case leads. The same retrospective post-incident explanation appears in two separately identified events and is not independent corroboration. Preserve both original creation and later modification dates. The source does not identify the upstream model provider or establish a link to Microsoft, aviation or other incidents. Original bytes are held in the local Observer archive; public descriptions are not the original source.",
+    "related_thread": "THR-07",
+    "related_source": "SRC-0053",
+    "related_evidence": null,
+    "related_question": "Q-0007",
+    "question_evidence": [
+      "EV-0049",
+      "EV-0050",
+      "EV-0051"
+    ]
   }
 ]
