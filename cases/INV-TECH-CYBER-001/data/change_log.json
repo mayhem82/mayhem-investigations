@@ -88,5 +88,25 @@
     ],
     "reason": "Append dated disruption and recovery milestones and update investigation thread evidence links.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0004",
+    "date": "2026-11-25",
+    "author": "AI-assisted collection",
+    "files_affected": [
+      "cases/INV-TECH-CYBER-001/data/source_register.json",
+      "cases/INV-TECH-CYBER-001/data/evidence_register.json",
+      "cases/INV-TECH-CYBER-001/data/chronology.json",
+      "cases/INV-TECH-CYBER-001/data/investigation_notes.json",
+      "cases/INV-TECH-CYBER-001/data/search_log.json",
+      "cases/INV-TECH-CYBER-001/data/automation_log.json",
+      "cases/INV-TECH-CYBER-001/data/change_log.json",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0045-source-description.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0046-source-description.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0047-source-description.txt",
+      "cases/INV-TECH-CYBER-001/preserved/EV-0048-source-description.txt"
+    ],
+    "reason": "Append source-backed records for emergency service continuity, referral communications and Tasmanian parliamentary accountability, and document an unsuccessful source acquisition.",
+    "validation_completed": true
   }
 ]

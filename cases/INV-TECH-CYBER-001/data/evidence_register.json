@@ -1431,5 +1431,140 @@
       "Q-0007",
       "Q-0008"
     ]
+  },
+  {
+    "evidence_id": "EV-0045",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-25",
+    "source_date": "2026-11-17",
+    "source_authority": "Tasmanian House of Assembly",
+    "source_title": "House of Assembly daily Hansard: Microsoft Outage 13 November - Impacts",
+    "source_type": "Government Record",
+    "source_location": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0016/115504/HA-Tuesday-17-November-2026-Draft-Full-Text.pdf",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0045-source-description.txt",
+    "document_hash": "sha256:5035d44da284c968de1b5be7a363932978195ec9ac4499c97b9e903599a377fb",
+    "hash_exception_reason": null,
+    "evidence_description": "Pages 7-8, uncorrected proof: an elected member described email and transaction disruption and asked about dependence on individual cloud providers. The minister described disruption and said, to his knowledge at that stage, Microsoft had not indicated a cyber matter; he said emergency services broadly continued.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The original is an uncorrected parliamentary proof. It records the attributed question and ministerial response, not independent counts, causal proof or a final corrected transcript.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0044"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ],
+    "source_register_id": "SRC-0048",
+    "original_response_sha256": "ce905f79e5e8f570082fe29e422a5dc3d5edf0da3ce6ad974feacb765cffafd4",
+    "original_retrieved_at": "2026-11-25T02:25:46.814520+00:00",
+    "original_archive_key": "tas-parliament-2026-11-17.pdf"
+  },
+  {
+    "evidence_id": "EV-0046",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-25",
+    "source_date": "2026-11-13",
+    "source_authority": "NHS Essex Integrated Care Board",
+    "source_title": "Temporary disruption to NHS email services caused by global Microsoft outage",
+    "source_type": "Government Record",
+    "source_location": "https://www.essex.icb.nhs.uk/news/temporary-disruption-to-nhs-email-services-caused-by-global-microsoft-outage/",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0046-source-description.txt",
+    "document_hash": "sha256:02ff65d1d88a89ebec96d716f6fdb62e029b7fb3dd1e3f68b39f9e2530596ec9",
+    "hash_exception_reason": null,
+    "evidence_description": "At 10:30 the board reported affected digital communications, possible delays for NHS services including general practices, and a temporary telephone route for provider referrals. At 16:00 it reported uneven recovery and asked urgent senders without a response to confirm receipt by phone.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The notice is first-party evidence of what the care board published and its reported operational concern. It does not quantify delayed referrals, establish individual patient outcomes or independently determine technical cause.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0045",
+      "CHR-0046"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ],
+    "source_register_id": "SRC-0049",
+    "original_response_sha256": "4c90fc89d57817f5558e3d6a2ab4434f27db6c1e2f5285b467664b33e11cf7f6",
+    "original_retrieved_at": "2026-11-25T02:25:49.237087+00:00",
+    "original_archive_key": "nhs-essex-2026-11-13.html"
+  },
+  {
+    "evidence_id": "EV-0047",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-25",
+    "source_date": "2026-11-13",
+    "source_authority": "East Midlands Ambulance Service NHS Trust",
+    "source_title": "Update on impact of Microsoft outage",
+    "source_type": "Government Record",
+    "source_location": "https://www.emas.nhs.uk/news/latest-news/update-impact-microsoft-outage",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0047-source-description.txt",
+    "document_hash": "sha256:410f09d7edbefa1a38a165322a90d51bf1789df621cf98d8baa8411d80fa0557",
+    "hash_exception_reason": null,
+    "evidence_description": "The ambulance service reported an effect from the Microsoft outage, said emergency 999 service was unaffected, and said non-emergency patient transport telephone lines were busier than usual. It described using contingency plans for staff communication.",
+    "relevant_quotation": null,
+    "investigation_relevance": "This is the operator’s account of its own services. It does not establish patient waiting times, missed journeys, independent technical cause or that all callers were unaffected.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0047"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ],
+    "source_register_id": "SRC-0050",
+    "original_response_sha256": "56b238bcb4aa7b2ea53fceb17e1b0bc547d0d4070fcdfb0cc87f67da76676292",
+    "original_retrieved_at": "2026-11-25T02:25:53.540357+00:00",
+    "original_archive_key": "east-midlands-ambulance-2026-11-13.html"
+  },
+  {
+    "evidence_id": "EV-0048",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-25",
+    "source_date": "2026-11-13",
+    "source_authority": "South East Coast Ambulance Service NHS Foundation Trust",
+    "source_title": "999 and 111 services remain fully operational during Microsoft outage",
+    "source_type": "Government Record",
+    "source_location": "https://www.secamb.nhs.uk/secambs-999-and-111-services-remain-fully-operational-during-microsoft-outage/",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0048-source-description.txt",
+    "document_hash": "sha256:22a78e1d535fc5ced5ba11888a18645ee39e4156943e6412fc48175475ab35cb",
+    "hash_exception_reason": null,
+    "evidence_description": "The ambulance service reported disruption to Outlook, Teams and some other internal systems, while saying its emergency-call triage and computer-aided ambulance dispatch systems were unaffected.",
+    "relevant_quotation": null,
+    "investigation_relevance": "This source is a first-party account and a useful boundary on the impact claim. It does not prove continuity of every service or independently establish the technical cause.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0048"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0005",
+      "Q-0006",
+      "Q-0008"
+    ],
+    "source_register_id": "SRC-0051",
+    "original_response_sha256": "c2638ef62db09d7637e7e0a24e6abe98131990608b92b64f1f09368426d4a815",
+    "original_retrieved_at": "2026-11-25T02:25:57.785795+00:00",
+    "original_archive_key": "southeast-coast-ambulance-2026-11-13.html"
   }
 ]

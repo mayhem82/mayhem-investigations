@@ -1,0 +1,12 @@
+Temporary disruption to NHS email services caused by global Microsoft outage
+Source: NHS Essex Integrated Care Board
+URL: https://www.essex.icb.nhs.uk/news/temporary-disruption-to-nhs-email-services-caused-by-global-microsoft-outage/
+Source date: 2026-11-13
+Original retrieved: 2026-11-25T02:25:49.237087+00:00
+Original SHA-256: 4c90fc89d57817f5558e3d6a2ab4434f27db6c1e2f5285b467664b33e11cf7f6
+The original response is preserved in the local research archive; it is not in this public repository.
+This file is a selected source description, not the original; its own digest is recorded in the evidence register.
+
+At 10:30 the board reported affected digital communications, possible delays for NHS services including general practices, and a temporary telephone route for provider referrals. At 16:00 it reported uneven recovery and asked urgent senders without a response to confirm receipt by phone.
+
+Limits: The notice is first-party evidence of what the care board published and its reported operational concern. It does not quantify delayed referrals, establish individual patient outcomes or independently determine technical cause.

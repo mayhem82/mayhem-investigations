@@ -286,5 +286,17 @@
     "jurisdiction": "United States",
     "results_reviewed": 1,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0025",
+    "search_terms": "November 2026 Microsoft outage NHS provider referral communication contingency 13 November; Tasmania parliament Microsoft outage impacts cloud provider dependence 17 November",
+    "search_engine": "Public web and publisher records",
+    "database": null,
+    "date": "2026-11-25",
+    "time": null,
+    "filters": "Checked first-party dated records; preserved response bytes in local private archive and public descriptions with distinct hashes. IP Australia source retrieval failed certificate verification; no bypass.",
+    "jurisdiction": "Australia and United Kingdom",
+    "results_reviewed": 5,
+    "results_preserved": 4
   }
 ]

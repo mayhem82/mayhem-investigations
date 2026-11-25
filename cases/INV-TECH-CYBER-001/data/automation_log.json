@@ -100,5 +100,25 @@
       "EV-0044"
     ],
     "notes": "Checked the operation-to-recovery gap. Added eight evidence records and nine chronology entries. All original question statuses retained. Question updates distinguish actual service unavailability, published restoration, and human outcomes."
+  },
+  {
+    "run_id": "RUN-0004",
+    "date": "2026-11-25",
+    "stage": "DFAPTI",
+    "sources_checked": [
+      "SRC-0048",
+      "SRC-0049",
+      "SRC-0050",
+      "SRC-0051",
+      "SRC-0052"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0045",
+      "EV-0046",
+      "EV-0047",
+      "EV-0048"
+    ],
+    "notes": "Four first-party public sources captured with SHA-256, source date and retrieval time. Public descriptions and original local bytes have separately identified hashes. An IP Australia source could not be acquired because certificate verification failed; it is an access gap. No evidence freeze or causation determination."
   }
 ]

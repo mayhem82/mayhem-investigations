@@ -439,5 +439,55 @@
     "supporting_evidence": [
       "EV-0044"
     ]
+  },
+  {
+    "chronology_id": "CHR-0044",
+    "event_date": "2026-11-17",
+    "date_is_inference": false,
+    "event_description": "An uncorrected Tasmanian parliamentary proof records a question about Microsoft provider dependence and business impacts, and the minister’s reported position that no cyber matter had been indicated to his knowledge.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0045"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0045",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "At 10:30 the Essex care board reported that the Microsoft outage was affecting digital communications and provided a temporary telephone route for urgent provider referrals.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0046"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0046",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "At 16:00 the Essex care board reported that email was beginning to recover unevenly and told senders of unacknowledged urgent referrals to confirm receipt.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0046"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0047",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "East Midlands Ambulance Service reported its emergency service was unaffected, while non-emergency transport phone lines were busier and staff used contingency communications.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0047"
+    ]
+  },
+  {
+    "chronology_id": "CHR-0048",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "South East Coast Ambulance Service reported Microsoft communications disruption but said call triage and ambulance dispatch remained operational.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0048"
+    ]
   }
 ]

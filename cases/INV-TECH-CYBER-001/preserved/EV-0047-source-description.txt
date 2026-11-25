@@ -1,0 +1,12 @@
+Update on impact of Microsoft outage
+Source: East Midlands Ambulance Service NHS Trust
+URL: https://www.emas.nhs.uk/news/latest-news/update-impact-microsoft-outage
+Source date: 2026-11-13
+Original retrieved: 2026-11-25T02:25:53.540357+00:00
+Original SHA-256: 56b238bcb4aa7b2ea53fceb17e1b0bc547d0d4070fcdfb0cc87f67da76676292
+The original response is preserved in the local research archive; it is not in this public repository.
+This file is a selected source description, not the original; its own digest is recorded in the evidence register.
+
+The ambulance service reported an effect from the Microsoft outage, said emergency 999 service was unaffected, and said non-emergency patient transport telephone lines were busier than usual. It described using contingency plans for staff communication.
+
+Limits: This is the operator’s account of its own services. It does not establish patient waiting times, missed journeys, independent technical cause or that all callers were unaffected.

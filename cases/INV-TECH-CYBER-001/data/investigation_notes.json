@@ -406,5 +406,21 @@
       "EV-0043",
       "EV-0044"
     ]
+  },
+  {
+    "note_id": "NOTE-0022",
+    "timestamp": "2026-11-25T02:26:00Z",
+    "activity_type": "Checking Source",
+    "text": "The four new first-party records preserve what their publishers said about services, workarounds and limitations. Essex described an uneven return and a need to confirm urgent referrals; two ambulance services described retained emergency functions and communication contingencies. The Tasmanian parliamentary source is an uncorrected proof and attributes claims to speakers. Individual referral outcomes, actual waits, independent root cause and broader population impact remain unknown. IP Australia original retrieval failed certificate verification; no bypass or original-source claim was made.",
+    "related_thread": null,
+    "related_source": "SRC-0052",
+    "related_evidence": null,
+    "related_question": "Q-0006",
+    "question_evidence": [
+      "EV-0045",
+      "EV-0046",
+      "EV-0047",
+      "EV-0048"
+    ]
   }
 ]

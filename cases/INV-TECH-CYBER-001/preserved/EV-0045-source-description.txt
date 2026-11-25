@@ -1,0 +1,12 @@
+House of Assembly daily Hansard: Microsoft Outage 13 November - Impacts
+Source: Tasmanian House of Assembly
+URL: https://www.parliament.tas.gov.au/__data/assets/pdf_file/0016/115504/HA-Tuesday-17-November-2026-Draft-Full-Text.pdf
+Source date: 2026-11-17
+Original retrieved: 2026-11-25T02:25:46.814520+00:00
+Original SHA-256: ce905f79e5e8f570082fe29e422a5dc3d5edf0da3ce6ad974feacb765cffafd4
+The original response is preserved in the local research archive; it is not in this public repository.
+This file is a selected source description, not the original; its own digest is recorded in the evidence register.
+
+Pages 7-8, uncorrected proof: an elected member described email and transaction disruption and asked about dependence on individual cloud providers. The minister described disruption and said, to his knowledge at that stage, Microsoft had not indicated a cyber matter; he said emergency services broadly continued.
+
+Limits: The original is an uncorrected parliamentary proof. It records the attributed question and ministerial response, not independent counts, causal proof or a final corrected transcript.

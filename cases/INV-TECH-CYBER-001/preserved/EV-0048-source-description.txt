@@ -1,0 +1,12 @@
+999 and 111 services remain fully operational during Microsoft outage
+Source: South East Coast Ambulance Service NHS Foundation Trust
+URL: https://www.secamb.nhs.uk/secambs-999-and-111-services-remain-fully-operational-during-microsoft-outage/
+Source date: 2026-11-13
+Original retrieved: 2026-11-25T02:25:57.785795+00:00
+Original SHA-256: c2638ef62db09d7637e7e0a24e6abe98131990608b92b64f1f09368426d4a815
+The original response is preserved in the local research archive; it is not in this public repository.
+This file is a selected source description, not the original; its own digest is recorded in the evidence register.
+
+The ambulance service reported disruption to Outlook, Teams and some other internal systems, while saying its emergency-call triage and computer-aided ambulance dispatch systems were unaffected.
+
+Limits: This source is a first-party account and a useful boundary on the impact claim. It does not prove continuity of every service or independently establish the technical cause.
