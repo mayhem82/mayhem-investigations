@@ -203,5 +203,17 @@
     ],
     "reason": "Append five source-backed Observer incident records and their captured update chronology; add evidence references to existing threads.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0010",
+    "date": "2026-11-25",
+    "author": "AI-assisted public explanation",
+    "files_affected": [
+      "cases/INV-TECH-CYBER-001/public/index.html",
+      "cases/INV-TECH-CYBER-001/public/2026-11-25-update-02/index.html",
+      "cases/INV-TECH-CYBER-001/data/change_log.json"
+    ],
+    "reason": "Append a dated public update on cargo, local government, phishing and artificial-intelligence service evidence without changing earlier explanations.",
+    "validation_completed": true
   }
 ]
