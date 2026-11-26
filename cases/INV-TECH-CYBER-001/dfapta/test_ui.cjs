@@ -25,11 +25,16 @@ const document = {
 const fetch = async url => url === 'analysis.json'
   ? {ok: true, json: async () => stage}
   : {ok: true, arrayBuffer: async () => body.buffer.slice(body.byteOffset, body.byteOffset + body.byteLength)};
-const context = {document, fetch, URL, TextDecoder, crypto: webcrypto};
+const window = {location: {hash: '#AR-001'}, addEventListener(type, handler) { this[type] = handler; }};
+let scrolled = false;
+targets.set('AR-001', {hidden: false, scrollIntoView() { scrolled = true; }});
+const context = {document, window, fetch, URL, TextDecoder, crypto: webcrypto};
 context.globalThis = context;
 vm.runInNewContext(fs.readFileSync(path.join(here, 'app.js'), 'utf8'), context);
 setTimeout(() => {
   assert.match(targets.get('state').textContent, /register bytes differ/);
+  assert.equal(scrolled, true, 'a direct analysis link should scroll after render');
+  scrolled = false; window.hashchange(); assert.equal(scrolled, true, 'hash changes should scroll to the path');
   assert.equal(targets.get('paths-list').children.length, stage.paths.length);
   assert.equal(targets.get('cross-path-list').children.length, stage.cross_path_observations.length);
   const coverage = targets.get('coverage-list').children;

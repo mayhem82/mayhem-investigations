@@ -1,0 +1,327 @@
+{
+  "atlas_id": "LATTICE-INV-TECH-CYBER-001",
+  "status": "Live and continuing",
+  "created_at_utc": "2026-11-26T04:14:56.789Z",
+  "analysis_sha256": "2aa0968078e09af0e64df6ee8edeb0998f962ce83d75dfe764127892f3f01c13",
+  "evidence_basis": {
+    "repository_revision": "a6393952b9d71b6fd6d1198ad5773446c46ee77d",
+    "evidence_register_sha256": "1c3ca629eb4a1c88ca4230261ca1505939f7c5fe30ff0b935ffc01d9a412deca",
+    "source_register_sha256": "3a36ee63e4484d917f546ef3a09671327064a46db2d1f949e01a80b1834cc5c3",
+    "evidence_count": 67,
+    "source_count": 69,
+    "chronology_count": 125,
+    "verification_states": {
+      "Requires Verification": 51,
+      "Verified": 16
+    },
+    "preserved_reference_note": "51 case-referenced descriptions/extracts match their committed-byte hashes; the first 16 entries have no preserved file reference. A description or extract is not the full original response. Original responses for later records may be stored separately."
+  },
+  "note": "This identifies the analysis read for this initial atlas. It is traceability, not a freeze. Add later patterns and dated corrections while preserving earlier records.",
+  "patterns": [
+    {
+      "id": "LAT-001",
+      "title": "Recovery has several clocks",
+      "finding": "The end of a technical disruption, the return of a service and the completion of people’s disrupted tasks are different milestones. The evidence describes these layers in several independent settings.",
+      "connections": [
+        {
+          "path": "AR-003",
+          "observation": "CrowdStrike reported that it reverted the update before later reporting a percentage of Windows sensors back online.",
+          "evidence": [
+            "EV-0005",
+            "EV-0013",
+            "EV-0009"
+          ]
+        },
+        {
+          "path": "AR-006",
+          "observation": "A recovery percentage does not answer whether a stranded traveller got home or received reimbursement.",
+          "evidence": [
+            "EV-0011",
+            "EV-0012",
+            "EV-0015",
+            "EV-0016",
+            "EV-0009"
+          ]
+        },
+        {
+          "path": "AR-023",
+          "observation": "Hamilton described upstream recovery, its own restart and the subsequent processing of queued submissions.",
+          "evidence": [
+            "EV-0056"
+          ]
+        },
+        {
+          "path": "AR-031",
+          "observation": "Cloudflare reported separate Replicate prediction incidents and differing stages of recovery for affected models.",
+          "evidence": [
+            "EV-0058",
+            "EV-0060",
+            "EV-0061"
+          ]
+        },
+        {
+          "path": "AR-032",
+          "observation": "Anthropic reported a connector impact end and a later resolved status as distinct milestones.",
+          "evidence": [
+            "EV-0064",
+            "EV-0020"
+          ]
+        }
+      ],
+      "boundary": "These are comparisons of documented milestones, not proof that the incidents shared a cause or that a particular person remained harmed. Each source’s scope and attribution still matter."
+    },
+    {
+      "id": "LAT-002",
+      "title": "The fallback becomes another dependency",
+      "finding": "Workarounds can move the task to another route, organisation or person. The records also show why an alternative service’s history matters without assuming it failed at the moment it was offered.",
+      "connections": [
+        {
+          "path": "AR-012",
+          "observation": "Healthcare organisations described phone-based alternatives alongside different local recovery and backlog arrangements.",
+          "evidence": [
+            "EV-0040",
+            "EV-0041",
+            "EV-0046"
+          ]
+        },
+        {
+          "path": "AR-018",
+          "observation": "A department identified a separate cargo lodgement route as an alternative for some documents affected by the messaging disruption.",
+          "evidence": [
+            "EV-0028",
+            "EV-0029"
+          ]
+        },
+        {
+          "path": "AR-020",
+          "observation": "That cargo route had a separately documented earlier interruption.",
+          "evidence": [
+            "EV-0055",
+            "EV-0028"
+          ]
+        },
+        {
+          "path": "AR-022",
+          "observation": "A later cargo notice advised users to retry, followed by a reported restoration.",
+          "evidence": [
+            "EV-0043",
+            "EV-0044"
+          ]
+        },
+        {
+          "path": "AR-036",
+          "observation": "Hamilton advised phone or Facebook routes when its reporting channel was unavailable.",
+          "evidence": [
+            "EV-0056"
+          ]
+        }
+      ],
+      "boundary": "The earlier cargo interruption does not prove the alternative was unavailable when offered on 13 November. The notices do not establish how many people used a workaround, whether they could access it, or their outcomes."
+    },
+    {
+      "id": "LAT-003",
+      "title": "Shared software links need their own evidence",
+      "finding": "A provider can identify an upstream dependency, but a similar name or overlapping time does not supply a missing attribution. The strength of each link differs.",
+      "connections": [
+        {
+          "path": "AR-032",
+          "observation": "Anthropic attributed connector effects to Microsoft in its own account; that account does not independently prove the underlying cause.",
+          "evidence": [
+            "EV-0064",
+            "EV-0020"
+          ]
+        },
+        {
+          "path": "AR-033",
+          "observation": "An OpenAI connector notice overlaps in time but does not attribute that incident to the same cause.",
+          "evidence": [
+            "EV-0065",
+            "EV-0064",
+            "EV-0020"
+          ]
+        },
+        {
+          "path": "AR-034",
+          "observation": "OpenAI attributed some Codex failures to a GitHub disruption but did not identify the particular GitHub incident.",
+          "evidence": [
+            "EV-0066",
+            "EV-0067"
+          ]
+        },
+        {
+          "path": "AR-026",
+          "observation": "A GitHub Copilot incident named an upstream provider without identifying it; another record cannot supply that identity.",
+          "evidence": [
+            "EV-0051",
+            "EV-0064"
+          ]
+        }
+      ],
+      "boundary": "This is not a map of every vendor dependency, nor proof of a shared incident, compromise or complete downstream recovery. These links retain their separate source and attribution."
+    },
+    {
+      "id": "LAT-004",
+      "title": "Outage-themed deception recurs in distinct reports",
+      "finding": "Public reports describe people being targeted with messages themed around service outages. Their samples and measures are different, so their counts must remain separate.",
+      "connections": [
+        {
+          "path": "AR-007",
+          "observation": "A 2024 outage prompted warnings about impersonation and reports of defensive takedowns.",
+          "evidence": [
+            "EV-0001",
+            "EV-0002",
+            "EV-0008"
+          ]
+        },
+        {
+          "path": "AR-027",
+          "observation": "Shared indicators connect later published descriptions, but do not prove independent samples or a common operator.",
+          "evidence": [
+            "EV-0021",
+            "EV-0052",
+            "EV-0053"
+          ]
+        },
+        {
+          "path": "AR-028",
+          "observation": "Separate security-control reports may differ because of samples, configurations or timing; they do not establish that the outage disabled controls.",
+          "evidence": [
+            "EV-0021",
+            "EV-0063",
+            "EV-0053"
+          ]
+        },
+        {
+          "path": "AR-029",
+          "observation": "One vendor’s ratios and another researcher’s bounded message count are different measures.",
+          "evidence": [
+            "EV-0054",
+            "EV-0052"
+          ]
+        },
+        {
+          "path": "AR-035",
+          "observation": "Trellix’s 252-message total comprises four time-bounded waves, with a later change in message framing.",
+          "evidence": [
+            "EV-0052"
+          ]
+        }
+      ],
+      "boundary": "These reports do not establish a worldwide total, unique victims, a named common actor, a successful compromise or the cause of an outage. No malicious destination is contacted or published here."
+    },
+    {
+      "id": "LAT-005",
+      "title": "Changed words and changing numbers change the story",
+      "finding": "A present-day page is not necessarily the wording first published, and a count must retain its unit. Flattening either distinction can erase a change in the public record.",
+      "connections": [
+        {
+          "path": "AR-001",
+          "observation": "The published Optus account revised unsuccessful-call figures; a separate regulator count measured people, not calls.",
+          "evidence": [
+            "EV-0003",
+            "EV-0004"
+          ]
+        },
+        {
+          "path": "AR-025",
+          "observation": "Two copies of a GitHub explanation repeat one provider account; later edits mean the present wording cannot be dated to the original update.",
+          "evidence": [
+            "EV-0049",
+            "EV-0050"
+          ]
+        },
+        {
+          "path": "AR-037",
+          "observation": "An Essex capture contains body timestamps and later page-modification metadata together; neither recovers missing prior text.",
+          "evidence": [
+            "EV-0046"
+          ]
+        },
+        {
+          "path": "AR-029",
+          "observation": "A telemetry ratio and a message count measure different quantities; the underlying samples may overlap and cannot be combined into a global total.",
+          "evidence": [
+            "EV-0054",
+            "EV-0052"
+          ]
+        }
+      ],
+      "boundary": "The underlying call logs and earlier source versions are not in these records. Repeated wording is not automatically independent corroboration, and absent wording is not reconstructed."
+    },
+    {
+      "id": "LAT-006",
+      "title": "A service can be partly available and still fail a critical task",
+      "finding": "Service presence and service usefulness are different observations. The record distinguishes a visible network from an emergency call, and core emergency continuity from disruption to other work.",
+      "connections": [
+        {
+          "path": "AR-002",
+          "observation": "The Optus review describes radios remaining visible while some emergency calls could not connect and describes a fallback constraint.",
+          "evidence": [
+            "EV-0003",
+            "EV-0007"
+          ]
+        },
+        {
+          "path": "AR-011",
+          "observation": "Reports of continuing core emergency functions coexist with reported disruption to other work in separate healthcare records.",
+          "evidence": [
+            "EV-0023",
+            "EV-0045",
+            "EV-0047",
+            "EV-0048"
+          ]
+        },
+        {
+          "path": "AR-001",
+          "observation": "Counts of unsuccessful calls and people unable to access emergency calling measure different things.",
+          "evidence": [
+            "EV-0003",
+            "EV-0004"
+          ]
+        }
+      ],
+      "boundary": "These are separate records, not a claim of one technical cause. They do not establish every call, patient experience or individual outcome, or that a proposed fix was completed."
+    },
+    {
+      "id": "LAT-007",
+      "title": "Recurring incidents are not one undifferentiated outage",
+      "finding": "Repeated interruptions can be visible in the public record even when their causes and their users’ outcomes remain unknown. Retaining separate events keeps both recurrence and uncertainty visible.",
+      "connections": [
+        {
+          "path": "AR-030",
+          "observation": "Cloudflare reported a further Replicate registry restriction after an earlier reported resolution.",
+          "evidence": [
+            "EV-0057",
+            "EV-0059"
+          ]
+        },
+        {
+          "path": "AR-031",
+          "observation": "Cloudflare described several distinct Replicate prediction events and recovery stages.",
+          "evidence": [
+            "EV-0058",
+            "EV-0060",
+            "EV-0061"
+          ]
+        },
+        {
+          "path": "AR-021",
+          "observation": "A 15 November cargo notice and restoration are separate reported milestones.",
+          "evidence": [
+            "EV-0037",
+            "EV-0038"
+          ]
+        },
+        {
+          "path": "AR-022",
+          "observation": "A 23 November cargo notice separately advised retrying and later reported restoration.",
+          "evidence": [
+            "EV-0043",
+            "EV-0044"
+          ]
+        }
+      ],
+      "boundary": "Recurrence does not prove the first fix failed, a single cause, any connection between cargo and Replicate, or that every delayed task succeeded after restoration."
+    }
+  ]
+}

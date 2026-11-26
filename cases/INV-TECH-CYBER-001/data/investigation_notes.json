@@ -537,5 +537,14 @@
     "related_thread": "THR-08",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0031",
+    "timestamp": "2026-11-26T04:16:30.816Z",
+    "activity_type": "Finding",
+    "text": "Operator directed Lattice Atlas for this ongoing cyber case. Recorded 7 source-linked cross-path patterns with limits and their underlying analysis and evidence references. Evidence, analysis and atlas remain open; no common cause, exhaustive coverage or automatic continual analysis is assumed.",
+    "related_thread": "THR-08",
+    "related_source": null,
+    "related_evidence": null
   }
 ]

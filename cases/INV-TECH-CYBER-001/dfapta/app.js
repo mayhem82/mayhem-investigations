@@ -66,6 +66,16 @@
     };
     recordedIds.forEach(id => coverageList.appendChild(renderItem(id, stage.coverage[id], false)));
     if (newer.length) { add(coverageList, 'h3', 'Evidence added since this checkpoint'); newer.forEach(item => coverageList.appendChild(renderItem(item.evidence_id, [], true))); }
+    const scrollToFragment = () => {
+      let id; try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
+      if (!/^(AR-\d+|CPO-\d+)$/.test(id)) return;
+      const destination = document.getElementById(id);
+      if (!destination) return;
+      if (destination.hidden) { target('path-search').value = ''; cards.forEach(item => { item.card.hidden = false; }); }
+      destination.scrollIntoView();
+    };
+    window.addEventListener('hashchange', scrollToFragment);
+    scrollToFragment();
   }
 
   Promise.all([fetch('analysis.json', {cache:'no-store'}), fetch('../data/evidence_register.json', {cache:'no-store'})])
