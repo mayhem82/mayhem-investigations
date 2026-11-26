@@ -33,10 +33,15 @@ let analysisBytes = bytes;
 const fetch = async url => url === 'patterns.json'
   ? {ok:true,json:async()=>atlas}
   : {ok:true,arrayBuffer:async()=>analysisBytes.buffer.slice(analysisBytes.byteOffset, analysisBytes.byteOffset+analysisBytes.byteLength)};
-const context = {document,fetch,TextDecoder,crypto:webcrypto}; context.globalThis=context;
+let scrolled = false;
+const window = {location:{hash:'#LAT-001'}, addEventListener(type, handler){this[type]=handler;}};
+elements.set('LAT-001', {hidden:false, scrollIntoView(){scrolled=true;}});
+const context = {document,window,fetch,TextDecoder,crypto:webcrypto}; context.globalThis=context;
 vm.runInNewContext(fs.readFileSync(path.join(here,'app.js'),'utf8'), context);
 setTimeout(() => {
   assert.match(elements.get('state').textContent, /matches the reading/);
+  assert.equal(scrolled,true,'direct atlas link scrolls after rendering');
+  scrolled=false; window.hashchange(); assert.equal(scrolled,true,'hash change scrolls to the pattern');
   assert.equal(elements.get('pattern-list').children.length, atlas.patterns.length);
   elements.get('search').input({target:{value:'EV-0052'}});
   assert.ok(elements.get('pattern-list').children.some(c=>c.hidden));
@@ -44,6 +49,7 @@ setTimeout(() => {
   const changed = {...analysis, paths: analysis.paths.filter(x => x.id !== atlas.patterns[0].connections[0].path)};
   analysisBytes = Buffer.from(JSON.stringify(changed));
   elements.clear();
+  elements.set('LAT-001', {hidden:false, scrollIntoView(){scrolled=true;}});
   vm.runInNewContext(fs.readFileSync(path.join(here,'app.js'),'utf8'), context);
   setTimeout(() => {
     assert.match(elements.get('state').textContent, /has changed since/);

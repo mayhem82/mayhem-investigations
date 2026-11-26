@@ -354,5 +354,28 @@
     ],
     "reason": "Append and display a correction to LAT-004 sample overlap wording while retaining the original finding.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0019",
+    "date": "2026-11-26",
+    "author": "AI-assisted analysis under operator direction",
+    "files_affected": [
+      "cases/INV-TECH-CYBER-001/temporal-projection-integrity-engine/app.js",
+      "cases/INV-TECH-CYBER-001/temporal-projection-integrity-engine/assessments.json",
+      "cases/INV-TECH-CYBER-001/temporal-projection-integrity-engine/create_initial.cjs",
+      "cases/INV-TECH-CYBER-001/temporal-projection-integrity-engine/index.html",
+      "cases/INV-TECH-CYBER-001/temporal-projection-integrity-engine/test_gate.cjs",
+      "cases/INV-TECH-CYBER-001/index.html",
+      "cases/INV-TECH-CYBER-001/dfapti/index.html",
+      "cases/INV-TECH-CYBER-001/dfapta/index.html",
+      "cases/INV-TECH-CYBER-001/lattice-atlas/index.html",
+      "cases/INV-TECH-CYBER-001/lattice-atlas/app.js",
+      "cases/INV-TECH-CYBER-001/lattice-atlas/test_atlas.cjs",
+      "cases/INV-TECH-CYBER-001/data/investigation_notes.json",
+      "cases/INV-TECH-CYBER-001/data/decisions.json",
+      "cases/INV-TECH-CYBER-001/data/change_log.json"
+    ],
+    "reason": "Add the live Temporal Projection Integrity Engine and navigation while preserving the no-freeze rule and previous records.",
+    "validation_completed": true
   }
 ]

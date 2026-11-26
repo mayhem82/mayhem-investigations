@@ -1,0 +1,245 @@
+{
+  "gate_id": "TEMPORAL-INV-TECH-CYBER-001",
+  "case_id": "INV-TECH-CYBER-001",
+  "created_at_utc": "2026-11-26T09:23:37.104Z",
+  "basis": {
+    "repository_revision": "5708350791c33d9896c206b88f8e43a58fe2781e",
+    "atlas_sha256": "c09fbc080e37ed2bca8ef6a630c455628b17bbb34231158d7eccc1d6e0c1eedd",
+    "analysis_sha256": "2aa0968078e09af0e64df6ee8edeb0998f962ce83d75dfe764127892f3f01c13",
+    "evidence_sha256": "1c3ca629eb4a1c88ca4230261ca1505939f7c5fe30ff0b935ffc01d9a412deca"
+  },
+  "purpose": "Assess forward assertions from each current Atlas pattern in sequence 4, 1, 2, 3. An excluded prediction is not a finding that the opposite will occur.",
+  "assessments": [
+    {
+      "id": "TPA-001",
+      "atlas": "LAT-001",
+      "title": "Recovery beyond a provider’s status notice",
+      "candidate": "If a provider reports that service has been restored, affected people will have completed their interrupted tasks.",
+      "known": "The cited records distinguish technical recovery from local restart, queued work and individual outcomes. They do not establish that particular people continue to be affected now.",
+      "classification_order": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "classification_4": "The observed technical restoration does not establish an active mechanism that completes each dependent task.",
+      "classification_1": "No directional snapshots of the same affected tasks establish that completion follows service restoration.",
+      "classification_2": "No documented task-level conditions and outcome records support the proposed universal completion.",
+      "determination": "Classification 3 — Inference — Excluded",
+      "determination_reason": "This forward assertion is not established by the current case record and is not promoted as a prediction.",
+      "would_revise": "A dated operator or user record of completed and incomplete tasks, with the population and times specified, would revise the assessment.",
+      "analysis_paths": [
+        "AR-003",
+        "AR-023",
+        "AR-032"
+      ],
+      "evidence": [
+        "EV-0005",
+        "EV-0013",
+        "EV-0009",
+        "EV-0056",
+        "EV-0064",
+        "EV-0020"
+      ],
+      "practical_implication": "Where a restoration notice exists without task or user outcome data, seek evidence of completed work and remaining backlogs before treating recovery as complete."
+    },
+    {
+      "id": "TPA-002",
+      "atlas": "LAT-002",
+      "title": "Fallbacks and work shifted onto users",
+      "candidate": "When an operator offers a fallback in a future disruption, affected people will be able to complete their tasks through it.",
+      "known": "The case records offered alternative channels and separate cargo interruptions on other dates. Neither the use nor success of a particular fallback is established.",
+      "classification_order": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "classification_4": "The notice offering a fallback does not establish an active mechanism ensuring access or completion for each user.",
+      "classification_1": "Separate dated notices do not establish directional evidence of successful uptake by the affected users.",
+      "classification_2": "The record lacks matched availability, accessibility, uptake and task outcomes to establish the proposed result.",
+      "determination": "Classification 3 — Inference — Excluded",
+      "determination_reason": "This forward assertion is not established by the current case record and is not promoted as a prediction.",
+      "would_revise": "Time-matched availability, accessibility, uptake and outcome records would inform this judgment. An individual success or failure documents that outcome; neither proves every user’s result.",
+      "analysis_paths": [
+        "AR-012",
+        "AR-018",
+        "AR-020",
+        "AR-036"
+      ],
+      "evidence": [
+        "EV-0040",
+        "EV-0041",
+        "EV-0046",
+        "EV-0028",
+        "EV-0029",
+        "EV-0055",
+        "EV-0056"
+      ],
+      "practical_implication": "Record whether the alternative is available, accessible, actually used and successful. A notice offering it answers only the first step of that inquiry."
+    },
+    {
+      "id": "TPA-003",
+      "atlas": "LAT-003",
+      "title": "Shared dependencies and similar incident timing",
+      "candidate": "Future connector incidents affecting Anthropic and OpenAI will share the same underlying cause.",
+      "known": "Anthropic attributed its connector effects to Microsoft. OpenAI’s separate notice does not attribute its connector incident to that same cause.",
+      "classification_order": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "classification_4": "A shared propagating mechanism across future incidents is not established by these notices.",
+      "classification_1": "Timing overlap is not directional evidence of a shared cause.",
+      "classification_2": "No technical evidence establishes conditions under which the named providers’ future incidents would probably share a cause.",
+      "determination": "Classification 3 — Inference — Excluded",
+      "determination_reason": "This forward assertion is not established by the current case record and is not promoted as a prediction.",
+      "would_revise": "Incident-specific technical explanations and independent evidence would clarify historical causes. Comparable later cases, a supported shared mechanism and current operating conditions would also be needed to assess the forward assertion.",
+      "analysis_paths": [
+        "AR-032",
+        "AR-033",
+        "AR-034"
+      ],
+      "evidence": [
+        "EV-0064",
+        "EV-0020",
+        "EV-0065",
+        "EV-0066",
+        "EV-0067"
+      ],
+      "practical_implication": "Keep the provider-attributed Microsoft connection separate from the OpenAI notice, and seek incident-specific technical evidence before joining them."
+    },
+    {
+      "id": "TPA-004",
+      "atlas": "LAT-004",
+      "title": "Outage-themed deception",
+      "candidate": "Outage-themed impersonation will recur during the next major outage.",
+      "known": "The Trellix record describes 252 messages in four bounded waves; the reports do not establish a common actor, unique victims or successful compromise. The Atlas retains a dated correction: underlying samples may overlap.",
+      "classification_order": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "classification_4": "Past reports do not establish an active mechanism that will produce impersonation in the next particular outage.",
+      "classification_1": "Four bounded waves do not establish directional drift into the next outage.",
+      "classification_2": "No current campaign conditions and supported likelihood establish the proposed next event.",
+      "determination": "Classification 3 — Inference — Excluded",
+      "determination_reason": "This forward assertion is not established by the current case record and is not promoted as a prediction.",
+      "would_revise": "New time-bounded, independently sourced campaign telemetry and confirmed incident outcomes could change the assessment; conflicting or absent observations should also be recorded.",
+      "analysis_paths": [
+        "AR-027",
+        "AR-029",
+        "AR-035"
+      ],
+      "evidence": [
+        "EV-0021",
+        "EV-0052",
+        "EV-0053",
+        "EV-0054"
+      ],
+      "practical_implication": "Preserve the timing, wording and boundaries of each report. The documented earlier waves make outage-themed deception a relevant scenario to monitor, not a guaranteed next event."
+    },
+    {
+      "id": "TPA-005",
+      "atlas": "LAT-005",
+      "title": "Changes in public records",
+      "candidate": "If the current notice remains online, its original wording can be checked from that later version.",
+      "known": "The captured page and later modification metadata do not preserve all prior text; repeated copies of the same explanation are not independent corroboration.",
+      "classification_order": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "classification_4": "An edited current version alone is not a mechanism for reconstructing missing prior wording.",
+      "classification_1": "A later modification timestamp does not reveal the direction or contents of the earlier edit.",
+      "classification_2": "Without an earlier preserved version or equivalent reliable source, the proposed reconstruction has no demonstrated evidential basis.",
+      "determination": "Classification 3 — Inference — Excluded",
+      "determination_reason": "This forward assertion is not established by the current case record and is not promoted as a prediction.",
+      "would_revise": "An earlier dated capture, publisher version history or separate contemporaneous record could supply additional evidence for comparison. None makes the earlier wording derivable from the later version alone.",
+      "analysis_paths": [
+        "AR-025",
+        "AR-037"
+      ],
+      "evidence": [
+        "EV-0049",
+        "EV-0050",
+        "EV-0046"
+      ],
+      "practical_implication": "Preserve dated source versions when available and distinguish publication, update and retrieval times. Seek an earlier capture to resolve missing wording."
+    },
+    {
+      "id": "TPA-006",
+      "atlas": "LAT-006",
+      "title": "Visible service and critical task completion",
+      "candidate": "Network visibility will reveal whether a future emergency call can connect.",
+      "known": "The Optus record separates radio visibility from emergency call completion. Healthcare reports also distinguish core continuity from other disrupted services.",
+      "classification_order": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "classification_4": "The recorded Optus case shows that visibility and successful emergency calling can differ; it does not establish a mechanism making visibility a reliable indicator.",
+      "classification_1": "The records do not establish a directional relationship making visibility sufficient in a future call.",
+      "classification_2": "No current call-path evidence supports network visibility as a reliable proxy for a future emergency call.",
+      "determination": "Classification 3 — Inference — Excluded",
+      "determination_reason": "This forward assertion is not established by the current case record and is not promoted as a prediction.",
+      "would_revise": "Dated operator or regulator evidence about a particular call path could inform that case. A single test would not establish network visibility as a reliable indicator for all future calls; no direct probing is authorised here.",
+      "analysis_paths": [
+        "AR-001",
+        "AR-002",
+        "AR-011"
+      ],
+      "evidence": [
+        "EV-0003",
+        "EV-0004",
+        "EV-0007",
+        "EV-0023",
+        "EV-0045",
+        "EV-0047",
+        "EV-0048"
+      ],
+      "practical_implication": "Treat network presence and completion of an emergency call as separate questions; look for operator and regulator evidence about the particular call path."
+    },
+    {
+      "id": "TPA-007",
+      "atlas": "LAT-007",
+      "title": "Repeated incidents and future recurrence",
+      "candidate": "The next interruption of a recurring service will have the same technical cause as its earlier interruptions.",
+      "known": "Separate notices report later cargo interruptions and separate model-service restrictions. The record does not establish that each set shares a cause or that any earlier fix failed.",
+      "classification_order": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "classification_4": "A still-active common causal mechanism across the separate incidents is not established.",
+      "classification_1": "Separate event notices do not establish directional evidence of the next interruption’s cause.",
+      "classification_2": "No current condition and supported likelihood establish that a future interruption will share an earlier cause.",
+      "determination": "Classification 3 — Inference — Excluded",
+      "determination_reason": "This forward assertion is not established by the current case record and is not promoted as a prediction.",
+      "would_revise": "New provider investigations, a documented technical cause and later comparable incident records could support or contradict a specific recurrence mechanism.",
+      "analysis_paths": [
+        "AR-021",
+        "AR-022",
+        "AR-030",
+        "AR-031"
+      ],
+      "evidence": [
+        "EV-0037",
+        "EV-0038",
+        "EV-0043",
+        "EV-0044",
+        "EV-0057",
+        "EV-0059",
+        "EV-0058",
+        "EV-0060",
+        "EV-0061"
+      ],
+      "practical_implication": "Keep incident dates, separately reported causes and restoration milestones distinct, then compare specific technical findings if they become available."
+    }
+  ]
+}

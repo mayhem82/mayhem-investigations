@@ -48,6 +48,16 @@
       const value = event.target.value.trim().toLocaleLowerCase();
       cards.forEach(item => { item.card.hidden = !!value && !item.text.includes(value); });
     });
+    const scrollToFragment = () => {
+      let id; try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
+      if (!/^LAT-\d+$/.test(id)) return;
+      const destination = document.getElementById(id);
+      if (!destination) return;
+      if (destination.hidden) { byId('search').value = ''; cards.forEach(item => { item.card.hidden = false; }); }
+      destination.scrollIntoView();
+    };
+    window.addEventListener('hashchange', scrollToFragment);
+    scrollToFragment();
   }
   main().catch(error => { byId('state').textContent = `Atlas unavailable: ${error.message} Please reload or consult the analysis workspace.`; });
 })();
