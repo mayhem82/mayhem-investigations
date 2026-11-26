@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "coverage_note": "Historical audit numbering through SR-506 is reported in conversation. SR-001–491 not recovered here; SR-492–506 have closure metadata only, not full reports or reverified evidence. Counts are classifications, not unique incidents. SR-507 is archived in full; the historical gaps remain.",
+  "coverage_note": "Historical audit numbering through SR-506 is reported in conversation. SR-001–491 not recovered here; SR-492–506 have closure metadata only, not full reports or reverified evidence. Counts are classifications, not unique incidents. SR-507 is archived in full; the historical gaps remain. SR-508 is archived in full.",
   "records": [
     {
       "id": "SR-492",
@@ -130,6 +130,15 @@
       "rejected": 13,
       "status": "full",
       "path": "reports/SR-507.md"
+    },
+    {
+      "id": "SR-508",
+      "date": "2026-11-27",
+      "title": "Governance delegation, electoral accessibility and measurement substitution",
+      "accepted": 7,
+      "rejected": 10,
+      "status": "full",
+      "path": "reports/SR-508.md"
     }
   ]
 }
