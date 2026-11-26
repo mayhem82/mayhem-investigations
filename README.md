@@ -146,6 +146,15 @@ see DFAPTI-MNC-2026-00001's `index.html` for the pattern). Only build
 Stages 2-6 for a case once its operator issues an explicit evidence-freeze
 command for that case; never self-authorize a freeze.
 
+**Case-specific operator correction:** `INV-TECH-CYBER-001` is an ongoing
+investigation. Its operator has expressly directed that no freezing occurs
+in this case and has authorised DFAPTA while evidence collection remains
+open. Do not apply the preceding freeze gate to this case. Analysis must
+still cite its evidence, record which version it used, distinguish facts
+from inference, and remain open to subsequent evidence. The previous gate
+and its correction are documented in the case's decision `DEC-0006`. This
+direction does not change any other case.
+
 Each stage is a self-contained page under `cases/<CASE-ID>/`, sharing the
 root `style.css` and linked from a consistent top nav bar (All Cases → this
 case → the six stages). `index.html` at the repository root is the case

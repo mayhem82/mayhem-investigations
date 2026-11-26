@@ -71,5 +71,13 @@
     ],
     "investigator": "MAYHEM operator · AI-assisted collection",
     "impact": "Track the later outage as a distinct episode in chronology. Retain the prior fallback dependency. Keep terminal operating status, causation and individual effects open."
+  },
+  {
+    "decision_id": "DEC-0006",
+    "date": "2026-11-26",
+    "reason": "The case frame previously stated that stages 2–6 were locked until an explicit operator-authorised evidence freeze. The operator corrected that requirement and directed that no freezing occurs in this live, ongoing case, while authorising DFAPTA.",
+    "supporting_evidence": [],
+    "investigator": "MAYHEM operator · AI-assisted implementation",
+    "impact": "For INV-TECH-CYBER-001 only, remove the imposed freeze gate. DFAPTI collection and DFAPTA analysis continue alongside one another without freezing the evidence, analysis, or case. Each analysis records its evidence references and record version; new evidence can be added and earlier analysis remains available. Earlier logs and the prior gate wording remain in the historical record. No later stage is automatically started or case automatically closed. Other investigations are not changed."
   }
 ]
