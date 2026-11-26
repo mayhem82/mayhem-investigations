@@ -79,5 +79,19 @@
     "supporting_evidence": [],
     "investigator": "MAYHEM operator · AI-assisted implementation",
     "impact": "For INV-TECH-CYBER-001 only, remove the imposed freeze gate. DFAPTI collection and DFAPTA analysis continue alongside one another without freezing the evidence, analysis, or case. Each analysis records its evidence references and record version; new evidence can be added and earlier analysis remains available. Earlier logs and the prior gate wording remain in the historical record. No later stage is automatically started or case automatically closed. Other investigations are not changed."
+  },
+  {
+    "decision_id": "DEC-0007",
+    "date": "2026-11-26",
+    "reason": "The operator directed DFAPTA to proceed in this ongoing case without freezing evidence, analysis or the investigation.",
+    "supporting_evidence": [
+      "EV-0028",
+      "EV-0037",
+      "EV-0046",
+      "EV-0052",
+      "EV-0064"
+    ],
+    "investigator": "AI-assisted analysis under operator direction",
+    "impact": "Begin an iterative, source-linked first analysis pass against the recorded evidence revision. Preserve existing evidence, uncertainty and earlier decisions; continue adding evidence and analysis without declaring coverage or the case complete."
   }
 ]

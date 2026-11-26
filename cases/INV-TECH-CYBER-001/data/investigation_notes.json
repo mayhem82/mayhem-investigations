@@ -528,5 +528,14 @@
       "EV-0066",
       "EV-0067"
     ]
+  },
+  {
+    "note_id": "NOTE-0030",
+    "timestamp": "2026-11-26T03:53:11.547188+00:00",
+    "activity_type": "Finding",
+    "text": "Initial live DFAPTA pass added evidence-linked paths and cross-path analysis. Source claims retain their verification and access limits; further analysis and evidence collection remain open, and no case, evidence or analysis freeze was imposed.",
+    "related_thread": "THR-08",
+    "related_source": null,
+    "related_evidence": null
   }
 ]

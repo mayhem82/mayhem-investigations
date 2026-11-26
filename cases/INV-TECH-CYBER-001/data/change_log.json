@@ -297,5 +297,26 @@
     ],
     "reason": "Record the operator's correction: this ongoing cyber investigation does not freeze, and DFAPTA proceeds with continuing evidence collection.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0016",
+    "date": "2026-11-26",
+    "author": "AI-assisted analysis under operator direction",
+    "files_affected": [
+      "cases/INV-TECH-CYBER-001/dfapta/analysis.json",
+      "cases/INV-TECH-CYBER-001/dfapta/index.html",
+      "cases/INV-TECH-CYBER-001/dfapta/app.js",
+      "cases/INV-TECH-CYBER-001/dfapta/style.css",
+      "cases/INV-TECH-CYBER-001/dfapta/build_analysis.py",
+      "cases/INV-TECH-CYBER-001/dfapta/test_analysis.py",
+      "cases/INV-TECH-CYBER-001/dfapta/test_ui.cjs",
+      "cases/INV-TECH-CYBER-001/dfapti/index.html",
+      "cases/INV-TECH-CYBER-001/data/automation_log.json",
+      "cases/INV-TECH-CYBER-001/data/investigation_notes.json",
+      "cases/INV-TECH-CYBER-001/data/decisions.json",
+      "cases/INV-TECH-CYBER-001/data/change_log.json"
+    ],
+    "reason": "Add the first source-linked live DFAPTA analysis and its audit records, with no freeze and no changes to the existing evidence.",
+    "validation_completed": true
   }
 ]
