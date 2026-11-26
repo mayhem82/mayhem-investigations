@@ -272,5 +272,17 @@
     ],
     "reason": "Append provider dependency reports with distinct chronology and access-rule limitations.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0014",
+    "date": "2026-11-26",
+    "author": "AI-assisted public explanation",
+    "files_affected": [
+      "cases/INV-TECH-CYBER-001/public/index.html",
+      "cases/INV-TECH-CYBER-001/public/update-03/index.html",
+      "cases/INV-TECH-CYBER-001/data/change_log.json"
+    ],
+    "reason": "Append a source-linked public explanation of the documented remedy, provider dependencies and phishing-control reports, preserving the earlier explanations.",
+    "validation_completed": true
   }
 ]
