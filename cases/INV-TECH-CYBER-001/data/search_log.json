@@ -346,5 +346,17 @@
     "jurisdiction": "International",
     "results_reviewed": 5,
     "results_preserved": 5
+  },
+  {
+    "search_id": "SRCH-0030",
+    "search_terms": "Microsoft outage November 2026 tender deadline extensions patient communications",
+    "search_engine": "Public web and publisher records",
+    "database": null,
+    "date": "2026-11-26",
+    "time": "2026-11-26T03:18:46.503469+00:00",
+    "filters": "Named publisher pages and documents; robots and verified HTTPS observed. Three sources remained inaccessible to permitted acquisition.",
+    "jurisdiction": "International",
+    "results_reviewed": 4,
+    "results_preserved": 1
   }
 ]

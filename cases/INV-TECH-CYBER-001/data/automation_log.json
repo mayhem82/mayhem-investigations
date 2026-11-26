@@ -185,5 +185,21 @@
       "EV-0061"
     ],
     "notes": "Reviewed five incident objects from previously captured and hash-verified Observer evidence 41. The full original response remains local; public paraphrases have separate hashes. Chronology records every captured status-update occurrence; no freeze or causal determination."
+  },
+  {
+    "run_id": "RUN-0009",
+    "date": "2026-11-26",
+    "stage": "DFAPTI",
+    "sources_checked": [
+      "SRC-0061",
+      "SRC-0062",
+      "SRC-0063",
+      "SRC-0064"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0062"
+    ],
+    "notes": "Preserved one original public-sector notice and logged three source-acquisition gaps. Evidence remains open; no unauthorised access, freeze, or causal determination."
   }
 ]

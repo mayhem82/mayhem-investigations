@@ -839,5 +839,15 @@
     "supporting_evidence": [
       "EV-0061"
     ]
+  },
+  {
+    "chronology_id": "CHR-0084",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "The Nelson Mandela Museum published a notice attributing an extension of two quotation deadlines to a 13 November Microsoft system outage or technical challenge; the revised deadline was noon on 17 November.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0062"
+    ]
   }
 ]

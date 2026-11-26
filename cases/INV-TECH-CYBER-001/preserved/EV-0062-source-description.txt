@@ -1,0 +1,7 @@
+EV-0062 — source description (not the original source response)
+Publisher: Nelson Mandela Museum, via South African government eTender portal.
+Document: Notice of extension of closing date; signed document dated 16 November 2026.
+The museum states that an outage affecting Microsoft systems and the request-for-quotations closing process occurred on 13 November. It extended two quotation closing dates, for company secretariat services and event infrastructure, from 13 November to noon on 17 November 2026. This is the museum's account and stated remedy. It does not establish how many suppliers were affected, whether bids were missed, or the underlying technical cause.
+Original PDF retrieved: 2026-11-26T03:16:18.980818+00:00
+Original PDF SHA-256: 713c7c90f53ab912eb7200ebabe7857e77a9e823f73fdc6a515def2c8844ee09
+Original PDF is retained in the local private research archive as south-africa-museum-extension.pdf; this public description is separately hashed.

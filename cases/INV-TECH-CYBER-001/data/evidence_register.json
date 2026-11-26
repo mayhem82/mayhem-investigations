@@ -2058,5 +2058,40 @@
     "original_archive_key": "observer-evidence-41",
     "source_incident_id": "sv9tnfpjiojf",
     "source_incident_url": "https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf"
+  },
+  {
+    "evidence_id": "EV-0062",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-26",
+    "source_date": "2026-11-16",
+    "source_authority": "Nelson Mandela Museum",
+    "source_title": "Notice extending two request-for-quotation closing dates",
+    "source_type": "Government Record",
+    "source_location": "https://www.etenders.gov.za/home/Download/?blobName=6f951f6f-0578-4dcf-ac0b-89d113611e52.pdf&downloadedFileName=NELSON+MANDELA+MUSEUM+RFQ+28-29+EXTENTION.pdf.pdf",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0062-source-description.txt",
+    "document_hash": "sha256:a544c38e24fed5d96ef7b9c9c72c75e0bb5515b580823f3fb6b1bb1c8e562d21",
+    "hash_exception_reason": null,
+    "evidence_description": "The museum's 16 November notice says a Microsoft system outage or technical challenge on 13 November affected its closing process. It extends the closing dates for two requests for quotations from 13 November to noon on 17 November 2026.",
+    "relevant_quotation": null,
+    "investigation_relevance": "The source shows a specific public-sector response to a reported disruption and a revised opportunity to submit. It does not establish the number of affected applicants, whether any bid was missed, whether all submissions succeeded, or the technical cause. The original PDF is retained locally; this separately hashed public file is a source description, not the PDF.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [],
+    "chronology_links": [
+      "CHR-0084"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0001",
+      "Q-0002",
+      "Q-0006",
+      "Q-0007",
+      "Q-0008"
+    ],
+    "source_register_id": "SRC-0061",
+    "original_response_sha256": "713c7c90f53ab912eb7200ebabe7857e77a9e823f73fdc6a515def2c8844ee09",
+    "original_retrieved_at": "2026-11-26T03:16:18.980818+00:00",
+    "original_archive_key": "south-africa-museum-extension.pdf",
+    "original_archive_collection": "INV-TECH-CYBER-001-remedy-2026-11-26"
   }
 ]

@@ -484,5 +484,18 @@
       "EV-0060",
       "EV-0061"
     ]
+  },
+  {
+    "note_id": "NOTE-0027",
+    "timestamp": "2026-11-26T03:18:46.503469+00:00",
+    "activity_type": "Checking Source",
+    "text": "The Nelson Mandela Museum attributed two extended quotation deadlines to the 13 November Microsoft system outage or technical challenge. Its notice documents an offered remedy, not the outcome for each bidder or proof of technical cause. The original PDF is retained locally with its own hash; the public description is separately hashed. Canada procurement, Royal Free London and Oxford acquisition attempts remained access gaps.",
+    "related_thread": "THR-06",
+    "related_source": "SRC-0061",
+    "related_evidence": "EV-0062",
+    "related_question": "Q-0006",
+    "question_evidence": [
+      "EV-0062"
+    ]
   }
 ]
