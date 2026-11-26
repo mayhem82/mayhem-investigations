@@ -207,7 +207,13 @@
           ]
         }
       ],
-      "boundary": "These reports do not establish a worldwide total, unique victims, a named common actor, a successful compromise or the cause of an outage. No malicious destination is contacted or published here."
+      "boundary": "These reports do not establish a worldwide total, unique victims, a named common actor, a successful compromise or the cause of an outage. No malicious destination is contacted or published here.",
+      "corrections": [
+        {
+          "date": "2026-11-26",
+          "text": "Correction to the finding above: the reports use different measures, but whether their underlying samples overlap is unknown. Their counts cannot be combined into a global total."
+        }
+      ]
     },
     {
       "id": "LAT-005",

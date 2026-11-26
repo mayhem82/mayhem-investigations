@@ -546,5 +546,14 @@
     "related_thread": "THR-08",
     "related_source": null,
     "related_evidence": null
+  },
+  {
+    "note_id": "NOTE-0032",
+    "timestamp": "2026-11-26T04:19:21.006Z",
+    "activity_type": "Finding",
+    "text": "Added a visible correction to LAT-004: the reports use different measures, but overlap between their underlying samples is unknown. The original finding remains visible.",
+    "related_thread": "THR-08",
+    "related_source": null,
+    "related_evidence": null
   }
 ]

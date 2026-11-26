@@ -340,5 +340,19 @@
     ],
     "reason": "Add a live, evidence-linked Lattice Atlas, preserve source limitations, and connect it to the investigation without freezing.",
     "validation_completed": true
+  },
+  {
+    "change_id": "CHG-0018",
+    "date": "2026-11-26",
+    "author": "AI-assisted analysis under operator direction",
+    "files_affected": [
+      "cases/INV-TECH-CYBER-001/lattice-atlas/patterns.json",
+      "cases/INV-TECH-CYBER-001/lattice-atlas/app.js",
+      "cases/INV-TECH-CYBER-001/lattice-atlas/create_initial.cjs",
+      "cases/INV-TECH-CYBER-001/data/investigation_notes.json",
+      "cases/INV-TECH-CYBER-001/data/change_log.json"
+    ],
+    "reason": "Append and display a correction to LAT-004 sample overlap wording while retaining the original finding.",
+    "validation_completed": true
   }
 ]

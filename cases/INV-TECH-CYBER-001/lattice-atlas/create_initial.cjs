@@ -48,6 +48,7 @@ const patterns = [
   {
     id: 'LAT-004', title: 'Outage-themed deception recurs in distinct reports',
     finding: 'Public reports describe people being targeted with messages themed around service outages. Their samples and measures are different, so their counts must remain separate.',
+    corrections: [{date: '2026-11-26', text: 'Correction to the finding above: the reports use different measures, but whether their underlying samples overlap is unknown. Their counts cannot be combined into a global total.'}],
     connections: [
       ['AR-007', 'A 2024 outage prompted warnings about impersonation and reports of defensive takedowns.'],
       ['AR-027', 'Shared indicators connect later published descriptions, but do not prove independent samples or a common operator.'],

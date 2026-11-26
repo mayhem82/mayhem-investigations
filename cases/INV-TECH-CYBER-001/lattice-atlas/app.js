@@ -29,7 +29,9 @@
     const cards = atlas.patterns.map(pattern => {
       const card = el('article', undefined, 'path'); card.id = pattern.id;
       add(card, 'div', pattern.id, 'path-id'); add(card, 'h3', pattern.title);
-      add(card, 'p', pattern.finding); add(card, 'h4', 'Connections and their evidence');
+      add(card, 'p', pattern.finding);
+      for (const correction of pattern.corrections || []) { add(card, 'h4', 'Dated correction · ' + correction.date); add(card, 'p', correction.text, 'gap'); }
+      add(card, 'h4', 'Connections and their evidence');
       for (const connection of pattern.connections) {
         const item = el('div', undefined, 'coverage-item');
         add(item, 'p', connection.observation);
