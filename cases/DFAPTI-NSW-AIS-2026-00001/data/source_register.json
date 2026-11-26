@@ -20,13 +20,13 @@
     "type": "Policy",
     "url_or_file_location": "https://www.ipc.nsw.gov.au/resources/guide-guide-undertaking-privacy-impact-assessments-ai-systems-and-projects",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "b99abcfa2ad1e3fcef6c858a6b4ab460655ca62ad4e0dc6b00e90bfaa6867ee6",
+    "document_hash": "c075259a2774926c37322805425a1e4f3b9f158a569ea5ca6eee5b6a310e1784",
     "associated_thread": "THR-04",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0002/b99abcfa2ad1e3fcef6c858a6b4ab460655ca62ad4e0dc6b00e90bfaa6867ee6.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0002/c075259a2774926c37322805425a1e4f3b9f158a569ea5ca6eee5b6a310e1784.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0003",
@@ -35,13 +35,13 @@
     "type": "Policy",
     "url_or_file_location": "https://www.ipc.nsw.gov.au/resources/fact-sheet-guide-section-121-gipa-act-private-sector-contractors",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "dfd099355dadaf3858e9303cfd6420aaa9b3450971a6a9cbfa145f538577456f",
+    "document_hash": "43b036b28708ef87c4688b9ef07ecb301b80f0d9d448cf0f33b9d5049cfd2981",
     "associated_thread": "THR-10",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0003/dfd099355dadaf3858e9303cfd6420aaa9b3450971a6a9cbfa145f538577456f.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0003/43b036b28708ef87c4688b9ef07ecb301b80f0d9d448cf0f33b9d5049cfd2981.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0004",
@@ -50,13 +50,13 @@
     "type": "Policy",
     "url_or_file_location": "https://www.ipc.nsw.gov.au/resources/fact-sheet-local-councils-use-closed-circuit-tv-cctv-cameras-public-places",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "04d485b082949484825080594df563bac9995d76b39fbf22c35829a32d0773bd",
+    "document_hash": "f66323cc412490e5373911f3a27ed98b560530b5e35219fba17be53cbae5c522",
     "associated_thread": "THR-02",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0004/04d485b082949484825080594df563bac9995d76b39fbf22c35829a32d0773bd.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0004/f66323cc412490e5373911f3a27ed98b560530b5e35219fba17be53cbae5c522.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0005",
@@ -65,13 +65,13 @@
     "type": "Policy",
     "url_or_file_location": "https://www.ipc.nsw.gov.au/resources/fact-sheet-managing-access-audio-visual-information-under-gipa-act",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Web source reviewed 2026-10-10; statutory currency and local applicability subject to further verification",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "909cdb2e916ca03d13c9eae96b56ba7fde8740eaad95cef002ce425480964e1b",
+    "document_hash": "8c151bf89fe2012eedd56271a1a4170dd99274f2f80d74c4d0a7146c40b70b93",
     "associated_thread": "THR-09",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0005/909cdb2e916ca03d13c9eae96b56ba7fde8740eaad95cef002ce425480964e1b.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0005/8c151bf89fe2012eedd56271a1a4170dd99274f2f80d74c4d0a7146c40b70b93.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0006",
@@ -80,7 +80,7 @@
     "type": "Manufacturer documentation",
     "url_or_file_location": "https://help.axis.com/en-US/axis-object-analytics",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Research lead; source version and substantive claims require verification",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
@@ -95,7 +95,7 @@
     "type": "Manufacturer documentation",
     "url_or_file_location": "https://developer.axis.com/analytics/axis-scene-metadata/",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Research lead; source version and substantive claims require verification",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
@@ -110,7 +110,7 @@
     "type": "Manufacturer documentation",
     "url_or_file_location": "https://developer.axis.com/analytics/axis-scene-metadata/reference/definitions/object-track/",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Research lead; source version and substantive claims require verification",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
@@ -125,13 +125,13 @@
     "type": "Official government guidance or publication",
     "url_or_file_location": "https://digital.nsw.gov.au/policy/artificial-intelligence/ai-governance-assurance-and-frameworks/nsw-ai-assessment-framework",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "b53c7ad04c6ac3ec8de311dde60ac712f25bac01842ff79c72eb44f4268714b3",
+    "document_hash": "96c3bd3fe45eb9f51770e587c22db12c64a91241f0ee37b9c8308cc8bafedfcd",
     "associated_thread": "THR-08",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0009/b53c7ad04c6ac3ec8de311dde60ac712f25bac01842ff79c72eb44f4268714b3.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0009/96c3bd3fe45eb9f51770e587c22db12c64a91241f0ee37b9c8308cc8bafedfcd.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0010",
@@ -140,13 +140,13 @@
     "type": "Official government guidance or publication",
     "url_or_file_location": "https://digital.nsw.gov.au/policy/artificial-intelligence/nsw-artificial-intelligence-assessment-framework/identifying-ai",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "038eb9b0042d82f6340df3a14be6a0f105fc3036a8745a673367e97d718397af",
+    "document_hash": "2ab81e51630cac0caf9aacdcec7c553e41ee179dd7b137eadca3db5a4b85efcf",
     "associated_thread": "THR-08",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0010/038eb9b0042d82f6340df3a14be6a0f105fc3036a8745a673367e97d718397af.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0010/2ab81e51630cac0caf9aacdcec7c553e41ee179dd7b137eadca3db5a4b85efcf.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0011",
@@ -155,13 +155,13 @@
     "type": "Official government guidance or publication",
     "url_or_file_location": "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/nsw-strengthens-ai-oversight-modernised-framework",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "c5b40ef8739b7ca30983087c0ccfef41bbe5b049ec11ef8cca087c61a022aeee",
+    "document_hash": "2c89960699ffaf5e4f7b090436c41b1f862053f3f1e4c4346f269c35ddf38314",
     "associated_thread": "THR-08",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0011/c5b40ef8739b7ca30983087c0ccfef41bbe5b049ec11ef8cca087c61a022aeee.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0011/2c89960699ffaf5e4f7b090436c41b1f862053f3f1e4c4346f269c35ddf38314.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0012",
@@ -170,13 +170,13 @@
     "type": "Official government guidance or publication",
     "url_or_file_location": "https://www.ipc.nsw.gov.au/news-events/news/national-framework-assurance-artificial-intelligence-government",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "b4853d2aa8b6deabad0550e498d3230a2b95f5173e424d2a1bd6159ac65669c1",
+    "document_hash": "12f9668ec671f86aacee3f2b2635df430750d79c3483f9fe3f05b352aadb38ca",
     "associated_thread": "THR-08",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0012/b4853d2aa8b6deabad0550e498d3230a2b95f5173e424d2a1bd6159ac65669c1.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0012/12f9668ec671f86aacee3f2b2635df430750d79c3483f9fe3f05b352aadb38ca.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0013",
@@ -185,13 +185,13 @@
     "type": "Official government guidance or publication",
     "url_or_file_location": "https://www.ipc.nsw.gov.au/guide",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "8fc3f757ce7fff274ecfc1ca171e63255a81189f9806096bbdd5791f5d8a0172",
+    "document_hash": "207ba7122c570d76ec4564760cc6467c1ca60fc5ae7b875a3f9acee67a897599",
     "associated_thread": "THR-04",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0013/8fc3f757ce7fff274ecfc1ca171e63255a81189f9806096bbdd5791f5d8a0172.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0013/207ba7122c570d76ec4564760cc6467c1ca60fc5ae7b875a3f9acee67a897599.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0014",
@@ -200,7 +200,7 @@
     "type": "Official government guidance or publication",
     "url_or_file_location": "https://www.ipc.nsw.gov.au/sites/default/files/2024-12/Guide_Guide_to_undertaking_Privacy_Impact_Assessments_on_AI_systems_and_projects_December_2024.pdf",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
@@ -257,13 +257,13 @@
     "type": "Official NSW procurement notice or guidance",
     "url_or_file_location": "https://www.info.buy.nsw.gov.au/schemes/ict-services-scheme/update-history",
     "first_checked": "2026-10-12",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Public notice reviewed; source byte capture pending",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "7b9e6d4b231bb50c38c969ba468f7911eb8cc7524fe54fe6c59a1b269edd55ba",
+    "document_hash": "16d8b228b454a33010abab31bd44d860b07e1f8e16feed512906fe3b2b03e847",
     "associated_thread": "AI contractor procurement",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0018/7b9e6d4b231bb50c38c969ba468f7911eb8cc7524fe54fe6c59a1b269edd55ba.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0018/16d8b228b454a33010abab31bd44d860b07e1f8e16feed512906fe3b2b03e847.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0019",
@@ -272,13 +272,13 @@
     "type": "Official NSW procurement notice or guidance",
     "url_or_file_location": "https://www.info.buy.nsw.gov.au/resources/artificial-intelligence-ai-procurement-essentials",
     "first_checked": "2026-10-12",
-    "last_checked": "2026-11-25",
+    "last_checked": "2026-11-26",
     "current_version": "Public notice reviewed; source byte capture pending",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "07159215b1157acebf57c25624052ef559b83c3212c9940fe8f5e88a2821a955",
+    "document_hash": "1903c2c313e0818738df5f16f40c92c6c13000091d64c6bc8a062c614c39bdd5",
     "associated_thread": "AI contractor procurement",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0019/07159215b1157acebf57c25624052ef559b83c3212c9940fe8f5e88a2821a955.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0019/1903c2c313e0818738df5f16f40c92c6c13000091d64c6bc8a062c614c39bdd5.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0020",
