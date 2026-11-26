@@ -55,7 +55,8 @@
       "EV-0036",
       "EV-0052",
       "EV-0053",
-      "EV-0054"
+      "EV-0054",
+      "EV-0063"
     ],
     "outstanding_work": "Obtain attributable, defensive incident reporting that distinguishes attempted phishing from confirmed compromise. Preserve indicators as defensive records only when in scope.",
     "dependencies": [],
@@ -242,7 +243,8 @@
       "EV-0058",
       "EV-0059",
       "EV-0060",
-      "EV-0061"
+      "EV-0061",
+      "EV-0063"
     ],
     "outstanding_work": "Check Microsoft’s 2024 time-zone basis and keep regulator measures and source boundaries explicit. Pursue evidence that could independently support or rule out a connection between incidents.",
     "dependencies": [],
@@ -287,7 +289,8 @@
       "EV-0058",
       "EV-0059",
       "EV-0060",
-      "EV-0061"
+      "EV-0061",
+      "EV-0063"
     ],
     "outstanding_work": "Keep snapshots, source captures, chronology, search log and decisions in step. Preserve original source bytes and hashes when practical, and retain any later qualification changes as new records.",
     "dependencies": [],

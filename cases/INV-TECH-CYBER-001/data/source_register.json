@@ -931,5 +931,19 @@
     "hash_status": "No Hash",
     "associated_thread": "THR-06",
     "availability_notes": "No original acquired: HTTP 403 occurred before robots verification completed; the source page itself was not requested. No access restriction was bypassed."
+  },
+  {
+    "source_id": "SRC-0065",
+    "authority": "Fortra",
+    "title": "Threat Actors Exploit Microsoft 365 Outage in Credential Phishing Campaign",
+    "type": "Public Statement",
+    "url_or_file_location": "https://www.fortra.com/blog/threat-actors-exploit-microsoft-365-outage-credential-phishing-campaign",
+    "first_checked": "2026-11-26",
+    "last_checked": "2026-11-26",
+    "current_version": "Unknown",
+    "preservation_status": "Not Preserved",
+    "hash_status": "No Hash",
+    "associated_thread": "THR-02",
+    "availability_notes": "The 26 November 2026 03:16:11 UTC robots.txt check returned HTTP 403 before the report was requested. The original report was not acquired or hashed. A web indexing view was readable, but is not the original acquisition. Access restrictions were not bypassed."
   }
 ]

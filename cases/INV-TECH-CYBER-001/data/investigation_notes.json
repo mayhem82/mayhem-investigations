@@ -497,5 +497,20 @@
     "question_evidence": [
       "EV-0062"
     ]
+  },
+  {
+    "note_id": "NOTE-0028",
+    "timestamp": "2026-11-26T14:20:58.492459+11:00",
+    "activity_type": "Checking Source",
+    "text": "Rechecked the saved Cofense original and documented its omitted security-control claim as new evidence; the publisher account is not independent verification or proof of outage causation. Fortra could not be directly acquired after its robots check returned 403; the report itself was not requested.",
+    "related_thread": "THR-02",
+    "related_source": "SRC-0055",
+    "related_evidence": "EV-0063",
+    "related_question": "Q-0004",
+    "question_evidence": [
+      "EV-0021",
+      "EV-0053",
+      "EV-0063"
+    ]
   }
 ]

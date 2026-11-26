@@ -358,5 +358,17 @@
     "jurisdiction": "International",
     "results_reviewed": 4,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0031",
+    "search_terms": "Outage phishing email security control observations: preserved Cofense report and Fortra publisher access",
+    "search_engine": "Preserved source and documented acquisition attempt",
+    "database": "Cofense EV-0053; Fortra robots check",
+    "date": "2026-11-26",
+    "time": "2026-11-26T14:20:58.492459+11:00",
+    "filters": "Original Cofense response rehashed; Fortra robots returned 403 before article retrieval. No suspicious endpoints were contacted.",
+    "jurisdiction": "International",
+    "results_reviewed": 2,
+    "results_preserved": 1
   }
 ]

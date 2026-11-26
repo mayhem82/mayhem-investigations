@@ -849,5 +849,15 @@
     "supporting_evidence": [
       "EV-0062"
     ]
+  },
+  {
+    "chronology_id": "CHR-0085",
+    "event_date": "2026-11-16",
+    "date_is_inference": false,
+    "event_description": "Cofense published its claim that outage-themed phishing bypassed three named email-security controls. Its report does not establish the exact message times or whether the outage caused a bypass.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0063"
+    ]
   }
 ]

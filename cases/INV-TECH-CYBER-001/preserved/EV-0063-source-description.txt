@@ -1,0 +1,10 @@
+Cofense reported bypass of email-security controls
+Publisher: Cofense Intelligence; publication date: 16 November 2026
+Source: https://cofense.com/blog/flash-alert-weaponizing-the-november-2026-microsoft-outage
+Original response SHA-256: 0f910b0aa2ea4b078a862307255891e531717db9c270f319c04d08e3bd72c0ad
+Original response retrieved: 2026-11-25T03:38:55.011540+00:00
+
+Public paraphrase, not the original source:
+Cofense reports that the outage-themed campaign bypassed Abnormal Security, Mimecast and Microsoft ATP. The article does not establish product configuration or timing for each message, independently prove why a control missed it, show that the outage caused a bypass, or establish any account compromise. Microsoft separately reported blocking and quarantine; the reports do not establish that the same samples and configurations were compared.
+
+The original response remains separately preserved in the private archive; its fingerprint above does not apply to this description.

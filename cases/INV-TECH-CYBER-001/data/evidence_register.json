@@ -2093,5 +2093,42 @@
     "original_retrieved_at": "2026-11-26T03:16:18.980818+00:00",
     "original_archive_key": "south-africa-museum-extension.pdf",
     "original_archive_collection": "INV-TECH-CYBER-001-remedy-2026-11-26"
+  },
+  {
+    "evidence_id": "EV-0063",
+    "case_id": "INV-TECH-CYBER-001",
+    "recording_date": "2026-11-26",
+    "source_date": "2026-11-16",
+    "source_authority": "Cofense Intelligence",
+    "source_title": "Cofense report of email-security control bypass",
+    "source_type": "Public Statement",
+    "source_location": "https://cofense.com/blog/flash-alert-weaponizing-the-november-2026-microsoft-outage",
+    "preserved_file_reference": "cases/INV-TECH-CYBER-001/preserved/EV-0063-source-description.txt",
+    "document_hash": "sha256:536882cbe74e7d2b5bacb9f9d4289bb59ceb26dc75f14fdeb425b8e7b4d18cfa",
+    "hash_exception_reason": null,
+    "evidence_description": "Cofense reported that the outage-themed campaign bypassed Abnormal Security, Mimecast and Microsoft ATP. This records the company’s reported observation; it is not independent verification.",
+    "relevant_quotation": null,
+    "investigation_relevance": "This records a control-related claim omitted from EV-0053. The source does not establish configurations or the exact message timing, independently explain why controls missed a message, or prove that an outage caused bypass or that a user account was compromised. Microsoft EV-0021 separately reported blocking and quarantine; no same-sample comparison establishes a contradiction.",
+    "classification": "Partial",
+    "verification_state": "Requires Verification",
+    "relationships": [
+      "EV-0053",
+      "EV-0021"
+    ],
+    "chronology_links": [
+      "CHR-0085"
+    ],
+    "contradiction_links": [],
+    "open_question_links": [
+      "Q-0003",
+      "Q-0004",
+      "Q-0007",
+      "Q-0008"
+    ],
+    "source_register_id": "SRC-0055",
+    "original_response_sha256": "0f910b0aa2ea4b078a862307255891e531717db9c270f319c04d08e3bd72c0ad",
+    "original_retrieved_at": "2026-11-25T03:38:55.011540+00:00",
+    "original_archive_key": "cofense-2026-11-16.html",
+    "claim_key": "cofense-outage-phishing-bypassed-email-controls-v1"
   }
 ]

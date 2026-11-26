@@ -201,5 +201,19 @@
       "EV-0062"
     ],
     "notes": "Preserved one original public-sector notice and logged three source-acquisition gaps. Evidence remains open; no unauthorised access, freeze, or causal determination."
+  },
+  {
+    "run_id": "RUN-0010",
+    "date": "2026-11-26",
+    "stage": "DFAPTI",
+    "sources_checked": [
+      "SRC-0055",
+      "SRC-0065"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0063"
+    ],
+    "notes": "Rehashed the previously preserved Cofense response and recorded an additional attributed claim. A Fortra robots check returned 403 before direct report acquisition. No sensitive site or suspicious infrastructure was contacted."
   }
 ]
