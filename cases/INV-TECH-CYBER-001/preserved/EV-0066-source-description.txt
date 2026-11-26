@@ -1,0 +1,18 @@
+OpenAI Codex GitHub review and merge failures
+Source: https://status.openai.com/incidents/01M89RGC3STKK2MT53TXHFMY4H
+Original response SHA-256: 391af474deeaa2b8af5e1ca3b6532d5655a7cf46ea9fccc083d0e47d77e7b319
+Retrieved: 2026-11-26T03:18:55.044743+00:00
+
+Public description, not the original response:
+At 16:27 UTC on 25 November OpenAI reported that some Codex users might miss automated GitHub pull-request reviews or encounter merge errors; it attributed those failures to a GitHub service disruption. At 16:58 UTC it said GitHub had reported a mitigation and OpenAI was monitoring Codex review and merge operations. The saved page still described monitoring when retrieved on 26 November at 03:18 UTC.
+
+Limits:
+This is OpenAI’s attribution and describes some users, not proof of impact on every user. The page does not identify a specific GitHub incident ID, independent root cause, or individual outcomes. Monitoring is not proof of recovery or continuing failure beyond capture.
+UTC values were verified in the preserved OpenAI HTML; event times do not use browser-local display.
+
+Each displayed update, in chronological order:
+1. 2026-11-25T16:27:02.136Z: OpenAI attributed some Codex GitHub review and merge failures to a GitHub service disruption.
+2. 2026-11-25T16:58:51.832Z: OpenAI said GitHub reported mitigation and OpenAI was monitoring Codex review and merge operations.
+
+The original response is preserved privately with the separate source hash above.
+The page capture cannot establish earlier wording or an update modification time that the page did not disclose.

@@ -1,0 +1,19 @@
+OpenAI Microsoft 365 connector
+Source: https://status.openai.com/incidents/01M78GAT3AK9P9W8Z230KHFVE8
+Original response SHA-256: d5431095a4cd0cab87708ecd4612ae38b73f896053db3abd4ab975201ed8a1f6
+Retrieved: 2026-11-26T03:17:19.447702+00:00
+
+Public description, not the original response:
+OpenAI published an investigation notice on 12 November at 18:29 UTC stating new Microsoft connector connections might be broken and tools might not work as expected. At 16:20 UTC on 13 November it reported signs of recovery and continued monitoring. It posted an operator-reported resolution at 00:18 UTC on 14 November.
+
+Limits:
+OpenAI’s captured notice does not explicitly establish that this connector incident had the same technical cause as Anthropic’s or the broader Microsoft incident. Temporal overlap and the product name alone are not proof. The page does not establish individual customer recovery.
+UTC values were verified in embedded timestamps in the preserved OpenAI HTML; its web display can vary by reader timezone.
+
+Each displayed update, in chronological order:
+1. 2026-11-12T18:29:14.985Z: OpenAI began investigating Microsoft connector errors; new connections might fail and tools might not work as expected.
+2. 2026-11-13T16:20:45.093Z: OpenAI reported signs of connector recovery and continued monitoring.
+3. 2026-11-14T00:18:13.892Z: OpenAI marked the connector incident resolved.
+
+The original response is preserved privately with the separate source hash above.
+The page capture cannot establish earlier wording or an update modification time that the page did not disclose.

@@ -1,0 +1,44 @@
+GitHub cross-product disruption on 25 November
+Source: https://www.githubstatus.com/incidents/qn8mfv6q5hlx
+Original response SHA-256: bee80afd5fa0662e1be0de06ff684e6f62b874d33b1bfe00a1acae8035c91d01
+Retrieved: 2026-11-26T03:19:28.164981+00:00
+
+Public description, not the original response:
+GitHub reported degraded experiences across multiple products beginning at 15:55 UTC on 25 November. It marked the incident resolved at 16:52 UTC and said a detailed root-cause analysis would be shared when available.
+
+Limits:
+The saved page supports GitHub’s reported milestones and affected services, not independent proof of the cause or customer outcomes. OpenAI attributed its Codex failures to a GitHub disruption without naming this particular GitHub incident; the linkage to this specific record remains an inference pending confirmation.
+UTC; the GitHub resolution notice preceded OpenAI’s 16:58 UTC monitoring notice. Those statements are distinct milestones, not a measured period of downstream failure.
+
+Each displayed update, in chronological order:
+1. 2026-11-25T15:55:00Z: GitHub began investigating reported degraded performance for Actions and Webhooks.
+2. 2026-11-25T15:56:00Z: GitHub reported degraded performance for Pull Requests while investigating.
+3. 2026-11-25T15:57:00Z: GitHub reported degraded performance for Pages while investigating.
+4. 2026-11-25T15:58:00Z: GitHub reported degraded availability for Issues while investigating.
+5. 2026-11-25T15:58:00Z: GitHub reported degraded performance for Issues while investigating.
+6. 2026-11-25T16:05:00Z: GitHub reported degraded availability for Git Operations while investigating.
+7. 2026-11-25T16:05:00Z: GitHub reported degraded availability for Pull Requests while investigating.
+8. 2026-11-25T16:07:00Z: GitHub reported degraded availability for Actions while investigating.
+9. 2026-11-25T16:07:00Z: GitHub reported degraded availability for Issues while investigating.
+10. 2026-11-25T16:08:00Z: GitHub reported degraded availability for Packages while investigating.
+11. 2026-11-25T16:08:00Z: GitHub reported degraded performance for Git Operations while investigating.
+12. 2026-11-25T16:10:00Z: GitHub reported degraded availability for Pull Requests while investigating.
+13. 2026-11-25T16:11:00Z: GitHub reported degraded availability for Pages while investigating.
+14. 2026-11-25T16:14:00Z: GitHub said it was investigating increased failures associated with high database load and working on mitigations.
+15. 2026-11-25T16:21:00Z: GitHub reported degraded performance for API Requests while investigating.
+16. 2026-11-25T16:25:00Z: GitHub said degradation affecting Git Operations was mitigated and that it was monitoring stability.
+17. 2026-11-25T16:25:00Z: GitHub said it had changed database load distribution and was beginning to see recovery while monitoring.
+18. 2026-11-25T16:28:00Z: GitHub said degradation affecting Pages was mitigated and that it was monitoring stability.
+19. 2026-11-25T16:28:00Z: GitHub reported degraded performance for Issues while investigating.
+20. 2026-11-25T16:31:00Z: GitHub reported degraded availability for Pull Requests while investigating.
+21. 2026-11-25T16:32:00Z: GitHub said degradation affecting Issues was mitigated and that it was monitoring stability.
+22. 2026-11-25T16:33:00Z: GitHub said degradation affecting API Requests was mitigated and that it was monitoring stability.
+23. 2026-11-25T16:36:00Z: GitHub said degradation affecting Actions, Packages, Pull Requests and Webhooks was mitigated and that it was monitoring stability.
+24. 2026-11-25T16:44:00Z: GitHub said degradation was mitigated and that it was monitoring stability; this update did not name a component.
+25. 2026-11-25T16:45:00Z: GitHub said degradation was mitigated and that it was monitoring stability; this update did not name a component.
+26. 2026-11-25T16:47:00Z: GitHub said degradation was mitigated and that it was monitoring stability; this update did not name a component.
+27. 2026-11-25T16:48:00Z: GitHub said degradation was mitigated and that it was monitoring stability; this update did not name a component.
+28. 2026-11-25T16:52:00Z: GitHub marked the incident resolved and said a detailed root-cause analysis would follow when available.
+
+The original response is preserved privately with the separate source hash above.
+The page capture cannot establish earlier wording or an update modification time that the page did not disclose.

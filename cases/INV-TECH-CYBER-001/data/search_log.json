@@ -370,5 +370,17 @@
     "jurisdiction": "International",
     "results_reviewed": 2,
     "results_preserved": 1
+  },
+  {
+    "search_id": "SRCH-0032",
+    "search_terms": "Anthropic and OpenAI Microsoft connector incidents; GitHub and Codex incident pages",
+    "search_engine": "Published official status pages",
+    "database": null,
+    "date": "2026-11-26",
+    "time": "2026-11-26T03:25:55.281374+00:00",
+    "filters": "Only permitted public status pages; original HTML bytes and independent hashes retained. Robots-denied JSON APIs not accessed. Reports attributed to publishers.",
+    "jurisdiction": "International",
+    "results_reviewed": 4,
+    "results_preserved": 4
   }
 ]

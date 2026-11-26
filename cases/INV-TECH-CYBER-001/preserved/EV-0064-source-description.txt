@@ -1,0 +1,23 @@
+Anthropic Microsoft 365 connector and Claude for Outlook
+Source: https://status.claude.com/incidents/sqn3fg1l96dl
+Original response SHA-256: 8df3aac9ffac8d014a52184c911442fbad61e9fc937bdaf5458d124b7a391920
+Retrieved: 2026-11-26T03:17:16.464609+00:00
+
+Public description, not the original response:
+Anthropic reported mail, calendar and search failures for many connector and Claude for Outlook requests during an impact interval from 12 November 16:03 UTC to 13 November 16:40 UTC. On 12 November at 22:23 UTC it explicitly attributed the issue to a Microsoft 365 incident. At 15:40 UTC on 13 November it described signs of recovery while some search requests still errored. At 21:49 UTC it marked its incident resolved while saying Microsoft was still completing recovery and occasional errors or delays could remain.
+
+Limits:
+This is Anthropic’s attribution and impact interval. It does not establish the underlying Microsoft root cause, impact on every customer, completed backlogs or a connection to other unrelated incidents.
+UTC; capture occurred 26 November. The 21:49 status update was posted later than the stated 16:40 impact end; do not collapse the milestones.
+
+Each displayed update, in chronological order:
+1. 2026-11-12T17:52:00Z: Anthropic began investigating elevated errors and slow responses in its Microsoft 365 connector; mail, SharePoint, Teams chat, calendar and new connections could be affected.
+2. 2026-11-12T18:34:00Z: Anthropic identified an upstream provider issue and reported that mail, calendar and search tools were failing for most requests; new connections could fail.
+3. 2026-11-12T20:28:00Z: Anthropic continued work with its upstream provider, reported continuing connector failures and said Claude for Outlook mail or calendar actions could fail or its add-in might not open.
+4. 2026-11-12T21:18:00Z: Anthropic reported that its upstream provider was restarting affected servers while its connector and Outlook effects continued.
+5. 2026-11-12T22:23:00Z: Anthropic explicitly attributed the connector issue to a Microsoft 365 service incident and said connector failures and Outlook effects continued.
+6. 2026-11-13T15:40:00Z: Anthropic reported signs of connector and Outlook recovery but said some SharePoint search requests were still failing and Microsoft’s incident remained open.
+7. 2026-11-13T21:49:00Z: Anthropic marked its incident resolved, retrospectively giving an impact interval of 12 November 16:03 UTC to 13 November 16:40 UTC; it also said Microsoft recovery continued and occasional errors or delays could remain.
+
+The original response is preserved privately with the separate source hash above.
+The page capture cannot establish earlier wording or an update modification time that the page did not disclose.

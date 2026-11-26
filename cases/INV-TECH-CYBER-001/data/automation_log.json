@@ -215,5 +215,24 @@
       "EV-0063"
     ],
     "notes": "Rehashed the previously preserved Cofense response and recorded an additional attributed claim. A Fortra robots check returned 403 before direct report acquisition. No sensitive site or suspicious infrastructure was contacted."
+  },
+  {
+    "run_id": "RUN-0011",
+    "date": "2026-11-26",
+    "stage": "DFAPTI",
+    "sources_checked": [
+      "SRC-0066",
+      "SRC-0067",
+      "SRC-0068",
+      "SRC-0069"
+    ],
+    "result": "New evidence added.",
+    "evidence_added": [
+      "EV-0064",
+      "EV-0065",
+      "EV-0066",
+      "EV-0067"
+    ],
+    "notes": "Four public incident pages captured and hash-verified. Each displayed update retained separately in the chronology; no freeze, causal determination or unpermitted API access."
   }
 ]

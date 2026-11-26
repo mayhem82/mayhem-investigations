@@ -512,5 +512,21 @@
       "EV-0053",
       "EV-0063"
     ]
+  },
+  {
+    "note_id": "NOTE-0029",
+    "timestamp": "2026-11-26T03:25:55.281374+00:00",
+    "activity_type": "Checking Source",
+    "text": "Four independently captured public status pages document Anthropic and OpenAI Microsoft connectors, and separate GitHub/Codex disruptions. Preserve each displayed status update, distinguish source attribution and time precision, and do not infer a common cause. The Claude and GitHub JSON API URLs were not collected because site robots rules disallowed the requests; permitted public incident pages were captured instead.",
+    "related_thread": "THR-03",
+    "related_source": null,
+    "related_evidence": null,
+    "related_question": "Q-0005",
+    "question_evidence": [
+      "EV-0064",
+      "EV-0065",
+      "EV-0066",
+      "EV-0067"
+    ]
   }
 ]

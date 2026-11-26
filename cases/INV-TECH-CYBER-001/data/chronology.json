@@ -859,5 +859,555 @@
     "supporting_evidence": [
       "EV-0063"
     ]
+  },
+  {
+    "chronology_id": "CHR-0086",
+    "event_date": "2026-11-12",
+    "date_is_inference": false,
+    "event_description": "2026-11-12T17:52:00Z — Anthropic began investigating elevated errors and slow responses in its Microsoft 365 connector; mail, SharePoint, Teams chat, calendar and new connections could be affected.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0064"
+    ],
+    "source_update_order": 1,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Investigating",
+    "source_displayed_timestamp": "Posted Nov 12, 2026 - 17:52 UTC"
+  },
+  {
+    "chronology_id": "CHR-0087",
+    "event_date": "2026-11-12",
+    "date_is_inference": false,
+    "event_description": "2026-11-12T18:34:00Z — Anthropic identified an upstream provider issue and reported that mail, calendar and search tools were failing for most requests; new connections could fail.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0064"
+    ],
+    "source_update_order": 2,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Identified",
+    "source_displayed_timestamp": "Posted Nov 12, 2026 - 18:34 UTC"
+  },
+  {
+    "chronology_id": "CHR-0088",
+    "event_date": "2026-11-12",
+    "date_is_inference": false,
+    "event_description": "2026-11-12T20:28:00Z — Anthropic continued work with its upstream provider, reported continuing connector failures and said Claude for Outlook mail or calendar actions could fail or its add-in might not open.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0064"
+    ],
+    "source_update_order": 3,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 12, 2026 - 20:28 UTC"
+  },
+  {
+    "chronology_id": "CHR-0089",
+    "event_date": "2026-11-12",
+    "date_is_inference": false,
+    "event_description": "2026-11-12T21:18:00Z — Anthropic reported that its upstream provider was restarting affected servers while its connector and Outlook effects continued.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0064"
+    ],
+    "source_update_order": 4,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 12, 2026 - 21:18 UTC"
+  },
+  {
+    "chronology_id": "CHR-0090",
+    "event_date": "2026-11-12",
+    "date_is_inference": false,
+    "event_description": "2026-11-12T22:23:00Z — Anthropic explicitly attributed the connector issue to a Microsoft 365 service incident and said connector failures and Outlook effects continued.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0064"
+    ],
+    "source_update_order": 5,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 12, 2026 - 22:23 UTC"
+  },
+  {
+    "chronology_id": "CHR-0091",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "2026-11-13T15:40:00Z — Anthropic reported signs of connector and Outlook recovery but said some SharePoint search requests were still failing and Microsoft’s incident remained open.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0064"
+    ],
+    "source_update_order": 6,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Monitoring",
+    "source_displayed_timestamp": "Posted Nov 13, 2026 - 15:40 UTC"
+  },
+  {
+    "chronology_id": "CHR-0092",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "2026-11-13T21:49:00Z — Anthropic marked its incident resolved, retrospectively giving an impact interval of 12 November 16:03 UTC to 13 November 16:40 UTC; it also said Microsoft recovery continued and occasional errors or delays could remain.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0064"
+    ],
+    "source_update_order": 7,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Resolved",
+    "source_displayed_timestamp": "Posted Nov 13, 2026 - 21:49 UTC"
+  },
+  {
+    "chronology_id": "CHR-0093",
+    "event_date": "2026-11-12",
+    "date_is_inference": false,
+    "event_description": "2026-11-12T18:29:14.985Z — OpenAI began investigating Microsoft connector errors; new connections might fail and tools might not work as expected.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0065"
+    ],
+    "source_update_order": 1,
+    "source_time_precision": "millisecond"
+  },
+  {
+    "chronology_id": "CHR-0094",
+    "event_date": "2026-11-13",
+    "date_is_inference": false,
+    "event_description": "2026-11-13T16:20:45.093Z — OpenAI reported signs of connector recovery and continued monitoring.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0065"
+    ],
+    "source_update_order": 2,
+    "source_time_precision": "millisecond"
+  },
+  {
+    "chronology_id": "CHR-0095",
+    "event_date": "2026-11-14",
+    "date_is_inference": false,
+    "event_description": "2026-11-14T00:18:13.892Z — OpenAI marked the connector incident resolved.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0065"
+    ],
+    "source_update_order": 3,
+    "source_time_precision": "millisecond"
+  },
+  {
+    "chronology_id": "CHR-0096",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:27:02.136Z — OpenAI attributed some Codex GitHub review and merge failures to a GitHub service disruption.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0066"
+    ],
+    "source_update_order": 1,
+    "source_time_precision": "millisecond"
+  },
+  {
+    "chronology_id": "CHR-0097",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:58:51.832Z — OpenAI said GitHub reported mitigation and OpenAI was monitoring Codex review and merge operations.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0066"
+    ],
+    "source_update_order": 2,
+    "source_time_precision": "millisecond"
+  },
+  {
+    "chronology_id": "CHR-0098",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T15:55:00Z — GitHub began investigating reported degraded performance for Actions and Webhooks.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 1,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Investigating",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 15:55 UTC"
+  },
+  {
+    "chronology_id": "CHR-0099",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T15:56:00Z — GitHub reported degraded performance for Pull Requests while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 2,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 15:56 UTC"
+  },
+  {
+    "chronology_id": "CHR-0100",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T15:57:00Z — GitHub reported degraded performance for Pages while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 3,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 15:57 UTC"
+  },
+  {
+    "chronology_id": "CHR-0101",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T15:58:00Z — GitHub reported degraded availability for Issues while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 4,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 15:58 UTC"
+  },
+  {
+    "chronology_id": "CHR-0102",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T15:58:00Z — GitHub reported degraded performance for Issues while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 5,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 15:58 UTC"
+  },
+  {
+    "chronology_id": "CHR-0103",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:05:00Z — GitHub reported degraded availability for Git Operations while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 6,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:05 UTC"
+  },
+  {
+    "chronology_id": "CHR-0104",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:05:00Z — GitHub reported degraded availability for Pull Requests while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 7,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:05 UTC"
+  },
+  {
+    "chronology_id": "CHR-0105",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:07:00Z — GitHub reported degraded availability for Actions while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 8,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:07 UTC"
+  },
+  {
+    "chronology_id": "CHR-0106",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:07:00Z — GitHub reported degraded availability for Issues while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 9,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:07 UTC"
+  },
+  {
+    "chronology_id": "CHR-0107",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:08:00Z — GitHub reported degraded availability for Packages while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 10,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:08 UTC"
+  },
+  {
+    "chronology_id": "CHR-0108",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:08:00Z — GitHub reported degraded performance for Git Operations while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 11,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:08 UTC"
+  },
+  {
+    "chronology_id": "CHR-0109",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:10:00Z — GitHub reported degraded availability for Pull Requests while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 12,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:10 UTC"
+  },
+  {
+    "chronology_id": "CHR-0110",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:11:00Z — GitHub reported degraded availability for Pages while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 13,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:11 UTC"
+  },
+  {
+    "chronology_id": "CHR-0111",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:14:00Z — GitHub said it was investigating increased failures associated with high database load and working on mitigations.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 14,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:14 UTC"
+  },
+  {
+    "chronology_id": "CHR-0112",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:21:00Z — GitHub reported degraded performance for API Requests while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 15,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:21 UTC"
+  },
+  {
+    "chronology_id": "CHR-0113",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:25:00Z — GitHub said degradation affecting Git Operations was mitigated and that it was monitoring stability.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 16,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:25 UTC"
+  },
+  {
+    "chronology_id": "CHR-0114",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:25:00Z — GitHub said it had changed database load distribution and was beginning to see recovery while monitoring.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 17,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:25 UTC"
+  },
+  {
+    "chronology_id": "CHR-0115",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:28:00Z — GitHub said degradation affecting Pages was mitigated and that it was monitoring stability.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 18,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:28 UTC"
+  },
+  {
+    "chronology_id": "CHR-0116",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:28:00Z — GitHub reported degraded performance for Issues while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 19,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:28 UTC"
+  },
+  {
+    "chronology_id": "CHR-0117",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:31:00Z — GitHub reported degraded availability for Pull Requests while investigating.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 20,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:31 UTC"
+  },
+  {
+    "chronology_id": "CHR-0118",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:32:00Z — GitHub said degradation affecting Issues was mitigated and that it was monitoring stability.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 21,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:32 UTC"
+  },
+  {
+    "chronology_id": "CHR-0119",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:33:00Z — GitHub said degradation affecting API Requests was mitigated and that it was monitoring stability.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 22,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:33 UTC"
+  },
+  {
+    "chronology_id": "CHR-0120",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:36:00Z — GitHub said degradation affecting Actions, Packages, Pull Requests and Webhooks was mitigated and that it was monitoring stability.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 23,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Monitoring",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:36 UTC"
+  },
+  {
+    "chronology_id": "CHR-0121",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:44:00Z — GitHub said degradation was mitigated and that it was monitoring stability; this update did not name a component.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 24,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:44 UTC"
+  },
+  {
+    "chronology_id": "CHR-0122",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:45:00Z — GitHub said degradation was mitigated and that it was monitoring stability; this update did not name a component.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 25,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:45 UTC"
+  },
+  {
+    "chronology_id": "CHR-0123",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:47:00Z — GitHub said degradation was mitigated and that it was monitoring stability; this update did not name a component.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 26,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:47 UTC"
+  },
+  {
+    "chronology_id": "CHR-0124",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:48:00Z — GitHub said degradation was mitigated and that it was monitoring stability; this update did not name a component.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 27,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Update",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:48 UTC"
+  },
+  {
+    "chronology_id": "CHR-0125",
+    "event_date": "2026-11-25",
+    "date_is_inference": false,
+    "event_description": "2026-11-25T16:52:00Z — GitHub marked the incident resolved and said a detailed root-cause analysis would follow when available.",
+    "status": "Confirmed",
+    "supporting_evidence": [
+      "EV-0067"
+    ],
+    "source_update_order": 28,
+    "source_time_precision": "minute",
+    "source_displayed_status": "Resolved",
+    "source_displayed_timestamp": "Posted Nov 25, 2026 - 16:52 UTC"
   }
 ]
