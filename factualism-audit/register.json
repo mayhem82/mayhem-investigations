@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "coverage_note": "Historical audit numbering through SR-506 is reported in conversation. SR-001–491 not recovered here; SR-492–506 have closure metadata only, not full reports or reverified evidence. Counts are classifications, not unique incidents.",
+  "records": [
+    {
+      "id": "SR-492",
+      "accepted": 10,
+      "rejected": 24,
+      "status": "metadata-only",
+      "date": "2026-11-26",
+      "path": null
+    },
+    {
+      "id": "SR-493",
+      "accepted": 14,
+      "rejected": 18,
+      "status": "metadata-only",
+      "date": "2026-11-26",
+      "path": null
+    },
+    {
+      "id": "SR-494",
+      "accepted": 10,
+      "rejected": 22,
+      "status": "metadata-only",
+      "date": "2026-11-26",
+      "path": null
+    },
+    {
+      "id": "SR-495",
+      "accepted": 10,
+      "rejected": 23,
+      "status": "metadata-only",
+      "date": "2026-11-26",
+      "path": null
+    },
+    {
+      "id": "SR-496",
+      "accepted": 10,
+      "rejected": 22,
+      "status": "metadata-only",
+      "date": "2026-11-26",
+      "path": null
+    },
+    {
+      "id": "SR-497",
+      "accepted": 12,
+      "rejected": 20,
+      "status": "metadata-only",
+      "date": "2026-11-26",
+      "path": null
+    },
+    {
+      "id": "SR-498",
+      "accepted": 8,
+      "rejected": 22,
+      "status": "metadata-only",
+      "date": "2026-11-26",
+      "path": null
+    },
+    {
+      "id": "SR-499",
+      "accepted": 12,
+      "rejected": 23,
+      "status": "metadata-only",
+      "date": "2026-11-26",
+      "path": null
+    },
+    {
+      "id": "SR-500",
+      "accepted": 12,
+      "rejected": 21,
+      "status": "metadata-only",
+      "date": "2026-11-27",
+      "path": null
+    },
+    {
+      "id": "SR-501",
+      "accepted": 14,
+      "rejected": 19,
+      "status": "metadata-only",
+      "date": "2026-11-27",
+      "path": null
+    },
+    {
+      "id": "SR-502",
+      "accepted": 12,
+      "rejected": 21,
+      "status": "metadata-only",
+      "date": "2026-11-27",
+      "path": null
+    },
+    {
+      "id": "SR-503",
+      "accepted": 10,
+      "rejected": 23,
+      "status": "metadata-only",
+      "date": "2026-11-27",
+      "path": null
+    },
+    {
+      "id": "SR-504",
+      "accepted": 11,
+      "rejected": 20,
+      "status": "metadata-only",
+      "date": "2026-11-27",
+      "path": null
+    },
+    {
+      "id": "SR-505",
+      "accepted": 12,
+      "rejected": 22,
+      "status": "metadata-only",
+      "date": "2026-11-27",
+      "path": null
+    },
+    {
+      "id": "SR-506",
+      "accepted": 12,
+      "rejected": 25,
+      "status": "metadata-only",
+      "date": "2026-11-27",
+      "path": null
+    }
+  ]
+}
