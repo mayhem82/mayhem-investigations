@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T19:11:36.129Z",
-  "revision": "8834567ab13a8f24671c95d0bc9f59884d1fd32b",
+  "generatedAt": "2026-11-26T19:08:27.511Z",
+  "revision": "dbf57091228680810367f64d1b6b62dbc94ffa2f",
   "workingTreeChanges": true,
   "status": "FAILED",
   "totalErrors": 870,
@@ -78,11 +78,11 @@
         "contradictions": 2,
         "openQuestions": 18,
         "threads": 12,
-        "automationLog": 107,
+        "automationLog": 108,
         "searchLog": 58,
-        "decisions": 110,
+        "decisions": 111,
         "changeLog": 8,
-        "investigationNotes": 152
+        "investigationNotes": 153
       }
     },
     {
@@ -221,11 +221,11 @@
         "contradictions": 3,
         "openQuestions": 12,
         "threads": 8,
-        "automationLog": 107,
+        "automationLog": 108,
         "searchLog": 15,
-        "decisions": 106,
+        "decisions": 107,
         "changeLog": 1,
-        "investigationNotes": 106
+        "investigationNotes": 107
       }
     },
     {
@@ -988,7 +988,7 @@
         "contradictions": 0,
         "openQuestions": 7,
         "threads": 13,
-        "automationLog": 158,
+        "automationLog": 161,
         "searchLog": 3,
         "decisions": 2,
         "changeLog": 1,
@@ -1001,17 +1001,17 @@
       "errors": [],
       "warnings": [],
       "counts": {
-        "evidence": 61,
-        "sources": 60,
-        "chronology": 83,
+        "evidence": 67,
+        "sources": 69,
+        "chronology": 125,
         "contradictions": 1,
         "openQuestions": 12,
         "threads": 8,
-        "automationLog": 8,
-        "searchLog": 29,
-        "decisions": 5,
-        "changeLog": 10,
-        "investigationNotes": 26
+        "automationLog": 12,
+        "searchLog": 32,
+        "decisions": 9,
+        "changeLog": 19,
+        "investigationNotes": 33
       }
     }
   ]
