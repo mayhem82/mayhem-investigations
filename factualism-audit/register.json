@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "coverage_note": "Historical audit numbering through SR-506 is reported in conversation. SR-001–491 not recovered here; SR-492–506 have closure metadata only, not full reports or reverified evidence. Counts are classifications, not unique incidents. SR-507 is archived in full; the historical gaps remain. SR-508 is archived in full. SR-509 is archived in full. SR-492–506 also have separately labelled reading extracts; those are not original reports. SR-510 is archived in full; no additional historical originals recovered. SR-511 archived in full; no additional historical originals recovered. SR-512 archived in full; no additional historical originals recovered. SR-513 archived in full; no additional historical originals recovered. SR-514 archived in full; no additional historical originals recovered. SR-515 archived in full; no additional historical originals recovered. SR-516 archived in full; no additional historical originals recovered.",
+  "coverage_note": "Historical audit numbering through SR-506 is reported in conversation. SR-001–491 not recovered here; SR-492–506 have closure metadata only, not full reports or reverified evidence. Counts are classifications, not unique incidents. SR-507 is archived in full; the historical gaps remain. SR-508 is archived in full. SR-509 is archived in full. SR-492–506 also have separately labelled reading extracts; those are not original reports. SR-510 is archived in full; no additional historical originals recovered. SR-511 archived in full; no additional historical originals recovered. SR-512 archived in full; no additional historical originals recovered. SR-513 archived in full; no additional historical originals recovered. SR-514 archived in full; no additional historical originals recovered. SR-515 archived in full; no additional historical originals recovered. SR-516 archived in full; no additional historical originals recovered. SR-517 archived in full, including append-only correction C01 to SR-514 A01; no additional historical originals recovered.",
   "records": [
     {
       "id": "SR-492",
@@ -211,6 +211,15 @@
       "rejected": 18,
       "status": "full",
       "path": "reports/SR-516.md"
+    },
+    {
+      "id": "SR-517",
+      "date": "2026-11-27",
+      "title": "Displaced accessibility burdens, Digital ID counter-evidence and care continuity",
+      "accepted": 9,
+      "rejected": 17,
+      "status": "full",
+      "path": "reports/SR-517.md"
     }
   ]
 }
