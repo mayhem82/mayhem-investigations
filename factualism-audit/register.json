@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "coverage_note": "Historical audit numbering through SR-506 is reported in conversation. SR-001–491 not recovered here; SR-492–506 have closure metadata only, not full reports or reverified evidence. Counts are classifications, not unique incidents. SR-507 is archived in full; the historical gaps remain. SR-508 is archived in full. SR-509 is archived in full. SR-492–506 also have separately labelled reading extracts; those are not original reports. SR-510 is archived in full; no additional historical originals recovered. SR-511 archived in full; no additional historical originals recovered.",
+  "coverage_note": "Historical audit numbering through SR-506 is reported in conversation. SR-001–491 not recovered here; SR-492–506 have closure metadata only, not full reports or reverified evidence. Counts are classifications, not unique incidents. SR-507 is archived in full; the historical gaps remain. SR-508 is archived in full. SR-509 is archived in full. SR-492–506 also have separately labelled reading extracts; those are not original reports. SR-510 is archived in full; no additional historical originals recovered. SR-511 archived in full; no additional historical originals recovered. SR-512 archived in full; no additional historical originals recovered.",
   "records": [
     {
       "id": "SR-492",
@@ -166,6 +166,15 @@
       "rejected": 17,
       "status": "full",
       "path": "reports/SR-511.md"
+    },
+    {
+      "id": "SR-512",
+      "date": "2026-11-27",
+      "title": "Audit complaint displacement, evidence capture and human outcome measurement",
+      "accepted": 9,
+      "rejected": 20,
+      "status": "full",
+      "path": "reports/SR-512.md"
     }
   ]
 }
