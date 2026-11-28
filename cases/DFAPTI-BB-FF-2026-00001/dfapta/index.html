@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<meta name="description" content="DFAPTA (Deep Forensic All Paths Taken Analysis) for DFAPTI-BB-FF-2026-00001: Pass 58, eighty-nine analysis paths on the Bellbrook flying-fox camp management failure, Kempsey Shire, NSW. Not yet frozen." />
+<meta name="description" content="DFAPTA (Deep Forensic All Paths Taken Analysis) for DFAPTI-BB-FF-2026-00001: Pass 59, ninety analysis paths on the Bellbrook flying-fox camp management failure, Kempsey Shire, NSW. Not yet frozen." />
 <title>MAYHEM - DFAPTA - DFAPTI-BB-FF-2026-00001</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
 <link rel="stylesheet" href="../../../style.css" />
@@ -48,7 +48,7 @@
     Reads across the frozen DFAPTI-BB-FF-2026-00001 evidence register (EV-0001-EV-0023, frozen 2026-08-25 per
     DEC-0006) for patterns, contradictions, and open questions. Adds no new evidence — every path states what it
     does and does not conclude.</p>
-    <p class="section-intro"><strong>This is Pass 58, not a frozen analysis.</strong> A prior nine-path pass was
+    <p class="section-intro"><strong>This is Pass 59, not a frozen analysis.</strong> A prior nine-path pass was
     removed 2026-08-25 for compressing distinct claims into generic findings (DEC-0007). Pass 1 (22 paths) worked
     from the evidence register's own summaries; Pass 2 (AR-024 onward) went back to the eight
     preserved primary-source documents and re-read them directly, surfacing real granularity - including a
@@ -428,6 +428,17 @@
     real font table of their own - one declaring Arial and Georgia, the other Times New Roman and
     Georgia - and, on this specific channel, are not byte-identical to each other: the second channel,
     after Pass 55's section-properties finding, where this same pair diverges rather than matches.
+    Pass 59 (AR-094; 90 paths total), also automated, opened the zip container format's own
+    structural fields - the version-needed-to-extract and general-purpose bit-flag values every zip
+    entry carries, and whether a package's own folder structure is written as explicit directory-entry
+    records - a layer beneath every OOXML content part any existing path reads, including Pass 57's
+    own zip-timestamp channel. The Facts Insert's and the droppings briefing's own zip entries
+    uniformly declare version-needed 2.0, a data-descriptor and UTF-8-filename flag, and no
+    directory-entry records at all; the six-document group's own entries uniformly declare
+    version-needed 1.0, no flags at all - an internal mismatch against their own uniform use of
+    Deflate compression - and four explicit directory-entry records each. This draws the same
+    six-document/two-document line every existing channel already establishes, this time from the
+    zip container format itself rather than from any part authored inside it.
     Further passes continue
     until the operator explicitly states DFAPTA itself is
     frozen - a separate, later event from the evidence-register freeze (DEC-0006). No downstream gate is built
