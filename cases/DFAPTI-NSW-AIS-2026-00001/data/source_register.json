@@ -80,7 +80,7 @@
     "type": "Manufacturer documentation",
     "url_or_file_location": "https://help.axis.com/en-US/axis-object-analytics",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-27",
+    "last_checked": "2026-11-28",
     "current_version": "Research lead; source version and substantive claims require verification",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
@@ -95,7 +95,7 @@
     "type": "Manufacturer documentation",
     "url_or_file_location": "https://developer.axis.com/analytics/axis-scene-metadata/",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-27",
+    "last_checked": "2026-11-28",
     "current_version": "Research lead; source version and substantive claims require verification",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
@@ -110,7 +110,7 @@
     "type": "Manufacturer documentation",
     "url_or_file_location": "https://developer.axis.com/analytics/axis-scene-metadata/reference/definitions/object-track/",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-27",
+    "last_checked": "2026-11-28",
     "current_version": "Research lead; source version and substantive claims require verification",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
@@ -125,13 +125,13 @@
     "type": "Official government guidance or publication",
     "url_or_file_location": "https://digital.nsw.gov.au/policy/artificial-intelligence/ai-governance-assurance-and-frameworks/nsw-ai-assessment-framework",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-27",
+    "last_checked": "2026-11-28",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "d7e5e65efefa84577de8ee5e4c5cdc0f5c0cd3f3cabdad59450261f0dd3871bf",
+    "document_hash": "ffa7fa8968dacdc789aa80d54b57b0a41b4cb30ac3080e65795b448f10e92dd7",
     "associated_thread": "THR-08",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0009/d7e5e65efefa84577de8ee5e4c5cdc0f5c0cd3f3cabdad59450261f0dd3871bf.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0009/ffa7fa8968dacdc789aa80d54b57b0a41b4cb30ac3080e65795b448f10e92dd7.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0010",
@@ -140,13 +140,13 @@
     "type": "Official government guidance or publication",
     "url_or_file_location": "https://digital.nsw.gov.au/policy/artificial-intelligence/nsw-artificial-intelligence-assessment-framework/identifying-ai",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-27",
+    "last_checked": "2026-11-28",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "d728e644e2837e36b1e47308bd1fff33dabe898bd6fc8aee674212827e421e25",
+    "document_hash": "7dab404b3f3c891ec7ade3c2f4920f05d08da3c8d706f459b85a8c52c679ebe2",
     "associated_thread": "THR-08",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0010/d728e644e2837e36b1e47308bd1fff33dabe898bd6fc8aee674212827e421e25.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0010/7dab404b3f3c891ec7ade3c2f4920f05d08da3c8d706f459b85a8c52c679ebe2.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0011",
@@ -155,7 +155,7 @@
     "type": "Official government guidance or publication",
     "url_or_file_location": "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/nsw-strengthens-ai-oversight-modernised-framework",
     "first_checked": "2026-10-10",
-    "last_checked": "2026-11-27",
+    "last_checked": "2026-11-28",
     "current_version": "Web-retrieved research source; publication date and applicability recorded separately",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
@@ -257,13 +257,13 @@
     "type": "Official NSW procurement notice or guidance",
     "url_or_file_location": "https://www.info.buy.nsw.gov.au/schemes/ict-services-scheme/update-history",
     "first_checked": "2026-10-12",
-    "last_checked": "2026-11-27",
+    "last_checked": "2026-11-28",
     "current_version": "Public notice reviewed; source byte capture pending",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "71ceb0d7cb468ff83ed983c957f8b659426e1adcf126dc321fbd2f53bdaeb7db",
+    "document_hash": "9f3d0b8fd36edebefe9e131b286d58009231bdf0b987880c746920737ff10a7e",
     "associated_thread": "AI contractor procurement",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0018/71ceb0d7cb468ff83ed983c957f8b659426e1adcf126dc321fbd2f53bdaeb7db.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0018/9f3d0b8fd36edebefe9e131b286d58009231bdf0b987880c746920737ff10a7e.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0019",
@@ -272,13 +272,13 @@
     "type": "Official NSW procurement notice or guidance",
     "url_or_file_location": "https://www.info.buy.nsw.gov.au/resources/artificial-intelligence-ai-procurement-essentials",
     "first_checked": "2026-10-12",
-    "last_checked": "2026-11-27",
+    "last_checked": "2026-11-28",
     "current_version": "Public notice reviewed; source byte capture pending",
     "preservation_status": "Preserved",
     "hash_status": "Hashed",
-    "document_hash": "fe854c2345dd0705578ef6400fc6b835f99964d549d7be3da67b6d3580eace39",
+    "document_hash": "178032834f596557c38e9e820024632c1dff195ea494ea7745bd97a3db9a29e2",
     "associated_thread": "AI contractor procurement",
-    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0019/fe854c2345dd0705578ef6400fc6b835f99964d549d7be3da67b6d3580eace39.html; source contents and applicability still require review."
+    "availability_notes": "Captured response: cases/DFAPTI-NSW-AIS-2026-00001/source-archive/SRC-0019/178032834f596557c38e9e820024632c1dff195ea494ea7745bd97a3db9a29e2.html; source contents and applicability still require review."
   },
   {
     "source_id": "SRC-0020",
